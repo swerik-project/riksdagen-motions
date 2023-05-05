@@ -18,29 +18,6 @@ def load_xml(path):
         root = etree.parse(f, XML_PARSER).getroot()
     return root
 
-'''
-def format_paragraph(paragraph, spaces=12, preserve_lines=False):
-    """
-    Formats paragraphs to be equal in width.
-
-    Args:
-        paragraph: paragraph content, str.
-        spaces: size of indentation as number of spaces.
-    """
-    #print(paragraph)
-    s = "\n" + " " * spaces
-    if preserve_lines:
-        lines = [" ".join(line.split()) for line in paragraph.split("\n")]
-        print(len(lines))
-        for line in lines[:-1]:
-            s += line.strip() + "\n" + " " * spaces
-        
-        if len(lines) >= 1:
-            s += lines[-1]
-        s += "\n" + " " * (spaces - 2)
-
-    return s
-'''
 def populate_parlaclarin(parlaclarin, alto, alto_path):
     # Remove example elements
     body = parlaclarin.findall(f".//{TEI_NAMESPACE}body")[0]

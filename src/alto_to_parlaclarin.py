@@ -6,6 +6,8 @@ import argparse
 import random, string
 
 from pyparlaclarin.refine import format_texts, format_paragraph
+from pyriksdagen.refine import detect_date
+from pyriksdagen.utils import infer_metadata
 
 TEI_NAMESPACE ="{http://www.tei-c.org/ns/1.0}"
 ALTO_NAMESPACE = "{http://www.loc.gov/standards/alto/ns-v3#}"
@@ -52,7 +54,9 @@ def main(args):
     alto = load_xml(args.altopath)
 
     parlaclarin = populate_parlaclarin(parlaclarin, alto, args.altopath)
-    #parlaclarin = format_texts(parlaclarin, padding=10, preserve_lines=True)
+    metadata = infer_metadata(args.altopath)
+    parlaclarin, dates = detect_date(parlaclarin, metadata)
+    print(dates)
     b = etree.tostring(
         parlaclarin, pretty_print=True, encoding="utf-8", xml_declaration=True
     )

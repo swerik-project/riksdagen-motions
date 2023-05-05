@@ -51,12 +51,13 @@ def populate_parlaclarin(parlaclarin, alto, alto_path):
 
 def main(args):
     parlaclarin = load_xml(args.template_path)
-    alto = load_xml(args.altopath)
-
-    parlaclarin = populate_parlaclarin(parlaclarin, alto, args.altopath)
-    metadata = infer_metadata(args.altopath)
-    parlaclarin, dates = detect_date(parlaclarin, metadata)
-    print(dates)
+    if args.altopath is not None:
+        alto = load_xml(args.altopath)
+        parlaclarin = populate_parlaclarin(parlaclarin, alto, args.altopath)
+    if args.detect_dates:
+        metadata = infer_metadata(args.outpath)
+        parlaclarin, dates = detect_date(parlaclarin, metadata)
+        print(dates)
     b = etree.tostring(
         parlaclarin, pretty_print=True, encoding="utf-8", xml_declaration=True
     )
@@ -66,8 +67,9 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--altopath", type=str, required=True)
+    parser.add_argument("--altopath", type=str, default=None)
     parser.add_argument("--template_path", type=str, default="input/template.xml")
     parser.add_argument("--outpath", type=str, required=True)
+    parser.add_argument("--detect_dates", type=bool, default=False)
     args = parser.parse_args()
     main(args)

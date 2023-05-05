@@ -29,24 +29,21 @@ def populate_parlaclarin(parlaclarin, alto, alto_path):
     pb = etree.SubElement(div, f"{TEI_NAMESPACE}pb")
     pb.attrib["facs"] = alto_path
 
-    for ComposedBlock in alto.findall(f".//{ALTO_NAMESPACE}ComposedBlock"):
-        note = etree.SubElement(div, f"{TEI_NAMESPACE}note")
-        for TextBlock in ComposedBlock.findall(f".//{ALTO_NAMESPACE}TextBlock"):
-            paragraph_words = []
-            for TextLine in TextBlock.findall(f".//{ALTO_NAMESPACE}TextLine"):
-                line_words = []
-                for String in TextLine.findall(f".//{ALTO_NAMESPACE}String"):
-                    word = String.attrib["CONTENT"]
-                    line_words.append(word)
-                line = " ".join(line_words)
-                paragraph_words.append(line)
+    for TextBlock in alto.findall(f".//{ALTO_NAMESPACE}TextBlock"):
+        paragraph_words = []
+        for TextLine in TextBlock.findall(f".//{ALTO_NAMESPACE}TextLine"):
+            line_words = []
+            for String in TextLine.findall(f".//{ALTO_NAMESPACE}String"):
+                word = String.attrib["CONTENT"]
+                line_words.append(word)
+            line = " ".join(line_words)
+            paragraph_words.append(line)
 
-            paragraph_text = "\n".join(paragraph_words)
-            p = etree.SubElement(note, f"{TEI_NAMESPACE}p")
-            paragraph_text = format_paragraph(paragraph_text, preserve_lines=True)
-            p.text = paragraph_text
-            p.set(f"{XML_NAMESPACE}id", "".join(random.choices(string.ascii_letters, k=8)))
-        note.attrib[f"{XML_NAMESPACE}id"] = "".join(random.choices(string.ascii_letters, k=8))
+        paragraph_text = "\n".join(paragraph_words)
+        note = etree.SubElement(div, f"{TEI_NAMESPACE}note")
+        paragraph_text = format_paragraph(paragraph_text, preserve_lines=True, spaces=10)
+        note.text = paragraph_text
+        note.set(f"{XML_NAMESPACE}id", "".join(random.choices(string.ascii_letters, k=8)))
 
     return parlaclarin
 

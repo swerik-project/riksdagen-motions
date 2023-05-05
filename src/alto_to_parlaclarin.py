@@ -67,7 +67,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--altopath", type=str, required=True)
-    parser.add_argument("--template_path", type=str, default="data/template.xml")
+    parser.add_argument("--template_path", type=str, default="input/template.xml")
     parser.add_argument("--outpath", type=str, required=True)
     args = parser.parse_args()
     main(args)

@@ -5,7 +5,7 @@ from lxml import etree
 import argparse
 import random, string
 
-from pyparlaclarin.refine import format_texts
+from pyparlaclarin.refine import format_texts, format_paragraph
 
 TEI_NAMESPACE ="{http://www.tei-c.org/ns/1.0}"
 ALTO_NAMESPACE = "{http://www.loc.gov/standards/alto/ns-v3#}"
@@ -18,6 +18,29 @@ def load_xml(path):
         root = etree.parse(f, XML_PARSER).getroot()
     return root
 
+'''
+def format_paragraph(paragraph, spaces=12, preserve_lines=False):
+    """
+    Formats paragraphs to be equal in width.
+
+    Args:
+        paragraph: paragraph content, str.
+        spaces: size of indentation as number of spaces.
+    """
+    #print(paragraph)
+    s = "\n" + " " * spaces
+    if preserve_lines:
+        lines = [" ".join(line.split()) for line in paragraph.split("\n")]
+        print(len(lines))
+        for line in lines[:-1]:
+            s += line.strip() + "\n" + " " * spaces
+        
+        if len(lines) >= 1:
+            s += lines[-1]
+        s += "\n" + " " * (spaces - 2)
+
+    return s
+'''
 def populate_parlaclarin(parlaclarin, alto, alto_path):
     # Remove example elements
     body = parlaclarin.findall(f".//{TEI_NAMESPACE}body")[0]
@@ -29,21 +52,23 @@ def populate_parlaclarin(parlaclarin, alto, alto_path):
     pb = etree.SubElement(div, f"{TEI_NAMESPACE}pb")
     pb.attrib["facs"] = alto_path
 
-    for TextBlock in alto.findall(f".//{ALTO_NAMESPACE}TextBlock"):
-        paragraph_words = []
-        for TextLine in TextBlock.findall(f".//{ALTO_NAMESPACE}TextLine"):
-            line_words = []
-            for String in TextLine.findall(f".//{ALTO_NAMESPACE}String"):
-                word = String.attrib["CONTENT"]
-                line_words.append(word)
-            line = " ".join(line_words)
-            paragraph_words.append(line)
-
-        paragraph_text = "\n".join(paragraph_words)
-        print(paragraph_text)
-        print()
+    for ComposedBlock in alto.findall(f".//{ALTO_NAMESPACE}ComposedBlock"):
         note = etree.SubElement(div, f"{TEI_NAMESPACE}note")
-        note.text = paragraph_text
+        for TextBlock in ComposedBlock.findall(f".//{ALTO_NAMESPACE}TextBlock"):
+            paragraph_words = []
+            for TextLine in TextBlock.findall(f".//{ALTO_NAMESPACE}TextLine"):
+                line_words = []
+                for String in TextLine.findall(f".//{ALTO_NAMESPACE}String"):
+                    word = String.attrib["CONTENT"]
+                    line_words.append(word)
+                line = " ".join(line_words)
+                paragraph_words.append(line)
+
+            paragraph_text = "\n".join(paragraph_words)
+            p = etree.SubElement(note, f"{TEI_NAMESPACE}p")
+            paragraph_text = format_paragraph(paragraph_text, preserve_lines=True)
+            p.text = paragraph_text
+            p.set(f"{XML_NAMESPACE}id", "".join(random.choices(string.ascii_letters, k=8)))
         note.attrib[f"{XML_NAMESPACE}id"] = "".join(random.choices(string.ascii_letters, k=8))
 
     return parlaclarin
@@ -53,7 +78,7 @@ def main(args):
     alto = load_xml(args.altopath)
 
     parlaclarin = populate_parlaclarin(parlaclarin, alto, args.altopath)
-    parlaclarin = format_texts(parlaclarin, padding=10, preserve_lines=True)
+    #parlaclarin = format_texts(parlaclarin, padding=10, preserve_lines=True)
     b = etree.tostring(
         parlaclarin, pretty_print=True, encoding="utf-8", xml_declaration=True
     )

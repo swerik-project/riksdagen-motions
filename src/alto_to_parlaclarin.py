@@ -29,15 +29,19 @@ def populate_parlaclarin(parlaclarin, alto, alto_path):
     pb = etree.SubElement(div, f"{TEI_NAMESPACE}pb")
     pb.attrib["facs"] = alto_path
 
-    # TODO: add paragraphs from alto
     for TextBlock in alto.findall(f".//{ALTO_NAMESPACE}TextBlock"):
         paragraph_words = []
-        for String in TextBlock.findall(f".//{ALTO_NAMESPACE}String"):
-            word = String.attrib["CONTENT"]
-            paragraph_words.append(word)
+        for TextLine in TextBlock.findall(f".//{ALTO_NAMESPACE}TextLine"):
+            line_words = []
+            for String in TextLine.findall(f".//{ALTO_NAMESPACE}String"):
+                word = String.attrib["CONTENT"]
+                line_words.append(word)
+            line = " ".join(line_words)
+            paragraph_words.append(line)
 
-        paragraph_text = " ".join(paragraph_words)
+        paragraph_text = "\n".join(paragraph_words)
         print(paragraph_text)
+        print()
         note = etree.SubElement(div, f"{TEI_NAMESPACE}note")
         note.text = paragraph_text
         note.attrib[f"{XML_NAMESPACE}id"] = "".join(random.choices(string.ascii_letters, k=8))
@@ -49,7 +53,7 @@ def main(args):
     alto = load_xml(args.altopath)
 
     parlaclarin = populate_parlaclarin(parlaclarin, alto, args.altopath)
-    parlaclarin = format_texts(parlaclarin, padding=10)
+    parlaclarin = format_texts(parlaclarin, padding=10, preserve_lines=True)
     b = etree.tostring(
         parlaclarin, pretty_print=True, encoding="utf-8", xml_declaration=True
     )

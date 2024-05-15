@@ -1,4 +1,0 @@
-#!/usr/bin/env fish
-echo OCR $argv[1] ...
-set filename (string split "/" (string split "." $argv[1])[1])[-1]
-tesseract -l swe $argv[1] altofiles/$filename alto

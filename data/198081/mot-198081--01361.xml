@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198081--01361">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om insamling av batterier</title>
+        <author>av Bonnie Bernström och Jörgen Ullenhag </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om insamling av batterier</title>
+          <idno type="rdwebb">G4021361</idno>
+          <rs type="number">1361</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G4021361/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G4021361</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G4021361</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-95F4sSt2W2tyXAwECzMBoc</idno>
+            <name>BONNIE BERNSTRÖM</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-NWjcGTLPrVzhsv5pBHnJbA</idno>
+            <name>JÖRGEN ULLENHAG</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-7GdXBasdFtrDX234SgQYhp" type="signed"/>
+        <correspContext corresp="i-7GdXBasdFtrDX234SgQYhp">
+          <note type="signatory" corresp="i-95F4sSt2W2tyXAwECzMBoc"/>
+          <note type="signatory" corresp="i-NWjcGTLPrVzhsv5pBHnJbA"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

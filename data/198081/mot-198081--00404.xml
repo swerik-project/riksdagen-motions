@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198081--00404">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om JO-ämbetets framtida ställning</title>
+        <author>av Olle Wästberg i Stockholm </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om JO-ämbetets framtida ställning</title>
+          <idno type="rdwebb">G402404</idno>
+          <rs type="number">404</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G402404/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G402404</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G402404</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-8Nc7Pi4CxrPaJswNC5hQu6</idno>
+            <name>OLLE WÄSTBERG</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JCyfLUtQCWmsYe5z2e8m81" type="signed"/>
+        <correspContext corresp="i-JCyfLUtQCWmsYe5z2e8m81">
+          <note type="signatory" corresp="i-8Nc7Pi4CxrPaJswNC5hQu6"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

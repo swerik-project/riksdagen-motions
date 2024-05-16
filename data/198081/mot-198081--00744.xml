@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198081--00744">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om högskolans institutionella organisation och administration</title>
+        <author>av Joakim Ollén och Rune Rydén</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om högskolans institutionella organisation och administration</title>
+          <idno type="rdwebb">G402744</idno>
+          <rs type="number">744</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G402744/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G402744</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G402744</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-ZyvGjLNqgpFpKbCbQnZSM</idno>
+            <name>JOAKIM OLLÉN</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>RUNE RYDÉN</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LrixbFL5komuGpFADrJG3o" type="signed"/>
+        <correspContext corresp="i-LrixbFL5komuGpFADrJG3o">
+          <note type="signatory" corresp="i-ZyvGjLNqgpFpKbCbQnZSM"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

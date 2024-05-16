@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198081--00518">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om rätten till tillägg av förnamn</title>
+        <author>av Bertil Hansson och Rolf Sellgren </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om rätten till tillägg av förnamn</title>
+          <idno type="rdwebb">G402518</idno>
+          <rs type="number">518</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G402518/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G402518</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G402518</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-6urxgdf58MtCjRKnNx4LtW</idno>
+            <name>BERTIL HANSSON</name>
+            <state type="partyAffiliation" ref="Q53764745">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-y57aqt6DptStUpkWh6h5L</idno>
+            <name>ROLF SELLGREN</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-7rfYSDf2KDF49U9LSvw73N" type="signed"/>
+        <correspContext corresp="i-7rfYSDf2KDF49U9LSvw73N">
+          <note type="signatory" corresp="i-6urxgdf58MtCjRKnNx4LtW"/>
+          <note type="signatory" corresp="i-y57aqt6DptStUpkWh6h5L"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198081--00912">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om dokumenten rörande baltutlämningen</title>
+        <author>av Anders Björck m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om dokumenten rörande baltutlämningen</title>
+          <idno type="rdwebb">G402912</idno>
+          <rs type="number">912</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G402912/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G402912</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G402912</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GvBe798bQfFYpnaboy7YCF</idno>
+            <name>ANDERS BJÖRCK</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-LqLKSYqgPPCXT6xiy14Fyr</idno>
+            <name>ANITA BRÅKENHIELM</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TZikyr5QETx1Srqmhk827L</idno>
+            <name>GÖTE JONSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TvaeXc5EkAQ1i9UyA1KCbh" type="signed"/>
+        <correspContext corresp="i-TvaeXc5EkAQ1i9UyA1KCbh">
+          <note type="signatory" corresp="i-GvBe798bQfFYpnaboy7YCF"/>
+          <note type="signatory" corresp="i-LqLKSYqgPPCXT6xiy14Fyr"/>
+          <note type="signatory" corresp="i-TZikyr5QETx1Srqmhk827L"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

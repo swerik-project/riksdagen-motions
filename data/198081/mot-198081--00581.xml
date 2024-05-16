@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198081--00581">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om fridlysning av duvhök</title>
+        <author>av Owe Andréasson och Axel Andersson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om fridlysning av duvhök</title>
+          <idno type="rdwebb">G402581</idno>
+          <rs type="number">581</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G402581/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G402581</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G402581</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Rb9LcfDrAi5Y6rVKoFXtAg</idno>
+            <name>OWE ANDRÉASSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>AXEL ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HXuT7332KLAVjHbQiffJgs" type="signed"/>
+        <correspContext corresp="i-HXuT7332KLAVjHbQiffJgs">
+          <note type="signatory" corresp="i-Rb9LcfDrAi5Y6rVKoFXtAg"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

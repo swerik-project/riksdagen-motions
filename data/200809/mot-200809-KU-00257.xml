@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-KU-00257">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Antalet ledamöter i riksdagen</title>
+        <author corresp="i-UdGnyRLxFm6LiCDBYWE7MV">av Bertil Kjellberg (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Antalet ledamöter i riksdagen</title>
+          <idno type="rdwebb">GW02K257</idno>
+          <rs type="number">K257</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02K257/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02K257</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02K257</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/F8203405-0E99-40EA-9465-AA74D1927E1A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UdGnyRLxFm6LiCDBYWE7MV</idno>
+            <name>Bertil Kjellberg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-rS7G5AefLHd8aVXwjfdWe" type="signed"/>
+        <correspContext corresp="i-rS7G5AefLHd8aVXwjfdWe">
+          <note type="signatory" corresp="i-UdGnyRLxFm6LiCDBYWE7MV"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-QaeY1EhMKrYVaDh7gUhMFm">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RJGn8yczvaV573vpLE4swj">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Wvb7sg1hWZf9NGndo4JHAL">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-t6MbN49S2FdTEpyHbeik2"/>
+        <correspContext corresp="i-t6MbN49S2FdTEpyHbeik2">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

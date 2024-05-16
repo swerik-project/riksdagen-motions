@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-SkU-00400">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Naturgrusskatt</title>
+        <author corresp="i-NiuBLX8hzt3w2Uyev12Wbt">av Krister Hammarbergh (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Naturgrusskatt</title>
+          <idno type="rdwebb">GW02Sk400</idno>
+          <rs type="number">Sk400</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Sk400/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Sk400</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Sk400</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/3D92C0C0-6549-4B24-A19B-B688A4780538</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-NiuBLX8hzt3w2Uyev12Wbt</idno>
+            <name>Krister Hammarbergh</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-K3cbcmL15adi1dhXWh55wk" type="signed"/>
+        <correspContext corresp="i-K3cbcmL15adi1dhXWh55wk">
+          <note type="signatory" corresp="i-NiuBLX8hzt3w2Uyev12Wbt"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-KMwbPxBsh3Eytmbm5auYvG">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SiukCdC12W7baG1aPddqRs">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-WcQHkKGQboAFL5NvAgpX7v">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-EhcyKsJLf2QUbpcRMPKxHC"/>
+        <correspContext corresp="i-EhcyKsJLf2QUbpcRMPKxHC">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

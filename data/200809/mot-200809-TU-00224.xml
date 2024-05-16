@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-TU-00224">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Infrastruktur i Norrbotten</title>
+        <author corresp="i-UnkrZ3NAvoWXY6Krxbkudq i-XcAqMe3ntVBboWUxqACfz">av Tobias Krantz och Gunnar Andrén (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Infrastruktur i Norrbotten</title>
+          <idno type="rdwebb">GW02T224</idno>
+          <rs type="number">T224</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02T224/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02T224</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02T224</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/31C9D6B4-9341-42EE-9281-C8250CD2EA23</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UnkrZ3NAvoWXY6Krxbkudq</idno>
+            <name>Tobias Krantz</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-XcAqMe3ntVBboWUxqACfz</idno>
+            <name>Gunnar Andrén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DTXkvTqj2coKtN48BPnEKX" type="signed"/>
+        <correspContext corresp="i-DTXkvTqj2coKtN48BPnEKX">
+          <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
+          <note type="signatory" corresp="i-XcAqMe3ntVBboWUxqACfz"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Y8Xm9AbH2Rt6dK2YEppSoT">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Fj5vBXiTHLBzNGdKwqAYeZ">
+          <date when="2008-09-29"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-aGEeyo699V9MpG23JruWX">
+          <date when="2008-09-29"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PkD8y3HAxMEmtjadKRXQ61"/>
+        <correspContext corresp="i-PkD8y3HAxMEmtjadKRXQ61">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-KU-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Landstingen</title>
+        <author corresp="i-3TzUjUVop5GV6tpKYjGYGr">av Rolf Gunnarsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Landstingen</title>
+          <idno type="rdwebb">GW02K201</idno>
+          <rs type="number">K201</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02K201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02K201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02K201</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/75670DAC-72CE-440A-A524-AE2A89ABADF9</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3TzUjUVop5GV6tpKYjGYGr</idno>
+            <name>Rolf Gunnarsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DjeKDi6KMKwrYMbdsnW26d" type="signed"/>
+        <correspContext corresp="i-DjeKDi6KMKwrYMbdsnW26d">
+          <note type="signatory" corresp="i-3TzUjUVop5GV6tpKYjGYGr"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-LwTem93kaYWkcHF2xjUMsy">
+          <date when="2008-09-24"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Nm7uTz2EsAHrNxYWS468Sy">
+          <date when="2008-09-17"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-JeH4HTuGTnaeB6GYgpjFeQ">
+          <date when="2008-09-17"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RZLbs3twF6pnasPV5uysjk"/>
+        <correspContext corresp="i-RZLbs3twF6pnasPV5uysjk">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

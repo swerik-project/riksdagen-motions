@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-CU-00460">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bostadsrättsregister</title>
+        <author corresp="i-Bs6HAugbEikWxWig1ej69y">av Lennart Sacrédeus (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bostadsrättsregister</title>
+          <idno type="rdwebb">GW02C460</idno>
+          <rs type="number">C460</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02C460/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02C460</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02C460</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/AB22FA4D-882A-4266-BD71-57D77F31D610</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Bs6HAugbEikWxWig1ej69y</idno>
+            <name>Lennart Sacrédeus</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VcXHJN8CQd3b4a37mHWTMt" type="signed"/>
+        <correspContext corresp="i-VcXHJN8CQd3b4a37mHWTMt">
+          <note type="signatory" corresp="i-Bs6HAugbEikWxWig1ej69y"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Hjs64BSYfxSAfv4ExKKuMJ">
+          <date when="2008-10-09"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-E8fG1p5nC9VnR2jpuA45ft">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-LQRewFRJ9qjdybEJsJuDJR">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TfUt5fZTdCnCWCYcc7wr8E"/>
+        <correspContext corresp="i-TfUt5fZTdCnCWCYcc7wr8E">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

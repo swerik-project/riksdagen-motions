@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-KU-00322">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Antalet riksdagsledamöter</title>
+        <author corresp="i-WbrCkKzXDH4v9N1NB5PEQS i-Ev6Dx3pWj2WT32VGQpabaz">av Anna König Jerlmyr och Finn Bengtsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Antalet riksdagsledamöter</title>
+          <idno type="rdwebb">GW02K322</idno>
+          <rs type="number">K322</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02K322/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02K322</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02K322</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/00E9761E-13D7-4F7B-A64A-CF2BC88BA52C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-WbrCkKzXDH4v9N1NB5PEQS</idno>
+            <name>Anna König Jerlmyr</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Ev6Dx3pWj2WT32VGQpabaz</idno>
+            <name>Finn Bengtsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RgagPGSfmZD5cwR7ac75xF" type="signed"/>
+        <correspContext corresp="i-RgagPGSfmZD5cwR7ac75xF">
+          <note type="signatory" corresp="i-WbrCkKzXDH4v9N1NB5PEQS"/>
+          <note type="signatory" corresp="i-Ev6Dx3pWj2WT32VGQpabaz"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Hv77berboUmX41W5DncDu7">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9JFEc6oyDqbuSM574x4nPs">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-17GLBZo976N6XwF6A4E7hB">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-3WhbixznuzwtvGA9VkeXrd"/>
+        <correspContext corresp="i-3WhbixznuzwtvGA9VkeXrd">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

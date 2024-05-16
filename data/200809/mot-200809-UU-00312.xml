@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-UU-00312">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kuba</title>
+        <author corresp="i-CYXB5gc8UwhvnW3jqhdnoq i-BaBRFz7sgjhbuqYiz8u7vt">av Sven Gunnar Persson och Désirée Pethrus Engström (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kuba</title>
+          <idno type="rdwebb">GW02U312</idno>
+          <rs type="number">U312</rs>
+          <orgName type="comitteeAbbreviation">UU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02U312/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02U312</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02U312</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/64C627E6-3093-48B4-BEEF-3EE38DE73653</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CYXB5gc8UwhvnW3jqhdnoq</idno>
+            <name>Sven Gunnar Persson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-BaBRFz7sgjhbuqYiz8u7vt</idno>
+            <name>Désirée Pethrus Engström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-ECQizSGnXNxmrjCXwQQDor" type="signed"/>
+        <correspContext corresp="i-ECQizSGnXNxmrjCXwQQDor">
+          <note type="signatory" corresp="i-CYXB5gc8UwhvnW3jqhdnoq"/>
+          <note type="signatory" corresp="i-BaBRFz7sgjhbuqYiz8u7vt"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-L5wjj2mmXz4K83UaKuFSfg">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-TbYYqx11dWDndYVmHUYBZi">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-BvdmKE3a4SEbt4FPRa7TeL">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-D7fVQuiEMyVWexFqJBgmvx"/>
+        <correspContext corresp="i-D7fVQuiEMyVWexFqJBgmvx">
+          <ref type="assignedTo">Utrikesutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

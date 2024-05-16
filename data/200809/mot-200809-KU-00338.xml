@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-KU-00338">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Storebror ser dig</title>
+        <author corresp="i-MVzhVeKwRGmjHjHoSrReg9">av Börje Vestlund (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Storebror ser dig</title>
+          <idno type="rdwebb">GW02K338</idno>
+          <rs type="number">K338</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02K338/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02K338</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02K338</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/28FE57BA-E97F-4D30-AF2F-D5F7CB7ED31B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-MVzhVeKwRGmjHjHoSrReg9</idno>
+            <name>Börje Vestlund</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BLXiXMBGWgavqenwtNB8Kj" type="signed"/>
+        <correspContext corresp="i-BLXiXMBGWgavqenwtNB8Kj">
+          <note type="signatory" corresp="i-MVzhVeKwRGmjHjHoSrReg9"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-QSaf3MDxsHXomeWvd9GgyY">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WyisFuUxSLXGHExQJrfVvP">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-5KTtv3DPBA4JFwT1V9KmZt">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Y4ss1BRHQqQQ4GNjT7EAgb"/>
+        <correspContext corresp="i-Y4ss1BRHQqQQ4GNjT7EAgb">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

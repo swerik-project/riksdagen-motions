@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-AU-00255">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Anställningsbevis</title>
+        <author corresp="i-RYfQPYszLPVrPs5i7M3m8Q i-122QwSSpyGJQiTJjmrUJCM">av Dan Nilsson och Krister Örnfjäder (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Anställningsbevis</title>
+          <idno type="rdwebb">GW02A255</idno>
+          <rs type="number">A255</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02A255/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02A255</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02A255</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/32F93B9D-5DEE-4CF7-ADF0-DF2A91D2F221</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-RYfQPYszLPVrPs5i7M3m8Q</idno>
+            <name>Dan Nilsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-122QwSSpyGJQiTJjmrUJCM</idno>
+            <name>Krister Örnfjäder</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HBRwmMqZLCfL24jetMSjkL" type="signed"/>
+        <correspContext corresp="i-HBRwmMqZLCfL24jetMSjkL">
+          <note type="signatory" corresp="i-RYfQPYszLPVrPs5i7M3m8Q"/>
+          <note type="signatory" corresp="i-122QwSSpyGJQiTJjmrUJCM"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-HoD1b1dP7JYM2cA64D8Twk">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-72XAwTi38o3eLHr2sXHeQG">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-GZuiYE2ojoaBpDkJXoAW8f">
+          <date when="2008-09-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BzD5RGDozYicvs7nNPXwjH"/>
+        <correspContext corresp="i-BzD5RGDozYicvs7nNPXwjH">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-MJU-00442">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Slam</title>
+        <author corresp="i-QYUn9LH1BFyUaLeMaR5S5h">av Otto von Arnold (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Slam</title>
+          <idno type="rdwebb">GW02MJ442</idno>
+          <rs type="number">MJ442</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02MJ442/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02MJ442</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02MJ442</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/F856A3B7-F2EA-47E8-87DD-742C3A02E4A6</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QYUn9LH1BFyUaLeMaR5S5h</idno>
+            <name>Otto von Arnold</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QkbBsNJ8LREyQsnNqE2gFM" type="signed"/>
+        <correspContext corresp="i-QkbBsNJ8LREyQsnNqE2gFM">
+          <note type="signatory" corresp="i-QYUn9LH1BFyUaLeMaR5S5h"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-KiiTUDCnpBxRyx178hqShN">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Tb5G299hRhSw38CARHGnu5">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-D2HbxhgTx83fLMBT1bm5DL">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KkhfqgEduf9w2C1df5BV7L"/>
+        <correspContext corresp="i-KkhfqgEduf9w2C1df5BV7L">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

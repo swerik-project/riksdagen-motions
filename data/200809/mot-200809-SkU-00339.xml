@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-SkU-00339">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skatteöversyn</title>
+        <author corresp="i-M8LKQKEcsjHJKv8kSmhVcX">av Tomas Tobé (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skatteöversyn</title>
+          <idno type="rdwebb">GW02Sk339</idno>
+          <rs type="number">Sk339</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Sk339/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Sk339</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Sk339</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/047C0A02-F7E9-40EC-A0E8-E1D81EC1BE87</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-M8LKQKEcsjHJKv8kSmhVcX</idno>
+            <name>Tomas Tobé</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-B64s2BPgDx6y7LMWNB8v1x" type="signed"/>
+        <correspContext corresp="i-B64s2BPgDx6y7LMWNB8v1x">
+          <note type="signatory" corresp="i-M8LKQKEcsjHJKv8kSmhVcX"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-GXGLStk1bumUUpUVTy3q1c">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Y7HK8rZLxBAqCXBP21RN7x">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-A9WfH14EjPyN1Rs83DzM5q">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Q1Perpt69TATjDZz28okLe"/>
+        <correspContext corresp="i-Q1Perpt69TATjDZz28okLe">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

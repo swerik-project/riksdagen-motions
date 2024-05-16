@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-SkU-00221">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Folkbokföringen</title>
+        <author corresp="i-AvtuWmW4WHMDrctQKwDQuR">av Eva Flyborg (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Folkbokföringen</title>
+          <idno type="rdwebb">GW02Sk221</idno>
+          <rs type="number">Sk221</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Sk221/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Sk221</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Sk221</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B6669EE8-9A12-4B2C-8D61-67E42F696825</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-AvtuWmW4WHMDrctQKwDQuR</idno>
+            <name>Eva Flyborg</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-T8Kvx2F1VXrQYxzCHobz9N" type="signed"/>
+        <correspContext corresp="i-T8Kvx2F1VXrQYxzCHobz9N">
+          <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-5Pm4m7TjRfJj2JuLuSyXfd">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DBbhVxGyT9BVSFyUmctLh7">
+          <date when="2008-09-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-QaytZFroJFf6fomNCahyjX">
+          <date when="2008-09-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GrXiKfSt6BWLxnhMtPdH3j"/>
+        <correspContext corresp="i-GrXiKfSt6BWLxnhMtPdH3j">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

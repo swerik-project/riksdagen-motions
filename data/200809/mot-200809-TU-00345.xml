@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-TU-00345">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Slussen i Södertälje</title>
+        <author corresp="i-9fdWbFK67588CD12XaNZBq i-3YAEMbZXswzuyekFnSxXSF">av Sven-Erik Österberg och Olle Thorell (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Slussen i Södertälje</title>
+          <idno type="rdwebb">GW02T345</idno>
+          <rs type="number">T345</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02T345/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02T345</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02T345</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/59F7E6BE-8032-40B7-A71F-E08788372B75</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9fdWbFK67588CD12XaNZBq</idno>
+            <name>Sven-Erik Österberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-3YAEMbZXswzuyekFnSxXSF</idno>
+            <name>Olle Thorell</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NPgfwzT9BnWBTVPXcB2p1S" type="signed"/>
+        <correspContext corresp="i-NPgfwzT9BnWBTVPXcB2p1S">
+          <note type="signatory" corresp="i-9fdWbFK67588CD12XaNZBq"/>
+          <note type="signatory" corresp="i-3YAEMbZXswzuyekFnSxXSF"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-3KRe5gEbmNtTE9HRmbxRAY">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Cfyxjr3VJ93bwxTcqtdhuQ">
+          <date when="2008-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-96vca4a44i94YkZmVhXJCU">
+          <date when="2008-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HWBpidRKjgc6LiUTgdWYJd"/>
+        <correspContext corresp="i-HWBpidRKjgc6LiUTgdWYJd">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

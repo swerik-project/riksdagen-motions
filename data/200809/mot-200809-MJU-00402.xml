@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-MJU-00402">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rovdjur</title>
+        <author corresp="i-JenGD5Kv9swgVvigAUvuWe">av Patrik Forslund (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Rovdjur</title>
+          <idno type="rdwebb">GW02MJ402</idno>
+          <rs type="number">MJ402</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02MJ402/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02MJ402</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02MJ402</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/8A8C86E6-C50E-4C25-82A5-14854068E44E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-JenGD5Kv9swgVvigAUvuWe</idno>
+            <name>Patrik Forslund</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VEzYveNE6jCsoVMT231psT" type="signed"/>
+        <correspContext corresp="i-VEzYveNE6jCsoVMT231psT">
+          <note type="signatory" corresp="i-JenGD5Kv9swgVvigAUvuWe"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-JU9M7XYeKc26SwtK1Fs1zZ">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EQovuq1tpXvQK8fPHpNQQU">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-SZcGeW4wL8jAwtKrxM2Vf9">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9bFbo7m1RJB3crKXUgjSdB"/>
+        <correspContext corresp="i-9bFbo7m1RJB3crKXUgjSdB">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

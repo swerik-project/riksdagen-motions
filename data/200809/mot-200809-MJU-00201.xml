@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-MJU-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Azofärger</title>
+        <author corresp="i-JSSYZnWrKjtbfWDmu1qLSb">av Magdalena Andersson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Azofärger</title>
+          <idno type="rdwebb">GW02MJ201</idno>
+          <rs type="number">MJ201</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02MJ201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02MJ201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02MJ201</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A6DA644B-65AF-4311-B3BF-E8E3F8A5FC9A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-JSSYZnWrKjtbfWDmu1qLSb</idno>
+            <name>Magdalena Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LFpSe9znCNWaVyrj1MPEk8" type="signed"/>
+        <correspContext corresp="i-LFpSe9znCNWaVyrj1MPEk8">
+          <note type="signatory" corresp="i-JSSYZnWrKjtbfWDmu1qLSb"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-WqcoDS6tbn1s4SdstUQokW">
+          <date when="2008-09-24"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-LsvBWWM3RFpo2bhfYX2ije">
+          <date when="2008-09-17"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-YMrVwmKw7Sf2ZRu39dsJqT">
+          <date when="2008-09-17"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PfaSE1afgQrEkyn8LEj8Y"/>
+        <correspContext corresp="i-PfaSE1afgQrEkyn8LEj8Y">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

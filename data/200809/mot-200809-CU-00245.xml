@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-CU-00245">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Allmännyttan</title>
+        <author corresp="i-LzTEdVdf1xwBggoSshMrHP i-JfXS8EFEqMfBiyryszrVvW">av Per Svedberg och Ann-Kristine Johansson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Allmännyttan</title>
+          <idno type="rdwebb">GW02C245</idno>
+          <rs type="number">C245</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02C245/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02C245</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02C245</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B19D577A-C306-42B3-AB6F-837F0A31000F</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-LzTEdVdf1xwBggoSshMrHP</idno>
+            <name>Per Svedberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-JfXS8EFEqMfBiyryszrVvW</idno>
+            <name>Ann-Kristine Johansson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5p6m9wnVvJfFX6ac6kNwXg" type="signed"/>
+        <correspContext corresp="i-5p6m9wnVvJfFX6ac6kNwXg">
+          <note type="signatory" corresp="i-LzTEdVdf1xwBggoSshMrHP"/>
+          <note type="signatory" corresp="i-JfXS8EFEqMfBiyryszrVvW"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-CL1frtkio8H3yk2s7RKYuP">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DpWxjxrXPiEP65kkCMorsM">
+          <date when="2008-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-VopyKrtjRuFH56ysZ1ntBk">
+          <date when="2008-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Ckv4MLnZubUshx38SLdLoY"/>
+        <correspContext corresp="i-Ckv4MLnZubUshx38SLdLoY">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-CU-00412">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Namnlagen</title>
+        <author corresp="i-BNPcdNmACXycfvLR8wqbHp">av Ann-Charlotte Hammar Johnsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Namnlagen</title>
+          <idno type="rdwebb">GW02C412</idno>
+          <rs type="number">C412</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02C412/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02C412</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02C412</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/30C179A5-7C6A-4E25-8BD5-72E4243B1C1D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-BNPcdNmACXycfvLR8wqbHp</idno>
+            <name>Ann-Charlotte Hammar Johnsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Gtk3XaqHN3KYzpj6f3cAKp" type="signed"/>
+        <correspContext corresp="i-Gtk3XaqHN3KYzpj6f3cAKp">
+          <note type="signatory" corresp="i-BNPcdNmACXycfvLR8wqbHp"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-8EiW7uUtBTWkt3XQ7HCfST">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KHvPAq3izFRsxBFmp9DJhp">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-SvZD4j7xr9F7BokNH9DNC5">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-R7H2mhGCFQgEJyrWvzuteR"/>
+        <correspContext corresp="i-R7H2mhGCFQgEJyrWvzuteR">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

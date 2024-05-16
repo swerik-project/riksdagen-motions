@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-KU-00396">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sveriges nationalsång</title>
+        <author corresp="i-Bs6HAugbEikWxWig1ej69y i-W4ZdT3cRpUqSBcZCGKXaji">av Lennart Sacrédeus och Eva Johnsson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sveriges nationalsång</title>
+          <idno type="rdwebb">GW02K396</idno>
+          <rs type="number">K396</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02K396/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02K396</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02K396</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A2123D56-1250-4AAA-A8EB-7586D7312D51</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Bs6HAugbEikWxWig1ej69y</idno>
+            <name>Lennart Sacrédeus</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-W4ZdT3cRpUqSBcZCGKXaji</idno>
+            <name>Eva Johnsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Xh5wb721HTYFotQZm1HUnV" type="signed"/>
+        <correspContext corresp="i-Xh5wb721HTYFotQZm1HUnV">
+          <note type="signatory" corresp="i-Bs6HAugbEikWxWig1ej69y"/>
+          <note type="signatory" corresp="i-W4ZdT3cRpUqSBcZCGKXaji"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-L4VFLutiimsmXpM85F4w4h">
+          <date when="2008-10-09"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-QydhqZS4T6py1DMiSAB76">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-XvTba1KuYBungbHahoRERE">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BzgebY6u288Z71TrmBUXX6"/>
+        <correspContext corresp="i-BzgebY6u288Z71TrmBUXX6">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

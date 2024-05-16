@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-FöU-00242">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hemvärnet</title>
+        <author corresp="i-YU8i88S8eJQ5ZYdJzkoGef i-XXHxxQRuSjGXVxaVhcXaFk">av Eva Selin Lindgren och Åke Sandström (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hemvärnet</title>
+          <idno type="rdwebb">GW02Fö242</idno>
+          <rs type="number">Fö242</rs>
+          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Fö242/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Fö242</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Fö242</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/54CEC9EE-11AA-4AEE-AAE3-F4B2D54A396F</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-YU8i88S8eJQ5ZYdJzkoGef</idno>
+            <name>Eva Selin Lindgren</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-XXHxxQRuSjGXVxaVhcXaFk</idno>
+            <name>Åke Sandström</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XCrnTsFG6owcERMcuSVEVh" type="signed"/>
+        <correspContext corresp="i-XCrnTsFG6owcERMcuSVEVh">
+          <note type="signatory" corresp="i-YU8i88S8eJQ5ZYdJzkoGef"/>
+          <note type="signatory" corresp="i-XXHxxQRuSjGXVxaVhcXaFk"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Q1pYe3QwUA2Z9vTYBy2tsn">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8VQaWKj9UmruMmNY28JUWd">
+          <date when="2008-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-3FvND5gpwrf3GF1rbm9ZrQ">
+          <date when="2008-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-MRReduWhEMfK1THjQgXi4"/>
+        <correspContext corresp="i-MRReduWhEMfK1THjQgXi4">
+          <ref type="assignedTo">Försvarsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

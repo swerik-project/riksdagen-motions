@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-JuU-00221">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vapenlagen</title>
+        <author corresp="i-PTuw4s4dbEitoQexouPwtS">av Björn Leivik (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vapenlagen</title>
+          <idno type="rdwebb">GW02Ju221</idno>
+          <rs type="number">Ju221</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Ju221/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Ju221</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Ju221</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/F614F3CD-7E0C-4990-A608-AC49D2D2A12C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-PTuw4s4dbEitoQexouPwtS</idno>
+            <name>Björn Leivik</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UXJNLPpBRY6LMeaUZYiBgu" type="signed"/>
+        <correspContext corresp="i-UXJNLPpBRY6LMeaUZYiBgu">
+          <note type="signatory" corresp="i-PTuw4s4dbEitoQexouPwtS"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-GBPuRTFUqNJWqoZidnLhjS">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DQm3waq6CkwHG8anjCJyrE">
+          <date when="2008-09-29"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-2ChyhAUUCdu7omn4WY28e6">
+          <date when="2008-09-29"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GsHps15K4Tp4ty2p8AYsBq"/>
+        <correspContext corresp="i-GsHps15K4Tp4ty2p8AYsBq">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

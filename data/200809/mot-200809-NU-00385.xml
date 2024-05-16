@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-NU-00385">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elcertifikat</title>
+        <author corresp="i-UFTZBKNRWWLXUXAtcCcVfH i-VRHymVx7EsX48sg7b5qmpS">av Tina Ehn och Jan Lindholm (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Elcertifikat</title>
+          <idno type="rdwebb">GW02N385</idno>
+          <rs type="number">N385</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02N385/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02N385</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02N385</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/CF84D7AC-B494-47E1-8EB1-24408E58E350</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-UFTZBKNRWWLXUXAtcCcVfH</idno>
+            <name>Tina Ehn</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-VRHymVx7EsX48sg7b5qmpS</idno>
+            <name>Jan Lindholm</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PmLRR3q3qJvUgnUHkzVJ6E" type="signed"/>
+        <correspContext corresp="i-PmLRR3q3qJvUgnUHkzVJ6E">
+          <note type="signatory" corresp="i-UFTZBKNRWWLXUXAtcCcVfH"/>
+          <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-3eZS8Zw7bzqPckdavSTP1B">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-X96cboVgs98WKncRQenvXQ">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-ASTi8cKL91BBi9fb4LZ64Q">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GtBzAsu5Thzmed3iqd2PAU"/>
+        <correspContext corresp="i-GtBzAsu5Thzmed3iqd2PAU">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

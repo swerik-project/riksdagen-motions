@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-FiU-00252">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gemensam standard för e-legitimation</title>
+        <author corresp="i-122QwSSpyGJQiTJjmrUJCM i-RYfQPYszLPVrPs5i7M3m8Q">av Krister Örnfjäder och Dan Nilsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Gemensam standard för e-legitimation</title>
+          <idno type="rdwebb">GW02Fi252</idno>
+          <rs type="number">Fi252</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Fi252/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Fi252</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Fi252</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2B3C9893-4364-45F1-A673-2520705AB742</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-122QwSSpyGJQiTJjmrUJCM</idno>
+            <name>Krister Örnfjäder</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-RYfQPYszLPVrPs5i7M3m8Q</idno>
+            <name>Dan Nilsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LKcPjwmDaUKJTzr9GA81hw" type="signed"/>
+        <correspContext corresp="i-LKcPjwmDaUKJTzr9GA81hw">
+          <note type="signatory" corresp="i-122QwSSpyGJQiTJjmrUJCM"/>
+          <note type="signatory" corresp="i-RYfQPYszLPVrPs5i7M3m8Q"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-SH49heFcy1qyNP6rB9f4fY">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9W766qLT3o7VwPpy5cvdkw">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-CuhCkpRuZP7iHaJVYp5547">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-G8haGyixrMomcvmtgwQPpy"/>
+        <correspContext corresp="i-G8haGyixrMomcvmtgwQPpy">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

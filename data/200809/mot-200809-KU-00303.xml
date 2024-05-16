@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-KU-00303">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Grundlagsskydd</title>
+        <author corresp="i-MKm68HiDPih8eisvsh6GJg i-W2BEDRyCnS9HdVWfSB1gKA">av Bo Bernhardsson och Margareta Persson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Grundlagsskydd</title>
+          <idno type="rdwebb">GW02K303</idno>
+          <rs type="number">K303</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02K303/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02K303</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02K303</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1FDCC6F9-49AD-4F0E-B559-057A9B0CE476</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-MKm68HiDPih8eisvsh6GJg</idno>
+            <name>Bo Bernhardsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-W2BEDRyCnS9HdVWfSB1gKA</idno>
+            <name>Margareta Persson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9t2aedvpuzquDvQCVWwXMa" type="signed"/>
+        <correspContext corresp="i-9t2aedvpuzquDvQCVWwXMa">
+          <note type="signatory" corresp="i-MKm68HiDPih8eisvsh6GJg"/>
+          <note type="signatory" corresp="i-W2BEDRyCnS9HdVWfSB1gKA"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-SygU5sTcDaMwKBRXNXzjfx">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-XDdCkFGBPDVyzrJehNeRHD">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-9K5QWtgdL6HyCPvJoQygRT">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PZZn7UD3iYDHf79AHJhXR8"/>
+        <correspContext corresp="i-PZZn7UD3iYDHf79AHJhXR8">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

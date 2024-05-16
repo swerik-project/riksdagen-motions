@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-AU-00350">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ungdomsavtal</title>
+        <author corresp="i-EYsBC4u5K3oa8SyoHdgTPc i-XXuTUfCrSzD7sKMdyYtEft">av Claes Västerteg och Sofia Larsen (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ungdomsavtal</title>
+          <idno type="rdwebb">GW02A350</idno>
+          <rs type="number">A350</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02A350/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02A350</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02A350</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/E5F87560-5939-4CF6-89CB-DBCA46D24B38</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-EYsBC4u5K3oa8SyoHdgTPc</idno>
+            <name>Claes Västerteg</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-XXuTUfCrSzD7sKMdyYtEft</idno>
+            <name>Sofia Larsen</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3k1jXgPG4NHJHq1ng8G2ca" type="signed"/>
+        <correspContext corresp="i-3k1jXgPG4NHJHq1ng8G2ca">
+          <note type="signatory" corresp="i-EYsBC4u5K3oa8SyoHdgTPc"/>
+          <note type="signatory" corresp="i-XXuTUfCrSzD7sKMdyYtEft"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-LEj2HXY4qVwy1uCVJvUzjA">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PTpqsBG8GUcDxgscTTvMYW">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-VJxtq7XpfTQnPaHpwX3Msq">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-SAuR42yCZLJmCmA6C8q8oa"/>
+        <correspContext corresp="i-SAuR42yCZLJmCmA6C8q8oa">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

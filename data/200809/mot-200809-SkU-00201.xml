@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-SkU-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Företagskonto</title>
+        <author corresp="i-JSSYZnWrKjtbfWDmu1qLSb">av Magdalena Andersson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Företagskonto</title>
+          <idno type="rdwebb">GW02Sk201</idno>
+          <rs type="number">Sk201</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Sk201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Sk201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Sk201</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/47414B1B-C4C2-4D26-9F62-710E8343A890</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-JSSYZnWrKjtbfWDmu1qLSb</idno>
+            <name>Magdalena Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RfbJiqJfj15PniYh2aHNfN" type="signed"/>
+        <correspContext corresp="i-RfbJiqJfj15PniYh2aHNfN">
+          <note type="signatory" corresp="i-JSSYZnWrKjtbfWDmu1qLSb"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-TdJeNmuMBFxGz9NNjc6NeV">
+          <date when="2008-09-24"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3HaHWeCxtcVcaUg2UoaSZ3">
+          <date when="2008-09-17"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-BGm77JaDVgUTg2Pwy5QAFT">
+          <date when="2008-09-17"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JE8JW6vjQ1Yc2bLJtKdgDE"/>
+        <correspContext corresp="i-JE8JW6vjQ1Yc2bLJtKdgDE">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

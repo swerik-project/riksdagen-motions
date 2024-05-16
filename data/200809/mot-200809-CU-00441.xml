@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-CU-00441">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Namnlagen</title>
+        <author corresp="i-LGuxQcep33nPWKPbzHtqsR">av Cecilie Tenfjord-Toftby (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Namnlagen</title>
+          <idno type="rdwebb">GW02C441</idno>
+          <rs type="number">C441</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02C441/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02C441</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02C441</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/80172443-1B1E-457B-897B-5C851628FCB0</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-LGuxQcep33nPWKPbzHtqsR</idno>
+            <name>Cecilie Tenfjord-Toftby</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SoyEd1zMCoUQTS7k8itTFH" type="signed"/>
+        <correspContext corresp="i-SoyEd1zMCoUQTS7k8itTFH">
+          <note type="signatory" corresp="i-LGuxQcep33nPWKPbzHtqsR"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-7Z1KgsT17atJif94w1XChJ">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-FcYqs1TiwmirFcT3cDaVBX">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-SYhi11RmS6wYQjt5Xds99s">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RXXuUXQ9yFdHDkhiGqcBFi"/>
+        <correspContext corresp="i-RXXuUXQ9yFdHDkhiGqcBFi">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

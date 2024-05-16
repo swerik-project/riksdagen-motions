@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-TU-00241">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>E 4 genom Sundsvall</title>
+        <author corresp="i-4QSskNRajbqRG3PtACimqv i-PxnWyEEEJkswzBKdKbv36K">av Susanne Eberstein och Agneta Lundberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>E 4 genom Sundsvall</title>
+          <idno type="rdwebb">GW02T241</idno>
+          <rs type="number">T241</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02T241/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02T241</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02T241</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A22A81B2-9262-447B-B0F7-94120C8F634E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-4QSskNRajbqRG3PtACimqv</idno>
+            <name>Susanne Eberstein</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-PxnWyEEEJkswzBKdKbv36K</idno>
+            <name>Agneta Lundberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-B6uPD2WDoMZGEdZNvHNrJc" type="signed"/>
+        <correspContext corresp="i-B6uPD2WDoMZGEdZNvHNrJc">
+          <note type="signatory" corresp="i-4QSskNRajbqRG3PtACimqv"/>
+          <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-WuDVn7u6ikNsudEMbMHUA9">
+          <date when="2008-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AeUWKwsoSonXEXxewEGtZ">
+          <date when="2008-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-E2KiiLTms5mCxmsrF9Tz7x">
+          <date when="2008-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-R5sM9xRcsPmzPZVXbVyENm"/>
+        <correspContext corresp="i-R5sM9xRcsPmzPZVXbVyENm">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

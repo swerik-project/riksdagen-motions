@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-SkU-00230">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Värnskatten</title>
+        <author corresp="i-AqZkPRg6HbbZ9nDzibdbp5 i-8D1Xb5xvLE2YRWLnmb9hGW">av Björn Hamilton och Isabella Jernbeck (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Värnskatten</title>
+          <idno type="rdwebb">GW02Sk230</idno>
+          <rs type="number">Sk230</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Sk230/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Sk230</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Sk230</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B746F78B-D43D-4856-99CE-0FE7B207138D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AqZkPRg6HbbZ9nDzibdbp5</idno>
+            <name>Björn Hamilton</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-8D1Xb5xvLE2YRWLnmb9hGW</idno>
+            <name>Isabella Jernbeck</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AJeb6dQ7ruovURgnxRypuV" type="signed"/>
+        <correspContext corresp="i-AJeb6dQ7ruovURgnxRypuV">
+          <note type="signatory" corresp="i-AqZkPRg6HbbZ9nDzibdbp5"/>
+          <note type="signatory" corresp="i-8D1Xb5xvLE2YRWLnmb9hGW"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-QDX9zD27LowsRB2o642Sc1">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DpD97M6gSGSc7kqqn3S86c">
+          <date when="2008-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-36qAXopcp2EXHUCGK6xVTt">
+          <date when="2008-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TSAAHW5XcrxrMhtRK5mquV"/>
+        <correspContext corresp="i-TSAAHW5XcrxrMhtRK5mquV">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

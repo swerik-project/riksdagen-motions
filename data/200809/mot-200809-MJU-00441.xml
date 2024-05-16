@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-MJU-00441">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CAP</title>
+        <author corresp="i-CetFkRWST91ShCPmaZKsM4">av Jan Andersson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>CAP</title>
+          <idno type="rdwebb">GW02MJ441</idno>
+          <rs type="number">MJ441</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02MJ441/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02MJ441</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02MJ441</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/63877A75-184D-49FC-94CC-8844E56FACDF</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CetFkRWST91ShCPmaZKsM4</idno>
+            <name>Jan Andersson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BAgHZdPUy7ccBvTyJRjjc4" type="signed"/>
+        <correspContext corresp="i-BAgHZdPUy7ccBvTyJRjjc4">
+          <note type="signatory" corresp="i-CetFkRWST91ShCPmaZKsM4"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-6RBgqZrSwt3G7AahTMwk3K">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RDw99Y8aiFpt4dcgJBbFX2">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Q56DQ5fXmTR6Ziah79wKgy">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FU3X3PTinGwwEtHndkgNfq"/>
+        <correspContext corresp="i-FU3X3PTinGwwEtHndkgNfq">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

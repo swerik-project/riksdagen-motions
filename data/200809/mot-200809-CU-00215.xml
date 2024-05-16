@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-CU-00215">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Huskapning</title>
+        <author corresp="i-6NzqsXjPzSi4BTz8BKo1Rg">av Christer Winbäck (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Huskapning</title>
+          <idno type="rdwebb">GW02C215</idno>
+          <rs type="number">C215</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02C215/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02C215</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02C215</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2A49FA49-9C9E-4BF0-99EF-F2E6256869AB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-6NzqsXjPzSi4BTz8BKo1Rg</idno>
+            <name>Christer Winbäck</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-6E3U3BVyuShPce8h4pQnkb" type="signed"/>
+        <correspContext corresp="i-6E3U3BVyuShPce8h4pQnkb">
+          <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-J5fbVsYCbEc1daGVVvGH2T">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Xq5dcky1HLS36vQMeJKWp1">
+          <date when="2008-09-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Hr6VGgLMfu6TyKrzeyUh62">
+          <date when="2008-09-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RzJXU7VawKjejmV5EppKNk"/>
+        <correspContext corresp="i-RzJXU7VawKjejmV5EppKNk">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

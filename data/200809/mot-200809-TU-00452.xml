@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-TU-00452">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sydostlänken</title>
+        <author corresp="i-QqQ96z9hf4LQtMxJfJm6ZQ i-6n4UMJ5Jq36EmnjPSSJDxB">av Jeppe Johnsson och Staffan Appelros (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sydostlänken</title>
+          <idno type="rdwebb">GW02T452</idno>
+          <rs type="number">T452</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02T452/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02T452</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02T452</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/ECBBB43E-1C98-4E0D-906A-A0A908DD0277</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QqQ96z9hf4LQtMxJfJm6ZQ</idno>
+            <name>Jeppe Johnsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-6n4UMJ5Jq36EmnjPSSJDxB</idno>
+            <name>Staffan Appelros</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-dJ6J6GXcACadLdP9TG13L" type="signed"/>
+        <correspContext corresp="i-dJ6J6GXcACadLdP9TG13L">
+          <note type="signatory" corresp="i-QqQ96z9hf4LQtMxJfJm6ZQ"/>
+          <note type="signatory" corresp="i-6n4UMJ5Jq36EmnjPSSJDxB"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-5QxFvccgtBxGYz4Vdq5pLZ">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JNXMhscs2dr41GHg2shYh4">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-34qcYy48YwoSYV7zLt7T7s">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-8fchwQz4mnjRJLUmNL7pdd"/>
+        <correspContext corresp="i-8fchwQz4mnjRJLUmNL7pdd">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

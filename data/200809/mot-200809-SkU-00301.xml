@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-SkU-00301">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Utfärdande av id-kort</title>
+        <author corresp="i-HA8qZKZU3je8nF69VtPrqk">av Eva-Lena Jansson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Utfärdande av id-kort</title>
+          <idno type="rdwebb">GW02Sk301</idno>
+          <rs type="number">Sk301</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Sk301/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Sk301</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Sk301</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B9EEAA73-F1F5-4475-A8D9-278179F2FEFB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-HA8qZKZU3je8nF69VtPrqk</idno>
+            <name>Eva-Lena Jansson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LfjT9rP8wkdPBfGqeG2KsE" type="signed"/>
+        <correspContext corresp="i-LfjT9rP8wkdPBfGqeG2KsE">
+          <note type="signatory" corresp="i-HA8qZKZU3je8nF69VtPrqk"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-PK549GLKVR1grkkiywyYxK">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Qu55Fg4reermQpxA2dPkA2">
+          <date when="2008-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-A7XUGoJcELJjcGEtmZVbgj">
+          <date when="2008-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UcP2L7G4JwY6WXZBuw4oXm"/>
+        <correspContext corresp="i-UcP2L7G4JwY6WXZBuw4oXm">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

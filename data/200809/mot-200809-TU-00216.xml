@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-TU-00216">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bohusbanan</title>
+        <author corresp="i-RDeqY3mXLBtUS9bixjvHS">av Lars Tysklind (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bohusbanan</title>
+          <idno type="rdwebb">GW02T216</idno>
+          <rs type="number">T216</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02T216/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02T216</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02T216</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/60398720-10EA-499A-94AD-02B3AB02A87C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-RDeqY3mXLBtUS9bixjvHS</idno>
+            <name>Lars Tysklind</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FHkoVXFA9nHzGfASJTVaAn" type="signed"/>
+        <correspContext corresp="i-FHkoVXFA9nHzGfASJTVaAn">
+          <note type="signatory" corresp="i-RDeqY3mXLBtUS9bixjvHS"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Lix7Qd415NYrLxwjTqdHRW">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-N2WiC58Zg3ePJhTjEUkaCC">
+          <date when="2008-09-25"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-9NnyLMTeMwgQFD9xXWFquU">
+          <date when="2008-09-25"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RwiMp6n7UKqbCKi2puoTok"/>
+        <correspContext corresp="i-RwiMp6n7UKqbCKi2puoTok">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

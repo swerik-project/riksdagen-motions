@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-CU-00357">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skuldsanering</title>
+        <author corresp="i-FTuxB98cDMBkWw68Y9RHEc i-TVwo4mCECu692GW3ntqQzo">av Anneli Särnblad och Kurt Kvarnström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skuldsanering</title>
+          <idno type="rdwebb">GW02C357</idno>
+          <rs type="number">C357</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02C357/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02C357</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02C357</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2A4B4ED7-3382-4453-B570-4E13830A5D86</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-FTuxB98cDMBkWw68Y9RHEc</idno>
+            <name>Anneli Särnblad</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TVwo4mCECu692GW3ntqQzo</idno>
+            <name>Kurt Kvarnström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GewA86x6UbbnSV3zY3NfhF" type="signed"/>
+        <correspContext corresp="i-GewA86x6UbbnSV3zY3NfhF">
+          <note type="signatory" corresp="i-FTuxB98cDMBkWw68Y9RHEc"/>
+          <note type="signatory" corresp="i-TVwo4mCECu692GW3ntqQzo"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-WUP8tQChpLSw6dEHn4RjxR">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9VUudW9x6F4S8qxfFsBzKC">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-3tNptYwPdeDSqwbm9PkqPV">
+          <date when="2008-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TN3zNuUjWYSWsQy4ezAdHo"/>
+        <correspContext corresp="i-TN3zNuUjWYSWsQy4ezAdHo">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

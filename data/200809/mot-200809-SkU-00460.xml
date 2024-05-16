@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-SkU-00460">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>FoU</title>
+        <author corresp="i-6kLJbGLpwB9hYxDrVrkcqF">av Karin Pilsäter (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>FoU</title>
+          <idno type="rdwebb">GW02Sk460</idno>
+          <rs type="number">Sk460</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Sk460/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Sk460</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Sk460</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/DCC8E7A1-68B2-4E33-9129-25B421FBDF1D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-6kLJbGLpwB9hYxDrVrkcqF</idno>
+            <name>Karin Pilsäter</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UXMnU21SQ6EaXDJdaamDAy" type="signed"/>
+        <correspContext corresp="i-UXMnU21SQ6EaXDJdaamDAy">
+          <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-LL6k5qh2wFSjLDHg5P7S2s">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BpUzsqkFPrMCSeEk24Cf8m">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-QnoTEh9H9XKSsZ8uarBknH">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RWACRXznWjgkgpvhJqaxK"/>
+        <correspContext corresp="i-RWACRXznWjgkgpvhJqaxK">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

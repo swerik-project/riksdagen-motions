@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-FöU-00217">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Marinens musikkår</title>
+        <author corresp="i-QqQ96z9hf4LQtMxJfJm6ZQ">av Jeppe Johnsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Marinens musikkår</title>
+          <idno type="rdwebb">GW02Fö217</idno>
+          <rs type="number">Fö217</rs>
+          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Fö217/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Fö217</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Fö217</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/98B2FA81-3B7C-4D84-890D-D0FEACE9DC3E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QqQ96z9hf4LQtMxJfJm6ZQ</idno>
+            <name>Jeppe Johnsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NSjHGqERv4WbGhPHnaa7bD" type="signed"/>
+        <correspContext corresp="i-NSjHGqERv4WbGhPHnaa7bD">
+          <note type="signatory" corresp="i-QqQ96z9hf4LQtMxJfJm6ZQ"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Smg7Zf4zRKSNfjyTmqD9Yt">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Y9uZHbfdVeQVTwsTQbZ9MR">
+          <date when="2008-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-8PwWJPr8jbwUQHu2RFSemD">
+          <date when="2008-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-4dAQw8f4mkRfgJDboVktAA"/>
+        <correspContext corresp="i-4dAQw8f4mkRfgJDboVktAA">
+          <ref type="assignedTo">Försvarsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

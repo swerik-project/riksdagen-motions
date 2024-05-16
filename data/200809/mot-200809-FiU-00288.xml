@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-FiU-00288">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Akademiska hus</title>
+        <author corresp="i-V19ff9MeDZhTGpv5xEprbu">av Leif Pagrotsky (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Akademiska hus</title>
+          <idno type="rdwebb">GW02Fi288</idno>
+          <rs type="number">Fi288</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Fi288/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Fi288</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Fi288</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/39DDB5DD-C7B5-491C-93AC-8A34D29DF873</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-V19ff9MeDZhTGpv5xEprbu</idno>
+            <name>Leif Pagrotsky</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3wk2VvkpsFGhZSHTtArauX" type="signed"/>
+        <correspContext corresp="i-3wk2VvkpsFGhZSHTtArauX">
+          <note type="signatory" corresp="i-V19ff9MeDZhTGpv5xEprbu"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-X29PPvzxgEEU6Y6mEUzHb4">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-96FsaB7zgaM2tmhwBvvPvD">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-BQGTx9iA2CAUs8NK5nJshk">
+          <date when="2008-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HAkMmsny395gpUUnXHD5xo"/>
+        <correspContext corresp="i-HAkMmsny395gpUUnXHD5xo">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

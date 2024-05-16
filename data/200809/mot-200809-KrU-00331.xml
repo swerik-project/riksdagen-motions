@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-KrU-00331">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Teckenspråksböcker</title>
+        <author corresp="i-T1N6sKNpePNbDTu7HWaHbd i-9nQnnjEYdDqQdpqWHaTczL">av Maria Kornevik Jakobsson och Per Lodenius (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Teckenspråksböcker</title>
+          <idno type="rdwebb">GW02Kr331</idno>
+          <rs type="number">Kr331</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02Kr331/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02Kr331</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02Kr331</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B4CE0654-09A5-42FA-8D79-FD1E95732167</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-T1N6sKNpePNbDTu7HWaHbd</idno>
+            <name>Maria Kornevik Jakobsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-9nQnnjEYdDqQdpqWHaTczL</idno>
+            <name>Per Lodenius</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4BE2KynCkUgQzVAepgLgPZ" type="signed"/>
+        <correspContext corresp="i-4BE2KynCkUgQzVAepgLgPZ">
+          <note type="signatory" corresp="i-T1N6sKNpePNbDTu7HWaHbd"/>
+          <note type="signatory" corresp="i-9nQnnjEYdDqQdpqWHaTczL"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-TyizS344Fr77dcpebVtB38">
+          <date when="2008-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SnfHwxjCy2QQXw6mRmDoeY">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-2z38zWHsXaRGWWvVPC6iPj">
+          <date when="2008-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Gx6e37FakRZYQ7pFwNuN2w"/>
+        <correspContext corresp="i-Gx6e37FakRZYQ7pFwNuN2w">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

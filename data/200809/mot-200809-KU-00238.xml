@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200809-KU-00238">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Personval</title>
+        <author corresp="i-Ev6Dx3pWj2WT32VGQpabaz i-MJ5jNxLePBwUGGvPE1LaWp">av Finn Bengtsson och Rolf K Nilsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Personval</title>
+          <idno type="rdwebb">GW02K238</idno>
+          <rs type="number">K238</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GW02K238/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GW02K238</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GW02K238</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/41812D07-772D-4CE8-81F9-01FAF0241E69</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ev6Dx3pWj2WT32VGQpabaz</idno>
+            <name>Finn Bengtsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-MJ5jNxLePBwUGGvPE1LaWp</idno>
+            <name>Rolf K Nilsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DVmSdeWuUDdpu5krJakGhL" type="signed"/>
+        <correspContext corresp="i-DVmSdeWuUDdpu5krJakGhL">
+          <note type="signatory" corresp="i-Ev6Dx3pWj2WT32VGQpabaz"/>
+          <note type="signatory" corresp="i-MJ5jNxLePBwUGGvPE1LaWp"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-GB4CqwD6tkswUWXGoHkW6T">
+          <date when="2008-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BWmW1TwRufBPQFKFcDuXUS">
+          <date when="2008-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-RTfaE6Y5Y3L5rJP9a6ovDf">
+          <date when="2008-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KajD4KxX6r7H2r3JQFAQvk"/>
+        <correspContext corresp="i-KajD4KxX6r7H2r3JQFAQvk">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

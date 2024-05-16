@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SkU-00825">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skattekonto</title>
+        <author corresp="i-7KBbQxMwamQ8aEQRXJRw1j i-7KBbQxMwamQ8aEQRXJRw1j">av Henrik Westman (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skattekonto</title>
+          <idno type="rdwebb">GO02Sk825</idno>
+          <rs type="number">Sk825</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GO02Sk825/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GO02Sk825</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GO02Sk825</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-7KBbQxMwamQ8aEQRXJRw1j</idno>
+            <name>Henrik Westman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-7KBbQxMwamQ8aEQRXJRw1j</idno>
+            <name>Henrik Westman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-7opD56pdJdGeZh9r4rKUx3" type="signed"/>
+        <correspContext corresp="i-7opD56pdJdGeZh9r4rKUx3">
+          <note type="signatory" corresp="i-7KBbQxMwamQ8aEQRXJRw1j"/>
+          <note type="signatory" corresp="i-7KBbQxMwamQ8aEQRXJRw1j"/>
+        </correspContext>
+        <correspAction type="reviewing" xml:id="i-KmoUraCRZHkbnhpXuDTT9W">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-SkNxVCjfMEvs91TigUvWDY">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-UfFT3gLtj2UEEZD1XeH3ro">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-bmihEdX8KZEA8XCpFBnyq">
+          <date when="2000-10-05"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-Szupk6dik6FEkiXq9aRwGH">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Xk3iZrv7GpFpApux4LqdF5">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-2QJbyfg5Qx3R5vjEJTdmAs">
+          <date when="2000-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GfPvNKr3kp4gWZp35rNezQ"/>
+        <correspContext corresp="i-GfPvNKr3kp4gWZp35rNezQ">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

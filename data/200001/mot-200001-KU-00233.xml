@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-KU-00233">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Medborgarbok</title>
+        <author corresp="i-Fa75ePV6JC2wN91aE4xcYD">av Stefan Attefall (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Medborgarbok</title>
+          <idno type="rdwebb">GO02K233</idno>
+          <rs type="number">K233</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GO02K233/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GO02K233</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GO02K233</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Fa75ePV6JC2wN91aE4xcYD</idno>
+            <name>Stefan Attefall</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GZ36RvR4YyEpR3nzkzjPBj" type="signed"/>
+        <correspContext corresp="i-GZ36RvR4YyEpR3nzkzjPBj">
+          <note type="signatory" corresp="i-Fa75ePV6JC2wN91aE4xcYD"/>
+        </correspContext>
+        <correspAction type="reviewing" xml:id="i-mBaGC1PG53XKbGxS9sgpX">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-HFguFg4TENSWZ2D2wmNif6">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-CnnB7bBtWF5Qzidk8mqxuq">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-71dyWJtP9Sq4GEc9yubiai">
+          <date when="2000-10-05"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-8YLuY9qLDUiGuTPvuu6qrk">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-PQtUbicLd2JeSBxzY8g8tc">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3iYifDrP5fiNy6kqZciUiQ">
+          <date when="2000-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9s5T9FrKeZip4M4Uh1DwMp"/>
+        <correspContext corresp="i-9s5T9FrKeZip4M4Uh1DwMp">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

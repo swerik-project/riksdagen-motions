@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-KU-00302">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Personval</title>
+        <author corresp="i-9Rr7JqtzHpZv84evqPH4D8 i-9Rr7JqtzHpZv84evqPH4D8">av Karin Enström (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Personval</title>
+          <idno type="rdwebb">GO02K302</idno>
+          <rs type="number">K302</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GO02K302/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GO02K302</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GO02K302</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-9Rr7JqtzHpZv84evqPH4D8</idno>
+            <name>Karin Enström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-9Rr7JqtzHpZv84evqPH4D8</idno>
+            <name>Karin Enström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-977buCtwYzfdPgX87tWN1r" type="signed"/>
+        <correspContext corresp="i-977buCtwYzfdPgX87tWN1r">
+          <note type="signatory" corresp="i-9Rr7JqtzHpZv84evqPH4D8"/>
+          <note type="signatory" corresp="i-9Rr7JqtzHpZv84evqPH4D8"/>
+        </correspContext>
+        <correspAction type="reviewing" xml:id="i-BAvSm7RCLR2MPpNVQyvXF1">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-3kV7WKv3S2FBPK9Ayfjdma">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-MGRVPMAHiNiADo4CxFp7zG">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-2KG9vwgVdJKfHS4msT1dvH">
+          <date when="2000-10-05"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-9kgw71arziqfPkCHiq7APv">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-XB2Un4ehwxuYawkvLNiMo7">
+          <date when="2000-10-11"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-p2VjXBJYUUuKgUPsychrc">
+          <date when="2000-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Mw6iXL48HNKF4VR9THyZrj"/>
+        <correspContext corresp="i-Mw6iXL48HNKF4VR9THyZrj">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--01772">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Talträningen i förskolan</title>
+        <author>Helge Hagberg och Margareta Hemmingsson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Talträningen i förskolan</title>
+          <idno type="rdwebb">G8021772</idno>
+          <rs type="number">1772</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G8021772/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G8021772</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G8021772</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-RqJoyqBtHk6qXvzc8mj8mb</idno>
+            <name>HELGE HAGBERG</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-GQzX6vWx4U9VMh4ci9D9yF</idno>
+            <name>MARGARETA HEMMINGSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TYgkq32FN8Z2XVpvpP5emR" type="signed"/>
+        <correspContext corresp="i-TYgkq32FN8Z2XVpvpP5emR">
+          <note type="signatory" corresp="i-RqJoyqBtHk6qXvzc8mj8mb"/>
+          <note type="signatory" corresp="i-GQzX6vWx4U9VMh4ci9D9yF"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

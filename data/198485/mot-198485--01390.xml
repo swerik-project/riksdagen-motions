@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--01390">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fiskerinäringen på ostkusten</title>
+        <author>Rolf Dahlberg och Håkan Stjernlöf </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fiskerinäringen på ostkusten</title>
+          <idno type="rdwebb">G8021390</idno>
+          <rs type="number">1390</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G8021390/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G8021390</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G8021390</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-FhdnsbdSgKWks7yKVAW7kg</idno>
+            <name>ROLF DAHLBERG</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-YB1fvm5e6JDCcaaUTXyb9W</idno>
+            <name>HÅKAN STJERNLÖF</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CKYiDBpPokkR3jR1DXoqrz" type="signed"/>
+        <correspContext corresp="i-CKYiDBpPokkR3jR1DXoqrz">
+          <note type="signatory" corresp="i-FhdnsbdSgKWks7yKVAW7kg"/>
+          <note type="signatory" corresp="i-YB1fvm5e6JDCcaaUTXyb9W"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

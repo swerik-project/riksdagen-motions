@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--01889">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ökad utbildning för präster och kyrkomusiker</title>
+        <author>Kersti Johansson och Ella Johnsson</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ökad utbildning för präster och kyrkomusiker</title>
+          <idno type="rdwebb">G8021889</idno>
+          <rs type="number">1889</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G8021889/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G8021889</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G8021889</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-X8h8DhaFnaqHz5Z9ujNuRe</idno>
+            <name>KERSTI JOHANSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-BxH3NSJM4BrovQLAHNuY8H</idno>
+            <name>ELLA JOHNSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LCbyMR1iXzYbKDCGhiCD5n" type="signed"/>
+        <correspContext corresp="i-LCbyMR1iXzYbKDCGhiCD5n">
+          <note type="signatory" corresp="i-X8h8DhaFnaqHz5Z9ujNuRe"/>
+          <note type="signatory" corresp="i-BxH3NSJM4BrovQLAHNuY8H"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

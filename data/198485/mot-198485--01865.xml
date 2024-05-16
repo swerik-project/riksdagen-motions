@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--01865">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Trafikutbildningen i skolan</title>
+        <author>Ivar Franzén och Rune Torwald </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Trafikutbildningen i skolan</title>
+          <idno type="rdwebb">G8021865</idno>
+          <rs type="number">1865</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G8021865/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G8021865</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G8021865</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-RM6v9N7kihqrGSRBsWe7g3</idno>
+            <name>IVAR FRANZÉN</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-SfSPRTjDUBfa6bxqEn6fDP</idno>
+            <name>RUNE TORWALD</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Fkgm7Y6Cc2j2359qaBXmuY" type="signed"/>
+        <correspContext corresp="i-Fkgm7Y6Cc2j2359qaBXmuY">
+          <note type="signatory" corresp="i-RM6v9N7kihqrGSRBsWe7g3"/>
+          <note type="signatory" corresp="i-SfSPRTjDUBfa6bxqEn6fDP"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

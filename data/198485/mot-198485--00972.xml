@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--00972">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Viss ändring i föräldrabalken</title>
+        <author>Per Stenmarck och Ewy Möller </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Viss ändring i föräldrabalken</title>
+          <idno type="rdwebb">G802972</idno>
+          <rs type="number">972</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G802972/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G802972</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G802972</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-L9ZkLhYiYiW2jxjciAaRcV</idno>
+            <name>PER STENMARCK</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-9X2XYXPBTEhd3dVshQ4PFJ</idno>
+            <name>EWY MÖLLER</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-M9XaqvX3aWekYFQFEEQdkL" type="signed"/>
+        <correspContext corresp="i-M9XaqvX3aWekYFQFEEQdkL">
+          <note type="signatory" corresp="i-L9ZkLhYiYiW2jxjciAaRcV"/>
+          <note type="signatory" corresp="i-9X2XYXPBTEhd3dVshQ4PFJ"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

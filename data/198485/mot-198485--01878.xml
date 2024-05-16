@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--01878">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tomtebodaskolans resurscenter</title>
+        <author>Carl-Henrik Hermansson och Eva Hjelmström </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Tomtebodaskolans resurscenter</title>
+          <idno type="rdwebb">G8021878</idno>
+          <rs type="number">1878</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G8021878/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G8021878</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G8021878</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-FiisfXYQcUpGymcboYQpoF</idno>
+            <name>C.-H. HERMANSSON</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-RPvXiWoVbPvNZBh8bxVvbB</idno>
+            <name>EVA HJELMSTRÖM</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GmnoCpMTCu4DR86h5gVTUR" type="signed"/>
+        <correspContext corresp="i-GmnoCpMTCu4DR86h5gVTUR">
+          <note type="signatory" corresp="i-FiisfXYQcUpGymcboYQpoF"/>
+          <note type="signatory" corresp="i-RPvXiWoVbPvNZBh8bxVvbB"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

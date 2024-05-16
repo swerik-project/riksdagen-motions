@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--01794">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Marknadsföringen av Strindbergs samlade verk</title>
+        <author>Lars Ahlmark och Elisabeth Fleetwood </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Marknadsföringen av Strindbergs samlade verk</title>
+          <idno type="rdwebb">G8021794</idno>
+          <rs type="number">1794</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G8021794/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G8021794</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G8021794</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-J66uUcstry6kTEhq3eK6EY</idno>
+            <name>LARS AHLMARK</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-XReDscGERZf5yzSxFeceD3</idno>
+            <name>ELISABETH FLEETWOOD</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Aq3uckgoUSZnd5NV7zmtpT" type="signed"/>
+        <correspContext corresp="i-Aq3uckgoUSZnd5NV7zmtpT">
+          <note type="signatory" corresp="i-J66uUcstry6kTEhq3eK6EY"/>
+          <note type="signatory" corresp="i-XReDscGERZf5yzSxFeceD3"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

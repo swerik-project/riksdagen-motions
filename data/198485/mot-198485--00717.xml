@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--00717">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sponsringen inom kulturlivet</title>
+        <author>Eva Hjelmström </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sponsringen inom kulturlivet</title>
+          <idno type="rdwebb">G802717</idno>
+          <rs type="number">717</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G802717/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G802717</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G802717</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-RPvXiWoVbPvNZBh8bxVvbB</idno>
+            <name>EVA HJELMSTRÖM</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-S3fHJXzP5WADejTa2JjFPD" type="signed"/>
+        <correspContext corresp="i-S3fHJXzP5WADejTa2JjFPD">
+          <note type="signatory" corresp="i-RPvXiWoVbPvNZBh8bxVvbB"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--01304">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ett statligt arkiv för blindskrift</title>
+        <author>Bengt Lindqvist</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ett statligt arkiv för blindskrift</title>
+          <idno type="rdwebb">G8021304</idno>
+          <rs type="number">1304</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G8021304/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G8021304</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G8021304</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TgNr7w5KMUTB7gX5TMgE3U</idno>
+            <name>BENGT LINDQVIST</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NAR9j44edQNjahiJgcWtFj" type="signed"/>
+        <correspContext corresp="i-NAR9j44edQNjahiJgcWtFj">
+          <note type="signatory" corresp="i-TgNr7w5KMUTB7gX5TMgE3U"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

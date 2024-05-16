@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--01312">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Verksamheten vid tandläkarhögskolan i Malmö</title>
+        <author>Olle Aulin och Margit Gennser </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Verksamheten vid tandläkarhögskolan i Malmö</title>
+          <idno type="rdwebb">G8021312</idno>
+          <rs type="number">1312</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G8021312/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G8021312</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G8021312</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-2xUKQzvWR1CyjDQD6YBgeC</idno>
+            <name>OLLE AULIN</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-KFLLBh5CxVpZkUZaHy3pAz</idno>
+            <name>MARGIT GENNSER</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-7jHhQ9nGEUmqcaKPM6ZhuB" type="signed"/>
+        <correspContext corresp="i-7jHhQ9nGEUmqcaKPM6ZhuB">
+          <note type="signatory" corresp="i-2xUKQzvWR1CyjDQD6YBgeC"/>
+          <note type="signatory" corresp="i-KFLLBh5CxVpZkUZaHy3pAz"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--01749">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ersättning för vård av sjuk anhörig</title>
+        <author>Margareta Persson m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ersättning för vård av sjuk anhörig</title>
+          <idno type="rdwebb">G8021749</idno>
+          <rs type="number">1749</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G8021749/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G8021749</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G8021749</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>MARGARETA PERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-yBn9sks2oSd1vBumfgwNQ</idno>
+            <name>BO NILSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4ozJvQj9byCZWcrYUrLEiR</idno>
+            <name>INGVAR BJÖRK</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RHGr3W25Y6RQZmLhjGotdK" type="signed"/>
+        <correspContext corresp="i-RHGr3W25Y6RQZmLhjGotdK">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-yBn9sks2oSd1vBumfgwNQ"/>
+          <note type="signatory" corresp="i-4ozJvQj9byCZWcrYUrLEiR"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

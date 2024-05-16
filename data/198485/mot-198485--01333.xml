@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--01333">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Den yrkestekniska högskoleutbildningen i Göteborgsregionen</title>
+        <author>Rune Johansson och Lars-Åke Larsson</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Den yrkestekniska högskoleutbildningen i Göteborgsregionen</title>
+          <idno type="rdwebb">G8021333</idno>
+          <rs type="number">1333</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G8021333/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G8021333</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G8021333</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>RUNE JOHANSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-MnGd2bfrDBzjjFFpMxRydk</idno>
+            <name>LARS-ÅKE LARSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RShV69tRLEsY4YvhghSHNp" type="signed"/>
+        <correspContext corresp="i-RShV69tRLEsY4YvhghSHNp">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-MnGd2bfrDBzjjFFpMxRydk"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--00350">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kyrkans markinnehav</title>
+        <author>Einar Larsson m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kyrkans markinnehav</title>
+          <idno type="rdwebb">G802350</idno>
+          <rs type="number">350</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G802350/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G802350</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G802350</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SU3GVVoAF9WBfUSn5nRE5m</idno>
+            <name>EINAR LARSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>KERSTIN ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-LTakVqpXykZkjsWbDm4VwD</idno>
+            <name>INGEMAR HALLENIUS</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-GoPG5SYP7B72kfnF4EmN5b</idno>
+            <name>LENNART BRUNANDER</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-DuMmQVGSnykDcj8ZwohCuA</idno>
+            <name>BERTIL JONASSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UxZ7M3rMiFW3pKt4ftfTYQ" type="signed"/>
+        <correspContext corresp="i-UxZ7M3rMiFW3pKt4ftfTYQ">
+          <note type="signatory" corresp="i-SU3GVVoAF9WBfUSn5nRE5m"/>
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-LTakVqpXykZkjsWbDm4VwD"/>
+          <note type="signatory" corresp="i-GoPG5SYP7B72kfnF4EmN5b"/>
+          <note type="signatory" corresp="i-DuMmQVGSnykDcj8ZwohCuA"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--01924">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hemläxorna i grundskolan</title>
+        <author>Björn Samuelson m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hemläxorna i grundskolan</title>
+          <idno type="rdwebb">G8021924</idno>
+          <rs type="number">1924</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G8021924/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G8021924</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G8021924</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>BJÖRN SAMUELSON</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-RPvXiWoVbPvNZBh8bxVvbB</idno>
+            <name>EVA HJELMSTRÖM</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-RbKNMUyo9hNCG3nSXBGQAq</idno>
+            <name>OSWALD SÖDERQVIST</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-EQSJnvt3y9r5wULtNbkTNu</idno>
+            <name>JÖRN SVENSSON</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Wdpv1YbqhcmCW9LzZZV2HK" type="signed"/>
+        <correspContext corresp="i-Wdpv1YbqhcmCW9LzZZV2HK">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-RPvXiWoVbPvNZBh8bxVvbB"/>
+          <note type="signatory" corresp="i-RbKNMUyo9hNCG3nSXBGQAq"/>
+          <note type="signatory" corresp="i-EQSJnvt3y9r5wULtNbkTNu"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

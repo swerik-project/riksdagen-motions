@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198485--00813">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Grundlagsfäst egendomsskydd</title>
+        <author>Mona Saint Cyr </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Grundlagsfäst egendomsskydd</title>
+          <idno type="rdwebb">G802813</idno>
+          <rs type="number">813</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G802813/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G802813</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G802813</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VKBXGHy4KWJbExz3QgCuVy</idno>
+            <name>MONA SAINT CYR</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-N8LnAdQ5tLS3S6WpYpuCQ6" type="signed"/>
+        <correspContext corresp="i-N8LnAdQ5tLS3S6WpYpuCQ6">
+          <note type="signatory" corresp="i-VKBXGHy4KWJbExz3QgCuVy"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

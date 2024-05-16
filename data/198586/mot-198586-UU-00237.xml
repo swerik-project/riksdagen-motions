@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-UU-00237">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Västra Sahara</title>
+        <author corresp="i-NTXLkayNLx1xKQsGQibNYd">Maria Leissner m. fl. (fp, c, vpk) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Västra Sahara</title>
+          <idno type="rdwebb">G902U237</idno>
+          <rs type="number">U237</rs>
+          <orgName type="comitteeAbbreviation">UU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902U237/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902U237</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902U237</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-NTXLkayNLx1xKQsGQibNYd</idno>
+            <name>Maria Leissner</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-S9emfaxXsmAywnkewYKSJ7</idno>
+            <name>Gunnel Jonäng</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-A2jgxgPRi11BxUsPb2uNmM</idno>
+            <name>Charlotte Branting</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>Hans Petersson</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JJJxqEf3SRLreEQWzLYeNe" type="signed"/>
+        <correspContext corresp="i-JJJxqEf3SRLreEQWzLYeNe">
+          <note type="signatory" corresp="i-NTXLkayNLx1xKQsGQibNYd"/>
+          <note type="signatory" corresp="i-S9emfaxXsmAywnkewYKSJ7"/>
+          <note type="signatory" corresp="i-A2jgxgPRi11BxUsPb2uNmM"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

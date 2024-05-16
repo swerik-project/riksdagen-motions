@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-LU-00241">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kontokort</title>
+        <author corresp="i-DRiwPcfjVYQdJiVawKhKpN">Erkki Tammenoksa m. fl. (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kontokort</title>
+          <idno type="rdwebb">G902L241</idno>
+          <rs type="number">L241</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902L241/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902L241</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902L241</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-DRiwPcfjVYQdJiVawKhKpN</idno>
+            <name>Erkki Tammenoksa</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-GiSwrvRSNBMuuGVLLZE3L9</idno>
+            <name>Roland Sundgren</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4ozJvQj9byCZWcrYUrLEiR</idno>
+            <name>Ingvar Björk</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Kzvfd2aDTyvb14SJBgLtft" type="signed"/>
+        <correspContext corresp="i-Kzvfd2aDTyvb14SJBgLtft">
+          <note type="signatory" corresp="i-DRiwPcfjVYQdJiVawKhKpN"/>
+          <note type="signatory" corresp="i-GiSwrvRSNBMuuGVLLZE3L9"/>
+          <note type="signatory" corresp="i-4ozJvQj9byCZWcrYUrLEiR"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

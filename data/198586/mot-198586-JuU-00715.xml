@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-JuU-00715">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vittnesersättningen</title>
+        <author corresp="i-EVpotEKqaW9CiU6NxacCQV">Tommy Franzén m. fl. (vpk) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vittnesersättningen</title>
+          <idno type="rdwebb">G902Ju715</idno>
+          <rs type="number">Ju715</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902Ju715/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902Ju715</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902Ju715</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-EVpotEKqaW9CiU6NxacCQV</idno>
+            <name>Tommy Franzén</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-EQSJnvt3y9r5wULtNbkTNu</idno>
+            <name>Jörn Svensson</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Eoor7chig2KkpNDt6f9K2V</idno>
+            <name>Tore Claeson</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-K1h36u2CsXes3oG1nKqcaY" type="signed"/>
+        <correspContext corresp="i-K1h36u2CsXes3oG1nKqcaY">
+          <note type="signatory" corresp="i-EVpotEKqaW9CiU6NxacCQV"/>
+          <note type="signatory" corresp="i-EQSJnvt3y9r5wULtNbkTNu"/>
+          <note type="signatory" corresp="i-Eoor7chig2KkpNDt6f9K2V"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

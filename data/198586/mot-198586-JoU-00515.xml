@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-JoU-00515">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Djurförsöken</title>
+        <author corresp="i-P8q9oyKjWzPdBEfQeD8Vwa i-EQSJnvt3y9r5wULtNbkTNu">Viola Claesson och Jörn Svensson (vpk) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Djurförsöken</title>
+          <idno type="rdwebb">G902Jo515</idno>
+          <rs type="number">Jo515</rs>
+          <orgName type="comitteeAbbreviation">JoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902Jo515/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902Jo515</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902Jo515</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-P8q9oyKjWzPdBEfQeD8Vwa</idno>
+            <name>Viola Claesson</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-EQSJnvt3y9r5wULtNbkTNu</idno>
+            <name>Jörn Svensson</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AR99uwi2nCc57Q3HdCPTEG" type="signed"/>
+        <correspContext corresp="i-AR99uwi2nCc57Q3HdCPTEG">
+          <note type="signatory" corresp="i-P8q9oyKjWzPdBEfQeD8Vwa"/>
+          <note type="signatory" corresp="i-EQSJnvt3y9r5wULtNbkTNu"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

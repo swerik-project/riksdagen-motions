@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-tu-00428">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lotstvånget</title>
+        <author corresp="i-6yqy4MT1VQVAce5QKVqtmE i-HpykFSDEKjFd3AQrjBW2xc">Siri Häggmark och Sonja Rembo (m) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lotstvånget</title>
+          <idno type="rdwebb">G902t428</idno>
+          <rs type="number">t428</rs>
+          <orgName type="comitteeAbbreviation">tu</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902t428/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902t428</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902t428</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-6yqy4MT1VQVAce5QKVqtmE</idno>
+            <name>Siri Häggmark</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-HpykFSDEKjFd3AQrjBW2xc</idno>
+            <name>Sonja Rembo</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-D9e4WReYVTvGRpkuVMaMMK" type="signed"/>
+        <correspContext corresp="i-D9e4WReYVTvGRpkuVMaMMK">
+          <note type="signatory" corresp="i-6yqy4MT1VQVAce5QKVqtmE"/>
+          <note type="signatory" corresp="i-HpykFSDEKjFd3AQrjBW2xc"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-AU-00746">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Översyn av främjandelagen</title>
+        <author corresp="r-0 i-9q7rZgxi59wWj9sHREqvJT">Margareta Persson och Barbro Evermo (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Översyn av främjandelagen</title>
+          <idno type="rdwebb">G902A746</idno>
+          <rs type="number">A746</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902A746/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902A746</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902A746</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>Margareta Persson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-9q7rZgxi59wWj9sHREqvJT</idno>
+            <name>Barbro Evermo</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8dox3kPV9zsyMS3sQmayvf" type="signed"/>
+        <correspContext corresp="i-8dox3kPV9zsyMS3sQmayvf">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-9q7rZgxi59wWj9sHREqvJT"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

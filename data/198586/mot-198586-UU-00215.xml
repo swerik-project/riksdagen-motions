@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-UU-00215">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Folkrörelsestyrt utvecklingsbistånd</title>
+        <author corresp="r-0 i-UVAgeLYUkfmr8A9VVChgiV">Lennart Pettersson och Kurt Ove Johansson (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Folkrörelsestyrt utvecklingsbistånd</title>
+          <idno type="rdwebb">G902U215</idno>
+          <rs type="number">U215</rs>
+          <orgName type="comitteeAbbreviation">UU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902U215/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902U215</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902U215</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>Lennart Pettersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-UVAgeLYUkfmr8A9VVChgiV</idno>
+            <name>Kurt Ove Johansson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Gos9oom7oBofeENh2aPQpN" type="signed"/>
+        <correspContext corresp="i-Gos9oom7oBofeENh2aPQpN">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-UVAgeLYUkfmr8A9VVChgiV"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

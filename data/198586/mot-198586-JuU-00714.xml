@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-JuU-00714">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vittnesersättningarna</title>
+        <author corresp="i-GiSwrvRSNBMuuGVLLZE3L9 i-YSbqmgxvoUpXhwosS1J39k">Roland Sundgren och Olle Göransson (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vittnesersättningarna</title>
+          <idno type="rdwebb">G902Ju714</idno>
+          <rs type="number">Ju714</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902Ju714/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902Ju714</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902Ju714</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GiSwrvRSNBMuuGVLLZE3L9</idno>
+            <name>Roland Sundgren</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-YSbqmgxvoUpXhwosS1J39k</idno>
+            <name>Olle Göransson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VS5Z1eFhLCBLMaSXfm6qrn" type="signed"/>
+        <correspContext corresp="i-VS5Z1eFhLCBLMaSXfm6qrn">
+          <note type="signatory" corresp="i-GiSwrvRSNBMuuGVLLZE3L9"/>
+          <note type="signatory" corresp="i-YSbqmgxvoUpXhwosS1J39k"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

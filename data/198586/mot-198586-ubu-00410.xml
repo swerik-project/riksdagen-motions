@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-ubu-00410">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Svenska för invandrare</title>
+        <author corresp="i-C5JetE1KcaA3AEzNVRe5CG i-5JKt3JHcrr8pme3Wk6qvJA">Ulla-Britt Åbark och Hans Göran Franck (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Svenska för invandrare</title>
+          <idno type="rdwebb">G902ub410</idno>
+          <rs type="number">ub410</rs>
+          <orgName type="comitteeAbbreviation">ubu</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902ub410/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902ub410</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902ub410</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-C5JetE1KcaA3AEzNVRe5CG</idno>
+            <name>Ulla-Britt Åbark</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-5JKt3JHcrr8pme3Wk6qvJA</idno>
+            <name>Hans Göran Franck</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XRQYCXoagcLiViPkU8zPJq" type="signed"/>
+        <correspContext corresp="i-XRQYCXoagcLiViPkU8zPJq">
+          <note type="signatory" corresp="i-C5JetE1KcaA3AEzNVRe5CG"/>
+          <note type="signatory" corresp="i-5JKt3JHcrr8pme3Wk6qvJA"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

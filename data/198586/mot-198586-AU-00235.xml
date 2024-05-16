@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-AU-00235">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>AMS-arbetsplatsen på Visingsö</title>
+        <author corresp="i-RCTjiWPTWsdbhU76ZmcCUr i-EkHKGEpr4tEC2BogFc76Gt">Rune Backlund och Nils Nordh (c, s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>AMS-arbetsplatsen på Visingsö</title>
+          <idno type="rdwebb">G902A235</idno>
+          <rs type="number">A235</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902A235/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902A235</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902A235</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-RCTjiWPTWsdbhU76ZmcCUr</idno>
+            <name>Rune Backlund</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-EkHKGEpr4tEC2BogFc76Gt</idno>
+            <name>Nils Nordh</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DEKcCVXXJgjJtnaPSwp9aS" type="signed"/>
+        <correspContext corresp="i-DEKcCVXXJgjJtnaPSwp9aS">
+          <note type="signatory" corresp="i-RCTjiWPTWsdbhU76ZmcCUr"/>
+          <note type="signatory" corresp="i-EkHKGEpr4tEC2BogFc76Gt"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

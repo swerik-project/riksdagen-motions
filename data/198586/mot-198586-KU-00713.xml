@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-KU-00713">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ändrad tidpunkt för kyrkofullmäktigeval</title>
+        <author corresp="i-Rb9LcfDrAi5Y6rVKoFXtAg i-RqJoyqBtHk6qXvzc8mj8mb">Owe Andréasson och Helge Hagberg (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ändrad tidpunkt för kyrkofullmäktigeval</title>
+          <idno type="rdwebb">G902K713</idno>
+          <rs type="number">K713</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902K713/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902K713</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902K713</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Rb9LcfDrAi5Y6rVKoFXtAg</idno>
+            <name>Owe Andréasson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-RqJoyqBtHk6qXvzc8mj8mb</idno>
+            <name>Helge Hagberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Az41zkczvBrUve8zJK2XFp" type="signed"/>
+        <correspContext corresp="i-Az41zkczvBrUve8zJK2XFp">
+          <note type="signatory" corresp="i-Rb9LcfDrAi5Y6rVKoFXtAg"/>
+          <note type="signatory" corresp="i-RqJoyqBtHk6qXvzc8mj8mb"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

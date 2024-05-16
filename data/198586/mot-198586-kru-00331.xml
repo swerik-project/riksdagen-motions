@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-kru-00331">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Närradions avgifter m. m.</title>
+        <author corresp="i-N6NqRjrNpzybfJmYWdhfdW i-NJ3F1x3TAusoKGWhKxXUFd">Olle Grahn och Bengt Rosén (fp) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Närradions avgifter m. m.</title>
+          <idno type="rdwebb">G902kr331</idno>
+          <rs type="number">kr331</rs>
+          <orgName type="comitteeAbbreviation">kru</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902kr331/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902kr331</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902kr331</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-N6NqRjrNpzybfJmYWdhfdW</idno>
+            <name>Olle Grahn</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-NJ3F1x3TAusoKGWhKxXUFd</idno>
+            <name>Bengt Rosén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WpHcC2wWiP3K7r7PU2AwLt" type="signed"/>
+        <correspContext corresp="i-WpHcC2wWiP3K7r7PU2AwLt">
+          <note type="signatory" corresp="i-N6NqRjrNpzybfJmYWdhfdW"/>
+          <note type="signatory" corresp="i-NJ3F1x3TAusoKGWhKxXUFd"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

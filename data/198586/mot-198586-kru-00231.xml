@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-kru-00231">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cramérbalettens bevarande</title>
+        <author corresp="i-VtWQs1mfimPMyjw5HVXR4i i-U9We27C3x3JviFqbQPuj3d">Inga Lantz och Alexander Chrisopoulos (vpk) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Cramérbalettens bevarande</title>
+          <idno type="rdwebb">G902kr231</idno>
+          <rs type="number">kr231</rs>
+          <orgName type="comitteeAbbreviation">kru</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902kr231/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902kr231</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902kr231</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VtWQs1mfimPMyjw5HVXR4i</idno>
+            <name>Inga Lantz</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-U9We27C3x3JviFqbQPuj3d</idno>
+            <name>Alexander Chrisopoulos</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AfUv2Z8q7kwe7xZ6tEJHGx" type="signed"/>
+        <correspContext corresp="i-AfUv2Z8q7kwe7xZ6tEJHGx">
+          <note type="signatory" corresp="i-VtWQs1mfimPMyjw5HVXR4i"/>
+          <note type="signatory" corresp="i-U9We27C3x3JviFqbQPuj3d"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

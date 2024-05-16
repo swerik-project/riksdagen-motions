@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-ubu-00722">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Glesbygdsforskningen</title>
+        <author corresp="i-QXf2YRbFUcZE7jDnU6Y7tU i-Xt8b1sdN9ngjPgtxjLqvKu">Ove Karlsson och Marianne Stålberg (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Glesbygdsforskningen</title>
+          <idno type="rdwebb">G902ub722</idno>
+          <rs type="number">ub722</rs>
+          <orgName type="comitteeAbbreviation">ubu</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902ub722/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902ub722</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902ub722</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QXf2YRbFUcZE7jDnU6Y7tU</idno>
+            <name>Ove Karlsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-Xt8b1sdN9ngjPgtxjLqvKu</idno>
+            <name>Marianne Stålberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Px4RRcuxv4P1S42acSo2Fg" type="signed"/>
+        <correspContext corresp="i-Px4RRcuxv4P1S42acSo2Fg">
+          <note type="signatory" corresp="i-QXf2YRbFUcZE7jDnU6Y7tU"/>
+          <note type="signatory" corresp="i-Xt8b1sdN9ngjPgtxjLqvKu"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

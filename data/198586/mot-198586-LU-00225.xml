@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-LU-00225">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prisinformationen i dagligvaruhandeln</title>
+        <author corresp="i-UVAgeLYUkfmr8A9VVChgiV i-6qjD2tsSCtsrmXQjy7mtCJ">Kurt Ove Johansson och Lars-Erik Lövdén (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Prisinformationen i dagligvaruhandeln</title>
+          <idno type="rdwebb">G902L225</idno>
+          <rs type="number">L225</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902L225/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902L225</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902L225</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UVAgeLYUkfmr8A9VVChgiV</idno>
+            <name>Kurt Ove Johansson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-6qjD2tsSCtsrmXQjy7mtCJ</idno>
+            <name>Lars-Erik Lövdén</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UEwtesTMK17XaSJJEoUF8S" type="signed"/>
+        <correspContext corresp="i-UEwtesTMK17XaSJJEoUF8S">
+          <note type="signatory" corresp="i-UVAgeLYUkfmr8A9VVChgiV"/>
+          <note type="signatory" corresp="i-6qjD2tsSCtsrmXQjy7mtCJ"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

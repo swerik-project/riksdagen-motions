@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-BoU-00403">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hyrorna för affärslokaler</title>
+        <author corresp="i-BFARkU8JBdh3WvC4Snrf4s i-DZnrxW2kSEVtagNyHZpyyH">Hans Pettersson i Helsingborg och Bengt Silfverstrand (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hyrorna för affärslokaler</title>
+          <idno type="rdwebb">G902Bo403</idno>
+          <rs type="number">Bo403</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902Bo403/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902Bo403</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902Bo403</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BFARkU8JBdh3WvC4Snrf4s</idno>
+            <name>Hans Pettersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-DZnrxW2kSEVtagNyHZpyyH</idno>
+            <name>Bengt Silfverstrand</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-23Mu4ftuhWv3JP5vvkVWd8" type="signed"/>
+        <correspContext corresp="i-23Mu4ftuhWv3JP5vvkVWd8">
+          <note type="signatory" corresp="i-BFARkU8JBdh3WvC4Snrf4s"/>
+          <note type="signatory" corresp="i-DZnrxW2kSEVtagNyHZpyyH"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

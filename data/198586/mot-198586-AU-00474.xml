@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198586-AU-00474">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Insatser för Västernorrlands län</title>
+        <author corresp="r-0 i-TX8UjKrUpUeZgE2dqKJCFc">Martin Olsson och Görel Thurdin (c) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Insatser för Västernorrlands län</title>
+          <idno type="rdwebb">G902A474</idno>
+          <rs type="number">A474</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G902A474/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G902A474</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G902A474</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>Martin Olsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-TX8UjKrUpUeZgE2dqKJCFc</idno>
+            <name>Görel Thurdin</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BmzWDgzsHzKmPtsvfTtqQg" type="signed"/>
+        <correspContext corresp="i-BmzWDgzsHzKmPtsvfTtqQg">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-TX8UjKrUpUeZgE2dqKJCFc"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

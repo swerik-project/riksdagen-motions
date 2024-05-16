@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1974--01440">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående trafikpolitiken.</title>
+        <author>av herr Lothigius m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående trafikpolitiken.</title>
+          <idno type="rdwebb">FX021440</idno>
+          <rs type="number">1440</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FX021440/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FX021440</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FX021440</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>LH. LOTHIGIUS</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-PjjxQYR5UbxSEEqwa2s5mr</idno>
+            <name>L. ARNE ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-3zzz13sYF8R3yasCzbSJXe</idno>
+            <name>WIGGO KOMSTEDT</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-SQtu6e17zrLCR9EnUwqy7A</idno>
+            <name>GUNNAR JOHANSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UGVqnqZU2M9k4EovF3ginS" type="signed"/>
+        <correspContext corresp="i-UGVqnqZU2M9k4EovF3ginS">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-PjjxQYR5UbxSEEqwa2s5mr"/>
+          <note type="signatory" corresp="i-3zzz13sYF8R3yasCzbSJXe"/>
+          <note type="signatory" corresp="i-SQtu6e17zrLCR9EnUwqy7A"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

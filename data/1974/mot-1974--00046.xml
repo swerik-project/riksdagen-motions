@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1974--00046">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående renhållningen av gångbanor.</title>
+        <author>av herr Henmark</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående renhållningen av gångbanor.</title>
+          <idno type="rdwebb">FX0246</idno>
+          <rs type="number">46</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FX0246/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FX0246</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FX0246</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TkQYUfaqKqtshh9bgzavdb</idno>
+            <name>MARTIN HENMARK</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-T1LP69xQMch1tvagrkBaZx" type="signed"/>
+        <correspContext corresp="i-T1LP69xQMch1tvagrkBaZx">
+          <note type="signatory" corresp="i-TkQYUfaqKqtshh9bgzavdb"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

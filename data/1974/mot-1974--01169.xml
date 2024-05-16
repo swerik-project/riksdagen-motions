@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1974--01169">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående kronofogdeorganisationen i Västernorrlands län.</title>
+        <author>av herrar Nordin och Sellgren</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående kronofogdeorganisationen i Västernorrlands län.</title>
+          <idno type="rdwebb">FX021169</idno>
+          <rs type="number">1169</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FX021169/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FX021169</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FX021169</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-8XUQMZkcTy5UrLLAFGh5Ah</idno>
+            <name>SVEN-E. NORDIN</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-y57aqt6DptStUpkWh6h5L</idno>
+            <name>ROLF SELLGREN</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KQp5fP1UFL6hhvL7QVNPjs" type="signed"/>
+        <correspContext corresp="i-KQp5fP1UFL6hhvL7QVNPjs">
+          <note type="signatory" corresp="i-8XUQMZkcTy5UrLLAFGh5Ah"/>
+          <note type="signatory" corresp="i-y57aqt6DptStUpkWh6h5L"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

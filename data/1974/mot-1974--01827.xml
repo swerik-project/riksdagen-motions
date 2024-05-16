@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1974--01827">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>i anledning av Kungl. Maj:ts proposition 1974:107 angående intrång</title>
+        <author>av herr Wachtmeister i Johannishus m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>i anledning av Kungl. Maj:ts proposition 1974:107 angående intrång</title>
+          <idno type="rdwebb">FX021827</idno>
+          <rs type="number">1827</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FX021827/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FX021827</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FX021827</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>HANS WACHTMEISTER</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-BjNiod8wotUabh41ByfhRU</idno>
+            <name>BO TURESSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-QQjz7bn6czWU6491kCicK9</idno>
+            <name>GEORG DANELL</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>ni</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QLgS9XtYYCqjr1iXhNRtap" type="signed"/>
+        <correspContext corresp="i-QLgS9XtYYCqjr1iXhNRtap">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-BjNiod8wotUabh41ByfhRU"/>
+          <note type="signatory" corresp="i-QQjz7bn6czWU6491kCicK9"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

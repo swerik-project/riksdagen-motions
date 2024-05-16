@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1974--01254">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om information till personer som gripits av polis.</title>
+        <author>av herrar Åsling och Lindahl i Lidingö</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om information till personer som gripits av polis.</title>
+          <idno type="rdwebb">FX021254</idno>
+          <rs type="number">1254</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FX021254/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FX021254</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FX021254</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-7oBpdKNLc3LYD8YF1233E6</idno>
+            <name>A. GERNANDT</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MbjYPXm1N1te3FjmfuMv1G" type="signed"/>
+        <correspContext corresp="i-MbjYPXm1N1te3FjmfuMv1G">
+          <note type="signatory" corresp="i-7oBpdKNLc3LYD8YF1233E6"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

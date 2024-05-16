@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1974--00901">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om en förbättrad arbetslöshetsstatistik.</title>
+        <author>av herr Bengtsson i Landskrona </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om en förbättrad arbetslöshetsstatistik.</title>
+          <idno type="rdwebb">FX02901</idno>
+          <rs type="number">901</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FX02901/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FX02901</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FX02901</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9b5dygstFooeZAKETPPzo2</idno>
+            <name>HUGO BENGTSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RB6QCH7uf2kHqfNrHRUrGt" type="signed"/>
+        <correspContext corresp="i-RB6QCH7uf2kHqfNrHRUrGt">
+          <note type="signatory" corresp="i-9b5dygstFooeZAKETPPzo2"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1974--00675">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om vidgad rätt till änkepension.</title>
+        <author>av fru Jacobsson och fru Diesen </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om vidgad rätt till änkepension.</title>
+          <idno type="rdwebb">FX02675</idno>
+          <rs type="number">675</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FX02675/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FX02675</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FX02675</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-B3z5KLtSxEyGCKFUSRo6dn</idno>
+            <name>ULLA JACOBSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-TAQ95hRXzNuydoAADkaDJJ</idno>
+            <name>INGRID DIESEN</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DNLg29ixJS47mfxA9zUP8w" type="signed"/>
+        <correspContext corresp="i-DNLg29ixJS47mfxA9zUP8w">
+          <note type="signatory" corresp="i-B3z5KLtSxEyGCKFUSRo6dn"/>
+          <note type="signatory" corresp="i-TAQ95hRXzNuydoAADkaDJJ"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

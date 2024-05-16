@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1975--01003">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om Konungens ställning i förhållande till svenska kyrkan.</title>
+        <author>av herrar Nordstrandh och Wemer i Malmö </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om Konungens ställning i förhållande till svenska kyrkan.</title>
+          <idno type="rdwebb">FY021003</idno>
+          <rs type="number">1003</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FY021003/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FY021003</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FY021003</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AUocZy5YDqXmCwrRq6eGaW</idno>
+            <name>MÅRTEN WERNER</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PVbqsHSeB9HPRd2FyBGro9" type="signed"/>
+        <correspContext corresp="i-PVbqsHSeB9HPRd2FyBGro9">
+          <note type="signatory" corresp="i-AUocZy5YDqXmCwrRq6eGaW"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

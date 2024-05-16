@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1975--01582">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om forskning för ökad tillgäng till skogsråvara.</title>
+        <author>av herr Persson i Karlstad m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om forskning för ökad tillgäng till skogsråvara.</title>
+          <idno type="rdwebb">FY021582</idno>
+          <rs type="number">1582</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FY021582/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FY021582</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FY021582</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>MAGNUS PERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-63YisRvQLe9EokAsFsa8Zt</idno>
+            <name>KARL-GUST. ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-AUS3xJ5viRWXYnDpt66BXU</idno>
+            <name>HOLGER MOSSBERG</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Jpn1NU7KSBJxLmELtdUYZu" type="signed"/>
+        <correspContext corresp="i-Jpn1NU7KSBJxLmELtdUYZu">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-63YisRvQLe9EokAsFsa8Zt"/>
+          <note type="signatory" corresp="i-AUS3xJ5viRWXYnDpt66BXU"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

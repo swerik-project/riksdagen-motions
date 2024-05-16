@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1975--00008">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående medlemskap i politiskt parti eller religiöst samfund.</title>
+        <author>av herr Sjöholm</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående medlemskap i politiskt parti eller religiöst samfund.</title>
+          <idno type="rdwebb">FY028</idno>
+          <rs type="number">8</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FY028/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FY028</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FY028</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-MJi2EpNpLStR2Rke7Db78j</idno>
+            <name>STEN SJÖHOLM</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MdE1fLwXY2NnsGeAuj8axQ" type="signed"/>
+        <correspContext corresp="i-MdE1fLwXY2NnsGeAuj8axQ">
+          <note type="signatory" corresp="i-MJi2EpNpLStR2Rke7Db78j"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

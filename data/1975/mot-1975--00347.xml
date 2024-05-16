@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1975--00347">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om den psykiatriska vården.</title>
+        <author>av fru Hjalmarsson och fru Sundström </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om den psykiatriska vården.</title>
+          <idno type="rdwebb">FY02347</idno>
+          <rs type="number">347</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FY02347/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FY02347</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FY02347</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-SM5drZdTakSfdcuMz6raDu</idno>
+            <name>BIRGIT HJALMARSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-V1TeofrvsayeB1A8AwjNWW</idno>
+            <name>GUDRUN SUNDSTRÖM</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-M7vbkAxct3WouZL6kSnyW3" type="signed"/>
+        <correspContext corresp="i-M7vbkAxct3WouZL6kSnyW3">
+          <note type="signatory" corresp="i-SM5drZdTakSfdcuMz6raDu"/>
+          <note type="signatory" corresp="i-V1TeofrvsayeB1A8AwjNWW"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

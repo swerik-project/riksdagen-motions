@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1975--01352">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om en formhögskola i Borås.</title>
+        <author>av herr Carlstein och fru Hörnlund </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om en formhögskola i Borås.</title>
+          <idno type="rdwebb">FY021352</idno>
+          <rs type="number">1352</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FY021352/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FY021352</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FY021352</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Un2MPRTWRPWQ7aGPA42b56</idno>
+            <name>RUNE CARLSTEIN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-328U5PMXTxVANgAj6PLmnT</idno>
+            <name>GÖRDIS HÖRNLUND</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2LYxkRAWPwXKy33DD8821E" type="signed"/>
+        <correspContext corresp="i-2LYxkRAWPwXKy33DD8821E">
+          <note type="signatory" corresp="i-Un2MPRTWRPWQ7aGPA42b56"/>
+          <note type="signatory" corresp="i-328U5PMXTxVANgAj6PLmnT"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

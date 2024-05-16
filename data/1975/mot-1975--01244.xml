@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1975--01244">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om akupunkturbehandling.</title>
+        <author>av herr Gernandt </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om akupunkturbehandling.</title>
+          <idno type="rdwebb">FY021244</idno>
+          <rs type="number">1244</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FY021244/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FY021244</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FY021244</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-7oBpdKNLc3LYD8YF1233E6</idno>
+            <name>ANDERS GERNANDT</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8WBax9S1KJ8GBn1hfg4LMU" type="signed"/>
+        <correspContext corresp="i-8WBax9S1KJ8GBn1hfg4LMU">
+          <note type="signatory" corresp="i-7oBpdKNLc3LYD8YF1233E6"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

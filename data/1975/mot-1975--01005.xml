@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1975--01005">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om rubriceringen i riksdagstrycket av propositioner och motioner.</title>
+        <author>av herr Olsson i Kil</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om rubriceringen i riksdagstrycket av propositioner och motioner.</title>
+          <idno type="rdwebb">FY021005</idno>
+          <rs type="number">1005</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FY021005/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FY021005</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FY021005</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XGgCQfA3Kci4uNfiMH5wvj</idno>
+            <name>BILLY OLSSON</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-ALPPsqY4R6SLynGRdEBgEY" type="signed"/>
+        <correspContext corresp="i-ALPPsqY4R6SLynGRdEBgEY">
+          <note type="signatory" corresp="i-XGgCQfA3Kci4uNfiMH5wvj"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

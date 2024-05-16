@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1975--00710">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om skattelindring för person som ej tillhör svenska kyrkan.</title>
+        <author>av fru Thorsson</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om skattelindring för person som ej tillhör svenska kyrkan.</title>
+          <idno type="rdwebb">FY02710</idno>
+          <rs type="number">710</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FY02710/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FY02710</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FY02710</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-GCXDiYHk8XQHSVvqFgbEFv</idno>
+            <name>INGA THORSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VGj5jveAGecS2XTA5A6RL9" type="signed"/>
+        <correspContext corresp="i-VGj5jveAGecS2XTA5A6RL9">
+          <note type="signatory" corresp="i-GCXDiYHk8XQHSVvqFgbEFv"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

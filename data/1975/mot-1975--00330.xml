@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1975--00330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om utvecklingsbistånd till Peru.</title>
+        <author>av herrar Lundgren och Gustavsson i Nässjö </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om utvecklingsbistånd till Peru.</title>
+          <idno type="rdwebb">FY02330</idno>
+          <rs type="number">330</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FY02330/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FY02330</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FY02330</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-YQKf6y27VpFtuJBLjE1Cf</idno>
+            <name>CARL-ERIC LUNDGREN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-3sd3coveTcEfybUorJpXWf</idno>
+            <name>ÅKE GUSTAVSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Pw6AoBBQzCkgpz6ES8EFAs" type="signed"/>
+        <correspContext corresp="i-Pw6AoBBQzCkgpz6ES8EFAs">
+          <note type="signatory" corresp="i-YQKf6y27VpFtuJBLjE1Cf"/>
+          <note type="signatory" corresp="i-3sd3coveTcEfybUorJpXWf"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

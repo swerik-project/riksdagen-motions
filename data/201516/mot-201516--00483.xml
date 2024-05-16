@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201516--00483">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2015/16:483</title>
+          <idno type="rdwebb">H302483</idno>
+          <rs type="number">483</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H302483/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H302483</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H302483</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-GJLL78ePjJhSXVWBYyRW8t</idno>
+            <name>Margareta Cederfelt</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-RNLiVMpCYiPgzxr2ERSxMt</idno>
+            <name>Lars-Arne Staxäng</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="dismissed"/>
+        <correspAction xml:id="i-2SqBbfu9mXG9CgGwvcxMfS" type="signed"/>
+        <correspContext corresp="i-2SqBbfu9mXG9CgGwvcxMfS">
+          <note type="signatory" corresp="i-GJLL78ePjJhSXVWBYyRW8t"/>
+          <note type="signatory" corresp="i-RNLiVMpCYiPgzxr2ERSxMt"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-7XqXJzqgdhscbe1TpQNKGW">
+          <date when="2015-10-01"/>
+          <time when="16:05:42"/>
+        </correspAction>
+        <correspAction type="expired" xml:id="i-G5MgxaAwUHf7JP5PcNqvsC">
+          <date when="2015-10-06"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

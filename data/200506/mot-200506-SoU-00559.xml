@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00559">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Patientens rätt till information</title>
+        <author corresp="i-Ybw8JnrmHGCsqpipBke8a7 i-MerwJjA5PYKs4QYtgsoxJE">av Mikael Oscarsson och Erling Wälivaara (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Patientens rätt till information</title>
+          <idno type="rdwebb">GT02So559</idno>
+          <rs type="number">So559</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02So559/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02So559</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02So559</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/16C9843B-D236-4A00-BFE3-DA2B94D11792</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ybw8JnrmHGCsqpipBke8a7</idno>
+            <name>Mikael Oscarsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-MerwJjA5PYKs4QYtgsoxJE</idno>
+            <name>Erling Wälivaara</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Dkaqh1qKfxpXkYH9qAVFGx" type="signed"/>
+        <correspContext corresp="i-Dkaqh1qKfxpXkYH9qAVFGx">
+          <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
+          <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Q1qUQkFbkkyYVUSiRQCzuu">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-WTR7BRTHpY7VXiM2Ua7grT">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-ChqpirD2KEXY4BiWj2noz3">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Lx9j8s4bigzrcDZQKFEHWW"/>
+        <correspContext corresp="i-Lx9j8s4bigzrcDZQKFEHWW">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

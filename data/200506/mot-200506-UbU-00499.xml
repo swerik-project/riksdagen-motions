@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00499">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sommarlovet</title>
+        <author corresp="i-LpTxkBd4YXu6ChW6t8S9rX i-KxTfuBAJiVYpyHQUVaUndu">av Christer Skoog och Kerstin Andersson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sommarlovet</title>
+          <idno type="rdwebb">GT02Ub499</idno>
+          <rs type="number">Ub499</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Ub499/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Ub499</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Ub499</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/6AE69D66-D9ED-4855-8C85-05C18FF8DCDA</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-LpTxkBd4YXu6ChW6t8S9rX</idno>
+            <name>Christer Skoog</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-KxTfuBAJiVYpyHQUVaUndu</idno>
+            <name>Kerstin Andersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NV1QJfTdEEZEGwf8in2YtW" type="signed"/>
+        <correspContext corresp="i-NV1QJfTdEEZEGwf8in2YtW">
+          <note type="signatory" corresp="i-LpTxkBd4YXu6ChW6t8S9rX"/>
+          <note type="signatory" corresp="i-KxTfuBAJiVYpyHQUVaUndu"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LhwEvak3rNGKDJbMXb5eKN">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-J4mLSjxFnyDxW4WzSLS7sJ">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GqboTRjqDR4HZ6MW9P13j3">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-CceP7S5JgnFp2vV5igX31t"/>
+        <correspContext corresp="i-CceP7S5JgnFp2vV5igX31t">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-BoU-00203">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Generationsboende</title>
+        <author corresp="i-H4Edsjz4cmdv9sJHCLVnfS">av Catharina Bråkenhielm (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Generationsboende</title>
+          <idno type="rdwebb">GT02Bo203</idno>
+          <rs type="number">Bo203</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Bo203/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Bo203</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Bo203</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B7FFFFC2-EE5B-4166-97AC-257ECB93F3EA</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-H4Edsjz4cmdv9sJHCLVnfS</idno>
+            <name>Catharina Bråkenhielm</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NuabrBCUnoJyK6DusjijAw" type="signed"/>
+        <correspContext corresp="i-NuabrBCUnoJyK6DusjijAw">
+          <note type="signatory" corresp="i-H4Edsjz4cmdv9sJHCLVnfS"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-SLCU2j4Q9zeC4hQAmmcJLJ">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Y7uTZ3Mcv2aGCv6TY2CX8e">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GtxcLzrP1zbH9JEzMFGWPz">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RykBHuzmGyW7Lsqs11srhi"/>
+        <correspContext corresp="i-RykBHuzmGyW7Lsqs11srhi">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

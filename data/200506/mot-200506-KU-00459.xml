@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KU-00459">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hotade politiker</title>
+        <author corresp="i-WJM6edqhGfBK1ijhNxfgoj i-839FvTzHpvrdX4J7ckfWSt">av Chatrine Pålsson och Sven Brus (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hotade politiker</title>
+          <idno type="rdwebb">GT02K459</idno>
+          <rs type="number">K459</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02K459/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02K459</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02K459</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/235A47B4-C2B8-4461-A11B-AAD29E6385CD</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-WJM6edqhGfBK1ijhNxfgoj</idno>
+            <name>Chatrine Pålsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-839FvTzHpvrdX4J7ckfWSt</idno>
+            <name>Sven Brus</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Abv5YY58Eu6Xr71VDcRGr9" type="signed"/>
+        <correspContext corresp="i-Abv5YY58Eu6Xr71VDcRGr9">
+          <note type="signatory" corresp="i-WJM6edqhGfBK1ijhNxfgoj"/>
+          <note type="signatory" corresp="i-839FvTzHpvrdX4J7ckfWSt"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Mb7fxJBrnSQJKwW5qYoZ4m">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-JA6pmmRwLos3gG7vjNPN3x">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7S1RM1G74erkJE5Wj7267V">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Spo15q8wrpeMuwQg817s1Y"/>
+        <correspContext corresp="i-Spo15q8wrpeMuwQg817s1Y">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

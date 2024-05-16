@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00590">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Standardisering</title>
+        <author corresp="i-RJ83sTtQ8c3R3VD4B55j8P">av Åsa Lindestam (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Standardisering</title>
+          <idno type="rdwebb">GT02T590</idno>
+          <rs type="number">T590</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02T590/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02T590</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02T590</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A26EDF29-BAC6-4EE4-B0E7-F963634513DD</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-RJ83sTtQ8c3R3VD4B55j8P</idno>
+            <name>Åsa Lindestam</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MRCXV1QGderNMag8jdhHoa" type="signed"/>
+        <correspContext corresp="i-MRCXV1QGderNMag8jdhHoa">
+          <note type="signatory" corresp="i-RJ83sTtQ8c3R3VD4B55j8P"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-ChvCi6hrgtPdE3VeFWXsNL">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-VB72zyFj6dHx9s5c9Wzoef">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Wa8xNV37TAWEXtreJbMeZc">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HySC8hKekaBwmNgYvrfYXX"/>
+        <correspContext corresp="i-HySC8hKekaBwmNgYvrfYXX">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

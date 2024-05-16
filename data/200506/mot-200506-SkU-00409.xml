@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00409">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Eftertaxering</title>
+        <author corresp="i-JERWRnB227uTCW6FGLWfYs i-P1efbUFx2TJLN3ZrfkaSuG">av Hans Stenberg och Kerstin Kristiansson Karlstedt (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Eftertaxering</title>
+          <idno type="rdwebb">GT02Sk409</idno>
+          <rs type="number">Sk409</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Sk409/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Sk409</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Sk409</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/557914D8-88E3-4737-A8AF-20DAD4B4ED81</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-JERWRnB227uTCW6FGLWfYs</idno>
+            <name>Hans Stenberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-P1efbUFx2TJLN3ZrfkaSuG</idno>
+            <name>Kerstin Kristiansson Karlstedt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-V9p5DTLpCvJbMKZnLR8oeG" type="signed"/>
+        <correspContext corresp="i-V9p5DTLpCvJbMKZnLR8oeG">
+          <note type="signatory" corresp="i-JERWRnB227uTCW6FGLWfYs"/>
+          <note type="signatory" corresp="i-P1efbUFx2TJLN3ZrfkaSuG"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-7UBhvMkWNEEV11Jv5chLep">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-824g2swwtfSCcAj2LXBgha">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-V9ss15yHSWXzSQ6bnPjiZa">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-V8jJRaP5sMYB6HmFYhUXiq"/>
+        <correspContext corresp="i-V8jJRaP5sMYB6HmFYhUXiq">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

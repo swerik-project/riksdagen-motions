@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-BoU-00248">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bostadsbidrag vid delad vårdnad</title>
+        <author corresp="i-XxqQtZTdHUTphXEbUJ35Ss">av Håkan Larsson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bostadsbidrag vid delad vårdnad</title>
+          <idno type="rdwebb">GT02Bo248</idno>
+          <rs type="number">Bo248</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Bo248/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Bo248</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Bo248</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/F6322B9F-37D3-4363-8A3B-26F8DE59194A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XxqQtZTdHUTphXEbUJ35Ss</idno>
+            <name>Håkan Larsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LHgACpyN4txhqHPSALbeFq" type="signed"/>
+        <correspContext corresp="i-LHgACpyN4txhqHPSALbeFq">
+          <note type="signatory" corresp="i-XxqQtZTdHUTphXEbUJ35Ss"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-W4rCfaMDNZvayKwxGxTM99">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-9kXhviYa8RJgHLfZt3ApMU">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-53dcLdpMg3VdR3LPCP29ha">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-ShrAJQo45aDeuyrnNR9D7U"/>
+        <correspContext corresp="i-ShrAJQo45aDeuyrnNR9D7U">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

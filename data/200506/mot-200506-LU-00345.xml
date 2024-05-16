@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00345">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Betalning med kort</title>
+        <author corresp="i-8WXKfVC5CVWBiV2pVhvraQ">av Luciano Astudillo (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Betalning med kort</title>
+          <idno type="rdwebb">GT02L345</idno>
+          <rs type="number">L345</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02L345/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02L345</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02L345</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/62C3364C-D4C9-49A7-B2FF-CFE95521EEE4</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-8WXKfVC5CVWBiV2pVhvraQ</idno>
+            <name>Luciano Astudillo</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XELtzbR6K3fjNHdYJ1VgGh" type="signed"/>
+        <correspContext corresp="i-XELtzbR6K3fjNHdYJ1VgGh">
+          <note type="signatory" corresp="i-8WXKfVC5CVWBiV2pVhvraQ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-U8FY2g5ZjFPW7K9B4RTH9B">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-RGBWYtX8eRMXRJDDYemyF7">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9RZmhXzfP6yPgZ73Bum8Np">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9UB38WmpSZ9U7UUisjUhRQ"/>
+        <correspContext corresp="i-9UB38WmpSZ9U7UUisjUhRQ">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

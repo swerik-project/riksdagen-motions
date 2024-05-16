@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-AU-00361">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Semester och aktivitetsgarantin</title>
+        <author corresp="i-UukxhVrpswE5ADBkFe7Q3V i-KxTfuBAJiVYpyHQUVaUndu">av Jan Björkman och Kerstin Andersson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Semester och aktivitetsgarantin</title>
+          <idno type="rdwebb">GT02A361</idno>
+          <rs type="number">A361</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02A361/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02A361</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02A361</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C73D120E-8C78-4BE9-8BE6-09F8AD9B9FC5</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UukxhVrpswE5ADBkFe7Q3V</idno>
+            <name>Jan Björkman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-KxTfuBAJiVYpyHQUVaUndu</idno>
+            <name>Kerstin Andersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LiV9vXuggaJZ4EpCnsGniJ" type="signed"/>
+        <correspContext corresp="i-LiV9vXuggaJZ4EpCnsGniJ">
+          <note type="signatory" corresp="i-UukxhVrpswE5ADBkFe7Q3V"/>
+          <note type="signatory" corresp="i-KxTfuBAJiVYpyHQUVaUndu"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-7vdWvjHn66tK4JPReBuAUL">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-3FiUFKzLWDaWHMua3nku5m">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Q7i3XMwNikjyZLGqUZ5cjf">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-bCQW3XXZHwPrS9KTZLdFt"/>
+        <correspContext corresp="i-bCQW3XXZHwPrS9KTZLdFt">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

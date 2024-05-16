@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00555">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Götaälvbron</title>
+        <author corresp="i-ErVmo7eYu7oehJQsJSwD6t">av Per Landgren (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Götaälvbron</title>
+          <idno type="rdwebb">GT02T555</idno>
+          <rs type="number">T555</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02T555/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02T555</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02T555</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/74F0F564-10A4-4EF3-8532-DAE4EEA59AD1</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-ErVmo7eYu7oehJQsJSwD6t</idno>
+            <name>Per Landgren</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Hi9ywuTH8Z4Q2GkLmqA6Lg" type="signed"/>
+        <correspContext corresp="i-Hi9ywuTH8Z4Q2GkLmqA6Lg">
+          <note type="signatory" corresp="i-ErVmo7eYu7oehJQsJSwD6t"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-5Rqn6ETFknHLseRoAiP8uC">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-6yEz3cyQoDhGgkZ41PEFqA">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-G3FG6epsMagJ6bKwskYC7q">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PPhhG6GqWHGMLQyCnF1wLK"/>
+        <correspContext corresp="i-PPhhG6GqWHGMLQyCnF1wLK">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

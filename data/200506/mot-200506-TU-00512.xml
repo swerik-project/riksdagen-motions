@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00512">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skotertrafik</title>
+        <author corresp="i-WxKXQnWjxN8pQCfBtNDnKa">av Sören Wibe (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skotertrafik</title>
+          <idno type="rdwebb">GT02T512</idno>
+          <rs type="number">T512</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02T512/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02T512</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02T512</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B3E5DB7C-7C5A-42B0-A3CB-E022625C595B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-WxKXQnWjxN8pQCfBtNDnKa</idno>
+            <name>Sören Wibe</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UamjhtBjawiPZgFUWtKAmy" type="signed"/>
+        <correspContext corresp="i-UamjhtBjawiPZgFUWtKAmy">
+          <note type="signatory" corresp="i-WxKXQnWjxN8pQCfBtNDnKa"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Nk6Hn7KJe34DBJ9PHvtAEP">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-QKEgRGimxpNKQqoG5g53yU">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3YuUsqNcozVdbxbKLEahxb">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NqtCdPXWpYXCcaBVxZFtvR"/>
+        <correspContext corresp="i-NqtCdPXWpYXCcaBVxZFtvR">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

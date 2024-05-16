@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KU-00324">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionstiden i riksdagen</title>
+        <author corresp="i-KktUCXax2JFL3tqFqQN9oq">av Birgitta Sellén (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motionstiden i riksdagen</title>
+          <idno type="rdwebb">GT02K324</idno>
+          <rs type="number">K324</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02K324/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02K324</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02K324</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C5B72E74-4564-4989-9635-71D119A30480</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-KktUCXax2JFL3tqFqQN9oq</idno>
+            <name>Birgitta Sellén</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5oY6jjdb7Lq4r3cqgwES7p" type="signed"/>
+        <correspContext corresp="i-5oY6jjdb7Lq4r3cqgwES7p">
+          <note type="signatory" corresp="i-KktUCXax2JFL3tqFqQN9oq"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NugVv9vCTW4KC7GZuP6xX5">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-DbgdhRwDeVNTfmnCn5maUY">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SRmBEM5mxTcGy3X2j72mbg">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-K8S3Dqdk6LXXJ18yEydodM"/>
+        <correspContext corresp="i-K8S3Dqdk6LXXJ18yEydodM">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

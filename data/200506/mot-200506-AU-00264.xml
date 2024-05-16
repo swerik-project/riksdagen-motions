@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-AU-00264">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arbetsolyckor</title>
+        <author corresp="i-EgqHRHVoW5y9USDYuNoYuA">av Hillevi Larsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arbetsolyckor</title>
+          <idno type="rdwebb">GT02A264</idno>
+          <rs type="number">A264</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02A264/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02A264</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02A264</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/128D6ECB-5B25-410D-84F3-388B8A82C051</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-EgqHRHVoW5y9USDYuNoYuA</idno>
+            <name>Hillevi Larsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LdNg1pNr6Mzk6GcrPfjrs6" type="signed"/>
+        <correspContext corresp="i-LdNg1pNr6Mzk6GcrPfjrs6">
+          <note type="signatory" corresp="i-EgqHRHVoW5y9USDYuNoYuA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-5TmEWfd54RjdSzoznabnTq">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-EaB8Ba4NXt4i6DxjJojQP4">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-V7f1zw48ZzKd48TaEAqbW1">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-92BdhSisuiu5ajNtvB1rLS"/>
+        <correspContext corresp="i-92BdhSisuiu5ajNtvB1rLS">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

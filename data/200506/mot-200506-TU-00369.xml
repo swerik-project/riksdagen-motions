@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00369">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Väg 363</title>
+        <author corresp="i-YEdxJPN8cJMwnqfd9tHmTD">av Ulla Löfgren (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Väg 363</title>
+          <idno type="rdwebb">GT02T369</idno>
+          <rs type="number">T369</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02T369/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02T369</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02T369</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/5AAFD51F-2291-4AEB-B80E-0AD2CD9E750C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-YEdxJPN8cJMwnqfd9tHmTD</idno>
+            <name>Ulla Löfgren</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RtUwtzwuhyFbMcevNA8RXP" type="signed"/>
+        <correspContext corresp="i-RtUwtzwuhyFbMcevNA8RXP">
+          <note type="signatory" corresp="i-YEdxJPN8cJMwnqfd9tHmTD"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-HwZrYGiiC9xAN2ZuZPaTJf">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Fh2tcUosciULngQHzBd4Lz">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3k9TmdhW7qFRGeQ3tFxACu">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NN9BnBMBoBaZhQX4JBmfpw"/>
+        <correspContext corresp="i-NN9BnBMBoBaZhQX4JBmfpw">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

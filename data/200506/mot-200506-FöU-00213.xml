@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-FöU-00213">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Könsneutral värnplikt</title>
+        <author corresp="i-LssE1F1PwgeFRXcwACktve i-EgqHRHVoW5y9USDYuNoYuA">av Anders Bengtsson och Hillevi Larsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Könsneutral värnplikt</title>
+          <idno type="rdwebb">GT02Fö213</idno>
+          <rs type="number">Fö213</rs>
+          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Fö213/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Fö213</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Fö213</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/86BF9CE5-83C2-4F61-8771-1AC0D12B4189</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-LssE1F1PwgeFRXcwACktve</idno>
+            <name>Anders Bengtsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-EgqHRHVoW5y9USDYuNoYuA</idno>
+            <name>Hillevi Larsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TxBrMuWFvxE2eh9mtfX1i" type="signed"/>
+        <correspContext corresp="i-TxBrMuWFvxE2eh9mtfX1i">
+          <note type="signatory" corresp="i-LssE1F1PwgeFRXcwACktve"/>
+          <note type="signatory" corresp="i-EgqHRHVoW5y9USDYuNoYuA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-CHZ3KE27r58q6of4ZfcMjc">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-As3X4pXjqkF4FMpVPawrHM">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KUDwCmLfUDLnyfXNMvVFtu">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-E1vCdRfHbqgNHdukXm3Zor"/>
+        <correspContext corresp="i-E1vCdRfHbqgNHdukXm3Zor">
+          <ref type="assignedTo">Försvarsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-NU-00397">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Torven</title>
+        <author corresp="i-SVQf2uNEUWVHnV2jNtgQ4z">av Per-Olof Svensson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Torven</title>
+          <idno type="rdwebb">GT02N397</idno>
+          <rs type="number">N397</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02N397/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02N397</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02N397</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0D40D8C1-3C50-41A9-AF17-AAC05122EAA1</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SVQf2uNEUWVHnV2jNtgQ4z</idno>
+            <name>Per-Olof Svensson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3XTB8o6YQb3FyQnaFD77ui" type="signed"/>
+        <correspContext corresp="i-3XTB8o6YQb3FyQnaFD77ui">
+          <note type="signatory" corresp="i-SVQf2uNEUWVHnV2jNtgQ4z"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3ucVQ5qXDjn8rFuh6FV5vX">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-8mrPZDZCcLFv45q5S2JXcG">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-VM3rYRDExsKhKSfWezk8Pu">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6rvJeJDRsS5VT1A4QGANCP"/>
+        <correspContext corresp="i-6rvJeJDRsS5VT1A4QGANCP">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

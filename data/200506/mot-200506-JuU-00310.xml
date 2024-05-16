@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00310">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Heltäckande DNA-register</title>
+        <author corresp="i-WCrN5vpCNm6z9SvfXfby4e">av Alf Svensson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Heltäckande DNA-register</title>
+          <idno type="rdwebb">GT02Ju310</idno>
+          <rs type="number">Ju310</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Ju310/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Ju310</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Ju310</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/18239F6A-C6E7-4BF8-96E9-27451864B89C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-WCrN5vpCNm6z9SvfXfby4e</idno>
+            <name>Alf Svensson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XWPUuuMCJtDhpQcASMvcQJ" type="signed"/>
+        <correspContext corresp="i-XWPUuuMCJtDhpQcASMvcQJ">
+          <note type="signatory" corresp="i-WCrN5vpCNm6z9SvfXfby4e"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Dpoy9MwJwjfePfA2xHkGPi">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-RjN9L7aoeDGzfejpFv83zW">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6yCike9QUKuognZGdeWP9J">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Va94Pbyz6vfiqkoCAiMAAx"/>
+        <correspContext corresp="i-Va94Pbyz6vfiqkoCAiMAAx">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

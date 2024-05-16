@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00342">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Personliga ombud</title>
+        <author corresp="i-XavvkneSj1497htyNRcpv6">av Christina Nenes (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Personliga ombud</title>
+          <idno type="rdwebb">GT02So342</idno>
+          <rs type="number">So342</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02So342/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02So342</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02So342</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/FC3D1FFF-025A-4627-8F6F-46AFA9C5D363</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-XavvkneSj1497htyNRcpv6</idno>
+            <name>Christina Nenes</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-vvqc9JY1zeFHMuqmZPpsH" type="signed"/>
+        <correspContext corresp="i-vvqc9JY1zeFHMuqmZPpsH">
+          <note type="signatory" corresp="i-XavvkneSj1497htyNRcpv6"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-CxAX3cEF36CSJRog3x8K2V">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-F2WL3t99gNGyb1AyrD61kA">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HVM82hpU3dbbGi3nXUfaMy">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Geh6figRaUCUPqS6jKkg9d"/>
+        <correspContext corresp="i-Geh6figRaUCUPqS6jKkg9d">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

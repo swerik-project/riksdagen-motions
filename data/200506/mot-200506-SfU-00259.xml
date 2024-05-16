@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00259">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Invandring</title>
+        <author corresp="i-J74sVAjCTSxzD8rbnxRRA">av Åsa Torstensson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Invandring</title>
+          <idno type="rdwebb">GT02Sf259</idno>
+          <rs type="number">Sf259</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Sf259/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Sf259</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Sf259</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/7532FFF6-9D2C-43C3-86A1-D79A21CBE88A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-J74sVAjCTSxzD8rbnxRRA</idno>
+            <name>Åsa Torstensson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FGqTufAr6S4xUpYuACX3N" type="signed"/>
+        <correspContext corresp="i-FGqTufAr6S4xUpYuACX3N">
+          <note type="signatory" corresp="i-J74sVAjCTSxzD8rbnxRRA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NKAoUQiNM85btfU7Bg8YC">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-PpEbMSnFkkKMfh3UChDv8L">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GytN7tWsoqvZobF8JwXDNR">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QrtstW21Y3Xc8icRjVkJhs"/>
+        <correspContext corresp="i-QrtstW21Y3Xc8icRjVkJhs">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

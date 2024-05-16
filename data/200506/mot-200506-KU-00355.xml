@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KU-00355">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Republik</title>
+        <author corresp="i-EgqHRHVoW5y9USDYuNoYuA i-DXYijt8wprzTgm7zCTJYc3">av Hillevi Larsson och Veronica Palm (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Republik</title>
+          <idno type="rdwebb">GT02K355</idno>
+          <rs type="number">K355</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02K355/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02K355</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02K355</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/28D1979F-2144-4C2D-83C7-C711D77201BD</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-EgqHRHVoW5y9USDYuNoYuA</idno>
+            <name>Hillevi Larsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-DXYijt8wprzTgm7zCTJYc3</idno>
+            <name>Veronica Palm</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-6cg7ZARSpgGCabhCsyMBmP" type="signed"/>
+        <correspContext corresp="i-6cg7ZARSpgGCabhCsyMBmP">
+          <note type="signatory" corresp="i-EgqHRHVoW5y9USDYuNoYuA"/>
+          <note type="signatory" corresp="i-DXYijt8wprzTgm7zCTJYc3"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8xcVJq2jccssxDAXGr3DQ4">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Va1Fozuvz2qLxjjR56eS2u">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Wz8fQHHzMkXXJguoU1Yr1L">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-23tUWhLzFPY5mwFd91Ny7u"/>
+        <correspContext corresp="i-23tUWhLzFPY5mwFd91Ny7u">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

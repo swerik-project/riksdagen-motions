@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00223">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gränsbarriärer</title>
+        <author corresp="i-U5MhCo51MGLLY94GAGJZhY i-AktM7FqujRsJ6kGjNePGjq">av Johan Linander och Lars-Ivar Ericson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Gränsbarriärer</title>
+          <idno type="rdwebb">GT02Sf223</idno>
+          <rs type="number">Sf223</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Sf223/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Sf223</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Sf223</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/360397D2-57DF-4CA7-A4CD-E0C256732C21</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-U5MhCo51MGLLY94GAGJZhY</idno>
+            <name>Johan Linander</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-AktM7FqujRsJ6kGjNePGjq</idno>
+            <name>Lars-Ivar Ericson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SUbfVSKW3Ft9amfVKZ2yAr" type="signed"/>
+        <correspContext corresp="i-SUbfVSKW3Ft9amfVKZ2yAr">
+          <note type="signatory" corresp="i-U5MhCo51MGLLY94GAGJZhY"/>
+          <note type="signatory" corresp="i-AktM7FqujRsJ6kGjNePGjq"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-QAx8esExd1TcZutkCorRhP">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-CtMzfTUGyYA8ovg9DLSkhz">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-396LXpyZ96aKZQ6BXbSSq5">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Sxkgsy21SaaeCC6hp5SWCG"/>
+        <correspContext corresp="i-Sxkgsy21SaaeCC6hp5SWCG">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

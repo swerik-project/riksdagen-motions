@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00484">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samordnad medicinering</title>
+        <author corresp="i-BUsYTbnmyQrtHXSA2gEp9T">av Torsten Lindström (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Samordnad medicinering</title>
+          <idno type="rdwebb">GT02So484</idno>
+          <rs type="number">So484</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02So484/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02So484</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02So484</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/E2C892E5-8923-4CE5-8F8D-6C3350D6DA5E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BUsYTbnmyQrtHXSA2gEp9T</idno>
+            <name>Torsten Lindström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LWHaPvyXAtXHWNsZmoQtP8" type="signed"/>
+        <correspContext corresp="i-LWHaPvyXAtXHWNsZmoQtP8">
+          <note type="signatory" corresp="i-BUsYTbnmyQrtHXSA2gEp9T"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-9crjqXm5KBNaEDrRdhkyXZ">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Po88VTbYDYPqP9JxjhKV9L">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-E3KiwtvuCH9KmmJEyLQQuM">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-SrRU4ThFHv2amFN47pRZvc"/>
+        <correspContext corresp="i-SrRU4ThFHv2amFN47pRZvc">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

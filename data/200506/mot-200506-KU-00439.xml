@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KU-00439">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Äldres brukarinflytande</title>
+        <author corresp="i-UukxhVrpswE5ADBkFe7Q3V">av Jan Björkman m.fl. (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Äldres brukarinflytande</title>
+          <idno type="rdwebb">GT02K439</idno>
+          <rs type="number">K439</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02K439/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02K439</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02K439</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/811A8983-E2A2-4E41-9FBE-096043782268</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UukxhVrpswE5ADBkFe7Q3V</idno>
+            <name>Jan Björkman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-LpTxkBd4YXu6ChW6t8S9rX</idno>
+            <name>Christer Skoog</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-KxTfuBAJiVYpyHQUVaUndu</idno>
+            <name>Kerstin Andersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XmrvDe9ghQHKyYEmgXDJVX" type="signed"/>
+        <correspContext corresp="i-XmrvDe9ghQHKyYEmgXDJVX">
+          <note type="signatory" corresp="i-UukxhVrpswE5ADBkFe7Q3V"/>
+          <note type="signatory" corresp="i-LpTxkBd4YXu6ChW6t8S9rX"/>
+          <note type="signatory" corresp="i-KxTfuBAJiVYpyHQUVaUndu"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-2TYx1XRmQrbHiyVQ7sxUqS">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-WhSzcDztpYY2HnkWMPpzoA">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RkS7CaAoQ6UGfrSGCK1Jvo">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9Sqy2YftcajRvNJzJXV8hJ"/>
+        <correspContext corresp="i-9Sqy2YftcajRvNJzJXV8hJ">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

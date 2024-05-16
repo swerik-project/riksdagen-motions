@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00256">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ett frivilligt testamentsregister</title>
+        <author corresp="i-LBN95MD8hn6zkXhRBcbJbB">av Lennart Hedquist (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ett frivilligt testamentsregister</title>
+          <idno type="rdwebb">GT02L256</idno>
+          <rs type="number">L256</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02L256/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02L256</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02L256</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/79D0EFD9-3534-4CCC-B4D1-198E8969A483</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-LBN95MD8hn6zkXhRBcbJbB</idno>
+            <name>Lennart Hedquist</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RgBk5EsrXZD2QToi9cYQot" type="signed"/>
+        <correspContext corresp="i-RgBk5EsrXZD2QToi9cYQot">
+          <note type="signatory" corresp="i-LBN95MD8hn6zkXhRBcbJbB"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-JNMU1G5rqPmGqTZP5QjDpC">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-6kkRSxgyF4oSZ33qqAcjZu">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-2thKZgCGzxzzwJY7rv6UiY">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FBT7pVPyMKZuNHtbTpPL5B"/>
+        <correspContext corresp="i-FBT7pVPyMKZuNHtbTpPL5B">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

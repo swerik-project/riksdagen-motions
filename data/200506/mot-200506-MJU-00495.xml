@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00495">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Grytjakt</title>
+        <author corresp="i-XhKn9p4oQVJvYzm2h78jih">av Sven-Erik Sjöstrand (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Grytjakt</title>
+          <idno type="rdwebb">GT02MJ495</idno>
+          <rs type="number">MJ495</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02MJ495/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02MJ495</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02MJ495</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/5ADB828F-86A3-4EDC-BA8B-AEB36A8633DF</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XhKn9p4oQVJvYzm2h78jih</idno>
+            <name>Sven-Erik Sjöstrand</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TtKgoijvJ1Ksf6g9hQJcV2" type="signed"/>
+        <correspContext corresp="i-TtKgoijvJ1Ksf6g9hQJcV2">
+          <note type="signatory" corresp="i-XhKn9p4oQVJvYzm2h78jih"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LnidMtaNoFnfUQmGsCbdnY">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-BRQ579W92pVy2XQpAfyWPq">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HnuoPdr2DdLBWzvHJkUSJn">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HR1BQeR66ZSUWohM5tAuJM"/>
+        <correspContext corresp="i-HR1BQeR66ZSUWohM5tAuJM">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

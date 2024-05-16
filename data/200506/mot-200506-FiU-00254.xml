@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-FiU-00254">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Giroservice</title>
+        <author corresp="i-Q6T8pKy9pERdSQEuTcARyR">av Lotta Hedström (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Giroservice</title>
+          <idno type="rdwebb">GT02Fi254</idno>
+          <rs type="number">Fi254</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Fi254/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Fi254</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Fi254</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/988286F0-4BC9-4FF8-BD01-EF602BC291AD</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Q6T8pKy9pERdSQEuTcARyR</idno>
+            <name>Lotta Hedström</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5n6C9Pm5GRkFGoPNqAjjAY" type="signed"/>
+        <correspContext corresp="i-5n6C9Pm5GRkFGoPNqAjjAY">
+          <note type="signatory" corresp="i-Q6T8pKy9pERdSQEuTcARyR"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-jEfEETfYyfnVrF7vKnYR2">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Y5FEvyK1jZcYG4RrmKSsre">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8yLTHo6vuUaZryatdFPD7K">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-XaCpnxnLK6PYwshXAZE6hH"/>
+        <correspContext corresp="i-XaCpnxnLK6PYwshXAZE6hH">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

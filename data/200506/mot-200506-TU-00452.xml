@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00452">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Körkort </title>
+        <author corresp="i-Ewi7Lwy3h4DBNJ2zradbNt">av Torkild Strandberg m.fl. (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Körkort </title>
+          <idno type="rdwebb">GT02T452</idno>
+          <rs type="number">T452</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02T452/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02T452</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02T452</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/68EFDAC7-FF99-4F28-A53B-F329150A62FE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ewi7Lwy3h4DBNJ2zradbNt</idno>
+            <name>Torkild Strandberg</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-BUYvEhrSc9gnHcd6iS4eDJ</idno>
+            <name>Allan Widman</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-nX9ipUS8FhkbQHkWWytwf</idno>
+            <name>Ulf Nilsson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-J7DXwJLxYsFT8KpBbGJgcY" type="signed"/>
+        <correspContext corresp="i-J7DXwJLxYsFT8KpBbGJgcY">
+          <note type="signatory" corresp="i-Ewi7Lwy3h4DBNJ2zradbNt"/>
+          <note type="signatory" corresp="i-BUYvEhrSc9gnHcd6iS4eDJ"/>
+          <note type="signatory" corresp="i-nX9ipUS8FhkbQHkWWytwf"/>
+        </correspContext>
+        <correspAction type="submission" xml:id="i-RoQ8yrChYBCFAhneAT47fc">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-JGwt23vhDKsWBjkjhUzFD8">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-5VEi1JFtXrmrTFnasySLsk">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-XiY48ddbGJdGeeG63Q81Kt"/>
+        <correspContext corresp="i-XiY48ddbGJdGeeG63Q81Kt">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-NU-00330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Avregleringar</title>
+        <author corresp="i-PXnWJ6BujhJFDCkZeahBVd i-PxnWyEEEJkswzBKdKbv36K">av Göran Norlander och Agneta Lundberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Avregleringar</title>
+          <idno type="rdwebb">GT02N330</idno>
+          <rs type="number">N330</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02N330/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02N330</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02N330</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/ED6B2B04-2E4C-4C47-B5BC-1D5550474AD0</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-PXnWJ6BujhJFDCkZeahBVd</idno>
+            <name>Göran Norlander</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-PxnWyEEEJkswzBKdKbv36K</idno>
+            <name>Agneta Lundberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LXWEkJvDS1Jn8owq6VabD3" type="signed"/>
+        <correspContext corresp="i-LXWEkJvDS1Jn8owq6VabD3">
+          <note type="signatory" corresp="i-PXnWJ6BujhJFDCkZeahBVd"/>
+          <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-F3e5ce8CvCGJpyyocreEei">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-78MJAWRoa4SLfavvG7WxNn">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Mm3c4zuUJ7hcAsvVPYyXCz">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HitgQqCs3rxaYAF4ScccV1"/>
+        <correspContext corresp="i-HitgQqCs3rxaYAF4ScccV1">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

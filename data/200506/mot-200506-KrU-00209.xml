@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00209">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kanal 1</title>
+        <author corresp="i-AvtuWmW4WHMDrctQKwDQuR">av Eva Flyborg (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kanal 1</title>
+          <idno type="rdwebb">GT02Kr209</idno>
+          <rs type="number">Kr209</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Kr209/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Kr209</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Kr209</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/E1AD3E9F-DC00-4DF8-B513-0F9E99640003</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-AvtuWmW4WHMDrctQKwDQuR</idno>
+            <name>Eva Flyborg</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-1wjkKyYQmQq6JqD23mD99" type="signed"/>
+        <correspContext corresp="i-1wjkKyYQmQq6JqD23mD99">
+          <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-GosrnAzzCdXvNt81AnCDHp">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-5SjqtWb2FLKfqEsBWKtuaM">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-C84hmn6dtj5ZxY1bnP1D15">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-DpFLxozVALYghgX24ifoKe"/>
+        <correspContext corresp="i-DpFLxozVALYghgX24ifoKe">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

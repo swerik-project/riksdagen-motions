@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-NU-00273">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regelförenkling</title>
+        <author corresp="i-AyN7HRP1y38PeQoLunJifb i-VHSPVhF5LjvV5m4yU1W3FJ">av Jörgen Johansson och Birgitta Carlsson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Regelförenkling</title>
+          <idno type="rdwebb">GT02N273</idno>
+          <rs type="number">N273</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02N273/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02N273</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02N273</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1010BE71-3511-4D80-9051-F5C55A44A473</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AyN7HRP1y38PeQoLunJifb</idno>
+            <name>Jörgen Johansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VHSPVhF5LjvV5m4yU1W3FJ</idno>
+            <name>Birgitta Carlsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-YAUGjAVR4nN2hvriTD49Bg" type="signed"/>
+        <correspContext corresp="i-YAUGjAVR4nN2hvriTD49Bg">
+          <note type="signatory" corresp="i-AyN7HRP1y38PeQoLunJifb"/>
+          <note type="signatory" corresp="i-VHSPVhF5LjvV5m4yU1W3FJ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-DAN9RpvCzy1jgtCSkMism7">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7w4qBnQ8PnJxB81nHt86nW">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Rtv5XHTbigWEjL3jDAYrg4">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-72tbMXhK1cCqhgVvBzykzC"/>
+        <correspContext corresp="i-72tbMXhK1cCqhgVvBzykzC">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

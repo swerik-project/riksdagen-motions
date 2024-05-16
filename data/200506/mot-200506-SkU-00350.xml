@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00350">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>F-skattsedel</title>
+        <author corresp="i-NhqvviMR3JAxbwn9T7i1dL i-HNZrYrLbstv8KywRLm2FMv">av Claes-Göran Brandin och Gunilla Carlsson i Hisings Backa (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>F-skattsedel</title>
+          <idno type="rdwebb">GT02Sk350</idno>
+          <rs type="number">Sk350</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Sk350/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Sk350</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Sk350</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/AC7148A3-E851-4D29-850A-12DEAD6C19B1</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-NhqvviMR3JAxbwn9T7i1dL</idno>
+            <name>Claes-Göran Brandin</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-HNZrYrLbstv8KywRLm2FMv</idno>
+            <name>Gunilla Carlsson i Hisings Backa</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Mhyif8psWhVZge37TJcr8r" type="signed"/>
+        <correspContext corresp="i-Mhyif8psWhVZge37TJcr8r">
+          <note type="signatory" corresp="i-NhqvviMR3JAxbwn9T7i1dL"/>
+          <note type="signatory" corresp="i-HNZrYrLbstv8KywRLm2FMv"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-RJbB2ARhG68YP9fXaLfXyD">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-DPYSw37ghjX1iWd87iUR5A">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PbnJjvNPyKBAiSML6ZdRdF">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2GH8obkJF7PVPeJnSSsJqm"/>
+        <correspContext corresp="i-2GH8obkJF7PVPeJnSSsJqm">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

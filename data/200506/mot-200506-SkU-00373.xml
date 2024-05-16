@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00373">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Reseavdrag</title>
+        <author corresp="i-CetFkRWST91ShCPmaZKsM4 i-B471TcSCwHNHrNRk1EdJek">av Jan Andersson och Eskil Erlandsson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Reseavdrag</title>
+          <idno type="rdwebb">GT02Sk373</idno>
+          <rs type="number">Sk373</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Sk373/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Sk373</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Sk373</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/FE02F774-A5DD-4DBB-BCC8-5F7E453F29CE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CetFkRWST91ShCPmaZKsM4</idno>
+            <name>Jan Andersson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-B471TcSCwHNHrNRk1EdJek</idno>
+            <name>Eskil Erlandsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RZxTY5dBgJPnydeooe2AXD" type="signed"/>
+        <correspContext corresp="i-RZxTY5dBgJPnydeooe2AXD">
+          <note type="signatory" corresp="i-CetFkRWST91ShCPmaZKsM4"/>
+          <note type="signatory" corresp="i-B471TcSCwHNHrNRk1EdJek"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-FSQEzottZUBm38JRjGBW6c">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-DJYRhfEFkZfH3sQFdXTqQG">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WvFP8nCtGRkLz6cS1pGKZX">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-CJsNXxyUjyyPXn3fdL4bTQ"/>
+        <correspContext corresp="i-CJsNXxyUjyyPXn3fdL4bTQ">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00254">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Namnlagen</title>
+        <author corresp="i-QKE6ihmLRJvwhV4neD6h7b">av Erik Ullenhag (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Namnlagen</title>
+          <idno type="rdwebb">GT02L254</idno>
+          <rs type="number">L254</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02L254/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02L254</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02L254</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/6FF21FB3-29C4-4C8F-AB39-4162A3F6C8AC</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QKE6ihmLRJvwhV4neD6h7b</idno>
+            <name>Erik Ullenhag</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9Qbmv7V43xE1ziVhYJ7JBr" type="signed"/>
+        <correspContext corresp="i-9Qbmv7V43xE1ziVhYJ7JBr">
+          <note type="signatory" corresp="i-QKE6ihmLRJvwhV4neD6h7b"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-QdGaSEJTyAQyYvwRkdcryk">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-UNs7N3wTAyQ5T6kf17BbDQ">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JEEc6pqi5ata6yAx3DURfj">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-DNuPW4sBSAy13wfCH1iTAZ"/>
+        <correspContext corresp="i-DNuPW4sBSAy13wfCH1iTAZ">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

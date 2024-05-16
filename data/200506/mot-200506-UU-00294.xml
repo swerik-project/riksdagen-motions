@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UU-00294">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Visering</title>
+        <author corresp="i-TEFXMjR6WsvCeeLdc2wQ82 i-TZHBPDEfPriGgMd5y7LfJG">av Lennart Klockare och Lars U Granberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Visering</title>
+          <idno type="rdwebb">GT02U294</idno>
+          <rs type="number">U294</rs>
+          <orgName type="comitteeAbbreviation">UU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02U294/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02U294</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02U294</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/197D34A0-98D6-4ACD-8DF1-402B23B0BA3D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TEFXMjR6WsvCeeLdc2wQ82</idno>
+            <name>Lennart Klockare</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TZHBPDEfPriGgMd5y7LfJG</idno>
+            <name>Lars U Granberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XaHjvDWGfzUU1WL4TkzFsf" type="signed"/>
+        <correspContext corresp="i-XaHjvDWGfzUU1WL4TkzFsf">
+          <note type="signatory" corresp="i-TEFXMjR6WsvCeeLdc2wQ82"/>
+          <note type="signatory" corresp="i-TZHBPDEfPriGgMd5y7LfJG"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-4BW5q1fvQJMrrx6rDyS7XP">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-KanFTVD7Q3KS6cBV8qmDHq">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Jvwv7gGhDrekVrMArzmx6Z">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-G5EjQTEzZdYQYPrC3XvUFY"/>
+        <correspContext corresp="i-G5EjQTEzZdYQYPrC3XvUFY">
+          <ref type="assignedTo">Utrikesutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

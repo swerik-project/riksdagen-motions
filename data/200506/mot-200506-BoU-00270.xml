@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-BoU-00270">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Äldres boende</title>
+        <author corresp="i-79cRBqVjCpwABr2BiKwH7S">av Ann-Christin Ahlberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Äldres boende</title>
+          <idno type="rdwebb">GT02Bo270</idno>
+          <rs type="number">Bo270</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Bo270/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Bo270</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Bo270</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/7BA22E20-4305-480C-AE94-D05BE63EA1B2</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-79cRBqVjCpwABr2BiKwH7S</idno>
+            <name>Ann-Christin Ahlberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PyY9vGfUSUuKuY4Ck5yVyP" type="signed"/>
+        <correspContext corresp="i-PyY9vGfUSUuKuY4Ck5yVyP">
+          <note type="signatory" corresp="i-79cRBqVjCpwABr2BiKwH7S"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-5MRTZrTyzqCvbjH9DjXSsG">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-ReDKZ7DZnt5fFzWQA99s9v">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-YXGnTvYSzBvxgbHg9joCm8">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PJ24ujXmK9i2VoNQT1ez3W"/>
+        <correspContext corresp="i-PJ24ujXmK9i2VoNQT1ez3W">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

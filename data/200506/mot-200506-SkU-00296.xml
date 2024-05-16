@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00296">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Folkbokföring</title>
+        <author corresp="i-U5MhCo51MGLLY94GAGJZhY">av Johan Linander (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Folkbokföring</title>
+          <idno type="rdwebb">GT02Sk296</idno>
+          <rs type="number">Sk296</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Sk296/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Sk296</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Sk296</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D9BDBB48-CD31-431B-B5CF-616F2EABADBA</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-U5MhCo51MGLLY94GAGJZhY</idno>
+            <name>Johan Linander</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DQmKsqewyXK9sFVMa7ftXp" type="signed"/>
+        <correspContext corresp="i-DQmKsqewyXK9sFVMa7ftXp">
+          <note type="signatory" corresp="i-U5MhCo51MGLLY94GAGJZhY"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-4bUD62Li3ixLrhefz39WXJ">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7TcUUha2Nmo7QYAjweziKk">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Dg5gtoVHGhhyz5m8GMXvPU">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UdkPhVjab7qmYQ37M5BM8S"/>
+        <correspContext corresp="i-UdkPhVjab7qmYQ37M5BM8S">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

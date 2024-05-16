@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00551">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Laxreproduktion</title>
+        <author corresp="i-TEFXMjR6WsvCeeLdc2wQ82 i-VhAPHtDbXzmUeiVRSdRFGD">av Lennart Klockare och Karin Åström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Laxreproduktion</title>
+          <idno type="rdwebb">GT02MJ551</idno>
+          <rs type="number">MJ551</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02MJ551/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02MJ551</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02MJ551</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/67FC1879-2875-4443-8DF7-A1735D3764B4</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TEFXMjR6WsvCeeLdc2wQ82</idno>
+            <name>Lennart Klockare</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VhAPHtDbXzmUeiVRSdRFGD</idno>
+            <name>Karin Åström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Pni3T2MxW94S7res3W3EJn" type="signed"/>
+        <correspContext corresp="i-Pni3T2MxW94S7res3W3EJn">
+          <note type="signatory" corresp="i-TEFXMjR6WsvCeeLdc2wQ82"/>
+          <note type="signatory" corresp="i-VhAPHtDbXzmUeiVRSdRFGD"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-FTH7C6aDqZ54RRqVB5CHTk">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-2U2SXm4jCq6dgcWkZ74a7R">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-5sJgjRFnJHJV41F7xetY76">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-EHqfj6dB4fS8Pwi3G3wr8s"/>
+        <correspContext corresp="i-EHqfj6dB4fS8Pwi3G3wr8s">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

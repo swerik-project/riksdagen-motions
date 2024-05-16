@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KU-00220">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regionalt självstyre i Skåne</title>
+        <author corresp="i-4Cqdpnmue4GNQh6HSQGRHK i-KPGvtK4s6Zp3E6XH6vj18n">av Peter Danielsson och Tobias Billström (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Regionalt självstyre i Skåne</title>
+          <idno type="rdwebb">GT02K220</idno>
+          <rs type="number">K220</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02K220/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02K220</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02K220</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/5E0908DA-5ADE-4A94-903D-0586D13AFDCC</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4Cqdpnmue4GNQh6HSQGRHK</idno>
+            <name>Peter Danielsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-KPGvtK4s6Zp3E6XH6vj18n</idno>
+            <name>Tobias Billström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-yJeJ21QN81m2RNExSts1L" type="signed"/>
+        <correspContext corresp="i-yJeJ21QN81m2RNExSts1L">
+          <note type="signatory" corresp="i-4Cqdpnmue4GNQh6HSQGRHK"/>
+          <note type="signatory" corresp="i-KPGvtK4s6Zp3E6XH6vj18n"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-PvFGVzPqdbVDFYxXgcD5UP">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-8jZZHniL6VE9SW4j1Fa8Qq">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-YSPQsVdV1M6KYmSd9mPoM2">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PG8WwaXU5vWheD5eDDqcKf"/>
+        <correspContext corresp="i-PG8WwaXU5vWheD5eDDqcKf">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

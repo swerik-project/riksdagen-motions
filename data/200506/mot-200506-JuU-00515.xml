@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00515">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nämndemännens villkor</title>
+        <author corresp="i-CjfJ7zKhtcCGm2cb4c1t3E i-TVwo4mCECu692GW3ntqQzo">av Barbro Hietala Nordlund och Kurt Kvarnström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nämndemännens villkor</title>
+          <idno type="rdwebb">GT02Ju515</idno>
+          <rs type="number">Ju515</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Ju515/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Ju515</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Ju515</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/43C63F88-5910-491E-B2E4-A2C1CB4C3F7A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-CjfJ7zKhtcCGm2cb4c1t3E</idno>
+            <name>Barbro Hietala Nordlund</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TVwo4mCECu692GW3ntqQzo</idno>
+            <name>Kurt Kvarnström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-USbv3SvdRJjtxbRPybZkDv" type="signed"/>
+        <correspContext corresp="i-USbv3SvdRJjtxbRPybZkDv">
+          <note type="signatory" corresp="i-CjfJ7zKhtcCGm2cb4c1t3E"/>
+          <note type="signatory" corresp="i-TVwo4mCECu692GW3ntqQzo"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-L9snZN69NAxSMYWaYJphK9">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-VvsgFbkXgkZWRL3GYXmwda">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-W8HAjgR9GTbefJNHUM6dnW">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6jeE45hnkGqmG8ErkHRanE"/>
+        <correspContext corresp="i-6jeE45hnkGqmG8ErkHRanE">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

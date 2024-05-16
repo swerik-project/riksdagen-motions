@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00224">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Socialtjänsten</title>
+        <author corresp="i-3TzUjUVop5GV6tpKYjGYGr">av Rolf Gunnarsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Socialtjänsten</title>
+          <idno type="rdwebb">GT02So224</idno>
+          <rs type="number">So224</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02So224/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02So224</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02So224</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/6AD80849-5B9C-44E6-B87E-EB53535EF679</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3TzUjUVop5GV6tpKYjGYGr</idno>
+            <name>Rolf Gunnarsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8eF5LZugUAWDZTYjm4aQ6A" type="signed"/>
+        <correspContext corresp="i-8eF5LZugUAWDZTYjm4aQ6A">
+          <note type="signatory" corresp="i-3TzUjUVop5GV6tpKYjGYGr"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-CseXtpfZuBnnqg2VPyG4hS">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-K7QDm3EamuyQ1oAvjLKyWQ">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-XFt8hT2xw3Dgmi3V3tnbmp">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-B4Wi42GKZVsikjd5AJfRBY"/>
+        <correspContext corresp="i-B4Wi42GKZVsikjd5AJfRBY">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

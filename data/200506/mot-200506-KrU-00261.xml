@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00261">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sveriges lantbruksmuseum</title>
+        <author corresp="i-Q8hYBES3N7Q4fZnAATRjsd">av Fredrik Olovsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sveriges lantbruksmuseum</title>
+          <idno type="rdwebb">GT02Kr261</idno>
+          <rs type="number">Kr261</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Kr261/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Kr261</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Kr261</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C0ED2F53-44EB-421F-9349-BED817FC0015</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Q8hYBES3N7Q4fZnAATRjsd</idno>
+            <name>Fredrik Olovsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MHgXBeSDTZprh6Tk1tFzgy" type="signed"/>
+        <correspContext corresp="i-MHgXBeSDTZprh6Tk1tFzgy">
+          <note type="signatory" corresp="i-Q8hYBES3N7Q4fZnAATRjsd"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3uLix7zJfhLEmpCPgnqsY9">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-VLpNPR3QYsEBUYPDX8aZxQ">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6YbEgydqhEZgCw8rdARUVk">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-LCRyAAdk6JNqSKniyMz8ui"/>
+        <correspContext corresp="i-LCRyAAdk6JNqSKniyMz8ui">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

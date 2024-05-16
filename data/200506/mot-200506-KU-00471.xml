@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KU-00471">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kommunalt samråd</title>
+        <author corresp="i-AyN7HRP1y38PeQoLunJifb i-2FqhRcXF9QRfniBHKAFxU8">av Jörgen Johansson och Anders Larsson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kommunalt samråd</title>
+          <idno type="rdwebb">GT02K471</idno>
+          <rs type="number">K471</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02K471/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02K471</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02K471</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/669DA1F3-691D-4220-AFD8-5B4EB2C1D0DB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AyN7HRP1y38PeQoLunJifb</idno>
+            <name>Jörgen Johansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-2FqhRcXF9QRfniBHKAFxU8</idno>
+            <name>Anders Larsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8LGsb1Tx43NeGRtjFGTgRV" type="signed"/>
+        <correspContext corresp="i-8LGsb1Tx43NeGRtjFGTgRV">
+          <note type="signatory" corresp="i-AyN7HRP1y38PeQoLunJifb"/>
+          <note type="signatory" corresp="i-2FqhRcXF9QRfniBHKAFxU8"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-FuF1KMq26shFLFfBeze3X5">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-RCUKFKcQKiXvQGp1i4wF2a">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WTYGNQU4buLezGxUzWEyVv">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-8DDZTPGNrobQkbEYeHF1zE"/>
+        <correspContext corresp="i-8DDZTPGNrobQkbEYeHF1zE">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

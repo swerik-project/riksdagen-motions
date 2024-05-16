@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00359">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tolkutbildning</title>
+        <author corresp="i-SYmctpvT7BxsqFzwPADUfw i-LrcUg7tEu4KwWdidwr1MAk">av Nikos Papadopoulos och Kaj Nordquist (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Tolkutbildning</title>
+          <idno type="rdwebb">GT02Kr359</idno>
+          <rs type="number">Kr359</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Kr359/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Kr359</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Kr359</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2CC04D97-2051-4889-8323-7B59EEDE8876</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SYmctpvT7BxsqFzwPADUfw</idno>
+            <name>Nikos Papadopoulos</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-LrcUg7tEu4KwWdidwr1MAk</idno>
+            <name>Kaj Nordquist</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Kif6kNiTK4n3qawdqBd9Nm" type="signed"/>
+        <correspContext corresp="i-Kif6kNiTK4n3qawdqBd9Nm">
+          <note type="signatory" corresp="i-SYmctpvT7BxsqFzwPADUfw"/>
+          <note type="signatory" corresp="i-LrcUg7tEu4KwWdidwr1MAk"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-P6AMdEQX85pSov3X9dZi32">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-SyxdcjM5uHHteeRXa3JLiY">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-FBsw7xEmCoZbpyFkg9rs5r">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-MTrRH53wTZaekhr1e3nq1W"/>
+        <correspContext corresp="i-MTrRH53wTZaekhr1e3nq1W">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

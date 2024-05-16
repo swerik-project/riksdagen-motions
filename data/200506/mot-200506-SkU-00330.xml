@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>RUT och ROT</title>
+        <author corresp="i-7KBbQxMwamQ8aEQRXJRw1j">av Henrik Westman (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>RUT och ROT</title>
+          <idno type="rdwebb">GT02Sk330</idno>
+          <rs type="number">Sk330</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Sk330/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Sk330</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Sk330</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C4ACABA9-EF93-4854-8897-913DD2271018</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-7KBbQxMwamQ8aEQRXJRw1j</idno>
+            <name>Henrik Westman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-YNS9vWpZW7E6NuKyM7FEAC" type="signed"/>
+        <correspContext corresp="i-YNS9vWpZW7E6NuKyM7FEAC">
+          <note type="signatory" corresp="i-7KBbQxMwamQ8aEQRXJRw1j"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-6Tbepf5DWNCcpDXbEQRCtb">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-G7hbuRBcXRPFK3ckHBEviQ">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-QqdKDWYhRVLyyYTjjbGSHL">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NU2Rjpg8YSiWf52DVCeLSY"/>
+        <correspContext corresp="i-NU2Rjpg8YSiWf52DVCeLSY">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

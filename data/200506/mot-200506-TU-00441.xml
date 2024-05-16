@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00441">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Infrastrukturen i Västra Götaland</title>
+        <author corresp="i-EYsBC4u5K3oa8SyoHdgTPc i-NRb4HpaQ87qUwhLNcKt7Gz">av Claes Västerteg och Annika Qarlsson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Infrastrukturen i Västra Götaland</title>
+          <idno type="rdwebb">GT02T441</idno>
+          <rs type="number">T441</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02T441/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02T441</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02T441</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B5662F3B-72B9-478E-B607-543A9B85CFD0</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-EYsBC4u5K3oa8SyoHdgTPc</idno>
+            <name>Claes Västerteg</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-NRb4HpaQ87qUwhLNcKt7Gz</idno>
+            <name>Annika Qarlsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MwfyAAtpssBG6HcWFxoAB3" type="signed"/>
+        <correspContext corresp="i-MwfyAAtpssBG6HcWFxoAB3">
+          <note type="signatory" corresp="i-EYsBC4u5K3oa8SyoHdgTPc"/>
+          <note type="signatory" corresp="i-NRb4HpaQ87qUwhLNcKt7Gz"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-GDv6P8yikLS8Ah9xRRq75k">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Jp2QXBBHLbQ4vW3g6DqQkj">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-yopjpJCNixvg7o7wA4BDw">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-XbGZQWnYHNWJc4EEVA453x"/>
+        <correspContext corresp="i-XbGZQWnYHNWJc4EEVA453x">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

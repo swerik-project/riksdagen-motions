@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00365">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>VAB-dagarna</title>
+        <author corresp="i-6kLJbGLpwB9hYxDrVrkcqF">av Karin Pilsäter (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>VAB-dagarna</title>
+          <idno type="rdwebb">GT02Sf365</idno>
+          <rs type="number">Sf365</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Sf365/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Sf365</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Sf365</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/FE625AC5-106D-4D62-A528-B8CDD308C644</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-6kLJbGLpwB9hYxDrVrkcqF</idno>
+            <name>Karin Pilsäter</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Mtnc1o2qCsL2HFioKnJeE6" type="signed"/>
+        <correspContext corresp="i-Mtnc1o2qCsL2HFioKnJeE6">
+          <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Azd78AsSubEa1zftRRXBo3">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-KvK5YJ97NJ6d2ri8Wp4AM5">
+          <date when="2005-10-13"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-CRUB1ew5yBaLaWv3FsRfjb">
+          <date when="2005-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HV3rrxQPRiiHVE6H7tYFH7"/>
+        <correspContext corresp="i-HV3rrxQPRiiHVE6H7tYFH7">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

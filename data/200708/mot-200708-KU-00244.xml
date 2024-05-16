@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KU-00244">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Riksmötets öppnande</title>
+        <author corresp="i-17NC28Tx5CZ5mzwYAUHKqv">av Monica Green (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Riksmötets öppnande</title>
+          <idno type="rdwebb">GV02K244</idno>
+          <rs type="number">K244</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02K244/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02K244</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02K244</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/BB7866B1-1A44-4502-BB5E-775CB1B5FFC3</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-17NC28Tx5CZ5mzwYAUHKqv</idno>
+            <name>Monica Green</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9vYboTvQndhfdrwt7MqD1q" type="signed"/>
+        <correspContext corresp="i-9vYboTvQndhfdrwt7MqD1q">
+          <note type="signatory" corresp="i-17NC28Tx5CZ5mzwYAUHKqv"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-C14NCWh5vXQ5P3PJ2eEomi">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-RTtxdMyoHJVJVNMPG7Gb3j">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-KTheMKR5u9FRpo6Ns2sUJh">
+          <date when="2007-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UqLZ2Q1UbMs5nedvMyjfV3">
+          <date when="2007-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-TeD7xjoaVDQBNuuMgyxjYu">
+          <date when="2007-09-28"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FBgqDqaSmmSYs8aWn5gS5u"/>
+        <correspContext corresp="i-FBgqDqaSmmSYs8aWn5gS5u">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

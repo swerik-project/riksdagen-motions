@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KrU-00232">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skolbibliotek</title>
+        <author corresp="i-h1aVBzexdmWPt4dFvXiYA">av Inger Davidson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skolbibliotek</title>
+          <idno type="rdwebb">GV02Kr232</idno>
+          <rs type="number">Kr232</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02Kr232/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02Kr232</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02Kr232</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/BCC44CD9-3491-4FF4-876E-CED14D7A91CF</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-h1aVBzexdmWPt4dFvXiYA</idno>
+            <name>Inger Davidson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WdunTzXQjSoiP5a1oUYwaD" type="signed"/>
+        <correspContext corresp="i-WdunTzXQjSoiP5a1oUYwaD">
+          <note type="signatory" corresp="i-h1aVBzexdmWPt4dFvXiYA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-A8fvE2b3xAc34pb35Pj6eN">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-AesnMqu2L7tGgWuFhsS3bT">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-S38DpmoBdsqJYAAzEGBXdh">
+          <date when="2007-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-TRWgzJ3Y4m4AoLyU1mAbyS">
+          <date when="2007-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-HSVzXwf2DcbedWNphwGsey">
+          <date when="2007-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RuZF5UTmQHvtNQDEYcU6jJ"/>
+        <correspContext corresp="i-RuZF5UTmQHvtNQDEYcU6jJ">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

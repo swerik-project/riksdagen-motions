@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KU-00311">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nomineringar till politiska uppdrag</title>
+        <author corresp="i-BoRLrCqi4prCw3N11EyJPF">av Solveig Hellquist (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nomineringar till politiska uppdrag</title>
+          <idno type="rdwebb">GV02K311</idno>
+          <rs type="number">K311</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02K311/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02K311</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02K311</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/BD2EA160-F1AA-43BE-9A24-153C4B9DC3E4</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-BoRLrCqi4prCw3N11EyJPF</idno>
+            <name>Solveig Hellquist</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NKfXgX57vL61o35CVgeTtx" type="signed"/>
+        <correspContext corresp="i-NKfXgX57vL61o35CVgeTtx">
+          <note type="signatory" corresp="i-BoRLrCqi4prCw3N11EyJPF"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-MshcFKvrU3zrxBHFcNCvsN">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-SaAEz7dHpgE4E6hxeWHxs7">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-3WmWuhhHVJmFSgpj2iq6Xt">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RpndGVRLJc32cSewdgXiDw">
+          <date when="2007-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-G1eoSh2fqrNw1zH3ZZNGvx">
+          <date when="2007-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-F4MUB1AX2EviEggrHZ7RSf"/>
+        <correspContext corresp="i-F4MUB1AX2EviEggrHZ7RSf">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

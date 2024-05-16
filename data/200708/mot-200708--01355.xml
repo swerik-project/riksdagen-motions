@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708--01355">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Utdrag ur val- och folkbokföringsbasen</title>
+        <author corresp="i-XcAqMe3ntVBboWUxqACfz">av Gunnar Andrén (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Utdrag ur val- och folkbokföringsbasen</title>
+          <idno type="rdwebb">GV02Xfp1355</idno>
+          <rs type="number">fp1355</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02Xfp1355/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02Xfp1355</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02Xfp1355</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XcAqMe3ntVBboWUxqACfz</idno>
+            <name>Gunnar Andrén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MGC11XmjYhHNXmS7RawqnQ" type="signed"/>
+        <correspContext corresp="i-MGC11XmjYhHNXmS7RawqnQ">
+          <note type="signatory" corresp="i-XcAqMe3ntVBboWUxqACfz"/>
+        </correspContext>
+        <correspAction type="expires" xml:id="i-KECEcFfBtMTKF74DW3gXfG">
+          <date when="2007-10-08"/>
+        </correspAction>
+        <correspAction type="registration" xml:id="i-WbEaAPLYgoKGn3fkrYYfwv">
+          <date when="2007-10-08"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-5DyrUqj5aNx6FPgFVmXMFP">
+          <date when="2007-10-05"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

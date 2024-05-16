@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-CU-00380">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Namnlagen</title>
+        <author corresp="i-XHzgSBhvzhMtyTsYMbxgy4">av Fredrik Schulte (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Namnlagen</title>
+          <idno type="rdwebb">GV02C380</idno>
+          <rs type="number">C380</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02C380/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02C380</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02C380</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2E18BA75-E675-46F3-9CA9-D9A6DB1B5281</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XHzgSBhvzhMtyTsYMbxgy4</idno>
+            <name>Fredrik Schulte</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3RqZWTE6oTnUsgvqK4rnmq" type="signed"/>
+        <correspContext corresp="i-3RqZWTE6oTnUsgvqK4rnmq">
+          <note type="signatory" corresp="i-XHzgSBhvzhMtyTsYMbxgy4"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-F1wWTeyZk1sBD9DMiyuNF3">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-D6GWJNh2NJ4MC2ZfoECq4m">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-ML8zRrk6KSTDHtnTAvhVtM">
+          <date when="2007-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-LwPHVhunkWLjRZAKD6gi3h">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Y2A5edKR5nf3NfovuTWBN7">
+          <date when="2007-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AX3Z6mFp2Vg4iNFjLoJDfm"/>
+        <correspContext corresp="i-AX3Z6mFp2Vg4iNFjLoJDfm">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

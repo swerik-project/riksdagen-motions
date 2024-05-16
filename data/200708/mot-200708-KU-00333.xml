@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KU-00333">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Partisymboler</title>
+        <author corresp="i-4dHfDoweVJM2iAJu9BCQqo">av Tommy Waidelich (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Partisymboler</title>
+          <idno type="rdwebb">GV02K333</idno>
+          <rs type="number">K333</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02K333/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02K333</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02K333</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/29F4D0FC-E4D9-4B71-8337-7A41E3FD6EEE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4dHfDoweVJM2iAJu9BCQqo</idno>
+            <name>Tommy Waidelich</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AWgXKZid7o142UMwPeYbSK" type="signed"/>
+        <correspContext corresp="i-AWgXKZid7o142UMwPeYbSK">
+          <note type="signatory" corresp="i-4dHfDoweVJM2iAJu9BCQqo"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-TaCsvnk83k6PqmijSBsiH">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-G4cepkvhoZAFpAWYoJk7fm">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-JmMxmqz214mwZMWk7Fg3h">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-MGRKNnuAQDm33Ubw6dG4Vi">
+          <date when="2007-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-4HX7uxbVig182ToUdzD5K3">
+          <date when="2007-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TrJFPxs2bXMFd58egNj9Bc"/>
+        <correspContext corresp="i-TrJFPxs2bXMFd58egNj9Bc">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KU-00280">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Medskaparandan i hela Sverige </title>
+        <author corresp="i-Vw3jBQw26TxFbXrsoKmCH2">av Roland Bäckman (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Medskaparandan i hela Sverige </title>
+          <idno type="rdwebb">GV02K280</idno>
+          <rs type="number">K280</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02K280/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02K280</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02K280</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/DDE0AB2D-988A-4842-B5EA-EE00DF416868</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Vw3jBQw26TxFbXrsoKmCH2</idno>
+            <name>Roland Bäckman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VWABfPonBjGj4omnJ7YoKK" type="signed"/>
+        <correspContext corresp="i-VWABfPonBjGj4omnJ7YoKK">
+          <note type="signatory" corresp="i-Vw3jBQw26TxFbXrsoKmCH2"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-UP6ixAnAgYbkMAwTvbvzAK">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-5qkm4sKQrk77UXRC84U8Lc">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-HR2i8ETZd7t547FnmTbr9S">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-W3F3ogh2TobyeRdtje7yih">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Ge4idqviHFoL7fq77dhrVq">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9XdMAfnCjVb3xFVoSfrgxd"/>
+        <correspContext corresp="i-9XdMAfnCjVb3xFVoSfrgxd">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KrU-00291">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Eric Sahlström Institutet</title>
+        <author corresp="i-VkgCZCfoAga9JDLAtq7rRZ i-FWGPPxcLZRFDrb58TQhLuJ">av Agneta Gille och Mats Berglind (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Eric Sahlström Institutet</title>
+          <idno type="rdwebb">GV02Kr291</idno>
+          <rs type="number">Kr291</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02Kr291/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02Kr291</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02Kr291</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D146E6A8-B024-4666-B7E1-D5D4E3AD0FBA</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VkgCZCfoAga9JDLAtq7rRZ</idno>
+            <name>Agneta Gille</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-FWGPPxcLZRFDrb58TQhLuJ</idno>
+            <name>Mats Berglind</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NQfJs24YrhTBiYd9nQnPrK" type="signed"/>
+        <correspContext corresp="i-NQfJs24YrhTBiYd9nQnPrK">
+          <note type="signatory" corresp="i-VkgCZCfoAga9JDLAtq7rRZ"/>
+          <note type="signatory" corresp="i-FWGPPxcLZRFDrb58TQhLuJ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-E32UYq6FLcemhH1k6d9Bdj">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-SJKMKReC2BvgmcQSkigpRa">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-9fVAgyFDGkdvHxNCVRu3tT">
+          <date when="2007-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NsLEUf3fjZZAh1TbTyefLy">
+          <date when="2007-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-2YQ9THiJbCU8r9Yzon8u3p">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-98v6vuCUmzYDM18q19Q155"/>
+        <correspContext corresp="i-98v6vuCUmzYDM18q19Q155">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

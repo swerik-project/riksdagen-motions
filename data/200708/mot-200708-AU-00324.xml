@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-AU-00324">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arbetsgivarintyg</title>
+        <author corresp="i-HsmyrkjqQGCAargTNWaeXi i-NhqvviMR3JAxbwn9T7i1dL">av Siw Wittgren-Ahl och Claes-Göran Brandin (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arbetsgivarintyg</title>
+          <idno type="rdwebb">GV02A324</idno>
+          <rs type="number">A324</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02A324/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02A324</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02A324</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/4CF9F8E8-AB69-4FD4-8F5B-CE2585EF38C6</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-HsmyrkjqQGCAargTNWaeXi</idno>
+            <name>Siw Wittgren-Ahl</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-NhqvviMR3JAxbwn9T7i1dL</idno>
+            <name>Claes-Göran Brandin</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-J5dKjMaAHHV9Z6ph3RFnPo" type="signed"/>
+        <correspContext corresp="i-J5dKjMaAHHV9Z6ph3RFnPo">
+          <note type="signatory" corresp="i-HsmyrkjqQGCAargTNWaeXi"/>
+          <note type="signatory" corresp="i-NhqvviMR3JAxbwn9T7i1dL"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-XtD2PJcc7gdpNAWCj3i7it">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7emqWbuUaXrbN9KvB5p69t">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-DEqmJPzJn3SzSjmoAxug7N">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-38jZ7sHvMYLndHwHmEefYh">
+          <date when="2007-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-XpreBXt7dpZqEySWLTCGN5">
+          <date when="2007-09-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Smamqv8tBeWUjBy61jKoot"/>
+        <correspContext corresp="i-Smamqv8tBeWUjBy61jKoot">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

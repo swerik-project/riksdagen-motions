@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KU-00218">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Teckentolkning av riksdagens frågestund</title>
+        <author corresp="i-AvtuWmW4WHMDrctQKwDQuR">av Eva Flyborg (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Teckentolkning av riksdagens frågestund</title>
+          <idno type="rdwebb">GV02K218</idno>
+          <rs type="number">K218</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02K218/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02K218</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02K218</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1703A01F-BAD3-4FD4-8F64-FA2A822E3877</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-AvtuWmW4WHMDrctQKwDQuR</idno>
+            <name>Eva Flyborg</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8cFk8JLrKPbzEuzVrmdikf" type="signed"/>
+        <correspContext corresp="i-8cFk8JLrKPbzEuzVrmdikf">
+          <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
+        </correspContext>
+        <correspAction type="transfer" xml:id="i-8L6AtzvYFqnBW3HmEJwRsp">
+          <date when="2007-09-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UQLrDsT6x375jdPZq9iAS8">
+          <date when="2007-09-28"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-JiR11PRNnPAtPpsrV6N8fK">
+          <date when="2007-10-02"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-HJhJbBANxieMoYRjdeMaPR">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-UoCT2CNidf3siPFFaSRvaF">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QJ43fJst9xD1BZo2LXuxzJ"/>
+        <correspContext corresp="i-QJ43fJst9xD1BZo2LXuxzJ">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

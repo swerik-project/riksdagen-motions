@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-TU-00311">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enskilda vägar</title>
+        <author corresp="i-8gcKLg8FFeh9DR71R7zcMv i-LdbVtbdPx3MQxR6GEgCqax">av Gunnar Sandberg och Berit Andnor (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Enskilda vägar</title>
+          <idno type="rdwebb">GV02T311</idno>
+          <rs type="number">T311</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02T311/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02T311</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02T311</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D53A6E58-48C9-4BB9-B977-4098DCF6174E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-8gcKLg8FFeh9DR71R7zcMv</idno>
+            <name>Gunnar Sandberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-LdbVtbdPx3MQxR6GEgCqax</idno>
+            <name>Berit Andnor</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RhB65RSFbc1vBHvb1XBuYY" type="signed"/>
+        <correspContext corresp="i-RhB65RSFbc1vBHvb1XBuYY">
+          <note type="signatory" corresp="i-8gcKLg8FFeh9DR71R7zcMv"/>
+          <note type="signatory" corresp="i-LdbVtbdPx3MQxR6GEgCqax"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-6W72nQAGQ17daTs474jhX5">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-LdHiU9E5AhYaxrYHeLU1Sd">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-QVYkcrYZvXhPTngTwZqoev">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-LV7xuN1mWLZSwEz1NdR6eF">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-AAwF8XfpqfMPHk9Mpr3GUb">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Q1f2ahoP3H1gNYkjn6K97r"/>
+        <correspContext corresp="i-Q1f2ahoP3H1gNYkjn6K97r">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

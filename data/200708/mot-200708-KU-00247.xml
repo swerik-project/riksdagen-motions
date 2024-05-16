@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KU-00247">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samkörning av register</title>
+        <author corresp="i-Bsa1bRZ8s4aqtJquDTqLPc">av Ulf Berg (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Samkörning av register</title>
+          <idno type="rdwebb">GV02K247</idno>
+          <rs type="number">K247</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02K247/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02K247</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02K247</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/9993430D-DA11-40B8-A839-27736C2E4D0E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Bsa1bRZ8s4aqtJquDTqLPc</idno>
+            <name>Ulf Berg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HWWQtTVMChabg5xS8EhijE" type="signed"/>
+        <correspContext corresp="i-HWWQtTVMChabg5xS8EhijE">
+          <note type="signatory" corresp="i-Bsa1bRZ8s4aqtJquDTqLPc"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Q8r16RZ6nLQANoq86nXEfQ">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-WoeYcx7zi4rDcX5QSNgA2y">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-ChnK4zyHuphnqV79DdMNcg">
+          <date when="2007-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Mr2uwu5mgntE2Ey88wJBQ4">
+          <date when="2007-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-4XxDUmviX5BSmmDDQyxGav">
+          <date when="2007-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UUCJSewCvRCWSDDyrMezDS"/>
+        <correspContext corresp="i-UUCJSewCvRCWSDDyrMezDS">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

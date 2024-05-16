@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-TU-00506">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Umeå hamn</title>
+        <author corresp="i-XXHxxQRuSjGXVxaVhcXaFk">av Åke Sandström m.fl. (c, fp, kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Umeå hamn</title>
+          <idno type="rdwebb">GV02T506</idno>
+          <rs type="number">T506</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02T506/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02T506</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02T506</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/033E7807-DD7C-42AE-9D52-4A56C61EA036</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XXHxxQRuSjGXVxaVhcXaFk</idno>
+            <name>Åke Sandström</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-TEkdGy8DEUwcbVAxHygs6z</idno>
+            <name>Maria Lundqvist-Brömster</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-4htYS85JpBwxyYZ32aVtBc</idno>
+            <name>Gunilla Tjernberg</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Le2Xb7B5m9M9a5WWvw7hGX" type="signed"/>
+        <correspContext corresp="i-Le2Xb7B5m9M9a5WWvw7hGX">
+          <note type="signatory" corresp="i-XXHxxQRuSjGXVxaVhcXaFk"/>
+          <note type="signatory" corresp="i-TEkdGy8DEUwcbVAxHygs6z"/>
+          <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-K8SjZPD5AVgj6wik1wydik">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-GoXL73G1W9d3Rn56TP8n2h">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-Ge5odYu7RKozsPGz36Eaev">
+          <date when="2007-10-09"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Xdvv5R6A3uozP7C8dySjXk">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-KpYZrJutxtyJTMyMLQjgqQ">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-SuX3n8DM4AzKxY2TWxx3Fh"/>
+        <correspContext corresp="i-SuX3n8DM4AzKxY2TWxx3Fh">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#flerparti"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

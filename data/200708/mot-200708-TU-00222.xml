@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-TU-00222">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Körkortsprov</title>
+        <author corresp="i-3p3w5Vw2i74gEMeqzABeEG i-S1jBpohzgG7cgcBjfgN1Fb">av Lars Elinderson och Sten Bergheden (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Körkortsprov</title>
+          <idno type="rdwebb">GV02T222</idno>
+          <rs type="number">T222</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02T222/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02T222</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02T222</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A6B35395-4E33-4B28-99AF-61954EFD8B69</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3p3w5Vw2i74gEMeqzABeEG</idno>
+            <name>Lars Elinderson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-S1jBpohzgG7cgcBjfgN1Fb</idno>
+            <name>Sten Bergheden</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Q2HEWEWfb9jSsWL2udWqCg" type="signed"/>
+        <correspContext corresp="i-Q2HEWEWfb9jSsWL2udWqCg">
+          <note type="signatory" corresp="i-3p3w5Vw2i74gEMeqzABeEG"/>
+          <note type="signatory" corresp="i-S1jBpohzgG7cgcBjfgN1Fb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-SGwttUJda1yKWydsCVck8G">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-D831CM4XnxJWFuMrpDBCfb">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-5S31t2JmijpcWnnGqEjGSm">
+          <date when="2007-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GuafrSsrAV48S2F2d8wn3S">
+          <date when="2007-09-28"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Jgxha961Ao6bVoHfqoFmCX">
+          <date when="2007-09-28"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NaEdCMvQ73wxBtCH3Y6Kzm"/>
+        <correspContext corresp="i-NaEdCMvQ73wxBtCH3Y6Kzm">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-TU-00228">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>E 20 genom Skaraborg</title>
+        <author corresp="i-Nj6rnCfHps9ZzFLuPuYaNj">av Egon Frid (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>E 20 genom Skaraborg</title>
+          <idno type="rdwebb">GV02T228</idno>
+          <rs type="number">T228</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02T228/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02T228</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02T228</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0E40A57E-D3A1-49AA-B1A9-D1E5AF6BFAB6</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Nj6rnCfHps9ZzFLuPuYaNj</idno>
+            <name>Egon Frid</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3FmGGFNYh7R24MXmXzZ4PR" type="signed"/>
+        <correspContext corresp="i-3FmGGFNYh7R24MXmXzZ4PR">
+          <note type="signatory" corresp="i-Nj6rnCfHps9ZzFLuPuYaNj"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-5sGodpqozSNZbc5MjtKfZU">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-CmyrSRxJbhKCKTpUd4ypkJ">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-LAQwwP9oDyv7R1DB3cHVbc">
+          <date when="2007-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BkmwFsDeTNixm5Q1hnagNv">
+          <date when="2007-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-PoLSPTv6xY94ffbudpSZ7a">
+          <date when="2007-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-VYrSeKSPGngdzzwCBCact7"/>
+        <correspContext corresp="i-VYrSeKSPGngdzzwCBCact7">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-TU-00443">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Viskadalsbanan</title>
+        <author corresp="i-KAgkDWA5iGbn9XFLkj9FoB i-YP25iT3t9zdY2dpPgshs5z">av Alf Eriksson och Phia Andersson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Viskadalsbanan</title>
+          <idno type="rdwebb">GV02T443</idno>
+          <rs type="number">T443</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02T443/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02T443</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02T443</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/76BFA7D6-19BA-48DB-85D7-3B0C11421DC1</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KAgkDWA5iGbn9XFLkj9FoB</idno>
+            <name>Alf Eriksson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-YP25iT3t9zdY2dpPgshs5z</idno>
+            <name>Phia Andersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SWc63fs24iUbZttD4jfZSc" type="signed"/>
+        <correspContext corresp="i-SWc63fs24iUbZttD4jfZSc">
+          <note type="signatory" corresp="i-KAgkDWA5iGbn9XFLkj9FoB"/>
+          <note type="signatory" corresp="i-YP25iT3t9zdY2dpPgshs5z"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-EfHKdCwzNr6cHmuavKV7GW">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-XK1kP4wcRK9bbVz4asBy5q">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-SSBNzMeCMRZa5MBefdXM8W">
+          <date when="2007-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GfTRfxYvkFBe8MWWs3p7Re">
+          <date when="2007-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-DETe8YXDVTADv8Yaegp3qj">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7scuA2p6Mpdy4Ss1LPcabW"/>
+        <correspContext corresp="i-7scuA2p6Mpdy4Ss1LPcabW">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

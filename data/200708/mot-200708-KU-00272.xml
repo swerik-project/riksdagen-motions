@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KU-00272">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionsinstitutet</title>
+        <author corresp="i-EvEhiwEfBXTnZhpZqBB1u5">av Lisbeth Grönfeldt Bergman (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motionsinstitutet</title>
+          <idno type="rdwebb">GV02K272</idno>
+          <rs type="number">K272</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02K272/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02K272</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02K272</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/7E28CCA1-5514-43C0-8F6E-7A6F96E40B59</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-EvEhiwEfBXTnZhpZqBB1u5</idno>
+            <name>Lisbeth Grönfeldt Bergman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EmnRzLyniW5pCQvuY6f1Pb" type="signed"/>
+        <correspContext corresp="i-EmnRzLyniW5pCQvuY6f1Pb">
+          <note type="signatory" corresp="i-EvEhiwEfBXTnZhpZqBB1u5"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Th6VygEHpRvvWnoxRUtuWj">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-B8S13CuUjZEG4WE3KZgj2S">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-LXG3KLyCtRt1exoDEJusa8">
+          <date when="2007-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Ckf5RmLcVi2AEJfCqKB6aW">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-NAS2kjDQvEsNUcyNnkywo9">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BYpB9rwB27jrVQyi7aPXoA"/>
+        <correspContext corresp="i-BYpB9rwB27jrVQyi7aPXoA">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KU-00226">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Begravningsavgift</title>
+        <author corresp="i-D6hrZCxPVTQxPgXvGFfuJ7 i-Ldb2oqPG98BReLEGLTqU4A">av Ulf Sjösten och Jan Ericson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Begravningsavgift</title>
+          <idno type="rdwebb">GV02K226</idno>
+          <rs type="number">K226</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02K226/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02K226</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02K226</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0F632B8D-8E7E-44EA-9CF0-FD0724330CA1</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-D6hrZCxPVTQxPgXvGFfuJ7</idno>
+            <name>Ulf Sjösten</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Ldb2oqPG98BReLEGLTqU4A</idno>
+            <name>Jan Ericson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-K8krCxD18LUy2iuGb9mbj" type="signed"/>
+        <correspContext corresp="i-K8krCxD18LUy2iuGb9mbj">
+          <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
+          <note type="signatory" corresp="i-Ldb2oqPG98BReLEGLTqU4A"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-TyzGV6WNZ2KR6rNPUuSBvV">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-F2LMnqd98LU2kWQqDLD1nQ">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-VQPhCWLxL36N2iMhawTPHg">
+          <date when="2007-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DCQzgs32mZ7AggE23atbAA">
+          <date when="2007-09-28"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-BGBc6nTR1hX753iFt4soNb">
+          <date when="2007-09-28"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-CT29F8dNJskLci7c5JmWz4"/>
+        <correspContext corresp="i-CT29F8dNJskLci7c5JmWz4">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

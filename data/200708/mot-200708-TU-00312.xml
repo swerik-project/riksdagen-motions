@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-TU-00312">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vägskyltar</title>
+        <author corresp="i-5iLkMds96DbsdoQ1H5obCT">av Sofia Arkelsten (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vägskyltar</title>
+          <idno type="rdwebb">GV02T312</idno>
+          <rs type="number">T312</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02T312/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02T312</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02T312</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/F78F0F91-74E2-4BED-8040-CBA0C30A99B9</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-5iLkMds96DbsdoQ1H5obCT</idno>
+            <name>Sofia Arkelsten</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QGq7niLYY8QrTiemLr4TPb" type="signed"/>
+        <correspContext corresp="i-QGq7niLYY8QrTiemLr4TPb">
+          <note type="signatory" corresp="i-5iLkMds96DbsdoQ1H5obCT"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3vFaUQcpL9SnFd6XxytmU2">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Gn7FzGxfkmYT88B7vzaq22">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-AJfBftvSSqRQrBwVZEQoR8">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BhsXe5FAzqrAPj74B58A3D">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Y7Bjuv9MjTCGF2n1ipdme8">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-4AmszgB3UCRSj4hANp2LuA"/>
+        <correspContext corresp="i-4AmszgB3UCRSj4hANp2LuA">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

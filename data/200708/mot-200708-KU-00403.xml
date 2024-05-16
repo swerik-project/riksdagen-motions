@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KU-00403">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kvalitetssäkringssystem för enskilda motioner</title>
+        <author corresp="i-Ey2xJ5PQcAYBGtnz2AK3qu">av Anti Avsan (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kvalitetssäkringssystem för enskilda motioner</title>
+          <idno type="rdwebb">GV02K403</idno>
+          <rs type="number">K403</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02K403/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02K403</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02K403</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D541EAEF-504B-46A0-83C8-7CAEDB7672F2</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ey2xJ5PQcAYBGtnz2AK3qu</idno>
+            <name>Anti Avsan</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MZZEnznsP4UuBxmJmjmk34" type="signed"/>
+        <correspContext corresp="i-MZZEnznsP4UuBxmJmjmk34">
+          <note type="signatory" corresp="i-Ey2xJ5PQcAYBGtnz2AK3qu"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3dpqeuk5pSxuVNk5xjcjHC">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-W7SLrmu5QbthrD8GNeSoCr">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-SjEURctxn48JkE4Ez1WwQW">
+          <date when="2007-10-09"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-FfVyvF24fzBxff3trbjvYN">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-TjKNjG2y4BrDgQnhSkdLvM">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Q4f6yGRRMLjrhTGU3b7eTe"/>
+        <correspContext corresp="i-Q4f6yGRRMLjrhTGU3b7eTe">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

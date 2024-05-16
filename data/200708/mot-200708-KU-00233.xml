@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KU-00233">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elektronisk röstning</title>
+        <author corresp="i-CSSvFYJqF1rNFZNiY5Xnmx i-84DiaFjYsBoBUQnKJiSte9">av Mats Gerdau och Elisabeth Svantesson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Elektronisk röstning</title>
+          <idno type="rdwebb">GV02K233</idno>
+          <rs type="number">K233</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02K233/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02K233</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02K233</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/DF164B07-46ED-443A-A446-2374D1503122</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CSSvFYJqF1rNFZNiY5Xnmx</idno>
+            <name>Mats Gerdau</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-84DiaFjYsBoBUQnKJiSte9</idno>
+            <name>Elisabeth Svantesson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LJQZCejFCCHdGuL4H7WcVy" type="signed"/>
+        <correspContext corresp="i-LJQZCejFCCHdGuL4H7WcVy">
+          <note type="signatory" corresp="i-CSSvFYJqF1rNFZNiY5Xnmx"/>
+          <note type="signatory" corresp="i-84DiaFjYsBoBUQnKJiSte9"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-2exSP4Kkdgu3jCEtz3UXyh">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-JKaXrTDcsu2KBsWh6H7Akq">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-Ly1nccdkZEg3hvsGKoB5BW">
+          <date when="2007-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-XRS4GiXSZnsGV3VhUVCy5F">
+          <date when="2007-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-SsXLLSYEN8B6N4h5srmhic">
+          <date when="2007-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GUJF1YcxtC2BwaM45To4YK"/>
+        <correspContext corresp="i-GUJF1YcxtC2BwaM45To4YK">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-NU-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gislaved</title>
+        <author corresp="i-8Nio1rUw3hSjL6pvCGw22Y">av Carina Hägg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Gislaved</title>
+          <idno type="rdwebb">GV02N201</idno>
+          <rs type="number">N201</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02N201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02N201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02N201</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/57E21B5C-DCEA-40DC-96C2-CDA6DC732566</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-8Nio1rUw3hSjL6pvCGw22Y</idno>
+            <name>Carina Hägg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-M5yQnckiD7ak93My5Pg3Yi" type="signed"/>
+        <correspContext corresp="i-M5yQnckiD7ak93My5Pg3Yi">
+          <note type="signatory" corresp="i-8Nio1rUw3hSjL6pvCGw22Y"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-BQY5FP2D1s4JGVrN1cL3gT">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-8waob6Q7uZYF527CYm1pNN">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-J1tfpnViZTiwNnVoeWSHGn">
+          <date when="2007-09-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RWJ9KKQGckWnBkADgH6fXZ">
+          <date when="2007-09-25"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-BYVL14C9mtaLT7aKggjyvw">
+          <date when="2007-09-21"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-F9Q3AZANndH3yVcW678w5v"/>
+        <correspContext corresp="i-F9Q3AZANndH3yVcW678w5v">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

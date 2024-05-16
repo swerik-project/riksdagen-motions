@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-SkU-00207">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Utförsåkning</title>
+        <author corresp="i-JenGD5Kv9swgVvigAUvuWe">av Patrik Forslund (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Utförsåkning</title>
+          <idno type="rdwebb">GV02Sk207</idno>
+          <rs type="number">Sk207</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02Sk207/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02Sk207</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02Sk207</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A6F50D7B-B51D-4CBB-96B3-DB186BF5CFA2</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-JenGD5Kv9swgVvigAUvuWe</idno>
+            <name>Patrik Forslund</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SmWdNMqZ8SBDUy1iWkt7Y7" type="signed"/>
+        <correspContext corresp="i-SmWdNMqZ8SBDUy1iWkt7Y7">
+          <note type="signatory" corresp="i-JenGD5Kv9swgVvigAUvuWe"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-9DgySLJbQcn4wYApF6VjDo">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-3UgY9cyj3ta9Nvw5icgsRr">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-jZHwCp1Fg6wsUmoiKJNhZ">
+          <date when="2007-09-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Px5s4SMhhFAibK9gWJmcCH">
+          <date when="2007-09-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Utn7EjNHXhdqBuqBwvnSAP">
+          <date when="2007-09-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2prqJN33UXVdQeR9qfMgz7"/>
+        <correspContext corresp="i-2prqJN33UXVdQeR9qfMgz7">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

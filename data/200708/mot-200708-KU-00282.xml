@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-KU-00282">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kommunala konstitutionsutskott</title>
+        <author corresp="i-UnkrZ3NAvoWXY6Krxbkudq">av Tobias Krantz (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kommunala konstitutionsutskott</title>
+          <idno type="rdwebb">GV02K282</idno>
+          <rs type="number">K282</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02K282/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02K282</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02K282</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/9263D96E-FAF9-4BB8-9057-9DA14C852BB4</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UnkrZ3NAvoWXY6Krxbkudq</idno>
+            <name>Tobias Krantz</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9eS3uBkhpDNdBeQxqA7bs2" type="signed"/>
+        <correspContext corresp="i-9eS3uBkhpDNdBeQxqA7bs2">
+          <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
+        </correspContext>
+        <correspAction type="transfer" xml:id="i-KNAhd4Jp9YGhuhfaQ8vnwG">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PnWFSL1dZpvJL4G2eVovbA">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-SYtHuve8tTaSm4wS7NxwBA">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-EQaST4C199bAmm92KygEea">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-CLuXTfWhUzG4TTGbihWGFf">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-V39FT5AAgmiBv18iPdQhkE"/>
+        <correspContext corresp="i-V39FT5AAgmiBv18iPdQhkE">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

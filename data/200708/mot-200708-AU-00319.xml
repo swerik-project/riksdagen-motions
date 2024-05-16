@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200708-AU-00319">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Egenanställning</title>
+        <author corresp="i-J6HemNwzcYVLs5m9EZ9Tmt i-K75KrtPmbiw4k8rrgLDHse">av Hans Rothenberg och Maria Plass (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Egenanställning</title>
+          <idno type="rdwebb">GV02A319</idno>
+          <rs type="number">A319</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GV02A319/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GV02A319</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GV02A319</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/AC682AD1-E50F-4C90-AC1F-F36B0ADAB100</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-J6HemNwzcYVLs5m9EZ9Tmt</idno>
+            <name>Hans Rothenberg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-K75KrtPmbiw4k8rrgLDHse</idno>
+            <name>Maria Plass</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GdMjDuTEEhRFT45i1duYvo" type="signed"/>
+        <correspContext corresp="i-GdMjDuTEEhRFT45i1duYvo">
+          <note type="signatory" corresp="i-J6HemNwzcYVLs5m9EZ9Tmt"/>
+          <note type="signatory" corresp="i-K75KrtPmbiw4k8rrgLDHse"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-5JAayAEw556Fwhsrc58ZBN">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-SSiS48hnLaja9ZBNh1MZy3">
+          <date when="2007-10-16"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-9zbW5m7hfscU3skiBu6Tec">
+          <date when="2007-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4MYGjAPcbNFQcSyYBjjaBK">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-VnpRdnyDR95y7NeomtzeEL">
+          <date when="2007-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HTq1Zu3VBmdyJihn5bgY4h"/>
+        <correspContext corresp="i-HTq1Zu3VBmdyJihn5bgY4h">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

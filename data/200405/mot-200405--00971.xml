@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405--00971">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rättvist rättsväsende</title>
+        <author>av Lars Ohly m.fl. (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Rättvist rättsväsende</title>
+          <idno type="rdwebb">GS02xv971</idno>
+          <rs type="number">v971</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02xv971/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02xv971</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02xv971</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A96A919D-CE7D-44EC-87F1-ECF84F461862</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson/>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XaRfc51xxLoTRksN8pcA4J" type="signed"/>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#parti"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

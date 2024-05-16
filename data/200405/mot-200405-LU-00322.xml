@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-LU-00322">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Förmånsrättslagen</title>
+        <author corresp="i-A1WkfiAbmndDMThhAvrWEm">av Hans Backman (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Förmånsrättslagen</title>
+          <idno type="rdwebb">GS02L322</idno>
+          <rs type="number">L322</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02L322/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02L322</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02L322</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-A1WkfiAbmndDMThhAvrWEm</idno>
+            <name>Hans Backman</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TGzPECqbj2br9siMpRgzTN" type="signed"/>
+        <correspContext corresp="i-TGzPECqbj2br9siMpRgzTN">
+          <note type="signatory" corresp="i-A1WkfiAbmndDMThhAvrWEm"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-TFsw762Xv8NS1SUMfCsRfW">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-dkkwviRWTz86skFD18oKY">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SKZUPkrcEUosZzkXMSjEtV">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-38Zcuc3d1gwTbY76ua1zM2"/>
+        <correspContext corresp="i-38Zcuc3d1gwTbY76ua1zM2">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

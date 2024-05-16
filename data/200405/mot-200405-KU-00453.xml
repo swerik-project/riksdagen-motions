@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00453">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Piratkort</title>
+        <author corresp="i-BHVsLDz5YDDkjyE1f5Gzz3">av Lennart Kollmats (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Piratkort</title>
+          <idno type="rdwebb">GS02K453</idno>
+          <rs type="number">K453</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02K453/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02K453</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02K453</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BHVsLDz5YDDkjyE1f5Gzz3</idno>
+            <name>Lennart Kollmats</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3UnyYAFLPA2PuXcJLzx81t" type="signed"/>
+        <correspContext corresp="i-3UnyYAFLPA2PuXcJLzx81t">
+          <note type="signatory" corresp="i-BHVsLDz5YDDkjyE1f5Gzz3"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-9jDyAmu2jcpbDMPKEXGZGx">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-AS3MquMKX93aKKNL3mgimA">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-L2azwrG8EyEuNsJybPeFVJ">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-87MUo3GApWrU1ms3peUqvT"/>
+        <correspContext corresp="i-87MUo3GApWrU1ms3peUqvT">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

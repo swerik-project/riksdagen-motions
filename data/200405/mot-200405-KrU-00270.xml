@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00270">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fornlämning Uppåkra</title>
+        <author corresp="i-Ev13DrJjHbo85jEmQ5EPLM i-KPGvtK4s6Zp3E6XH6vj18n">av Ewa Thalén Finné och Tobias Billström (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fornlämning Uppåkra</title>
+          <idno type="rdwebb">GS02Kr270</idno>
+          <rs type="number">Kr270</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Kr270/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Kr270</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Kr270</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Ev13DrJjHbo85jEmQ5EPLM</idno>
+            <name>Ewa Thalén Finné</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-KPGvtK4s6Zp3E6XH6vj18n</idno>
+            <name>Tobias Billström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Npdi1gEiaPdEtEqxAnLWup" type="signed"/>
+        <correspContext corresp="i-Npdi1gEiaPdEtEqxAnLWup">
+          <note type="signatory" corresp="i-Ev13DrJjHbo85jEmQ5EPLM"/>
+          <note type="signatory" corresp="i-KPGvtK4s6Zp3E6XH6vj18n"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3eECVdvZfLp8VyMp3LMfRG">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-F5VMRBrN7Nuo2x3K9wGwEC">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GvqhBLbgcMLWiJ3i7W4eSG">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FFWTwSFDpTcBZbBRXPLLbM"/>
+        <correspContext corresp="i-FFWTwSFDpTcBZbBRXPLLbM">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

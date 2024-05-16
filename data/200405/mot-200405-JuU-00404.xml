@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-JuU-00404">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Klotter</title>
+        <author corresp="i-TECanR77Prb79DHwPvLitN">av Annelie Enochson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Klotter</title>
+          <idno type="rdwebb">GS02Ju404</idno>
+          <rs type="number">Ju404</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Ju404/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Ju404</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Ju404</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-TECanR77Prb79DHwPvLitN</idno>
+            <name>Annelie Enochson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MKqE1JuGVfoyS2TeK7e9vy" type="signed"/>
+        <correspContext corresp="i-MKqE1JuGVfoyS2TeK7e9vy">
+          <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-2d3R49PBfJvUJ1EKq8k4Wp">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7TDjYY6v8jNmN7FCqXUYPr">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GEZts4ApvBHbhHrsYNEn7T">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JLH9RCrUmF5ubEvhtAXrDv"/>
+        <correspContext corresp="i-JLH9RCrUmF5ubEvhtAXrDv">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

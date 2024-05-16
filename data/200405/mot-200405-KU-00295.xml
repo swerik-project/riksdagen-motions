@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00295">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Uppbördshjälpen</title>
+        <author corresp="i-4Cqdpnmue4GNQh6HSQGRHK">av Peter Danielsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Uppbördshjälpen</title>
+          <idno type="rdwebb">GS02K295</idno>
+          <rs type="number">K295</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02K295/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02K295</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02K295</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4Cqdpnmue4GNQh6HSQGRHK</idno>
+            <name>Peter Danielsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-An5MQSCvsqxeG7tksBLSqX" type="signed"/>
+        <correspContext corresp="i-An5MQSCvsqxeG7tksBLSqX">
+          <note type="signatory" corresp="i-4Cqdpnmue4GNQh6HSQGRHK"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-MGwEnjoVaHghs5UiafjmUe">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-6L1KYrz6zP4LcfGEfH1NfZ">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KFyMX9E2wCuwHbSR12S9qp">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-USfA8Mw2kJWT5B8ewYifWW"/>
+        <correspContext corresp="i-USfA8Mw2kJWT5B8ewYifWW">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

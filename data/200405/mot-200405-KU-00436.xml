@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00436">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Civil vigsel och begravning</title>
+        <author corresp="i-RV58z4JKLyvuKAyG2XobP8 i-C3fSSzQDuoh3kKasHW4AKa">av Laila Bjurling och Sonja Fransson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Civil vigsel och begravning</title>
+          <idno type="rdwebb">GS02K436</idno>
+          <rs type="number">K436</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02K436/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02K436</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02K436</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-RV58z4JKLyvuKAyG2XobP8</idno>
+            <name>Laila Bjurling</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-C3fSSzQDuoh3kKasHW4AKa</idno>
+            <name>Sonja Fransson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KS5kUNHQXUzR7mBLWJMEqR" type="signed"/>
+        <correspContext corresp="i-KS5kUNHQXUzR7mBLWJMEqR">
+          <note type="signatory" corresp="i-RV58z4JKLyvuKAyG2XobP8"/>
+          <note type="signatory" corresp="i-C3fSSzQDuoh3kKasHW4AKa"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-EtvXe2ZBnikYLJLwuN6fEN">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-AeAy2V28bWFYp8SCWPNxEa">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-XTYEEwemU3rN3rR7w5ZbwN">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-WxZ66jFrSfqsy4V4jRFbvD"/>
+        <correspContext corresp="i-WxZ66jFrSfqsy4V4jRFbvD">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

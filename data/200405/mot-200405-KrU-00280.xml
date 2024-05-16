@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00280">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stöd till kulturtidskrifter</title>
+        <author corresp="i-GymTck6WQqRkdN12tqCZDr i-4k3tGk6aQ13TZxWERSkj72">av Peter Jonsson och Rolf Lindén (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Stöd till kulturtidskrifter</title>
+          <idno type="rdwebb">GS02Kr280</idno>
+          <rs type="number">Kr280</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Kr280/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Kr280</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Kr280</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GymTck6WQqRkdN12tqCZDr</idno>
+            <name>Peter Jonsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4k3tGk6aQ13TZxWERSkj72</idno>
+            <name>Rolf Lindén</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AA67GEiQpVF18h1qV7VoQ1" type="signed"/>
+        <correspContext corresp="i-AA67GEiQpVF18h1qV7VoQ1">
+          <note type="signatory" corresp="i-GymTck6WQqRkdN12tqCZDr"/>
+          <note type="signatory" corresp="i-4k3tGk6aQ13TZxWERSkj72"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-KWSS2CM1RzwECgvaSXdZrc">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-9WNdB1rY5pScb3wtH5iJUZ">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Av9nETNCXursHAHqEmZfLQ">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JEAAeia1rEUWSkQE8Hm5K1"/>
+        <correspContext corresp="i-JEAAeia1rEUWSkQE8Hm5K1">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

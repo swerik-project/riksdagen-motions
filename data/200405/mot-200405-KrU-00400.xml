@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00400">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sponsring av program i SVT</title>
+        <author corresp="i-CC4z6y829HSoYCYrGDHrtv">av Kenth Högström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sponsring av program i SVT</title>
+          <idno type="rdwebb">GS02Kr400</idno>
+          <rs type="number">Kr400</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Kr400/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Kr400</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Kr400</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CC4z6y829HSoYCYrGDHrtv</idno>
+            <name>Kenth Högström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Aeb9BLnJ3mGgheDmoazNLv" type="signed"/>
+        <correspContext corresp="i-Aeb9BLnJ3mGgheDmoazNLv">
+          <note type="signatory" corresp="i-CC4z6y829HSoYCYrGDHrtv"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-GxF5p2bgBWrZrCs85SdiGr">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-8zZ2tCHGP473zUqW2LtwN4">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4fqCQ3D9NH8SYy9jbWmVoS">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Hriog4tBJ2ecUg1hgrwaKq"/>
+        <correspContext corresp="i-Hriog4tBJ2ecUg1hgrwaKq">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

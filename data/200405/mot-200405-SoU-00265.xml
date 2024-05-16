@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00265">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Läkemedel för att hjälpa</title>
+        <author corresp="i-AyN7HRP1y38PeQoLunJifb">av Jörgen Johansson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Läkemedel för att hjälpa</title>
+          <idno type="rdwebb">GS02So265</idno>
+          <rs type="number">So265</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02So265/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02So265</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02So265</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AyN7HRP1y38PeQoLunJifb</idno>
+            <name>Jörgen Johansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KCSTLL71ov5NMSS7ziNhWC" type="signed"/>
+        <correspContext corresp="i-KCSTLL71ov5NMSS7ziNhWC">
+          <note type="signatory" corresp="i-AyN7HRP1y38PeQoLunJifb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-UStzq34tACVgi7aiT6BTSP">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Kq69pPE14xcZy4ovyt5w4o">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KZS67eXL1HHsciz1Y2F18p">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-WGantr5CivSGxb6cQwELko"/>
+        <correspContext corresp="i-WGantr5CivSGxb6cQwELko">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

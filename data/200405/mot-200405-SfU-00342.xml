@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SfU-00342">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sjukersättning</title>
+        <author corresp="i-FrC3WwfjWAuoWu4BnbedDa">av Jan-Olof Larsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sjukersättning</title>
+          <idno type="rdwebb">GS02Sf342</idno>
+          <rs type="number">Sf342</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sf342/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sf342</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sf342</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-FrC3WwfjWAuoWu4BnbedDa</idno>
+            <name>Jan-Olof Larsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-YJ426WeJZBwfn8CF9TbWQT" type="signed"/>
+        <correspContext corresp="i-YJ426WeJZBwfn8CF9TbWQT">
+          <note type="signatory" corresp="i-FrC3WwfjWAuoWu4BnbedDa"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-MXtNeutE9YMwKtRTw7pwob">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Q6doLceZ8DzFrZaDY3cAX">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8SC4psP6nhUp6sZdL383A6">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UpyhRGjoaRhvDArtgsZqUa"/>
+        <correspContext corresp="i-UpyhRGjoaRhvDArtgsZqUa">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

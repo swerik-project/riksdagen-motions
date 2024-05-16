@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00207">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Moms på ideellt arbete</title>
+        <author corresp="i-XXuTUfCrSzD7sKMdyYtEft">av Sofia Larsen (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Moms på ideellt arbete</title>
+          <idno type="rdwebb">GS02Sk207</idno>
+          <rs type="number">Sk207</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk207/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk207</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk207</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-XXuTUfCrSzD7sKMdyYtEft</idno>
+            <name>Sofia Larsen</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MfTJQBsXFaGCH32eVHYPSq" type="signed"/>
+        <correspContext corresp="i-MfTJQBsXFaGCH32eVHYPSq">
+          <note type="signatory" corresp="i-XXuTUfCrSzD7sKMdyYtEft"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-MpoMHyDav3KoSefxS8CmgS">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-TNk2GbHJ4iNaCTSmug3SGf">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UaoT44iVyJkyYeQWsU6saG">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-hWok6HzG8EBaHzTdj4WQA"/>
+        <correspContext corresp="i-hWok6HzG8EBaHzTdj4WQA">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

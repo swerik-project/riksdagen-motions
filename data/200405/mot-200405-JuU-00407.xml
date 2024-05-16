@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-JuU-00407">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Påföljd vid rymning</title>
+        <author corresp="i-TEFXMjR6WsvCeeLdc2wQ82 i-VhAPHtDbXzmUeiVRSdRFGD">av Lennart Klockare och Karin Åström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Påföljd vid rymning</title>
+          <idno type="rdwebb">GS02Ju407</idno>
+          <rs type="number">Ju407</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Ju407/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Ju407</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Ju407</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TEFXMjR6WsvCeeLdc2wQ82</idno>
+            <name>Lennart Klockare</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VhAPHtDbXzmUeiVRSdRFGD</idno>
+            <name>Karin Åström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DfZccaHNN8H45rrJEJ29qW" type="signed"/>
+        <correspContext corresp="i-DfZccaHNN8H45rrJEJ29qW">
+          <note type="signatory" corresp="i-TEFXMjR6WsvCeeLdc2wQ82"/>
+          <note type="signatory" corresp="i-VhAPHtDbXzmUeiVRSdRFGD"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-12LxgjW1wLRsgkEUde9a9f">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-VLxZ2apGjTqNif5tdExzGG">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Bj2kq5NWTX9LFEDR1uo31A">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NhAy5Vx4yAgpSNw6X5xN4k"/>
+        <correspContext corresp="i-NhAy5Vx4yAgpSNw6X5xN4k">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

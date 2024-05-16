@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00325">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kirunasvenskarnas okända öde</title>
+        <author corresp="i-XcAqMe3ntVBboWUxqACfz i-P9fVT6wJo29FgZWPQLxr6o">av Gunnar Andrén och Anna Grönlund Krantz (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kirunasvenskarnas okända öde</title>
+          <idno type="rdwebb">GS02Kr325</idno>
+          <rs type="number">Kr325</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Kr325/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Kr325</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Kr325</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XcAqMe3ntVBboWUxqACfz</idno>
+            <name>Gunnar Andrén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-P9fVT6wJo29FgZWPQLxr6o</idno>
+            <name>Anna Grönlund Krantz</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EWyLyazeJLS3ohjweRySCS" type="signed"/>
+        <correspContext corresp="i-EWyLyazeJLS3ohjweRySCS">
+          <note type="signatory" corresp="i-XcAqMe3ntVBboWUxqACfz"/>
+          <note type="signatory" corresp="i-P9fVT6wJo29FgZWPQLxr6o"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-VBaKCiM56GSDUqYWaV2cRn">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Bvcx3RQo8pCMKhFWikaYCP">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-594qCoLgjNdpxNCYnKX38K">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6GaGxeAXX9nGLyCxDntPK4"/>
+        <correspContext corresp="i-6GaGxeAXX9nGLyCxDntPK4">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

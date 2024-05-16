@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-LU-00204">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fastighetsmäklarlagen</title>
+        <author corresp="i-McV8uzEvZdxJephaZbqN9X i-3YBav2r8YXZiNoQkfb1bUy">av Anders G Högmark och Elizabeth Nyström (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fastighetsmäklarlagen</title>
+          <idno type="rdwebb">GS02L204</idno>
+          <rs type="number">L204</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02L204/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02L204</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02L204</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-McV8uzEvZdxJephaZbqN9X</idno>
+            <name>Anders G Högmark</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-3YBav2r8YXZiNoQkfb1bUy</idno>
+            <name>Elizabeth Nyström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BqQFJsc3aQpgGFdwDTEasQ" type="signed"/>
+        <correspContext corresp="i-BqQFJsc3aQpgGFdwDTEasQ">
+          <note type="signatory" corresp="i-McV8uzEvZdxJephaZbqN9X"/>
+          <note type="signatory" corresp="i-3YBav2r8YXZiNoQkfb1bUy"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-H8sQfUL9WRbhUPYNSRdz6W">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Gp6EGvfmf1i6yA5CWiPDfB">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-M8ZjdnnrfKxpz1ARA5uMwv">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-E4gdUgFSx72dFVSV3JgjfW"/>
+        <correspContext corresp="i-E4gdUgFSx72dFVSV3JgjfW">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

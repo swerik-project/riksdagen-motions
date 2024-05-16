@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00229">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Två kammare i Sveriges riksdag</title>
+        <author corresp="i-J74sVAjCTSxzD8rbnxRRA">av Åsa Torstensson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Två kammare i Sveriges riksdag</title>
+          <idno type="rdwebb">GS02K229</idno>
+          <rs type="number">K229</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02K229/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02K229</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02K229</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-J74sVAjCTSxzD8rbnxRRA</idno>
+            <name>Åsa Torstensson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Upiw9wPS2UtiGBBrB7uEDp" type="signed"/>
+        <correspContext corresp="i-Upiw9wPS2UtiGBBrB7uEDp">
+          <note type="signatory" corresp="i-J74sVAjCTSxzD8rbnxRRA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-A8B2mh4aVQaCi6E719YEoJ">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-MyhZ8QaSMWrQknxtVj6dET">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-G5vqbdxYko3nzwJ6c2Uvtz">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-V5ikv7GSYkv5RArhdhhNRr"/>
+        <correspContext corresp="i-V5ikv7GSYkv5RArhdhhNRr">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

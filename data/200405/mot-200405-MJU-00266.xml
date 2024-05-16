@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-MJU-00266">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubbelregistrering vid älgjakt</title>
+        <author corresp="i-NiuBLX8hzt3w2Uyev12Wbt">av Krister Hammarbergh (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Dubbelregistrering vid älgjakt</title>
+          <idno type="rdwebb">GS02MJ266</idno>
+          <rs type="number">MJ266</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02MJ266/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02MJ266</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02MJ266</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-NiuBLX8hzt3w2Uyev12Wbt</idno>
+            <name>Krister Hammarbergh</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GuGCHb9Lni3cAoW5XxvAhx" type="signed"/>
+        <correspContext corresp="i-GuGCHb9Lni3cAoW5XxvAhx">
+          <note type="signatory" corresp="i-NiuBLX8hzt3w2Uyev12Wbt"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-2o1wzyWMXQh9dn1wAjvgty">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-t7gLDU2jKGDraZJ5qJKbE">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HMr3epzyTe2CVrc2UJxknv">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-74Cn89pPL7Bm66KKHkyFHy"/>
+        <correspContext corresp="i-74Cn89pPL7Bm66KKHkyFHy">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

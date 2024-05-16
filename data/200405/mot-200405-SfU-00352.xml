@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SfU-00352">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Föräldraförsäkringen</title>
+        <author corresp="i-UnkrZ3NAvoWXY6Krxbkudq i-P9fVT6wJo29FgZWPQLxr6o">av Tobias Krantz och Anna Grönlund Krantz (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Föräldraförsäkringen</title>
+          <idno type="rdwebb">GS02Sf352</idno>
+          <rs type="number">Sf352</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sf352/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sf352</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sf352</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UnkrZ3NAvoWXY6Krxbkudq</idno>
+            <name>Tobias Krantz</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-P9fVT6wJo29FgZWPQLxr6o</idno>
+            <name>Anna Grönlund Krantz</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Gvb6F1xph9cnLch9xFZGzL" type="signed"/>
+        <correspContext corresp="i-Gvb6F1xph9cnLch9xFZGzL">
+          <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
+          <note type="signatory" corresp="i-P9fVT6wJo29FgZWPQLxr6o"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-DeDy6H21sh1oVCfXt3vgCq">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-JtfKLVMSctiCV7eBR32mpi">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-5hJ6cL54W4bpgz8jTYV2Tu">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7s6sCivr1d4aL94nYgZPQ2"/>
+        <correspContext corresp="i-7s6sCivr1d4aL94nYgZPQ2">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

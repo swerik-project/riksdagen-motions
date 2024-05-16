@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00210">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skatter vid omarronderingar</title>
+        <author corresp="i-3TzUjUVop5GV6tpKYjGYGr">av Rolf Gunnarsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skatter vid omarronderingar</title>
+          <idno type="rdwebb">GS02Sk210</idno>
+          <rs type="number">Sk210</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk210/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk210</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk210</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3TzUjUVop5GV6tpKYjGYGr</idno>
+            <name>Rolf Gunnarsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-F51mDS5JAZHjYmZU9EUmxu" type="signed"/>
+        <correspContext corresp="i-F51mDS5JAZHjYmZU9EUmxu">
+          <note type="signatory" corresp="i-3TzUjUVop5GV6tpKYjGYGr"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-H2r82cCo3tTrJN8WPMRXR3">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-9k7JZKFL2o7aL3U3xBAZVS">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-M3juabFrPfLZcytzBNQ23A">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-DvhTo4T4sNsRthFJcL76TC"/>
+        <correspContext corresp="i-DvhTo4T4sNsRthFJcL76TC">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

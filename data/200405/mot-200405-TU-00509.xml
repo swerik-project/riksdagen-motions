@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00509">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Karlstad flygplats</title>
+        <author corresp="i-Ty8QCuVFBPKpfBLfr6zVqn i-6Tm6CkqvW55XWkdqUgBH82">av Berit Högman och Marina Pettersson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Karlstad flygplats</title>
+          <idno type="rdwebb">GS02T509</idno>
+          <rs type="number">T509</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02T509/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02T509</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02T509</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Ty8QCuVFBPKpfBLfr6zVqn</idno>
+            <name>Berit Högman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-6Tm6CkqvW55XWkdqUgBH82</idno>
+            <name>Marina Pettersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PAmGwtzjTzJGgrxXQW39hN" type="signed"/>
+        <correspContext corresp="i-PAmGwtzjTzJGgrxXQW39hN">
+          <note type="signatory" corresp="i-Ty8QCuVFBPKpfBLfr6zVqn"/>
+          <note type="signatory" corresp="i-6Tm6CkqvW55XWkdqUgBH82"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-HWupms9rLzNE79fxMq1dSd">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-A9WuWHpYdz9uQB45J1B5F1">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-B9BaWeP5Z7ucEcAgcoe4Ex">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-5NJRPpf72yE7kibjo1Gz5J"/>
+        <correspContext corresp="i-5NJRPpf72yE7kibjo1Gz5J">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

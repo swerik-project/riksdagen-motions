@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-BoU-00263">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arkitektur, form och design</title>
+        <author corresp="i-D33H5dL4TMdTn9ZXMMYEbb">av Rigmor Stenmark (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arkitektur, form och design</title>
+          <idno type="rdwebb">GS02Bo263</idno>
+          <rs type="number">Bo263</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Bo263/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Bo263</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Bo263</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-D33H5dL4TMdTn9ZXMMYEbb</idno>
+            <name>Rigmor Stenmark</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-93UwBVg4wMLf2iEAvtRR6k" type="signed"/>
+        <correspContext corresp="i-93UwBVg4wMLf2iEAvtRR6k">
+          <note type="signatory" corresp="i-D33H5dL4TMdTn9ZXMMYEbb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-B7kFu1MzNKeY5nPPDCyaz9">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-UXShTsbMMRYtaFgk6At9gk">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Nm75oM1FM9dy8DjWnzAYv1">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Tc3QJbnLFjzRDAzw4f67tm"/>
+        <correspContext corresp="i-Tc3QJbnLFjzRDAzw4f67tm">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

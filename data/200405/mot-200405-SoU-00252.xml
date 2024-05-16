@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00252">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rättspsykiatrisk vård</title>
+        <author corresp="i-3hmS3YtKuXCDu8pntcLAdc i-9fdWbFK67588CD12XaNZBq">av Hans Hoff och Sven-Erik Österberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Rättspsykiatrisk vård</title>
+          <idno type="rdwebb">GS02So252</idno>
+          <rs type="number">So252</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02So252/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02So252</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02So252</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3hmS3YtKuXCDu8pntcLAdc</idno>
+            <name>Hans Hoff</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-9fdWbFK67588CD12XaNZBq</idno>
+            <name>Sven-Erik Österberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-F8UJyxSaCi6pqzsHcCnQGt" type="signed"/>
+        <correspContext corresp="i-F8UJyxSaCi6pqzsHcCnQGt">
+          <note type="signatory" corresp="i-3hmS3YtKuXCDu8pntcLAdc"/>
+          <note type="signatory" corresp="i-9fdWbFK67588CD12XaNZBq"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-A3v4xLqgYajPxcm3Gg9QGJ">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-83e1WF14vX6LFpjtHJzvux">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-49zG4KtyK5FBxEUepTtJtE">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9vPWMfMgp9v7y4L1ZX7U83"/>
+        <correspContext corresp="i-9vPWMfMgp9v7y4L1ZX7U83">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-BoU-00264">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Köpcentrum</title>
+        <author corresp="i-D33H5dL4TMdTn9ZXMMYEbb i-VHSPVhF5LjvV5m4yU1W3FJ">av Rigmor Stenmark och Birgitta Carlsson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Köpcentrum</title>
+          <idno type="rdwebb">GS02Bo264</idno>
+          <rs type="number">Bo264</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Bo264/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Bo264</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Bo264</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-D33H5dL4TMdTn9ZXMMYEbb</idno>
+            <name>Rigmor Stenmark</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VHSPVhF5LjvV5m4yU1W3FJ</idno>
+            <name>Birgitta Carlsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Ya11WUQ4F6c8KR8FWfd7Gy" type="signed"/>
+        <correspContext corresp="i-Ya11WUQ4F6c8KR8FWfd7Gy">
+          <note type="signatory" corresp="i-D33H5dL4TMdTn9ZXMMYEbb"/>
+          <note type="signatory" corresp="i-VHSPVhF5LjvV5m4yU1W3FJ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-EyioSJQNNNtF7dRzmBdEKE">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-71YnbRTEVciKksuWaWVVgq">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AABRkYzUzP5gypJxBwnSLJ">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-3QwhJb2p2jF9joTYz2GJm8"/>
+        <correspContext corresp="i-3QwhJb2p2jF9joTYz2GJm8">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

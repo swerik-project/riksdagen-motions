@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00294">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Synskadade i trafiken</title>
+        <author corresp="i-LrcUg7tEu4KwWdidwr1MAk i-BXpR2GEHKN2fK4Av22X32z">av Kaj Nordquist och Birgitta Ahlqvist (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Synskadade i trafiken</title>
+          <idno type="rdwebb">GS02T294</idno>
+          <rs type="number">T294</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02T294/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02T294</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02T294</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-LrcUg7tEu4KwWdidwr1MAk</idno>
+            <name>Kaj Nordquist</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-BXpR2GEHKN2fK4Av22X32z</idno>
+            <name>Birgitta Ahlqvist</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Gbxvz8SpasvG7ds5CrnoNs" type="signed"/>
+        <correspContext corresp="i-Gbxvz8SpasvG7ds5CrnoNs">
+          <note type="signatory" corresp="i-LrcUg7tEu4KwWdidwr1MAk"/>
+          <note type="signatory" corresp="i-BXpR2GEHKN2fK4Av22X32z"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LtVZxmyeDhWAavyRZVfrP4">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-JxQxqQDXW7kL7T917Z8W1k">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-2mfWBsEHE4VrAVqKujxkEo">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Go77RuEAKpreCpUnctCEf8"/>
+        <correspContext corresp="i-Go77RuEAKpreCpUnctCEf8">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

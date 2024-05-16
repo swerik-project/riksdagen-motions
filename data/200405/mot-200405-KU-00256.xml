@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00256">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skyddet mot spam i offentlig verksamhet</title>
+        <author corresp="i-G8564CqEnhC5PBjZSwUxsE i-GsygH5UJM18UkfLBHFkVdD">av Tomas Eneroth och Kent Härstedt (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skyddet mot spam i offentlig verksamhet</title>
+          <idno type="rdwebb">GS02K256</idno>
+          <rs type="number">K256</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02K256/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02K256</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02K256</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-G8564CqEnhC5PBjZSwUxsE</idno>
+            <name>Tomas Eneroth</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-GsygH5UJM18UkfLBHFkVdD</idno>
+            <name>Kent Härstedt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-6gvwCH2dYGJXW3VPM5vh88" type="signed"/>
+        <correspContext corresp="i-6gvwCH2dYGJXW3VPM5vh88">
+          <note type="signatory" corresp="i-G8564CqEnhC5PBjZSwUxsE"/>
+          <note type="signatory" corresp="i-GsygH5UJM18UkfLBHFkVdD"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-E8v7KJTWMdfLnwrrNHm6Yy">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-CwoxeQESrJNrRZ1CFijF3y">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Br1nGm3B6u9p364QMfFTVS">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-4uzc2wFjqnyTr18WJHBqNG"/>
+        <correspContext corresp="i-4uzc2wFjqnyTr18WJHBqNG">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

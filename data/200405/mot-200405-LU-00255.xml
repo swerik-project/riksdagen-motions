@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-LU-00255">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arvsrätt</title>
+        <author corresp="i-Ls7qwYssVugmkJT7Dt29hi i-FrC3WwfjWAuoWu4BnbedDa">av Mona Berglund Nilsson och Jan-Olof Larsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arvsrätt</title>
+          <idno type="rdwebb">GS02L255</idno>
+          <rs type="number">L255</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02L255/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02L255</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02L255</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Ls7qwYssVugmkJT7Dt29hi</idno>
+            <name>Mona Berglund Nilsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-FrC3WwfjWAuoWu4BnbedDa</idno>
+            <name>Jan-Olof Larsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8SED9Zf5ftDw5RxmLV2Pak" type="signed"/>
+        <correspContext corresp="i-8SED9Zf5ftDw5RxmLV2Pak">
+          <note type="signatory" corresp="i-Ls7qwYssVugmkJT7Dt29hi"/>
+          <note type="signatory" corresp="i-FrC3WwfjWAuoWu4BnbedDa"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-MQRYkBCWyCqg2xyjbXxHbQ">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-SL88uUE7tMGD6DcXXwKZGh">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-B87evhRp8Si3fAQhh9pNtf">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RxWa1VcrnLRwBvTZWNqQw9"/>
+        <correspContext corresp="i-RxWa1VcrnLRwBvTZWNqQw9">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00320">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Minskat antal myndigheter</title>
+        <author corresp="i-PyuBrn6sPrF8RQEvmB9xdP">av Cecilia Widegren m.fl. (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Minskat antal myndigheter</title>
+          <idno type="rdwebb">GS02K320</idno>
+          <rs type="number">K320</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02K320/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02K320</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02K320</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-PyuBrn6sPrF8RQEvmB9xdP</idno>
+            <name>Cecilia Widegren</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-W6BJ44rcZjp5pD28NhHrCf</idno>
+            <name>Gunnar Axén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Q6XV7cn1KAM2Vuyuo8Ah3r</idno>
+            <name>Tomas Högström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HtbYwLTH7aLEnYJgPPDbFj" type="signed"/>
+        <correspContext corresp="i-HtbYwLTH7aLEnYJgPPDbFj">
+          <note type="signatory" corresp="i-PyuBrn6sPrF8RQEvmB9xdP"/>
+          <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
+          <note type="signatory" corresp="i-Q6XV7cn1KAM2Vuyuo8Ah3r"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-XRNPuqpeJvNqiZ8XcxagEc">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-9AkAynCG11RM8jYJWKu3aV">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Nbt3ti2M2e1sx8DLz4zaGr">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-T6jZRQQyE2iFN8tFRbovsF"/>
+        <correspContext corresp="i-T6jZRQQyE2iFN8tFRbovsF">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

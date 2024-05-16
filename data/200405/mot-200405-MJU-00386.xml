@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-MJU-00386">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalkning</title>
+        <author corresp="i-GLV4P4jtfPZVZ95YSNxfBh">av Åsa Domeij (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kalkning</title>
+          <idno type="rdwebb">GS02MJ386</idno>
+          <rs type="number">MJ386</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02MJ386/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02MJ386</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02MJ386</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-GLV4P4jtfPZVZ95YSNxfBh</idno>
+            <name>Åsa Domeij</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-W8tTRS8GMhHsMhFS9DQBGz" type="signed"/>
+        <correspContext corresp="i-W8tTRS8GMhHsMhFS9DQBGz">
+          <note type="signatory" corresp="i-GLV4P4jtfPZVZ95YSNxfBh"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NXv3HnKYG6Rh4cX8gA97ZT">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-5GG1bTsXaCt1PB7dQUFJ5K">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-B9UfQvxAtCZCBWcy7PEior">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-EyHDsAGs9gve1jnuGSiw2y"/>
+        <correspContext corresp="i-EyHDsAGs9gve1jnuGSiw2y">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

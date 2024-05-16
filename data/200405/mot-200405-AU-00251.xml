@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-AU-00251">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Turordningsregler</title>
+        <author corresp="i-KxTfuBAJiVYpyHQUVaUndu i-UukxhVrpswE5ADBkFe7Q3V">av Kerstin Andersson och Jan Björkman (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Turordningsregler</title>
+          <idno type="rdwebb">GS02A251</idno>
+          <rs type="number">A251</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02A251/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02A251</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02A251</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-KxTfuBAJiVYpyHQUVaUndu</idno>
+            <name>Kerstin Andersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-UukxhVrpswE5ADBkFe7Q3V</idno>
+            <name>Jan Björkman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8dhV8o3Cos51EJjCFEhEGS" type="signed"/>
+        <correspContext corresp="i-8dhV8o3Cos51EJjCFEhEGS">
+          <note type="signatory" corresp="i-KxTfuBAJiVYpyHQUVaUndu"/>
+          <note type="signatory" corresp="i-UukxhVrpswE5ADBkFe7Q3V"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-MQCXmvyH6NcrEb7P6L2mHe">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-JgHA9JC9D1LQwmZc1d833i">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DWQaBHMBhMRDCfR8jdYSUF">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-EbEdRGQqWfzuhQXBuccRZE"/>
+        <correspContext corresp="i-EbEdRGQqWfzuhQXBuccRZE">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

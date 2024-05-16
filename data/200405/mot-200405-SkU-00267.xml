@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00267">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Byte av fonder och beskattning</title>
+        <author corresp="i-J2F63fdxUFAAeBTYXLX7MZ i-Evjo9hsKrPvb3KMyegAipb">av Anita Sidén och Cecilia Magnusson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Byte av fonder och beskattning</title>
+          <idno type="rdwebb">GS02Sk267</idno>
+          <rs type="number">Sk267</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk267/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk267</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk267</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-J2F63fdxUFAAeBTYXLX7MZ</idno>
+            <name>Anita Sidén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-Evjo9hsKrPvb3KMyegAipb</idno>
+            <name>Cecilia Magnusson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-7bSCJCiFAsiQvuZbCvMVAc" type="signed"/>
+        <correspContext corresp="i-7bSCJCiFAsiQvuZbCvMVAc">
+          <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
+          <note type="signatory" corresp="i-Evjo9hsKrPvb3KMyegAipb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-4sPphKjKr7uorRh2xWfS4u">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-BaWCWiyzaGhVm88FEzMpCd">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PHgqSXh61Zq9R3jiEEqJ8s">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-APq3rjCkZE9tt8EfLyQFUB"/>
+        <correspContext corresp="i-APq3rjCkZE9tt8EfLyQFUB">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

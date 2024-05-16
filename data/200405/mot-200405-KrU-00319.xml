@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00319">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rundradiomuseet</title>
+        <author corresp="i-GkGATynUsbQhroqVm6AkQW">av Sonia Karlsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Rundradiomuseet</title>
+          <idno type="rdwebb">GS02Kr319</idno>
+          <rs type="number">Kr319</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Kr319/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Kr319</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Kr319</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-GkGATynUsbQhroqVm6AkQW</idno>
+            <name>Sonia Karlsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Spg5Wr65iojvJ8diPaV1az" type="signed"/>
+        <correspContext corresp="i-Spg5Wr65iojvJ8diPaV1az">
+          <note type="signatory" corresp="i-GkGATynUsbQhroqVm6AkQW"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NLdDgqa3doaC6rTFkU3nxs">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Amht7aruyriNAxFhYzzCAY">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EnJSjc1tzPWFESJvGNhEi8">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-DPDCN3vie5K8bADxzouhjJ"/>
+        <correspContext corresp="i-DPDCN3vie5K8bADxzouhjJ">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

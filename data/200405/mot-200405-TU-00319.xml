@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00319">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ostlänken</title>
+        <author corresp="i-UfnBtox9oKGvLg9RLYSNsM">av Anna Lindgren m.fl. (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ostlänken</title>
+          <idno type="rdwebb">GS02T319</idno>
+          <rs type="number">T319</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02T319/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02T319</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02T319</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-UfnBtox9oKGvLg9RLYSNsM</idno>
+            <name>Anna Lindgren</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-W6BJ44rcZjp5pD28NhHrCf</idno>
+            <name>Gunnar Axén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-RCNVVc6jFAU8YPdr6sW8jH</idno>
+            <name>Stefan Hagfeldt</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RvTpdV9anB9KpUR7cRagec" type="signed"/>
+        <correspContext corresp="i-RvTpdV9anB9KpUR7cRagec">
+          <note type="signatory" corresp="i-UfnBtox9oKGvLg9RLYSNsM"/>
+          <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
+          <note type="signatory" corresp="i-RCNVVc6jFAU8YPdr6sW8jH"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-HNriaGD3wrgP7scJ2nkhXS">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7NmBgrjFG5y8BEawYYea3w">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9jwRjGWuw8gQGcQue95t8S">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-YCzaJes4Cw7vPA98aXnkwg"/>
+        <correspContext corresp="i-YCzaJes4Cw7vPA98aXnkwg">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

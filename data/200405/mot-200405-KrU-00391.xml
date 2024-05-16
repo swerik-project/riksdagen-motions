@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00391">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hemslöjden</title>
+        <author corresp="i-DDTGf6wkyXKiMd3kYJ4KQv">av Anne Ludvigsson m.fl. (s, v, mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hemslöjden</title>
+          <idno type="rdwebb">GS02Kr391</idno>
+          <rs type="number">Kr391</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Kr391/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Kr391</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Kr391</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-DDTGf6wkyXKiMd3kYJ4KQv</idno>
+            <name>Anne Ludvigsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-UjusnwqMxiEAJYzdWTSGQZ</idno>
+            <name>Lennart Beijer</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-N4rvx7AGKxwhx5XDdagQzk</idno>
+            <name>Helena Hillar Rosenqvist</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GVDFuztUs295JNSreCChax" type="signed"/>
+        <correspContext corresp="i-GVDFuztUs295JNSreCChax">
+          <note type="signatory" corresp="i-DDTGf6wkyXKiMd3kYJ4KQv"/>
+          <note type="signatory" corresp="i-UjusnwqMxiEAJYzdWTSGQZ"/>
+          <note type="signatory" corresp="i-N4rvx7AGKxwhx5XDdagQzk"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-4wJXyLCmrcRQ5Rdh878EAS">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-KFjmjNryDoSWpuR2KuxFTx">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-QL7JNazPy93V6wLSTKGDdC">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-LYa9hJm3q47GdcajW5uapy"/>
+        <correspContext corresp="i-LYa9hJm3q47GdcajW5uapy">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#flerparti"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

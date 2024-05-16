@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-LU-00223">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fastställande av faderskap</title>
+        <author corresp="i-Qa1ZufD1xJDN43bJxjLRPB">av Tasso Stafilidis (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fastställande av faderskap</title>
+          <idno type="rdwebb">GS02L223</idno>
+          <rs type="number">L223</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02L223/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02L223</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02L223</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Qa1ZufD1xJDN43bJxjLRPB</idno>
+            <name>Tasso Stafilidis</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FZcMobGVna2AhS1gG6pWNY" type="signed"/>
+        <correspContext corresp="i-FZcMobGVna2AhS1gG6pWNY">
+          <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Xh7qFhojYbf5B9FBrP6i5U">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-BERrJjEyVXdXvHqXkQXY8q">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WK8jCu8YX2asZQxkXwQFX">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Dw9x42KLF8KYvzoRhvGShc"/>
+        <correspContext corresp="i-Dw9x42KLF8KYvzoRhvGShc">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-BoU-00224">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Byggproduktion</title>
+        <author corresp="i-Ha5uZXGHudhTidCuW8UjXN">av Ragnwi Marcelind (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Byggproduktion</title>
+          <idno type="rdwebb">GS02Bo224</idno>
+          <rs type="number">Bo224</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Bo224/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Bo224</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Bo224</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Ha5uZXGHudhTidCuW8UjXN</idno>
+            <name>Ragnwi Marcelind</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-C85DK8wzBJW24pRNYzUUJb" type="signed"/>
+        <correspContext corresp="i-C85DK8wzBJW24pRNYzUUJb">
+          <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-VzSLUCBbHTTtz9hmRDkDtB">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Sq6hKmUemWJWGzAGtdsJ76">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Ureb2cidVJ4zyJ97oypaMs">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-21WFXtVTbCRoxsrUZohf8f"/>
+        <correspContext corresp="i-21WFXtVTbCRoxsrUZohf8f">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

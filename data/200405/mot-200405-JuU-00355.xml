@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-JuU-00355">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Polisen i Östergötland</title>
+        <author corresp="i-RCNVVc6jFAU8YPdr6sW8jH i-W6BJ44rcZjp5pD28NhHrCf">av Stefan Hagfeldt och Gunnar Axén (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Polisen i Östergötland</title>
+          <idno type="rdwebb">GS02Ju355</idno>
+          <rs type="number">Ju355</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Ju355/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Ju355</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Ju355</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-RCNVVc6jFAU8YPdr6sW8jH</idno>
+            <name>Stefan Hagfeldt</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-W6BJ44rcZjp5pD28NhHrCf</idno>
+            <name>Gunnar Axén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KEFyB7UZgr8GEy3Xv5ytaD" type="signed"/>
+        <correspContext corresp="i-KEFyB7UZgr8GEy3Xv5ytaD">
+          <note type="signatory" corresp="i-RCNVVc6jFAU8YPdr6sW8jH"/>
+          <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-M4Y1cUHmojBzsDwtWRvksJ">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Kf75FgKTdchL3txi6uzXid">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NigeMEVcv4HDVj1akMYNnR">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TMR5VWoHGRBp6gZ6EDjRSG"/>
+        <correspContext corresp="i-TMR5VWoHGRBp6gZ6EDjRSG">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

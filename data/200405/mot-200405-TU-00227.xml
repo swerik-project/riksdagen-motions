@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00227">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gräsbovägen</title>
+        <author corresp="i-BUsYTbnmyQrtHXSA2gEp9T">av Torsten Lindström (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Gräsbovägen</title>
+          <idno type="rdwebb">GS02T227</idno>
+          <rs type="number">T227</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02T227/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02T227</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02T227</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BUsYTbnmyQrtHXSA2gEp9T</idno>
+            <name>Torsten Lindström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XUwEdAEwQwXmV2g6UfcTL2" type="signed"/>
+        <correspContext corresp="i-XUwEdAEwQwXmV2g6UfcTL2">
+          <note type="signatory" corresp="i-BUsYTbnmyQrtHXSA2gEp9T"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Vq35Hf43bn1b3Y5ditWFy2">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-AXx1SdjHnnj2bVMHdZFjNx">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BAhrRectcMmVJCQJf1KxRD">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Rb7J3iGEyAYu96eLZ4CKn1"/>
+        <correspContext corresp="i-Rb7J3iGEyAYu96eLZ4CKn1">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

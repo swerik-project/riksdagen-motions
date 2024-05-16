@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-MJU-00446">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kodressörer</title>
+        <author corresp="i-3YBav2r8YXZiNoQkfb1bUy i-chkH67XLutwmCnkuDo8pd">av Elizabeth Nyström och Patrik Norinder (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kodressörer</title>
+          <idno type="rdwebb">GS02MJ446</idno>
+          <rs type="number">MJ446</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02MJ446/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02MJ446</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02MJ446</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-3YBav2r8YXZiNoQkfb1bUy</idno>
+            <name>Elizabeth Nyström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-chkH67XLutwmCnkuDo8pd</idno>
+            <name>Patrik Norinder</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4YQnoHrcVZx8RA32FiiuPU" type="signed"/>
+        <correspContext corresp="i-4YQnoHrcVZx8RA32FiiuPU">
+          <note type="signatory" corresp="i-3YBav2r8YXZiNoQkfb1bUy"/>
+          <note type="signatory" corresp="i-chkH67XLutwmCnkuDo8pd"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-9hrHgpKLEmkCmZC8aVVs2E">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-LbJ6a9x1mBoEQKX8cyjBSy">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-VPd9Ex1EbJTquyzpSkN9K1">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Md4Hc2N6M7tD71geJsv9q3"/>
+        <correspContext corresp="i-Md4Hc2N6M7tD71geJsv9q3">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

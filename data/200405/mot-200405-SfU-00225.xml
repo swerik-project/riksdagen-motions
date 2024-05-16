@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SfU-00225">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Flexibla sjukskrivningsnivåer</title>
+        <author corresp="i-AZLUb1tb1XBKEbcvPVdCkZ">av Helene Petersson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Flexibla sjukskrivningsnivåer</title>
+          <idno type="rdwebb">GS02Sf225</idno>
+          <rs type="number">Sf225</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sf225/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sf225</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sf225</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-AZLUb1tb1XBKEbcvPVdCkZ</idno>
+            <name>Helene Petersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Rr8WPFfTHvJrNFpadcPxo1" type="signed"/>
+        <correspContext corresp="i-Rr8WPFfTHvJrNFpadcPxo1">
+          <note type="signatory" corresp="i-AZLUb1tb1XBKEbcvPVdCkZ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-786yseEi9ddvugm19AeadK">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-2e1SG4mqP1NzQwyah1EFvh">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JD2ScFhS3D7cVCwCUGPKq3">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2GfmpRd24sdBpx85G2njUG"/>
+        <correspContext corresp="i-2GfmpRd24sdBpx85G2njUG">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

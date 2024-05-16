@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SfU-00387">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Föräldraförsäkringen</title>
+        <author corresp="i-FdoD219QSnSV59bQLxhamx i-FWGPPxcLZRFDrb58TQhLuJ">av Tone Tingsgård och Mats Berglind (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Föräldraförsäkringen</title>
+          <idno type="rdwebb">GS02Sf387</idno>
+          <rs type="number">Sf387</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sf387/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sf387</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sf387</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-FdoD219QSnSV59bQLxhamx</idno>
+            <name>Tone Tingsgård</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-FWGPPxcLZRFDrb58TQhLuJ</idno>
+            <name>Mats Berglind</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FxhzTxe9YnXBTaeta1FhUr" type="signed"/>
+        <correspContext corresp="i-FxhzTxe9YnXBTaeta1FhUr">
+          <note type="signatory" corresp="i-FdoD219QSnSV59bQLxhamx"/>
+          <note type="signatory" corresp="i-FWGPPxcLZRFDrb58TQhLuJ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-DGjdDFyPLT7J2oPvH7tbBU">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-2zV9PTPVNmUFc8KsQQ2pgE">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GG8o7AWt9KtcifX3sQhBdS">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-5E8jDgTmbPVhhrJZUSnmeb"/>
+        <correspContext corresp="i-5E8jDgTmbPVhhrJZUSnmeb">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

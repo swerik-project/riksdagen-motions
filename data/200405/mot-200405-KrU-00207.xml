@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00207">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Professionell boxning i Sverige</title>
+        <author corresp="i-D6hrZCxPVTQxPgXvGFfuJ7 i-FKLdFezw4jPcBcpexqvUyJ">av Ulf Sjösten och Kent Olsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Professionell boxning i Sverige</title>
+          <idno type="rdwebb">GS02Kr207</idno>
+          <rs type="number">Kr207</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Kr207/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Kr207</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Kr207</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-D6hrZCxPVTQxPgXvGFfuJ7</idno>
+            <name>Ulf Sjösten</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-FKLdFezw4jPcBcpexqvUyJ</idno>
+            <name>Kent Olsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GVpfN6dAXQ1Gh1VEW3Aytu" type="signed"/>
+        <correspContext corresp="i-GVpfN6dAXQ1Gh1VEW3Aytu">
+          <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
+          <note type="signatory" corresp="i-FKLdFezw4jPcBcpexqvUyJ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Q8F4ccfFKwf6FW8zFYTq9m">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-2GXfGp5WWbSPxagjsZvHcK">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7W2n3t5Jc4Yde6PHGEQSob">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Y1baMhedzoypvN9hqv6Hr7"/>
+        <correspContext corresp="i-Y1baMhedzoypvN9hqv6Hr7">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00235">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digitaliserat ljud och bild samt arkivering</title>
+        <author corresp="i-4tAUyrL5FDqt2q3oYkcH9W i-A1WkfiAbmndDMThhAvrWEm">av Yvonne Ångström och Hans Backman (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Digitaliserat ljud och bild samt arkivering</title>
+          <idno type="rdwebb">GS02Kr235</idno>
+          <rs type="number">Kr235</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Kr235/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Kr235</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Kr235</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-4tAUyrL5FDqt2q3oYkcH9W</idno>
+            <name>Yvonne Ångström</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-A1WkfiAbmndDMThhAvrWEm</idno>
+            <name>Hans Backman</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GUXjQw72Y6e9PFVscq4bAf" type="signed"/>
+        <correspContext corresp="i-GUXjQw72Y6e9PFVscq4bAf">
+          <note type="signatory" corresp="i-4tAUyrL5FDqt2q3oYkcH9W"/>
+          <note type="signatory" corresp="i-A1WkfiAbmndDMThhAvrWEm"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-JJbEKFHveugVby6BZUirj8">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-TZvyQR9SZLNg2x9XRdtXen">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-QfLRwihNchP4HrNbcfGUie">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-St9UQhRbAjrSpHGR2hC3xN"/>
+        <correspContext corresp="i-St9UQhRbAjrSpHGR2hC3xN">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-AU-00380">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Folkhögskolesatsningen</title>
+        <author corresp="i-VdAfQ3AgRmNNnaK4zoDKny i-TVwo4mCECu692GW3ntqQzo">av Per Erik Granström och Kurt Kvarnström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Folkhögskolesatsningen</title>
+          <idno type="rdwebb">GS02A380</idno>
+          <rs type="number">A380</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02A380/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02A380</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02A380</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-VdAfQ3AgRmNNnaK4zoDKny</idno>
+            <name>Per Erik Granström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TVwo4mCECu692GW3ntqQzo</idno>
+            <name>Kurt Kvarnström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AeXUaMipi1qN8T5ySuLLeF" type="signed"/>
+        <correspContext corresp="i-AeXUaMipi1qN8T5ySuLLeF">
+          <note type="signatory" corresp="i-VdAfQ3AgRmNNnaK4zoDKny"/>
+          <note type="signatory" corresp="i-TVwo4mCECu692GW3ntqQzo"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-YNPGoCNgvgh7v8NxxqeGVm">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-2tht3NWCq87j8AADHfGanR">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3z2DkwsJUqvFBbJm5Ykcvd">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9CrWNnF2Z3Qi4SN5dMP1x1"/>
+        <correspContext corresp="i-9CrWNnF2Z3Qi4SN5dMP1x1">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00481">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Avdrag för dubbel bosättning</title>
+        <author corresp="i-YMP8nuJqySuXaujevkGpSV i-C6MPg8QS78d6rtHZ6Jc424">av Raimo Pärssinen och Sinikka Bohlin (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Avdrag för dubbel bosättning</title>
+          <idno type="rdwebb">GS02Sk481</idno>
+          <rs type="number">Sk481</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk481/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk481</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk481</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-YMP8nuJqySuXaujevkGpSV</idno>
+            <name>Raimo Pärssinen</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-C6MPg8QS78d6rtHZ6Jc424</idno>
+            <name>Sinikka Bohlin</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GknWNQe7WiqA2URLu6dpAT" type="signed"/>
+        <correspContext corresp="i-GknWNQe7WiqA2URLu6dpAT">
+          <note type="signatory" corresp="i-YMP8nuJqySuXaujevkGpSV"/>
+          <note type="signatory" corresp="i-C6MPg8QS78d6rtHZ6Jc424"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8ikRJuXf3mmnCqcegkPcxR">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-X5L7Rc95BoHgWcEdo5mYqc">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-XeKmkHgeqU3Wtrcvrdk4be">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JVW9crHmaA9XgZcrdGJyow"/>
+        <correspContext corresp="i-JVW9crHmaA9XgZcrdGJyow">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

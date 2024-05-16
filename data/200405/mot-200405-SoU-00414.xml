@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00414">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Äldreboende</title>
+        <author corresp="i-MAjkY7TMfvfsiuE3eArFUA">av Viviann Gerdin (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Äldreboende</title>
+          <idno type="rdwebb">GS02So414</idno>
+          <rs type="number">So414</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02So414/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02So414</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02So414</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-MAjkY7TMfvfsiuE3eArFUA</idno>
+            <name>Viviann Gerdin</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EgzxgTRMDtpPUozTEBuiF7" type="signed"/>
+        <correspContext corresp="i-EgzxgTRMDtpPUozTEBuiF7">
+          <note type="signatory" corresp="i-MAjkY7TMfvfsiuE3eArFUA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-9zGndU62pVDyrBKEZJhjnC">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-MGeXomqWsGNjvqZdVWjuvw">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7zUtawj4urv4tr7PxK9vGs">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GdK7r2GtsVYW2mba1iT6Cg"/>
+        <correspContext corresp="i-GdK7r2GtsVYW2mba1iT6Cg">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

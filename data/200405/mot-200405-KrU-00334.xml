@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00334">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nobelcenter</title>
+        <author corresp="i-3YBav2r8YXZiNoQkfb1bUy i-AqZkPRg6HbbZ9nDzibdbp5">av Elizabeth Nyström och Björn Hamilton (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nobelcenter</title>
+          <idno type="rdwebb">GS02Kr334</idno>
+          <rs type="number">Kr334</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Kr334/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Kr334</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Kr334</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-3YBav2r8YXZiNoQkfb1bUy</idno>
+            <name>Elizabeth Nyström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-AqZkPRg6HbbZ9nDzibdbp5</idno>
+            <name>Björn Hamilton</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WvA7Eu7cbXmn5D1YrMt39S" type="signed"/>
+        <correspContext corresp="i-WvA7Eu7cbXmn5D1YrMt39S">
+          <note type="signatory" corresp="i-3YBav2r8YXZiNoQkfb1bUy"/>
+          <note type="signatory" corresp="i-AqZkPRg6HbbZ9nDzibdbp5"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-F8kb5H4QXN3tEz37Ejyydz">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-DMSPWzWcz7NTovv7gB4zTZ">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Kuy9HMvQFRY4Ft4Y9Meq4a">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JzNhaZGJGXXjnnJi6nYH3y"/>
+        <correspContext corresp="i-JzNhaZGJGXXjnnJi6nYH3y">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

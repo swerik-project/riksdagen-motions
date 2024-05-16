@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-LU-00272">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fler vårdnadshavare</title>
+        <author corresp="i-9CH1KbWwyrj8DRqAQB3Fza i-GLV4P4jtfPZVZ95YSNxfBh">av Gustav Fridolin och Åsa Domeij (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fler vårdnadshavare</title>
+          <idno type="rdwebb">GS02L272</idno>
+          <rs type="number">L272</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02L272/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02L272</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02L272</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9CH1KbWwyrj8DRqAQB3Fza</idno>
+            <name>Gustav Fridolin</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-GLV4P4jtfPZVZ95YSNxfBh</idno>
+            <name>Åsa Domeij</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WH8RfLmeyAefLmgtMj7uQb" type="signed"/>
+        <correspContext corresp="i-WH8RfLmeyAefLmgtMj7uQb">
+          <note type="signatory" corresp="i-9CH1KbWwyrj8DRqAQB3Fza"/>
+          <note type="signatory" corresp="i-GLV4P4jtfPZVZ95YSNxfBh"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-6oSsubr7WhyfAKFwQGnWpx">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-GH7q3aM2jVCk7ZqvtjXq3j">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Q6GxNmL7HgGsJSBvJVbEyx">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-4R1XCSXN1Kp8jAJ4tnjPdG"/>
+        <correspContext corresp="i-4R1XCSXN1Kp8jAJ4tnjPdG">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

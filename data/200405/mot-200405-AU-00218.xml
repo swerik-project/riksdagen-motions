@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-AU-00218">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pendlingsstöd</title>
+        <author corresp="i-Q8hYBES3N7Q4fZnAATRjsd i-7AB63eqvrGXGCT1mpkEM3J">av Fredrik Olovsson och Louise Malmström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Pendlingsstöd</title>
+          <idno type="rdwebb">GS02A218</idno>
+          <rs type="number">A218</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02A218/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02A218</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02A218</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Q8hYBES3N7Q4fZnAATRjsd</idno>
+            <name>Fredrik Olovsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-7AB63eqvrGXGCT1mpkEM3J</idno>
+            <name>Louise Malmström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TENFLJS8XxDY7CGt1EoWds" type="signed"/>
+        <correspContext corresp="i-TENFLJS8XxDY7CGt1EoWds">
+          <note type="signatory" corresp="i-Q8hYBES3N7Q4fZnAATRjsd"/>
+          <note type="signatory" corresp="i-7AB63eqvrGXGCT1mpkEM3J"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-HbiiwH5LbtbASTv2UqYjS">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-EH6mk38stScnRvDV1qTt5">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-2MZrqeAKQsD3UPkYcxtGgg">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PguR3XneksAw6XLGxQfU7A"/>
+        <correspContext corresp="i-PguR3XneksAw6XLGxQfU7A">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

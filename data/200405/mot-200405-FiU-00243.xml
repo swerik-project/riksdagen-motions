@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-FiU-00243">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regional organisation av Riksrevisionsverket</title>
+        <author corresp="i-D5W4KMbqzfAEfRXajZLt7z i-BzccJvrsm3YED8gWPHwfGn">av Lars Lilja och Karl Gustav Abramsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Regional organisation av Riksrevisionsverket</title>
+          <idno type="rdwebb">GS02Fi243</idno>
+          <rs type="number">Fi243</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Fi243/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Fi243</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Fi243</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-D5W4KMbqzfAEfRXajZLt7z</idno>
+            <name>Lars Lilja</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-BzccJvrsm3YED8gWPHwfGn</idno>
+            <name>Karl Gustav Abramsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-61ccfQgfbssLnJcJbL6Zv2" type="signed"/>
+        <correspContext corresp="i-61ccfQgfbssLnJcJbL6Zv2">
+          <note type="signatory" corresp="i-D5W4KMbqzfAEfRXajZLt7z"/>
+          <note type="signatory" corresp="i-BzccJvrsm3YED8gWPHwfGn"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Fga9bnuKKX8LX3ptq5Kr82">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-DyNUEbB75sspwsgRE4mPRf">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SVS3zEmm8LmS3mbHB2NYtj">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6XRgQxLoJceBrej1iBsLB9"/>
+        <correspContext corresp="i-6XRgQxLoJceBrej1iBsLB9">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

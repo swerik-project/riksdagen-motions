@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00275">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Utarmat uran</title>
+        <author corresp="i-Q6T8pKy9pERdSQEuTcARyR i-N4rvx7AGKxwhx5XDdagQzk">av Lotta Hedström och Helena Hillar Rosenqvist (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Utarmat uran</title>
+          <idno type="rdwebb">GS02U275</idno>
+          <rs type="number">U275</rs>
+          <orgName type="comitteeAbbreviation">UU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02U275/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02U275</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02U275</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Q6T8pKy9pERdSQEuTcARyR</idno>
+            <name>Lotta Hedström</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-N4rvx7AGKxwhx5XDdagQzk</idno>
+            <name>Helena Hillar Rosenqvist</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SGt6APHKDCscX3oBkeFmLp" type="signed"/>
+        <correspContext corresp="i-SGt6APHKDCscX3oBkeFmLp">
+          <note type="signatory" corresp="i-Q6T8pKy9pERdSQEuTcARyR"/>
+          <note type="signatory" corresp="i-N4rvx7AGKxwhx5XDdagQzk"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-6dgwsYJTDJpywQgrwQiLfe">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Pd2sqed71dkn9xLyCrtseY">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Kike1Y7UodrFdixkCmuQs6">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6nZgXt9TyUMFz8dKQvwwPb"/>
+        <correspContext corresp="i-6nZgXt9TyUMFz8dKQvwwPb">
+          <ref type="assignedTo">Utrikesutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

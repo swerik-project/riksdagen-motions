@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-JuU-00337">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ersättning till nämndemän</title>
+        <author corresp="i-5VucL1TjrAWieXV17zXaW8">av Carl-Erik Skårman (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ersättning till nämndemän</title>
+          <idno type="rdwebb">GS02Ju337</idno>
+          <rs type="number">Ju337</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Ju337/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Ju337</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Ju337</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-5VucL1TjrAWieXV17zXaW8</idno>
+            <name>Carl-Erik Skårman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FBky49ES1W2KLnxUi8dnWa" type="signed"/>
+        <correspContext corresp="i-FBky49ES1W2KLnxUi8dnWa">
+          <note type="signatory" corresp="i-5VucL1TjrAWieXV17zXaW8"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-RtX97P8Ey2e9iSwfdyN3M8">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-8cbnYMNw5aYBFK2N6g7FuA">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JnthTST21t3adu7CCHQPo7">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9VMmJTGheWsKKXxd8z8q1p"/>
+        <correspContext corresp="i-9VMmJTGheWsKKXxd8z8q1p">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

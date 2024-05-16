@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00443">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Den offentliga sektorn</title>
+        <author corresp="i-4sBVpXefsL1CF7kS8shrq5">av Sverker Thorén (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Den offentliga sektorn</title>
+          <idno type="rdwebb">GS02Sk443</idno>
+          <rs type="number">Sk443</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk443/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk443</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk443</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4sBVpXefsL1CF7kS8shrq5</idno>
+            <name>Sverker Thorén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-A1kXbBPsqjMoeLHXR2b7jn" type="signed"/>
+        <correspContext corresp="i-A1kXbBPsqjMoeLHXR2b7jn">
+          <note type="signatory" corresp="i-4sBVpXefsL1CF7kS8shrq5"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NJ51ZQ3t15q2b8ecdUuRYa">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7eJCKof5QjdprvuXzuweeL">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-D2uEDGaT4eHYQXyjPvMVVj">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-SpY9EfYTWFz7U7zu3fRX1D"/>
+        <correspContext corresp="i-SpY9EfYTWFz7U7zu3fRX1D">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

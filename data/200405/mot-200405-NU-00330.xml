@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kirunas centrum</title>
+        <author corresp="i-KktUCXax2JFL3tqFqQN9oq i-MerwJjA5PYKs4QYtgsoxJE">av Birgitta Sellén (c) och Erling Wälivaara (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kirunas centrum</title>
+          <idno type="rdwebb">GS02N330</idno>
+          <rs type="number">N330</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02N330/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02N330</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02N330</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-KktUCXax2JFL3tqFqQN9oq</idno>
+            <name>Birgitta Sellén</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-MerwJjA5PYKs4QYtgsoxJE</idno>
+            <name>Erling Wälivaara</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-D97hzxASfRZ5nZ2Qne8Jv9" type="signed"/>
+        <correspContext corresp="i-D97hzxASfRZ5nZ2Qne8Jv9">
+          <note type="signatory" corresp="i-KktUCXax2JFL3tqFqQN9oq"/>
+          <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-75v3RNss49KgGmBKNNgUSz">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-NdKDNr5aZDKLrgnzCZkU2r">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BtwdhGTDUqwEFT3a9Kfaxq">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-N5GdpVTvWCBwfU5WQ3WvUU"/>
+        <correspContext corresp="i-N5GdpVTvWCBwfU5WQ3WvUU">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#flerparti"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

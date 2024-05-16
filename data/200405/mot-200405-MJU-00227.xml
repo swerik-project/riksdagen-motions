@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-MJU-00227">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>En levande fjällvärld</title>
+        <author corresp="i-P9fVT6wJo29FgZWPQLxr6o">av Anna Grönlund Krantz (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>En levande fjällvärld</title>
+          <idno type="rdwebb">GS02MJ227</idno>
+          <rs type="number">MJ227</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02MJ227/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02MJ227</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02MJ227</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-P9fVT6wJo29FgZWPQLxr6o</idno>
+            <name>Anna Grönlund Krantz</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4iQ33wL6kPQgUtn9MYGmCw" type="signed"/>
+        <correspContext corresp="i-4iQ33wL6kPQgUtn9MYGmCw">
+          <note type="signatory" corresp="i-P9fVT6wJo29FgZWPQLxr6o"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-AhtdG7supm7UU5y1dSXLZo">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-9rKNha7pvZ3ejHPzK4EPCH">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EaHXQh8QfPZYfqrzucHHNm">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RAaAy8WEYB5g9Dgf3UYVRf"/>
+        <correspContext corresp="i-RAaAy8WEYB5g9Dgf3UYVRf">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

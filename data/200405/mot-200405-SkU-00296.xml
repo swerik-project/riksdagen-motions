@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00296">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Svartarbete</title>
+        <author corresp="i-EgqHRHVoW5y9USDYuNoYuA i-QYUrNyoHQyDH4vTwKcP6pk">av Hillevi Larsson och Britt-Marie Lindkvist (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Svartarbete</title>
+          <idno type="rdwebb">GS02Sk296</idno>
+          <rs type="number">Sk296</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk296/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk296</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk296</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-EgqHRHVoW5y9USDYuNoYuA</idno>
+            <name>Hillevi Larsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-QYUrNyoHQyDH4vTwKcP6pk</idno>
+            <name>Britt-Marie Lindkvist</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-T5apN598njpFL4ViRFasHK" type="signed"/>
+        <correspContext corresp="i-T5apN598njpFL4ViRFasHK">
+          <note type="signatory" corresp="i-EgqHRHVoW5y9USDYuNoYuA"/>
+          <note type="signatory" corresp="i-QYUrNyoHQyDH4vTwKcP6pk"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-PNnqzhxMNkxpcyi5MtJ52A">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-R3tUeV8jPWPrENbRu6Ejyh">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-5akyc3RCVtRKCDyPu59jCT">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KjguxDL7AtVG7tejvDMDKX"/>
+        <correspContext corresp="i-KjguxDL7AtVG7tejvDMDKX">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

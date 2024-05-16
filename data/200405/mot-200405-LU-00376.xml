@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-LU-00376">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Föräldrabalken</title>
+        <author corresp="i-2ggBvfkHRn3s8FvFEPLxjs i-KtELEJ9HytY7HFgQExEzLq">av Agne Hansson och Sven Bergström (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Föräldrabalken</title>
+          <idno type="rdwebb">GS02L376</idno>
+          <rs type="number">L376</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02L376/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02L376</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02L376</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-2ggBvfkHRn3s8FvFEPLxjs</idno>
+            <name>Agne Hansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-KtELEJ9HytY7HFgQExEzLq</idno>
+            <name>Sven Bergström</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KMKWSTA4hbLXv9k1fXYjv6" type="signed"/>
+        <correspContext corresp="i-KMKWSTA4hbLXv9k1fXYjv6">
+          <note type="signatory" corresp="i-2ggBvfkHRn3s8FvFEPLxjs"/>
+          <note type="signatory" corresp="i-KtELEJ9HytY7HFgQExEzLq"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Fe86acKzujc7pLbpmdDA8X">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Lgdv96xW5oQgiJNrH5CNuk">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JKyMeG9D7MvXWVwUHY3QDj">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-ASi51PLNBWNMi2b67BWg2j"/>
+        <correspContext corresp="i-ASi51PLNBWNMi2b67BWg2j">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

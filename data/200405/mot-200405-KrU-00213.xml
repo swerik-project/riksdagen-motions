@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00213">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arkeologi</title>
+        <author corresp="i-AyN7HRP1y38PeQoLunJifb">av Jörgen Johansson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arkeologi</title>
+          <idno type="rdwebb">GS02Kr213</idno>
+          <rs type="number">Kr213</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Kr213/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Kr213</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Kr213</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AyN7HRP1y38PeQoLunJifb</idno>
+            <name>Jörgen Johansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NV9EtQdxp7AD8kWhFnSeFn" type="signed"/>
+        <correspContext corresp="i-NV9EtQdxp7AD8kWhFnSeFn">
+          <note type="signatory" corresp="i-AyN7HRP1y38PeQoLunJifb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-A9UfsA8S47SPusfQFGDyZZ">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-2dP15hRp7MNv3MqkUaqeeJ">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7rckq1zBDV4SgMVaWRM5Ch">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QpvjTnZhhXBTKAbDFnT5hM"/>
+        <correspContext corresp="i-QpvjTnZhhXBTKAbDFnT5hM">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

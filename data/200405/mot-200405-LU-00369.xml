@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-LU-00369">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Umgängessabotage</title>
+        <author corresp="i-nX9ipUS8FhkbQHkWWytwf i-S7wLw9aynA5vbRCsqxxL3N">av Ulf Nilsson och Tina Acketoft (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Umgängessabotage</title>
+          <idno type="rdwebb">GS02L369</idno>
+          <rs type="number">L369</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02L369/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02L369</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02L369</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-nX9ipUS8FhkbQHkWWytwf</idno>
+            <name>Ulf Nilsson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-S7wLw9aynA5vbRCsqxxL3N</idno>
+            <name>Tina Acketoft</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-99EdiUpfLzCXcvavKLHByS" type="signed"/>
+        <correspContext corresp="i-99EdiUpfLzCXcvavKLHByS">
+          <note type="signatory" corresp="i-nX9ipUS8FhkbQHkWWytwf"/>
+          <note type="signatory" corresp="i-S7wLw9aynA5vbRCsqxxL3N"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-4YWdRJGk9f1S2u5t6sAsFo">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-BFKMYHPhmxMKiB7B6WQdcF">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Ta99Lg29SjA5ui8PmznXq7">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-W6NrbwuaoU4q1a9LpeggG2"/>
+        <correspContext corresp="i-W6NrbwuaoU4q1a9LpeggG2">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

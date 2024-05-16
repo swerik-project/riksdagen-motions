@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SfU-00221">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>DNA-prov vid familjeåterförening</title>
+        <author corresp="i-Q6uWG1k3pbJio9CebNs3Cz">av Sten Tolgfors (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>DNA-prov vid familjeåterförening</title>
+          <idno type="rdwebb">GS02Sf221</idno>
+          <rs type="number">Sf221</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sf221/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sf221</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sf221</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Q6uWG1k3pbJio9CebNs3Cz</idno>
+            <name>Sten Tolgfors</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FtpZTaQauo14h9RxwPz4se" type="signed"/>
+        <correspContext corresp="i-FtpZTaQauo14h9RxwPz4se">
+          <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-2RfGgdMXydpmxMN3xe4MyN">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-9GJYHnKfsGutJ5v528FgCc">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HJDgXRsjBLrhBhL6uQoVmg">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-3B8SzKonHdG1Lt6RggZ9Pz"/>
+        <correspContext corresp="i-3B8SzKonHdG1Lt6RggZ9Pz">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

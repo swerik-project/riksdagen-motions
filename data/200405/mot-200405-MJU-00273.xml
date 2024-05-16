@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-MJU-00273">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Reservatbildning</title>
+        <author corresp="i-Ha5uZXGHudhTidCuW8UjXN">av Ragnwi Marcelind (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Reservatbildning</title>
+          <idno type="rdwebb">GS02MJ273</idno>
+          <rs type="number">MJ273</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02MJ273/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02MJ273</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02MJ273</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Ha5uZXGHudhTidCuW8UjXN</idno>
+            <name>Ragnwi Marcelind</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CFiYLirJFQsuZXLaFknPiD" type="signed"/>
+        <correspContext corresp="i-CFiYLirJFQsuZXLaFknPiD">
+          <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Td9jrHCFeshgYPvBuuCygk">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-aVxp843nZaenwiCi9wVsz">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8AYvmxkQottn7W2hLUmCbd">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-REzhViZ83w3hzGMThxSUrQ"/>
+        <correspContext corresp="i-REzhViZ83w3hzGMThxSUrQ">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

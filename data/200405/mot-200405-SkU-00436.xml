@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00436">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Självförvaltning i boendet</title>
+        <author corresp="i-8HiHungHEQFnPqnUhnscP3">av Martin Nilsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Självförvaltning i boendet</title>
+          <idno type="rdwebb">GS02Sk436</idno>
+          <rs type="number">Sk436</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk436/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk436</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk436</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-8HiHungHEQFnPqnUhnscP3</idno>
+            <name>Martin Nilsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Y7iact6roPskjRe6i58rfG" type="signed"/>
+        <correspContext corresp="i-Y7iact6roPskjRe6i58rfG">
+          <note type="signatory" corresp="i-8HiHungHEQFnPqnUhnscP3"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3pYh6LrVrgDtGDtUeXpPYb">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Xdhj9VxYjJ3WNsRBHpoUZd">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-MjfU66fBCqxLCxXwYEbJDW">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-YAPGmz396BesbBcXLW2NjL"/>
+        <correspContext corresp="i-YAPGmz396BesbBcXLW2NjL">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

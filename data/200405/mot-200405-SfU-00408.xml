@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SfU-00408">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Karensdagen</title>
+        <author corresp="i-CjfJ7zKhtcCGm2cb4c1t3E i-FTuxB98cDMBkWw68Y9RHEc">av Barbro Hietala Nordlund och Anneli Särnblad (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Karensdagen</title>
+          <idno type="rdwebb">GS02Sf408</idno>
+          <rs type="number">Sf408</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sf408/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sf408</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sf408</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-CjfJ7zKhtcCGm2cb4c1t3E</idno>
+            <name>Barbro Hietala Nordlund</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-FTuxB98cDMBkWw68Y9RHEc</idno>
+            <name>Anneli Särnblad</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PGgyZM9ywRs2mFMRU192Gf" type="signed"/>
+        <correspContext corresp="i-PGgyZM9ywRs2mFMRU192Gf">
+          <note type="signatory" corresp="i-CjfJ7zKhtcCGm2cb4c1t3E"/>
+          <note type="signatory" corresp="i-FTuxB98cDMBkWw68Y9RHEc"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-BMxg5NhBsxCYTJRwFnwbjh">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-SqD4pfAmz5MgnB9yi2vcuk">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UBHsMwFwJJ4WtQ3Naf6J4h">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-J7NAhuW1W3UbSAs4754rP2"/>
+        <correspContext corresp="i-J7NAhuW1W3UbSAs4754rP2">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

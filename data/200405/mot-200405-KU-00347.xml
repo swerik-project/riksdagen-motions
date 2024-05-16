@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00347">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Begravningsverksamhet</title>
+        <author corresp="i-WBsZfhYB4L6D3cVQWLdu18">av Leif Björnlod (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Begravningsverksamhet</title>
+          <idno type="rdwebb">GS02K347</idno>
+          <rs type="number">K347</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02K347/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02K347</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02K347</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-WBsZfhYB4L6D3cVQWLdu18</idno>
+            <name>Leif Björnlod</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TJafWRoya5yConWF5DMV9X" type="signed"/>
+        <correspContext corresp="i-TJafWRoya5yConWF5DMV9X">
+          <note type="signatory" corresp="i-WBsZfhYB4L6D3cVQWLdu18"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-YAuwNgi2DGSBYLuFoqb46J">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-W3P5Ap9Ui75zPxiY8bwsu7">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-VLd17yoLB7be9u9rH8JGYb">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GKpCC4i3FELAbbH6AY3Zk3"/>
+        <correspContext corresp="i-GKpCC4i3FELAbbH6AY3Zk3">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-LU-00327">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Säkrare vårdnadsutredningar</title>
+        <author corresp="i-GgyXv4xamqTouNVz7Tncke">av Anna Lilliehöök (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Säkrare vårdnadsutredningar</title>
+          <idno type="rdwebb">GS02L327</idno>
+          <rs type="number">L327</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02L327/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02L327</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02L327</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-GgyXv4xamqTouNVz7Tncke</idno>
+            <name>Anna Lilliehöök</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Sgt7t568qdPRWZFtjFek52" type="signed"/>
+        <correspContext corresp="i-Sgt7t568qdPRWZFtjFek52">
+          <note type="signatory" corresp="i-GgyXv4xamqTouNVz7Tncke"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LRwu8Hhmis9XYwjZ49pn5c">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-4eKsDUtAyDrQaCMGAAS3EP">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DMh8B5hMYcfdx2beGHhZLc">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QZJzmSbFRtJMEWR2rJpvUG"/>
+        <correspContext corresp="i-QZJzmSbFRtJMEWR2rJpvUG">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

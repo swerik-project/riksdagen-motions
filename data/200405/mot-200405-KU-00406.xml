@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00406">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Medborgarkontor</title>
+        <author corresp="i-J95EwJKvWuN9JUNcJSJKgp i-W2BEDRyCnS9HdVWfSB1gKA">av Göte Wahlström och Margareta Sandgren (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Medborgarkontor</title>
+          <idno type="rdwebb">GS02K406</idno>
+          <rs type="number">K406</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02K406/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02K406</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02K406</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-J95EwJKvWuN9JUNcJSJKgp</idno>
+            <name>Göte Wahlström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-W2BEDRyCnS9HdVWfSB1gKA</idno>
+            <name>Margareta Sandgren</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4kRkrbr4wqLZ8nV4WVvPux" type="signed"/>
+        <correspContext corresp="i-4kRkrbr4wqLZ8nV4WVvPux">
+          <note type="signatory" corresp="i-J95EwJKvWuN9JUNcJSJKgp"/>
+          <note type="signatory" corresp="i-W2BEDRyCnS9HdVWfSB1gKA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LcZBcrdF51zJ7H74H4gt6E">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-H4o3BgRgk2Qige1LCBpSeW">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4K2NvCyA5bsDhcybYkdHhZ">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-15KR1iB6xbVHP3NyauuTUM"/>
+        <correspContext corresp="i-15KR1iB6xbVHP3NyauuTUM">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

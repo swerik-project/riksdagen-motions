@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-MJU-00394">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Burhöns</title>
+        <author corresp="i-D8B2Xf6UADbqciPHrqFxSc">av Birgitta Ohlsson (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Burhöns</title>
+          <idno type="rdwebb">GS02MJ394</idno>
+          <rs type="number">MJ394</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02MJ394/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02MJ394</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02MJ394</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-D8B2Xf6UADbqciPHrqFxSc</idno>
+            <name>Birgitta Ohlsson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-6ySzqLpy8Prie1tS3ej1Vb" type="signed"/>
+        <correspContext corresp="i-6ySzqLpy8Prie1tS3ej1Vb">
+          <note type="signatory" corresp="i-D8B2Xf6UADbqciPHrqFxSc"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NjAJRvpttCefB8Vw2HtDXG">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-4heKa9n157mQ2Dvo8U8fD2">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DXgGGshVjiSypxnwrUYLUk">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-X1WSUD4B38UU6Nm1Q5Y8e"/>
+        <correspContext corresp="i-X1WSUD4B38UU6Nm1Q5Y8e">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

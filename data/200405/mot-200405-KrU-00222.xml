@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00222">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Children's Museum</title>
+        <author corresp="i-XXuTUfCrSzD7sKMdyYtEft">av Sofia Larsen (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Children's Museum</title>
+          <idno type="rdwebb">GS02Kr222</idno>
+          <rs type="number">Kr222</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Kr222/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Kr222</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Kr222</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-XXuTUfCrSzD7sKMdyYtEft</idno>
+            <name>Sofia Larsen</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-W1zMJ4dsuasbzWRenrhUxk" type="signed"/>
+        <correspContext corresp="i-W1zMJ4dsuasbzWRenrhUxk">
+          <note type="signatory" corresp="i-XXuTUfCrSzD7sKMdyYtEft"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-RB7bimDDgKrMwzL2ovdrCo">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-F6y6LX7tTdRLFEfcYhQLLA">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BeqiBCiDdmmtpGNFMds9ho">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-WhdZCxKfR5Qd1GDLuaa96Y"/>
+        <correspContext corresp="i-WhdZCxKfR5Qd1GDLuaa96Y">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

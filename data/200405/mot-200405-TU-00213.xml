@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00213">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Organdonation</title>
+        <author corresp="i-3YBav2r8YXZiNoQkfb1bUy i-9beYBFzEh8w1EjPQHXW3mC">av Elizabeth Nyström och Jan-Evert Rådhström (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Organdonation</title>
+          <idno type="rdwebb">GS02T213</idno>
+          <rs type="number">T213</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02T213/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02T213</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02T213</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-3YBav2r8YXZiNoQkfb1bUy</idno>
+            <name>Elizabeth Nyström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-9beYBFzEh8w1EjPQHXW3mC</idno>
+            <name>Jan-Evert Rådhström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-7yof4pehSgbgofqT3Np4ib" type="signed"/>
+        <correspContext corresp="i-7yof4pehSgbgofqT3Np4ib">
+          <note type="signatory" corresp="i-3YBav2r8YXZiNoQkfb1bUy"/>
+          <note type="signatory" corresp="i-9beYBFzEh8w1EjPQHXW3mC"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-EmjoyWxhpLPW1kGmmpwWph">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-YHtBHkP9Zt3RduacLTeMnr">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-TyUxmCQHigxS93YY1YNgX3">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-8mPsfckQCLt2AUahua8nAY"/>
+        <correspContext corresp="i-8mPsfckQCLt2AUahua8nAY">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

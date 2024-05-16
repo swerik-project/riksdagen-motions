@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00252">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Trängselskatten</title>
+        <author corresp="i-AqZkPRg6HbbZ9nDzibdbp5">av Björn Hamilton (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Trängselskatten</title>
+          <idno type="rdwebb">GS02Sk252</idno>
+          <rs type="number">Sk252</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk252/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk252</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk252</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AqZkPRg6HbbZ9nDzibdbp5</idno>
+            <name>Björn Hamilton</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-7CuhkmpBUpjBptLgXJe2EK" type="signed"/>
+        <correspContext corresp="i-7CuhkmpBUpjBptLgXJe2EK">
+          <note type="signatory" corresp="i-AqZkPRg6HbbZ9nDzibdbp5"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-5fHRuGotkjdVAaxJhQsVwa">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Axy4nG5urLe9RqkFqv5dBX">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-ETzHDraJvE5b2kTUBF1TyN">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7YijL6UNb6GchWXFiSk9mJ"/>
+        <correspContext corresp="i-7YijL6UNb6GchWXFiSk9mJ">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

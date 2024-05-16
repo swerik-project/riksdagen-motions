@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00425">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samlad barnhälsovård</title>
+        <author corresp="i-APELvxGf3JYiSTi4k8E9SN i-3GrPnM5KDKuSxfWxymYNoC">av Mona Jönsson och Mikaela Valtersson (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Samlad barnhälsovård</title>
+          <idno type="rdwebb">GS02So425</idno>
+          <rs type="number">So425</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02So425/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02So425</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02So425</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-APELvxGf3JYiSTi4k8E9SN</idno>
+            <name>Mona Jönsson</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-3GrPnM5KDKuSxfWxymYNoC</idno>
+            <name>Mikaela Valtersson</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4GLRx4L5W9JddAhW3HrHQP" type="signed"/>
+        <correspContext corresp="i-4GLRx4L5W9JddAhW3HrHQP">
+          <note type="signatory" corresp="i-APELvxGf3JYiSTi4k8E9SN"/>
+          <note type="signatory" corresp="i-3GrPnM5KDKuSxfWxymYNoC"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-6taBcwvaFcoNNwRua55KZ3">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-YDxJLZADrBw9LXATLPaaSN">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7iyUdqx59p3KtHBvspY4cD">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Caox6q5KnVDQY4vFrvV95P"/>
+        <correspContext corresp="i-Caox6q5KnVDQY4vFrvV95P">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00216">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Invandrares företagande</title>
+        <author corresp="i-AktM7FqujRsJ6kGjNePGjq">av Lars-Ivar Ericson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Invandrares företagande</title>
+          <idno type="rdwebb">GS02N216</idno>
+          <rs type="number">N216</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02N216/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02N216</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02N216</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AktM7FqujRsJ6kGjNePGjq</idno>
+            <name>Lars-Ivar Ericson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WpDJehsDR3sjwr8bq3JP9b" type="signed"/>
+        <correspContext corresp="i-WpDJehsDR3sjwr8bq3JP9b">
+          <note type="signatory" corresp="i-AktM7FqujRsJ6kGjNePGjq"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-VhSadxXs8ZgDtndgSQpVGr">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-TnUu3z2xPxstrd6Pfx9yZr">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RoC8v9T2Nu1oLUySqrSEY3">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KZuMUKML6bxQCSpwAvcWUX"/>
+        <correspContext corresp="i-KZuMUKML6bxQCSpwAvcWUX">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

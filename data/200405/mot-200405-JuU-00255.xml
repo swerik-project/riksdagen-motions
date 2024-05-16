@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-JuU-00255">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Demonstrationstillstånd</title>
+        <author corresp="i-CetFkRWST91ShCPmaZKsM4 i-EYsBC4u5K3oa8SyoHdgTPc">av Jan Andersson och Claes Västerteg (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Demonstrationstillstånd</title>
+          <idno type="rdwebb">GS02Ju255</idno>
+          <rs type="number">Ju255</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Ju255/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Ju255</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Ju255</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CetFkRWST91ShCPmaZKsM4</idno>
+            <name>Jan Andersson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-EYsBC4u5K3oa8SyoHdgTPc</idno>
+            <name>Claes Västerteg</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JSsWcLF5xNmst9LyX7CJuE" type="signed"/>
+        <correspContext corresp="i-JSsWcLF5xNmst9LyX7CJuE">
+          <note type="signatory" corresp="i-CetFkRWST91ShCPmaZKsM4"/>
+          <note type="signatory" corresp="i-EYsBC4u5K3oa8SyoHdgTPc"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8WNkCKjexCpBx1P7EBPcE1">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-FLM3YimyEzZFDqLiXZxzVz">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AapNWtF5chXvoFAo7JosG5">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-CTrTWCFQk8a3TBA7q62Rbm"/>
+        <correspContext corresp="i-CTrTWCFQk8a3TBA7q62Rbm">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

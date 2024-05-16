@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00202">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Valutans roll vid redovisning och bokföring</title>
+        <author corresp="i-KPGvtK4s6Zp3E6XH6vj18n">av Tobias Billström (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Valutans roll vid redovisning och bokföring</title>
+          <idno type="rdwebb">GS02Sk202</idno>
+          <rs type="number">Sk202</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk202/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk202</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk202</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KPGvtK4s6Zp3E6XH6vj18n</idno>
+            <name>Tobias Billström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QLqF1xe5pTjKtozN8W1H4C" type="signed"/>
+        <correspContext corresp="i-QLqF1xe5pTjKtozN8W1H4C">
+          <note type="signatory" corresp="i-KPGvtK4s6Zp3E6XH6vj18n"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-TGaDLmBpYLKnmRMyZ8aAg8">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-SkHJPbRhb5jEYbwymggkoA">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-D4f52KeEnja4SGtNqWFQtL">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-LnzCpUqj6xJKdfL2VVnG82"/>
+        <correspContext corresp="i-LnzCpUqj6xJKdfL2VVnG82">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

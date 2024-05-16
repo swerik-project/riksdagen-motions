@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00227">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Naturgrus</title>
+        <author corresp="i-C5oSgDpxjTK7J31TqsPEwQ">av Claes Roxbergh m.fl. (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Naturgrus</title>
+          <idno type="rdwebb">GS02N227</idno>
+          <rs type="number">N227</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02N227/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02N227</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02N227</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-C5oSgDpxjTK7J31TqsPEwQ</idno>
+            <name>Claes Roxbergh</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-2xzcr3nLPgka3s5j7pZ98N</idno>
+            <name>Ingegerd Saarinen</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-3GrPnM5KDKuSxfWxymYNoC</idno>
+            <name>Mikaela Valtersson</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Qwq2tjDJ53Bo57oxM5CVij" type="signed"/>
+        <correspContext corresp="i-Qwq2tjDJ53Bo57oxM5CVij">
+          <note type="signatory" corresp="i-C5oSgDpxjTK7J31TqsPEwQ"/>
+          <note type="signatory" corresp="i-2xzcr3nLPgka3s5j7pZ98N"/>
+          <note type="signatory" corresp="i-3GrPnM5KDKuSxfWxymYNoC"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Hc7kjBxzsLtVSKYRiLri7S">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-HYSZkwpc4mBPnvQiRKAGb6">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KVfbeJqCAwuS8xEB9QUn3q">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-X6ibbU6h1n1iVtdXUXe1m"/>
+        <correspContext corresp="i-X6ibbU6h1n1iVtdXUXe1m">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

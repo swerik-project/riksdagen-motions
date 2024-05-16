@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-LU-00382">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Inteckningssystem för egendom på ofri grund</title>
+        <author corresp="i-CC4z6y829HSoYCYrGDHrtv">av Kenth Högström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Inteckningssystem för egendom på ofri grund</title>
+          <idno type="rdwebb">GS02L382</idno>
+          <rs type="number">L382</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02L382/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02L382</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02L382</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CC4z6y829HSoYCYrGDHrtv</idno>
+            <name>Kenth Högström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JgWLWv5kZQrpiqmadQaKuv" type="signed"/>
+        <correspContext corresp="i-JgWLWv5kZQrpiqmadQaKuv">
+          <note type="signatory" corresp="i-CC4z6y829HSoYCYrGDHrtv"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-ReESVMDLWJmZN7YrU2dmFS">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-KqypZKs6wq5p9hepHFDkAw">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BjjHKz9v1Q8vjP3VMyUgG2">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QmabgqL5kRXpMqVf2LJyij"/>
+        <correspContext corresp="i-QmabgqL5kRXpMqVf2LJyij">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

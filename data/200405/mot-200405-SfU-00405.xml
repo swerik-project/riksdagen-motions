@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SfU-00405">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Asylsökande barn</title>
+        <author corresp="i-6Tm6CkqvW55XWkdqUgBH82">av Marina Pettersson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Asylsökande barn</title>
+          <idno type="rdwebb">GS02Sf405</idno>
+          <rs type="number">Sf405</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sf405/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sf405</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sf405</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-6Tm6CkqvW55XWkdqUgBH82</idno>
+            <name>Marina Pettersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NMmCGoXZCAe8crwmTHMCGb" type="signed"/>
+        <correspContext corresp="i-NMmCGoXZCAe8crwmTHMCGb">
+          <note type="signatory" corresp="i-6Tm6CkqvW55XWkdqUgBH82"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-WfQdyN5jDwUGpRqSMes199">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-51zrDmR3xvjbJuULS3LyP1">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HazvRzhrDx7BcCMoMStgPR">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KWj53ujM5GJsvMzFvXsXHW"/>
+        <correspContext corresp="i-KWj53ujM5GJsvMzFvXsXHW">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

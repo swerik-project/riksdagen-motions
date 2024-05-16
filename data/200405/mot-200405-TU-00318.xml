@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00318">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Byte till svenskt körkort</title>
+        <author corresp="i-BUsYTbnmyQrtHXSA2gEp9T i-Cndwseqc83uGA5s7vUEPqB">av Torsten Lindström och Olle Sandahl (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Byte till svenskt körkort</title>
+          <idno type="rdwebb">GS02T318</idno>
+          <rs type="number">T318</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02T318/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02T318</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02T318</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BUsYTbnmyQrtHXSA2gEp9T</idno>
+            <name>Torsten Lindström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Cndwseqc83uGA5s7vUEPqB</idno>
+            <name>Olle Sandahl</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JTpGertSFSB93exZgozcPZ" type="signed"/>
+        <correspContext corresp="i-JTpGertSFSB93exZgozcPZ">
+          <note type="signatory" corresp="i-BUsYTbnmyQrtHXSA2gEp9T"/>
+          <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Abo8yRCFeRAZqFB4QXZt7J">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-17ZipHRgkbCd65HggXXkaq">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7C3FVLwqv5t96Y7syZ8r7t">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JC16uvove1dmphZuKoRA4U"/>
+        <correspContext corresp="i-JC16uvove1dmphZuKoRA4U">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

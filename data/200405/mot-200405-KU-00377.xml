@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00377">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Avskaffad motionstid</title>
+        <author corresp="i-AvtuWmW4WHMDrctQKwDQuR i-BHVsLDz5YDDkjyE1f5Gzz3">av Eva Flyborg och Lennart Kollmats (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Avskaffad motionstid</title>
+          <idno type="rdwebb">GS02K377</idno>
+          <rs type="number">K377</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02K377/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02K377</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02K377</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-AvtuWmW4WHMDrctQKwDQuR</idno>
+            <name>Eva Flyborg</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-BHVsLDz5YDDkjyE1f5Gzz3</idno>
+            <name>Lennart Kollmats</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NdDUmxcqykjjjkTQ6BnLnr" type="signed"/>
+        <correspContext corresp="i-NdDUmxcqykjjjkTQ6BnLnr">
+          <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
+          <note type="signatory" corresp="i-BHVsLDz5YDDkjyE1f5Gzz3"/>
+        </correspContext>
+        <correspAction type="submission" xml:id="i-TzS7NLhNfakA4W85oUt74T">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-CaxgmzzfuirhvDfvwK7CA9">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-J2RouPwBE29Nf5WTB1w6VZ">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Bn6nwNMYReyGPaFxtRvQPK"/>
+        <correspContext corresp="i-Bn6nwNMYReyGPaFxtRvQPK">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

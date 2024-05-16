@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00378">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Öppen redovisning av arbetsgivaravgifterna</title>
+        <author corresp="i-TGAeNgQV9rZoovTn5C8JAd">av Lena Adelsohn Liljeroth (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Öppen redovisning av arbetsgivaravgifterna</title>
+          <idno type="rdwebb">GS02Sk378</idno>
+          <rs type="number">Sk378</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk378/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk378</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk378</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-TGAeNgQV9rZoovTn5C8JAd</idno>
+            <name>Lena Adelsohn Liljeroth</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Tsro5qEJMN5j8etGtsQXsw" type="signed"/>
+        <correspContext corresp="i-Tsro5qEJMN5j8etGtsQXsw">
+          <note type="signatory" corresp="i-TGAeNgQV9rZoovTn5C8JAd"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-HfoS815gM5ADtSNchtiAu1">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-GwHLoZ3RDgqMpeSLjcypyU">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NnqoPyhxHjfySufsBKeEXq">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JWWWENgLxrRgCF3nVCUWXc"/>
+        <correspContext corresp="i-JWWWENgLxrRgCF3nVCUWXc">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

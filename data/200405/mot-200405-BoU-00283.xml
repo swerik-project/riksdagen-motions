@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-BoU-00283">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tillgången på koloniträdgårdar</title>
+        <author corresp="i-KNqtzTyLq88RopWq6R35xs">av Ronny Olander (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Tillgången på koloniträdgårdar</title>
+          <idno type="rdwebb">GS02Bo283</idno>
+          <rs type="number">Bo283</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Bo283/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Bo283</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Bo283</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KNqtzTyLq88RopWq6R35xs</idno>
+            <name>Ronny Olander</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XvwsuLVStyYpAAupWkeKwN" type="signed"/>
+        <correspContext corresp="i-XvwsuLVStyYpAAupWkeKwN">
+          <note type="signatory" corresp="i-KNqtzTyLq88RopWq6R35xs"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-GWVKmiCS4Bjg6MmjEe7Hwq">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-6jXihU8VUSMG7ryZQd3qnS">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PvSxdPXE6pnCxazf8r5tfN">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TDwnwk93EzasrChzePLpMQ"/>
+        <correspContext corresp="i-TDwnwk93EzasrChzePLpMQ">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

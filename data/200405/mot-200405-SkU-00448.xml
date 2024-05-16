@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00448">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alkoholskatterna</title>
+        <author corresp="i-Ybw8JnrmHGCsqpipBke8a7">av Mikael Oscarsson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Alkoholskatterna</title>
+          <idno type="rdwebb">GS02Sk448</idno>
+          <rs type="number">Sk448</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk448/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk448</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk448</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ybw8JnrmHGCsqpipBke8a7</idno>
+            <name>Mikael Oscarsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CUcMijwQnbRtGPSmGLpYuA" type="signed"/>
+        <correspContext corresp="i-CUcMijwQnbRtGPSmGLpYuA">
+          <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-XV9mEcYoxsjEsTVRrR9pnv">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-dHW7miUWCjDo84VoEcwha">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-By13NaxLLe5bq5po2u86dt">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-EQ5AJkYvw1aoWRkDiZuJNS"/>
+        <correspContext corresp="i-EQ5AJkYvw1aoWRkDiZuJNS">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

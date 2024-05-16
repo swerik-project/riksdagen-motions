@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00286">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fastighetsskatten</title>
+        <author corresp="i-MtQDAwnav9eHyeftxbQLvf i-FKLdFezw4jPcBcpexqvUyJ">av Inger René och Kent Olsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fastighetsskatten</title>
+          <idno type="rdwebb">GS02Sk286</idno>
+          <rs type="number">Sk286</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GS02Sk286/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GS02Sk286</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GS02Sk286</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-MtQDAwnav9eHyeftxbQLvf</idno>
+            <name>Inger René</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-FKLdFezw4jPcBcpexqvUyJ</idno>
+            <name>Kent Olsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-dnTvkuimYk87zVzm4cAWX" type="signed"/>
+        <correspContext corresp="i-dnTvkuimYk87zVzm4cAWX">
+          <note type="signatory" corresp="i-MtQDAwnav9eHyeftxbQLvf"/>
+          <note type="signatory" corresp="i-FKLdFezw4jPcBcpexqvUyJ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LZxT1jWYLiZLU8gGbGg92B">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Brb9dkvz99DdyW8WWsWe6L">
+          <date when="2004-10-14"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-69n6Xc11qgaeSebXsPippG">
+          <date when="2004-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RCBJGfbZtY1edFTQ3N4Xs7"/>
+        <correspContext corresp="i-RCBJGfbZtY1edFTQ3N4Xs7">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

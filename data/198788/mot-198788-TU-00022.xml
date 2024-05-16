@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-TU-00022">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Karlsson (c)</title>
+        <author corresp="i-WHo92dWsGUrUuPF6REqupQ">av Anna Wohlin-Andersson och Marianne </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Karlsson (c)</title>
+          <idno type="rdwebb">GB02T22</idno>
+          <rs type="number">T22</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GB02T22/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GB02T22</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GB02T22</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>Karlsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-WHo92dWsGUrUuPF6REqupQ</idno>
+            <name>Anna Wohlin-Andersson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-QF9w7weamuxjZGtJKPPkwp</idno>
+            <name>Marianne Karlsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="basedOn" xml:id="i-QQKyVcafy8PLtDzbwDsoAM"/>
+        <correspContext corresp="i-QQKyVcafy8PLtDzbwDsoAM">
+          <ref>Proposition 1987/88:50</ref>
+        </correspContext>
+        <correspAction xml:id="i-DGX8XwRJY1KojVDcoR9cFU" type="signed"/>
+        <correspContext corresp="i-DGX8XwRJY1KojVDcoR9cFU">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-WHo92dWsGUrUuPF6REqupQ"/>
+          <note type="signatory" corresp="i-QF9w7weamuxjZGtJKPPkwp"/>
+        </correspContext>
+        <correspAction type="submission" xml:id="i-MipEmVw6iDaXnVcWoVnDaJ">
+          <date when="1988-01-29"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-FaY8BQqHNsRAH8sLc3UHpZ">
+          <date when="1988-02-02"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-URTrZtH15ekDszTzpKa7jE">
+          <date when="1988-02-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-58iCqyCG9bi3mUeUueC3iE">
+          <date when="2014-11-21"/>
+          <time when="05:36:06"/>
+        </correspAction>
+        <correspContext corresp="i-58iCqyCG9bi3mUeUueC3iE">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

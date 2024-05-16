@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-AU-00051">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>(bådas) Mot</title>
+        <author corresp="i-8cFSCdWjvpDgozuk8RHZyW i-4qJ1WSYreoe9MGDFPCwZKy">av Nils-Olof Gustafsson och Margareta Winberg </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>(bådas) Mot</title>
+          <idno type="rdwebb">GB02A51</idno>
+          <rs type="number">A51</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GB02A51/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GB02A51</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GB02A51</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-8cFSCdWjvpDgozuk8RHZyW</idno>
+            <name>Nils-Olof Gustafsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-4qJ1WSYreoe9MGDFPCwZKy</idno>
+            <name>Margareta Winberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="basedOn" xml:id="i-7Xf3vw4j9k5Zvj2JWfpbBt"/>
+        <correspContext corresp="i-7Xf3vw4j9k5Zvj2JWfpbBt">
+          <ref>Proposition 1987/88:150</ref>
+        </correspContext>
+        <correspAction xml:id="i-XyPmKk6Z6PUfMRSnKggjcL" type="signed"/>
+        <correspContext corresp="i-XyPmKk6Z6PUfMRSnKggjcL">
+          <note type="signatory" corresp="i-8cFSCdWjvpDgozuk8RHZyW"/>
+          <note type="signatory" corresp="i-4qJ1WSYreoe9MGDFPCwZKy"/>
+        </correspContext>
+        <correspAction type="submission" xml:id="i-EPnZhNAhJYTFY6A9h41KpM">
+          <date when="1988-05-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Vj2TPK79aDF2C4yTEhKagq">
+          <date when="1988-05-16"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-7dG7keD5dkbF2DwRg7fisH">
+          <date when="1988-05-17"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7bJiCU8UDyAAMUSfYBCLKD">
+          <date when="2014-11-23"/>
+          <time when="02:59:03"/>
+        </correspAction>
+        <correspContext corresp="i-7bJiCU8UDyAAMUSfYBCLKD">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

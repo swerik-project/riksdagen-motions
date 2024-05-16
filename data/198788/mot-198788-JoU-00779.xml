@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-JoU-00779">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om SAKAB</title>
+        <author corresp="r-0 i-NVM2gMwP8i4wNF5q2mTCw2">av Karl-Erik Persson (vpk) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om SAKAB</title>
+          <idno type="rdwebb">GB02Jo779</idno>
+          <rs type="number">Jo779</rs>
+          <orgName type="comitteeAbbreviation">JoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GB02Jo779/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GB02Jo779</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GB02Jo779</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>av Karl-Erik Persson</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-NVM2gMwP8i4wNF5q2mTCw2</idno>
+            <name>Karl-Erik Persson</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-P33mRBc2dPEUUpGTxJsgbF" type="signed"/>
+        <correspContext corresp="i-P33mRBc2dPEUUpGTxJsgbF">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-NVM2gMwP8i4wNF5q2mTCw2"/>
+        </correspContext>
+        <correspAction type="submission" xml:id="i-MaeU4NkCrWz663kvFBq2hA">
+          <date when="1988-01-26"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-N6bFZKZUBR937WTS2QGopf">
+          <date when="1988-02-01"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-uKg4jzcNWVrwBN9Pj1ouu">
+          <date when="1988-02-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-687rHNiH56m8dGZmLgVCcG">
+          <date when="2014-11-19"/>
+          <time when="16:35:52"/>
+        </correspAction>
+        <correspContext corresp="i-687rHNiH56m8dGZmLgVCcG">
+          <ref type="assignedTo">Jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

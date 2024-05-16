@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-TU-00507">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om en Mälarbana</title>
+        <author corresp="i-3uaN5fvSUmBMXgqnzrb6Yb r-0">av Görel Bohlin och Anders Andersson (m) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om en Mälarbana</title>
+          <idno type="rdwebb">GB02T507</idno>
+          <rs type="number">T507</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GB02T507/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GB02T507</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GB02T507</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-3uaN5fvSUmBMXgqnzrb6Yb</idno>
+            <name>Görel Bohlin</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>Anders Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Hw6zWsBo33E6TLzH1dvkEt" type="signed"/>
+        <correspContext corresp="i-Hw6zWsBo33E6TLzH1dvkEt">
+          <note type="signatory" corresp="i-3uaN5fvSUmBMXgqnzrb6Yb"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+        <correspAction type="submission" xml:id="i-26WcKm9v33SnmQyfzz3Pwt">
+          <date when="1988-01-26"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-6NExgoaHuS2jcbUEZSgVsf">
+          <date when="1988-02-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FdQcQp6V1bu4LcW5Bg4Nhw">
+          <date when="2014-11-19"/>
+          <time when="16:01:39"/>
+        </correspAction>
+        <correspContext corresp="i-FdQcQp6V1bu4LcW5Bg4Nhw">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1972--00791">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om kvinnlig tronföljd i Sverige.</title>
+        <author>av fru Kristensson och herr Schött </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om kvinnlig tronföljd i Sverige.</title>
+          <idno type="rdwebb">FV02791</idno>
+          <rs type="number">791</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FV02791/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FV02791</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FV02791</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-CrKFd8YrUoQVBgUYnwpDY7</idno>
+            <name>ASTRID KRISTENSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-2vSoREUgDMM9du3oZhTyJR</idno>
+            <name>LARS SCHÖTT</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CPgHupYsMJexVbZ9BvsXNo" type="signed"/>
+        <correspContext corresp="i-CPgHupYsMJexVbZ9BvsXNo">
+          <note type="signatory" corresp="i-CrKFd8YrUoQVBgUYnwpDY7"/>
+          <note type="signatory" corresp="i-2vSoREUgDMM9du3oZhTyJR"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

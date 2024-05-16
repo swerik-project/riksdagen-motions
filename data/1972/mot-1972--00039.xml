@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1972--00039">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om utgivande av en informationsskrift rörande allemansrätten.</title>
+        <author>av herrar Hellmark och Wirtén</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om utgivande av en informationsskrift rörande allemansrätten.</title>
+          <idno type="rdwebb">FV0239</idno>
+          <rs type="number">39</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FV0239/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FV0239</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FV0239</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TkQYUfaqKqtshh9bgzavdb</idno>
+            <name>MARTIN HENMARK</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>ROLF WIRTÉ N</name>
+            <state type="partyAffiliation" ref="Q53764745">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-6juGBteetanhFS4cujnEy3" type="signed"/>
+        <correspContext corresp="i-6juGBteetanhFS4cujnEy3">
+          <note type="signatory" corresp="i-TkQYUfaqKqtshh9bgzavdb"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

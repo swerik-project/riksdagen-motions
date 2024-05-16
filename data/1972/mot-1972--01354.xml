@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1972--01354">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om ett system för delägarsparande.</title>
+        <author>av herr Schött m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om ett system för delägarsparande.</title>
+          <idno type="rdwebb">FV021354</idno>
+          <rs type="number">1354</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FV021354/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FV021354</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FV021354</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-FoZGPWdjE7CaiMyuRthV17</idno>
+            <name>TAGE MAGNUSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-YUDKZcyDKbQ3ef9oSyZaLH</idno>
+            <name>KURT SÖDERSTRÖM</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-U1AZY7deQBqe3XWFDnD7K5" type="signed"/>
+        <correspContext corresp="i-U1AZY7deQBqe3XWFDnD7K5">
+          <note type="signatory" corresp="i-FoZGPWdjE7CaiMyuRthV17"/>
+          <note type="signatory" corresp="i-YUDKZcyDKbQ3ef9oSyZaLH"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

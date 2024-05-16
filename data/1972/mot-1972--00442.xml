@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1972--00442">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om ekonomisk gottgörelse åt Alf Oderstig.</title>
+        <author>av herrar Böijesson i Falköping och Fågelsbo </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om ekonomisk gottgörelse åt Alf Oderstig.</title>
+          <idno type="rdwebb">FV02442</idno>
+          <rs type="number">442</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FV02442/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FV02442</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FV02442</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Af27F1xYCu7PKfDmUgU7Xb</idno>
+            <name>BENGT BÖRJESSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-LQTx4BWNjAEb1St9L8qUio</idno>
+            <name>ANTON FÅGELSBO</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-S5ehopJ1Hmvv1cFMAxrbYd" type="signed"/>
+        <correspContext corresp="i-S5ehopJ1Hmvv1cFMAxrbYd">
+          <note type="signatory" corresp="i-Af27F1xYCu7PKfDmUgU7Xb"/>
+          <note type="signatory" corresp="i-LQTx4BWNjAEb1St9L8qUio"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

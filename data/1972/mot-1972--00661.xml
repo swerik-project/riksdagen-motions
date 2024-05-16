@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1972--00661">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om provning av teknisk medicinsk apparatur</title>
+        <author>av herrar Karl Bengtsson i Varberg och Levin </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om provning av teknisk medicinsk apparatur</title>
+          <idno type="rdwebb">FV02661</idno>
+          <rs type="number">661</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FV02661/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FV02661</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FV02661</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-5aLm2cJRWeExysRXuewS8Y</idno>
+            <name>KARL BENGTSSON</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-7CFBS2gbSMz5TmcsCYMdXG</idno>
+            <name>KARL-AXEL LEVIN</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VzzvmwC2KtNCvUNiD5R4xv" type="signed"/>
+        <correspContext corresp="i-VzzvmwC2KtNCvUNiD5R4xv">
+          <note type="signatory" corresp="i-5aLm2cJRWeExysRXuewS8Y"/>
+          <note type="signatory" corresp="i-7CFBS2gbSMz5TmcsCYMdXG"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

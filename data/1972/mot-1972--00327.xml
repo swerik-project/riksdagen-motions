@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1972--00327">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om en tjänst som socialattaché i Buenos Aires.</title>
+        <author>av herr Björck i Nässjö</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om en tjänst som socialattaché i Buenos Aires.</title>
+          <idno type="rdwebb">FV02327</idno>
+          <rs type="number">327</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FV02327/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FV02327</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FV02327</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GvBe798bQfFYpnaboy7YCF</idno>
+            <name>ANDERS BJÖRCK</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Up4y8sG2usozetyaBCX6wX" type="signed"/>
+        <correspContext corresp="i-Up4y8sG2usozetyaBCX6wX">
+          <note type="signatory" corresp="i-GvBe798bQfFYpnaboy7YCF"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

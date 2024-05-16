@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--00323">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fördelningen av läkarresurserna</title>
+        <author>John Andersson och Karin Nordlander </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fördelningen av läkarresurserna</title>
+          <idno type="rdwebb">G602323</idno>
+          <rs type="number">323</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G602323/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G602323</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G602323</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>JOHN ANDERSSON</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-UqzvPHFEErHnSFsyUmhr5K</idno>
+            <name>KARIN NORDLANDER</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-F8vhF2u5v4Ffn5GaJjdpwQ" type="signed"/>
+        <correspContext corresp="i-F8vhF2u5v4Ffn5GaJjdpwQ">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-UqzvPHFEErHnSFsyUmhr5K"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

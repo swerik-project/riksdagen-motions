@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01040">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Om- och tillbyggnad av polishuset i Västervik</title>
+        <author>Arne Andersson i Gamleby och Ewy Möller </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Om- och tillbyggnad av polishuset i Västervik</title>
+          <idno type="rdwebb">G6021040</idno>
+          <rs type="number">1040</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021040/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021040</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021040</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>ARNE ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-9X2XYXPBTEhd3dVshQ4PFJ</idno>
+            <name>EWY MÖLLER</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-B8Bt9KoWQBKTLor3F6dZiy" type="signed"/>
+        <correspContext corresp="i-B8Bt9KoWQBKTLor3F6dZiy">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-9X2XYXPBTEhd3dVshQ4PFJ"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

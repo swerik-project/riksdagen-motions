@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01856">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sveriges turistråd</title>
+        <author>Per-Richard Molén och Ingrid Hemmingsson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sveriges turistråd</title>
+          <idno type="rdwebb">G6021856</idno>
+          <rs type="number">1856</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021856/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021856</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021856</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-8f78XhQUuZ8RoeUoZAueFm</idno>
+            <name>PER-RICHARD MOLÉN</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-7EqnaA8N82a8e94n92Ucda</idno>
+            <name>INGRID HEMMINGSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Keb94xCUu5RVJHGmh9tSM5" type="signed"/>
+        <correspContext corresp="i-Keb94xCUu5RVJHGmh9tSM5">
+          <note type="signatory" corresp="i-8f78XhQUuZ8RoeUoZAueFm"/>
+          <note type="signatory" corresp="i-7EqnaA8N82a8e94n92Ucda"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

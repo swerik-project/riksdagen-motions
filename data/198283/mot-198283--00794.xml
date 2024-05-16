@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--00794">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Allemansrätten</title>
+        <author>Stina Gustavsson m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Allemansrätten</title>
+          <idno type="rdwebb">G602794</idno>
+          <rs type="number">794</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G602794/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G602794</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G602794</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-SJZr3KVaqohjfckH9Qag36</idno>
+            <name>STINA GUSTAVSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4u6RX5fG6QAwB5JHe16ZTV</idno>
+            <name>ERIK HOVHAMMAR</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Y2s3vw3xfBnmDmMhCYX6QJ</idno>
+            <name>RUNE GUSTAVSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-McV8uzEvZdxJephaZbqN9X</idno>
+            <name>ANDERS G. HÖGMARK</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TjVuWCnofqYbxbMYN7nYDd" type="signed"/>
+        <correspContext corresp="i-TjVuWCnofqYbxbMYN7nYDd">
+          <note type="signatory" corresp="i-SJZr3KVaqohjfckH9Qag36"/>
+          <note type="signatory" corresp="i-4u6RX5fG6QAwB5JHe16ZTV"/>
+          <note type="signatory" corresp="i-Y2s3vw3xfBnmDmMhCYX6QJ"/>
+          <note type="signatory" corresp="i-McV8uzEvZdxJephaZbqN9X"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

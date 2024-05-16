@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01863">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>En finskspråkig teater</title>
+        <author>Erkki Tammenoksa m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>En finskspråkig teater</title>
+          <idno type="rdwebb">G6021863</idno>
+          <rs type="number">1863</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021863/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021863</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021863</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-DRiwPcfjVYQdJiVawKhKpN</idno>
+            <name>ERKKI TAMMENOKSA</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-YSrKPAF7dEJGwUuQtYWvjX</idno>
+            <name>BRUNO POROMAA</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-SftjZkfkccEWbWRMJEbd7c</idno>
+            <name>LAHJA EXNER</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HR5mg6q52qtHkeav9NWbic" type="signed"/>
+        <correspContext corresp="i-HR5mg6q52qtHkeav9NWbic">
+          <note type="signatory" corresp="i-DRiwPcfjVYQdJiVawKhKpN"/>
+          <note type="signatory" corresp="i-YSrKPAF7dEJGwUuQtYWvjX"/>
+          <note type="signatory" corresp="i-SftjZkfkccEWbWRMJEbd7c"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

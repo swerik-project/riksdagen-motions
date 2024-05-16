@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01126">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Det kommunala partistödet</title>
+        <author>Lars Ernestam och Karin Ahrland </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Det kommunala partistödet</title>
+          <idno type="rdwebb">G6021126</idno>
+          <rs type="number">1126</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021126/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021126</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021126</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-428Hjmwgi7AWPWkBr4Pecy</idno>
+            <name>LARS ERNESTAM</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-DDBp1Uv1xUyCgUST4Mk7Ub</idno>
+            <name>KARIN AHRLAND</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8RQ9Pj5u7e8zasM2ihG4YQ" type="signed"/>
+        <correspContext corresp="i-8RQ9Pj5u7e8zasM2ihG4YQ">
+          <note type="signatory" corresp="i-428Hjmwgi7AWPWkBr4Pecy"/>
+          <note type="signatory" corresp="i-DDBp1Uv1xUyCgUST4Mk7Ub"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

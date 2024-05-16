@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--00957">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Morgonbön i skolan</title>
+        <author>Tore Nilsson m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Morgonbön i skolan</title>
+          <idno type="rdwebb">G602957</idno>
+          <rs type="number">957</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G602957/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G602957</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G602957</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-JwrrNQarYf4sbAtWECPj6i</idno>
+            <name>TORE NILSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-V193Sbzem4fs1MBp32cuww</idno>
+            <name>GÖTE KNUTSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-GLHYq1jMQHCT1zXejYWV8x</idno>
+            <name>ALLAN ÅKERLIND</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-L42uj9vEv3HHAsjJumhhdL" type="signed"/>
+        <correspContext corresp="i-L42uj9vEv3HHAsjJumhhdL">
+          <note type="signatory" corresp="i-JwrrNQarYf4sbAtWECPj6i"/>
+          <note type="signatory" corresp="i-V193Sbzem4fs1MBp32cuww"/>
+          <note type="signatory" corresp="i-GLHYq1jMQHCT1zXejYWV8x"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

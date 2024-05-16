@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01983">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Djursjukvårdsavgiften</title>
+        <author>Ingemar Hallenius och Gösta Andersson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Djursjukvårdsavgiften</title>
+          <idno type="rdwebb">G6021983</idno>
+          <rs type="number">1983</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021983/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021983</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021983</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-LTakVqpXykZkjsWbDm4VwD</idno>
+            <name>INGEMAR HALLENIUS</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>GÖSTA ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HfCg9adiqwADVZBr2Ee3cx" type="signed"/>
+        <correspContext corresp="i-HfCg9adiqwADVZBr2Ee3cx">
+          <note type="signatory" corresp="i-LTakVqpXykZkjsWbDm4VwD"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

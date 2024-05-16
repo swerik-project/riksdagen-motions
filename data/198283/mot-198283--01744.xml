@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01744">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Notarietjänstgöringen</title>
+        <author>Gunilla André m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Notarietjänstgöringen</title>
+          <idno type="rdwebb">G6021744</idno>
+          <rs type="number">1744</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021744/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021744</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021744</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-JbQ4LaZceHR3Dk6TCPfuHh</idno>
+            <name>GUNILLA ANDRÉ</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-XrDegv7uQGz4MSbepK4txd</idno>
+            <name>KARIN SÖDER</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-XazZeCYyyq3u8LSAmNahPt</idno>
+            <name>ELVING ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Mc5bCyMtP2TVMC1TmXkxy2" type="signed"/>
+        <correspContext corresp="i-Mc5bCyMtP2TVMC1TmXkxy2">
+          <note type="signatory" corresp="i-JbQ4LaZceHR3Dk6TCPfuHh"/>
+          <note type="signatory" corresp="i-XrDegv7uQGz4MSbepK4txd"/>
+          <note type="signatory" corresp="i-XazZeCYyyq3u8LSAmNahPt"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

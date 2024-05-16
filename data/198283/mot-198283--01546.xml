@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01546">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vidgad kommunal förköpsrätt</title>
+        <author>Sivert Andersson och Stig Gustafsson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vidgad kommunal förköpsrätt</title>
+          <idno type="rdwebb">G6021546</idno>
+          <rs type="number">1546</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021546/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021546</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021546</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>on (s)</name>
+            <state type="partyAffiliation">
+              <desc/>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TRnXjwqZqTJWcuZekA2f4r</idno>
+            <name>SIVERT ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-B1CYV55jAsSkBLgG5JFjwZ</idno>
+            <name>STIG GUSTAFSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GxpS8heUgXXTGpEBCbojvH" type="signed"/>
+        <correspContext corresp="i-GxpS8heUgXXTGpEBCbojvH">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-TRnXjwqZqTJWcuZekA2f4r"/>
+          <note type="signatory" corresp="i-B1CYV55jAsSkBLgG5JFjwZ"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

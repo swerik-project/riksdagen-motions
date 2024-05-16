@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--00824">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Handläggningen av utvisningsärenden</title>
+        <author>Birthe Sörestedt och Margit Sandéhn </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Handläggningen av utvisningsärenden</title>
+          <idno type="rdwebb">G602824</idno>
+          <rs type="number">824</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G602824/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G602824</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G602824</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-KJyvTwrgDxi4yMYySF1bec</idno>
+            <name>BIRTHE SÖRESTEDT</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-Ln8e4kp9DncupjAURR6yQY</idno>
+            <name>MARGIT SANDÉHN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MU8cmfSzvTUa7JRYQHwXQw" type="signed"/>
+        <correspContext corresp="i-MU8cmfSzvTUa7JRYQHwXQw">
+          <note type="signatory" corresp="i-KJyvTwrgDxi4yMYySF1bec"/>
+          <note type="signatory" corresp="i-Ln8e4kp9DncupjAURR6yQY"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

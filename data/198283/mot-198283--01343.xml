@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01343">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ett skoindustrimuseum i Kumla</title>
+        <author>Anders Svärd och Ann-Cathrine Haglund </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ett skoindustrimuseum i Kumla</title>
+          <idno type="rdwebb">G6021343</idno>
+          <rs type="number">1343</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021343/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021343</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021343</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-LXcd5jKEcdWPFtnvREdfND</idno>
+            <name>ANDERS SVÄRD</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-2BYSzJNcUPXMLvmLd6pE34</idno>
+            <name>ANN-CATHRINE HAGLUND</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KEbjuY5Fgurheb8q4mjQ6F" type="signed"/>
+        <correspContext corresp="i-KEbjuY5Fgurheb8q4mjQ6F">
+          <note type="signatory" corresp="i-LXcd5jKEcdWPFtnvREdfND"/>
+          <note type="signatory" corresp="i-2BYSzJNcUPXMLvmLd6pE34"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

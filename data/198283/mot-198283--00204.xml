@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--00204">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kontraktsvård av missbrukare</title>
+        <author>Sonja Rembo och Anita Bråkenhielm </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kontraktsvård av missbrukare</title>
+          <idno type="rdwebb">G602204</idno>
+          <rs type="number">204</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G602204/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G602204</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G602204</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-HpykFSDEKjFd3AQrjBW2xc</idno>
+            <name>SONJA REMBO</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-LqLKSYqgPPCXT6xiy14Fyr</idno>
+            <name>ANITA BRÅKENHIELM</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WRngNHP1VTA7gfRrVErKta" type="signed"/>
+        <correspContext corresp="i-WRngNHP1VTA7gfRrVErKta">
+          <note type="signatory" corresp="i-HpykFSDEKjFd3AQrjBW2xc"/>
+          <note type="signatory" corresp="i-LqLKSYqgPPCXT6xiy14Fyr"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

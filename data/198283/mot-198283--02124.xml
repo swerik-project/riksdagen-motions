@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--02124">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vissa hjälpmedel för läs- och skrivhandikappade</title>
+        <author>Oskar Lindkvist m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vissa hjälpmedel för läs- och skrivhandikappade</title>
+          <idno type="rdwebb">G6022124</idno>
+          <rs type="number">2124</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6022124/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6022124</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6022124</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GCJVTREcJGRyYmFdeMbNaN</idno>
+            <name>OSKAR LINDKVIST</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-MCKLqN6XeWUwSHj6Js4X4Y</idno>
+            <name>GERD ENGMAN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>MARGARETA PERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PLcdSbrVPBxcDJuv2nm3nX" type="signed"/>
+        <correspContext corresp="i-PLcdSbrVPBxcDJuv2nm3nX">
+          <note type="signatory" corresp="i-GCJVTREcJGRyYmFdeMbNaN"/>
+          <note type="signatory" corresp="i-MCKLqN6XeWUwSHj6Js4X4Y"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

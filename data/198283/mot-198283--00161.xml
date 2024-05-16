@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--00161">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ändrad vinbeskattning</title>
+        <author>Bo Lundgren och Lars-Erik Lövdén </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ändrad vinbeskattning</title>
+          <idno type="rdwebb">G602161</idno>
+          <rs type="number">161</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G602161/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G602161</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G602161</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4i5vpDVzDizjgGeYkeoK2E</idno>
+            <name>BO LUNDGREN</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-6qjD2tsSCtsrmXQjy7mtCJ</idno>
+            <name>LARS-ERIK LÖVDÉN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KQg9iHE45mwdiC4kU4puk" type="signed"/>
+        <correspContext corresp="i-KQg9iHE45mwdiC4kU4puk">
+          <note type="signatory" corresp="i-4i5vpDVzDizjgGeYkeoK2E"/>
+          <note type="signatory" corresp="i-6qjD2tsSCtsrmXQjy7mtCJ"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

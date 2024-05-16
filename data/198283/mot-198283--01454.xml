@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01454">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Eric (fågelmark och Hugo Bergdahl</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Eric (fågelmark och Hugo Bergdahl</title>
+          <idno type="rdwebb">G6021454</idno>
+          <rs type="number">1454</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021454/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021454</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021454</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4PWoEwRyCjKBVFFdqhmPo2</idno>
+            <name>ERIC HÄGELMARK</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-UmGHrbipY4e5SAGvddBkzr</idno>
+            <name>HUGO BERGDAHL</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9fA8n8ifWSpsEx69YiwbWT" type="signed"/>
+        <correspContext corresp="i-9fA8n8ifWSpsEx69YiwbWT">
+          <note type="signatory" corresp="i-4PWoEwRyCjKBVFFdqhmPo2"/>
+          <note type="signatory" corresp="i-UmGHrbipY4e5SAGvddBkzr"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

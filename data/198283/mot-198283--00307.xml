@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--00307">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hyressättningen enligt bruksvärdesprincipen</title>
+        <author>Kurt Ove Johansson och Lars-Erik Lövdén </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hyressättningen enligt bruksvärdesprincipen</title>
+          <idno type="rdwebb">G602307</idno>
+          <rs type="number">307</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G602307/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G602307</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G602307</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UVAgeLYUkfmr8A9VVChgiV</idno>
+            <name>KURT OVE JOHANSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-6qjD2tsSCtsrmXQjy7mtCJ</idno>
+            <name>LARS-ERIK LÖVDÉN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-P3A7UHakhnBLXXNwr1d3GK" type="signed"/>
+        <correspContext corresp="i-P3A7UHakhnBLXXNwr1d3GK">
+          <note type="signatory" corresp="i-UVAgeLYUkfmr8A9VVChgiV"/>
+          <note type="signatory" corresp="i-6qjD2tsSCtsrmXQjy7mtCJ"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

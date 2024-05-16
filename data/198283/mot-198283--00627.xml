@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--00627">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bekämpningen av sly</title>
+        <author>Stig Alfin</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bekämpningen av sly</title>
+          <idno type="rdwebb">G602627</idno>
+          <rs type="number">627</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G602627/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G602627</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G602627</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-WjwKEdqXu9hDUS6P9Ua9R</idno>
+            <name>STIG ALFTIN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-X4z8f8A4x46H1f98Sct2m1" type="signed"/>
+        <correspContext corresp="i-X4z8f8A4x46H1f98Sct2m1">
+          <note type="signatory" corresp="i-WjwKEdqXu9hDUS6P9Ua9R"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

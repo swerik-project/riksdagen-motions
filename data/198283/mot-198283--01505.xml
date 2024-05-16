@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01505">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prissättningen på elkraft</title>
+        <author>Bengt Wittbom och Ove Eriksson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Prissättningen på elkraft</title>
+          <idno type="rdwebb">G6021505</idno>
+          <rs type="number">1505</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021505/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021505</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021505</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-EYtSQeorgj7y8BCPjaqciZ</idno>
+            <name>BENGT WITTBOM</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-RZjsvHQz5czMrGkoME6F46</idno>
+            <name>OVE ERIKSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4W1CYid3dVtLRAP3cZTk1E" type="signed"/>
+        <correspContext corresp="i-4W1CYid3dVtLRAP3cZTk1E">
+          <note type="signatory" corresp="i-EYtSQeorgj7y8BCPjaqciZ"/>
+          <note type="signatory" corresp="i-RZjsvHQz5czMrGkoME6F46"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

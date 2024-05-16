@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--00730">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fritidspraktiserande läkare</title>
+        <author>Anita Persson och Iréne Vestlund </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fritidspraktiserande läkare</title>
+          <idno type="rdwebb">G602730</idno>
+          <rs type="number">730</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G602730/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G602730</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G602730</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-6QRx949PBJjaHhLd5Kfks8</idno>
+            <name>ANITA PERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-UxF6YPMa1QYLSYfvvpZpWu</idno>
+            <name>IRÉNE VESTLUND</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AWKsAKTWdm8HiQZfBdh6pU" type="signed"/>
+        <correspContext corresp="i-AWKsAKTWdm8HiQZfBdh6pU">
+          <note type="signatory" corresp="i-6QRx949PBJjaHhLd5Kfks8"/>
+          <note type="signatory" corresp="i-UxF6YPMa1QYLSYfvvpZpWu"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

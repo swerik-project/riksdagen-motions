@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--00396">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pantsystem för batterier, m. m.</title>
+        <author>Rune Torwald och Ingvar Karlsson i Bengtsfors </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Pantsystem för batterier, m. m.</title>
+          <idno type="rdwebb">G602396</idno>
+          <rs type="number">396</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G602396/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G602396</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G602396</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SfSPRTjDUBfa6bxqEn6fDP</idno>
+            <name>RUNE TORWALD</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4BCsEuyTWrX3aghWF8i72b</idno>
+            <name>INGVAR KARLSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UFME3i7GhCDf3NoD86UKqU" type="signed"/>
+        <correspContext corresp="i-UFME3i7GhCDf3NoD86UKqU">
+          <note type="signatory" corresp="i-SfSPRTjDUBfa6bxqEn6fDP"/>
+          <note type="signatory" corresp="i-4BCsEuyTWrX3aghWF8i72b"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01137">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ADB och offentlighetsprincipen</title>
+        <author>Joakim Ollén</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>ADB och offentlighetsprincipen</title>
+          <idno type="rdwebb">G6021137</idno>
+          <rs type="number">1137</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021137/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021137</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021137</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-ZyvGjLNqgpFpKbCbQnZSM</idno>
+            <name>JOAKIM OLLÉN</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QgxoEvDPkiYKqrtS2G4Fzz" type="signed"/>
+        <correspContext corresp="i-QgxoEvDPkiYKqrtS2G4Fzz">
+          <note type="signatory" corresp="i-ZyvGjLNqgpFpKbCbQnZSM"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

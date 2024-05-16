@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198283--01158">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Partisympatiundersökningar</title>
+        <author>Helge Hagberg och Owe Andréasson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Partisympatiundersökningar</title>
+          <idno type="rdwebb">G6021158</idno>
+          <rs type="number">1158</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G6021158/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G6021158</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G6021158</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-RqJoyqBtHk6qXvzc8mj8mb</idno>
+            <name>HELGE HAGBERG</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Rb9LcfDrAi5Y6rVKoFXtAg</idno>
+            <name>OWE ANDRÉASSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XC4ZSQELVA5GPSKuR3ojhw" type="signed"/>
+        <correspContext corresp="i-XC4ZSQELVA5GPSKuR3ojhw">
+          <note type="signatory" corresp="i-RqJoyqBtHk6qXvzc8mj8mb"/>
+          <note type="signatory" corresp="i-Rb9LcfDrAi5Y6rVKoFXtAg"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

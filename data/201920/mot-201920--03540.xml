@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201920--03540">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2019/20:3540</title>
+          <idno type="rdwebb">H7023540</idno>
+          <rs type="number">3540</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H7023540/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H7023540</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H7023540</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson/>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="dismissed"/>
+        <correspAction xml:id="i-2ZcEbVzxnsTpeZZybvzwW6" type="signed"/>
+        <correspAction type="expired" xml:id="i-QgrtfPfTSt1JSWFYW7ZqUV">
+          <date when="2020-04-01"/>
+        </correspAction>
+        <correspAction type="submitted" xml:id="i-JsDDzcbjVoheURicJJtWbT">
+          <date when="2020-04-01"/>
+          <time when="10:21:12"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201920--00745">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2019/20:745</title>
+          <idno type="rdwebb">H702745</idno>
+          <rs type="number">745</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H702745/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H702745</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H702745</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson/>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="dismissed"/>
+        <correspAction xml:id="i-LyEEM39tBDkRej6nS1b6gZ" type="signed"/>
+        <correspAction type="submitted" xml:id="i-NNsd8JqcNaspudXaWSqygx">
+          <date when="2019-09-30"/>
+          <time when="15:06:42"/>
+        </correspAction>
+        <correspAction type="reviewed" xml:id="i-Tkgd7RuRwecpio4rJ2XwBs">
+          <date when="2019-09-30"/>
+          <time when="15:19:30"/>
+        </correspAction>
+        <correspAction type="expired" xml:id="i-RYeqV55rYEQFPHzEe2Cf4G">
+          <date when="2019-10-01"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

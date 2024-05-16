@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198384--02123">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ideella insatser i offentlig verksamhet</title>
+        <author>Ingemar Eliasson och Jan-Erik Wikström </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ideella insatser i offentlig verksamhet</title>
+          <idno type="rdwebb">G7022123</idno>
+          <rs type="number">2123</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G7022123/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G7022123</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G7022123</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-788GHtzSVWps3NNq8zFMiq</idno>
+            <name>INGEMAR ELIASSON</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-P7oVLGoBfbz4RGE5XkQtLN</idno>
+            <name>JAN-ERIK WIKSTRÖM</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-X4zkjmohxy1LydT8qHr3KZ" type="signed"/>
+        <correspContext corresp="i-X4zkjmohxy1LydT8qHr3KZ">
+          <note type="signatory" corresp="i-788GHtzSVWps3NNq8zFMiq"/>
+          <note type="signatory" corresp="i-P7oVLGoBfbz4RGE5XkQtLN"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

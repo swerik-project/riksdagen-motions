@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198384--01867">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Miljöskyddsfrågor</title>
+        <author>Jan-Eric Virgin och Arne Svensson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Miljöskyddsfrågor</title>
+          <idno type="rdwebb">G7021867</idno>
+          <rs type="number">1867</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G7021867/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G7021867</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G7021867</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XnqV9oGjYZsvNk12FSJ56t</idno>
+            <name>JAN-ERIC VIRGIN</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Ac9yxy2x5ktJ5wzveXCsFQ</idno>
+            <name>ARNE SVENSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3tNHfBiqDPkEn5Wtuo5Ess" type="signed"/>
+        <correspContext corresp="i-3tNHfBiqDPkEn5Wtuo5Ess">
+          <note type="signatory" corresp="i-XnqV9oGjYZsvNk12FSJ56t"/>
+          <note type="signatory" corresp="i-Ac9yxy2x5ktJ5wzveXCsFQ"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

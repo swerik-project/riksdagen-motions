@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198384--01341">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hemkonsulentorganisationen</title>
+        <author>Karl Boo</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hemkonsulentorganisationen</title>
+          <idno type="rdwebb">G7021341</idno>
+          <rs type="number">1341</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G7021341/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G7021341</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G7021341</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4Fpaw3XcFb6Gne8E62mhr1</idno>
+            <name>KARL BOO</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-W4bJaXBPDkMqH2jP4Yu6LS" type="signed"/>
+        <correspContext corresp="i-W4bJaXBPDkMqH2jP4Yu6LS">
+          <note type="signatory" corresp="i-4Fpaw3XcFb6Gne8E62mhr1"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

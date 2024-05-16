@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198384--00311">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Läkarintyg i vissa fall från första sjukskrivningsdagen</title>
+        <author>Rune Torwald och Elving Andersson</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Läkarintyg i vissa fall från första sjukskrivningsdagen</title>
+          <idno type="rdwebb">G702311</idno>
+          <rs type="number">311</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G702311/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G702311</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G702311</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SfSPRTjDUBfa6bxqEn6fDP</idno>
+            <name>RUNE TORWALD</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-XazZeCYyyq3u8LSAmNahPt</idno>
+            <name>ELVING ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-M159z9Tna2r6ueFzQK3azm" type="signed"/>
+        <correspContext corresp="i-M159z9Tna2r6ueFzQK3azm">
+          <note type="signatory" corresp="i-SfSPRTjDUBfa6bxqEn6fDP"/>
+          <note type="signatory" corresp="i-XazZeCYyyq3u8LSAmNahPt"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

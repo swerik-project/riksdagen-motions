@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198384--00206">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Löntagarfonder (prop. 1983/84:50)</title>
+        <author>Kerstin Andersson och Ingvar Karlsson i Bengtsfors </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Löntagarfonder (prop. 1983/84:50)</title>
+          <idno type="rdwebb">G702206</idno>
+          <rs type="number">206</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G702206/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G702206</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G702206</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>KERSTIN ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4BCsEuyTWrX3aghWF8i72b</idno>
+            <name>INGVAR KARLSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KdHEq9eM62USDCYUZfeH1v" type="signed"/>
+        <correspContext corresp="i-KdHEq9eM62USDCYUZfeH1v">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-4BCsEuyTWrX3aghWF8i72b"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

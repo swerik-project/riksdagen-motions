@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198384--00998">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Högskolestudier på kvällstid</title>
+        <author>Erkki Tammenoksa </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Högskolestudier på kvällstid</title>
+          <idno type="rdwebb">G702998</idno>
+          <rs type="number">998</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G702998/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G702998</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G702998</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-DRiwPcfjVYQdJiVawKhKpN</idno>
+            <name>ERKKI TAMMENOKSA</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VtjadEEdsuF85pCPBaV2sZ" type="signed"/>
+        <correspContext corresp="i-VtjadEEdsuF85pCPBaV2sZ">
+          <note type="signatory" corresp="i-DRiwPcfjVYQdJiVawKhKpN"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198384--01532">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ändring i namnlagen</title>
+        <author>Anita Johansson och Sylvia Pettersson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ändring i namnlagen</title>
+          <idno type="rdwebb">G7021532</idno>
+          <rs type="number">1532</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G7021532/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G7021532</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G7021532</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-4zgkigyuo3a2meU92gcyAk</idno>
+            <name>ANITA JOHANSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-45Fzk9eqm5zjxxVtMMhDt7</idno>
+            <name>SYLVIA PETTERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8ZxA4F7Z6EhrCvgTFRWrGK" type="signed"/>
+        <correspContext corresp="i-8ZxA4F7Z6EhrCvgTFRWrGK">
+          <note type="signatory" corresp="i-4zgkigyuo3a2meU92gcyAk"/>
+          <note type="signatory" corresp="i-45Fzk9eqm5zjxxVtMMhDt7"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

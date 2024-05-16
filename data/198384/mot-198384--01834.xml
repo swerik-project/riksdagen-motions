@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198384--01834">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Åtgärder mot försurning</title>
+        <author>Rune Evensson m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Åtgärder mot försurning</title>
+          <idno type="rdwebb">G7021834</idno>
+          <rs type="number">1834</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G7021834/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G7021834</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G7021834</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-EpDNYovHuTxUaBfQe7k5xH</idno>
+            <name>RUNE EVENSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>RUNE JOHANSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-WxNtezayBbnNa9487orGN4</idno>
+            <name>INGVAR JOHNSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-MnGd2bfrDBzjjFFpMxRydk</idno>
+            <name>LARS-ÅKE LARSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4pNA9Jz7CrJPvEsWQJS8zu" type="signed"/>
+        <correspContext corresp="i-4pNA9Jz7CrJPvEsWQJS8zu">
+          <note type="signatory" corresp="i-EpDNYovHuTxUaBfQe7k5xH"/>
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-WxNtezayBbnNa9487orGN4"/>
+          <note type="signatory" corresp="i-MnGd2bfrDBzjjFFpMxRydk"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

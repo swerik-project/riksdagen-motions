@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-CU-00330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Koldioxiddeklaration</title>
+        <author corresp="i-VRHymVx7EsX48sg7b5qmpS i-2GE534P2Foy3WpqKPVNeW8">av Jan Lindholm och Mats Pertoft (MP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Koldioxiddeklaration</title>
+          <idno type="rdwebb">H102C330</idno>
+          <rs type="number">C330</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102C330/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102C330</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102C330</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/451590D0-3188-4D63-8600-698045435AB8</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-VRHymVx7EsX48sg7b5qmpS</idno>
+            <name>Jan Lindholm</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-2GE534P2Foy3WpqKPVNeW8</idno>
+            <name>Mats Pertoft</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GhEsek3r83oKojexHyYzpt" type="signed"/>
+        <correspContext corresp="i-GhEsek3r83oKojexHyYzpt">
+          <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
+          <note type="signatory" corresp="i-2GE534P2Foy3WpqKPVNeW8"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-WnWoHVSs4exU6kvESQuSEf">
+          <date when="2013-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7hT647dPrd4HR5sVxScPG9">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-SLrd4VXhaBmLhBuW17Uhhx">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-MCYxi6CJ7rCmqJEtmjU8eB"/>
+        <correspContext corresp="i-MCYxi6CJ7rCmqJEtmjU8eB">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

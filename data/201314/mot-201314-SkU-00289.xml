@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-SkU-00289">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>RIT-avdrag</title>
+        <author corresp="i-5BpKZwq8Nrrge7Ep1aDZB9">av Lotta Finstorp (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>RIT-avdrag</title>
+          <idno type="rdwebb">H102Sk289</idno>
+          <rs type="number">Sk289</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102Sk289/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102Sk289</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102Sk289</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0223F695-D071-4595-805D-A9BA26278C98</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-5BpKZwq8Nrrge7Ep1aDZB9</idno>
+            <name>Lotta Finstorp</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-H8HDt3PKyYnEyk5eyvwBAL" type="signed"/>
+        <correspContext corresp="i-H8HDt3PKyYnEyk5eyvwBAL">
+          <note type="signatory" corresp="i-5BpKZwq8Nrrge7Ep1aDZB9"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Qnur8gALSPGZJ1s31LZiBc">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DfuoqsnL2sRriJ5q18d1bA">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-9187Y9SbeGTVRWSFyLNjGz">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QNA5QaZD1Xf5Qam1xAC7Ww"/>
+        <correspContext corresp="i-QNA5QaZD1Xf5Qam1xAC7Ww">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

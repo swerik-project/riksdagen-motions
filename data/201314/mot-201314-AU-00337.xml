@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-AU-00337">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mottagning av nyanlända</title>
+        <author corresp="i-SvS8rTwUeKpVtp5mrPNCaP i-VhAPHtDbXzmUeiVRSdRFGD">av Leif Pettersson och Karin Åström (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Mottagning av nyanlända</title>
+          <idno type="rdwebb">H102A337</idno>
+          <rs type="number">A337</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102A337/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102A337</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102A337</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/4D0C2E8A-5389-462D-9BA9-4941C45A4879</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SvS8rTwUeKpVtp5mrPNCaP</idno>
+            <name>Leif Pettersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VhAPHtDbXzmUeiVRSdRFGD</idno>
+            <name>Karin Åström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SXwxthgZFLtqAT3Jdtrozw" type="signed"/>
+        <correspContext corresp="i-SXwxthgZFLtqAT3Jdtrozw">
+          <note type="signatory" corresp="i-SvS8rTwUeKpVtp5mrPNCaP"/>
+          <note type="signatory" corresp="i-VhAPHtDbXzmUeiVRSdRFGD"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-RrY9CArBRG7YKjHxhffD1D">
+          <date when="2013-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NgTE1uAojLvMcvo6LyHGMo">
+          <date when="2013-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Rtds7MijhGVW2VsLG9u42G">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9DVzj4zmptw9mnXvuQ97Zn"/>
+        <correspContext corresp="i-9DVzj4zmptw9mnXvuQ97Zn">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

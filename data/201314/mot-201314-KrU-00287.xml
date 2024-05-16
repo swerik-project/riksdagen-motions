@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-KrU-00287">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nyckelharpans bevarande</title>
+        <author corresp="i-VkgCZCfoAga9JDLAtq7rRZ i-LGnWAFHmtMWgHhZSuUL8EB">av Agneta Gille och Ardalan Shekarabi (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nyckelharpans bevarande</title>
+          <idno type="rdwebb">H102Kr287</idno>
+          <rs type="number">Kr287</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102Kr287/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102Kr287</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102Kr287</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2CD0E425-4CC9-4A4D-9215-99397890360E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VkgCZCfoAga9JDLAtq7rRZ</idno>
+            <name>Agneta Gille</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-LGnWAFHmtMWgHhZSuUL8EB</idno>
+            <name>Ardalan Shekarabi</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-S13EaghTt7bJwUUhVwoS1t" type="signed"/>
+        <correspContext corresp="i-S13EaghTt7bJwUUhVwoS1t">
+          <note type="signatory" corresp="i-VkgCZCfoAga9JDLAtq7rRZ"/>
+          <note type="signatory" corresp="i-LGnWAFHmtMWgHhZSuUL8EB"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-UAZ3xQmY49qhJvphzRuv4j">
+          <date when="2013-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Mipu5U5QpGh72kBEcSkiSB">
+          <date when="2013-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-RseqyMejH59HxUkzgbNWuK">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-G8kVWeqNu2ue7yjCGhUafz"/>
+        <correspContext corresp="i-G8kVWeqNu2ue7yjCGhUafz">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

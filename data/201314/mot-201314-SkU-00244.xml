@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-SkU-00244">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Folkbokföring vid dubbelt boende</title>
+        <author corresp="i-RDeqY3mXLBtUS9bixjvHS i-NdZbCeRpyiTPZMpjifyckg">av Lars Tysklind och Nina Larsson (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Folkbokföring vid dubbelt boende</title>
+          <idno type="rdwebb">H102Sk244</idno>
+          <rs type="number">Sk244</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102Sk244/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102Sk244</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102Sk244</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/EBF26BF7-7822-497B-AE38-5AAA7F2F2E75</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-RDeqY3mXLBtUS9bixjvHS</idno>
+            <name>Lars Tysklind</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-NdZbCeRpyiTPZMpjifyckg</idno>
+            <name>Nina Larsson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HbnUuWxciUjs6vgj4dywjC" type="signed"/>
+        <correspContext corresp="i-HbnUuWxciUjs6vgj4dywjC">
+          <note type="signatory" corresp="i-RDeqY3mXLBtUS9bixjvHS"/>
+          <note type="signatory" corresp="i-NdZbCeRpyiTPZMpjifyckg"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-2ZfE5grzFfbUTfvtE2JeVw">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-LLduqZJdbU5z8oLzLsPxqT">
+          <date when="2013-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-QW79bPmY2J5C6LvdUFt8ZR">
+          <date when="2013-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Jwf8aYJJxdJauErFMj6wy9"/>
+        <correspContext corresp="i-Jwf8aYJJxdJauErFMj6wy9">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

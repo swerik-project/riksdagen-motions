@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-KU-00313">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fredsdepartement</title>
+        <author corresp="i-FeVXF7pVocmUfQoPXGuJKR">av Valter Mutt m.fl. (MP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fredsdepartement</title>
+          <idno type="rdwebb">H102K313</idno>
+          <rs type="number">K313</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102K313/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102K313</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102K313</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/08BA763C-A590-4ABD-BAC7-FCC133A8608C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-FeVXF7pVocmUfQoPXGuJKR</idno>
+            <name>Valter Mutt</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-XSuWURvcJRjSbVSYUBBuD2</idno>
+            <name>Stina Bergström</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-VRHymVx7EsX48sg7b5qmpS</idno>
+            <name>Jan Lindholm</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-DLt3BwBDVwBxqxVEki5m5B</idno>
+            <name>Annika Lillemets</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-7dnmkR2ZW1wP6NM1zrUGwn" type="signed"/>
+        <correspContext corresp="i-7dnmkR2ZW1wP6NM1zrUGwn">
+          <note type="signatory" corresp="i-FeVXF7pVocmUfQoPXGuJKR"/>
+          <note type="signatory" corresp="i-XSuWURvcJRjSbVSYUBBuD2"/>
+          <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
+          <note type="signatory" corresp="i-DLt3BwBDVwBxqxVEki5m5B"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-PjYmXZj7mqZLi8XE1k7CWX">
+          <date when="2013-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7tyV43RVUej5tnPypWpwtr">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Gtm941TQiYGuyURK5vyHR">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-M7sX3FFyHo9FxWUoNp6Ftm"/>
+        <correspContext corresp="i-M7sX3FFyHo9FxWUoNp6Ftm">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

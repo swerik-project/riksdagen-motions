@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-FöU-00221">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ägardirektiv till kärnkraftverk</title>
+        <author corresp="i-3hmS3YtKuXCDu8pntcLAdc i-WjFt6fTSYNFkhwrZDFYPM4">av Hans Hoff och Adnan Dibrani (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ägardirektiv till kärnkraftverk</title>
+          <idno type="rdwebb">H102Fö221</idno>
+          <rs type="number">Fö221</rs>
+          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102Fö221/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102Fö221</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102Fö221</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/808F68F9-3896-4EC5-A950-824EB37C597C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3hmS3YtKuXCDu8pntcLAdc</idno>
+            <name>Hans Hoff</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-WjFt6fTSYNFkhwrZDFYPM4</idno>
+            <name>Adnan Dibrani</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2HXFWsp77pRJ9wGQDbamHc" type="signed"/>
+        <correspContext corresp="i-2HXFWsp77pRJ9wGQDbamHc">
+          <note type="signatory" corresp="i-3hmS3YtKuXCDu8pntcLAdc"/>
+          <note type="signatory" corresp="i-WjFt6fTSYNFkhwrZDFYPM4"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-EqgVjVU7sPTxkqGbmW52bi">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-TZtqJE8FdJqL18MmFxMFg5">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-5vg3p9T3owsEgUSzKZz7ZZ">
+          <date when="2013-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-ABsqGsrbvtoyQR6JSbvy5q"/>
+        <correspContext corresp="i-ABsqGsrbvtoyQR6JSbvy5q">
+          <ref type="assignedTo">Försvarsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

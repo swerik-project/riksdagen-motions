@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-CU-00214">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nationellt register för testamenten </title>
+        <author corresp="i-MVzhVeKwRGmjHjHoSrReg9">av Börje Vestlund (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nationellt register för testamenten </title>
+          <idno type="rdwebb">H102C214</idno>
+          <rs type="number">C214</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102C214/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102C214</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102C214</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/30687D29-1EDA-44D7-AA22-7510077EDB62</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-MVzhVeKwRGmjHjHoSrReg9</idno>
+            <name>Börje Vestlund</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-ELFzTjDKSnCQz9BU6LRTHf" type="signed"/>
+        <correspContext corresp="i-ELFzTjDKSnCQz9BU6LRTHf">
+          <note type="signatory" corresp="i-MVzhVeKwRGmjHjHoSrReg9"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-P7Dpb7oMKHU9MfXw28Ecnu">
+          <date when="2013-09-27"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Xk8oTdyKhFLNUcLkgndzPY">
+          <date when="2013-09-25"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-5235WmHxqDXac4rJB5FMf4">
+          <date when="2013-09-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UunhJZ2dyX75dKvMo62x6h"/>
+        <correspContext corresp="i-UunhJZ2dyX75dKvMo62x6h">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

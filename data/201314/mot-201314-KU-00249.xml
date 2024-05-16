@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-KU-00249">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Antalet ledamöter i Sveriges riksdag</title>
+        <author corresp="i-9x2nw6aosA3pyEJfJTc1eD">av Ulf Holm (MP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Antalet ledamöter i Sveriges riksdag</title>
+          <idno type="rdwebb">H102K249</idno>
+          <rs type="number">K249</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102K249/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102K249</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102K249</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/BAB300EA-B2DE-4C8F-BFAE-25E91A6AB4C7</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9x2nw6aosA3pyEJfJTc1eD</idno>
+            <name>Ulf Holm</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Ta99QTFMH6ZwS7erCFNK2h" type="signed"/>
+        <correspContext corresp="i-Ta99QTFMH6ZwS7erCFNK2h">
+          <note type="signatory" corresp="i-9x2nw6aosA3pyEJfJTc1eD"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-56fjbKZ56AFi5G35sHmbUJ">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KzCL5r1j56LA8VXif6argt">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-EYV6yPuF9CHZPXNXmdgDTy">
+          <date when="2013-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NYrK3tgSkQ6BG1V1GogQpJ"/>
+        <correspContext corresp="i-NYrK3tgSkQ6BG1V1GogQpJ">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

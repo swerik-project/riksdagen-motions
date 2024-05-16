@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-SkU-01093">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ROT</title>
+        <author corresp="i-7BVrTrBc6AJDkYa3WEfLxy">av Jan R Andersson (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>ROT</title>
+          <idno type="rdwebb">H102XM1093</idno>
+          <rs type="number">M1093</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102XM1093/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102XM1093</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102XM1093</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B20AF792-8820-49D2-BBAF-46685DC7F1FB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-7BVrTrBc6AJDkYa3WEfLxy</idno>
+            <name>Jan R Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BMU3QpUuH1MNZRPPHxwfnN" type="signed"/>
+        <correspContext corresp="i-BMU3QpUuH1MNZRPPHxwfnN">
+          <note type="signatory" corresp="i-7BVrTrBc6AJDkYa3WEfLxy"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-T5zixDFV9m7kDgKsXcM2UR">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3hGw4qGEuTyS6HxJgaRVkx">
+          <date when="2013-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-3hdVxXKYDGQ87FNMkWkSNX">
+          <date when="2013-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AJCwTQvoR6qZPZMsZ4btRd"/>
+        <correspContext corresp="i-AJCwTQvoR6qZPZMsZ4btRd">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

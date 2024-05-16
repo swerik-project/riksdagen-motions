@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-CU-00337">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ägarlägenheter</title>
+        <author corresp="i-TX4XbGiaRx4H4u3YMo1twT i-5tbgYo4dBB9rh3uBeCweBm">av Christian Holm och Johan Hultberg (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ägarlägenheter</title>
+          <idno type="rdwebb">H102C337</idno>
+          <rs type="number">C337</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102C337/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102C337</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102C337</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/FC64B375-3BF4-4168-8CF8-B48AC4DC1B5B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TX4XbGiaRx4H4u3YMo1twT</idno>
+            <name>Christian Holm</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-5tbgYo4dBB9rh3uBeCweBm</idno>
+            <name>Johan Hultberg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-68ieWAgvxfV4hap55HMXGJ" type="signed"/>
+        <correspContext corresp="i-68ieWAgvxfV4hap55HMXGJ">
+          <note type="signatory" corresp="i-TX4XbGiaRx4H4u3YMo1twT"/>
+          <note type="signatory" corresp="i-5tbgYo4dBB9rh3uBeCweBm"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-EQDz8iJQ7zdW1fqMVdpenG">
+          <date when="2013-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Gb6nQRwdWa9YeqY9P6m2xB">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-FfvW6AKvJmYe1ZQb92gSQB">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-YSEsbcyy4UmQ4HofvM9yfa"/>
+        <correspContext corresp="i-YSEsbcyy4UmQ4HofvM9yfa">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-UbU-00218">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vuxenutbildning</title>
+        <author corresp="i-BNs9NctwwvjUQnQxyESNVd i-GKFwXi5QctA2TJDtsbF47E">av Eva Sonidsson och Kristina Nilsson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vuxenutbildning</title>
+          <idno type="rdwebb">H102Ub218</idno>
+          <rs type="number">Ub218</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102Ub218/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102Ub218</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102Ub218</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/FA058E75-098C-47D0-8868-41E5871B6F77</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-BNs9NctwwvjUQnQxyESNVd</idno>
+            <name>Eva Sonidsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-GKFwXi5QctA2TJDtsbF47E</idno>
+            <name>Kristina Nilsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-F62VmzByLYuSyAXUqa68nx" type="signed"/>
+        <correspContext corresp="i-F62VmzByLYuSyAXUqa68nx">
+          <note type="signatory" corresp="i-BNs9NctwwvjUQnQxyESNVd"/>
+          <note type="signatory" corresp="i-GKFwXi5QctA2TJDtsbF47E"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-M4bcL3jvxoK5E1i8vYSG7F">
+          <date when="2013-09-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SYSuE6HSTNhjTEEacACtqZ">
+          <date when="2013-09-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-FLF6VFTAS4bebuvwYkbeDk">
+          <date when="2013-09-20"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-J1pfN8cERFRFgnhE98aiZg"/>
+        <correspContext corresp="i-J1pfN8cERFRFgnhE98aiZg">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

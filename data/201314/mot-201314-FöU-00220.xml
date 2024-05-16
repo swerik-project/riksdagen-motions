@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-FöU-00220">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kustbevakningens uppdrag</title>
+        <author corresp="i-SwCG7qehtiZEoxQcEgSRCW i-KxTfuBAJiVYpyHQUVaUndu">av Suzanne Svensson och Kerstin Haglö (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kustbevakningens uppdrag</title>
+          <idno type="rdwebb">H102Fö220</idno>
+          <rs type="number">Fö220</rs>
+          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102Fö220/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102Fö220</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102Fö220</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/E22136DE-665D-43D1-8EDF-C3C74F445D7C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-SwCG7qehtiZEoxQcEgSRCW</idno>
+            <name>Suzanne Svensson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-KxTfuBAJiVYpyHQUVaUndu</idno>
+            <name>Kerstin Haglö</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Y8G2kQufgdfGfQwtfGU7E5" type="signed"/>
+        <correspContext corresp="i-Y8G2kQufgdfGfQwtfGU7E5">
+          <note type="signatory" corresp="i-SwCG7qehtiZEoxQcEgSRCW"/>
+          <note type="signatory" corresp="i-KxTfuBAJiVYpyHQUVaUndu"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-J7YsQbUkvbaZg55HbzHDy">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BE7me9SsQJyE86tRW8g6pr">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-49yg8Tw4vba8D1oxRXGrnm">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HjXYS7WpByPsARHb3ZAGzx"/>
+        <correspContext corresp="i-HjXYS7WpByPsARHb3ZAGzx">
+          <ref type="assignedTo">Försvarsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-KU-00254">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kommunsammanslagning</title>
+        <author corresp="i-NdZbCeRpyiTPZMpjifyckg">av Nina Larsson (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kommunsammanslagning</title>
+          <idno type="rdwebb">H102K254</idno>
+          <rs type="number">K254</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102K254/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102K254</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102K254</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1BBDCE25-A351-4DCD-A5FD-2973980AE063</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-NdZbCeRpyiTPZMpjifyckg</idno>
+            <name>Nina Larsson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-D6bePP6PHktuLJMezuHHqn" type="signed"/>
+        <correspContext corresp="i-D6bePP6PHktuLJMezuHHqn">
+          <note type="signatory" corresp="i-NdZbCeRpyiTPZMpjifyckg"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-XdQYXuzmqSoKZC5bb4yV7Y">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Ak4ftyP6DyMgDmxsGf1oUt">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-89pPsahdH9NsP2FqkZYGGG">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-ErVgG2hovRwuvnaMx7iPAA"/>
+        <correspContext corresp="i-ErVgG2hovRwuvnaMx7iPAA">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

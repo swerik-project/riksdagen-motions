@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-TU-00445">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mittbanan</title>
+        <author corresp="i-Gmeic5tnz63335GwfzHzd9">av Emil Källström (C)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Mittbanan</title>
+          <idno type="rdwebb">H102T445</idno>
+          <rs type="number">T445</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102T445/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102T445</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102T445</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/AA24A142-6412-462D-A32D-6B69167542F9</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Gmeic5tnz63335GwfzHzd9</idno>
+            <name>Emil Källström</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GpzbEV449xtyfwwWVVzeuM" type="signed"/>
+        <correspContext corresp="i-GpzbEV449xtyfwwWVVzeuM">
+          <note type="signatory" corresp="i-Gmeic5tnz63335GwfzHzd9"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-AAThb3hVm73puW5vDoxnEh">
+          <date when="2013-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Q6Wxv9Tc35JSLbwEYcoJv">
+          <date when="2013-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-8rZD5VEBNQBuPnsV1GxezU">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-5pzJd1VDUGVsBa3gsKPQzW"/>
+        <correspContext corresp="i-5pzJd1VDUGVsBa3gsKPQzW">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

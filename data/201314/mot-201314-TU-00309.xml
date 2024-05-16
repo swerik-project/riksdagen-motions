@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-TU-00309">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Reflexvästar</title>
+        <author corresp="i-BNs9NctwwvjUQnQxyESNVd i-4oK6HjNJR6K1QAGZmsEqiv">av Eva Sonidsson och Ingemar Nilsson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Reflexvästar</title>
+          <idno type="rdwebb">H102T309</idno>
+          <rs type="number">T309</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102T309/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102T309</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102T309</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/BE272231-9072-4FC9-AFE6-5ABA55A5DB64</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-BNs9NctwwvjUQnQxyESNVd</idno>
+            <name>Eva Sonidsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4oK6HjNJR6K1QAGZmsEqiv</idno>
+            <name>Ingemar Nilsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RV9CifySe4CrkEryEL6XGr" type="signed"/>
+        <correspContext corresp="i-RV9CifySe4CrkEryEL6XGr">
+          <note type="signatory" corresp="i-BNs9NctwwvjUQnQxyESNVd"/>
+          <note type="signatory" corresp="i-4oK6HjNJR6K1QAGZmsEqiv"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-AfndnXh6sgAfWobk2dMnhP">
+          <date when="2013-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-2y1d3Kdbw1p1B1CidSZZ5p">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-XcP8N1h5FUX8Wnvuw3UT69">
+          <date when="2013-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-SsxrBDVZD5dUjiHzTgC1p4"/>
+        <correspContext corresp="i-SsxrBDVZD5dUjiHzTgC1p4">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-MJU-00206">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Betesresursinventering</title>
+        <author corresp="i-RkKBWkFGXqiU7AG3rnS4JZ">av Olle Larsson (SD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Betesresursinventering</title>
+          <idno type="rdwebb">H102MJ206</idno>
+          <rs type="number">MJ206</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102MJ206/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102MJ206</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102MJ206</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/7C0C5FD4-8B7B-4765-8816-D75C171B0B8C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-RkKBWkFGXqiU7AG3rnS4JZ</idno>
+            <name>Olle Larsson</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VV3Nm2KxN8idSoHchd4M8e" type="signed"/>
+        <correspContext corresp="i-VV3Nm2KxN8idSoHchd4M8e">
+          <note type="signatory" corresp="i-RkKBWkFGXqiU7AG3rnS4JZ"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-VkVn18AZiTLiCmTUfkZtYV">
+          <date when="2013-09-27"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-VehjF45LUBPc5EvgFTLKNe">
+          <date when="2013-09-18"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-72UAQM5Y3RmvHrUv1hUjHV">
+          <date when="2013-09-18"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7uPv2TUJiWpob9E617o35w"/>
+        <correspContext corresp="i-7uPv2TUJiWpob9E617o35w">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

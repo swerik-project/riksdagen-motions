@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-TU-00270">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Väg 225</title>
+        <author corresp="i-D6V9ti7ETxin1WbJjDaShE">av Nina Lundström (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Väg 225</title>
+          <idno type="rdwebb">H102T270</idno>
+          <rs type="number">T270</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102T270/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102T270</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102T270</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/17059D1D-56D5-495D-9900-9AD66D146798</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-D6V9ti7ETxin1WbJjDaShE</idno>
+            <name>Nina Lundström</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TAyurHEtwpHQHwm35523tw" type="signed"/>
+        <correspContext corresp="i-TAyurHEtwpHQHwm35523tw">
+          <note type="signatory" corresp="i-D6V9ti7ETxin1WbJjDaShE"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-64FADcqnS2gcqtzvn3XnNG">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4osJgdrT5WrFAJPZr5pyGf">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-DxMiBRd6WMn5ukzthWLLtN">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QMDRK8iVK1DFRdoiNMu5nt"/>
+        <correspContext corresp="i-QMDRK8iVK1DFRdoiNMu5nt">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

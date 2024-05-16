@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-SoU-00307">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Livstestamente</title>
+        <author corresp="i-ReHv93vu1syAgH8qzKxSu3">av Gustav Nilsson (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Livstestamente</title>
+          <idno type="rdwebb">H102So307</idno>
+          <rs type="number">So307</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102So307/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102So307</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102So307</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/8ACEDA5C-02FE-496D-9C17-C91DFA331FEB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-ReHv93vu1syAgH8qzKxSu3</idno>
+            <name>Gustav Nilsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KG4tVBr8x2p1h2U7hk5zjM" type="signed"/>
+        <correspContext corresp="i-KG4tVBr8x2p1h2U7hk5zjM">
+          <note type="signatory" corresp="i-ReHv93vu1syAgH8qzKxSu3"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-QnX9XoYcpLzqootC57y6br">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PUkWoK1UrxqjhRF6LouL7r">
+          <date when="2013-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-VmJzj9HaDpepnBtvMq7Znk">
+          <date when="2013-09-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-C4hWYdd4neqS9EU1hsByur"/>
+        <correspContext corresp="i-C4hWYdd4neqS9EU1hsByur">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

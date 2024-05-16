@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-KrU-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lagerhållning av böcker</title>
+        <author corresp="i-VRHymVx7EsX48sg7b5qmpS">av Jan Lindholm (MP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lagerhållning av böcker</title>
+          <idno type="rdwebb">H102Kr201</idno>
+          <rs type="number">Kr201</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102Kr201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102Kr201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102Kr201</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/019F398A-C4CA-48EC-8ACE-8A530E35D8DB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-VRHymVx7EsX48sg7b5qmpS</idno>
+            <name>Jan Lindholm</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EAhx25yi2bMEqnDPpmRwXE" type="signed"/>
+        <correspContext corresp="i-EAhx25yi2bMEqnDPpmRwXE">
+          <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-XP8bK6Uk1ojRKYFxxBo33c">
+          <date when="2013-09-27"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-XNiUnowvinaNhsERpPdJYM">
+          <date when="2013-09-19"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-53FbWEQmQXXpx54hx79yU5">
+          <date when="2013-09-19"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-XM7DZXbAGg91HSdGdoSJzR"/>
+        <correspContext corresp="i-XM7DZXbAGg91HSdGdoSJzR">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

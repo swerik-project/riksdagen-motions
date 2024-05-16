@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-KU-00299">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Placeringen i kammaren</title>
+        <author corresp="i-GJLL78ePjJhSXVWBYyRW8t i-pxoYe2yJTd56QvbXJ8RGr">av Margareta Cederfelt och Amir Adan (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Placeringen i kammaren</title>
+          <idno type="rdwebb">H102K299</idno>
+          <rs type="number">K299</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102K299/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102K299</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102K299</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/721FD6D5-17BE-47D0-B9FB-7B8B5D98A345</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-GJLL78ePjJhSXVWBYyRW8t</idno>
+            <name>Margareta Cederfelt</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-pxoYe2yJTd56QvbXJ8RGr</idno>
+            <name>Amir Adan</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TuCDERjZQM9GwRLVeWX9Fe" type="signed"/>
+        <correspContext corresp="i-TuCDERjZQM9GwRLVeWX9Fe">
+          <note type="signatory" corresp="i-GJLL78ePjJhSXVWBYyRW8t"/>
+          <note type="signatory" corresp="i-pxoYe2yJTd56QvbXJ8RGr"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-LE1gqFkvnVZZ6D7FvTxQ6N">
+          <date when="2013-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-LqjUxYiPVD8JwKxjraAB9N">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-7W8PS4718sDa9Ls6yxf3pC">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-XHp7yWW4C9HceZfHDux6f2"/>
+        <correspContext corresp="i-XHp7yWW4C9HceZfHDux6f2">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

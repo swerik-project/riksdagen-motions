@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-MJU-00397">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Allemansrätten</title>
+        <author corresp="i-MRoARQLVygJYbBWvcAjNcB i-VkgCZCfoAga9JDLAtq7rRZ">av Elin Lundgren och Agneta Gille (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Allemansrätten</title>
+          <idno type="rdwebb">H102MJ397</idno>
+          <rs type="number">MJ397</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102MJ397/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102MJ397</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102MJ397</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C3AA1FF5-C823-4018-960C-0551C538216B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-MRoARQLVygJYbBWvcAjNcB</idno>
+            <name>Elin Lundgren</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VkgCZCfoAga9JDLAtq7rRZ</idno>
+            <name>Agneta Gille</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-58Hy9N6jgyEPJ27P6oyYFo" type="signed"/>
+        <correspContext corresp="i-58Hy9N6jgyEPJ27P6oyYFo">
+          <note type="signatory" corresp="i-MRoARQLVygJYbBWvcAjNcB"/>
+          <note type="signatory" corresp="i-VkgCZCfoAga9JDLAtq7rRZ"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-My74v8gQ4g1QhRqQ4M3QML">
+          <date when="2013-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9sQwWAGhKi2gUNqEdMsJHq">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-3cpKDi4Z1k8xmpnweehx68">
+          <date when="2013-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-3djGeMH456HswBEfhr2sc8"/>
+        <correspContext corresp="i-3djGeMH456HswBEfhr2sc8">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

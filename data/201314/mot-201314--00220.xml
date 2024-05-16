@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314--00220">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Valkretsnamn Skaraborg</title>
+        <author corresp="i-6NzqsXjPzSi4BTz8BKo1Rg">av Christer Winbäck (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Valkretsnamn Skaraborg</title>
+          <idno type="rdwebb">H102XFP220</idno>
+          <rs type="number">FP220</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102XFP220/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102XFP220</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102XFP220</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/BA2E3F89-A7C9-4DA9-82C2-97E6AE62797B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-6NzqsXjPzSi4BTz8BKo1Rg</idno>
+            <name>Christer Winbäck</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FK5JiqCQDaXb7dcGw6LJZy" type="signed"/>
+        <correspContext corresp="i-FK5JiqCQDaXb7dcGw6LJZy">
+          <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
+        </correspContext>
+        <correspAction type="expires" xml:id="i-Jz41fPQ5Gd9XKfDgEKwDnb">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-V7zM1aZcyMzFku1fbB3aSG">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-Lq1UQWQrfbWMxhqAr1ew15">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-DjW8AsJp85VdC4ZE12Dcgx">
+          <date when="2013-10-02"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

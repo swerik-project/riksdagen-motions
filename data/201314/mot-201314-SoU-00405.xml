@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-SoU-00405">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Spelberoendet</title>
+        <author corresp="i-TVwo4mCECu692GW3ntqQzo i-RZNwwHohbyBgLVVG4Dy1Bj">av Kurt Kvarnström och Carin Runeson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Spelberoendet</title>
+          <idno type="rdwebb">H102So405</idno>
+          <rs type="number">So405</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102So405/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102So405</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102So405</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D92E74BE-5037-4157-8806-44520AB9658B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TVwo4mCECu692GW3ntqQzo</idno>
+            <name>Kurt Kvarnström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-RZNwwHohbyBgLVVG4Dy1Bj</idno>
+            <name>Carin Runeson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BwCnpRY65uzkBZ15sbQPKL" type="signed"/>
+        <correspContext corresp="i-BwCnpRY65uzkBZ15sbQPKL">
+          <note type="signatory" corresp="i-TVwo4mCECu692GW3ntqQzo"/>
+          <note type="signatory" corresp="i-RZNwwHohbyBgLVVG4Dy1Bj"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-QNmBwT1wHLvZcoHykwubVJ">
+          <date when="2013-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-N4Vvm6WCS8kUc5QFASf1xZ">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-NQrWw1GUByiY1Ypo5Avy8B">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Bwpys4BeFindJyzxJizMBV"/>
+        <correspContext corresp="i-Bwpys4BeFindJyzxJizMBV">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

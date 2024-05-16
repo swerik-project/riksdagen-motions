@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-MJU-00503">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fjälljakten</title>
+        <author corresp="i-XScHuZhUG7vGfDLenjxRiL i-BG62CjWHzJPrnkPkGYJy9c">av Saila Quicklund och Eva Lohman (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fjälljakten</title>
+          <idno type="rdwebb">H102MJ503</idno>
+          <rs type="number">MJ503</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102MJ503/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102MJ503</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102MJ503</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/350A85DD-43CE-423E-BA16-01573CD7BEA2</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-XScHuZhUG7vGfDLenjxRiL</idno>
+            <name>Saila Quicklund</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-BG62CjWHzJPrnkPkGYJy9c</idno>
+            <name>Eva Lohman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BRy6nQRHLRMYM2WWUSGKAh" type="signed"/>
+        <correspContext corresp="i-BRy6nQRHLRMYM2WWUSGKAh">
+          <note type="signatory" corresp="i-XScHuZhUG7vGfDLenjxRiL"/>
+          <note type="signatory" corresp="i-BG62CjWHzJPrnkPkGYJy9c"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-8i4pVJ2sa3wFrNByZzjN2g">
+          <date when="2013-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EvyyKqfDWTAtytkGvbXxBF">
+          <date when="2013-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-9hdRCDPHjozkybcp5dWVK9">
+          <date when="2013-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-J2crJDR3wRykKVdt2mefpx"/>
+        <correspContext corresp="i-J2crJDR3wRykKVdt2mefpx">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

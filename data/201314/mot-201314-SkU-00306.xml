@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201314-SkU-00306">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hälsokonto</title>
+        <author corresp="i-Mf3zjD1SVGBHTEHbp1Vz4A">av Helena Bouveng (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hälsokonto</title>
+          <idno type="rdwebb">H102Sk306</idno>
+          <rs type="number">Sk306</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H102Sk306/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H102Sk306</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H102Sk306</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D25E8D69-7042-4977-802D-B8188AFAEB2B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Mf3zjD1SVGBHTEHbp1Vz4A</idno>
+            <name>Helena Bouveng</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2Gfg5e3NJnuFjiTHrAaHgQ" type="signed"/>
+        <correspContext corresp="i-2Gfg5e3NJnuFjiTHrAaHgQ">
+          <note type="signatory" corresp="i-Mf3zjD1SVGBHTEHbp1Vz4A"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-EuksUnmgQjYEY7N1DHsoDp">
+          <date when="2013-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Y4JApLxuaTJA5JqP4T5Gzh">
+          <date when="2013-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-W11ebPS46uRf6XSoPTZiZn">
+          <date when="2013-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Lr6mT6gKNTvZUTYLixq4NJ"/>
+        <correspContext corresp="i-Lr6mT6gKNTvZUTYLixq4NJ">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

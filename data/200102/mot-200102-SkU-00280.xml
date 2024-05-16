@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-SkU-00280">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deklarationsrutiner</title>
+        <author corresp="i-W6BJ44rcZjp5pD28NhHrCf i-9Rr7JqtzHpZv84evqPH4D8">av Gunnar Axén och Karin Enström (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Deklarationsrutiner</title>
+          <idno type="rdwebb">GP02Sk280</idno>
+          <rs type="number">Sk280</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GP02Sk280/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GP02Sk280</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GP02Sk280</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-W6BJ44rcZjp5pD28NhHrCf</idno>
+            <name>Gunnar Axén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-9Rr7JqtzHpZv84evqPH4D8</idno>
+            <name>Karin Enström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9tADq9AXsfytknWwj2Dw2W" type="signed"/>
+        <correspContext corresp="i-9tADq9AXsfytknWwj2Dw2W">
+          <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
+          <note type="signatory" corresp="i-9Rr7JqtzHpZv84evqPH4D8"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-PUPtpb2P6voBbWxNHv6ekF">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-YSTj71U8TczApdwUG1Thzb">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="termination" xml:id="i-7dnAS5oYwQmEGxGZKLHDVD">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SxE72xyw21ptgv1jzdSZkg">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-KV2rND1u9bJsZsP1dqnTni">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="proposed_referral" xml:id="i-AvNtxwmFpBvXscKLBaM9Zy">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="committee_proposal" xml:id="i-Y6UWtjUCfvx5jr8J2zuHEK">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="reviewing" xml:id="i-T6DjiWNwwe4dgwpFpybvFK">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="registration" xml:id="i-BWFys5Sjmaha9NRuTove15">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-ErTF4DDHG4LEQ8y8SWH7f6"/>
+        <correspContext corresp="i-ErTF4DDHG4LEQ8y8SWH7f6">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

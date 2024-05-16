@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-LU-00214">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arv</title>
+        <author corresp="i-GvBe798bQfFYpnaboy7YCF i-3YBav2r8YXZiNoQkfb1bUy">av Anders Björck och Elizabeth Nyström (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arv</title>
+          <idno type="rdwebb">GP02L214</idno>
+          <rs type="number">L214</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GP02L214/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GP02L214</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GP02L214</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GvBe798bQfFYpnaboy7YCF</idno>
+            <name>Anders Björck</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-3YBav2r8YXZiNoQkfb1bUy</idno>
+            <name>Elizabeth Nyström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PfFL51XhNYHxSvS4TDNWLk" type="signed"/>
+        <correspContext corresp="i-PfFL51XhNYHxSvS4TDNWLk">
+          <note type="signatory" corresp="i-GvBe798bQfFYpnaboy7YCF"/>
+          <note type="signatory" corresp="i-3YBav2r8YXZiNoQkfb1bUy"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-EDLkzgZARKxbFS94CSuvvR">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-sHf9ahF2Wi5r8WXq5H1GQ">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="termination" xml:id="i-7LgKwdFRfhHciA1ztcaVse">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HvLesEvPmJH6gJARAg84eF">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-DDUekFsyx8Sav4wMZDheJN">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="proposed_referral" xml:id="i-EnQFnP3ysWVamacqMUT23t">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="committee_proposal" xml:id="i-fy6Y2HCi9ncyWRdSgF6zh">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="reviewing" xml:id="i-NXxsX2RyYSBuidXeyVKm3y">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="registration" xml:id="i-HzS1mEEsLUkWN1MUuFK9tz">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-3Eep86ruSPP6zFseCyi4YM"/>
+        <correspContext corresp="i-3Eep86ruSPP6zFseCyi4YM">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

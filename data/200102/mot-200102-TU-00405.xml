@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-TU-00405">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Villkorlig körkortsåterkallelse</title>
+        <author corresp="i-KGqrEB2Pzg8goYxy9CcDhd i-SJ42wRfKHNtRCpYVmj3n8G">av Lars Gustafsson och Ester Lindstedt-Staaf (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Villkorlig körkortsåterkallelse</title>
+          <idno type="rdwebb">GP02T405</idno>
+          <rs type="number">T405</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GP02T405/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GP02T405</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GP02T405</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KGqrEB2Pzg8goYxy9CcDhd</idno>
+            <name>Lars Gustafsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-SJ42wRfKHNtRCpYVmj3n8G</idno>
+            <name>Ester Lindstedt-Staaf</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QcVNgHBVP4XSLjJmTNvMyc" type="signed"/>
+        <correspContext corresp="i-QcVNgHBVP4XSLjJmTNvMyc">
+          <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
+          <note type="signatory" corresp="i-SJ42wRfKHNtRCpYVmj3n8G"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-L3bTWzS23ubdYKQWWptxUW">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-EmQRTJtBqnnVT36uVusTnF">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="termination" xml:id="i-3x828xvN6Y6pArWsv6XXAX">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-15EU336JFfgeHWa7YqYgXs">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-Adjv1VsGpGoTBnpSiN6ZYn">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="proposed_referral" xml:id="i-QYE9MBmXWFRGgqeywviEtd">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="committee_proposal" xml:id="i-SANRy7SuRH7M1guKsFEAHj">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="reviewing" xml:id="i-P7h2q5L4RfZcyahBPoAGhA">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="registration" xml:id="i-NMWhPyQGME7bhnEUHqx6gQ">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GmvBN9Y4mWffi3JJfcrotR"/>
+        <correspContext corresp="i-GmvBN9Y4mWffi3JJfcrotR">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

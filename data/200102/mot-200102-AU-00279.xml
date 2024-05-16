@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-AU-00279">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pappaledigt</title>
+        <author corresp="i-J94Ct1wVwpHWNRN9LatQ6F">av Ulla-Britt Hagström (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Pappaledigt</title>
+          <idno type="rdwebb">GP02A279</idno>
+          <rs type="number">A279</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GP02A279/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GP02A279</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GP02A279</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-J94Ct1wVwpHWNRN9LatQ6F</idno>
+            <name>Ulla-Britt Hagström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KL4CcYbRxptg4RGHbwQ2Xh" type="signed"/>
+        <correspContext corresp="i-KL4CcYbRxptg4RGHbwQ2Xh">
+          <note type="signatory" corresp="i-J94Ct1wVwpHWNRN9LatQ6F"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-BcyP3MqW7f5bwpyBktkM5H">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-N9aumZMHJRiMQW8HgHfACE">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="termination" xml:id="i-6Tawzfj5bnADYUKYaziePi">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-T7YLjqCqSiCPZT55RhbnAL">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-BaWSYeughHaYjNY5oEXSPQ">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="proposed_referral" xml:id="i-7wdhsV2XohPjXZBvrHWU8S">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="committee_proposal" xml:id="i-Y9qZTA3Y7Y92ZzR5smz8PH">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="reviewing" xml:id="i-AKdAViLguLhifMYKQbEpoL">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="registration" xml:id="i-8Zea73QqHsFD6TM9RpvdiX">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9hzW1J53pwP8gSEqp9WqNY"/>
+        <correspContext corresp="i-9hzW1J53pwP8gSEqp9WqNY">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

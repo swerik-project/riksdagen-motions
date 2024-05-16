@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-KU-00307">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dödshjälp</title>
+        <author corresp="i-UtrdG3TunFF2Q5dXbR45yN">av Harald Bergström (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Dödshjälp</title>
+          <idno type="rdwebb">GP02K307</idno>
+          <rs type="number">K307</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GP02K307/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GP02K307</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GP02K307</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UtrdG3TunFF2Q5dXbR45yN</idno>
+            <name>Harald Bergström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CBxcZ4fFu4ZJXMFoQmDGVz" type="signed"/>
+        <correspContext corresp="i-CBxcZ4fFu4ZJXMFoQmDGVz">
+          <note type="signatory" corresp="i-UtrdG3TunFF2Q5dXbR45yN"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-4hH1fVcgnXezcoPULaVZ1p">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Ve7VcVVpyna8Drq32VDJb6">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="termination" xml:id="i-JyvcPMeghn6tgrYFtsd3Wc">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6aW1t2PaGtDFps7X91pdpn">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-49NuULnfpbhj9axFufPV2L">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="proposed_referral" xml:id="i-YaoTLpYAjA6EGV1dush75t">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="committee_proposal" xml:id="i-QXieK1pDgzVRNeQgu2jP1x">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="reviewing" xml:id="i-9QtCeBdKqDZPZegB9tM3Dc">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="registration" xml:id="i-LC4s14uzjb82NdeGdPGNP7">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GisHssCd8Dqcmiey1mQpT"/>
+        <correspContext corresp="i-GisHssCd8Dqcmiey1mQpT">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

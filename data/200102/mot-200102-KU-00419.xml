@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-KU-00419">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Öresundsparlament</title>
+        <author corresp="i-GsygH5UJM18UkfLBHFkVdD">av Kent Härstedt (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Öresundsparlament</title>
+          <idno type="rdwebb">GP02K419</idno>
+          <rs type="number">K419</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GP02K419/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GP02K419</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GP02K419</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GsygH5UJM18UkfLBHFkVdD</idno>
+            <name>Kent Härstedt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BxEbC2pYvHwePWC3UZQybn" type="signed"/>
+        <correspContext corresp="i-BxEbC2pYvHwePWC3UZQybn">
+          <note type="signatory" corresp="i-GsygH5UJM18UkfLBHFkVdD"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-JieKZD3cBgyEJtG177D68j">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-8Qi1rJKjyWNJt86AfLCpfk">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="termination" xml:id="i-SxMc2oWXwX8bMsgGbWj3DB">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-U2W9SG38NX5UucABna8tQE">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-Vn6uEVqoyCXKfV12XeQaQP">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="proposed_referral" xml:id="i-YCsi7G73EpkXh6BbP7Raab">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="committee_proposal" xml:id="i-Jz6JVYi4K8tfScerRHfVCD">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="reviewing" xml:id="i-TEntWhAQpfHX24Fr9tLpYs">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="registration" xml:id="i-3gXuTfTpSNT1sb1fZE1bYd">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9MwyVNmvRUEVZYkaG1mfAd"/>
+        <correspContext corresp="i-9MwyVNmvRUEVZYkaG1mfAd">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

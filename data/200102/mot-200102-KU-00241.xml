@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-KU-00241">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ambassader</title>
+        <author corresp="i-7KBbQxMwamQ8aEQRXJRw1j">av Henrik Westman (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ambassader</title>
+          <idno type="rdwebb">GP02K241</idno>
+          <rs type="number">K241</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GP02K241/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GP02K241</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GP02K241</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-7KBbQxMwamQ8aEQRXJRw1j</idno>
+            <name>Henrik Westman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5CN372fY5eFW8kr1hsY16x" type="signed"/>
+        <correspContext corresp="i-5CN372fY5eFW8kr1hsY16x">
+          <note type="signatory" corresp="i-7KBbQxMwamQ8aEQRXJRw1j"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3A4qe4zFyq5DQzk5K9ppYn">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-EFNanY2VWB9D4Xu2HYQF1K">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="termination" xml:id="i-W5RChUkgV6NFL1qUTdfV5Z">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4LLbxjbguhSenVyxpfdPC1">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-Xc4Yu1BR3zQqe7Codo9JEr">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="proposed_referral" xml:id="i-KWxXFTNhYwNrTcZ4FFYrQW">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="committee_proposal" xml:id="i-3BpTEeCsKFQubTwTSAVQq1">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="reviewing" xml:id="i-BpTirN49k42esskNdh4HdV">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="registration" xml:id="i-K7E8mDNaEnom9snNKCDPnL">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BJjjYFk6rNgvQMx4swsWhQ"/>
+        <correspContext corresp="i-BJjjYFk6rNgvQMx4swsWhQ">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-UbU-00210">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> CSN</title>
+        <author corresp="i-5QUSwQFaazTZF6GHyxaAkw i-YDBEU8t6zbUyVkVFkdceLF">av Magnus Jacobsson och Amanda Agestav (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title> CSN</title>
+          <idno type="rdwebb">GP02Ub210</idno>
+          <rs type="number">Ub210</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GP02Ub210/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GP02Ub210</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GP02Ub210</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-5QUSwQFaazTZF6GHyxaAkw</idno>
+            <name>Magnus Jacobsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-YDBEU8t6zbUyVkVFkdceLF</idno>
+            <name>Amanda Agestav</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RiD4VQ6rWDaHsEcVMSUW7c" type="signed"/>
+        <correspContext corresp="i-RiD4VQ6rWDaHsEcVMSUW7c">
+          <note type="signatory" corresp="i-5QUSwQFaazTZF6GHyxaAkw"/>
+          <note type="signatory" corresp="i-YDBEU8t6zbUyVkVFkdceLF"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-PiCwk3FWCyenb4Tj1LEtPq">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Ruq6oMjfBkbCAVTboHvpca">
+          <date when="2001-10-11"/>
+        </correspAction>
+        <correspAction type="termination" xml:id="i-17B9jpBBch1HStdNzdYYLZ">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EbB24oUU8x9AJWGNCrGGkk">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-YDC4DMyVBJ4t6R6H8FCnk3">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="proposed_referral" xml:id="i-4t1RyAKFudRx53N8567yoL">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="committee_proposal" xml:id="i-86iR4w6Z9URBZNqRFYndLN">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="reviewing" xml:id="i-2E5cGUxt4zsTKfYdTp6bm1">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="registration" xml:id="i-2pkEshn8BzAt3AcdrNZaku">
+          <date when="2001-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-REKa5ezG2GK45P1EMQhttj"/>
+        <correspContext corresp="i-REKa5ezG2GK45P1EMQhttj">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

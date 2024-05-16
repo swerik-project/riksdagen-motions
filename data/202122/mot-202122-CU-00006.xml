@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-202122-CU-00006">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Registrering av testamenten</title>
+        <author corresp="i-SgLSQ3phK7HUZecEbLumwe">av Ingemar Kihlström (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2021/22:6 av Ingemar Kihlström (KD)</title>
+          <idno type="rdwebb">H9026</idno>
+          <rs type="number">6</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H9026/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H9026</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H9026</ref>
+          <ref type="docx">http://data.riksdagen.se/fil/48BDE65E-D83C-4A55-8AEF-C505D229D182</ref>
+          <ref type="pdf">http://data.riksdagen.se/fil/EE145B4E-D32B-4C78-BAE1-D9FC95F7AE48</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SgLSQ3phK7HUZecEbLumwe</idno>
+            <name>Ingemar Kihlström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="closed"/>
+        <correspAction xml:id="i-EGJ25AQQ592ciB18iULdM1" type="signed"/>
+        <correspContext corresp="i-EGJ25AQQ592ciB18iULdM1">
+          <note type="signatory" corresp="i-SgLSQ3phK7HUZecEbLumwe"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-TCaXnhNb7wXqBhbUSR6CRG">
+          <date when="2021-09-15"/>
+          <time when="13:42:19"/>
+        </correspAction>
+        <correspAction type="reviewed" xml:id="i-3ziE42bRQV7cBGWNLq5H78">
+          <date when="2021-09-15"/>
+          <time when="17:44:51"/>
+        </correspAction>
+        <correspAction type="referred" xml:id="i-KBfiLnDQ4naFspKtbu6uuQ">
+          <date when="2021-10-14"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-8TJW8qn5cSYPxUFBBtAb5C">
+          <date when="2022-10-19"/>
+          <time when="15:26:00"/>
+        </correspAction>
+        <correspContext corresp="i-8TJW8qn5cSYPxUFBBtAb5C">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+        <correspAction type="behandlas_i" xml:id="i-XAQtx26SR3oVhLZd37U1qN"/>
+        <correspContext corresp="i-XAQtx26SR3oVhLZd37U1qN">
+          <ref type="uppgift">2021/22:CU6</ref>
+          <ref type="ref_dok_id">H901CU6</ref>
+          <ref type="ref_dok_typ">bet</ref>
+          <ref type="ref_dok_rm">2021/22</ref>
+          <ref type="ref_dok_bet">CU6</ref>
+          <ref type="ref_dok_titel">Familjerätt</ref>
+          <ref type="ref_dok_subtyp">bet</ref>
+          <ref type="ref_dok_dokumentnamn">Betänkande</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-202122--00420">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2021/22:420</title>
+          <idno type="rdwebb">H902420</idno>
+          <rs type="number">420</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H902420/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H902420</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H902420</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson/>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Ki2wxPAayboxH9pTfKYPqT" type="signed"/>
+        <correspAction type="submitted" xml:id="i-MCssCCV74xBGaTXmdrpdqY">
+          <date when="2021-09-27"/>
+          <time when="14:07:24"/>
+        </correspAction>
+        <correspAction type="reviewed" xml:id="i-CXu3qq8E6X9GEE1AnPHMFX">
+          <date when="2021-09-27"/>
+          <time when="18:26:19"/>
+        </correspAction>
+        <correspAction type="expired" xml:id="i-YLnfrfu21ndR6mEgL2xd3w">
+          <date when="2021-09-29"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

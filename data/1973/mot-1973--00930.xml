@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1973--00930">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående den inhemska proteinproduktionen.</title>
+        <author>av herr Sjönell m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående den inhemska proteinproduktionen.</title>
+          <idno type="rdwebb">FW02930</idno>
+          <rs type="number">930</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FW02930/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FW02930</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FW02930</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>BENGT SJÖVALL</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-N4EAtthRAnrRUx2M5559AH</idno>
+            <name>P. O. SUNDMAN</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-8Db8jR6saTELpLZLDGAjHE</idno>
+            <name>BIRGITTA HAMBRAEUS</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UBTa9P4iTE1SY98XCd7mw4" type="signed"/>
+        <correspContext corresp="i-UBTa9P4iTE1SY98XCd7mw4">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-N4EAtthRAnrRUx2M5559AH"/>
+          <note type="signatory" corresp="i-8Db8jR6saTELpLZLDGAjHE"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

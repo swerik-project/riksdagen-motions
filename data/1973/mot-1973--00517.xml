@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1973--00517">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående handeln med bilreservdelar.</title>
+        <author>av herrar Sundelin och Lindahl </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående handeln med bilreservdelar.</title>
+          <idno type="rdwebb">FW02517</idno>
+          <rs type="number">517</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FW02517/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FW02517</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FW02517</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Nz6uZVP5sNpeN6m9P5Fqet</idno>
+            <name>BERNHARD SUNDELIN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-9C6mLQs4QzU7geZ2uSMUpe</idno>
+            <name>ESSEN LINDAHL</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2mBWJNrdpumo9ZCPQuxSwJ" type="signed"/>
+        <correspContext corresp="i-2mBWJNrdpumo9ZCPQuxSwJ">
+          <note type="signatory" corresp="i-Nz6uZVP5sNpeN6m9P5Fqet"/>
+          <note type="signatory" corresp="i-9C6mLQs4QzU7geZ2uSMUpe"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

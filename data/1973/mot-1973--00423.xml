@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1973--00423">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om vidgad rätt till änkepension.</title>
+        <author>av herr Pettersson i Örebro m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om vidgad rätt till änkepension.</title>
+          <idno type="rdwebb">FW02423</idno>
+          <rs type="number">423</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FW02423/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FW02423</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FW02423</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>GEORG PETTERSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-DA5x4pwHttfr6RN2eeF8q3</idno>
+            <name>ALLAN GUSTAFSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Af27F1xYCu7PKfDmUgU7Xb</idno>
+            <name>BENGT BÖRJESSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-VqxvDoNrnRUu1E5d5ifxHG</idno>
+            <name>STIG JOSEFSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Rs6MAtmA5sCgoXaYtxkE9A" type="signed"/>
+        <correspContext corresp="i-Rs6MAtmA5sCgoXaYtxkE9A">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-DA5x4pwHttfr6RN2eeF8q3"/>
+          <note type="signatory" corresp="i-Af27F1xYCu7PKfDmUgU7Xb"/>
+          <note type="signatory" corresp="i-VqxvDoNrnRUu1E5d5ifxHG"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

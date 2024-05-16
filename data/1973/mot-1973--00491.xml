@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1973--00491">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om upprustning av väg 355.</title>
+        <author>av herrar Ångström och Westberg i Ljusdal </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om upprustning av väg 355.</title>
+          <idno type="rdwebb">FW02491</idno>
+          <rs type="number">491</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FW02491/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FW02491</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FW02491</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SSqaDPQScQwPiGYciJiS8W</idno>
+            <name>RUNE ÄNGSTRÖM</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>OLLE WESTBERG</name>
+            <state type="partyAffiliation" ref="Q53764745">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WJ9c7vgksKPRsxj7G5wHPx" type="signed"/>
+        <correspContext corresp="i-WJ9c7vgksKPRsxj7G5wHPx">
+          <note type="signatory" corresp="i-SSqaDPQScQwPiGYciJiS8W"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

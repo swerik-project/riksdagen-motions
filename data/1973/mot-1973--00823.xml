@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1973--00823">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående underleverantörsförhällandet.</title>
+        <author>av herr Kristiansson i Örkelljunga m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående underleverantörsförhällandet.</title>
+          <idno type="rdwebb">FW02823</idno>
+          <rs type="number">823</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FW02823/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FW02823</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FW02823</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-VbTSrAHKKao6zKEGy8B7an</idno>
+            <name>SVANTE KRISTIANSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-SgpDPpFBm7FQNSRFx4bNUa</idno>
+            <name>GUSTI GUSTAVSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-QvL87UYbGYsSdMdhj4qaNA</idno>
+            <name>KARL RASK</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FSLMAnbWt4GdBAUGDfhdTy" type="signed"/>
+        <correspContext corresp="i-FSLMAnbWt4GdBAUGDfhdTy">
+          <note type="signatory" corresp="i-VbTSrAHKKao6zKEGy8B7an"/>
+          <note type="signatory" corresp="i-SgpDPpFBm7FQNSRFx4bNUa"/>
+          <note type="signatory" corresp="i-QvL87UYbGYsSdMdhj4qaNA"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

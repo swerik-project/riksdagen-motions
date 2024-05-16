@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197576--01865">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om lokaliseringsstöd till gruvhantering</title>
+        <author>av herrar Jonsson i Mora och Eriksson i Arvika </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om lokaliseringsstöd till gruvhantering</title>
+          <idno type="rdwebb">FZ021865</idno>
+          <rs type="number">1865</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FZ021865/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FZ021865</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FZ021865</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>ANDERS JONSSON</name>
+            <state type="partyAffiliation" ref="Q53764745">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-9pZ6GzfD2R22bxSydJmuYz</idno>
+            <name>KARL ERIK ERIKSSON</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XyAkrLSwEZ4jG8fbXwznS5" type="signed"/>
+        <correspContext corresp="i-XyAkrLSwEZ4jG8fbXwznS5">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-9pZ6GzfD2R22bxSydJmuYz"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

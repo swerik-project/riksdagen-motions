@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197576--01782">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om riksdagens insyn i de statliga företagens verksamhet</title>
+        <author>av herr Olof Johansson, i Stockholm</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om riksdagens insyn i de statliga företagens verksamhet</title>
+          <idno type="rdwebb">FZ021782</idno>
+          <rs type="number">1782</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FZ021782/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FZ021782</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FZ021782</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>OLOF JOHANSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FMfWHRMmj4AHdc47iTscxd" type="signed"/>
+        <correspContext corresp="i-FMfWHRMmj4AHdc47iTscxd">
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

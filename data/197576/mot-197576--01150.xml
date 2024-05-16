@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197576--01150">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om utvidgning av Sveriges territorialhav</title>
+        <author>av herrar Strömberg i Vretstorp och Konradsson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om utvidgning av Sveriges territorialhav</title>
+          <idno type="rdwebb">FZ021150</idno>
+          <rs type="number">1150</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FZ021150/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FZ021150</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FZ021150</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-EnC3VHufiqpKfgXVa9Vozo</idno>
+            <name>HÅKAN STRÖMBERG</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-67sJzJFZCQBoYeZPc4AYiP</idno>
+            <name>INGEMAR KONRADSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-YLCMVhudpYTv8hTParDmSQ" type="signed"/>
+        <correspContext corresp="i-YLCMVhudpYTv8hTParDmSQ">
+          <note type="signatory" corresp="i-EnC3VHufiqpKfgXVa9Vozo"/>
+          <note type="signatory" corresp="i-67sJzJFZCQBoYeZPc4AYiP"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

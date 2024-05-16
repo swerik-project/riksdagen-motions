@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197576--01030">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>vid avlämnande av självdeklaration</title>
+        <author>av fru Sundberg och herr Wachtmeister i Staffanstorp om kvittens </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>vid avlämnande av självdeklaration</title>
+          <idno type="rdwebb">FZ021030</idno>
+          <rs type="number">1030</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FZ021030/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FZ021030</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FZ021030</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-N7WL5aLLwEPfYa71gsUxQx</idno>
+            <name>INGRID SUNDBERG</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-F6Qp4bx3aMVLN2vuCyMK7D</idno>
+            <name>KNUT WACHTMEISTER</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Ab7r8drSEP71ntmjw4pHUj" type="signed"/>
+        <correspContext corresp="i-Ab7r8drSEP71ntmjw4pHUj">
+          <note type="signatory" corresp="i-N7WL5aLLwEPfYa71gsUxQx"/>
+          <note type="signatory" corresp="i-F6Qp4bx3aMVLN2vuCyMK7D"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197576--01890">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om rätt för sammanboende till AMS-bidrag</title>
+        <author>av herr Persson i Karlstad m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om rätt för sammanboende till AMS-bidrag</title>
+          <idno type="rdwebb">FZ021890</idno>
+          <rs type="number">1890</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FZ021890/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FZ021890</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FZ021890</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>MAGNUS PERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-BFARkU8JBdh3WvC4Snrf4s</idno>
+            <name>HANS PETTERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VN8XwZzCEwCzeU3auzzX7t</idno>
+            <name>LILLY HANSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Jw59ZZrtEJ43G9uxdMUUTB" type="signed"/>
+        <correspContext corresp="i-Jw59ZZrtEJ43G9uxdMUUTB">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-BFARkU8JBdh3WvC4Snrf4s"/>
+          <note type="signatory" corresp="i-VN8XwZzCEwCzeU3auzzX7t"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

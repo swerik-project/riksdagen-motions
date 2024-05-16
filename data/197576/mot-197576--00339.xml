@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197576--00339">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om Törbud mot retroaktiv beskattning</title>
+        <author>av herrar Adolfsson och Hovhammar </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om Törbud mot retroaktiv beskattning</title>
+          <idno type="rdwebb">FZ02339</idno>
+          <rs type="number">339</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FZ02339/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FZ02339</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FZ02339</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-X5YPdaAo2B5GFoNH4o34Wm</idno>
+            <name>TAGE ADOLFSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4u6RX5fG6QAwB5JHe16ZTV</idno>
+            <name>ERIK HOVHAMMAR</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-THmsVXwA9SJf8qJr1R7ovn" type="signed"/>
+        <correspContext corresp="i-THmsVXwA9SJf8qJr1R7ovn">
+          <note type="signatory" corresp="i-X5YPdaAo2B5GFoNH4o34Wm"/>
+          <note type="signatory" corresp="i-4u6RX5fG6QAwB5JHe16ZTV"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-AU-00234">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Undantaget i turordningsreglerna</title>
+        <author corresp="i-VkgCZCfoAga9JDLAtq7rRZ">av Agneta Gille (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Undantaget i turordningsreglerna</title>
+          <idno type="rdwebb">GR02A234</idno>
+          <rs type="number">A234</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02A234/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02A234</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02A234</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VkgCZCfoAga9JDLAtq7rRZ</idno>
+            <name>Agneta Gille</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Bg2WbRwGSWBQMAm62jDhgZ" type="signed"/>
+        <correspContext corresp="i-Bg2WbRwGSWBQMAm62jDhgZ">
+          <note type="signatory" corresp="i-VkgCZCfoAga9JDLAtq7rRZ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8vgMfDYMnpnwM6ZLws3c99">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-N7qTtzPVv5GwHmGii7t2Ns">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-5Xf48qM1EHfM29Spkyb9ab">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-5oLjNXToQW59D3QvSCNxM2"/>
+        <correspContext corresp="i-5oLjNXToQW59D3QvSCNxM2">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

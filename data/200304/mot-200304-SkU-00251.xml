@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00251">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Företagssluss</title>
+        <author corresp="i-9beYBFzEh8w1EjPQHXW3mC i-7KBbQxMwamQ8aEQRXJRw1j">av Jan-Evert Rådhström och Henrik Westman (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Företagssluss</title>
+          <idno type="rdwebb">GR02Sk251</idno>
+          <rs type="number">Sk251</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Sk251/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Sk251</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Sk251</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9beYBFzEh8w1EjPQHXW3mC</idno>
+            <name>Jan-Evert Rådhström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-7KBbQxMwamQ8aEQRXJRw1j</idno>
+            <name>Henrik Westman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-M6Jd62pug4rH6npYVeMLVF" type="signed"/>
+        <correspContext corresp="i-M6Jd62pug4rH6npYVeMLVF">
+          <note type="signatory" corresp="i-9beYBFzEh8w1EjPQHXW3mC"/>
+          <note type="signatory" corresp="i-7KBbQxMwamQ8aEQRXJRw1j"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-TEo7yJr9rPz3Dxz4PtHf3U">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-RskC5ijo8xoUyJQ2192TJt">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9PsFRJSVWVhHhvevRSNeCg">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-H7cYrpzJDv33ApbVkLAMeh"/>
+        <correspContext corresp="i-H7cYrpzJDv33ApbVkLAMeh">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

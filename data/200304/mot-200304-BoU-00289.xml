@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-BoU-00289">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bostadsbidrag för studerande</title>
+        <author corresp="i-GDFdKPNRdaGpkLXrouuiC1 i-689RyDpacera8C7DGrrLXo">av Johan Löfstrand och Berndt Sköldestig (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bostadsbidrag för studerande</title>
+          <idno type="rdwebb">GR02Bo289</idno>
+          <rs type="number">Bo289</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Bo289/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Bo289</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Bo289</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GDFdKPNRdaGpkLXrouuiC1</idno>
+            <name>Johan Löfstrand</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-689RyDpacera8C7DGrrLXo</idno>
+            <name>Berndt Sköldestig</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HHPF6n7vga8CwuLBjkP3wg" type="signed"/>
+        <correspContext corresp="i-HHPF6n7vga8CwuLBjkP3wg">
+          <note type="signatory" corresp="i-GDFdKPNRdaGpkLXrouuiC1"/>
+          <note type="signatory" corresp="i-689RyDpacera8C7DGrrLXo"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-GPdQbv3xgrAnb5RFzVmhfM">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-r19EjDdFD4pTevXuTTqbV">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-W95VPNTvHJp8vvQcLBEGMk">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-J2cnqP6DkTjwJKYtokZwvZ"/>
+        <correspContext corresp="i-J2cnqP6DkTjwJKYtokZwvZ">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

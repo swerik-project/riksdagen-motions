@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00421">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kronofogdemyndigheten</title>
+        <author corresp="i-5gSCoqgN8cUnJLfPPLD7nv i-D9iCNaqxQvuHFjK2SSEFvT">av Christina Axelsson och Carina Moberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kronofogdemyndigheten</title>
+          <idno type="rdwebb">GR02Sk421</idno>
+          <rs type="number">Sk421</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Sk421/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Sk421</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Sk421</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-5gSCoqgN8cUnJLfPPLD7nv</idno>
+            <name>Christina Axelsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-D9iCNaqxQvuHFjK2SSEFvT</idno>
+            <name>Carina Moberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-J5wC5RrALk5NjXS4L2xD9T" type="signed"/>
+        <correspContext corresp="i-J5wC5RrALk5NjXS4L2xD9T">
+          <note type="signatory" corresp="i-5gSCoqgN8cUnJLfPPLD7nv"/>
+          <note type="signatory" corresp="i-D9iCNaqxQvuHFjK2SSEFvT"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8g8WV28BxMgUoGcJz39wei">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-3eX8op9s3WujbrnFun7NHk">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8tFdUDYYec9HiQty2vbs4Z">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-VUdbTo5a33PJZtTxwBz1hY"/>
+        <correspContext corresp="i-VUdbTo5a33PJZtTxwBz1hY">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

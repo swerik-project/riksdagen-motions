@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00488">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Europakorridoren</title>
+        <author corresp="i-UnkrZ3NAvoWXY6Krxbkudq">av Tobias Krantz m.fl. (fp, m, kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Europakorridoren</title>
+          <idno type="rdwebb">GR02T488</idno>
+          <rs type="number">T488</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02T488/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02T488</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02T488</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UnkrZ3NAvoWXY6Krxbkudq</idno>
+            <name>Tobias Krantz</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-P2x4fiHNXrW2XTzJZRJeJJ</idno>
+            <name>Bengt-Anders Johansson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-SKjAmNScZ7eZ3a8Xy1J8hs</idno>
+            <name>Maria Larsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-8BTYtQ95yRpC5syyC4aHoY</idno>
+            <name>Göran Hägglund</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LSkBbcYteT6AXEgFbqGP7o" type="signed"/>
+        <correspContext corresp="i-LSkBbcYteT6AXEgFbqGP7o">
+          <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
+          <note type="signatory" corresp="i-P2x4fiHNXrW2XTzJZRJeJJ"/>
+          <note type="signatory" corresp="i-SKjAmNScZ7eZ3a8Xy1J8hs"/>
+          <note type="signatory" corresp="i-8BTYtQ95yRpC5syyC4aHoY"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3jvRLr8EutN4YBAiAjmncS">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-KYgvhVVF7WGWPLVu9tcTTy">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Wz2jRMLbf56ibfPoAcWUF1">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PntwMSbdxnaLnAgoCBVmvn"/>
+        <correspContext corresp="i-PntwMSbdxnaLnAgoCBVmvn">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#flerparti"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

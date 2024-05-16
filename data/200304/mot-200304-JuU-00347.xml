@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00347">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Brott på anstalt</title>
+        <author corresp="i-JSSYZnWrKjtbfWDmu1qLSb">av Magdalena Andersson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Brott på anstalt</title>
+          <idno type="rdwebb">GR02Ju347</idno>
+          <rs type="number">Ju347</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Ju347/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Ju347</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Ju347</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-JSSYZnWrKjtbfWDmu1qLSb</idno>
+            <name>Magdalena Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KXqB28Dy5t1omJGdzTmPtA" type="signed"/>
+        <correspContext corresp="i-KXqB28Dy5t1omJGdzTmPtA">
+          <note type="signatory" corresp="i-JSSYZnWrKjtbfWDmu1qLSb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Cyqr9Aa7u8GADBxJnebD6Y">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-QWCEoMob1nEy8P7a62MeFx">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-A8b6yNx4QzDksh7XgXww3j">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Jy5UAdfvGt968W4Ltz6Kfd"/>
+        <correspContext corresp="i-Jy5UAdfvGt968W4Ltz6Kfd">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

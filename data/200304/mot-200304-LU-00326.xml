@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00326">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Medborgarkort</title>
+        <author corresp="i-6NzqsXjPzSi4BTz8BKo1Rg">av Christer Winbäck (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Medborgarkort</title>
+          <idno type="rdwebb">GR02L326</idno>
+          <rs type="number">L326</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02L326/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02L326</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02L326</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-6NzqsXjPzSi4BTz8BKo1Rg</idno>
+            <name>Christer Winbäck</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WKeJNZ5xgu4nejTBh9GRN7" type="signed"/>
+        <correspContext corresp="i-WKeJNZ5xgu4nejTBh9GRN7">
+          <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-XEEDG3tterFzeawFqnm1pY">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Wk24jq5CQenU5AEZTrwUd9">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-TFY7v4C59h12ZRWxCwxHd5">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-J9BSBxH36wuS6mVNchMkjR"/>
+        <correspContext corresp="i-J9BSBxH36wuS6mVNchMkjR">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

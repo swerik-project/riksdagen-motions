@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00209">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kommunala skatteutjämningssystemet</title>
+        <author corresp="i-7KBbQxMwamQ8aEQRXJRw1j i-AqZkPRg6HbbZ9nDzibdbp5">av Henrik Westman och Björn Hamilton (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kommunala skatteutjämningssystemet</title>
+          <idno type="rdwebb">GR02Fi209</idno>
+          <rs type="number">Fi209</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Fi209/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Fi209</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Fi209</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-7KBbQxMwamQ8aEQRXJRw1j</idno>
+            <name>Henrik Westman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-AqZkPRg6HbbZ9nDzibdbp5</idno>
+            <name>Björn Hamilton</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RSEzGpTUjh8cStzVNgCnaL" type="signed"/>
+        <correspContext corresp="i-RSEzGpTUjh8cStzVNgCnaL">
+          <note type="signatory" corresp="i-7KBbQxMwamQ8aEQRXJRw1j"/>
+          <note type="signatory" corresp="i-AqZkPRg6HbbZ9nDzibdbp5"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-WRHg864q185K6SrMf4pGfT">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-4TAUimyuZQvo4MZGXuSs4e">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7Fwb5avsq9iESPUvG8pk36">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-VjywMYFUwrhQMprTJtGJMd"/>
+        <correspContext corresp="i-VjywMYFUwrhQMprTJtGJMd">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

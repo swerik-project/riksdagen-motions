@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Läkarresurser för äldre</title>
+        <author corresp="i-3TzUjUVop5GV6tpKYjGYGr">av Rolf Gunnarsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Läkarresurser för äldre</title>
+          <idno type="rdwebb">GR02So201</idno>
+          <rs type="number">So201</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02So201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02So201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02So201</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3TzUjUVop5GV6tpKYjGYGr</idno>
+            <name>Rolf Gunnarsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-7eT6RGEtf2hk84fidMgw9D" type="signed"/>
+        <correspContext corresp="i-7eT6RGEtf2hk84fidMgw9D">
+          <note type="signatory" corresp="i-3TzUjUVop5GV6tpKYjGYGr"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-CaunmhfFRj3kVy2e64tHCs">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-A9M73RYa1gMCQkcrne7rcu">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-81xs9JsBXNfSj6A23oazaC">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KWPyyLqa1BgdjTjBof6kEK"/>
+        <correspContext corresp="i-KWPyyLqa1BgdjTjBof6kEK">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

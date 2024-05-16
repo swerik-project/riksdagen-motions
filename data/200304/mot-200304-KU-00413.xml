@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00413">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Demokratikonvent för ny grundlag</title>
+        <author corresp="i-H7qdW9GRQn7LaQ2UGGAvYC">av Kerstin Lundgren (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Demokratikonvent för ny grundlag</title>
+          <idno type="rdwebb">GR02K413</idno>
+          <rs type="number">K413</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K413/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K413</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K413</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-H7qdW9GRQn7LaQ2UGGAvYC</idno>
+            <name>Kerstin Lundgren</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5AbAMXJj5sLPGNBAAgg8hx" type="signed"/>
+        <correspContext corresp="i-5AbAMXJj5sLPGNBAAgg8hx">
+          <note type="signatory" corresp="i-H7qdW9GRQn7LaQ2UGGAvYC"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-AS6RRKRqDsr5cMhUQLyPdn">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-PjKLFMbPs6jaFM4LqZEDhq">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KTRA8k6gwRtzudu9mQgRVi">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-99SLNUhXAuBgfg4XfaCANp"/>
+        <correspContext corresp="i-99SLNUhXAuBgfg4XfaCANp">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00224">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Organdonationer</title>
+        <author corresp="i-UdGnyRLxFm6LiCDBYWE7MV">av Bertil Kjellberg (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Organdonationer</title>
+          <idno type="rdwebb">GR02So224</idno>
+          <rs type="number">So224</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02So224/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02So224</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02So224</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UdGnyRLxFm6LiCDBYWE7MV</idno>
+            <name>Bertil Kjellberg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DT1P5W5x56PfGiCofUncXR" type="signed"/>
+        <correspContext corresp="i-DT1P5W5x56PfGiCofUncXR">
+          <note type="signatory" corresp="i-UdGnyRLxFm6LiCDBYWE7MV"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-P13dN1j1EW6ZjLBppJY4Vv">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-MxufgYASVJTEK9ssSyjp39">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NBcp4jcBccDNF2boSCN2fK">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BHZuAfuk85JK61Hc7EHsSy"/>
+        <correspContext corresp="i-BHZuAfuk85JK61Hc7EHsSy">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

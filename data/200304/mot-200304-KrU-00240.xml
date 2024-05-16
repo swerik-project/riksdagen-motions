@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00240">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Romer</title>
+        <author corresp="i-Q6T8pKy9pERdSQEuTcARyR i-C44sMEE9ocAndjedeN9fLp">av Lotta N Hedström och Yvonne Ruwaida (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Romer</title>
+          <idno type="rdwebb">GR02Kr240</idno>
+          <rs type="number">Kr240</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Kr240/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Kr240</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Kr240</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Q6T8pKy9pERdSQEuTcARyR</idno>
+            <name>Lotta N Hedström</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-C44sMEE9ocAndjedeN9fLp</idno>
+            <name>Yvonne Ruwaida</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MU2iP7MKhrHAbE9cdKMv2G" type="signed"/>
+        <correspContext corresp="i-MU2iP7MKhrHAbE9cdKMv2G">
+          <note type="signatory" corresp="i-Q6T8pKy9pERdSQEuTcARyR"/>
+          <note type="signatory" corresp="i-C44sMEE9ocAndjedeN9fLp"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-YYq6g6aLocQhyS7ubmTdpX">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Bccbz4krTgkwVH2auk1UvS">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UUn4WkJ5xEwkt5NWtfDgiq">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6xzrPvvnxbNRCXqhffGC3P"/>
+        <correspContext corresp="i-6xzrPvvnxbNRCXqhffGC3P">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

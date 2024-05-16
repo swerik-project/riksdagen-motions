@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00203">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Redovisningstid för godemän</title>
+        <author corresp="i-J2F63fdxUFAAeBTYXLX7MZ i-JSSYZnWrKjtbfWDmu1qLSb">av Anita Sidén och Magdalena Andersson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Redovisningstid för godemän</title>
+          <idno type="rdwebb">GR02L203</idno>
+          <rs type="number">L203</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02L203/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02L203</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02L203</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-J2F63fdxUFAAeBTYXLX7MZ</idno>
+            <name>Anita Sidén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-JSSYZnWrKjtbfWDmu1qLSb</idno>
+            <name>Magdalena Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-R9tCnfpJ6LkQoVGriYyQsw" type="signed"/>
+        <correspContext corresp="i-R9tCnfpJ6LkQoVGriYyQsw">
+          <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
+          <note type="signatory" corresp="i-JSSYZnWrKjtbfWDmu1qLSb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8bXzEnRCYa9CXPoZz3xW6u">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-JrQtcKkDvZz647qtu5g197">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DoE9WB6Zb7ySwrKhE6CSSh">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-VPMAQr87mo7FCaBA1EN61"/>
+        <correspContext corresp="i-VPMAQr87mo7FCaBA1EN61">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

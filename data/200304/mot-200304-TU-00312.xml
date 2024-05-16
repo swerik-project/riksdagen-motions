@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00312">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Båtförarutbildning</title>
+        <author corresp="i-Cndwseqc83uGA5s7vUEPqB i-PsSysCdjrkuVBAo163T4KM">av Olle Sandahl och Johnny Gylling (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Båtförarutbildning</title>
+          <idno type="rdwebb">GR02T312</idno>
+          <rs type="number">T312</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02T312/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02T312</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02T312</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Cndwseqc83uGA5s7vUEPqB</idno>
+            <name>Olle Sandahl</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-PsSysCdjrkuVBAo163T4KM</idno>
+            <name>Johnny Gylling</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-A7qmMEYWHccP27Gy5gtYDf" type="signed"/>
+        <correspContext corresp="i-A7qmMEYWHccP27Gy5gtYDf">
+          <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
+          <note type="signatory" corresp="i-PsSysCdjrkuVBAo163T4KM"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-F5deEZNnYEeYqZB611HD6a">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-SFsAWMkKX2kVoHWBnfzVxq">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-FoLT4xy88AyRDhduzb2uoH">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AnYXNko5WcUjozKBUixH3Q"/>
+        <correspContext corresp="i-AnYXNko5WcUjozKBUixH3Q">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

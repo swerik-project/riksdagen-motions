@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-AU-00343">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Drogtester</title>
+        <author corresp="i-KNqtzTyLq88RopWq6R35xs i-QYUrNyoHQyDH4vTwKcP6pk">av Ronny Olander och Britt-Marie Lindkvist (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Drogtester</title>
+          <idno type="rdwebb">GR02A343</idno>
+          <rs type="number">A343</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02A343/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02A343</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02A343</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KNqtzTyLq88RopWq6R35xs</idno>
+            <name>Ronny Olander</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-QYUrNyoHQyDH4vTwKcP6pk</idno>
+            <name>Britt-Marie Lindkvist</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8LGpgxRTPJj67arxHKkD1d" type="signed"/>
+        <correspContext corresp="i-8LGpgxRTPJj67arxHKkD1d">
+          <note type="signatory" corresp="i-KNqtzTyLq88RopWq6R35xs"/>
+          <note type="signatory" corresp="i-QYUrNyoHQyDH4vTwKcP6pk"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-FD8GZzVPah4s8eUTCBA33y">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-DB463eVYDr46v3nu5vWTis">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3GKGcnpS8qfufyseuLLxo6">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BHvQK4wYwTW7Ykd3UVMSvi"/>
+        <correspContext corresp="i-BHvQK4wYwTW7Ykd3UVMSvi">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

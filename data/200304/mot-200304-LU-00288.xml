@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00288">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Namnbytesärenden</title>
+        <author corresp="i-XvdGNU5wNmbTiaurFoUuPb i-FNzFVydYDVzPSVJ2wM7JXB">av Eva Arvidsson och Inger Nordlander (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Namnbytesärenden</title>
+          <idno type="rdwebb">GR02L288</idno>
+          <rs type="number">L288</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02L288/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02L288</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02L288</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-XvdGNU5wNmbTiaurFoUuPb</idno>
+            <name>Eva Arvidsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-FNzFVydYDVzPSVJ2wM7JXB</idno>
+            <name>Inger Nordlander</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EruHoHo8CCpp4oSwYeW6uU" type="signed"/>
+        <correspContext corresp="i-EruHoHo8CCpp4oSwYeW6uU">
+          <note type="signatory" corresp="i-XvdGNU5wNmbTiaurFoUuPb"/>
+          <note type="signatory" corresp="i-FNzFVydYDVzPSVJ2wM7JXB"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-63D2zApoAMSCquJssVXQbP">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-4qu8pMi14DiXoNfbmUuK7S">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9SHePEfCDcTkEDK858dneW">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9wMuBsjpzWRXEJU6Ukc2vx"/>
+        <correspContext corresp="i-9wMuBsjpzWRXEJU6Ukc2vx">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

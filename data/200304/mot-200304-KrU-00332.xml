@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00332">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Åtgärder mot spelberoende</title>
+        <author corresp="i-Ha5uZXGHudhTidCuW8UjXN">av Ragnwi Marcelind (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Åtgärder mot spelberoende</title>
+          <idno type="rdwebb">GR02Kr332</idno>
+          <rs type="number">Kr332</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Kr332/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Kr332</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Kr332</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Ha5uZXGHudhTidCuW8UjXN</idno>
+            <name>Ragnwi Marcelind</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Be3PP61PhuEbhzRrLqCMvA" type="signed"/>
+        <correspContext corresp="i-Be3PP61PhuEbhzRrLqCMvA">
+          <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-V5dPHwDnGgK1ZdPhPCUHTy">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-ANJRCPsY7LFMdqqQ6MkEJr">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WT1r7tSLvRwTu1VWaV5wL5">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Ag8n6nYnkZmSnG5iJ3RQkY"/>
+        <correspContext corresp="i-Ag8n6nYnkZmSnG5iJ3RQkY">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

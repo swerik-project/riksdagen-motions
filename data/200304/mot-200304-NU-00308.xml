@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-NU-00308">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lokal elproduktion</title>
+        <author corresp="i-C5oSgDpxjTK7J31TqsPEwQ i-2xzcr3nLPgka3s5j7pZ98N">av Claes Roxbergh och Ingegerd Saarinen (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lokal elproduktion</title>
+          <idno type="rdwebb">GR02N308</idno>
+          <rs type="number">N308</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02N308/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02N308</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02N308</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-C5oSgDpxjTK7J31TqsPEwQ</idno>
+            <name>Claes Roxbergh</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-2xzcr3nLPgka3s5j7pZ98N</idno>
+            <name>Ingegerd Saarinen</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LPzvfeXh4de563WvTG7Hak" type="signed"/>
+        <correspContext corresp="i-LPzvfeXh4de563WvTG7Hak">
+          <note type="signatory" corresp="i-C5oSgDpxjTK7J31TqsPEwQ"/>
+          <note type="signatory" corresp="i-2xzcr3nLPgka3s5j7pZ98N"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-YJTxBRiKZQZPG5wWDWR7fZ">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-WG2dHpftnpqW6AZocCDqDh">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RYdHJNfjumd3TR8Up8ev3f">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9AXjN9VZkq1vDDM6JXpGev"/>
+        <correspContext corresp="i-9AXjN9VZkq1vDDM6JXpGev">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

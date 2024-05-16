@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00243">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nyckelharpan som nationalinstrument</title>
+        <author corresp="i-D33H5dL4TMdTn9ZXMMYEbb i-XN7bgwBGaQixfiHi5Cbu8f">av Rigmor Stenmark (c) och Cecilia Wikström (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nyckelharpan som nationalinstrument</title>
+          <idno type="rdwebb">GR02Kr243</idno>
+          <rs type="number">Kr243</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Kr243/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Kr243</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Kr243</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-D33H5dL4TMdTn9ZXMMYEbb</idno>
+            <name>Rigmor Stenmark</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-XN7bgwBGaQixfiHi5Cbu8f</idno>
+            <name>Cecilia Wikström</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3vZecm6jP5nkmkDX2sAeRu" type="signed"/>
+        <correspContext corresp="i-3vZecm6jP5nkmkDX2sAeRu">
+          <note type="signatory" corresp="i-D33H5dL4TMdTn9ZXMMYEbb"/>
+          <note type="signatory" corresp="i-XN7bgwBGaQixfiHi5Cbu8f"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3wFU85w1LWZwbdFQMaWWY3">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-ACpbE8LVMLfyQqQp9sono">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-C86coEceQCyfQQiexaPsuX">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7xVm8g5wtsKpMzLz2DBLAq"/>
+        <correspContext corresp="i-7xVm8g5wtsKpMzLz2DBLAq">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#flerparti"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

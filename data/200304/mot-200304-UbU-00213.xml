@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00213">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Treterminssystem i högre utbildning</title>
+        <author corresp="i-AktM7FqujRsJ6kGjNePGjq">av Lars-Ivar Ericson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Treterminssystem i högre utbildning</title>
+          <idno type="rdwebb">GR02Ub213</idno>
+          <rs type="number">Ub213</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Ub213/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Ub213</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Ub213</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AktM7FqujRsJ6kGjNePGjq</idno>
+            <name>Lars-Ivar Ericson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FZ3QUmAn4fcbhWVosfTST" type="signed"/>
+        <correspContext corresp="i-FZ3QUmAn4fcbhWVosfTST">
+          <note type="signatory" corresp="i-AktM7FqujRsJ6kGjNePGjq"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-DhSkKrH4vj5o6oRSE2Kjew">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-MPt6QCuwwJX5zKtxy4pd9e">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NjwfCzzRQy9yhfkwdSFSST">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-MDsLYiLP2A3k2rv8agDdLN"/>
+        <correspContext corresp="i-MDsLYiLP2A3k2rv8agDdLN">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

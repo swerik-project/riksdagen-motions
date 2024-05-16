@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00270">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Källhänvisningar i SOU</title>
+        <author corresp="i-4BTx6VbUNJDqLqfkYqjnsE">av Tuve Skånberg (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Källhänvisningar i SOU</title>
+          <idno type="rdwebb">GR02K270</idno>
+          <rs type="number">K270</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K270/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K270</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K270</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4BTx6VbUNJDqLqfkYqjnsE</idno>
+            <name>Tuve Skånberg</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PK9ECTxcWcwwGMxPop8Mgz" type="signed"/>
+        <correspContext corresp="i-PK9ECTxcWcwwGMxPop8Mgz">
+          <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Y82FPwcyP8XCmr6foo1x1D">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-1BNz9Vb2S7FmvhojfEDpB">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6d9iR7Hr7nifD4uvS2xGRp">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TbsvsyzwbKCCjUKV8cfxpP"/>
+        <correspContext corresp="i-TbsvsyzwbKCCjUKV8cfxpP">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

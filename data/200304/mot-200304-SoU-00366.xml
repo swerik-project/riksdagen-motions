@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00366">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Information om dopning</title>
+        <author corresp="i-D5W4KMbqzfAEfRXajZLt7z i-DKVEwjAedaaDyvZjYRUhUM">av Lars Lilja och Britta Rådström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Information om dopning</title>
+          <idno type="rdwebb">GR02So366</idno>
+          <rs type="number">So366</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02So366/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02So366</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02So366</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-D5W4KMbqzfAEfRXajZLt7z</idno>
+            <name>Lars Lilja</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-DKVEwjAedaaDyvZjYRUhUM</idno>
+            <name>Britta Rådström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AkgybnbqHirn2MecAxYSvW" type="signed"/>
+        <correspContext corresp="i-AkgybnbqHirn2MecAxYSvW">
+          <note type="signatory" corresp="i-D5W4KMbqzfAEfRXajZLt7z"/>
+          <note type="signatory" corresp="i-DKVEwjAedaaDyvZjYRUhUM"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-C72kfqexapSzoHiCqJLbTA">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Q7LkGz7uxD2ETtQ8BqwwMs">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GKG8v9cociQ8dYMnZHMKzE">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FTBuizFQhgRajS114zSzk1"/>
+        <correspContext corresp="i-FTBuizFQhgRajS114zSzk1">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

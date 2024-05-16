@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00271">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fortsatt vittnesstöd</title>
+        <author corresp="i-JSSYZnWrKjtbfWDmu1qLSb i-P2x4fiHNXrW2XTzJZRJeJJ">av Magdalena Andersson och Bengt-Anders Johansson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fortsatt vittnesstöd</title>
+          <idno type="rdwebb">GR02Ju271</idno>
+          <rs type="number">Ju271</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Ju271/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Ju271</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Ju271</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-JSSYZnWrKjtbfWDmu1qLSb</idno>
+            <name>Magdalena Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-P2x4fiHNXrW2XTzJZRJeJJ</idno>
+            <name>Bengt-Anders Johansson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EvHFPuSyW1ETpHmHs3bJBC" type="signed"/>
+        <correspContext corresp="i-EvHFPuSyW1ETpHmHs3bJBC">
+          <note type="signatory" corresp="i-JSSYZnWrKjtbfWDmu1qLSb"/>
+          <note type="signatory" corresp="i-P2x4fiHNXrW2XTzJZRJeJJ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-5pEMq6KEyUJmuZjH6eF5yY">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-EncVGBfG6nFVnoN7Vqx8Hc">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-LMPwug65MfDHbDAUyoowLx">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RJx5GzFGk5UvHXUL523ua7"/>
+        <correspContext corresp="i-RJx5GzFGk5UvHXUL523ua7">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aktiv kvotering av nämndemän m.fl. med invandrarbakgrund</title>
+        <author corresp="i-SYmctpvT7BxsqFzwPADUfw i-AW2Kqb5j7PK8cas4SinHt3">av Nikos Papadopoulos och Paavo Vallius (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Aktiv kvotering av nämndemän m.fl. med invandrarbakgrund</title>
+          <idno type="rdwebb">GR02Ju330</idno>
+          <rs type="number">Ju330</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Ju330/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Ju330</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Ju330</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SYmctpvT7BxsqFzwPADUfw</idno>
+            <name>Nikos Papadopoulos</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-AW2Kqb5j7PK8cas4SinHt3</idno>
+            <name>Paavo Vallius</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CiPSXvpxKfVrzXBHCZUS46" type="signed"/>
+        <correspContext corresp="i-CiPSXvpxKfVrzXBHCZUS46">
+          <note type="signatory" corresp="i-SYmctpvT7BxsqFzwPADUfw"/>
+          <note type="signatory" corresp="i-AW2Kqb5j7PK8cas4SinHt3"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-PnjwBBEwKPB3TeosZG2Zvy">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-17vDp8Y4b3oSf7h5Zwbzja">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-CNEhDKwhY1NvESVf5PTt3D">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-R8T5cGoiqzRzhtd9m4kQZE"/>
+        <correspContext corresp="i-R8T5cGoiqzRzhtd9m4kQZE">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

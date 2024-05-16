@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00233">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tomträtten</title>
+        <author corresp="i-BUsYTbnmyQrtHXSA2gEp9T">av Torsten Lindström (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Tomträtten</title>
+          <idno type="rdwebb">GR02Sk233</idno>
+          <rs type="number">Sk233</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Sk233/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Sk233</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Sk233</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BUsYTbnmyQrtHXSA2gEp9T</idno>
+            <name>Torsten Lindström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DQ3Mqgbk8TSH1Dwd4gHBZs" type="signed"/>
+        <correspContext corresp="i-DQ3Mqgbk8TSH1Dwd4gHBZs">
+          <note type="signatory" corresp="i-BUsYTbnmyQrtHXSA2gEp9T"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-ErX3vk6tj8FPBZANR6m4Rr">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-3c9eB4SUtE3M1m2pWRpGux">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-FAEbrxMq6zGmBGdbisiW8V">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-VWD1CMp47iXoi2qJTLr1rA"/>
+        <correspContext corresp="i-VWD1CMp47iXoi2qJTLr1rA">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

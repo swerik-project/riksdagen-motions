@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00257">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Textilmuseet i Borås</title>
+        <author corresp="i-UmSX9m2mxvWevquvVduNpz">av Anne-Marie Ekström (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Textilmuseet i Borås</title>
+          <idno type="rdwebb">GR02Kr257</idno>
+          <rs type="number">Kr257</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Kr257/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Kr257</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Kr257</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-UmSX9m2mxvWevquvVduNpz</idno>
+            <name>Anne-Marie Ekström</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-81RX9UJEBmgsKLgq1uSACe" type="signed"/>
+        <correspContext corresp="i-81RX9UJEBmgsKLgq1uSACe">
+          <note type="signatory" corresp="i-UmSX9m2mxvWevquvVduNpz"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-XMC32jfV8ESbVtanSpnGRS">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-CBQucP47weHuYyaYkjuQ2r">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RGkS1rWj3fA9qM6xZ4ndrJ">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TNSJCupcLi6fCnjkXqjePw"/>
+        <correspContext corresp="i-TNSJCupcLi6fCnjkXqjePw">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

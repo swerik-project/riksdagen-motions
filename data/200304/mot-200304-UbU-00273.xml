@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00273">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mälardalens högskola</title>
+        <author corresp="i-BUsYTbnmyQrtHXSA2gEp9T">av Torsten Lindström (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Mälardalens högskola</title>
+          <idno type="rdwebb">GR02Ub273</idno>
+          <rs type="number">Ub273</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Ub273/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Ub273</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Ub273</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BUsYTbnmyQrtHXSA2gEp9T</idno>
+            <name>Torsten Lindström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DzPkE1278UGnzT83DnUz6p" type="signed"/>
+        <correspContext corresp="i-DzPkE1278UGnzT83DnUz6p">
+          <note type="signatory" corresp="i-BUsYTbnmyQrtHXSA2gEp9T"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-WojTQHy5EhtDT5HMbUbPNh">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Xu1BRmTvopB7anzfp3WSnQ">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-491rcUuDDziwxMNrZJAk2x">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BLL43XL1hu7Qx8AjNVrqBR"/>
+        <correspContext corresp="i-BLL43XL1hu7Qx8AjNVrqBR">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

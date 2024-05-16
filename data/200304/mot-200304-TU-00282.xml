@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00282">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Riksväg 47/48</title>
+        <author corresp="i-P2x4fiHNXrW2XTzJZRJeJJ i-JSSYZnWrKjtbfWDmu1qLSb">av Bengt-Anders Johansson och Magdalena Andersson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Riksväg 47/48</title>
+          <idno type="rdwebb">GR02T282</idno>
+          <rs type="number">T282</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02T282/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02T282</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02T282</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-P2x4fiHNXrW2XTzJZRJeJJ</idno>
+            <name>Bengt-Anders Johansson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-JSSYZnWrKjtbfWDmu1qLSb</idno>
+            <name>Magdalena Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JS9HydzaMjKXfL8jMD6bdj" type="signed"/>
+        <correspContext corresp="i-JS9HydzaMjKXfL8jMD6bdj">
+          <note type="signatory" corresp="i-P2x4fiHNXrW2XTzJZRJeJJ"/>
+          <note type="signatory" corresp="i-JSSYZnWrKjtbfWDmu1qLSb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-MrCwh8X7zFafqJLMjaUKrG">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-RVGQdb8U775aBhXByo6EpJ">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GYZH4oyqtvJg7GXxUNhMZt">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-A17ZbvJ5C1ziukiuyQVhYn"/>
+        <correspContext corresp="i-A17ZbvJ5C1ziukiuyQVhYn">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

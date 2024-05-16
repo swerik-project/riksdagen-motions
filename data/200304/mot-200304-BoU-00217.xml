@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-BoU-00217">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Förändring av detaljplan till områdesbestämmelse</title>
+        <author corresp="i-AyN7HRP1y38PeQoLunJifb">av Jörgen Johansson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Förändring av detaljplan till områdesbestämmelse</title>
+          <idno type="rdwebb">GR02Bo217</idno>
+          <rs type="number">Bo217</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Bo217/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Bo217</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Bo217</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AyN7HRP1y38PeQoLunJifb</idno>
+            <name>Jörgen Johansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Y4ZzDPCxbBuEVN6arSgsE3" type="signed"/>
+        <correspContext corresp="i-Y4ZzDPCxbBuEVN6arSgsE3">
+          <note type="signatory" corresp="i-AyN7HRP1y38PeQoLunJifb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-RFEJrVAK6gzY34T6aeJCyD">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7N84o4ffyd1qW8t8p2ro7j">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GjKJjPa7f4YViDxqR3nzhQ">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-SeWEK8T8pardseT3ntqPt3"/>
+        <correspContext corresp="i-SeWEK8T8pardseT3ntqPt3">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

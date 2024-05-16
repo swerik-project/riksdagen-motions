@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00316">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Professionell boxning</title>
+        <author corresp="i-8WXKfVC5CVWBiV2pVhvraQ">av Luciano Astudillo (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Professionell boxning</title>
+          <idno type="rdwebb">GR02Kr316</idno>
+          <rs type="number">Kr316</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Kr316/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Kr316</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Kr316</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-8WXKfVC5CVWBiV2pVhvraQ</idno>
+            <name>Luciano Astudillo</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-A26yAqPW188RWGR5nUMMSo" type="signed"/>
+        <correspContext corresp="i-A26yAqPW188RWGR5nUMMSo">
+          <note type="signatory" corresp="i-8WXKfVC5CVWBiV2pVhvraQ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-MQE4Z2B22bHEHirAfGrXMS">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-MKGnR9BWDTMFTMTH2HgFxF">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4wF8LThGFDkgpM1y7ggkKx">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2pphgTiusXrdRRu7KqVESG"/>
+        <correspContext corresp="i-2pphgTiusXrdRRu7KqVESG">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

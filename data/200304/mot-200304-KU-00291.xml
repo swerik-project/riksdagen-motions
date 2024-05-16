@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00291">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dubbelarbetande riksdagsledamöter</title>
+        <author corresp="i-Rtt4vV6Vr1WnfJAi2Dn9hN">av Nyamko Sabuni (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Dubbelarbetande riksdagsledamöter</title>
+          <idno type="rdwebb">GR02K291</idno>
+          <rs type="number">K291</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K291/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K291</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K291</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Rtt4vV6Vr1WnfJAi2Dn9hN</idno>
+            <name>Nyamko Sabuni</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-A2tFmNNrwnCkka3FfPqwHm" type="signed"/>
+        <correspContext corresp="i-A2tFmNNrwnCkka3FfPqwHm">
+          <note type="signatory" corresp="i-Rtt4vV6Vr1WnfJAi2Dn9hN"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-49y5hkYTfcGzUYa2Z4w7Eh">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Km9QqHiHKdy1GujFcxXRDg">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-YWzQvcxWtvqDMAJDzkooW5">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-8j2jJ6a2svukb9DWN4jbvb"/>
+        <correspContext corresp="i-8j2jJ6a2svukb9DWN4jbvb">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

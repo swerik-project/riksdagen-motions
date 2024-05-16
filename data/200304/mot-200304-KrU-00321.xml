@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00321">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Integration och folkbildning</title>
+        <author corresp="i-QKE6ihmLRJvwhV4neD6h7b">av Erik Ullenhag (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Integration och folkbildning</title>
+          <idno type="rdwebb">GR02Kr321</idno>
+          <rs type="number">Kr321</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Kr321/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Kr321</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Kr321</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QKE6ihmLRJvwhV4neD6h7b</idno>
+            <name>Erik Ullenhag</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8TbHs4j4HX1y4kqRDK8HKp" type="signed"/>
+        <correspContext corresp="i-8TbHs4j4HX1y4kqRDK8HKp">
+          <note type="signatory" corresp="i-QKE6ihmLRJvwhV4neD6h7b"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Jpj2F4a31Zv4f5paUgefuB">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-VXyXNZXDqGHJLxN3Zr4CzN">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-5ArnYGNJE5a4Dne1vRBeHA">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Fmwz3CYMfxJKheFcYYNAuS"/>
+        <correspContext corresp="i-Fmwz3CYMfxJKheFcYYNAuS">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

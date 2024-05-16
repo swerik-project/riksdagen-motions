@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00425">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Presstödsreglerna</title>
+        <author corresp="i-3pb3B2MkmEoxSvMpXK9cHQ i-MKm68HiDPih8eisvsh6GJg">av Marie Granlund och Bo Bernhardsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Presstödsreglerna</title>
+          <idno type="rdwebb">GR02K425</idno>
+          <rs type="number">K425</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K425/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K425</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K425</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-3pb3B2MkmEoxSvMpXK9cHQ</idno>
+            <name>Marie Granlund</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-MKm68HiDPih8eisvsh6GJg</idno>
+            <name>Bo Bernhardsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HmZT4kVPTjYmPo4PkVA1yy" type="signed"/>
+        <correspContext corresp="i-HmZT4kVPTjYmPo4PkVA1yy">
+          <note type="signatory" corresp="i-3pb3B2MkmEoxSvMpXK9cHQ"/>
+          <note type="signatory" corresp="i-MKm68HiDPih8eisvsh6GJg"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Q2kux7bUomRhyWiXz4KFK8">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-61XTCooXcRadCzy4mic1P9">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Vj8kD9LWhHPjDZcYV8jRZt">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HXzVC4kuAtTkYQeiQbkbym"/>
+        <correspContext corresp="i-HXzVC4kuAtTkYQeiQbkbym">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

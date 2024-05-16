@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00408">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elevernas rättigheter</title>
+        <author corresp="i-Q8hYBES3N7Q4fZnAATRjsd i-EgqHRHVoW5y9USDYuNoYuA">av Fredrik Olovsson och Hillevi Larsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Elevernas rättigheter</title>
+          <idno type="rdwebb">GR02Ub408</idno>
+          <rs type="number">Ub408</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Ub408/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Ub408</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Ub408</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Q8hYBES3N7Q4fZnAATRjsd</idno>
+            <name>Fredrik Olovsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-EgqHRHVoW5y9USDYuNoYuA</idno>
+            <name>Hillevi Larsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-6xUTU8jz3Y6YfujibpEFsk" type="signed"/>
+        <correspContext corresp="i-6xUTU8jz3Y6YfujibpEFsk">
+          <note type="signatory" corresp="i-Q8hYBES3N7Q4fZnAATRjsd"/>
+          <note type="signatory" corresp="i-EgqHRHVoW5y9USDYuNoYuA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-VLgNDMxCG5HHUaGNM425dE">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-2NUMjH2PaMZSjVCUcsTBs3">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7JmNDr2S2w8GdCugkrpHnp">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-MQJVsge2ZbVLLjdaVdxJdh"/>
+        <correspContext corresp="i-MQJVsge2ZbVLLjdaVdxJdh">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

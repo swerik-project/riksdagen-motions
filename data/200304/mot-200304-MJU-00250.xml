@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00250">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jaktkort</title>
+        <author corresp="i-9beYBFzEh8w1EjPQHXW3mC i-YEdxJPN8cJMwnqfd9tHmTD">av Jan-Evert Rådhström och Ulla Löfgren (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Jaktkort</title>
+          <idno type="rdwebb">GR02MJ250</idno>
+          <rs type="number">MJ250</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02MJ250/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02MJ250</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02MJ250</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9beYBFzEh8w1EjPQHXW3mC</idno>
+            <name>Jan-Evert Rådhström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-YEdxJPN8cJMwnqfd9tHmTD</idno>
+            <name>Ulla Löfgren</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UBnFNnf1tAC7EYch5tU9ak" type="signed"/>
+        <correspContext corresp="i-UBnFNnf1tAC7EYch5tU9ak">
+          <note type="signatory" corresp="i-9beYBFzEh8w1EjPQHXW3mC"/>
+          <note type="signatory" corresp="i-YEdxJPN8cJMwnqfd9tHmTD"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-L7jKJ6J1wPqsXz9TJi8aEq">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-XYg59kq9SfdbpgSL84QAQX">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-QC6V1YBPvTFKodW1U2s2i9">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-CDdmeXwPo2rekbAJzLMsEE"/>
+        <correspContext corresp="i-CDdmeXwPo2rekbAJzLMsEE">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00511">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Införande av båtregister</title>
+        <author corresp="i-3S4u3rsmsb3bjgrsrZUU6Q">av Anders Karlsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Införande av båtregister</title>
+          <idno type="rdwebb">GR02T511</idno>
+          <rs type="number">T511</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02T511/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02T511</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02T511</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3S4u3rsmsb3bjgrsrZUU6Q</idno>
+            <name>Anders Karlsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MdFCurbPWbSLpVKkM1qwrE" type="signed"/>
+        <correspContext corresp="i-MdFCurbPWbSLpVKkM1qwrE">
+          <note type="signatory" corresp="i-3S4u3rsmsb3bjgrsrZUU6Q"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Eb9kZNvhGZQFMKZkhkSiBV">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-CRbza2oVpqo4SjEJjqAkZQ">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-ChJDyWte1ANZPbyzgCLkon">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GH24oewgwkZAxB58DsDq79"/>
+        <correspContext corresp="i-GH24oewgwkZAxB58DsDq79">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

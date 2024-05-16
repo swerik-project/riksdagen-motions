@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00294">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lagen om pliktexemplar av dokument</title>
+        <author corresp="i-Ga4FaAaNvVxH6nfoR7FVAe">av Gunnar Nordmark (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lagen om pliktexemplar av dokument</title>
+          <idno type="rdwebb">GR02Kr294</idno>
+          <rs type="number">Kr294</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Kr294/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Kr294</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Kr294</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ga4FaAaNvVxH6nfoR7FVAe</idno>
+            <name>Gunnar Nordmark</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AVfRGbPrqbuFjxUsDWodpY" type="signed"/>
+        <correspContext corresp="i-AVfRGbPrqbuFjxUsDWodpY">
+          <note type="signatory" corresp="i-Ga4FaAaNvVxH6nfoR7FVAe"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-75GRqCxDL86Vk9KYoCpuEA">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-3hJmtTPnD6KHFp4TJqV9hj">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-VD61We9fiD4Q35RLyuJ3ks">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7DfUXUNb2aa73xvYRSQWWJ"/>
+        <correspContext corresp="i-7DfUXUNb2aa73xvYRSQWWJ">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

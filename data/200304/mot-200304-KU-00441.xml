@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00441">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Förtroendevalda som lämnar sitt parti</title>
+        <author corresp="i-D5W4KMbqzfAEfRXajZLt7z i-DKVEwjAedaaDyvZjYRUhUM">av Lars Lilja och Britta Rådström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Förtroendevalda som lämnar sitt parti</title>
+          <idno type="rdwebb">GR02K441</idno>
+          <rs type="number">K441</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K441/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K441</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K441</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-D5W4KMbqzfAEfRXajZLt7z</idno>
+            <name>Lars Lilja</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-DKVEwjAedaaDyvZjYRUhUM</idno>
+            <name>Britta Rådström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-E3qUBLe9fyD6dVAGS5T5sL" type="signed"/>
+        <correspContext corresp="i-E3qUBLe9fyD6dVAGS5T5sL">
+          <note type="signatory" corresp="i-D5W4KMbqzfAEfRXajZLt7z"/>
+          <note type="signatory" corresp="i-DKVEwjAedaaDyvZjYRUhUM"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-4vBdDye9jGCRbbqmpgFxEf">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-LyRd7T4GqGH355GDdrmpHE">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-R7oTWaq7EWfY5hLBtXrFxD">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Wz7zseGDaLQSv4rNTsmNpz"/>
+        <correspContext corresp="i-Wz7zseGDaLQSv4rNTsmNpz">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00530">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transpersoners livsvillkor</title>
+        <author corresp="i-RzanNBST4vy6UAQ5Bjxbyq i-4dHfDoweVJM2iAJu9BCQqo">av Cinnika Beiming och Tommy Waidelich (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Transpersoners livsvillkor</title>
+          <idno type="rdwebb">GR02So530</idno>
+          <rs type="number">So530</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02So530/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02So530</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02So530</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-RzanNBST4vy6UAQ5Bjxbyq</idno>
+            <name>Cinnika Beiming</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4dHfDoweVJM2iAJu9BCQqo</idno>
+            <name>Tommy Waidelich</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PinSrjJYuX8bBREv1DbX13" type="signed"/>
+        <correspContext corresp="i-PinSrjJYuX8bBREv1DbX13">
+          <note type="signatory" corresp="i-RzanNBST4vy6UAQ5Bjxbyq"/>
+          <note type="signatory" corresp="i-4dHfDoweVJM2iAJu9BCQqo"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-FqCTGmAXMezKNMZnzy2sjL">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-V1nKZtYTHbrhC1M1eanDJU">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RmJb7Z1XDkpKcAhfA7KJFs">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2hsEB6H24RT9CVYmMFPyUL"/>
+        <correspContext corresp="i-2hsEB6H24RT9CVYmMFPyUL">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

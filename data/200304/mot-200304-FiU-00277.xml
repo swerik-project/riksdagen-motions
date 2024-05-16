@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00277">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Myndigheters inbördes fakturering</title>
+        <author corresp="i-RJ83sTtQ8c3R3VD4B55j8P">av Åsa Lindestam (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Myndigheters inbördes fakturering</title>
+          <idno type="rdwebb">GR02Fi277</idno>
+          <rs type="number">Fi277</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Fi277/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Fi277</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Fi277</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-RJ83sTtQ8c3R3VD4B55j8P</idno>
+            <name>Åsa Lindestam</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-S8h1rMM7Civkchqt8E9CAV" type="signed"/>
+        <correspContext corresp="i-S8h1rMM7Civkchqt8E9CAV">
+          <note type="signatory" corresp="i-RJ83sTtQ8c3R3VD4B55j8P"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LtYH2Gt5m2KGHq2MpMaiYu">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-NuXRWjpqAwAZk4XnoQaB9F">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DpqXKXLyk7yA1i711SBzfv">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-36qg8mDw3Krq5M8QCnRqSQ"/>
+        <correspContext corresp="i-36qg8mDw3Krq5M8QCnRqSQ">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

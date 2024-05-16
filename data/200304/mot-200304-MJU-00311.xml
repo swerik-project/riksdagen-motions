@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00311">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hot mot artrikedomen</title>
+        <author corresp="i-SmQxY46smWu5awEQ2oGr4n">av Ingemar Vänerlöv (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hot mot artrikedomen</title>
+          <idno type="rdwebb">GR02MJ311</idno>
+          <rs type="number">MJ311</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02MJ311/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02MJ311</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02MJ311</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SmQxY46smWu5awEQ2oGr4n</idno>
+            <name>Ingemar Vänerlöv</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8qKhecGULpK7j4VtXXY6vK" type="signed"/>
+        <correspContext corresp="i-8qKhecGULpK7j4VtXXY6vK">
+          <note type="signatory" corresp="i-SmQxY46smWu5awEQ2oGr4n"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3zqxQDxKDtJtfdpnygCctX">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-9piCyMrrhG9WhzGETr66Y7">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-33PzVgTUxDgGMh1pQM4W6U">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-EQEbD4tuURJvcqhHcXEY4F"/>
+        <correspContext corresp="i-EQEbD4tuURJvcqhHcXEY4F">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

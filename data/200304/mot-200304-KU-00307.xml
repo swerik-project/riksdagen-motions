@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00307">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tillgänglig samhällsinformation</title>
+        <author corresp="i-WTCYyz27itjvuvffL1vZLi">av Elina Linna m.fl. (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Tillgänglig samhällsinformation</title>
+          <idno type="rdwebb">GR02K307</idno>
+          <rs type="number">K307</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K307/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K307</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K307</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-WTCYyz27itjvuvffL1vZLi</idno>
+            <name>Elina Linna</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-6nbWfYQYwqJtM2XLoDTFkR</idno>
+            <name>Ingrid Burman</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-991obiMTz36s9V7z3YpuZk</idno>
+            <name>Gunilla Wahlén</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4cqFyd2XN2Y41jzPhxri5F" type="signed"/>
+        <correspContext corresp="i-4cqFyd2XN2Y41jzPhxri5F">
+          <note type="signatory" corresp="i-WTCYyz27itjvuvffL1vZLi"/>
+          <note type="signatory" corresp="i-6nbWfYQYwqJtM2XLoDTFkR"/>
+          <note type="signatory" corresp="i-991obiMTz36s9V7z3YpuZk"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-HYfrPRX9NB3e1ea2yfhB4E">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Vv8SLhFnbL4ZkmPPJnaa9n">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JosEFXxGcUh1c8oFeg8yMM">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HM9jqn8tTzm2zD7gqBnphW"/>
+        <correspContext corresp="i-HM9jqn8tTzm2zD7gqBnphW">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00321">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fördelning av resurser till polisen</title>
+        <author corresp="i-BzccJvrsm3YED8gWPHwfGn i-D5W4KMbqzfAEfRXajZLt7z">av Karl Gustav Abramsson och Lars Lilja (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fördelning av resurser till polisen</title>
+          <idno type="rdwebb">GR02Ju321</idno>
+          <rs type="number">Ju321</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Ju321/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Ju321</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Ju321</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BzccJvrsm3YED8gWPHwfGn</idno>
+            <name>Karl Gustav Abramsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-D5W4KMbqzfAEfRXajZLt7z</idno>
+            <name>Lars Lilja</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3NDBHtbmbcE94yvZJvLvDo" type="signed"/>
+        <correspContext corresp="i-3NDBHtbmbcE94yvZJvLvDo">
+          <note type="signatory" corresp="i-BzccJvrsm3YED8gWPHwfGn"/>
+          <note type="signatory" corresp="i-D5W4KMbqzfAEfRXajZLt7z"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-99Jh1HG82KMJHHsmXP2djj">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-4EX5avZhvtgxa1Yet8P11y">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JdpVZHuV2Pb8AdxRrdjLkm">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9KhWcg8aXSc95W8AcrFDx3"/>
+        <correspContext corresp="i-9KhWcg8aXSc95W8AcrFDx3">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

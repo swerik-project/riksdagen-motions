@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FöU-00242">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Svensk terrorskyddskommission</title>
+        <author corresp="i-Q6uWG1k3pbJio9CebNs3Cz">av Sten Tolgfors (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Svensk terrorskyddskommission</title>
+          <idno type="rdwebb">GR02Fö242</idno>
+          <rs type="number">Fö242</rs>
+          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Fö242/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Fö242</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Fö242</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Q6uWG1k3pbJio9CebNs3Cz</idno>
+            <name>Sten Tolgfors</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VDXD4nnaBPc5e9tJXwSUeT" type="signed"/>
+        <correspContext corresp="i-VDXD4nnaBPc5e9tJXwSUeT">
+          <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-9YRoDTZgrNDCzi7NKLndrd">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Ue9Y9of1hEU5LujzT7CDj2">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NPu8AYxeiiSG5okJmkhjDN">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-YVM4X5ohsdWzTUwQfRWgUv"/>
+        <correspContext corresp="i-YVM4X5ohsdWzTUwQfRWgUv">
+          <ref type="assignedTo">Försvarsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

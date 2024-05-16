@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00252">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Heby kommuns länstillhörighet</title>
+        <author corresp="i-XN7bgwBGaQixfiHi5Cbu8f">av Cecilia Wikström (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Heby kommuns länstillhörighet</title>
+          <idno type="rdwebb">GR02K252</idno>
+          <rs type="number">K252</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K252/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K252</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K252</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-XN7bgwBGaQixfiHi5Cbu8f</idno>
+            <name>Cecilia Wikström</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-D1WnWJWhb1fBaKRKL7B1cz" type="signed"/>
+        <correspContext corresp="i-D1WnWJWhb1fBaKRKL7B1cz">
+          <note type="signatory" corresp="i-XN7bgwBGaQixfiHi5Cbu8f"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-KGJEF2wprkCWM4tPEfhtNV">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-GDHGGKkaEzTdfu6d54meoa">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-MSUgMZke3YCEkGQELxG8Jo">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Ecuk31wxoKxGkAApErv3m6"/>
+        <correspContext corresp="i-Ecuk31wxoKxGkAApErv3m6">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00254">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Flyktingamnesti</title>
+        <author corresp="i-9CH1KbWwyrj8DRqAQB3Fza">av Gustav Fridolin m.fl. (mp, fp, kd, c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Flyktingamnesti</title>
+          <idno type="rdwebb">GR02Sf254</idno>
+          <rs type="number">Sf254</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Sf254/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Sf254</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Sf254</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9CH1KbWwyrj8DRqAQB3Fza</idno>
+            <name>Gustav Fridolin</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-UmSX9m2mxvWevquvVduNpz</idno>
+            <name>Anne-Marie Ekström</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-43NmWWYd8vEgZrkoXWWCXx</idno>
+            <name>Rosita Runegrund</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-NRb4HpaQ87qUwhLNcKt7Gz</idno>
+            <name>Annika Qarlsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-YBrEkXPk4ffmjCXA8BpGHg" type="signed"/>
+        <correspContext corresp="i-YBrEkXPk4ffmjCXA8BpGHg">
+          <note type="signatory" corresp="i-9CH1KbWwyrj8DRqAQB3Fza"/>
+          <note type="signatory" corresp="i-UmSX9m2mxvWevquvVduNpz"/>
+          <note type="signatory" corresp="i-43NmWWYd8vEgZrkoXWWCXx"/>
+          <note type="signatory" corresp="i-NRb4HpaQ87qUwhLNcKt7Gz"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-9akQMi9Y67WeH3yxzv4TKd">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-TGxpQKCuJtJMQnt8cDMfPz">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8aSKX9edq28HLc2BLsNL5K">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TcJLnGQxj941vn5ysEjx5S"/>
+        <correspContext corresp="i-TcJLnGQxj941vn5ysEjx5S">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#flerparti"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

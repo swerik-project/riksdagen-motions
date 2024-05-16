@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-NU-00371">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>European Spallation Space</title>
+        <author corresp="i-BprbpWQgeNpqWTF9sztgqA">av Lars Lindblad (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>European Spallation Space</title>
+          <idno type="rdwebb">GR02N371</idno>
+          <rs type="number">N371</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02N371/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02N371</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02N371</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BprbpWQgeNpqWTF9sztgqA</idno>
+            <name>Lars Lindblad</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EX58P4T4VknChoAzXF1JnE" type="signed"/>
+        <correspContext corresp="i-EX58P4T4VknChoAzXF1JnE">
+          <note type="signatory" corresp="i-BprbpWQgeNpqWTF9sztgqA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3juiUf6sACkMB559wsGRw1">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-BpBu3J2XN9LgtK1G4KSB4S">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Hzb2Ti3gvrtyjTMum1tEHp">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GevpUy7QWtbzFdS34jM19W"/>
+        <correspContext corresp="i-GevpUy7QWtbzFdS34jM19W">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

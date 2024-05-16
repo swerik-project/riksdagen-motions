@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-NU-00406">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Filmkluster</title>
+        <author corresp="i-K5zTLSXt1UWyYngcbEuofY i-5iuSCbAspakd6XhUXCtA5E">av Kristina Zakrisson och Anders Sundström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Filmkluster</title>
+          <idno type="rdwebb">GR02N406</idno>
+          <rs type="number">N406</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02N406/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02N406</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02N406</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-K5zTLSXt1UWyYngcbEuofY</idno>
+            <name>Kristina Zakrisson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-5iuSCbAspakd6XhUXCtA5E</idno>
+            <name>Anders Sundström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CWy8g24G34mFSvhTkpGVWe" type="signed"/>
+        <correspContext corresp="i-CWy8g24G34mFSvhTkpGVWe">
+          <note type="signatory" corresp="i-K5zTLSXt1UWyYngcbEuofY"/>
+          <note type="signatory" corresp="i-5iuSCbAspakd6XhUXCtA5E"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-CEpoAzC4jQfW8yzfzAQp4w">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-V31iiL1s8ez8gNmnYS2wX9">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KSJGmH9hzgiMGvzxg3YCyg">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-U3hkJgAVxdTH4jQ8im8ALy"/>
+        <correspContext corresp="i-U3hkJgAVxdTH4jQ8im8ALy">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

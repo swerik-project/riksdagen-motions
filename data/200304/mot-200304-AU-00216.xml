@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-AU-00216">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Friår</title>
+        <author corresp="i-4BTx6VbUNJDqLqfkYqjnsE i-5jLvgtZLz4tn3NhaKToY29">av Tuve Skånberg och Holger Gustafsson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Friår</title>
+          <idno type="rdwebb">GR02A216</idno>
+          <rs type="number">A216</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02A216/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02A216</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02A216</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4BTx6VbUNJDqLqfkYqjnsE</idno>
+            <name>Tuve Skånberg</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-5jLvgtZLz4tn3NhaKToY29</idno>
+            <name>Holger Gustafsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-ShsGeZcxt2frFHqDt8SwfV" type="signed"/>
+        <correspContext corresp="i-ShsGeZcxt2frFHqDt8SwfV">
+          <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
+          <note type="signatory" corresp="i-5jLvgtZLz4tn3NhaKToY29"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-EBjPWEuatoRj6t2oenyuEi">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-NJiMCCixadpTi4WSxb5sXf">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JkCUMJmmyBUMGAj9VBYYFF">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-WoTm4YXXtE9NWAwZ9r4B8p"/>
+        <correspContext corresp="i-WoTm4YXXtE9NWAwZ9r4B8p">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

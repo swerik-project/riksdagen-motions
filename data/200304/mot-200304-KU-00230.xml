@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00230">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Folkomröstningar</title>
+        <author corresp="i-BUsYTbnmyQrtHXSA2gEp9T">av Torsten Lindström (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Folkomröstningar</title>
+          <idno type="rdwebb">GR02K230</idno>
+          <rs type="number">K230</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K230/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K230</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K230</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BUsYTbnmyQrtHXSA2gEp9T</idno>
+            <name>Torsten Lindström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VarY4nbUT5bTUkFJWw3xsX" type="signed"/>
+        <correspContext corresp="i-VarY4nbUT5bTUkFJWw3xsX">
+          <note type="signatory" corresp="i-BUsYTbnmyQrtHXSA2gEp9T"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NSkgFdfvQe5sy7nkw9HERw">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-74WRyfcx1RW7w3ehARkcYA">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-D3u3yFZRFVnoppLUAghZRT">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Qaoj7DZs6yRpeEfDNTpwHg"/>
+        <correspContext corresp="i-Qaoj7DZs6yRpeEfDNTpwHg">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

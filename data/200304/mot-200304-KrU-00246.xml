@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00246">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Norrköpings konstmuseum</title>
+        <author corresp="i-7AB63eqvrGXGCT1mpkEM3J i-SLMauHd9udrtkguQd9gymK">av Louise Malmström och Billy Gustafsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Norrköpings konstmuseum</title>
+          <idno type="rdwebb">GR02Kr246</idno>
+          <rs type="number">Kr246</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Kr246/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Kr246</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Kr246</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-7AB63eqvrGXGCT1mpkEM3J</idno>
+            <name>Louise Malmström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-SLMauHd9udrtkguQd9gymK</idno>
+            <name>Billy Gustafsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-7biyoo6qE36mH1FSSNgeKb" type="signed"/>
+        <correspContext corresp="i-7biyoo6qE36mH1FSSNgeKb">
+          <note type="signatory" corresp="i-7AB63eqvrGXGCT1mpkEM3J"/>
+          <note type="signatory" corresp="i-SLMauHd9udrtkguQd9gymK"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-7enJZvZBg2JFtNY1aLzHgL">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-TPwQGg1N3twqLKNyUwZkw4">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EEzNewMxYasKF5hxZ88LtG">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-VDYTYzjH7tdDQjQ25rWWP5"/>
+        <correspContext corresp="i-VDYTYzjH7tdDQjQ25rWWP5">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

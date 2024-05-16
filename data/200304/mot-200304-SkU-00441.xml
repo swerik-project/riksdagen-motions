@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00441">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ideella föreningar</title>
+        <author corresp="i-GDFdKPNRdaGpkLXrouuiC1 i-7AB63eqvrGXGCT1mpkEM3J">av Johan Löfstrand och Louise Malmström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ideella föreningar</title>
+          <idno type="rdwebb">GR02Sk441</idno>
+          <rs type="number">Sk441</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Sk441/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Sk441</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Sk441</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GDFdKPNRdaGpkLXrouuiC1</idno>
+            <name>Johan Löfstrand</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-7AB63eqvrGXGCT1mpkEM3J</idno>
+            <name>Louise Malmström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Y18sXd96fsFtBf8YSMs9Q9" type="signed"/>
+        <correspContext corresp="i-Y18sXd96fsFtBf8YSMs9Q9">
+          <note type="signatory" corresp="i-GDFdKPNRdaGpkLXrouuiC1"/>
+          <note type="signatory" corresp="i-7AB63eqvrGXGCT1mpkEM3J"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-UcZwkawa5iGNTBF9jMcgJT">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-2kLqfkctX3wqQVQY2Q3PtC">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Wcth5KHre8fDmUYMZdeJej">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-P3NAoPTuCKMy2i16EMbjR4"/>
+        <correspContext corresp="i-P3NAoPTuCKMy2i16EMbjR4">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

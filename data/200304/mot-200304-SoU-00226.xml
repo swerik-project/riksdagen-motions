@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00226">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psykvården </title>
+        <author corresp="i-JJGD2ECwHv6xGCZyyrtKmA i-UfnBtox9oKGvLg9RLYSNsM">av Carl-Axel Roslund och Anna Lindgren (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Psykvården </title>
+          <idno type="rdwebb">GR02So226</idno>
+          <rs type="number">So226</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02So226/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02So226</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02So226</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-JJGD2ECwHv6xGCZyyrtKmA</idno>
+            <name>Carl-Axel Roslund</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-UfnBtox9oKGvLg9RLYSNsM</idno>
+            <name>Anna Lindgren</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MHRHave5FHjKzNvG7cxzBw" type="signed"/>
+        <correspContext corresp="i-MHRHave5FHjKzNvG7cxzBw">
+          <note type="signatory" corresp="i-JJGD2ECwHv6xGCZyyrtKmA"/>
+          <note type="signatory" corresp="i-UfnBtox9oKGvLg9RLYSNsM"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-XLHyyDi3LJJqzJmUpFMDgQ">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Tj5PkENPNZ4ABjnrXmDoeF">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WNkjX9YCDknjMeuU9kibap">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-H9frJwpvbv5bbwiUhqBZ59"/>
+        <correspContext corresp="i-H9frJwpvbv5bbwiUhqBZ59">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

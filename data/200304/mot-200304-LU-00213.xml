@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00213">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Promillegränser till sjöss</title>
+        <author corresp="i-U5MhCo51MGLLY94GAGJZhY">av Johan Linander (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Promillegränser till sjöss</title>
+          <idno type="rdwebb">GR02L213</idno>
+          <rs type="number">L213</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02L213/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02L213</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02L213</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-U5MhCo51MGLLY94GAGJZhY</idno>
+            <name>Johan Linander</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3pAGUDgDTU1CYf5jnqSgL4" type="signed"/>
+        <correspContext corresp="i-3pAGUDgDTU1CYf5jnqSgL4">
+          <note type="signatory" corresp="i-U5MhCo51MGLLY94GAGJZhY"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-2c748MUMsvUUhdPw7g6bMZ">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Rcam6sP9FKLPASTjyJMsn6">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EAiPycu3P41U5KRq49JV45">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-LFqkiLxHDBTECZPrsZAUaL"/>
+        <correspContext corresp="i-LFqkiLxHDBTECZPrsZAUaL">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

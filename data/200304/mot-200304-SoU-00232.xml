@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00232">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Barnombudsmannens organisation</title>
+        <author corresp="i-4htYS85JpBwxyYZ32aVtBc i-h1aVBzexdmWPt4dFvXiYA">av Gunilla Tjernberg och Inger Davidson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Barnombudsmannens organisation</title>
+          <idno type="rdwebb">GR02So232</idno>
+          <rs type="number">So232</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02So232/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02So232</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02So232</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-4htYS85JpBwxyYZ32aVtBc</idno>
+            <name>Gunilla Tjernberg</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-h1aVBzexdmWPt4dFvXiYA</idno>
+            <name>Inger Davidson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DsnGhQM5zNXvz7D76rrbnn" type="signed"/>
+        <correspContext corresp="i-DsnGhQM5zNXvz7D76rrbnn">
+          <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
+          <note type="signatory" corresp="i-h1aVBzexdmWPt4dFvXiYA"/>
+        </correspContext>
+        <correspAction type="submission" xml:id="i-KzJjgFAPZx6bQGdS8EAEHY">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-DVgPhkNtUnDkdgRkecbNpn">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-9ZxMsVX7FLZrnbzBxgm6iJ">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Cx56wJUrRcfpDf6mwbS8E1"/>
+        <correspContext corresp="i-Cx56wJUrRcfpDf6mwbS8E1">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

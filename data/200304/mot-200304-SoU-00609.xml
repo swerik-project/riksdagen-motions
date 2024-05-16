@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00609">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bilstöd</title>
+        <author corresp="i-C3fSSzQDuoh3kKasHW4AKa i-2Bind9dyirGQ1UMwS9XjsT">av Sonja Fransson och Lennart Axelsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bilstöd</title>
+          <idno type="rdwebb">GR02So609</idno>
+          <rs type="number">So609</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02So609/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02So609</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02So609</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-C3fSSzQDuoh3kKasHW4AKa</idno>
+            <name>Sonja Fransson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-2Bind9dyirGQ1UMwS9XjsT</idno>
+            <name>Lennart Axelsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-X6nDeFmWmtyxVrRDqAiPky" type="signed"/>
+        <correspContext corresp="i-X6nDeFmWmtyxVrRDqAiPky">
+          <note type="signatory" corresp="i-C3fSSzQDuoh3kKasHW4AKa"/>
+          <note type="signatory" corresp="i-2Bind9dyirGQ1UMwS9XjsT"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-4AFpW7pSnNZhpNb5mfqVm9">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-P2soxEzFHQrmTHociGQWaV">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-XZbjAHQpsfC16Li7XKuVJz">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-N1dN31bFCKyTSxdU5kzgU9"/>
+        <correspContext corresp="i-N1dN31bFCKyTSxdU5kzgU9">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

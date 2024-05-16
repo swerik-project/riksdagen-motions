@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00365">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Färdtjänsten</title>
+        <author corresp="i-QqQ96z9hf4LQtMxJfJm6ZQ i-YEdxJPN8cJMwnqfd9tHmTD">av Jeppe Johnsson och Ulla Löfgren (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Färdtjänsten</title>
+          <idno type="rdwebb">GR02T365</idno>
+          <rs type="number">T365</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02T365/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02T365</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02T365</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QqQ96z9hf4LQtMxJfJm6ZQ</idno>
+            <name>Jeppe Johnsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-YEdxJPN8cJMwnqfd9tHmTD</idno>
+            <name>Ulla Löfgren</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RCAXkMkb78d7K6sGzkWUbx" type="signed"/>
+        <correspContext corresp="i-RCAXkMkb78d7K6sGzkWUbx">
+          <note type="signatory" corresp="i-QqQ96z9hf4LQtMxJfJm6ZQ"/>
+          <note type="signatory" corresp="i-YEdxJPN8cJMwnqfd9tHmTD"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-BHKhvdWFnF2dgjHksFgGVc">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-GW9bLREF24TCQNaz8N4vaQ">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-64PP3jxR1qZ5mbZuPagxZF">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-LRtCKjRLxWHm3yh8vvBi9S"/>
+        <correspContext corresp="i-LRtCKjRLxWHm3yh8vvBi9S">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

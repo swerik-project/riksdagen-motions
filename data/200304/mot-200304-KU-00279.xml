@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00279">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ungdomars besök i Stockholm</title>
+        <author corresp="i-LutTcg2m9spsoVaK7cAQeB">av Lars Wegendal (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ungdomars besök i Stockholm</title>
+          <idno type="rdwebb">GR02K279</idno>
+          <rs type="number">K279</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K279/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K279</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K279</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-LutTcg2m9spsoVaK7cAQeB</idno>
+            <name>Lars Wegendal</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Rv4fhLEBcRZ5NHQh3yKjoZ" type="signed"/>
+        <correspContext corresp="i-Rv4fhLEBcRZ5NHQh3yKjoZ">
+          <note type="signatory" corresp="i-LutTcg2m9spsoVaK7cAQeB"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-VpkHS3gj6aLKqcH6DtRVfw">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-CvuauJnVsWhtRHVvSjwF8z">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Riu9FEzD8bigfS4rq5k3Vm">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PrCxj2o5eEWzjsPsZUuSaG"/>
+        <correspContext corresp="i-PrCxj2o5eEWzjsPsZUuSaG">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

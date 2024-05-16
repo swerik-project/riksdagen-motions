@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-AU-00256">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arbetstidsreformer</title>
+        <author corresp="i-Q6uWG1k3pbJio9CebNs3Cz">av Sten Tolgfors (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arbetstidsreformer</title>
+          <idno type="rdwebb">GR02A256</idno>
+          <rs type="number">A256</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02A256/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02A256</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02A256</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Q6uWG1k3pbJio9CebNs3Cz</idno>
+            <name>Sten Tolgfors</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TphSg1ooLPQp5QfofSMrdx" type="signed"/>
+        <correspContext corresp="i-TphSg1ooLPQp5QfofSMrdx">
+          <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-F3FAwUTHHE6XgmSeWrQoZ2">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-QRse1U8vjY6wjkZmPdzvvq">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BrC7XqBifmKGDRh4HoYv42">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2TD1BvbZVnqj32XQEp2GGy"/>
+        <correspContext corresp="i-2TD1BvbZVnqj32XQEp2GGy">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

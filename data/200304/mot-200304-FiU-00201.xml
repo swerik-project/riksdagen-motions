@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kreditupplysningslagen</title>
+        <author corresp="i-6Lf4ZWSEWXurZm4mkDAE7B">av Carl-Axel Johansson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kreditupplysningslagen</title>
+          <idno type="rdwebb">GR02Fi201</idno>
+          <rs type="number">Fi201</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Fi201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Fi201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Fi201</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-6Lf4ZWSEWXurZm4mkDAE7B</idno>
+            <name>Carl-Axel Johansson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-ArKuUL3xjYMgHNbtLN9tZJ" type="signed"/>
+        <correspContext corresp="i-ArKuUL3xjYMgHNbtLN9tZJ">
+          <note type="signatory" corresp="i-6Lf4ZWSEWXurZm4mkDAE7B"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-TQoFL33o2aswPVXpM4hJxU">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-KifwUQzXiNntmGZhNr2onq">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PxoPzYciCX1amfsoevmequ">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6ujhTyY1MgJzcLFjwPBCWJ"/>
+        <correspContext corresp="i-6ujhTyY1MgJzcLFjwPBCWJ">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00375">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Röstmottagningsställen vid förtidsröstning</title>
+        <author corresp="i-RzanNBST4vy6UAQ5Bjxbyq i-Spsbo7A5zikEeUY3JEYcNV">av Cinnika Beiming och Mikael Damberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Röstmottagningsställen vid förtidsröstning</title>
+          <idno type="rdwebb">GR02K375</idno>
+          <rs type="number">K375</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K375/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K375</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K375</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-RzanNBST4vy6UAQ5Bjxbyq</idno>
+            <name>Cinnika Beiming</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Spsbo7A5zikEeUY3JEYcNV</idno>
+            <name>Mikael Damberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NrrqJRWhRZbPCEigx6zwnj" type="signed"/>
+        <correspContext corresp="i-NrrqJRWhRZbPCEigx6zwnj">
+          <note type="signatory" corresp="i-RzanNBST4vy6UAQ5Bjxbyq"/>
+          <note type="signatory" corresp="i-Spsbo7A5zikEeUY3JEYcNV"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-HkyEJ6Yeak1ijUCrUPT5cE">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Aof12yn4AVjiHaQzGE3362">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GPH7Moz3neX2fctG5biKNF">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QVUYzQTw5BGhLD6UCAkFsi"/>
+        <correspContext corresp="i-QVUYzQTw5BGhLD6UCAkFsi">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

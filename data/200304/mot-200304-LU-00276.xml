@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00276">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Avgifter till STIM</title>
+        <author corresp="i-B471TcSCwHNHrNRk1EdJek i-EANGVQ7bBDvQLJRQXHptPX">av Eskil Erlandsson och Kenneth Johansson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Avgifter till STIM</title>
+          <idno type="rdwebb">GR02L276</idno>
+          <rs type="number">L276</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02L276/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02L276</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02L276</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-B471TcSCwHNHrNRk1EdJek</idno>
+            <name>Eskil Erlandsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-EANGVQ7bBDvQLJRQXHptPX</idno>
+            <name>Kenneth Johansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3V9XNfyfK7vwgkxYUbeQn4" type="signed"/>
+        <correspContext corresp="i-3V9XNfyfK7vwgkxYUbeQn4">
+          <note type="signatory" corresp="i-B471TcSCwHNHrNRk1EdJek"/>
+          <note type="signatory" corresp="i-EANGVQ7bBDvQLJRQXHptPX"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-RR8K2vBDLBJh7UcxPPHgfW">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-2mt5xb95gWTKVuEJa47kWf">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-N1JAG6H9BYx9GCJXkhS2gb">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Fyc1MuJDyJJ8J1Xh2wHD6u"/>
+        <correspContext corresp="i-Fyc1MuJDyJJ8J1Xh2wHD6u">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

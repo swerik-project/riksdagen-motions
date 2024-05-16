@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-NU-00213">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Miljötekniskt centrum</title>
+        <author corresp="i-D6hrZCxPVTQxPgXvGFfuJ7">av Ulf Sjösten (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Miljötekniskt centrum</title>
+          <idno type="rdwebb">GR02N213</idno>
+          <rs type="number">N213</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02N213/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02N213</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02N213</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-D6hrZCxPVTQxPgXvGFfuJ7</idno>
+            <name>Ulf Sjösten</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BJHRmhq4dDMcYYVX3Bkvro" type="signed"/>
+        <correspContext corresp="i-BJHRmhq4dDMcYYVX3Bkvro">
+          <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-T7m9bPTPJa6i92QdfwJ1t3">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-8cuBV1CgmZEpquFpkiTpdC">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-MjtYuyk5sitZirUGN3Ai7P">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AkPmfCbqAyvG4Apjzp1FhN"/>
+        <correspContext corresp="i-AkPmfCbqAyvG4Apjzp1FhN">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

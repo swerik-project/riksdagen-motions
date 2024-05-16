@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00229">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Demokrati i Uppsala län</title>
+        <author corresp="i-D33H5dL4TMdTn9ZXMMYEbb">av Rigmor Stenmark (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Demokrati i Uppsala län</title>
+          <idno type="rdwebb">GR02K229</idno>
+          <rs type="number">K229</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K229/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K229</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K229</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-D33H5dL4TMdTn9ZXMMYEbb</idno>
+            <name>Rigmor Stenmark</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5uJhMRPThuaFMTQPhmPgnj" type="signed"/>
+        <correspContext corresp="i-5uJhMRPThuaFMTQPhmPgnj">
+          <note type="signatory" corresp="i-D33H5dL4TMdTn9ZXMMYEbb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8M8yLZdpurnAUvbebdUbKZ">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-4U74mkC6XENt33oC7bULLT">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-ALFkbA6AN6xXrjUsNZccTQ">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-WrHVr1z4a52sLHm8YWHNMf"/>
+        <correspContext corresp="i-WrHVr1z4a52sLHm8YWHNMf">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

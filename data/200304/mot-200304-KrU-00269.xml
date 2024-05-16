@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00269">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kyrkligt kulturarv</title>
+        <author corresp="i-J2F63fdxUFAAeBTYXLX7MZ i-JSSYZnWrKjtbfWDmu1qLSb">av Anita Sidén och Magdalena Andersson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kyrkligt kulturarv</title>
+          <idno type="rdwebb">GR02Kr269</idno>
+          <rs type="number">Kr269</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Kr269/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Kr269</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Kr269</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-J2F63fdxUFAAeBTYXLX7MZ</idno>
+            <name>Anita Sidén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-JSSYZnWrKjtbfWDmu1qLSb</idno>
+            <name>Magdalena Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BBgFtjWpNyVHFJ7LrFzJm8" type="signed"/>
+        <correspContext corresp="i-BBgFtjWpNyVHFJ7LrFzJm8">
+          <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
+          <note type="signatory" corresp="i-JSSYZnWrKjtbfWDmu1qLSb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-RCYqqpC5SiRf8cYmzWUvhX">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-C3T5dGdnuppnGocRL1iw6W">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-X1ot9p16FZ9RUkTuEkfE1c">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-EJFbac9rRLpvRJvQnXYyxU"/>
+        <correspContext corresp="i-EJFbac9rRLpvRJvQnXYyxU">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

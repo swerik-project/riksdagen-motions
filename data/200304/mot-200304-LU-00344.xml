@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00344">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Den kommunala överförmyndarverksamheten</title>
+        <author corresp="i-CC4z6y829HSoYCYrGDHrtv">av Kenth Högström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Den kommunala överförmyndarverksamheten</title>
+          <idno type="rdwebb">GR02L344</idno>
+          <rs type="number">L344</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02L344/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02L344</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02L344</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CC4z6y829HSoYCYrGDHrtv</idno>
+            <name>Kenth Högström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-F3CwBR2QWXcmXgPC25M2M6" type="signed"/>
+        <correspContext corresp="i-F3CwBR2QWXcmXgPC25M2M6">
+          <note type="signatory" corresp="i-CC4z6y829HSoYCYrGDHrtv"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-B4Pz4ZBtAxh5bv86o8fWNB">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-MUEfYW4NsfYABwZ2Tvq5Ck">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6a5Sptn8fEqKtTsVwLg9cm">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Q5QkMXcESSzBv7L5TcVVXc"/>
+        <correspContext corresp="i-Q5QkMXcESSzBv7L5TcVVXc">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

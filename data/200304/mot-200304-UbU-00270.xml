@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00270">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vårdutbildning</title>
+        <author corresp="i-S7wLw9aynA5vbRCsqxxL3N">av Tina Acketoft (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vårdutbildning</title>
+          <idno type="rdwebb">GR02Ub270</idno>
+          <rs type="number">Ub270</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Ub270/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Ub270</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Ub270</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-S7wLw9aynA5vbRCsqxxL3N</idno>
+            <name>Tina Acketoft</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JD7zZ4NePDsYzm7V6kDFNT" type="signed"/>
+        <correspContext corresp="i-JD7zZ4NePDsYzm7V6kDFNT">
+          <note type="signatory" corresp="i-S7wLw9aynA5vbRCsqxxL3N"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-CroN6ESfFPmsFXcS5AKLjA">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-54hAWSA8BmWiGpVEbu7D9A">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WihcT4tZgajV4m2Cqy8mo3">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KQQ91gQhfTuoheFhJshy6F"/>
+        <correspContext corresp="i-KQQ91gQhfTuoheFhJshy6F">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

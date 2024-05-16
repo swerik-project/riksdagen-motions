@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00355">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ohälsofrågor</title>
+        <author corresp="i-Ct7W83fwgMLpB48uiYaBqi">av Mia Franzén (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ohälsofrågor</title>
+          <idno type="rdwebb">GR02Sf355</idno>
+          <rs type="number">Sf355</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Sf355/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Sf355</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Sf355</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Ct7W83fwgMLpB48uiYaBqi</idno>
+            <name>Mia Franzén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JeRig4qL8FsY6tm9mEgjDG" type="signed"/>
+        <correspContext corresp="i-JeRig4qL8FsY6tm9mEgjDG">
+          <note type="signatory" corresp="i-Ct7W83fwgMLpB48uiYaBqi"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-iK2RrXEEoEtvcUzkFhaA4">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-3fXZYDWAFXWewjPtVZRRNB">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-QP7VjeFuSx12gaUnwAn5Fc">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JtEnz3qtLxNebbKu93jtGG"/>
+        <correspContext corresp="i-JtEnz3qtLxNebbKu93jtGG">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

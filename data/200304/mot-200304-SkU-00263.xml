@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00263">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Förmånstagare till pensionsförsäkringar</title>
+        <author corresp="i-4BTx6VbUNJDqLqfkYqjnsE">av Tuve Skånberg (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Förmånstagare till pensionsförsäkringar</title>
+          <idno type="rdwebb">GR02Sk263</idno>
+          <rs type="number">Sk263</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Sk263/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Sk263</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Sk263</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4BTx6VbUNJDqLqfkYqjnsE</idno>
+            <name>Tuve Skånberg</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DMk8WRBX6Q1niVsnnNovLp" type="signed"/>
+        <correspContext corresp="i-DMk8WRBX6Q1niVsnnNovLp">
+          <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-7UAsaXUjjEtF6skXpNH7cb">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-NqYZ1zZGcuxth2JMmV2Wzq">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-FCpAik3KX1gV9WBBUSPbxk">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-5kHvexAgjJ2xs9wsNbLEHB"/>
+        <correspContext corresp="i-5kHvexAgjJ2xs9wsNbLEHB">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

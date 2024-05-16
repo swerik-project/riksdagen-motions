@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00243">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mobiltelefoni i fjällen</title>
+        <author corresp="i-AQAc7L3yWtMcgD3r6CxRHG i-K5zTLSXt1UWyYngcbEuofY">av Maria Öberg och Kristina Zakrisson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Mobiltelefoni i fjällen</title>
+          <idno type="rdwebb">GR02T243</idno>
+          <rs type="number">T243</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02T243/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02T243</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02T243</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-AQAc7L3yWtMcgD3r6CxRHG</idno>
+            <name>Maria Öberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-K5zTLSXt1UWyYngcbEuofY</idno>
+            <name>Kristina Zakrisson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GXTMSCruYMDn9QEPLfiD4R" type="signed"/>
+        <correspContext corresp="i-GXTMSCruYMDn9QEPLfiD4R">
+          <note type="signatory" corresp="i-AQAc7L3yWtMcgD3r6CxRHG"/>
+          <note type="signatory" corresp="i-K5zTLSXt1UWyYngcbEuofY"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-SvSAM9uo15jWnBaXnGRGuA">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-AB6o8CXhjmAZW27unn8u5Z">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DGexbTVkrtULUtC9uRJdk2">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Y1D6vvCFoXQauuezEk2sc5"/>
+        <correspContext corresp="i-Y1D6vvCFoXQauuezEk2sc5">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

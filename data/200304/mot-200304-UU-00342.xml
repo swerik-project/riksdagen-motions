@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UU-00342">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nordiskt samarbete</title>
+        <author corresp="i-QqgpadBP4SAf6uA8SRtTMY">av Runar Patriksson (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nordiskt samarbete</title>
+          <idno type="rdwebb">GR02U342</idno>
+          <rs type="number">U342</rs>
+          <orgName type="comitteeAbbreviation">UU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02U342/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02U342</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02U342</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QqgpadBP4SAf6uA8SRtTMY</idno>
+            <name>Runar Patriksson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LHGmkc8BEDuvyKKeSCXRqT" type="signed"/>
+        <correspContext corresp="i-LHGmkc8BEDuvyKKeSCXRqT">
+          <note type="signatory" corresp="i-QqgpadBP4SAf6uA8SRtTMY"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-4M8hqQVLfafYkXxwJHJAse">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-FbkF15R3ZVYWkgn6e6YGDS">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-74xRyLuwYgk37HyKzMzveV">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KAiKHnvzzXaqadvdy9465W"/>
+        <correspContext corresp="i-KAiKHnvzzXaqadvdy9465W">
+          <ref type="assignedTo">Utrikesutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

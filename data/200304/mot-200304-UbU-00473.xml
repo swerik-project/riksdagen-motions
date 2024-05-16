@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00473">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bristen på tolkar</title>
+        <author corresp="i-J2F63fdxUFAAeBTYXLX7MZ i-QqQ96z9hf4LQtMxJfJm6ZQ">av Anita Sidén och Jeppe Johnsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bristen på tolkar</title>
+          <idno type="rdwebb">GR02Ub473</idno>
+          <rs type="number">Ub473</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Ub473/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Ub473</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Ub473</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-J2F63fdxUFAAeBTYXLX7MZ</idno>
+            <name>Anita Sidén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-QqQ96z9hf4LQtMxJfJm6ZQ</idno>
+            <name>Jeppe Johnsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DMpS5cyTAh6m49rrFZut3p" type="signed"/>
+        <correspContext corresp="i-DMpS5cyTAh6m49rrFZut3p">
+          <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
+          <note type="signatory" corresp="i-QqQ96z9hf4LQtMxJfJm6ZQ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-3biw5s5htNiiZgMov8kPkb">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-GFmKMDjjiAPX93SoW3MjQ9">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-K5hiMmGSmhkohxU8x4gukP">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-X2P4rWWgCVfPbXHAgQTSvv"/>
+        <correspContext corresp="i-X2P4rWWgCVfPbXHAgQTSvv">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

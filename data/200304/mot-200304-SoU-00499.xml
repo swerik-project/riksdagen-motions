@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00499">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stöd till familjen</title>
+        <author corresp="i-Ybw8JnrmHGCsqpipBke8a7 i-JuBXXY8rg7e17ax8wgpWHG">av Mikael Oscarsson och Dan Kihlström (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Stöd till familjen</title>
+          <idno type="rdwebb">GR02So499</idno>
+          <rs type="number">So499</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02So499/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02So499</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02So499</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ybw8JnrmHGCsqpipBke8a7</idno>
+            <name>Mikael Oscarsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-JuBXXY8rg7e17ax8wgpWHG</idno>
+            <name>Dan Kihlström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AcdaoLJxz99uqaQFxa5N4C" type="signed"/>
+        <correspContext corresp="i-AcdaoLJxz99uqaQFxa5N4C">
+          <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
+          <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-7C6JoCfMp1fzZNXuKSupQg">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-KqB6ssD3FZkNm1wf6CBewp">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HpEeQ1ftDzEX74dvTphriW">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-3gVprBNmAFmvuN2X1EKmtN"/>
+        <correspContext corresp="i-3gVprBNmAFmvuN2X1EKmtN">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

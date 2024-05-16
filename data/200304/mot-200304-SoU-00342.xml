@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00342">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psykiatri</title>
+        <author corresp="i-KdNZEf7wb1MAJv58QEHYrr">av Göran Lindblad (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Psykiatri</title>
+          <idno type="rdwebb">GR02So342</idno>
+          <rs type="number">So342</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02So342/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02So342</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02So342</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KdNZEf7wb1MAJv58QEHYrr</idno>
+            <name>Göran Lindblad</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-6Z3CA2L4aVncabZcDRSJLn" type="signed"/>
+        <correspContext corresp="i-6Z3CA2L4aVncabZcDRSJLn">
+          <note type="signatory" corresp="i-KdNZEf7wb1MAJv58QEHYrr"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-26iXybYoEiuF1VmsJ29uaJ">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-KMdZk3AhvbHp4XAcoB4ToK">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HJxYzJXrpAwGFC2qxSrJxZ">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-W7ECroCUogs4UPMZnEArkS"/>
+        <correspContext corresp="i-W7ECroCUogs4UPMZnEArkS">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

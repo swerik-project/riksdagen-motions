@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00391">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De svenska småbryggerierna</title>
+        <author corresp="i-W6BJ44rcZjp5pD28NhHrCf i-RCNVVc6jFAU8YPdr6sW8jH">av Gunnar Axén och Stefan Hagfeldt (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>De svenska småbryggerierna</title>
+          <idno type="rdwebb">GR02So391</idno>
+          <rs type="number">So391</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02So391/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02So391</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02So391</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-W6BJ44rcZjp5pD28NhHrCf</idno>
+            <name>Gunnar Axén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-RCNVVc6jFAU8YPdr6sW8jH</idno>
+            <name>Stefan Hagfeldt</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VQHDgyQ4TojL4bEWKAsS1p" type="signed"/>
+        <correspContext corresp="i-VQHDgyQ4TojL4bEWKAsS1p">
+          <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
+          <note type="signatory" corresp="i-RCNVVc6jFAU8YPdr6sW8jH"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LtpMFCKhyQRoSnDZbvfWWm">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-QE9cc5Wm5nXRQJarbc4Xmq">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HEoUDNt6TGjXhN4uD8v6D1">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-YFCt6SyuZbmQPNQRCUXa3Y"/>
+        <correspContext corresp="i-YFCt6SyuZbmQPNQRCUXa3Y">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

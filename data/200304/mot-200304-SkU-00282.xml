@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00282">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Beskattning av utboägande</title>
+        <author corresp="i-XxqQtZTdHUTphXEbUJ35Ss">av Håkan Larsson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Beskattning av utboägande</title>
+          <idno type="rdwebb">GR02Sk282</idno>
+          <rs type="number">Sk282</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Sk282/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Sk282</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Sk282</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XxqQtZTdHUTphXEbUJ35Ss</idno>
+            <name>Håkan Larsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PpnzdCC9V7upcYmnZAcBtm" type="signed"/>
+        <correspContext corresp="i-PpnzdCC9V7upcYmnZAcBtm">
+          <note type="signatory" corresp="i-XxqQtZTdHUTphXEbUJ35Ss"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Geb5DQKfztyQP1jXxP8eAJ">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Lf5V6EiRTv9j85k4UpR3Ju">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-13Krt6HcXxuvzCzy3paTE2">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-SfQtTEkJ6vVjfnTNpPUvpb"/>
+        <correspContext corresp="i-SfQtTEkJ6vVjfnTNpPUvpb">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00410">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Riksdagens arbetsformer</title>
+        <author corresp="i-UmhVhzFM3Rs65aFjMTgRvj">av Anne-Marie Pålsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Riksdagens arbetsformer</title>
+          <idno type="rdwebb">GR02K410</idno>
+          <rs type="number">K410</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02K410/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02K410</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02K410</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-UmhVhzFM3Rs65aFjMTgRvj</idno>
+            <name>Anne-Marie Pålsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MfeGdhkM11LmbtfgxTV7BM" type="signed"/>
+        <correspContext corresp="i-MfeGdhkM11LmbtfgxTV7BM">
+          <note type="signatory" corresp="i-UmhVhzFM3Rs65aFjMTgRvj"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LZ7rzrRxNrKTijsAAStBz3">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7w4jckYzVULs1Reka12pjm">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PsSLnRioJBLsUMAyberjMV">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Vh78iLwAn53McJoBvaz15x"/>
+        <correspContext corresp="i-Vh78iLwAn53McJoBvaz15x">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

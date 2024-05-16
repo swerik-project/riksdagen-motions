@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00308">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alkolås</title>
+        <author corresp="i-P1efbUFx2TJLN3ZrfkaSuG i-PxnWyEEEJkswzBKdKbv36K">av Kerstin Kristiansson Karlstedt och Agneta Lundberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Alkolås</title>
+          <idno type="rdwebb">GR02T308</idno>
+          <rs type="number">T308</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02T308/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02T308</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02T308</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-P1efbUFx2TJLN3ZrfkaSuG</idno>
+            <name>Kerstin Kristiansson Karlstedt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-PxnWyEEEJkswzBKdKbv36K</idno>
+            <name>Agneta Lundberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JrJys6H6ztNcJoYs4yzJ74" type="signed"/>
+        <correspContext corresp="i-JrJys6H6ztNcJoYs4yzJ74">
+          <note type="signatory" corresp="i-P1efbUFx2TJLN3ZrfkaSuG"/>
+          <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Ag2avskGVk6AVUZKTirPjr">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-PQfZMz1p5nf6wreynAsUTD">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-C8atRQhrSC8M15S1g3XMEd">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-54WvV67wrGrY9fs7xk2qkp"/>
+        <correspContext corresp="i-54WvV67wrGrY9fs7xk2qkp">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

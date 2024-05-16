@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00277">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Proffsboxning</title>
+        <author corresp="i-W6BJ44rcZjp5pD28NhHrCf i-9beYBFzEh8w1EjPQHXW3mC">av Gunnar Axén och Jan-Evert Rådhström (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Proffsboxning</title>
+          <idno type="rdwebb">GR02Kr277</idno>
+          <rs type="number">Kr277</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Kr277/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Kr277</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Kr277</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-W6BJ44rcZjp5pD28NhHrCf</idno>
+            <name>Gunnar Axén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-9beYBFzEh8w1EjPQHXW3mC</idno>
+            <name>Jan-Evert Rådhström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3YPDx99q94G27rwjTzMR4A" type="signed"/>
+        <correspContext corresp="i-3YPDx99q94G27rwjTzMR4A">
+          <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
+          <note type="signatory" corresp="i-9beYBFzEh8w1EjPQHXW3mC"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-X41zoUTchfxsi7sR8rUVJ1">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-G1r9GkiL3z1zqAaP1VqWDb">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9oMfA3VAt6tJLhAUkQdCff">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JWpmuGg3wRMD1HYeCss1Qf"/>
+        <correspContext corresp="i-JWpmuGg3wRMD1HYeCss1Qf">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

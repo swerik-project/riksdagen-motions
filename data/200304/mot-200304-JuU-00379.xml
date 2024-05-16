@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00379">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fortsatt Göteborgsutredning</title>
+        <author corresp="i-9CH1KbWwyrj8DRqAQB3Fza i-N4rvx7AGKxwhx5XDdagQzk">av Gustav Fridolin och Helena Hillar Rosenqvist (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fortsatt Göteborgsutredning</title>
+          <idno type="rdwebb">GR02Ju379</idno>
+          <rs type="number">Ju379</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Ju379/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Ju379</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Ju379</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9CH1KbWwyrj8DRqAQB3Fza</idno>
+            <name>Gustav Fridolin</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-N4rvx7AGKxwhx5XDdagQzk</idno>
+            <name>Helena Hillar Rosenqvist</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-R9RUedeNZrZa3Gusf5U37Q" type="signed"/>
+        <correspContext corresp="i-R9RUedeNZrZa3Gusf5U37Q">
+          <note type="signatory" corresp="i-9CH1KbWwyrj8DRqAQB3Fza"/>
+          <note type="signatory" corresp="i-N4rvx7AGKxwhx5XDdagQzk"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-4Vq2BMJegkVCo3wQmX5VAB">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-JovCjzsqCitNaZfajkDwek">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HdHiXSecKUSh5Y1FsX3Vox">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Kxyz2vj6WHvBAW7KSJDQgA"/>
+        <correspContext corresp="i-Kxyz2vj6WHvBAW7KSJDQgA">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

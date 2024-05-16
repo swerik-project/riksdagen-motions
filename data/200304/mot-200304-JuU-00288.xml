@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00288">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nämndemän vid Sveriges domstolar</title>
+        <author corresp="i-PxnWyEEEJkswzBKdKbv36K i-P1efbUFx2TJLN3ZrfkaSuG">av Agneta Lundberg och Kerstin Kristiansson Karlstedt (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nämndemän vid Sveriges domstolar</title>
+          <idno type="rdwebb">GR02Ju288</idno>
+          <rs type="number">Ju288</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Ju288/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Ju288</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Ju288</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-PxnWyEEEJkswzBKdKbv36K</idno>
+            <name>Agneta Lundberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-P1efbUFx2TJLN3ZrfkaSuG</idno>
+            <name>Kerstin Kristiansson Karlstedt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-ESm9rxucts11CKucNe8WtX" type="signed"/>
+        <correspContext corresp="i-ESm9rxucts11CKucNe8WtX">
+          <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
+          <note type="signatory" corresp="i-P1efbUFx2TJLN3ZrfkaSuG"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Y7eT33vtW3jfU5s57AVJqY">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Q3BjbH2zHeMVDWGPazYyWf">
+          <date when="2003-10-15"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9cqbYVxfat6UnrjRz7W8gN">
+          <date when="2003-10-07"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7PCNH6TyZx4vQJ7RX12h9F"/>
+        <correspContext corresp="i-7PCNH6TyZx4vQJ7RX12h9F">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

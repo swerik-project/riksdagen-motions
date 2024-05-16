@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201415--03034">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2014/15:3034</title>
+          <idno type="rdwebb">H2023034</idno>
+          <rs type="number">3034</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H2023034/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H2023034</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H2023034</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-H6i77bianCgQAnMyqCfYc8</idno>
+            <name>Linus Bylund</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Lw92TAaAVgG8Kdf7YxhViy</idno>
+            <name>Markus Wiechel</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-MakV1EvC3LLnePpBXzwg5H</idno>
+            <name>Jennie Åfeldt</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="dismissed"/>
+        <correspAction xml:id="i-DBS45BRJhGdJ8mqJ9T77fq" type="signed"/>
+        <correspContext corresp="i-DBS45BRJhGdJ8mqJ9T77fq">
+          <note type="signatory" corresp="i-H6i77bianCgQAnMyqCfYc8"/>
+          <note type="signatory" corresp="i-Lw92TAaAVgG8Kdf7YxhViy"/>
+          <note type="signatory" corresp="i-MakV1EvC3LLnePpBXzwg5H"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-bQhapZ5UVDVyvqNpxqDgm">
+          <date when="2015-01-27"/>
+          <time when="15:58:49"/>
+        </correspAction>
+        <correspAction type="expired" xml:id="i-Mbnbu3s4zKd4dQxpyGG7D">
+          <date when="2015-01-28"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201415-KU-01021">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digitaliserat system för signering och inlämning av motioner</title>
+        <author corresp="i-VFaAexqzCaq9JmKCfc1WJ9">av Julia Kronlid (SD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2014/15:1021 av Julia Kronlid (SD)</title>
+          <idno type="rdwebb">H2021021</idno>
+          <rs type="number">1021</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H2021021/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H2021021</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H2021021</ref>
+          <ref type="docx">http://data.riksdagen.se/fil/9F21A1D2-A60A-4378-B773-974C9DDD9ACD</ref>
+          <ref type="pdf">http://data.riksdagen.se/fil/081532F6-9E9C-4EC3-82A0-C819C3C191B2</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VFaAexqzCaq9JmKCfc1WJ9</idno>
+            <name>Julia Kronlid</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="closed"/>
+        <correspAction xml:id="i-E2cX6e25CbCkrHG9D6ncfp" type="signed"/>
+        <correspContext corresp="i-E2cX6e25CbCkrHG9D6ncfp">
+          <note type="signatory" corresp="i-VFaAexqzCaq9JmKCfc1WJ9"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-CfGFSx2ZY6GiZfG1rA5fM1">
+          <date when="2014-11-06"/>
+          <time when="16:10:52"/>
+        </correspAction>
+        <correspAction type="referred" xml:id="i-QBCQPNwT8LDkLbBcds3noi">
+          <date when="2014-11-12"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HaG98QMWGCi75iE8NxFwL3">
+          <date when="2016-04-27"/>
+          <time when="10:32:28"/>
+        </correspAction>
+        <correspContext corresp="i-HaG98QMWGCi75iE8NxFwL3">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+        <correspAction type="behandlas_i" xml:id="i-5pKmQ5zmDtzxeCon75PwrN"/>
+        <correspContext corresp="i-5pKmQ5zmDtzxeCon75PwrN">
+          <ref type="uppgift">2014/15:KU6</ref>
+          <ref type="ref_dok_id">H201KU6</ref>
+          <ref type="ref_dok_typ">bet</ref>
+          <ref type="ref_dok_rm">2014/15</ref>
+          <ref type="ref_dok_bet">KU6</ref>
+          <ref type="ref_dok_titel">Riksdagens arbetsformer m.m.</ref>
+          <ref type="ref_dok_subtyp">bet</ref>
+          <ref type="ref_dok_dokumentnamn">Betänkande</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

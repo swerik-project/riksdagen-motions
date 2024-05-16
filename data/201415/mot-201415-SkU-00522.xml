@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201415-SkU-00522">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Personnummer</title>
+        <author corresp="i-3hmS3YtKuXCDu8pntcLAdc i-SwCG7qehtiZEoxQcEgSRCW">av Hans Hoff och Suzanne Svensson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Personnummer</title>
+          <idno type="rdwebb">H202522</idno>
+          <rs type="number">522</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H202522/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H202522</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H202522</ref>
+          <ref type="docx">http://data.riksdagen.se/fil/D35C0DF7-5D59-44C7-BAC1-5B7FAD7D611C</ref>
+          <ref type="pdf">http://data.riksdagen.se/fil/D094938E-28DF-46A5-A7E9-E167DDFCE3FB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3hmS3YtKuXCDu8pntcLAdc</idno>
+            <name>Hans Hoff</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-SwCG7qehtiZEoxQcEgSRCW</idno>
+            <name>Suzanne Svensson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="closed"/>
+        <correspAction xml:id="i-Vb4Vtct9r192oCbrMQu25D" type="signed"/>
+        <correspContext corresp="i-Vb4Vtct9r192oCbrMQu25D">
+          <note type="signatory" corresp="i-3hmS3YtKuXCDu8pntcLAdc"/>
+          <note type="signatory" corresp="i-SwCG7qehtiZEoxQcEgSRCW"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-DK2arqwJH6b8BWqzDqJRPQ">
+          <date when="2014-11-06"/>
+          <time when="10:15:35"/>
+        </correspAction>
+        <correspAction type="referred" xml:id="i-SBp6RYqE2A4eHevjKZsGvk">
+          <date when="2014-11-12"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-DuLRNt7DM5rXRQTjyk7VYE">
+          <date when="2016-05-04"/>
+          <time when="16:20:14"/>
+        </correspAction>
+        <correspContext corresp="i-DuLRNt7DM5rXRQTjyk7VYE">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+        <correspAction type="behandlas_i" xml:id="i-94c7wr2WS1ovagJFyZe5NG"/>
+        <correspContext corresp="i-94c7wr2WS1ovagJFyZe5NG">
+          <ref type="uppgift">2014/15:SkU20</ref>
+          <ref type="ref_dok_id">H201SkU20</ref>
+          <ref type="ref_dok_typ">bet</ref>
+          <ref type="ref_dok_rm">2014/15</ref>
+          <ref type="ref_dok_bet">SkU20</ref>
+          <ref type="ref_dok_titel">Skatteförfarande och folkbokföring</ref>
+          <ref type="ref_dok_subtyp">bet</ref>
+          <ref type="ref_dok_dokumentnamn">Betänkande</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

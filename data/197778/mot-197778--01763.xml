@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197778--01763">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mot, 1977/78  1763-1765</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Mot, 1977/78  1763-1765</title>
+          <idno type="rdwebb">G1021763</idno>
+          <rs type="number">1763</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G1021763/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G1021763</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G1021763</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4L3RupkmJsW37eGn5fppsN</idno>
+            <name>TORSTEN STRIDSMAN</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-APdYmA6gEZ5MaLN6tJK7ae</idno>
+            <name>FILIP JOHANSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JD85YGZFTLVvH6FYD1vpG8" type="signed"/>
+        <correspContext corresp="i-JD85YGZFTLVvH6FYD1vpG8">
+          <note type="signatory" corresp="i-4L3RupkmJsW37eGn5fppsN"/>
+          <note type="signatory" corresp="i-APdYmA6gEZ5MaLN6tJK7ae"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197778--00808">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om AMS-anslag till vägarbeten i Kalmar län</title>
+        <author>av Ingrid Andersson och Lars Schött </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om AMS-anslag till vägarbeten i Kalmar län</title>
+          <idno type="rdwebb">G102808</idno>
+          <rs type="number">808</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G102808/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G102808</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G102808</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>INGRID ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-2vSoREUgDMM9du3oZhTyJR</idno>
+            <name>LARS SCHÖTT</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KCHB9pR2LWYQq8tKU2vU3Y" type="signed"/>
+        <correspContext corresp="i-KCHB9pR2LWYQq8tKU2vU3Y">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-2vSoREUgDMM9du3oZhTyJR"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

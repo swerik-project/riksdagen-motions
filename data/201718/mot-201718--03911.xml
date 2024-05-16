@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201718--03911">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2017/18:3911</title>
+          <idno type="rdwebb">H5023911</idno>
+          <rs type="number">3911</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5023911/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5023911</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5023911</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-7j9zqwa59cSRps4Te6ek4E</idno>
+            <name>Stefan Jakobsson</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-EDRJhBHzVgQtpo6Ksyzirg</idno>
+            <name>Robert Stenkvist</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="dismissed"/>
+        <correspAction xml:id="i-G5L875QxDu3c9mkhZRSigf" type="signed"/>
+        <correspContext corresp="i-G5L875QxDu3c9mkhZRSigf">
+          <note type="signatory" corresp="i-7j9zqwa59cSRps4Te6ek4E"/>
+          <note type="signatory" corresp="i-EDRJhBHzVgQtpo6Ksyzirg"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-UxL5mmyR8CNxVjG5iAaVcu">
+          <date when="2017-10-23"/>
+          <time when="15:06:44"/>
+        </correspAction>
+        <correspAction type="expired" xml:id="i-L37UGpRqMEDQtDTkvoRfpU">
+          <date when="2017-10-25"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

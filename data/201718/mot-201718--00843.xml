@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201718--00843">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2017/18:843</title>
+          <idno type="rdwebb">H502843</idno>
+          <rs type="number">843</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H502843/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H502843</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H502843</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Swns2VJiq8mNPgw8cBRfJ9</idno>
+            <name>Jamal El-Haj</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="dismissed"/>
+        <correspAction xml:id="i-LG7bAU8hqehCYdV1wzgovo" type="signed"/>
+        <correspContext corresp="i-LG7bAU8hqehCYdV1wzgovo">
+          <note type="signatory" corresp="i-Swns2VJiq8mNPgw8cBRfJ9"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-WQVK1YFQwD6qPKMntw7Q32">
+          <date when="2017-09-29"/>
+          <time when="16:27:52"/>
+        </correspAction>
+        <correspAction type="reviewed" xml:id="i-EKCzw5fyMePNkc4RofDy1u">
+          <date when="2017-10-02"/>
+          <time when="09:14:34"/>
+        </correspAction>
+        <correspAction type="expired" xml:id="i-SYSWq9m3RGesvRrzQT6JMD">
+          <date when="2017-10-04"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

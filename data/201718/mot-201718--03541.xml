@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201718--03541">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2017/18:3541</title>
+          <idno type="rdwebb">H5023541</idno>
+          <rs type="number">3541</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5023541/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5023541</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5023541</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-G6h5eGLouuQFhsrn32jgsV</idno>
+            <name>Johnny Skalin</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GxR5ErC49adunYGkPPbfe7" type="signed"/>
+        <correspContext corresp="i-GxR5ErC49adunYGkPPbfe7">
+          <note type="signatory" corresp="i-G6h5eGLouuQFhsrn32jgsV"/>
+        </correspContext>
+        <correspAction type="expired" xml:id="i-UyV89rturGZ7MBFb6DapPX">
+          <date when="2017-10-05"/>
+        </correspAction>
+        <correspAction type="submitted" xml:id="i-2Ue5JdFVtMxX6WWW3FEMYe">
+          <date when="2017-10-05"/>
+          <time when="14:26:31"/>
+        </correspAction>
+        <correspAction type="reviewed" xml:id="i-GcGWE1UJHHJcHtpTm2amhh">
+          <date when="2017-10-05"/>
+          <time when="15:20:03"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

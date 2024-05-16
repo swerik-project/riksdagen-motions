@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201718--00194">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2017/18:194</title>
+          <idno type="rdwebb">H502194</idno>
+          <rs type="number">194</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H502194/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H502194</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H502194</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-RMyMvNY8rQGcpLy854czaK</idno>
+            <name>Olle Felten</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-XRXtPdXG8Ahj3n8huVdjCn</idno>
+            <name>Per Ramhorn</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="dismissed"/>
+        <correspAction xml:id="i-VFjdG7vvbJApnKUinz6u2U" type="signed"/>
+        <correspContext corresp="i-VFjdG7vvbJApnKUinz6u2U">
+          <note type="signatory" corresp="i-RMyMvNY8rQGcpLy854czaK"/>
+          <note type="signatory" corresp="i-XRXtPdXG8Ahj3n8huVdjCn"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-853Juy22UuceZN8NMMMh5a">
+          <date when="2017-09-25"/>
+          <time when="14:31:51"/>
+        </correspAction>
+        <correspAction type="reviewed" xml:id="i-V6MqbKrrbQowNUE5jh7z2T">
+          <date when="2017-09-25"/>
+          <time when="15:12:42"/>
+        </correspAction>
+        <correspAction type="expired" xml:id="i-Nq6o76aPTLNRQpa5eJR1vN">
+          <date when="2017-10-03"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

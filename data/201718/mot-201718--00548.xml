@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201718--00548">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2017/18:548</title>
+          <idno type="rdwebb">H502548</idno>
+          <rs type="number">548</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H502548/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H502548</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H502548</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-5xq5y8yJUv1khDbYCaXJ7X</idno>
+            <name>Dennis Dioukarev</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="dismissed"/>
+        <correspAction xml:id="i-M7wfmYLNoCNZLwybW1HaSH" type="signed"/>
+        <correspContext corresp="i-M7wfmYLNoCNZLwybW1HaSH">
+          <note type="signatory" corresp="i-5xq5y8yJUv1khDbYCaXJ7X"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-7wMRyXC896c6J4EzLXEPt9">
+          <date when="2017-09-29"/>
+          <time when="11:01:00"/>
+        </correspAction>
+        <correspAction type="reviewed" xml:id="i-V2syfACDYapvUgT11ZrKpJ">
+          <date when="2017-09-29"/>
+          <time when="14:02:40"/>
+        </correspAction>
+        <correspAction type="expired" xml:id="i-cxfRGfJjiVBqDBveASFYP">
+          <date when="2017-10-03"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

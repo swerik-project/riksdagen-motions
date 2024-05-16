@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-SoU-00450">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hemlöshet</title>
+        <author corresp="i-MVzhVeKwRGmjHjHoSrReg9 i-TNGoE23iJfaY3bMVx88LYe">av Börje Vestlund och Sylvia Lindgren (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hemlöshet</title>
+          <idno type="rdwebb">GX02So450</idno>
+          <rs type="number">So450</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02So450/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02So450</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02So450</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A1745469-EC51-4C5A-8BA2-91E650E6DEA8</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-MVzhVeKwRGmjHjHoSrReg9</idno>
+            <name>Börje Vestlund</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-TNGoE23iJfaY3bMVx88LYe</idno>
+            <name>Sylvia Lindgren</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-S9Ub26kTt9B6A3zwwUewZA" type="signed"/>
+        <correspContext corresp="i-S9Ub26kTt9B6A3zwwUewZA">
+          <note type="signatory" corresp="i-MVzhVeKwRGmjHjHoSrReg9"/>
+          <note type="signatory" corresp="i-TNGoE23iJfaY3bMVx88LYe"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-NMhacjSm2kQVAdaB6ufZ48">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NVUoN2N4uSoz35QhqESgAD">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-V4atmxH6tAffsTFKscTos3">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UYBFUJi84WaZD52tinufi7"/>
+        <correspContext corresp="i-UYBFUJi84WaZD52tinufi7">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

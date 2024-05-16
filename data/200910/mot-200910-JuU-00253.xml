@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-JuU-00253">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tjänstemannaansvar</title>
+        <author corresp="i-AqkTDdERRgq7MWP7ajMpZo i-PxnWyEEEJkswzBKdKbv36K">av Jasenko Omanovic och Agneta Lundberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Tjänstemannaansvar</title>
+          <idno type="rdwebb">GX02Ju253</idno>
+          <rs type="number">Ju253</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Ju253/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Ju253</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Ju253</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/5E78F0FC-E39B-4C3D-BF74-32237639AE7D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AqkTDdERRgq7MWP7ajMpZo</idno>
+            <name>Jasenko Omanovic</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-PxnWyEEEJkswzBKdKbv36K</idno>
+            <name>Agneta Lundberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-S5H1VDziDhWu1x1HnsMBvF" type="signed"/>
+        <correspContext corresp="i-S5H1VDziDhWu1x1HnsMBvF">
+          <note type="signatory" corresp="i-AqkTDdERRgq7MWP7ajMpZo"/>
+          <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Rr33vXhXtt86Hg1nmLQc95">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-CKp5YMgtv6bvTtNWcHM4ci">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-WQNcunhggK3Xx8oUuzM3Vr">
+          <date when="2009-09-29"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-MbJocWDnvS3F3HxmdAvMej"/>
+        <correspContext corresp="i-MbJocWDnvS3F3HxmdAvMej">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

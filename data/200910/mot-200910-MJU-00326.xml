@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-MJU-00326">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Havdagar</title>
+        <author corresp="i-FKLdFezw4jPcBcpexqvUyJ i-RNLiVMpCYiPgzxr2ERSxMt">av Kent Olsson och Lars-Arne Staxäng (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Havdagar</title>
+          <idno type="rdwebb">GX02MJ326</idno>
+          <rs type="number">MJ326</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02MJ326/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02MJ326</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02MJ326</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/AC0CB2EA-F4EE-483D-81E1-3E9768464287</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-FKLdFezw4jPcBcpexqvUyJ</idno>
+            <name>Kent Olsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-RNLiVMpCYiPgzxr2ERSxMt</idno>
+            <name>Lars-Arne Staxäng</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AGpmaSxQMpsA6TsgMUaP9N" type="signed"/>
+        <correspContext corresp="i-AGpmaSxQMpsA6TsgMUaP9N">
+          <note type="signatory" corresp="i-FKLdFezw4jPcBcpexqvUyJ"/>
+          <note type="signatory" corresp="i-RNLiVMpCYiPgzxr2ERSxMt"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-T67BuzBci4ATopsi8qrKar">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3sRegf2TEeDi1NYihtAyk9">
+          <date when="2009-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-E6VuLS4EGRJd5aPMAJqRwo">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-WSsKWBHn8SfEY2nSBDoACt"/>
+        <correspContext corresp="i-WSsKWBHn8SfEY2nSBDoACt">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

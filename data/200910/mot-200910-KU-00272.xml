@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00272">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skåne som en riksdagsvalkrets</title>
+        <author corresp="i-U5MhCo51MGLLY94GAGJZhY">av Johan Linander (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skåne som en riksdagsvalkrets</title>
+          <idno type="rdwebb">GX02K272</idno>
+          <rs type="number">K272</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K272/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K272</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K272</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D650F245-D0FB-498D-9BEC-6B103D8E7FB0</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-U5MhCo51MGLLY94GAGJZhY</idno>
+            <name>Johan Linander</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TLmhvqh19AmmBJpmV1DpW7" type="signed"/>
+        <correspContext corresp="i-TLmhvqh19AmmBJpmV1DpW7">
+          <note type="signatory" corresp="i-U5MhCo51MGLLY94GAGJZhY"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-8CaPuLDTstYZL9FHWmReTz">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EDgVyfWsSHmrWA4SSrqSrF">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-2bVDczL9ChevERiXXXd6uJ">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Fo49rFFcnTvF4RghnckU2f"/>
+        <correspContext corresp="i-Fo49rFFcnTvF4RghnckU2f">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

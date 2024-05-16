@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00259">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Integritetsfokus</title>
+        <author corresp="i-Ev6Dx3pWj2WT32VGQpabaz i-7BVrTrBc6AJDkYa3WEfLxy">av Finn Bengtsson och Jan R Andersson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Integritetsfokus</title>
+          <idno type="rdwebb">GX02K259</idno>
+          <rs type="number">K259</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K259/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K259</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K259</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0EFC2282-29A7-440B-9F2A-9A33EDCA2D74</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ev6Dx3pWj2WT32VGQpabaz</idno>
+            <name>Finn Bengtsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-7BVrTrBc6AJDkYa3WEfLxy</idno>
+            <name>Jan R Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-6RXaQpEr7ewdQFDqk9tfyX" type="signed"/>
+        <correspContext corresp="i-6RXaQpEr7ewdQFDqk9tfyX">
+          <note type="signatory" corresp="i-Ev6Dx3pWj2WT32VGQpabaz"/>
+          <note type="signatory" corresp="i-7BVrTrBc6AJDkYa3WEfLxy"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-XEipyEP98mx9sXaRMciUpU">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WyTMm38pbUeiYo2zibq7eR">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-HyfrmGq9MYdmafmjtXCXxs">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HYnZ8k8APrGZJZQh2Ud5ZJ"/>
+        <correspContext corresp="i-HYnZ8k8APrGZJZQh2Ud5ZJ">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

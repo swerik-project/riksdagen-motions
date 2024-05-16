@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-NU-00253">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Statliga bolag</title>
+        <author corresp="i-K5zTLSXt1UWyYngcbEuofY i-AQAc7L3yWtMcgD3r6CxRHG">av Kristina Zakrisson och Maria Stenberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Statliga bolag</title>
+          <idno type="rdwebb">GX02N253</idno>
+          <rs type="number">N253</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02N253/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02N253</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02N253</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/F8A9B02A-D9C6-4FFB-8D70-30AED68D6CEE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-K5zTLSXt1UWyYngcbEuofY</idno>
+            <name>Kristina Zakrisson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-AQAc7L3yWtMcgD3r6CxRHG</idno>
+            <name>Maria Stenberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MAWikfrDqUTbJTKaSDrfsw" type="signed"/>
+        <correspContext corresp="i-MAWikfrDqUTbJTKaSDrfsw">
+          <note type="signatory" corresp="i-K5zTLSXt1UWyYngcbEuofY"/>
+          <note type="signatory" corresp="i-AQAc7L3yWtMcgD3r6CxRHG"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-3Jk6aoSuzN1uYrmmgU5KgU">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9NpbN6jWfA2cmxXWNQXrRG">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-PpDVGonBtGBPXXaGNiCcv9">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-4QEDykztNfXLvquJL7DYxN"/>
+        <correspContext corresp="i-4QEDykztNfXLvquJL7DYxN">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

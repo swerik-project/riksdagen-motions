@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-SkU-00330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skatteverkets beskattningsbeslut</title>
+        <author corresp="i-BZ7PcK8D1efvHXsafGEMKE i-K75KrtPmbiw4k8rrgLDHse">av Andreas Norlén och Maria Plass (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skatteverkets beskattningsbeslut</title>
+          <idno type="rdwebb">GX02Sk330</idno>
+          <rs type="number">Sk330</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Sk330/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Sk330</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Sk330</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2C5B5303-582D-4BB7-AE5B-DCB8A28B7A82</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BZ7PcK8D1efvHXsafGEMKE</idno>
+            <name>Andreas Norlén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-K75KrtPmbiw4k8rrgLDHse</idno>
+            <name>Maria Plass</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-K6DA3HUZuBqNGwavmBGzvJ" type="signed"/>
+        <correspContext corresp="i-K6DA3HUZuBqNGwavmBGzvJ">
+          <note type="signatory" corresp="i-BZ7PcK8D1efvHXsafGEMKE"/>
+          <note type="signatory" corresp="i-K75KrtPmbiw4k8rrgLDHse"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Bj22nr3BGZXoeyg6KZ67Vu">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-iowms2a2mg3GZTt82wM5Q">
+          <date when="2009-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-QGB3qofwVJLG1DU7W9YzYj">
+          <date when="2009-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-X2Lu5Kwh9ivragnLJiJs1C"/>
+        <correspContext corresp="i-X2Lu5Kwh9ivragnLJiJs1C">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

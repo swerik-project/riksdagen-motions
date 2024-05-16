@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KrU-00322">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Julita gård</title>
+        <author corresp="i-Q8hYBES3N7Q4fZnAATRjsd i-2mNEN1Zszf1P35pk3WZQhH">av Fredrik Olovsson och Michael Hagberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Julita gård</title>
+          <idno type="rdwebb">GX02Kr322</idno>
+          <rs type="number">Kr322</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Kr322/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Kr322</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Kr322</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/428A6873-7A8E-4613-99E1-09E1488306BC</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Q8hYBES3N7Q4fZnAATRjsd</idno>
+            <name>Fredrik Olovsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-2mNEN1Zszf1P35pk3WZQhH</idno>
+            <name>Michael Hagberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Pf3ofGkhbTrjAVXyqot5eJ" type="signed"/>
+        <correspContext corresp="i-Pf3ofGkhbTrjAVXyqot5eJ">
+          <note type="signatory" corresp="i-Q8hYBES3N7Q4fZnAATRjsd"/>
+          <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-GZp8EEkndRx1Up71L3SqCr">
+          <date when="2009-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DWMjW88TZMBwFf8vYA8Dph">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-QXjPm7nsJJhnA7EEjzUFXP">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QfQQmKYNo9wQtntUWZzB11"/>
+        <correspContext corresp="i-QfQQmKYNo9wQtntUWZzB11">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

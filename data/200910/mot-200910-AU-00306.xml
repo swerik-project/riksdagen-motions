@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-AU-00306">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deltidsarbete</title>
+        <author corresp="i-HxcQkHC9fDSzkJWgvdhDEF">av Lena Hallengren (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Deltidsarbete</title>
+          <idno type="rdwebb">GX02A306</idno>
+          <rs type="number">A306</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02A306/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02A306</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02A306</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C04EC3E8-9AEA-42CC-802A-E67416B18D08</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-HxcQkHC9fDSzkJWgvdhDEF</idno>
+            <name>Lena Hallengren</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3twQ6s4vJXahMWBLGfE3hm" type="signed"/>
+        <correspContext corresp="i-3twQ6s4vJXahMWBLGfE3hm">
+          <note type="signatory" corresp="i-HxcQkHC9fDSzkJWgvdhDEF"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-HJqbipkrGH2T5DAqtERABg">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-LvAhZ5B6q3wQF1M92LbiiN">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-X66WWztEJJCcs3CkZcWPEh">
+          <date when="2009-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-XFuTevc6vZ6hicCfn6jbto"/>
+        <correspContext corresp="i-XFuTevc6vZ6hicCfn6jbto">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

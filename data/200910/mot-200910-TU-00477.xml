@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-TU-00477">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pumplagen</title>
+        <author corresp="i-7BVrTrBc6AJDkYa3WEfLxy i-U4pHk2tFdyZvzTiVobxoV7">av Jan R Andersson och Anna Tenje (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Pumplagen</title>
+          <idno type="rdwebb">GX02T477</idno>
+          <rs type="number">T477</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02T477/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02T477</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02T477</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/EE7F414B-9845-4F05-AEB6-A206A9D6D65D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-7BVrTrBc6AJDkYa3WEfLxy</idno>
+            <name>Jan R Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-U4pHk2tFdyZvzTiVobxoV7</idno>
+            <name>Anna Tenje</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CiurVVFci7yQbUa4HqdQqE" type="signed"/>
+        <correspContext corresp="i-CiurVVFci7yQbUa4HqdQqE">
+          <note type="signatory" corresp="i-7BVrTrBc6AJDkYa3WEfLxy"/>
+          <note type="signatory" corresp="i-U4pHk2tFdyZvzTiVobxoV7"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-3vCHTuTLrZGvZkgEwKre5q">
+          <date when="2009-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4DqbnEd3E4B5TkBWPp2rg6">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-7Q8imyxGvMtGK2EiRw7s9L">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-G1KUMdmmzcSajdrzzeZTN4"/>
+        <correspContext corresp="i-G1KUMdmmzcSajdrzzeZTN4">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-CU-00227">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kreditgivaransvar</title>
+        <author corresp="i-PxnWyEEEJkswzBKdKbv36K i-4QSskNRajbqRG3PtACimqv">av Agneta Lundberg och Susanne Eberstein (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kreditgivaransvar</title>
+          <idno type="rdwebb">GX02C227</idno>
+          <rs type="number">C227</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02C227/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02C227</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02C227</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/847DECC1-451C-43FB-B2B9-C9B28987A6AE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-PxnWyEEEJkswzBKdKbv36K</idno>
+            <name>Agneta Lundberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-4QSskNRajbqRG3PtACimqv</idno>
+            <name>Susanne Eberstein</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QmqDYbNCJEmRPSiiiRd6zh" type="signed"/>
+        <correspContext corresp="i-QmqDYbNCJEmRPSiiiRd6zh">
+          <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
+          <note type="signatory" corresp="i-4QSskNRajbqRG3PtACimqv"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-HAqGP7g2tDrrxJHK5ixwWX">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Vo6g1ZvfXX1JWWKL6Fx7Ne">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-TMmLyFfeebc1zuooEcKPge">
+          <date when="2009-09-24"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KSpWwWaemhumw9AaBQcqqx"/>
+        <correspContext corresp="i-KSpWwWaemhumw9AaBQcqqx">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

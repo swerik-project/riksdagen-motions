@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00360">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Personvalsspärren</title>
+        <author corresp="i-XHzgSBhvzhMtyTsYMbxgy4">av Fredrik Schulte (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Personvalsspärren</title>
+          <idno type="rdwebb">GX02K360</idno>
+          <rs type="number">K360</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K360/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K360</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K360</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/FAD8804B-D2B4-40B9-B3E5-A8E809EA6436</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XHzgSBhvzhMtyTsYMbxgy4</idno>
+            <name>Fredrik Schulte</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JBQ5yQuiRCKNaMcHRT8uz3" type="signed"/>
+        <correspContext corresp="i-JBQ5yQuiRCKNaMcHRT8uz3">
+          <note type="signatory" corresp="i-XHzgSBhvzhMtyTsYMbxgy4"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-VvDu26xbNhouCR8R21gBk6">
+          <date when="2009-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-FKkT9bY37oqFMv2t6ScbKu">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-UFsUvP4sMQJJGfRcmMkRXn">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6m6iZjZbsbjPoo2KvSD8VB"/>
+        <correspContext corresp="i-6m6iZjZbsbjPoo2KvSD8VB">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

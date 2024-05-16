@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-FöU-00222">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elfria zoner</title>
+        <author corresp="i-SLMauHd9udrtkguQd9gymK">av Billy Gustafsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Elfria zoner</title>
+          <idno type="rdwebb">GX02Fö222</idno>
+          <rs type="number">Fö222</rs>
+          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Fö222/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Fö222</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Fö222</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1E140ED2-592F-4462-A8BE-EC3D847097C8</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SLMauHd9udrtkguQd9gymK</idno>
+            <name>Billy Gustafsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-S521FdRtDqQ6AeaZhnSe3Y" type="signed"/>
+        <correspContext corresp="i-S521FdRtDqQ6AeaZhnSe3Y">
+          <note type="signatory" corresp="i-SLMauHd9udrtkguQd9gymK"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-DJEvEXfypyZRMFZF1aANyT">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9XjMdfhno1JhJbDXx93kke">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-SwyEaPV23wLAHnaSUAp83i">
+          <date when="2009-09-29"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-J755BtSMegGoqdtvpv8hLG"/>
+        <correspContext corresp="i-J755BtSMegGoqdtvpv8hLG">
+          <ref type="assignedTo">Försvarsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

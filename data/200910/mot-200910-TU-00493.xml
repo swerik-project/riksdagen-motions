@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-TU-00493">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alkolås</title>
+        <author corresp="i-UdGnyRLxFm6LiCDBYWE7MV i-JSSYZnWrKjtbfWDmu1qLSb">av Bertil Kjellberg och Magdalena Andersson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Alkolås</title>
+          <idno type="rdwebb">GX02T493</idno>
+          <rs type="number">T493</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02T493/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02T493</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02T493</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C492C25F-2297-4341-9FA4-83D3F8C927B1</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UdGnyRLxFm6LiCDBYWE7MV</idno>
+            <name>Bertil Kjellberg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-JSSYZnWrKjtbfWDmu1qLSb</idno>
+            <name>Magdalena Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NJeZ5wepkETrBTDNJeBy3o" type="signed"/>
+        <correspContext corresp="i-NJeZ5wepkETrBTDNJeBy3o">
+          <note type="signatory" corresp="i-UdGnyRLxFm6LiCDBYWE7MV"/>
+          <note type="signatory" corresp="i-JSSYZnWrKjtbfWDmu1qLSb"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-WK1qMH9yvwSJ2LqFNWHZsS">
+          <date when="2009-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Qg4oeKn2x3sq4qc3sWrQcb">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-QHMSaUjfXLqDodxrQGmmki">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-K1ThahqMQgcY2ihDJuZzXW"/>
+        <correspContext corresp="i-K1ThahqMQgcY2ihDJuZzXW">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

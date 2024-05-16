@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00217">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Riksdagsledamöters boendevillkor</title>
+        <author corresp="i-5iLkMds96DbsdoQ1H5obCT">av Sofia Arkelsten (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Riksdagsledamöters boendevillkor</title>
+          <idno type="rdwebb">GX02K217</idno>
+          <rs type="number">K217</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K217/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K217</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K217</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/8B508B74-96E3-4F8C-8469-AB77E6B042F0</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-5iLkMds96DbsdoQ1H5obCT</idno>
+            <name>Sofia Arkelsten</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-J7RaxxHGRstdjQTWyGEm3x" type="signed"/>
+        <correspContext corresp="i-J7RaxxHGRstdjQTWyGEm3x">
+          <note type="signatory" corresp="i-5iLkMds96DbsdoQ1H5obCT"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-SuC51Moom2WkWEJdAWWzSn">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KCbytZNy38Ki8JAVAXxbpS">
+          <date when="2009-09-28"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-KAT9sivUDWb7tEZyLmnAUy">
+          <date when="2009-09-28"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-5iop6AWX2wWUbwCmEBY6Rw"/>
+        <correspContext corresp="i-5iop6AWX2wWUbwCmEBY6Rw">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

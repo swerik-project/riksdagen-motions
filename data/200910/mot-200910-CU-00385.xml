@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-CU-00385">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Staten som borgenär</title>
+        <author corresp="i-BZ7PcK8D1efvHXsafGEMKE">av Andreas Norlén (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Staten som borgenär</title>
+          <idno type="rdwebb">GX02C385</idno>
+          <rs type="number">C385</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02C385/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02C385</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02C385</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/81BB5DFB-CFC7-4A39-902A-BDD5A53A7FCD</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BZ7PcK8D1efvHXsafGEMKE</idno>
+            <name>Andreas Norlén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3dSRbL9c2GVvjyCxnDyvNj" type="signed"/>
+        <correspContext corresp="i-3dSRbL9c2GVvjyCxnDyvNj">
+          <note type="signatory" corresp="i-BZ7PcK8D1efvHXsafGEMKE"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-7KXJMEhz1KD9cxWai4X54t">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-P78zWvoeiiP6zLK4Wsx9Ew">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-MsYtqubzJQ8mMrRfSsy5Zv">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-36qt7PPKtgFrLvSzxtgCgZ"/>
+        <correspContext corresp="i-36qt7PPKtgFrLvSzxtgCgZ">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

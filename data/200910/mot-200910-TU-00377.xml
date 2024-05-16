@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-TU-00377">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Poängkörkort</title>
+        <author corresp="i-AqZkPRg6HbbZ9nDzibdbp5">av Björn Hamilton (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Poängkörkort</title>
+          <idno type="rdwebb">GX02T377</idno>
+          <rs type="number">T377</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02T377/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02T377</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02T377</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/49CB281A-801F-4932-9A63-7953C6016612</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AqZkPRg6HbbZ9nDzibdbp5</idno>
+            <name>Björn Hamilton</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FPoFg4Rt4disdzYJNzGxD" type="signed"/>
+        <correspContext corresp="i-FPoFg4Rt4disdzYJNzGxD">
+          <note type="signatory" corresp="i-AqZkPRg6HbbZ9nDzibdbp5"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-BagqJbV1CeNJdEAYSo4BZC">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4DWpjsrCNhjLWVAp6NECjf">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Rf2oGix4ZtZiKFNpM8CffS">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AwtjBu8pW3NanVE5q624k5"/>
+        <correspContext corresp="i-AwtjBu8pW3NanVE5q624k5">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-TU-00411">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Blidösund </title>
+        <author corresp="i-XcAqMe3ntVBboWUxqACfz i-L3xspgThUxUN1YtSDqcmk8">av Gunnar Andrén och Barbro Westerholm (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Blidösund </title>
+          <idno type="rdwebb">GX02T411</idno>
+          <rs type="number">T411</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02T411/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02T411</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02T411</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C16AEE3B-9A58-4233-A736-5230ADC73C57</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XcAqMe3ntVBboWUxqACfz</idno>
+            <name>Gunnar Andrén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-L3xspgThUxUN1YtSDqcmk8</idno>
+            <name>Barbro Westerholm</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-57gyfu2gm5VC74M7AfuGez" type="signed"/>
+        <correspContext corresp="i-57gyfu2gm5VC74M7AfuGez">
+          <note type="signatory" corresp="i-XcAqMe3ntVBboWUxqACfz"/>
+          <note type="signatory" corresp="i-L3xspgThUxUN1YtSDqcmk8"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-D6aMffjaf9dzaR2QW9PSNh">
+          <date when="2009-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Rpd31XyK8UHRdkZZu3qDNm">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-3xk92tHoiHABvAeJZUbavc">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HEz8Kj8Am6SyZAdb3bDGJg"/>
+        <correspContext corresp="i-HEz8Kj8Am6SyZAdb3bDGJg">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

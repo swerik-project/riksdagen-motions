@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-NU-00252">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nyföretagande</title>
+        <author corresp="i-PxnWyEEEJkswzBKdKbv36K i-BNs9NctwwvjUQnQxyESNVd">av Agneta Lundberg och Eva Sonidsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nyföretagande</title>
+          <idno type="rdwebb">GX02N252</idno>
+          <rs type="number">N252</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02N252/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02N252</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02N252</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/20316531-15CD-4864-A2EB-38B5F60043FC</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-PxnWyEEEJkswzBKdKbv36K</idno>
+            <name>Agneta Lundberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-BNs9NctwwvjUQnQxyESNVd</idno>
+            <name>Eva Sonidsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DC1hay4FHuk2KzWQyJmCoS" type="signed"/>
+        <correspContext corresp="i-DC1hay4FHuk2KzWQyJmCoS">
+          <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
+          <note type="signatory" corresp="i-BNs9NctwwvjUQnQxyESNVd"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Cnm8tcSavttQifuaVbXcsc">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KuKPEc7x3WjgLYsM99MUCy">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-3ChAjQZBsey3ybbTZA4MaB">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Fhs6cowmyMprceBA8gtqHv"/>
+        <correspContext corresp="i-Fhs6cowmyMprceBA8gtqHv">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

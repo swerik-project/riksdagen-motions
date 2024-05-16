@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-TU-00237">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>E20 genom Skaraborg</title>
+        <author corresp="i-Nj6rnCfHps9ZzFLuPuYaNj">av Egon Frid (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>E20 genom Skaraborg</title>
+          <idno type="rdwebb">GX02T237</idno>
+          <rs type="number">T237</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02T237/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02T237</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02T237</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/757637E2-46DC-4D8F-956D-C8166FD9F7ED</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Nj6rnCfHps9ZzFLuPuYaNj</idno>
+            <name>Egon Frid</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-H1XmQ9GH8en3mkvB2RbkAp" type="signed"/>
+        <correspContext corresp="i-H1XmQ9GH8en3mkvB2RbkAp">
+          <note type="signatory" corresp="i-Nj6rnCfHps9ZzFLuPuYaNj"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Y7qDRMdQmuJofZCVQMxJnX">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3ENjSvUrnJceBWr3B9KyNS">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-AEhG1JzpttsYec4VTQvTa7">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KekJFh6vKsgZZjEA2oeQwM"/>
+        <correspContext corresp="i-KekJFh6vKsgZZjEA2oeQwM">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

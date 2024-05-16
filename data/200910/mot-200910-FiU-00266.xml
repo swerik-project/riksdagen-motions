@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-FiU-00266">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Inkassolagen</title>
+        <author corresp="i-BZ7PcK8D1efvHXsafGEMKE">av Andreas Norlén (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Inkassolagen</title>
+          <idno type="rdwebb">GX02Fi266</idno>
+          <rs type="number">Fi266</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Fi266/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Fi266</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Fi266</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/8C6E262C-B736-4439-A828-EE624E5385A5</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BZ7PcK8D1efvHXsafGEMKE</idno>
+            <name>Andreas Norlén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DzVduQBocxdrQJg2eFVKE2" type="signed"/>
+        <correspContext corresp="i-DzVduQBocxdrQJg2eFVKE2">
+          <note type="signatory" corresp="i-BZ7PcK8D1efvHXsafGEMKE"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-jfzYxwq4HBEnhwigPdZEW">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-53YRJHbmUAJWewqioG4UE2">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-QYJHRYmNZMKyDZPUiAJMyd">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FbJRLL1niAwtXom5Mokrmr"/>
+        <correspContext corresp="i-FbJRLL1niAwtXom5Mokrmr">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

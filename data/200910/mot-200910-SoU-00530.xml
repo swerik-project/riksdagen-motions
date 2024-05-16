@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-SoU-00530">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Patientbehandling</title>
+        <author corresp="i-STyFs6Gu3boin31eFp1bNM">av Thomas Bodström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Patientbehandling</title>
+          <idno type="rdwebb">GX02So530</idno>
+          <rs type="number">So530</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02So530/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02So530</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02So530</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/57D9E487-D3E4-42CF-9923-C4A1AA5AF9DA</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-STyFs6Gu3boin31eFp1bNM</idno>
+            <name>Thomas Bodström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SHUMJqAyiWe8NucMXNfgba" type="signed"/>
+        <correspContext corresp="i-SHUMJqAyiWe8NucMXNfgba">
+          <note type="signatory" corresp="i-STyFs6Gu3boin31eFp1bNM"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-9MdJ7gtdwx2QHiQsRuY2mA">
+          <date when="2009-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9RHzXXbNKWBWq1QhVfoYN7">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-WHXJe4io9sfDgEq9L7bk8g">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-CvoYyXZUocTpjMFGfzvRXm"/>
+        <correspContext corresp="i-CvoYyXZUocTpjMFGfzvRXm">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

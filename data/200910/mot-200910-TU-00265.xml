@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-TU-00265">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nobelbanan</title>
+        <author corresp="i-XXuTUfCrSzD7sKMdyYtEft">av Sofia Larsen (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nobelbanan</title>
+          <idno type="rdwebb">GX02T265</idno>
+          <rs type="number">T265</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02T265/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02T265</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02T265</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A559B7DC-46A7-4DA3-A612-33891969220D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-XXuTUfCrSzD7sKMdyYtEft</idno>
+            <name>Sofia Larsen</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-wDQrYgvxNYwSg26yhGdFp" type="signed"/>
+        <correspContext corresp="i-wDQrYgvxNYwSg26yhGdFp">
+          <note type="signatory" corresp="i-XXuTUfCrSzD7sKMdyYtEft"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-C4YFgBTVWA93ThQNPxtq4u">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-55TGKLTo7ss5Kb8ADg8oaG">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-DDTUc4BFb56zUn9F3yNFRm">
+          <date when="2009-09-25"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Rdr1zfJVwEYWMvyp68Ddbg"/>
+        <correspContext corresp="i-Rdr1zfJVwEYWMvyp68Ddbg">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

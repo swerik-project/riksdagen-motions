@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KrU-00295">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nobelinstitut</title>
+        <author corresp="i-XcAqMe3ntVBboWUxqACfz i-6kLJbGLpwB9hYxDrVrkcqF">av Gunnar Andrén och Karin Pilsäter (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nobelinstitut</title>
+          <idno type="rdwebb">GX02Kr295</idno>
+          <rs type="number">Kr295</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Kr295/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Kr295</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Kr295</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1DCC264E-5305-48E1-8DA5-DA9C1A1FE18D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XcAqMe3ntVBboWUxqACfz</idno>
+            <name>Gunnar Andrén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-6kLJbGLpwB9hYxDrVrkcqF</idno>
+            <name>Karin Pilsäter</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NRuLgRRYW7VbecEBYxd2iE" type="signed"/>
+        <correspContext corresp="i-NRuLgRRYW7VbecEBYxd2iE">
+          <note type="signatory" corresp="i-XcAqMe3ntVBboWUxqACfz"/>
+          <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-PhUjSFzo1vQwfEqocgniji">
+          <date when="2009-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-A45rfqwZGd15mHn7UMhWca">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-ULzFE8dGwUhSryq5gWCLsV">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-5vT1RYpt4z7UgAJTwwwfy1"/>
+        <correspContext corresp="i-5vT1RYpt4z7UgAJTwwwfy1">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

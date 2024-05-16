@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KrU-00226">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Modern Drottningholmsmusik</title>
+        <author corresp="i-XcAqMe3ntVBboWUxqACfz">av Gunnar Andrén (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Modern Drottningholmsmusik</title>
+          <idno type="rdwebb">GX02Kr226</idno>
+          <rs type="number">Kr226</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Kr226/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Kr226</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Kr226</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/6B2F18F2-A4B8-4603-A3CF-1C469F928D9D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XcAqMe3ntVBboWUxqACfz</idno>
+            <name>Gunnar Andrén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5YPhSRDjZtB5YuSAZbDiaT" type="signed"/>
+        <correspContext corresp="i-5YPhSRDjZtB5YuSAZbDiaT">
+          <note type="signatory" corresp="i-XcAqMe3ntVBboWUxqACfz"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-SWHsaTemYQ1fPtKH1JJQDb">
+          <date when="2009-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Pp4LCRp2gEzYmyq2FyE7nT">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-PBuHwksfgXbGj6MWzN85QP">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Epy6ov9rBHTULGTgWuStzi"/>
+        <correspContext corresp="i-Epy6ov9rBHTULGTgWuStzi">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

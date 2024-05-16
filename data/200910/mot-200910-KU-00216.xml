@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00216">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Distansvotering</title>
+        <author corresp="i-5iLkMds96DbsdoQ1H5obCT">av Sofia Arkelsten (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Distansvotering</title>
+          <idno type="rdwebb">GX02K216</idno>
+          <rs type="number">K216</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K216/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K216</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K216</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A5579437-CD3A-4219-A887-32AFD9A46562</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-5iLkMds96DbsdoQ1H5obCT</idno>
+            <name>Sofia Arkelsten</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HmDYcEfKwSYxarY5xp4CFL" type="signed"/>
+        <correspContext corresp="i-HmDYcEfKwSYxarY5xp4CFL">
+          <note type="signatory" corresp="i-5iLkMds96DbsdoQ1H5obCT"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-FwVEKJ6U16woaMBFUHgQEK">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7B2ggUqo4nBZM7NRF4o4Qp">
+          <date when="2009-09-28"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-6ze3dkQhe4aNyY6bxBCPE4">
+          <date when="2009-09-28"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-L4VRMQdE75YAvbyrGZ3Tbt"/>
+        <correspContext corresp="i-L4VRMQdE75YAvbyrGZ3Tbt">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

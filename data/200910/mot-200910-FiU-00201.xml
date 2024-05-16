@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-FiU-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Euro i Sverige</title>
+        <author corresp="i-AyN7HRP1y38PeQoLunJifb i-U5MhCo51MGLLY94GAGJZhY">av Jörgen Johansson och Johan Linander (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Euro i Sverige</title>
+          <idno type="rdwebb">GX02Fi201</idno>
+          <rs type="number">Fi201</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Fi201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Fi201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Fi201</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A3AD6510-D134-405D-B820-3B3CDFD20DE4</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AyN7HRP1y38PeQoLunJifb</idno>
+            <name>Jörgen Johansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-U5MhCo51MGLLY94GAGJZhY</idno>
+            <name>Johan Linander</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-F9TqAmNeDtBuuHgESU7uFp" type="signed"/>
+        <correspContext corresp="i-F9TqAmNeDtBuuHgESU7uFp">
+          <note type="signatory" corresp="i-AyN7HRP1y38PeQoLunJifb"/>
+          <note type="signatory" corresp="i-U5MhCo51MGLLY94GAGJZhY"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-6AD5DnM5WoQVLrUYdsS2Dt">
+          <date when="2009-09-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PUwYXD5m6zPVzqGB1MGDf2">
+          <date when="2009-09-22"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-9ZAmaWvZSEGB5fdhbvRsgY">
+          <date when="2009-09-21"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UuhyzHjUKkB86b86muxdPw"/>
+        <correspContext corresp="i-UuhyzHjUKkB86b86muxdPw">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

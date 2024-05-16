@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KrU-00223">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ekomuseum Bergslagen</title>
+        <author corresp="i-RZNwwHohbyBgLVVG4Dy1Bj i-3YAEMbZXswzuyekFnSxXSF">av Carin Runeson och Olle Thorell (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ekomuseum Bergslagen</title>
+          <idno type="rdwebb">GX02Kr223</idno>
+          <rs type="number">Kr223</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Kr223/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Kr223</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Kr223</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/7A2FD93E-A4CB-4444-9F41-F97FDE0A8A8C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-RZNwwHohbyBgLVVG4Dy1Bj</idno>
+            <name>Carin Runeson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-3YAEMbZXswzuyekFnSxXSF</idno>
+            <name>Olle Thorell</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QyoUS8tGLVvUECRiQKtu9C" type="signed"/>
+        <correspContext corresp="i-QyoUS8tGLVvUECRiQKtu9C">
+          <note type="signatory" corresp="i-RZNwwHohbyBgLVVG4Dy1Bj"/>
+          <note type="signatory" corresp="i-3YAEMbZXswzuyekFnSxXSF"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-BUDPWxFG4KnLMkDCf7Qu4V">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Y3ym9fxk3qsPxyw4eMC4aj">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Lj4qSmkMS2qZvcX7oyMmq1">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Tfije89CcCEfuLmYB1hc9m"/>
+        <correspContext corresp="i-Tfije89CcCEfuLmYB1hc9m">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

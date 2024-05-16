@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00243">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Beredningskrav på motioner</title>
+        <author corresp="i-KdNZEf7wb1MAJv58QEHYrr">av Göran Lindblad m.fl. (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Beredningskrav på motioner</title>
+          <idno type="rdwebb">GX02K243</idno>
+          <rs type="number">K243</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K243/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K243</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K243</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/8BB12825-81F9-40F9-BD8F-7661FCE67ECA</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KdNZEf7wb1MAJv58QEHYrr</idno>
+            <name>Göran Lindblad</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-MJ5jNxLePBwUGGvPE1LaWp</idno>
+            <name>Rolf K Nilsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-UmhVhzFM3Rs65aFjMTgRvj</idno>
+            <name>Anne-Marie Pålsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Ftwj8DpzpKBxhcwVXwh78G" type="signed"/>
+        <correspContext corresp="i-Ftwj8DpzpKBxhcwVXwh78G">
+          <note type="signatory" corresp="i-KdNZEf7wb1MAJv58QEHYrr"/>
+          <note type="signatory" corresp="i-MJ5jNxLePBwUGGvPE1LaWp"/>
+          <note type="signatory" corresp="i-UmhVhzFM3Rs65aFjMTgRvj"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-HowezLU6XHVj81HgbP9QTm">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-C9jK7qDoLio4S4fAFdfPeg">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-FENMZkR3dBFEj7o8TG8Hw7">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-MVX7r9TTWAR3nuRhgJYgKx"/>
+        <correspContext corresp="i-MVX7r9TTWAR3nuRhgJYgKx">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

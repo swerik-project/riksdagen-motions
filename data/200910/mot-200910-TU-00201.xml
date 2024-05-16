@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-TU-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Snabbtåg i Mälardalen</title>
+        <author corresp="i-AyN7HRP1y38PeQoLunJifb i-XXuTUfCrSzD7sKMdyYtEft">av Jörgen Johansson och Sofia Larsen (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Snabbtåg i Mälardalen</title>
+          <idno type="rdwebb">GX02T201</idno>
+          <rs type="number">T201</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02T201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02T201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02T201</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/60DA664F-1698-44F0-B1B6-689BB59547C0</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AyN7HRP1y38PeQoLunJifb</idno>
+            <name>Jörgen Johansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-XXuTUfCrSzD7sKMdyYtEft</idno>
+            <name>Sofia Larsen</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LA2YBNoP3U6fH1cpiXdEas" type="signed"/>
+        <correspContext corresp="i-LA2YBNoP3U6fH1cpiXdEas">
+          <note type="signatory" corresp="i-AyN7HRP1y38PeQoLunJifb"/>
+          <note type="signatory" corresp="i-XXuTUfCrSzD7sKMdyYtEft"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-W67EWEJ8wcLwo8i76xjygM">
+          <date when="2009-09-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4Gp3ivSVirpwi9metWx4VJ">
+          <date when="2009-09-22"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-4hRpRSzm2cBfqMBAN1epVt">
+          <date when="2009-09-18"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-LFHET1rH3tTMMLmzzkaMGt"/>
+        <correspContext corresp="i-LFHET1rH3tTMMLmzzkaMGt">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-CU-00321">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jordförvärv</title>
+        <author corresp="i-P2x4fiHNXrW2XTzJZRJeJJ i-VvP7Vtt4zjvLVvg7PsZMyU">av Bengt-Anders Johansson och Peder Wachtmeister (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Jordförvärv</title>
+          <idno type="rdwebb">GX02C321</idno>
+          <rs type="number">C321</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02C321/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02C321</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02C321</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/8E213041-9E01-4F09-91F4-2ADEAF9124D2</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-P2x4fiHNXrW2XTzJZRJeJJ</idno>
+            <name>Bengt-Anders Johansson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-VvP7Vtt4zjvLVvg7PsZMyU</idno>
+            <name>Peder Wachtmeister</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XYLPuEH4WdNvGGPoyGq3f" type="signed"/>
+        <correspContext corresp="i-XYLPuEH4WdNvGGPoyGq3f">
+          <note type="signatory" corresp="i-P2x4fiHNXrW2XTzJZRJeJJ"/>
+          <note type="signatory" corresp="i-VvP7Vtt4zjvLVvg7PsZMyU"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-3GJpc8GGd5uU6cz1bmSmgn">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PFgLS7zWVWXYnxqLgoo2XS">
+          <date when="2009-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-2wtnH1mJHrbvVjKTNC7MWh">
+          <date when="2009-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HGsieMggEjsauaFgUguNpW"/>
+        <correspContext corresp="i-HGsieMggEjsauaFgUguNpW">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00248">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Valsedlar i punktskrift</title>
+        <author corresp="i-MvtueCqXEtMA1qymmmnHWQ">av Lena Asplund (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Valsedlar i punktskrift</title>
+          <idno type="rdwebb">GX02K248</idno>
+          <rs type="number">K248</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K248/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K248</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K248</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/89E0D173-6000-4B18-868C-43ECE8838A2E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-MvtueCqXEtMA1qymmmnHWQ</idno>
+            <name>Lena Asplund</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XiArqn49ucZKUo7xMk15nZ" type="signed"/>
+        <correspContext corresp="i-XiArqn49ucZKUo7xMk15nZ">
+          <note type="signatory" corresp="i-MvtueCqXEtMA1qymmmnHWQ"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-2L4D6fDdFoQVc9GrA2Eknj">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Fc2L4gFjwhPjeFkaMnCFLg">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-DMYy3pG9pM5fzCdJFTa27P">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KK3HhWGB3cnq28TK8FwbgM"/>
+        <correspContext corresp="i-KK3HhWGB3cnq28TK8FwbgM">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

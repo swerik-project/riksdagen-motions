@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-CU-00372">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ett Nationellt register för testamenten</title>
+        <author corresp="i-2Gu4ZGJPSHe5VzhGSDaUPk">av Inger Jarl Beck (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ett Nationellt register för testamenten</title>
+          <idno type="rdwebb">GX02C372</idno>
+          <rs type="number">C372</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02C372/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02C372</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02C372</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/FB3C081F-15E3-4EE2-BE72-57BB84ACC67B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-2Gu4ZGJPSHe5VzhGSDaUPk</idno>
+            <name>Inger Jarl Beck</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GBChVfC4z2FWJX1yva4Mqz" type="signed"/>
+        <correspContext corresp="i-GBChVfC4z2FWJX1yva4Mqz">
+          <note type="signatory" corresp="i-2Gu4ZGJPSHe5VzhGSDaUPk"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-MRT4WKbkn1nR2943AP5oqS">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-5xHvR19yp75L39N8JNgp83">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-4tbgifNntMS6Qva2prGNxG">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2dtDrh7A4bS4BYBh4XzL6F"/>
+        <correspContext corresp="i-2dtDrh7A4bS4BYBh4XzL6F">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00280">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gruppsekretess</title>
+        <author corresp="i-XmKy9xZWRYrVWK3GgNvWyc">av Christer Adelsbo (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Gruppsekretess</title>
+          <idno type="rdwebb">GX02K280</idno>
+          <rs type="number">K280</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K280/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K280</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K280</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/76AEF6A9-CB0C-447A-A0BE-208A73601C05</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XmKy9xZWRYrVWK3GgNvWyc</idno>
+            <name>Christer Adelsbo</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NGhHwML9RkrUYswMiaWzjs" type="signed"/>
+        <correspContext corresp="i-NGhHwML9RkrUYswMiaWzjs">
+          <note type="signatory" corresp="i-XmKy9xZWRYrVWK3GgNvWyc"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-LhLFZQdm9fr7nKA7E9dcY1">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7KqhC2sFVF3SmaYb6YheXY">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-AAhnZCK3Y7NYkqd7p91tgN">
+          <date when="2009-09-29"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-SYxa2VcepDg54A3jt17CVd"/>
+        <correspContext corresp="i-SYxa2VcepDg54A3jt17CVd">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

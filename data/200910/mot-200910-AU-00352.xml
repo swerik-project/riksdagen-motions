@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-AU-00352">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>A-kassan</title>
+        <author corresp="i-TZHBPDEfPriGgMd5y7LfJG i-SvS8rTwUeKpVtp5mrPNCaP">av Lars U Granberg och Leif Pettersson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>A-kassan</title>
+          <idno type="rdwebb">GX02A352</idno>
+          <rs type="number">A352</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02A352/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02A352</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02A352</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/6B0E5A81-B642-4ABB-A5B4-108FADAFD6AE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TZHBPDEfPriGgMd5y7LfJG</idno>
+            <name>Lars U Granberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-SvS8rTwUeKpVtp5mrPNCaP</idno>
+            <name>Leif Pettersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-K9ot5matB8FH7nZpmzSP9v" type="signed"/>
+        <correspContext corresp="i-K9ot5matB8FH7nZpmzSP9v">
+          <note type="signatory" corresp="i-TZHBPDEfPriGgMd5y7LfJG"/>
+          <note type="signatory" corresp="i-SvS8rTwUeKpVtp5mrPNCaP"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Ub9taf6qQGArJ1P8kCN6Ld">
+          <date when="2009-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-5nypS2sPAUGiKCuxbwbHc3">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-GRwL3yk72e1eCCR5KR5eSj">
+          <date when="2009-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AcT9vnHUSaqQZeZZajWhWX"/>
+        <correspContext corresp="i-AcT9vnHUSaqQZeZZajWhWX">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

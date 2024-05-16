@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-SoU-00286">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>PSA-tester</title>
+        <author corresp="i-KAgkDWA5iGbn9XFLkj9FoB">av Alf Eriksson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>PSA-tester</title>
+          <idno type="rdwebb">GX02So286</idno>
+          <rs type="number">So286</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02So286/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02So286</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02So286</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/F67E01C3-50A8-4A4E-B6EA-33137DD2E5F3</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KAgkDWA5iGbn9XFLkj9FoB</idno>
+            <name>Alf Eriksson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Pryx8SsS8r7hbKJFxHgjPq" type="signed"/>
+        <correspContext corresp="i-Pryx8SsS8r7hbKJFxHgjPq">
+          <note type="signatory" corresp="i-KAgkDWA5iGbn9XFLkj9FoB"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-KFYuA4PrTunk7m5etx3rhb">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UAWk8iNtCWhvFbxHNPWZLg">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-9xRSqAfrBFK1BZ2tESLNTo">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-5djJm5ZcxkuLopbPXnp7VL"/>
+        <correspContext corresp="i-5djJm5ZcxkuLopbPXnp7VL">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

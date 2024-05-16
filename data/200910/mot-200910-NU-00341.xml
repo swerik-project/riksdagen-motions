@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-NU-00341">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lokalisering av statliga verk</title>
+        <author corresp="i-AvtuWmW4WHMDrctQKwDQuR">av Eva Flyborg (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lokalisering av statliga verk</title>
+          <idno type="rdwebb">GX02N341</idno>
+          <rs type="number">N341</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02N341/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02N341</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02N341</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/CDEB2B22-A09E-45D9-BFD6-B469801F42B6</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-AvtuWmW4WHMDrctQKwDQuR</idno>
+            <name>Eva Flyborg</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WSM5q8Fk5xeoQNa2nH9tqx" type="signed"/>
+        <correspContext corresp="i-WSM5q8Fk5xeoQNa2nH9tqx">
+          <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-BwY4hXRjxfvnUwyaahU2TU">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RMbk4a1u6P8hze3kbHyPmn">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Kbf1G1TuYzxsnsZ7WUr6oG">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6brBPVZM6PpVfLdbV4NHiu"/>
+        <correspContext corresp="i-6brBPVZM6PpVfLdbV4NHiu">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

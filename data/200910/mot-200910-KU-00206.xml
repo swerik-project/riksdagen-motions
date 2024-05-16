@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00206">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Myndighetsutövning</title>
+        <author corresp="i-S1jBpohzgG7cgcBjfgN1Fb">av Sten Bergheden (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Myndighetsutövning</title>
+          <idno type="rdwebb">GX02K206</idno>
+          <rs type="number">K206</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K206/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K206</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K206</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/E0BC3F87-B3A5-466C-BE17-D5C2A6D0253E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-S1jBpohzgG7cgcBjfgN1Fb</idno>
+            <name>Sten Bergheden</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VsUNjaGSbzxRgNscy4d3nj" type="signed"/>
+        <correspContext corresp="i-VsUNjaGSbzxRgNscy4d3nj">
+          <note type="signatory" corresp="i-S1jBpohzgG7cgcBjfgN1Fb"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-JD59VUtez5CJwKXwyD6w1U">
+          <date when="2009-09-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KWr1LVXX9d94iw3YD8cuSt">
+          <date when="2009-09-24"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-G2J1YmKAh9FD4KiUmQUsQj">
+          <date when="2009-09-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UCcWf6deYt2LNwNnjknoQ5"/>
+        <correspContext corresp="i-UCcWf6deYt2LNwNnjknoQ5">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

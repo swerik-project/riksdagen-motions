@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-SoU-00390">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rett Center</title>
+        <author corresp="i-AQAc7L3yWtMcgD3r6CxRHG i-SvS8rTwUeKpVtp5mrPNCaP">av Leif Pettersson och Maria Stenberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Rett Center</title>
+          <idno type="rdwebb">GX02So390</idno>
+          <rs type="number">So390</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02So390/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02So390</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02So390</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/57BD5DF4-D95F-452A-BFF2-CAC268507F37</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-AQAc7L3yWtMcgD3r6CxRHG</idno>
+            <name>Maria Stenberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-SvS8rTwUeKpVtp5mrPNCaP</idno>
+            <name>Leif Pettersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RpDQA9eKCvGCx67JKZgi4a" type="signed"/>
+        <correspContext corresp="i-RpDQA9eKCvGCx67JKZgi4a">
+          <note type="signatory" corresp="i-AQAc7L3yWtMcgD3r6CxRHG"/>
+          <note type="signatory" corresp="i-SvS8rTwUeKpVtp5mrPNCaP"/>
+        </correspContext>
+        <correspAction type="transfer" xml:id="i-44rpWx5KRXKjjUbFzVHni1">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-FRoipxYvPSevUTXyF4bXiS">
+          <date when="2009-10-02"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-AZqFbq2ESNz4XfNimzK9ZD">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HqNwY19f99z36Ly8ybvGDg"/>
+        <correspContext corresp="i-HqNwY19f99z36Ly8ybvGDg">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

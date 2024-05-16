@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-AU-00361">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arbetsgivarintyg</title>
+        <author corresp="i-HsmyrkjqQGCAargTNWaeXi">av Siw Wittgren-Ahl (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arbetsgivarintyg</title>
+          <idno type="rdwebb">GX02A361</idno>
+          <rs type="number">A361</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02A361/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02A361</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02A361</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/EC3497D7-58AD-421E-89E8-0268FDA8DB1B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-HsmyrkjqQGCAargTNWaeXi</idno>
+            <name>Siw Wittgren-Ahl</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HBCyJkTknD2FNy9sfPMLNd" type="signed"/>
+        <correspContext corresp="i-HBCyJkTknD2FNy9sfPMLNd">
+          <note type="signatory" corresp="i-HsmyrkjqQGCAargTNWaeXi"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-LSUg4dqDWDT5YutyQCAuAk">
+          <date when="2009-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JzQV2buRhRKpn2HUFe6HC9">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-53nA21Pb4KwYnyqF3vyFf1">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-VZ5N7DQkTNe9niX9XLn6Ev"/>
+        <correspContext corresp="i-VZ5N7DQkTNe9niX9XLn6Ev">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

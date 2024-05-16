@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-CU-00278">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fastighetsmäklarna</title>
+        <author corresp="i-Nj6rnCfHps9ZzFLuPuYaNj">av Egon Frid (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fastighetsmäklarna</title>
+          <idno type="rdwebb">GX02C278</idno>
+          <rs type="number">C278</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02C278/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02C278</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02C278</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0945E5B0-6A3B-44E1-BC3C-C725E9140955</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Nj6rnCfHps9ZzFLuPuYaNj</idno>
+            <name>Egon Frid</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QYEyYzHTEGWe2bTpyfW2EG" type="signed"/>
+        <correspContext corresp="i-QYEyYzHTEGWe2bTpyfW2EG">
+          <note type="signatory" corresp="i-Nj6rnCfHps9ZzFLuPuYaNj"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Thd1Tv4jFzF1MgMRRt6yoi">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-QXCjkHX44Tq4U2Jb3JHFNm">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-BjhkN8FNf7cTKnjWuHC39Y">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-B7RXSebm4xXLQB6HJ1ADxs"/>
+        <correspContext corresp="i-B7RXSebm4xXLQB6HJ1ADxs">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

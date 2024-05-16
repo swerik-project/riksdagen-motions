@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-CU-00279">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ägarlägenheter</title>
+        <author corresp="i-TX4XbGiaRx4H4u3YMo1twT">av Christian Holm (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ägarlägenheter</title>
+          <idno type="rdwebb">GX02C279</idno>
+          <rs type="number">C279</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02C279/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02C279</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02C279</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/8F585BC3-88F9-4DD3-9573-69B70467547F</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TX4XbGiaRx4H4u3YMo1twT</idno>
+            <name>Christian Holm</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MbKbG4H2JvimnZ3CkcQUtT" type="signed"/>
+        <correspContext corresp="i-MbKbG4H2JvimnZ3CkcQUtT">
+          <note type="signatory" corresp="i-TX4XbGiaRx4H4u3YMo1twT"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-FZGa8r9Vkyo7QvMv1pgma">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-W3VtPjvB7vs6EWBLMFZsb1">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-RZxmUzCJct5Qaoivhwx4Xz">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KswYM5vyriRZfcQi9KJVkD"/>
+        <correspContext corresp="i-KswYM5vyriRZfcQi9KJVkD">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00312">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Färre riksdagsledamöter</title>
+        <author corresp="i-UdGnyRLxFm6LiCDBYWE7MV i-JSSYZnWrKjtbfWDmu1qLSb">av Bertil Kjellberg och Magdalena Andersson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Färre riksdagsledamöter</title>
+          <idno type="rdwebb">GX02K312</idno>
+          <rs type="number">K312</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K312/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K312</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K312</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/F47A1855-0F6C-43CF-86AE-18922C4BFCD8</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UdGnyRLxFm6LiCDBYWE7MV</idno>
+            <name>Bertil Kjellberg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-JSSYZnWrKjtbfWDmu1qLSb</idno>
+            <name>Magdalena Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UfR75LbhVGdB5knEYrDgrN" type="signed"/>
+        <correspContext corresp="i-UfR75LbhVGdB5knEYrDgrN">
+          <note type="signatory" corresp="i-UdGnyRLxFm6LiCDBYWE7MV"/>
+          <note type="signatory" corresp="i-JSSYZnWrKjtbfWDmu1qLSb"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-LMEydfTLCVUjewKrabciQw">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-88w2zVmSzhB11zFn7qotmH">
+          <date when="2009-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-YKsKcWjVHycimpHioKU1HY">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-P9GwMyPSN4BzSV3P5zk39g"/>
+        <correspContext corresp="i-P9GwMyPSN4BzSV3P5zk39g">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

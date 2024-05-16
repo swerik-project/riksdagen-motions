@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KrU-00303">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Raoul Wallenberg-museum i Stockholm</title>
+        <author corresp="i-4Dcng9UMFeup6hmkB6yX74">av Gustav Blix (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Raoul Wallenberg-museum i Stockholm</title>
+          <idno type="rdwebb">GX02Kr303</idno>
+          <rs type="number">Kr303</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Kr303/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Kr303</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Kr303</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/124C6DEF-F380-48B5-88ED-DCFA536AD149</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4Dcng9UMFeup6hmkB6yX74</idno>
+            <name>Gustav Blix</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BQ71S7vruwMNrwgWhsbPVt" type="signed"/>
+        <correspContext corresp="i-BQ71S7vruwMNrwgWhsbPVt">
+          <note type="signatory" corresp="i-4Dcng9UMFeup6hmkB6yX74"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-9GKNLqakNo1Rk2p1fjqmVX">
+          <date when="2009-10-09"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-VZ91o9ZHAWFw85Jcrdui2u">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-YMxZ5SFF1XHGi1mSrrUP1g">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QcERZEN6JrfADc9b3KnPxP"/>
+        <correspContext corresp="i-QcERZEN6JrfADc9b3KnPxP">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

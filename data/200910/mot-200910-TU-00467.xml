@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-TU-00467">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Järnvägen genom Sundsvalls centrum</title>
+        <author corresp="i-4QSskNRajbqRG3PtACimqv i-AqkTDdERRgq7MWP7ajMpZo">av Susanne Eberstein och Jasenko Omanovic (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Järnvägen genom Sundsvalls centrum</title>
+          <idno type="rdwebb">GX02T467</idno>
+          <rs type="number">T467</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02T467/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02T467</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02T467</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/DAA5E401-C085-4115-9F07-6D0045551D93</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-4QSskNRajbqRG3PtACimqv</idno>
+            <name>Susanne Eberstein</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-AqkTDdERRgq7MWP7ajMpZo</idno>
+            <name>Jasenko Omanovic</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-V1PA56SDtrxXNQiZNK8EuJ" type="signed"/>
+        <correspContext corresp="i-V1PA56SDtrxXNQiZNK8EuJ">
+          <note type="signatory" corresp="i-4QSskNRajbqRG3PtACimqv"/>
+          <note type="signatory" corresp="i-AqkTDdERRgq7MWP7ajMpZo"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-EzFfmJ7QH2cM7e6F5to6vS">
+          <date when="2009-10-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-MEk4YY8LsHXXWyEwuHvtXX">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-HRQGKG472ZKv6zCSLUqqSf">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-C8EKpE6wUyg5pQvDKSeCWC"/>
+        <correspContext corresp="i-C8EKpE6wUyg5pQvDKSeCWC">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

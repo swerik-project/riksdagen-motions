@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-JuU-00203">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elpistol</title>
+        <author corresp="i-S1jBpohzgG7cgcBjfgN1Fb">av Sten Bergheden (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Elpistol</title>
+          <idno type="rdwebb">GX02Ju203</idno>
+          <rs type="number">Ju203</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Ju203/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Ju203</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Ju203</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/DEA23B1D-9A95-4002-BB8A-AD089B12C8D8</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-S1jBpohzgG7cgcBjfgN1Fb</idno>
+            <name>Sten Bergheden</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3NEFSBEXfkfdC1y8fdBPen" type="signed"/>
+        <correspContext corresp="i-3NEFSBEXfkfdC1y8fdBPen">
+          <note type="signatory" corresp="i-S1jBpohzgG7cgcBjfgN1Fb"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-9KDbBLQNWasRU71i18Uho8">
+          <date when="2009-09-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-LUVYDNm8FE5MesWxFBAaiS">
+          <date when="2009-09-24"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-BbmY2UucrRnbBjZmv5WTXW">
+          <date when="2009-09-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-G2rtffg1xH9c3jU8FSA64X"/>
+        <correspContext corresp="i-G2rtffg1xH9c3jU8FSA64X">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

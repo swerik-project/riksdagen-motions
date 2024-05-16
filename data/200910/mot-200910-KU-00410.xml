@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00410">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Republik</title>
+        <author corresp="i-D8B2Xf6UADbqciPHrqFxSc">av Birgitta Ohlsson m.fl. (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Republik</title>
+          <idno type="rdwebb">GX02K410</idno>
+          <rs type="number">K410</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K410/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K410</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K410</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/622CA472-5399-4528-989F-45C04ECD1C75</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-D8B2Xf6UADbqciPHrqFxSc</idno>
+            <name>Birgitta Ohlsson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-S7wLw9aynA5vbRCsqxxL3N</idno>
+            <name>Tina Acketoft</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-A1WkfiAbmndDMThhAvrWEm</idno>
+            <name>Hans Backman</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QWHMshHTvUnBAVdrhkUAjT" type="signed"/>
+        <correspContext corresp="i-QWHMshHTvUnBAVdrhkUAjT">
+          <note type="signatory" corresp="i-D8B2Xf6UADbqciPHrqFxSc"/>
+          <note type="signatory" corresp="i-S7wLw9aynA5vbRCsqxxL3N"/>
+          <note type="signatory" corresp="i-A1WkfiAbmndDMThhAvrWEm"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-R8PPj9NUozVs2ZMEsS2nxw">
+          <date when="2009-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-FcL6Sz2uhUC83fTT24CMhT">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-XiSKaR3rw1BwBuGV3LBTbN">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7MU7MJTcc5BFv5eFcF3N4r"/>
+        <correspContext corresp="i-7MU7MJTcc5BFv5eFcF3N4r">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

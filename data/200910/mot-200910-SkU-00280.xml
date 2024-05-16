@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-SkU-00280">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ID-kontroller</title>
+        <author corresp="i-YDnK8VSSiRoNGUj2EGkAeD i-UukxhVrpswE5ADBkFe7Q3V">av Peter Jeppsson och Jan Björkman (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>ID-kontroller</title>
+          <idno type="rdwebb">GX02Sk280</idno>
+          <rs type="number">Sk280</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Sk280/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Sk280</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Sk280</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/573D7608-0789-4813-AFA0-EEC19269DEE2</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-YDnK8VSSiRoNGUj2EGkAeD</idno>
+            <name>Peter Jeppsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-UukxhVrpswE5ADBkFe7Q3V</idno>
+            <name>Jan Björkman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NwfRLTff7uXpUTSZMzLbkw" type="signed"/>
+        <correspContext corresp="i-NwfRLTff7uXpUTSZMzLbkw">
+          <note type="signatory" corresp="i-YDnK8VSSiRoNGUj2EGkAeD"/>
+          <note type="signatory" corresp="i-UukxhVrpswE5ADBkFe7Q3V"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-WtadU2wNgRzhNx4giSK8yR">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6jYVnKait6trqYa9G7hTVh">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-M8kP3NbDZ1mBmRrbfxDWUy">
+          <date when="2009-09-29"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-L64JPLGtMExs795HLCJLrG"/>
+        <correspContext corresp="i-L64JPLGtMExs795HLCJLrG">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

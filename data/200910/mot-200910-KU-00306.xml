@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00306">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lex Kosta</title>
+        <author corresp="i-FL3Tee8NjTSCkq4XGmHcyw">av Carina Adolfsson Elgestam m.fl. (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lex Kosta</title>
+          <idno type="rdwebb">GX02K306</idno>
+          <rs type="number">K306</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K306/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K306</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K306</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C3CA9001-20AD-4A30-926D-81F2D9473154</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-FL3Tee8NjTSCkq4XGmHcyw</idno>
+            <name>Carina Adolfsson Elgestam</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-LutTcg2m9spsoVaK7cAQeB</idno>
+            <name>Lars Wegendal</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-G8564CqEnhC5PBjZSwUxsE</idno>
+            <name>Tomas Eneroth</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CffJgj2Z9x6BDB4jyivq45" type="signed"/>
+        <correspContext corresp="i-CffJgj2Z9x6BDB4jyivq45">
+          <note type="signatory" corresp="i-FL3Tee8NjTSCkq4XGmHcyw"/>
+          <note type="signatory" corresp="i-LutTcg2m9spsoVaK7cAQeB"/>
+          <note type="signatory" corresp="i-G8564CqEnhC5PBjZSwUxsE"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-UoGuk9N6TWSsSLtSeP8iBw">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Rxi1ies4CfxzYefUnBeHoJ">
+          <date when="2009-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-CoDfb3pcuByvfkinqwrqtk">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PXBf2ffD5YGAtGFA5xVgqx"/>
+        <correspContext corresp="i-PXBf2ffD5YGAtGFA5xVgqx">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

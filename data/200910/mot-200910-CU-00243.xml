@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-CU-00243">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hantering av mellannamn</title>
+        <author corresp="i-GkGATynUsbQhroqVm6AkQW i-5gSCoqgN8cUnJLfPPLD7nv">av Sonia Karlsson och Christina Axelsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hantering av mellannamn</title>
+          <idno type="rdwebb">GX02C243</idno>
+          <rs type="number">C243</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02C243/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02C243</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02C243</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1CAA7918-6694-49DA-94EC-218DED388251</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-GkGATynUsbQhroqVm6AkQW</idno>
+            <name>Sonia Karlsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-5gSCoqgN8cUnJLfPPLD7nv</idno>
+            <name>Christina Axelsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Vcs8PjPT7kZzPS3L71MStA" type="signed"/>
+        <correspContext corresp="i-Vcs8PjPT7kZzPS3L71MStA">
+          <note type="signatory" corresp="i-GkGATynUsbQhroqVm6AkQW"/>
+          <note type="signatory" corresp="i-5gSCoqgN8cUnJLfPPLD7nv"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Uu1BjLoNrshzVMqsu2wPvB">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-W9EhLZH5GPVEdL3E8ZDKUb">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-PvEaAMHopfBYzxf73FhDWX">
+          <date when="2009-09-29"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QJDSh3t3yqnmzP9joyomZV"/>
+        <correspContext corresp="i-QJDSh3t3yqnmzP9joyomZV">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

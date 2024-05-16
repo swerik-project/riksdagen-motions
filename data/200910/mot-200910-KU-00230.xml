@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00230">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Avvecklande av monarkin</title>
+        <author corresp="i-KhCf7Li1jUJ7dRtgidL66D">av Stefan Wikén (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Avvecklande av monarkin</title>
+          <idno type="rdwebb">GX02K230</idno>
+          <rs type="number">K230</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K230/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K230</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K230</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/632E2756-87B2-4A76-ADC7-C97EA7E811EB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KhCf7Li1jUJ7dRtgidL66D</idno>
+            <name>Stefan Wikén</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FQ4fSjKVcSKGotAz8AtsfG" type="signed"/>
+        <correspContext corresp="i-FQ4fSjKVcSKGotAz8AtsfG">
+          <note type="signatory" corresp="i-KhCf7Li1jUJ7dRtgidL66D"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-EEFypvYCHZAD9WKd1743A1">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-QF5WsNq9yGdYNgcwwRfj26">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-MnAZKK6pq2sZtNuSb8iRT8">
+          <date when="2009-09-29"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-5V3SMnwxLVcNaNsaW72aPX"/>
+        <correspContext corresp="i-5V3SMnwxLVcNaNsaW72aPX">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

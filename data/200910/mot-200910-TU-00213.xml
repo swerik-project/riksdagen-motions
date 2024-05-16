@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-TU-00213">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Miljövänligt resande</title>
+        <author corresp="i-SvS8rTwUeKpVtp5mrPNCaP">av Fredrik  Lundh och Leif Pettersson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Miljövänligt resande</title>
+          <idno type="rdwebb">GX02T213</idno>
+          <rs type="number">T213</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02T213/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02T213</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02T213</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/008229C9-0C2C-4A3F-8788-FEE1CB526D4F</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KCyyRs9HnkQhss61gii5F7</idno>
+            <name>Fredrik Lundh</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-SvS8rTwUeKpVtp5mrPNCaP</idno>
+            <name>Leif Pettersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VMW5Z8VytNwE7vhTpv9b9m" type="signed"/>
+        <correspContext corresp="i-VMW5Z8VytNwE7vhTpv9b9m">
+          <note type="signatory" corresp="i-KCyyRs9HnkQhss61gii5F7"/>
+          <note type="signatory" corresp="i-SvS8rTwUeKpVtp5mrPNCaP"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-2MMpSttKqaSYyQkbz87eF6">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-B9yeGxJ3z7jLswWApgbBGR">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-TZcN6GbYJhLAp2Kt3i1M6A">
+          <date when="2009-09-24"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BdTX43a633NowRdQVv1mR2"/>
+        <correspContext corresp="i-BdTX43a633NowRdQVv1mR2">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

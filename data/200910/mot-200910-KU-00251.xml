@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-KU-00251">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Allmän handling och diarieföring</title>
+        <author corresp="i-CphaobCDkTcFx9MN686234 i-N9Pi9YpD4nvtCEsVp2CGcX">av Lennart Pettersson och Staffan Danielsson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Allmän handling och diarieföring</title>
+          <idno type="rdwebb">GX02K251</idno>
+          <rs type="number">K251</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02K251/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02K251</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02K251</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/EE881C34-B5E4-41EF-A4F3-9FDDEA801AE6</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CphaobCDkTcFx9MN686234</idno>
+            <name>Lennart Pettersson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-N9Pi9YpD4nvtCEsVp2CGcX</idno>
+            <name>Staffan Danielsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2E4Ht7JV7fc6ARPwRs83Qf" type="signed"/>
+        <correspContext corresp="i-2E4Ht7JV7fc6ARPwRs83Qf">
+          <note type="signatory" corresp="i-CphaobCDkTcFx9MN686234"/>
+          <note type="signatory" corresp="i-N9Pi9YpD4nvtCEsVp2CGcX"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-3bUozJUJxAze5nz8dwcnRn">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Pr6oRKiTa6xEDp8ViPd8pi">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-UieDesi3hYoeCLJc5gXH4u">
+          <date when="2009-09-29"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NFSjaxpkDdJZFJNEk6Xd3f"/>
+        <correspContext corresp="i-NFSjaxpkDdJZFJNEk6Xd3f">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-AU-00324">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samhall</title>
+        <author corresp="i-AZLUb1tb1XBKEbcvPVdCkZ i-J95EwJKvWuN9JUNcJSJKgp">av Helene Petersson i Stockaryd och Göte Wahlström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Samhall</title>
+          <idno type="rdwebb">GX02A324</idno>
+          <rs type="number">A324</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02A324/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02A324</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02A324</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1C7FABB4-63B2-4494-B22C-A6B0BD45242A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-AZLUb1tb1XBKEbcvPVdCkZ</idno>
+            <name>Helene Petersson i Stockaryd</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-J95EwJKvWuN9JUNcJSJKgp</idno>
+            <name>Göte Wahlström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-S212u849XRheSkSbJsUN7F" type="signed"/>
+        <correspContext corresp="i-S212u849XRheSkSbJsUN7F">
+          <note type="signatory" corresp="i-AZLUb1tb1XBKEbcvPVdCkZ"/>
+          <note type="signatory" corresp="i-J95EwJKvWuN9JUNcJSJKgp"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-2biWDWe38SUET5KZXSGytd">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AuW62uFYQZEjHzFno5bNZu">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-HMUz3Ntxf8ybDkDoL7TLTs">
+          <date when="2009-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PsKTWYHyMceaLApECBHzmo"/>
+        <correspContext corresp="i-PsKTWYHyMceaLApECBHzmo">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

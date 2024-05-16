@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-SoU-00608">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regelbundna PSA-prov</title>
+        <author corresp="i-KNqtzTyLq88RopWq6R35xs i-3S4u3rsmsb3bjgrsrZUU6Q">av Ronny Olander och Anders Karlsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Regelbundna PSA-prov</title>
+          <idno type="rdwebb">GX02So608</idno>
+          <rs type="number">So608</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02So608/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02So608</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02So608</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B931F18A-4AE2-4521-80D1-7B28C06B45B0</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KNqtzTyLq88RopWq6R35xs</idno>
+            <name>Ronny Olander</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-3S4u3rsmsb3bjgrsrZUU6Q</idno>
+            <name>Anders Karlsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9buv2zWfDB6VHZgSdt32gK" type="signed"/>
+        <correspContext corresp="i-9buv2zWfDB6VHZgSdt32gK">
+          <note type="signatory" corresp="i-KNqtzTyLq88RopWq6R35xs"/>
+          <note type="signatory" corresp="i-3S4u3rsmsb3bjgrsrZUU6Q"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-6bYugicPDXHEqqrC5GpgaZ">
+          <date when="2009-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PiYzXrpC5yZTXz5eny16RP">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-GUM4CqzB4rqFEwSTdvUyVW">
+          <date when="2009-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UxwGd6x3ttUdsVefriAEYw"/>
+        <correspContext corresp="i-UxwGd6x3ttUdsVefriAEYw">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

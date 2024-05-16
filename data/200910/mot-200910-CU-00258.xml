@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-CU-00258">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Registrering av testamenten</title>
+        <author corresp="i-4QSskNRajbqRG3PtACimqv">av Susanne Eberstein (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Registrering av testamenten</title>
+          <idno type="rdwebb">GX02C258</idno>
+          <rs type="number">C258</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02C258/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02C258</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02C258</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/DDE972CA-4AEE-4285-BF21-070C7059611B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-4QSskNRajbqRG3PtACimqv</idno>
+            <name>Susanne Eberstein</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CifGCA8kjmMiK6C8yVdELq" type="signed"/>
+        <correspContext corresp="i-CifGCA8kjmMiK6C8yVdELq">
+          <note type="signatory" corresp="i-4QSskNRajbqRG3PtACimqv"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-G4HruFqQ1j9S7xDVzrmt8B">
+          <date when="2009-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-46WgEYhwQeCkLgCovmbiBH">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Cjy8s552wyxrmYboY3f9KN">
+          <date when="2009-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-26niByZJNEJ9vUdzkX1aQc"/>
+        <correspContext corresp="i-26niByZJNEJ9vUdzkX1aQc">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

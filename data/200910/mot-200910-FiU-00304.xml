@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200910-FiU-00304">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kreditupplysning</title>
+        <author corresp="i-J6HemNwzcYVLs5m9EZ9Tmt">av Hans Rothenberg (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kreditupplysning</title>
+          <idno type="rdwebb">GX02Fi304</idno>
+          <rs type="number">Fi304</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GX02Fi304/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GX02Fi304</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GX02Fi304</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/911EC1F8-B55B-4543-8898-3FD7E6449899</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-J6HemNwzcYVLs5m9EZ9Tmt</idno>
+            <name>Hans Rothenberg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8xXCtLh3DTMcYzxRZ6Yatx" type="signed"/>
+        <correspContext corresp="i-8xXCtLh3DTMcYzxRZ6Yatx">
+          <note type="signatory" corresp="i-J6HemNwzcYVLs5m9EZ9Tmt"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-EqYqJxSPqR1ambCgqScRfY">
+          <date when="2009-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-H79qTw74rgkSNx79grBXJZ">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-PbKsuEQeA7S3kjJR41G1Rf">
+          <date when="2009-10-06"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GbecySZSAPnEeDMxHQ6qJE"/>
+        <correspContext corresp="i-GbecySZSAPnEeDMxHQ6qJE">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

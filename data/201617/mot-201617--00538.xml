@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201617--00538">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2016/17:538</title>
+          <idno type="rdwebb">H402538</idno>
+          <rs type="number">538</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H402538/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H402538</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H402538</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-S1jBpohzgG7cgcBjfgN1Fb</idno>
+            <name>Sten Bergheden</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="dismissed"/>
+        <correspAction xml:id="i-R4qZARbRTMsgiPN8SnZ1yV" type="signed"/>
+        <correspContext corresp="i-R4qZARbRTMsgiPN8SnZ1yV">
+          <note type="signatory" corresp="i-S1jBpohzgG7cgcBjfgN1Fb"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-VLBFi9Y78emi1JnYVs37C4">
+          <date when="2016-09-30"/>
+          <time when="14:37:56"/>
+        </correspAction>
+        <correspAction type="expired" xml:id="i-3EzGDigULTe9rQk3cpv9C4">
+          <date when="2016-10-03"/>
+        </correspAction>
+        <correspAction type="reviewed" xml:id="i-H64kuhikALPCmkyRytrwHU">
+          <date when="2016-10-03"/>
+          <time when="11:10:37"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

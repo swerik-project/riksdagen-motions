@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201617--01779">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2016/17:1779</title>
+          <idno type="rdwebb">H4021779</idno>
+          <rs type="number">1779</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4021779/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4021779</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4021779</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Kb87jeTEio4k4qCJeZ6pQE</idno>
+            <name>Said Abdu</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>L</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-RDeqY3mXLBtUS9bixjvHS</idno>
+            <name>Lars Tysklind</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>L</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="dismissed"/>
+        <correspAction xml:id="i-VUB6GSga3Kh8H15KA28gya" type="signed"/>
+        <correspContext corresp="i-VUB6GSga3Kh8H15KA28gya">
+          <note type="signatory" corresp="i-Kb87jeTEio4k4qCJeZ6pQE"/>
+          <note type="signatory" corresp="i-RDeqY3mXLBtUS9bixjvHS"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-Rt4sRVuEaGu4U6STvtHvTT">
+          <date when="2016-10-04"/>
+          <time when="17:01:00"/>
+        </correspAction>
+        <correspAction type="expired" xml:id="i-ATeMJ95xdnM6zMzsq6FAAK">
+          <date when="2016-10-05"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

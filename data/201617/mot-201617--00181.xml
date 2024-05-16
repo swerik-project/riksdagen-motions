@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201617--00181">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motionen utgår</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motion 2016/17:181</title>
+          <idno type="rdwebb">H402181</idno>
+          <rs type="number">181</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H402181/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H402181</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H402181</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-G9cpXThuSAP5KSY32ApDCj</idno>
+            <name>Ann-Britt Åsebol</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-BG62CjWHzJPrnkPkGYJy9c</idno>
+            <name>Eva Lohman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="status" subtype="dismissed"/>
+        <correspAction xml:id="i-WpEry7ZMhz1GGkYB6dSrcP" type="signed"/>
+        <correspContext corresp="i-WpEry7ZMhz1GGkYB6dSrcP">
+          <note type="signatory" corresp="i-G9cpXThuSAP5KSY32ApDCj"/>
+          <note type="signatory" corresp="i-BG62CjWHzJPrnkPkGYJy9c"/>
+        </correspContext>
+        <correspAction type="submitted" xml:id="i-GjRWfP6NoYJbVxVwBN3wai">
+          <date when="2016-09-28"/>
+          <time when="14:42:54"/>
+        </correspAction>
+        <correspAction type="expired" xml:id="i-JQMdUfofothiM7XUKCFmTe">
+          <date when="2016-09-29"/>
+        </correspAction>
+        <correspAction type="reviewed" xml:id="i-2Ygmq9mHYdLEa3j8bPyVtX">
+          <date when="2016-09-29"/>
+          <time when="10:05:28"/>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

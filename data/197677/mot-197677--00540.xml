@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197677--00540">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om viss ändring i medbestämmandelagen</title>
+        <author>av herr Lidbom</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om viss ändring i medbestämmandelagen</title>
+          <idno type="rdwebb">G002540</idno>
+          <rs type="number">540</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G002540/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G002540</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G002540</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-YL4aQfT264wNd4jTiiKUox</idno>
+            <name>CARL LIDBOM</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VCn5wySBrTdpVpJVrFeNuS" type="signed"/>
+        <correspContext corresp="i-VCn5wySBrTdpVpJVrFeNuS">
+          <note type="signatory" corresp="i-YL4aQfT264wNd4jTiiKUox"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

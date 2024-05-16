@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197677--00437">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om det kommunala partistödet</title>
+        <author>av herr Strindberg m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om det kommunala partistödet</title>
+          <idno type="rdwebb">G002437</idno>
+          <rs type="number">437</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G002437/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G002437</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G002437</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CQwK55qAkVUZt7PtiHxAxd</idno>
+            <name>PER-OLOF STRINDBERG</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-F6Qp4bx3aMVLN2vuCyMK7D</idno>
+            <name>KNUT WACHTMEISTER</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TPFPkNeAnPLVG6gbmTwyFe</idno>
+            <name>GUNNAR OSKARSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3XeHBnMaG98Lkd2bFBpyV6" type="signed"/>
+        <correspContext corresp="i-3XeHBnMaG98Lkd2bFBpyV6">
+          <note type="signatory" corresp="i-CQwK55qAkVUZt7PtiHxAxd"/>
+          <note type="signatory" corresp="i-F6Qp4bx3aMVLN2vuCyMK7D"/>
+          <note type="signatory" corresp="i-TPFPkNeAnPLVG6gbmTwyFe"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

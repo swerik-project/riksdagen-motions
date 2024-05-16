@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197677--01003">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om det statliga partistödet</title>
+        <author>av herr Siegbahn m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om det statliga partistödet</title>
+          <idno type="rdwebb">G0021003</idno>
+          <rs type="number">1003</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G0021003/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G0021003</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G0021003</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9D97X6fo9to7QoKCna8LuM</idno>
+            <name>BO SIEGBAHN</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-V193Sbzem4fs1MBp32cuww</idno>
+            <name>GÖTHE KNUTSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-TRhFqW81mc6ziiCGTSe6zp</idno>
+            <name>MARGARETHA AF UGGLAS</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-64P5SsCYdsPmggFaHRjcah" type="signed"/>
+        <correspContext corresp="i-64P5SsCYdsPmggFaHRjcah">
+          <note type="signatory" corresp="i-9D97X6fo9to7QoKCna8LuM"/>
+          <note type="signatory" corresp="i-V193Sbzem4fs1MBp32cuww"/>
+          <note type="signatory" corresp="i-TRhFqW81mc6ziiCGTSe6zp"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

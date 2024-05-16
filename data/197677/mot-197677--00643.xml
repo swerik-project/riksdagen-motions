@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197677--00643">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om valbarhet som nämndeman</title>
+        <author>av fru Theorin och herr Nilsson i Norrköping </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om valbarhet som nämndeman</title>
+          <idno type="rdwebb">G002643</idno>
+          <rs type="number">643</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G002643/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G002643</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G002643</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-EMrT8Jq3dLhMVxxy5ibzUJ</idno>
+            <name>MAJ BRITT THEORIN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-QcuhAzXJzRZwdpi69xfMhk</idno>
+            <name>CHRISTER NILSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PRSkejJFXs4abqrdJJoteG" type="signed"/>
+        <correspContext corresp="i-PRSkejJFXs4abqrdJJoteG">
+          <note type="signatory" corresp="i-EMrT8Jq3dLhMVxxy5ibzUJ"/>
+          <note type="signatory" corresp="i-QcuhAzXJzRZwdpi69xfMhk"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

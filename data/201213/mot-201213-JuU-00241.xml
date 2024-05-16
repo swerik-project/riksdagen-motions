@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-JuU-00241">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ett tryggare Stockholm</title>
+        <author corresp="i-MVzhVeKwRGmjHjHoSrReg9 i-TvPyEtuwNMQMGBtdEqsZRN">av Börje Vestlund och Meeri Wasberg (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ett tryggare Stockholm</title>
+          <idno type="rdwebb">H002Ju241</idno>
+          <rs type="number">Ju241</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002Ju241/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002Ju241</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002Ju241</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/040955B8-2A3A-4572-A200-7261A0956DCE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-MVzhVeKwRGmjHjHoSrReg9</idno>
+            <name>Börje Vestlund</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-TvPyEtuwNMQMGBtdEqsZRN</idno>
+            <name>Meeri Wasberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5pZAyosFfoEr3CJgZqw8yS" type="signed"/>
+        <correspContext corresp="i-5pZAyosFfoEr3CJgZqw8yS">
+          <note type="signatory" corresp="i-MVzhVeKwRGmjHjHoSrReg9"/>
+          <note type="signatory" corresp="i-TvPyEtuwNMQMGBtdEqsZRN"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-PnTjT2x9ANH2vTYvmC67LB">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GiW31SFRwkasKNXmxXveZe">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-R2qF1Cb8sDbfgoizyKLFPs">
+          <date when="2012-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-H9PW8VwdZC9gNtfH7wVbYL"/>
+        <correspContext corresp="i-H9PW8VwdZC9gNtfH7wVbYL">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-SkU-00235">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>F-skattsedel tillsammans med bolagsregistrering</title>
+        <author corresp="i-S7wLw9aynA5vbRCsqxxL3N">av Tina Acketoft (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>F-skattsedel tillsammans med bolagsregistrering</title>
+          <idno type="rdwebb">H002Sk235</idno>
+          <rs type="number">Sk235</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002Sk235/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002Sk235</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002Sk235</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/823AB332-F6EC-4A3A-B1F8-D407C320CF8A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-S7wLw9aynA5vbRCsqxxL3N</idno>
+            <name>Tina Acketoft</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2J5JHBargtZVJkXYfLYJEL" type="signed"/>
+        <correspContext corresp="i-2J5JHBargtZVJkXYfLYJEL">
+          <note type="signatory" corresp="i-S7wLw9aynA5vbRCsqxxL3N"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-PEkCmSURN2FwpnVJQsaYHX">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Q9CnFyawuAt2VGH6SLU5s8">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-JRq2VLABEjrQdpS6hgCVoM">
+          <date when="2012-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-EWSzxPGh23LK8g9x2Gfdz8"/>
+        <correspContext corresp="i-EWSzxPGh23LK8g9x2Gfdz8">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

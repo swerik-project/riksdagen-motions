@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-KU-00266">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ordensväsendet</title>
+        <author corresp="i-TKwDinNn4twnLieK52EXRu i-NXkJirA9Eh3xDV8PPU3eVE">av Björn Söder och Kent Ekeroth (SD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ordensväsendet</title>
+          <idno type="rdwebb">H002K266</idno>
+          <rs type="number">K266</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002K266/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002K266</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002K266</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/8AB9A3F6-0092-4BBB-A3C2-B00F1A0312A2</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TKwDinNn4twnLieK52EXRu</idno>
+            <name>Björn Söder</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-NXkJirA9Eh3xDV8PPU3eVE</idno>
+            <name>Kent Ekeroth</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2KwWwiAffZAkRVFdR9fyNv" type="signed"/>
+        <correspContext corresp="i-2KwWwiAffZAkRVFdR9fyNv">
+          <note type="signatory" corresp="i-TKwDinNn4twnLieK52EXRu"/>
+          <note type="signatory" corresp="i-NXkJirA9Eh3xDV8PPU3eVE"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-6o1myDHJDNXoeL3ie8rC5R">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BXDGjCdoBBJmWsc5YhRSiL">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-WRF7cXePmchgXQZ5ZF6Wxa">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-WdaAybtnsas2H9hwAPCRUE"/>
+        <correspContext corresp="i-WdaAybtnsas2H9hwAPCRUE">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

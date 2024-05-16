@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-KU-00329">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fri motionsrätt</title>
+        <author corresp="i-Ev6Dx3pWj2WT32VGQpabaz i-LmthhHLPxzMMpEiXSys13u">av Finn Bengtsson och Ulrika Karlsson i Uppsala (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fri motionsrätt</title>
+          <idno type="rdwebb">H002K329</idno>
+          <rs type="number">K329</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002K329/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002K329</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002K329</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/AFE3D909-1668-478E-8AA1-A0EC191FF6D3</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ev6Dx3pWj2WT32VGQpabaz</idno>
+            <name>Finn Bengtsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-LmthhHLPxzMMpEiXSys13u</idno>
+            <name>Ulrika Karlsson i Uppsala</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Qmofz2vwu6Ld7VXrBkaiqV" type="signed"/>
+        <correspContext corresp="i-Qmofz2vwu6Ld7VXrBkaiqV">
+          <note type="signatory" corresp="i-Ev6Dx3pWj2WT32VGQpabaz"/>
+          <note type="signatory" corresp="i-LmthhHLPxzMMpEiXSys13u"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Eumzd2hNMcBrTfFKqZin2H">
+          <date when="2012-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GJA4vs4Sg89hnbkpKDJkhs">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-EsWqhr8DGD12sbJuu1DWx8">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2ucboALysYgU8sDTgzE9CM"/>
+        <correspContext corresp="i-2ucboALysYgU8sDTgzE9CM">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

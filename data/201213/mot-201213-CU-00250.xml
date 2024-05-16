@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-CU-00250">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Telepriskoll</title>
+        <author corresp="i-6NzqsXjPzSi4BTz8BKo1Rg">av Christer Winbäck (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Telepriskoll</title>
+          <idno type="rdwebb">H002C250</idno>
+          <rs type="number">C250</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002C250/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002C250</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002C250</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B985962D-6196-43BC-A70A-73AC65371713</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-6NzqsXjPzSi4BTz8BKo1Rg</idno>
+            <name>Christer Winbäck</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3dSvQXMUWEjmXfxmbpK5UZ" type="signed"/>
+        <correspContext corresp="i-3dSvQXMUWEjmXfxmbpK5UZ">
+          <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-QRaKTfVnm88dFeN7cMxB9u">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DqwSgYUmAyWHtAhxunuvRo">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-LaqddqjNkGvZCy7V8RhAeR">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-wsNTuvNCX42tBqvPjTWMy"/>
+        <correspContext corresp="i-wsNTuvNCX42tBqvPjTWMy">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

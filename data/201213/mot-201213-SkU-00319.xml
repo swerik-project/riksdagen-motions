@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-SkU-00319">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>RIT-avdrag </title>
+        <author corresp="i-NRb4HpaQ87qUwhLNcKt7Gz i-J74sVAjCTSxzD8rbnxRRA">av Annika Qarlsson och Åsa Torstensson (C)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>RIT-avdrag </title>
+          <idno type="rdwebb">H002Sk319</idno>
+          <rs type="number">Sk319</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002Sk319/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002Sk319</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002Sk319</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2F85E152-7FC7-429A-8C1C-58B9FA6557B8</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-NRb4HpaQ87qUwhLNcKt7Gz</idno>
+            <name>Annika Qarlsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-J74sVAjCTSxzD8rbnxRRA</idno>
+            <name>Åsa Torstensson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AS9jbQkpc57RFRKxchHr13" type="signed"/>
+        <correspContext corresp="i-AS9jbQkpc57RFRKxchHr13">
+          <note type="signatory" corresp="i-NRb4HpaQ87qUwhLNcKt7Gz"/>
+          <note type="signatory" corresp="i-J74sVAjCTSxzD8rbnxRRA"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-4vdoJP8yWenFczjXT7thZQ">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-2MmKVy4AhK38QfkNf6XsCN">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-4AiX486fQuQRTXjRv3HPEz">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BQ2mfk85qbCTkXHLH3yM5o"/>
+        <correspContext corresp="i-BQ2mfk85qbCTkXHLH3yM5o">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

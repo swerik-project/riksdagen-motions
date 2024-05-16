@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-AU-00302">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Förbättrad integration</title>
+        <author corresp="i-8LDEcfmJoNdnZMCPvSjiNu">av Lars Beckman (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Förbättrad integration</title>
+          <idno type="rdwebb">H002A302</idno>
+          <rs type="number">A302</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002A302/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002A302</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002A302</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B1302F8C-C478-4498-A677-E990B1CEBE13</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-8LDEcfmJoNdnZMCPvSjiNu</idno>
+            <name>Lars Beckman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-ATJeN3rE3WD84p7bTW7jt5" type="signed"/>
+        <correspContext corresp="i-ATJeN3rE3WD84p7bTW7jt5">
+          <note type="signatory" corresp="i-8LDEcfmJoNdnZMCPvSjiNu"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-MyopF5v8gT3oX958kBtx7m">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PsoPLxcAkTMHPhukqeUBkG">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-PpK6r3njfXx6ADpmnVowus">
+          <date when="2012-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FY5EgbpJwutg6rSxL1aW9Q"/>
+        <correspContext corresp="i-FY5EgbpJwutg6rSxL1aW9Q">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

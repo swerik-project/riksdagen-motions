@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-KU-00245">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Raoul Wallenberg-staty i riksdagen</title>
+        <author corresp="i-HRPpQ8qPTSDiXRLMZkqL1u">av Mats Johansson (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Raoul Wallenberg-staty i riksdagen</title>
+          <idno type="rdwebb">H002K245</idno>
+          <rs type="number">K245</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002K245/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002K245</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002K245</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/DE9AE5D8-275F-4C2D-9A17-E9C03396199D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-HRPpQ8qPTSDiXRLMZkqL1u</idno>
+            <name>Mats Johansson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Hnp44t8Xg3V4ERYfkxwrLc" type="signed"/>
+        <correspContext corresp="i-Hnp44t8Xg3V4ERYfkxwrLc">
+          <note type="signatory" corresp="i-HRPpQ8qPTSDiXRLMZkqL1u"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-3QWBePC3j6hG5DRp4AuHZE">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EZPn8eFHRwkjAE46sdc98x">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-LnysNfMmitQaexxeGP7rQZ">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-SrxWoxCBbZ6wHNr6MKG5k4"/>
+        <correspContext corresp="i-SrxWoxCBbZ6wHNr6MKG5k4">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

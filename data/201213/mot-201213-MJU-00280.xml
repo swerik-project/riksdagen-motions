@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-MJU-00280">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Artprojektet</title>
+        <author corresp="i-WG11xmCpAW9nyyXv1sJFAK i-2GE534P2Foy3WpqKPVNeW8">av Helena Leander och Mats Pertoft (MP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Artprojektet</title>
+          <idno type="rdwebb">H002MJ280</idno>
+          <rs type="number">MJ280</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002MJ280/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002MJ280</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002MJ280</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/138C39D8-F7AC-4517-A3AE-AE33297B8D43</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-WG11xmCpAW9nyyXv1sJFAK</idno>
+            <name>Helena Leander</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-2GE534P2Foy3WpqKPVNeW8</idno>
+            <name>Mats Pertoft</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BNhjKAjn23wsk6mocg3hXm" type="signed"/>
+        <correspContext corresp="i-BNhjKAjn23wsk6mocg3hXm">
+          <note type="signatory" corresp="i-WG11xmCpAW9nyyXv1sJFAK"/>
+          <note type="signatory" corresp="i-2GE534P2Foy3WpqKPVNeW8"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-AfewQBCZWWWmE8JmZnz9gp">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-P74sN6WeeXcVZyrnc8Yq2X">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-PQ5nvMmTMg5dSLnYYVuk2R">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2QPp9SEcedDrAw1KbQWJt1"/>
+        <correspContext corresp="i-2QPp9SEcedDrAw1KbQWJt1">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

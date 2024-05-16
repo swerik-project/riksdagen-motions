@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-CU-00401">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ockerräntor</title>
+        <author corresp="i-Ldb2oqPG98BReLEGLTqU4A">av Jan Ericson (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ockerräntor</title>
+          <idno type="rdwebb">H002C401</idno>
+          <rs type="number">C401</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002C401/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002C401</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002C401</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C01C1E36-7168-4145-BE94-9B74AE008A4B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ldb2oqPG98BReLEGLTqU4A</idno>
+            <name>Jan Ericson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5AX5t9BmqpHm3W73ggyfKc" type="signed"/>
+        <correspContext corresp="i-5AX5t9BmqpHm3W73ggyfKc">
+          <note type="signatory" corresp="i-Ldb2oqPG98BReLEGLTqU4A"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-UqhkiMLg9mek4ExyNMgHqK">
+          <date when="2012-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Ma9Kk8cT3mgLdeUMG94AQD">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-PGRo6gj8rPTa4YDkQDqMoF">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-YGV3q5MGqvK6BsHbYqESHh"/>
+        <correspContext corresp="i-YGV3q5MGqvK6BsHbYqESHh">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

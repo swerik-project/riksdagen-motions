@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-SkU-00391">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stämpelskatten</title>
+        <author corresp="i-8D1Xb5xvLE2YRWLnmb9hGW">av Isabella Jernbeck (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Stämpelskatten</title>
+          <idno type="rdwebb">H002Sk391</idno>
+          <rs type="number">Sk391</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002Sk391/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002Sk391</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002Sk391</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/04BEC85F-5F72-45F9-9376-AA702B81EA76</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-8D1Xb5xvLE2YRWLnmb9hGW</idno>
+            <name>Isabella Jernbeck</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TVFegrhf6dPkRvnKCtKTPM" type="signed"/>
+        <correspContext corresp="i-TVFegrhf6dPkRvnKCtKTPM">
+          <note type="signatory" corresp="i-8D1Xb5xvLE2YRWLnmb9hGW"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-7q3Lyc4UiqR2Fj6AZhfNot">
+          <date when="2012-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-X83tkheYvSTA6DMQ5SBvcm">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-17aKHFc4V5i6GnM52yHZxK">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BdyXkx7LZE4suvc7W3KjFK"/>
+        <correspContext corresp="i-BdyXkx7LZE4suvc7W3KjFK">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

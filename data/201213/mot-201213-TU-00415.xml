@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-TU-00415">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Svaveldirektivet</title>
+        <author corresp="i-DF6yJMSNGfT6HwisDSi4qz i-Qp2niWCpNoBB3vkdyrUBC7">av Josef Fransson och Lars Isovaara (SD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Svaveldirektivet</title>
+          <idno type="rdwebb">H002T415</idno>
+          <rs type="number">T415</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002T415/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002T415</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002T415</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/8ED7FA2B-63EA-49DB-9826-B35C471A3025</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-DF6yJMSNGfT6HwisDSi4qz</idno>
+            <name>Josef Fransson</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Qp2niWCpNoBB3vkdyrUBC7</idno>
+            <name>Lars Isovaara</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9yuX7ufAYCN8H7R74Kg4Nq" type="signed"/>
+        <correspContext corresp="i-9yuX7ufAYCN8H7R74Kg4Nq">
+          <note type="signatory" corresp="i-DF6yJMSNGfT6HwisDSi4qz"/>
+          <note type="signatory" corresp="i-Qp2niWCpNoBB3vkdyrUBC7"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Pg2LML1zor5PW1rWjdxEDJ">
+          <date when="2012-10-08"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6syLcRmP3Cj86rDuAtBZCt">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-D4yk4XD2aYLnbcFPYswWQQ">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BUrSneg3i36V5k8ZMaLKyk"/>
+        <correspContext corresp="i-BUrSneg3i36V5k8ZMaLKyk">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

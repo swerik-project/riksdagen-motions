@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-KU-00225">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Information till anhöriga vid begravning</title>
+        <author corresp="i-DJgH7q21vrKJDYHFpgpTiX">av Penilla Gunther (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Information till anhöriga vid begravning</title>
+          <idno type="rdwebb">H002K225</idno>
+          <rs type="number">K225</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002K225/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002K225</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002K225</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/5418FAC2-7385-4EB7-BC3A-708457A17C88</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-DJgH7q21vrKJDYHFpgpTiX</idno>
+            <name>Penilla Gunther</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-7UFeEQihgXFxi4Ej56E6BJ" type="signed"/>
+        <correspContext corresp="i-7UFeEQihgXFxi4Ej56E6BJ">
+          <note type="signatory" corresp="i-DJgH7q21vrKJDYHFpgpTiX"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-DoEqMMeT7fYnTocg8BUBmR">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KCxyUxF32mP3eAxMg2JdY5">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-DfBmpV47RuSonfs38n2fkJ">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-YHsZK9xjgDqRfXxXTvwuF"/>
+        <correspContext corresp="i-YHsZK9xjgDqRfXxXTvwuF">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

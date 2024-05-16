@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-CU-00222">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bluffakturor</title>
+        <author corresp="i-3hmS3YtKuXCDu8pntcLAdc">av Hans Hoff (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bluffakturor</title>
+          <idno type="rdwebb">H002C222</idno>
+          <rs type="number">C222</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002C222/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002C222</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002C222</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2AD44192-47DC-4177-B872-F2A056C6832C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3hmS3YtKuXCDu8pntcLAdc</idno>
+            <name>Hans Hoff</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-N14fNx82PUyKwBPveNsxcB" type="signed"/>
+        <correspContext corresp="i-N14fNx82PUyKwBPveNsxcB">
+          <note type="signatory" corresp="i-3hmS3YtKuXCDu8pntcLAdc"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-LbGfjLVd38HJrUT9uwJp4j">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Dtqk5b3z2ngc1UNjceAYL1">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-9oNbh6yze1FhSrmzm43eUf">
+          <date when="2012-09-28"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GLjMn5ncNyJc4zsxGvfZyw"/>
+        <correspContext corresp="i-GLjMn5ncNyJc4zsxGvfZyw">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

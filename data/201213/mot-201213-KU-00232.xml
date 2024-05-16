@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-KU-00232">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Riksdagshörna i Luleå</title>
+        <author corresp="i-KCyyRs9HnkQhss61gii5F7">av Fredrik Lundh Sammeli (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Riksdagshörna i Luleå</title>
+          <idno type="rdwebb">H002K232</idno>
+          <rs type="number">K232</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002K232/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002K232</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002K232</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/DAB9DD11-A463-4F15-9C7C-25DB5F1313BB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KCyyRs9HnkQhss61gii5F7</idno>
+            <name>Fredrik Lundh Sammeli</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HQcnzSM26uhb8WAJe1a4j" type="signed"/>
+        <correspContext corresp="i-HQcnzSM26uhb8WAJe1a4j">
+          <note type="signatory" corresp="i-KCyyRs9HnkQhss61gii5F7"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-PZVasSpadp7E7ZYE6NP15A">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Gw23xQaCyZBtbBJKqim7xi">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-UyLLiT65fUsCfoHuRJXVwm">
+          <date when="2012-09-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-MYah6LrAJQ9f2CfUYLG5BJ"/>
+        <correspContext corresp="i-MYah6LrAJQ9f2CfUYLG5BJ">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

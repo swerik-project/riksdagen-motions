@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-MJU-00403">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Säljakt</title>
+        <author corresp="i-YVn7bHWq33ziBuqm8fKFGq i-FucmvyHZ22CXcKRGnfjaC4">av Per-Ingvar Johnsson och Anders Åkesson (C)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Säljakt</title>
+          <idno type="rdwebb">H002MJ403</idno>
+          <rs type="number">MJ403</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002MJ403/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002MJ403</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002MJ403</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/E77F451D-6834-4EBA-BE15-FDA11F9D5E3D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-YVn7bHWq33ziBuqm8fKFGq</idno>
+            <name>Per-Ingvar Johnsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-FucmvyHZ22CXcKRGnfjaC4</idno>
+            <name>Anders Åkesson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DfALZ6cY4HoTdMiJdCSoS7" type="signed"/>
+        <correspContext corresp="i-DfALZ6cY4HoTdMiJdCSoS7">
+          <note type="signatory" corresp="i-YVn7bHWq33ziBuqm8fKFGq"/>
+          <note type="signatory" corresp="i-FucmvyHZ22CXcKRGnfjaC4"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-NsHu8dFG4ikhSN152Yh8U8">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-M7FBwotiyyTFbCzTzNL26k">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-52xRs3kFWXGddtURKVqvqn">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Eh6mJhvppbPGYGby5bqAAS"/>
+        <correspContext corresp="i-Eh6mJhvppbPGYGby5bqAAS">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-TU-00253">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alkobommar</title>
+        <author corresp="i-6NzqsXjPzSi4BTz8BKo1Rg">av Christer Winbäck (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Alkobommar</title>
+          <idno type="rdwebb">H002T253</idno>
+          <rs type="number">T253</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002T253/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002T253</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002T253</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C0B3697E-DCAF-48D4-8C72-6663DAF15930</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-6NzqsXjPzSi4BTz8BKo1Rg</idno>
+            <name>Christer Winbäck</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KPy9ym7q2byx8rNNWqtjYV" type="signed"/>
+        <correspContext corresp="i-KPy9ym7q2byx8rNNWqtjYV">
+          <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-X9ov7aRamxWJEa4hq92WM4">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-V1tgKmTo4bdxVjYC4qphhX">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-LuwQUD6GxeVr5mJncVQeu9">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TrDP4Z2JfM5fcWPrn8aqAm"/>
+        <correspContext corresp="i-TrDP4Z2JfM5fcWPrn8aqAm">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-KU-00302">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Minska antalet ledamöter i Sveriges riksdag</title>
+        <author corresp="i-P2Qeo7VM9UV2RSExyEhtHW i-Ws7TTEJpudwigKX5RjyhR4">av Jenny Petersson och Camilla Waltersson Grönvall (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Minska antalet ledamöter i Sveriges riksdag</title>
+          <idno type="rdwebb">H002K302</idno>
+          <rs type="number">K302</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002K302/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002K302</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002K302</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/379830CC-B70C-434B-BE8A-39CE359B9A2F</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-P2Qeo7VM9UV2RSExyEhtHW</idno>
+            <name>Jenny Petersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-Ws7TTEJpudwigKX5RjyhR4</idno>
+            <name>Camilla Waltersson Grönvall</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SwC5L5AjVNhmTDmQmBZ1fh" type="signed"/>
+        <correspContext corresp="i-SwC5L5AjVNhmTDmQmBZ1fh">
+          <note type="signatory" corresp="i-P2Qeo7VM9UV2RSExyEhtHW"/>
+          <note type="signatory" corresp="i-Ws7TTEJpudwigKX5RjyhR4"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-7U8pdZ6rdy1u5FoFpozWUr">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-U5X5xwX3rq7a7nP2UGMJMn">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-WrNUqd3s6FbEGR6EJaonwY">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9oYWz5vDJ6T1A25FDVrgNq"/>
+        <correspContext corresp="i-9oYWz5vDJ6T1A25FDVrgNq">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

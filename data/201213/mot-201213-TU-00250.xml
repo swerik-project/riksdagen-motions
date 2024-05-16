@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-TU-00250">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Norrbotniabanan</title>
+        <author corresp="i-TEkdGy8DEUwcbVAxHygs6z">av Maria Lundqvist-Brömster (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Norrbotniabanan</title>
+          <idno type="rdwebb">H002T250</idno>
+          <rs type="number">T250</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002T250/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002T250</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002T250</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/74A6752C-A940-48A7-9283-37C1AD2171D0</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-TEkdGy8DEUwcbVAxHygs6z</idno>
+            <name>Maria Lundqvist-Brömster</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FXG86bJteTBujPRciPh9WS" type="signed"/>
+        <correspContext corresp="i-FXG86bJteTBujPRciPh9WS">
+          <note type="signatory" corresp="i-TEkdGy8DEUwcbVAxHygs6z"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-WNHFgoyMr48ySmMwNBFnnU">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-XT1iRmDoRyYvvqjvu75BnD">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-A3EdMKMMWcQ14qS77jEiaC">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-4jWS2a24Np9Vi7z9G7eZJR"/>
+        <correspContext corresp="i-4jWS2a24Np9Vi7z9G7eZJR">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

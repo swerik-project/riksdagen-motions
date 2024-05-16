@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-MJU-00234">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Minska matsvinnet</title>
+        <author corresp="i-QYUn9LH1BFyUaLeMaR5S5h">av Otto von Arnold (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Minska matsvinnet</title>
+          <idno type="rdwebb">H002MJ234</idno>
+          <rs type="number">MJ234</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002MJ234/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002MJ234</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002MJ234</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/6AA00BCA-483D-4A74-B66D-6C0D9AFE8B2A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QYUn9LH1BFyUaLeMaR5S5h</idno>
+            <name>Otto von Arnold</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-W813bMDn6faXW2jJTtD3JB" type="signed"/>
+        <correspContext corresp="i-W813bMDn6faXW2jJTtD3JB">
+          <note type="signatory" corresp="i-QYUn9LH1BFyUaLeMaR5S5h"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-KguqqPgSETd4nV5C1k1rXW">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8CHGW5AL2Z9B8RWViz2Wxz">
+          <date when="2012-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-3ihxxCsL9b3V2ub98buoV1">
+          <date when="2012-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7TrKZQ7h1cnszKwtXZ5eXU"/>
+        <correspContext corresp="i-7TrKZQ7h1cnszKwtXZ5eXU">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

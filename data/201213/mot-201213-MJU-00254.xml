@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-MJU-00254">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matlänet Södermanland</title>
+        <author corresp="i-VvP7Vtt4zjvLVvg7PsZMyU i-T7x5MaYWAj63jUhWq1ps6v">av Peder Wachtmeister och Walburga Habsburg Douglas (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Matlänet Södermanland</title>
+          <idno type="rdwebb">H002MJ254</idno>
+          <rs type="number">MJ254</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002MJ254/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002MJ254</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002MJ254</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/FCEEF760-FC3C-481D-8B10-D0AF89E73EE8</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-VvP7Vtt4zjvLVvg7PsZMyU</idno>
+            <name>Peder Wachtmeister</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-T7x5MaYWAj63jUhWq1ps6v</idno>
+            <name>Walburga Habsburg Douglas</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8g9MPkwxtcci5E9bTCcXwE" type="signed"/>
+        <correspContext corresp="i-8g9MPkwxtcci5E9bTCcXwE">
+          <note type="signatory" corresp="i-VvP7Vtt4zjvLVvg7PsZMyU"/>
+          <note type="signatory" corresp="i-T7x5MaYWAj63jUhWq1ps6v"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-VsbjrrXTHqcjrSTcBAJC6z">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-TDsN1Xz113xR8ZyMfLcyAj">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-6cs7wWvKd6EUtwo7KLp55T">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-8Xo8J6iddNme4Qyee87ZgF"/>
+        <correspContext corresp="i-8Xo8J6iddNme4Qyee87ZgF">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

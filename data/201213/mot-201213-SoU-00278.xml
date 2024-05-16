@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-SoU-00278">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Motverka hemlösheten</title>
+        <author corresp="i-WTUJB2R5FNpHU89dXa4RTX i-EFJ93MgPh6dJrzDB1Tt657">av Emma Henriksson och Yvonne Andersson (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Motverka hemlösheten</title>
+          <idno type="rdwebb">H002So278</idno>
+          <rs type="number">So278</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002So278/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002So278</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002So278</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2EA10490-5203-4609-AFFB-54373E2B9287</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-WTUJB2R5FNpHU89dXa4RTX</idno>
+            <name>Emma Henriksson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-EFJ93MgPh6dJrzDB1Tt657</idno>
+            <name>Yvonne Andersson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4zAtmfsrszYYUtyVoBRWhJ" type="signed"/>
+        <correspContext corresp="i-4zAtmfsrszYYUtyVoBRWhJ">
+          <note type="signatory" corresp="i-WTUJB2R5FNpHU89dXa4RTX"/>
+          <note type="signatory" corresp="i-EFJ93MgPh6dJrzDB1Tt657"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-41jMon84LZNJTeBhTuMPww">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-REfPfgayLdsPnUGvzzVmRh">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-G9YmyoiR9jeTx9Y16bwkcb">
+          <date when="2012-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UbpAKsAREKKNTYVvyDxqJZ"/>
+        <correspContext corresp="i-UbpAKsAREKKNTYVvyDxqJZ">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

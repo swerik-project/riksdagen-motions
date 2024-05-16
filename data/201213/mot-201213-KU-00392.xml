@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-KU-00392">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digitaliserat system för signering och inlämning av motioner</title>
+        <author corresp="i-VFaAexqzCaq9JmKCfc1WJ9">av Julia Kronlid (SD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Digitaliserat system för signering och inlämning av motioner</title>
+          <idno type="rdwebb">H002K392</idno>
+          <rs type="number">K392</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002K392/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002K392</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002K392</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/13B35B66-6387-4DB9-A365-E92917F143F9</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VFaAexqzCaq9JmKCfc1WJ9</idno>
+            <name>Julia Kronlid</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Gde4ScyrRKLkic9F9bDs7" type="signed"/>
+        <correspContext corresp="i-Gde4ScyrRKLkic9F9bDs7">
+          <note type="signatory" corresp="i-VFaAexqzCaq9JmKCfc1WJ9"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-B5qdWLAsfpkNKsaPAAAWfQ">
+          <date when="2012-10-09"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-R3XbdN4r45VPNZhd4gv1p9">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-k6vxSbE96rgGe4NKfQDuw">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-3cv4STRKZTgoTqZ3hUFLTE"/>
+        <correspContext corresp="i-3cv4STRKZTgoTqZ3hUFLTE">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-NU-00390">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>En statlig uranfond</title>
+        <author corresp="i-Kc3AcmXkcmGKhXRxHt6DUP">av Edward Riedl (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>En statlig uranfond</title>
+          <idno type="rdwebb">H002N390</idno>
+          <rs type="number">N390</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002N390/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002N390</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002N390</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/E29DE070-7A93-4C10-8C3B-CE6E69CEBFFE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Kc3AcmXkcmGKhXRxHt6DUP</idno>
+            <name>Edward Riedl</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XPLjenEc4jwAqjTsqNvBts" type="signed"/>
+        <correspContext corresp="i-XPLjenEc4jwAqjTsqNvBts">
+          <note type="signatory" corresp="i-Kc3AcmXkcmGKhXRxHt6DUP"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-DdgTP1qr9LPVTDS7XiCHSs">
+          <date when="2012-10-09"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-85UPvzGvF2D8mE6qrSvdqR">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-aCfQCFNFqWsPk8Dc6PGFZ">
+          <date when="2012-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7xoTnjvjHUhr96qiVS7PAo"/>
+        <correspContext corresp="i-7xoTnjvjHUhr96qiVS7PAo">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

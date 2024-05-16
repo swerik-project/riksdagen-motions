@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-SoU-00283">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Patientintegritet</title>
+        <author corresp="i-HsGsAzKWHQY5pjyAYNXAz7 i-9x2nw6aosA3pyEJfJTc1eD">av Maria Ferm och Ulf Holm (MP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Patientintegritet</title>
+          <idno type="rdwebb">H002So283</idno>
+          <rs type="number">So283</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002So283/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002So283</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002So283</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A0EFCB4A-B71D-4B03-BA32-D27C2D5C53C5</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-HsGsAzKWHQY5pjyAYNXAz7</idno>
+            <name>Maria Ferm</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-9x2nw6aosA3pyEJfJTc1eD</idno>
+            <name>Ulf Holm</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4D7pJa9KA5mV5uGpATCJNB" type="signed"/>
+        <correspContext corresp="i-4D7pJa9KA5mV5uGpATCJNB">
+          <note type="signatory" corresp="i-HsGsAzKWHQY5pjyAYNXAz7"/>
+          <note type="signatory" corresp="i-9x2nw6aosA3pyEJfJTc1eD"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-H88mEfdAheS5cv3kitiLiR">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WZhFjFrxzbZdaVfhMthoZo">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-F7vcSSRdQaotnrvmmcNJXT">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-41Sh2atQWGoky7qon3PS6R"/>
+        <correspContext corresp="i-41Sh2atQWGoky7qon3PS6R">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-NU-00209">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kinainstitut i Västerås</title>
+        <author corresp="i-Kn2C4HPwWcqbEgtUtWTc5F">av Roger Haddad (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kinainstitut i Västerås</title>
+          <idno type="rdwebb">H002N209</idno>
+          <rs type="number">N209</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002N209/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002N209</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002N209</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A1293649-4C8C-49C8-992B-A143E7DEF649</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Kn2C4HPwWcqbEgtUtWTc5F</idno>
+            <name>Roger Haddad</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-C3CsCEvp7o2ZQrPcwoELpo" type="signed"/>
+        <correspContext corresp="i-C3CsCEvp7o2ZQrPcwoELpo">
+          <note type="signatory" corresp="i-Kn2C4HPwWcqbEgtUtWTc5F"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-CfPDGuSGiS8fUwwxhVXy6s">
+          <date when="2012-10-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9HSmTgFt4UvPjQrMCvkC2H">
+          <date when="2012-09-28"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-LtewEjgDr8oWmgRNgALSrc">
+          <date when="2012-09-28"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-C12TkFkjDt1BhQh1nPha1n"/>
+        <correspContext corresp="i-C12TkFkjDt1BhQh1nPha1n">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

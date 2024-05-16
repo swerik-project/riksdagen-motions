@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-JuU-00205">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Specificerad signalementsbeskrivning</title>
+        <author corresp="i-NXkJirA9Eh3xDV8PPU3eVE">av Kent Ekeroth (SD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Specificerad signalementsbeskrivning</title>
+          <idno type="rdwebb">H002Ju205</idno>
+          <rs type="number">Ju205</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002Ju205/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002Ju205</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002Ju205</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/9164FF34-61FF-4739-8711-F61732B347DE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-NXkJirA9Eh3xDV8PPU3eVE</idno>
+            <name>Kent Ekeroth</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LTjbM13HWZFuNwZzo7S5Qr" type="signed"/>
+        <correspContext corresp="i-LTjbM13HWZFuNwZzo7S5Qr">
+          <note type="signatory" corresp="i-NXkJirA9Eh3xDV8PPU3eVE"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-7qeACbFjq97cJXCbdUCgTg">
+          <date when="2012-09-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9sATRkPxSgZJVDwJ9QUThY">
+          <date when="2012-09-20"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-AnzTQKCCDqhZ4NtoAUmGQM">
+          <date when="2012-09-20"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JHG4fZqGDD7mN5KZxUmwWv"/>
+        <correspContext corresp="i-JHG4fZqGDD7mN5KZxUmwWv">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

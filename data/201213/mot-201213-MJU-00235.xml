@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-MJU-00235">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Allemansrätten</title>
+        <author corresp="i-QYUn9LH1BFyUaLeMaR5S5h">av Otto von Arnold (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Allemansrätten</title>
+          <idno type="rdwebb">H002MJ235</idno>
+          <rs type="number">MJ235</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002MJ235/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002MJ235</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002MJ235</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B5C6694D-0075-4203-9DEE-ADD8601E58DE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QYUn9LH1BFyUaLeMaR5S5h</idno>
+            <name>Otto von Arnold</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VDvuBsGREb8nL88f5Z19Mq" type="signed"/>
+        <correspContext corresp="i-VDvuBsGREb8nL88f5Z19Mq">
+          <note type="signatory" corresp="i-QYUn9LH1BFyUaLeMaR5S5h"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-E6kCnW11o6Dr6UjJi99e7V">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-2K8esqjoStZmZ9KD7HzvsC">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-F4HJZSTmgtKk8RkFhmJBAe">
+          <date when="2012-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-DCen2kwEnYvrpTqnPx1KBJ"/>
+        <correspContext corresp="i-DCen2kwEnYvrpTqnPx1KBJ">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

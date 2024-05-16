@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-TU-00257">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mobilnät</title>
+        <author corresp="i-GDFdKPNRdaGpkLXrouuiC1">av Johan Löfstrand (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Mobilnät</title>
+          <idno type="rdwebb">H002T257</idno>
+          <rs type="number">T257</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002T257/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002T257</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002T257</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/36C9F7F0-8EF7-4C8F-882E-E2468E368853</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GDFdKPNRdaGpkLXrouuiC1</idno>
+            <name>Johan Löfstrand</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DBzihUAHv7tfNr5ziShbsk" type="signed"/>
+        <correspContext corresp="i-DBzihUAHv7tfNr5ziShbsk">
+          <note type="signatory" corresp="i-GDFdKPNRdaGpkLXrouuiC1"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-9EQ8g3it83FzHJFdEWKmAi">
+          <date when="2012-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Jf4rdJQBTBWgGNK5b6tVar">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-REms1aJ2ZNVEyqp4eR5bvS">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Qguxevv6gjoDNfEDeaqKEA"/>
+        <correspContext corresp="i-Qguxevv6gjoDNfEDeaqKEA">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-SfU-00212">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Uppgivenhetssymtom</title>
+        <author corresp="i-PgfrE9pakWspkNp9dr9ejT i-KHxTD13x4T7QRobXtjMm4K">av Caroline Szyber och Roland Utbult (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Uppgivenhetssymtom</title>
+          <idno type="rdwebb">H002Sf212</idno>
+          <rs type="number">Sf212</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002Sf212/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002Sf212</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002Sf212</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/DF22E6BD-56A2-4F4E-BA83-03651452EDAE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-PgfrE9pakWspkNp9dr9ejT</idno>
+            <name>Caroline Szyber</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-KHxTD13x4T7QRobXtjMm4K</idno>
+            <name>Roland Utbult</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GfgXYswPd6gpyqKVWKx3Qe" type="signed"/>
+        <correspContext corresp="i-GfgXYswPd6gpyqKVWKx3Qe">
+          <note type="signatory" corresp="i-PgfrE9pakWspkNp9dr9ejT"/>
+          <note type="signatory" corresp="i-KHxTD13x4T7QRobXtjMm4K"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-2UMHBd6GjJiXrUBAGuDPQo">
+          <date when="2012-09-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AA8kKypREjPY1MksmPCnML">
+          <date when="2012-09-25"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-9JfL9BPBWY1xKWUMV3nMq4">
+          <date when="2012-09-21"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NgjzYs8oRWsam5Tor4yKqB"/>
+        <correspContext corresp="i-NgjzYs8oRWsam5Tor4yKqB">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

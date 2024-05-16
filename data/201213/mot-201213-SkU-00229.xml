@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-SkU-00229">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>RIT-avdrag</title>
+        <author corresp="i-4ednwgW1p5nCGVvkb7M7eo i-V4PGuKUAKzYUXWKqj2bLeL">av Andreas Carlson och Lars-Axel Nordell (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>RIT-avdrag</title>
+          <idno type="rdwebb">H002Sk229</idno>
+          <rs type="number">Sk229</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002Sk229/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002Sk229</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002Sk229</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/6BD7787F-D103-4E51-9FB8-7114EA424104</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4ednwgW1p5nCGVvkb7M7eo</idno>
+            <name>Lars-Axel Nordell</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-V4PGuKUAKzYUXWKqj2bLeL</idno>
+            <name>Andreas Carlson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-D49kMt8CkcyTDaei5fPJzE" type="signed"/>
+        <correspContext corresp="i-D49kMt8CkcyTDaei5fPJzE">
+          <note type="signatory" corresp="i-4ednwgW1p5nCGVvkb7M7eo"/>
+          <note type="signatory" corresp="i-V4PGuKUAKzYUXWKqj2bLeL"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-PLsaVSu1e5oqyVugdYfcxq">
+          <date when="2012-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Tx1Ryz3bo2ruqnqH2crDbL">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-9vkkp9yG8J5QWzHxNvh68w">
+          <date when="2012-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-8gzXyFejGipSNAJgJq2E44"/>
+        <correspContext corresp="i-8gzXyFejGipSNAJgJq2E44">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

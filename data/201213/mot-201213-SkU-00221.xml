@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201213-SkU-00221">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Utvidgat ROT-avdrag</title>
+        <author corresp="i-S1jBpohzgG7cgcBjfgN1Fb">av Sten Bergheden (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Utvidgat ROT-avdrag</title>
+          <idno type="rdwebb">H002Sk221</idno>
+          <rs type="number">Sk221</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H002Sk221/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H002Sk221</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H002Sk221</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/765AB27C-56C0-42D8-93ED-1DC2EDFFB15A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-S1jBpohzgG7cgcBjfgN1Fb</idno>
+            <name>Sten Bergheden</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HQNPUH8a14qFEjqf1iJWbL" type="signed"/>
+        <correspContext corresp="i-HQNPUH8a14qFEjqf1iJWbL">
+          <note type="signatory" corresp="i-S1jBpohzgG7cgcBjfgN1Fb"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-HHZRNHP6cS6TPnwtgiSMD2">
+          <date when="2012-10-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-R8o2FPccBLoCZsrm85mGFj">
+          <date when="2012-10-01"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-2pu1vrgkHeufAVyVmW1iCh">
+          <date when="2012-10-01"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Kg8RAToN7u72sfACg65MUf"/>
+        <correspContext corresp="i-Kg8RAToN7u72sfACg65MUf">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

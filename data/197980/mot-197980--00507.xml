@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197980--00507">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>av ett affischmuseum</title>
+        <author>av Hans Petersson i Hallstahammar och Eva Hjelmström om inrättande</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>av ett affischmuseum</title>
+          <idno type="rdwebb">G302507</idno>
+          <rs type="number">507</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G302507/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G302507</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G302507</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>HANS PETERSSON</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-RPvXiWoVbPvNZBh8bxVvbB</idno>
+            <name>EVA HJELMSTRÖM</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-X9JFqMV8LkGoQsVpmAZ8QS" type="signed"/>
+        <correspContext corresp="i-X9JFqMV8LkGoQsVpmAZ8QS">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-RPvXiWoVbPvNZBh8bxVvbB"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

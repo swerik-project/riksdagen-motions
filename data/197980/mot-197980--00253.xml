@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197980--00253">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om ändring i sjömanslagen</title>
+        <author>av Hans Petersson i Röstånga </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om ändring i sjömanslagen</title>
+          <idno type="rdwebb">G302253</idno>
+          <rs type="number">253</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G302253/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G302253</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G302253</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>HANS PETERSSON</name>
+            <state type="partyAffiliation" ref="Q53764745">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8Vibe7U6Kxw5FEKioCBKnu" type="signed"/>
+        <correspContext corresp="i-8Vibe7U6Kxw5FEKioCBKnu">
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

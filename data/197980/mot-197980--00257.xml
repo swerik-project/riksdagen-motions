@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197980--00257">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om översyn av förköpslagen</title>
+        <author>av Kurt Ove Johansson och Lars-Erik Lövdén </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om översyn av förköpslagen</title>
+          <idno type="rdwebb">G302257</idno>
+          <rs type="number">257</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G302257/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G302257</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G302257</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UVAgeLYUkfmr8A9VVChgiV</idno>
+            <name>KURT OVE JOHANSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-6qjD2tsSCtsrmXQjy7mtCJ</idno>
+            <name>LARS-ERIK LOVDEN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-76b19sKDqVLRJDtNT9FU9Z" type="signed"/>
+        <correspContext corresp="i-76b19sKDqVLRJDtNT9FU9Z">
+          <note type="signatory" corresp="i-UVAgeLYUkfmr8A9VVChgiV"/>
+          <note type="signatory" corresp="i-6qjD2tsSCtsrmXQjy7mtCJ"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

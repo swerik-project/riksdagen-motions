@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197980--00223">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om en fördjupad information rörande samhällsekonomin</title>
+        <author>av Sture Palm och Anita Gradin</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om en fördjupad information rörande samhällsekonomin</title>
+          <idno type="rdwebb">G302223</idno>
+          <rs type="number">223</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G302223/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G302223</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G302223</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-A299eggckA8HS7jSxqrvbz</idno>
+            <name>STURE PALM</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-K7A3HxRuQWaoRkthu77uVa</idno>
+            <name>ANITA GRADIN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XcmrEbQXCq5NoJR29wMw4j" type="signed"/>
+        <correspContext corresp="i-XcmrEbQXCq5NoJR29wMw4j">
+          <note type="signatory" corresp="i-A299eggckA8HS7jSxqrvbz"/>
+          <note type="signatory" corresp="i-K7A3HxRuQWaoRkthu77uVa"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

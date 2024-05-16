@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197879--00326">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om SJ:s pensionärsbiijetter</title>
+        <author>av Margit Odelsparr och Martin Olsson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om SJ:s pensionärsbiijetter</title>
+          <idno type="rdwebb">G202326</idno>
+          <rs type="number">326</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G202326/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G202326</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G202326</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-NgRqP97WVPKTC9FDUsdvD1</idno>
+            <name>MARGIT ODELSPARR</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>MARTIN OLSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UbYE4Pio7VBLNBsLDVFxy1" type="signed"/>
+        <correspContext corresp="i-UbYE4Pio7VBLNBsLDVFxy1">
+          <note type="signatory" corresp="i-NgRqP97WVPKTC9FDUsdvD1"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

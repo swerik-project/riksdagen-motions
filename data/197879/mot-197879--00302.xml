@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197879--00302">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om riksdagens hus</title>
+        <author>av Bonnie Bernström m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om riksdagens hus</title>
+          <idno type="rdwebb">G202302</idno>
+          <rs type="number">302</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G202302/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G202302</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G202302</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-95F4sSt2W2tyXAwECzMBoc</idno>
+            <name>BONNIE BERNSTRÖM</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-QD529ywv2NxNf9n1Uh7cuj</idno>
+            <name>PÄR GRANSTEDT</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-CkprnrTz3hpNREdKrcoiAi</idno>
+            <name>CARL-WILH. LOTHIGIUS</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-8Nc7Pi4CxrPaJswNC5hQu6</idno>
+            <name>OLLE WÄSTBERG</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HRBBDgUbZd8hPrKKiz9ZXW" type="signed"/>
+        <correspContext corresp="i-HRBBDgUbZd8hPrKKiz9ZXW">
+          <note type="signatory" corresp="i-95F4sSt2W2tyXAwECzMBoc"/>
+          <note type="signatory" corresp="i-QD529ywv2NxNf9n1Uh7cuj"/>
+          <note type="signatory" corresp="i-CkprnrTz3hpNREdKrcoiAi"/>
+          <note type="signatory" corresp="i-8Nc7Pi4CxrPaJswNC5hQu6"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

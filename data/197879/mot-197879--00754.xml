@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197879--00754">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om Stora Sjöfallet m. m.</title>
+        <author>av Göthe Knutson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om Stora Sjöfallet m. m.</title>
+          <idno type="rdwebb">G202754</idno>
+          <rs type="number">754</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G202754/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G202754</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G202754</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-V193Sbzem4fs1MBp32cuww</idno>
+            <name>GÖTHE KNUTSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KiQyxt5377p9Gr3NdVkwfN" type="signed"/>
+        <correspContext corresp="i-KiQyxt5377p9Gr3NdVkwfN">
+          <note type="signatory" corresp="i-V193Sbzem4fs1MBp32cuww"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

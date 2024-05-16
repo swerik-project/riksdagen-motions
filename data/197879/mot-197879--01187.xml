@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197879--01187">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om ett nytt polishus i Mjölby</title>
+        <author>av Åke Polstam och Marianne Karlsson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om ett nytt polishus i Mjölby</title>
+          <idno type="rdwebb">G2021187</idno>
+          <rs type="number">1187</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G2021187/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G2021187</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G2021187</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CA3pFyLdFtkVneaXbdnyV4</idno>
+            <name>ÅKE POLSTAM</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-QF9w7weamuxjZGtJKPPkwp</idno>
+            <name>MARIANNE KARLSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5zn6TDjfpVL9zsn8JeFbQj" type="signed"/>
+        <correspContext corresp="i-5zn6TDjfpVL9zsn8JeFbQj">
+          <note type="signatory" corresp="i-CA3pFyLdFtkVneaXbdnyV4"/>
+          <note type="signatory" corresp="i-QF9w7weamuxjZGtJKPPkwp"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

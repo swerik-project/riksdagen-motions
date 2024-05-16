@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197879--00527">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om hjälptelefoner vid vissa vägar</title>
+        <author>av Hugo Bengtsson och Hans Pettersson i Helsingborg </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om hjälptelefoner vid vissa vägar</title>
+          <idno type="rdwebb">G202527</idno>
+          <rs type="number">527</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G202527/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G202527</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G202527</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9b5dygstFooeZAKETPPzo2</idno>
+            <name>HUGO BENGTSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-BFARkU8JBdh3WvC4Snrf4s</idno>
+            <name>HANS PETTERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-16w77foEXeB7ELmcFJ8Ztq" type="signed"/>
+        <correspContext corresp="i-16w77foEXeB7ELmcFJ8Ztq">
+          <note type="signatory" corresp="i-9b5dygstFooeZAKETPPzo2"/>
+          <note type="signatory" corresp="i-BFARkU8JBdh3WvC4Snrf4s"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

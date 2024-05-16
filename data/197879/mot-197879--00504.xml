@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197879--00504">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om dagersättningen vid mönstring</title>
+        <author>av Roland Brännström och Lilly Hansson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om dagersättningen vid mönstring</title>
+          <idno type="rdwebb">G202504</idno>
+          <rs type="number">504</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G202504/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G202504</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G202504</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-967Q9DmWbuMgaG62XNQNDR</idno>
+            <name>ROLAND BRÄNNSTRÖM</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VN8XwZzCEwCzeU3auzzX7t</idno>
+            <name>LILLY HANSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JdgDzHy5H1LoDdJ3m9EyHd" type="signed"/>
+        <correspContext corresp="i-JdgDzHy5H1LoDdJ3m9EyHd">
+          <note type="signatory" corresp="i-967Q9DmWbuMgaG62XNQNDR"/>
+          <note type="signatory" corresp="i-VN8XwZzCEwCzeU3auzzX7t"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

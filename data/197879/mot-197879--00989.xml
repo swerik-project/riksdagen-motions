@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-197879--00989">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om skogsvården</title>
+        <author>av Gunnel Jonäng m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om skogsvården</title>
+          <idno type="rdwebb">G202989</idno>
+          <rs type="number">989</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G202989/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G202989</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G202989</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-S9emfaxXsmAywnkewYKSJ7</idno>
+            <name>GUNNEL JONÄNG</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4ArLZazBX4fxunitZvs7oe</idno>
+            <name>GUNNAR BJÖRK</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-FspDTJR46n7g4C1LGfX7xd</idno>
+            <name>JOHAN A. OLSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XrfBorv7JMTJ5489C6ukr2" type="signed"/>
+        <correspContext corresp="i-XrfBorv7JMTJ5489C6ukr2">
+          <note type="signatory" corresp="i-S9emfaxXsmAywnkewYKSJ7"/>
+          <note type="signatory" corresp="i-4ArLZazBX4fxunitZvs7oe"/>
+          <note type="signatory" corresp="i-FspDTJR46n7g4C1LGfX7xd"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198182--00741">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Översyn av lagstiftningen om läkemedel</title>
+        <author>Thure Jadestig och Evert Svensson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Översyn av lagstiftningen om läkemedel</title>
+          <idno type="rdwebb">G502741</idno>
+          <rs type="number">741</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G502741/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G502741</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G502741</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-P769SjFVauFy2g8JW9w9Ft</idno>
+            <name>THURE JADESTIG</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Asq7NRpmkGRyqdnCrfGpjH</idno>
+            <name>EVERT SVENSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2oRoGtYvK6WL5qhMREGtQm" type="signed"/>
+        <correspContext corresp="i-2oRoGtYvK6WL5qhMREGtQm">
+          <note type="signatory" corresp="i-P769SjFVauFy2g8JW9w9Ft"/>
+          <note type="signatory" corresp="i-Asq7NRpmkGRyqdnCrfGpjH"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

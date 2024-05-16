@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198182--00346">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stödet till ålderdomshem</title>
+        <author>Stina Andersson och Annika Öhrström </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Stödet till ålderdomshem</title>
+          <idno type="rdwebb">G502346</idno>
+          <rs type="number">346</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G502346/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G502346</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G502346</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VQeQMdt9caNQssp1jxvoHn</idno>
+            <name>STINA ANDERSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-NtHFSRzQp57LWBaPAdpLPR</idno>
+            <name>ANNIKA ÖHRSTRÖM</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LGLxsqtBm1ioCD3NzbPVM" type="signed"/>
+        <correspContext corresp="i-LGLxsqtBm1ioCD3NzbPVM">
+          <note type="signatory" corresp="i-VQeQMdt9caNQssp1jxvoHn"/>
+          <note type="signatory" corresp="i-NtHFSRzQp57LWBaPAdpLPR"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

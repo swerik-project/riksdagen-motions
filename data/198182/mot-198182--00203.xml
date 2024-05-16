@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198182--00203">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kartläggning av kalkstensförekomster i Norrbotten</title>
+        <author>Eivor Marklund ni. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kartläggning av kalkstensförekomster i Norrbotten</title>
+          <idno type="rdwebb">G502203</idno>
+          <rs type="number">203</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G502203/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G502203</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G502203</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-8743Lhyk8SSNk8Ne84jigz</idno>
+            <name>EIVOR MARKLUND</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>JOHN ANDERSSON</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-FTkwAMo13hmDoeXLXEV1N</idno>
+            <name>SVEN HENRICSSON</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EpKRQVXAx4x4FGRhBzLBzp" type="signed"/>
+        <correspContext corresp="i-EpKRQVXAx4x4FGRhBzLBzp">
+          <note type="signatory" corresp="i-8743Lhyk8SSNk8Ne84jigz"/>
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-FTkwAMo13hmDoeXLXEV1N"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198182--01700">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ombyggnad av polishuset i Solna</title>
+        <author>Margareta Andrén </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ombyggnad av polishuset i Solna</title>
+          <idno type="rdwebb">G5021700</idno>
+          <rs type="number">1700</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G5021700/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G5021700</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G5021700</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-W4KsfSh6dCbjCcJdxiZwL</idno>
+            <name>MARGARET ANDRÉN</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9WR5D318ZEfDiAV12mPeou" type="signed"/>
+        <correspContext corresp="i-9WR5D318ZEfDiAV12mPeou">
+          <note type="signatory" corresp="i-W4KsfSh6dCbjCcJdxiZwL"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

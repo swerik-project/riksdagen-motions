@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198182--00245">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ett nytt polishus i Mjölby</title>
+        <author>Sture Thun</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ett nytt polishus i Mjölby</title>
+          <idno type="rdwebb">G502245</idno>
+          <rs type="number">245</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G502245/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G502245</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G502245</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-FSSYxP3VAxmi4UU9bL1D8z</idno>
+            <name>STURE THUN</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DTc2zTii8mPRTAmJaJL6wZ" type="signed"/>
+        <correspContext corresp="i-DTc2zTii8mPRTAmJaJL6wZ">
+          <note type="signatory" corresp="i-FSSYxP3VAxmi4UU9bL1D8z"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

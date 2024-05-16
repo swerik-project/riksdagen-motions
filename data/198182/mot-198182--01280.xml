@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198182--01280">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rätten till sjukbidrag</title>
+        <author>Göran Persson m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Rätten till sjukbidrag</title>
+          <idno type="rdwebb">G5021280</idno>
+          <rs type="number">1280</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G5021280/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G5021280</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G5021280</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>GÖRAN PERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-6QRx949PBJjaHhLd5Kfks8</idno>
+            <name>ANITA PERSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-NFTnYj5UkhZoMmAJt9mpbq</idno>
+            <name>BÖRJE NILSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VhrW5ipXEgoEWSQNY8tWYL" type="signed"/>
+        <correspContext corresp="i-VhrW5ipXEgoEWSQNY8tWYL">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-6QRx949PBJjaHhLd5Kfks8"/>
+          <note type="signatory" corresp="i-NFTnYj5UkhZoMmAJt9mpbq"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

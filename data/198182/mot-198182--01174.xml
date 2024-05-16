@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198182--01174">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skattekraftsutjämningen</title>
+        <author>Rolf Rämgård och Börje Hörnlund </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skattekraftsutjämningen</title>
+          <idno type="rdwebb">G5021174</idno>
+          <rs type="number">1174</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G5021174/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G5021174</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G5021174</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CuCEpUT8oy9rpZGyeXZqqn</idno>
+            <name>ROLF RÄMGÅRD</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-F75GdyfEGNRiwZrKbuWUGy</idno>
+            <name>BÖRJE HÖRNLUND</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BoBwcLfkZL5rL2Yv4AHBP5" type="signed"/>
+        <correspContext corresp="i-BoBwcLfkZL5rL2Yv4AHBP5">
+          <note type="signatory" corresp="i-CuCEpUT8oy9rpZGyeXZqqn"/>
+          <note type="signatory" corresp="i-F75GdyfEGNRiwZrKbuWUGy"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198182--00433">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fortsatt inventering av våtmarker</title>
+        <author>Nils Hjorth och Ove Karlsson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fortsatt inventering av våtmarker</title>
+          <idno type="rdwebb">G502433</idno>
+          <rs type="number">433</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G502433/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G502433</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G502433</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-WWVHy5fVgZxU1tYXeRXqDH</idno>
+            <name>NILS HJORTH</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-QXf2YRbFUcZE7jDnU6Y7tU</idno>
+            <name>OVE KARLSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NQQRi8wTS5L1JwWj2yA4QA" type="signed"/>
+        <correspContext corresp="i-NQQRi8wTS5L1JwWj2yA4QA">
+          <note type="signatory" corresp="i-WWVHy5fVgZxU1tYXeRXqDH"/>
+          <note type="signatory" corresp="i-QXf2YRbFUcZE7jDnU6Y7tU"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

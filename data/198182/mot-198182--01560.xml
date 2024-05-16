@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198182--01560">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Statligt engagemang i Landskrona-Sundbyprojektet</title>
+        <author>Sven Munke och Åke Persson</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Statligt engagemang i Landskrona-Sundbyprojektet</title>
+          <idno type="rdwebb">G5021560</idno>
+          <rs type="number">1560</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/G5021560/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/G5021560</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/G5021560</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-46ebrLL8NYuv6JwHgpvypy</idno>
+            <name>SVEN MUNKE</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-7FJHF1To8vo1c4HTXLUuo4</idno>
+            <name>ÅKE PERSSON</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Vhs6rVERjjDarLe23UxyVd" type="signed"/>
+        <correspContext corresp="i-Vhs6rVERjjDarLe23UxyVd">
+          <note type="signatory" corresp="i-46ebrLL8NYuv6JwHgpvypy"/>
+          <note type="signatory" corresp="i-7FJHF1To8vo1c4HTXLUuo4"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

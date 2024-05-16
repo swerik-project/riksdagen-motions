@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-TU-00266">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ny Skurubro</title>
+        <author corresp="i-CSSvFYJqF1rNFZNiY5Xnmx">av Mats Gerdau (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ny Skurubro</title>
+          <idno type="rdwebb">GU02T266</idno>
+          <rs type="number">T266</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02T266/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02T266</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02T266</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/6C2E09FA-A4C6-4644-A9EA-CFE804037313</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-CSSvFYJqF1rNFZNiY5Xnmx</idno>
+            <name>Mats Gerdau</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AKRFrF5HLaD6JbhP2LMsRb" type="signed"/>
+        <correspContext corresp="i-AKRFrF5HLaD6JbhP2LMsRb">
+          <note type="signatory" corresp="i-CSSvFYJqF1rNFZNiY5Xnmx"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-28pjuqzajoHeGj8idHwpxB">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-WjBTzvVryS12UBfRJMSb6B">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-GK1pHXkf3GM7eDkX9Cuva1">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WRx56zrnB5aGkzFKpUsURo">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-VrTvqLcU6Y36RimeGQFyGW">
+          <date when="2006-10-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RxT6qFfXJuqQ165vnc1JMi"/>
+        <correspContext corresp="i-RxT6qFfXJuqQ165vnc1JMi">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

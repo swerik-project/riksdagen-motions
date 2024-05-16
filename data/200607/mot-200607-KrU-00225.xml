@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-KrU-00225">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ordbok över Sveriges dialekter</title>
+        <author corresp="i-AktM7FqujRsJ6kGjNePGjq">av Lars-Ivar Ericson och Karin  Nilsson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ordbok över Sveriges dialekter</title>
+          <idno type="rdwebb">GU02Kr225</idno>
+          <rs type="number">Kr225</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02Kr225/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02Kr225</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02Kr225</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D909A0E5-7164-451E-8383-9FEF0BEAF480</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AktM7FqujRsJ6kGjNePGjq</idno>
+            <name>Lars-Ivar Ericson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-9A8V6t4pkLR2AKNxHphvV1</idno>
+            <name>Karin Nilsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2CDsa5adDYbtAiJVzBxJsv" type="signed"/>
+        <correspContext corresp="i-2CDsa5adDYbtAiJVzBxJsv">
+          <note type="signatory" corresp="i-AktM7FqujRsJ6kGjNePGjq"/>
+          <note type="signatory" corresp="i-9A8V6t4pkLR2AKNxHphvV1"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-6L6qqyYX6EBEterwhjgdJG">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-HF2mRgTUr87N1AWWQUUZhx">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-JxZBQRJCJ4Gityt5C7qGPq">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-T16EBR54AAdn3TPZE5rBT4">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-BRhmVJqjS1DhwGiVSDGy2m">
+          <date when="2006-10-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JKKnNkGzmvx14MJdqyRsYt"/>
+        <correspContext corresp="i-JKKnNkGzmvx14MJdqyRsYt">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

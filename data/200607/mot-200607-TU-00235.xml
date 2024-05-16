@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-TU-00235">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vägverket</title>
+        <author corresp="i-M8LKQKEcsjHJKv8kSmhVcX i-VdihabCvvgRAFyrwU5mdKf">av Tomas Tobé och Jessica Polfjärd (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vägverket</title>
+          <idno type="rdwebb">GU02T235</idno>
+          <rs type="number">T235</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02T235/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02T235</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02T235</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/F64C6E86-9665-4A4B-901C-7BF93B57960E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-M8LKQKEcsjHJKv8kSmhVcX</idno>
+            <name>Tomas Tobé</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VdihabCvvgRAFyrwU5mdKf</idno>
+            <name>Jessica Polfjärd</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UywSoZZkpTajNstosdVCwo" type="signed"/>
+        <correspContext corresp="i-UywSoZZkpTajNstosdVCwo">
+          <note type="signatory" corresp="i-M8LKQKEcsjHJKv8kSmhVcX"/>
+          <note type="signatory" corresp="i-VdihabCvvgRAFyrwU5mdKf"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-GcHDL9kL9L4hzhKCHiW1yi">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Pn4tZVZxVr6c6MbDcMtc9V">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-FnMkGdqCR7uHNJDo6ktAD6">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-DP8kQgorfMFAYQytQ5tPKW">
+          <date when="2006-10-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-6rhZJTYY52YDawMvLMCqg5">
+          <date when="2006-10-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QDyurM3c6DKGMRzo9JRtC"/>
+        <correspContext corresp="i-QDyurM3c6DKGMRzo9JRtC">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

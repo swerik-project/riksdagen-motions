@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-TU-00379">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Träbroar</title>
+        <author corresp="i-FL3Tee8NjTSCkq4XGmHcyw i-JfXS8EFEqMfBiyryszrVvW">av Carina Adolfsson Elgestam och Ann-Kristine Johansson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Träbroar</title>
+          <idno type="rdwebb">GU02T379</idno>
+          <rs type="number">T379</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02T379/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02T379</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02T379</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C9AAF86C-4F7F-472D-A5A7-182EF6EDDC25</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-FL3Tee8NjTSCkq4XGmHcyw</idno>
+            <name>Carina Adolfsson Elgestam</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-JfXS8EFEqMfBiyryszrVvW</idno>
+            <name>Ann-Kristine Johansson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-THAe6M9EjwHQZbmjh8qq4v" type="signed"/>
+        <correspContext corresp="i-THAe6M9EjwHQZbmjh8qq4v">
+          <note type="signatory" corresp="i-FL3Tee8NjTSCkq4XGmHcyw"/>
+          <note type="signatory" corresp="i-JfXS8EFEqMfBiyryszrVvW"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-PAHkvTbf3QoPvwkgt9gK3p">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Bk1kwbqFxzJZvRRokv9F7u">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-FkM4rLV7GWc6ek7gTa1CLK">
+          <date when="2006-11-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-VzpBcWrFxjHU5uoBnKVvi2">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-JRoQSoP1GSqhdCno1qprEX">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KGfjRjqymkBYUSEfocegRp"/>
+        <correspContext corresp="i-KGfjRjqymkBYUSEfocegRp">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

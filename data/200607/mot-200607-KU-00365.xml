@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-KU-00365">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kommundelning</title>
+        <author corresp="i-H7qdW9GRQn7LaQ2UGGAvYC">av Kerstin Lundgren (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kommundelning</title>
+          <idno type="rdwebb">GU02K365</idno>
+          <rs type="number">K365</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02K365/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02K365</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02K365</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A0BBA594-EFC0-4B35-9F40-BEF82245FD8E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-H7qdW9GRQn7LaQ2UGGAvYC</idno>
+            <name>Kerstin Lundgren</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RrF2aLamnH8tYc3VT5usAA" type="signed"/>
+        <correspContext corresp="i-RrF2aLamnH8tYc3VT5usAA">
+          <note type="signatory" corresp="i-H7qdW9GRQn7LaQ2UGGAvYC"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Bh4TaQdZcTF1ZwKLpjbR1M">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Fan19HBbp7PSi53qvQGyZL">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-So8P3JVkk66fNb6ChkbpuQ">
+          <date when="2006-11-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-oFXxfX3dbZeZH6YpHHSv2">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-C7U4Dt6PwkiZ2PT8LeDwTS">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6CVbKctPDctLkJCFApcz7m"/>
+        <correspContext corresp="i-6CVbKctPDctLkJCFApcz7m">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

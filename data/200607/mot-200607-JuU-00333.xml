@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-JuU-00333">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>En effektiv polis</title>
+        <author corresp="i-KdNZEf7wb1MAJv58QEHYrr">av Göran Lindblad (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>En effektiv polis</title>
+          <idno type="rdwebb">GU02Ju333</idno>
+          <rs type="number">Ju333</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02Ju333/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02Ju333</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02Ju333</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/F590E51E-393A-42AA-B501-247EF1571081</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KdNZEf7wb1MAJv58QEHYrr</idno>
+            <name>Göran Lindblad</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FEGjBvmMrUnusWUUdncT3r" type="signed"/>
+        <correspContext corresp="i-FEGjBvmMrUnusWUUdncT3r">
+          <note type="signatory" corresp="i-KdNZEf7wb1MAJv58QEHYrr"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NbHidqh3g6JA6WPQw2BxH8">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-DG28rveUKk3VEQcXuAJwYo">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-c5ZMNkAHhLqMohQnAQAWS">
+          <date when="2006-11-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-CA8YQtL1HGrdTxz4ejYyXp">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-MXEYDdgo5cbM5tnqiqU9LP">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AoJdhxRefZkw1xpMDCw8Ud"/>
+        <correspContext corresp="i-AoJdhxRefZkw1xpMDCw8Ud">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

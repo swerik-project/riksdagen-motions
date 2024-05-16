@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-SkU-00213">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arkivbeständig dokumentering av folkbokföringen</title>
+        <author corresp="i-3p3w5Vw2i74gEMeqzABeEG">av Lars Elinderson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arkivbeständig dokumentering av folkbokföringen</title>
+          <idno type="rdwebb">GU02Sk213</idno>
+          <rs type="number">Sk213</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02Sk213/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02Sk213</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02Sk213</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/45F394CE-E586-4E93-89BC-4D90DF4B9BAE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3p3w5Vw2i74gEMeqzABeEG</idno>
+            <name>Lars Elinderson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-ME8eC5HbU4BFAMzANFYwpe" type="signed"/>
+        <correspContext corresp="i-ME8eC5HbU4BFAMzANFYwpe">
+          <note type="signatory" corresp="i-3p3w5Vw2i74gEMeqzABeEG"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-DgYpPLWeu4ckUc3rUHbGRw">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-KnTLfa7FZoKJfFZwTZTyZW">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BEuCVgrAJozmeVrtz79Nv">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-9VQ1kpCD1LBBAsQbnHU43J">
+          <date when="2006-10-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-7opAD1EcmYRjhnMjhA5xCM">
+          <date when="2006-10-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QtuvpWUqAgstrd38gjfxrh"/>
+        <correspContext corresp="i-QtuvpWUqAgstrd38gjfxrh">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

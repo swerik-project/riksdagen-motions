@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-KU-00267">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Riksrevisionen</title>
+        <author corresp="i-4QSskNRajbqRG3PtACimqv i-JERWRnB227uTCW6FGLWfYs">av Susanne Eberstein och Hans Stenberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Riksrevisionen</title>
+          <idno type="rdwebb">GU02K267</idno>
+          <rs type="number">K267</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02K267/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02K267</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02K267</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/17833465-D7E2-4ECF-85CB-4D3EA616B133</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-4QSskNRajbqRG3PtACimqv</idno>
+            <name>Susanne Eberstein</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-JERWRnB227uTCW6FGLWfYs</idno>
+            <name>Hans Stenberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EHSXaHk2WfeKeokkJqz2ej" type="signed"/>
+        <correspContext corresp="i-EHSXaHk2WfeKeokkJqz2ej">
+          <note type="signatory" corresp="i-4QSskNRajbqRG3PtACimqv"/>
+          <note type="signatory" corresp="i-JERWRnB227uTCW6FGLWfYs"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NPa1SYFtK9CguvD7XnK38S">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-BWdjJ5GRcx2Qcps9Jqu4sL">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-66fVGYWxPCCx5JqFBwcqhp">
+          <date when="2006-11-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Vs91uxkv9E3hRvY2VnPUwS">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-KuUkAjm5E8GYd7QSyYtjw5">
+          <date when="2006-10-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-8APqm43ruHrXWNbkBhNyAD"/>
+        <correspContext corresp="i-8APqm43ruHrXWNbkBhNyAD">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

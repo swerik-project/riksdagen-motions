@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-JuU-00300">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Göta hovrätt</title>
+        <author corresp="i-UnkrZ3NAvoWXY6Krxbkudq">av Tobias Krantz (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Göta hovrätt</title>
+          <idno type="rdwebb">GU02Ju300</idno>
+          <rs type="number">Ju300</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02Ju300/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02Ju300</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02Ju300</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/EA4D299F-7432-4A75-97D4-9661CDBF8C67</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UnkrZ3NAvoWXY6Krxbkudq</idno>
+            <name>Tobias Krantz</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BP87p2ffWfVGeNzkARrbfw" type="signed"/>
+        <correspContext corresp="i-BP87p2ffWfVGeNzkARrbfw">
+          <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-UwwKCPvzWgPjKYmdN6rAUk">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-PwfKKhw4n4TN44oe8J8PsL">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-D6pGh4mxsJMPB4RCs6E3FV">
+          <date when="2006-11-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6hNdeoYaeCHFxgya2gryAa">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-WFtu3h4jdS7nXK8apD31wU">
+          <date when="2006-10-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-X8k3sD5G2EVYFsDm9eLnDb"/>
+        <correspContext corresp="i-X8k3sD5G2EVYFsDm9eLnDb">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

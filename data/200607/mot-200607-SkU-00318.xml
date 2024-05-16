@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-SkU-00318">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>"Lex Uggla"</title>
+        <author corresp="i-AyN7HRP1y38PeQoLunJifb i-WpwTRcdcGLWddgdaUtKiwJ">av Jörgen Johansson och Staffan Anger (c, m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>"Lex Uggla"</title>
+          <idno type="rdwebb">GU02Sk318</idno>
+          <rs type="number">Sk318</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02Sk318/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02Sk318</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02Sk318</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A98D91A4-2F1D-4672-92CA-2310E4587BB0</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AyN7HRP1y38PeQoLunJifb</idno>
+            <name>Jörgen Johansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-WpwTRcdcGLWddgdaUtKiwJ</idno>
+            <name>Staffan Anger</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Sye6rnMFkPsbjh5QKiR5Nn" type="signed"/>
+        <correspContext corresp="i-Sye6rnMFkPsbjh5QKiR5Nn">
+          <note type="signatory" corresp="i-AyN7HRP1y38PeQoLunJifb"/>
+          <note type="signatory" corresp="i-WpwTRcdcGLWddgdaUtKiwJ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-K1wXmgwywd7WCNKyrjqBoU">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-P1JjfzVnuVLNKN9g6zo17d">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-RRcpGGHVvL9Qh2HWi5kNCY">
+          <date when="2006-11-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HMZBFs2mfBfkFu31AQvAMS">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-XccjdTMgy1p2Mr3R8jgsdq">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AgBiYhBthPSHse9Ej7hyun"/>
+        <correspContext corresp="i-AgBiYhBthPSHse9Ej7hyun">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#flerparti"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

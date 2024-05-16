@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-TU-00251">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enskilda vägar</title>
+        <author corresp="i-PxnWyEEEJkswzBKdKbv36K i-AqkTDdERRgq7MWP7ajMpZo">av Agneta Lundberg och Jasenko Omanovic (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Enskilda vägar</title>
+          <idno type="rdwebb">GU02T251</idno>
+          <rs type="number">T251</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02T251/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02T251</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02T251</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/BA18ED83-E4DC-4C93-9C84-C21EB0AC21BF</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-PxnWyEEEJkswzBKdKbv36K</idno>
+            <name>Agneta Lundberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-AqkTDdERRgq7MWP7ajMpZo</idno>
+            <name>Jasenko Omanovic</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VQCeZKXC3WbTJA7qdtCiv7" type="signed"/>
+        <correspContext corresp="i-VQCeZKXC3WbTJA7qdtCiv7">
+          <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
+          <note type="signatory" corresp="i-AqkTDdERRgq7MWP7ajMpZo"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-VqNi4RoWgY1qg3TyKf6PPg">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-C22EBD9xVqcB6DpsyNaR3Q">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-57dgrntH6DxqJKy45L4i2L">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-72dAGnmrvsLnjS9M4mq656">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-7BVWezQ8tWK5Hdo9dFCkaz">
+          <date when="2006-10-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2DxxZ4F4JeBKKt6Q1pKMim"/>
+        <correspContext corresp="i-2DxxZ4F4JeBKKt6Q1pKMim">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

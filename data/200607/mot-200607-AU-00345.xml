@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-AU-00345">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Medbestämmande</title>
+        <author corresp="i-NW2TEoH8XmW9aSn2aKJ8EA">av Anders Ygeman (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Medbestämmande</title>
+          <idno type="rdwebb">GU02A345</idno>
+          <rs type="number">A345</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02A345/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02A345</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02A345</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B102FD9F-31CA-4F45-B55E-8F4CF7BCA2EB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-NW2TEoH8XmW9aSn2aKJ8EA</idno>
+            <name>Anders Ygeman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2VyHeusJELzAYce8XEtNpA" type="signed"/>
+        <correspContext corresp="i-2VyHeusJELzAYce8XEtNpA">
+          <note type="signatory" corresp="i-NW2TEoH8XmW9aSn2aKJ8EA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-5K1DgDEMJ1TVrGbg9yNTTH">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-758WVwkuydh5XHAZiGNKKj">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-TMknP1b3CQkD5su6odxwfF">
+          <date when="2006-11-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KojGgZYCsmwKKqEyxK7axi">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-T4oiYFHGLmNYdStjUoXUpZ">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2fGsfL5HXEX6bcvpYETBDi"/>
+        <correspContext corresp="i-2fGsfL5HXEX6bcvpYETBDi">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-MJU-00377">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Laxen </title>
+        <author corresp="i-AQAc7L3yWtMcgD3r6CxRHG i-VhAPHtDbXzmUeiVRSdRFGD">av Maria Öberg och Karin Åström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Laxen </title>
+          <idno type="rdwebb">GU02MJ377</idno>
+          <rs type="number">MJ377</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02MJ377/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02MJ377</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02MJ377</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/E053062B-8B95-4673-9472-334B83255F3E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-AQAc7L3yWtMcgD3r6CxRHG</idno>
+            <name>Maria Öberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VhAPHtDbXzmUeiVRSdRFGD</idno>
+            <name>Karin Åström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LVbJTqaGaEPGFis2p1rENb" type="signed"/>
+        <correspContext corresp="i-LVbJTqaGaEPGFis2p1rENb">
+          <note type="signatory" corresp="i-AQAc7L3yWtMcgD3r6CxRHG"/>
+          <note type="signatory" corresp="i-VhAPHtDbXzmUeiVRSdRFGD"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-TUyVNzimrAxqNF22afEZXM">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-T4QQ4N1W1BMY54nLsv2CfW">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-TPfKo6HpWawNnXBBBQshi6">
+          <date when="2006-11-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-U6bEtsPGTZRfnPQ1fByGde">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-P2gGPefek8dZS49UfqRcJa">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-YKNrsZnFJoeJwH5dQGVxyK"/>
+        <correspContext corresp="i-YKNrsZnFJoeJwH5dQGVxyK">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

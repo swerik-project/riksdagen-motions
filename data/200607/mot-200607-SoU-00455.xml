@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-SoU-00455">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lex Maria</title>
+        <author corresp="i-RJ83sTtQ8c3R3VD4B55j8P">av Åsa Lindestam (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lex Maria</title>
+          <idno type="rdwebb">GU02So455</idno>
+          <rs type="number">So455</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02So455/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02So455</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02So455</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C8FD6D42-1049-4768-8C1C-74AFB088B6AF</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-RJ83sTtQ8c3R3VD4B55j8P</idno>
+            <name>Åsa Lindestam</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4iSf2eDpmx8tJcisiQUHJc" type="signed"/>
+        <correspContext corresp="i-4iSf2eDpmx8tJcisiQUHJc">
+          <note type="signatory" corresp="i-RJ83sTtQ8c3R3VD4B55j8P"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-65mG7C8vUGbBDP6hTsHiw1">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-ER3vCZnCCsik8uFnWxYno7">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-B7eZDQ1DknZWHaqR55eBhU">
+          <date when="2006-11-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AW9jkHZBecSbimvGdjwJud">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Mc1p4nTPhp7qpMdeZwsaUG">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-SKnLzRrRpkx6VgyNukgqi5"/>
+        <correspContext corresp="i-SKnLzRrRpkx6VgyNukgqi5">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

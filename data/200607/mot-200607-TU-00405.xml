@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-TU-00405">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enskilda vägar</title>
+        <author corresp="i-A1WkfiAbmndDMThhAvrWEm">av Hans Backman (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Enskilda vägar</title>
+          <idno type="rdwebb">GU02T405</idno>
+          <rs type="number">T405</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02T405/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02T405</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02T405</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/9260D609-BEC0-44B3-94EA-504F0F8F6186</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-A1WkfiAbmndDMThhAvrWEm</idno>
+            <name>Hans Backman</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CYx4Hh7PBzgBesyYDrUWyg" type="signed"/>
+        <correspContext corresp="i-CYx4Hh7PBzgBesyYDrUWyg">
+          <note type="signatory" corresp="i-A1WkfiAbmndDMThhAvrWEm"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-QTcmAaXFHdzsV8S2QYs4VA">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-TBoE8MuwHohxoEu7pBbg7v">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-GCTQnocimjLAYxG9ZwRVB6">
+          <date when="2006-11-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Wgw8BMHZuTVCRSb4hMusrK">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-N3TDiMAxDLcWWAvhSheGGu">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-VN9zd3dwTAXz7NcRJmtteb"/>
+        <correspContext corresp="i-VN9zd3dwTAXz7NcRJmtteb">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

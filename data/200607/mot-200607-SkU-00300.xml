@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-SkU-00300">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Taxfreeinköp</title>
+        <author corresp="i-122QwSSpyGJQiTJjmrUJCM i-VkgCZCfoAga9JDLAtq7rRZ">av Krister Örnfjäder och Agneta Gille (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Taxfreeinköp</title>
+          <idno type="rdwebb">GU02Sk300</idno>
+          <rs type="number">Sk300</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02Sk300/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02Sk300</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02Sk300</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/787FF63A-D3C1-490B-8C60-5662E64052B5</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-122QwSSpyGJQiTJjmrUJCM</idno>
+            <name>Krister Örnfjäder</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VkgCZCfoAga9JDLAtq7rRZ</idno>
+            <name>Agneta Gille</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NsKdWj2oT4ap8MFAVCK7ZF" type="signed"/>
+        <correspContext corresp="i-NsKdWj2oT4ap8MFAVCK7ZF">
+          <note type="signatory" corresp="i-122QwSSpyGJQiTJjmrUJCM"/>
+          <note type="signatory" corresp="i-VkgCZCfoAga9JDLAtq7rRZ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-BB3o15T83wPzDszksm4XRs">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-R2anE3HdxgbvLXTUS3vksS">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-LquvpeYCHv9KpfPT1hjgyd">
+          <date when="2006-11-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-CUQrA85iJB51wCiqPj953p">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Xanof2oyDBhD2GE5SNvZB4">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-DEHp9gosMeppexmpQn38Ld"/>
+        <correspContext corresp="i-DEHp9gosMeppexmpQn38Ld">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-SoU-00216">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Benskörhet</title>
+        <author corresp="i-WCrN5vpCNm6z9SvfXfby4e">av Alf Svensson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Benskörhet</title>
+          <idno type="rdwebb">GU02So216</idno>
+          <rs type="number">So216</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02So216/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02So216</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02So216</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/804CD8A3-E780-4CC6-B7BF-0D1274DFA253</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-WCrN5vpCNm6z9SvfXfby4e</idno>
+            <name>Alf Svensson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2Z3kCW69UdsRv6DKBJzF4f" type="signed"/>
+        <correspContext corresp="i-2Z3kCW69UdsRv6DKBJzF4f">
+          <note type="signatory" corresp="i-WCrN5vpCNm6z9SvfXfby4e"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-5WKhohoD9zpT4xdnwXp7wM">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-P4dR7oLBUVZyx9nyCMeZpa">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AN2vEpzpb5UQcckDvEoQsL">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-Y6yXbuGHz5wP43hN8n42BF">
+          <date when="2006-10-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-4nLXPV9mqnqCFeC1Z1WWNs"/>
+        <correspContext corresp="i-4nLXPV9mqnqCFeC1Z1WWNs">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-KU-00235">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ändring i vallagen</title>
+        <author corresp="i-JERWRnB227uTCW6FGLWfYs i-AqkTDdERRgq7MWP7ajMpZo">av Hans Stenberg och Jasenko Omanovic (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ändring i vallagen</title>
+          <idno type="rdwebb">GU02K235</idno>
+          <rs type="number">K235</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02K235/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02K235</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02K235</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/37FAE900-7D5B-46BB-AF24-5C1404193694</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-JERWRnB227uTCW6FGLWfYs</idno>
+            <name>Hans Stenberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-AqkTDdERRgq7MWP7ajMpZo</idno>
+            <name>Jasenko Omanovic</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8RGaZUmPdPK3AtLi19c53B" type="signed"/>
+        <correspContext corresp="i-8RGaZUmPdPK3AtLi19c53B">
+          <note type="signatory" corresp="i-JERWRnB227uTCW6FGLWfYs"/>
+          <note type="signatory" corresp="i-AqkTDdERRgq7MWP7ajMpZo"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-UCBXEE44pqmZqrd9VTfUEQ">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-HDjBjFKSJZpNXGHh29yRUh">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-P9DiRybj7R2SX3NVog5mq3">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6GHMqGCq5WvfnasLeZJi3L">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-ACYT5DuqEqcrEFDrUkrLzj">
+          <date when="2006-10-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-kjKBinSMU1mt36xMHjsLR"/>
+        <correspContext corresp="i-kjKBinSMU1mt36xMHjsLR">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

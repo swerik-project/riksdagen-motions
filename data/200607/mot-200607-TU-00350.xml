@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-TU-00350">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sommartid </title>
+        <author corresp="i-NRb4HpaQ87qUwhLNcKt7Gz i-2SnUjYd3qzUQVBobN3u1Yc">av Annika Qarlsson och Ulrika Carlsson i Skövde (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sommartid </title>
+          <idno type="rdwebb">GU02T350</idno>
+          <rs type="number">T350</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02T350/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02T350</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02T350</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2E767FE2-E2DA-4D71-A50C-249F3570765A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-NRb4HpaQ87qUwhLNcKt7Gz</idno>
+            <name>Annika Qarlsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-2SnUjYd3qzUQVBobN3u1Yc</idno>
+            <name>Ulrika Carlsson i Skövde</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VUR3PiuUzMz1yanpEVCj1g" type="signed"/>
+        <correspContext corresp="i-VUR3PiuUzMz1yanpEVCj1g">
+          <note type="signatory" corresp="i-NRb4HpaQ87qUwhLNcKt7Gz"/>
+          <note type="signatory" corresp="i-2SnUjYd3qzUQVBobN3u1Yc"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-TjnhU4xKbKSnGTSeGmZhHy">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-RQS6oHhZwHXUbeKMKrhzUn">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-EgKp39SeHBSXGR8Y2PWVfX">
+          <date when="2006-11-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-MS7Xr6oUDe6HuE31kpGB3n">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-SJvUdK687Ve3e8qy1vNUsC">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NUC1gj97CmdPRwT9CwSWSM"/>
+        <correspContext corresp="i-NUC1gj97CmdPRwT9CwSWSM">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-KrU-00214">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Statens biografbyrå</title>
+        <author corresp="i-JSSYZnWrKjtbfWDmu1qLSb">av Magdalena Andersson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Statens biografbyrå</title>
+          <idno type="rdwebb">GU02Kr214</idno>
+          <rs type="number">Kr214</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02Kr214/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02Kr214</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02Kr214</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/57F267D0-94C3-4FAC-A4C8-FB1D9973732D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-JSSYZnWrKjtbfWDmu1qLSb</idno>
+            <name>Magdalena Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-ECYreXsqCZ2SQJAXjPhpPT" type="signed"/>
+        <correspContext corresp="i-ECYreXsqCZ2SQJAXjPhpPT">
+          <note type="signatory" corresp="i-JSSYZnWrKjtbfWDmu1qLSb"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Fq921qrJETXPczeUh2F8v8">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-2oVUvqrBhLGjarVJZLfQG4">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-No85i43gT3XqUZNXy4DHWV">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-UxVZEb9xhmphyshdmzhYcW">
+          <date when="2006-10-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-9dghkTGEtksUnjMsJe8tfu">
+          <date when="2006-10-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-3YCx3SCuZnrzksGXuEugq3"/>
+        <correspContext corresp="i-3YCx3SCuZnrzksGXuEugq3">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

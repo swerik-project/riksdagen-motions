@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-KU-00320">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Republik</title>
+        <author corresp="i-Q8hYBES3N7Q4fZnAATRjsd i-GDFdKPNRdaGpkLXrouuiC1">av Fredrik Olovsson och Johan Löfstrand (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Republik</title>
+          <idno type="rdwebb">GU02K320</idno>
+          <rs type="number">K320</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02K320/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02K320</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02K320</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/B3862B94-E837-4FC4-98E8-B888AD1F99FE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Q8hYBES3N7Q4fZnAATRjsd</idno>
+            <name>Fredrik Olovsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-GDFdKPNRdaGpkLXrouuiC1</idno>
+            <name>Johan Löfstrand</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-6F2RQCaXKme7G11pKaN8c8" type="signed"/>
+        <correspContext corresp="i-6F2RQCaXKme7G11pKaN8c8">
+          <note type="signatory" corresp="i-Q8hYBES3N7Q4fZnAATRjsd"/>
+          <note type="signatory" corresp="i-GDFdKPNRdaGpkLXrouuiC1"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-CMB5TKLKhyRSf2adJoThyF">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-77N1kXLLdzPD61zL45nkuQ">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-2y28kr8E9b3ofYVjDbKCNd">
+          <date when="2006-11-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-G1RJPqCXn7crkRcLNi9WoY">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-B8q4F8Jg5U8a29Lb4QNPS9">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BW8K3r1QWh1Z4uNq3pWsgJ"/>
+        <correspContext corresp="i-BW8K3r1QWh1Z4uNq3pWsgJ">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

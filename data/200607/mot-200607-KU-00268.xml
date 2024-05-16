@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-KU-00268">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kommunala nyval m.m.</title>
+        <author corresp="i-BZ7PcK8D1efvHXsafGEMKE">av Andreas Norlén (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kommunala nyval m.m.</title>
+          <idno type="rdwebb">GU02K268</idno>
+          <rs type="number">K268</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02K268/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02K268</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02K268</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/68C111BE-2B1A-4737-B356-AB90DCA3116E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BZ7PcK8D1efvHXsafGEMKE</idno>
+            <name>Andreas Norlén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5CrbLXeJBZBgUGruFmCcUN" type="signed"/>
+        <correspContext corresp="i-5CrbLXeJBZBgUGruFmCcUN">
+          <note type="signatory" corresp="i-BZ7PcK8D1efvHXsafGEMKE"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-TLeB3GbsPi6P34ZiUMqZTY">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-TdU6kX35GiQsqYjhmmTF3">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-K6qZQMGfzZrd8xY2FCE3RS">
+          <date when="2006-11-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HmS2PeADQTr78anpV3Bhb">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-8QVWZLDLqBHvKArfcCwzFP">
+          <date when="2006-10-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NAkRnM8py6B27qQZ2uKL5K"/>
+        <correspContext corresp="i-NAkRnM8py6B27qQZ2uKL5K">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

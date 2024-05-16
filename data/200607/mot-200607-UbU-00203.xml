@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-UbU-00203">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fri tentamensrätt</title>
+        <author corresp="i-LmthhHLPxzMMpEiXSys13u i-TX4XbGiaRx4H4u3YMo1twT">av Ulrika Karlsson i Uppsala och Christian Holm (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fri tentamensrätt</title>
+          <idno type="rdwebb">GU02Ub203</idno>
+          <rs type="number">Ub203</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02Ub203/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02Ub203</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02Ub203</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D709B8C2-82DE-42FF-9182-004C4FD6FAB9</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-LmthhHLPxzMMpEiXSys13u</idno>
+            <name>Ulrika Karlsson i Uppsala</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TX4XbGiaRx4H4u3YMo1twT</idno>
+            <name>Christian Holm</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EP8FXFNKaUE3bLKN5vbH7r" type="signed"/>
+        <correspContext corresp="i-EP8FXFNKaUE3bLKN5vbH7r">
+          <note type="signatory" corresp="i-LmthhHLPxzMMpEiXSys13u"/>
+          <note type="signatory" corresp="i-TX4XbGiaRx4H4u3YMo1twT"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-DRSw1L3mwkmNTF3BepGpwi">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-559mJvPSCrcvMGnjoDQgcL">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WGU2yV2ua29PTQoLk3Davj">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-RkBESH9oeNxrKMBgq5gkXi">
+          <date when="2006-10-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Fjtq4xS1rbsHSjEtCtAVa2"/>
+        <correspContext corresp="i-Fjtq4xS1rbsHSjEtCtAVa2">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

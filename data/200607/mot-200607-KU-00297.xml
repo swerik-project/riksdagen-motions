@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-KU-00297">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Minskat antal riksdagsledamöter</title>
+        <author corresp="i-9beYBFzEh8w1EjPQHXW3mC i-TX4XbGiaRx4H4u3YMo1twT">av Jan-Evert Rådhström och Christian Holm (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Minskat antal riksdagsledamöter</title>
+          <idno type="rdwebb">GU02K297</idno>
+          <rs type="number">K297</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02K297/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02K297</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02K297</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/3BD1FEC5-471F-4A3D-A404-3198B55AE65D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9beYBFzEh8w1EjPQHXW3mC</idno>
+            <name>Jan-Evert Rådhström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TX4XbGiaRx4H4u3YMo1twT</idno>
+            <name>Christian Holm</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Tcot5AEMF5fXGHwLeZyk1g" type="signed"/>
+        <correspContext corresp="i-Tcot5AEMF5fXGHwLeZyk1g">
+          <note type="signatory" corresp="i-9beYBFzEh8w1EjPQHXW3mC"/>
+          <note type="signatory" corresp="i-TX4XbGiaRx4H4u3YMo1twT"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-FaakgjXmsMcxprU9KKVHDP">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-U4jjSbim9CHAtRRUTMpsq6">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-Ag1EWGukJH871ABENEtYjv">
+          <date when="2006-11-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WbuJTat9gHfhPLfpuSCdWi">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-4CC7Z1gcnXAtLpR63msMMM">
+          <date when="2006-10-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HH5NWDDcidfWJNMFY2axAT"/>
+        <correspContext corresp="i-HH5NWDDcidfWJNMFY2axAT">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

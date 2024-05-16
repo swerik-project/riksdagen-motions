@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-UU-00273">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diplomatisk närvaro och frånvaro</title>
+        <author corresp="i-WCrN5vpCNm6z9SvfXfby4e">av Alf Svensson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Diplomatisk närvaro och frånvaro</title>
+          <idno type="rdwebb">GU02U273</idno>
+          <rs type="number">U273</rs>
+          <orgName type="comitteeAbbreviation">UU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02U273/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02U273</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02U273</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D85F0CB5-5DE9-40DE-84C2-2D7D2B578946</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-WCrN5vpCNm6z9SvfXfby4e</idno>
+            <name>Alf Svensson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AaozWNuHqDL99qgA15gg2L" type="signed"/>
+        <correspContext corresp="i-AaozWNuHqDL99qgA15gg2L">
+          <note type="signatory" corresp="i-WCrN5vpCNm6z9SvfXfby4e"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-YA85LB2wJsDSahuh2tiPjG">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-XEg2LG8KGGf9nWCcdWJTc">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-HVpbqVDs4Hvfb3dc4MxaFa">
+          <date when="2006-11-02"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RbpyL6SfxtAz9oRsvxcYt3">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Kf9Xd437mWCBNB92bWy5UT">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NkNpuvePNjyVQqM1fhJrzJ"/>
+        <correspContext corresp="i-NkNpuvePNjyVQqM1fhJrzJ">
+          <ref type="assignedTo">Utrikesutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-JuU-00285">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vapeninnehav</title>
+        <author corresp="i-D6hrZCxPVTQxPgXvGFfuJ7">av Ulf Sjösten (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vapeninnehav</title>
+          <idno type="rdwebb">GU02Ju285</idno>
+          <rs type="number">Ju285</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02Ju285/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02Ju285</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02Ju285</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/4DB106FF-8522-4E94-846D-16C8558DD846</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-D6hrZCxPVTQxPgXvGFfuJ7</idno>
+            <name>Ulf Sjösten</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-J6H4HHrQrfhDs4k6gWH8n" type="signed"/>
+        <correspContext corresp="i-J6H4HHrQrfhDs4k6gWH8n">
+          <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-RVJyZqVfRuNzt9V4yB3pdR">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-M5KBqAjSPH6A92bRjq65S1">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-Qr7qNk2iBJfn1Np9RamnuJ">
+          <date when="2006-11-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EjaNAgzDYjDGCGj689KZ3w">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-C25pk7TZQoUf1jPqqhrt4U">
+          <date when="2006-10-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-54FKGUDR2JbJ9m1URSckhE"/>
+        <correspContext corresp="i-54FKGUDR2JbJ9m1URSckhE">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

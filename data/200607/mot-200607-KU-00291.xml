@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-KU-00291">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skilda valdagar</title>
+        <author corresp="i-TX4XbGiaRx4H4u3YMo1twT">av Lars  Hjälmered och Christian Holm (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skilda valdagar</title>
+          <idno type="rdwebb">GU02K291</idno>
+          <rs type="number">K291</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02K291/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02K291</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02K291</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/79336912-972A-4F69-BF5F-2CFD4892F9EB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9118KyeHJPwjSm2gBg9zwB</idno>
+            <name>Lars Hjälmered</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TX4XbGiaRx4H4u3YMo1twT</idno>
+            <name>Christian Holm</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-G95URmGggj43r1gDaVD2Xv" type="signed"/>
+        <correspContext corresp="i-G95URmGggj43r1gDaVD2Xv">
+          <note type="signatory" corresp="i-9118KyeHJPwjSm2gBg9zwB"/>
+          <note type="signatory" corresp="i-TX4XbGiaRx4H4u3YMo1twT"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NG8hK27XqD8StCfXx18C4Z">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-H1BbMFdb8RPnvUCSpk9HYA">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-JnkDTLLo1QbyBuzqnweqoT">
+          <date when="2006-11-01"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Y1dZ5Dbzmw2fnAkTT8qB3u">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Kt8XPc8uH3fXv7Sg8MDK9F">
+          <date when="2006-10-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-8bmxVNAM3MTYbSvBSpmkha"/>
+        <correspContext corresp="i-8bmxVNAM3MTYbSvBSpmkha">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

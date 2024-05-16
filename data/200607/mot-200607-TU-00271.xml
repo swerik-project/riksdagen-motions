@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200607-TU-00271">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vägsalt</title>
+        <author corresp="i-FFnvvbj3MefWasEFe2C2jQ i-XXHxxQRuSjGXVxaVhcXaFk">av Stefan Tornberg och Åke Sandström (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vägsalt</title>
+          <idno type="rdwebb">GU02T271</idno>
+          <rs type="number">T271</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02T271/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02T271</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02T271</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2CD4ABD5-A55C-482D-BA25-1EDEFE0033B5</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-FFnvvbj3MefWasEFe2C2jQ</idno>
+            <name>Stefan Tornberg</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-XXHxxQRuSjGXVxaVhcXaFk</idno>
+            <name>Åke Sandström</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XtdXdcF3tiHiXYWgr7TrJS" type="signed"/>
+        <correspContext corresp="i-XtdXdcF3tiHiXYWgr7TrJS">
+          <note type="signatory" corresp="i-FFnvvbj3MefWasEFe2C2jQ"/>
+          <note type="signatory" corresp="i-XXHxxQRuSjGXVxaVhcXaFk"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-VRTL6bowoVF4BwkPmjuNfx">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-8HDWcdZBPULECMBesN5eSE">
+          <date when="2006-11-07"/>
+        </correspAction>
+        <correspAction type="numbering" xml:id="i-4m5b27VxF9mgqgbqW8aiNn">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AogbmhoFqZ5vgb3gFHwEpi">
+          <date when="2006-10-31"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-6zJj6PkyZ6DvGDpcKUGa3N">
+          <date when="2006-10-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-E5CKhdS2qvFDmmq2sD9t4B"/>
+        <correspContext corresp="i-E5CKhdS2qvFDmmq2sD9t4B">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

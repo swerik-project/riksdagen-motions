@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198889-KU-00440">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Offentlig kommunal databasservice</title>
+        <author corresp="i-Xncfe1szgnEB2oHPgxWhmW r-0">av Paul Lestander och Hans Petersson (båda vpk) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Offentlig kommunal databasservice</title>
+          <idno type="rdwebb">GC02K440</idno>
+          <rs type="number">K440</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GC02K440/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GC02K440</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GC02K440</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Xncfe1szgnEB2oHPgxWhmW</idno>
+            <name>Paul Lestander</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>Hans Petersson</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KrasmRjiHNMcwoXdD3bVwX" type="signed"/>
+        <correspContext corresp="i-KrasmRjiHNMcwoXdD3bVwX">
+          <note type="signatory" corresp="i-Xncfe1szgnEB2oHPgxWhmW"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+        <correspAction type="submission" xml:id="i-3FZBT5mP1TV7MjNyS2CHt8">
+          <date when="1989-01-25"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-LQB7mXbqpavAHWVPBjiWWU">
+          <date when="1989-02-01"/>
+        </correspAction>
+        <correspAction type="referral" xml:id="i-GouQA3ir9jzq962RfdcnRS">
+          <date when="1989-02-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FjmWTu5SCdoqsawqYAkAHk">
+          <date when="2014-11-19"/>
+          <time when="19:23:19"/>
+        </correspAction>
+        <correspContext corresp="i-FjmWTu5SCdoqsawqYAkAHk">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-sku-00166">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ny organisation för folkbokföring</title>
+        <author corresp="i-9SqyWHQCE2TQTMebB2Em3P i-DuKowRCZeJcfZANidh4RSE">Wivi-Anne Cederqvist och Gunnar Thollander (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ny organisation för folkbokföring</title>
+          <idno type="rdwebb">GA02sk166</idno>
+          <rs type="number">sk166</rs>
+          <orgName type="comitteeAbbreviation">sku</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02sk166/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02sk166</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02sk166</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-9SqyWHQCE2TQTMebB2Em3P</idno>
+            <name>Wivi-Anne Cederqvist</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-DuKowRCZeJcfZANidh4RSE</idno>
+            <name>Gunnar Thollander</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WTX1WUmC1CSJUYssEZnjrG" type="signed"/>
+        <correspContext corresp="i-WTX1WUmC1CSJUYssEZnjrG">
+          <note type="signatory" corresp="i-9SqyWHQCE2TQTMebB2Em3P"/>
+          <note type="signatory" corresp="i-DuKowRCZeJcfZANidh4RSE"/>
+        </correspContext>
+        <correspAction type="assigned" xml:id="i-MRSVNWaVHf23QKgBiFVoLp">
+          <date when="2014-11-19"/>
+          <time when="15:43:45"/>
+        </correspAction>
+        <correspContext corresp="i-MRSVNWaVHf23QKgBiFVoLp">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

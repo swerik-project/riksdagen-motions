@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-NU-00365">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fortsatt gruvdrift i Stekenjokkområdet</title>
+        <author corresp="r-0 i-Xncfe1szgnEB2oHPgxWhmW">John Andersson och Paul Lestander (vpk) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fortsatt gruvdrift i Stekenjokkområdet</title>
+          <idno type="rdwebb">GA02N365</idno>
+          <rs type="number">N365</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02N365/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02N365</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02N365</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>John Andersson</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Xncfe1szgnEB2oHPgxWhmW</idno>
+            <name>Paul Lestander</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9YGULrBeyYSZtyR9Ar5s7d" type="signed"/>
+        <correspContext corresp="i-9YGULrBeyYSZtyR9Ar5s7d">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-Xncfe1szgnEB2oHPgxWhmW"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

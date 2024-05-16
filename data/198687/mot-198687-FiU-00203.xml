@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-FiU-00203">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Generellt frisläpp av</title>
+        <author corresp="i-4u6RX5fG6QAwB5JHe16ZTV i-GvBe798bQfFYpnaboy7YCF">Erik Hovhammar och Anders Björck (m) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Generellt frisläpp av</title>
+          <idno type="rdwebb">GA02Fi203</idno>
+          <rs type="number">Fi203</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02Fi203/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02Fi203</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02Fi203</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4u6RX5fG6QAwB5JHe16ZTV</idno>
+            <name>Erik Hovhammar</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-GvBe798bQfFYpnaboy7YCF</idno>
+            <name>Anders Björck</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Mjo6jFzxKuJLcyT2kHZA8f" type="signed"/>
+        <correspContext corresp="i-Mjo6jFzxKuJLcyT2kHZA8f">
+          <note type="signatory" corresp="i-4u6RX5fG6QAwB5JHe16ZTV"/>
+          <note type="signatory" corresp="i-GvBe798bQfFYpnaboy7YCF"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

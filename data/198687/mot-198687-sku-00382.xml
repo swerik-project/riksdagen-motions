@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-sku-00382">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vinstandelssystem</title>
+        <author corresp="i-5sxzSZSUx9KLqvREcwz58f r-0">Gullan Lindblad och Sten Andersson i Malmö (m) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vinstandelssystem</title>
+          <idno type="rdwebb">GA02sk382</idno>
+          <rs type="number">sk382</rs>
+          <orgName type="comitteeAbbreviation">sku</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02sk382/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02sk382</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02sk382</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-5sxzSZSUx9KLqvREcwz58f</idno>
+            <name>Gullan Lindblad</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>Sten Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AzBHk3S2xjcsuV1tE2nSTc" type="signed"/>
+        <correspContext corresp="i-AzBHk3S2xjcsuV1tE2nSTc">
+          <note type="signatory" corresp="i-5sxzSZSUx9KLqvREcwz58f"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

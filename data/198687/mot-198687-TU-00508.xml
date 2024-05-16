@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-TU-00508">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hagberg (vpk)</title>
+        <author corresp="r-0">Hans Petersson i Hallstahammar och Lars-Ove </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hagberg (vpk)</title>
+          <idno type="rdwebb">GA02T508</idno>
+          <rs type="number">T508</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02T508/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02T508</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02T508</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>Hagberg</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>Hans Petersson</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-GaozvGLNGCb9Vstyp2PrQH</idno>
+            <name>Lars-Ove Hagberg</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LxWiBHQvJXFmH8zhQq5oFy" type="signed"/>
+        <correspContext corresp="i-LxWiBHQvJXFmH8zhQq5oFy">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-GaozvGLNGCb9Vstyp2PrQH"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-sku-00159">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ny organisation för folkbokföring</title>
+        <author corresp="i-6UrnZSyhA8En3ghbWrejVN i-L7WV7SG2MqZwXFjBfsC15F">Lena Öhrsvik och Ralf Lindström (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ny organisation för folkbokföring</title>
+          <idno type="rdwebb">GA02sk159</idno>
+          <rs type="number">sk159</rs>
+          <orgName type="comitteeAbbreviation">sku</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02sk159/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02sk159</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02sk159</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-6UrnZSyhA8En3ghbWrejVN</idno>
+            <name>Lena Öhrsvik</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-L7WV7SG2MqZwXFjBfsC15F</idno>
+            <name>Ralf Lindström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EBJLQVd6yErnmdGy8Ee8UR" type="signed"/>
+        <correspContext corresp="i-EBJLQVd6yErnmdGy8Ee8UR">
+          <note type="signatory" corresp="i-6UrnZSyhA8En3ghbWrejVN"/>
+          <note type="signatory" corresp="i-L7WV7SG2MqZwXFjBfsC15F"/>
+        </correspContext>
+        <correspAction type="assigned" xml:id="i-PfCsgyw1pVCrLESnjiXUay">
+          <date when="2014-11-19"/>
+          <time when="15:43:52"/>
+        </correspAction>
+        <correspContext corresp="i-PfCsgyw1pVCrLESnjiXUay">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

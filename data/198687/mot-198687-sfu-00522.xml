@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-sfu-00522">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Flyktingpolitiken</title>
+        <author corresp="i-DRiwPcfjVYQdJiVawKhKpN i-GCJVTREcJGRyYmFdeMbNaN">Erkki Tammenoksa och Oskar Lindkvist (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Flyktingpolitiken</title>
+          <idno type="rdwebb">GA02sf522</idno>
+          <rs type="number">sf522</rs>
+          <orgName type="comitteeAbbreviation">sfu</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02sf522/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02sf522</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02sf522</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-DRiwPcfjVYQdJiVawKhKpN</idno>
+            <name>Erkki Tammenoksa</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-GCJVTREcJGRyYmFdeMbNaN</idno>
+            <name>Oskar Lindkvist</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-47xGHfNMHDrRzHwsuVqoRn" type="signed"/>
+        <correspContext corresp="i-47xGHfNMHDrRzHwsuVqoRn">
+          <note type="signatory" corresp="i-DRiwPcfjVYQdJiVawKhKpN"/>
+          <note type="signatory" corresp="i-GCJVTREcJGRyYmFdeMbNaN"/>
+        </correspContext>
+        <correspAction type="assigned" xml:id="i-6JcDnvY6NUufvgzQyzraiT">
+          <date when="2014-11-19"/>
+          <time when="15:07:26"/>
+        </correspAction>
+        <correspContext corresp="i-6JcDnvY6NUufvgzQyzraiT">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

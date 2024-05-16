@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-TU-00303">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Det nationella stamvägnätet</title>
+        <author corresp="i-EpDNYovHuTxUaBfQe7k5xH">Rune Evensson m. fl. (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Det nationella stamvägnätet</title>
+          <idno type="rdwebb">GA02T303</idno>
+          <rs type="number">T303</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02T303/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02T303</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02T303</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-EpDNYovHuTxUaBfQe7k5xH</idno>
+            <name>Rune Evensson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-HoE2x9y5uUuRrXBrgsJFGH</idno>
+            <name>Wivi-Anne Radesjö</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-WxNtezayBbnNa9487orGN4</idno>
+            <name>Ingvar Johnsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-ABFdpZktGecUN6LvhJqtMW" type="signed"/>
+        <correspContext corresp="i-ABFdpZktGecUN6LvhJqtMW">
+          <note type="signatory" corresp="i-EpDNYovHuTxUaBfQe7k5xH"/>
+          <note type="signatory" corresp="i-HoE2x9y5uUuRrXBrgsJFGH"/>
+          <note type="signatory" corresp="i-WxNtezayBbnNa9487orGN4"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

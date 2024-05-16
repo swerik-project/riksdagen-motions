@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-TU-00341">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>En väg mellan Ritsem och Skjommen</title>
+        <author corresp="i-U5gDdgzYFmj6HTJyQ6y7EG">Claes Rensfeldt m. fl. (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>En väg mellan Ritsem och Skjommen</title>
+          <idno type="rdwebb">GA02T341</idno>
+          <rs type="number">T341</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02T341/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02T341</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02T341</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-U5gDdgzYFmj6HTJyQ6y7EG</idno>
+            <name>Claes Rensfeldt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-YSrKPAF7dEJGwUuQtYWvjX</idno>
+            <name>Bruno Poromaa</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-7gs1j74zvk9AY6w24zDaqq</idno>
+            <name>Monica Öhman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QSvj9sfm1F3nTjFtFUBHBi" type="signed"/>
+        <correspContext corresp="i-QSvj9sfm1F3nTjFtFUBHBi">
+          <note type="signatory" corresp="i-U5gDdgzYFmj6HTJyQ6y7EG"/>
+          <note type="signatory" corresp="i-YSrKPAF7dEJGwUuQtYWvjX"/>
+          <note type="signatory" corresp="i-7gs1j74zvk9AY6w24zDaqq"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

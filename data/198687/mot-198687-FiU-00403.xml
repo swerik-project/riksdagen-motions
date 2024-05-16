@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-FiU-00403">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Företagens uppgiftslämnande</title>
+        <author corresp="i-WpdDDVBL8xRiFwxBEnVikM">Kjell Johansson m. fl. (fp, m) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Företagens uppgiftslämnande</title>
+          <idno type="rdwebb">GA02Fi403</idno>
+          <rs type="number">Fi403</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02Fi403/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02Fi403</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02Fi403</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-WpdDDVBL8xRiFwxBEnVikM</idno>
+            <name>Kjell Johansson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-WqeECYtjggiM2pfNAKtUaz</idno>
+            <name>Karl Björzén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-KZRYQXLaqTdR8ZicM7zYRV</idno>
+            <name>Ylva Annerstedt</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PfRRvCzNW4iY1YPiJmxk7m" type="signed"/>
+        <correspContext corresp="i-PfRRvCzNW4iY1YPiJmxk7m">
+          <note type="signatory" corresp="i-WpdDDVBL8xRiFwxBEnVikM"/>
+          <note type="signatory" corresp="i-WqeECYtjggiM2pfNAKtUaz"/>
+          <note type="signatory" corresp="i-KZRYQXLaqTdR8ZicM7zYRV"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

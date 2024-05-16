@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-sku-00532">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Komstedt (m)</title>
+        <author corresp="i-BkQoi6KA1EKK9EEJhT16Cz">Förste vice talman Ingegerd Troedsson och Wiggo </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Komstedt (m)</title>
+          <idno type="rdwebb">GA02sk532</idno>
+          <rs type="number">sk532</rs>
+          <orgName type="comitteeAbbreviation">sku</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02sk532/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02sk532</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02sk532</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3zzz13sYF8R3yasCzbSJXe</idno>
+            <name>Komstedt</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-BkQoi6KA1EKK9EEJhT16Cz</idno>
+            <name>Ingegerd Troedsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-3zzz13sYF8R3yasCzbSJXe</idno>
+            <name>Wiggo Komstedt</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SQ5UbkX7n8vwpcsD83KnTV" type="signed"/>
+        <correspContext corresp="i-SQ5UbkX7n8vwpcsD83KnTV">
+          <note type="signatory" corresp="i-3zzz13sYF8R3yasCzbSJXe"/>
+          <note type="signatory" corresp="i-BkQoi6KA1EKK9EEJhT16Cz"/>
+          <note type="signatory" corresp="i-3zzz13sYF8R3yasCzbSJXe"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

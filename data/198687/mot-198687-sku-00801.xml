@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-sku-00801">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ny skatteklass på öl, m. m.</title>
+        <author corresp="i-HK9qYnVFN9ozMjewUoj5Ya i-EVpotEKqaW9CiU6NxacCQV">Bo Hammar och Tommy Franzén (vpk) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ny skatteklass på öl, m. m.</title>
+          <idno type="rdwebb">GA02sk801</idno>
+          <rs type="number">sk801</rs>
+          <orgName type="comitteeAbbreviation">sku</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02sk801/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02sk801</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02sk801</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-HK9qYnVFN9ozMjewUoj5Ya</idno>
+            <name>Bo Hammar</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-EVpotEKqaW9CiU6NxacCQV</idno>
+            <name>Tommy Franzén</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XbSm1xuVVBuVxNTUmpxYHQ" type="signed"/>
+        <correspContext corresp="i-XbSm1xuVVBuVxNTUmpxYHQ">
+          <note type="signatory" corresp="i-HK9qYnVFN9ozMjewUoj5Ya"/>
+          <note type="signatory" corresp="i-EVpotEKqaW9CiU6NxacCQV"/>
+        </correspContext>
+        <correspAction type="assigned" xml:id="i-GXLbRqgLLuKZbwRZ2Kk43G">
+          <date when="2014-11-21"/>
+          <time when="12:59:09"/>
+        </correspAction>
+        <correspContext corresp="i-GXLbRqgLLuKZbwRZ2Kk43G">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

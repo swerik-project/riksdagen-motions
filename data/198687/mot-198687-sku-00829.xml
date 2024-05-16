@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-sku-00829">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>(fp, c, vpk)</title>
+        <author corresp="i-9pZ6GzfD2R22bxSydJmuYz">Andre vice talman Karl Erik Eriksson m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>(fp, c, vpk)</title>
+          <idno type="rdwebb">GA02sk829</idno>
+          <rs type="number">sk829</rs>
+          <orgName type="comitteeAbbreviation">sku</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02sk829/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02sk829</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02sk829</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9pZ6GzfD2R22bxSydJmuYz</idno>
+            <name>Karl Erik Eriksson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-A9wTTx74ViuquWXmgF5vjj</idno>
+            <name>Jan Jennehag</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-TVpY9zEquJ2jKT7pqxS85w</idno>
+            <name>Karin Israelsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MHGJ9gqGMLq7ADYmZfJNrE" type="signed"/>
+        <correspContext corresp="i-MHGJ9gqGMLq7ADYmZfJNrE">
+          <note type="signatory" corresp="i-9pZ6GzfD2R22bxSydJmuYz"/>
+          <note type="signatory" corresp="i-A9wTTx74ViuquWXmgF5vjj"/>
+          <note type="signatory" corresp="i-TVpY9zEquJ2jKT7pqxS85w"/>
+        </correspContext>
+        <correspAction type="assigned" xml:id="i-AHeW9Qo73FoqvR5caaJfLD">
+          <date when="2014-11-23"/>
+          <time when="17:06:18"/>
+        </correspAction>
+        <correspContext corresp="i-AHeW9Qo73FoqvR5caaJfLD">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

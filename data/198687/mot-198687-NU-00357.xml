@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-NU-00357">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Andersson (c)</title>
+        <author corresp="r-0 i-WHo92dWsGUrUuPF6REqupQ">Anna Wohlin-Andersson och Marianne </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Andersson (c)</title>
+          <idno type="rdwebb">GA02N357</idno>
+          <rs type="number">N357</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02N357/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02N357</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02N357</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>Andersson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-WHo92dWsGUrUuPF6REqupQ</idno>
+            <name>Anna Wohlin-Andersson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>Marianne Andersson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4RzPEcs8M1mC6TrWEmHHSz" type="signed"/>
+        <correspContext corresp="i-4RzPEcs8M1mC6TrWEmHHSz">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-WHo92dWsGUrUuPF6REqupQ"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

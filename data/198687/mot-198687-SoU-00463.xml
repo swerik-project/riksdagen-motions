@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-SoU-00463">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Thoraxkirurgi i Linköping</title>
+        <author corresp="i-TpZYt1GVcqVji9XRcawvXB i-2ggBvfkHRn3s8FvFEPLxjs">Ingrid Hasselström Nyvall och Agne Hansson (fp, c) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Thoraxkirurgi i Linköping</title>
+          <idno type="rdwebb">GA02So463</idno>
+          <rs type="number">So463</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02So463/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02So463</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02So463</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-TpZYt1GVcqVji9XRcawvXB</idno>
+            <name>Ingrid Hasselström Nyvall</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-2ggBvfkHRn3s8FvFEPLxjs</idno>
+            <name>Agne Hansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-X9pT4uCjU7VV31Y1G5uGuC" type="signed"/>
+        <correspContext corresp="i-X9pT4uCjU7VV31Y1G5uGuC">
+          <note type="signatory" corresp="i-TpZYt1GVcqVji9XRcawvXB"/>
+          <note type="signatory" corresp="i-2ggBvfkHRn3s8FvFEPLxjs"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

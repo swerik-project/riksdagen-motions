@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-JoU-00223">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deltids- och småjordbruken</title>
+        <author corresp="i-DMheKZZCYDtLzdvzFzc5vP i-8ihSXxrczC6r6e3uVHuU5A">Kenth Skårvik och Leif Olsson (fp) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Deltids- och småjordbruken</title>
+          <idno type="rdwebb">GA02Jo223</idno>
+          <rs type="number">Jo223</rs>
+          <orgName type="comitteeAbbreviation">JoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02Jo223/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02Jo223</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02Jo223</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-DMheKZZCYDtLzdvzFzc5vP</idno>
+            <name>Kenth Skårvik</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-8ihSXxrczC6r6e3uVHuU5A</idno>
+            <name>Leif Olsson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3bV82cg2VSuq19qiuKtTkc" type="signed"/>
+        <correspContext corresp="i-3bV82cg2VSuq19qiuKtTkc">
+          <note type="signatory" corresp="i-DMheKZZCYDtLzdvzFzc5vP"/>
+          <note type="signatory" corresp="i-8ihSXxrczC6r6e3uVHuU5A"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

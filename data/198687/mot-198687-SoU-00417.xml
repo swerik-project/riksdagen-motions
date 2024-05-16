@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-SoU-00417">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kravet att signera sjukvårdsjournaler</title>
+        <author corresp="i-A2jgxgPRi11BxUsPb2uNmM i-TpZYt1GVcqVji9XRcawvXB">Charlotte Branting och Ingrid Hasselström Nyvall</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kravet att signera sjukvårdsjournaler</title>
+          <idno type="rdwebb">GA02So417</idno>
+          <rs type="number">So417</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02So417/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02So417</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02So417</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-A2jgxgPRi11BxUsPb2uNmM</idno>
+            <name>Charlotte Branting</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-TpZYt1GVcqVji9XRcawvXB</idno>
+            <name>Ingrid Hasselström Nyvall</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HvYiAr1Mtug5prEHpQ9dvp" type="signed"/>
+        <correspContext corresp="i-HvYiAr1Mtug5prEHpQ9dvp">
+          <note type="signatory" corresp="i-A2jgxgPRi11BxUsPb2uNmM"/>
+          <note type="signatory" corresp="i-TpZYt1GVcqVji9XRcawvXB"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

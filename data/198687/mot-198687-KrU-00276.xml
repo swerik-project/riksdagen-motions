@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-KrU-00276">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Landsarkivorganisationen</title>
+        <author corresp="i-VXkZessNxc9eyPfvwLgWcK r-0">Kristina Svensson och Magnus Persson (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Landsarkivorganisationen</title>
+          <idno type="rdwebb">GA02Kr276</idno>
+          <rs type="number">Kr276</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02Kr276/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02Kr276</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02Kr276</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VXkZessNxc9eyPfvwLgWcK</idno>
+            <name>Kristina Svensson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>Magnus Persson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5vzgCjrDKHPq4hKHKE5tr1" type="signed"/>
+        <correspContext corresp="i-5vzgCjrDKHPq4hKHKE5tr1">
+          <note type="signatory" corresp="i-VXkZessNxc9eyPfvwLgWcK"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-TU-00547">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kommunikationerna i Gävleborgs län</title>
+        <author corresp="i-M5bH1LxYTuWEQR2jm6YTKq">Hans Lindblad (fp) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kommunikationerna i Gävleborgs län</title>
+          <idno type="rdwebb">GA02T547</idno>
+          <rs type="number">T547</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02T547/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02T547</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02T547</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-M5bH1LxYTuWEQR2jm6YTKq</idno>
+            <name>Hans Lindblad</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SbgZaErFMa5X65WMXy8EmM" type="signed"/>
+        <correspContext corresp="i-SbgZaErFMa5X65WMXy8EmM">
+          <note type="signatory" corresp="i-M5bH1LxYTuWEQR2jm6YTKq"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

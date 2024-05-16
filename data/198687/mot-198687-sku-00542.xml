@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-sku-00542">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bensinskatten</title>
+        <author corresp="i-VXkZessNxc9eyPfvwLgWcK i-KcofmNasLprpHKsdaYM625">Kristina Svensson och Bo Finnkvist (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bensinskatten</title>
+          <idno type="rdwebb">GA02sk542</idno>
+          <rs type="number">sk542</rs>
+          <orgName type="comitteeAbbreviation">sku</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02sk542/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02sk542</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02sk542</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VXkZessNxc9eyPfvwLgWcK</idno>
+            <name>Kristina Svensson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-KcofmNasLprpHKsdaYM625</idno>
+            <name>Bo Finnkvist</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QByyt3mNEGhSa2gdXxyHUJ" type="signed"/>
+        <correspContext corresp="i-QByyt3mNEGhSa2gdXxyHUJ">
+          <note type="signatory" corresp="i-VXkZessNxc9eyPfvwLgWcK"/>
+          <note type="signatory" corresp="i-KcofmNasLprpHKsdaYM625"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

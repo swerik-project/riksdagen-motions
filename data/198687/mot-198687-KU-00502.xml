@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-KU-00502">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Angivande av namn och partibeteckning på personer  som deltagit i beslut i statliga och regionala styrelser</title>
+        <author corresp="i-8kBfhXyjrBgUH1YAVjW1DD i-UxF6YPMa1QYLSYfvvpZpWu">Birgitta Johansson och Iréne Vestlund (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Angivande av namn och partibeteckning på personer  som deltagit i beslut i statliga och regionala styrelser</title>
+          <idno type="rdwebb">GA02K502</idno>
+          <rs type="number">K502</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02K502/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02K502</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02K502</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-8kBfhXyjrBgUH1YAVjW1DD</idno>
+            <name>Birgitta Johansson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-UxF6YPMa1QYLSYfvvpZpWu</idno>
+            <name>Iréne Vestlund</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Jp8EKpenXZ7DGyDtKcrKGN" type="signed"/>
+        <correspContext corresp="i-Jp8EKpenXZ7DGyDtKcrKGN">
+          <note type="signatory" corresp="i-8kBfhXyjrBgUH1YAVjW1DD"/>
+          <note type="signatory" corresp="i-UxF6YPMa1QYLSYfvvpZpWu"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

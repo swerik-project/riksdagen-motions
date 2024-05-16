@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-AU-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Det kontanta arbetsmarknadsstödet</title>
+        <author corresp="i-YAFJQStxQXdCtYPxFH9D9a r-0">Ingbritt Irhammar och Marianne Andersson (c) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Det kontanta arbetsmarknadsstödet</title>
+          <idno type="rdwebb">GA02A201</idno>
+          <rs type="number">A201</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02A201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02A201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02A201</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-YAFJQStxQXdCtYPxFH9D9a</idno>
+            <name>Ingbritt Irhammar</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>Marianne Andersson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LtXbUALULNJncjc6MEJEsT" type="signed"/>
+        <correspContext corresp="i-LtXbUALULNJncjc6MEJEsT">
+          <note type="signatory" corresp="i-YAFJQStxQXdCtYPxFH9D9a"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

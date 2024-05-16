@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-JoU-00741">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Freonutsläppen</title>
+        <author corresp="i-VUq3YNWZVencsKNxF2VzJ2 i-428Hjmwgi7AWPWkBr4Pecy">Kerstin Gellerman och Lars Ernestam (fp) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Freonutsläppen</title>
+          <idno type="rdwebb">GA02Jo741</idno>
+          <rs type="number">Jo741</rs>
+          <orgName type="comitteeAbbreviation">JoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02Jo741/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02Jo741</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02Jo741</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VUq3YNWZVencsKNxF2VzJ2</idno>
+            <name>Kerstin Gellerman</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-428Hjmwgi7AWPWkBr4Pecy</idno>
+            <name>Lars Ernestam</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MmKdbmLSaKMrE2r5rwHuie" type="signed"/>
+        <correspContext corresp="i-MmKdbmLSaKMrE2r5rwHuie">
+          <note type="signatory" corresp="i-VUq3YNWZVencsKNxF2VzJ2"/>
+          <note type="signatory" corresp="i-428Hjmwgi7AWPWkBr4Pecy"/>
+        </correspContext>
+        <correspAction type="assigned" xml:id="i-TP5obUSDgnDQHnT9vKR6mQ">
+          <date when="2014-11-19"/>
+          <time when="14:52:01"/>
+        </correspAction>
+        <correspContext corresp="i-TP5obUSDgnDQHnT9vKR6mQ">
+          <ref type="assignedTo">Jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

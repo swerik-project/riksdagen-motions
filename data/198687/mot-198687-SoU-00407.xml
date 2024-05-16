@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-SoU-00407">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Patientjournallagen</title>
+        <author corresp="i-SJZr3KVaqohjfckH9Qag36 i-YAFJQStxQXdCtYPxFH9D9a">Stina Gustavsson och Ingbritt Irhammar (c) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Patientjournallagen</title>
+          <idno type="rdwebb">GA02So407</idno>
+          <rs type="number">So407</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02So407/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02So407</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02So407</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-SJZr3KVaqohjfckH9Qag36</idno>
+            <name>Stina Gustavsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-YAFJQStxQXdCtYPxFH9D9a</idno>
+            <name>Ingbritt Irhammar</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MpKsKmL8iTWZkRe8yp2m99" type="signed"/>
+        <correspContext corresp="i-MpKsKmL8iTWZkRe8yp2m99">
+          <note type="signatory" corresp="i-SJZr3KVaqohjfckH9Qag36"/>
+          <note type="signatory" corresp="i-YAFJQStxQXdCtYPxFH9D9a"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

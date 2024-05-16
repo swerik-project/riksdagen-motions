@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-NU-00378">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exportfrämjande åtgärder</title>
+        <author corresp="i-4u6RX5fG6QAwB5JHe16ZTV i-GTDxf4NudVQ4es4EhotQR1">Erik Hovhammar och Sten Svensson (m) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Exportfrämjande åtgärder</title>
+          <idno type="rdwebb">GA02N378</idno>
+          <rs type="number">N378</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02N378/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02N378</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02N378</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4u6RX5fG6QAwB5JHe16ZTV</idno>
+            <name>Erik Hovhammar</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-GTDxf4NudVQ4es4EhotQR1</idno>
+            <name>Sten Svensson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FrtPropMdzB2NavHuuLNSd" type="signed"/>
+        <correspContext corresp="i-FrtPropMdzB2NavHuuLNSd">
+          <note type="signatory" corresp="i-4u6RX5fG6QAwB5JHe16ZTV"/>
+          <note type="signatory" corresp="i-GTDxf4NudVQ4es4EhotQR1"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

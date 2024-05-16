@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-KU-00302">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vägledning till det svenska riksdagstrycket</title>
+        <author corresp="i-ENka9fRWC7HrGDQTU4F2ah">Birger Hagård (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vägledning till det svenska riksdagstrycket</title>
+          <idno type="rdwebb">GA02K302</idno>
+          <rs type="number">K302</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02K302/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02K302</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02K302</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-ENka9fRWC7HrGDQTU4F2ah</idno>
+            <name>Birger Hagård</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XwChKTadaHxAGC1SCYEHRb" type="signed"/>
+        <correspContext corresp="i-XwChKTadaHxAGC1SCYEHRb">
+          <note type="signatory" corresp="i-ENka9fRWC7HrGDQTU4F2ah"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

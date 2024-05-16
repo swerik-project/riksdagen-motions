@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-SoU-00234">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Den sociala hemtjänsten</title>
+        <author corresp="i-J6NhTcjZP8S8fLQ6A64Dcy i-8tpDmPvgnXjJkWGy9k68Ba">Ingegerd Anderlund och Eva Johansson (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Den sociala hemtjänsten</title>
+          <idno type="rdwebb">GA02So234</idno>
+          <rs type="number">So234</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02So234/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02So234</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02So234</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-J6NhTcjZP8S8fLQ6A64Dcy</idno>
+            <name>Ingegerd Anderlund</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-8tpDmPvgnXjJkWGy9k68Ba</idno>
+            <name>Eva Johansson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-ED3WyMDhR9ffqqLRvbChT1" type="signed"/>
+        <correspContext corresp="i-ED3WyMDhR9ffqqLRvbChT1">
+          <note type="signatory" corresp="i-J6NhTcjZP8S8fLQ6A64Dcy"/>
+          <note type="signatory" corresp="i-8tpDmPvgnXjJkWGy9k68Ba"/>
+        </correspContext>
+        <correspAction type="assigned" xml:id="i-3n7MdDojf4nrT3JPhDZMFx">
+          <date when="2014-11-22"/>
+          <time when="12:39:52"/>
+        </correspAction>
+        <correspContext corresp="i-3n7MdDojf4nrT3JPhDZMFx">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

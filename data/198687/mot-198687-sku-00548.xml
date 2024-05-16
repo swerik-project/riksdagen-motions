@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-sku-00548">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gotland som frizon</title>
+        <author corresp="i-3uaN5fvSUmBMXgqnzrb6Yb i-ENka9fRWC7HrGDQTU4F2ah">Görel Bohlin och Birger Hagård (m) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Gotland som frizon</title>
+          <idno type="rdwebb">GA02sk548</idno>
+          <rs type="number">sk548</rs>
+          <orgName type="comitteeAbbreviation">sku</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02sk548/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02sk548</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02sk548</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-3uaN5fvSUmBMXgqnzrb6Yb</idno>
+            <name>Görel Bohlin</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-ENka9fRWC7HrGDQTU4F2ah</idno>
+            <name>Birger Hagård</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-C14wHqJw7chNMri6hf4K7E" type="signed"/>
+        <correspContext corresp="i-C14wHqJw7chNMri6hf4K7E">
+          <note type="signatory" corresp="i-3uaN5fvSUmBMXgqnzrb6Yb"/>
+          <note type="signatory" corresp="i-ENka9fRWC7HrGDQTU4F2ah"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-TU-00916">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Taxinäringen</title>
+        <author corresp="i-GFsqpCacJRk8QEGuC29fYK i-6ZF2Us4x7YRiu8c71xtsNW">Margareta Mörck och Margareta Fogelberg (fp) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Taxinäringen</title>
+          <idno type="rdwebb">GA02T916</idno>
+          <rs type="number">T916</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02T916/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02T916</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02T916</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-GFsqpCacJRk8QEGuC29fYK</idno>
+            <name>Margareta Mörck</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-6ZF2Us4x7YRiu8c71xtsNW</idno>
+            <name>Margareta Fogelberg</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>fp</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-45Wy5t4cQPuKwJoboZMe2j" type="signed"/>
+        <correspContext corresp="i-45Wy5t4cQPuKwJoboZMe2j">
+          <note type="signatory" corresp="i-GFsqpCacJRk8QEGuC29fYK"/>
+          <note type="signatory" corresp="i-6ZF2Us4x7YRiu8c71xtsNW"/>
+        </correspContext>
+        <correspAction type="assigned" xml:id="i-Cb8RBALBN86JZ8Hi49q7HH">
+          <date when="2014-11-19"/>
+          <time when="14:49:45"/>
+        </correspAction>
+        <correspContext corresp="i-Cb8RBALBN86JZ8Hi49q7HH">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-KU-00234">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Utlandssvenskars rösträtt</title>
+        <author corresp="i-HoE2x9y5uUuRrXBrgsJFGH i-EpDNYovHuTxUaBfQe7k5xH">Wivi-Anne Radesjö och Rune Evensson (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Utlandssvenskars rösträtt</title>
+          <idno type="rdwebb">GA02K234</idno>
+          <rs type="number">K234</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02K234/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02K234</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02K234</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-HoE2x9y5uUuRrXBrgsJFGH</idno>
+            <name>Wivi-Anne Radesjö</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-EpDNYovHuTxUaBfQe7k5xH</idno>
+            <name>Rune Evensson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-D1S75oc2koG96fzKoq8cTT" type="signed"/>
+        <correspContext corresp="i-D1S75oc2koG96fzKoq8cTT">
+          <note type="signatory" corresp="i-HoE2x9y5uUuRrXBrgsJFGH"/>
+          <note type="signatory" corresp="i-EpDNYovHuTxUaBfQe7k5xH"/>
+        </correspContext>
+        <correspAction type="assigned" xml:id="i-BNYoK25bnYYs5obDNKho9E">
+          <date when="2014-11-19"/>
+          <time when="15:31:09"/>
+        </correspAction>
+        <correspContext corresp="i-BNYoK25bnYYs5obDNKho9E">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

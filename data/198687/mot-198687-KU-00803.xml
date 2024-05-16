@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-KU-00803">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Den svenska nationalsången</title>
+        <author corresp="i-U9We27C3x3JviFqbQPuj3d">Alexander Chrisopoulos (vpk) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Den svenska nationalsången</title>
+          <idno type="rdwebb">GA02K803</idno>
+          <rs type="number">K803</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02K803/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02K803</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02K803</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-U9We27C3x3JviFqbQPuj3d</idno>
+            <name>Alexander Chrisopoulos</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9UrKvgvWbdYTtcdRf3TzgB" type="signed"/>
+        <correspContext corresp="i-9UrKvgvWbdYTtcdRf3TzgB">
+          <note type="signatory" corresp="i-U9We27C3x3JviFqbQPuj3d"/>
+        </correspContext>
+        <correspAction type="assigned" xml:id="i-JCUiRPpDQreF8eZWgS5Xid">
+          <date when="2014-11-20"/>
+          <time when="22:00:02"/>
+        </correspAction>
+        <correspContext corresp="i-JCUiRPpDQreF8eZWgS5Xid">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

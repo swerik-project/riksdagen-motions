@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-AU-00269">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arbetsmarknadsplan för handikappade</title>
+        <author corresp="r-0 i-4ozJvQj9byCZWcrYUrLEiR">Margareta Persson och Ingvar Björk (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arbetsmarknadsplan för handikappade</title>
+          <idno type="rdwebb">GA02A269</idno>
+          <rs type="number">A269</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02A269/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02A269</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02A269</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>Margareta Persson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4ozJvQj9byCZWcrYUrLEiR</idno>
+            <name>Ingvar Björk</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-B8UMr2e1mLPijjdiArpWk9" type="signed"/>
+        <correspContext corresp="i-B8UMr2e1mLPijjdiArpWk9">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-4ozJvQj9byCZWcrYUrLEiR"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

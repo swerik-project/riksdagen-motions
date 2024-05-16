@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-KrU-00226">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dokumentation före markexploatering</title>
+        <author corresp="i-uX5Zz8LcvPUw4Ta1Mi8zq i-U5gDdgzYFmj6HTJyQ6y7EG">Ewa Hedkvist Petersen och Claes Rensfeldt (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Dokumentation före markexploatering</title>
+          <idno type="rdwebb">GA02Kr226</idno>
+          <rs type="number">Kr226</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02Kr226/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02Kr226</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02Kr226</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-uX5Zz8LcvPUw4Ta1Mi8zq</idno>
+            <name>Ewa Hedkvist Petersen</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-U5gDdgzYFmj6HTJyQ6y7EG</idno>
+            <name>Claes Rensfeldt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8p72WRKJB39pzpQ36hUFiY" type="signed"/>
+        <correspContext corresp="i-8p72WRKJB39pzpQ36hUFiY">
+          <note type="signatory" corresp="i-uX5Zz8LcvPUw4Ta1Mi8zq"/>
+          <note type="signatory" corresp="i-U5gDdgzYFmj6HTJyQ6y7EG"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

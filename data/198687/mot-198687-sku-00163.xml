@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-sku-00163">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ny organisation för folkbokföring</title>
+        <author corresp="i-3uaN5fvSUmBMXgqnzrb6Yb i-LqLKSYqgPPCXT6xiy14Fyr">Görel Bohlin och Anita Bråkenhielm (m) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ny organisation för folkbokföring</title>
+          <idno type="rdwebb">GA02sk163</idno>
+          <rs type="number">sk163</rs>
+          <orgName type="comitteeAbbreviation">sku</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02sk163/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02sk163</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02sk163</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-3uaN5fvSUmBMXgqnzrb6Yb</idno>
+            <name>Görel Bohlin</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-LqLKSYqgPPCXT6xiy14Fyr</idno>
+            <name>Anita Bråkenhielm</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Evph1Zp4RCvbr7Rx44gTFq" type="signed"/>
+        <correspContext corresp="i-Evph1Zp4RCvbr7Rx44gTFq">
+          <note type="signatory" corresp="i-3uaN5fvSUmBMXgqnzrb6Yb"/>
+          <note type="signatory" corresp="i-LqLKSYqgPPCXT6xiy14Fyr"/>
+        </correspContext>
+        <correspAction type="assigned" xml:id="i-XSq5aMprw4Yuc6Znn3bmQm">
+          <date when="2014-11-19"/>
+          <time when="15:44:10"/>
+        </correspAction>
+        <correspContext corresp="i-XSq5aMprw4Yuc6Znn3bmQm">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

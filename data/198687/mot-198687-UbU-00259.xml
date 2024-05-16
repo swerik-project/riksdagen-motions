@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-UbU-00259">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Datagymnasium i Skellefteå</title>
+        <author corresp="i-F75GdyfEGNRiwZrKbuWUGy">Börje Hörnlund m. fl. (c, s, m, vpk) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Datagymnasium i Skellefteå</title>
+          <idno type="rdwebb">GA02Ub259</idno>
+          <rs type="number">Ub259</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02Ub259/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02Ub259</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02Ub259</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-F75GdyfEGNRiwZrKbuWUGy</idno>
+            <name>Börje Hörnlund</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-9msUCw725vKguNSQS4ikv4</idno>
+            <name>Hans Dau</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>John Andersson</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-967Q9DmWbuMgaG62XNQNDR</idno>
+            <name>Roland Brännström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-D8nxzcoFabv7zLgwn7QwnK" type="signed"/>
+        <correspContext corresp="i-D8nxzcoFabv7zLgwn7QwnK">
+          <note type="signatory" corresp="i-F75GdyfEGNRiwZrKbuWUGy"/>
+          <note type="signatory" corresp="i-9msUCw725vKguNSQS4ikv4"/>
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-967Q9DmWbuMgaG62XNQNDR"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

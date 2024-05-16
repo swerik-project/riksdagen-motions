@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-AU-00227">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bidragen till arbetshandikappade</title>
+        <author corresp="i-GoPG5SYP7B72kfnF4EmN5b r-0">Lennart Brunander och Marianne Andersson (c) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bidragen till arbetshandikappade</title>
+          <idno type="rdwebb">GA02A227</idno>
+          <rs type="number">A227</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02A227/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02A227</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02A227</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GoPG5SYP7B72kfnF4EmN5b</idno>
+            <name>Lennart Brunander</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>Marianne Andersson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AWuxbigrJqDiWRfGQrX832" type="signed"/>
+        <correspContext corresp="i-AWuxbigrJqDiWRfGQrX832">
+          <note type="signatory" corresp="i-GoPG5SYP7B72kfnF4EmN5b"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-juu-00417">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Polis eller bevakningsföretag</title>
+        <author corresp="i-DZnrxW2kSEVtagNyHZpyyH i-9CvkAU1JKjTkULuqucvebo">Bengt Silfverstrand och Maja Bäckström (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Polis eller bevakningsföretag</title>
+          <idno type="rdwebb">GA02ju417</idno>
+          <rs type="number">ju417</rs>
+          <orgName type="comitteeAbbreviation">juu</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02ju417/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02ju417</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02ju417</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-DZnrxW2kSEVtagNyHZpyyH</idno>
+            <name>Bengt Silfverstrand</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-9CvkAU1JKjTkULuqucvebo</idno>
+            <name>Maja Bäckström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Pkh7FTRr3y8YcSFdsTdGLL" type="signed"/>
+        <correspContext corresp="i-Pkh7FTRr3y8YcSFdsTdGLL">
+          <note type="signatory" corresp="i-DZnrxW2kSEVtagNyHZpyyH"/>
+          <note type="signatory" corresp="i-9CvkAU1JKjTkULuqucvebo"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

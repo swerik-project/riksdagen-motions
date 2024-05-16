@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-juu-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nytt polishus i Linköping</title>
+        <author corresp="i-4ozJvQj9byCZWcrYUrLEiR">Ingvar Björk och </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nytt polishus i Linköping</title>
+          <idno type="rdwebb">GA02ju201</idno>
+          <rs type="number">ju201</rs>
+          <orgName type="comitteeAbbreviation">juu</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02ju201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02ju201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02ju201</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4ozJvQj9byCZWcrYUrLEiR</idno>
+            <name>Ingvar Björk</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-MAohbgjULBda4ky5ZTSzv1</idno>
+            <name>Berit Löfstedt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9qHF7p6kwp7CePBG6WHUM2" type="signed"/>
+        <correspContext corresp="i-9qHF7p6kwp7CePBG6WHUM2">
+          <note type="signatory" corresp="i-4ozJvQj9byCZWcrYUrLEiR"/>
+          <note type="signatory" corresp="i-MAohbgjULBda4ky5ZTSzv1"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-KU-00819">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Presstödet</title>
+        <author corresp="i-Dqwk6WRPNzjzwmqmA18xc1">Sture Ericson m. fl. (s) </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Presstödet</title>
+          <idno type="rdwebb">GA02K819</idno>
+          <rs type="number">K819</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GA02K819/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GA02K819</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GA02K819</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Dqwk6WRPNzjzwmqmA18xc1</idno>
+            <name>Sture Ericson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>Gunnar Nilsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-3sd3coveTcEfybUorJpXWf</idno>
+            <name>Åke Gustavsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DdB228US2SqNZkCGMEw7wL" type="signed"/>
+        <correspContext corresp="i-DdB228US2SqNZkCGMEw7wL">
+          <note type="signatory" corresp="i-Dqwk6WRPNzjzwmqmA18xc1"/>
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-3sd3coveTcEfybUorJpXWf"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

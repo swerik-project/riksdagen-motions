@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00901">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om information till företagen om praktisk yrkesorientering.</title>
+        <author>av fru Söder m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om information till företagen om praktisk yrkesorientering.</title>
+          <idno type="rdwebb">FU02901</idno>
+          <rs type="number">901</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02901/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02901</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02901</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-XrDegv7uQGz4MSbepK4txd</idno>
+            <name>KARIN SÖDER</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-BzYgGpLotxmsWDEnHPnKgu</idno>
+            <name>LENNART MATTSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>SVEN JOHANSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-joUT26hTfU6eMNkNxHWAH" type="signed"/>
+        <correspContext corresp="i-joUT26hTfU6eMNkNxHWAH">
+          <note type="signatory" corresp="i-XrDegv7uQGz4MSbepK4txd"/>
+          <note type="signatory" corresp="i-BzYgGpLotxmsWDEnHPnKgu"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

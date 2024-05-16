@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00990">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om utredning angående sam ernns rättsliga ställning.</title>
+        <author>av herr Carlsson i Vikmanshyttan m. fl. </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om utredning angående sam ernns rättsliga ställning.</title>
+          <idno type="rdwebb">FU02990</idno>
+          <rs type="number">990</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02990/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02990</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02990</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>ERIC CARLSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-B7hrTkCutn2YGLqw9zbUd2</idno>
+            <name>BENGT SJÖNELL</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-4L3RupkmJsW37eGn5fppsN</idno>
+            <name>TORSTEN STRIDSMAN</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-P39qzBmeabc8nDVy2Zp8h2" type="signed"/>
+        <correspContext corresp="i-P39qzBmeabc8nDVy2Zp8h2">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-B7hrTkCutn2YGLqw9zbUd2"/>
+          <note type="signatory" corresp="i-4L3RupkmJsW37eGn5fppsN"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

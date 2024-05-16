@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00471">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående övervakningsnämudernas sammansättning och  arbetsuppgifter.</title>
+        <author>av fru Nordlander m. fl.</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående övervakningsnämudernas sammansättning och  arbetsuppgifter.</title>
+          <idno type="rdwebb">FU02471</idno>
+          <rs type="number">471</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02471/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02471</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02471</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-UqzvPHFEErHnSFsyUmhr5K</idno>
+            <name>KARIN NORDLANDER</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>LARS-OLOV HAGBERG</name>
+            <state type="partyAffiliation">
+              <desc>vpk</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-QRDnfz9zaiXo7A1SpAi1dM</idno>
+            <name>BERTIL MÅBRINK</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>vpk</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DEZj8DdHxAU17Jpfztjn9V" type="signed"/>
+        <correspContext corresp="i-DEZj8DdHxAU17Jpfztjn9V">
+          <note type="signatory" corresp="i-UqzvPHFEErHnSFsyUmhr5K"/>
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-QRDnfz9zaiXo7A1SpAi1dM"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00729">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Med hänvisning till vad ovan anförts hemställes</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Med hänvisning till vad ovan anförts hemställes</title>
+          <idno type="rdwebb">FU02729</idno>
+          <rs type="number">729</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02729/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02729</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02729</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person>
+            <idno>r-0</idno>
+            <name>OLLE WESTBERG</name>
+            <state type="partyAffiliation" ref="Q53764745">
+              <desc>fp</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-QvL87UYbGYsSdMdhj4qaNA</idno>
+            <name>KARL RASK</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-41vJAS5dWD4kUE2fvP2FWP</idno>
+            <name>ANDERS WIJKMAN</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KucWD6Ambe2LKasGAxC4jo" type="signed"/>
+        <correspContext corresp="i-KucWD6Ambe2LKasGAxC4jo">
+          <note type="signatory" corresp="r-0"/>
+          <note type="signatory" corresp="i-QvL87UYbGYsSdMdhj4qaNA"/>
+          <note type="signatory" corresp="i-41vJAS5dWD4kUE2fvP2FWP"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

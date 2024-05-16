@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00811">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om höjning av anslaget till Varbergs museum.</title>
+        <author>av herr Josefsson i Halmstad och herr Oskarson </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om höjning av anslaget till Varbergs museum.</title>
+          <idno type="rdwebb">FU02811</idno>
+          <rs type="number">811</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02811/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02811</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02811</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-5exha789r7Z8wiCScHsi3c</idno>
+            <name>GÖSTA JOSEFSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TPFPkNeAnPLVG6gbmTwyFe</idno>
+            <name>GUNNAR OSKARSON</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>m</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WaPPVrV5LTbSAtLGgMXNuG" type="signed"/>
+        <correspContext corresp="i-WaPPVrV5LTbSAtLGgMXNuG">
+          <note type="signatory" corresp="i-5exha789r7Z8wiCScHsi3c"/>
+          <note type="signatory" corresp="i-TPFPkNeAnPLVG6gbmTwyFe"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

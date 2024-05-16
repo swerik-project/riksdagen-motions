@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00145">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om översyn av telefontaxesystemet.</title>
+        <author>av herrar Johnsson i Blentarp och Johansson i Simrishamn </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om översyn av telefontaxesystemet.</title>
+          <idno type="rdwebb">FU02145</idno>
+          <rs type="number">145</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02145/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02145</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02145</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-PEJ1DBMnG7sGMU8qh8QjnF</idno>
+            <name>JOHN JOHNSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person>
+            <idno>r-0</idno>
+            <name>ERIK JOHANSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Q2sK4ckFbYFAJ9TVt2GCHE" type="signed"/>
+        <correspContext corresp="i-Q2sK4ckFbYFAJ9TVt2GCHE">
+          <note type="signatory" corresp="i-PEJ1DBMnG7sGMU8qh8QjnF"/>
+          <note type="signatory" corresp="r-0"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

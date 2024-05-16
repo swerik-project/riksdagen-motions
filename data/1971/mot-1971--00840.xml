@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00840">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om förläggande till Haparanda av en utbildningsanstalt.</title>
+        <author>av fru Berglund och herr Häll</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om förläggande till Haparanda av en utbildningsanstalt.</title>
+          <idno type="rdwebb">FU02840</idno>
+          <rs type="number">840</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02840/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02840</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02840</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-8bCQKT71VdBcHzz8yFjbEs</idno>
+            <name>FRIDA BERGLUND</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-883dSCGaDRjsxydnQYZSoY</idno>
+            <name>KARL-ERIK HÄLL</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8iZnbGgQmA3bFbvboW8PVo" type="signed"/>
+        <correspContext corresp="i-8iZnbGgQmA3bFbvboW8PVo">
+          <note type="signatory" corresp="i-8bCQKT71VdBcHzz8yFjbEs"/>
+          <note type="signatory" corresp="i-883dSCGaDRjsxydnQYZSoY"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00334">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående trafikförsäkringen.</title>
+        <author>av frn Lindberg och herr Ericson i örebro </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående trafikförsäkringen.</title>
+          <idno type="rdwebb">FU02334</idno>
+          <rs type="number">334</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02334/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02334</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02334</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-KqGQVMEanbLD27992WZkPH</idno>
+            <name>MARTA LINDBERG</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Dqwk6WRPNzjzwmqmA18xc1</idno>
+            <name>STURE ERICSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Lytzoj8xAwbzLm66C4zTYS" type="signed"/>
+        <correspContext corresp="i-Lytzoj8xAwbzLm66C4zTYS">
+          <note type="signatory" corresp="i-KqGQVMEanbLD27992WZkPH"/>
+          <note type="signatory" corresp="i-Dqwk6WRPNzjzwmqmA18xc1"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

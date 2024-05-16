@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00240">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående försäljningen av mellanöl.</title>
+        <author>av fru Åsbrink och fru Berglund </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående försäljningen av mellanöl.</title>
+          <idno type="rdwebb">FU02240</idno>
+          <rs type="number">240</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02240/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02240</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02240</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-PsR4X3jWbHud6ENpkwns5v</idno>
+            <name>EVA ÅSBRINK</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-8bCQKT71VdBcHzz8yFjbEs</idno>
+            <name>FRIDA BERGLUND</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SSJ1YPGjknKwFGa63ZRmtV" type="signed"/>
+        <correspContext corresp="i-SSJ1YPGjknKwFGa63ZRmtV">
+          <note type="signatory" corresp="i-PsR4X3jWbHud6ENpkwns5v"/>
+          <note type="signatory" corresp="i-8bCQKT71VdBcHzz8yFjbEs"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

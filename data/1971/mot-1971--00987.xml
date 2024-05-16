@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00987">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående jordbrukspolitiken.</title>
+        <author>av herrar Boo och Dahlgren </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående jordbrukspolitiken.</title>
+          <idno type="rdwebb">FU02987</idno>
+          <rs type="number">987</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02987/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02987</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02987</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4Fpaw3XcFb6Gne8E62mhr1</idno>
+            <name>KARL GUST. H. BOO</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-3R2qbKpVQbNv7BvXe7jvcr</idno>
+            <name>ANDERS DAHLGREN</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JuNbCeD4YJ2Pkx7ay884nD" type="signed"/>
+        <correspContext corresp="i-JuNbCeD4YJ2Pkx7ay884nD">
+          <note type="signatory" corresp="i-4Fpaw3XcFb6Gne8E62mhr1"/>
+          <note type="signatory" corresp="i-3R2qbKpVQbNv7BvXe7jvcr"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00236">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>angående folkbokföring av utlandsanställda.</title>
+        <author>av herrar Jönsson i Arlöv och Johnsson i Blentarp </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>angående folkbokföring av utlandsanställda.</title>
+          <idno type="rdwebb">FU02236</idno>
+          <rs type="number">236</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02236/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02236</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02236</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-MUnHEWorrq7nm6q1ZrGuCt</idno>
+            <name>HANS JÖNSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-PEJ1DBMnG7sGMU8qh8QjnF</idno>
+            <name>JOHN JOHNSSON</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>s</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NP4bqM4KFLo7nQd7xdz6cY" type="signed"/>
+        <correspContext corresp="i-NP4bqM4KFLo7nQd7xdz6cY">
+          <note type="signatory" corresp="i-MUnHEWorrq7nm6q1ZrGuCt"/>
+          <note type="signatory" corresp="i-PEJ1DBMnG7sGMU8qh8QjnF"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

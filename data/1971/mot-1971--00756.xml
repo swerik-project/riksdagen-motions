@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1971--00756">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>om en informationsenhet vid giftnämnden.</title>
+        <author>av herrar Larsson i Borrby och Larsson i Staffanstorp </author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>om en informationsenhet vid giftnämnden.</title>
+          <idno type="rdwebb">FU02756</idno>
+          <rs type="number">756</rs>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/FU02756/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/FU02756</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/FU02756</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SU3GVVoAF9WBfUSn5nRE5m</idno>
+            <name>EINAR LARSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Ki8BXCebma4Cx5CBFDs2LW</idno>
+            <name>THORSTEN LARSSON</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>c</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-BRuhYCvByNEK6yjXYMkv3H" type="signed"/>
+        <correspContext corresp="i-BRuhYCvByNEK6yjXYMkv3H">
+          <note type="signatory" corresp="i-SU3GVVoAF9WBfUSn5nRE5m"/>
+          <note type="signatory" corresp="i-Ki8BXCebma4Cx5CBFDs2LW"/>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KrU-00239">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Svenskt Rockarkiv</title>
+        <author corresp="i-7BVrTrBc6AJDkYa3WEfLxy">av Jan R Andersson (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Svenskt Rockarkiv</title>
+          <idno type="rdwebb">GZ02Kr239</idno>
+          <rs type="number">Kr239</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02Kr239/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02Kr239</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02Kr239</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0FC547F6-8A81-4665-8539-544DDB0A1349</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-7BVrTrBc6AJDkYa3WEfLxy</idno>
+            <name>Jan R Andersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UpgR1o4Vo2xP2nQ9b4gjCy" type="signed"/>
+        <correspContext corresp="i-UpgR1o4Vo2xP2nQ9b4gjCy">
+          <note type="signatory" corresp="i-7BVrTrBc6AJDkYa3WEfLxy"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-7gRSb7a2S1FzWJtL1cagnM">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WUUrAYdRoKzwPKXAz3ads3">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-FJE8NmvynSnR7Seiu1TiKX">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-4NEfrN7nb23SdQB2Gx3mzV"/>
+        <correspContext corresp="i-4NEfrN7nb23SdQB2Gx3mzV">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

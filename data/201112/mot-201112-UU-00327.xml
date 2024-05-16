@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-UU-00327">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Karenfolket</title>
+        <author corresp="i-4sEtGRPnuog5ACjegAtakj i-VFaAexqzCaq9JmKCfc1WJ9">av Mattias Karlsson och Julia Kronlid (SD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Karenfolket</title>
+          <idno type="rdwebb">GZ02U327</idno>
+          <rs type="number">U327</rs>
+          <orgName type="comitteeAbbreviation">UU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02U327/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02U327</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02U327</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/8F831997-3E68-41AE-89B5-7C29AA41B171</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4sEtGRPnuog5ACjegAtakj</idno>
+            <name>Mattias Karlsson</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VFaAexqzCaq9JmKCfc1WJ9</idno>
+            <name>Julia Kronlid</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LXysX5QSeT27iAaWjgUKyo" type="signed"/>
+        <correspContext corresp="i-LXysX5QSeT27iAaWjgUKyo">
+          <note type="signatory" corresp="i-4sEtGRPnuog5ACjegAtakj"/>
+          <note type="signatory" corresp="i-VFaAexqzCaq9JmKCfc1WJ9"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-CLWBokbhZ2xWh52e6ZsnRw">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-D4ZmyBFcdhZhzHd6w5DHxG">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-7j5TXMcuyUQvAD8PcVHf1c">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QKxJ7m1dqd7rVPEpDmk6Uu"/>
+        <correspContext corresp="i-QKxJ7m1dqd7rVPEpDmk6Uu">
+          <ref type="assignedTo">Utrikesutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

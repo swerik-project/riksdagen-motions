@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-MJU-00228">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ålen</title>
+        <author corresp="i-XmKy9xZWRYrVWK3GgNvWyc i-SA8UxFhjAuPobYWN8Y2Qep">av Christer Adelsbo och Annelie Karlsson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ålen</title>
+          <idno type="rdwebb">GZ02MJ228</idno>
+          <rs type="number">MJ228</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02MJ228/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02MJ228</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02MJ228</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1D284575-508E-450D-9D6C-789955930312</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XmKy9xZWRYrVWK3GgNvWyc</idno>
+            <name>Christer Adelsbo</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-SA8UxFhjAuPobYWN8Y2Qep</idno>
+            <name>Annelie Karlsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Fw4dnt7TovQ8xW44jyLx7U" type="signed"/>
+        <correspContext corresp="i-Fw4dnt7TovQ8xW44jyLx7U">
+          <note type="signatory" corresp="i-XmKy9xZWRYrVWK3GgNvWyc"/>
+          <note type="signatory" corresp="i-SA8UxFhjAuPobYWN8Y2Qep"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-7NG2w89g4zAXwAcVHUiuks">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8DSJ4ZHmsp5UAYeUka3EJj">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-DJd2cPvR27QcqExW4Jy3wF">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FnGTiNBN5Lj2iQxJaFzoiR"/>
+        <correspContext corresp="i-FnGTiNBN5Lj2iQxJaFzoiR">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

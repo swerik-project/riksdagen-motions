@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-JuU-00304">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Barnahus</title>
+        <author corresp="i-KCyyRs9HnkQhss61gii5F7 i-B34sv9ytsiioT1XaQtyXUo">av Fredrik Lundh Sammeli och Helén Pettersson i Umeå (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Barnahus</title>
+          <idno type="rdwebb">GZ02Ju304</idno>
+          <rs type="number">Ju304</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02Ju304/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02Ju304</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02Ju304</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C25EC759-FF8E-4C22-88CA-90A4C64B708A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KCyyRs9HnkQhss61gii5F7</idno>
+            <name>Fredrik Lundh Sammeli</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-B34sv9ytsiioT1XaQtyXUo</idno>
+            <name>Helén Pettersson i Umeå</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SA52cmNaxKLEvs4DDPUA38" type="signed"/>
+        <correspContext corresp="i-SA52cmNaxKLEvs4DDPUA38">
+          <note type="signatory" corresp="i-KCyyRs9HnkQhss61gii5F7"/>
+          <note type="signatory" corresp="i-B34sv9ytsiioT1XaQtyXUo"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-KJmqf5JjJx2Y7zEwVGep4J">
+          <date when="2011-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8iCXd3qbTeBvZVLG9LKJoN">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-NbfwKE6kYN6mn23b6PaBN1">
+          <date when="2011-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2apWKWpLhAmWDi2Weajza9"/>
+        <correspContext corresp="i-2apWKWpLhAmWDi2Weajza9">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-UU-00287">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arameiska</title>
+        <author corresp="i-PBSxPmi2qJkmc16jpZDA6Y i-DJ8dGLyQXx8GQeiGkcBRiK">av Robert Halef och Annika Eclund (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arameiska</title>
+          <idno type="rdwebb">GZ02U287</idno>
+          <rs type="number">U287</rs>
+          <orgName type="comitteeAbbreviation">UU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02U287/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02U287</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02U287</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/27A20CBB-DB94-4F31-A748-EDED75DA9F0C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-PBSxPmi2qJkmc16jpZDA6Y</idno>
+            <name>Robert Halef</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-DJ8dGLyQXx8GQeiGkcBRiK</idno>
+            <name>Annika Eclund</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NdRTudAtfqPjUpEc8bjVwh" type="signed"/>
+        <correspContext corresp="i-NdRTudAtfqPjUpEc8bjVwh">
+          <note type="signatory" corresp="i-PBSxPmi2qJkmc16jpZDA6Y"/>
+          <note type="signatory" corresp="i-DJ8dGLyQXx8GQeiGkcBRiK"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-TLaJ8AxswCizmPp76G9nE2">
+          <date when="2011-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KGarvaUmtkHozk2WbVxzsr">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-P7EX64iVfgdvAaeFwqvk4e">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Aw5xMyZ87jNG3Xo5QzCZhP"/>
+        <correspContext corresp="i-Aw5xMyZ87jNG3Xo5QzCZhP">
+          <ref type="assignedTo">Utrikesutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

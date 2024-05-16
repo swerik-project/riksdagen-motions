@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00281">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samvetsfrihet</title>
+        <author corresp="i-TECanR77Prb79DHwPvLitN i-V4PGuKUAKzYUXWKqj2bLeL">av Annelie Enochson och Andreas Carlson (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Samvetsfrihet</title>
+          <idno type="rdwebb">GZ02K281</idno>
+          <rs type="number">K281</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K281/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K281</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K281</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/14FB7D63-AEB3-4C78-9B14-6A46B256FBC7</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-TECanR77Prb79DHwPvLitN</idno>
+            <name>Annelie Enochson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-V4PGuKUAKzYUXWKqj2bLeL</idno>
+            <name>Andreas Carlson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5Qt9vybBZfKkJG7NRFVz3k" type="signed"/>
+        <correspContext corresp="i-5Qt9vybBZfKkJG7NRFVz3k">
+          <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
+          <note type="signatory" corresp="i-V4PGuKUAKzYUXWKqj2bLeL"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-PriVECyGvby1RhKX8yAXRp">
+          <date when="2011-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SsxXB5yvSmobd8FAwUb1YC">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-HrQ4AyAa94oEHzKzy3iXff">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-D8zWtzzpcHNbbEMc8A8BNK"/>
+        <correspContext corresp="i-D8zWtzzpcHNbbEMc8A8BNK">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

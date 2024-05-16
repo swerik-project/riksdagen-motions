@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00366">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Partisymboler på valsedlar</title>
+        <author corresp="i-Spsbo7A5zikEeUY3JEYcNV i-Xc2gauHt5Y4GsTNbgqrrAo">av Mikael Damberg och Yilmaz Kerimo (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Partisymboler på valsedlar</title>
+          <idno type="rdwebb">GZ02K366</idno>
+          <rs type="number">K366</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K366/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K366</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K366</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/084EECB4-1F50-4831-B518-BC46A89CA429</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Spsbo7A5zikEeUY3JEYcNV</idno>
+            <name>Mikael Damberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-Xc2gauHt5Y4GsTNbgqrrAo</idno>
+            <name>Yilmaz Kerimo</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EWmW8uZqLpThqHXRMbHZxB" type="signed"/>
+        <correspContext corresp="i-EWmW8uZqLpThqHXRMbHZxB">
+          <note type="signatory" corresp="i-Spsbo7A5zikEeUY3JEYcNV"/>
+          <note type="signatory" corresp="i-Xc2gauHt5Y4GsTNbgqrrAo"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-JawTjXJERVQXCjAPhCrmqt">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-MnkVGxtDXLmnh4BYtU7d4t">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Th4LsiQPx5pVpSbX1JGYvL">
+          <date when="2011-09-21"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-CbSwCVzCd7sywpX9bujWN"/>
+        <correspContext corresp="i-CbSwCVzCd7sywpX9bujWN">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

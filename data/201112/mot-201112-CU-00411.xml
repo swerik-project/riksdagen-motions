@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-CU-00411">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Faderskapstest</title>
+        <author corresp="i-9P5NZaksQybZxn8tBxUxvh">av Carina Herrstedt (SD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Faderskapstest</title>
+          <idno type="rdwebb">GZ02C411</idno>
+          <rs type="number">C411</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02C411/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02C411</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02C411</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/E8F60693-813F-4AA5-94E2-A8AB4440EB1E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-9P5NZaksQybZxn8tBxUxvh</idno>
+            <name>Carina Herrstedt</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3bBgZqGAFSvdaJSDTb99wW" type="signed"/>
+        <correspContext corresp="i-3bBgZqGAFSvdaJSDTb99wW">
+          <note type="signatory" corresp="i-9P5NZaksQybZxn8tBxUxvh"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-6LGZ8VGy93jryefYQgxtg6">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8Arj5pH823giR8VtzrHWRr">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-5i3c1VzwfFmMbzDdZSgG7Z">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-W2ez4iTAm73LpZP4WDp2bP"/>
+        <correspContext corresp="i-W2ez4iTAm73LpZP4WDp2bP">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

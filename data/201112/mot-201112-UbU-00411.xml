@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-UbU-00411">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fribelopp</title>
+        <author corresp="i-WTUJB2R5FNpHU89dXa4RTX i-PBSxPmi2qJkmc16jpZDA6Y">av Emma Henriksson och Robert Halef (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fribelopp</title>
+          <idno type="rdwebb">GZ02Ub411</idno>
+          <rs type="number">Ub411</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02Ub411/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02Ub411</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02Ub411</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/39F4A965-15BB-45EF-A316-346A245A8BB6</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-WTUJB2R5FNpHU89dXa4RTX</idno>
+            <name>Emma Henriksson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-PBSxPmi2qJkmc16jpZDA6Y</idno>
+            <name>Robert Halef</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Mb7YgY22iP8mFjtFNm5s7j" type="signed"/>
+        <correspContext corresp="i-Mb7YgY22iP8mFjtFNm5s7j">
+          <note type="signatory" corresp="i-WTUJB2R5FNpHU89dXa4RTX"/>
+          <note type="signatory" corresp="i-PBSxPmi2qJkmc16jpZDA6Y"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-YR3CVom2Xey3uKxDPF5V6Q">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8AW2MDibkWGS2sHkyBA3zE">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-2w4WexPs7BYzRPqgLoo1bT">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-3LA2naGePN2hn8wALKZ9TN"/>
+        <correspContext corresp="i-3LA2naGePN2hn8wALKZ9TN">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

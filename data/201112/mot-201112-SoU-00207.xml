@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-SoU-00207">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Parbogaranti</title>
+        <author corresp="i-3hmS3YtKuXCDu8pntcLAdc">av Hans Hoff (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Parbogaranti</title>
+          <idno type="rdwebb">GZ02So207</idno>
+          <rs type="number">So207</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02So207/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02So207</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02So207</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/2F8EA27E-61EF-4E93-977F-3C0A0A013FDC</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3hmS3YtKuXCDu8pntcLAdc</idno>
+            <name>Hans Hoff</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PJqL3ixfhnuVBfASscPGYn" type="signed"/>
+        <correspContext corresp="i-PJqL3ixfhnuVBfASscPGYn">
+          <note type="signatory" corresp="i-3hmS3YtKuXCDu8pntcLAdc"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Di9WtDBHhrhjbUnrxfTX4U">
+          <date when="2011-09-27"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NMdsGAQFxZi3iiQGRY97CJ">
+          <date when="2011-09-23"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-U8aGmc9sZHrwEBSx35rz7f">
+          <date when="2011-09-22"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NnPGe5YsbSAyQY5dMtFFKA"/>
+        <correspContext corresp="i-NnPGe5YsbSAyQY5dMtFFKA">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

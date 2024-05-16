@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-MJU-00231">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Storskarv</title>
+        <author corresp="i-4oK6HjNJR6K1QAGZmsEqiv i-4QSskNRajbqRG3PtACimqv">av Ingemar Nilsson och Susanne Eberstein (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Storskarv</title>
+          <idno type="rdwebb">GZ02MJ231</idno>
+          <rs type="number">MJ231</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02MJ231/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02MJ231</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02MJ231</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/EC399E81-6555-41CE-A2A9-4608A5AF12DE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4oK6HjNJR6K1QAGZmsEqiv</idno>
+            <name>Ingemar Nilsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-4QSskNRajbqRG3PtACimqv</idno>
+            <name>Susanne Eberstein</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XdQkkDUovwRw9qBWwWg6fs" type="signed"/>
+        <correspContext corresp="i-XdQkkDUovwRw9qBWwWg6fs">
+          <note type="signatory" corresp="i-4oK6HjNJR6K1QAGZmsEqiv"/>
+          <note type="signatory" corresp="i-4QSskNRajbqRG3PtACimqv"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-4vrHyKEh1NwcaHCKGAiFv1">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6apuxfg4pXpjo72mQ41EYs">
+          <date when="2011-09-29"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-FhoqNQiXfKzxhzRAxtUPGR">
+          <date when="2011-09-22"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-W76HMSQjojgpBjMVjdr4nQ"/>
+        <correspContext corresp="i-W76HMSQjojgpBjMVjdr4nQ">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

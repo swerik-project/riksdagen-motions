@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00211">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Närvaro för de förtroendevalda</title>
+        <author corresp="i-Kn2C4HPwWcqbEgtUtWTc5F">av Roger Haddad (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Närvaro för de förtroendevalda</title>
+          <idno type="rdwebb">GZ02K211</idno>
+          <rs type="number">K211</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K211/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K211</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K211</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/3F19006D-7716-4FBA-A058-59977543641F</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Kn2C4HPwWcqbEgtUtWTc5F</idno>
+            <name>Roger Haddad</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PHWXtoac1wFZ2QMbvs3Xm9" type="signed"/>
+        <correspContext corresp="i-PHWXtoac1wFZ2QMbvs3Xm9">
+          <note type="signatory" corresp="i-Kn2C4HPwWcqbEgtUtWTc5F"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-VTdoaRhYjk9nL5Rfo8jMzS">
+          <date when="2011-09-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PT6D2UpG4Q15Qv6RdXYQFf">
+          <date when="2011-09-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-3rSUzJQnRuNbCimf2QDyZh">
+          <date when="2011-09-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Uiz4zGnCqkj6FHt4zcxUqW"/>
+        <correspContext corresp="i-Uiz4zGnCqkj6FHt4zcxUqW">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

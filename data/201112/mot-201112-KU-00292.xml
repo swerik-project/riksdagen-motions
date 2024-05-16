@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00292">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Valmonarki i Sverige</title>
+        <author corresp="i-FeVXF7pVocmUfQoPXGuJKR i-2GE534P2Foy3WpqKPVNeW8">av Mats Pertoft och Valter Mutt (MP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Valmonarki i Sverige</title>
+          <idno type="rdwebb">GZ02K292</idno>
+          <rs type="number">K292</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K292/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K292</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K292</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C8557469-9BF8-4563-A61F-47B1FCABD37B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-FeVXF7pVocmUfQoPXGuJKR</idno>
+            <name>Valter Mutt</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-2GE534P2Foy3WpqKPVNeW8</idno>
+            <name>Mats Pertoft</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-P7HD8mBm7aM19pRK2KE4iC" type="signed"/>
+        <correspContext corresp="i-P7HD8mBm7aM19pRK2KE4iC">
+          <note type="signatory" corresp="i-FeVXF7pVocmUfQoPXGuJKR"/>
+          <note type="signatory" corresp="i-2GE534P2Foy3WpqKPVNeW8"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Sr5BKpQoDsznWV7ggnFLSR">
+          <date when="2011-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KpzvFkw4AB3XoUKiGc89Ro">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-7PgQCcAzRrA7HCspRpUaXH">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-8ac5mY3W61Bc3umWEhQPoc"/>
+        <correspContext corresp="i-8ac5mY3W61Bc3umWEhQPoc">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

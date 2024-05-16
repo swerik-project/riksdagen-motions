@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-SoU-00328">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Anhörigstöd</title>
+        <author corresp="i-ReHv93vu1syAgH8qzKxSu3 i-5gDciWNY8uS6ZCgJjocSUN">av Gustav Nilsson och Marianne Kierkemann (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Anhörigstöd</title>
+          <idno type="rdwebb">GZ02So328</idno>
+          <rs type="number">So328</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02So328/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02So328</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02So328</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/CFAAEA60-0EE4-413D-8D0E-A705886E126E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-ReHv93vu1syAgH8qzKxSu3</idno>
+            <name>Gustav Nilsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-5gDciWNY8uS6ZCgJjocSUN</idno>
+            <name>Marianne Kierkemann</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9xZQ6naW7u9BV8rug81Tsu" type="signed"/>
+        <correspContext corresp="i-9xZQ6naW7u9BV8rug81Tsu">
+          <note type="signatory" corresp="i-ReHv93vu1syAgH8qzKxSu3"/>
+          <note type="signatory" corresp="i-5gDciWNY8uS6ZCgJjocSUN"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-YCVkRYqLLBuTquJV3mCWEE">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UPojE6dCZifTW9PU2wzwPv">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-AeVutWybWoHCPRjEKBB8WF">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Abuwwy76Eq1mLTJk3a93Px"/>
+        <correspContext corresp="i-Abuwwy76Eq1mLTJk3a93Px">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-TU-00268">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Entusiastfordon</title>
+        <author corresp="i-KGqrEB2Pzg8goYxy9CcDhd">av Lars Gustafsson (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Entusiastfordon</title>
+          <idno type="rdwebb">GZ02T268</idno>
+          <rs type="number">T268</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02T268/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02T268</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02T268</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/ED9B8DA6-53A9-4E1A-9ED9-ECD50BD0C295</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KGqrEB2Pzg8goYxy9CcDhd</idno>
+            <name>Lars Gustafsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Us8PJBpKNxVNjJhDJJ1fJ" type="signed"/>
+        <correspContext corresp="i-Us8PJBpKNxVNjJhDJJ1fJ">
+          <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-N3aiDeGaGW7uM8ZjTiXLof">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-YPgZEwHyuibDPywucmHXw3">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-6abKoPo4t6T254iK7DeGk7">
+          <date when="2011-10-02"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6P2zsXxEzigT1UVxNbSTBt"/>
+        <correspContext corresp="i-6P2zsXxEzigT1UVxNbSTBt">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-SkU-00380">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Privat sparande</title>
+        <author corresp="i-QYUn9LH1BFyUaLeMaR5S5h">av Otto von Arnold (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Privat sparande</title>
+          <idno type="rdwebb">GZ02Sk380</idno>
+          <rs type="number">Sk380</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02Sk380/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02Sk380</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02Sk380</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1FE509F6-F3FE-4DC8-82C7-BE0EC02E67A3</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QYUn9LH1BFyUaLeMaR5S5h</idno>
+            <name>Otto von Arnold</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Jr6KvK5Sgx3ZspfCUCKsQv" type="signed"/>
+        <correspContext corresp="i-Jr6KvK5Sgx3ZspfCUCKsQv">
+          <note type="signatory" corresp="i-QYUn9LH1BFyUaLeMaR5S5h"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-DhVM6Swp3tLrx1n3uP1yUe">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-VimgTcGYBbYPr4HsMdMjLg">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-YLLfRm7Z5HSPyaEBr4JcsF">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FMTjZqrCeis64XESoDQNdg"/>
+        <correspContext corresp="i-FMTjZqrCeis64XESoDQNdg">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

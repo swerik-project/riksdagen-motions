@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00367">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Auktorisering av statstjänstemän</title>
+        <author corresp="i-AqkTDdERRgq7MWP7ajMpZo i-PMx51X9QbaLUMtQNq6sVfz">av Jasenko Omanovic och Matilda Ernkrans (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Auktorisering av statstjänstemän</title>
+          <idno type="rdwebb">GZ02K367</idno>
+          <rs type="number">K367</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K367/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K367</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K367</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/AAE0E6FB-0A7A-4CDC-8328-5279E0B7AB73</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-AqkTDdERRgq7MWP7ajMpZo</idno>
+            <name>Jasenko Omanovic</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-PMx51X9QbaLUMtQNq6sVfz</idno>
+            <name>Matilda Ernkrans</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LHm9MDPyL4t9A9WLTpMmbv" type="signed"/>
+        <correspContext corresp="i-LHm9MDPyL4t9A9WLTpMmbv">
+          <note type="signatory" corresp="i-AqkTDdERRgq7MWP7ajMpZo"/>
+          <note type="signatory" corresp="i-PMx51X9QbaLUMtQNq6sVfz"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-4VopREKm3deZr4R6kKCp3g">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8gSp6ifQnGf1Rzr1WtovQq">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-LFQFbyXmAebquXTquiauWV">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RznxBKw7oZgYPn59C5S4GX"/>
+        <correspContext corresp="i-RznxBKw7oZgYPn59C5S4GX">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

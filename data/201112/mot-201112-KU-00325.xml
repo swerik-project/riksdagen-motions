@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00325">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Republik</title>
+        <author corresp="i-TifWqzmRuorK3zFDqAUZk8">av Sara Karlsson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Republik</title>
+          <idno type="rdwebb">GZ02K325</idno>
+          <rs type="number">K325</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K325/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K325</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K325</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/20F97998-5FFA-4734-B1F7-5812B8F971F9</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-TifWqzmRuorK3zFDqAUZk8</idno>
+            <name>Sara Karlsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KRnyE74ZRtpirFTASe7JUt" type="signed"/>
+        <correspContext corresp="i-KRnyE74ZRtpirFTASe7JUt">
+          <note type="signatory" corresp="i-TifWqzmRuorK3zFDqAUZk8"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-RkGefj4vK7vXTPBYJWHT23">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3h4Wv9prFcznpndtCNQHDN">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Q3SChQQmeeMAGhgiWvjFLv">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-XnSQKupP2BcWeod7mGS9MP"/>
+        <correspContext corresp="i-XnSQKupP2BcWeod7mGS9MP">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

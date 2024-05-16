@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-TU-00254">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Strömsholms kanal</title>
+        <author corresp="i-RZNwwHohbyBgLVVG4Dy1Bj i-3YAEMbZXswzuyekFnSxXSF">av Carin Runeson och Olle Thorell (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Strömsholms kanal</title>
+          <idno type="rdwebb">GZ02T254</idno>
+          <rs type="number">T254</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02T254/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02T254</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02T254</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/075F4E1E-3276-4666-A37A-C87414FB102C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-RZNwwHohbyBgLVVG4Dy1Bj</idno>
+            <name>Carin Runeson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-3YAEMbZXswzuyekFnSxXSF</idno>
+            <name>Olle Thorell</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JE9QTR6sbbSmKWfhKSzN2b" type="signed"/>
+        <correspContext corresp="i-JE9QTR6sbbSmKWfhKSzN2b">
+          <note type="signatory" corresp="i-RZNwwHohbyBgLVVG4Dy1Bj"/>
+          <note type="signatory" corresp="i-3YAEMbZXswzuyekFnSxXSF"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-LUxJWnLHitZnJGaWHUBWXB">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UBr7rBfPYJNACZfVvbabNQ">
+          <date when="2011-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-AxLuT5CfHRVHAeCHZATrYC">
+          <date when="2011-09-28"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-G9ListgwnkGGbRHgTPtF5n"/>
+        <correspContext corresp="i-G9ListgwnkGGbRHgTPtF5n">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

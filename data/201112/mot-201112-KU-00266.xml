@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00266">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Antalet ledamöter i Sveriges riksdag</title>
+        <author corresp="i-P2Qeo7VM9UV2RSExyEhtHW">av Jenny Petersson (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Antalet ledamöter i Sveriges riksdag</title>
+          <idno type="rdwebb">GZ02K266</idno>
+          <rs type="number">K266</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K266/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K266</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K266</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/49ADC170-B987-4A2F-B0B6-29B05F08533F</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-P2Qeo7VM9UV2RSExyEhtHW</idno>
+            <name>Jenny Petersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2UeyBngdM27uTxyMphZ9rX" type="signed"/>
+        <correspContext corresp="i-2UeyBngdM27uTxyMphZ9rX">
+          <note type="signatory" corresp="i-P2Qeo7VM9UV2RSExyEhtHW"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-MdcXbkVduwmZ4s6GJtLoH6">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EbeDXYo8eMs55N2igkYNPG">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-QPjfTQCobE33eyQzL26YmD">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-DnS3unRYiHPXdpSHd4NT6R"/>
+        <correspContext corresp="i-DnS3unRYiHPXdpSHd4NT6R">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

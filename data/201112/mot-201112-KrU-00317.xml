@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KrU-00317">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Punktskriftens ställning</title>
+        <author corresp="i-4sEtGRPnuog5ACjegAtakj i-XRXtPdXG8Ahj3n8huVdjCn">av Mattias Karlsson och Per Ramhorn (SD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Punktskriftens ställning</title>
+          <idno type="rdwebb">GZ02Kr317</idno>
+          <rs type="number">Kr317</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02Kr317/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02Kr317</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02Kr317</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/7C0F1F8C-7F63-461E-A818-9FAC5A385BD4</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4sEtGRPnuog5ACjegAtakj</idno>
+            <name>Mattias Karlsson</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-XRXtPdXG8Ahj3n8huVdjCn</idno>
+            <name>Per Ramhorn</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VShT8sNrLPVXQ2imStEhcv" type="signed"/>
+        <correspContext corresp="i-VShT8sNrLPVXQ2imStEhcv">
+          <note type="signatory" corresp="i-4sEtGRPnuog5ACjegAtakj"/>
+          <note type="signatory" corresp="i-XRXtPdXG8Ahj3n8huVdjCn"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Kh8E9bRaUnC62wUAzcXXMd">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3QNCKex4Rk1eakoniVYZm5">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Yc1cYNVhnDoY3i6DYoVabw">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7C6C8i2tgdpsVGZTpfna5j"/>
+        <correspContext corresp="i-7C6C8i2tgdpsVGZTpfna5j">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

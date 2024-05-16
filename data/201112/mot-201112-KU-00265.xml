@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00265">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elektroniska val i Sverige</title>
+        <author corresp="i-P2Qeo7VM9UV2RSExyEhtHW">av Jenny Petersson (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Elektroniska val i Sverige</title>
+          <idno type="rdwebb">GZ02K265</idno>
+          <rs type="number">K265</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K265/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K265</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K265</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/EF958395-2EC7-406C-999E-ECEA5749DF92</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-P2Qeo7VM9UV2RSExyEhtHW</idno>
+            <name>Jenny Petersson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-G53D1n7WsjB8uQnr2V9vAW" type="signed"/>
+        <correspContext corresp="i-G53D1n7WsjB8uQnr2V9vAW">
+          <note type="signatory" corresp="i-P2Qeo7VM9UV2RSExyEhtHW"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-UJuu6ck5mPA9ZMAsHGWN3v">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UFtXmkVyf5Bwu14Ny4DWLc">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-JGgbqSCmQWTDFvhJJR7Vwj">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PC5zZucshmdEtn7HcNYicY"/>
+        <correspContext corresp="i-PC5zZucshmdEtn7HcNYicY">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

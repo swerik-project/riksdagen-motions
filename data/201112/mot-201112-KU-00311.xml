@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00311">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elektronisk signatur på riksdagsmotioner m.m.</title>
+        <author corresp="i-EgqHRHVoW5y9USDYuNoYuA">av Hillevi Larsson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Elektronisk signatur på riksdagsmotioner m.m.</title>
+          <idno type="rdwebb">GZ02K311</idno>
+          <rs type="number">K311</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K311/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K311</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K311</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/EB663ABA-75DD-4468-BB95-BAFB5B5A16BE</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-EgqHRHVoW5y9USDYuNoYuA</idno>
+            <name>Hillevi Larsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-W7GB3EzJYFxZDqdL3MysGD" type="signed"/>
+        <correspContext corresp="i-W7GB3EzJYFxZDqdL3MysGD">
+          <note type="signatory" corresp="i-EgqHRHVoW5y9USDYuNoYuA"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-B3KLtbFnA5YPnXyXvKpGrr">
+          <date when="2011-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UrVxXMWv2CogQZFYnjr8Pg">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-NmCvCUHg52115iibeFaYww">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AyptskfXdfajwb8CAc9Kod"/>
+        <correspContext corresp="i-AyptskfXdfajwb8CAc9Kod">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-CU-00398">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Barnbalk</title>
+        <author corresp="i-LmthhHLPxzMMpEiXSys13u i-J6HemNwzcYVLs5m9EZ9Tmt">av Ulrika Karlsson i Uppsala och Hans Rothenberg (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Barnbalk</title>
+          <idno type="rdwebb">GZ02C398</idno>
+          <rs type="number">C398</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02C398/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02C398</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02C398</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/80DDE5DD-3BEE-4AFE-AED5-4808B2571A80</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-LmthhHLPxzMMpEiXSys13u</idno>
+            <name>Ulrika Karlsson i Uppsala</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-J6HemNwzcYVLs5m9EZ9Tmt</idno>
+            <name>Hans Rothenberg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QB5qNe7ddvkqQWYX5pheuc" type="signed"/>
+        <correspContext corresp="i-QB5qNe7ddvkqQWYX5pheuc">
+          <note type="signatory" corresp="i-LmthhHLPxzMMpEiXSys13u"/>
+          <note type="signatory" corresp="i-J6HemNwzcYVLs5m9EZ9Tmt"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-VUN5MeqLRHxzeFsWi4XWAu">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Bd7D6ViQumzcnedopPmCmF">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-NTmxHPhakzQss8ivYa1E4t">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GnYfx3savDC3rWTGiEhhX"/>
+        <correspContext corresp="i-GnYfx3savDC3rWTGiEhhX">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

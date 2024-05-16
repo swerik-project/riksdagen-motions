@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00338">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Personnummer och personlig integritet</title>
+        <author corresp="i-XcAqMe3ntVBboWUxqACfz">av Gunnar Andrén (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Personnummer och personlig integritet</title>
+          <idno type="rdwebb">GZ02K338</idno>
+          <rs type="number">K338</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K338/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K338</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K338</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/7D4D8B6F-1DF0-4501-A2BC-5DD052091F7A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XcAqMe3ntVBboWUxqACfz</idno>
+            <name>Gunnar Andrén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-B3g6NXgm7enfJDeRV9xjSp" type="signed"/>
+        <correspContext corresp="i-B3g6NXgm7enfJDeRV9xjSp">
+          <note type="signatory" corresp="i-XcAqMe3ntVBboWUxqACfz"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-H1QSJHfAd8hbkj713k1Pt6">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BAA1iLXUnN7XfWjva7uPGS">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-WXagbQeWZ8GfXGzJUe86Ly">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-LFrESGQoRsArRmsMrq3Vkq"/>
+        <correspContext corresp="i-LFrESGQoRsArRmsMrq3Vkq">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

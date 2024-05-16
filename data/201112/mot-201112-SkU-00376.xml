@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-SkU-00376">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Uppgifter i folkbokföringsarkivet</title>
+        <author corresp="i-DJgH7q21vrKJDYHFpgpTiX">av Penilla Gunther (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Uppgifter i folkbokföringsarkivet</title>
+          <idno type="rdwebb">GZ02Sk376</idno>
+          <rs type="number">Sk376</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02Sk376/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02Sk376</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02Sk376</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/AFC5893D-AF05-4449-8B03-4CC214126DBA</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-DJgH7q21vrKJDYHFpgpTiX</idno>
+            <name>Penilla Gunther</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-iUx2kgPTQhd5fD15nZYJE" type="signed"/>
+        <correspContext corresp="i-iUx2kgPTQhd5fD15nZYJE">
+          <note type="signatory" corresp="i-DJgH7q21vrKJDYHFpgpTiX"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-FxEVREiASRdpHrMBL6EsS3">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-N4pWgmnowuaQCuv7mS7UmZ">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-B25VapoXWdXg8NmwoYMVvE">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RLshgaST5boXQV9tGSCbhn"/>
+        <correspContext corresp="i-RLshgaST5boXQV9tGSCbhn">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

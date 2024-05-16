@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00212">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Riksdagsledamöternas inkomstgaranti</title>
+        <author corresp="i-U6F8gqiuV2DEZN1aMhyDnJ">av Christer Nylander (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Riksdagsledamöternas inkomstgaranti</title>
+          <idno type="rdwebb">GZ02K212</idno>
+          <rs type="number">K212</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K212/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K212</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K212</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C1CB7727-A878-4C55-8B7A-82104512CFEF</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-U6F8gqiuV2DEZN1aMhyDnJ</idno>
+            <name>Christer Nylander</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-TM1Decg3roMUEtzFcmFQ47" type="signed"/>
+        <correspContext corresp="i-TM1Decg3roMUEtzFcmFQ47">
+          <note type="signatory" corresp="i-U6F8gqiuV2DEZN1aMhyDnJ"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-FXuvKzrxVSgoZymfwcZMHN">
+          <date when="2011-09-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-5nRYtXTB5Ey3PN7L1r9HT3">
+          <date when="2011-09-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-DRgd2kFshHK7RwUDvcXA9o">
+          <date when="2011-09-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PCXDEemzzD2v2XZ3EfCJL8"/>
+        <correspContext corresp="i-PCXDEemzzD2v2XZ3EfCJL8">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

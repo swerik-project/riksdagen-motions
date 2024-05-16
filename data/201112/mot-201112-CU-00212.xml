@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-CU-00212">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Externa köpcentrum</title>
+        <author corresp="i-Atz7ai4RJKnyNCwfSAJEeC i-VRHymVx7EsX48sg7b5qmpS">av Jan Lindholm och Jonas Eriksson (MP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Externa köpcentrum</title>
+          <idno type="rdwebb">GZ02C212</idno>
+          <rs type="number">C212</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02C212/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02C212</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02C212</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/DF8B3651-F668-481C-B76C-172B54B55FFD</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Atz7ai4RJKnyNCwfSAJEeC</idno>
+            <name>Jonas Eriksson</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-VRHymVx7EsX48sg7b5qmpS</idno>
+            <name>Jan Lindholm</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2JWDhucfMfSWeF53ZiE19S" type="signed"/>
+        <correspContext corresp="i-2JWDhucfMfSWeF53ZiE19S">
+          <note type="signatory" corresp="i-Atz7ai4RJKnyNCwfSAJEeC"/>
+          <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-MZMAZekNWN3ieLVs9HUuTH">
+          <date when="2011-09-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-2YTH2CvG1HuzgvZ48xPCnN">
+          <date when="2011-09-28"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-GsUmdkWhNmCVZqRB5WKrBJ">
+          <date when="2011-09-28"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-25SaiGuqkLugoqSXk3zDbB"/>
+        <correspContext corresp="i-25SaiGuqkLugoqSXk3zDbB">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

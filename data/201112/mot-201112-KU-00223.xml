@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00223">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stasidokumenten</title>
+        <author corresp="i-FnfN9cA2cbqkM9kt541hzu i-AR2qqDPUQpxw9v9Lv1Da3q">av Thoralf Alfsson och Jonas Åkerlund (SD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Stasidokumenten</title>
+          <idno type="rdwebb">GZ02K223</idno>
+          <rs type="number">K223</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K223/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K223</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K223</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D5F58D23-87A4-4144-A69C-3131F1A542F6</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-FnfN9cA2cbqkM9kt541hzu</idno>
+            <name>Thoralf Alfsson</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-AR2qqDPUQpxw9v9Lv1Da3q</idno>
+            <name>Jonas Åkerlund</name>
+            <state type="partyAffiliation" ref="Q504069">
+              <desc>SD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PKssFUttGsg9ErNApS1Suw" type="signed"/>
+        <correspContext corresp="i-PKssFUttGsg9ErNApS1Suw">
+          <note type="signatory" corresp="i-FnfN9cA2cbqkM9kt541hzu"/>
+          <note type="signatory" corresp="i-AR2qqDPUQpxw9v9Lv1Da3q"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-K8Wi9sL4JiK4caUs8RzWq1">
+          <date when="2011-09-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3zW5Y3J5LgtM46Eq5jd8dY">
+          <date when="2011-09-28"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-DXwYwQXaMQ1nhdcgbma8Pm">
+          <date when="2011-09-28"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JQdhWMD3bYj2CYZmrKtHB4"/>
+        <correspContext corresp="i-JQdhWMD3bYj2CYZmrKtHB4">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

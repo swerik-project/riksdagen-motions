@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-FiU-00249">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Förenklad åtkomst till statlig data</title>
+        <author corresp="i-5tbgYo4dBB9rh3uBeCweBm">av Johan Hultberg (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Förenklad åtkomst till statlig data</title>
+          <idno type="rdwebb">GZ02Fi249</idno>
+          <rs type="number">Fi249</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02Fi249/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02Fi249</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02Fi249</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/D5D6FD22-C9D6-4835-87B5-F588ED28C5FA</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-5tbgYo4dBB9rh3uBeCweBm</idno>
+            <name>Johan Hultberg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QDo3QdxrfjyQqmJqTsh1Ds" type="signed"/>
+        <correspContext corresp="i-QDo3QdxrfjyQqmJqTsh1Ds">
+          <note type="signatory" corresp="i-5tbgYo4dBB9rh3uBeCweBm"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-5MirwSCDjLhKC8o1YJg4ME">
+          <date when="2011-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-N9ExoPgXnesUepXAhXrgCp">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-VPfBHWnjNwLVv6EgpM1Vqt">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UvDrPUWqDEEBsCH9BzzXii"/>
+        <correspContext corresp="i-UvDrPUWqDEEBsCH9BzzXii">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-TU-00290">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Posten</title>
+        <author corresp="i-9BhJo8qQot8sFJg6YMJxQP">av Irene Oskarsson (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Posten</title>
+          <idno type="rdwebb">GZ02T290</idno>
+          <rs type="number">T290</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02T290/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02T290</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02T290</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/602922F2-58D4-43C3-A4CD-F02D4D2D7884</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-9BhJo8qQot8sFJg6YMJxQP</idno>
+            <name>Irene Oskarsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SyRF42zgwhiKVDMMtWEtZW" type="signed"/>
+        <correspContext corresp="i-SyRF42zgwhiKVDMMtWEtZW">
+          <note type="signatory" corresp="i-9BhJo8qQot8sFJg6YMJxQP"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Fr7BKaooUM6xMZzvBetfrC">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NhXRi4wYBwF9F6TwBToSB1">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Sot4jnfzNaAVgP8BR1bnNY">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-uYHTfxew7jXLEXyFNfCP3"/>
+        <correspContext corresp="i-uYHTfxew7jXLEXyFNfCP3">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00308">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vallagen</title>
+        <author corresp="i-PMx51X9QbaLUMtQNq6sVfz i-HA8qZKZU3je8nF69VtPrqk">av Matilda Ernkrans och Eva-Lena Jansson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vallagen</title>
+          <idno type="rdwebb">GZ02K308</idno>
+          <rs type="number">K308</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K308/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K308</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K308</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/6CDDEF3B-9A9C-43C5-B19D-A19F26D7F5DA</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-PMx51X9QbaLUMtQNq6sVfz</idno>
+            <name>Matilda Ernkrans</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-HA8qZKZU3je8nF69VtPrqk</idno>
+            <name>Eva-Lena Jansson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WpsurGyTT2sQhYGVkTMLc2" type="signed"/>
+        <correspContext corresp="i-WpsurGyTT2sQhYGVkTMLc2">
+          <note type="signatory" corresp="i-PMx51X9QbaLUMtQNq6sVfz"/>
+          <note type="signatory" corresp="i-HA8qZKZU3je8nF69VtPrqk"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-TM1y6qy6G7yg5mCRahVhW">
+          <date when="2011-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SC1cZUVc1V8Vo4nqKUmCSy">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-CwKgbYbV6fjBpApLXeRqpS">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Bj38nzHsDchxAxiDd6SMch"/>
+        <correspContext corresp="i-Bj38nzHsDchxAxiDd6SMch">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

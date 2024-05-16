@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-JuU-00243">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bekymringssamtal</title>
+        <author corresp="i-V4PGuKUAKzYUXWKqj2bLeL">av Andreas Carlson (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bekymringssamtal</title>
+          <idno type="rdwebb">GZ02Ju243</idno>
+          <rs type="number">Ju243</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02Ju243/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02Ju243</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02Ju243</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/48393A3F-4CD6-419D-ACE6-ECDD077E2E6E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-V4PGuKUAKzYUXWKqj2bLeL</idno>
+            <name>Andreas Carlson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-M6hVDsmvBjqbe9dXWG54pE" type="signed"/>
+        <correspContext corresp="i-M6hVDsmvBjqbe9dXWG54pE">
+          <note type="signatory" corresp="i-V4PGuKUAKzYUXWKqj2bLeL"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-FHMrRXrgQAuQAKnxV12ixh">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Ak4JjK9qZSmApXgrJ2gCVb">
+          <date when="2011-09-30"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-BZSL5CX5e1JXcPQ27iKRbW">
+          <date when="2011-09-30"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-F3cJFpd8EMqsY9ZhcHECDP"/>
+        <correspContext corresp="i-F3cJFpd8EMqsY9ZhcHECDP">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

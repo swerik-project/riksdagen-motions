@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-SoU-00253">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nätkurator</title>
+        <author corresp="i-GLB7Cj6SNDZcpFKqsN1zRL">av Anders Andersson (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nätkurator</title>
+          <idno type="rdwebb">GZ02So253</idno>
+          <rs type="number">So253</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02So253/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02So253</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02So253</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/4034098E-B9EF-4DA1-9C28-9CFBBBF8CE81</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GLB7Cj6SNDZcpFKqsN1zRL</idno>
+            <name>Anders Andersson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-5k2bHGuMHmH74W65AqAjbK" type="signed"/>
+        <correspContext corresp="i-5k2bHGuMHmH74W65AqAjbK">
+          <note type="signatory" corresp="i-GLB7Cj6SNDZcpFKqsN1zRL"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-PXAzpNdLP8iGUmfm36FERD">
+          <date when="2011-10-03"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-VLnAFvhqMsTzDcZfkZEMTe">
+          <date when="2011-09-29"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-NvLh68o9bKxufoaF9kpavk">
+          <date when="2011-09-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-XcVPZ8UKEFsmWxY4yJxFne"/>
+        <correspContext corresp="i-XcVPZ8UKEFsmWxY4yJxFne">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

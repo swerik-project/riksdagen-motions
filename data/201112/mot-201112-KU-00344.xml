@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00344">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ordensväsendet</title>
+        <author corresp="i-QYUn9LH1BFyUaLeMaR5S5h">av Otto von Arnold (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ordensväsendet</title>
+          <idno type="rdwebb">GZ02K344</idno>
+          <rs type="number">K344</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K344/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K344</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K344</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/7E6170F7-A0EF-46ED-AD0C-415DF82DB0F6</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QYUn9LH1BFyUaLeMaR5S5h</idno>
+            <name>Otto von Arnold</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-pReEbdfTiSJJxi9juERHF" type="signed"/>
+        <correspContext corresp="i-pReEbdfTiSJJxi9juERHF">
+          <note type="signatory" corresp="i-QYUn9LH1BFyUaLeMaR5S5h"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Uti9XiC9grrAUhpbKGPouo">
+          <date when="2011-10-10"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UticAW7GypjYfe5W46SFuc">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-KQQsnY1fpXdN4qxkhsGGpG">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-S5BMjyXaL4NZspUg3cKy4P"/>
+        <correspContext corresp="i-S5BMjyXaL4NZspUg3cKy4P">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

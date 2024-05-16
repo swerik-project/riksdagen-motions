@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-KU-00304">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>En Raoul Wallenberg-dag</title>
+        <author corresp="i-Ybw8JnrmHGCsqpipBke8a7 i-PgfrE9pakWspkNp9dr9ejT">av Mikael Oscarsson och Caroline Szyber (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>En Raoul Wallenberg-dag</title>
+          <idno type="rdwebb">GZ02K304</idno>
+          <rs type="number">K304</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02K304/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02K304</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02K304</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/601DDE7D-D233-4DAE-B87C-20EEB6A245DB</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ybw8JnrmHGCsqpipBke8a7</idno>
+            <name>Mikael Oscarsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-PgfrE9pakWspkNp9dr9ejT</idno>
+            <name>Caroline Szyber</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-X4ZVZg8t5BFSTUn8jJ5iRU" type="signed"/>
+        <correspContext corresp="i-X4ZVZg8t5BFSTUn8jJ5iRU">
+          <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
+          <note type="signatory" corresp="i-PgfrE9pakWspkNp9dr9ejT"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-YPJk76wskJwzJ1sfX1Q2T1">
+          <date when="2011-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Xv1z9o4qJGL9kJwq9Xj7kw">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Juxk3Wgyhu9S2WKES4ewob">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-D2Dkh11foMs1EcR6ntnwNK"/>
+        <correspContext corresp="i-D2Dkh11foMs1EcR6ntnwNK">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

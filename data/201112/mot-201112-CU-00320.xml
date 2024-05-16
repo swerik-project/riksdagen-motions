@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201112-CU-00320">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Föräldrar och gode män</title>
+        <author corresp="i-MRoARQLVygJYbBWvcAjNcB">av Elin Lundgren (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Föräldrar och gode män</title>
+          <idno type="rdwebb">GZ02C320</idno>
+          <rs type="number">C320</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GZ02C320/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GZ02C320</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GZ02C320</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/5BA60DB5-F3DD-4A59-B19E-4D360037C44B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-MRoARQLVygJYbBWvcAjNcB</idno>
+            <name>Elin Lundgren</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HUG28mHAaRAnBFVjEF8v1S" type="signed"/>
+        <correspContext corresp="i-HUG28mHAaRAnBFVjEF8v1S">
+          <note type="signatory" corresp="i-MRoARQLVygJYbBWvcAjNcB"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-FUZXuHZgAMNc3tjXyA8YCx">
+          <date when="2011-10-06"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HrBzEohFsJPkTz1WeDwxsD">
+          <date when="2011-10-05"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-48kzpRUkQhRiEiYMWgrYze">
+          <date when="2011-10-04"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-L8XktdfCrwZEoRdxRdSuLM"/>
+        <correspContext corresp="i-L8XktdfCrwZEoRdxRdSuLM">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

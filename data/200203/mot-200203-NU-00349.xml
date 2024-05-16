@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-NU-00349">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Glasriket</title>
+        <author corresp="i-G8564CqEnhC5PBjZSwUxsE i-LutTcg2m9spsoVaK7cAQeB">av Tomas Eneroth och Lars Wegendal (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Glasriket</title>
+          <idno type="rdwebb">GQ02N349</idno>
+          <rs type="number">N349</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02N349/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02N349</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02N349</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-G8564CqEnhC5PBjZSwUxsE</idno>
+            <name>Tomas Eneroth</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-LutTcg2m9spsoVaK7cAQeB</idno>
+            <name>Lars Wegendal</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JCzctAUT1MUyhXnqBUm38B" type="signed"/>
+        <correspContext corresp="i-JCzctAUT1MUyhXnqBUm38B">
+          <note type="signatory" corresp="i-G8564CqEnhC5PBjZSwUxsE"/>
+          <note type="signatory" corresp="i-LutTcg2m9spsoVaK7cAQeB"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NC6W8ezpMnMe7zzb7UusX2">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7yWTZ9DZbvRq5SoKGyJTGM">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-CP6th4Bt5ZbY5UFBpuKdxz">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-VgDxtCMhHky6a67VZoc7Tj"/>
+        <correspContext corresp="i-VgDxtCMhHky6a67VZoc7Tj">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

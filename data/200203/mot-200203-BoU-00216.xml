@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-BoU-00216">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Studentbostäder</title>
+        <author corresp="i-TECanR77Prb79DHwPvLitN">av Annelie Enochson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Studentbostäder</title>
+          <idno type="rdwebb">GQ02Bo216</idno>
+          <rs type="number">Bo216</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Bo216/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Bo216</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Bo216</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-TECanR77Prb79DHwPvLitN</idno>
+            <name>Annelie Enochson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3YxRtKVJMESkyPB9cAHg9Q" type="signed"/>
+        <correspContext corresp="i-3YxRtKVJMESkyPB9cAHg9Q">
+          <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NMgpsndaSAht992nJex33T">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Q6mQQjpCcdFVkrkwtCBJzt">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Dmdy9cNH57zUVpDPT4F4zs">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HujDGa4rwzvfug49rMyKZa"/>
+        <correspContext corresp="i-HujDGa4rwzvfug49rMyKZa">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

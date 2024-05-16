@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FiU-00212">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ändrade ägardirektiv till Akademiska Hus</title>
+        <author corresp="i-YaN1jaPx75LMCzcGaN8cCm i-BvxBJicYo5FW1E9fuXk8LW">av Sten Lundström och Owe Hellberg (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ändrade ägardirektiv till Akademiska Hus</title>
+          <idno type="rdwebb">GQ02Fi212</idno>
+          <rs type="number">Fi212</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Fi212/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Fi212</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Fi212</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-YaN1jaPx75LMCzcGaN8cCm</idno>
+            <name>Sten Lundström</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-BvxBJicYo5FW1E9fuXk8LW</idno>
+            <name>Owe Hellberg</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FLXV8Hio2kJqwNSbMJhAhe" type="signed"/>
+        <correspContext corresp="i-FLXV8Hio2kJqwNSbMJhAhe">
+          <note type="signatory" corresp="i-YaN1jaPx75LMCzcGaN8cCm"/>
+          <note type="signatory" corresp="i-BvxBJicYo5FW1E9fuXk8LW"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-YJYTB3mfgEHbip1QeGpVKw">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-UUjcbj47tp3QbfeGLMdwis">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UA4jF8SHxjR2WFHfUPr7Qs">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-4vyanVLUFmrtxqphAry9RQ"/>
+        <correspContext corresp="i-4vyanVLUFmrtxqphAry9RQ">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

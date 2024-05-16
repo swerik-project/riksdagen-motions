@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-NU-00340">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skåne</title>
+        <author corresp="i-U5MhCo51MGLLY94GAGJZhY i-AktM7FqujRsJ6kGjNePGjq">av Johan Linander och Lars-Ivar Ericson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skåne</title>
+          <idno type="rdwebb">GQ02N340</idno>
+          <rs type="number">N340</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02N340/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02N340</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02N340</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-U5MhCo51MGLLY94GAGJZhY</idno>
+            <name>Johan Linander</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-AktM7FqujRsJ6kGjNePGjq</idno>
+            <name>Lars-Ivar Ericson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WLCQyhvQq7jQ2cT5Sn6eQD" type="signed"/>
+        <correspContext corresp="i-WLCQyhvQq7jQ2cT5Sn6eQD">
+          <note type="signatory" corresp="i-U5MhCo51MGLLY94GAGJZhY"/>
+          <note type="signatory" corresp="i-AktM7FqujRsJ6kGjNePGjq"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Hnggv6PjaGt4gi5FWBUz6t">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-StEkT7u75p9mJxU3hhRCAt">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4Kjpz1uQuWfEoGhQwkf2gz">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-498QtuNbVcNiVzQQFaYbVA"/>
+        <correspContext corresp="i-498QtuNbVcNiVzQQFaYbVA">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

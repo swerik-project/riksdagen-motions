@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00466">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vuxenutbildningen</title>
+        <author corresp="i-P1efbUFx2TJLN3ZrfkaSuG i-PXnWJ6BujhJFDCkZeahBVd">av Kerstin Kristiansson Karlstedt och Göran Norlander (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vuxenutbildningen</title>
+          <idno type="rdwebb">GQ02Ub466</idno>
+          <rs type="number">Ub466</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Ub466/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Ub466</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Ub466</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-P1efbUFx2TJLN3ZrfkaSuG</idno>
+            <name>Kerstin Kristiansson Karlstedt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-PXnWJ6BujhJFDCkZeahBVd</idno>
+            <name>Göran Norlander</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4iGh3bxomkytP7wHczmn5r" type="signed"/>
+        <correspContext corresp="i-4iGh3bxomkytP7wHczmn5r">
+          <note type="signatory" corresp="i-P1efbUFx2TJLN3ZrfkaSuG"/>
+          <note type="signatory" corresp="i-PXnWJ6BujhJFDCkZeahBVd"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-ArQ5knNLos4zeyqaCcN1t2">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-L2AxBagNS6aMme5gr76dUe">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-U6pGX7vjjNWmt13bPaW1tZ">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QHKDrjU2sc3zjtL7cP1mLx"/>
+        <correspContext corresp="i-QHKDrjU2sc3zjtL7cP1mLx">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

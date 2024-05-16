@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00302">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Namn på valsedlar</title>
+        <author corresp="i-122QwSSpyGJQiTJjmrUJCM">av Krister Örnfjäder m.fl. (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Namn på valsedlar</title>
+          <idno type="rdwebb">GQ02K302</idno>
+          <rs type="number">K302</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02K302/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02K302</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02K302</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-122QwSSpyGJQiTJjmrUJCM</idno>
+            <name>Krister Örnfjäder</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-EZRVrXd7dZCHpRgBpnf69S</idno>
+            <name>Agneta Ringman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-UojdP4mF9dqkxf3QQ9oPFe</idno>
+            <name>Håkan Juholt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-FcYFZsJudP2Q26xks7EHrA</idno>
+            <name>Ann-Marie Fagerström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Y2TsiUbvrtXBCE5F8SK85o" type="signed"/>
+        <correspContext corresp="i-Y2TsiUbvrtXBCE5F8SK85o">
+          <note type="signatory" corresp="i-122QwSSpyGJQiTJjmrUJCM"/>
+          <note type="signatory" corresp="i-EZRVrXd7dZCHpRgBpnf69S"/>
+          <note type="signatory" corresp="i-UojdP4mF9dqkxf3QQ9oPFe"/>
+          <note type="signatory" corresp="i-FcYFZsJudP2Q26xks7EHrA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-TxRUS7GwPVpfSJEMepVPMC">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-A2WEaWq4Prxr8xKk5NoRVQ">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UmPpV4FFn2FRqyHJeVSfNU">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UM1ybXY7o1fyqMCDGkX1js"/>
+        <correspContext corresp="i-UM1ybXY7o1fyqMCDGkX1js">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

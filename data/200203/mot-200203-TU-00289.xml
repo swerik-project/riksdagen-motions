@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00289">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enskilda vägar</title>
+        <author corresp="i-PyuBrn6sPrF8RQEvmB9xdP i-5jLvgtZLz4tn3NhaKToY29">av Cecilia Widegren (m) och Holger Gustafsson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Enskilda vägar</title>
+          <idno type="rdwebb">GQ02T289</idno>
+          <rs type="number">T289</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02T289/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02T289</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02T289</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-PyuBrn6sPrF8RQEvmB9xdP</idno>
+            <name>Cecilia Widegren</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-5jLvgtZLz4tn3NhaKToY29</idno>
+            <name>Holger Gustafsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KpeXdd5hBNA8PmctgSsixY" type="signed"/>
+        <correspContext corresp="i-KpeXdd5hBNA8PmctgSsixY">
+          <note type="signatory" corresp="i-PyuBrn6sPrF8RQEvmB9xdP"/>
+          <note type="signatory" corresp="i-5jLvgtZLz4tn3NhaKToY29"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-c5yBuDJmiDNsnMmLotKSQ">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-3bMVPcwVNV15WC3SAwLaUU">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NhtxfueqM6rQKU44m7JBXG">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AJYUDvhbJbC4emjWv2VXZR"/>
+        <correspContext corresp="i-AJYUDvhbJbC4emjWv2VXZR">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#flerparti"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

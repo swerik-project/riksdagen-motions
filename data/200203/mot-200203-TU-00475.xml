@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00475">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Förbiled Katrineholm</title>
+        <author corresp="i-Q8hYBES3N7Q4fZnAATRjsd i-2mNEN1Zszf1P35pk3WZQhH">av Fredrik Olovsson och Michael Hagberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Förbiled Katrineholm</title>
+          <idno type="rdwebb">GQ02T475</idno>
+          <rs type="number">T475</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02T475/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02T475</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02T475</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Q8hYBES3N7Q4fZnAATRjsd</idno>
+            <name>Fredrik Olovsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-2mNEN1Zszf1P35pk3WZQhH</idno>
+            <name>Michael Hagberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JqbQuG5dTw1Hjo9MVJGXyX" type="signed"/>
+        <correspContext corresp="i-JqbQuG5dTw1Hjo9MVJGXyX">
+          <note type="signatory" corresp="i-Q8hYBES3N7Q4fZnAATRjsd"/>
+          <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8TgQ7RUp3UwjCbYBM8nKVW">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-GTScK7HPkBd8shTt7Xquvt">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-KLiiNbGRyYHWDSYnKSoZHS">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-27xH7ZGeD4pDKKq4F144TL"/>
+        <correspContext corresp="i-27xH7ZGeD4pDKKq4F144TL">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

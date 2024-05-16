@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-JuU-00299">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Berusning på allmän plats</title>
+        <author corresp="i-6Tm6CkqvW55XWkdqUgBH82">av Marina Pettersson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Berusning på allmän plats</title>
+          <idno type="rdwebb">GQ02Ju299</idno>
+          <rs type="number">Ju299</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Ju299/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Ju299</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Ju299</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-6Tm6CkqvW55XWkdqUgBH82</idno>
+            <name>Marina Pettersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-xWcxhqbjYDJ5XTPtov87t" type="signed"/>
+        <correspContext corresp="i-xWcxhqbjYDJ5XTPtov87t">
+          <note type="signatory" corresp="i-6Tm6CkqvW55XWkdqUgBH82"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-JBDRHeJNQ5DENnZzp7tjHt">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-9vu4YitFRo2cDvsgyvyNbX">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RAmJSVcKhLQAZgYNsapxzZ">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Fe8ftfxS8XXVVj1iEhJok8"/>
+        <correspContext corresp="i-Fe8ftfxS8XXVVj1iEhJok8">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

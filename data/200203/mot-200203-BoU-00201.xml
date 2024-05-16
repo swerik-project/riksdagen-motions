@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-BoU-00201">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Studentbostäder</title>
+        <author corresp="i-LHnM4Er87J2DaH7xRg62zz i-EYsBC4u5K3oa8SyoHdgTPc">av Roger Karlsson och Claes Västerteg (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Studentbostäder</title>
+          <idno type="rdwebb">GQ02Bo201</idno>
+          <rs type="number">Bo201</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Bo201/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Bo201</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Bo201</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-LHnM4Er87J2DaH7xRg62zz</idno>
+            <name>Roger Karlsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-EYsBC4u5K3oa8SyoHdgTPc</idno>
+            <name>Claes Västerteg</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VR3z9LSJFSh8HEdNwHPo3y" type="signed"/>
+        <correspContext corresp="i-VR3z9LSJFSh8HEdNwHPo3y">
+          <note type="signatory" corresp="i-LHnM4Er87J2DaH7xRg62zz"/>
+          <note type="signatory" corresp="i-EYsBC4u5K3oa8SyoHdgTPc"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-PRsWZKTa4vP7BLPA71RE2V">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-359KMBsHH6RpUxzfhMH4J4">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Wfmu2TCCDKzpp4t9D2fAK6">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RK7eMmhH8Pa1ydjrW9V3bS"/>
+        <correspContext corresp="i-RK7eMmhH8Pa1ydjrW9V3bS">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

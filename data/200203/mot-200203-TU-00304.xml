@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00304">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Stockholms vägnät </title>
+        <author corresp="i-LDb1GxQGG47N4mNNZ13jSZ">av Martin Andreasson m.fl. (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title> Stockholms vägnät </title>
+          <idno type="rdwebb">GQ02T304</idno>
+          <rs type="number">T304</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02T304/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02T304</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02T304</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-LDb1GxQGG47N4mNNZ13jSZ</idno>
+            <name>Martin Andreasson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-D6V9ti7ETxin1WbJjDaShE</idno>
+            <name>Nina Lundström</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-Ct7W83fwgMLpB48uiYaBqi</idno>
+            <name>Mia Franzén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GT93bLsEXJPsnb8ZMgFnvo" type="signed"/>
+        <correspContext corresp="i-GT93bLsEXJPsnb8ZMgFnvo">
+          <note type="signatory" corresp="i-LDb1GxQGG47N4mNNZ13jSZ"/>
+          <note type="signatory" corresp="i-D6V9ti7ETxin1WbJjDaShE"/>
+          <note type="signatory" corresp="i-Ct7W83fwgMLpB48uiYaBqi"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-KwXbDqJDqcvpx79HDNkaQR">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-HxN1LgMDDqoy4caekBv17o">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Tox34RjDymUExaSXdcmYCW">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KyWwbRL3EZu8bzpTYK175G"/>
+        <correspContext corresp="i-KyWwbRL3EZu8bzpTYK175G">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

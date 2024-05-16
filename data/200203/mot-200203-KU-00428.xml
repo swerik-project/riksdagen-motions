@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00428">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Borgerlig namngivning </title>
+        <author corresp="i-NW2TEoH8XmW9aSn2aKJ8EA">av Anders Ygeman (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Borgerlig namngivning </title>
+          <idno type="rdwebb">GQ02K428</idno>
+          <rs type="number">K428</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02K428/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02K428</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02K428</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-NW2TEoH8XmW9aSn2aKJ8EA</idno>
+            <name>Anders Ygeman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-L9Rv1J5DCuCG3VcyvFoa8X" type="signed"/>
+        <correspContext corresp="i-L9Rv1J5DCuCG3VcyvFoa8X">
+          <note type="signatory" corresp="i-NW2TEoH8XmW9aSn2aKJ8EA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Uk7kBK3krdqNmXEw2EkGYS">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-5DRvGsSbNFQbegAiJcUsNx">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-CECdtgsZaebRecRjYWDfZZ">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UwKRfYzsahPzC2vTQAzJ5A"/>
+        <correspContext corresp="i-UwKRfYzsahPzC2vTQAzJ5A">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

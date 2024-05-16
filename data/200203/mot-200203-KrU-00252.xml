@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KrU-00252">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nationellt skogshistoriskt museum</title>
+        <author corresp="i-JuBXXY8rg7e17ax8wgpWHG">av Dan Kihlström (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nationellt skogshistoriskt museum</title>
+          <idno type="rdwebb">GQ02Kr252</idno>
+          <rs type="number">Kr252</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Kr252/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Kr252</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Kr252</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-JuBXXY8rg7e17ax8wgpWHG</idno>
+            <name>Dan Kihlström</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KBdKNB7DRReBQajymLSyXV" type="signed"/>
+        <correspContext corresp="i-KBdKNB7DRReBQajymLSyXV">
+          <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8e2ng2ndxYLa5WfLbNXU8c">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-UxFPMZteqdhuzefeBUdLo7">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-S2Q1QrmFFaifpDxth2Np2y">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-CvqKkz9cv5oEvEu92m4LVF"/>
+        <correspContext corresp="i-CvqKkz9cv5oEvEu92m4LVF">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

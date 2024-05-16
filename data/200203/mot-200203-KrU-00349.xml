@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KrU-00349">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arkivinformation med modern teknik</title>
+        <author corresp="i-PxnWyEEEJkswzBKdKbv36K i-JERWRnB227uTCW6FGLWfYs">av Agneta Lundberg och Hans Stenberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arkivinformation med modern teknik</title>
+          <idno type="rdwebb">GQ02Kr349</idno>
+          <rs type="number">Kr349</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Kr349/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Kr349</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Kr349</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-PxnWyEEEJkswzBKdKbv36K</idno>
+            <name>Agneta Lundberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-JERWRnB227uTCW6FGLWfYs</idno>
+            <name>Hans Stenberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-YVoBzCMMVYbSuXc1TsPHob" type="signed"/>
+        <correspContext corresp="i-YVoBzCMMVYbSuXc1TsPHob">
+          <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
+          <note type="signatory" corresp="i-JERWRnB227uTCW6FGLWfYs"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-33dhYPtgkyMEZp2MXGtBN5">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-SvQec6c8rHVita4po8wvLS">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-LYSi9xQE8FpD3u1PaZD5Ar">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Mj4Y9HG3vfkQeP5UpV6KGH"/>
+        <correspContext corresp="i-Mj4Y9HG3vfkQeP5UpV6KGH">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

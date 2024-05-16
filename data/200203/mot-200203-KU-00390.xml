@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00390">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Utjämningsmandat i kommunfullmäktige</title>
+        <author corresp="i-Ybw8JnrmHGCsqpipBke8a7 i-R9MuNkxgtjYredKHhh6ujV">av Mikael Oscarsson (kd) och Per Bill (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Utjämningsmandat i kommunfullmäktige</title>
+          <idno type="rdwebb">GQ02K390</idno>
+          <rs type="number">K390</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02K390/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02K390</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02K390</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ybw8JnrmHGCsqpipBke8a7</idno>
+            <name>Mikael Oscarsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-R9MuNkxgtjYredKHhh6ujV</idno>
+            <name>Per Bill</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Sp8cV5dSoFp7Wnxj8R97Tq" type="signed"/>
+        <correspContext corresp="i-Sp8cV5dSoFp7Wnxj8R97Tq">
+          <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
+          <note type="signatory" corresp="i-R9MuNkxgtjYredKHhh6ujV"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Q5reeUVDZkd9TjLtzaqqde">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-8G5squzoMVtzmUqtgkBMGo">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6ixmLUshb53gUq99EJRcJG">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-LLpoxx4QRQhbEms9PJHvte"/>
+        <correspContext corresp="i-LLpoxx4QRQhbEms9PJHvte">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#flerparti"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

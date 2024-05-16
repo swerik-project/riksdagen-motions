@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-LU-00342">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fastighetsmäklare</title>
+        <author corresp="i-SYmctpvT7BxsqFzwPADUfw">av Nikos Papadopoulos (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fastighetsmäklare</title>
+          <idno type="rdwebb">GQ02L342</idno>
+          <rs type="number">L342</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02L342/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02L342</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02L342</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-SYmctpvT7BxsqFzwPADUfw</idno>
+            <name>Nikos Papadopoulos</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-3gRM8tEVQoT3Nw2j9EGTDn" type="signed"/>
+        <correspContext corresp="i-3gRM8tEVQoT3Nw2j9EGTDn">
+          <note type="signatory" corresp="i-SYmctpvT7BxsqFzwPADUfw"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-AuJSuGAfGF6jturDU2ULYA">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-LkXa55Fcc8wUsWyGhFx4ji">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DE5S17mrhnHerFiHAxBxYU">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TnWoQR7yAST7gC7qxUX3Lu"/>
+        <correspContext corresp="i-TnWoQR7yAST7gC7qxUX3Lu">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

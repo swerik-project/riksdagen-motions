@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00220">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Historiska museet i Lund</title>
+        <author corresp="i-U5MhCo51MGLLY94GAGJZhY">av Johan Linander (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Historiska museet i Lund</title>
+          <idno type="rdwebb">GQ02Ub220</idno>
+          <rs type="number">Ub220</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Ub220/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Ub220</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Ub220</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-U5MhCo51MGLLY94GAGJZhY</idno>
+            <name>Johan Linander</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DVmrMMy8pwhsxxnupWD7M5" type="signed"/>
+        <correspContext corresp="i-DVmrMMy8pwhsxxnupWD7M5">
+          <note type="signatory" corresp="i-U5MhCo51MGLLY94GAGJZhY"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-2861pPX78SHjZDkQCy6X8p">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-A1CykBznps4duLV1p6XX9E">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4Qeo1W9hyd16ytJbTyJ1QU">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-D2eJzzFT1yLoRvciG3Jbfb"/>
+        <correspContext corresp="i-D2eJzzFT1yLoRvciG3Jbfb">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

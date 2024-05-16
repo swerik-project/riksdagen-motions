@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00208">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regeringsbildning</title>
+        <author corresp="i-PRFN1BS8QWUhjjGAM8w3Fj">av Maud Olofsson m.fl. (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Regeringsbildning</title>
+          <idno type="rdwebb">GQ02K208</idno>
+          <rs type="number">K208</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02K208/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02K208</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02K208</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-PRFN1BS8QWUhjjGAM8w3Fj</idno>
+            <name>Maud Olofsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-2ggBvfkHRn3s8FvFEPLxjs</idno>
+            <name>Agne Hansson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-J74sVAjCTSxzD8rbnxRRA</idno>
+            <name>Åsa Torstensson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RFoVvBNKSbEnVayLK6EY4G" type="signed"/>
+        <correspContext corresp="i-RFoVvBNKSbEnVayLK6EY4G">
+          <note type="signatory" corresp="i-PRFN1BS8QWUhjjGAM8w3Fj"/>
+          <note type="signatory" corresp="i-2ggBvfkHRn3s8FvFEPLxjs"/>
+          <note type="signatory" corresp="i-J74sVAjCTSxzD8rbnxRRA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-F2UjxvVSEXti3GPXNw537m">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-BD1e6rX2FtfwSH32bYyPwF">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-CTWJH7FfPZgkfbvR9QeLnK">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-YUTFuJUdTw3BQ3Si31J1eT"/>
+        <correspContext corresp="i-YUTFuJUdTw3BQ3Si31J1eT">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#parti"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

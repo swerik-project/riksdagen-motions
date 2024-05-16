@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00250">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Strandskyddet</title>
+        <author corresp="i-J7LihzSktwE55CCSfYQXLk">av Catharina Elmsäter-Svärd (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Strandskyddet</title>
+          <idno type="rdwebb">GQ02MJ250</idno>
+          <rs type="number">MJ250</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02MJ250/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02MJ250</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02MJ250</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-J7LihzSktwE55CCSfYQXLk</idno>
+            <name>Catharina Elmsäter-Svärd</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NcdZvgd6zNWMJfs78UD47T" type="signed"/>
+        <correspContext corresp="i-NcdZvgd6zNWMJfs78UD47T">
+          <note type="signatory" corresp="i-J7LihzSktwE55CCSfYQXLk"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-D9xPLPFhH3vGfV5Z3nmv89">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-FybYnRW6Vwhp8dVZNxdipL">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EiC3ZjYsBMZJzYFHqskCHu">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-9g2WbF7y5hMDy5MkW5f48L"/>
+        <correspContext corresp="i-9g2WbF7y5hMDy5MkW5f48L">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

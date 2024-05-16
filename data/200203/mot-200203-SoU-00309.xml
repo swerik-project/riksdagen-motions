@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00309">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vårdpersonalens år</title>
+        <author corresp="i-WJM6edqhGfBK1ijhNxfgoj i-839FvTzHpvrdX4J7ckfWSt">av Chatrine Pålsson och Sven Brus (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vårdpersonalens år</title>
+          <idno type="rdwebb">GQ02So309</idno>
+          <rs type="number">So309</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02So309/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02So309</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02So309</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-WJM6edqhGfBK1ijhNxfgoj</idno>
+            <name>Chatrine Pålsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-839FvTzHpvrdX4J7ckfWSt</idno>
+            <name>Sven Brus</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KxvfS8GHtSyfPPmbygfjAt" type="signed"/>
+        <correspContext corresp="i-KxvfS8GHtSyfPPmbygfjAt">
+          <note type="signatory" corresp="i-WJM6edqhGfBK1ijhNxfgoj"/>
+          <note type="signatory" corresp="i-839FvTzHpvrdX4J7ckfWSt"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-GG2qb7oF8tWVhUk7v3UUMi">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-24DyTmbanwkUnTcqnJAPhP">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AP1KfssdNAnzRA2uPpZ2vY">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-C5RRZ4ioEVT7eUErSe14rc"/>
+        <correspContext corresp="i-C5RRZ4ioEVT7eUErSe14rc">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00304">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bilförmån</title>
+        <author corresp="i-Ha5uZXGHudhTidCuW8UjXN">av Ragnwi Marcelind (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bilförmån</title>
+          <idno type="rdwebb">GQ02Sk304</idno>
+          <rs type="number">Sk304</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Sk304/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Sk304</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Sk304</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Ha5uZXGHudhTidCuW8UjXN</idno>
+            <name>Ragnwi Marcelind</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Vodf53LAmDuTg4ACpKSvLY" type="signed"/>
+        <correspContext corresp="i-Vodf53LAmDuTg4ACpKSvLY">
+          <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-BuqkrcFwSdPboxVbHNJ6xa">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-29dmCBuwVA3s51wjWQN6ph">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-5kto1WPo2t7aXQnew895jK">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UCCNUQLDopRESPttpSr27R"/>
+        <correspContext corresp="i-UCCNUQLDopRESPttpSr27R">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

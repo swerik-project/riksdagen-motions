@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-BoU-00252">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Svart handel med bytesrätten</title>
+        <author corresp="i-KNqtzTyLq88RopWq6R35xs">av Ronny Olander (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Svart handel med bytesrätten</title>
+          <idno type="rdwebb">GQ02Bo252</idno>
+          <rs type="number">Bo252</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Bo252/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Bo252</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Bo252</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KNqtzTyLq88RopWq6R35xs</idno>
+            <name>Ronny Olander</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FGmNAKR3o8t1FT3TfPvvcx" type="signed"/>
+        <correspContext corresp="i-FGmNAKR3o8t1FT3TfPvvcx">
+          <note type="signatory" corresp="i-KNqtzTyLq88RopWq6R35xs"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-ArJh7DM6PsVALoah7mzE9N">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-5WTbVuR3EXhFAn91XJX7pq">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PiPXYxLEohKrM3SQXto6on">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-DY9ZLMU8vK1nHLVBVXabBU"/>
+        <correspContext corresp="i-DY9ZLMU8vK1nHLVBVXabBU">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

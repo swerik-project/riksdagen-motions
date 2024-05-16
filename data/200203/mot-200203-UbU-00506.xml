@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00506">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Simundervisning</title>
+        <author corresp="i-GsygH5UJM18UkfLBHFkVdD i-22wFp6y6WQMw5wNfwCbp8w">av Kent Härstedt och Annika Nilsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Simundervisning</title>
+          <idno type="rdwebb">GQ02Ub506</idno>
+          <rs type="number">Ub506</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Ub506/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Ub506</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Ub506</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-GsygH5UJM18UkfLBHFkVdD</idno>
+            <name>Kent Härstedt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-22wFp6y6WQMw5wNfwCbp8w</idno>
+            <name>Annika Nilsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2Z53bCDuJRcQGdWhSs34Ky" type="signed"/>
+        <correspContext corresp="i-2Z53bCDuJRcQGdWhSs34Ky">
+          <note type="signatory" corresp="i-GsygH5UJM18UkfLBHFkVdD"/>
+          <note type="signatory" corresp="i-22wFp6y6WQMw5wNfwCbp8w"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NNCBPmR5eUxcgFer5wD85x">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-D9KpXqASjXzFbVkvAsuQLp">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-E7LruzqdvZ16h5WsCLHkdA">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QwK7gb4V8KEU2VTBGr9Lq2"/>
+        <correspContext corresp="i-QwK7gb4V8KEU2VTBGr9Lq2">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

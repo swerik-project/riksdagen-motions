@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KrU-00346">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Utveckling av det svenska biblioteksväsendet</title>
+        <author corresp="i-FdoD219QSnSV59bQLxhamx">av Tone Tingsgård (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Utveckling av det svenska biblioteksväsendet</title>
+          <idno type="rdwebb">GQ02Kr346</idno>
+          <rs type="number">Kr346</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Kr346/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Kr346</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Kr346</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-FdoD219QSnSV59bQLxhamx</idno>
+            <name>Tone Tingsgård</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-D1zV1hruRVgtCmgJfD1vUV" type="signed"/>
+        <correspContext corresp="i-D1zV1hruRVgtCmgJfD1vUV">
+          <note type="signatory" corresp="i-FdoD219QSnSV59bQLxhamx"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-HvLEUgoVYKVFAjrv4URqGP">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-PzycmmDaC965iHhduh4wV7">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-TTDTNhBvh5Dxo54W4FgfaP">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KmXhBbkPGN4HhQscQKa9r6"/>
+        <correspContext corresp="i-KmXhBbkPGN4HhQscQKa9r6">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

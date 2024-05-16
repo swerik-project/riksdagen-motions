@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00222">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Benskörhet</title>
+        <author corresp="i-J2F63fdxUFAAeBTYXLX7MZ i-YEdxJPN8cJMwnqfd9tHmTD">av Anita Sidén och Ulla Löfgren (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Benskörhet</title>
+          <idno type="rdwebb">GQ02So222</idno>
+          <rs type="number">So222</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02So222/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02So222</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02So222</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-J2F63fdxUFAAeBTYXLX7MZ</idno>
+            <name>Anita Sidén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-YEdxJPN8cJMwnqfd9tHmTD</idno>
+            <name>Ulla Löfgren</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WbRp1qse3ottMg1SRCakaB" type="signed"/>
+        <correspContext corresp="i-WbRp1qse3ottMg1SRCakaB">
+          <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
+          <note type="signatory" corresp="i-YEdxJPN8cJMwnqfd9tHmTD"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LQLq96EqrRZ5GCxWKWNeq6">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-KMmXPGsx4K4AydX6dVoeDi">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-V9ipnHBdB4axocedQ5zLsq">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Niv1zAnQVVhcnBh5w9ar4n"/>
+        <correspContext corresp="i-Niv1zAnQVVhcnBh5w9ar4n">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

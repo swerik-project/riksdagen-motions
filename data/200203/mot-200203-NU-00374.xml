@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-NU-00374">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elcertifikatet</title>
+        <author corresp="i-4zgkigyuo3a2meU92gcyAk">av Anita Johansson m.fl. (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Elcertifikatet</title>
+          <idno type="rdwebb">GQ02N374</idno>
+          <rs type="number">N374</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02N374/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02N374</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02N374</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-4zgkigyuo3a2meU92gcyAk</idno>
+            <name>Anita Johansson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-5gSCoqgN8cUnJLfPPLD7nv</idno>
+            <name>Christina Axelsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-BQkxuAonXYMwkLiuxdAv6S</idno>
+            <name>Niclas Lindberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-M9fqBt86rzVoguQFwTCdMG" type="signed"/>
+        <correspContext corresp="i-M9fqBt86rzVoguQFwTCdMG">
+          <note type="signatory" corresp="i-4zgkigyuo3a2meU92gcyAk"/>
+          <note type="signatory" corresp="i-5gSCoqgN8cUnJLfPPLD7nv"/>
+          <note type="signatory" corresp="i-BQkxuAonXYMwkLiuxdAv6S"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-AUWeiLTMLRdY1YCZsTZneP">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-G8PPTjXt3iUA91j6ydvJnL">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4f7r8yynNLudyZKNzx72C5">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-L5sw53UzaXC4VdMEtL3Bsu"/>
+        <correspContext corresp="i-L5sw53UzaXC4VdMEtL3Bsu">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

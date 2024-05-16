@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SfU-00207">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gifta pensionärer</title>
+        <author corresp="i-7KBbQxMwamQ8aEQRXJRw1j">av Henrik Westman (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Gifta pensionärer</title>
+          <idno type="rdwebb">GQ02Sf207</idno>
+          <rs type="number">Sf207</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Sf207/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Sf207</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Sf207</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-7KBbQxMwamQ8aEQRXJRw1j</idno>
+            <name>Henrik Westman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Ab8Rf9SdPXYPhbBMiDm4Lk" type="signed"/>
+        <correspContext corresp="i-Ab8Rf9SdPXYPhbBMiDm4Lk">
+          <note type="signatory" corresp="i-7KBbQxMwamQ8aEQRXJRw1j"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-31LH7KRmt3zkZ2cPWRpaop">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-WuGm5BKwPmFPZrcYvmrynw">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-8kM8czAmwd7pLDXbpRWv3w">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UMTN8Dh9XC46qFgP1zxk5L"/>
+        <correspContext corresp="i-UMTN8Dh9XC46qFgP1zxk5L">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

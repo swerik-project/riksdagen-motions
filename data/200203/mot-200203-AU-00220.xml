@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-AU-00220">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lönebidrag</title>
+        <author corresp="i-LutTcg2m9spsoVaK7cAQeB">av Lars Wegendal m.fl. (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lönebidrag</title>
+          <idno type="rdwebb">GQ02A220</idno>
+          <rs type="number">A220</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02A220/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02A220</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02A220</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-LutTcg2m9spsoVaK7cAQeB</idno>
+            <name>Lars Wegendal</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-G8564CqEnhC5PBjZSwUxsE</idno>
+            <name>Tomas Eneroth</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-FL3Tee8NjTSCkq4XGmHcyw</idno>
+            <name>Carina Adolfsson Elgestam</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Typ3Qfuuk9RXB4AniekX6Y" type="signed"/>
+        <correspContext corresp="i-Typ3Qfuuk9RXB4AniekX6Y">
+          <note type="signatory" corresp="i-LutTcg2m9spsoVaK7cAQeB"/>
+          <note type="signatory" corresp="i-G8564CqEnhC5PBjZSwUxsE"/>
+          <note type="signatory" corresp="i-FL3Tee8NjTSCkq4XGmHcyw"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-D8HoyKj123fM8WdCgcTgDL">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-h1S2XVfkYx7wYP5YAX2qJ">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AVZMzqop7u7cArkDRJvkM">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Vkoog5Q6F3wjPgUe4NDinh"/>
+        <correspContext corresp="i-Vkoog5Q6F3wjPgUe4NDinh">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

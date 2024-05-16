@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00233">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Strandskyddet</title>
+        <author corresp="i-9beYBFzEh8w1EjPQHXW3mC i-McV8uzEvZdxJephaZbqN9X">av Jan-Evert Rådhström och Anders G Högmark (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Strandskyddet</title>
+          <idno type="rdwebb">GQ02MJ233</idno>
+          <rs type="number">MJ233</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02MJ233/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02MJ233</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02MJ233</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9beYBFzEh8w1EjPQHXW3mC</idno>
+            <name>Jan-Evert Rådhström</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-McV8uzEvZdxJephaZbqN9X</idno>
+            <name>Anders G Högmark</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-2RaewCXcm4CpK6Q6XPbkwK" type="signed"/>
+        <correspContext corresp="i-2RaewCXcm4CpK6Q6XPbkwK">
+          <note type="signatory" corresp="i-9beYBFzEh8w1EjPQHXW3mC"/>
+          <note type="signatory" corresp="i-McV8uzEvZdxJephaZbqN9X"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8sxpHviybgapYH4p5ZGG3S">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-4w2FthDvkMkiUdoQWndHVY">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-FSPYb3sEMB9XKJkxKTL7sx">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KADCKsDDvT2TBp7RUhAxVh"/>
+        <correspContext corresp="i-KADCKsDDvT2TBp7RUhAxVh">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

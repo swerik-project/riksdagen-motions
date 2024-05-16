@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00397">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Infrastrukturen i Viskadalen</title>
+        <author corresp="i-EYsBC4u5K3oa8SyoHdgTPc i-CetFkRWST91ShCPmaZKsM4">av Claes Västerteg och Jan Andersson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Infrastrukturen i Viskadalen</title>
+          <idno type="rdwebb">GQ02T397</idno>
+          <rs type="number">T397</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02T397/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02T397</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02T397</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-EYsBC4u5K3oa8SyoHdgTPc</idno>
+            <name>Claes Västerteg</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-CetFkRWST91ShCPmaZKsM4</idno>
+            <name>Jan Andersson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-FeYUtjeuWE4v52ELq65Hrz" type="signed"/>
+        <correspContext corresp="i-FeYUtjeuWE4v52ELq65Hrz">
+          <note type="signatory" corresp="i-EYsBC4u5K3oa8SyoHdgTPc"/>
+          <note type="signatory" corresp="i-CetFkRWST91ShCPmaZKsM4"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-AmXEYSMxCqUfit6aKqZH5u">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-8eQ257UvcnbER5B1hX92ux">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GrH7KVq6wN9aqAPy3hh4gt">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-C9cp6umUHdVn6gQaeZa81c"/>
+        <correspContext corresp="i-C9cp6umUHdVn6gQaeZa81c">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

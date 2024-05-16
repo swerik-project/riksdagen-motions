@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00348">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Studiebidrag</title>
+        <author corresp="i-FL3Tee8NjTSCkq4XGmHcyw i-Uxe3rhosBnSZpqJX5d7gpy">av Carina Adolfsson Elgestam och Carina Ohlsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Studiebidrag</title>
+          <idno type="rdwebb">GQ02Ub348</idno>
+          <rs type="number">Ub348</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Ub348/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Ub348</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Ub348</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-FL3Tee8NjTSCkq4XGmHcyw</idno>
+            <name>Carina Adolfsson Elgestam</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-Uxe3rhosBnSZpqJX5d7gpy</idno>
+            <name>Carina Ohlsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-C9JYMBip5UhZA5XXdDdGS3" type="signed"/>
+        <correspContext corresp="i-C9JYMBip5UhZA5XXdDdGS3">
+          <note type="signatory" corresp="i-FL3Tee8NjTSCkq4XGmHcyw"/>
+          <note type="signatory" corresp="i-Uxe3rhosBnSZpqJX5d7gpy"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-JJsPNX2suw9CLU5PmicvCs">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-JHiAM5jKoprcoPKXvBeGVU">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-2ZxDgSmMDBTGewZfyo9McA">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Ku1fgXCN5L6vxLcBuyEc9o"/>
+        <correspContext corresp="i-Ku1fgXCN5L6vxLcBuyEc9o">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

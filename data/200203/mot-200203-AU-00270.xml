@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-AU-00270">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aupair - dagens pigor</title>
+        <author corresp="i-EgqHRHVoW5y9USDYuNoYuA">av Hillevi Larsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Aupair - dagens pigor</title>
+          <idno type="rdwebb">GQ02A270</idno>
+          <rs type="number">A270</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02A270/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02A270</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02A270</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-EgqHRHVoW5y9USDYuNoYuA</idno>
+            <name>Hillevi Larsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CgRtbUpnSHuz8Ybd5wYedj" type="signed"/>
+        <correspContext corresp="i-CgRtbUpnSHuz8Ybd5wYedj">
+          <note type="signatory" corresp="i-EgqHRHVoW5y9USDYuNoYuA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8qKLUgRYhA4PaYVEdc4B4j">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-3QuaU9oCH32pTHx9gyhm1w">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-QSmCVHFYNz1LGavquemFM6">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KiSEPmKjcXwJio24SWW1yo"/>
+        <correspContext corresp="i-KiSEPmKjcXwJio24SWW1yo">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

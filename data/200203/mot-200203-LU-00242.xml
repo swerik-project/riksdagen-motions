@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-LU-00242">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Trafikförsäkringen</title>
+        <author corresp="i-QqQ96z9hf4LQtMxJfJm6ZQ i-McV8uzEvZdxJephaZbqN9X">av Jeppe Johnsson och Anders G Högmark (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Trafikförsäkringen</title>
+          <idno type="rdwebb">GQ02L242</idno>
+          <rs type="number">L242</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02L242/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02L242</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02L242</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QqQ96z9hf4LQtMxJfJm6ZQ</idno>
+            <name>Jeppe Johnsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-McV8uzEvZdxJephaZbqN9X</idno>
+            <name>Anders G Högmark</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LVp2XB6dmEzNtk5MnrXXRZ" type="signed"/>
+        <correspContext corresp="i-LVp2XB6dmEzNtk5MnrXXRZ">
+          <note type="signatory" corresp="i-QqQ96z9hf4LQtMxJfJm6ZQ"/>
+          <note type="signatory" corresp="i-McV8uzEvZdxJephaZbqN9X"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-HdFgW1m1GUFQGyUbKjDnTC">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-FV9JJEqhC56TuijaQ8hg3f">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9Ngstc7GY2PyaWe1QEFQfB">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-VjPdK71C1wTUtDaRykLtYc"/>
+        <correspContext corresp="i-VjPdK71C1wTUtDaRykLtYc">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

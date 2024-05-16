@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00207">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skolans signalsystem</title>
+        <author corresp="i-Q6uWG1k3pbJio9CebNs3Cz">av Sten Tolgfors (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skolans signalsystem</title>
+          <idno type="rdwebb">GQ02Ub207</idno>
+          <rs type="number">Ub207</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Ub207/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Ub207</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Ub207</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Q6uWG1k3pbJio9CebNs3Cz</idno>
+            <name>Sten Tolgfors</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CQTsiZkmev5eGdQH2VLZJQ" type="signed"/>
+        <correspContext corresp="i-CQTsiZkmev5eGdQH2VLZJQ">
+          <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-BE4PpUphSkSmJwQppuUHxR">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-EGy1pg1FUD8eBpkczcgDDN">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Bxi2bQLnnwQV4hVhwmWTmF">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6hUNtzCX2NK52JWcZwd7ev"/>
+        <correspContext corresp="i-6hUNtzCX2NK52JWcZwd7ev">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

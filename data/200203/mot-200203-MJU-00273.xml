@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00273">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kemikaliesekretariat</title>
+        <author corresp="i-chkH67XLutwmCnkuDo8pd">av Patrik Norinder (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kemikaliesekretariat</title>
+          <idno type="rdwebb">GQ02MJ273</idno>
+          <rs type="number">MJ273</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02MJ273/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02MJ273</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02MJ273</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-chkH67XLutwmCnkuDo8pd</idno>
+            <name>Patrik Norinder</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-R9BUbkG7BhhXcDsHvfY3up" type="signed"/>
+        <correspContext corresp="i-R9BUbkG7BhhXcDsHvfY3up">
+          <note type="signatory" corresp="i-chkH67XLutwmCnkuDo8pd"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-JLbVKERyxqmQjvuVNXcEJ6">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7dFh96FN4xNaZhDmDFkWYP">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-YQoU7X4xsZtCqgwmb7cvSd">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-3Yvej7wzouzwJJAy8LTjQY"/>
+        <correspContext corresp="i-3Yvej7wzouzwJJAy8LTjQY">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

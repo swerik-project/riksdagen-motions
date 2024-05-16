@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-BoU-00257">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bostadsanpassningsbidrag</title>
+        <author corresp="i-GkGATynUsbQhroqVm6AkQW i-5gSCoqgN8cUnJLfPPLD7nv">av Sonia Karlsson och Christina Axelsson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bostadsanpassningsbidrag</title>
+          <idno type="rdwebb">GQ02Bo257</idno>
+          <rs type="number">Bo257</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Bo257/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Bo257</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Bo257</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-GkGATynUsbQhroqVm6AkQW</idno>
+            <name>Sonia Karlsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-5gSCoqgN8cUnJLfPPLD7nv</idno>
+            <name>Christina Axelsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CuRbcunBEajCHS7pCioKt3" type="signed"/>
+        <correspContext corresp="i-CuRbcunBEajCHS7pCioKt3">
+          <note type="signatory" corresp="i-GkGATynUsbQhroqVm6AkQW"/>
+          <note type="signatory" corresp="i-5gSCoqgN8cUnJLfPPLD7nv"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LmXQsjB6cCtCTp7RAUcTBz">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Cd6Mw9hg4syB1hXheAgxRz">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JM65LnUFk46QE1NiKaFfhr">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UeQ6DVpJc32tURZsq8NJ52"/>
+        <correspContext corresp="i-UeQ6DVpJc32tURZsq8NJ52">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-AU-00281">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Behovet av ett samordnat utbetalningsansvar</title>
+        <author corresp="i-UukxhVrpswE5ADBkFe7Q3V i-KxTfuBAJiVYpyHQUVaUndu">av Jan Björkman och Kerstin Andersson (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Behovet av ett samordnat utbetalningsansvar</title>
+          <idno type="rdwebb">GQ02A281</idno>
+          <rs type="number">A281</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02A281/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02A281</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02A281</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UukxhVrpswE5ADBkFe7Q3V</idno>
+            <name>Jan Björkman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-KxTfuBAJiVYpyHQUVaUndu</idno>
+            <name>Kerstin Andersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JNRoqnhoKB8GtPwCL2AUAU" type="signed"/>
+        <correspContext corresp="i-JNRoqnhoKB8GtPwCL2AUAU">
+          <note type="signatory" corresp="i-UukxhVrpswE5ADBkFe7Q3V"/>
+          <note type="signatory" corresp="i-KxTfuBAJiVYpyHQUVaUndu"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LkMUS4EDhEfaZL8LaCAxzo">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-3wT34n3VxM7enPr2646GST">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HzKWEuTpD4eJaAKPGjmU75">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TcUaAJaowMaVECMhQMKHNn"/>
+        <correspContext corresp="i-TcUaAJaowMaVECMhQMKHNn">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

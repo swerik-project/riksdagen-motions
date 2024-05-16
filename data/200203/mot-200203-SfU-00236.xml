@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SfU-00236">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Viseringsavgifter vid biståndsinsatser</title>
+        <author corresp="i-UojdP4mF9dqkxf3QQ9oPFe i-122QwSSpyGJQiTJjmrUJCM">av Håkan Juholt och Krister Örnfjäder (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Viseringsavgifter vid biståndsinsatser</title>
+          <idno type="rdwebb">GQ02Sf236</idno>
+          <rs type="number">Sf236</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Sf236/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Sf236</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Sf236</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-UojdP4mF9dqkxf3QQ9oPFe</idno>
+            <name>Håkan Juholt</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-122QwSSpyGJQiTJjmrUJCM</idno>
+            <name>Krister Örnfjäder</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-CaAktY5s4yWvZNDLbWZ2jd" type="signed"/>
+        <correspContext corresp="i-CaAktY5s4yWvZNDLbWZ2jd">
+          <note type="signatory" corresp="i-UojdP4mF9dqkxf3QQ9oPFe"/>
+          <note type="signatory" corresp="i-122QwSSpyGJQiTJjmrUJCM"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-MZwPPZ2Ea3pK2VN7BXvUL2">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-MKTYHP4LuG7PEFwg2WJZmF">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NneRChPdmrpYKFCZ1K56Xa">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RU1DpyWHxw3hNFiQoX6dwb"/>
+        <correspContext corresp="i-RU1DpyWHxw3hNFiQoX6dwb">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

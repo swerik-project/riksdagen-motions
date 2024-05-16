@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KrU-00319">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kamp mot antisemitism</title>
+        <author corresp="i-QKE6ihmLRJvwhV4neD6h7b i-PyYxwdbw2KYpXyCWKWHmmT">av Erik Ullenhag och Johan Pehrson (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kamp mot antisemitism</title>
+          <idno type="rdwebb">GQ02Kr319</idno>
+          <rs type="number">Kr319</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Kr319/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Kr319</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Kr319</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QKE6ihmLRJvwhV4neD6h7b</idno>
+            <name>Erik Ullenhag</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-PyYxwdbw2KYpXyCWKWHmmT</idno>
+            <name>Johan Pehrson</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-8kZd6A2bucnVxp6Tnkay6Q" type="signed"/>
+        <correspContext corresp="i-8kZd6A2bucnVxp6Tnkay6Q">
+          <note type="signatory" corresp="i-QKE6ihmLRJvwhV4neD6h7b"/>
+          <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-NsKVzCZgTE3iC3zgxvHZE3">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-ViiVDJn3B6mh17qk86VHvT">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-356FCnpsTNtwjcJKwY6pHC">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QdL4eFaZVWErfDeziQMzFD"/>
+        <correspContext corresp="i-QdL4eFaZVWErfDeziQMzFD">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00306">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Försök med kommunalt vårdnadsbidrag</title>
+        <author corresp="i-9Kt7koTgzUZUA9ovNXYdWj">av Marietta de Pourbaix-Lundin (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Försök med kommunalt vårdnadsbidrag</title>
+          <idno type="rdwebb">GQ02K306</idno>
+          <rs type="number">K306</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02K306/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02K306</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02K306</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-9Kt7koTgzUZUA9ovNXYdWj</idno>
+            <name>Marietta de Pourbaix-Lundin</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-M94zvNp1xoLURMZgYGJ8LP" type="signed"/>
+        <correspContext corresp="i-M94zvNp1xoLURMZgYGJ8LP">
+          <note type="signatory" corresp="i-9Kt7koTgzUZUA9ovNXYdWj"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-k76GYo9FNsXaGD4Q3Fw7K">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7reuAfC8LBqc2h1TQyqBro">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-VXAh8NDKGTQcudCTsKXCmm">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-4GP3h8v1dBFhqCa6Z5Yqp5"/>
+        <correspContext corresp="i-4GP3h8v1dBFhqCa6Z5Yqp5">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

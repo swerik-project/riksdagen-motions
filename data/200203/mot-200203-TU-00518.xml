@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00518">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Inlandsbanan</title>
+        <author corresp="i-VGuxFg9SBivesgRyVWVWkd">av Kerstin-Maria Stalin (mp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Inlandsbanan</title>
+          <idno type="rdwebb">GQ02T518</idno>
+          <rs type="number">T518</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02T518/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02T518</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02T518</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VGuxFg9SBivesgRyVWVWkd</idno>
+            <name>Kerstin-Maria Stalin</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9um5ESfozMqfAs417KFPX6" type="signed"/>
+        <correspContext corresp="i-9um5ESfozMqfAs417KFPX6">
+          <note type="signatory" corresp="i-VGuxFg9SBivesgRyVWVWkd"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-9WeQdXGmjh3BqYqxY2yDhd">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7RwrnMW1b5VjqoCddrVt8W">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JcSyFTcBDVPQpSdMviVvGS">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-GAi8JQUJ79gGEwjm9owkXU"/>
+        <correspContext corresp="i-GAi8JQUJ79gGEwjm9owkXU">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

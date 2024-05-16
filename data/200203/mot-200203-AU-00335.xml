@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-AU-00335">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nedläggning av AMS</title>
+        <author corresp="i-KdNZEf7wb1MAJv58QEHYrr">av Göran Lindblad (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nedläggning av AMS</title>
+          <idno type="rdwebb">GQ02A335</idno>
+          <rs type="number">A335</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02A335/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02A335</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02A335</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-KdNZEf7wb1MAJv58QEHYrr</idno>
+            <name>Göran Lindblad</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Bsn6XvmZZkRHeZDWbgjYFq" type="signed"/>
+        <correspContext corresp="i-Bsn6XvmZZkRHeZDWbgjYFq">
+          <note type="signatory" corresp="i-KdNZEf7wb1MAJv58QEHYrr"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-HoavTPchwhJajnxjhuNZ6p">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-MBaf6HvbFWwpKpvZXUZY3w">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JxQy5i6KHcJpmx576NeAsM">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-WbHXFipiUbpQjaQ3dtifpy"/>
+        <correspContext corresp="i-WbHXFipiUbpQjaQ3dtifpy">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

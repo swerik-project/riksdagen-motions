@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00457">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Djurförsök</title>
+        <author corresp="i-Qa1ZufD1xJDN43bJxjLRPB">av Tasso Stafilidis (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Djurförsök</title>
+          <idno type="rdwebb">GQ02MJ457</idno>
+          <rs type="number">MJ457</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02MJ457/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02MJ457</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02MJ457</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Qa1ZufD1xJDN43bJxjLRPB</idno>
+            <name>Tasso Stafilidis</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VzLc42jZsQKy87tG4tMrcW" type="signed"/>
+        <correspContext corresp="i-VzLc42jZsQKy87tG4tMrcW">
+          <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-5Ppz6fLnucU6gGvuGtbSkS">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-6gdzSjszrmwm5K4qSGHmcr">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-TxGywvcBzfHyCq3XKmKPPr">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-LxkA7HQ2K5GLTRvmLXFwzu"/>
+        <correspContext corresp="i-LxkA7HQ2K5GLTRvmLXFwzu">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

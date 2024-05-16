@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00336">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Apoteksmonopolet</title>
+        <author corresp="i-Ybw8JnrmHGCsqpipBke8a7 i-TECanR77Prb79DHwPvLitN">av Mikael Oscarsson och Annelie Enochson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Apoteksmonopolet</title>
+          <idno type="rdwebb">GQ02So336</idno>
+          <rs type="number">So336</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02So336/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02So336</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02So336</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ybw8JnrmHGCsqpipBke8a7</idno>
+            <name>Mikael Oscarsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-TECanR77Prb79DHwPvLitN</idno>
+            <name>Annelie Enochson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SBV8RHeEEXf6rXXNnAxBUD" type="signed"/>
+        <correspContext corresp="i-SBV8RHeEEXf6rXXNnAxBUD">
+          <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
+          <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Pgb6Hz7QtyqwxagMWQ4zKK">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-QLtixvcqppdfDLDdJkk4gk">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Bm2Zwp3MaLN2ckEzYwjRK3">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7a1DSpCCeDAKR89JH9C7EG"/>
+        <correspContext corresp="i-7a1DSpCCeDAKR89JH9C7EG">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

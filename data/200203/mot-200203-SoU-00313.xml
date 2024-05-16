@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00313">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Äldre dövas situation</title>
+        <author corresp="i-MQxtRkaKY7fRMrw7gnXKsf">av Ulla Wester (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Äldre dövas situation</title>
+          <idno type="rdwebb">GQ02So313</idno>
+          <rs type="number">So313</rs>
+          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02So313/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02So313</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02So313</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-MQxtRkaKY7fRMrw7gnXKsf</idno>
+            <name>Ulla Wester</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GE7d1ehUmebFBZFBm2eXir" type="signed"/>
+        <correspContext corresp="i-GE7d1ehUmebFBZFBm2eXir">
+          <note type="signatory" corresp="i-MQxtRkaKY7fRMrw7gnXKsf"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-PHT2jD623YgQpWVrGwNobr">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-G3qqAtt3XRmxD4YwLFHKjJ">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BKtMZoJahndW87BfNh5dwn">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-FPtaeGHiCcmTUB1ny4QYce"/>
+        <correspContext corresp="i-FPtaeGHiCcmTUB1ny4QYce">
+          <ref type="assignedTo">Socialutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

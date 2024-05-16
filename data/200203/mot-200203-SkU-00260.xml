@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00260">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dieselskatten</title>
+        <author corresp="i-chkH67XLutwmCnkuDo8pd">av Patrik Norinder (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Dieselskatten</title>
+          <idno type="rdwebb">GQ02Sk260</idno>
+          <rs type="number">Sk260</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Sk260/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Sk260</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Sk260</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-chkH67XLutwmCnkuDo8pd</idno>
+            <name>Patrik Norinder</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SykWAF7aTtyK5g7bS4681h" type="signed"/>
+        <correspContext corresp="i-SykWAF7aTtyK5g7bS4681h">
+          <note type="signatory" corresp="i-chkH67XLutwmCnkuDo8pd"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-UmFjL3ymS35AMYn8MhD7Mp">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-YBY7WAavoQHbZdABmMZYpX">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-XhDeAHmvMGfyy34wkJSdBu">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-G3BH71B7hxPyHN3HXZN6h3"/>
+        <correspContext corresp="i-G3BH71B7hxPyHN3HXZN6h3">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

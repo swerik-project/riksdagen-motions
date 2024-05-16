@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-BoU-00219">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bostadsmarknaden</title>
+        <author corresp="i-BprbpWQgeNpqWTF9sztgqA i-TSGehE1rwudkXFF6bgJHmH">av Lars Lindblad och Henrik von Sydow (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bostadsmarknaden</title>
+          <idno type="rdwebb">GQ02Bo219</idno>
+          <rs type="number">Bo219</rs>
+          <orgName type="comitteeAbbreviation">BoU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Bo219/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Bo219</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Bo219</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BprbpWQgeNpqWTF9sztgqA</idno>
+            <name>Lars Lindblad</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-TSGehE1rwudkXFF6bgJHmH</idno>
+            <name>Henrik von Sydow</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-LPuVmiNfMFAkj5EAVumsnJ" type="signed"/>
+        <correspContext corresp="i-LPuVmiNfMFAkj5EAVumsnJ">
+          <note type="signatory" corresp="i-BprbpWQgeNpqWTF9sztgqA"/>
+          <note type="signatory" corresp="i-TSGehE1rwudkXFF6bgJHmH"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8r59kbSQqF79cuKZx5izno">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-QzoGFoYgubKVWSpZxKcWmA">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RTDB9YVjqFh8vVE3NV9TgZ">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-J2ck4b9szEYdvZ2CZ5Qpxy"/>
+        <correspContext corresp="i-J2ck4b9szEYdvZ2CZ5Qpxy">
+          <ref type="assignedTo">Bostadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

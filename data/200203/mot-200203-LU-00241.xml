@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-LU-00241">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skuldsanering för näringsidkare</title>
+        <author corresp="i-UmhVhzFM3Rs65aFjMTgRvj">av Anne-Marie Pålsson (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skuldsanering för näringsidkare</title>
+          <idno type="rdwebb">GQ02L241</idno>
+          <rs type="number">L241</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02L241/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02L241</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02L241</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-UmhVhzFM3Rs65aFjMTgRvj</idno>
+            <name>Anne-Marie Pålsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JAN8DoS6vLRpKUKxN5tu23" type="signed"/>
+        <correspContext corresp="i-JAN8DoS6vLRpKUKxN5tu23">
+          <note type="signatory" corresp="i-UmhVhzFM3Rs65aFjMTgRvj"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-Lw7dh3S8AkswVPwMYDyJQN">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Jf1ZruNVzqtRkjnCX8ZhnE">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-DVrMPqbxnQUYLquGKh2EXA">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-WXX3ZHLn3eEVCiEc6AA9J4"/>
+        <correspContext corresp="i-WXX3ZHLn3eEVCiEc6AA9J4">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KrU-00330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samlingslokaler</title>
+        <author corresp="i-JfXS8EFEqMfBiyryszrVvW">av Ann-Kristine Johansson m.fl. (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Samlingslokaler</title>
+          <idno type="rdwebb">GQ02Kr330</idno>
+          <rs type="number">Kr330</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Kr330/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Kr330</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Kr330</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-JfXS8EFEqMfBiyryszrVvW</idno>
+            <name>Ann-Kristine Johansson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-Ty8QCuVFBPKpfBLfr6zVqn</idno>
+            <name>Berit Högman</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-6Tm6CkqvW55XWkdqUgBH82</idno>
+            <name>Marina Pettersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-9osx7gdXCsvHnf1J7JQnnY</idno>
+            <name>Jarl Lander</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Gixz9Upprd33JqwYZoDNjt" type="signed"/>
+        <correspContext corresp="i-Gixz9Upprd33JqwYZoDNjt">
+          <note type="signatory" corresp="i-JfXS8EFEqMfBiyryszrVvW"/>
+          <note type="signatory" corresp="i-Ty8QCuVFBPKpfBLfr6zVqn"/>
+          <note type="signatory" corresp="i-6Tm6CkqvW55XWkdqUgBH82"/>
+          <note type="signatory" corresp="i-9osx7gdXCsvHnf1J7JQnnY"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-7WB3zSt47RjEcdY7V7WGwm">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Nb8UGvLHBsEUVYrcFJ9mWQ">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NX6mupEXTvJKTYiGKXXyD1">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-DRgDNaEi8Wf58mCtEVBUwD"/>
+        <correspContext corresp="i-DRgDNaEi8Wf58mCtEVBUwD">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

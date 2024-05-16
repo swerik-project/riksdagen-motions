@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KrU-00235">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Spelservice hos näringsidkare</title>
+        <author corresp="i-B471TcSCwHNHrNRk1EdJek i-VHSPVhF5LjvV5m4yU1W3FJ">av Eskil Erlandsson och Birgitta Carlsson (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Spelservice hos näringsidkare</title>
+          <idno type="rdwebb">GQ02Kr235</idno>
+          <rs type="number">Kr235</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Kr235/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Kr235</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Kr235</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-B471TcSCwHNHrNRk1EdJek</idno>
+            <name>Eskil Erlandsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-VHSPVhF5LjvV5m4yU1W3FJ</idno>
+            <name>Birgitta Carlsson</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-C9b9PJ9UYoWp47cGAioBgX" type="signed"/>
+        <correspContext corresp="i-C9b9PJ9UYoWp47cGAioBgX">
+          <note type="signatory" corresp="i-B471TcSCwHNHrNRk1EdJek"/>
+          <note type="signatory" corresp="i-VHSPVhF5LjvV5m4yU1W3FJ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-UaSXc3A5vyGjti9aksGKoj">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-7o3XUPcmiGnSSkWopBfLVw">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PTXu4E21xAfhkW966tT6fE">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-N4ExWs7aTpELbXBVv5sqmb"/>
+        <correspContext corresp="i-N4ExWs7aTpELbXBVv5sqmb">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

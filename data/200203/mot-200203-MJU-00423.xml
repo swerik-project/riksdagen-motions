@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00423">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fäbodbruk</title>
+        <author corresp="i-BvxBJicYo5FW1E9fuXk8LW">av Owe Hellberg (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fäbodbruk</title>
+          <idno type="rdwebb">GQ02MJ423</idno>
+          <rs type="number">MJ423</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02MJ423/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02MJ423</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02MJ423</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-BvxBJicYo5FW1E9fuXk8LW</idno>
+            <name>Owe Hellberg</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9aJiu6SemfPxf49N2XYEKd" type="signed"/>
+        <correspContext corresp="i-9aJiu6SemfPxf49N2XYEKd">
+          <note type="signatory" corresp="i-BvxBJicYo5FW1E9fuXk8LW"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-R12zQxcsMLmbqJayjWe2DT">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-fqY9HG55auaMYFFyHMH38">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-CPUqmt24AyjKHuKiPbexDh">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-BBRfY1xYSLeB1c8NCoKtA7"/>
+        <correspContext corresp="i-BBRfY1xYSLeB1c8NCoKtA7">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

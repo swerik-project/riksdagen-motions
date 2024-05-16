@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-LU-00207">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Adoptionslagen</title>
+        <author corresp="i-Q6uWG1k3pbJio9CebNs3Cz">av Sten Tolgfors (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Adoptionslagen</title>
+          <idno type="rdwebb">GQ02L207</idno>
+          <rs type="number">L207</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02L207/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02L207</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02L207</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Q6uWG1k3pbJio9CebNs3Cz</idno>
+            <name>Sten Tolgfors</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HXaKfGzyhFSfdQQLnhTdEX" type="signed"/>
+        <correspContext corresp="i-HXaKfGzyhFSfdQQLnhTdEX">
+          <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8efnK14w6LzXhhX85GEGma">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-GchvxGvNbjjhkta4cs1AD3">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-R1Tk1G82Taao9oVqCxWwa">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-RjJW9aYKR2Gpm89WiscZP3"/>
+        <correspContext corresp="i-RjJW9aYKR2Gpm89WiscZP3">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

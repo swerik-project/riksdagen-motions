@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-NU-00371">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transportbidrag</title>
+        <author corresp="i-JERWRnB227uTCW6FGLWfYs i-PxnWyEEEJkswzBKdKbv36K">av Hans Stenberg och Agneta Lundberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Transportbidrag</title>
+          <idno type="rdwebb">GQ02N371</idno>
+          <rs type="number">N371</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02N371/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02N371</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02N371</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-JERWRnB227uTCW6FGLWfYs</idno>
+            <name>Hans Stenberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-PxnWyEEEJkswzBKdKbv36K</idno>
+            <name>Agneta Lundberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Hfg5vurCwmr8vs5YGWGgbu" type="signed"/>
+        <correspContext corresp="i-Hfg5vurCwmr8vs5YGWGgbu">
+          <note type="signatory" corresp="i-JERWRnB227uTCW6FGLWfYs"/>
+          <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-LqLgi96hMVcrBQ9hf1NWLZ">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-NVg4kY5DJLSrQrSQFe4v3e">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RE5TMoy8zGPxae44yyrDGX">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-XxWzqa6XZGXMeDL3P1nqab"/>
+        <correspContext corresp="i-XxWzqa6XZGXMeDL3P1nqab">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

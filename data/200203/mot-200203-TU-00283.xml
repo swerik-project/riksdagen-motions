@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00283">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enskilda vägar i Jämtland</title>
+        <author corresp="i-DMGKRcZKJjLDnd1Mozdje8">av Camilla Sköld Jansson (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Enskilda vägar i Jämtland</title>
+          <idno type="rdwebb">GQ02T283</idno>
+          <rs type="number">T283</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02T283/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02T283</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02T283</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-DMGKRcZKJjLDnd1Mozdje8</idno>
+            <name>Camilla Sköld Jansson</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GJQcZfYYhGGb57Xhy8vKT7" type="signed"/>
+        <correspContext corresp="i-GJQcZfYYhGGb57Xhy8vKT7">
+          <note type="signatory" corresp="i-DMGKRcZKJjLDnd1Mozdje8"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-QNVFEA36VMzs67LaacZ6R6">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-FG1LpqB4YDF8S2DK64M1zU">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-HZQw4gyWpyhoSHnxdGfcgP">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-R164fYeBGRdo3F6vyaeEr8"/>
+        <correspContext corresp="i-R164fYeBGRdo3F6vyaeEr8">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

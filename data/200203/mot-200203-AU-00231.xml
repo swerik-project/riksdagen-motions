@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-AU-00231">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arbetsmiljölagen</title>
+        <author corresp="i-FcYFZsJudP2Q26xks7EHrA">av Ann-Marie Fagerström (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Arbetsmiljölagen</title>
+          <idno type="rdwebb">GQ02A231</idno>
+          <rs type="number">A231</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02A231/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02A231</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02A231</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-FcYFZsJudP2Q26xks7EHrA</idno>
+            <name>Ann-Marie Fagerström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VZDoysbr5x6x22Uf58RPxJ" type="signed"/>
+        <correspContext corresp="i-VZDoysbr5x6x22Uf58RPxJ">
+          <note type="signatory" corresp="i-FcYFZsJudP2Q26xks7EHrA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-5nBxS1N7eVPku7ZL4Gj1Bt">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-N8jXfp3fSZkhhj9PWumj7f">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-K16WZkdKCQWxb3vtpMQ1PF">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QQKP1ms9jhp3262o8FsYer"/>
+        <correspContext corresp="i-QQKP1ms9jhp3262o8FsYer">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

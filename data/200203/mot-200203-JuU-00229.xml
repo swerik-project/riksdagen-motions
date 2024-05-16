@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-JuU-00229">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lycksele tingsrätt</title>
+        <author corresp="i-4tAUyrL5FDqt2q3oYkcH9W">av Yvonne Ångström (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Lycksele tingsrätt</title>
+          <idno type="rdwebb">GQ02Ju229</idno>
+          <rs type="number">Ju229</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Ju229/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Ju229</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Ju229</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-4tAUyrL5FDqt2q3oYkcH9W</idno>
+            <name>Yvonne Ångström</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JQj6DUCKLt9oLLuwNEsCGd" type="signed"/>
+        <correspContext corresp="i-JQj6DUCKLt9oLLuwNEsCGd">
+          <note type="signatory" corresp="i-4tAUyrL5FDqt2q3oYkcH9W"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-WtwpgVnyVYLtP86iSjPPvn">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-MtsJNhrsGJPJ1MVF65i2Ri">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Hj9ux6xaRLLBTtbyzGYoz7">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-XSdknXU8oaArUq3ZCKfkuY"/>
+        <correspContext corresp="i-XSdknXU8oaArUq3ZCKfkuY">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

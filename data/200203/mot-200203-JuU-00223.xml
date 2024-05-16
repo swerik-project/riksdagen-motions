@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-JuU-00223">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Polisen i Västerbottens län</title>
+        <author corresp="i-4htYS85JpBwxyYZ32aVtBc">av Gunilla Tjernberg (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Polisen i Västerbottens län</title>
+          <idno type="rdwebb">GQ02Ju223</idno>
+          <rs type="number">Ju223</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Ju223/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Ju223</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Ju223</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-4htYS85JpBwxyYZ32aVtBc</idno>
+            <name>Gunilla Tjernberg</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QSuKtNwNynjBruWYnH7LDJ" type="signed"/>
+        <correspContext corresp="i-QSuKtNwNynjBruWYnH7LDJ">
+          <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-8KgCQL1jLTdHY9DxGGVP4y">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-gH9SoUNek9qTnxtTGpbWZ">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-9k6svvADQDXGk7LG44Yc7n">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-CS53RWYWcZYVJ31dsg2JJV"/>
+        <correspContext corresp="i-CS53RWYWcZYVJ31dsg2JJV">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

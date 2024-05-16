@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-LU-00317">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fosterbarn</title>
+        <author corresp="i-991obiMTz36s9V7z3YpuZk">av Gunilla Wahlén (v)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Fosterbarn</title>
+          <idno type="rdwebb">GQ02L317</idno>
+          <rs type="number">L317</rs>
+          <orgName type="comitteeAbbreviation">LU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02L317/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02L317</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02L317</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-991obiMTz36s9V7z3YpuZk</idno>
+            <name>Gunilla Wahlén</name>
+            <state type="partyAffiliation" ref="Q110837">
+              <desc>V</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DQrs7x8mzy9MLYkbJ9Ehce" type="signed"/>
+        <correspContext corresp="i-DQrs7x8mzy9MLYkbJ9Ehce">
+          <note type="signatory" corresp="i-991obiMTz36s9V7z3YpuZk"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-BPjdLu3JakvNeMfoGMzPyk">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-8uj2UNNpV94andq3P3PUYn">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-77Pe5mvoyvLWgtWnHaRwrJ">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-VYmG4yUuqtuFrL934aCQeR"/>
+        <correspContext corresp="i-VYmG4yUuqtuFrL934aCQeR">
+          <ref type="assignedTo">Lagutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

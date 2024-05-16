@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Periodiseringsansvar</title>
+        <author corresp="i-Dh86x4tP3poRsuGn2pQFUn i-7KBbQxMwamQ8aEQRXJRw1j">av Cristina Husmark Pehrsson och Henrik Westman (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Periodiseringsansvar</title>
+          <idno type="rdwebb">GQ02Sk330</idno>
+          <rs type="number">Sk330</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Sk330/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Sk330</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Sk330</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Dh86x4tP3poRsuGn2pQFUn</idno>
+            <name>Cristina Husmark Pehrsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-7KBbQxMwamQ8aEQRXJRw1j</idno>
+            <name>Henrik Westman</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-HjGKa6a9p1aF6rH6vXu8QM" type="signed"/>
+        <correspContext corresp="i-HjGKa6a9p1aF6rH6vXu8QM">
+          <note type="signatory" corresp="i-Dh86x4tP3poRsuGn2pQFUn"/>
+          <note type="signatory" corresp="i-7KBbQxMwamQ8aEQRXJRw1j"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-97wE5ZA31ML3Rx2oYR5EQD">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-JxtN44CAh5kThfs9ZeoEMJ">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-UzrMtvZq5KCFBTh3wSw3fA">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-LKjqJ3oCDckwQT99DB3xLN"/>
+        <correspContext corresp="i-LKjqJ3oCDckwQT99DB3xLN">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

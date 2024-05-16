@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00370">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>FN-forskning vid Uppsala universitet</title>
+        <author corresp="i-QKE6ihmLRJvwhV4neD6h7b">av Erik Ullenhag (fp)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>FN-forskning vid Uppsala universitet</title>
+          <idno type="rdwebb">GQ02Ub370</idno>
+          <rs type="number">Ub370</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Ub370/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Ub370</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Ub370</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QKE6ihmLRJvwhV4neD6h7b</idno>
+            <name>Erik Ullenhag</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-x4rfDGSqkbGhvkrrwV8xA" type="signed"/>
+        <correspContext corresp="i-x4rfDGSqkbGhvkrrwV8xA">
+          <note type="signatory" corresp="i-QKE6ihmLRJvwhV4neD6h7b"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-UoE9PDzUfJJJkxcvNEBD99">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-EEfa6MAjUUDTifg8Sy8yaa">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7a6dStUurxqwS6KLdBanjY">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TXDgVdgmEgekUBDRQZcBm4"/>
+        <correspContext corresp="i-TXDgVdgmEgekUBDRQZcBm4">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

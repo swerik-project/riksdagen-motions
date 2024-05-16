@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00299">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pälsdjursnäringen</title>
+        <author corresp="i-PsSysCdjrkuVBAo163T4KM i-5jLvgtZLz4tn3NhaKToY29">av Johnny Gylling och Holger Gustafsson (kd)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Pälsdjursnäringen</title>
+          <idno type="rdwebb">GQ02MJ299</idno>
+          <rs type="number">MJ299</rs>
+          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02MJ299/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02MJ299</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02MJ299</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-PsSysCdjrkuVBAo163T4KM</idno>
+            <name>Johnny Gylling</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-5jLvgtZLz4tn3NhaKToY29</idno>
+            <name>Holger Gustafsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-4ynZuFkxDnYkNDWXJPvM4d" type="signed"/>
+        <correspContext corresp="i-4ynZuFkxDnYkNDWXJPvM4d">
+          <note type="signatory" corresp="i-PsSysCdjrkuVBAo163T4KM"/>
+          <note type="signatory" corresp="i-5jLvgtZLz4tn3NhaKToY29"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-N5eLXx8xeuEJqbpY1pH4Fb">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-TyPSutCTuRwkwq1oUqbcFL">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7LuEmNrcf1qZbHE7TBgRoL">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Y8pKbbzkia5p4ijcsmrLpH"/>
+        <correspContext corresp="i-Y8pKbbzkia5p4ijcsmrLpH">
+          <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

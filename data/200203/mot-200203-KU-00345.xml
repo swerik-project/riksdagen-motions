@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00345">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regeringsbildningen</title>
+        <author corresp="i-T2aXcsQqA9hkUFtCcU4AeQ">av Henrik S Järrel (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Regeringsbildningen</title>
+          <idno type="rdwebb">GQ02K345</idno>
+          <rs type="number">K345</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02K345/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02K345</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02K345</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-T2aXcsQqA9hkUFtCcU4AeQ</idno>
+            <name>Henrik S Järrel</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KhHxY6nG6aoKDNC1jqhYbF" type="signed"/>
+        <correspContext corresp="i-KhHxY6nG6aoKDNC1jqhYbF">
+          <note type="signatory" corresp="i-T2aXcsQqA9hkUFtCcU4AeQ"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-RV8vqevhCzNbKwnr7EMHMC">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-5EsDhvTskbjgAcAqhDcoCi">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SZWKh3brrGyw43Q3TrL9i9">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PVrvnAVPTPZGTzEh3ZA8a9"/>
+        <correspContext corresp="i-PVrvnAVPTPZGTzEh3ZA8a9">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00404">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kvalificerad yrkesutbildning</title>
+        <author corresp="i-BXpR2GEHKN2fK4Av22X32z i-AQAc7L3yWtMcgD3r6CxRHG">av Birgitta Ahlqvist och Maria Öberg (s)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kvalificerad yrkesutbildning</title>
+          <idno type="rdwebb">GQ02Ub404</idno>
+          <rs type="number">Ub404</rs>
+          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Ub404/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Ub404</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Ub404</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-BXpR2GEHKN2fK4Av22X32z</idno>
+            <name>Birgitta Ahlqvist</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-AQAc7L3yWtMcgD3r6CxRHG</idno>
+            <name>Maria Öberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-84ZyxqF58PmWhEPF75uwCu" type="signed"/>
+        <correspContext corresp="i-84ZyxqF58PmWhEPF75uwCu">
+          <note type="signatory" corresp="i-BXpR2GEHKN2fK4Av22X32z"/>
+          <note type="signatory" corresp="i-AQAc7L3yWtMcgD3r6CxRHG"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-K1dtRQPDdRqQx7zoPZbvnG">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-Baecq6GiYbVCkMFgzftUXB">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-63pXyPf6XsUGfwqW47Z9rq">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TxHipriBDnP5TBoxk3pnZr"/>
+        <correspContext corresp="i-TxHipriBDnP5TBoxk3pnZr">
+          <ref type="assignedTo">Utbildningsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

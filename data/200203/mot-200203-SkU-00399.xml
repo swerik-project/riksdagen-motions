@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00399">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Skattesystemet</title>
+        <author corresp="i-4Cqdpnmue4GNQh6HSQGRHK i-BprbpWQgeNpqWTF9sztgqA">av Peter Danielsson och Lars Lindblad (m)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Skattesystemet</title>
+          <idno type="rdwebb">GQ02Sk399</idno>
+          <rs type="number">Sk399</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Sk399/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Sk399</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Sk399</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4Cqdpnmue4GNQh6HSQGRHK</idno>
+            <name>Peter Danielsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-BprbpWQgeNpqWTF9sztgqA</idno>
+            <name>Lars Lindblad</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JvSC6VVY7fTteFf6jMgqv8" type="signed"/>
+        <correspContext corresp="i-JvSC6VVY7fTteFf6jMgqv8">
+          <note type="signatory" corresp="i-4Cqdpnmue4GNQh6HSQGRHK"/>
+          <note type="signatory" corresp="i-BprbpWQgeNpqWTF9sztgqA"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-YU5CzeaiuawZ5yjQbbtkZq">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-QNA7C355NZdg4Dq8rTfCfN">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Nt6vov5MPzNQpzGNNpqvZc">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-UN6ZJy7a9bd1mtL1tUniDq"/>
+        <correspContext corresp="i-UN6ZJy7a9bd1mtL1tUniDq">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SfU-00232">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Föräldraförsäkringen</title>
+        <author corresp="i-H7qdW9GRQn7LaQ2UGGAvYC">av Kerstin Lundgren (c)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Föräldraförsäkringen</title>
+          <idno type="rdwebb">GQ02Sf232</idno>
+          <rs type="number">Sf232</rs>
+          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GQ02Sf232/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GQ02Sf232</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GQ02Sf232</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-H7qdW9GRQn7LaQ2UGGAvYC</idno>
+            <name>Kerstin Lundgren</name>
+            <state type="partyAffiliation" ref="Q110832">
+              <desc>C</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Wp117MkuhFmPTrXvcsRLJS" type="signed"/>
+        <correspContext corresp="i-Wp117MkuhFmPTrXvcsRLJS">
+          <note type="signatory" corresp="i-H7qdW9GRQn7LaQ2UGGAvYC"/>
+        </correspContext>
+        <correspAction type="referral" xml:id="i-PVru7yKT3Q7CM7FTerw6LH">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="dismissal" xml:id="i-LFWBsLR4YehwnxBbHSifFV">
+          <date when="2002-10-30"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SyAqE8kMXVqKsjTr4WNsdN">
+          <date when="2002-10-23"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-99xHMYmyTWKHbs7hf5Uj2o"/>
+        <correspContext corresp="i-99xHMYmyTWKHbs7hf5Uj2o">
+          <ref type="assignedTo">Socialförsäkringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00300">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Personval</title>
+        <author corresp="i-Ev6Dx3pWj2WT32VGQpabaz i-7qtyyA5WSVNZbRempBFxoE">av Finn Bengtsson och Gustaf Hoffstedt (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Personval</title>
+          <idno type="rdwebb">GY02K300</idno>
+          <rs type="number">K300</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K300/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K300</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K300</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C70353FB-AA55-42C1-97F2-1F26AE4528B7</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ev6Dx3pWj2WT32VGQpabaz</idno>
+            <name>Finn Bengtsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-7qtyyA5WSVNZbRempBFxoE</idno>
+            <name>Gustaf Hoffstedt</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AEw1LsuRyMFgDFfHFT5gBe" type="signed"/>
+        <correspContext corresp="i-AEw1LsuRyMFgDFfHFT5gBe">
+          <note type="signatory" corresp="i-Ev6Dx3pWj2WT32VGQpabaz"/>
+          <note type="signatory" corresp="i-7qtyyA5WSVNZbRempBFxoE"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-P6QWspxp97wjGPJwEtmAUK">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-PVhFH3eqSYPLrNryhwLY2x">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-JSs7yKWGs1SUrAR7ta2V4A">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-3W9gM5464U2h6zw1TRZjEj"/>
+        <correspContext corresp="i-3W9gM5464U2h6zw1TRZjEj">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

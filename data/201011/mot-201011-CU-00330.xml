@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-CU-00330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bostäder i Stockholmsregionen</title>
+        <author corresp="i-4dHfDoweVJM2iAJu9BCQqo i-MVzhVeKwRGmjHjHoSrReg9">av Tommy Waidelich och Börje Vestlund (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bostäder i Stockholmsregionen</title>
+          <idno type="rdwebb">GY02C330</idno>
+          <rs type="number">C330</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02C330/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02C330</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02C330</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1C1E2397-8EFB-4155-8452-56DDD369307E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4dHfDoweVJM2iAJu9BCQqo</idno>
+            <name>Tommy Waidelich</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-MVzhVeKwRGmjHjHoSrReg9</idno>
+            <name>Börje Vestlund</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-V95zMqu75zSYi8vNc41FBN" type="signed"/>
+        <correspContext corresp="i-V95zMqu75zSYi8vNc41FBN">
+          <note type="signatory" corresp="i-4dHfDoweVJM2iAJu9BCQqo"/>
+          <note type="signatory" corresp="i-MVzhVeKwRGmjHjHoSrReg9"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-UmMic9LD8M3xmhjkdjXW5G">
+          <date when="2010-10-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Cwg5We8NvR2UmjFg4DnCyZ">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-3NoDsaUmcc8iYkmYXeRJ2u">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HDeT7tTxGRszRix4qLWx6S"/>
+        <correspContext corresp="i-HDeT7tTxGRszRix4qLWx6S">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

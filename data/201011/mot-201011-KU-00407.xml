@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00407">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Personval på riktigt</title>
+        <author corresp="i-4Dcng9UMFeup6hmkB6yX74">av Gustav Blix (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Personval på riktigt</title>
+          <idno type="rdwebb">GY02K407</idno>
+          <rs type="number">K407</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K407/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K407</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K407</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/E93EEC20-57B8-4416-AD23-6DE19CC3A929</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4Dcng9UMFeup6hmkB6yX74</idno>
+            <name>Gustav Blix</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UKGEzFP9DPDdsX9Mu15tCE" type="signed"/>
+        <correspContext corresp="i-UKGEzFP9DPDdsX9Mu15tCE">
+          <note type="signatory" corresp="i-4Dcng9UMFeup6hmkB6yX74"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-UJMGv9mpwrcW9EjUAkxD9t">
+          <date when="2010-10-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Us4Ti4j35xwQQERFDv587Y">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-SXnkBnMuVjgYJctoep7TQT">
+          <date when="2010-10-25"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Wa92pbVYHCPWx7oAgBnnbp"/>
+        <correspContext corresp="i-Wa92pbVYHCPWx7oAgBnnbp">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

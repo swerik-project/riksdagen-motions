@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KrU-00230">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kirunasvenskarna</title>
+        <author corresp="i-XcAqMe3ntVBboWUxqACfz">av Gunnar Andrén (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kirunasvenskarna</title>
+          <idno type="rdwebb">GY02Kr230</idno>
+          <rs type="number">Kr230</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02Kr230/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02Kr230</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02Kr230</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/5EC755F1-4326-44DB-B266-EF07DF32DCCA</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-XcAqMe3ntVBboWUxqACfz</idno>
+            <name>Gunnar Andrén</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UYH2QSkMm4hEXh2LhmKsRU" type="signed"/>
+        <correspContext corresp="i-UYH2QSkMm4hEXh2LhmKsRU">
+          <note type="signatory" corresp="i-XcAqMe3ntVBboWUxqACfz"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-7UzqdnFDFyAyNm1UapSqWM">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NSBye55rENhDkG5PAxbeug">
+          <date when="2010-10-25"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-LzQdjC5wL2ZkF6XJFLGTZX">
+          <date when="2010-10-25"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-MaPWCCuzPRnxsezcWR41ov"/>
+        <correspContext corresp="i-MaPWCCuzPRnxsezcWR41ov">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

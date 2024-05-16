@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-JuU-00376">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Resningskommission</title>
+        <author corresp="i-QYUn9LH1BFyUaLeMaR5S5h">av Otto von Arnold (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Resningskommission</title>
+          <idno type="rdwebb">GY02Ju376</idno>
+          <rs type="number">Ju376</rs>
+          <orgName type="comitteeAbbreviation">JuU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02Ju376/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02Ju376</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02Ju376</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/6B98BC99-26E5-4F0E-A2A9-83C8C75ECB20</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QYUn9LH1BFyUaLeMaR5S5h</idno>
+            <name>Otto von Arnold</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-SbWqEuv8mwbNMacnKxX3FP" type="signed"/>
+        <correspContext corresp="i-SbWqEuv8mwbNMacnKxX3FP">
+          <note type="signatory" corresp="i-QYUn9LH1BFyUaLeMaR5S5h"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-GLYyJiUN2hRkfnpZ3aWFYk">
+          <date when="2010-10-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-LsWKPeg8rhMQkXiqFJc9bp">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Meu5Mkw5NcVhzGfK9aNV3T">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PcFUHhLeTGAFv97WvoR6pk"/>
+        <correspContext corresp="i-PcFUHhLeTGAFv97WvoR6pk">
+          <ref type="assignedTo">Justitieutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

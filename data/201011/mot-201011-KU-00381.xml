@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00381">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Samvetsfrihet</title>
+        <author corresp="i-Ybw8JnrmHGCsqpipBke8a7">av Mikael Oscarsson (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Samvetsfrihet</title>
+          <idno type="rdwebb">GY02K381</idno>
+          <rs type="number">K381</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K381/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K381</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K381</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/A076D9C6-313A-4819-AB5E-CB5DAAF6A77A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Ybw8JnrmHGCsqpipBke8a7</idno>
+            <name>Mikael Oscarsson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-WrmVgTYHkNep4A9qJKWEdq" type="signed"/>
+        <correspContext corresp="i-WrmVgTYHkNep4A9qJKWEdq">
+          <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-DinQCmbVZUm5sESkSMRyb3">
+          <date when="2010-10-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-EJmuNVNknL3QumpgSM6CjM">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-RWVvDZtmvmr2sCuBqEKJHw">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-SzKzaji1NQaqpcpLzUa9zL"/>
+        <correspContext corresp="i-SzKzaji1NQaqpcpLzUa9zL">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

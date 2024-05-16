@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-TU-00219">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sydostlänken</title>
+        <author corresp="i-ReHv93vu1syAgH8qzKxSu3">av Gustav Nilsson (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sydostlänken</title>
+          <idno type="rdwebb">GY02T219</idno>
+          <rs type="number">T219</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02T219/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02T219</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02T219</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/C1FB1B65-8679-4B77-B010-96243FE62D71</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-ReHv93vu1syAgH8qzKxSu3</idno>
+            <name>Gustav Nilsson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-45eH7KGRn9EQ7DUbLoWNhE" type="signed"/>
+        <correspContext corresp="i-45eH7KGRn9EQ7DUbLoWNhE">
+          <note type="signatory" corresp="i-ReHv93vu1syAgH8qzKxSu3"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-ELQz46m6yTkmQuuzDeEDmX">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-GCbF3M2ViAEGpdEhmKpZhe">
+          <date when="2010-10-22"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-8a533r21So1H52idfjwUN5">
+          <date when="2010-10-21"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-M3Cefhbww4HWS4eSLkcddc"/>
+        <correspContext corresp="i-M3Cefhbww4HWS4eSLkcddc">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

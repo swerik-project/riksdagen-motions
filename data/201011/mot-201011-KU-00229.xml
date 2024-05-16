@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00229">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diplomatisk närvaro i Beirut </title>
+        <author corresp="i-Kn2C4HPwWcqbEgtUtWTc5F">av Roger Haddad (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Diplomatisk närvaro i Beirut </title>
+          <idno type="rdwebb">GY02K229</idno>
+          <rs type="number">K229</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K229/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K229</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K229</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0EB0296F-9C13-4827-99EB-994B152D6508</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-Kn2C4HPwWcqbEgtUtWTc5F</idno>
+            <name>Roger Haddad</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Eiv5q4panBiQUp7EvLht85" type="signed"/>
+        <correspContext corresp="i-Eiv5q4panBiQUp7EvLht85">
+          <note type="signatory" corresp="i-Kn2C4HPwWcqbEgtUtWTc5F"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-JC3D6hdj4dk77pRqqFedS8">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AQRoQzGEJBz9TpFvGepXFs">
+          <date when="2010-10-21"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-AkcMjxBupGU5bJZzNDGn7E">
+          <date when="2010-10-21"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-7XCLYUz3DrpJAL6WGjKe8J"/>
+        <correspContext corresp="i-7XCLYUz3DrpJAL6WGjKe8J">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

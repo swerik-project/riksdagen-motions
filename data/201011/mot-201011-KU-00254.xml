@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00254">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Opinionsbildande myndigheter</title>
+        <author corresp="i-6Mx1pcH3ZLBeHhjXZJBHMx i-LmthhHLPxzMMpEiXSys13u">av Oskar Öholm och Ulrika Karlsson i Uppsala (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Opinionsbildande myndigheter</title>
+          <idno type="rdwebb">GY02K254</idno>
+          <rs type="number">K254</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K254/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K254</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K254</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/FED87B9D-B4D1-4E88-9FDC-69B7553419A9</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-6Mx1pcH3ZLBeHhjXZJBHMx</idno>
+            <name>Oskar Öholm</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-LmthhHLPxzMMpEiXSys13u</idno>
+            <name>Ulrika Karlsson i Uppsala</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-EENmEnPqMX2bUZPZ4xVC1J" type="signed"/>
+        <correspContext corresp="i-EENmEnPqMX2bUZPZ4xVC1J">
+          <note type="signatory" corresp="i-6Mx1pcH3ZLBeHhjXZJBHMx"/>
+          <note type="signatory" corresp="i-LmthhHLPxzMMpEiXSys13u"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-qHM93ALZHAgQB9s9Cqzyi">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-3Go5Y7sHJmBcGnHYJryCG5">
+          <date when="2010-10-25"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-DQt2ArDYktxoaY95ZBuQrV">
+          <date when="2010-10-22"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-6svvFrHXJtESniKWSodVWh"/>
+        <correspContext corresp="i-6svvFrHXJtESniKWSodVWh">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00212">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Partisymbol på valsedlar</title>
+        <author corresp="i-HsGsAzKWHQY5pjyAYNXAz7 i-VRHymVx7EsX48sg7b5qmpS">av Maria Ferm och Jan Lindholm (MP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Partisymbol på valsedlar</title>
+          <idno type="rdwebb">GY02K212</idno>
+          <rs type="number">K212</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K212/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K212</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K212</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/6B0AD042-01DC-48AD-9299-4DDF39E78127</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-HsGsAzKWHQY5pjyAYNXAz7</idno>
+            <name>Maria Ferm</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-VRHymVx7EsX48sg7b5qmpS</idno>
+            <name>Jan Lindholm</name>
+            <state type="partyAffiliation" ref="Q213451">
+              <desc>MP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Fi2yodzHgai7R6uToQPzWm" type="signed"/>
+        <correspContext corresp="i-Fi2yodzHgai7R6uToQPzWm">
+          <note type="signatory" corresp="i-HsGsAzKWHQY5pjyAYNXAz7"/>
+          <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-MRfbyx6uv1dc9jraaJhiSX">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-7CDyzTA5jiZpV19L9Tobgt">
+          <date when="2010-10-19"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Rouoy3K4Qcog1KBZSv1c61">
+          <date when="2010-10-18"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-NJAPruBvbLDTH6jwFPQTr4"/>
+        <correspContext corresp="i-NJAPruBvbLDTH6jwFPQTr4">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

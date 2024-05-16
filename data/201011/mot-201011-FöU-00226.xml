@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-FöU-00226">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hemvärnet</title>
+        <author corresp="i-QYUn9LH1BFyUaLeMaR5S5h">av Otto von Arnold (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hemvärnet</title>
+          <idno type="rdwebb">GY02Fö226</idno>
+          <rs type="number">Fö226</rs>
+          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02Fö226/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02Fö226</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02Fö226</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/96E2261B-DCB4-4F92-86EF-C6F162B2E8AA</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-QYUn9LH1BFyUaLeMaR5S5h</idno>
+            <name>Otto von Arnold</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-9pSmsmCwQnwVqkRNc2iRGW" type="signed"/>
+        <correspContext corresp="i-9pSmsmCwQnwVqkRNc2iRGW">
+          <note type="signatory" corresp="i-QYUn9LH1BFyUaLeMaR5S5h"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-4fj8oy1KQVsRmA19e2ZFmx">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-V98D6ZhasKcCUTTPKL6Lhf">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-nCgXgMAeiD9EN6i9L78J5">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-TczAydzr6XKW9HSKWEgHgZ"/>
+        <correspContext corresp="i-TczAydzr6XKW9HSKWEgHgZ">
+          <ref type="assignedTo">Försvarsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00260">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Färre riksdagsledamöter</title>
+        <author corresp="i-9xarzmckV5SS8EyJPN5b3x">av Hans Wallmark (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Färre riksdagsledamöter</title>
+          <idno type="rdwebb">GY02K260</idno>
+          <rs type="number">K260</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K260/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K260</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K260</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/7A3AF418-A8B7-44B7-B236-8D225619AD0E</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9xarzmckV5SS8EyJPN5b3x</idno>
+            <name>Hans Wallmark</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GMqKAiS18JHvKGLsz1SeCg" type="signed"/>
+        <correspContext corresp="i-GMqKAiS18JHvKGLsz1SeCg">
+          <note type="signatory" corresp="i-9xarzmckV5SS8EyJPN5b3x"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-TeZARL97W11iaQDydSnkQH">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SnxsHtcCKVu6BVW6aGHLLH">
+          <date when="2010-10-25"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-8Hcop5f9a9NATSUi8rXpzG">
+          <date when="2010-10-25"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Um7Qk5XcWgAiCxQCUYbtpc"/>
+        <correspContext corresp="i-Um7Qk5XcWgAiCxQCUYbtpc">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

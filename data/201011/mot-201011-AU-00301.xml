@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-AU-00301">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Semesterlagen</title>
+        <author corresp="i-2J3r8zwqpPMPgVzdyt5mXb i-QpWVRM55tMRcHYZCMDFcHW">av Katarina Köhler och Isak From (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Semesterlagen</title>
+          <idno type="rdwebb">GY02A301</idno>
+          <rs type="number">A301</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02A301/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02A301</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02A301</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/84EE967A-DCA0-4C46-A36B-7A37D5126225</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-2J3r8zwqpPMPgVzdyt5mXb</idno>
+            <name>Katarina Köhler</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-QpWVRM55tMRcHYZCMDFcHW</idno>
+            <name>Isak From</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-PQrRKgZhmpspgNrppsRNwE" type="signed"/>
+        <correspContext corresp="i-PQrRKgZhmpspgNrppsRNwE">
+          <note type="signatory" corresp="i-2J3r8zwqpPMPgVzdyt5mXb"/>
+          <note type="signatory" corresp="i-QpWVRM55tMRcHYZCMDFcHW"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Hi3ZhxdCLXLksBp7WYC1aF">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-STqX2kW7QQ2BsxytQ1SZ43">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-REMvE1mtRh396bFmcWgHGW">
+          <date when="2010-10-20"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-YDRWx9chdp9DrRPbjzJWp3"/>
+        <correspContext corresp="i-YDRWx9chdp9DrRPbjzJWp3">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

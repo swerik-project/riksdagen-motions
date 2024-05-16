@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-AU-00243">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kontanthantering</title>
+        <author corresp="i-Evjo9hsKrPvb3KMyegAipb">av Cecilia Magnusson (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Kontanthantering</title>
+          <idno type="rdwebb">GY02A243</idno>
+          <rs type="number">A243</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02A243/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02A243</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02A243</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/342F8248-C894-42A1-8E47-69E9AE3B5D73</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-Evjo9hsKrPvb3KMyegAipb</idno>
+            <name>Cecilia Magnusson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-UNFBMmf2qrjoiN1mGbi2u5" type="signed"/>
+        <correspContext corresp="i-UNFBMmf2qrjoiN1mGbi2u5">
+          <note type="signatory" corresp="i-Evjo9hsKrPvb3KMyegAipb"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-RN8HTEfccJADYzv6NTAtPG">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-SLkSwwyWQEFDUfmcUYmwvF">
+          <date when="2010-10-25"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-5mdXB6wh1mv24yjnTU4hjM">
+          <date when="2010-10-25"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Hu87trYRAovwjpueXdkyMs"/>
+        <correspContext corresp="i-Hu87trYRAovwjpueXdkyMs">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

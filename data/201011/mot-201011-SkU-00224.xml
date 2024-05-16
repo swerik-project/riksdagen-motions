@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-SkU-00224">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tonnageskatt</title>
+        <author corresp="i-9118KyeHJPwjSm2gBg9zwB i-J6HemNwzcYVLs5m9EZ9Tmt">av Lars Hjälmered och Hans Rothenberg (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Tonnageskatt</title>
+          <idno type="rdwebb">GY02Sk224</idno>
+          <rs type="number">Sk224</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02Sk224/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02Sk224</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02Sk224</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/173D065D-E014-416A-ABEF-41645B3B8011</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-9118KyeHJPwjSm2gBg9zwB</idno>
+            <name>Lars Hjälmered</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-J6HemNwzcYVLs5m9EZ9Tmt</idno>
+            <name>Hans Rothenberg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-AC1ugRsGQm7UACxn6rV96L" type="signed"/>
+        <correspContext corresp="i-AC1ugRsGQm7UACxn6rV96L">
+          <note type="signatory" corresp="i-9118KyeHJPwjSm2gBg9zwB"/>
+          <note type="signatory" corresp="i-J6HemNwzcYVLs5m9EZ9Tmt"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-L9u9amoRUCKPijtZQBP7Y2">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-CgrLPnktkFYrAXc1c3qTtF">
+          <date when="2010-10-21"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-2HwWibgYtQeN3HDx7N126s">
+          <date when="2010-10-21"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-ERzWBb8Bm1eNdPVvznRssc"/>
+        <correspContext corresp="i-ERzWBb8Bm1eNdPVvznRssc">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

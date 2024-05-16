@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00310">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regeringskontor i Göteborg</title>
+        <author corresp="i-AvtuWmW4WHMDrctQKwDQuR">av Eva Flyborg (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Regeringskontor i Göteborg</title>
+          <idno type="rdwebb">GY02K310</idno>
+          <rs type="number">K310</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K310/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K310</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K310</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/8DC9A46D-B268-49E7-BF78-BD2BF578C638</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-AvtuWmW4WHMDrctQKwDQuR</idno>
+            <name>Eva Flyborg</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-DcXoj8FxJjubCQJaiYmt8J" type="signed"/>
+        <correspContext corresp="i-DcXoj8FxJjubCQJaiYmt8J">
+          <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-MwMfHuDEzo5SMKp1eT12R7">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-CevR8Qacwt9aQutC5TkMHj">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-QaGm91iff7DN7Qgt3Ktb4J">
+          <date when="2010-10-25"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-PDQ8uAffA6QtVraaR7H7hD"/>
+        <correspContext corresp="i-PDQ8uAffA6QtVraaR7H7hD">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

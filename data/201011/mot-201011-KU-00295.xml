@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00295">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Partisymboler på valsedlar</title>
+        <author corresp="i-MRoARQLVygJYbBWvcAjNcB i-RJ83sTtQ8c3R3VD4B55j8P">av Elin Lundgren och Åsa Lindestam (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Partisymboler på valsedlar</title>
+          <idno type="rdwebb">GY02K295</idno>
+          <rs type="number">K295</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K295/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K295</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K295</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/30EDA9E0-BF01-4DDD-9A64-0815CC3FCA38</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-MRoARQLVygJYbBWvcAjNcB</idno>
+            <name>Elin Lundgren</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-RJ83sTtQ8c3R3VD4B55j8P</idno>
+            <name>Åsa Lindestam</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XerT6o4JMUqHf7QmqJ7Gou" type="signed"/>
+        <correspContext corresp="i-XerT6o4JMUqHf7QmqJ7Gou">
+          <note type="signatory" corresp="i-MRoARQLVygJYbBWvcAjNcB"/>
+          <note type="signatory" corresp="i-RJ83sTtQ8c3R3VD4B55j8P"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-P1rf3EhW5WFf2KydJ8zpcr">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-AxFprjWea7g2qcphxojbdm">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-AFSKJx9VXjAiFLmLeWMKGv">
+          <date when="2010-10-21"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-KEZek3pxBSE9KnyyNdS8bC"/>
+        <correspContext corresp="i-KEZek3pxBSE9KnyyNdS8bC">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

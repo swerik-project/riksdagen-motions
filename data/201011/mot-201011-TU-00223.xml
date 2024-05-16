@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-TU-00223">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ostlänken</title>
+        <author corresp="i-BijAhigzcR1MHdRoo4YtH5">av Liselott Hagberg (FP)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ostlänken</title>
+          <idno type="rdwebb">GY02T223</idno>
+          <rs type="number">T223</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02T223/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02T223</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02T223</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1CF45081-6576-4AA6-B78E-F17993E7F99C</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-BijAhigzcR1MHdRoo4YtH5</idno>
+            <name>Liselott Hagberg</name>
+            <state type="partyAffiliation" ref="Q110857">
+              <desc>FP</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-QzGdrFuSwoAFFZJASp4eRU" type="signed"/>
+        <correspContext corresp="i-QzGdrFuSwoAFFZJASp4eRU">
+          <note type="signatory" corresp="i-BijAhigzcR1MHdRoo4YtH5"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-DnAmXVtigtSy19dGdD7zBh">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-77PfvqqLMNtT3Az1wSmzF9">
+          <date when="2010-10-22"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-LjpMKBU9HTX49VnPwAvT1c">
+          <date when="2010-10-22"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-XN8dQvbiPEV6MapVcjEipP"/>
+        <correspContext corresp="i-XN8dQvbiPEV6MapVcjEipP">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

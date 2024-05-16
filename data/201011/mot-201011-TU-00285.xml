@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-TU-00285">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bohusbanan</title>
+        <author corresp="i-H4Edsjz4cmdv9sJHCLVnfS i-FrC3WwfjWAuoWu4BnbedDa">av Catharina Bråkenhielm och Jan-Olof Larsson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Bohusbanan</title>
+          <idno type="rdwebb">GY02T285</idno>
+          <rs type="number">T285</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02T285/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02T285</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02T285</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0813938D-9854-49AC-AF1C-56B861C4B5F1</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-H4Edsjz4cmdv9sJHCLVnfS</idno>
+            <name>Catharina Bråkenhielm</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-FrC3WwfjWAuoWu4BnbedDa</idno>
+            <name>Jan-Olof Larsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-NVHnYQNbaFvne3gzhEouto" type="signed"/>
+        <correspContext corresp="i-NVHnYQNbaFvne3gzhEouto">
+          <note type="signatory" corresp="i-H4Edsjz4cmdv9sJHCLVnfS"/>
+          <note type="signatory" corresp="i-FrC3WwfjWAuoWu4BnbedDa"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-SisAVXqjCFHvpcwsgeMDAg">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Wvc6RHncR3hDbQtPC24LhA">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-E92V32f3Pix9DDuEwEWD9r">
+          <date when="2010-10-22"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-LBKiEamD2M3B3ib71KBwb6"/>
+        <correspContext corresp="i-LBKiEamD2M3B3ib71KBwb6">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

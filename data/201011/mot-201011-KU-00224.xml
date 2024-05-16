@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00224">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Valsedlar</title>
+        <author corresp="i-TVwo4mCECu692GW3ntqQzo i-RZNwwHohbyBgLVVG4Dy1Bj">av Kurt Kvarnström och Carin Runeson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Valsedlar</title>
+          <idno type="rdwebb">GY02K224</idno>
+          <rs type="number">K224</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K224/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K224</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K224</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0E129EAF-75BA-4A35-83B6-23453A63E096</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-TVwo4mCECu692GW3ntqQzo</idno>
+            <name>Kurt Kvarnström</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-RZNwwHohbyBgLVVG4Dy1Bj</idno>
+            <name>Carin Runeson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-RYYNV59FondK556Exi4aKG" type="signed"/>
+        <correspContext corresp="i-RYYNV59FondK556Exi4aKG">
+          <note type="signatory" corresp="i-TVwo4mCECu692GW3ntqQzo"/>
+          <note type="signatory" corresp="i-RZNwwHohbyBgLVVG4Dy1Bj"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-ECKE953fYg25bnhH3oKRfV">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-WYgQHGKdGUFaKwhFjHraHm">
+          <date when="2010-10-21"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-D992xVpF3nvkd4edx3GZ48">
+          <date when="2010-10-19"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-EEtP1XJ1zvnuQPDvS4tSVV"/>
+        <correspContext corresp="i-EEtP1XJ1zvnuQPDvS4tSVV">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

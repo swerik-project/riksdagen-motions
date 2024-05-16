@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-AU-00365">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Heltid och deltid</title>
+        <author corresp="i-3S4u3rsmsb3bjgrsrZUU6Q i-MKm68HiDPih8eisvsh6GJg">av Anders Karlsson och Bo Bernhardsson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Heltid och deltid</title>
+          <idno type="rdwebb">GY02A365</idno>
+          <rs type="number">A365</rs>
+          <orgName type="comitteeAbbreviation">AU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02A365/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02A365</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02A365</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/F350E515-DA57-4575-981A-BA0574C5F354</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-3S4u3rsmsb3bjgrsrZUU6Q</idno>
+            <name>Anders Karlsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-MKm68HiDPih8eisvsh6GJg</idno>
+            <name>Bo Bernhardsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-GBfDSE54iXoKhQECTD4nLA" type="signed"/>
+        <correspContext corresp="i-GBfDSE54iXoKhQECTD4nLA">
+          <note type="signatory" corresp="i-3S4u3rsmsb3bjgrsrZUU6Q"/>
+          <note type="signatory" corresp="i-MKm68HiDPih8eisvsh6GJg"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-RXNdBoMgigX2YcjbdKHtVj">
+          <date when="2010-10-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4ACqvjBJMxWKWMuCuqFPpU">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-2FS6C8rzJKeAsVTgzLEs4k">
+          <date when="2010-10-25"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AmmVskRafaZQdYfacKoN9j"/>
+        <correspContext corresp="i-AmmVskRafaZQdYfacKoN9j">
+          <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

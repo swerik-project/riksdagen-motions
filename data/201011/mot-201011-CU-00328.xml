@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-CU-00328">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gemensam vårdnad</title>
+        <author corresp="i-TifWqzmRuorK3zFDqAUZk8">av Sara Karlsson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Gemensam vårdnad</title>
+          <idno type="rdwebb">GY02C328</idno>
+          <rs type="number">C328</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02C328/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02C328</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02C328</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/40265E0A-5F65-4367-96DE-7AB5D413E378</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-TifWqzmRuorK3zFDqAUZk8</idno>
+            <name>Sara Karlsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-KXVh2CERxiBnojG5obFhri" type="signed"/>
+        <correspContext corresp="i-KXVh2CERxiBnojG5obFhri">
+          <note type="signatory" corresp="i-TifWqzmRuorK3zFDqAUZk8"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-P38KswtiymYUQiRKbx3uTc">
+          <date when="2010-10-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-K873UTWYHHXeHXCmYFnXvN">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-SJKrB6QVjUKQeGTr8UqRRe">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Jy6wCp1KrCWLmVJSFK8mRt"/>
+        <correspContext corresp="i-Jy6wCp1KrCWLmVJSFK8mRt">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

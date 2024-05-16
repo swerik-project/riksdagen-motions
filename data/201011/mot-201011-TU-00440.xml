@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-TU-00440">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Europakorridoren</title>
+        <author corresp="i-P2x4fiHNXrW2XTzJZRJeJJ i-Q1WPoNtt1578KMfEZ5TLkK">av Bengt-Anders Johansson och Betty Malmberg (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Europakorridoren</title>
+          <idno type="rdwebb">GY02T440</idno>
+          <rs type="number">T440</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02T440/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02T440</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02T440</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/BAACDB1C-42CC-4DB3-8D22-4C3D6149415B</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-P2x4fiHNXrW2XTzJZRJeJJ</idno>
+            <name>Bengt-Anders Johansson</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-Q1WPoNtt1578KMfEZ5TLkK</idno>
+            <name>Betty Malmberg</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-VP3YsRARxM4brW4utEEigv" type="signed"/>
+        <correspContext corresp="i-VP3YsRARxM4brW4utEEigv">
+          <note type="signatory" corresp="i-P2x4fiHNXrW2XTzJZRJeJJ"/>
+          <note type="signatory" corresp="i-Q1WPoNtt1578KMfEZ5TLkK"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-GFVmX9Cw1XgvwoGr4tU2dz">
+          <date when="2010-10-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-BA19Yph5LD5McqWev6PWRf">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-X1eHVEX292gWbBvozR7FYc">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-2wJvELukAAUpF9edJ7h7cC"/>
+        <correspContext corresp="i-2wJvELukAAUpF9edJ7h7cC">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

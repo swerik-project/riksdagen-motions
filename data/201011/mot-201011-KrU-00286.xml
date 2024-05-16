@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KrU-00286">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Astrid Lindgrens Näs</title>
+        <author corresp="i-EFJ93MgPh6dJrzDB1Tt657 i-GLB7Cj6SNDZcpFKqsN1zRL">av Yvonne Andersson och Anders Andersson (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Astrid Lindgrens Näs</title>
+          <idno type="rdwebb">GY02Kr286</idno>
+          <rs type="number">Kr286</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02Kr286/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02Kr286</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02Kr286</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/40A46DE5-0ABF-45E1-B021-6DF0A7810593</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-EFJ93MgPh6dJrzDB1Tt657</idno>
+            <name>Yvonne Andersson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-GLB7Cj6SNDZcpFKqsN1zRL</idno>
+            <name>Anders Andersson</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Hpurh9HbGvU1hvbEMhEGtC" type="signed"/>
+        <correspContext corresp="i-Hpurh9HbGvU1hvbEMhEGtC">
+          <note type="signatory" corresp="i-EFJ93MgPh6dJrzDB1Tt657"/>
+          <note type="signatory" corresp="i-GLB7Cj6SNDZcpFKqsN1zRL"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-XvctcE1z5TCQNa3uvs74fy">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-4Zqdx44WbSMcHaKPkPpLzY">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-SdCUe5qVVaFe5GZjbhZe6c">
+          <date when="2010-10-25"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-HP3Mv389AehSmUhYggy1sC"/>
+        <correspContext corresp="i-HP3Mv389AehSmUhYggy1sC">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

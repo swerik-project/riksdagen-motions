@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KrU-00251">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Spelmarknaden</title>
+        <author corresp="i-W6BJ44rcZjp5pD28NhHrCf i-6X8Fc68oRcYCskG3k248x5">av Gunnar Axén och Carl-Oskar Bohlin (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Spelmarknaden</title>
+          <idno type="rdwebb">GY02Kr251</idno>
+          <rs type="number">Kr251</rs>
+          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02Kr251/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02Kr251</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02Kr251</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/03E2BA0B-6032-4519-A30A-63CF4EF9BA48</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-W6BJ44rcZjp5pD28NhHrCf</idno>
+            <name>Gunnar Axén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-6X8Fc68oRcYCskG3k248x5</idno>
+            <name>Carl-Oskar Bohlin</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Sryo9ndqJj68oGaCbTwmGG" type="signed"/>
+        <correspContext corresp="i-Sryo9ndqJj68oGaCbTwmGG">
+          <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
+          <note type="signatory" corresp="i-6X8Fc68oRcYCskG3k248x5"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-PxHe5y2ax1S7RykGsxafk4">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-jruxfNWV6TSR7VCCGMqcs">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Wf6HuVcAJkAZzUQngt8Z3D">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-DyWj6ZpoNffbFaJtbBsnfP"/>
+        <correspContext corresp="i-DyWj6ZpoNffbFaJtbBsnfP">
+          <ref type="assignedTo">Kulturutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

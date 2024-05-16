@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00355">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vallagen</title>
+        <author corresp="i-VkgCZCfoAga9JDLAtq7rRZ">av Agneta Gille (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vallagen</title>
+          <idno type="rdwebb">GY02K355</idno>
+          <rs type="number">K355</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K355/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K355</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K355</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/FC64996E-7ADB-4DA7-BADE-776B3ECD3792</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-VkgCZCfoAga9JDLAtq7rRZ</idno>
+            <name>Agneta Gille</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-JLChga2DimrwFwajGhTvf6" type="signed"/>
+        <correspContext corresp="i-JLChga2DimrwFwajGhTvf6">
+          <note type="signatory" corresp="i-VkgCZCfoAga9JDLAtq7rRZ"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-HmGv1gGjf67HZQWT9igKBe">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-XV7PTN5WLefPjzyUoBgHER">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-Frh2BJZ2hGcuxgdPLJPZvW">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-AXspCNTBe6NksHuxqTJ1rj"/>
+        <correspContext corresp="i-AXspCNTBe6NksHuxqTJ1rj">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

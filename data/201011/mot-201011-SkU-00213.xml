@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-SkU-00213">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Schablonbeskattning</title>
+        <author corresp="i-79cRBqVjCpwABr2BiKwH7S i-YP25iT3t9zdY2dpPgshs5z">av Ann-Christin Ahlberg och Phia Andersson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Schablonbeskattning</title>
+          <idno type="rdwebb">GY02Sk213</idno>
+          <rs type="number">Sk213</rs>
+          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02Sk213/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02Sk213</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02Sk213</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/485E17CC-A92E-48BF-AE1D-95F0D3E7936A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-79cRBqVjCpwABr2BiKwH7S</idno>
+            <name>Ann-Christin Ahlberg</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="woman">
+            <idno>i-YP25iT3t9zdY2dpPgshs5z</idno>
+            <name>Phia Andersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XEwGudig4rjWEVNx4fnGaq" type="signed"/>
+        <correspContext corresp="i-XEwGudig4rjWEVNx4fnGaq">
+          <note type="signatory" corresp="i-79cRBqVjCpwABr2BiKwH7S"/>
+          <note type="signatory" corresp="i-YP25iT3t9zdY2dpPgshs5z"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-F7duFeiAFrogp1H1Rjcq9q">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-Fr1DBfMKX1Em9SnsggQgiv">
+          <date when="2010-10-21"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-4e2mQ5DrKoWuzj3QXwvTbz">
+          <date when="2010-10-19"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-MH1zi81qM7eGfG5TMZHoRA"/>
+        <correspContext corresp="i-MH1zi81qM7eGfG5TMZHoRA">
+          <ref type="assignedTo">Skatteutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

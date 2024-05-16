@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-FiU-00262">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Europeiska bankkonton</title>
+        <author corresp="i-V3GjREvdYiesCjNn7quoGc">av Hans Olsson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Europeiska bankkonton</title>
+          <idno type="rdwebb">GY02Fi262</idno>
+          <rs type="number">Fi262</rs>
+          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02Fi262/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02Fi262</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02Fi262</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0E47322F-BD3D-4F96-8AA2-7EA127D7CF64</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-V3GjREvdYiesCjNn7quoGc</idno>
+            <name>Hans Olsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Ax2jPDjkr8ab58TaYQhQws" type="signed"/>
+        <correspContext corresp="i-Ax2jPDjkr8ab58TaYQhQws">
+          <note type="signatory" corresp="i-V3GjREvdYiesCjNn7quoGc"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-LXUDXmpkGDSaiXibmYfY6z">
+          <date when="2010-10-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-6C5sE7gfA58Tmhp8C7NqCf">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-SMFq7hUZ5g5SmHrd7aShQv">
+          <date when="2010-10-20"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Xe6sE2L7ebCa7UkXN1haEi"/>
+        <correspContext corresp="i-Xe6sE2L7ebCa7UkXN1haEi">
+          <ref type="assignedTo">Finansutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

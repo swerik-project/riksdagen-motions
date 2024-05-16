@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-KU-00246">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mandatfördelningen</title>
+        <author corresp="i-GuqTA1ryPxMT4VhaTEcYK3">av Anne Marie Brodén (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Mandatfördelningen</title>
+          <idno type="rdwebb">GY02K246</idno>
+          <rs type="number">K246</rs>
+          <orgName type="comitteeAbbreviation">KU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02K246/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02K246</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02K246</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/0D56B528-6D55-4564-9745-D6002EF7BF7F</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-GuqTA1ryPxMT4VhaTEcYK3</idno>
+            <name>Anne Marie Brodén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-XcZjGnXvg1k2phB1xp7Ei1" type="signed"/>
+        <correspContext corresp="i-XcZjGnXvg1k2phB1xp7Ei1">
+          <note type="signatory" corresp="i-GuqTA1ryPxMT4VhaTEcYK3"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-JWXpKgus3gncnL85T1zHSe">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-JpgcLkn8Zx8uSVm1LPqjNH">
+          <date when="2010-10-22"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-5QMyeNFAdttTTGSjcapd6t">
+          <date when="2010-10-22"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-JvPmQQcXmR2LBCrzXTgmsx"/>
+        <correspContext corresp="i-JvPmQQcXmR2LBCrzXTgmsx">
+          <ref type="assignedTo">Konstitutionsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

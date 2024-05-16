@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-TU-00428">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Viskadalsbanan</title>
+        <author corresp="i-YP25iT3t9zdY2dpPgshs5z i-WjFt6fTSYNFkhwrZDFYPM4">av Phia Andersson och Adnan Dibrani (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Viskadalsbanan</title>
+          <idno type="rdwebb">GY02T428</idno>
+          <rs type="number">T428</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02T428/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02T428</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02T428</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/80B736EF-4DDD-4B2D-B972-1E9EDB67343D</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="woman">
+            <idno>i-YP25iT3t9zdY2dpPgshs5z</idno>
+            <name>Phia Andersson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-WjFt6fTSYNFkhwrZDFYPM4</idno>
+            <name>Adnan Dibrani</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-MsMhU51GcMUVQ8X569Z3RJ" type="signed"/>
+        <correspContext corresp="i-MsMhU51GcMUVQ8X569Z3RJ">
+          <note type="signatory" corresp="i-YP25iT3t9zdY2dpPgshs5z"/>
+          <note type="signatory" corresp="i-WjFt6fTSYNFkhwrZDFYPM4"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-Bc7QBuurUK2QJyshKY6rWa">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-LK9KV94Mv68GZbeBhCiq6Q">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-PZJCZKNpnoonXFAcRHUECG">
+          <date when="2010-10-22"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-Ca2Rt7ZjfjR3x2G31qgKWs"/>
+        <correspContext corresp="i-Ca2Rt7ZjfjR3x2G31qgKWs">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-CU-00301">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Allmän plats</title>
+        <author corresp="i-HzSoQ1C7ZLGcuc11An72dD">av Leif Jakobsson (S)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Allmän plats</title>
+          <idno type="rdwebb">GY02C301</idno>
+          <rs type="number">C301</rs>
+          <orgName type="comitteeAbbreviation">CU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02C301/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02C301</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02C301</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/EF09227E-0B9B-4A05-9E87-8D897698D87A</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-HzSoQ1C7ZLGcuc11An72dD</idno>
+            <name>Leif Jakobsson</name>
+            <state type="partyAffiliation" ref="Q105112">
+              <desc>S</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-421ucRhBfS1vuJ9WZSd6Zz" type="signed"/>
+        <correspContext corresp="i-421ucRhBfS1vuJ9WZSd6Zz">
+          <note type="signatory" corresp="i-HzSoQ1C7ZLGcuc11An72dD"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-S68tFihoGuKAqFm1A4nfTd">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-TpJghTaWvmbD1Y96JZTh9M">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-5642LG8iZoDGL36cq2knPH">
+          <date when="2010-10-22"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-QVBF57N4zmjbaFzpfaDth9"/>
+        <correspContext corresp="i-QVBF57N4zmjbaFzpfaDth9">
+          <ref type="assignedTo">Civilutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

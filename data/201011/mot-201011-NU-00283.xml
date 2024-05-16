@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-NU-00283">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Statsstöd</title>
+        <author corresp="i-W6BJ44rcZjp5pD28NhHrCf i-PVeQcRvegJXJJo2H94BNti">av Gunnar Axén och Mikael Cederbratt (M)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Statsstöd</title>
+          <idno type="rdwebb">GY02N283</idno>
+          <rs type="number">N283</rs>
+          <orgName type="comitteeAbbreviation">NU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02N283/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02N283</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02N283</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/33DCDD3B-4F55-46F4-90D8-5B2D54D2156F</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-W6BJ44rcZjp5pD28NhHrCf</idno>
+            <name>Gunnar Axén</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+          <person gender="man">
+            <idno>i-PVeQcRvegJXJJo2H94BNti</idno>
+            <name>Mikael Cederbratt</name>
+            <state type="partyAffiliation" ref="Q110843">
+              <desc>M</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Rb1pWQ463xA3Wh53fiin2Q" type="signed"/>
+        <correspContext corresp="i-Rb1pWQ463xA3Wh53fiin2Q">
+          <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
+          <note type="signatory" corresp="i-PVeQcRvegJXJJo2H94BNti"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-PFUNGNrPfv2omZu2o5Y8wN">
+          <date when="2010-10-28"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-RQHEAAN8xLa4PjXKFuHLKN">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-ArKUUE7qDHgM8u4JJZxzHQ">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-8kebWptQkYWdRPoe1E5aEH"/>
+        <correspContext corresp="i-8kebWptQkYWdRPoe1E5aEH">
+          <ref type="assignedTo">Näringsutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

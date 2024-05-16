@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201011-TU-00433">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nobelbanan</title>
+        <author corresp="i-4ednwgW1p5nCGVvkb7M7eo">av Lars-Axel Nordell (KD)</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>SWERIK PROJECT</authority>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Nobelbanan</title>
+          <idno type="rdwebb">GY02T433</idno>
+          <rs type="number">T433</rs>
+          <orgName type="comitteeAbbreviation">TU</orgName>
+          <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GY02T433/text</ref>
+          <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GY02T433</ref>
+          <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GY02T433</ref>
+          <ref type="doc">http://data.riksdagen.se/fil/1A14EBE0-2767-4A68-B0C2-2F313DB02E83</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="man">
+            <idno>i-4ednwgW1p5nCGVvkb7M7eo</idno>
+            <name>Lars-Axel Nordell</name>
+            <state type="partyAffiliation" ref="Q213654">
+              <desc>KD</desc>
+            </state>
+          </person>
+        </listPerson>
+      </particDesc>
+      <correspDesc>
+        <correspAction xml:id="i-Tg6KRjxwQBtcmYBXoLP2Pw" type="signed"/>
+        <correspContext corresp="i-Tg6KRjxwQBtcmYBXoLP2Pw">
+          <note type="signatory" corresp="i-4ednwgW1p5nCGVvkb7M7eo"/>
+        </correspContext>
+        <correspAction type="numbering" xml:id="i-P6qDBKFooLZy2yfdqvQiwy">
+          <date when="2010-10-29"/>
+        </correspAction>
+        <correspAction type="submission" xml:id="i-NE78U5MEn596HNixpKqfHE">
+          <date when="2010-10-27"/>
+        </correspAction>
+        <correspAction type="transfer" xml:id="i-GtnGY3fZ5nqrtMs91TnjCQ">
+          <date when="2010-10-26"/>
+        </correspAction>
+        <correspAction type="assigned" xml:id="i-5dUtmTK7NfENn1uYnQm5i9"/>
+        <correspContext corresp="i-5dUtmTK7NfENn1uYnQm5i9">
+          <ref type="assignedTo">Trafikutskottet</ref>
+        </correspContext>
+      </correspDesc>
+      <textClass>
+        <catRef scheme="#docType" target="#mot"/>
+        <catRef scheme="#motionType" target="#enskild"/>
+        <catRef scheme="#motionType" target="#fristående"/>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <xi:include href="../classDecl.xml">
+        <xi:fallback>
+          <xi:include href="./classDecl.xml"/>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="motHeader">
+        <div type="motTitle"/>
+        <div type="motSubmissionInfo"/>
+      </div>
+      <div type="motBody"/>
+    </body>
+  </text>
+</TEI>

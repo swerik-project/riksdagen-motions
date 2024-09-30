@@ -62,11 +62,98 @@
   </teiHeader>
   <text>
     <body>
-      <div type="motHeader">
-        <div type="motTitle"/>
-        <div type="motSubmissionInfo"/>
+      <div type="motBody">
+        <div type="motProposal" subtype="förslag">
+          <head xml:id="i-8rANNUMazZnsgpLFyAbQaQ">
+            Förslag till riksdagsbeslut
+          </head>
+          <list style="ol">
+            <item xml:id="i-2u8giXSV1UryJ64q7DQJsx">
+              Riksdagen tillkännager för riksdagsstyrelsen som sin mening vad
+              som anförs i motionen om att riksdagen bör släppa egenutvecklad
+              programkod som öppen källkod i de fall då det inte finns starka
+              skäl däremot.
+            </item>
+            <item xml:id="i-KSSB3vdc54wTgibjJvTMS3">
+              Riksdagen tillkännager för riksdagsstyrelsen som sin mening vad
+              som anförs i motionen om att riksdagen bör ge externa intressenter
+              möjlighet att göra uttag ur distributionssystemet, det system
+              som i dag levererar mycket av informationen till riksdagens webbplats.
+            </item>
+          </list>
+        </div>
+        <div type="motContent">
+          <head type="h1" xml:id="i-QFXePzSqXtm5RFXcJxWwSj">
+            Motivering
+          </head>
+          <p xml:id="i-KuHyyVVdiLyJ4ugwsiFMRT">
+            Fri programvara med öppen källkod blir en allt viktigare del
+            av ekonomin. Affärsmodeller som inte bygger på exemplarförsäljning,
+            och därmed på möjligheten att kontrollera distributionen, blir
+            särskilt intressanta när det står klart att en alltför långtgående
+            kontroll av distributionen är oförenlig med medborgarnas rätt
+            till integritet. Öppen källkod bidrar även till tjänsteutveckling
+            och bättre konkurrens.
+          </p>
+          <head type="h2" xml:id="i-AuznfGmsee6RLDyETZjauH">
+            Släpp riksdagens egenutvecklade system som öppen källkod
+          </head>
+          <p xml:id="i-Kjj6zf7xi4ZYtbnNqeTUYA">
+            Användningen ger ökad insyn i myndigheternas system, och i de
+            fall den egenproducerade programvaran utför en generell uppgift
+            kan den ha ett ekonomiskt värde för företag och organisationer.
+            Av principiell betydelse är att programvara utvecklad på statliga
+            myndigheter har finansierats med skattemedel och kan betraktas
+            som en allmän nyttighet.
+          </p>
+          <p xml:id="i-NKTeNM5AjMeFet5pLB5UtF">
+            Riksdagen bör föregå med gott exempel och släppa sin egenutvecklade
+            programkod som öppen källkod. Riksdagen har allt att vinna på
+            att andra aktörer medverkar till att utveckla system som exempelvis
+            distributionssystemet, ett databassystem byggt ovanpå en SQL-databas.
+            Distributionssystemet är det system som i bakgrunden levererar
+            dokument och dokumentsökningar på riksdagens webbplats. Systemet
+            förbättrar och effektiviserar kommunikation mellan olika produktionssystem.
+          </p>
+          <p xml:id="i-4SyJtJd2mfXJMi1WBP8jSA">
+            Tekniken som distributionssystemet bygger på är inte beroende
+            av särskil da termer och är inte på något sätt riksdagsspecifik.
+            Andra företag och organisationer, inom eller utanför staten, skulle
+            direkt kunna använda den. Med fler utvecklare skulle kunskapsbasen
+            öka, vilket gör det lättare att framtidssäkra systemet.
+          </p>
+          <head type="h2" xml:id="i-MRGo4kmo5WfvsHViPxwVwo">
+            Öppna riksdagens information för externa webbplatser
+          </head>
+          <p xml:id="i-Dd5JQDkcoEBjhn4qoTEVMV">
+            Distributionssystemet förser riksdagen.se med information. Ur
+            ett tekniskt perspektiv är det mycket enkelt att på ett säkert
+            sätt tillåta även externa intressenter att anropa och göra uttag
+            i distributionssystemet. Distribution publicerar genom ett standardgränssnitt
+            som kallas Soap. Riksdagen.se bör ge information om hur anropen
+            ska utformas för att vem som helst med rätt teknisk kunskap ska
+            kunna hämta informationen i realtid. En efterfrågan på denna tjänst
+            finns bland utomstående webbutvecklare.
+          </p>
+          <p xml:id="i-6baUJT1Q7mqVktpkBiNMgP">
+            Möjligheten för externa intressenter att göra uttag i systemet
+            innebär att in formationen kan kategoriseras och presenteras på
+            nya sätt. Riksdagen.se utsätts för konkurrens från aktörer som
+            anser sig kunna skapa ett mervärde genom att presentera information
+            på ett lättillgängligt sätt. Det är exempelvis tänkbart att ledamöters
+            voteringar kan redovisas i andra format än på riksdagen.se och
+            att ny intressant statistik kan tas fram till nytta för väljare
+            som vill utkräva ansvar från sina förtroendevalda.
+          </p>
+        </div>
+        <div type="motSignatures">
+          <list>
+            <item xml:id="i-BjdwRhkbHA7YJmUAzubNYu" who="i-Leyzhvbh6PmugF8H6t8yV4">
+              Karl Sigfrid (m)
+            </item>
+          </list>
+        </div>
       </div>
-      <div type="motBody"/>
     </body>
   </text>
 </TEI>

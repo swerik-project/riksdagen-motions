@@ -54,6 +54,13 @@ jobs:
         echo "::set-output name=nextRelease::$output"
         export RELEASE_NR="${{ steps.releaseBump.outputs.nextRelease }}"
 
+    - name: Build documentation
+      run: |
+        VERSION=$(echo ${{ github.ref }} | cut -d "v" -f 2 | xargs)
+        echo "Release version $VERSION"
+        sed -e "s/\(version\s=\s\"\)[^\"]*\"/\1$VERSION\"/" CITATION.cff
+        pdoc -o docs --footer-text $VERSION -t docs/dark-mode .
+
     - name: Run data integrity tests, write result
       run: python -m unittest test.integrity
 
@@ -63,6 +70,8 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add test/results
         git commit -m "chore: update test results"
+        git add docs
+        git commit -m "chore: update docs"
 
     - name: Push changes
       uses: ad-m/github-push-action@master

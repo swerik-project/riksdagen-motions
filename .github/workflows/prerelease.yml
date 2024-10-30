@@ -49,7 +49,8 @@ jobs:
       id: releaseBump
       run: |
         LATEST_RELEASE=$(echo "$(curl -L https://api.github.com/repos/swerik-project/riksdagen-motions/releases/latest)" | jq -r .tag_name)
-        if [[ "$LATEST_RELEASE" == null ]] then ; LATEST_RELEASE="v0.0.0" ; fi
+        if [[ "$LATEST_RELEASE" == null ]] ; then LATEST_RELEASE="v0.0.0" ; fi
+        echo $LATEST_RELEASE $RELEASE_TYPE
         output=$(python .github/workflows/bump-release.py --type $RELEASE_TYPE --version $LATEST_RELEASE)
         echo "::set-output name=nextRelease::$output"
         export RELEASE_NR="${{ steps.releaseBump.outputs.nextRelease }}"

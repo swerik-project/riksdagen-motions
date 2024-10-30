@@ -12,7 +12,7 @@ import warnings
 
 class GeneralIntegrityTest(unittest.TestCase):
     """
-    .. include:: test/docs/general-integrity-tests.md
+    .. include:: docs/general-integrity-tests.md
     """
     @classmethod
     def setUpClass(cls):

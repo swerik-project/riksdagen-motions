@@ -1,4 +1,4 @@
-# General data integrity tests
+# General Data Integrity Tests
 
 ## Summary
 

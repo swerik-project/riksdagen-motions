@@ -60,7 +60,7 @@ jobs:
       run: |
         echo "Release version ${{ env.RELEASE_NR }}"
         sed -e "s/\(version\s=\s\"\)[^\"]*\"/\1${{ env.RELEASE_NR }}\"/" CITATION.cff
-        pdoc -o docs --footer-text ${{ env.RELEASE_NR }} -t docs/dark-mode ../riksdagen-motions
+        pdoc -o docs --footer-text ${{ env.RELEASE_NR }} -t docs/dark-mode --logo https://raw.githubusercontent.com/swerik-project/the-swedish-parliament-corpus/refs/heads/main/readme/riksdagshuset.jpg ../riksdagen-motions
 
     - name: Run data integrity tests, write result
       run: |

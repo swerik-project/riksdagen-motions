@@ -14,9 +14,14 @@ import warnings
 
 
 class GeneralIntegrityTest(unittest.TestCase):
-
+    """
+    TestCase class for running general data integrity tests. The following test functions are defined:
+    """
     @classmethod
     def setUpClass(cls):
+        """
+        Set up common variables for all test cases.
+        """
         super(GeneralIntegrityTest, cls).setUpClass()
         motions = []
         dirs = sorted(os.listdir("data"))
@@ -34,6 +39,9 @@ class GeneralIntegrityTest(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
+        """
+        Write summary output when appropriate.
+        """
         print("\n\ntear down")
         print(cls.__dict__.keys())
         if cls.prerelease_nr is not None:

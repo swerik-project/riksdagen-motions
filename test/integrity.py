@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+.. include:: docs/general-integrity-tests.md
+"""
 from glob import glob
 from lxml import etree
 from pyriksdagen.utils import parse_tei
@@ -11,9 +14,7 @@ import warnings
 
 
 class GeneralIntegrityTest(unittest.TestCase):
-    """
-    .. include:: docs/general-integrity-tests.md
-    """
+
     @classmethod
     def setUpClass(cls):
         super(GeneralIntegrityTest, cls).setUpClass()

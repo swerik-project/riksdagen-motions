@@ -52,12 +52,14 @@ jobs:
         if [[ "$LATEST_RELEASE" == null ]] ; then LATEST_RELEASE="v0.0.0" ; fi
         echo $LATEST_RELEASE ${{ inputs.release_type }}
         output=$(python .github/workflows/bump-release.py --type ${{ inputs.release_type }} --version $LATEST_RELEASE)
-        echo "::set-output name=nextRelease::$output"
-        export RELEASE_NR="${{ steps.releaseBump.outputs.nextRelease }}"
+        echo "RELEASE_NR=$output" >> $GITHUB_ENV
+        export RELEASE_NR=${{ env.RELEASE_NR }}
         echo $RELEASE_NR
 
     - name: Run data integrity tests, write result
-      run: python -m unittest test.integrity
+      run: |
+        export RELEASE_NR=${{ env.RELEASE_NR }}
+        python -m unittest test.integrity
 
     - name: Add and commit changes
       run: |

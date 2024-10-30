@@ -16,6 +16,11 @@ There is also a `reg/` directory and `fort/` directory containing indexes to the
 Motions are grouped into chambers by `data/mot-ek.xml`, `data/mot-fk.xml` (not implemented), and `data/mot-ak.xml` (not implemented). 
 
 
+### `docs/`
+
+HTML documentation about this corpus.
+
+
 ### `test/`
 
 The `test/` directory contains data integrity tests in the form of python scripts. Supplementary data used for these tests is stored under `test/data/`, versioned test results are stored under `test/results/`, and documentation about the tests is stored under `test/docs/`.

@@ -33,7 +33,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pyriksdagen
-        pip install cycler
+        pip install pdoc
 
     - name: Install jq
       uses: dcarbone/install-jq-action@v2
@@ -49,13 +49,23 @@ jobs:
       id: releaseBump
       run: |
         LATEST_RELEASE=$(echo "$(curl -L https://api.github.com/repos/swerik-project/riksdagen-motions/releases/latest)" | jq -r .tag_name)
-        if [[ "$LATEST_RELEASE" == null ]] then ; LATEST_RELEASE="v0.0.0" ; fi
-        output=$(python .github/workflows/bump-release.py --type $RELEASE_TYPE --version $LATEST_RELEASE)
-        echo "::set-output name=nextRelease::$output"
-        export RELEASE_NR="${{ steps.releaseBump.outputs.nextRelease }}"
+        if [[ "$LATEST_RELEASE" == null ]] ; then LATEST_RELEASE="v0.0.0" ; fi
+        echo $LATEST_RELEASE ${{ inputs.release_type }}
+        output=$(python .github/workflows/bump-release.py --type ${{ inputs.release_type }} --version $LATEST_RELEASE)
+        echo "RELEASE_NR=$output" >> $GITHUB_ENV
+        export RELEASE_NR=${{ env.RELEASE_NR }}
+        echo $RELEASE_NR
+
+    - name: Build documentation
+      run: |
+        echo "Release version ${{ env.RELEASE_NR }}"
+        sed -e "s/\(version\s=\s\"\)[^\"]*\"/\1${{ env.RELEASE_NR }}\"/" CITATION.cff
+        pdoc -o docs --footer-text ${{ env.RELEASE_NR }} -t docs/dark-mode ../riksdagen-motions
 
     - name: Run data integrity tests, write result
-      run: python -m unittest test.integrity
+      run: |
+        export RELEASE_NR=${{ env.RELEASE_NR }}
+        python -m unittest test.integrity
 
     - name: Add and commit changes
       run: |
@@ -63,6 +73,8 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git add test/results
         git commit -m "chore: update test results"
+        git add docs
+        git commit -m "chore: update docs"
 
     - name: Push changes
       uses: ad-m/github-push-action@master

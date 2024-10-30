@@ -61,7 +61,7 @@ jobs:
         VERSION=$(echo ${{ github.ref }} | cut -d "v" -f 2 | xargs)
         echo "Release version $VERSION"
         sed -e "s/\(version\s=\s\"\)[^\"]*\"/\1$VERSION\"/" CITATION.cff
-        pdoc -o docs --footer-text $VERSION -t docs/dark-mode .
+        pdoc -o docs --footer-text $VERSION -t docs/dark-mode ../riksdagen-motions
 
     - name: Run data integrity tests, write result
       run: |

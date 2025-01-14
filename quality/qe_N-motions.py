@@ -17,7 +17,11 @@ import re
 
 
 def main(args):
+    print(args)
+
     d = {}
+    args.motions = [_ for _ in args.motions if "data/fort/" not in _]
+    args.motions = [_ for _ in args.motions if "data/reg/" not in _]
     for motion in tqdm(args.motions):
         motion = motion.replace("riksdagen-motions/", "")
         data, py, mot_basename = motion.split("/")
@@ -52,10 +56,13 @@ def main(args):
 
 if __name__ == '__main__':
     parser = fetch_parser("motions", docstring=__doc__)
-    parser.add_argument("-v", "--version", type=str, required=True)
+    parser.add_argument("-v", "--version", type=str, default=None)
     args = parser.parse_args()
     print(args)
-    pat = re.compile(r"v([0-9]+)([.])([0-9]+)([.])([0-9]+)(b|rc)?([0-9]+)?")
-    if pat.match(args.version) is None:
-        raise ValueError(f"{args.version} is not a valid version number.")
+    if args.version is not None:
+        pat = re.compile(r"v([0-9]+)([.])([0-9]+)([.])([0-9]+)(b|rc)?([0-9]+)?")
+        if pat.match(args.version) is None:
+            raise ValueError(f"{args.version} is not a valid version number.")
+    else:
+        args.version = "v99.99.99"
     main(impute_args(args))

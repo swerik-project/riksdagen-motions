@@ -87,10 +87,26 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add test/results
-        git commit -m "chore: update test results"
-        git add docs
-        git commit -m "chore: update docs"
+        if [[ `git status CITATION.cff --porcelain --untracked-files=no` ]]; then
+          git add CITATION.cff
+          git commit -m "chore (workflow): bump version nr in cff file"
+        else
+          echo ""
+          echo "::warning:: WARNING!!! No changes to CITATION.cff file."
+          echo "           Double check the version nr is correct."
+          echo ""
+          git commit --allow-empty -m "chore (workflow): no changes to CITATION.cff"
+        fi
+        if [[ `git status docs/ --porcelain --untracked-files=no` ]]; then
+          git add docs
+          git commit -m "chore (workflow): update documentation"
+        else
+          echo ""
+          echo "::warning:: WARNING!!! No changes to documentation files."
+          echo "           Double check the version nr and everything else is up to date."
+          echo ""
+          git commit --allow-empty -m "chore (workflow): no changes to documentation"
+        fi
 
     - name: Push changes
       uses: ad-m/github-push-action@master

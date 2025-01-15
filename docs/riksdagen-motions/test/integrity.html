@@ -73,7 +73,7 @@
     </ul>
 
 
-            <footer>v1.7.0</footer>
+            <footer>v1.7.1</footer>
 
         <a class="attribution" title="pdoc: Python API documentation generator" href="https://pdoc.dev" target="_blank">
             built with <span class="visually-hidden">pdoc</span><img
@@ -104,23 +104,23 @@
 </span><span id="L-2"><a href="#L-2"><span class="linenos">  2</span></a><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-3"><a href="#L-3"><span class="linenos">  3</span></a><span class="sd">.. include:: docs/general-integrity-tests.md</span>
 </span><span id="L-4"><a href="#L-4"><span class="linenos">  4</span></a><span class="sd">&quot;&quot;&quot;</span>
-</span><span id="L-5"><a href="#L-5"><span class="linenos">  5</span></a><span class="kn">from</span> <span class="nn">glob</span> <span class="kn">import</span> <span class="n">glob</span>
-</span><span id="L-6"><a href="#L-6"><span class="linenos">  6</span></a><span class="kn">from</span> <span class="nn">lxml</span> <span class="kn">import</span> <span class="n">etree</span>
-</span><span id="L-7"><a href="#L-7"><span class="linenos">  7</span></a><span class="kn">from</span> <span class="nn">pyriksdagen.utils</span> <span class="kn">import</span> <span class="n">parse_tei</span>
-</span><span id="L-8"><a href="#L-8"><span class="linenos">  8</span></a><span class="kn">import</span> <span class="nn">os</span>
-</span><span id="L-9"><a href="#L-9"><span class="linenos">  9</span></a><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-</span><span id="L-10"><a href="#L-10"><span class="linenos"> 10</span></a><span class="kn">import</span> <span class="nn">unittest</span>
-</span><span id="L-11"><a href="#L-11"><span class="linenos"> 11</span></a><span class="kn">import</span> <span class="nn">warnings</span>
+</span><span id="L-5"><a href="#L-5"><span class="linenos">  5</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">glob</span><span class="w"> </span><span class="kn">import</span> <span class="n">glob</span>
+</span><span id="L-6"><a href="#L-6"><span class="linenos">  6</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">lxml</span><span class="w"> </span><span class="kn">import</span> <span class="n">etree</span>
+</span><span id="L-7"><a href="#L-7"><span class="linenos">  7</span></a><span class="kn">from</span><span class="w"> </span><span class="nn">pyriksdagen.utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">parse_tei</span>
+</span><span id="L-8"><a href="#L-8"><span class="linenos">  8</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+</span><span id="L-9"><a href="#L-9"><span class="linenos">  9</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+</span><span id="L-10"><a href="#L-10"><span class="linenos"> 10</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">unittest</span>
+</span><span id="L-11"><a href="#L-11"><span class="linenos"> 11</span></a><span class="kn">import</span><span class="w"> </span><span class="nn">warnings</span>
 </span><span id="L-12"><a href="#L-12"><span class="linenos"> 12</span></a>
 </span><span id="L-13"><a href="#L-13"><span class="linenos"> 13</span></a>
 </span><span id="L-14"><a href="#L-14"><span class="linenos"> 14</span></a>
 </span><span id="L-15"><a href="#L-15"><span class="linenos"> 15</span></a>
-</span><span id="L-16"><a href="#L-16"><span class="linenos"> 16</span></a><span class="k">class</span> <span class="nc">GeneralIntegrityTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+</span><span id="L-16"><a href="#L-16"><span class="linenos"> 16</span></a><span class="k">class</span><span class="w"> </span><span class="nc">GeneralIntegrityTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
 </span><span id="L-17"><a href="#L-17"><span class="linenos"> 17</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-18"><a href="#L-18"><span class="linenos"> 18</span></a><span class="sd">    TestCase class for running general data integrity tests. The following test functions are defined:</span>
 </span><span id="L-19"><a href="#L-19"><span class="linenos"> 19</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="L-20"><a href="#L-20"><span class="linenos"> 20</span></a>    <span class="nd">@classmethod</span>
-</span><span id="L-21"><a href="#L-21"><span class="linenos"> 21</span></a>    <span class="k">def</span> <span class="nf">setUpClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+</span><span id="L-21"><a href="#L-21"><span class="linenos"> 21</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">setUpClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
 </span><span id="L-22"><a href="#L-22"><span class="linenos"> 22</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-23"><a href="#L-23"><span class="linenos"> 23</span></a><span class="sd">        Set up common variables for all test cases.</span>
 </span><span id="L-24"><a href="#L-24"><span class="linenos"> 24</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -140,7 +140,7 @@
 </span><span id="L-38"><a href="#L-38"><span class="linenos"> 38</span></a>
 </span><span id="L-39"><a href="#L-39"><span class="linenos"> 39</span></a>
 </span><span id="L-40"><a href="#L-40"><span class="linenos"> 40</span></a>    <span class="nd">@classmethod</span>
-</span><span id="L-41"><a href="#L-41"><span class="linenos"> 41</span></a>    <span class="k">def</span> <span class="nf">tearDownClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+</span><span id="L-41"><a href="#L-41"><span class="linenos"> 41</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">tearDownClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
 </span><span id="L-42"><a href="#L-42"><span class="linenos"> 42</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-43"><a href="#L-43"><span class="linenos"> 43</span></a><span class="sd">        Write summary output when appropriate.</span>
 </span><span id="L-44"><a href="#L-44"><span class="linenos"> 44</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -152,7 +152,7 @@
 </span><span id="L-50"><a href="#L-50"><span class="linenos"> 50</span></a>
 </span><span id="L-51"><a href="#L-51"><span class="linenos"> 51</span></a>
 </span><span id="L-52"><a href="#L-52"><span class="linenos"> 52</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="L-53"><a href="#L-53"><span class="linenos"> 53</span></a>    <span class="k">def</span> <span class="nf">test_file_names</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="L-53"><a href="#L-53"><span class="linenos"> 53</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_file_names</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="L-54"><a href="#L-54"><span class="linenos"> 54</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-55"><a href="#L-55"><span class="linenos"> 55</span></a><span class="sd">        Checks that no motion filename contains the string &#39;None&quot;.</span>
 </span><span id="L-56"><a href="#L-56"><span class="linenos"> 56</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -166,7 +166,7 @@
 </span><span id="L-64"><a href="#L-64"><span class="linenos"> 64</span></a>
 </span><span id="L-65"><a href="#L-65"><span class="linenos"> 65</span></a>
 </span><span id="L-66"><a href="#L-66"><span class="linenos"> 66</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="L-67"><a href="#L-67"><span class="linenos"> 67</span></a>    <span class="k">def</span> <span class="nf">test_has_header</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="L-67"><a href="#L-67"><span class="linenos"> 67</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_has_header</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="L-68"><a href="#L-68"><span class="linenos"> 68</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-69"><a href="#L-69"><span class="linenos"> 69</span></a><span class="sd">        Check that every motion has a `teiHeader` element.</span>
 </span><span id="L-70"><a href="#L-70"><span class="linenos"> 70</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -185,7 +185,7 @@
 </span><span id="L-83"><a href="#L-83"><span class="linenos"> 83</span></a>
 </span><span id="L-84"><a href="#L-84"><span class="linenos"> 84</span></a>
 </span><span id="L-85"><a href="#L-85"><span class="linenos"> 85</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="L-86"><a href="#L-86"><span class="linenos"> 86</span></a>    <span class="k">def</span> <span class="nf">test_has_body</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="L-86"><a href="#L-86"><span class="linenos"> 86</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_has_body</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="L-87"><a href="#L-87"><span class="linenos"> 87</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-88"><a href="#L-88"><span class="linenos"> 88</span></a><span class="sd">        Check that every motion has a `body` element.</span>
 </span><span id="L-89"><a href="#L-89"><span class="linenos"> 89</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -205,7 +205,7 @@
 </span><span id="L-103"><a href="#L-103"><span class="linenos">103</span></a>
 </span><span id="L-104"><a href="#L-104"><span class="linenos">104</span></a>
 </span><span id="L-105"><a href="#L-105"><span class="linenos">105</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="L-106"><a href="#L-106"><span class="linenos">106</span></a>    <span class="k">def</span> <span class="nf">test_auhor_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="L-106"><a href="#L-106"><span class="linenos">106</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_auhor_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="L-107"><a href="#L-107"><span class="linenos">107</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-108"><a href="#L-108"><span class="linenos">108</span></a><span class="sd">        Checks that the author element under `titleStmt` exists and is not empty.</span>
 </span><span id="L-109"><a href="#L-109"><span class="linenos">109</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -235,7 +235,7 @@
 </span><span id="L-133"><a href="#L-133"><span class="linenos">133</span></a>
 </span><span id="L-134"><a href="#L-134"><span class="linenos">134</span></a>
 </span><span id="L-135"><a href="#L-135"><span class="linenos">135</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="L-136"><a href="#L-136"><span class="linenos">136</span></a>    <span class="k">def</span> <span class="nf">test_title_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="L-136"><a href="#L-136"><span class="linenos">136</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_title_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="L-137"><a href="#L-137"><span class="linenos">137</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-138"><a href="#L-138"><span class="linenos">138</span></a><span class="sd">        Checks that the title element under `titleStmt` exists and is not empty.</span>
 </span><span id="L-139"><a href="#L-139"><span class="linenos">139</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -265,7 +265,7 @@
 </span><span id="L-163"><a href="#L-163"><span class="linenos">163</span></a>
 </span><span id="L-164"><a href="#L-164"><span class="linenos">164</span></a>
 </span><span id="L-165"><a href="#L-165"><span class="linenos">165</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="L-166"><a href="#L-166"><span class="linenos">166</span></a>    <span class="k">def</span> <span class="nf">test_body_not_empty</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="L-166"><a href="#L-166"><span class="linenos">166</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_body_not_empty</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="L-167"><a href="#L-167"><span class="linenos">167</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="L-168"><a href="#L-168"><span class="linenos">168</span></a><span class="sd">        Check that each motion&#39;s body element is not empty.</span>
 </span><span id="L-169"><a href="#L-169"><span class="linenos">169</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -303,12 +303,12 @@
 
     </div>
     <a class="headerlink" href="#GeneralIntegrityTest"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest-17"><a href="#GeneralIntegrityTest-17"><span class="linenos"> 17</span></a><span class="k">class</span> <span class="nc">GeneralIntegrityTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest-17"><a href="#GeneralIntegrityTest-17"><span class="linenos"> 17</span></a><span class="k">class</span><span class="w"> </span><span class="nc">GeneralIntegrityTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest-18"><a href="#GeneralIntegrityTest-18"><span class="linenos"> 18</span></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest-19"><a href="#GeneralIntegrityTest-19"><span class="linenos"> 19</span></a><span class="sd">    TestCase class for running general data integrity tests. The following test functions are defined:</span>
 </span><span id="GeneralIntegrityTest-20"><a href="#GeneralIntegrityTest-20"><span class="linenos"> 20</span></a><span class="sd">    &quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest-21"><a href="#GeneralIntegrityTest-21"><span class="linenos"> 21</span></a>    <span class="nd">@classmethod</span>
-</span><span id="GeneralIntegrityTest-22"><a href="#GeneralIntegrityTest-22"><span class="linenos"> 22</span></a>    <span class="k">def</span> <span class="nf">setUpClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+</span><span id="GeneralIntegrityTest-22"><a href="#GeneralIntegrityTest-22"><span class="linenos"> 22</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">setUpClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest-23"><a href="#GeneralIntegrityTest-23"><span class="linenos"> 23</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest-24"><a href="#GeneralIntegrityTest-24"><span class="linenos"> 24</span></a><span class="sd">        Set up common variables for all test cases.</span>
 </span><span id="GeneralIntegrityTest-25"><a href="#GeneralIntegrityTest-25"><span class="linenos"> 25</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -328,7 +328,7 @@
 </span><span id="GeneralIntegrityTest-39"><a href="#GeneralIntegrityTest-39"><span class="linenos"> 39</span></a>
 </span><span id="GeneralIntegrityTest-40"><a href="#GeneralIntegrityTest-40"><span class="linenos"> 40</span></a>
 </span><span id="GeneralIntegrityTest-41"><a href="#GeneralIntegrityTest-41"><span class="linenos"> 41</span></a>    <span class="nd">@classmethod</span>
-</span><span id="GeneralIntegrityTest-42"><a href="#GeneralIntegrityTest-42"><span class="linenos"> 42</span></a>    <span class="k">def</span> <span class="nf">tearDownClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+</span><span id="GeneralIntegrityTest-42"><a href="#GeneralIntegrityTest-42"><span class="linenos"> 42</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">tearDownClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest-43"><a href="#GeneralIntegrityTest-43"><span class="linenos"> 43</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest-44"><a href="#GeneralIntegrityTest-44"><span class="linenos"> 44</span></a><span class="sd">        Write summary output when appropriate.</span>
 </span><span id="GeneralIntegrityTest-45"><a href="#GeneralIntegrityTest-45"><span class="linenos"> 45</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -340,7 +340,7 @@
 </span><span id="GeneralIntegrityTest-51"><a href="#GeneralIntegrityTest-51"><span class="linenos"> 51</span></a>
 </span><span id="GeneralIntegrityTest-52"><a href="#GeneralIntegrityTest-52"><span class="linenos"> 52</span></a>
 </span><span id="GeneralIntegrityTest-53"><a href="#GeneralIntegrityTest-53"><span class="linenos"> 53</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="GeneralIntegrityTest-54"><a href="#GeneralIntegrityTest-54"><span class="linenos"> 54</span></a>    <span class="k">def</span> <span class="nf">test_file_names</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="GeneralIntegrityTest-54"><a href="#GeneralIntegrityTest-54"><span class="linenos"> 54</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_file_names</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest-55"><a href="#GeneralIntegrityTest-55"><span class="linenos"> 55</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest-56"><a href="#GeneralIntegrityTest-56"><span class="linenos"> 56</span></a><span class="sd">        Checks that no motion filename contains the string &#39;None&quot;.</span>
 </span><span id="GeneralIntegrityTest-57"><a href="#GeneralIntegrityTest-57"><span class="linenos"> 57</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -354,7 +354,7 @@
 </span><span id="GeneralIntegrityTest-65"><a href="#GeneralIntegrityTest-65"><span class="linenos"> 65</span></a>
 </span><span id="GeneralIntegrityTest-66"><a href="#GeneralIntegrityTest-66"><span class="linenos"> 66</span></a>
 </span><span id="GeneralIntegrityTest-67"><a href="#GeneralIntegrityTest-67"><span class="linenos"> 67</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="GeneralIntegrityTest-68"><a href="#GeneralIntegrityTest-68"><span class="linenos"> 68</span></a>    <span class="k">def</span> <span class="nf">test_has_header</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="GeneralIntegrityTest-68"><a href="#GeneralIntegrityTest-68"><span class="linenos"> 68</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_has_header</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest-69"><a href="#GeneralIntegrityTest-69"><span class="linenos"> 69</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest-70"><a href="#GeneralIntegrityTest-70"><span class="linenos"> 70</span></a><span class="sd">        Check that every motion has a `teiHeader` element.</span>
 </span><span id="GeneralIntegrityTest-71"><a href="#GeneralIntegrityTest-71"><span class="linenos"> 71</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -373,7 +373,7 @@
 </span><span id="GeneralIntegrityTest-84"><a href="#GeneralIntegrityTest-84"><span class="linenos"> 84</span></a>
 </span><span id="GeneralIntegrityTest-85"><a href="#GeneralIntegrityTest-85"><span class="linenos"> 85</span></a>
 </span><span id="GeneralIntegrityTest-86"><a href="#GeneralIntegrityTest-86"><span class="linenos"> 86</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="GeneralIntegrityTest-87"><a href="#GeneralIntegrityTest-87"><span class="linenos"> 87</span></a>    <span class="k">def</span> <span class="nf">test_has_body</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="GeneralIntegrityTest-87"><a href="#GeneralIntegrityTest-87"><span class="linenos"> 87</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_has_body</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest-88"><a href="#GeneralIntegrityTest-88"><span class="linenos"> 88</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest-89"><a href="#GeneralIntegrityTest-89"><span class="linenos"> 89</span></a><span class="sd">        Check that every motion has a `body` element.</span>
 </span><span id="GeneralIntegrityTest-90"><a href="#GeneralIntegrityTest-90"><span class="linenos"> 90</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -393,7 +393,7 @@
 </span><span id="GeneralIntegrityTest-104"><a href="#GeneralIntegrityTest-104"><span class="linenos">104</span></a>
 </span><span id="GeneralIntegrityTest-105"><a href="#GeneralIntegrityTest-105"><span class="linenos">105</span></a>
 </span><span id="GeneralIntegrityTest-106"><a href="#GeneralIntegrityTest-106"><span class="linenos">106</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="GeneralIntegrityTest-107"><a href="#GeneralIntegrityTest-107"><span class="linenos">107</span></a>    <span class="k">def</span> <span class="nf">test_auhor_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="GeneralIntegrityTest-107"><a href="#GeneralIntegrityTest-107"><span class="linenos">107</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_auhor_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest-108"><a href="#GeneralIntegrityTest-108"><span class="linenos">108</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest-109"><a href="#GeneralIntegrityTest-109"><span class="linenos">109</span></a><span class="sd">        Checks that the author element under `titleStmt` exists and is not empty.</span>
 </span><span id="GeneralIntegrityTest-110"><a href="#GeneralIntegrityTest-110"><span class="linenos">110</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -423,7 +423,7 @@
 </span><span id="GeneralIntegrityTest-134"><a href="#GeneralIntegrityTest-134"><span class="linenos">134</span></a>
 </span><span id="GeneralIntegrityTest-135"><a href="#GeneralIntegrityTest-135"><span class="linenos">135</span></a>
 </span><span id="GeneralIntegrityTest-136"><a href="#GeneralIntegrityTest-136"><span class="linenos">136</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="GeneralIntegrityTest-137"><a href="#GeneralIntegrityTest-137"><span class="linenos">137</span></a>    <span class="k">def</span> <span class="nf">test_title_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="GeneralIntegrityTest-137"><a href="#GeneralIntegrityTest-137"><span class="linenos">137</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_title_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest-138"><a href="#GeneralIntegrityTest-138"><span class="linenos">138</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest-139"><a href="#GeneralIntegrityTest-139"><span class="linenos">139</span></a><span class="sd">        Checks that the title element under `titleStmt` exists and is not empty.</span>
 </span><span id="GeneralIntegrityTest-140"><a href="#GeneralIntegrityTest-140"><span class="linenos">140</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -453,7 +453,7 @@
 </span><span id="GeneralIntegrityTest-164"><a href="#GeneralIntegrityTest-164"><span class="linenos">164</span></a>
 </span><span id="GeneralIntegrityTest-165"><a href="#GeneralIntegrityTest-165"><span class="linenos">165</span></a>
 </span><span id="GeneralIntegrityTest-166"><a href="#GeneralIntegrityTest-166"><span class="linenos">166</span></a>    <span class="c1">#@unittest.skip</span>
-</span><span id="GeneralIntegrityTest-167"><a href="#GeneralIntegrityTest-167"><span class="linenos">167</span></a>    <span class="k">def</span> <span class="nf">test_body_not_empty</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span><span id="GeneralIntegrityTest-167"><a href="#GeneralIntegrityTest-167"><span class="linenos">167</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_body_not_empty</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest-168"><a href="#GeneralIntegrityTest-168"><span class="linenos">168</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest-169"><a href="#GeneralIntegrityTest-169"><span class="linenos">169</span></a><span class="sd">        Check that each motion&#39;s body element is not empty.</span>
 </span><span id="GeneralIntegrityTest-170"><a href="#GeneralIntegrityTest-170"><span class="linenos">170</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -490,7 +490,7 @@
     </div>
     <a class="headerlink" href="#GeneralIntegrityTest.setUpClass"></a>
             <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.setUpClass-21"><a href="#GeneralIntegrityTest.setUpClass-21"><span class="linenos">21</span></a>    <span class="nd">@classmethod</span>
-</span><span id="GeneralIntegrityTest.setUpClass-22"><a href="#GeneralIntegrityTest.setUpClass-22"><span class="linenos">22</span></a>    <span class="k">def</span> <span class="nf">setUpClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+</span><span id="GeneralIntegrityTest.setUpClass-22"><a href="#GeneralIntegrityTest.setUpClass-22"><span class="linenos">22</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">setUpClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest.setUpClass-23"><a href="#GeneralIntegrityTest.setUpClass-23"><span class="linenos">23</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest.setUpClass-24"><a href="#GeneralIntegrityTest.setUpClass-24"><span class="linenos">24</span></a><span class="sd">        Set up common variables for all test cases.</span>
 </span><span id="GeneralIntegrityTest.setUpClass-25"><a href="#GeneralIntegrityTest.setUpClass-25"><span class="linenos">25</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -528,7 +528,7 @@
     </div>
     <a class="headerlink" href="#GeneralIntegrityTest.tearDownClass"></a>
             <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.tearDownClass-41"><a href="#GeneralIntegrityTest.tearDownClass-41"><span class="linenos">41</span></a>    <span class="nd">@classmethod</span>
-</span><span id="GeneralIntegrityTest.tearDownClass-42"><a href="#GeneralIntegrityTest.tearDownClass-42"><span class="linenos">42</span></a>    <span class="k">def</span> <span class="nf">tearDownClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+</span><span id="GeneralIntegrityTest.tearDownClass-42"><a href="#GeneralIntegrityTest.tearDownClass-42"><span class="linenos">42</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">tearDownClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest.tearDownClass-43"><a href="#GeneralIntegrityTest.tearDownClass-43"><span class="linenos">43</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest.tearDownClass-44"><a href="#GeneralIntegrityTest.tearDownClass-44"><span class="linenos">44</span></a><span class="sd">        Write summary output when appropriate.</span>
 </span><span id="GeneralIntegrityTest.tearDownClass-45"><a href="#GeneralIntegrityTest.tearDownClass-45"><span class="linenos">45</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -556,7 +556,7 @@
 
     </div>
     <a class="headerlink" href="#GeneralIntegrityTest.test_file_names"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_file_names-54"><a href="#GeneralIntegrityTest.test_file_names-54"><span class="linenos">54</span></a>    <span class="k">def</span> <span class="nf">test_file_names</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_file_names-54"><a href="#GeneralIntegrityTest.test_file_names-54"><span class="linenos">54</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_file_names</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest.test_file_names-55"><a href="#GeneralIntegrityTest.test_file_names-55"><span class="linenos">55</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest.test_file_names-56"><a href="#GeneralIntegrityTest.test_file_names-56"><span class="linenos">56</span></a><span class="sd">        Checks that no motion filename contains the string &#39;None&quot;.</span>
 </span><span id="GeneralIntegrityTest.test_file_names-57"><a href="#GeneralIntegrityTest.test_file_names-57"><span class="linenos">57</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -586,7 +586,7 @@
 
     </div>
     <a class="headerlink" href="#GeneralIntegrityTest.test_has_header"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_has_header-68"><a href="#GeneralIntegrityTest.test_has_header-68"><span class="linenos">68</span></a>    <span class="k">def</span> <span class="nf">test_has_header</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_has_header-68"><a href="#GeneralIntegrityTest.test_has_header-68"><span class="linenos">68</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_has_header</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest.test_has_header-69"><a href="#GeneralIntegrityTest.test_has_header-69"><span class="linenos">69</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest.test_has_header-70"><a href="#GeneralIntegrityTest.test_has_header-70"><span class="linenos">70</span></a><span class="sd">        Check that every motion has a `teiHeader` element.</span>
 </span><span id="GeneralIntegrityTest.test_has_header-71"><a href="#GeneralIntegrityTest.test_has_header-71"><span class="linenos">71</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -621,7 +621,7 @@
 
     </div>
     <a class="headerlink" href="#GeneralIntegrityTest.test_has_body"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_has_body-87"><a href="#GeneralIntegrityTest.test_has_body-87"><span class="linenos"> 87</span></a>    <span class="k">def</span> <span class="nf">test_has_body</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_has_body-87"><a href="#GeneralIntegrityTest.test_has_body-87"><span class="linenos"> 87</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_has_body</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest.test_has_body-88"><a href="#GeneralIntegrityTest.test_has_body-88"><span class="linenos"> 88</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest.test_has_body-89"><a href="#GeneralIntegrityTest.test_has_body-89"><span class="linenos"> 89</span></a><span class="sd">        Check that every motion has a `body` element.</span>
 </span><span id="GeneralIntegrityTest.test_has_body-90"><a href="#GeneralIntegrityTest.test_has_body-90"><span class="linenos"> 90</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -657,7 +657,7 @@
 
     </div>
     <a class="headerlink" href="#GeneralIntegrityTest.test_auhor_exists"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_auhor_exists-107"><a href="#GeneralIntegrityTest.test_auhor_exists-107"><span class="linenos">107</span></a>    <span class="k">def</span> <span class="nf">test_auhor_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_auhor_exists-107"><a href="#GeneralIntegrityTest.test_auhor_exists-107"><span class="linenos">107</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_auhor_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest.test_auhor_exists-108"><a href="#GeneralIntegrityTest.test_auhor_exists-108"><span class="linenos">108</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest.test_auhor_exists-109"><a href="#GeneralIntegrityTest.test_auhor_exists-109"><span class="linenos">109</span></a><span class="sd">        Checks that the author element under `titleStmt` exists and is not empty.</span>
 </span><span id="GeneralIntegrityTest.test_auhor_exists-110"><a href="#GeneralIntegrityTest.test_auhor_exists-110"><span class="linenos">110</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -703,7 +703,7 @@
 
     </div>
     <a class="headerlink" href="#GeneralIntegrityTest.test_title_exists"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_title_exists-137"><a href="#GeneralIntegrityTest.test_title_exists-137"><span class="linenos">137</span></a>    <span class="k">def</span> <span class="nf">test_title_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_title_exists-137"><a href="#GeneralIntegrityTest.test_title_exists-137"><span class="linenos">137</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_title_exists</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest.test_title_exists-138"><a href="#GeneralIntegrityTest.test_title_exists-138"><span class="linenos">138</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest.test_title_exists-139"><a href="#GeneralIntegrityTest.test_title_exists-139"><span class="linenos">139</span></a><span class="sd">        Checks that the title element under `titleStmt` exists and is not empty.</span>
 </span><span id="GeneralIntegrityTest.test_title_exists-140"><a href="#GeneralIntegrityTest.test_title_exists-140"><span class="linenos">140</span></a><span class="sd">        &quot;&quot;&quot;</span>
@@ -749,7 +749,7 @@
 
     </div>
     <a class="headerlink" href="#GeneralIntegrityTest.test_body_not_empty"></a>
-            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_body_not_empty-167"><a href="#GeneralIntegrityTest.test_body_not_empty-167"><span class="linenos">167</span></a>    <span class="k">def</span> <span class="nf">test_body_not_empty</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <div class="pdoc-code codehilite"><pre><span></span><span id="GeneralIntegrityTest.test_body_not_empty-167"><a href="#GeneralIntegrityTest.test_body_not_empty-167"><span class="linenos">167</span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">test_body_not_empty</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
 </span><span id="GeneralIntegrityTest.test_body_not_empty-168"><a href="#GeneralIntegrityTest.test_body_not_empty-168"><span class="linenos">168</span></a><span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
 </span><span id="GeneralIntegrityTest.test_body_not_empty-169"><a href="#GeneralIntegrityTest.test_body_not_empty-169"><span class="linenos">169</span></a><span class="sd">        Check that each motion&#39;s body element is not empty.</span>
 </span><span id="GeneralIntegrityTest.test_body_not_empty-170"><a href="#GeneralIntegrityTest.test_body_not_empty-170"><span class="linenos">170</span></a><span class="sd">        &quot;&quot;&quot;</span>

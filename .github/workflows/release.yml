@@ -40,4 +40,4 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: ./*.zip
         tag: ${{ github.ref }}
-        file_flob: true
+        file_glob: true

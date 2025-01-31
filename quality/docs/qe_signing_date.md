@@ -1,10 +1,10 @@
-# Signing dates quality estimation
+# Date of signature quality estimation
 
 ## Summary
 We want to know the proportion of signing dates that is correct in the corpus
 
 ## What is the problem
-The proportion of the motions that has correct dates where the motions has been signed by the MPs. 
+The want to know the proportion of the motions that has correct dates where the motions has been signed by the MPs. 
 These dates are important for the Riksdag library to extract the right motions by time periods.
 
 ## Estimation procedure

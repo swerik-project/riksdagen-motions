@@ -4,7 +4,7 @@
 We want to know the proportion of signing dates that is correct in the corpus
 
 ## What is the problem
-The want to know the proportion of the motions that has correct dates where the motions has been signed by the MPs. 
+We want to know the proportion of the motions that has correct dates where the motions has been signed by the MPs. 
 These dates are important for the Riksdag library to extract the right motions by time periods.
 
 ## Estimation procedure

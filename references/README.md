@@ -1,6 +1,6 @@
 # References
 
-This directory contains bibliographic information of works cited within the riksdagen-motions repository. The sub-directory `bibtex/` contains `.bib` files for each reference. A single `.bib` file can be compiled using `compile-reference-list.py`.
+This directory contains bibliographic information of works cited within the riksdagen-motions repository. The sub-directory `bibtex/` contains `.bib` files for each reference. A single `.bib` file can be compiled using `pyriksdagen.reference-handling.compile_bib_list`.
 
 
 ## Conventions

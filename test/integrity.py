@@ -30,11 +30,12 @@ class GeneralIntegrityTest(unittest.TestCase):
         cls.motions = motions
         cls.N_motions = len(motions)
         cls.prerelease_nr = os.environ.get("RELEASE_NR", None)
-        if cls.prerelease_nr is not None:
-            df = pd.read_csv("test/results/integrity-results.tsv", sep='\t')
-            df.set_index("result", inplace=True)
-            df[cls.prerelease_nr] = None
-            cls.integrity_results = df
+        if cls.prerelease_nr is None:
+            cls.prerelease_nr = "v99.99.99"
+        df = pd.read_csv("test/results/integrity-results.tsv", sep='\t')
+        df.set_index("result", inplace=True)
+        df[cls.prerelease_nr] = None
+        cls.integrity_results = df
 
 
     @classmethod
@@ -44,9 +45,8 @@ class GeneralIntegrityTest(unittest.TestCase):
         """
         print("\n\ntear down")
         print(cls.__dict__.keys())
-        if cls.prerelease_nr is not None:
-            cls.integrity_results.at["total_motions", cls.prerelease_nr] = len(cls.motions)
-            cls.integrity_results.to_csv("test/results/integrity-results.tsv", sep='\t')
+        cls.integrity_results.at["total_motions", cls.prerelease_nr] = len(cls.motions)
+        cls.integrity_results.to_csv("test/results/integrity-results.tsv", sep='\t')
 
 
     #@unittest.skip
@@ -99,7 +99,7 @@ class GeneralIntegrityTest(unittest.TestCase):
             if len(no_body) > 0:
                 with open(f"test/results/integrity_{self.prerelease_nr}_no-body.txt", "w+") as out:
                     [out.write(f"{_}\n") for _ in sorted(no_body)]
-        #self.assertEqual(0, len(no_body))
+        self.assertEqual(0, len(no_body))
 
 
     #@unittest.skip
@@ -179,7 +179,7 @@ class GeneralIntegrityTest(unittest.TestCase):
             self.integrity_results.at["body_not_empty", self.prerelease_nr] = self.N_motions - empty_body
             with open(f"test/results/integrity_{self.prerelease_nr}_empty-body.txt", "w+") as out:
                     [out.write(f"{_}\n") for _ in sorted(empty_bodies)]
-        #self.assertEqual(0, empty_body)
+        self.assertEqual(0, empty_body)
 
 
 

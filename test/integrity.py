@@ -117,7 +117,7 @@ class GeneralIntegrityTest(unittest.TestCase):
                 warnings.warn(msg, NoMotBodyWarning)
                 with open(f"test/results/integrity_{self.prerelease_nr}_no-body.txt", "w+") as out:
                     [out.write(f"{_}\n") for _ in sorted(no_body)]
-        self.assert(len(no_body) < 300)
+        self.assertTrue(len(no_body) < 300)
 
 
     #@unittest.skip
@@ -200,7 +200,7 @@ class GeneralIntegrityTest(unittest.TestCase):
                 warnings.warn(msg, EmptyBodyWarning)
                 with open(f"test/results/integrity_{self.prerelease_nr}_empty-body.txt", "w+") as out:
                     [out.write(f"{_}\n") for _ in sorted(empty_bodies)]
-        self.assert(empty_body < 300)
+        self.assertTrue(empty_body < 300)
 
 
 

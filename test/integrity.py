@@ -13,6 +13,22 @@ import warnings
 
 
 
+class EmptyBodyWarning(Warning):
+    def __init__(self, m):
+        self.message = m
+
+    def __str__(self):
+        return self.message
+
+
+class NoMotBodyWarning(Warning):
+    def __init__(self, m):
+        self.message = m
+
+    def __str__(self):
+        return self.message
+
+
 class GeneralIntegrityTest(unittest.TestCase):
     """
     TestCase class for running general data integrity tests. The following test functions are defined:
@@ -30,11 +46,12 @@ class GeneralIntegrityTest(unittest.TestCase):
         cls.motions = motions
         cls.N_motions = len(motions)
         cls.prerelease_nr = os.environ.get("RELEASE_NR", None)
-        if cls.prerelease_nr is not None:
-            df = pd.read_csv("test/results/integrity-results.tsv", sep='\t')
-            df.set_index("result", inplace=True)
-            df[cls.prerelease_nr] = None
-            cls.integrity_results = df
+        if cls.prerelease_nr is None:
+            cls.prerelease_nr = "v99.99.99"
+        df = pd.read_csv("test/results/integrity-results.tsv", sep='\t')
+        df.set_index("result", inplace=True)
+        df[cls.prerelease_nr] = None
+        cls.integrity_results = df
 
 
     @classmethod
@@ -44,9 +61,8 @@ class GeneralIntegrityTest(unittest.TestCase):
         """
         print("\n\ntear down")
         print(cls.__dict__.keys())
-        if cls.prerelease_nr is not None:
-            cls.integrity_results.at["total_motions", cls.prerelease_nr] = len(cls.motions)
-            cls.integrity_results.to_csv("test/results/integrity-results.tsv", sep='\t')
+        cls.integrity_results.at["total_motions", cls.prerelease_nr] = len(cls.motions)
+        cls.integrity_results.to_csv("test/results/integrity-results.tsv", sep='\t')
 
 
     #@unittest.skip
@@ -97,9 +113,11 @@ class GeneralIntegrityTest(unittest.TestCase):
         if self.prerelease_nr is not None:
             self.integrity_results.at["has_body", self.prerelease_nr] = self.N_motions - len(no_body)
             if len(no_body) > 0:
+                msg = f"There are {len(no_body)} motions without a div of type 'motBody'. Should be 0"
+                warnings.warn(msg, NoMotBodyWarning)
                 with open(f"test/results/integrity_{self.prerelease_nr}_no-body.txt", "w+") as out:
                     [out.write(f"{_}\n") for _ in sorted(no_body)]
-        #self.assertEqual(0, len(no_body))
+        self.assertTrue(len(no_body) < 300)
 
 
     #@unittest.skip
@@ -177,9 +195,12 @@ class GeneralIntegrityTest(unittest.TestCase):
                 empty_bodies.append(mot)
         if self.prerelease_nr:
             self.integrity_results.at["body_not_empty", self.prerelease_nr] = self.N_motions - empty_body
-            with open(f"test/results/integrity_{self.prerelease_nr}_empty-body.txt", "w+") as out:
+            if empty_body > 0:
+                msg = f"There are {empty_body} motions with an empty <div type=\"motBody\"> element. Should be 0."
+                warnings.warn(msg, EmptyBodyWarning)
+                with open(f"test/results/integrity_{self.prerelease_nr}_empty-body.txt", "w+") as out:
                     [out.write(f"{_}\n") for _ in sorted(empty_bodies)]
-        #self.assertEqual(0, empty_body)
+        self.assertTrue(empty_body < 300)
 
 
 

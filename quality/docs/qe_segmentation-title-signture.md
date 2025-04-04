@@ -29,16 +29,19 @@ The final estimate will based on a stratified random sample.
 
 The annotator read the original motion document and write down the following in a CSV file, as one column of motion ID and additional columns for annotated data `title_block`, `signature_block`:
 
-1. The Title Block of the motion. Title block contains the subtitle and title, e.g.:
+1. The Title Block of the motion. Title block contains information about the main author of the motions (subtitle, according to riksdagen's classification) and title (the actual topic of the motion). A title block might look like:
 
-		av herr Swännson om midsommarstångsbidrag till villaägare
+		av herr Svännson om midsommarstångsbidrag till villaägare
 	
-	In the case when the title block is a single xml element, it is enough to copy the text into the csv file. When there are multiple elements, copy them all to the csv file.
 	
-2. The signature block of the motion, e.g.:
+Here, `av herr Svänsson` is the sub title and `midsommarstångsbidrag till villaägare` is the title. The subtitle and title together make up the title block.
+	
+In the case when the title block is a single xml element, it is enough to copy the text into the csv file. When there are multiple elements, copy them all to the csv file.
+	
+2. The signature block of the motion: The signature contains the signature and printed name of the signatories of the motion, along with (potentially) information about their party affiliation and/or i-ort / location specifier. e.g.:
 
 		Svän Svänsson i Lilla Vamba
 
 Follow a similar principle as in (1) for single/multi xml elements.
 
-3. No specific segmentation checks are done on the doc date elements (following the signature block), however accurate segmentation of the date element will be a byproduct of the date quality estimation (see `./qe_signing_date.md`)
+3. No specific annotations are done to check the segmentation checks  doc date elements (following the signature block), however accurate segmentation of the date element will be a checked using the date quality estimation annotations (see `./qe_signing_date.md`) where we check that the annotate date is the actual date of the signature block.

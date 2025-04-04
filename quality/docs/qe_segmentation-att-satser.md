@@ -11,6 +11,8 @@ We want to estimate the quality of the corpus by core dimensions, namely:
 
 1. The Block containing "att-satser"
 
+Our working definition of an att-sats is a brief point where the author(s) of the motion state clear and concise actions the propose to be taken. These appear as very formulaic text in the vast majority of motions.
+
 
 ## Estimation procedure
 
@@ -32,7 +34,7 @@ The annotator read the original motion document and write down the following in 
 
 #### Further explanation:
 
-1. The Title Block of the motion. Title block contains the subtitle and title, e.g.:
+1. The Block containing the att-satser of the motionm e.g.:
 
 		Jag hemställa
 		

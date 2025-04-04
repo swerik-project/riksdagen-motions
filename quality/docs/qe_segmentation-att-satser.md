@@ -19,7 +19,7 @@ A stratified random sample will be generated that will be manually annotated by 
 
 ### Sampling plan
 
-A random sample of three motions per year. 
+A random sample of three motions per chamber and per year. 
 
 The final estimate will based on a stratified random sample.
 

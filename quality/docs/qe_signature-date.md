@@ -18,7 +18,7 @@ Then these annotations are compared with the dates extracted. This file is store
 
 ### Sampling plan
 
-A random sample of three motions per year has been created. 
+A random sample of three motions per chamber and per year has been created. 
 The final estimate will be a stratified random sample.
 
 

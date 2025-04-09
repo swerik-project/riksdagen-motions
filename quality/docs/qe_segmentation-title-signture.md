@@ -36,7 +36,7 @@ The annotator read the original motion document and write down the following in 
 	
 Here, `av herr Svänsson` is the sub title and `midsommarstångsbidrag till villaägare` is the title. The subtitle and title together make up the title block.
 	
-In the case when the title block is a single xml element, it is enough to copy the text into the csv file. When there are multiple elements, copy them all to the csv file.
+In the case when the title block is a single xml element, it is enough to copy the text into the csv file. When there are multiple elements, copy them all to the csv file. The important thing is that the annotator includes the content of the title block so that we can programatically calculate whether an automated classification of title blocks is correct.
 	
 2. The signature block of the motion: The signature contains the signature and printed name of the signatories of the motion, along with (potentially) information about their party affiliation and/or i-ort / location specifier. e.g.:
 

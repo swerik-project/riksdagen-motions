@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-NU-00008">
   <teiHeader>
     <fileDesc>
@@ -91,7 +91,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-JxVU1bF7r1AEQdCZ9verKQ"/>
+        <correspAction xml:id="i-JxVU1bF7r1AEQdCZ9verKQ" type="basedOn"/>
         <correspContext corresp="i-JxVU1bF7r1AEQdCZ9verKQ">
           <ref>Proposition 2005/06:27</ref>
         </correspContext>
@@ -107,19 +107,19 @@
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
           <note type="signatory" corresp="i-4pfVnS8LNwychZJ7RaUufZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WYDMFhEmftLR5QGA4LVWUw">
+        <correspAction xml:id="i-WYDMFhEmftLR5QGA4LVWUw" type="referral">
           <date when="2005-10-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6RW49HUcrUyNaiL9G7yky8">
+        <correspAction xml:id="i-6RW49HUcrUyNaiL9G7yky8" type="dismissal">
           <date when="2005-10-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5qAM2GqvTwnoRPWFEBCRqn">
+        <correspAction xml:id="i-5qAM2GqvTwnoRPWFEBCRqn" type="dismissal">
           <date when="2005-10-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LFt4H3TpnZnsYzMkUeCXm">
+        <correspAction xml:id="i-LFt4H3TpnZnsYzMkUeCXm" type="submission">
           <date when="2005-10-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RzQQGYJqAWZQa8aoZ6rxw4"/>
+        <correspAction xml:id="i-RzQQGYJqAWZQa8aoZ6rxw4" type="assigned"/>
         <correspContext corresp="i-RzQQGYJqAWZQa8aoZ6rxw4">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -134,11 +134,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_N_8/mot_200506_N_8-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TExzFFQhEroHsmKU6HTsG9">
-        <div type="motTitle" xml:id="i-Fk7FeU2UMaaZjUACetrqrk"/>
-        <div type="motSubmissionInfo" xml:id="i-KQdfCsXczPPtgtynBKPoEF"/>
+      <div xml:id="i-TExzFFQhEroHsmKU6HTsG9" type="motHeader">
+        <div xml:id="i-Fk7FeU2UMaaZjUACetrqrk" type="motTitle"/>
+        <div xml:id="i-KQdfCsXczPPtgtynBKPoEF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SJPqgjX3H7msyjHEAHEyEC">
+      <div xml:id="i-SJPqgjX3H7msyjHEAHEyEC" type="motBody">
         <div xml:id="i-7Hpmeu5Syv5Qvj7K1xKicz">
           <p xml:id="i-2GL7vRxq3xxFm99Sy5Ndqr">
             2005/06 mnr: N8 pnr: kd107
@@ -278,7 +278,10 @@
             dagens.
           </p>
           <p xml:id="i-7W276FjYKFukfm4CfgWFdi" type="date">
-            Stockholm den 25 oktober 2005 Mikael Oscarsson (kd)
+            Stockholm den 25 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-Fxx65VMtCmhMxxrpqCNu74">
+            Mikael Oscarsson (kd)
           </p>
           <p xml:id="i-Rsg8d9rry64wu9DJrL6Ybe">
             Mats Odell (kd) Lars Lindén (kd) Stefan Attefall (kd) Maria Larsson

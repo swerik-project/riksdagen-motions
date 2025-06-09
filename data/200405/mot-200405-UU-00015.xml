@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00015">
   <teiHeader>
     <fileDesc>
@@ -62,7 +62,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-JXZEWyfpq8BMvnpcjC8Tme"/>
+        <correspAction xml:id="i-JXZEWyfpq8BMvnpcjC8Tme" type="basedOn"/>
         <correspContext corresp="i-JXZEWyfpq8BMvnpcjC8Tme">
           <ref>Regeringsskrivelse 2004/05:114</ref>
         </correspContext>
@@ -74,19 +74,19 @@
           <note type="signatory" corresp="i-4XjgirbqceZQdnz2JX6DGB"/>
           <note type="signatory" corresp="i-BcpdUKhPbeES19rexxtwyD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5UduoZ5cgwJVUcxRKi4VKm">
+        <correspAction xml:id="i-5UduoZ5cgwJVUcxRKi4VKm" type="referral">
           <date when="2005-04-11"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-71yJ485ygC9ViLFqHZ66br">
+        <correspAction xml:id="i-71yJ485ygC9ViLFqHZ66br" type="registration">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Jpdgmhjg7kLd8suvwRS7pF">
+        <correspAction xml:id="i-Jpdgmhjg7kLd8suvwRS7pF" type="dismissal">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M6uwpjtV4FogmK2rFQejNW">
+        <correspAction xml:id="i-M6uwpjtV4FogmK2rFQejNW" type="submission">
           <date when="2005-04-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-B8qQWE4VgYmgn6y7K4hmgz"/>
+        <correspAction xml:id="i-B8qQWE4VgYmgn6y7K4hmgz" type="assigned"/>
         <correspContext corresp="i-B8qQWE4VgYmgn6y7K4hmgz">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -101,11 +101,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_15/mot_200405_U_15-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8GY7D5LvKzHTHb7uzquoa5">
-        <div type="motTitle" xml:id="i-Wip4hrj91dyYm5nhY9BMBQ"/>
-        <div type="motSubmissionInfo" xml:id="i-Kx39phUVY3KF1h6nSUq1aN"/>
+      <div xml:id="i-8GY7D5LvKzHTHb7uzquoa5" type="motHeader">
+        <div xml:id="i-Wip4hrj91dyYm5nhY9BMBQ" type="motTitle"/>
+        <div xml:id="i-Kx39phUVY3KF1h6nSUq1aN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8s2cat95GpND74o2xEWr1f">
+      <div xml:id="i-8s2cat95GpND74o2xEWr1f" type="motBody">
         <div xml:id="i-D2rfBUA7MZwBoyQkrhm7L9">
           <p xml:id="i-2Efh6LvAYpWJdRtyyv8kJV">
             2004/05
@@ -742,9 +742,12 @@
             för den svenska krigsmaterielproduktionen och krigsmaterielexporten.
             Detta vill vi att riksdagen skall ge regeringen till känna. I
             annat fall är Sveriges dubbelmoral i den internationella politiken
-            fullt ut manifesterad. Stockholm den 7 april 2005
+            fullt ut manifesterad.
           </p>
-          <p xml:id="i-RnwRgYhLZJHP6ERARve8ys">
+          <p type="date" id="i-CDLsc64tMgPMSxZCEMyUDG">
+            Stockholm den 7 april 2005
+          </p>
+          <p xml:id="i-RnwRgYhLZJHP6ERARve8ys" type="signatureBlock">
             Alice Åström (v) Berit Jöhannesson (v) Per Rosengren (v) Karin
             Thorborg (v) Sermin Öziärkät (v)
           </p>

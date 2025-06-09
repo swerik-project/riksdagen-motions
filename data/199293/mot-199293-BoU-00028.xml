@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-BoU-00028">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-9aRLLJUPp6dkL6wGF6nZuc</idno>
-            <name>Sten Söderberg </name>
+            <name>Sten Söderberg</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc>-</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Ro35gDSuzvApNwvEQYLEuV"/>
+        <correspAction xml:id="i-Ro35gDSuzvApNwvEQYLEuV" type="basedOn"/>
         <correspContext corresp="i-Ro35gDSuzvApNwvEQYLEuV">
           <ref>Proposition 1992/93:115</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-9aRLLJUPp6dkL6wGF6nZuc"/>
           <note type="signatory" corresp="i-9aRLLJUPp6dkL6wGF6nZuc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GAyBWAa9bKLqn6n4AvDSAA">
+        <correspAction xml:id="i-GAyBWAa9bKLqn6n4AvDSAA" type="referral">
           <date when="1993-03-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Kc1RddAGxUTChMtWvMJyme">
+        <correspAction xml:id="i-Kc1RddAGxUTChMtWvMJyme" type="dismissal">
           <date when="1993-03-16"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MHxa4HNPG4Mqhc4Qt3tP28">
+        <correspAction xml:id="i-MHxa4HNPG4Mqhc4Qt3tP28" type="submission">
           <date when="1993-03-15"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-QHE2eKNA6cmert1fdawXyt">
+        <correspAction xml:id="i-QHE2eKNA6cmert1fdawXyt" type="referral">
           <date when="1993-03-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-G5NuFMVs8b2cRaEm435cDJ">
+        <correspAction xml:id="i-G5NuFMVs8b2cRaEm435cDJ" type="dismissal">
           <date when="1993-03-16"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SA9iVtnhHBYogsS3cwhzWv">
+        <correspAction xml:id="i-SA9iVtnhHBYogsS3cwhzWv" type="submission">
           <date when="1993-03-15"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VyeLTqyJhaVg9PQBRK6Dw"/>
+        <correspAction xml:id="i-VyeLTqyJhaVg9PQBRK6Dw" type="assigned"/>
         <correspContext corresp="i-VyeLTqyJhaVg9PQBRK6Dw">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_BoU_28/mot_199293_BoU_28-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-MQJYeCjekkN5Bgj6zL33mA">
-        <div type="motTitle" xml:id="i-TiWpE7Xu8CPB89Kw9DEc7W"/>
-        <div type="motSubmissionInfo" xml:id="i-TL1Y8cJETBaki76ZsRc4e7"/>
+      <div xml:id="i-MQJYeCjekkN5Bgj6zL33mA" type="motHeader">
+        <div xml:id="i-TiWpE7Xu8CPB89Kw9DEc7W" type="motTitle"/>
+        <div xml:id="i-TL1Y8cJETBaki76ZsRc4e7" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DrpWZnmvoGHvxSwY8E5Xrd">
+      <div xml:id="i-DrpWZnmvoGHvxSwY8E5Xrd" type="motBody">
         <div xml:id="i-UFWvxXBJaSoFAPyYKyi92J">
           <p xml:id="i-4eCihJ3MHPsN3nEB2oAiPS">
             fe EYE =
@@ -161,10 +161,12 @@
           </p>
           <p xml:id="i-9L4uB3DFhdHvzXdXDecgkb">
             att riksdagen som sin mening ger regeringen till känna vad i
-            motio- nen anförts om 12 kap. 42 $ jordabalken. Stockholm den
-            1 mars 1993
+            motio- nen anförts om 12 kap. 42 $ jordabalken.
           </p>
-          <p xml:id="i-SeQqTG2Yyh9qb3wH1dmkRk">
+          <p type="date" id="i-E4gjRFhcUS5DurUPJsT9rX">
+            Stockholm den 1 mars 1993
+          </p>
+          <p xml:id="i-SeQqTG2Yyh9qb3wH1dmkRk" type="signatureBlock">
             Sten Söderberg (-)
           </p>
         </div>

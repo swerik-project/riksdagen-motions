@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-AU-00020">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-4RZAyWAFcgYXE9YUYkoYhd"/>
+        <correspAction xml:id="i-4RZAyWAFcgYXE9YUYkoYhd" type="basedOn"/>
         <correspContext corresp="i-4RZAyWAFcgYXE9YUYkoYhd">
           <ref>Regeringsskrivelse 2000/01:142</ref>
         </correspContext>
@@ -82,28 +82,28 @@
           <note type="signatory" corresp="i-QqgpadBP4SAf6uA8SRtTMY"/>
           <note type="signatory" corresp="i-4SAiMdwrEthd2M8z2yjtkv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-R5vNaktVYwszZ395q9VeNa">
+        <correspAction xml:id="i-R5vNaktVYwszZ395q9VeNa" type="referral">
           <date when="2001-06-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6z9sPY6DB1asmXPpX6kzzX">
+        <correspAction xml:id="i-6z9sPY6DB1asmXPpX6kzzX" type="dismissal">
           <date when="2001-06-18"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-SJqbdjgchr3Lemzt3pCG4f">
+        <correspAction xml:id="i-SJqbdjgchr3Lemzt3pCG4f" type="reviewing">
           <date when="2001-06-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-J6vjg7qD6D6eYZRPfhA9nK">
+        <correspAction xml:id="i-J6vjg7qD6D6eYZRPfhA9nK" type="submission">
           <date when="2001-06-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Djw1mo5p9aZvMVW2cVRSs9">
+        <correspAction xml:id="i-Djw1mo5p9aZvMVW2cVRSs9" type="referral">
           <date when="2001-06-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5RTFsHsv9zbnLFPPxEEABK">
+        <correspAction xml:id="i-5RTFsHsv9zbnLFPPxEEABK" type="dismissal">
           <date when="2001-06-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EhqJsgUY4AcaMoESs5NRqf">
+        <correspAction xml:id="i-EhqJsgUY4AcaMoESs5NRqf" type="submission">
           <date when="2001-06-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-483ryFNaZq6KHELXBshPZB"/>
+        <correspAction xml:id="i-483ryFNaZq6KHELXBshPZB" type="assigned"/>
         <correspContext corresp="i-483ryFNaZq6KHELXBshPZB">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -119,11 +119,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_A_0020/mot_200001_A_0020-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_A_0020/mot_200001_A_0020-001.pdf"/>
-      <div type="motHeader" xml:id="i-3SEjKAYohhA8DFifvjHBet">
-        <div type="motTitle" xml:id="i-3aSDg8hyATctHxYrYzzX9m"/>
-        <div type="motSubmissionInfo" xml:id="i-DTyTGXVpomtxVmZCoLzZwP"/>
+      <div xml:id="i-3SEjKAYohhA8DFifvjHBet" type="motHeader">
+        <div xml:id="i-3aSDg8hyATctHxYrYzzX9m" type="motTitle"/>
+        <div xml:id="i-DTyTGXVpomtxVmZCoLzZwP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RCjemfxyfXCrTj9joFTAyY">
+      <div xml:id="i-RCjemfxyfXCrTj9joFTAyY" type="motBody">
         <div xml:id="i-CSaCVHCbhikf4xcG6GrvH3">
           <p xml:id="i-AetfJ4e5aj3fygbEdJMBTh">
             2000/01 mnr: A20 pnr: fp1163
@@ -378,9 +378,12 @@
             att arbeta. Avtalet mellan myndigheten och bemanningspoolen skall
             vara utformat så att det ligger i poolens intresse att så snabbt
             som möjligt få de personer som omfattas av garantin i reguljärt
-            arbete. Stockholm den 14 juni 2001
+            arbete.
           </p>
-          <p xml:id="i-Ht2LJoxntK2bMN42fixu9">
+          <p type="date" id="i-SiSn8HpCzkNPmos7QY49GQ">
+            Stockholm den 14 juni 2001
+          </p>
+          <p xml:id="i-Ht2LJoxntK2bMN42fixu9" type="signatureBlock">
             Elver Jonsson (fp) Runar Patriksson (fp) Ana Maria Narti (fp)
           </p>
           <p xml:id="i-2PC6Z29r5EuZ1sLr81Df67">
@@ -640,9 +643,12 @@
             att arbeta. Avtalet mellan myndigheten och bemanningspoolen skall
             vara utformat så att det ligger i poolens intresse att så snabbt
             som möjligt få de personer som omfattas av garantin i reguljärt
-            arbete. Stockholm den 14 juni 2001
+            arbete.
           </p>
-          <p xml:id="i-TapjrkJA882R35rKMEskSJ">
+          <p type="date" id="i-WKxJvYnb3W3dkHu5XjjXJR">
+            Stockholm den 14 juni 2001
+          </p>
+          <p xml:id="i-TapjrkJA882R35rKMEskSJ" type="signatureBlock">
             Elver Jonsson (fp) Runar Patriksson (fp) Ana Maria Narti (fp)
           </p>
           <p xml:id="i-W3in9oBHYSEXxjsyyLdk35">

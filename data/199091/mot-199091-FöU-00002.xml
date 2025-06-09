@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-FöU-00002">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-7A6No7x5ayKka9TbjUeeEa</idno>
-            <name>Tom Heyman </name>
+            <name>Tom Heyman</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-DAFygSNQCpeTgcNAwgCGUg"/>
+        <correspAction xml:id="i-DAFygSNQCpeTgcNAwgCGUg" type="basedOn"/>
         <correspContext corresp="i-DAFygSNQCpeTgcNAwgCGUg">
           <ref>Proposition 1990/91:102</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-7A6No7x5ayKka9TbjUeeEa"/>
           <note type="signatory" corresp="i-7A6No7x5ayKka9TbjUeeEa"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NzKQB1e5pH1c2EcvCAaAxs">
+        <correspAction xml:id="i-NzKQB1e5pH1c2EcvCAaAxs" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CXEJE6jV3o1Lp1tfJPH99h">
+        <correspAction xml:id="i-CXEJE6jV3o1Lp1tfJPH99h" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8HLvsfRV45KoKkThPQeztT">
+        <correspAction xml:id="i-8HLvsfRV45KoKkThPQeztT" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-6gUEzcixyyeDsusUQTBVFC">
+        <correspAction xml:id="i-6gUEzcixyyeDsusUQTBVFC" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8SVw8VcVFh9K1uWwAGCL7B">
+        <correspAction xml:id="i-8SVw8VcVFh9K1uWwAGCL7B" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XLCkRH9Kkxd5unzCvARkux">
+        <correspAction xml:id="i-XLCkRH9Kkxd5unzCvARkux" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6ujzzCZmJBaTCyn7f3VAjA"/>
+        <correspAction xml:id="i-6ujzzCZmJBaTCyn7f3VAjA" type="assigned"/>
         <correspContext corresp="i-6ujzzCZmJBaTCyn7f3VAjA">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_FöU_2/mot_199091_FöU_2-001.pdf"/>
-      <div type="motHeader" xml:id="i-VY2REYgtS2mmc6GC8oCD3N">
-        <div type="motTitle" xml:id="i-29GHj8r3mnCvYcNBLcJeud"/>
-        <div type="motSubmissionInfo" xml:id="i-7BTG8junqaaeJfaJC5EdYT"/>
+      <div xml:id="i-VY2REYgtS2mmc6GC8oCD3N" type="motHeader">
+        <div xml:id="i-29GHj8r3mnCvYcNBLcJeud" type="motTitle"/>
+        <div xml:id="i-7BTG8junqaaeJfaJC5EdYT" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QzpxhRi3prsfYEQbkQqhZn">
+      <div xml:id="i-QzpxhRi3prsfYEQbkQqhZn" type="motBody">
         <div xml:id="i-BNRA4FTcyqv8tkYVti5qdB">
           <p xml:id="i-Y3Tz44tt817MUh9mdtXsdw">
             Motion till riksdagen 1990/91:Fö2
@@ -128,9 +128,12 @@
           <p xml:id="i-TcTrCgKbEJXLTe2RoWys6v">
             Med hänvisning till det anförda hemställs att riksdagen avslår
             regeringens förslag till ändring i hälso- och sjuk- vårdslagen
-            (1982:763). Stockholm den 5 mars 1991
+            (1982:763).
           </p>
-          <p xml:id="i-Tyu7SNww3ZrE8guYWnqJYh">
+          <p type="date" id="i-WkTmimjz2i4zB92WzoZWHt">
+            Stockholm den 5 mars 1991
+          </p>
+          <p xml:id="i-Tyu7SNww3ZrE8guYWnqJYh" type="signatureBlock">
             Tom Heyman (m)
           </p>
         </div>

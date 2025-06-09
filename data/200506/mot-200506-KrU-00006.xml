@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00006">
   <teiHeader>
     <fileDesc>
@@ -42,7 +42,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-SyN3n8G7WgBruUhzowQM6e"/>
+        <correspAction xml:id="i-SyN3n8G7WgBruUhzowQM6e" type="basedOn"/>
         <correspContext corresp="i-SyN3n8G7WgBruUhzowQM6e">
           <ref>Proposition 2005/06:2</ref>
         </correspContext>
@@ -51,19 +51,19 @@
           <note type="signatory" corresp="i-D6V9ti7ETxin1WbJjDaShE"/>
           <note type="signatory" corresp="i-9LE4uwYS8LySpZjtTwxjti"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7jWwy96HKfHJBdWGYUWDhJ">
+        <correspAction xml:id="i-7jWwy96HKfHJBdWGYUWDhJ" type="referral">
           <date when="2005-10-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Fs1dZjvAS5nr2bbBqvHha8">
+        <correspAction xml:id="i-Fs1dZjvAS5nr2bbBqvHha8" type="dismissal">
           <date when="2005-10-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-N6jdojnVvjGFjr6oay7Cqy">
+        <correspAction xml:id="i-N6jdojnVvjGFjr6oay7Cqy" type="dismissal">
           <date when="2005-10-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VDh4SXSeAavmtuG2UvTi7m">
+        <correspAction xml:id="i-VDh4SXSeAavmtuG2UvTi7m" type="submission">
           <date when="2005-10-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VMzgLiZu9g6DBaCqzWgvTq"/>
+        <correspAction xml:id="i-VMzgLiZu9g6DBaCqzWgvTq" type="assigned"/>
         <correspContext corresp="i-VMzgLiZu9g6DBaCqzWgvTq">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -78,11 +78,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Kr_6/mot_200506_Kr_6-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Mw2gh2WSHxWP3Q149PChv5">
-        <div type="motTitle" xml:id="i-3fheXn24ZqRnCnspMCB7ZY"/>
-        <div type="motSubmissionInfo" xml:id="i-LY2n8bjKUJGEeKgiBBfxD3"/>
+      <div xml:id="i-Mw2gh2WSHxWP3Q149PChv5" type="motHeader">
+        <div xml:id="i-3fheXn24ZqRnCnspMCB7ZY" type="motTitle"/>
+        <div xml:id="i-LY2n8bjKUJGEeKgiBBfxD3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Qxh3LuMhuGnysFUa4f9CMk">
+      <div xml:id="i-Qxh3LuMhuGnysFUa4f9CMk" type="motBody">
         <div xml:id="i-EBqvEc2XMcdZSWMuARDevM">
           <p xml:id="i-8qp7Ho5uEHFEsteXuifarw">
             2005/06
@@ -455,7 +455,10 @@
             2005/06:Kr6
           </p>
           <p xml:id="i-WDWXgYMHDhimJbWqLHhz4M" type="date">
-            Stockholm den 14 oktober 2005 Nina Lundström (fp) Heli Berg (fp)
+            Stockholm den 14 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-APzeFsGRNaTpXnqXRNGo3a">
+            Nina Lundström (fp) Heli Berg (fp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-SoU-00007">
   <teiHeader>
     <fileDesc>
@@ -82,28 +82,28 @@
           </person>
           <person gender="man">
             <idno>i-B1jH6xuNdP1VDkcHJM5hF3</idno>
-            <name>Daniel Tarschys </name>
+            <name>Daniel Tarschys</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-L3xspgThUxUN1YtSDqcmk8</idno>
-            <name>Barbro Westerholm </name>
+            <name>Barbro Westerholm</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-Wr6k6wHqCSCVpf8wAP1AEe</idno>
-            <name>Ingrid Ronne-Björkqvist </name>
+            <name>Ingrid Ronne-Björkqvist</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-KawwYRbfNooyPngtdSHu1B</idno>
-            <name>Ulla Orring </name>
+            <name>Ulla Orring</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -111,7 +111,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-R4MjpAsMbPPM9yg9mT3azV"/>
+        <correspAction xml:id="i-R4MjpAsMbPPM9yg9mT3azV" type="basedOn"/>
         <correspContext corresp="i-R4MjpAsMbPPM9yg9mT3azV">
           <ref>Proposition 1989/90:28</ref>
         </correspContext>
@@ -130,16 +130,16 @@
           <note type="signatory" corresp="i-Wr6k6wHqCSCVpf8wAP1AEe"/>
           <note type="signatory" corresp="i-KawwYRbfNooyPngtdSHu1B"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-2Q6kSzkruzLiKsYeoHTd5J">
+        <correspAction xml:id="i-2Q6kSzkruzLiKsYeoHTd5J" type="submission">
           <date when="1989-11-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XxZYiHipwJ6rXgWGruUZ2c">
+        <correspAction xml:id="i-XxZYiHipwJ6rXgWGruUZ2c" type="dismissal">
           <date when="1989-11-15"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-RgdM3GQRmdMmih3hLW1ofg">
+        <correspAction xml:id="i-RgdM3GQRmdMmih3hLW1ofg" type="referral">
           <date when="1989-11-16"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FTjCW25T9169oL2f8f5oQv">
+        <correspAction xml:id="i-FTjCW25T9169oL2f8f5oQv" type="assigned">
           <date when="2014-11-22"/>
           <time when="10:42:27"/>
         </correspAction>
@@ -155,11 +155,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_so_7/mot_198990_so_7-001.pdf"/>
-      <div type="motHeader" xml:id="i-A7Mx99TJYLzb1AtrqLdRaD">
-        <div type="motTitle" xml:id="i-Pmv1hScmyrAfpLwX1bp8gK"/>
-        <div type="motSubmissionInfo" xml:id="i-AxXeiCvMuqqdHebTrNjNTN"/>
+      <div xml:id="i-A7Mx99TJYLzb1AtrqLdRaD" type="motHeader">
+        <div xml:id="i-Pmv1hScmyrAfpLwX1bp8gK" type="motTitle"/>
+        <div xml:id="i-AxXeiCvMuqqdHebTrNjNTN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WCybK281VT28i6hJao6fB4">
+      <div xml:id="i-WCybK281VT28i6hJao6fB4" type="motBody">
         <div xml:id="i-T2AkyyZw5YAaBMp93qRAzS">
           <p xml:id="i-Spbm4a2YUwgUYfUNhrndhW">
             Motion till riksdagen
@@ -437,8 +437,10 @@
             anförts under rubriken socialtjänst — kriminalvård.
           </p>
           <p xml:id="i-Jo1SSRUAoT2J5ekZkEHGx6" type="date">
-            Stockholm den 14 november 1989 Daniel Tarschys (fp) Barbro Westerholm
-            (fp) Ulla Orring (fp)
+            Stockholm den 14 november 1989
+          </p>
+          <p type="signatureBlock" id="i-3bVaaYgPtHpSSTzPuemTaJ">
+            Daniel Tarschys (fp) Barbro Westerholm (fp) Ulla Orring (fp)
           </p>
           <p xml:id="i-PGf8c9oBYcn9sPbh4ZvyeA">
             Ingrid Ronne-Björkqvist (fp)

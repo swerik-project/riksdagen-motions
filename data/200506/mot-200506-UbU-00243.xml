@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00243">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-2ggBvfkHRn3s8FvFEPLxjs"/>
           <note type="signatory" corresp="i-VHSPVhF5LjvV5m4yU1W3FJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SmBV5feF9RVeaMNZ5K7Hsm">
+        <correspAction xml:id="i-SmBV5feF9RVeaMNZ5K7Hsm" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PbduaAiCfDhQcNkXFDQqfG">
+        <correspAction xml:id="i-PbduaAiCfDhQcNkXFDQqfG" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Qtk8vqcCJtWZjYLPeTYa3Q">
+        <correspAction xml:id="i-Qtk8vqcCJtWZjYLPeTYa3Q" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Xg8zVTYm3JeNiVMbJU3JvE"/>
+        <correspAction xml:id="i-Xg8zVTYm3JeNiVMbJU3JvE" type="assigned"/>
         <correspContext corresp="i-Xg8zVTYm3JeNiVMbJU3JvE">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_243/mot_200506_Ub_243-0001.pdf"/>
-      <div type="motHeader" xml:id="i-A7FzGwpbE4Lo65rYJF6qUX">
-        <div type="motTitle" xml:id="i-PxXLeXhvVsULkZBZJrcfud"/>
-        <div type="motSubmissionInfo" xml:id="i-HX3312GY3zjVRK4p6BnSUh"/>
+      <div xml:id="i-A7FzGwpbE4Lo65rYJF6qUX" type="motHeader">
+        <div xml:id="i-PxXLeXhvVsULkZBZJrcfud" type="motTitle"/>
+        <div xml:id="i-HX3312GY3zjVRK4p6BnSUh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Euv89J2PzfmNfdWUp7FA75">
+      <div xml:id="i-Euv89J2PzfmNfdWUp7FA75" type="motBody">
         <div xml:id="i-VBrsK6QKEcescm3mg3e6cS">
           <p xml:id="i-8DQNK7BKQyXfmX89kB5ULT">
             2
@@ -167,10 +167,12 @@
           </p>
           <p xml:id="i-TCYLhYDnuQXNGepdh4sfA4">
             aktiviteter. Regeringen bör återkomma till riksdagen med förslag
-            i linje med vad som anförs i motionen. Stockholm den 21 september
-            2005
+            i linje med vad som anförs i motionen.
           </p>
-          <p xml:id="i-TgyA8w5EkSd23ERMQC8Fjf">
+          <p type="date" id="i-WfcuRdE5wheXKxEdnK8R9j">
+            Stockholm den 21 september 2005
+          </p>
+          <p xml:id="i-TgyA8w5EkSd23ERMQC8Fjf" type="signatureBlock">
             Agne Hansson (c) Birgitta Carlsson (c)
           </p>
         </div>

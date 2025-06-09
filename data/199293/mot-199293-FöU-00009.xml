@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-FöU-00009">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-7pth3hroNEXFT34XUAtauT</idno>
-            <name>Bengt Kindbom </name>
+            <name>Bengt Kindbom</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-VHSPVhF5LjvV5m4yU1W3FJ</idno>
-            <name>Birgitta Carlsson </name>
+            <name>Birgitta Carlsson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-5jLvgtZLz4tn3NhaKToY29</idno>
-            <name>Holger Gustafsson </name>
+            <name>Holger Gustafsson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-SXZh69BE992c1nUJgYwVhh"/>
+        <correspAction xml:id="i-SXZh69BE992c1nUJgYwVhh" type="basedOn"/>
         <correspContext corresp="i-SXZh69BE992c1nUJgYwVhh">
           <ref>Proposition 1992/93:150</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-VHSPVhF5LjvV5m4yU1W3FJ"/>
           <note type="signatory" corresp="i-5jLvgtZLz4tn3NhaKToY29"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4vo7eg5sAhGG8RbPZByoWe">
+        <correspAction xml:id="i-4vo7eg5sAhGG8RbPZByoWe" type="referral">
           <date when="1993-05-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HzFMwBCx6Du4D7X1dPp1Qy">
+        <correspAction xml:id="i-HzFMwBCx6Du4D7X1dPp1Qy" type="dismissal">
           <date when="1993-05-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4NpXNssNGTYHcLwRF1Vvu6">
+        <correspAction xml:id="i-4NpXNssNGTYHcLwRF1Vvu6" type="submission">
           <date when="1993-05-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-A5muq4RtBAixtpMEfJCo4d">
+        <correspAction xml:id="i-A5muq4RtBAixtpMEfJCo4d" type="referral">
           <date when="1993-05-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GW3gbo34tVPPVnVQPZ3U3G">
+        <correspAction xml:id="i-GW3gbo34tVPPVnVQPZ3U3G" type="dismissal">
           <date when="1993-05-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JRez7VNDE94DbD8Hy59ySt">
+        <correspAction xml:id="i-JRez7VNDE94DbD8Hy59ySt" type="submission">
           <date when="1993-05-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FKz2XRPieLQhXrJUHQ5vS6"/>
+        <correspAction xml:id="i-FKz2XRPieLQhXrJUHQ5vS6" type="assigned"/>
         <correspContext corresp="i-FKz2XRPieLQhXrJUHQ5vS6">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_FöU_9/mot_199293_FöU_9-001.pdf"/>
-      <div type="motHeader" xml:id="i-VHBQrBWsVYmD5kdAu1Nev1">
-        <div type="motTitle" xml:id="i-5QgbPC8kq4wKRGuFX2iEJ8"/>
-        <div type="motSubmissionInfo" xml:id="i-P3oGU1W7DdMSxoLBZig88z"/>
+      <div xml:id="i-VHBQrBWsVYmD5kdAu1Nev1" type="motHeader">
+        <div xml:id="i-5QgbPC8kq4wKRGuFX2iEJ8" type="motTitle"/>
+        <div xml:id="i-P3oGU1W7DdMSxoLBZig88z" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AdMHFjfLJJ84yUZxR4WeM4">
+      <div xml:id="i-AdMHFjfLJJ84yUZxR4WeM4" type="motBody">
         <div xml:id="i-CG5usFCPci1x1Z1LMFqsa">
           <p xml:id="i-BeWRxhssUKhLpVRuMLoRFs">
             Motion till riksdagen
@@ -203,7 +203,13 @@
           <p xml:id="i-9mX6j3qoY2anpHMAM6h4jC">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             beslutar att Försvarets internationella centrum lokali- seras
-            till Karlsborg. Stockholm den 6 maj 1993 Bengt Kindbom (c)
+            till Karlsborg.
+          </p>
+          <p type="date" id="i-R9YUveBxvHR8ozTndTpuXm">
+            Stockholm den 6 maj 1993
+          </p>
+          <p type="signatureBlock" id="i-JpY5cP45UsBPvpQ6e9UYJL">
+            Bengt Kindbom (c)
           </p>
           <p xml:id="i-BaiJ7q2iF75yZzUHJbQXpb">
             Birgitta Carlsson (c) Holger Gustafsson (kds)

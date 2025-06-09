@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00406">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-GYtcJgBCFrmaR3Nmfeob9y">
           <note type="signatory" corresp="i-MVzhVeKwRGmjHjHoSrReg9"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UE7ds9YAse7fWGvWPJJXZq">
+        <correspAction xml:id="i-UE7ds9YAse7fWGvWPJJXZq" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KHkcJ2FMqgfZE9qyhU6hEG">
+        <correspAction xml:id="i-KHkcJ2FMqgfZE9qyhU6hEG" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4qvtMa5DpfpbmyLdhxzrFc">
+        <correspAction xml:id="i-4qvtMa5DpfpbmyLdhxzrFc" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JjQFgq8FKT33BYdCMztd1z"/>
+        <correspAction xml:id="i-JjQFgq8FKT33BYdCMztd1z" type="assigned"/>
         <correspContext corresp="i-JjQFgq8FKT33BYdCMztd1z">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_406/mot_200405_Sk_406-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KbBDQUVmdNiMTencH7ufR6">
-        <div type="motTitle" xml:id="i-K6w1hLYg39Rc3iW3rYZDqy"/>
-        <div type="motSubmissionInfo" xml:id="i-E5bFJhP9bPsiYvEN4hstj7"/>
+      <div xml:id="i-KbBDQUVmdNiMTencH7ufR6" type="motHeader">
+        <div xml:id="i-K6w1hLYg39Rc3iW3rYZDqy" type="motTitle"/>
+        <div xml:id="i-E5bFJhP9bPsiYvEN4hstj7" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2TXtV6FEXQPEoCNdURcGmG">
+      <div xml:id="i-2TXtV6FEXQPEoCNdURcGmG" type="motBody">
         <div xml:id="i-76mo3VdV6dhN3w32nwEbqG">
           <p xml:id="i-HjyxJPa72y3ZgiLD3KawRf">
             2004/05 mnr: Sk406 pnr: s7052
@@ -123,9 +123,12 @@
           <p xml:id="i-LxeTd3ohaPMpbjNiy4Vyzn">
             variationer på grund av säsong. Jag är medveten om att det pågår
             en översyn och vill understryka behovet av radikala förslag med
-            schablonbeskattning som en lösning. Stockholm den 1 oktober 2004
+            schablonbeskattning som en lösning.
           </p>
-          <p xml:id="i-SzzGarrsYMjyPiYjVioaAS">
+          <p type="date" id="i-5pX3UBGNEm1eaEboDaqdu7">
+            Stockholm den 1 oktober 2004
+          </p>
+          <p xml:id="i-SzzGarrsYMjyPiYjVioaAS" type="signatureBlock">
             Börje Vestlund (s)
           </p>
         </div>

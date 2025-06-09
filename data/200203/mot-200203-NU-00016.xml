@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-NU-00016">
   <teiHeader>
     <fileDesc>
@@ -83,7 +83,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7daJ5uqa55LncVQLRAPH9F"/>
+        <correspAction xml:id="i-7daJ5uqa55LncVQLRAPH9F" type="basedOn"/>
         <correspContext corresp="i-7daJ5uqa55LncVQLRAPH9F">
           <ref>Proposition 2002/03:86</ref>
         </correspContext>
@@ -98,16 +98,16 @@
           <note type="signatory" corresp="i-DKsVYU73WDtSTFEeLoboVx"/>
           <note type="signatory" corresp="i-D74cdq6EQpWG5dWigfnSSw"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-E4RJjDCQA91TctipGySw7A">
+        <correspAction xml:id="i-E4RJjDCQA91TctipGySw7A" type="referral">
           <date when="2003-05-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DfcESbtHGMGyETLN9yLet9">
+        <correspAction xml:id="i-DfcESbtHGMGyETLN9yLet9" type="dismissal">
           <date when="2003-05-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VsYw6SbKqiKg7DyAtppq6W">
+        <correspAction xml:id="i-VsYw6SbKqiKg7DyAtppq6W" type="submission">
           <date when="2003-05-09"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SMydaBpbedKTYxtTBFzik7"/>
+        <correspAction xml:id="i-SMydaBpbedKTYxtTBFzik7" type="assigned"/>
         <correspContext corresp="i-SMydaBpbedKTYxtTBFzik7">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -121,11 +121,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_N_0016/mot_200203_N_0016-0001.pdf"/>
-      <div type="motHeader" xml:id="i-S4X4n9ksWaGc6w6GdNMgmn">
-        <div type="motTitle" xml:id="i-R1ynoXKAumqErrypU2CT9n"/>
-        <div type="motSubmissionInfo" xml:id="i-QLLM7KuqNrYLcLrUd2ECKz"/>
+      <div xml:id="i-S4X4n9ksWaGc6w6GdNMgmn" type="motHeader">
+        <div xml:id="i-R1ynoXKAumqErrypU2CT9n" type="motTitle"/>
+        <div xml:id="i-QLLM7KuqNrYLcLrUd2ECKz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4KExj3fKi1CbEMoCRC5o9d">
+      <div xml:id="i-4KExj3fKi1CbEMoCRC5o9d" type="motBody">
         <div xml:id="i-Mqiqkn3QUt3DdidwkegTCs">
           <p xml:id="i-AoX3wscSLBrfovxkpdQZXa">
             28
@@ -394,10 +394,11 @@
             måste företaget i enlighet med aktiebolagslagen likvideras senast
             den 15 september 2003. Problemen har påtalats av revisorerna redan
             före bolagiseringen utan att regeringen agerat. Representanter
-            från &lt;Näringsdepartementet har kontinuerligt funnits i SJ:s styrelse.
-            Att regeringen inte erkänner sitt ansvar för den uppkomna situationen,
-            utan i stället skyller ifrån sig på revisorerna, SJ:s tidigare
-            ledning och på den styrelse som regeringen själv utsett, är beklämmande.
+            från &lt;Näringsdepartementet har kontinuerligt funnits i SJ:s
+            styrelse. Att regeringen inte erkänner sitt ansvar för den uppkomna
+            situationen, utan i stället skyller ifrån sig på revisorerna,
+            SJ:s tidigare ledning och på den styrelse som regeringen själv
+            utsett, är beklämmande.
           </p>
           <p xml:id="i-CxpJv5JLShJFiV4Zt6YRaV">
             5.3 Strategi saknas
@@ -665,7 +666,10 @@
             Detta bör ges regeringen till känna.
           </p>
           <p xml:id="i-B86XPRzkHxqH4wfjiFv7A2" type="date">
-            Stockholm den 9 maj 2003 Mikael Odenberg (m)
+            Stockholm den 9 maj 2003
+          </p>
+          <p type="signatureBlock" id="i-TzpPN2ofhEWkE9iLYmz49C">
+            Mikael Odenberg (m)
           </p>
           <p xml:id="i-6r6aLti9VXmtnbR7DDzfZG">
             Ulla Löfgren (m) Stefan Hagfeldt (m) Henrik von Sydow (m) Carl-Axel

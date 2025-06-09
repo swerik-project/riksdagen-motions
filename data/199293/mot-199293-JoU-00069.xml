@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-JoU-00069">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-KawwYRbfNooyPngtdSHu1B</idno>
-            <name>Ulla Orring </name>
+            <name>Ulla Orring</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-LanaiprnBC9N12eQx8L3xv"/>
+        <correspAction xml:id="i-LanaiprnBC9N12eQx8L3xv" type="basedOn"/>
         <correspContext corresp="i-LanaiprnBC9N12eQx8L3xv">
           <ref>Proposition 1992/93:226</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-KawwYRbfNooyPngtdSHu1B"/>
           <note type="signatory" corresp="i-KawwYRbfNooyPngtdSHu1B"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-6SDrcvLfVUAibmWfgcC7an">
+        <correspAction xml:id="i-6SDrcvLfVUAibmWfgcC7an" type="referral">
           <date when="1993-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6nyrcmhwCVWkTFRyAbfGy3">
+        <correspAction xml:id="i-6nyrcmhwCVWkTFRyAbfGy3" type="dismissal">
           <date when="1993-03-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-gQS72P2VhzgwZ2DZF9Vp7">
+        <correspAction xml:id="i-gQS72P2VhzgwZ2DZF9Vp7" type="submission">
           <date when="1993-03-24"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-SF8evnv12opKWxE9ztE44c">
+        <correspAction xml:id="i-SF8evnv12opKWxE9ztE44c" type="referral">
           <date when="1993-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7F4Jy1joAf2BeZYCnVDwXb">
+        <correspAction xml:id="i-7F4Jy1joAf2BeZYCnVDwXb" type="dismissal">
           <date when="1993-03-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3wQqMvysZkg9vrRJJFcdDF">
+        <correspAction xml:id="i-3wQqMvysZkg9vrRJJFcdDF" type="submission">
           <date when="1993-03-24"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5Wi1V4SNVUAVRTbGwHU78Q"/>
+        <correspAction xml:id="i-5Wi1V4SNVUAVRTbGwHU78Q" type="assigned"/>
         <correspContext corresp="i-5Wi1V4SNVUAVRTbGwHU78Q">
           <ref type="assignedTo">Jordbruksutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_JoU_69/mot_199293_JoU_69-001.pdf"/>
-      <div type="motHeader" xml:id="i-4obcLm5cS6uprxeRVHgR4i">
-        <div type="motTitle" xml:id="i-CWQLqJYcFhFH7PhQ9Sun3Y"/>
-        <div type="motSubmissionInfo" xml:id="i-Scm1RbAHJ6Qa5t7ojLUJbg"/>
+      <div xml:id="i-4obcLm5cS6uprxeRVHgR4i" type="motHeader">
+        <div xml:id="i-CWQLqJYcFhFH7PhQ9Sun3Y" type="motTitle"/>
+        <div xml:id="i-Scm1RbAHJ6Qa5t7ojLUJbg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4cA9nzHLASwDTAQpKgjCjV">
+      <div xml:id="i-4cA9nzHLASwDTAQpKgjCjV" type="motBody">
         <div xml:id="i-XSWamSh3uHjKKbBebEZWnt">
           <p xml:id="i-TYyLZevkFr9Pyi5HaDnnZg">
             Motion till riksdagen
@@ -155,9 +155,12 @@
             skall vara fem
           </p>
           <p xml:id="i-GXenQWWdgqFzKLm7FCL2za">
-            år. Stockholm den 24 mars 1993
+            år.
           </p>
-          <p xml:id="i-Uvmc3PFbhJvfu3i42JLpSq">
+          <p type="date" id="i-8w2wUJUoVtsTkHXAoasEdQ">
+            Stockholm den 24 mars 1993
+          </p>
+          <p xml:id="i-Uvmc3PFbhJvfu3i42JLpSq" type="signatureBlock">
             Ulla Orring (fp)
           </p>
         </div>

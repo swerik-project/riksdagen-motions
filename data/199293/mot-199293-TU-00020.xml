@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-TU-00020">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="man">
             <idno>i-SfnrsjEZBg9vdQjkU5VSZ2</idno>
-            <name>Ian Wachtmeister </name>
+            <name>Ian Wachtmeister</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-PvZh9Zhc6sdAt87Ng4CMcQ</idno>
-            <name>Kenneth Attefors </name>
+            <name>Kenneth Attefors</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-E7JmLzRkc2sJ2Bt1Dy4Lf1"/>
+        <correspAction xml:id="i-E7JmLzRkc2sJ2Bt1Dy4Lf1" type="basedOn"/>
         <correspContext corresp="i-E7JmLzRkc2sJ2Bt1Dy4Lf1">
           <ref>Proposition 1992/93:128</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-SfnrsjEZBg9vdQjkU5VSZ2"/>
           <note type="signatory" corresp="i-PvZh9Zhc6sdAt87Ng4CMcQ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TxEBMBcEaWLBz8L7eWrP6Y">
+        <correspAction xml:id="i-TxEBMBcEaWLBz8L7eWrP6Y" type="referral">
           <date when="1992-11-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Gmqqw7VKMPt1V6CzeS1xdX">
+        <correspAction xml:id="i-Gmqqw7VKMPt1V6CzeS1xdX" type="dismissal">
           <date when="1992-11-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-X7KsSc9imwW6fkFrXrdgVg">
+        <correspAction xml:id="i-X7KsSc9imwW6fkFrXrdgVg" type="submission">
           <date when="1992-11-17"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-bNLzUDwUqYQv4Uqyp3Rrk">
+        <correspAction xml:id="i-bNLzUDwUqYQv4Uqyp3Rrk" type="referral">
           <date when="1992-11-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UMmoyh4dgiku6zhoHcbB8m">
+        <correspAction xml:id="i-UMmoyh4dgiku6zhoHcbB8m" type="dismissal">
           <date when="1992-11-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TBYLtcNdr9JaCZ7iZjrum4">
+        <correspAction xml:id="i-TBYLtcNdr9JaCZ7iZjrum4" type="submission">
           <date when="1992-11-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Qy8gvKttJ3ukbFAHVFDWrF"/>
+        <correspAction xml:id="i-Qy8gvKttJ3ukbFAHVFDWrF" type="assigned"/>
         <correspContext corresp="i-Qy8gvKttJ3ukbFAHVFDWrF">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_TU_20/mot_199293_TU_20-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-JnyKgZzKCdoFf2FpkAUvfr">
-        <div type="motTitle" xml:id="i-3hZggSq4WT1UCB47S9NTqS"/>
-        <div type="motSubmissionInfo" xml:id="i-G9jQVHeo42TqeQLyK9UYJL"/>
+      <div xml:id="i-JnyKgZzKCdoFf2FpkAUvfr" type="motHeader">
+        <div xml:id="i-3hZggSq4WT1UCB47S9NTqS" type="motTitle"/>
+        <div xml:id="i-G9jQVHeo42TqeQLyK9UYJL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DRBps4CegAdF8miNhkTRS7">
+      <div xml:id="i-DRBps4CegAdF8miNhkTRS7" type="motBody">
         <div xml:id="i-XkTEVmA4QxzoxQeBuJRUYx">
           <p xml:id="i-9LNbLCqWCVGhHQttH3XD8e">
             (É
@@ -165,9 +165,12 @@
             Mot. 1992/93
           </p>
           <p xml:id="i-MxXds5j3SH2QTH7EFVngiG">
-            T20 Stockholm den 11 november 1992
+            T20
           </p>
-          <p xml:id="i-TgJTe3KVpkCDHyHkCEmhYt">
+          <p type="date" id="i-Hb3dfPuUEx529mgNwse55r">
+            Stockholm den 11 november 1992
+          </p>
+          <p xml:id="i-TgJTe3KVpkCDHyHkCEmhYt" type="signatureBlock">
             Ian Wachtmeister (nyd) Kenneth Attefors (nyd)
           </p>
         </div>

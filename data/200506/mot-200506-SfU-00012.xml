@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00012">
   <teiHeader>
     <fileDesc>
@@ -42,7 +42,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Qd1AJ5jQKRRM3RnXCStvCq"/>
+        <correspAction xml:id="i-Qd1AJ5jQKRRM3RnXCStvCq" type="basedOn"/>
         <correspContext corresp="i-Qd1AJ5jQKRRM3RnXCStvCq">
           <ref>Proposition 2005/06:20</ref>
         </correspContext>
@@ -51,19 +51,19 @@
           <note type="signatory" corresp="i-JJGD2ECwHv6xGCZyyrtKmA"/>
           <note type="signatory" corresp="i-Evjo9hsKrPvb3KMyegAipb"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EvFbBA7iF2EoCnGZ2Xu2Wz">
+        <correspAction xml:id="i-EvFbBA7iF2EoCnGZ2Xu2Wz" type="referral">
           <date when="2005-12-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Md9ecGgtfhnKqDFKCWX21G">
+        <correspAction xml:id="i-Md9ecGgtfhnKqDFKCWX21G" type="dismissal">
           <date when="2005-12-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Nzm9geKWuCXpuhR44rEADN">
+        <correspAction xml:id="i-Nzm9geKWuCXpuhR44rEADN" type="dismissal">
           <date when="2005-12-16"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DCHduNqMih3zujskqoC4kW">
+        <correspAction xml:id="i-DCHduNqMih3zujskqoC4kW" type="submission">
           <date when="2005-12-15"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8f7kfyzYQ3YuxJEz8QzG3i"/>
+        <correspAction xml:id="i-8f7kfyzYQ3YuxJEz8QzG3i" type="assigned"/>
         <correspContext corresp="i-8f7kfyzYQ3YuxJEz8QzG3i">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -78,11 +78,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_12/mot_200506_Sf_12-0001.pdf"/>
-      <div type="motHeader" xml:id="i-M1nmxtp8WeXNeT4jg2pGwW">
-        <div type="motTitle" xml:id="i-TSfsdRJ71HpeyrCAWeMyWt"/>
-        <div type="motSubmissionInfo" xml:id="i-2skTb6XFAazKgqsCBwccbm"/>
+      <div xml:id="i-M1nmxtp8WeXNeT4jg2pGwW" type="motHeader">
+        <div xml:id="i-TSfsdRJ71HpeyrCAWeMyWt" type="motTitle"/>
+        <div xml:id="i-2skTb6XFAazKgqsCBwccbm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3K42G1EzP9vAdaGdCZZ7DF">
+      <div xml:id="i-3K42G1EzP9vAdaGdCZZ7DF" type="motBody">
         <div xml:id="i-Qzzdx7uRbGHjsUBazVVv4h">
           <p xml:id="i-J5utYVKFN66gzdM4Cm9oXe">
             2005/06 mnr: Sf12 pnr: m1690
@@ -170,8 +170,10 @@
             yrkar vi avslag på propositionen.
           </p>
           <p xml:id="i-9c6tzgnCNn9S2oXXgnjjDs" type="date">
-            Stockholm den 7 december 2005 Carl-Axel Roslund (m) Cecilia Magnusson
-            (m)
+            Stockholm den 7 december 2005
+          </p>
+          <p type="signatureBlock" id="i-ENcnJnipKHuMj9UmbRmtwG">
+            Carl-Axel Roslund (m) Cecilia Magnusson (m)
           </p>
         </div>
       </div>

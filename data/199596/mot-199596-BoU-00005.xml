@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-BoU-00005">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-GoPG5SYP7B72kfnF4EmN5b</idno>
-            <name>Lennart Brunander </name>
+            <name>Lennart Brunander</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-YAFJQStxQXdCtYPxFH9D9a</idno>
-            <name>Ingbritt Irhammar </name>
+            <name>Ingbritt Irhammar</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-TX8UjKrUpUeZgE2dqKJCFc</idno>
-            <name>Andre vice talman Görel Thurdin </name>
+            <name>Andre vice talman Görel Thurdin</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-XjNhShtEhuBtrXPDhEqWRL"/>
+        <correspAction xml:id="i-XjNhShtEhuBtrXPDhEqWRL" type="basedOn"/>
         <correspContext corresp="i-XjNhShtEhuBtrXPDhEqWRL">
           <ref>Proposition 1995/96:78</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-GoPG5SYP7B72kfnF4EmN5b"/>
           <note type="signatory" corresp="i-TX8UjKrUpUeZgE2dqKJCFc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PqnMpuoqrYmKSq1dHZ2Tvg">
+        <correspAction xml:id="i-PqnMpuoqrYmKSq1dHZ2Tvg" type="referral">
           <date when="1995-11-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Bx577TP9vszxeDs6QCAW6U">
+        <correspAction xml:id="i-Bx577TP9vszxeDs6QCAW6U" type="dismissal">
           <date when="1995-11-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BR8xDPye8cFXFr7Z9SHSv8">
+        <correspAction xml:id="i-BR8xDPye8cFXFr7Z9SHSv8" type="submission">
           <date when="1995-11-08"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-MW6evfJEV266DWJ8ytpcfm">
+        <correspAction xml:id="i-MW6evfJEV266DWJ8ytpcfm" type="referral">
           <date when="1995-11-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4HzHs7dDvyY6MJtVyxRMYH">
+        <correspAction xml:id="i-4HzHs7dDvyY6MJtVyxRMYH" type="dismissal">
           <date when="1995-11-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WjwF6EJ51sPpbpEHBWcwbz">
+        <correspAction xml:id="i-WjwF6EJ51sPpbpEHBWcwbz" type="submission">
           <date when="1995-11-08"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MhRdKGduNck9jYqJBQn8rY"/>
+        <correspAction xml:id="i-MhRdKGduNck9jYqJBQn8rY" type="assigned"/>
         <correspContext corresp="i-MhRdKGduNck9jYqJBQn8rY">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -114,11 +114,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_BO_0005/mot_199596_BO_0005-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_BO_0005/mot_199596_BO_0005-001.pdf"/>
-      <div type="motHeader" xml:id="i-6Dqwqdq3U493bJ7BSkUQGc">
-        <div type="motTitle" xml:id="i-FHY5Q9em37v4zCGeGF1e3M"/>
-        <div type="motSubmissionInfo" xml:id="i-RiSnn3mei9QoMZbzREfgNj"/>
+      <div xml:id="i-6Dqwqdq3U493bJ7BSkUQGc" type="motHeader">
+        <div xml:id="i-FHY5Q9em37v4zCGeGF1e3M" type="motTitle"/>
+        <div xml:id="i-RiSnn3mei9QoMZbzREfgNj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BfyKuDVwsnhW4ZafpusJpK">
+      <div xml:id="i-BfyKuDVwsnhW4ZafpusJpK" type="motBody">
         <div xml:id="i-WmswoSvYdSdtTgU6e4W3qx">
           <p xml:id="i-UcQ8vir7K6VxCyc7Qec64Q">
             1995/96 Bo5 Bo3-5
@@ -789,7 +789,10 @@
             m.m.
           </p>
           <p xml:id="i-GZ8BTQKSGWDCchikNYo6e" type="date">
-            Stockholm den 8 november 1995 Görel Thurdin (c)
+            Stockholm den 8 november 1995
+          </p>
+          <p type="signatureBlock" id="i-6uqCAXMc3j8sDXgXcshAWu">
+            Görel Thurdin (c)
           </p>
           <p xml:id="i-pvqFzyf5WgtdSNREVSbvM">
             Ingbritt Irhammar (c)

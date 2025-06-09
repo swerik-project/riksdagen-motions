@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00543">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2NNWr2UyM6pNef5aCWyGKJ">
+        <correspAction xml:id="i-2NNWr2UyM6pNef5aCWyGKJ" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-A8shvWQmTdpHGku5KZzhRa">
+        <correspAction xml:id="i-A8shvWQmTdpHGku5KZzhRa" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4gYhUWCM7RGtExQEMzDEzJ">
+        <correspAction xml:id="i-4gYhUWCM7RGtExQEMzDEzJ" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4Lykbn7caXQTrMfhMTUgWU"/>
+        <correspAction xml:id="i-4Lykbn7caXQTrMfhMTUgWU" type="assigned"/>
         <correspContext corresp="i-4Lykbn7caXQTrMfhMTUgWU">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_543/mot_200506_MJ_543-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DMRfhK8rzpAPW7S6xdCuRf">
-        <div type="motTitle" xml:id="i-UPMo57BPoRHTpr8vFpw4FP"/>
-        <div type="motSubmissionInfo" xml:id="i-CVs2CGKaq44MrXFL1PwHJd"/>
+      <div xml:id="i-DMRfhK8rzpAPW7S6xdCuRf" type="motHeader">
+        <div xml:id="i-UPMo57BPoRHTpr8vFpw4FP" type="motTitle"/>
+        <div xml:id="i-CVs2CGKaq44MrXFL1PwHJd" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-V39U1BVaeVeavfdFzFqzeP">
+      <div xml:id="i-V39U1BVaeVeavfdFzFqzeP" type="motBody">
         <div xml:id="i-DGgoVUuiaFetUajc5drEoB">
           <p xml:id="i-LYcoZpJoCHGgBoSzumXeEa">
             2005/06 mnr: MJ543 pnr: kd1039
@@ -178,8 +178,10 @@
             på skytteområdet.
           </p>
           <p xml:id="i-RJzFfwEyqcMFJKJFocD66w" type="date">
-            Stockholm den 26 september 2005 Dan Kihlström (kd) Ragnwi Marcelind
-            (kd)
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-UNfjrEyBRZ7DD2r7pic3hA">
+            Dan Kihlström (kd) Ragnwi Marcelind (kd)
           </p>
         </div>
       </div>

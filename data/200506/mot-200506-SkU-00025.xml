@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00025">
   <teiHeader>
     <fileDesc>
@@ -35,7 +35,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-EQGCoSsxueKkW6LUKYMfxD"/>
+        <correspAction xml:id="i-EQGCoSsxueKkW6LUKYMfxD" type="basedOn"/>
         <correspContext corresp="i-EQGCoSsxueKkW6LUKYMfxD">
           <ref>Proposition 2005/06:190</ref>
         </correspContext>
@@ -43,19 +43,19 @@
         <correspContext corresp="i-9uZxYBkW1EoyuFpFH93nLc">
           <note type="signatory" corresp="i-McV8uzEvZdxJephaZbqN9X"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-6GkkE3u5fEiCrcLYAG6QA7">
+        <correspAction xml:id="i-6GkkE3u5fEiCrcLYAG6QA7" type="referral">
           <date when="2006-04-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KXda7yqVx9pv8Rs31Pi492">
+        <correspAction xml:id="i-KXda7yqVx9pv8Rs31Pi492" type="dismissal">
           <date when="2006-04-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VthhHXn7P4QDMjLTzPvR2B">
+        <correspAction xml:id="i-VthhHXn7P4QDMjLTzPvR2B" type="dismissal">
           <date when="2006-04-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MXqsX4F7SqcDVPdFkdscL1">
+        <correspAction xml:id="i-MXqsX4F7SqcDVPdFkdscL1" type="submission">
           <date when="2006-04-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CLWUtvWCciVrVk8SPETJvv"/>
+        <correspAction xml:id="i-CLWUtvWCciVrVk8SPETJvv" type="assigned"/>
         <correspContext corresp="i-CLWUtvWCciVrVk8SPETJvv">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_25/mot_200506_Sk_25-0001.pdf"/>
-      <div type="motHeader" xml:id="i-APQPCLrL8JTyKZRT5sbwuE">
-        <div type="motTitle" xml:id="i-Kw96YDoEoDXrMY1vpBUnTU"/>
-        <div type="motSubmissionInfo" xml:id="i-XUeb8e8hFrNexpfbbRmWXQ"/>
+      <div xml:id="i-APQPCLrL8JTyKZRT5sbwuE" type="motHeader">
+        <div xml:id="i-Kw96YDoEoDXrMY1vpBUnTU" type="motTitle"/>
+        <div xml:id="i-XUeb8e8hFrNexpfbbRmWXQ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LBXp4cGoL4oUEruZXgN69F">
+      <div xml:id="i-LBXp4cGoL4oUEruZXgN69F" type="motBody">
         <div xml:id="i-KwmCHri7oGcAy6ff7CSDoC">
           <p xml:id="i-Ebdj7bAcy8UrgDkYomZWo7">
             2005/06 mnr: Sk25 pnr: m1712
@@ -178,7 +178,10 @@
             den övriga transportsektorn inlemmas i ett handelssystem med utsläppsrätter.
           </p>
           <p xml:id="i-Q76mPCF43FADXrHLQuSPsb" type="date">
-            Stockholm den 21 april 2006 Anders G Högmark (m)
+            Stockholm den 21 april 2006
+          </p>
+          <p type="signatureBlock" id="i-2x8QUPKAM379CXL9dpoaLP">
+            Anders G Högmark (m)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-LU-00204">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="man">
             <idno>i-2ggBvfkHRn3s8FvFEPLxjs</idno>
-            <name>Agne Hansson </name>
+            <name>Agne Hansson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-VHSPVhF5LjvV5m4yU1W3FJ</idno>
-            <name>Birgitta Carlsson </name>
+            <name>Birgitta Carlsson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-2ggBvfkHRn3s8FvFEPLxjs"/>
           <note type="signatory" corresp="i-VHSPVhF5LjvV5m4yU1W3FJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MTubcbtpycyQfWGNmaMh8X">
+        <correspAction xml:id="i-MTubcbtpycyQfWGNmaMh8X" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2FeAhN8VN6YoeJxu59TpEF">
+        <correspAction xml:id="i-2FeAhN8VN6YoeJxu59TpEF" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EwMEYnD12bD5F6FcaTUNP4">
+        <correspAction xml:id="i-EwMEYnD12bD5F6FcaTUNP4" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-WKhxSt7FHN4ktJ4oykTyT3">
+        <correspAction xml:id="i-WKhxSt7FHN4ktJ4oykTyT3" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RqgnhfdxVqJJi3hphmTXsp">
+        <correspAction xml:id="i-RqgnhfdxVqJJi3hphmTXsp" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XqNx2CiTFnVUR1Z6g4R5cD">
+        <correspAction xml:id="i-XqNx2CiTFnVUR1Z6g4R5cD" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XUDHi6kFBZY9eBg8RYkY3r"/>
+        <correspAction xml:id="i-XUDHi6kFBZY9eBg8RYkY3r" type="assigned"/>
         <correspContext corresp="i-XUDHi6kFBZY9eBg8RYkY3r">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_L_0204/mot_199798_L_0204-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Q9qj2X5uYgnhT8B8LbMvQn">
-        <div type="motTitle" xml:id="i-Kw2jHPai5Ugeh6iTY3foDP"/>
-        <div type="motSubmissionInfo" xml:id="i-DbnUADqpiRisehVRVRvVLh"/>
+      <div xml:id="i-Q9qj2X5uYgnhT8B8LbMvQn" type="motHeader">
+        <div xml:id="i-Kw2jHPai5Ugeh6iTY3foDP" type="motTitle"/>
+        <div xml:id="i-DbnUADqpiRisehVRVRvVLh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-A4eKWs4UXremGhEZKEZ4BK">
+      <div xml:id="i-A4eKWs4UXremGhEZKEZ4BK" type="motBody">
         <div xml:id="i-PGpVKpqJTrdNMXA7au64si">
           <p xml:id="i-DRtNFNiPWDfWm4Ujt5W94q">
             1997/98 L204 L201-208
@@ -210,9 +210,12 @@
             8 Mot.
           </p>
           <p xml:id="i-2PT4aVeQ55Kwt34aCdjLyB">
-            1997/98L204 Stockholm den 5 oktober 1997
+            1997/98L204
           </p>
-          <p xml:id="i-MKYJw1doHHrsyB5Yicr7w2">
+          <p type="date" id="i-Wn2HVhxfKsYnPUH1jJag3L">
+            Stockholm den 5 oktober 1997
+          </p>
+          <p xml:id="i-MKYJw1doHHrsyB5Yicr7w2" type="signatureBlock">
             Agne Hansson (c) Birgitta Carlsson (c)
           </p>
         </div>

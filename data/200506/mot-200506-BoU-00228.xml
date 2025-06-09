@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-BoU-00228">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-P3VBpLvsZ3iZJS1qnL1tx5">
           <note type="signatory" corresp="i-Nywj47pd422wBAiv8K2vPV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3EkDuFmbeWJG4uTTni1aMz">
+        <correspAction xml:id="i-3EkDuFmbeWJG4uTTni1aMz" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FbqmDEjPLKMyYbPJryiAP2">
+        <correspAction xml:id="i-FbqmDEjPLKMyYbPJryiAP2" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AVgEMvX5fUXH7bqZnpg5i3">
+        <correspAction xml:id="i-AVgEMvX5fUXH7bqZnpg5i3" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YQukStQjyVeXEeGMNhQ94j"/>
+        <correspAction xml:id="i-YQukStQjyVeXEeGMNhQ94j" type="assigned"/>
         <correspContext corresp="i-YQukStQjyVeXEeGMNhQ94j">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Bo_228/mot_200506_Bo_228-0001.pdf"/>
-      <div type="motHeader" xml:id="i-F2Pm4QQims6Pt1MKzijwXt">
-        <div type="motTitle" xml:id="i-3qYutGgwpD69nAH9haqrR4"/>
-        <div type="motSubmissionInfo" xml:id="i-XBJUyi2Wdv6mgpJj6FU32r"/>
+      <div xml:id="i-F2Pm4QQims6Pt1MKzijwXt" type="motHeader">
+        <div xml:id="i-3qYutGgwpD69nAH9haqrR4" type="motTitle"/>
+        <div xml:id="i-XBJUyi2Wdv6mgpJj6FU32r" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-EidZvxvfevsxcr6amctttW">
+      <div xml:id="i-EidZvxvfevsxcr6amctttW" type="motBody">
         <div xml:id="i-AAWY3daS86eaGJJtxdvLr">
           <p xml:id="i-HSHF8892RA5yktRNhi4qYT">
             2005/06 mnr: Bo228 pnr: fp792
@@ -156,9 +156,12 @@
           </p>
           <p xml:id="i-JbWLyptwDCrEovat6zzdbx">
             syfte att dessa skall bli utan tillgångar och därmed berättigade
-            till nu aktuella bidrag. Stockholm den 28 september 2005
+            till nu aktuella bidrag.
           </p>
-          <p xml:id="i-XYBHTSj3UrVsPsQKHeHtUd">
+          <p type="date" id="i-SbCoFpWxBrPaPd8UrC3WFa">
+            Stockholm den 28 september 2005
+          </p>
+          <p xml:id="i-XYBHTSj3UrVsPsQKHeHtUd" type="signatureBlock">
             Jan Ertsborn (fp)
           </p>
         </div>

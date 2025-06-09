@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1964--ak--00882">
   <teiHeader>
     <fileDesc>
       <titleStmt/>
@@ -17,7 +17,7 @@
       <correspDesc/>
     </profileDesc>
     <revisionDesc>
-      <correction who="orcid_0000-0002-7647-4048" when="2024-10-01" corresp="i-2obXwJ6ti3BH1c3xMArWAg">OCR correction</correction>
+      <correction who="orcid_0000-0002-7647-4048" corresp="i-2obXwJ6ti3BH1c3xMArWAg" when="2024-10-01">OCR correction</correction>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -26,11 +26,11 @@
       <fw xml:id="i-2obXwJ6ti3BH1c3xMArWAg">
         Nr 881—887 Motioner i Andra kammaren, nr 881—882 år 1964 1
       </fw>
-      <div type="motHeader" xml:id="i-27BBRtmquyUBerHT64Uhqo">
-        <div type="motTitle" xml:id="i-TN5R4xwj7RxbhTV5YxDL84"/>
-        <div type="motSubmissionInfo" xml:id="i-9cn96FYk5hcR7oGu46Zhmv"/>
+      <div xml:id="i-27BBRtmquyUBerHT64Uhqo" type="motHeader">
+        <div xml:id="i-TN5R4xwj7RxbhTV5YxDL84" type="motTitle"/>
+        <div xml:id="i-9cn96FYk5hcR7oGu46Zhmv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Mpm16e8g18XKyjqDjRaaT9">
+      <div xml:id="i-Mpm16e8g18XKyjqDjRaaT9" type="motBody">
         <div xml:id="i-2SezkAVyQUHQv5d1sBoMQm">
           <p xml:id="i-BXppHd9MWWdsTt4z7ntpuk">
             Nr 881
@@ -40,10 +40,12 @@
             nr 115, angående ändrade grunder för den frivilliga arbetslöshetsförsäkringen.
           </p>
           <p xml:id="i-MuubDDDbfVbTzUVbrcNwf7">
-            (Lika lydande med motion nr 722 i Första kammaren) Stockholm
-            den 8 april 1964
+            (Lika lydande med motion nr 722 i Första kammaren)
           </p>
-          <p xml:id="i-84BbFmjjxgs67cYv8Y99b3">
+          <p type="date" id="i-N5GeTquBEftPskfvhuqUsw">
+            Stockholm den 8 april 1964
+          </p>
+          <p xml:id="i-84BbFmjjxgs67cYv8Y99b3" type="signatureBlock">
             Sigrid Ekendahl Hans Gustafsson Hans Hagnell
           </p>
           <p xml:id="i-ENseVrqdXi66c8t5PPJknF">
@@ -109,7 +111,10 @@
             område.
           </p>
           <p xml:id="i-S9ampiM2uLLDKD3XU5wKXP" type="date">
-            Stockholm den 10 april 1964 Jean Braconier
+            Stockholm den 10 april 1964
+          </p>
+          <p type="signatureBlock" id="i-WeW8ipmmiMsoiHQxnZDoEe">
+            Jean Braconier
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00444">
   <teiHeader>
     <fileDesc>
@@ -54,16 +54,16 @@
           <note type="signatory" corresp="i-U6F8gqiuV2DEZN1aMhyDnJ"/>
           <note type="signatory" corresp="i-S7wLw9aynA5vbRCsqxxL3N"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QUCBt2D4Snh33iPYuYKvJf">
+        <correspAction xml:id="i-QUCBt2D4Snh33iPYuYKvJf" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6bYq7jDXaXjVJ5diHiZxAQ">
+        <correspAction xml:id="i-6bYq7jDXaXjVJ5diHiZxAQ" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WU5Drg1CYhRRVVjMdeC7LN">
+        <correspAction xml:id="i-WU5Drg1CYhRRVVjMdeC7LN" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TXdHbcQpNp4DE6qxSp8QWA"/>
+        <correspAction xml:id="i-TXdHbcQpNp4DE6qxSp8QWA" type="assigned"/>
         <correspContext corresp="i-TXdHbcQpNp4DE6qxSp8QWA">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -78,11 +78,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0444/mot_200304_T_0444-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HWCBRYC8aC2LJ1cRcRqqJ9">
-        <div type="motTitle" xml:id="i-KGGvptQCBFa4DVWmj7dofP"/>
-        <div type="motSubmissionInfo" xml:id="i-R45ceRwTVSCLP1Fbixpdym"/>
+      <div xml:id="i-HWCBRYC8aC2LJ1cRcRqqJ9" type="motHeader">
+        <div xml:id="i-KGGvptQCBFa4DVWmj7dofP" type="motTitle"/>
+        <div xml:id="i-R45ceRwTVSCLP1Fbixpdym" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RijM8MPo2RePfxwpgnxDLY">
+      <div xml:id="i-RijM8MPo2RePfxwpgnxDLY" type="motBody">
         <div xml:id="i-PDEW2Yap7KGiRGse44To1w">
           <p xml:id="i-JpT36p32sEF5GPQgULe3ES">
             2003/04 mnr: T444 pnr: fp279
@@ -139,9 +139,12 @@
             Mot bakgrund av den tid som togs i anspråk för att politiskt
             bereda och sedan projektera och bygga Öresundsbron är det nödvändigt
             att redan nu upprätta en tidtabell för en ny fast förbindelse
-            i norra Öresund. Stockholm den 6 oktober 2003
+            i norra Öresund.
           </p>
-          <p xml:id="i-Ef5nmxF6V27TsDzbqga4dd">
+          <p type="date" id="i-PoFVWm1SnNE8QQYmkhGEZP">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p xml:id="i-Ef5nmxF6V27TsDzbqga4dd" type="signatureBlock">
             Torkild Strandberg (fp) Christer Nylander (fp) Tina Acketoft
             (fp)
           </p>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UU-00010">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-DzBWMrXph5nPxV3WvBzC5r"/>
+        <correspAction xml:id="i-DzBWMrXph5nPxV3WvBzC5r" type="basedOn"/>
         <correspContext corresp="i-DzBWMrXph5nPxV3WvBzC5r">
           <ref>Proposition 2002/03:122</ref>
         </correspContext>
@@ -82,16 +82,16 @@
           <note type="signatory" corresp="i-D8B2Xf6UADbqciPHrqFxSc"/>
           <note type="signatory" corresp="i-Ga4FaAaNvVxH6nfoR7FVAe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WJTwPeBcVVbHeydD7EvGzL">
+        <correspAction xml:id="i-WJTwPeBcVVbHeydD7EvGzL" type="referral">
           <date when="2003-09-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HnhHtSWaahuTwUYGsWi6vG">
+        <correspAction xml:id="i-HnhHtSWaahuTwUYGsWi6vG" type="dismissal">
           <date when="2003-09-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8FQC4R3fQVURSCkhNznBP5">
+        <correspAction xml:id="i-8FQC4R3fQVURSCkhNznBP5" type="submission">
           <date when="2003-09-19"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-V4mfAE7AR9NeevyuWG4Lm5"/>
+        <correspAction xml:id="i-V4mfAE7AR9NeevyuWG4Lm5" type="assigned"/>
         <correspContext corresp="i-V4mfAE7AR9NeevyuWG4Lm5">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -106,11 +106,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_U_0010/mot_200304_U_0010-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XL87zSru6AzU74CVMd3Bb4">
-        <div type="motTitle" xml:id="i-5pybfVzugjGSwqpy4CSNZt"/>
-        <div type="motSubmissionInfo" xml:id="i-B1GeYwzF1CKGgqooKE9KZv"/>
+      <div xml:id="i-XL87zSru6AzU74CVMd3Bb4" type="motHeader">
+        <div xml:id="i-5pybfVzugjGSwqpy4CSNZt" type="motTitle"/>
+        <div xml:id="i-B1GeYwzF1CKGgqooKE9KZv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-B4JBLybeLLui5TpwpnSCYq">
+      <div xml:id="i-B4JBLybeLLui5TpwpnSCYq" type="motBody">
         <div xml:id="i-A6Qx99F13oThoRQy6RAo2G">
           <p xml:id="i-Jojdjvw1cRCGzfzKeLauAM">
             2003/04
@@ -1492,7 +1492,10 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_U_0010/mot_200304_U_0010-0021.pdf"/>
           <p xml:id="i-5ctGHAeyFarsPyv5okGvy1" type="date">
-            Stockholm den 19 september 2003 Carl B Hamilton (fp)
+            Stockholm den 19 september 2003
+          </p>
+          <p type="signatureBlock" id="i-AwRksj6A9VMdYcDyymFzKF">
+            Carl B Hamilton (fp)
           </p>
           <p xml:id="i-R6geVTCtc3yh8f5MFVvLaa">
             Cecilia Wigström (fp) Gabriel Romanus (fp) Lars Leijonborg (fp)

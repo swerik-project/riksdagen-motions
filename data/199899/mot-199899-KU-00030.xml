@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-KU-00030">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-J74sVAjCTSxzD8rbnxRRA</idno>
-            <name>Åsa Torstensson </name>
+            <name>Åsa Torstensson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FKahuHPUB5hmYUQMbrp9LG"/>
+        <correspAction xml:id="i-FKahuHPUB5hmYUQMbrp9LG" type="basedOn"/>
         <correspContext corresp="i-FKahuHPUB5hmYUQMbrp9LG">
           <ref>Proposition 1998/99:140</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-J74sVAjCTSxzD8rbnxRRA"/>
           <note type="signatory" corresp="i-J74sVAjCTSxzD8rbnxRRA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-43KWVVPMqZEeckqRqqjLek">
+        <correspAction xml:id="i-43KWVVPMqZEeckqRqqjLek" type="referral">
           <date when="1999-08-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TwR2fYaoFJ566pivVSmSBG">
+        <correspAction xml:id="i-TwR2fYaoFJ566pivVSmSBG" type="dismissal">
           <date when="1999-08-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-E484M56cqcANXRgW5Wqzfu">
+        <correspAction xml:id="i-E484M56cqcANXRgW5Wqzfu" type="submission">
           <date when="1999-08-13"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GcY65bwRgL3jPiMUo1MFfS">
+        <correspAction xml:id="i-GcY65bwRgL3jPiMUo1MFfS" type="referral">
           <date when="1999-08-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PfGnx6PHDPLjF4PYSmMzZu">
+        <correspAction xml:id="i-PfGnx6PHDPLjF4PYSmMzZu" type="dismissal">
           <date when="1999-08-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HDDNuLSnWCRGpVbdrWfkxd">
+        <correspAction xml:id="i-HDDNuLSnWCRGpVbdrWfkxd" type="submission">
           <date when="1999-08-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Cw4RZYCpRgjs3y3HGrqf1w"/>
+        <correspAction xml:id="i-Cw4RZYCpRgjs3y3HGrqf1w" type="assigned"/>
         <correspContext corresp="i-Cw4RZYCpRgjs3y3HGrqf1w">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_K_0030/mot_199899_K_0030-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7kb8MJnU4jMdkVyFhWiiDC">
-        <div type="motTitle" xml:id="i-SDzvEGYFvqkJ2yXa6pCbkH"/>
-        <div type="motSubmissionInfo" xml:id="i-UPJckojMHd7WYk9pdv9sFs"/>
+      <div xml:id="i-7kb8MJnU4jMdkVyFhWiiDC" type="motHeader">
+        <div xml:id="i-SDzvEGYFvqkJ2yXa6pCbkH" type="motTitle"/>
+        <div xml:id="i-UPJckojMHd7WYk9pdv9sFs" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9gxeiXw9ePdGFRJXdmgXay">
+      <div xml:id="i-9gxeiXw9ePdGFRJXdmgXay" type="motBody">
         <div xml:id="i-K9nxcYemz9wgwTwPar8KaQ">
           <p xml:id="i-5zPm97BC4ugcoZ81qifTBT">
             1998/99 K30 K30
@@ -261,10 +261,12 @@
             underrättelser 1998/99K30
           </p>
           <p xml:id="i-X3caVuYdJ8sJp5ed6MExsA">
-            för publicering (meddelarfriheten). Stockholm den 13 augusti
-            1999
+            för publicering (meddelarfriheten).
           </p>
-          <p xml:id="i-Dgeq3tHff5XJawLLXe2W3F">
+          <p type="date" id="i-XLzkvf5t5FdwKCZKmUZreh">
+            Stockholm den 13 augusti 1999
+          </p>
+          <p xml:id="i-Dgeq3tHff5XJawLLXe2W3F" type="signatureBlock">
             Åsa Torstensson (c) Marianne Andersson (c) Erik Arthur Egervärn
             (c) Agne Hansson (c) Rigmor Ahlstedt (c)
           </p>

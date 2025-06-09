@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-JuU-00012">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-T7dLRo32Tb4JicARfDYexd"/>
+        <correspAction xml:id="i-T7dLRo32Tb4JicARfDYexd" type="basedOn"/>
         <correspContext corresp="i-T7dLRo32Tb4JicARfDYexd">
           <ref>Proposition 1987/88:73</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="r-0"/>
           <note type="signatory" corresp="i-9X2XYXPBTEhd3dVshQ4PFJ"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-DeKQTdgQ2ZBx25K2YeNPCi">
+        <correspAction xml:id="i-DeKQTdgQ2ZBx25K2YeNPCi" type="submission">
           <date when="1988-01-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Tw5FTUEikue7EWt6ohv7Ri">
+        <correspAction xml:id="i-Tw5FTUEikue7EWt6ohv7Ri" type="dismissal">
           <date when="1988-01-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-UdvhCUC821FKk8Z1F9d2cJ">
+        <correspAction xml:id="i-UdvhCUC821FKk8Z1F9d2cJ" type="referral">
           <date when="1988-02-01"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-P1V4R1nvKWAzJUoWEE6rrR">
+        <correspAction xml:id="i-P1V4R1nvKWAzJUoWEE6rrR" type="assigned">
           <date when="2014-11-23"/>
           <time when="08:19:25"/>
         </correspAction>
@@ -75,11 +75,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_ju_12/mot_198788_ju_12-001.pdf"/>
-      <div type="motHeader" xml:id="i-CALU6YRPrzxancnS1uT13p">
-        <div type="motTitle" xml:id="i-AYiompaNqcfXhjfgjaCE6N"/>
-        <div type="motSubmissionInfo" xml:id="i-JXgHKgcNJS3s8jCLnooLwj"/>
+      <div xml:id="i-CALU6YRPrzxancnS1uT13p" type="motHeader">
+        <div xml:id="i-AYiompaNqcfXhjfgjaCE6N" type="motTitle"/>
+        <div xml:id="i-JXgHKgcNJS3s8jCLnooLwj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HwV1n6EGfQdVSt3ogfYHRK">
+      <div xml:id="i-HwV1n6EGfQdVSt3ogfYHRK" type="motBody">
         <div xml:id="i-2iZMJ3rR2SB34jyhWNVXAZ">
           <p xml:id="i-4tEtcU5pTNbw7xLQVxPhBb">
             Motion till riksdagen
@@ -123,7 +123,10 @@
             med godkännande av vad som anförts i motionen.
           </p>
           <p xml:id="i-KUcpRKZ3qU6CpBTkZWCCZq" type="date">
-            Stockholm den 21 januari 1988 Ewy Möller (m)
+            Stockholm den 21 januari 1988
+          </p>
+          <p type="signatureBlock" id="i-Y4XD81sBhYu9hF3pL53XeT">
+            Ewy Möller (m)
           </p>
         </div>
       </div>

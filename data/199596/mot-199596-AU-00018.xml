@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-AU-00018">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="woman">
             <idno>i-Hnc99qM2wSocQrZmyQoJhz</idno>
-            <name>Rose-Marie Frebran </name>
+            <name>Rose-Marie Frebran</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-UDXM9dqeHhySJV3ZevrZPw</idno>
-            <name>Dan Ericsson </name>
+            <name>Dan Ericsson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VGaRkhN6Xqgi3U4UJwJavZ"/>
+        <correspAction xml:id="i-VGaRkhN6Xqgi3U4UJwJavZ" type="basedOn"/>
         <correspContext corresp="i-VGaRkhN6Xqgi3U4UJwJavZ">
           <ref>Förslag 1995/96:RR8</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-Hnc99qM2wSocQrZmyQoJhz"/>
           <note type="signatory" corresp="i-UDXM9dqeHhySJV3ZevrZPw"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4fDsQ367Xax9jksNYRvcp6">
+        <correspAction xml:id="i-4fDsQ367Xax9jksNYRvcp6" type="referral">
           <date when="1996-03-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YCJCRdztvKgU9e9YzerHh9">
+        <correspAction xml:id="i-YCJCRdztvKgU9e9YzerHh9" type="dismissal">
           <date when="1996-03-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GS28z4CUPDtuZVo6Mxu9gc">
+        <correspAction xml:id="i-GS28z4CUPDtuZVo6Mxu9gc" type="submission">
           <date when="1996-03-21"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-L29eesQyjL9djxLD6WpDbR">
+        <correspAction xml:id="i-L29eesQyjL9djxLD6WpDbR" type="referral">
           <date when="1996-03-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3TvCge9tqKezarY4YDBQam">
+        <correspAction xml:id="i-3TvCge9tqKezarY4YDBQam" type="dismissal">
           <date when="1996-03-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Rd96PvGv9eNfZZAakRQh5N">
+        <correspAction xml:id="i-Rd96PvGv9eNfZZAakRQh5N" type="submission">
           <date when="1996-03-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Gx4QctvVjp7egfWc8nqaPm"/>
+        <correspAction xml:id="i-Gx4QctvVjp7egfWc8nqaPm" type="assigned"/>
         <correspContext corresp="i-Gx4QctvVjp7egfWc8nqaPm">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -98,11 +98,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_A_0018/mot_199596_A_0018-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_A_0018/mot_199596_A_0018-001.pdf"/>
-      <div type="motHeader" xml:id="i-XkeHHhjaZsGjoMJ4KCh1Y8">
-        <div type="motTitle" xml:id="i-EZDyrMsENRz3s2zjZHmx9w"/>
-        <div type="motSubmissionInfo" xml:id="i-BV64de1qQycyfWgKbyHBjc"/>
+      <div xml:id="i-XkeHHhjaZsGjoMJ4KCh1Y8" type="motHeader">
+        <div xml:id="i-EZDyrMsENRz3s2zjZHmx9w" type="motTitle"/>
+        <div xml:id="i-BV64de1qQycyfWgKbyHBjc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BCgFhtFrPyTdCM4MExgWQN">
+      <div xml:id="i-BCgFhtFrPyTdCM4MExgWQN" type="motBody">
         <div xml:id="i-FjKbwT2pEEyN4vUtyEf9Js">
           <p xml:id="i-8z3yh3A1QZzB8YG7ukxDTi">
             1995/96 A18 A15—19
@@ -272,9 +272,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_A_0018/mot_199596_A_0018-0004.pdf"/>
           <p xml:id="i-AqwJQzh8EAEg54UkUmGPxF">
-            Mot. 1995/96A 78 Stockholm den 21 mars 1996
+            Mot. 1995/96A 78
           </p>
-          <p xml:id="i-KJV2d9CVsib7mTpAzMyjD6">
+          <p type="date" id="i-AaVtnFxTaiyTLSxnu3cZiY">
+            Stockholm den 21 mars 1996
+          </p>
+          <p xml:id="i-KJV2d9CVsib7mTpAzMyjD6" type="signatureBlock">
             Rose-Marie Frebran (kds) Dan Ericsson (kds)
           </p>
         </div>

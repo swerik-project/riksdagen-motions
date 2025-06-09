@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00413">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-KktUCXax2JFL3tqFqQN9oq"/>
           <note type="signatory" corresp="i-KtELEJ9HytY7HFgQExEzLq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7qF8uraLzgXQ5Wh4VfRquW">
+        <correspAction xml:id="i-7qF8uraLzgXQ5Wh4VfRquW" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7hMvdAKDsgsE5rmpnGNECW">
+        <correspAction xml:id="i-7hMvdAKDsgsE5rmpnGNECW" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UNBNHw6sFUQLy9KYyMGJZP">
+        <correspAction xml:id="i-UNBNHw6sFUQLy9KYyMGJZP" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Utoib9qEo7n83Xjw3RKxti"/>
+        <correspAction xml:id="i-Utoib9qEo7n83Xjw3RKxti" type="assigned"/>
         <correspContext corresp="i-Utoib9qEo7n83Xjw3RKxti">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_413/mot_200506_MJ_413-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CGaj24q6sDHsnUU43UYfzh">
-        <div type="motTitle" xml:id="i-F2xVonZXjwY8chCfnmT3jD"/>
-        <div type="motSubmissionInfo" xml:id="i-GWtn5uFMnzjZRdNN3j5GgT"/>
+      <div xml:id="i-CGaj24q6sDHsnUU43UYfzh" type="motHeader">
+        <div xml:id="i-F2xVonZXjwY8chCfnmT3jD" type="motTitle"/>
+        <div xml:id="i-GWtn5uFMnzjZRdNN3j5GgT" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HfYXNQVYzPCMLyRP6cuw2X">
+      <div xml:id="i-HfYXNQVYzPCMLyRP6cuw2X" type="motBody">
         <div xml:id="i-XKSDxJY7kjCjSfzTsosv8">
           <p xml:id="i-D1K4cor4JUbYgFXLpW7NBn">
             2005/06 mnr: MJ413 pnr: c765
@@ -296,9 +296,12 @@
             samhällsekonomiska vinsten öka på ett markant sätt. Därför behöver
             samhället lyfta fram jordbruket och livsmedelsproduktionen och
             tydligt tala om vilka mål samhället har och därmed skapa möjligheter
-            till riktade åtgärder. Stockholm den 3 oktober 2005
+            till riktade åtgärder.
           </p>
-          <p xml:id="i-AMgEy5dUm5UexbuKzHkCgx">
+          <p type="date" id="i-MHUCJXUzakKFH1dLvT2QFm">
+            Stockholm den 3 oktober 2005
+          </p>
+          <p xml:id="i-AMgEy5dUm5UexbuKzHkCgx" type="signatureBlock">
             Birgitta Sellén (c) Sven Bergström (c)
           </p>
         </div>

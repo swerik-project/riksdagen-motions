@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00209">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
           <note type="signatory" corresp="i-P2x4fiHNXrW2XTzJZRJeJJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-H6dJehD77b45XXUSX7nC75">
+        <correspAction xml:id="i-H6dJehD77b45XXUSX7nC75" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NcnpiAwcTsHDRsxTKzUCm8">
+        <correspAction xml:id="i-NcnpiAwcTsHDRsxTKzUCm8" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EcDRXcufm5pCg6h59wb4Sd">
+        <correspAction xml:id="i-EcDRXcufm5pCg6h59wb4Sd" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PBSFTbNZHS8fUvY3dDaY4P"/>
+        <correspAction xml:id="i-PBSFTbNZHS8fUvY3dDaY4P" type="assigned"/>
         <correspContext corresp="i-PBSFTbNZHS8fUvY3dDaY4P">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_209/mot_200506_T_209-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CwkWmWUjsS66L8DVLJswqy">
-        <div type="motTitle" xml:id="i-XG9QhQE5zf9TxutsAE5xUx"/>
-        <div type="motSubmissionInfo" xml:id="i-DEzdshWuBB2FC1yGyJRH9x"/>
+      <div xml:id="i-CwkWmWUjsS66L8DVLJswqy" type="motHeader">
+        <div xml:id="i-XG9QhQE5zf9TxutsAE5xUx" type="motTitle"/>
+        <div xml:id="i-DEzdshWuBB2FC1yGyJRH9x" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Ce2kyNp7eq5GaWPnSAdKT8">
+      <div xml:id="i-Ce2kyNp7eq5GaWPnSAdKT8" type="motBody">
         <div xml:id="i-8RyDG1DxiZo7EKadnxoSvL">
           <p xml:id="i-X3eh9E2VxxLgs1osmhibbi">
             2005/06 mnr: T209 pnr: m1034
@@ -131,9 +131,12 @@
           <p xml:id="i-7A4VGTG8fPRj9ubpxegLhT">
             Mot ovanstående bakgrund anser vi att riksväg 27 måste byggas
             färdig till trettonmetersväg och dimensioneras för 110 km/h på
-            sträckan Borås- Karlskrona. Stockholm den 15 september 2005
+            sträckan Borås- Karlskrona.
           </p>
-          <p xml:id="i-KeTTA8ZrMUSs3MfEuBhczo">
+          <p type="date" id="i-QS5BX7T2wVVPzk2Jschz9p">
+            Stockholm den 15 september 2005
+          </p>
+          <p xml:id="i-KeTTA8ZrMUSs3MfEuBhczo" type="signatureBlock">
             Ulf Sjösten (m) Bengt-Anders Johansson (m)
           </p>
         </div>

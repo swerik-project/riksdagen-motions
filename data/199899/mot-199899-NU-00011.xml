@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-NU-00011">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-LB9Tn6B1RXiAHZEWEK1hYC</idno>
-            <name>Ulla Hoffmann </name>
+            <name>Ulla Hoffmann</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Se9dV62vBDBguMCWPi7xUV"/>
+        <correspAction xml:id="i-Se9dV62vBDBguMCWPi7xUV" type="basedOn"/>
         <correspContext corresp="i-Se9dV62vBDBguMCWPi7xUV">
           <ref>Regeringsskrivelse 1998/99:96</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-LB9Tn6B1RXiAHZEWEK1hYC"/>
           <note type="signatory" corresp="i-LB9Tn6B1RXiAHZEWEK1hYC"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-23SRoNoDboePYZMR1EiUxH">
+        <correspAction xml:id="i-23SRoNoDboePYZMR1EiUxH" type="referral">
           <date when="1999-05-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7APuoqby15kbeZ78ujqs37">
+        <correspAction xml:id="i-7APuoqby15kbeZ78ujqs37" type="dismissal">
           <date when="1999-04-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6K9QLmX7yfWZHob7dqCfSo">
+        <correspAction xml:id="i-6K9QLmX7yfWZHob7dqCfSo" type="submission">
           <date when="1999-04-29"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Fh7XRVHm4Uj1tij9Xi1LGe">
+        <correspAction xml:id="i-Fh7XRVHm4Uj1tij9Xi1LGe" type="referral">
           <date when="1999-05-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6yjL4788t4kSneoNUBCwNv">
+        <correspAction xml:id="i-6yjL4788t4kSneoNUBCwNv" type="dismissal">
           <date when="1999-04-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2C57c2JJAdhRZZmzFk8AyV">
+        <correspAction xml:id="i-2C57c2JJAdhRZZmzFk8AyV" type="submission">
           <date when="1999-04-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-94xkZTGrPm5WgHF4voDtMS"/>
+        <correspAction xml:id="i-94xkZTGrPm5WgHF4voDtMS" type="assigned"/>
         <correspContext corresp="i-94xkZTGrPm5WgHF4voDtMS">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_N_0011/mot_199899_N_0011-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8riPAn6o3G7fMCVt9SeqS9">
-        <div type="motTitle" xml:id="i-6Wb4LVnPR5BEYrobs8yvAM"/>
-        <div type="motSubmissionInfo" xml:id="i-Ppem6h2vzxVeex73YCgo2r"/>
+      <div xml:id="i-8riPAn6o3G7fMCVt9SeqS9" type="motHeader">
+        <div xml:id="i-6Wb4LVnPR5BEYrobs8yvAM" type="motTitle"/>
+        <div xml:id="i-Ppem6h2vzxVeex73YCgo2r" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-EdHyhckGuXpjaK6ysF4E4a">
+      <div xml:id="i-EdHyhckGuXpjaK6ysF4E4a" type="motBody">
         <div xml:id="i-8QC6ZfLzLSZ6pUGv3LfQfF">
           <p xml:id="i-CsP5TCzXY34V1MLPVXTjFd">
             1998/99 NIL N11
@@ -314,8 +314,10 @@
             tillväxtavtalen.
           </p>
           <p xml:id="i-RFedP3o8wgi9nFfmdkaHot" type="date">
-            Stockholm den 29 april 1999 Ulla Hoffmann (v) Ingrid Burman (v)
-            Siv Holma (v)
+            Stockholm den 29 april 1999
+          </p>
+          <p type="signatureBlock" id="i-4tp576pbBm36KBQw9gR51q">
+            Ulla Hoffmann (v) Ingrid Burman (v) Siv Holma (v)
           </p>
           <p xml:id="i-KeANwkb7GCYzLpuNc3w7Rx">
             Camilla Sköld (v) Gunilla Wahlén (v)

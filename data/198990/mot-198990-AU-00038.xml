@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-AU-00038">
   <teiHeader>
     <fileDesc>
@@ -117,42 +117,42 @@
           </person>
           <person gender="woman">
             <idno>i-QBjhdigjuYnc4dZSUCUByw</idno>
-            <name>Maud Björnemalm </name>
+            <name>Maud Björnemalm</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-8g7tkLoFt2CYuwnZ9S6E8h</idno>
-            <name>Rosa-Lill Wåhlstedt </name>
+            <name>Rosa-Lill Wåhlstedt</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-TJkWYsn7fwUsxfVJHu9ETA</idno>
-            <name>Ulla Berg </name>
+            <name>Ulla Berg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-EnC3VHufiqpKfgXVa9Vozo</idno>
-            <name>Håkan Strömberg </name>
+            <name>Håkan Strömberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Dqwk6WRPNzjzwmqmA18xc1</idno>
-            <name>Sture Ericson </name>
+            <name>Sture Ericson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-RqJoyqBtHk6qXvzc8mj8mb</idno>
-            <name>Helge Hagberg </name>
+            <name>Helge Hagberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -160,7 +160,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5XJ9TAynFWo72CnjdvR5FT"/>
+        <correspAction xml:id="i-5XJ9TAynFWo72CnjdvR5FT" type="basedOn"/>
         <correspContext corresp="i-5XJ9TAynFWo72CnjdvR5FT">
           <ref>Proposition 1989/90:76</ref>
         </correspContext>
@@ -186,16 +186,16 @@
           <note type="signatory" corresp="i-Dqwk6WRPNzjzwmqmA18xc1"/>
           <note type="signatory" corresp="i-RqJoyqBtHk6qXvzc8mj8mb"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-C9vgnK6491Qif7jigrZvPM">
+        <correspAction xml:id="i-C9vgnK6491Qif7jigrZvPM" type="submission">
           <date when="1990-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MDR2mpcXrXFdi7q11fNqKS">
+        <correspAction xml:id="i-MDR2mpcXrXFdi7q11fNqKS" type="dismissal">
           <date when="1990-03-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-N7XxBmfgPXBigZeZVGWNoD">
+        <correspAction xml:id="i-N7XxBmfgPXBigZeZVGWNoD" type="referral">
           <date when="1990-03-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TyTnbubgDQoYAS8sPHkE25">
+        <correspAction xml:id="i-TyTnbubgDQoYAS8sPHkE25" type="assigned">
           <date when="2014-11-23"/>
           <time when="15:19:35"/>
         </correspAction>
@@ -211,11 +211,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_a_38/mot_198990_a_38-001.pdf"/>
-      <div type="motHeader" xml:id="i-FZChSmLG6By8inBM35sYvc">
-        <div type="motTitle" xml:id="i-LTqri1J8iibJ47iDyJ576P"/>
-        <div type="motSubmissionInfo" xml:id="i-WAXaZVf2Aydxcsy4hfSkk1"/>
+      <div xml:id="i-FZChSmLG6By8inBM35sYvc" type="motHeader">
+        <div xml:id="i-LTqri1J8iibJ47iDyJ576P" type="motTitle"/>
+        <div xml:id="i-WAXaZVf2Aydxcsy4hfSkk1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NwissjWGQyBc9UvEoGcHR8">
+      <div xml:id="i-NwissjWGQyBc9UvEoGcHR8" type="motBody">
         <div xml:id="i-J1WJgANeyvBars4dRSsDoV">
           <p xml:id="i-5wBTPy41qSNdPMBDUDtMAS">
             Motion till riksdagen 1989/90:A38
@@ -271,9 +271,14 @@
           </p>
           <p xml:id="i-CZdAenHoaqPc5PszGNmKth">
             att riksdagen ger regeringen till känna vad i motionen anförts
-            om Lindesberg kommuns inplacering i stödområde. Stockholm den
-            22 mars 1990 Maud Björnemalm (s) Sture Ericson (s) Helge Hagberg
-            (s) Håkan Strömberg (s) Rosa-Lill Wåhlstedt (s)
+            om Lindesberg kommuns inplacering i stödområde.
+          </p>
+          <p type="date" id="i-xgz5ciNh4ADPYN8ryTorW">
+            Stockholm den 22 mars 1990
+          </p>
+          <p type="signatureBlock" id="i-Q9t2dVT1bZPCSvdoPZFnCc">
+            Maud Björnemalm (s) Sture Ericson (s) Helge Hagberg (s) Håkan
+            Strömberg (s) Rosa-Lill Wåhlstedt (s)
           </p>
           <p xml:id="i-4kYGQwt8v8g3QrjK5EB7Zc">
             Ulla Berg (s)

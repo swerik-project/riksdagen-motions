@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00006">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-DfpMRc4g8UqPtSKZ5LLaLi"/>
+        <correspAction xml:id="i-DfpMRc4g8UqPtSKZ5LLaLi" type="basedOn"/>
         <correspContext corresp="i-DfpMRc4g8UqPtSKZ5LLaLi">
           <ref>Proposition 2002/03:150</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="i-QrnhMBZLsGdbeBasmoTLpZ"/>
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-85h8WxSZEjFMTVCK8JzduL">
+        <correspAction xml:id="i-85h8WxSZEjFMTVCK8JzduL" type="referral">
           <date when="2003-10-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-D4rntS3bgyYJ46QwzhmhMv">
+        <correspAction xml:id="i-D4rntS3bgyYJ46QwzhmhMv" type="dismissal">
           <date when="2003-10-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AAFeKFJbPjb24raJvrGppP">
+        <correspAction xml:id="i-AAFeKFJbPjb24raJvrGppP" type="submission">
           <date when="2003-10-01"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6ku9bwxQe3JX4zH8NPaGyQ"/>
+        <correspAction xml:id="i-6ku9bwxQe3JX4zH8NPaGyQ" type="assigned"/>
         <correspContext corresp="i-6ku9bwxQe3JX4zH8NPaGyQ">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -74,11 +74,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fi_0006/mot_200304_Fi_0006-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FnbgHQd9P128rJ6q7ipR9v">
-        <div type="motTitle" xml:id="i-6XAzSJ8oNArpbmbnd79snS"/>
-        <div type="motSubmissionInfo" xml:id="i-DCJYLfeXMxhTdbiZ7YMELb"/>
+      <div xml:id="i-FnbgHQd9P128rJ6q7ipR9v" type="motHeader">
+        <div xml:id="i-6XAzSJ8oNArpbmbnd79snS" type="motTitle"/>
+        <div xml:id="i-DCJYLfeXMxhTdbiZ7YMELb" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HQPyC3BVNEd18TJwDfYViJ">
+      <div xml:id="i-HQPyC3BVNEd18TJwDfYViJ" type="motBody">
         <div xml:id="i-Uk7dXzEhDdJpyCLdPDKW6a">
           <p xml:id="i-ranAjYpH9iwT3UkWCwaeG">
             2003/04 mnr: Fi6 pnr: kd109
@@ -167,7 +167,10 @@
             behöver före köp av en ond.
           </p>
           <p xml:id="i-XBQFnSPk9mJ2rhcZBgPuqJ" type="date">
-            Stockholm den 1 oktober 2003 Mats Odell (kd) Olle Sandahl (kd)
+            Stockholm den 1 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-By1o6j44uv7pW4ZMtP7g7G">
+            Mats Odell (kd) Olle Sandahl (kd)
           </p>
         </div>
       </div>

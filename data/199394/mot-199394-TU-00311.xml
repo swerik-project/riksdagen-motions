@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199394-TU-00311">
   <teiHeader>
     <fileDesc>
@@ -61,35 +61,35 @@
           </person>
           <person gender="man">
             <idno>i-Lv4UkR3Qh5Z1mUCTAdeMZo</idno>
-            <name>Leo Persson </name>
+            <name>Leo Persson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-UxF6YPMa1QYLSYfvvpZpWu</idno>
-            <name>Iréne Vestlund </name>
+            <name>Iréne Vestlund</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-VdAfQ3AgRmNNnaK4zoDKny</idno>
-            <name>Per Erik Granström </name>
+            <name>Per Erik Granström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-4BuGmqCDdFhTh684p4tLzW</idno>
-            <name>Inger Hestvik </name>
+            <name>Inger Hestvik</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-TYBtSHJZtd4hmjSgW4AXun</idno>
-            <name>Bengt-Ola Ryttar </name>
+            <name>Bengt-Ola Ryttar</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -110,25 +110,25 @@
           <note type="signatory" corresp="i-4BuGmqCDdFhTh684p4tLzW"/>
           <note type="signatory" corresp="i-TYBtSHJZtd4hmjSgW4AXun"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DiBFBuFAu6KD3YTCZK1KJo">
+        <correspAction xml:id="i-DiBFBuFAu6KD3YTCZK1KJo" type="referral">
           <date when="1994-02-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2oNL2roqzAoiqLQFnJ4QZL">
+        <correspAction xml:id="i-2oNL2roqzAoiqLQFnJ4QZL" type="dismissal">
           <date when="1994-02-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9RZa8pFhtgwrG28PTcjzMS">
+        <correspAction xml:id="i-9RZa8pFhtgwrG28PTcjzMS" type="submission">
           <date when="1994-01-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-BTtVt8nBv7yrhJNMFmrcTx">
+        <correspAction xml:id="i-BTtVt8nBv7yrhJNMFmrcTx" type="referral">
           <date when="1994-02-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AhZZN1RYuAvSZ8pyEC8sqV">
+        <correspAction xml:id="i-AhZZN1RYuAvSZ8pyEC8sqV" type="dismissal">
           <date when="1994-02-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Bkx4i2Hz175LLdurwKZ1gT">
+        <correspAction xml:id="i-Bkx4i2Hz175LLdurwKZ1gT" type="submission">
           <date when="1994-01-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RuwXUtXraw2q8qwgg8iwmt"/>
+        <correspAction xml:id="i-RuwXUtXraw2q8qwgg8iwmt" type="assigned"/>
         <correspContext corresp="i-RuwXUtXraw2q8qwgg8iwmt">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -141,11 +141,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199394/mot_199394_TU_311/mot_199394_TU_311-001.pdf"/>
-      <div type="motHeader" xml:id="i-LfS6RppAsmqrwodx8gAnxe">
-        <div type="motTitle" xml:id="i-9BM8UjcFBNejk7hbUQuiSM"/>
-        <div type="motSubmissionInfo" xml:id="i-G4Mz5jRFwCZj77watRxBz4"/>
+      <div xml:id="i-LfS6RppAsmqrwodx8gAnxe" type="motHeader">
+        <div xml:id="i-9BM8UjcFBNejk7hbUQuiSM" type="motTitle"/>
+        <div xml:id="i-G4Mz5jRFwCZj77watRxBz4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LtQiY26QdKSNkmu6MnvzrS">
+      <div xml:id="i-LtQiY26QdKSNkmu6MnvzrS" type="motBody">
         <div xml:id="i-6xfYc3hUHPr1gAy4gfXk7y">
           <p xml:id="i-HYkTvn9cqEY2VyKtYhAq7n">
             Motion till riksdagen 1993/94:T311
@@ -226,8 +226,10 @@
             65:s förlängning i Dalarna.
           </p>
           <p xml:id="i-E3r8NYKjaRUgumx1km7pAY" type="date">
-            Stockholm den 21 januari 1994 Leo Persson (s) Inger Hestvik (s)
-            Iréne Vestlund (s)
+            Stockholm den 21 januari 1994
+          </p>
+          <p type="signatureBlock" id="i-BVeJHn7WomCayntZdK4iCb">
+            Leo Persson (s) Inger Hestvik (s) Iréne Vestlund (s)
           </p>
           <p xml:id="i-R6LKNT5CAdrTeH1BVVxU5P">
             Bengt-Ola Ryttar (s) Per Erik Granström (s)

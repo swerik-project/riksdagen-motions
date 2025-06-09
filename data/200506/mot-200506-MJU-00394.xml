@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00394">
   <teiHeader>
     <fileDesc>
@@ -167,16 +167,16 @@
           <note type="signatory" corresp="i-9LE4uwYS8LySpZjtTwxjti"/>
           <note type="signatory" corresp="i-Ga4FaAaNvVxH6nfoR7FVAe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XhesGvUAg54PeJDVXV18z4">
+        <correspAction xml:id="i-XhesGvUAg54PeJDVXV18z4" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-W9ERDKhSmryQnQSwdQBsdR">
+        <correspAction xml:id="i-W9ERDKhSmryQnQSwdQBsdR" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9uDjv1nQGRvPGv6cpx1oVc">
+        <correspAction xml:id="i-9uDjv1nQGRvPGv6cpx1oVc" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AMr1DqCtpWHr8bzxMbkJj5"/>
+        <correspAction xml:id="i-AMr1DqCtpWHr8bzxMbkJj5" type="assigned"/>
         <correspContext corresp="i-AMr1DqCtpWHr8bzxMbkJj5">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -191,11 +191,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_394/mot_200506_MJ_394-0001.pdf"/>
-      <div type="motHeader" xml:id="i-MXt6hKYjKxZ1gJq5CQvsjk">
-        <div type="motTitle" xml:id="i-CrBgJzED8Y7t11BQMcsbpr"/>
-        <div type="motSubmissionInfo" xml:id="i-VTYFPmoQ34jfXZAYiqhst2"/>
+      <div xml:id="i-MXt6hKYjKxZ1gJq5CQvsjk" type="motHeader">
+        <div xml:id="i-CrBgJzED8Y7t11BQMcsbpr" type="motTitle"/>
+        <div xml:id="i-VTYFPmoQ34jfXZAYiqhst2" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AfEGoCNRP5bdV7Ln9QYpuz">
+      <div xml:id="i-AfEGoCNRP5bdV7Ln9QYpuz" type="motBody">
         <div xml:id="i-2N3Cg4GrVEhoYZVB9syogi">
           <p xml:id="i-Y4EC6RsY4eEPo6fsrpSMVP">
             2005/06 mnr: MJ394 pnr: fp001
@@ -2343,9 +2343,12 @@
             att säkerställa att Sverige har forskning inom för landet viktiga
             områden samtidigt som det ger utrymme för stor akademisk frihet.
             Det flyttar ansvaret för forskningens innehåll från forskningsfinansiären
-            till forskarna. Stockholm den 27 september 2005
+            till forskarna.
           </p>
-          <p xml:id="i-JnfhCjfAracQSyTGVrEeQf">
+          <p type="date" id="i-H212yYQY2vVUQeVfT8HeDK">
+            Stockholm den 27 september 2005
+          </p>
+          <p xml:id="i-JnfhCjfAracQSyTGVrEeQf" type="signatureBlock">
             Lars Leijonborg (fp)
           </p>
           <p xml:id="i-YK8F3XoEzrwaxPY5JbrYTB">

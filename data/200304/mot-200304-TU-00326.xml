@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00326">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-WXtWZvBzSgga51N2B765s9">
           <note type="signatory" corresp="i-Vuf2iovr2aWWgDThaeqMPN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2xspHJYN5jqQHmD8U5bU8s">
+        <correspAction xml:id="i-2xspHJYN5jqQHmD8U5bU8s" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7c7WxCMTTN7PX6eYmDeTTU">
+        <correspAction xml:id="i-7c7WxCMTTN7PX6eYmDeTTU" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-P7K3ndg6PSQBkNAKorRcFV">
+        <correspAction xml:id="i-P7K3ndg6PSQBkNAKorRcFV" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NA4AEyHSgfsMrRDbpnaB8h"/>
+        <correspAction xml:id="i-NA4AEyHSgfsMrRDbpnaB8h" type="assigned"/>
         <correspContext corresp="i-NA4AEyHSgfsMrRDbpnaB8h">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0326/mot_200304_T_0326-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FjhkV4arRzLt5ghQryRDTB">
-        <div type="motTitle" xml:id="i-ci1wq8VzxLHJAcqQpoW7b"/>
-        <div type="motSubmissionInfo" xml:id="i-AFSnHZQkJF2iUhQRP2cdud"/>
+      <div xml:id="i-FjhkV4arRzLt5ghQryRDTB" type="motHeader">
+        <div xml:id="i-ci1wq8VzxLHJAcqQpoW7b" type="motTitle"/>
+        <div xml:id="i-AFSnHZQkJF2iUhQRP2cdud" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LJzsfGoq5nvNTMF4wbyekZ">
+      <div xml:id="i-LJzsfGoq5nvNTMF4wbyekZ" type="motBody">
         <div xml:id="i-K3iorN8xL4JbEMyu5E7t11">
           <p xml:id="i-SYxcxuWUuEDEVpUAg8VjcP">
             2003/04 mnr: T326 pnr: m1393
@@ -125,9 +125,12 @@
           </p>
           <p xml:id="i-RjWDVaLmNz53T8RSYWe2bj">
             han respekterar denna folkomröstning och sätter stopp för alla
-            planer angående biltullar. Stockholm den 1 oktober 2003
+            planer angående biltullar.
           </p>
-          <p xml:id="i-FhDA3ceG6EYzmk7m3WyGzm">
+          <p type="date" id="i-FNJX9eFM3kNGw5SMhvbopA">
+            Stockholm den 1 oktober 2003
+          </p>
+          <p xml:id="i-FhDA3ceG6EYzmk7m3WyGzm" type="signatureBlock">
             Ewa Björling (m)
           </p>
         </div>

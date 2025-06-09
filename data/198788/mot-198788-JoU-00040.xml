@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-JoU-00040">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-NMTTsC7aN5G7VaKjMLjwVc"/>
+        <correspAction xml:id="i-NMTTsC7aN5G7VaKjMLjwVc" type="basedOn"/>
         <correspContext corresp="i-NMTTsC7aN5G7VaKjMLjwVc">
           <ref>Proposition 1987/88:85</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="r-0"/>
           <note type="signatory" corresp="i-Wiq5749k7owcARUynxZuX7"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-5wjeUgKhvgpKeothHSeZ6F">
+        <correspAction xml:id="i-5wjeUgKhvgpKeothHSeZ6F" type="submission">
           <date when="1988-04-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3czakd349j4gjFteoVFekf">
+        <correspAction xml:id="i-3czakd349j4gjFteoVFekf" type="dismissal">
           <date when="1988-04-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-UtbuGUFzfgHrNnSoXWjjen">
+        <correspAction xml:id="i-UtbuGUFzfgHrNnSoXWjjen" type="referral">
           <date when="1988-04-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5pBk7z54FPqTBnvVaE9pEx">
+        <correspAction xml:id="i-5pBk7z54FPqTBnvVaE9pEx" type="assigned">
           <date when="2014-11-23"/>
           <time when="07:06:14"/>
         </correspAction>
@@ -75,11 +75,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_jo_40/mot_198788_jo_40-001.pdf"/>
-      <div type="motHeader" xml:id="i-T6hpqMc4j2Eqouy3i1cN1u">
-        <div type="motTitle" xml:id="i-CmUcV4qXXM4B23WZ9fMZyn"/>
-        <div type="motSubmissionInfo" xml:id="i-PEhYVzi7pdvTNTGn1L6SbW"/>
+      <div xml:id="i-T6hpqMc4j2Eqouy3i1cN1u" type="motHeader">
+        <div xml:id="i-CmUcV4qXXM4B23WZ9fMZyn" type="motTitle"/>
+        <div xml:id="i-PEhYVzi7pdvTNTGn1L6SbW" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-EKwX8d6qV55QC9TGhLXErJ">
+      <div xml:id="i-EKwX8d6qV55QC9TGhLXErJ" type="motBody">
         <div xml:id="i-FwXuGM1mntKJyiCqAmSj7g">
           <p xml:id="i-RZ8JFsYEhHrBoYM6Bf6iuj">
             Motion till riksdagen
@@ -134,7 +134,10 @@
             behovet av förstärkning av miljöskyddet på Got- land.
           </p>
           <p xml:id="i-B5tbpLXPxgZNSXSq9Bvp5n" type="date">
-            Stockholm den 5 april 1988 Gunhild Bolander (c)
+            Stockholm den 5 april 1988
+          </p>
+          <p type="signatureBlock" id="i-S9qMo7CwFYB2RH8myKvpuE">
+            Gunhild Bolander (c)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198889-UbU-00038">
   <teiHeader>
     <fileDesc>
@@ -96,7 +96,7 @@
           </person>
           <person gender="man">
             <idno>i-NZES3NTTAs3ZaBTU3RVkYE</idno>
-            <name>Lars Leijonborg </name>
+            <name>Lars Leijonborg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -110,28 +110,28 @@
           </person>
           <person gender="woman">
             <idno>i-VQ8e4QWrW7Gvhr9MwK6fQ9</idno>
-            <name>Isa Halvarsson </name>
+            <name>Isa Halvarsson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-L3xspgThUxUN1YtSDqcmk8</idno>
-            <name>Barbro Westerholm </name>
+            <name>Barbro Westerholm</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-NgCTKqp2fs7ZtdGdg2MLiL</idno>
-            <name>Karl-Göran Biörsmark </name>
+            <name>Karl-Göran Biörsmark</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Hco5dtZYVczhhatjt4A2Ah</idno>
-            <name>Carl-Johan Wilson </name>
+            <name>Carl-Johan Wilson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -139,7 +139,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-9qqZhDdJzgAzhEJJ52FYyW"/>
+        <correspAction xml:id="i-9qqZhDdJzgAzhEJJ52FYyW" type="basedOn"/>
         <correspContext corresp="i-9qqZhDdJzgAzhEJJ52FYyW">
           <ref>Proposition 1988/89:150</ref>
         </correspContext>
@@ -162,16 +162,16 @@
           <note type="signatory" corresp="i-NgCTKqp2fs7ZtdGdg2MLiL"/>
           <note type="signatory" corresp="i-Hco5dtZYVczhhatjt4A2Ah"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-Kb6toMaEuafaD3oLxTFXjx">
+        <correspAction xml:id="i-Kb6toMaEuafaD3oLxTFXjx" type="submission">
           <date when="1989-05-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Qgth5MCqbb3hvNWs6imGdH">
+        <correspAction xml:id="i-Qgth5MCqbb3hvNWs6imGdH" type="dismissal">
           <date when="1989-05-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-TPyzCTUy8YiCVszyY4iGDZ">
+        <correspAction xml:id="i-TPyzCTUy8YiCVszyY4iGDZ" type="referral">
           <date when="1989-05-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Um5MAuiVaEbFzo9VXXHUSn">
+        <correspAction xml:id="i-Um5MAuiVaEbFzo9VXXHUSn" type="assigned">
           <date when="2014-11-23"/>
           <time when="18:50:27"/>
         </correspAction>
@@ -187,11 +187,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198889/mot_198889_ub_38/mot_198889_ub_38-001.pdf"/>
-      <div type="motHeader" xml:id="i-R8EsnKAWbmrkSbhSy6GxCJ">
-        <div type="motTitle" xml:id="i-JWaxRjqTVKb8yGdTCJzSMv"/>
-        <div type="motSubmissionInfo" xml:id="i-S8ZsrXg1pA2on6PAN63gjf"/>
+      <div xml:id="i-R8EsnKAWbmrkSbhSy6GxCJ" type="motHeader">
+        <div xml:id="i-JWaxRjqTVKb8yGdTCJzSMv" type="motTitle"/>
+        <div xml:id="i-S8ZsrXg1pA2on6PAN63gjf" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MA2RLsK7pjySgwwWuP567B">
+      <div xml:id="i-MA2RLsK7pjySgwwWuP567B" type="motBody">
         <div xml:id="i-SfnXKik5WmyNHXyTXMmMBq">
           <p xml:id="i-HUEtWLir4JWzJ591PY9xKz">
             Motion till riksdagen
@@ -488,9 +488,12 @@
             platser.
           </p>
           <p xml:id="i-UkHovyMCsHcN49ohVg9Aet">
-            | Stockholm den 10 maj 1989
+            |
           </p>
-          <p xml:id="i-P3zoCDQd3Ucg1gBsaA2ibm">
+          <p type="date" id="i-Bu7fAR1zLiAEBiTK2MbMc6">
+            Stockholm den 10 maj 1989
+          </p>
+          <p xml:id="i-P3zoCDQd3Ucg1gBsaA2ibm" type="signatureBlock">
             Lars Leijonborg (fp) Carl-Johan Wilson (fp) Isa Halvarsson (fp)
             Barbro Westerholm (fp) Karl-Göran Biörsmark (fp)
           </p>

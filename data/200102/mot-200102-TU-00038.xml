@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-TU-00038">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-C7hHY28PFhP78wU7LEB7iN"/>
+        <correspAction xml:id="i-C7hHY28PFhP78wU7LEB7iN" type="basedOn"/>
         <correspContext corresp="i-C7hHY28PFhP78wU7LEB7iN">
           <ref>Proposition 2001/02:20</ref>
         </correspContext>
@@ -42,22 +42,22 @@
         <correspContext corresp="i-8vBgsRoafL4Mhv1VdMziFB">
           <note type="signatory" corresp="i-MoGEQsqJ4CuppQSQXqYv1U"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WDrtTZgkMQe9877eiYNBbp">
+        <correspAction xml:id="i-WDrtTZgkMQe9877eiYNBbp" type="referral">
           <date when="2001-10-23"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-XHtkxUY2YUNHCPQ4LgVAYo">
+        <correspAction xml:id="i-XHtkxUY2YUNHCPQ4LgVAYo" type="reviewing">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-9k2Dks1UZwEeomho2zzGcq">
+        <correspAction xml:id="i-9k2Dks1UZwEeomho2zzGcq" type="registration">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SZP6UzMRpDCCwg1VtSetxx">
+        <correspAction xml:id="i-SZP6UzMRpDCCwg1VtSetxx" type="dismissal">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LJ1N5ARmtbEqBHtNrrG85Y">
+        <correspAction xml:id="i-LJ1N5ARmtbEqBHtNrrG85Y" type="submission">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-F9Wabi8UG7N1vssYbVAow5"/>
+        <correspAction xml:id="i-F9Wabi8UG7N1vssYbVAow5" type="assigned"/>
         <correspContext corresp="i-F9Wabi8UG7N1vssYbVAow5">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -72,11 +72,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_T_0038/mot_200102_T_0038-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KjHkGdbVRitFZi1HcUW4vf">
-        <div type="motTitle" xml:id="i-Kx9kNtrz8reECsp6jyKE9T"/>
-        <div type="motSubmissionInfo" xml:id="i-VKjZFLQyzZ4yhr2Mey1fi5"/>
+      <div xml:id="i-KjHkGdbVRitFZi1HcUW4vf" type="motHeader">
+        <div xml:id="i-Kx9kNtrz8reECsp6jyKE9T" type="motTitle"/>
+        <div xml:id="i-VKjZFLQyzZ4yhr2Mey1fi5" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5PHLDcxbf2ZwhznGkdjzko">
+      <div xml:id="i-5PHLDcxbf2ZwhznGkdjzko" type="motBody">
         <div xml:id="i-TetpVv9e4gPod1z4z8aHzR">
           <p xml:id="i-J3mrPkxL6szibFF6ehoR7e">
             2001/02 mnr: T38 pnr: m1892
@@ -166,7 +166,10 @@
             där långa smala och kurviga passager ersätts med modern vägstandard.
           </p>
           <p xml:id="i-N1ksWyNJRLpU3EsJWXV2HN" type="date">
-            Stockholm den 18 oktober 2001 Anders Sjölund (m)
+            Stockholm den 18 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-DCb8mybAdF5ACVhf2jud46">
+            Anders Sjölund (m)
           </p>
         </div>
       </div>

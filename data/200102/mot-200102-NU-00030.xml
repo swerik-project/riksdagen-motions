@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-NU-00030">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-UY1zNXwN1pUfHRrG7P9pdn"/>
+        <correspAction xml:id="i-UY1zNXwN1pUfHRrG7P9pdn" type="basedOn"/>
         <correspContext corresp="i-UY1zNXwN1pUfHRrG7P9pdn">
           <ref>Proposition 2001/02:4</ref>
         </correspContext>
@@ -42,22 +42,22 @@
         <correspContext corresp="i-CLSb1pHPWfSSYTAaffbrbr">
           <note type="signatory" corresp="i-TZHBPDEfPriGgMd5y7LfJG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GMEvcAjKG7gs7eepNxfv8i">
+        <correspAction xml:id="i-GMEvcAjKG7gs7eepNxfv8i" type="referral">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-Xk3gt3RcuYdF9NwcJ3bVRm">
+        <correspAction xml:id="i-Xk3gt3RcuYdF9NwcJ3bVRm" type="reviewing">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-NZwVRpjFQUmyfKdgpbbKos">
+        <correspAction xml:id="i-NZwVRpjFQUmyfKdgpbbKos" type="registration">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EcuQqWQt4RGrduFKguijww">
+        <correspAction xml:id="i-EcuQqWQt4RGrduFKguijww" type="dismissal">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VwDW3pZG8LLrsWWGurREc4">
+        <correspAction xml:id="i-VwDW3pZG8LLrsWWGurREc4" type="submission">
           <date when="2001-10-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-N7nNZV3hEWKzjkcf6PF5cj"/>
+        <correspAction xml:id="i-N7nNZV3hEWKzjkcf6PF5cj" type="assigned"/>
         <correspContext corresp="i-N7nNZV3hEWKzjkcf6PF5cj">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -72,11 +72,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_N_0030/mot_200102_N_0030-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EF6Qb3rUkYicGW82d1moq6">
-        <div type="motTitle" xml:id="i-HDU11DEHc8L16wKXDrp5Cw"/>
-        <div type="motSubmissionInfo" xml:id="i-KS9s6bobCUSMXTQZRY7Qr3"/>
+      <div xml:id="i-EF6Qb3rUkYicGW82d1moq6" type="motHeader">
+        <div xml:id="i-HDU11DEHc8L16wKXDrp5Cw" type="motTitle"/>
+        <div xml:id="i-KS9s6bobCUSMXTQZRY7Qr3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DbhpTXLnDsJUPQ1sWGZCWG">
+      <div xml:id="i-DbhpTXLnDsJUPQ1sWGZCWG" type="motBody">
         <div xml:id="i-FZjRd41E5V3FZpYNKs8XCX">
           <p xml:id="i-RjnSEDocVkCNsPx3ePXGUp">
             2001/02 mnr: N30 pnr: s45001
@@ -156,7 +156,10 @@
             budgetarbete prövar möjligheterna att höja och utveckla reseavdragen.
           </p>
           <p xml:id="i-DGwhNvS7fpV1yUpZwtD5pk" type="date">
-            Stockholm den 17 oktober 2001 Lars U Granberg (s)
+            Stockholm den 17 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-QckejiuboHDgmXLZPhBq43">
+            Lars U Granberg (s)
           </p>
         </div>
       </div>

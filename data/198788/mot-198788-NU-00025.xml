@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-NU-00025">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-NCWmWvxqKAypHBQ7HGCXPT"/>
+        <correspAction xml:id="i-NCWmWvxqKAypHBQ7HGCXPT" type="basedOn"/>
         <correspContext corresp="i-NCWmWvxqKAypHBQ7HGCXPT">
           <ref>Proposition 1987/88:87</ref>
         </correspContext>
@@ -66,16 +66,16 @@
           <note type="signatory" corresp="i-4BfdTWABvwYtdUHg7su5aZ"/>
           <note type="signatory" corresp="i-85VtituoXaBtWGEYWBeNQ8"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-VAhFSLcCcyZp8AWnvj8ZqR">
+        <correspAction xml:id="i-VAhFSLcCcyZp8AWnvj8ZqR" type="submission">
           <date when="1988-03-02"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Szns5SBB9HFwXHrGApi9aN">
+        <correspAction xml:id="i-Szns5SBB9HFwXHrGApi9aN" type="dismissal">
           <date when="1988-03-03"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-R8pTiA15mmoHhuQTFHikZE">
+        <correspAction xml:id="i-R8pTiA15mmoHhuQTFHikZE" type="referral">
           <date when="1988-03-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YDHxX8VJVwg3kzNor99nDm">
+        <correspAction xml:id="i-YDHxX8VJVwg3kzNor99nDm" type="assigned">
           <date when="2014-11-21"/>
           <time when="23:15:41"/>
         </correspAction>
@@ -91,11 +91,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_n_25/mot_198788_n_25-001.pdf"/>
-      <div type="motHeader" xml:id="i-F8bpxHcn7mYBzp7rkjiv85">
-        <div type="motTitle" xml:id="i-TrGXnUHHqmR8gLbPi7CGvr"/>
-        <div type="motSubmissionInfo" xml:id="i-WxCNH7UfV5oQPBoKzhHTgh"/>
+      <div xml:id="i-F8bpxHcn7mYBzp7rkjiv85" type="motHeader">
+        <div xml:id="i-TrGXnUHHqmR8gLbPi7CGvr" type="motTitle"/>
+        <div xml:id="i-WxCNH7UfV5oQPBoKzhHTgh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VMLxuhitZE3geP1AhGf6My">
+      <div xml:id="i-VMLxuhitZE3geP1AhGf6My" type="motBody">
         <div xml:id="i-V1e42va2xrWS2yCfPYDiY">
           <p xml:id="i-L2LbvPb3RwLP7TmjAvzLwi">
             Motion till riksdagen
@@ -159,7 +159,10 @@
             med den inriktning som anges i motionen.
           </p>
           <p xml:id="i-GxnaPvX1vutwP5HkFc3nMV" type="date">
-            Stockholm den 2 mars 1988 Hadars Cars (fp)
+            Stockholm den 2 mars 1988
+          </p>
+          <p type="signatureBlock" id="i-VqeU9yXVrLKegvJRYwvqQD">
+            Hadars Cars (fp)
           </p>
           <p xml:id="i-BHWSHDfnG3zQ1f8Z64Rbuv">
             Christer Eirefelt (fp) Lars De Geer (fp) Gudrun Norberg (fp)

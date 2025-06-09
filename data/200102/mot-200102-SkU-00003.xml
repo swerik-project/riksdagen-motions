@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-SkU-00003">
   <teiHeader>
     <fileDesc>
@@ -146,7 +146,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-GcXFdFDMNJPvVv1XWYWLSe"/>
+        <correspAction xml:id="i-GcXFdFDMNJPvVv1XWYWLSe" type="basedOn"/>
         <correspContext corresp="i-GcXFdFDMNJPvVv1XWYWLSe">
           <ref>Proposition 2000/01:144</ref>
         </correspContext>
@@ -170,37 +170,37 @@
           <note type="signatory" corresp="i-J94Ct1wVwpHWNRN9LatQ6F"/>
           <note type="signatory" corresp="i-SKjAmNScZ7eZ3a8Xy1J8hs"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-N484yh15LkfjHqpU53Gvss">
+        <correspAction xml:id="i-N484yh15LkfjHqpU53Gvss" type="referral">
           <date when="2001-09-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WPGT1dR7BHG7Zz9vTYXB6L">
+        <correspAction xml:id="i-WPGT1dR7BHG7Zz9vTYXB6L" type="dismissal">
           <date when="2001-09-25"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-XomtjGDFpg6oLWmn5Nqcvi">
+        <correspAction xml:id="i-XomtjGDFpg6oLWmn5Nqcvi" type="termination">
           <date when="2001-09-24"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-P1didwn15RaoyvPHmxnhbc">
+        <correspAction xml:id="i-P1didwn15RaoyvPHmxnhbc" type="termination">
           <date when="2001-09-24"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-S7uGm5pQStcwntrrCsbnUL">
+        <correspAction xml:id="i-S7uGm5pQStcwntrrCsbnUL" type="numbering">
           <date when="2001-09-24"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-CriMwdp9GyTjTcop2btPdC">
+        <correspAction xml:id="i-CriMwdp9GyTjTcop2btPdC" type="proposed_referral">
           <date when="2001-09-24"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-WLrtxyeA9gg2nyyeJ3rRFX">
+        <correspAction xml:id="i-WLrtxyeA9gg2nyyeJ3rRFX" type="committee_proposal">
           <date when="2001-09-24"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-WndZ1CYaQF9Ad4HUrvCTiW">
+        <correspAction xml:id="i-WndZ1CYaQF9Ad4HUrvCTiW" type="reviewing">
           <date when="2001-09-24"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-5nezFHsbWg5KQs7qHVsBm5">
+        <correspAction xml:id="i-5nezFHsbWg5KQs7qHVsBm5" type="registration">
           <date when="2001-09-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3AMjTcEpxPoaFc5neCENCc">
+        <correspAction xml:id="i-3AMjTcEpxPoaFc5neCENCc" type="submission">
           <date when="2001-09-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PUDupHyRy7fNQJe4TcpTcn"/>
+        <correspAction xml:id="i-PUDupHyRy7fNQJe4TcpTcn" type="assigned"/>
         <correspContext corresp="i-PUDupHyRy7fNQJe4TcpTcn">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -215,11 +215,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Sk_0003/mot_200102_Sk_0003-0001.pdf"/>
-      <div type="motHeader" xml:id="i-qUULNF5hTiCQvDqdQWjm2">
-        <div type="motTitle" xml:id="i-5S4XCRWDiUvBbzB6NstDvV"/>
-        <div type="motSubmissionInfo" xml:id="i-3PAkJ5RpRYmPEyabJ78879"/>
+      <div xml:id="i-qUULNF5hTiCQvDqdQWjm2" type="motHeader">
+        <div xml:id="i-5S4XCRWDiUvBbzB6NstDvV" type="motTitle"/>
+        <div xml:id="i-3PAkJ5RpRYmPEyabJ78879" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2NzVhGUNmThHVAKzDyCndc">
+      <div xml:id="i-2NzVhGUNmThHVAKzDyCndc" type="motBody">
         <div xml:id="i-KH3XSAFrYrhfKjhS9ntRbL">
           <p xml:id="i-5P7mFAZsm7aAkXyNE5AXYv">
             2001/02 mnr: Sk3 pnr: kd163
@@ -340,7 +340,10 @@
             som bygger på EU:s fördrag.
           </p>
           <p xml:id="i-33yBMrtdyW8DX3StwPmjhH" type="date">
-            Stockholm den 21 september 2001 Lars Gustafsson (kd)
+            Stockholm den 21 september 2001
+          </p>
+          <p type="signatureBlock" id="i-5tszsky8hJFLtPG3qoyJqt">
+            Lars Gustafsson (kd)
           </p>
           <p xml:id="i-PoMAPxMUSorKrFst6MuDqR">
             Inger Davidson (kd) Dan Kihlström (kd) Gunilla Tjernberg (kd)

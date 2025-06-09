@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-AU-00205">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-3hmS3YtKuXCDu8pntcLAdc"/>
           <note type="signatory" corresp="i-KAgkDWA5iGbn9XFLkj9FoB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-51zCBiNwHJiyr8ke7sfQUi">
+        <correspAction xml:id="i-51zCBiNwHJiyr8ke7sfQUi" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TSj9DWci33YK7ezjPT9PqK">
+        <correspAction xml:id="i-TSj9DWci33YK7ezjPT9PqK" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Y166PkFZvnsWrpv5YWEYBX">
+        <correspAction xml:id="i-Y166PkFZvnsWrpv5YWEYBX" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JT1ZTzRgXNFtUHBKoG2Dwo"/>
+        <correspAction xml:id="i-JT1ZTzRgXNFtUHBKoG2Dwo" type="assigned"/>
         <correspContext corresp="i-JT1ZTzRgXNFtUHBKoG2Dwo">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_205/mot_200506_A_205-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0205/mot_200506_A_0205-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0205/mot_200506_A_0205-001.pdf"/>
-      <div type="motHeader" xml:id="i-AUKkSahLJjw5jYRL9SFQt5">
-        <div type="motTitle" xml:id="i-4scTwq7YbhFjrac1FkgeUd"/>
-        <div type="motSubmissionInfo" xml:id="i-SM3WGpbaSLqGhQR6usrB7h"/>
+      <div xml:id="i-AUKkSahLJjw5jYRL9SFQt5" type="motHeader">
+        <div xml:id="i-4scTwq7YbhFjrac1FkgeUd" type="motTitle"/>
+        <div xml:id="i-SM3WGpbaSLqGhQR6usrB7h" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6SQjmkG9G3scNycUFygGmg">
+      <div xml:id="i-6SQjmkG9G3scNycUFygGmg" type="motBody">
         <div xml:id="i-JCqwNDzCvz9MTTXgdyqarH">
           <p xml:id="i-MLqWdumBo9MTqk1ouBLjHE">
             2005/06 mnr: A205 pnr: s41508
@@ -138,9 +138,12 @@
           <p xml:id="i-5cZaLYvaVSRp2zXnRQoqaT">
             länsarbetsnämnderna även i framtiden bör ges möjlighet till inflytande
             över de arbetsmarknadspolitiska åtgärderna efter de regionala
-            förutsättningarna. Stockholm den 22 september 2005
+            förutsättningarna.
           </p>
-          <p xml:id="i-BgWLL7kkVbafV4nG6YjHWH">
+          <p type="date" id="i-JxdXcAybpEKxBrq6c4rneX">
+            Stockholm den 22 september 2005
+          </p>
+          <p xml:id="i-BgWLL7kkVbafV4nG6YjHWH" type="signatureBlock">
             Hans Hoff (s) Alf Eriksson (s)
           </p>
         </div>

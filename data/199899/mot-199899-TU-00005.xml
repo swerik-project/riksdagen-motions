@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-TU-00005">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-UtrdG3TunFF2Q5dXbR45yN</idno>
-            <name>Harald Bergström </name>
+            <name>Harald Bergström</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-TtQv6PZ4FumWWx2rfRjkjR"/>
+        <correspAction xml:id="i-TtQv6PZ4FumWWx2rfRjkjR" type="basedOn"/>
         <correspContext corresp="i-TtQv6PZ4FumWWx2rfRjkjR">
           <ref>Regeringsskrivelse 1998/99:8</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-UtrdG3TunFF2Q5dXbR45yN"/>
           <note type="signatory" corresp="i-UtrdG3TunFF2Q5dXbR45yN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MXfojKesHdBdyqyXhi1Nea">
+        <correspAction xml:id="i-MXfojKesHdBdyqyXhi1Nea" type="referral">
           <date when="1998-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ExybGwzwDZAZv1ANmCE7GP">
+        <correspAction xml:id="i-ExybGwzwDZAZv1ANmCE7GP" type="dismissal">
           <date when="1998-10-29"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JihSYkkh1Wfcen6o1XCLM6">
+        <correspAction xml:id="i-JihSYkkh1Wfcen6o1XCLM6" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-H5wyTGfDxYVj458JubsuB3">
+        <correspAction xml:id="i-H5wyTGfDxYVj458JubsuB3" type="referral">
           <date when="1998-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4BwKC5qwwEq5vTM5VCbwWo">
+        <correspAction xml:id="i-4BwKC5qwwEq5vTM5VCbwWo" type="dismissal">
           <date when="1998-10-29"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-94XviWMCi54x9NMWUAUBKM">
+        <correspAction xml:id="i-94XviWMCi54x9NMWUAUBKM" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TvSrAtsh5nuhk9QKwWkLRx"/>
+        <correspAction xml:id="i-TvSrAtsh5nuhk9QKwWkLRx" type="assigned"/>
         <correspContext corresp="i-TvSrAtsh5nuhk9QKwWkLRx">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_T_0005/mot_199899_T_0005-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6NCtYG2pt4eqFgW34KzuSD">
-        <div type="motTitle" xml:id="i-PsFZCUD1Z4ZiHzXepghSW3"/>
-        <div type="motSubmissionInfo" xml:id="i-8mBWzhaWTaMuBTBbZXQjxr"/>
+      <div xml:id="i-6NCtYG2pt4eqFgW34KzuSD" type="motHeader">
+        <div xml:id="i-PsFZCUD1Z4ZiHzXepghSW3" type="motTitle"/>
+        <div xml:id="i-8mBWzhaWTaMuBTBbZXQjxr" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-E3VhJm26b7MWdjW9h1Wnn1">
+      <div xml:id="i-E3VhJm26b7MWdjW9h1Wnn1" type="motBody">
         <div xml:id="i-CqTHpEhsPEh3GRR6cCo75U">
           <p xml:id="i-NgJDPPUXSK1Le7xNv4jNfF">
             1998/99 T5 TS
@@ -213,9 +213,11 @@
           <p xml:id="i-2LffLdFnDppVHUnhDxeZiM">
             Mot. 1998/99T57 på objektet förbifart Markaryd på E 4 ändras
             så att objektet på nytt tas in i den nationella väghållningsplanen.
+          </p>
+          <p type="date" id="i-Suxd6x7kEMYAyfAp53E54y">
             Stockholm den 28 oktober 1998
           </p>
-          <p xml:id="i-FRa4tZjmv1ge6ye3PH6Ne6">
+          <p xml:id="i-FRa4tZjmv1ge6ye3PH6Ne6" type="signatureBlock">
             Harald Bergström (kd)
           </p>
         </div>

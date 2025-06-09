@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-AU-00012">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="woman">
             <idno>i-FJ3qAMd2ReYtDiK92hL27W</idno>
-            <name>Barbro Johansson </name>
+            <name>Barbro Johansson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-5orH1EJN5hP5LGxnLXboj2</idno>
-            <name>Eva Goës </name>
+            <name>Eva Goës</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7nEPvG2HDvyJiFQ2k7gFAs"/>
+        <correspAction xml:id="i-7nEPvG2HDvyJiFQ2k7gFAs" type="basedOn"/>
         <correspContext corresp="i-7nEPvG2HDvyJiFQ2k7gFAs">
           <ref>Regeringsskrivelse 1996/97:41</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-FJ3qAMd2ReYtDiK92hL27W"/>
           <note type="signatory" corresp="i-5orH1EJN5hP5LGxnLXboj2"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-26VfmCnGivXgQhSt1NZ81W">
+        <correspAction xml:id="i-26VfmCnGivXgQhSt1NZ81W" type="referral">
           <date when="1996-11-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MVrmHimDf387obS5tB8XzJ">
+        <correspAction xml:id="i-MVrmHimDf387obS5tB8XzJ" type="dismissal">
           <date when="1996-11-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Pi3BEzmZ2ELtGhDy8AQfXh">
+        <correspAction xml:id="i-Pi3BEzmZ2ELtGhDy8AQfXh" type="submission">
           <date when="1996-11-08"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Aodn6fMcPKi1EMKjf6yaaY">
+        <correspAction xml:id="i-Aodn6fMcPKi1EMKjf6yaaY" type="referral">
           <date when="1996-11-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QM6rsTa1QM256VDYukwdAJ">
+        <correspAction xml:id="i-QM6rsTa1QM256VDYukwdAJ" type="dismissal">
           <date when="1996-11-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4SDiB5QEAyJNURjssiLPGR">
+        <correspAction xml:id="i-4SDiB5QEAyJNURjssiLPGR" type="submission">
           <date when="1996-11-08"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5GqVXroD2CiWoF6z8TANab"/>
+        <correspAction xml:id="i-5GqVXroD2CiWoF6z8TANab" type="assigned"/>
         <correspContext corresp="i-5GqVXroD2CiWoF6z8TANab">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -98,11 +98,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0012/mot_199697_A_0012-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0012/mot_199697_A_0012-001.pdf"/>
-      <div type="motHeader" xml:id="i-FdSMWY4YoU9aPM6G9xoJTG">
-        <div type="motTitle" xml:id="i-TNdXAa6QqWmPbxhwgNEpYK"/>
-        <div type="motSubmissionInfo" xml:id="i-37BKKSELUZFbeB2gV7Ru1D"/>
+      <div xml:id="i-FdSMWY4YoU9aPM6G9xoJTG" type="motHeader">
+        <div xml:id="i-TNdXAa6QqWmPbxhwgNEpYK" type="motTitle"/>
+        <div xml:id="i-37BKKSELUZFbeB2gV7Ru1D" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GXGTFE7VKPvVFHacoF5fbv">
+      <div xml:id="i-GXGTFE7VKPvVFHacoF5fbv" type="motBody">
         <div xml:id="i-Nnh48spgBUba9tuafpZrFJ">
           <p xml:id="i-HnNSDKEfX5ji27ryf6fHJ8">
             1996/97 A12 A6-—13
@@ -409,9 +409,11 @@
           <p xml:id="i-8g3c1VHde3FdsU3t14ZgoN">
             Med hänvisning till det anförda hemställs att riksdagen som sin
             mening ger regeringen till känna vad i motionen anförts om jämställdhetspolitiken.
+          </p>
+          <p type="date" id="i-VkUPoWiqNcXG2Pw1zyHTu9">
             Stockholm den 8 november 1996
           </p>
-          <p xml:id="i-LGLUuaoEuy34qES2qZm1fE">
+          <p xml:id="i-LGLUuaoEuy34qES2qZm1fE" type="signatureBlock">
             Barbro Johansson (mp) Eva Goés (mp)
           </p>
         </div>

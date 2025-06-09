@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-UbU-00059">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-Hco5dtZYVczhhatjt4A2Ah</idno>
-            <name>Carl-Johan Wilson </name>
+            <name>Carl-Johan Wilson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7rws5MNhL69KvCFPtm4cHb"/>
+        <correspAction xml:id="i-7rws5MNhL69KvCFPtm4cHb" type="basedOn"/>
         <correspContext corresp="i-7rws5MNhL69KvCFPtm4cHb">
           <ref>Proposition 1991/92:94</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-Hco5dtZYVczhhatjt4A2Ah"/>
           <note type="signatory" corresp="i-Hco5dtZYVczhhatjt4A2Ah"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GcsuYDxxfRTc7i5jj8aeio">
+        <correspAction xml:id="i-GcsuYDxxfRTc7i5jj8aeio" type="referral">
           <date when="1992-03-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7NKtaNmcYQyegmfoqvh5B4">
+        <correspAction xml:id="i-7NKtaNmcYQyegmfoqvh5B4" type="dismissal">
           <date when="1992-03-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XgkKdMu64BHcYZt5Deb4rj">
+        <correspAction xml:id="i-XgkKdMu64BHcYZt5Deb4rj" type="submission">
           <date when="1992-03-16"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-QPfQLR1XhNs86MJU4s2k5o">
+        <correspAction xml:id="i-QPfQLR1XhNs86MJU4s2k5o" type="referral">
           <date when="1992-03-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Y2WrKBFeJ7jcHx4FY2a44T">
+        <correspAction xml:id="i-Y2WrKBFeJ7jcHx4FY2a44T" type="dismissal">
           <date when="1992-03-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4PwB3syfy4Yzg2HwkZNstE">
+        <correspAction xml:id="i-4PwB3syfy4Yzg2HwkZNstE" type="submission">
           <date when="1992-03-16"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XESS8vKxBs7PH2JB2YhbZU"/>
+        <correspAction xml:id="i-XESS8vKxBs7PH2JB2YhbZU" type="assigned"/>
         <correspContext corresp="i-XESS8vKxBs7PH2JB2YhbZU">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_UbU_59/mot_199192_UbU_59-001.pdf"/>
-      <div type="motHeader" xml:id="i-Wz6iFU6Pa1MWy8TAtARLR2">
-        <div type="motTitle" xml:id="i-QsYC8bUmiFN2vsVHog4Fex"/>
-        <div type="motSubmissionInfo" xml:id="i-8KXY3fYCVsw84eXctNq41M"/>
+      <div xml:id="i-Wz6iFU6Pa1MWy8TAtARLR2" type="motHeader">
+        <div xml:id="i-QsYC8bUmiFN2vsVHog4Fex" type="motTitle"/>
+        <div xml:id="i-8KXY3fYCVsw84eXctNq41M" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XVxKgqmZxQVXpLCYoMe9Bq">
+      <div xml:id="i-XVxKgqmZxQVXpLCYoMe9Bq" type="motBody">
         <div xml:id="i-KPB4AgsvAjhe4Z8SywvqLh">
           <p xml:id="i-NWd1zmmyZ17AVhLtRk8jbM">
             Motion till riksdagen
@@ -130,9 +130,12 @@
             och särvux konsulentstöd för elever med flerhandi-
           </p>
           <p xml:id="i-RxrJ2xS96jg3LKWDbkwPA4">
-            kapp. Stockholm den 16 mars 1992
+            kapp.
           </p>
-          <p xml:id="i-1UJCWRaJTdLaqqAjcqTbL">
+          <p type="date" id="i-FTZV3ZhxiJPScMy23sLjkk">
+            Stockholm den 16 mars 1992
+          </p>
+          <p xml:id="i-1UJCWRaJTdLaqqAjcqTbL" type="signatureBlock">
             Carl-Johan Wilson
           </p>
         </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-JuU-00007">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-L8FJ5Uq6DWCoY3cXS1trPk</idno>
-            <name>Lars Stjernkvist </name>
+            <name>Lars Stjernkvist</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-NxhWABYZtDAg5RbsxD7VBv</idno>
-            <name>Maj-Inger Klingvall </name>
+            <name>Maj-Inger Klingvall</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-WMA5CvSwpnzJGeJntPaK4Q</idno>
-            <name>Inge Carlsson </name>
+            <name>Inge Carlsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-3iCLCfEyNLp9HyzZirkVQy"/>
+        <correspAction xml:id="i-3iCLCfEyNLp9HyzZirkVQy" type="basedOn"/>
         <correspContext corresp="i-3iCLCfEyNLp9HyzZirkVQy">
           <ref>Proposition 1991/92:52</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-NxhWABYZtDAg5RbsxD7VBv"/>
           <note type="signatory" corresp="i-WMA5CvSwpnzJGeJntPaK4Q"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WZRQytKvsgFXZ5v8QroczP">
+        <correspAction xml:id="i-WZRQytKvsgFXZ5v8QroczP" type="referral">
           <date when="1991-11-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5dBmQiK1xgVNcGYbvUANas">
+        <correspAction xml:id="i-5dBmQiK1xgVNcGYbvUANas" type="dismissal">
           <date when="1991-11-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3pjZSU4DNYrUFgLviEAsNM">
+        <correspAction xml:id="i-3pjZSU4DNYrUFgLviEAsNM" type="submission">
           <date when="1991-11-19"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-L6c8Gszx2CUCqHaqijwYKA">
+        <correspAction xml:id="i-L6c8Gszx2CUCqHaqijwYKA" type="referral">
           <date when="1991-11-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MKkF6wxVzLpFub2wjuRrWS">
+        <correspAction xml:id="i-MKkF6wxVzLpFub2wjuRrWS" type="dismissal">
           <date when="1991-11-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BEo5rz5xDAUVNet1eQRv13">
+        <correspAction xml:id="i-BEo5rz5xDAUVNet1eQRv13" type="submission">
           <date when="1991-11-19"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MSX1gevjhnh3qiHUw9w72c"/>
+        <correspAction xml:id="i-MSX1gevjhnh3qiHUw9w72c" type="assigned"/>
         <correspContext corresp="i-MSX1gevjhnh3qiHUw9w72c">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_JuU_7/mot_199192_JuU_7-001.pdf"/>
-      <div type="motHeader" xml:id="i-GsDq2ZWDdz3qZRcq4kXbaf">
-        <div type="motTitle" xml:id="i-G5WeFSwEsDSWLBTUoHAdVm"/>
-        <div type="motSubmissionInfo" xml:id="i-MMMjtMF3NyKWUP4gcLM6Hi"/>
+      <div xml:id="i-GsDq2ZWDdz3qZRcq4kXbaf" type="motHeader">
+        <div xml:id="i-G5WeFSwEsDSWLBTUoHAdVm" type="motTitle"/>
+        <div xml:id="i-MMMjtMF3NyKWUP4gcLM6Hi" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-A8FW3sXQXoiQn1gnNYQ8hj">
+      <div xml:id="i-A8FW3sXQXoiQn1gnNYQ8hj" type="motBody">
         <div xml:id="i-2ZTwbSTT2uran6EWh7CLLu">
           <p xml:id="i-JZ4iY7jyRg5pTpsadyFtoe">
             Motion till riksdagen 1991/92:Ju7
@@ -157,8 +157,13 @@
           <p xml:id="i-J8TPzfgSpoBg7bpaUs379c">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motio- nen anförts
-            om lokaliseringen av länspolismästaren till Norrköping. Stockholm
-            den 19 november 1991 Lars Stjernkvist (s)
+            om lokaliseringen av länspolismästaren till Norrköping.
+          </p>
+          <p type="date" id="i-96wYRuy2wFpqLSxvHxSVLS">
+            Stockholm den 19 november 1991
+          </p>
+          <p type="signatureBlock" id="i-27yob6zPa3BUn9vysZiuxf">
+            Lars Stjernkvist (s)
           </p>
           <p xml:id="i-R5oA5QmFQr9UBCrMoHxgov">
             Maj-Inger Klingvall (s) Inge Carlsson (s)

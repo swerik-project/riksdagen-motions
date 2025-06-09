@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00403">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-DtDdcixhFAnc9cgrJCe6P3">
           <note type="signatory" corresp="i-NF4BomvcfAd9CuZEwt9Bwv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7D8qb7wn8dG1x1RJwdajya">
+        <correspAction xml:id="i-7D8qb7wn8dG1x1RJwdajya" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XYaNBt6iHGC75DUwjZSoMj">
+        <correspAction xml:id="i-XYaNBt6iHGC75DUwjZSoMj" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6mxnitANDgB6bSGGd8R7NW">
+        <correspAction xml:id="i-6mxnitANDgB6bSGGd8R7NW" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8XEXfobWQrbDnQLHMBgoYj"/>
+        <correspAction xml:id="i-8XEXfobWQrbDnQLHMBgoYj" type="assigned"/>
         <correspContext corresp="i-8XEXfobWQrbDnQLHMBgoYj">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_403/mot_200405_Ub_403-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XGVjj5dp5ZgbRtdQN99D6k">
-        <div type="motTitle" xml:id="i-YXuamkPM5RUwvs5Ke9x3jM"/>
-        <div type="motSubmissionInfo" xml:id="i-XprMi9XZkw6Np1oY491BK7"/>
+      <div xml:id="i-XGVjj5dp5ZgbRtdQN99D6k" type="motHeader">
+        <div xml:id="i-YXuamkPM5RUwvs5Ke9x3jM" type="motTitle"/>
+        <div xml:id="i-XprMi9XZkw6Np1oY491BK7" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WejgmoMY7psDXMeizcHWKw">
+      <div xml:id="i-WejgmoMY7psDXMeizcHWKw" type="motBody">
         <div xml:id="i-2qNaujhkreufLMpExUkduG">
           <p xml:id="i-W9dUggenKjmWdYqQn6bdda">
             2004/05 mnr: Ub403 pnr: s7075
@@ -122,9 +122,12 @@
           </p>
           <p xml:id="i-WGLGhZMk7xsK4HR2qsaF3J">
             Det är angeläget att hitta former för att permanenta delegationens
-            verksamhet. Stockholm den 1 oktober 2004
+            verksamhet.
           </p>
-          <p xml:id="i-THxYPash8yz7sqUzZbPHDP">
+          <p type="date" id="i-PKbHjSubZKLSB12SP8BodG">
+            Stockholm den 1 oktober 2004
+          </p>
+          <p xml:id="i-THxYPash8yz7sqUzZbPHDP" type="signatureBlock">
             Joe Frans (s)
           </p>
         </div>

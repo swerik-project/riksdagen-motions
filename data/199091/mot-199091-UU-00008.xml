@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-UU-00008">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-8MNvcPrNhVW2gd9o1fiYTU</idno>
-            <name>Anna Horn af Rantzien </name>
+            <name>Anna Horn af Rantzien</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-5LpuiRnqbw3VE57wmf8VJc</idno>
-            <name>Krister Skånberg </name>
+            <name>Krister Skånberg</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-4dim1Fo5tt4Pc2BXAe9wjD</idno>
-            <name>Lars Norberg </name>
+            <name>Lars Norberg</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-HuhnBy9HqoLqBnfraHNGd2"/>
+        <correspAction xml:id="i-HuhnBy9HqoLqBnfraHNGd2" type="basedOn"/>
         <correspContext corresp="i-HuhnBy9HqoLqBnfraHNGd2">
           <ref>Proposition 1990/91:90</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-5LpuiRnqbw3VE57wmf8VJc"/>
           <note type="signatory" corresp="i-4dim1Fo5tt4Pc2BXAe9wjD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9DYdUGPmFpCAH3CZZ2K2d8">
+        <correspAction xml:id="i-9DYdUGPmFpCAH3CZZ2K2d8" type="referral">
           <date when="1991-03-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JpYZrR41W76M5T7KdBeU6J">
+        <correspAction xml:id="i-JpYZrR41W76M5T7KdBeU6J" type="dismissal">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-611mQkRwoNdsLjX3xNrTF3">
+        <correspAction xml:id="i-611mQkRwoNdsLjX3xNrTF3" type="submission">
           <date when="1991-03-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-VSPJmw8ypB7cGcvbxPCh5S">
+        <correspAction xml:id="i-VSPJmw8ypB7cGcvbxPCh5S" type="referral">
           <date when="1991-03-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-C5xWfpB9hPeSs6fUVA71Gv">
+        <correspAction xml:id="i-C5xWfpB9hPeSs6fUVA71Gv" type="dismissal">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CdJqAbbXHdJWzRgJr25rSq">
+        <correspAction xml:id="i-CdJqAbbXHdJWzRgJr25rSq" type="submission">
           <date when="1991-03-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WKJVeCuHzUgmCQPtFXacNb"/>
+        <correspAction xml:id="i-WKJVeCuHzUgmCQPtFXacNb" type="assigned"/>
         <correspContext corresp="i-WKJVeCuHzUgmCQPtFXacNb">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_UU_8/mot_199091_UU_8-001.pdf"/>
-      <div type="motHeader" xml:id="i-RogRCwupvwbifaxm2p8hfJ">
-        <div type="motTitle" xml:id="i-McJYudTSHTT4EqzdGrQWTC"/>
-        <div type="motSubmissionInfo" xml:id="i-ETx7Si8LB6cGWXbb7t91dD"/>
+      <div xml:id="i-RogRCwupvwbifaxm2p8hfJ" type="motHeader">
+        <div xml:id="i-McJYudTSHTT4EqzdGrQWTC" type="motTitle"/>
+        <div xml:id="i-ETx7Si8LB6cGWXbb7t91dD" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SbGjuAjuWUmJkW71dQ8Gt4">
+      <div xml:id="i-SbGjuAjuWUmJkW71dQ8Gt4" type="motBody">
         <div xml:id="i-HXFkgunowKRqwbCH3Jf6pN">
           <p xml:id="i-Tq1pNSgo96jFAR7ZK7NjCm">
             Motion till riksdagen 1990/91:U08
@@ -169,9 +169,12 @@
             Mot. 1990/91
           </p>
           <p xml:id="i-8n3bZtMjjaVfy18Nrhi93q">
-            U8 Stockholm den 8 mars 1991
+            U8
           </p>
-          <p xml:id="i-ZxTavATnHiEU7K8ekiVvs">
+          <p type="date" id="i-7r8easLsng8eYCdVjjHP5p">
+            Stockholm den 8 mars 1991
+          </p>
+          <p xml:id="i-ZxTavATnHiEU7K8ekiVvs" type="signatureBlock">
             Anna Horn af Rantzien (mp)
           </p>
           <p xml:id="i-SicqontUN3mfzhzVehBxbk">

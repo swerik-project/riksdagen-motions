@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-TU-00029">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-Gcjbk3nJyjWXPaa2dm3MFR</idno>
-            <name>Elver Jonsson </name>
+            <name>Elver Jonsson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-3YBav2r8YXZiNoQkfb1bUy</idno>
-            <name>Elizabeth Nyström </name>
+            <name>Elizabeth Nyström</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-SZgcxyxYn6GnRBLikzLy7M</idno>
-            <name>Kjell Ericsson </name>
+            <name>Kjell Ericsson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-MKmDe1LMQWwtyfaLN7pYtj"/>
+        <correspAction xml:id="i-MKmDe1LMQWwtyfaLN7pYtj" type="basedOn"/>
         <correspContext corresp="i-MKmDe1LMQWwtyfaLN7pYtj">
           <ref>Proposition 1997/98:56</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-3YBav2r8YXZiNoQkfb1bUy"/>
           <note type="signatory" corresp="i-SZgcxyxYn6GnRBLikzLy7M"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SerLQGQszidoqQbVhrmBM9">
+        <correspAction xml:id="i-SerLQGQszidoqQbVhrmBM9" type="referral">
           <date when="1998-03-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-J1SBXsVcrFLx9W7VFrY2Vi">
+        <correspAction xml:id="i-J1SBXsVcrFLx9W7VFrY2Vi" type="dismissal">
           <date when="1998-03-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MqZS2ThXNgwK4ca8VQk3Yv">
+        <correspAction xml:id="i-MqZS2ThXNgwK4ca8VQk3Yv" type="submission">
           <date when="1998-03-23"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-ByMVp2TDzuW2p2G9ZRyvPn">
+        <correspAction xml:id="i-ByMVp2TDzuW2p2G9ZRyvPn" type="referral">
           <date when="1998-03-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2EPMECjLof5uzw6QhUZ298">
+        <correspAction xml:id="i-2EPMECjLof5uzw6QhUZ298" type="dismissal">
           <date when="1998-03-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EBbyBjUFEYX5KrVvooTArs">
+        <correspAction xml:id="i-EBbyBjUFEYX5KrVvooTArs" type="submission">
           <date when="1998-03-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-H1haLGLN7tWEA1rUNdgcjm"/>
+        <correspAction xml:id="i-H1haLGLN7tWEA1rUNdgcjm" type="assigned"/>
         <correspContext corresp="i-H1haLGLN7tWEA1rUNdgcjm">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_T_0029/mot_199798_T_0029-0001.pdf"/>
-      <div type="motHeader" xml:id="i-F4iYonin93tvvPBEUaPmV3">
-        <div type="motTitle" xml:id="i-U8cTsENbZifRRdP7arQdos"/>
-        <div type="motSubmissionInfo" xml:id="i-AGdYF6DvrYiJibuhq75Lwr"/>
+      <div xml:id="i-F4iYonin93tvvPBEUaPmV3" type="motHeader">
+        <div xml:id="i-U8cTsENbZifRRdP7arQdos" type="motTitle"/>
+        <div xml:id="i-AGdYF6DvrYiJibuhq75Lwr" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LYwUTGbnWY6vJqzUH2deHF">
+      <div xml:id="i-LYwUTGbnWY6vJqzUH2deHF" type="motBody">
         <div xml:id="i-DM6h1oCvBmsNC8qpenRzmW">
           <p xml:id="i-Sfjp5K3hq1CZJBmSjzqWX9">
             1997/98 [T29 T20-36
@@ -207,8 +207,13 @@
             Med hänvisning till det anförda hemställs att riksdagen begär
             att regeringen tidigarelägger upprustningen och utbyggnaden av
             riksväg 45 på sträckan Göteborg-Karlstad i avsikt att säkra allmänhetens
-            komfort, näringslivets behov och trafiksäkerheten. Stockholm den
-            23 mars 1998 Elver Jonsson (fp)
+            komfort, näringslivets behov och trafiksäkerheten.
+          </p>
+          <p type="date" id="i-MEPtRpct8iDmHHwFgmVXwz">
+            Stockholm den 23 mars 1998
+          </p>
+          <p type="signatureBlock" id="i-TSKPToKU5rmQ1VyjEqK5WB">
+            Elver Jonsson (fp)
           </p>
           <p xml:id="i-5GUbrdkGmv8vAAmZaeJuv6">
             Elizabeth Nyström (m) Kjell Ericsson (c)

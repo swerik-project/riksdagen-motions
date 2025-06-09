@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00022">
   <teiHeader>
     <fileDesc>
@@ -98,7 +98,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-72mPZragrHWsBvx2d5QCwG"/>
+        <correspAction xml:id="i-72mPZragrHWsBvx2d5QCwG" type="basedOn"/>
         <correspContext corresp="i-72mPZragrHWsBvx2d5QCwG">
           <ref>Proposition 2005/06:64</ref>
         </correspContext>
@@ -115,19 +115,19 @@
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-6nnDJQ3JDKpz6ceUhqB3YB">
+        <correspAction xml:id="i-6nnDJQ3JDKpz6ceUhqB3YB" type="referral">
           <date when="2006-02-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EC7k8qkddwo9cQUdcsuyrt">
+        <correspAction xml:id="i-EC7k8qkddwo9cQUdcsuyrt" type="dismissal">
           <date when="2006-02-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NCza4qdSLaq3CWqPDRABsj">
+        <correspAction xml:id="i-NCza4qdSLaq3CWqPDRABsj" type="dismissal">
           <date when="2006-02-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VGpXfKo3NpcoP7tGoMU5oh">
+        <correspAction xml:id="i-VGpXfKo3NpcoP7tGoMU5oh" type="submission">
           <date when="2006-02-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9pmriur8z668YNYeuENQpb"/>
+        <correspAction xml:id="i-9pmriur8z668YNYeuENQpb" type="assigned"/>
         <correspContext corresp="i-9pmriur8z668YNYeuENQpb">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -142,11 +142,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_22/mot_200506_So_22-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Np4SjWnNsyCx2Yx63NCGFH">
-        <div type="motTitle" xml:id="i-26WJhCsgCUn2QzTjTxgrza"/>
-        <div type="motSubmissionInfo" xml:id="i-EtBSP3HodGRHh1jrmtiFZK"/>
+      <div xml:id="i-Np4SjWnNsyCx2Yx63NCGFH" type="motHeader">
+        <div xml:id="i-26WJhCsgCUn2QzTjTxgrza" type="motTitle"/>
+        <div xml:id="i-EtBSP3HodGRHh1jrmtiFZK" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SRJv6mCFeWdoSqnqqg8pqo">
+      <div xml:id="i-SRJv6mCFeWdoSqnqqg8pqo" type="motBody">
         <div xml:id="i-GfUVbNB4ftS7DLQ1gGVrbP">
           <p xml:id="i-BH7VnSfa263fASztaH3NhX">
             2005/06
@@ -676,7 +676,10 @@
             identifiering.
           </p>
           <p xml:id="i-S4DNMG4EQ1HxBuPEjM73M1" type="date">
-            Stockholm den 3 februari 2006 Chatrine Pålsson (kd)
+            Stockholm den 3 februari 2006
+          </p>
+          <p type="signatureBlock" id="i-9qWJQMv2sA4ScSe8sxBVuZ">
+            Chatrine Pålsson (kd)
           </p>
           <p xml:id="i-6xh4VumtHzKJZFAMhiRHUo">
             Inger Davidson (kd) Ulrik Lindgren (kd) Rosita Runegrund (kd)

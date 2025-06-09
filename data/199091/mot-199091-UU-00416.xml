@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-UU-00416">
   <teiHeader>
     <fileDesc>
@@ -54,28 +54,28 @@
           </person>
           <person gender="man">
             <idno>i-QMDwkhc4AcuaCPrQxkeYYk</idno>
-            <name>Berndt Ekholm </name>
+            <name>Berndt Ekholm</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-DuKowRCZeJcfZANidh4RSE</idno>
-            <name>Gunnar Thollander </name>
+            <name>Gunnar Thollander</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-MAohbgjULBda4ky5ZTSzv1</idno>
-            <name>Berit Löfstedt </name>
+            <name>Berit Löfstedt</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-EV8Pts9LgPV9TKVreGG4cG</idno>
-            <name>Torgny Larsson </name>
+            <name>Torgny Larsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -94,25 +94,25 @@
           <note type="signatory" corresp="i-MAohbgjULBda4ky5ZTSzv1"/>
           <note type="signatory" corresp="i-EV8Pts9LgPV9TKVreGG4cG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PnWkGpWyof8t5gC6eTkU1i">
+        <correspAction xml:id="i-PnWkGpWyof8t5gC6eTkU1i" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NnbmCX2znhxrcnCndEmtA4">
+        <correspAction xml:id="i-NnbmCX2znhxrcnCndEmtA4" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HjMbS4mJt55WegfehVAuL7">
+        <correspAction xml:id="i-HjMbS4mJt55WegfehVAuL7" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-NoqKAvQMxb7HwD3FpNyLBJ">
+        <correspAction xml:id="i-NoqKAvQMxb7HwD3FpNyLBJ" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4xQyMFZ6iLU3BjaxFE3bKP">
+        <correspAction xml:id="i-4xQyMFZ6iLU3BjaxFE3bKP" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LMMoa2C1ijBu3pj9G7XqKe">
+        <correspAction xml:id="i-LMMoa2C1ijBu3pj9G7XqKe" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HsbhCEECPvALFcwwqzzVPw"/>
+        <correspAction xml:id="i-HsbhCEECPvALFcwwqzzVPw" type="assigned"/>
         <correspContext corresp="i-HsbhCEECPvALFcwwqzzVPw">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -125,11 +125,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_UU_416/mot_199091_UU_416-001.pdf"/>
-      <div type="motHeader" xml:id="i-W5endzjjaLLpWgdfqowe5y">
-        <div type="motTitle" xml:id="i-J43ZeK7iYwj8nzD6U5aEz7"/>
-        <div type="motSubmissionInfo" xml:id="i-4A1oX3D3iuEJk4Y7D9P6jR"/>
+      <div xml:id="i-W5endzjjaLLpWgdfqowe5y" type="motHeader">
+        <div xml:id="i-J43ZeK7iYwj8nzD6U5aEz7" type="motTitle"/>
+        <div xml:id="i-4A1oX3D3iuEJk4Y7D9P6jR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BuZvHHpM5SqQJQmNvB7zpP">
+      <div xml:id="i-BuZvHHpM5SqQJQmNvB7zpP" type="motBody">
         <div xml:id="i-KGNqaoAi3tgkm4BTo1cHK">
           <p xml:id="i-GKD5BabTEbTGmaJbq3Kmsn">
             Motion till riksdagen
@@ -212,9 +212,13 @@
           <p xml:id="i-Riq8RJTBCJEpHaoAFLqtvV">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motio- nen anförts
-            om behovet av vidgade insatser för medling i konflikter. Stockholm
-            den 24 januari 1991 Berndt Ekholm (s) Torgny Larsson (s) Berit
-            Löfstedt (s)
+            om behovet av vidgade insatser för medling i konflikter.
+          </p>
+          <p type="date" id="i-A3DnbDPAKYHpvxAWY47zjK">
+            Stockholm den 24 januari 1991
+          </p>
+          <p type="signatureBlock" id="i-96TqCWd7PANRMXPji7UtDK">
+            Berndt Ekholm (s) Torgny Larsson (s) Berit Löfstedt (s)
           </p>
           <p xml:id="i-KytPSr8Co4R5Xg41DQmfiR">
             Gunnar Thollander (s)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-FiU-00065">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-5BA98ZchZEfNAH2JER4cKK</idno>
-            <name>Bengt Kronblad </name>
+            <name>Bengt Kronblad</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-YF5JHvUxbZuJPxR6pCDeHg</idno>
-            <name>Lennart Nilsson </name>
+            <name>Lennart Nilsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Q8WzP8vYdvJL6vzDTwXJ6u</idno>
-            <name>Jan Fransson </name>
+            <name>Jan Fransson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-S8ofLcstUaZdVCsE1STWZh"/>
+        <correspAction xml:id="i-S8ofLcstUaZdVCsE1STWZh" type="basedOn"/>
         <correspContext corresp="i-S8ofLcstUaZdVCsE1STWZh">
           <ref>Proposition 1992/93:50</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-5BA98ZchZEfNAH2JER4cKK"/>
           <note type="signatory" corresp="i-Q8WzP8vYdvJL6vzDTwXJ6u"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WdKueqzwEMa7Yw1WWYjyda">
+        <correspAction xml:id="i-WdKueqzwEMa7Yw1WWYjyda" type="referral">
           <date when="1992-11-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GtfD1aSZ4Fb4RZjXXAErNo">
+        <correspAction xml:id="i-GtfD1aSZ4Fb4RZjXXAErNo" type="dismissal">
           <date when="1992-11-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M1DVucL7gyNVFY5NzbnFBV">
+        <correspAction xml:id="i-M1DVucL7gyNVFY5NzbnFBV" type="submission">
           <date when="1992-11-12"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-WSc44pMKtpPXTzqVYpcgeM">
+        <correspAction xml:id="i-WSc44pMKtpPXTzqVYpcgeM" type="referral">
           <date when="1992-11-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-23coyRUmif6ZMUuQ9y3URM">
+        <correspAction xml:id="i-23coyRUmif6ZMUuQ9y3URM" type="dismissal">
           <date when="1992-11-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QLVAqqpNKEavL5HmKzaSiB">
+        <correspAction xml:id="i-QLVAqqpNKEavL5HmKzaSiB" type="submission">
           <date when="1992-11-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JgxkCWJiRrYPPE5UD9d9c3"/>
+        <correspAction xml:id="i-JgxkCWJiRrYPPE5UD9d9c3" type="assigned"/>
         <correspContext corresp="i-JgxkCWJiRrYPPE5UD9d9c3">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_FiU_65/mot_199293_FiU_65-001.pdf"/>
-      <div type="motHeader" xml:id="i-UdUGsotY4DnTYx6Tnc9ztc">
-        <div type="motTitle" xml:id="i-GwzJffiENSz6adPntMHVN2"/>
-        <div type="motSubmissionInfo" xml:id="i-8DagCbesTmhrz9VAqA3KMJ"/>
+      <div xml:id="i-UdUGsotY4DnTYx6Tnc9ztc" type="motHeader">
+        <div xml:id="i-GwzJffiENSz6adPntMHVN2" type="motTitle"/>
+        <div xml:id="i-8DagCbesTmhrz9VAqA3KMJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CTmL482zr6eeLvqB1TLwiA">
+      <div xml:id="i-CTmL482zr6eeLvqB1TLwiA" type="motBody">
         <div xml:id="i-9NEWZoKTYWPNkk7FBDKjS8">
           <p xml:id="i-Acwk4VN1xN3MMqzZJS7Cvu">
             Motion till riksdagen 1992/93:Fi65
@@ -145,9 +145,12 @@
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motio- nen anförts
             om att inskränkningar i berättigad ledighet skall drabba alla
-            lika. Stockholm den 12 november 1992
+            lika.
           </p>
-          <p xml:id="i-SmT4FzdwCyLDqVxa18u28W">
+          <p type="date" id="i-CJ1Z2BL4ReQNLGdR51Z3rm">
+            Stockholm den 12 november 1992
+          </p>
+          <p xml:id="i-SmT4FzdwCyLDqVxa18u28W" type="signatureBlock">
             Jan Fransson (s)
           </p>
           <p xml:id="i-8ULP4Mqpgpg8XjKBHkhh1m">

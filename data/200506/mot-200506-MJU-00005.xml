@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00005">
   <teiHeader>
     <fileDesc>
@@ -70,7 +70,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-DkC42jzz976qiMovyDpSxf"/>
+        <correspAction xml:id="i-DkC42jzz976qiMovyDpSxf" type="basedOn"/>
         <correspContext corresp="i-DkC42jzz976qiMovyDpSxf">
           <ref>Proposition 2004/05:177</ref>
         </correspContext>
@@ -83,19 +83,19 @@
           <note type="signatory" corresp="i-9LE4uwYS8LySpZjtTwxjti"/>
           <note type="signatory" corresp="i-Ga4FaAaNvVxH6nfoR7FVAe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-T8bzQLgT5n6nohzqQXTExs">
+        <correspAction xml:id="i-T8bzQLgT5n6nohzqQXTExs" type="referral">
           <date when="2005-09-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-V5fCXPBjD6FL1odtF37cad">
+        <correspAction xml:id="i-V5fCXPBjD6FL1odtF37cad" type="dismissal">
           <date when="2005-09-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7uuNSwHXbKYm7QvoPECn1E">
+        <correspAction xml:id="i-7uuNSwHXbKYm7QvoPECn1E" type="dismissal">
           <date when="2005-09-29"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SU3uFzPp7B9zxKcTcJLV3P">
+        <correspAction xml:id="i-SU3uFzPp7B9zxKcTcJLV3P" type="submission">
           <date when="2005-09-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3c6L1wBLdiE4akTzzYbjZa"/>
+        <correspAction xml:id="i-3c6L1wBLdiE4akTzzYbjZa" type="assigned"/>
         <correspContext corresp="i-3c6L1wBLdiE4akTzzYbjZa">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_5/mot_200506_MJ_5-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4daGRkxiZQH1wBFN114tQh">
-        <div type="motTitle" xml:id="i-BxZZ1jxvy3rVyhNLt7kutF"/>
-        <div type="motSubmissionInfo" xml:id="i-Dgc39uDD9xReZ4UNtrJSZ7"/>
+      <div xml:id="i-4daGRkxiZQH1wBFN114tQh" type="motHeader">
+        <div xml:id="i-BxZZ1jxvy3rVyhNLt7kutF" type="motTitle"/>
+        <div xml:id="i-Dgc39uDD9xReZ4UNtrJSZ7" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-EE8m5HLg9TnNzNo4aFMzdA">
+      <div xml:id="i-EE8m5HLg9TnNzNo4aFMzdA" type="motBody">
         <div xml:id="i-7ucykUb5cavc3nixpCFQEe">
           <p xml:id="i-4sJnZ388RiLH8Zwq7JhzWq">
             2005/06 mnr: MJ5 pnr: fp1249
@@ -461,7 +461,10 @@
             att överpröva till. Detta bör ges regeringen till känna.
           </p>
           <p xml:id="i-53LmNJz6YvNpW79bVYxqYk" type="date">
-            Stockholm den 28 september 2005 Anita Brodén (fp)
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-F5zYykdzADAT3p5XLaPNno">
+            Anita Brodén (fp)
           </p>
           <p xml:id="i-C8D7dFcxAk53sRAAkEYRCh">
             Lennart Fremling (fp) Sverker Thorén (fp) Marie Wahlgren (fp)

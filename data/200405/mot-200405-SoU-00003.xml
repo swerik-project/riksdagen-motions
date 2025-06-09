@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00003">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-EtshmdVSNY457Ca1W4Htkv"/>
+        <correspAction xml:id="i-EtshmdVSNY457Ca1W4Htkv" type="basedOn"/>
         <correspContext corresp="i-EtshmdVSNY457Ca1W4Htkv">
           <ref>Proposition 2003/04:179</ref>
         </correspContext>
@@ -82,19 +82,19 @@
           <note type="signatory" corresp="i-WsL6SwK6LQaRZcU4RUxvKD"/>
           <note type="signatory" corresp="i-Ct7W83fwgMLpB48uiYaBqi"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XPJs1mGdj1qX8roeEmSyRy">
+        <correspAction xml:id="i-XPJs1mGdj1qX8roeEmSyRy" type="referral">
           <date when="2004-10-01"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-XCkrDtvwmnxgysCCUMPUSi">
+        <correspAction xml:id="i-XCkrDtvwmnxgysCCUMPUSi" type="registration">
           <date when="2004-09-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-65AyDtE2AW5sQALwi4QPaD">
+        <correspAction xml:id="i-65AyDtE2AW5sQALwi4QPaD" type="dismissal">
           <date when="2004-09-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6iQFD8ZEKu6RUpmv3JiFXx">
+        <correspAction xml:id="i-6iQFD8ZEKu6RUpmv3JiFXx" type="submission">
           <date when="2004-09-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Dxqf9aPPsKMyrPzTRAehN8"/>
+        <correspAction xml:id="i-Dxqf9aPPsKMyrPzTRAehN8" type="assigned"/>
         <correspContext corresp="i-Dxqf9aPPsKMyrPzTRAehN8">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_3/mot_200405_So_3-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XuURq7u677oTvBM53Qr8A7">
-        <div type="motTitle" xml:id="i-9ib6QxWCikDUjDaTpcvoui"/>
-        <div type="motSubmissionInfo" xml:id="i-YRjonF6wvVmg1RTy8cPjor"/>
+      <div xml:id="i-XuURq7u677oTvBM53Qr8A7" type="motHeader">
+        <div xml:id="i-9ib6QxWCikDUjDaTpcvoui" type="motTitle"/>
+        <div xml:id="i-YRjonF6wvVmg1RTy8cPjor" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Qz3gZA5azXPd8TkGTfFTP9">
+      <div xml:id="i-Qz3gZA5azXPd8TkGTfFTP9" type="motBody">
         <div xml:id="i-XuKuxeNf8kN5cYioqR7FkE">
           <p xml:id="i-C7GJfREeLJ4ooYAZgscK4t">
             2004/05 mnr: So3 pnr: fp1152
@@ -205,7 +205,10 @@
             gälla.
           </p>
           <p xml:id="i-GdcAzVNimgpb7pfF7Zocg7" type="date">
-            Stockholm den 28 september 2004 Erik Ullenhag (fp)
+            Stockholm den 28 september 2004
+          </p>
+          <p type="signatureBlock" id="i-Nd8JUPN1ENfJkqXiFPaTgQ">
+            Erik Ullenhag (fp)
           </p>
           <p xml:id="i-RBYbwraHK4SHBvnBcirU8r">
             Kerstin Heinemann (fp) Marita Aronson (fp) Gabriel Romanus (fp)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00012">
   <teiHeader>
     <fileDesc>
@@ -83,7 +83,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-CJj1gkHHcjb9wdHJZYUbdr"/>
+        <correspAction xml:id="i-CJj1gkHHcjb9wdHJZYUbdr" type="basedOn"/>
         <correspContext corresp="i-CJj1gkHHcjb9wdHJZYUbdr">
           <ref>Proposition 2003/04:18</ref>
         </correspContext>
@@ -98,16 +98,16 @@
           <note type="signatory" corresp="i-SKjAmNScZ7eZ3a8Xy1J8hs"/>
           <note type="signatory" corresp="i-J2pcjBf6ppCUUibn7Biroc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Rrhwp9KBBwo1U7TVZyiKCz">
+        <correspAction xml:id="i-Rrhwp9KBBwo1U7TVZyiKCz" type="referral">
           <date when="2003-11-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Uv32JwSgJ7C5ewE1spXnLY">
+        <correspAction xml:id="i-Uv32JwSgJ7C5ewE1spXnLY" type="dismissal">
           <date when="2003-11-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KrPu43XmfQusr1sw3tzT5B">
+        <correspAction xml:id="i-KrPu43XmfQusr1sw3tzT5B" type="submission">
           <date when="2003-11-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-g4qRx6V2474aQVhzHWCve"/>
+        <correspAction xml:id="i-g4qRx6V2474aQVhzHWCve" type="assigned"/>
         <correspContext corresp="i-g4qRx6V2474aQVhzHWCve">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -122,11 +122,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0012/mot_200304_Sk_0012-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SxGJsTLMPzWMMkvxZ1VzKE">
-        <div type="motTitle" xml:id="i-6jHk6ATbGm5YcsKX66aTRh"/>
-        <div type="motSubmissionInfo" xml:id="i-FtDwxHFb62StCLmz9J4J5A"/>
+      <div xml:id="i-SxGJsTLMPzWMMkvxZ1VzKE" type="motHeader">
+        <div xml:id="i-6jHk6ATbGm5YcsKX66aTRh" type="motTitle"/>
+        <div xml:id="i-FtDwxHFb62StCLmz9J4J5A" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Tnio4oD94SpkmpfcQM9kw7">
+      <div xml:id="i-Tnio4oD94SpkmpfcQM9kw7" type="motBody">
         <div xml:id="i-GCyDvh9DSGAqHLPn1tYfTk">
           <p xml:id="i-G7Lm4HVQchhDiFAgryh38d">
             2003/04 mnr: Sk12 pnr: kd118
@@ -379,7 +379,10 @@
             ett allmänintresse.
           </p>
           <p xml:id="i-3bN1gs8h9ahD7D6PC1kMMi" type="date">
-            Stockholm den 6 november 2003 Per Landgren (kd)
+            Stockholm den 6 november 2003
+          </p>
+          <p type="signatureBlock" id="i-3ydi5b5qXfCRuxbHS5ZgQ3">
+            Per Landgren (kd)
           </p>
           <p xml:id="i-NV32nT1JJpEQTWHJEjiaS6">
             Lars Gustafsson (kd) Mats Odell (kd) Stefan Attefall (kd) Olle

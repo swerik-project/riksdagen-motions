@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1944--ak--00086">
   <teiHeader>
     <fileDesc>
       <titleStmt/>
@@ -17,7 +17,7 @@
       <correspDesc/>
     </profileDesc>
     <revisionDesc>
-      <correction who="orcid_0000-0002-7647-4048" when="2024-10-01" corresp="i-YV2QAeKb99qQNzwTeNhoUY">OCR correction</correction>
+      <correction who="orcid_0000-0002-7647-4048" corresp="i-YV2QAeKb99qQNzwTeNhoUY" when="2024-10-01">OCR correction</correction>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -26,11 +26,11 @@
       <fw xml:id="i-6NYumH6GssHYDUcHgMwXY7">
         8 : Motioner i Andra kammaren, nr 86.
       </fw>
-      <div type="motHeader" xml:id="i-PfYEpzCM3VVfC8Kr86ZaCn">
-        <div type="motTitle" xml:id="i-4wfBeNZX6MCMmYntKDwpgY"/>
-        <div type="motSubmissionInfo" xml:id="i-C8CrGREbB3oNZssWsZiP3r"/>
+      <div xml:id="i-PfYEpzCM3VVfC8Kr86ZaCn" type="motHeader">
+        <div xml:id="i-4wfBeNZX6MCMmYntKDwpgY" type="motTitle"/>
+        <div xml:id="i-C8CrGREbB3oNZssWsZiP3r" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6NBqqBUHxfd5NaCxpCiaZN">
+      <div xml:id="i-6NBqqBUHxfd5NaCxpCiaZN" type="motBody">
         <div xml:id="i-UQmM1zAPqC6Qp3JT6FT6xD">
           <p xml:id="i-UTEEqqVMwRrwxbfkP5engq">
             Nr 86.
@@ -87,7 +87,10 @@
             juni 1941 lämnas elever i fortsättningsskola.
           </p>
           <p xml:id="i-SiCEQ2FX5KRWFiLBTNTU9r" type="date">
-            Stockholm den 17 januari 1944. Gottfr. Fröderberg.
+            Stockholm den 17 januari 1944.
+          </p>
+          <p type="signatureBlock" id="i-K95UmvQniXPZPFM943mZgw">
+            Gottfr. Fröderberg.
           </p>
           <p xml:id="i-MAWQHQ9RRyRpySLo4JHsL5">
             C.-D. Skagerlund. Axel Nilsson. Jonas Eriksson, Frägsta. Walter
@@ -105,9 +108,12 @@
           </p>
           <p xml:id="i-3MLxeuYxBrmhHigrrohoLH">
             sterilisering enligt lagen om sterilisering. (Lika lydande med
-            motion i Första kammaren nr 37.) Stockholm den 18 januari 1944.
+            motion i Första kammaren nr 37.)
           </p>
-          <p xml:id="i-BaETwVdnPvMuh96hNKBq3r">
+          <p type="date" id="i-Q8ofKXBmoS5AYCSPQaX8Vf">
+            Stockholm den 18 januari 1944.
+          </p>
+          <p xml:id="i-BaETwVdnPvMuh96hNKBq3r" type="signatureBlock">
             Hildur Nygren. Verner Hedlund.
           </p>
         </div>

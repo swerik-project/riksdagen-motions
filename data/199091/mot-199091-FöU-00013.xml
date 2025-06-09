@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-FöU-00013">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-WAR7Xtq5vM5vhtMxcKDZv4</idno>
-            <name>Hans Gustafsson </name>
+            <name>Hans Gustafsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-UukxhVrpswE5ADBkFe7Q3V</idno>
-            <name>Jan Björkman </name>
+            <name>Jan Björkman</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person>
             <idno>r-0844235199717</idno>
-            <name>Yvonne Sandberg-fries </name>
+            <name>Yvonne Sandberg-fries</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-NLwy2LjWNRHS4qpnGwrXk9"/>
+        <correspAction xml:id="i-NLwy2LjWNRHS4qpnGwrXk9" type="basedOn"/>
         <correspContext corresp="i-NLwy2LjWNRHS4qpnGwrXk9">
           <ref>Proposition 1990/91:102</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-UukxhVrpswE5ADBkFe7Q3V"/>
           <note type="signatory" corresp="r-0844235199717"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SpGipVdM9iAw9vq2woHeeT">
+        <correspAction xml:id="i-SpGipVdM9iAw9vq2woHeeT" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WVoEYDKbHotZNojbsnZoqA">
+        <correspAction xml:id="i-WVoEYDKbHotZNojbsnZoqA" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QzqMLAT6dfvrJanm7EcDMe">
+        <correspAction xml:id="i-QzqMLAT6dfvrJanm7EcDMe" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-2f9tsNNQSXFbQVfMaEgmHX">
+        <correspAction xml:id="i-2f9tsNNQSXFbQVfMaEgmHX" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XHzPyqhARgbWugTz5sDkXU">
+        <correspAction xml:id="i-XHzPyqhARgbWugTz5sDkXU" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2XpGNMzdP8pbfo3rtHUcSc">
+        <correspAction xml:id="i-2XpGNMzdP8pbfo3rtHUcSc" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4oX6MLcJEZwEMHVLfahBpR"/>
+        <correspAction xml:id="i-4oX6MLcJEZwEMHVLfahBpR" type="assigned"/>
         <correspContext corresp="i-4oX6MLcJEZwEMHVLfahBpR">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_FöU_13/mot_199091_FöU_13-001.pdf"/>
-      <div type="motHeader" xml:id="i-JnMcRwcKrndBK2W8KuyzEi">
-        <div type="motTitle" xml:id="i-Cwryd4kQSkn78EePWBYVkK"/>
-        <div type="motSubmissionInfo" xml:id="i-XP5jc5tFfiWGirU7RHtZ5h"/>
+      <div xml:id="i-JnMcRwcKrndBK2W8KuyzEi" type="motHeader">
+        <div xml:id="i-Cwryd4kQSkn78EePWBYVkK" type="motTitle"/>
+        <div xml:id="i-XP5jc5tFfiWGirU7RHtZ5h" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GKvJ6rCkF4XWNykZ4r7fE6">
+      <div xml:id="i-GKvJ6rCkF4XWNykZ4r7fE6" type="motBody">
         <div xml:id="i-QsmLMsa8UVuLBg1UsXP61h">
           <p xml:id="i-LXkoCYeJfvf3TbJwcVBKPt">
             Motion till riksdagen 1990/91:Fö13
@@ -454,9 +454,12 @@
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motio- nen anförts
             om åtgärder för att åstadkomma ett optimalt resursutnytt- jande
-            av försvarsanslaget. Stockholm den 14 mars 1991
+            av försvarsanslaget.
           </p>
-          <p xml:id="i-5HcpYNXmkWFRGycCZpR5GX">
+          <p type="date" id="i-YMGmYVAFxMxEwSbPVvWEGp">
+            Stockholm den 14 mars 1991
+          </p>
+          <p xml:id="i-5HcpYNXmkWFRGycCZpR5GX" type="signatureBlock">
             Hans Gustafsson (s)
           </p>
           <p xml:id="i-3EFWNctDqE3GXrZihBsuFv">

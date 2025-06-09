@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-202021-NU-04008">
   <teiHeader>
     <fileDesc>
@@ -86,7 +86,7 @@
       </particDesc>
       <correspDesc>
         <correspAction type="status" subtype="closed"/>
-        <correspAction type="basedOn" xml:id="i-FXkk5YRRitAaYTsupN4xyd"/>
+        <correspAction xml:id="i-FXkk5YRRitAaYTsupN4xyd" type="basedOn"/>
         <correspContext corresp="i-FXkk5YRRitAaYTsupN4xyd">
           <ref>Proposition 2020/21:181</ref>
         </correspContext>
@@ -101,28 +101,28 @@
           <note type="signatory" corresp="i-VBA6eUH2CpmPZFgqzCpt9N"/>
           <note type="signatory" corresp="i-BUYvEhrSc9gnHcd6iS4eDJ"/>
         </correspContext>
-        <correspAction type="submitted" xml:id="i-UwC5EuQ9xwK5weMbKrGykZ">
+        <correspAction xml:id="i-UwC5EuQ9xwK5weMbKrGykZ" type="submitted">
           <date when="2021-04-27"/>
           <time when="16:18:47"/>
         </correspAction>
-        <correspAction type="dismissed" xml:id="i-D2PwhYKxZ3E9WSbkpNFJ4x">
+        <correspAction xml:id="i-D2PwhYKxZ3E9WSbkpNFJ4x" type="dismissed">
           <date when="2021-05-07"/>
         </correspAction>
-        <correspAction type="reviewed" xml:id="i-5QpPZCxdZkUJJWC4acKsNv">
+        <correspAction xml:id="i-5QpPZCxdZkUJJWC4acKsNv" type="reviewed">
           <date when="2021-05-07"/>
           <time when="11:59:24"/>
         </correspAction>
-        <correspAction type="referred" xml:id="i-XwSjDQab2zGe6MQneT386q">
+        <correspAction xml:id="i-XwSjDQab2zGe6MQneT386q" type="referred">
           <date when="2021-05-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TWttPjhiniTyZeBufg9tty">
+        <correspAction xml:id="i-TWttPjhiniTyZeBufg9tty" type="assigned">
           <date when="2021-12-10"/>
           <time when="15:27:42"/>
         </correspAction>
         <correspContext corresp="i-TWttPjhiniTyZeBufg9tty">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-16LL8MmJFFd8XPPyvLLrwD"/>
+        <correspAction xml:id="i-16LL8MmJFFd8XPPyvLLrwD" type="behandlas_i"/>
         <correspContext corresp="i-16LL8MmJFFd8XPPyvLLrwD">
           <ref type="uppgift">2020/21:NU27</ref>
           <ref type="ref_dok_id">H801NU27</ref>
@@ -144,7 +144,11 @@
   <text>
     <body>
       <div type="motHeader">
-        <div type="motTitle">Motion till riksdagen 2020/21:4008 av Joar Forssell m.fl. (L) med anledning av prop. 2020/21:181 Tidsfrister och kontaktpunkt för att främja tillförsel av förnybar energi</div>
+        <div type="motTitle">
+          Motion till riksdagen 2020/21:4008 av Joar Forssell m.fl. (L)
+          med anledning av prop. 2020/21:181 Tidsfrister och kontaktpunkt
+          för att främja tillförsel av förnybar energi
+        </div>
       </div>
       <div type="motBody">
         <div type="motProposal" subtype="förslag">
@@ -166,7 +170,7 @@
           </list>
         </div>
         <div type="motContent">
-          <head type="h1" xml:id="i-N7RE1RCGaVHqBwA7RgFqhC">
+          <head xml:id="i-N7RE1RCGaVHqBwA7RgFqhC" type="h1">
             Motivering
           </head>
           <p xml:id="i-XVcRxQnC4HATUoBrkiiMSo">
@@ -213,13 +217,13 @@
             paragraferna i den nya lagen omformuleras enligt bilagan till
             denna motion.
           </p>
-          <head type="h2" xml:id="i-AFeRUkecCxSBPmzYh6bGaz">
+          <head xml:id="i-AFeRUkecCxSBPmzYh6bGaz" type="h2">
             Bilaga
           </head>
-          <head type="h3" xml:id="i-REjhnRqwqvSvVyGSkRSF3r">
+          <head xml:id="i-REjhnRqwqvSvVyGSkRSF3r" type="h3">
             Motionärernas lagförslag
           </head>
-          <head type="h1" xml:id="i-HzwVZ9H9NjHDXpmriQLdZx">
+          <head xml:id="i-HzwVZ9H9NjHDXpmriQLdZx" type="h1">
             Härigenom föreskrivs följande:
           </head>
           <table>
@@ -233,42 +237,36 @@
             </row>
             <row xml:id="i-5S3PtGsXsm447vEVYFWq1E">
               <cell>
-                1 § Regeringen får meddela föreskrifter om tidsfrister för kommuners handläggning av ärenden om tillstånd, anmälningar eller dispenser som gäller
-
-
-1. uppförande, uppgradering eller drift av anläggningar för produktion av förnybar el, och
-
-
-2. utrustning för anslutning av sådana anläggningar till elnätet.
+                1 § Regeringen får meddela föreskrifter om tidsfrister för kommuners
+                handläggning av ärenden om tillstånd, anmälningar eller dispenser
+                som gäller 1. uppförande, uppgradering eller drift av anläggningar
+                för produktion av förnybar el, och 2. utrustning för anslutning
+                av sådana anläggningar till elnätet.
               </cell>
               <cell>
-                1 § Regeringen får meddela föreskrifter om tidsfrister för kommuners handläggning av ärenden om tillstånd, anmälningar eller dispenser som gäller
-
-
-1. uppförande, uppgradering eller drift av anläggningar för produktion av fossilfri energi, och
-
-
-2. utrustning för anslutning av sådana anläggningar till infrastruktur för energidistribution.
+                1 § Regeringen får meddela föreskrifter om tidsfrister för kommuners
+                handläggning av ärenden om tillstånd, anmälningar eller dispenser
+                som gäller 1. uppförande, uppgradering eller drift av anläggningar
+                för produktion av fossilfri energi, och 2. utrustning för anslutning
+                av sådana anläggningar till infrastruktur för energidistribution.
               </cell>
             </row>
             <row xml:id="i-MnXw1SCX4t7Ye9rKfJyjbS">
               <cell>
-                2 § Regeringen får meddela föreskrifter om kommuners medverkan i arbetet med en kontaktpunkt för att vägleda sökande i ärenden om tillstånd, anmälningar eller dispenser som gäller
-
-
-1. uppförande, uppgradering eller drift av anläggningar för tillförsel av förnybar energi, och
-
-
-2. utrustning för anslutning av sådana anläggningar till nätet.
+                2 § Regeringen får meddela föreskrifter om kommuners medverkan
+                i arbetet med en kontaktpunkt för att vägleda sökande i ärenden
+                om tillstånd, anmälningar eller dispenser som gäller 1. uppförande,
+                uppgradering eller drift av anläggningar för tillförsel av förnybar
+                energi, och 2. utrustning för anslutning av sådana anläggningar
+                till nätet.
               </cell>
               <cell>
-                2 § Regeringen får meddela föreskrifter om kommuners medverkan i arbetet med en kontaktpunkt för att vägleda sökande i ärenden om tillstånd, anmälningar eller dispenser som gäller
-
-
-1. uppförande, uppgradering eller drift av anläggningar för tillförsel av fossilfri energi, och
-
-
-2. utrustning för anslutning av sådana anläggningar till infrastruktur för energidistribution.
+                2 § Regeringen får meddela föreskrifter om kommuners medverkan
+                i arbetet med en kontaktpunkt för att vägleda sökande i ärenden
+                om tillstånd, anmälningar eller dispenser som gäller 1. uppförande,
+                uppgradering eller drift av anläggningar för tillförsel av fossilfri
+                energi, och 2. utrustning för anslutning av sådana anläggningar
+                till infrastruktur för energidistribution.
               </cell>
             </row>
           </table>

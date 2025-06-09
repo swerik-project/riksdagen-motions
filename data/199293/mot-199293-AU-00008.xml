@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-AU-00008">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-9aRLLJUPp6dkL6wGF6nZuc</idno>
-            <name>Sten Söderberg </name>
+            <name>Sten Söderberg</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc>-</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Y7WoFJ98fyNE6txHeBW8mb"/>
+        <correspAction xml:id="i-Y7WoFJ98fyNE6txHeBW8mb" type="basedOn"/>
         <correspContext corresp="i-Y7WoFJ98fyNE6txHeBW8mb">
           <ref>Proposition 1992/93:218</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-9aRLLJUPp6dkL6wGF6nZuc"/>
           <note type="signatory" corresp="i-9aRLLJUPp6dkL6wGF6nZuc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UYgsoR1TpQKhhyudLreCDb">
+        <correspAction xml:id="i-UYgsoR1TpQKhhyudLreCDb" type="referral">
           <date when="1993-04-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SC7CVswoaLcBCvL82XAr2x">
+        <correspAction xml:id="i-SC7CVswoaLcBCvL82XAr2x" type="dismissal">
           <date when="1993-04-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LP61aRuRupvULiPnaYDTRQ">
+        <correspAction xml:id="i-LP61aRuRupvULiPnaYDTRQ" type="submission">
           <date when="1993-04-19"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-24SLBG6f88QqZDr6e9Adz5">
+        <correspAction xml:id="i-24SLBG6f88QqZDr6e9Adz5" type="referral">
           <date when="1993-04-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4ahTdWYkcmpWQrqpodez2q">
+        <correspAction xml:id="i-4ahTdWYkcmpWQrqpodez2q" type="dismissal">
           <date when="1993-04-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UeKqbMGsitELFifW1SvQit">
+        <correspAction xml:id="i-UeKqbMGsitELFifW1SvQit" type="submission">
           <date when="1993-04-19"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7E9hVK9emJhtV4L8mtzdJQ"/>
+        <correspAction xml:id="i-7E9hVK9emJhtV4L8mtzdJQ" type="assigned"/>
         <correspContext corresp="i-7E9hVK9emJhtV4L8mtzdJQ">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_AU_8/mot_199293_AU_8-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-JrcsFQzm7MtT7i2Y5cWqJ9">
-        <div type="motTitle" xml:id="i-SLrw9vV3TXX5dYRrYf84k8"/>
-        <div type="motSubmissionInfo" xml:id="i-N6KpeX8WEbyVDc8DvdYVSy"/>
+      <div xml:id="i-JrcsFQzm7MtT7i2Y5cWqJ9" type="motHeader">
+        <div xml:id="i-SLrw9vV3TXX5dYRrYf84k8" type="motTitle"/>
+        <div xml:id="i-N6KpeX8WEbyVDc8DvdYVSy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Ednf7SssLn3e7eok79c5ge">
+      <div xml:id="i-Ednf7SssLn3e7eok79c5ge" type="motBody">
         <div xml:id="i-XekXP3xbPgqCrL9fLsikig">
           <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_AU_8/mot_199293_AU_8-001.pdf"/>
           <p xml:id="i-HDyXEEhm4dP4gR72vefcRS">
@@ -154,9 +154,11 @@
             lika stor förvirring på det här området som inom t.ex. taxinäringen
             efter dess avreglering. Hemställan Med hänvisning till det anförda
             hemställs att riksdagen avslår regeringens proposition 1992/93:218.
+          </p>
+          <p type="date" id="i-Per5ETsfswQ61Cgz28ZN4r">
             Stockholm den 2 april 1993
           </p>
-          <p xml:id="i-CYNLtmpi7ib4TJsVgizgUn">
+          <p xml:id="i-CYNLtmpi7ib4TJsVgizgUn" type="signatureBlock">
             Sten Söderberg (-)
           </p>
         </div>

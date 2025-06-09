@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201718-FiU-02535">
   <teiHeader>
     <fileDesc>
@@ -51,7 +51,7 @@
       </particDesc>
       <correspDesc>
         <correspAction type="status" subtype="closed"/>
-        <correspAction type="basedOn" xml:id="i-C5Eonj4kavVfNDkETatMa3"/>
+        <correspAction xml:id="i-C5Eonj4kavVfNDkETatMa3" type="basedOn"/>
         <correspContext corresp="i-C5Eonj4kavVfNDkETatMa3">
           <ref>Proposition 2017/18:2</ref>
         </correspContext>
@@ -61,28 +61,28 @@
           <note type="signatory" corresp="i-DCyBt1A1WiAhi5tm5k4A7H"/>
           <note type="signatory" corresp="i-5xq5y8yJUv1khDbYCaXJ7X"/>
         </correspContext>
-        <correspAction type="submitted" xml:id="i-SfwVDB5UG8FNEbgE87R8Zu">
+        <correspAction xml:id="i-SfwVDB5UG8FNEbgE87R8Zu" type="submitted">
           <date when="2017-10-04"/>
           <time when="13:57:19"/>
         </correspAction>
-        <correspAction type="reviewed" xml:id="i-YKbnpHgyJ7MDgYcT58DHy9">
+        <correspAction xml:id="i-YKbnpHgyJ7MDgYcT58DHy9" type="reviewed">
           <date when="2017-10-06"/>
           <time when="13:35:20"/>
         </correspAction>
-        <correspAction type="dismissed" xml:id="i-T948MComP59EsF3mWvhQkd">
+        <correspAction xml:id="i-T948MComP59EsF3mWvhQkd" type="dismissed">
           <date when="2017-10-10"/>
         </correspAction>
-        <correspAction type="referred" xml:id="i-Ch1TG9mhxV1NPkCnaPJM1q">
+        <correspAction xml:id="i-Ch1TG9mhxV1NPkCnaPJM1q" type="referred">
           <date when="2017-10-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NJKBSHQJmFY8d1DxK3CBNy">
+        <correspAction xml:id="i-NJKBSHQJmFY8d1DxK3CBNy" type="assigned">
           <date when="2018-06-25"/>
           <time when="15:09:10"/>
         </correspAction>
         <correspContext corresp="i-NJKBSHQJmFY8d1DxK3CBNy">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-A9isjXFm3JieYgTCxtk2uj"/>
+        <correspAction xml:id="i-A9isjXFm3JieYgTCxtk2uj" type="behandlas_i"/>
         <correspContext corresp="i-A9isjXFm3JieYgTCxtk2uj">
           <ref type="uppgift">2017/18:FiU2</ref>
           <ref type="ref_dok_id">H501FiU2</ref>
@@ -93,7 +93,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-VHDfYhhVFekh6YeXWPDQ7u"/>
+        <correspAction xml:id="i-VHDfYhhVFekh6YeXWPDQ7u" type="behandlas_i"/>
         <correspContext corresp="i-VHDfYhhVFekh6YeXWPDQ7u">
           <ref type="uppgift">2017/18:FiU11</ref>
           <ref type="ref_dok_id">H501FiU11</ref>
@@ -115,7 +115,10 @@
   <text>
     <body>
       <div type="motHeader">
-        <div type="motTitle">Motion till riksdagen 2017/18:2535 av Oscar Sjöstedt m.fl. (SD) med anledning av prop. 2017/18:2 Höständringsbudget för 2017</div>
+        <div type="motTitle">
+          Motion till riksdagen 2017/18:2535 av Oscar Sjöstedt m.fl. (SD)
+          med anledning av prop. 2017/18:2 Höständringsbudget för 2017
+        </div>
       </div>
       <div type="motBody">
         <div type="motProposal" subtype="förslag">
@@ -123,7 +126,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list>
-            <item sortKey="Yrkande 1" xml:id="i-2pzzy7ugbAT7pjKHMvZgEH">
+            <item xml:id="i-2pzzy7ugbAT7pjKHMvZgEH" sortKey="Yrkande 1">
               Riksdagen godkänner ändrade ramar för utgiftsområden samt anvisar
               ändrade anslag enligt regeringens förslag med de ändringar som
               framgår av tabell 1.1 i motionen.
@@ -131,7 +134,7 @@
           </list>
         </div>
         <div type="motContent">
-          <head type="h1" xml:id="i-5igTaNWQD4gbkeJv7BK4Jz">
+          <head xml:id="i-5igTaNWQD4gbkeJv7BK4Jz" type="h1">
             Motivering
           </head>
           <p xml:id="i-Cysa7pEuwAaccsbTPM3q7v">
@@ -141,18 +144,12 @@
             Tusental kronor
           </p>
           <table>
-            <row style="label" xml:id="i-3G1scDqdJvceCRnndVhV7G">
+            <row xml:id="i-3G1scDqdJvceCRnndVhV7G" style="label">
               <cell>
-                Utgifts-
-
-
-område
+                Utgifts- område
               </cell>
               <cell>
-                Anslags-
-
-
-nummer
+                Anslags- nummer
               </cell>
               <cell>
                 Beslutad ram/anvisat anslag
@@ -161,10 +158,7 @@ nummer
                 Förändring av ram/anslag
               </cell>
               <cell>
-                Ny ram/ 
-
-
-Ny anslagsnivå
+                Ny ram/ Ny anslagsnivå
               </cell>
               <cell>
                 Avvikelse (SD)
@@ -439,7 +433,8 @@ Ny anslagsnivå
                 1:9
               </cell>
               <cell>
-                Tillfälligt stöd till kommuner för ensamkommande unga asylsökande m. fl.
+                Tillfälligt stöd till kommuner för ensamkommande unga asylsökande
+                m. fl.
               </cell>
               <cell>
                 0
@@ -766,7 +761,8 @@ Ny anslagsnivå
                 2:1
               </cell>
               <cell>
-                Forskningsrådet för miljö, areella näringar och samhällsbyggande: Förvaltningskostnader
+                Forskningsrådet för miljö, areella näringar och samhällsbyggande:
+                Förvaltningskostnader
               </cell>
               <cell>
                 57 599
@@ -905,45 +901,21 @@ Ny anslagsnivå
             Tusental kronor
           </p>
           <table>
-            <row style="label" xml:id="i-5zqCJNHAQYMPacykzRkVWH">
+            <row xml:id="i-5zqCJNHAQYMPacykzRkVWH" style="label">
               <cell>
-                Utgifts-
-
-
-område
+                Utgifts- område
               </cell>
               <cell>
-                Anslags-
-
-
-nummer
+                Anslags- nummer
               </cell>
               <cell>
-                Beslutat
-
-
-beställnings-
-
-
-bemyndigande
+                Beslutat beställnings- bemyndigande
               </cell>
               <cell>
-                Förändring av
-
-
-beställnings-
-
-
-bemyndigande
+                Förändring av beställnings- bemyndigande
               </cell>
               <cell>
-                Nytt 
-
-
-beställnings-
-
-
-bemyndigande
+                Nytt beställnings- bemyndigande
               </cell>
               <cell>
                 Tidsperiod
@@ -1093,7 +1065,7 @@ bemyndigande
               </cell>
             </row>
           </table>
-          <head type="h2" xml:id="i-EotWJHcC1jqTc3ACxPEyuL">
+          <head xml:id="i-EotWJHcC1jqTc3ACxPEyuL" type="h2">
             Utgiftsområde 8 Migration
           </head>
           <p xml:id="i-nVQud9oryTtw5UrBvM2au">
@@ -1148,7 +1120,7 @@ bemyndigande
             såväl ekonomiska som sociala grunder och säger därför nej till
             samtliga anslagshöjningar inom utgiftsområde 8.
           </p>
-          <head type="h2" xml:id="i-G2z3fp1wn2czEoMSGNQnjv">
+          <head xml:id="i-G2z3fp1wn2czEoMSGNQnjv" type="h2">
             Utgiftsområde 13 Jämställdhet och nyanlända invandrares etablering
           </head>
           <p xml:id="i-XnHZ9p5ecoFNtGzTEU9YrB">
@@ -1167,7 +1139,7 @@ bemyndigande
             är att minska utgiftsnivåerna eller att inte genomföra åtgärderna
             över huvud taget.
           </p>
-          <head type="h2" xml:id="i-Dyout7PDuZKABtdyr5A9pA">
+          <head xml:id="i-Dyout7PDuZKABtdyr5A9pA" type="h2">
             Utgiftsområde 16 Utbildning och universitetsforskning
           </head>
           <p xml:id="i-9FVp1s5bjyXWv9uqh1AbMm">
@@ -1181,7 +1153,7 @@ bemyndigande
             förklara sin kostnadsökning på ett relevant sätt. Ekonomisk oaktsamhet
             ska inte premieras, därför yrkar vi avslag på denna åtgärd.
           </p>
-          <head type="h2" xml:id="i-HC4Lx8jzQTaczGAXKYBvbp">
+          <head xml:id="i-HC4Lx8jzQTaczGAXKYBvbp" type="h2">
             Utgiftsområde 21 Energi
           </head>
           <p xml:id="i-RbhWEh79WXZxU5pCAeYauN">

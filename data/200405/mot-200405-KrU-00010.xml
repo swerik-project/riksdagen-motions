@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KrU-00010">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5sj8CsUKjW5jqoiMi7mh3d"/>
+        <correspAction xml:id="i-5sj8CsUKjW5jqoiMi7mh3d" type="basedOn"/>
         <correspContext corresp="i-5sj8CsUKjW5jqoiMi7mh3d">
           <ref>Proposition 2004/05:124</ref>
         </correspContext>
@@ -90,16 +90,16 @@
           <note type="signatory" corresp="i-CetFkRWST91ShCPmaZKsM4"/>
           <note type="signatory" corresp="i-97ancH8vcZWM84VcKVCDX7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Ke4NNRV38B2jzE7U8jRHET">
+        <correspAction xml:id="i-Ke4NNRV38B2jzE7U8jRHET" type="referral">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BLaxsbxaMEDoiNQKSGYt2b">
+        <correspAction xml:id="i-BLaxsbxaMEDoiNQKSGYt2b" type="dismissal">
           <date when="2005-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6g6fq7Dstn8ALHirXPZnYw">
+        <correspAction xml:id="i-6g6fq7Dstn8ALHirXPZnYw" type="submission">
           <date when="2005-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-K5JSF7BR2tREianphHJZH4"/>
+        <correspAction xml:id="i-K5JSF7BR2tREianphHJZH4" type="assigned"/>
         <correspContext corresp="i-K5JSF7BR2tREianphHJZH4">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -115,11 +115,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Kr_10/mot_200405_Kr_10-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Kr_10/mot_200405_Kr_10-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HNwERNpCRV6bNohnWMThDf">
-        <div type="motTitle" xml:id="i-Cwrnf9B7Vx61HoYPg1jiJn"/>
-        <div type="motSubmissionInfo" xml:id="i-8NpZPEdHHtCWzgx6cwz9uB"/>
+      <div xml:id="i-HNwERNpCRV6bNohnWMThDf" type="motHeader">
+        <div xml:id="i-Cwrnf9B7Vx61HoYPg1jiJn" type="motTitle"/>
+        <div xml:id="i-8NpZPEdHHtCWzgx6cwz9uB" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AF9Yx3DrubQ9BrpAEGjbG1">
+      <div xml:id="i-AF9Yx3DrubQ9BrpAEGjbG1" type="motBody">
         <div xml:id="i-CYqLMrngZ7hbSXaDsRLFXB">
           <p xml:id="i-9umHm6jgRMmV68D5dywvy5">
             2004/05 mnr: Kr10 pnr: c169
@@ -230,8 +230,11 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Kr_10/mot_200405_Kr_10-0003.pdf"/>
           <p xml:id="i-EytvHNuAmJzzJFkb51VmS5" type="date">
-            Stockholm den 6 april 2005 Birgitta Sellén (c) Lars-Ivar Ericson
-            (c) Kenneth Johansson (c) Jan Andersson (c)
+            Stockholm den 6 april 2005
+          </p>
+          <p type="signatureBlock" id="i-QWhyKBo1biw4sZfMwGWvhM">
+            Birgitta Sellén (c) Lars-Ivar Ericson (c) Kenneth Johansson (c)
+            Jan Andersson (c)
           </p>
           <p xml:id="i-7ewaiuwLxBEQuaa2ovVKAU">
             Birgitta Carlsson (c) Sofia Larsen (c) Margareta Andersson (c)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00023">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VhbEs22vr7ASnw9jXeqxhA"/>
+        <correspAction xml:id="i-VhbEs22vr7ASnw9jXeqxhA" type="basedOn"/>
         <correspContext corresp="i-VhbEs22vr7ASnw9jXeqxhA">
           <ref>Proposition 2002/03:117</ref>
         </correspContext>
@@ -42,16 +42,16 @@
         <correspContext corresp="i-RauYf4KNFe1Yb35Xtd2gKA">
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-D8byUPWb2AqE5ShuR8g7TJ">
+        <correspAction xml:id="i-D8byUPWb2AqE5ShuR8g7TJ" type="referral">
           <date when="2003-06-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SWsAxL3DFBu9mJX8i63bsa">
+        <correspAction xml:id="i-SWsAxL3DFBu9mJX8i63bsa" type="dismissal">
           <date when="2003-06-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Hu38DD42tEUNy1KwNyjpYg">
+        <correspAction xml:id="i-Hu38DD42tEUNy1KwNyjpYg" type="submission">
           <date when="2003-06-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QXYTnztLN8ksgmJ22XUfi5"/>
+        <correspAction xml:id="i-QXYTnztLN8ksgmJ22XUfi5" type="assigned"/>
         <correspContext corresp="i-QXYTnztLN8ksgmJ22XUfi5">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -66,11 +66,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_MJ_0023/mot_200203_MJ_0023-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Pxu3W1pdhxdbunpra8Ggrp">
-        <div type="motTitle" xml:id="i-3KHf8C4LTUdDrzayqMADyL"/>
-        <div type="motSubmissionInfo" xml:id="i-QG3z4rnNcvnUgXT8dGVVTy"/>
+      <div xml:id="i-Pxu3W1pdhxdbunpra8Ggrp" type="motHeader">
+        <div xml:id="i-3KHf8C4LTUdDrzayqMADyL" type="motTitle"/>
+        <div xml:id="i-QG3z4rnNcvnUgXT8dGVVTy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RJKFrTpJmHjL39SWTE9pKJ">
+      <div xml:id="i-RJKFrTpJmHjL39SWTE9pKJ" type="motBody">
         <div xml:id="i-NKztJjzoz4vmXBLYJReyys">
           <p xml:id="i-8UvxtJK75b1Y6RotyMDPiS">
             2002/03 mnr: MJ23 pnr: s3136
@@ -132,7 +132,10 @@
             2002/03:MJ23
           </p>
           <p xml:id="i-4p2WKAcW1pvapcCE8Rinpo" type="date">
-            Stockholm den 20 maj 2003 Michael Hagberg (s)
+            Stockholm den 20 maj 2003
+          </p>
+          <p type="signatureBlock" id="i-LNowqAtg2a3QN7XRCzrSS6">
+            Michael Hagberg (s)
           </p>
         </div>
       </div>

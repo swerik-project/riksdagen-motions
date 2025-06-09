@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-FiU-00069">
   <teiHeader>
     <fileDesc>
@@ -96,7 +96,7 @@
           </person>
           <person gender="woman">
             <idno>i-9J1gmLVJSnGBRMzrAVvtvR</idno>
-            <name>Anne Wibble </name>
+            <name>Anne Wibble</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -110,28 +110,28 @@
           </person>
           <person gender="woman">
             <idno>i-GmSFH9fmi5xjm5ydcN6R1m</idno>
-            <name>Ingela Mårtensson </name>
+            <name>Ingela Mårtensson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-NZES3NTTAs3ZaBTU3RVkYE</idno>
-            <name>Lars Leijonborg </name>
+            <name>Lars Leijonborg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-KZRYQXLaqTdR8ZicM7zYRV</idno>
-            <name>Ylva Annerstedt </name>
+            <name>Ylva Annerstedt</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-4BfdTWABvwYtdUHg7su5aZ</idno>
-            <name>Lars De Geer </name>
+            <name>Lars De Geer</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -139,7 +139,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-PLAjL8KBoMRoXNzfmUqHxb"/>
+        <correspAction xml:id="i-PLAjL8KBoMRoXNzfmUqHxb" type="basedOn"/>
         <correspContext corresp="i-PLAjL8KBoMRoXNzfmUqHxb">
           <ref>Proposition 1989/90:150</ref>
         </correspContext>
@@ -162,16 +162,16 @@
           <note type="signatory" corresp="i-KZRYQXLaqTdR8ZicM7zYRV"/>
           <note type="signatory" corresp="i-4BfdTWABvwYtdUHg7su5aZ"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-Q35mdDbcqnW92A18Hqihsv">
+        <correspAction xml:id="i-Q35mdDbcqnW92A18Hqihsv" type="submission">
           <date when="1990-05-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7R6nybEE7uMwiWrJh21Tr8">
+        <correspAction xml:id="i-7R6nybEE7uMwiWrJh21Tr8" type="dismissal">
           <date when="1990-05-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PogWjXQXTtJGb3nsfNRFqk">
+        <correspAction xml:id="i-PogWjXQXTtJGb3nsfNRFqk" type="referral">
           <date when="1990-05-15"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-s8VWzpcRXN4eUmu5Vc4vN">
+        <correspAction xml:id="i-s8VWzpcRXN4eUmu5Vc4vN" type="assigned">
           <date when="2014-11-23"/>
           <time when="15:16:43"/>
         </correspAction>
@@ -187,11 +187,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_fi_69/mot_198990_fi_69-001.pdf"/>
-      <div type="motHeader" xml:id="i-QF3ks77Cma2oNx2ryDzLvD">
-        <div type="motTitle" xml:id="i-TUstiFnvhbNydrsqpbyNtn"/>
-        <div type="motSubmissionInfo" xml:id="i-N4dKowsyW1m6UJcjgCeGzy"/>
+      <div xml:id="i-QF3ks77Cma2oNx2ryDzLvD" type="motHeader">
+        <div xml:id="i-TUstiFnvhbNydrsqpbyNtn" type="motTitle"/>
+        <div xml:id="i-N4dKowsyW1m6UJcjgCeGzy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9yMXjwYLWMK5RFa8LfjPEL">
+      <div xml:id="i-9yMXjwYLWMK5RFa8LfjPEL" type="motBody">
         <div xml:id="i-Wp7YoAsbg8hgMeo4o9m7xZ">
           <p xml:id="i-XLfMzQfiTEDChoyvZaDWp7">
             Motion till riksdagen
@@ -425,8 +425,10 @@
             för till- kommande dynamiska effekter och om nya fakta framkommer.
           </p>
           <p xml:id="i-NmkfwGHJCFHGuHkKrbUNcF" type="date">
-            Stockholm den 10 maj 1990 Anne Wibble (fp) Ingela Mårtensson
-            (fp) Lars De Geer (fp)
+            Stockholm den 10 maj 1990
+          </p>
+          <p type="signatureBlock" id="i-JnkJaGdCm8TWG77JLYWQav">
+            Anne Wibble (fp) Ingela Mårtensson (fp) Lars De Geer (fp)
           </p>
           <p xml:id="i-6U5T6yydiTMSZwqBSEhTbf">
             Lars Leijonborg (fp) Ylva Annerstedt (fp)

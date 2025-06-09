@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00027">
   <teiHeader>
     <fileDesc>
@@ -84,7 +84,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Awoshymaz564NDw7geYBm2"/>
+        <correspAction xml:id="i-Awoshymaz564NDw7geYBm2" type="basedOn"/>
         <correspContext corresp="i-Awoshymaz564NDw7geYBm2">
           <ref>Regeringsskrivelse 2005/06:88</ref>
         </correspContext>
@@ -99,19 +99,19 @@
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JH6TWYNjwQ5SaEqFebXeKW">
+        <correspAction xml:id="i-JH6TWYNjwQ5SaEqFebXeKW" type="referral">
           <date when="2006-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XDrNs3F6hdPuWbNbHwXc7C">
+        <correspAction xml:id="i-XDrNs3F6hdPuWbNbHwXc7C" type="dismissal">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-21MMQ2eAHLKT2Za18RMxPt">
+        <correspAction xml:id="i-21MMQ2eAHLKT2Za18RMxPt" type="dismissal">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-93T4oYy1H5HPuei9QN3yXQ">
+        <correspAction xml:id="i-93T4oYy1H5HPuei9QN3yXQ" type="submission">
           <date when="2006-04-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HRPyQP66mZU9gdqa4tWU3Z"/>
+        <correspAction xml:id="i-HRPyQP66mZU9gdqa4tWU3Z" type="assigned"/>
         <correspContext corresp="i-HRPyQP66mZU9gdqa4tWU3Z">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -126,11 +126,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_27/mot_200506_MJ_27-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3wA2iHy5YFBGaeGtLu4cqk">
-        <div type="motTitle" xml:id="i-PiWj9UjftCVYYzNVop16kC"/>
-        <div type="motSubmissionInfo" xml:id="i-YBooagsPa3kYHoHmdibjgd"/>
+      <div xml:id="i-3wA2iHy5YFBGaeGtLu4cqk" type="motHeader">
+        <div xml:id="i-PiWj9UjftCVYYzNVop16kC" type="motTitle"/>
+        <div xml:id="i-YBooagsPa3kYHoHmdibjgd" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9sP3n4zwG8QpbasDdUTTsy">
+      <div xml:id="i-9sP3n4zwG8QpbasDdUTTsy" type="motBody">
         <div xml:id="i-JzJUUUc6xzaRmBBgHcAE9C">
           <p xml:id="i-4Vo48eYCbZj9UJSzDkYPrP">
             2005/06 mnr: MJ27 pnr: kd154
@@ -472,9 +472,12 @@
             Detta bör ges
           </p>
           <p xml:id="i-91kkGPmS94XdJRtoaUnANH">
-            regeringen till känna. Stockholm den 4 april 2006
+            regeringen till känna.
           </p>
-          <p xml:id="i-56PdzpDKpMyCxidwZtZL93">
+          <p type="date" id="i-3zuUM2NESAve58gUXQQXRQ">
+            Stockholm den 4 april 2006
+          </p>
+          <p xml:id="i-56PdzpDKpMyCxidwZtZL93" type="signatureBlock">
             Sven Gunnar Persson (kd)
           </p>
           <p xml:id="i-Tt4a57xRTcFSatJzzvgXM3">

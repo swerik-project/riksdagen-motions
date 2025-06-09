@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-UbU-00009">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-L3xspgThUxUN1YtSDqcmk8</idno>
-            <name>Barbro Westerholm </name>
+            <name>Barbro Westerholm</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-AWkEErwhVu5GKLi7D8udhb"/>
+        <correspAction xml:id="i-AWkEErwhVu5GKLi7D8udhb" type="basedOn"/>
         <correspContext corresp="i-AWkEErwhVu5GKLi7D8udhb">
           <ref>Proposition 1998/99:94</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-L3xspgThUxUN1YtSDqcmk8"/>
           <note type="signatory" corresp="i-L3xspgThUxUN1YtSDqcmk8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3szRNuJqoRsz6nTxNFapPt">
+        <correspAction xml:id="i-3szRNuJqoRsz6nTxNFapPt" type="referral">
           <date when="1999-05-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YBsrbFW2LcZTDkmnGNt5Dq">
+        <correspAction xml:id="i-YBsrbFW2LcZTDkmnGNt5Dq" type="dismissal">
           <date when="1999-05-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2Fkg5DaFX4J4D1GXjxMc7d">
+        <correspAction xml:id="i-2Fkg5DaFX4J4D1GXjxMc7d" type="submission">
           <date when="1999-05-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-6eE4mfUWqSAXVnbXc7GDVE">
+        <correspAction xml:id="i-6eE4mfUWqSAXVnbXc7GDVE" type="referral">
           <date when="1999-05-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3oZAmxMbLbkRvbvzBMg4rx">
+        <correspAction xml:id="i-3oZAmxMbLbkRvbvzBMg4rx" type="dismissal">
           <date when="1999-05-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4yxbN6rftEZiznk4HTgo3p">
+        <correspAction xml:id="i-4yxbN6rftEZiznk4HTgo3p" type="submission">
           <date when="1999-05-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-171LnXjFuqXfTPwFo9d6VA"/>
+        <correspAction xml:id="i-171LnXjFuqXfTPwFo9d6VA" type="assigned"/>
         <correspContext corresp="i-171LnXjFuqXfTPwFo9d6VA">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Ub_0009/mot_199899_Ub_0009-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6sC7bxd31CRh4HLDLffuQP">
-        <div type="motTitle" xml:id="i-8JN1vXMv6NzfYMiQ2ADApB"/>
-        <div type="motSubmissionInfo" xml:id="i-NsXgkthw2Sgw9KitKa6efF"/>
+      <div xml:id="i-6sC7bxd31CRh4HLDLffuQP" type="motHeader">
+        <div xml:id="i-8JN1vXMv6NzfYMiQ2ADApB" type="motTitle"/>
+        <div xml:id="i-NsXgkthw2Sgw9KitKa6efF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RpnLvdrrR3GbdfEccpYNji">
+      <div xml:id="i-RpnLvdrrR3GbdfEccpYNji" type="motBody">
         <div xml:id="i-NQ7JjLPBykLAb8FVaB9igm">
           <p xml:id="i-LZpzwnsapW8S9qCErjNYMq">
             Ub9
@@ -681,7 +681,10 @@
             Ulf Nilsson (fp)
           </p>
           <p xml:id="i-VXrH6SQqLH4b5kAHMedbEF" type="date">
-            Stockholm den 4 maj 1999 Barbro Westerholm (fp)
+            Stockholm den 4 maj 1999
+          </p>
+          <p type="signatureBlock" id="i-YK9tpRXVbqSdyRGPnamXfX">
+            Barbro Westerholm (fp)
           </p>
           <p xml:id="i-SovQQtPdUauhViLUUGfnKd">
             Yvonne Ångström (fp)

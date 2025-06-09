@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00408">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-HVhApt3yEaLVELcGfbopsS">
           <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Vmke7PR8my5Zfy38ZEvsCC">
+        <correspAction xml:id="i-Vmke7PR8my5Zfy38ZEvsCC" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XbDwDL6aFMoCjyCmiu9Q6y">
+        <correspAction xml:id="i-XbDwDL6aFMoCjyCmiu9Q6y" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9ffghtW5NYCyfVwYXSJMHB">
+        <correspAction xml:id="i-9ffghtW5NYCyfVwYXSJMHB" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Qhx7GJcFSM6ntVj3A6MXRa"/>
+        <correspAction xml:id="i-Qhx7GJcFSM6ntVj3A6MXRa" type="assigned"/>
         <correspContext corresp="i-Qhx7GJcFSM6ntVj3A6MXRa">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0408/mot_200304_K_0408-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3iARx5Me3CLDJQyx63qUQb">
-        <div type="motTitle" xml:id="i-HFQyqdbiTacSgHgGVhhciP"/>
-        <div type="motSubmissionInfo" xml:id="i-V9sngTeqzQk3qzQwKSPA8K"/>
+      <div xml:id="i-3iARx5Me3CLDJQyx63qUQb" type="motHeader">
+        <div xml:id="i-HFQyqdbiTacSgHgGVhhciP" type="motTitle"/>
+        <div xml:id="i-V9sngTeqzQk3qzQwKSPA8K" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-H8CF4YEKuzTYds26csM2fd">
+      <div xml:id="i-H8CF4YEKuzTYds26csM2fd" type="motBody">
         <div xml:id="i-2SZ6Tib4aeNsc6U1b5crkK">
           <p xml:id="i-6uXHhuu6eZokuebm7Mvdbo">
             2003/04 mnr: K408 pnr: fp525
@@ -129,9 +129,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0408/mot_200304_K_0408-0002.pdf"/>
           <p xml:id="i-PVf3eJ2SNk887gN1kg1ecB">
-            2003/04:K408 Stockholm den 7 oktober 2003
+            2003/04:K408
           </p>
-          <p xml:id="i-PYWxyc8FFUL1DmfnVVQDaP">
+          <p type="date" id="i-UPq5hf3ZXet5SC7PCnMjUh">
+            Stockholm den 7 oktober 2003
+          </p>
+          <p xml:id="i-PYWxyc8FFUL1DmfnVVQDaP" type="signatureBlock">
             Eva Flyborg (fp)
           </p>
         </div>

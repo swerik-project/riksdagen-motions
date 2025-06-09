@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-FiU-00045">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-WvrkgGMVWbiVxVoPqgJuEF</idno>
-            <name>Johan Lönnroth </name>
+            <name>Johan Lönnroth</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KihFSgQATp4zFjzQeZfM9C"/>
+        <correspAction xml:id="i-KihFSgQATp4zFjzQeZfM9C" type="basedOn"/>
         <correspContext corresp="i-KihFSgQATp4zFjzQeZfM9C">
           <ref>Regeringsskrivelse 1998/99:132</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-WvrkgGMVWbiVxVoPqgJuEF"/>
           <note type="signatory" corresp="i-WvrkgGMVWbiVxVoPqgJuEF"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AHaBNdVaZ9zkR7PH1WEzgz">
+        <correspAction xml:id="i-AHaBNdVaZ9zkR7PH1WEzgz" type="referral">
           <date when="1999-08-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DVwMFnMBcpGK5Bw3LLRsN4">
+        <correspAction xml:id="i-DVwMFnMBcpGK5Bw3LLRsN4" type="dismissal">
           <date when="1999-08-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Xppz4x1Dsiujr6cexgtMGT">
+        <correspAction xml:id="i-Xppz4x1Dsiujr6cexgtMGT" type="submission">
           <date when="1999-08-13"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-2gWnLDWk6RNNS5CKq4jHca">
+        <correspAction xml:id="i-2gWnLDWk6RNNS5CKq4jHca" type="referral">
           <date when="1999-08-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-88DCsWXToJf9e3ammswoR7">
+        <correspAction xml:id="i-88DCsWXToJf9e3ammswoR7" type="dismissal">
           <date when="1999-08-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Nm623x2X2CxjU2prY7FkFv">
+        <correspAction xml:id="i-Nm623x2X2CxjU2prY7FkFv" type="submission">
           <date when="1999-08-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GEEEHtPqSpHXeV6JaPEX6C"/>
+        <correspAction xml:id="i-GEEEHtPqSpHXeV6JaPEX6C" type="assigned"/>
         <correspContext corresp="i-GEEEHtPqSpHXeV6JaPEX6C">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Fi_0045/mot_199899_Fi_0045-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LJASJivaTd88Vxz7gBdi8f">
-        <div type="motTitle" xml:id="i-9Zkf3rbmVT93U3yWGVFFXn"/>
-        <div type="motSubmissionInfo" xml:id="i-SnujGx8D9YJV7nbDPRMjum"/>
+      <div xml:id="i-LJASJivaTd88Vxz7gBdi8f" type="motHeader">
+        <div xml:id="i-9Zkf3rbmVT93U3yWGVFFXn" type="motTitle"/>
+        <div xml:id="i-SnujGx8D9YJV7nbDPRMjum" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TEQFTzJVkgNwcVxe1Nh2s6">
+      <div xml:id="i-TEQFTzJVkgNwcVxe1Nh2s6" type="motBody">
         <div xml:id="i-QUBqXRx8g4V2MxwWCgaM1k">
           <p xml:id="i-4VDXhQGwavArksLKyLTyYP">
             Fi45
@@ -205,7 +205,12 @@
           <p xml:id="i-JFfoJLCNsp664VAhxsxdqk">
             att riksdagen som sin mening ger regeringen till känna vad i
             motionen anförts om behovet av en näringspolitisk utvärdering
-            av AP-fondens årliga placeringar. Stockholm den 12 augusti 1999
+            av AP-fondens årliga placeringar.
+          </p>
+          <p type="date" id="i-77idbTBCjw94ravZzgZAd3">
+            Stockholm den 12 augusti 1999
+          </p>
+          <p type="signatureBlock" id="i-Qw7QYKBUt767Vg1ynDuB7q">
             Johan Lönnroth (v)
           </p>
           <p xml:id="i-VMyhwzFbvDRe84gzmBj56q">

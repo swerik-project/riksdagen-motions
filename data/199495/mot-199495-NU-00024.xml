@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-NU-00024">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-D74cdq6EQpWG5dWigfnSSw</idno>
-            <name>Per Westerberg </name>
+            <name>Per Westerberg</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-XGncSZ6B9jBjbVJWvLGzMy"/>
+        <correspAction xml:id="i-XGncSZ6B9jBjbVJWvLGzMy" type="basedOn"/>
         <correspContext corresp="i-XGncSZ6B9jBjbVJWvLGzMy">
           <ref>Proposition 1994/95:222</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-D74cdq6EQpWG5dWigfnSSw"/>
           <note type="signatory" corresp="i-D74cdq6EQpWG5dWigfnSSw"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-B6bEmhEZ6jRyyBU3AaCBta">
+        <correspAction xml:id="i-B6bEmhEZ6jRyyBU3AaCBta" type="referral">
           <date when="1995-06-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VkaiR1TLL2dctm4i4s9Zx">
+        <correspAction xml:id="i-VkaiR1TLL2dctm4i4s9Zx" type="dismissal">
           <date when="1995-06-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XM1AmiDtTRTmSwhLrzwXxp">
+        <correspAction xml:id="i-XM1AmiDtTRTmSwhLrzwXxp" type="submission">
           <date when="1995-06-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-DYosCydyzA4w3pjm7HKrhF">
+        <correspAction xml:id="i-DYosCydyzA4w3pjm7HKrhF" type="referral">
           <date when="1995-06-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-X5XbkTn4NRi29vKewsHdK1">
+        <correspAction xml:id="i-X5XbkTn4NRi29vKewsHdK1" type="dismissal">
           <date when="1995-06-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4yQhoYgJsYyVHU3F31xM3k">
+        <correspAction xml:id="i-4yQhoYgJsYyVHU3F31xM3k" type="submission">
           <date when="1995-06-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4Eu7ZDqkrPKeg8WzC83EYK"/>
+        <correspAction xml:id="i-4Eu7ZDqkrPKeg8WzC83EYK" type="assigned"/>
         <correspContext corresp="i-4Eu7ZDqkrPKeg8WzC83EYK">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_NU_24/mot_199495_NU_24-001.pdf"/>
-      <div type="motHeader" xml:id="i-WsMfRXNuDjJknq49Hy5SYR">
-        <div type="motTitle" xml:id="i-P1yjRhMcf8XWfH1A55genc"/>
-        <div type="motSubmissionInfo" xml:id="i-FqSjS6etSsRqFvHs2hAqAY"/>
+      <div xml:id="i-WsMfRXNuDjJknq49Hy5SYR" type="motHeader">
+        <div xml:id="i-P1yjRhMcf8XWfH1A55genc" type="motTitle"/>
+        <div xml:id="i-FqSjS6etSsRqFvHs2hAqAY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CfRmVbakJbNQAhpvtV45Jg">
+      <div xml:id="i-CfRmVbakJbNQAhpvtV45Jg" type="motBody">
         <div xml:id="i-VfnTZb9HKQbwq1dsndfdQL">
           <p xml:id="i-EXst4HHfJyaw5Qd5qC1o1Z">
             Motion till riksdagen
@@ -229,8 +229,10 @@
             till känna vad i mo- tionen anförts om en elbörs.
           </p>
           <p xml:id="i-BJKvJwLbtCsjQF3LEXj6Fy" type="date">
-            Stockholm den 14 juni 1995 Per Westerberg (m) Mikael Odenberg
-            (m) Christer Eirefelt (fp)
+            Stockholm den 14 juni 1995
+          </p>
+          <p type="signatureBlock" id="i-EuM1KjRmrh88NJfxNWvRyD">
+            Per Westerberg (m) Mikael Odenberg (m) Christer Eirefelt (fp)
           </p>
           <p xml:id="i-HT8YgKgRaP5EU9qNcPE1AC">
             Torsten Gavelin (fp)

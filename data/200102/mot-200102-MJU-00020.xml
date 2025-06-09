@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-MJU-00020">
   <teiHeader>
     <fileDesc>
@@ -62,7 +62,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Wu6zT1T9Pvk9PMbjN1Bvzv"/>
+        <correspAction xml:id="i-Wu6zT1T9Pvk9PMbjN1Bvzv" type="basedOn"/>
         <correspContext corresp="i-Wu6zT1T9Pvk9PMbjN1Bvzv">
           <ref>Proposition 2001/02:65</ref>
         </correspContext>
@@ -74,31 +74,31 @@
           <note type="signatory" corresp="i-MAjkY7TMfvfsiuE3eArFUA"/>
           <note type="signatory" corresp="i-XXHxxQRuSjGXVxaVhcXaFk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-D1vquWWG2SAFsARbv9KySz">
+        <correspAction xml:id="i-D1vquWWG2SAFsARbv9KySz" type="referral">
           <date when="2002-01-23"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-4aRaBAV8DS4BoVWpiaGXaM">
+        <correspAction xml:id="i-4aRaBAV8DS4BoVWpiaGXaM" type="numbering">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-eKm2FZ9eB4aoCfRCsZWXk">
+        <correspAction xml:id="i-eKm2FZ9eB4aoCfRCsZWXk" type="proposed_referral">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-SJw1toFjtyPK1ENgUNGkRu">
+        <correspAction xml:id="i-SJw1toFjtyPK1ENgUNGkRu" type="committee_proposal">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-Cuxiaj8StHoAs5g1mmaMV4">
+        <correspAction xml:id="i-Cuxiaj8StHoAs5g1mmaMV4" type="reviewing">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-UVNNHgHfxTAEAVEbuQNoy9">
+        <correspAction xml:id="i-UVNNHgHfxTAEAVEbuQNoy9" type="registration">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KMj8Tb1Kr5GK6VQVd1WLEn">
+        <correspAction xml:id="i-KMj8Tb1Kr5GK6VQVd1WLEn" type="dismissal">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CFdUJN2cHx6qaYcA2v1Qs6">
+        <correspAction xml:id="i-CFdUJN2cHx6qaYcA2v1Qs6" type="submission">
           <date when="2002-01-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2Ch5XBLSqge8eb5X2jXSji"/>
+        <correspAction xml:id="i-2Ch5XBLSqge8eb5X2jXSji" type="assigned"/>
         <correspContext corresp="i-2Ch5XBLSqge8eb5X2jXSji">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_MJ_0020/mot_200102_MJ_0020-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3n7mrZJGtosnjfNiVfF9YD">
-        <div type="motTitle" xml:id="i-MfwQLZAMRbFZY5avB9zDvu"/>
-        <div type="motSubmissionInfo" xml:id="i-Jkac3uYdYKRQrE5kCyfHje"/>
+      <div xml:id="i-3n7mrZJGtosnjfNiVfF9YD" type="motHeader">
+        <div xml:id="i-MfwQLZAMRbFZY5avB9zDvu" type="motTitle"/>
+        <div xml:id="i-Jkac3uYdYKRQrE5kCyfHje" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HAA4d1C6nESLB2zYcCm5wm">
+      <div xml:id="i-HAA4d1C6nESLB2zYcCm5wm" type="motBody">
         <div xml:id="i-P2d5hUFuhwRWAziULMBjGU">
           <p xml:id="i-T68sWTXiw2z5yGVnqhsDSz">
             2001/02 mnr: MJ20 pnr: c169
@@ -161,9 +161,12 @@
             Detta skulle lindra den dubbla bestraffning som drabbar såväl
             stora som små företag. Regeringen bör skyndsamt återkomma till
             riksdagen med förslag till ändringar av sanktionsavgiften för
-            brott mot miljöbalken. Stockholm den 17 januari 2002
+            brott mot miljöbalken.
           </p>
-          <p xml:id="i-Gs13KnctFehQunfN3g5vz7">
+          <p type="date" id="i-XpQcoQKL5ceDvBrtNMa6BY">
+            Stockholm den 17 januari 2002
+          </p>
+          <p xml:id="i-Gs13KnctFehQunfN3g5vz7" type="signatureBlock">
             Eskil Erlandsson (c) Sven Bergström (c) Birgitta Carlsson (c)
             Viviann Gerdin (c) Åke Sandström (c)
           </p>

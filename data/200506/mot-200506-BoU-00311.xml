@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-BoU-00311">
   <teiHeader>
     <fileDesc>
@@ -79,16 +79,16 @@
           <note type="signatory" corresp="i-XhKn9p4oQVJvYzm2h78jih"/>
           <note type="signatory" corresp="i-4XjgirbqceZQdnz2JX6DGB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JCF2drRFzsQjgQCHijoH5r">
+        <correspAction xml:id="i-JCF2drRFzsQjgQCHijoH5r" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LnLFwjD6ycGPUfQ9kS3auR">
+        <correspAction xml:id="i-LnLFwjD6ycGPUfQ9kS3auR" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5TVkJkjp9m9NiJeCeRpdYC">
+        <correspAction xml:id="i-5TVkJkjp9m9NiJeCeRpdYC" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Xg2dnEdnJiJkqx7raAqYz3"/>
+        <correspAction xml:id="i-Xg2dnEdnJiJkqx7raAqYz3" type="assigned"/>
         <correspContext corresp="i-Xg2dnEdnJiJkqx7raAqYz3">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -103,11 +103,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Bo_311/mot_200506_Bo_311-0001.pdf"/>
-      <div type="motHeader" xml:id="i-MBxZj8ToFWYoKVmGP3KHRv">
-        <div type="motTitle" xml:id="i-PPnhpqx9AHUKxWESG8UTUP"/>
-        <div type="motSubmissionInfo" xml:id="i-BG7zc3W1V15A5NbfeVvWmy"/>
+      <div xml:id="i-MBxZj8ToFWYoKVmGP3KHRv" type="motHeader">
+        <div xml:id="i-PPnhpqx9AHUKxWESG8UTUP" type="motTitle"/>
+        <div xml:id="i-BG7zc3W1V15A5NbfeVvWmy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MSDsUdvjNtLWHxfijuJW6c">
+      <div xml:id="i-MSDsUdvjNtLWHxfijuJW6c" type="motBody">
         <div xml:id="i-A12SvVHzXhMrKCCmo2pWgJ">
           <p xml:id="i-7NoYDVdz4crcgt66aEtXVT">
             2005/06 mnr: Bo311 pnr: v738
@@ -508,9 +508,12 @@
             Någon form av indexering måste genomföras. Med anledning av ovanstående
             (5 Reformera bostadsbidragen) bör riksdagen som sin mening ge
             regeringen till känna vad i motionen anförs om innehållet i ett
-            reformerat system för bostadsbidrag. Stockholm den 5 oktober 2005
+            reformerat system för bostadsbidrag.
           </p>
-          <p xml:id="i-Bqy6BcPTK9dqJqwVmAmXyU">
+          <p type="date" id="i-HcfPUke9BjhjPuzqmFetWj">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p xml:id="i-Bqy6BcPTK9dqJqwVmAmXyU" type="signatureBlock">
             Owe Hellberg (v) Kjell-Erik Karlsson (v) Sten Lundström (v) Peter
             Pedersen (v) Sven-Erik Sjöstrand (v)
           </p>

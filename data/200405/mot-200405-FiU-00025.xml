@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-FiU-00025">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-EHKk6jGuHALHGNaANSneGZ"/>
+        <correspAction xml:id="i-EHKk6jGuHALHGNaANSneGZ" type="basedOn"/>
         <correspContext corresp="i-EHKk6jGuHALHGNaANSneGZ">
           <ref>Proposition 2004/05:165</ref>
         </correspContext>
@@ -90,19 +90,19 @@
           <note type="signatory" corresp="i-LBN95MD8hn6zkXhRBcbJbB"/>
           <note type="signatory" corresp="i-UmhVhzFM3Rs65aFjMTgRvj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JZekUxcyr51WMoZffyguX6">
+        <correspAction xml:id="i-JZekUxcyr51WMoZffyguX6" type="referral">
           <date when="2005-06-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2KLAcMqhuEQfJ4nFJJdwnX">
+        <correspAction xml:id="i-2KLAcMqhuEQfJ4nFJJdwnX" type="dismissal">
           <date when="2005-06-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SVNnyCitfnGQA2ph9i1Qoi">
+        <correspAction xml:id="i-SVNnyCitfnGQA2ph9i1Qoi" type="dismissal">
           <date when="2005-06-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BosXTEzN1YiJKucF3ZxFyo">
+        <correspAction xml:id="i-BosXTEzN1YiJKucF3ZxFyo" type="submission">
           <date when="2005-06-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-R7nVD7AwXpJLZh5uLYUu3o"/>
+        <correspAction xml:id="i-R7nVD7AwXpJLZh5uLYUu3o" type="assigned"/>
         <correspContext corresp="i-R7nVD7AwXpJLZh5uLYUu3o">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Fi_25/mot_200405_Fi_25-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Fi_25/mot_200405_Fi_25-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5QgUdgxv4GBqyacDH4CetF">
-        <div type="motTitle" xml:id="i-BU2LzT4aT1tWfEJV1BxmJ6"/>
-        <div type="motSubmissionInfo" xml:id="i-XmcswrYWLzGfMPZ7YLwTZt"/>
+      <div xml:id="i-5QgUdgxv4GBqyacDH4CetF" type="motHeader">
+        <div xml:id="i-BU2LzT4aT1tWfEJV1BxmJ6" type="motTitle"/>
+        <div xml:id="i-XmcswrYWLzGfMPZ7YLwTZt" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-95qMHkGFu9y71Hvn7GbbXp">
+      <div xml:id="i-95qMHkGFu9y71Hvn7GbbXp" type="motBody">
         <div xml:id="i-2g1RvPB9bwt3KqdmvN6rTt">
           <p xml:id="i-QJi2y8EN6CUDfCrK7SfcXS">
             2004/05 mnr: Fi25 pnr: m243
@@ -235,9 +235,12 @@
           </p>
           <p xml:id="i-4rGqXiVqdKBYXSLJuirGkq">
             Det får ankomma på finansutskottet att utforma erforderliga justeringar
-            i regeringens framlagda lagförslag. Stockholm den 13 juni 2005
+            i regeringens framlagda lagförslag.
           </p>
-          <p xml:id="i-8Qi2TMwg34nWNHGLRmko5V">
+          <p type="date" id="i-HMkMGxpdHs8EHBUCnub8v2">
+            Stockholm den 13 juni 2005
+          </p>
+          <p xml:id="i-8Qi2TMwg34nWNHGLRmko5V" type="signatureBlock">
             Mikael Odenberg (m) Gunnar Axén (m) Tomas Högström (m) Cecilia
             Widegren (m) Ulf Sjösten (m) Lennart Hedquist (m) Anne-Marie Pålsson
             (m)

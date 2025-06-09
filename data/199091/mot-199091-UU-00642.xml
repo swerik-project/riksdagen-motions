@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-UU-00642">
   <teiHeader>
     <fileDesc>
@@ -54,28 +54,28 @@
           </person>
           <person gender="man">
             <idno>i-KF6wD7NQzQww6cajAsNpt</idno>
-            <name>Gösta Lyngå </name>
+            <name>Gösta Lyngå</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-Pdrt5Lc774RrxkCz3JRRWF</idno>
-            <name>Elisabet Franzén </name>
+            <name>Elisabet Franzén</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-8MNvcPrNhVW2gd9o1fiYTU</idno>
-            <name>Anna Horn af Rantzien </name>
+            <name>Anna Horn af Rantzien</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-7myLKphxRpPbZ8Jc6eegbC</idno>
-            <name>Kaj Nilsson </name>
+            <name>Kaj Nilsson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -94,25 +94,25 @@
           <note type="signatory" corresp="i-8MNvcPrNhVW2gd9o1fiYTU"/>
           <note type="signatory" corresp="i-7myLKphxRpPbZ8Jc6eegbC"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-M1YPQFSQsUPrLhSbzv2neF">
+        <correspAction xml:id="i-M1YPQFSQsUPrLhSbzv2neF" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FXZkbMULoZwhEpP258qBqe">
+        <correspAction xml:id="i-FXZkbMULoZwhEpP258qBqe" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LN568Rcey81AA1wi61Y1mA">
+        <correspAction xml:id="i-LN568Rcey81AA1wi61Y1mA" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-K2uNKPSUVoajL5YYsMb9vm">
+        <correspAction xml:id="i-K2uNKPSUVoajL5YYsMb9vm" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KzeHWkwLAzBiRAxBMy2s4C">
+        <correspAction xml:id="i-KzeHWkwLAzBiRAxBMy2s4C" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SHH3AfwjKUfZSu9neeVGyx">
+        <correspAction xml:id="i-SHH3AfwjKUfZSu9neeVGyx" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XYJD8Xr3oC3J1CMr6AxHDR"/>
+        <correspAction xml:id="i-XYJD8Xr3oC3J1CMr6AxHDR" type="assigned"/>
         <correspContext corresp="i-XYJD8Xr3oC3J1CMr6AxHDR">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -125,11 +125,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_UU_642/mot_199091_UU_642-001.pdf"/>
-      <div type="motHeader" xml:id="i-JyEoeAPvcVoi2CoNvEsVer">
-        <div type="motTitle" xml:id="i-CPgmcsmd7QgeV5k5q717x5"/>
-        <div type="motSubmissionInfo" xml:id="i-NQ7D9BidUfLvsLQC3Z5UF4"/>
+      <div xml:id="i-JyEoeAPvcVoi2CoNvEsVer" type="motHeader">
+        <div xml:id="i-CPgmcsmd7QgeV5k5q717x5" type="motTitle"/>
+        <div xml:id="i-NQ7D9BidUfLvsLQC3Z5UF4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RnSyyDg3QZteGmNHX6phSW">
+      <div xml:id="i-RnSyyDg3QZteGmNHX6phSW" type="motBody">
         <div xml:id="i-DXTbbuncdhE7RsfehP2QR7">
           <p xml:id="i-GAdHQ8BQor8mCS6yPGUbxN">
             Motion till riksdagen
@@ -303,8 +303,10 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_UU_642/mot_199091_UU_642-004.pdf"/>
           <p xml:id="i-RY4R2fPcNVApv7KyjrTAvv" type="date">
-            Stockholm den 25 januari 1991 Gösta Lyngå (mp) Anna Horn af Rantzien
-            (mp)
+            Stockholm den 25 januari 1991
+          </p>
+          <p type="signatureBlock" id="i-Hg6n9icoAySsvao6nVUXVG">
+            Gösta Lyngå (mp) Anna Horn af Rantzien (mp)
           </p>
           <p xml:id="i-LF4NkPrJXhwrLDqanobnTi">
             Elisabet Franzén (mp)

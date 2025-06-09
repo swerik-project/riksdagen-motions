@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00049">
   <teiHeader>
     <fileDesc>
@@ -77,7 +77,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-AwgwosJoPoyobuTQV3FK3H"/>
+        <correspAction xml:id="i-AwgwosJoPoyobuTQV3FK3H" type="basedOn"/>
         <correspContext corresp="i-AwgwosJoPoyobuTQV3FK3H">
           <ref>Proposition 2005/06:172</ref>
         </correspContext>
@@ -91,19 +91,19 @@
           <note type="signatory" corresp="i-KktUCXax2JFL3tqFqQN9oq"/>
           <note type="signatory" corresp="i-EANGVQ7bBDvQLJRQXHptPX"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9k3RZLPxn6gE6zjwYxggVC">
+        <correspAction xml:id="i-9k3RZLPxn6gE6zjwYxggVC" type="referral">
           <date when="2006-04-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SiqaYAi7DJZB8Wqwk8Uf6x">
+        <correspAction xml:id="i-SiqaYAi7DJZB8Wqwk8Uf6x" type="dismissal">
           <date when="2006-04-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Lr5NCHRf95pkzGuYhdRaNf">
+        <correspAction xml:id="i-Lr5NCHRf95pkzGuYhdRaNf" type="dismissal">
           <date when="2006-04-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-McTHhsM8bo5gQ3qFHW5yZp">
+        <correspAction xml:id="i-McTHhsM8bo5gQ3qFHW5yZp" type="submission">
           <date when="2006-04-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Wo68eJtiqPhZH2hPQAohqT"/>
+        <correspAction xml:id="i-Wo68eJtiqPhZH2hPQAohqT" type="assigned"/>
         <correspContext corresp="i-Wo68eJtiqPhZH2hPQAohqT">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_49/mot_200506_MJ_49-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HjcKAy4LFjd8RWYeSqQ6px">
-        <div type="motTitle" xml:id="i-84eP6GZJRVURTqgXtq3nYk"/>
-        <div type="motSubmissionInfo" xml:id="i-U6zaGTUvZt9VjDuoBBaxiD"/>
+      <div xml:id="i-HjcKAy4LFjd8RWYeSqQ6px" type="motHeader">
+        <div xml:id="i-84eP6GZJRVURTqgXtq3nYk" type="motTitle"/>
+        <div xml:id="i-U6zaGTUvZt9VjDuoBBaxiD" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-31sNnBUPxiSHaB7xZXM1TM">
+      <div xml:id="i-31sNnBUPxiSHaB7xZXM1TM" type="motBody">
         <div xml:id="i-6YpzWeV6rqNj1BpFPYdAQS">
           <p xml:id="i-QAq1afoufpmdmwjKUVs2iG">
             2005/06 mnr: MJ49 pnr: c196
@@ -581,16 +581,16 @@
           <p xml:id="i-FbaZwiaioVPgzxWpEK8VUa">
             Vätgas kommer att ha en nyckelroll i övergången från fossila
             bränslen till förnybara energikällor och ett hållbart energisystem.
-            Runt om i världen ökar aktiviteterna inom =&lt;vätgasområdet. I Sverige
-            pågår ett antal demonstrationsprojekt med tyngdpunkten i Västra
-            Götaland. När vätgas och bränsleceller ersätter fossila bränslen
-            och traditionell förbränningsteknik växer en ny industri fram.
-            Det innebär efterfrågan på nya komponenter, system- och marknadslösningar.
-            Möjligheterna för tillväxt och nya arbetstillfällen är stora.
-            Tidiga initiativ ökar Sveriges chanser att vara en stark aktör
-            i framtiden. Centerpartiet anser därför att en nationell vätgasstrategi
-            bör tas fram i nära samarbete mellan näringslivet och det offentliga.
-            Detta bör ges regeringen till känna.
+            Runt om i världen ökar aktiviteterna inom =&lt;vätgasområdet.
+            I Sverige pågår ett antal demonstrationsprojekt med tyngdpunkten
+            i Västra Götaland. När vätgas och bränsleceller ersätter fossila
+            bränslen och traditionell förbränningsteknik växer en ny industri
+            fram. Det innebär efterfrågan på nya komponenter, system- och
+            marknadslösningar. Möjligheterna för tillväxt och nya arbetstillfällen
+            är stora. Tidiga initiativ ökar Sveriges chanser att vara en stark
+            aktör i framtiden. Centerpartiet anser därför att en nationell
+            vätgasstrategi bör tas fram i nära samarbete mellan näringslivet
+            och det offentliga. Detta bör ges regeringen till känna.
           </p>
           <p xml:id="i-JwRc9ChvB7gs9RVJKi99KA">
             8 Det offentligas ansvar
@@ -1019,9 +1019,12 @@
             Centerpartiet vill utreda möjligheterna att införa ett system
             med vita certifikat och hur detta ska kunna samverka med handelssystemet
             med utsläppsrätter och koldioxidskatten. Detta bör ges regeringen
-            till känna. Stockholm den 18 april 2006
+            till känna.
           </p>
-          <p xml:id="i-WhRmGfMzt6xEYLSZeamB95">
+          <p type="date" id="i-WHH7ot5teb7U9iEqktozAM">
+            Stockholm den 18 april 2006
+          </p>
+          <p xml:id="i-WhRmGfMzt6xEYLSZeamB95" type="signatureBlock">
             Claes Västerteg (c)
           </p>
           <p xml:id="i-Jx5B7cG79ych5eKDAb4my4">

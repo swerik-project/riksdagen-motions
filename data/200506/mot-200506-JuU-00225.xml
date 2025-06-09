@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00225">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
           <note type="signatory" corresp="i-chkH67XLutwmCnkuDo8pd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Ty78X8P5QzK4SSZwdQptTs">
+        <correspAction xml:id="i-Ty78X8P5QzK4SSZwdQptTs" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XJLTFxd334mi5H9uM5Ckxq">
+        <correspAction xml:id="i-XJLTFxd334mi5H9uM5Ckxq" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FWjc7pmsAaGW8jtF6GkeL2">
+        <correspAction xml:id="i-FWjc7pmsAaGW8jtF6GkeL2" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MbMytN17NyijmaPqicSKjh"/>
+        <correspAction xml:id="i-MbMytN17NyijmaPqicSKjh" type="assigned"/>
         <correspContext corresp="i-MbMytN17NyijmaPqicSKjh">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_225/mot_200506_Ju_225-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FvAwA1whpvL2u5n4zH7XVZ">
-        <div type="motTitle" xml:id="i-KsxSHUyoqvaNx2H3K5M8gF"/>
-        <div type="motSubmissionInfo" xml:id="i-V3hT4Uc2BHFmXFC5rXUmF6"/>
+      <div xml:id="i-FvAwA1whpvL2u5n4zH7XVZ" type="motHeader">
+        <div xml:id="i-KsxSHUyoqvaNx2H3K5M8gF" type="motTitle"/>
+        <div xml:id="i-V3hT4Uc2BHFmXFC5rXUmF6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PvZCRui1m4kV8szmbAW96m">
+      <div xml:id="i-PvZCRui1m4kV8szmbAW96m" type="motBody">
         <div xml:id="i-RNbPYjFjuXWtQGQgpDpy1T">
           <p xml:id="i-LPijTGABQ24e3YMQq3YxNJ">
             2005/06 mnr: Ju225 pnr: m1030
@@ -120,9 +120,12 @@
             =
           </p>
           <p xml:id="i-G5w4WUFCawiVv71TmFVm4J">
-            iv. Stockholm den 15 september 2005
+            iv.
           </p>
-          <p xml:id="i-9DLVubV6EMhJ4qsRqJMn9P">
+          <p type="date" id="i-8VdjSqdQND65hCyLNHUTjj">
+            Stockholm den 15 september 2005
+          </p>
+          <p xml:id="i-9DLVubV6EMhJ4qsRqJMn9P" type="signatureBlock">
             Ulf Sjösten (m) Patrik Norinder (m)
           </p>
         </div>

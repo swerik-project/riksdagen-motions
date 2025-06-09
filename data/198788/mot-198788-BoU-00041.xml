@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-BoU-00041">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-RxUdm9qUEAwDjMnivU4Mvm"/>
+        <correspAction xml:id="i-RxUdm9qUEAwDjMnivU4Mvm" type="basedOn"/>
         <correspContext corresp="i-RxUdm9qUEAwDjMnivU4Mvm">
           <ref>Proposition 1987/88:131</ref>
         </correspContext>
@@ -82,16 +82,16 @@
           <note type="signatory" corresp="i-CMGiiZNVocLdbkuKqXgWTG"/>
           <note type="signatory" corresp="i-VtWQs1mfimPMyjw5HVXR4i"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-UaFuL6agF2XVTEojLoWzVS">
+        <correspAction xml:id="i-UaFuL6agF2XVTEojLoWzVS" type="submission">
           <date when="1988-03-31"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9TpGDvt14sMP7Rw3UXkkQd">
+        <correspAction xml:id="i-9TpGDvt14sMP7Rw3UXkkQd" type="dismissal">
           <date when="1988-04-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-QrYQVvNxfqRAfoyvH1LMtS">
+        <correspAction xml:id="i-QrYQVvNxfqRAfoyvH1LMtS" type="referral">
           <date when="1988-04-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WCjVm1USFszvXct3iDB9UR">
+        <correspAction xml:id="i-WCjVm1USFszvXct3iDB9UR" type="assigned">
           <date when="2014-11-22"/>
           <time when="00:51:14"/>
         </correspAction>
@@ -107,11 +107,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_bo_41/mot_198788_bo_41-001.pdf"/>
-      <div type="motHeader" xml:id="i-16Fdpw7WiUXWHtybUfy87D">
-        <div type="motTitle" xml:id="i-SgfVxScC5M4Q7cxbv4D8SQ"/>
-        <div type="motSubmissionInfo" xml:id="i-RCVmVhbRn2TZobyRSuYx1v"/>
+      <div xml:id="i-16Fdpw7WiUXWHtybUfy87D" type="motHeader">
+        <div xml:id="i-SgfVxScC5M4Q7cxbv4D8SQ" type="motTitle"/>
+        <div xml:id="i-RCVmVhbRn2TZobyRSuYx1v" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-S9ZqsMcURBauFuTNpjtRff">
+      <div xml:id="i-S9ZqsMcURBauFuTNpjtRff" type="motBody">
         <div xml:id="i-14ps2aDSmZxANP44rcwtwe">
           <p xml:id="i-LgkBy37iHg3MxGEZtyGvS1">
             Motion till riksdagen
@@ -173,9 +173,12 @@
             skall utformas i enlighet med vad i denna motion
           </p>
           <p xml:id="i-PLsj9yWwuniym3jQN7HDt4">
-            förordats. Stockholm den 30 mars 1988
+            förordats.
           </p>
-          <p xml:id="i-5kEgAk2kwKWjBw1Tz67WsJ">
+          <p type="date" id="i-71ixXhKbBgZB29y6ANjPnJ">
+            Stockholm den 30 mars 1988
+          </p>
+          <p xml:id="i-5kEgAk2kwKWjBw1Tz67WsJ" type="signatureBlock">
             Lars Werner (vpk) Bertil Måbrink (vpk) Nils Berndtson (vpk) Tore
             Claeson (vpk) Inga Lantz (vpk) Jörn Svensson (vpk)
           </p>

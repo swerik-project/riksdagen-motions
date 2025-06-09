@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00009">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-HZ4LYEvuj1AK6UobDQSrZ1"/>
+        <correspAction xml:id="i-HZ4LYEvuj1AK6UobDQSrZ1" type="basedOn"/>
         <correspContext corresp="i-HZ4LYEvuj1AK6UobDQSrZ1">
           <ref>Proposition 2002/03:96</ref>
         </correspContext>
@@ -82,16 +82,16 @@
           <note type="signatory" corresp="i-NLfT4RS4huMCGpWx1zB8Ag"/>
           <note type="signatory" corresp="i-U6F8gqiuV2DEZN1aMhyDnJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Y29g6mWKBS6dK8GBb55WVv">
+        <correspAction xml:id="i-Y29g6mWKBS6dK8GBb55WVv" type="referral">
           <date when="2003-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9r57Fdf24qszggHA7eZ1Fi">
+        <correspAction xml:id="i-9r57Fdf24qszggHA7eZ1Fi" type="dismissal">
           <date when="2003-04-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Y2LBNRukiksD4vHkNQNvqQ">
+        <correspAction xml:id="i-Y2LBNRukiksD4vHkNQNvqQ" type="submission">
           <date when="2003-04-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HVb4wA7zz33ynxJkYLKcXv"/>
+        <correspAction xml:id="i-HVb4wA7zz33ynxJkYLKcXv" type="assigned"/>
         <correspContext corresp="i-HVb4wA7zz33ynxJkYLKcXv">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -106,11 +106,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Sk_0009/mot_200203_Sk_0009-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8qRhcNH2KDV1mr67tvDjch">
-        <div type="motTitle" xml:id="i-CtneARFizp9whzPdVCSiZa"/>
-        <div type="motSubmissionInfo" xml:id="i-5XbXEBMZnPLLvVJ1Ncj4Fd"/>
+      <div xml:id="i-8qRhcNH2KDV1mr67tvDjch" type="motHeader">
+        <div xml:id="i-CtneARFizp9whzPdVCSiZa" type="motTitle"/>
+        <div xml:id="i-5XbXEBMZnPLLvVJ1Ncj4Fd" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QVVGdbZYEmc6BZu8LX541B">
+      <div xml:id="i-QVVGdbZYEmc6BZu8LX541B" type="motBody">
         <div xml:id="i-8r7TAnCwZ688rXvfGpBnN8">
           <p xml:id="i-Cb8ziLCccoAXrbMgPudk7g">
             14
@@ -293,9 +293,12 @@
           <p xml:id="i-CUham5ynZB83Yu2SPCThMf">
             regeringen vill tvinga fram en övergång till att verksamheten
             drivs som enkla bolag, vilket blir följden, är obegripligt. Förslaget
-            bör avslås. Stockholm den 3 april 2003
+            bör avslås.
           </p>
-          <p xml:id="i-RTRh7Jesp5Bs2WWw83us1F">
+          <p type="date" id="i-HxvccjDhmyZfXbEwQiH5r2">
+            Stockholm den 3 april 2003
+          </p>
+          <p xml:id="i-RTRh7Jesp5Bs2WWw83us1F" type="signatureBlock">
             Anna Grönlund (fp)
           </p>
           <p xml:id="i-6VTcJuPUfw8RvGfxgcMyG1">

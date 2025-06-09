@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00009">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5bzrfGc34yRQuvZBthRufu"/>
+        <correspAction xml:id="i-5bzrfGc34yRQuvZBthRufu" type="basedOn"/>
         <correspContext corresp="i-5bzrfGc34yRQuvZBthRufu">
           <ref>Proposition 2004/05:80</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="i-ASHgRusN9GoHAH8eioxicP"/>
           <note type="signatory" corresp="i-U6F8gqiuV2DEZN1aMhyDnJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YGnVEJ4por95qhR9MeQ3ge">
+        <correspAction xml:id="i-YGnVEJ4por95qhR9MeQ3ge" type="referral">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SdA4ZmRXyUH2fcqRUWmxDG">
+        <correspAction xml:id="i-SdA4ZmRXyUH2fcqRUWmxDG" type="dismissal">
           <date when="2005-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FXwntScGNPTiLzehPMRd4Q">
+        <correspAction xml:id="i-FXwntScGNPTiLzehPMRd4Q" type="submission">
           <date when="2005-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JbRSs32ex7uaKGsJJv1RhP"/>
+        <correspAction xml:id="i-JbRSs32ex7uaKGsJJv1RhP" type="assigned"/>
         <correspContext corresp="i-JbRSs32ex7uaKGsJJv1RhP">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -74,11 +74,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_9/mot_200405_Ub_9-0001.pdf"/>
-      <div type="motHeader" xml:id="i-R4xYQP1U8DUiiT8bj7ZHKU">
-        <div type="motTitle" xml:id="i-YQoCZ6LzLaEYUpHT2Ysf2g"/>
-        <div type="motSubmissionInfo" xml:id="i-YE2xvNE8DBNbCZU2cpfQCa"/>
+      <div xml:id="i-R4xYQP1U8DUiiT8bj7ZHKU" type="motHeader">
+        <div xml:id="i-YQoCZ6LzLaEYUpHT2Ysf2g" type="motTitle"/>
+        <div xml:id="i-YE2xvNE8DBNbCZU2cpfQCa" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RYkWMcoVpbTwEdxLCLFXBh">
+      <div xml:id="i-RYkWMcoVpbTwEdxLCLFXBh" type="motBody">
         <div xml:id="i-EAXukhqQjjLULaaJ6NmxXx">
           <p xml:id="i-TU6adcYYXLR1MB2t3B92uS">
             2004/05 mnr: Ub9 pnr: fp1192
@@ -166,8 +166,10 @@
             av ESS skall ske i Sverige och Lund.
           </p>
           <p xml:id="i-Krpc483i41FPe19wrtheDF" type="date">
-            Stockholm den 6 april 2005 Marie Wahlgren (fp) Christer Nylander
-            (fp)
+            Stockholm den 6 april 2005
+          </p>
+          <p type="signatureBlock" id="i-Sp9YxHX4VULdx611JTLKhE">
+            Marie Wahlgren (fp) Christer Nylander (fp)
           </p>
         </div>
       </div>

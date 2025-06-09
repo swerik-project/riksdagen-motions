@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FiU-00010">
   <teiHeader>
     <fileDesc>
@@ -83,7 +83,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-MGuCybLRBpjqB5aGMc2Rwe"/>
+        <correspAction xml:id="i-MGuCybLRBpjqB5aGMc2Rwe" type="basedOn"/>
         <correspContext corresp="i-MGuCybLRBpjqB5aGMc2Rwe">
           <ref>Proposition 2002/03:95</ref>
         </correspContext>
@@ -98,16 +98,16 @@
           <note type="signatory" corresp="i-SKjAmNScZ7eZ3a8Xy1J8hs"/>
           <note type="signatory" corresp="i-J2pcjBf6ppCUUibn7Biroc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-891yWut5uYwWtJgjL3kLew">
+        <correspAction xml:id="i-891yWut5uYwWtJgjL3kLew" type="referral">
           <date when="2003-04-01"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Hb1iAEHtdjmES4Fr3PLDjp">
+        <correspAction xml:id="i-Hb1iAEHtdjmES4Fr3PLDjp" type="dismissal">
           <date when="2003-03-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GLv8kkAxQryQXN8r6qefpp">
+        <correspAction xml:id="i-GLv8kkAxQryQXN8r6qefpp" type="submission">
           <date when="2003-03-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BUgHGRJ7yDq5XBpKWiBZKi"/>
+        <correspAction xml:id="i-BUgHGRJ7yDq5XBpKWiBZKi" type="assigned"/>
         <correspContext corresp="i-BUgHGRJ7yDq5XBpKWiBZKi">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -122,11 +122,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fi_0010/mot_200203_Fi_0010-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RcRsKNZWLvhwrypLXAaNE1">
-        <div type="motTitle" xml:id="i-AksyLDyzYBRAoJmFxLzy2L"/>
-        <div type="motSubmissionInfo" xml:id="i-3Qu1EEzgyvscfsXUic9EEQ"/>
+      <div xml:id="i-RcRsKNZWLvhwrypLXAaNE1" type="motHeader">
+        <div xml:id="i-AksyLDyzYBRAoJmFxLzy2L" type="motTitle"/>
+        <div xml:id="i-3Qu1EEzgyvscfsXUic9EEQ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KivBv5A81wUuaf6YQP7Yzt">
+      <div xml:id="i-KivBv5A81wUuaf6YQP7Yzt" type="motBody">
         <div xml:id="i-AwUTEvFrQq7pKBmm3dDG5V">
           <p xml:id="i-KkBopJ5pchaiu9PhyBAtdz">
             2002/03 mnr: Fi10 pnr: kd131
@@ -322,7 +322,10 @@
             för företagen.
           </p>
           <p xml:id="i-8PuhYbJtuyssRjnDAra6sM" type="date">
-            Stockholm den 27 mars 2003 Mats Odell (kd)
+            Stockholm den 27 mars 2003
+          </p>
+          <p type="signatureBlock" id="i-KLtyw8kZqFgRKYsw9cepVg">
+            Mats Odell (kd)
           </p>
           <p xml:id="i-Sq52KWTdd7TZyHmKjRXANp">
             Olle Sandahl (kd) Stefan Attefall (kd) Annelie Enochson (kd)

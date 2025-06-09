@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-BoU-00014">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-JDZxUgF8tSb6DhAMVA4HX6"/>
+        <correspAction xml:id="i-JDZxUgF8tSb6DhAMVA4HX6" type="basedOn"/>
         <correspContext corresp="i-JDZxUgF8tSb6DhAMVA4HX6">
           <ref>Proposition 1987/88:37</ref>
         </correspContext>
@@ -66,16 +66,16 @@
           <note type="signatory" corresp="i-N1qw8jfKGpQHZKgF3gs76j"/>
           <note type="signatory" corresp="i-TpZYt1GVcqVji9XRcawvXB"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-9u76X2gS1eGAzdDyvxwdUy">
+        <correspAction xml:id="i-9u76X2gS1eGAzdDyvxwdUy" type="submission">
           <date when="1987-11-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Qm8G5eQpBQtnzSmNyoT6QC">
+        <correspAction xml:id="i-Qm8G5eQpBQtnzSmNyoT6QC" type="dismissal">
           <date when="1987-11-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-DqNVLyisShYttmG64Hnr2b">
+        <correspAction xml:id="i-DqNVLyisShYttmG64Hnr2b" type="referral">
           <date when="1987-11-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TLMRgwPEfYskquNPYw9EZN">
+        <correspAction xml:id="i-TLMRgwPEfYskquNPYw9EZN" type="assigned">
           <date when="2014-11-23"/>
           <time when="04:36:00"/>
         </correspAction>
@@ -91,11 +91,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_bo_14/mot_198788_bo_14-001.pdf"/>
-      <div type="motHeader" xml:id="i-T9cr3cV7FAbHmhThndfEkn">
-        <div type="motTitle" xml:id="i-DT445D44aiRTB4KvdWSWaR"/>
-        <div type="motSubmissionInfo" xml:id="i-4mQUWK9vbzNV6aUSNZEhX2"/>
+      <div xml:id="i-T9cr3cV7FAbHmhThndfEkn" type="motHeader">
+        <div xml:id="i-DT445D44aiRTB4KvdWSWaR" type="motTitle"/>
+        <div xml:id="i-4mQUWK9vbzNV6aUSNZEhX2" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PQigL8oiSaTeYFkXD4vLZL">
+      <div xml:id="i-PQigL8oiSaTeYFkXD4vLZL" type="motBody">
         <div xml:id="i-ELGy3SWP9z38bLoqMpRRnN">
           <p xml:id="i-QCK2wZg3qjsswTfzBT1hEX">
             Motion till riksdagen
@@ -190,8 +190,11 @@
             naturresurslagen bör ligga på statens naturvårdsverk.
           </p>
           <p xml:id="i-HXfZkef8w9dj6uN2oKhNYW" type="date">
-            Stockholm den 23 november 1987 Erling Bager (fp) Karl-Göran Biörsmark
-            (fp) Siw Persson (fp) Ingrid Hasselström Nyvall (fp)
+            Stockholm den 23 november 1987
+          </p>
+          <p type="signatureBlock" id="i-GbpLhWJz5YosWGqdUeNScr">
+            Erling Bager (fp) Karl-Göran Biörsmark (fp) Siw Persson (fp)
+            Ingrid Hasselström Nyvall (fp)
           </p>
           <p xml:id="i-Vk2Nc6jnjo6D7ECZgde4QD">
             Mot. 1987/88 Bol4

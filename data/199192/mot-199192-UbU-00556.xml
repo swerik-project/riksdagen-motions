@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-UbU-00556">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-GmSFH9fmi5xjm5ydcN6R1m</idno>
-            <name>Ingela Mårtensson </name>
+            <name>Ingela Mårtensson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -46,25 +46,25 @@
           <note type="signatory" corresp="i-GmSFH9fmi5xjm5ydcN6R1m"/>
           <note type="signatory" corresp="i-GmSFH9fmi5xjm5ydcN6R1m"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-U5ME7dCPpGexvVemVxAFjQ">
+        <correspAction xml:id="i-U5ME7dCPpGexvVemVxAFjQ" type="referral">
           <date when="1992-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PLk41y3Nq87JD8VqycN5jt">
+        <correspAction xml:id="i-PLk41y3Nq87JD8VqycN5jt" type="dismissal">
           <date when="1992-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PCcXNzKB2q7iPYv1FKSxmo">
+        <correspAction xml:id="i-PCcXNzKB2q7iPYv1FKSxmo" type="submission">
           <date when="1992-01-27"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PPL9rnMaosaCnm3m1QuBxt">
+        <correspAction xml:id="i-PPL9rnMaosaCnm3m1QuBxt" type="referral">
           <date when="1992-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RAh9u5jyvoMk1YN6Zpkknz">
+        <correspAction xml:id="i-RAh9u5jyvoMk1YN6Zpkknz" type="dismissal">
           <date when="1992-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2sM3dfNAHZVLHunagzYjsG">
+        <correspAction xml:id="i-2sM3dfNAHZVLHunagzYjsG" type="submission">
           <date when="1992-01-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VmH2HZ2dfSio4ZM8YRFZ6P"/>
+        <correspAction xml:id="i-VmH2HZ2dfSio4ZM8YRFZ6P" type="assigned"/>
         <correspContext corresp="i-VmH2HZ2dfSio4ZM8YRFZ6P">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_UbU_556/mot_199192_UbU_556-001.pdf"/>
-      <div type="motHeader" xml:id="i-KTmPxfGbkK3NvAiAvqmEHH">
-        <div type="motTitle" xml:id="i-85SHUt4V2qMbzN5eEZcfvV"/>
-        <div type="motSubmissionInfo" xml:id="i-BpSJqbbbU6QYPcuR5GFNb9"/>
+      <div xml:id="i-KTmPxfGbkK3NvAiAvqmEHH" type="motHeader">
+        <div xml:id="i-85SHUt4V2qMbzN5eEZcfvV" type="motTitle"/>
+        <div xml:id="i-BpSJqbbbU6QYPcuR5GFNb9" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-A2stJkB1j1ZZy3LQHurivy">
+      <div xml:id="i-A2stJkB1j1ZZy3LQHurivy" type="motBody">
         <div xml:id="i-Ymf3cPPwiciWnGAKY7RcU">
           <p xml:id="i-UeFVabFPUfrdSXwWUdjiYt">
             Motion till riksdagen 1991/92:Ub556
@@ -147,9 +147,12 @@
             av utländska examina.
           </p>
           <p xml:id="i-QaP4pd49FdMFu4YXdZqsFN">
-            " Stockholm den 27 januari 1992
+            "
           </p>
-          <p xml:id="i-L66Dam96BhcgvKYq6K9ygA">
+          <p type="date" id="i-G6BbPH7MYnp9PrmCyJG37">
+            Stockholm den 27 januari 1992
+          </p>
+          <p xml:id="i-L66Dam96BhcgvKYq6K9ygA" type="signatureBlock">
             Ingela Mårtensson (fp)
           </p>
         </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-SkU-00032">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-6kLJbGLpwB9hYxDrVrkcqF</idno>
-            <name>Karin Pilsäter </name>
+            <name>Karin Pilsäter</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-6F5Q8UEwR5Y5Vzi87xho3j"/>
+        <correspAction xml:id="i-6F5Q8UEwR5Y5Vzi87xho3j" type="basedOn"/>
         <correspContext corresp="i-6F5Q8UEwR5Y5Vzi87xho3j">
           <ref>Proposition 1995/96:191</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
           <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-V2u78wHZQHf4Zx9Ykx8D3F">
+        <correspAction xml:id="i-V2u78wHZQHf4Zx9Ykx8D3F" type="referral">
           <date when="1996-04-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-38mJpUtKfq7q6zpLMcTMzX">
+        <correspAction xml:id="i-38mJpUtKfq7q6zpLMcTMzX" type="dismissal">
           <date when="1996-04-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BP1zuLbhMxU3arpWHxSeaG">
+        <correspAction xml:id="i-BP1zuLbhMxU3arpWHxSeaG" type="submission">
           <date when="1996-04-09"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-89CCZbMj2H5HY7Xdwejzq3">
+        <correspAction xml:id="i-89CCZbMj2H5HY7Xdwejzq3" type="referral">
           <date when="1996-04-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-X9JihPiPQbzmYy73axs9Rk">
+        <correspAction xml:id="i-X9JihPiPQbzmYy73axs9Rk" type="dismissal">
           <date when="1996-04-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-P1667q6iEEtEFQYZmqXamg">
+        <correspAction xml:id="i-P1667q6iEEtEFQYZmqXamg" type="submission">
           <date when="1996-04-09"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EeXrVYcpExCDxupaqhYKCx"/>
+        <correspAction xml:id="i-EeXrVYcpExCDxupaqhYKCx" type="assigned"/>
         <correspContext corresp="i-EeXrVYcpExCDxupaqhYKCx">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_SK_0032/mot_199596_SK_0032-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RnFWbVY2y64HHjZH6uVCVL">
-        <div type="motTitle" xml:id="i-Mv9BG36vZgs3tsNsVwbkq2"/>
-        <div type="motSubmissionInfo" xml:id="i-MiTGnuEPyeWVzMidD9EJ5D"/>
+      <div xml:id="i-RnFWbVY2y64HHjZH6uVCVL" type="motHeader">
+        <div xml:id="i-Mv9BG36vZgs3tsNsVwbkq2" type="motTitle"/>
+        <div xml:id="i-MiTGnuEPyeWVzMidD9EJ5D" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QbUNJKE16ENhyZaS2ty9FD">
+      <div xml:id="i-QbUNJKE16ENhyZaS2ty9FD" type="motBody">
         <div xml:id="i-45X32rTCBrgQTzrP1NK2QS">
           <p xml:id="i-8Jfp1Rwo9f28Cec5RTrgv4">
             1995/96 Sk32 Sk30-32
@@ -137,7 +137,10 @@
             för den föreslagna skatten.
           </p>
           <p xml:id="i-9RrRfhv9YuDrL5nmUZxdcD" type="date">
-            Stockholm den 9 april 1996 Karin Pilsäter (fp)
+            Stockholm den 9 april 1996
+          </p>
+          <p type="signatureBlock" id="i-BrvXm89iZURt23M3G7vT4R">
+            Karin Pilsäter (fp)
           </p>
           <p xml:id="i-V2TayBskQdnN3FKytZhsYK">
             Gotab, Stockholm 1996

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-UbU-00607">
   <teiHeader>
     <fileDesc>
@@ -61,35 +61,35 @@
           </person>
           <person gender="man">
             <idno>i-UVAgeLYUkfmr8A9VVChgiV</idno>
-            <name>Kurt Ove Johansson </name>
+            <name>Kurt Ove Johansson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-23owrgiLSgQRynhwKe5Tja</idno>
-            <name>Kjell Nilsson </name>
+            <name>Kjell Nilsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-8xwhJr3GiQ8oGuymkLFyKR</idno>
-            <name>Ingegerd Sahlström </name>
+            <name>Ingegerd Sahlström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-9CvkAU1JKjTkULuqucvebo</idno>
-            <name>Maja Bäckström </name>
+            <name>Maja Bäckström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Uv6Pqx7vHszj8MTNigPahL</idno>
-            <name>Gunnar Nilsson </name>
+            <name>Gunnar Nilsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -110,25 +110,25 @@
           <note type="signatory" corresp="i-9CvkAU1JKjTkULuqucvebo"/>
           <note type="signatory" corresp="i-Uv6Pqx7vHszj8MTNigPahL"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YRADTPF4i89HHwxNwjwEVo">
+        <correspAction xml:id="i-YRADTPF4i89HHwxNwjwEVo" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Jozr5C7CtFUKQhL2ZLGCz2">
+        <correspAction xml:id="i-Jozr5C7CtFUKQhL2ZLGCz2" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9ErteehUtNn6417uDhfN9g">
+        <correspAction xml:id="i-9ErteehUtNn6417uDhfN9g" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-SULA4dnZnZfcJooxNZMddk">
+        <correspAction xml:id="i-SULA4dnZnZfcJooxNZMddk" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FnUCHYNHLnNnSZZX1AgQGG">
+        <correspAction xml:id="i-FnUCHYNHLnNnSZZX1AgQGG" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-N93fEkCMk1WRoTKuhJMkth">
+        <correspAction xml:id="i-N93fEkCMk1WRoTKuhJMkth" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KmLGs9ZyjrhLghwjCzi9u5"/>
+        <correspAction xml:id="i-KmLGs9ZyjrhLghwjCzi9u5" type="assigned"/>
         <correspContext corresp="i-KmLGs9ZyjrhLghwjCzi9u5">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -141,11 +141,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_UbU_607/mot_199293_UbU_607-001.pdf"/>
-      <div type="motHeader" xml:id="i-RmwSNYyeweCVPQT6wdJHqF">
-        <div type="motTitle" xml:id="i-KA24vEMoqN7wV1q6iqybjt"/>
-        <div type="motSubmissionInfo" xml:id="i-9W94LtazKTQydYqNqER5th"/>
+      <div xml:id="i-RmwSNYyeweCVPQT6wdJHqF" type="motHeader">
+        <div xml:id="i-KA24vEMoqN7wV1q6iqybjt" type="motTitle"/>
+        <div xml:id="i-9W94LtazKTQydYqNqER5th" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-T1nEVveDXsKA4pkKP3oRHN">
+      <div xml:id="i-T1nEVveDXsKA4pkKP3oRHN" type="motBody">
         <div xml:id="i-7drFbaqDZ6Yvg9AFnCtJgV">
           <p xml:id="i-NEsPJoSp6Ts5bv6G1Vg2g2">
             Motion till riksdagen 1992/93:Ub607
@@ -263,7 +263,12 @@
           <p xml:id="i-JoW9jH5BWK9JdGZem8QGtK">
             att riksdagen som sin mening ger regeringen till känna vad i
             motio- nen anförts om lokalisering av regiutbildning till Malmö.
-            Stockholm den 18 januari 1993 Kurt Ove Johansson (s)
+          </p>
+          <p type="date" id="i-LzkPUbjmC71r91xhD2KuFo">
+            Stockholm den 18 januari 1993
+          </p>
+          <p type="signatureBlock" id="i-NHrDYCETB4HH47Pv2fV3A6">
+            Kurt Ove Johansson (s)
           </p>
           <p xml:id="i-Ktu7Er5P1iNfiA4ZgbsKvn">
             Maja Bäckström (s) Kjell Nilsson (s)

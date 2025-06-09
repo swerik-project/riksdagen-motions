@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-MJU-00033">
   <teiHeader>
     <fileDesc>
@@ -111,7 +111,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-HAKkY4764dnvDkte9xSPSX"/>
+        <correspAction xml:id="i-HAKkY4764dnvDkte9xSPSX" type="basedOn"/>
         <correspContext corresp="i-HAKkY4764dnvDkte9xSPSX">
           <ref>Proposition 2001/02:137</ref>
         </correspContext>
@@ -130,16 +130,16 @@
           <note type="signatory" corresp="i-Tg5wtdAcfotgy1zwH4f3qs"/>
           <note type="signatory" corresp="i-DKsVYU73WDtSTFEeLoboVx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RaamtAgmkv9sXkAcUxSpyi">
+        <correspAction xml:id="i-RaamtAgmkv9sXkAcUxSpyi" type="referral">
           <date when="2002-04-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Ncqm9XBGtiWvKmeBHa12Lk">
+        <correspAction xml:id="i-Ncqm9XBGtiWvKmeBHa12Lk" type="dismissal">
           <date when="2002-04-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Dc7GCZfM9u1haZm6rYDo99">
+        <correspAction xml:id="i-Dc7GCZfM9u1haZm6rYDo99" type="submission">
           <date when="2002-04-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3cubiEeU811j6yqJQaHdPU"/>
+        <correspAction xml:id="i-3cubiEeU811j6yqJQaHdPU" type="assigned"/>
         <correspContext corresp="i-3cubiEeU811j6yqJQaHdPU">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -154,11 +154,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_MJ_0033/mot_200102_MJ_0033-0001.pdf"/>
-      <div type="motHeader" xml:id="i-T1Q9MNGkYG3HySXqEXcyxX">
-        <div type="motTitle" xml:id="i-Ls9VP7N4YeDsR5pyrz4zqC"/>
-        <div type="motSubmissionInfo" xml:id="i-RzfeLzsgJCVY8wrLunaVRw"/>
+      <div xml:id="i-T1Q9MNGkYG3HySXqEXcyxX" type="motHeader">
+        <div xml:id="i-Ls9VP7N4YeDsR5pyrz4zqC" type="motTitle"/>
+        <div xml:id="i-RzfeLzsgJCVY8wrLunaVRw" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ERLCFH2ohbjDP42j8cdvx2">
+      <div xml:id="i-ERLCFH2ohbjDP42j8cdvx2" type="motBody">
         <div xml:id="i-Wc77qtVvpMSthxfFuCFbXb">
           <p xml:id="i-Cdf8PcvYHKBCYxN6xaDryx">
             2001/02 mnr: MJ33 pnr: m317
@@ -219,9 +219,12 @@
           </p>
           <p xml:id="i-2MfWBpcvAuSA3EfrvPt7jp">
             forskningsresurser ställs till förfogande för att få fram alternativa
-            bekämpningmetoder. Stockholm den 3 april 2002
+            bekämpningmetoder.
           </p>
-          <p xml:id="i-62pm7KbzCUmV11qoj8sUqo">
+          <p type="date" id="i-Epo4CuZ9zi5EvWbyoPSEww">
+            Stockholm den 3 april 2002
+          </p>
+          <p xml:id="i-62pm7KbzCUmV11qoj8sUqo" type="signatureBlock">
             Göte Jonsson (m)
           </p>
           <p xml:id="i-Ruu3wufSUg6qsSnSDvGdUy">

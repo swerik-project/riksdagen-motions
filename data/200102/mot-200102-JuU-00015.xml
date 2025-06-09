@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-JuU-00015">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-LL9rJjtex8oTRY2tch2Qj"/>
+        <correspAction xml:id="i-LL9rJjtex8oTRY2tch2Qj" type="basedOn"/>
         <correspContext corresp="i-LL9rJjtex8oTRY2tch2Qj">
           <ref>Proposition 2001/02:135</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
           <note type="signatory" corresp="i-CwVjNqMneZm6zhJTP798e5"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2Pp7ArYAKfDHC5tbBPCqMF">
+        <correspAction xml:id="i-2Pp7ArYAKfDHC5tbBPCqMF" type="referral">
           <date when="2002-04-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ELsY8X1WGpRBo9ShGmcpwh">
+        <correspAction xml:id="i-ELsY8X1WGpRBo9ShGmcpwh" type="dismissal">
           <date when="2002-04-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9A4rGt6QDAWqqsBEC9t9W9">
+        <correspAction xml:id="i-9A4rGt6QDAWqqsBEC9t9W9" type="submission">
           <date when="2002-04-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PoogN6gr8FPmFkpwB2TXbP"/>
+        <correspAction xml:id="i-PoogN6gr8FPmFkpwB2TXbP" type="assigned"/>
         <correspContext corresp="i-PoogN6gr8FPmFkpwB2TXbP">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -74,11 +74,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Ju_0015/mot_200102_Ju_0015-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2emfBGHfuHfywLGvafEEyo">
-        <div type="motTitle" xml:id="i-R13VhK1FzwffxHnQXey7xw"/>
-        <div type="motSubmissionInfo" xml:id="i-7EH2Dujbyp9H8w9CvRHMFJ"/>
+      <div xml:id="i-2emfBGHfuHfywLGvafEEyo" type="motHeader">
+        <div xml:id="i-R13VhK1FzwffxHnQXey7xw" type="motTitle"/>
+        <div xml:id="i-7EH2Dujbyp9H8w9CvRHMFJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8tad59bLtePV3tQyfztMX6">
+      <div xml:id="i-8tad59bLtePV3tQyfztMX6" type="motBody">
         <div xml:id="i-QJ2c3EARfRxQGhDF4K8V8a">
           <p xml:id="i-VWbnxiHCYu5CxX9do7YHEc">
             10
@@ -223,8 +223,10 @@
             del.
           </p>
           <p xml:id="i-89TfnknUWz1U7NmvFnqywK" type="date">
-            Stockholm den 4 april 2002 Johan Pehrson (fp) Helena Bargholtz
-            (fp)
+            Stockholm den 4 april 2002
+          </p>
+          <p type="signatureBlock" id="i-L8fRMP6Sxy5YNZjE2gXa8N">
+            Johan Pehrson (fp) Helena Bargholtz (fp)
           </p>
           <p xml:id="i-AabEh1aM54A6BBh9ZJRdpz">
             2000/01:c999

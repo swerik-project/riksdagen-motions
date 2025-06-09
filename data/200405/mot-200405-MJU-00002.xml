@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-MJU-00002">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-DvzeeRss8ey991YeqrPEpF"/>
+        <correspAction xml:id="i-DvzeeRss8ey991YeqrPEpF" type="basedOn"/>
         <correspContext corresp="i-DvzeeRss8ey991YeqrPEpF">
           <ref>Proposition 2004/05:9</ref>
         </correspContext>
@@ -82,16 +82,16 @@
           <note type="signatory" corresp="i-9LE4uwYS8LySpZjtTwxjti"/>
           <note type="signatory" corresp="i-Ga4FaAaNvVxH6nfoR7FVAe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-35FEqRnHjExB8nJ5Utekgc">
+        <correspAction xml:id="i-35FEqRnHjExB8nJ5Utekgc" type="referral">
           <date when="2004-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PTbqEtzHtf6qwKUiDJnz43">
+        <correspAction xml:id="i-PTbqEtzHtf6qwKUiDJnz43" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-26vnaqUexgsTGTiog86tmG">
+        <correspAction xml:id="i-26vnaqUexgsTGTiog86tmG" type="submission">
           <date when="2004-10-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UFMg8WdqCqLbokYeuo2coa"/>
+        <correspAction xml:id="i-UFMg8WdqCqLbokYeuo2coa" type="assigned"/>
         <correspContext corresp="i-UFMg8WdqCqLbokYeuo2coa">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -107,11 +107,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_MJ_2/mot_200405_MJ_2-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_MJ_2/mot_200405_MJ_2-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Uo5dpN9tkCWfhzZCdQQbfj">
-        <div type="motTitle" xml:id="i-CrBpUC6iMJr9dBJSSA8h7e"/>
-        <div type="motSubmissionInfo" xml:id="i-GR7WaWaoSCE6C297n72QxU"/>
+      <div xml:id="i-Uo5dpN9tkCWfhzZCdQQbfj" type="motHeader">
+        <div xml:id="i-CrBpUC6iMJr9dBJSSA8h7e" type="motTitle"/>
+        <div xml:id="i-GR7WaWaoSCE6C297n72QxU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-J7qx7w5Nj8zQtjHa1M2cYo">
+      <div xml:id="i-J7qx7w5Nj8zQtjHa1M2cYo" type="motBody">
         <div xml:id="i-26hNYV42gPLmszTu7GyQJa">
           <p xml:id="i-C3614rGbohx4NQSm78uZNr">
             2004/05 mnr: MJ2 pnr: fp8002
@@ -309,7 +309,10 @@
             2004/05:MJ2
           </p>
           <p xml:id="i-SEwd5pBrnvdGBBLYAaGwAJ" type="date">
-            Stockholm den 11 oktober 2004 Anita Brodén (fp)
+            Stockholm den 11 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-3sCaWqEpyPg8bVnKkKLrbi">
+            Anita Brodén (fp)
           </p>
           <p xml:id="i-WvMr428G5E2hwASk1a6xj3">
             Lennart Fremling (fp) Sverker Thorén (fp) Marie Wahlgren (fp)

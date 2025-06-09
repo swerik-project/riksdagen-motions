@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-SkU-00004">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-SxwXtVqzR6fyXB2uQfozAQ</idno>
-            <name>Per Rosengren </name>
+            <name>Per Rosengren</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-WvrkgGMVWbiVxVoPqgJuEF</idno>
-            <name>Johan Lönnroth </name>
+            <name>Johan Lönnroth</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-KoshphacAWMdvHAZ62MAi2</idno>
-            <name>Lars Bäckström </name>
+            <name>Lars Bäckström</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-YU4997fBB74wkTdW3Xjrni"/>
+        <correspAction xml:id="i-YU4997fBB74wkTdW3Xjrni" type="basedOn"/>
         <correspContext corresp="i-YU4997fBB74wkTdW3Xjrni">
           <ref>Proposition 1995/96:19</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-WvrkgGMVWbiVxVoPqgJuEF"/>
           <note type="signatory" corresp="i-KoshphacAWMdvHAZ62MAi2"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-P6RDDew6G1WJHFXjNX7g4V">
+        <correspAction xml:id="i-P6RDDew6G1WJHFXjNX7g4V" type="referral">
           <date when="1995-10-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Sdkkj3etvLcw3Npn8k3Rn2">
+        <correspAction xml:id="i-Sdkkj3etvLcw3Npn8k3Rn2" type="dismissal">
           <date when="1995-10-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VQ7x5KCiNQAQm7Lj9Q625L">
+        <correspAction xml:id="i-VQ7x5KCiNQAQm7Lj9Q625L" type="submission">
           <date when="1995-10-20"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-FmViHi3cgjmNsqEm1Tj6E9">
+        <correspAction xml:id="i-FmViHi3cgjmNsqEm1Tj6E9" type="referral">
           <date when="1995-10-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-E9DcY8Jpb3ApYM79BUEfpS">
+        <correspAction xml:id="i-E9DcY8Jpb3ApYM79BUEfpS" type="dismissal">
           <date when="1995-10-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QeYKteh7T4kmKmsGVGft15">
+        <correspAction xml:id="i-QeYKteh7T4kmKmsGVGft15" type="submission">
           <date when="1995-10-20"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3BsYKMNmHVpUSYV4EdYCjg"/>
+        <correspAction xml:id="i-3BsYKMNmHVpUSYV4EdYCjg" type="assigned"/>
         <correspContext corresp="i-3BsYKMNmHVpUSYV4EdYCjg">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_SK_0004/mot_199596_SK_0004-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JJGqEaErnAjqxs7xvWrsQu">
-        <div type="motTitle" xml:id="i-BsNh4HePq8TrRUC4MuRZJw"/>
-        <div type="motSubmissionInfo" xml:id="i-9yitF7wqzkghffwRmRAMfe"/>
+      <div xml:id="i-JJGqEaErnAjqxs7xvWrsQu" type="motHeader">
+        <div xml:id="i-BsNh4HePq8TrRUC4MuRZJw" type="motTitle"/>
+        <div xml:id="i-9yitF7wqzkghffwRmRAMfe" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BThogL3LJHxcZjFLdz4FUa">
+      <div xml:id="i-BThogL3LJHxcZjFLdz4FUa" type="motBody">
         <div xml:id="i-Hiy2faR1TphofHaELjisAT">
           <p xml:id="i-3YVK7f4k4659SLbyQ4LpTY">
             Sk4
@@ -180,10 +180,12 @@
           <p xml:id="i-Dj1KcHoz9nh3GrXj3xXsUT">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motionen anförts
-            om redovisning och betalning av mervärdesskatt. Stockholm den
-            18 oktober 1995
+            om redovisning och betalning av mervärdesskatt.
           </p>
-          <p xml:id="i-3MRdtTrH1RDfEwgQftD25G">
+          <p type="date" id="i-CcdJ6iFM5xhcJn6i1QHMKc">
+            Stockholm den 18 oktober 1995
+          </p>
+          <p xml:id="i-3MRdtTrH1RDfEwgQftD25G" type="signatureBlock">
             Per Rosengren (v)
           </p>
           <p xml:id="i-FZvTXhkisCw9ismWn9MtAW">

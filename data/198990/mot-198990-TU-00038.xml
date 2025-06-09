@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-TU-00038">
   <teiHeader>
     <fileDesc>
@@ -82,7 +82,7 @@
           </person>
           <person gender="man">
             <idno>i-DMheKZZCYDtLzdvzFzc5vP</idno>
-            <name>Kenth Skårvik </name>
+            <name>Kenth Skårvik</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -96,21 +96,21 @@
           </person>
           <person gender="woman">
             <idno>i-TpZYt1GVcqVji9XRcawvXB</idno>
-            <name>Ingrid Hasselström Nyvall </name>
+            <name>Ingrid Hasselström Nyvall</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-UmGHrbipY4e5SAGvddBkzr</idno>
-            <name>Hugo Bergdahl </name>
+            <name>Hugo Bergdahl</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-LcHg3CseAmhLp3X8gZn1ax</idno>
-            <name>Anders Castberger </name>
+            <name>Anders Castberger</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -118,7 +118,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-2E2nQunJj6G7HK5f1Ai1Tx"/>
+        <correspAction xml:id="i-2E2nQunJj6G7HK5f1Ai1Tx" type="basedOn"/>
         <correspContext corresp="i-2E2nQunJj6G7HK5f1Ai1Tx">
           <ref>Proposition 1989/90:88</ref>
         </correspContext>
@@ -138,16 +138,16 @@
           <note type="signatory" corresp="i-UmGHrbipY4e5SAGvddBkzr"/>
           <note type="signatory" corresp="i-LcHg3CseAmhLp3X8gZn1ax"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-WSqNcg99NTWFLjwTVvKvih">
+        <correspAction xml:id="i-WSqNcg99NTWFLjwTVvKvih" type="submission">
           <date when="1990-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LSQVJXpDakieFYaPTyyCxQ">
+        <correspAction xml:id="i-LSQVJXpDakieFYaPTyyCxQ" type="dismissal">
           <date when="1990-03-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-JMc3Fvyic4GJnETkBHjNEF">
+        <correspAction xml:id="i-JMc3Fvyic4GJnETkBHjNEF" type="referral">
           <date when="1990-03-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LhkiJ675VT7Xo4e8VAe8ph">
+        <correspAction xml:id="i-LhkiJ675VT7Xo4e8VAe8ph" type="assigned">
           <date when="2014-11-23"/>
           <time when="08:47:54"/>
         </correspAction>
@@ -163,11 +163,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_t_38/mot_198990_t_38-001.pdf"/>
-      <div type="motHeader" xml:id="i-BiRPBiAVHzFKcHUhTPBG81">
-        <div type="motTitle" xml:id="i-HBCtD1XJ8mn9tx7EE46vmQ"/>
-        <div type="motSubmissionInfo" xml:id="i-Hyshpd5m72ScUdHCfw5RRJ"/>
+      <div xml:id="i-BiRPBiAVHzFKcHUhTPBG81" type="motHeader">
+        <div xml:id="i-HBCtD1XJ8mn9tx7EE46vmQ" type="motTitle"/>
+        <div xml:id="i-Hyshpd5m72ScUdHCfw5RRJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VDKtcndS9JphsYi8rj6Wcv">
+      <div xml:id="i-VDKtcndS9JphsYi8rj6Wcv" type="motBody">
         <div xml:id="i-HSm2AnredrM66gcT3xS8i4">
           <p xml:id="i-Mcf766t4AwrhcJ4kcb7qUS">
             Motion till riksdagen
@@ -345,7 +345,10 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_t_38/mot_198990_t_38-004.pdf"/>
           <p xml:id="i-UnvdFa9TwYWhjz35nBhTDN" type="date">
-            Stockholm den 26 mars 1990 Kenth Skårvik (fp) Hugo Bergdahl (fp)
+            Stockholm den 26 mars 1990
+          </p>
+          <p type="signatureBlock" id="i-Skuv3xkPZcN5hznivfUeVY">
+            Kenth Skårvik (fp) Hugo Bergdahl (fp)
           </p>
           <p xml:id="i-9dqGysEwdyd1wryYQSop8c">
             Ingrid Hasselström Nyvall (fp)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SkU-00015">
   <teiHeader>
     <fileDesc>
@@ -223,7 +223,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Y55CH5sLXXy9hzWRCn16fX"/>
+        <correspAction xml:id="i-Y55CH5sLXXy9hzWRCn16fX" type="basedOn"/>
         <correspContext corresp="i-Y55CH5sLXXy9hzWRCn16fX">
           <ref>Proposition 2000/01:24</ref>
         </correspContext>
@@ -258,31 +258,31 @@
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
           <note type="signatory" corresp="i-839FvTzHpvrdX4J7ckfWSt"/>
         </correspContext>
-        <correspAction type="proposed_referral" xml:id="i-Skz4eEXhfe3y1mmgVwp7CS">
+        <correspAction xml:id="i-Skz4eEXhfe3y1mmgVwp7CS" type="proposed_referral">
           <date when="2000-11-07"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-FSGqqFXdrGBxj4VNVNkBQ7">
+        <correspAction xml:id="i-FSGqqFXdrGBxj4VNVNkBQ7" type="reviewing">
           <date when="2000-11-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-BfEbZ1CLK8e9YAYKjDhn1j">
+        <correspAction xml:id="i-BfEbZ1CLK8e9YAYKjDhn1j" type="referral">
           <date when="2000-11-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Y8fTq4ubX7NU7qWGsMCCMq">
+        <correspAction xml:id="i-Y8fTq4ubX7NU7qWGsMCCMq" type="dismissal">
           <date when="2000-11-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ABnWyMvdDyf4B7JoV2ombr">
+        <correspAction xml:id="i-ABnWyMvdDyf4B7JoV2ombr" type="submission">
           <date when="2000-11-02"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-SVsRUH7ukHgvq1qAeZy459">
+        <correspAction xml:id="i-SVsRUH7ukHgvq1qAeZy459" type="referral">
           <date when="2000-11-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-J3geL7vNiim9Zgo5uWvyRY">
+        <correspAction xml:id="i-J3geL7vNiim9Zgo5uWvyRY" type="dismissal">
           <date when="2000-11-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QLdkwpK1aBbmy8E17pBKJp">
+        <correspAction xml:id="i-QLdkwpK1aBbmy8E17pBKJp" type="submission">
           <date when="2000-11-02"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Fw6bAhN52mF79SZHgHAYJy"/>
+        <correspAction xml:id="i-Fw6bAhN52mF79SZHgHAYJy" type="assigned"/>
         <correspContext corresp="i-Fw6bAhN52mF79SZHgHAYJy">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -297,11 +297,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Sk_0015/mot_200001_Sk_0015-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CLFNtmdXrqhQnW7k4QyQAF">
-        <div type="motTitle" xml:id="i-JsKNdY1cxNmUGA28Z8ay2H"/>
-        <div type="motSubmissionInfo" xml:id="i-U1CZPyGPwhDcZWyCMQ6aEw"/>
+      <div xml:id="i-CLFNtmdXrqhQnW7k4QyQAF" type="motHeader">
+        <div xml:id="i-JsKNdY1cxNmUGA28Z8ay2H" type="motTitle"/>
+        <div xml:id="i-U1CZPyGPwhDcZWyCMQ6aEw" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-sfH4o7cxHr7fHgacSQkXD">
+      <div xml:id="i-sfH4o7cxHr7fHgacSQkXD" type="motBody">
         <div xml:id="i-CkX2j43PhjJsCARuA4mdhb">
           <p xml:id="i-PNKp2KTY2bSDY95L6w5idn">
             2000/01 mnr: Sk15 pnr: kd108
@@ -474,9 +474,12 @@
             sektor med prisökningar som resultat. Regeringen bör vid en utvärdering
             överväga att förlänga perioden för vilken skattereduktion medges,
             särskilt om det visar sig att alltför få utnyttjat möjligheten
-            till skattereduktion. Stockholm den 2 november 2000
+            till skattereduktion.
           </p>
-          <p xml:id="i-PewbogQzDwYBUdyEAXSDV4">
+          <p type="date" id="i-Mf9gv4EnU3DEiq2ta5eXsR">
+            Stockholm den 2 november 2000
+          </p>
+          <p xml:id="i-PewbogQzDwYBUdyEAXSDV4" type="signatureBlock">
             Helena Höij (kd)
           </p>
           <p xml:id="i-DeoKVBsSzGjzx9Xsa7TUDX">

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KU-00012">
   <teiHeader>
     <fileDesc>
@@ -35,7 +35,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Hxoy1WmnZ3RfSTeHMQKmRG"/>
+        <correspAction xml:id="i-Hxoy1WmnZ3RfSTeHMQKmRG" type="basedOn"/>
         <correspContext corresp="i-Hxoy1WmnZ3RfSTeHMQKmRG">
           <ref>Regeringsskrivelse 2005/06:66</ref>
         </correspContext>
@@ -43,19 +43,19 @@
         <correspContext corresp="i-GF3wBt4NjqrXVeyC4uM5Fm">
           <note type="signatory" corresp="i-KktUCXax2JFL3tqFqQN9oq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9AkacsD17ExR191MWNM6AJ">
+        <correspAction xml:id="i-9AkacsD17ExR191MWNM6AJ" type="referral">
           <date when="2006-02-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Tt2H85P945FiXdzqHrG5Ev">
+        <correspAction xml:id="i-Tt2H85P945FiXdzqHrG5Ev" type="dismissal">
           <date when="2006-02-02"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DtsvULk3WjC7jCd4fTv3gf">
+        <correspAction xml:id="i-DtsvULk3WjC7jCd4fTv3gf" type="dismissal">
           <date when="2006-02-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4drULLN5mtkc55NVLNU3CL">
+        <correspAction xml:id="i-4drULLN5mtkc55NVLNU3CL" type="submission">
           <date when="2006-02-01"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Jfs7bDCbapqJHFGSurik1N"/>
+        <correspAction xml:id="i-Jfs7bDCbapqJHFGSurik1N" type="assigned"/>
         <correspContext corresp="i-Jfs7bDCbapqJHFGSurik1N">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_K_12/mot_200506_K_12-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5m6vxpbj4QyxEyWxYNxMxk">
-        <div type="motTitle" xml:id="i-31iEuuJgJwT8QCMMuFdYEz"/>
-        <div type="motSubmissionInfo" xml:id="i-Gydj8RvPJffvHSY5nD2jRy"/>
+      <div xml:id="i-5m6vxpbj4QyxEyWxYNxMxk" type="motHeader">
+        <div xml:id="i-31iEuuJgJwT8QCMMuFdYEz" type="motTitle"/>
+        <div xml:id="i-Gydj8RvPJffvHSY5nD2jRy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NbqMqBXn5CVsSbL9RPWLQ2">
+      <div xml:id="i-NbqMqBXn5CVsSbL9RPWLQ2" type="motBody">
         <div xml:id="i-VJ9NUtZ6byVu7pX74yMuAV">
           <p xml:id="i-GzASrNWnRwPCi1tBWr1Q51">
             2005/06 mnr: K12 pnr: c817
@@ -300,10 +300,12 @@
             och även Sisuradio. Det finns många fler frågor som vi behöver
             få svar på, och därför anser jag att det behövs en utredning som
             tittar över vad som kommer att ske med de olika nischade programmen
-            och hur det kommer att lösas för funktionshindrade. Stockholm
-            den 1 februari 2006
+            och hur det kommer att lösas för funktionshindrade.
           </p>
-          <p xml:id="i-EYL9GL5nyVCoZoFapnGV2S">
+          <p type="date" id="i-FGHcPGpT6ceVqJsgXPoSzD">
+            Stockholm den 1 februari 2006
+          </p>
+          <p xml:id="i-EYL9GL5nyVCoZoFapnGV2S" type="signatureBlock">
             Birgitta Sellén (c)
           </p>
           <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_K_12/mot_200506_K_12-0005.pdf"/>

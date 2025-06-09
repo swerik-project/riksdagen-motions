@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-KrU-00501">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-84xpErSjuTzEi5hvTA1Jtt</idno>
-            <name>Sten Andersson </name>
+            <name>Sten Andersson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -46,25 +46,25 @@
           <note type="signatory" corresp="i-84xpErSjuTzEi5hvTA1Jtt"/>
           <note type="signatory" corresp="i-84xpErSjuTzEi5hvTA1Jtt"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-M32sZhHtS9JnzbXNwVdUXW">
+        <correspAction xml:id="i-M32sZhHtS9JnzbXNwVdUXW" type="referral">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8qGFzLnUXDHE9nwXgGpAWT">
+        <correspAction xml:id="i-8qGFzLnUXDHE9nwXgGpAWT" type="dismissal">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Pf9r6geBQYq8xSdpZfThXr">
+        <correspAction xml:id="i-Pf9r6geBQYq8xSdpZfThXr" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-P18rE2wGMyZ3UVkM7tQHgh">
+        <correspAction xml:id="i-P18rE2wGMyZ3UVkM7tQHgh" type="referral">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UoBQcNPXVFpFkjFgwzzJBV">
+        <correspAction xml:id="i-UoBQcNPXVFpFkjFgwzzJBV" type="dismissal">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JCJJuYw3hgz1U8uLEmPnEc">
+        <correspAction xml:id="i-JCJJuYw3hgz1U8uLEmPnEc" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4FEtikkyavzoQeJ5j5KBAp"/>
+        <correspAction xml:id="i-4FEtikkyavzoQeJ5j5KBAp" type="assigned"/>
         <correspContext corresp="i-4FEtikkyavzoQeJ5j5KBAp">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_KR_0501/mot_199697_KR_0501-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BrrdRaW1eaTzKDkr7VZeQe">
-        <div type="motTitle" xml:id="i-DGdTAA8omo3AVZSFvxf3UQ"/>
-        <div type="motSubmissionInfo" xml:id="i-CeQ5LxXwBRnzwSd9XUuA4Y"/>
+      <div xml:id="i-BrrdRaW1eaTzKDkr7VZeQe" type="motHeader">
+        <div xml:id="i-DGdTAA8omo3AVZSFvxf3UQ" type="motTitle"/>
+        <div xml:id="i-CeQ5LxXwBRnzwSd9XUuA4Y" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PzRRZFamDUPsg1QMA4R5wj">
+      <div xml:id="i-PzRRZFamDUPsg1QMA4R5wj" type="motBody">
         <div xml:id="i-ShBG3axkskQjHtQQNG9ZQu">
           <p xml:id="i-ER4vTWpkEqc6y7jsnQmUTU">
             Kr501
@@ -189,9 +189,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_KR_0501/mot_199697_KR_0501-0003.pdf"/>
           <p xml:id="i-FTrnH3WeC9fpsBMjghabn">
-            Mot. 3 1996/97Kr501 Stockholm den 19 september 1996
+            Mot. 3 1996/97Kr501
           </p>
-          <p xml:id="i-WjoPKQD5bCBMbsGQQv1cKe">
+          <p type="date" id="i-KHsJmcVKWLYSJDfqsvu4Ns">
+            Stockholm den 19 september 1996
+          </p>
+          <p xml:id="i-WjoPKQD5bCBMbsGQQv1cKe" type="signatureBlock">
             Sten Andersson (m)
           </p>
         </div>

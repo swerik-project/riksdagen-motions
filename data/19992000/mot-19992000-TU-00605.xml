@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-TU-00605">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-2ggBvfkHRn3s8FvFEPLxjs</idno>
-            <name>Agne Hansson </name>
+            <name>Agne Hansson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-85m2VX7KSiTFeJSnapgkxu</idno>
-            <name>Lena Ek </name>
+            <name>Lena Ek</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-2ggBvfkHRn3s8FvFEPLxjs"/>
           <note type="signatory" corresp="i-85m2VX7KSiTFeJSnapgkxu"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LFVnADb7KypMDWRnSYD6XT">
+        <correspAction xml:id="i-LFVnADb7KypMDWRnSYD6XT" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CLXF7AtLkQqZ5qV33yU7X5">
+        <correspAction xml:id="i-CLXF7AtLkQqZ5qV33yU7X5" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TuGzJEGgKp45yHJ2UfjHMW">
+        <correspAction xml:id="i-TuGzJEGgKp45yHJ2UfjHMW" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-K5D1i1qdiGccBKMeE2YV2x">
+        <correspAction xml:id="i-K5D1i1qdiGccBKMeE2YV2x" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BK7KjBRdZzTqaY8yeRA7JK">
+        <correspAction xml:id="i-BK7KjBRdZzTqaY8yeRA7JK" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DPYLQQ2wvBnPpfGL28M45r">
+        <correspAction xml:id="i-DPYLQQ2wvBnPpfGL28M45r" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-N3e3v2Kh5gDBfCcWtFUr6o"/>
+        <correspAction xml:id="i-N3e3v2Kh5gDBfCcWtFUr6o" type="assigned"/>
         <correspContext corresp="i-N3e3v2Kh5gDBfCcWtFUr6o">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_T_0605/mot_199900_T_0605-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NG4iiaeBKYfw1PtKQVgahr">
-        <div type="motTitle" xml:id="i-Q7H8uM89ZqPTYMpT1SAJjd"/>
-        <div type="motSubmissionInfo" xml:id="i-NVXFFoYV3w6GxvstxzyHeX"/>
+      <div xml:id="i-NG4iiaeBKYfw1PtKQVgahr" type="motHeader">
+        <div xml:id="i-Q7H8uM89ZqPTYMpT1SAJjd" type="motTitle"/>
+        <div xml:id="i-NVXFFoYV3w6GxvstxzyHeX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-55swYWABaQi7xKtnGRqFca">
+      <div xml:id="i-55swYWABaQi7xKtnGRqFca" type="motBody">
         <div xml:id="i-3kXGFj1TWKasDhhc9UeFra">
           <p xml:id="i-PSpW8464YXsJcuWYWwfXr8">
             1999/2000 mnr: T605 pnr: c375
@@ -154,9 +154,12 @@
             Mot. 1999/2000
           </p>
           <p xml:id="i-TmrLMKyBSks1D2hL9b7nQW">
-            T605 Stockholm den 29 september 1999
+            T605
           </p>
-          <p xml:id="i-VGHPHsDjMLSwKQWxUs8WRG">
+          <p type="date" id="i-EcbPaypzvffS3NpbiYF5S6">
+            Stockholm den 29 september 1999
+          </p>
+          <p xml:id="i-VGHPHsDjMLSwKQWxUs8WRG" type="signatureBlock">
             Agne Hansson (c) Lena Ek (c)
           </p>
         </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-FöU-00025">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-4pjbLoqwBHsG4R6Wc79NfM</idno>
-            <name>Arne Kjörnsberg </name>
+            <name>Arne Kjörnsberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-C3fSSzQDuoh3kKasHW4AKa</idno>
-            <name>Sonja Fransson </name>
+            <name>Sonja Fransson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-QMDwkhc4AcuaCPrQxkeYYk</idno>
-            <name>Berndt Ekholm </name>
+            <name>Berndt Ekholm</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-QvAHWY6wV8PLUZm6uUjosm"/>
+        <correspAction xml:id="i-QvAHWY6wV8PLUZm6uUjosm" type="basedOn"/>
         <correspContext corresp="i-QvAHWY6wV8PLUZm6uUjosm">
           <ref>Proposition 1996/97:4</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-C3fSSzQDuoh3kKasHW4AKa"/>
           <note type="signatory" corresp="i-QMDwkhc4AcuaCPrQxkeYYk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-W2EfR2FCiCpA3nMAJZaVNy">
+        <correspAction xml:id="i-W2EfR2FCiCpA3nMAJZaVNy" type="referral">
           <date when="1996-10-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2D6tksg6Y9aMsA8EyH3ycr">
+        <correspAction xml:id="i-2D6tksg6Y9aMsA8EyH3ycr" type="dismissal">
           <date when="1996-10-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-U7hLcGREtLky7x4raZHzYP">
+        <correspAction xml:id="i-U7hLcGREtLky7x4raZHzYP" type="submission">
           <date when="1996-10-04"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-5ynFcgaSAPt2cWgQL7uTix">
+        <correspAction xml:id="i-5ynFcgaSAPt2cWgQL7uTix" type="referral">
           <date when="1996-10-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Tv8y2vsqY4k5DRV9b1Aara">
+        <correspAction xml:id="i-Tv8y2vsqY4k5DRV9b1Aara" type="dismissal">
           <date when="1996-10-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4RLifqbE9UJMu71MmMPH2K">
+        <correspAction xml:id="i-4RLifqbE9UJMu71MmMPH2K" type="submission">
           <date when="1996-10-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LsBNcBwtq84S2FCNZArniz"/>
+        <correspAction xml:id="i-LsBNcBwtq84S2FCNZArniz" type="assigned"/>
         <correspContext corresp="i-LsBNcBwtq84S2FCNZArniz">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_FÖ_0025/mot_199697_FÖ_0025-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DNjypZ4nc9gRwfePjRkCMr">
-        <div type="motTitle" xml:id="i-TDSwPb1Dt96X2vEgZNnSMT"/>
-        <div type="motSubmissionInfo" xml:id="i-93X2qWAvcftWqy8n9tC1r4"/>
+      <div xml:id="i-DNjypZ4nc9gRwfePjRkCMr" type="motHeader">
+        <div xml:id="i-TDSwPb1Dt96X2vEgZNnSMT" type="motTitle"/>
+        <div xml:id="i-93X2qWAvcftWqy8n9tC1r4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YGEcRqiaSchSDdMC3m6ruf">
+      <div xml:id="i-YGEcRqiaSchSDdMC3m6ruf" type="motBody">
         <div xml:id="i-5bhetZUDhPcCkp5tF72sVr">
           <p xml:id="i-AUvUkJUknh3gmUyGSaXkBr">
             1996/97 Fö25 Fö24—29
@@ -294,8 +294,13 @@
           <p xml:id="i-5sFECJNMfTfNcSfBtWrdNv">
             Med hänvisning till det anförda hemställs att riksdagen beslutar
             att Älvsborgsbrigaden i Borås behålls och bildar en garnison under
-            chefen MKV ingående i Södra militärområdet. Stockholm den 4 oktober
-            1996 Arne Kjörnsberg (s)
+            chefen MKV ingående i Södra militärområdet.
+          </p>
+          <p type="date" id="i-9ftTnSHReZcthkyskPX3DU">
+            Stockholm den 4 oktober 1996
+          </p>
+          <p type="signatureBlock" id="i-5AKCQevj1KPbTNmoFqCQzw">
+            Arne Kjörnsberg (s)
           </p>
           <p xml:id="i-25cN5NWKe1kbceH2AJUtuT">
             Sonja Fransson (s) Berndt Ekholm (s)

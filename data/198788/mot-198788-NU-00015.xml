@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-NU-00015">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VgQpAbZtNufLdGFuMds6vo"/>
+        <correspAction xml:id="i-VgQpAbZtNufLdGFuMds6vo" type="basedOn"/>
         <correspContext corresp="i-VgQpAbZtNufLdGFuMds6vo">
           <ref>Proposition 1987/88:64</ref>
         </correspContext>
@@ -66,16 +66,16 @@
           <note type="signatory" corresp="i-XkBLzyhNam87rntGgPVaog"/>
           <note type="signatory" corresp="i-QXf2YRbFUcZE7jDnU6Y7tU"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-BaVMfEnySisN3EBjoDM9v6">
+        <correspAction xml:id="i-BaVMfEnySisN3EBjoDM9v6" type="submission">
           <date when="1987-12-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7D32KaNgJ7wXK2kxA7bbYS">
+        <correspAction xml:id="i-7D32KaNgJ7wXK2kxA7bbYS" type="dismissal">
           <date when="1987-12-17"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-HXynyhDvuKChh2BJxrJbY">
+        <correspAction xml:id="i-HXynyhDvuKChh2BJxrJbY" type="referral">
           <date when="1988-01-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PGAwCu8RtF5AtKAwYuFvGv">
+        <correspAction xml:id="i-PGAwCu8RtF5AtKAwYuFvGv" type="assigned">
           <date when="2014-11-24"/>
           <time when="01:09:33"/>
         </correspAction>
@@ -91,11 +91,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_n_15/mot_198788_n_15-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-59zcY4MW9oqcHgXoKEoGbC">
-        <div type="motTitle" xml:id="i-9DjcKF4F6KPMdLmY8eufbS"/>
-        <div type="motSubmissionInfo" xml:id="i-HKSdSqzV6LB9nP66t6LkkU"/>
+      <div xml:id="i-59zcY4MW9oqcHgXoKEoGbC" type="motHeader">
+        <div xml:id="i-9DjcKF4F6KPMdLmY8eufbS" type="motTitle"/>
+        <div xml:id="i-HKSdSqzV6LB9nP66t6LkkU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KvwEhfAka358LtppnmiYAt">
+      <div xml:id="i-KvwEhfAka358LtppnmiYAt" type="motBody">
         <div xml:id="i-TADsjQJcwwhTX9QzvCxyR7">
           <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_n_15/mot_198788_n_15-001.pdf"/>
           <p xml:id="i-EatJB9Ay6zGHhYJ3r22FSm">
@@ -311,9 +311,9 @@
             Basmetall Mot. 1987/88 1988 1989 1990 1991 N15 1,4(I+0) — 0,6(U)
             0,6(U+0) — 0,6(0) 0,3 (1) 0,3 (U) 0,6(U+0) —0,4(0) 0,6 (I+U) 0,5(I+U)
             — 0,6(U+0) = 0,5(0) 0,3 (U) 0,3(0) 0,3(0) 0,3(U) 0,2(0) 0,4 (I+U+0)
-            0,3(U+0) ,2(1) 0,4(?) 0,2 (1) 0,21) 0,6 (I+U) 3,0 &amp;7 20 2,4 |
-            Legeringsmetall 1988 1989 1990 1991 0,5 (1) 0,4 (1) 0,5(U+0) =
-            0,4(0) 0,3(I+U) = 0,6(I+U+0) 0,5 (U+0) —0,4(0) 0,8(U+0) — 0,8(0)
+            0,3(U+0) ,2(1) 0,4(?) 0,2 (1) 0,21) 0,6 (I+U) 3,0 &amp;7 20 2,4
+            | Legeringsmetall 1988 1989 1990 1991 0,5 (1) 0,4 (1) 0,5(U+0)
+            = 0,4(0) 0,3(I+U) = 0,6(I+U+0) 0,5 (U+0) —0,4(0) 0,8(U+0) — 0,8(0)
             0,3 (U) 0,4 (U+0) 0,2(1) 0,4 (I+U) 1,1 1,4 2,0 2,0 Ädelmetall
             1988 1989 1990 1991 1,8(U+0) 1,3(U+0) 0,6(U+0) 0,4(0) 1,1(I+0)
             — 0,8(I+U+0) 0,8(U+0) 0,8(U+0) 0,6 (U) 0,4 (U 0,3(0) | 0,5(0)
@@ -333,7 +333,10 @@
             i Håksberg säkerställs.
           </p>
           <p xml:id="i-TJg4gFZnHS47kHQBB7miHK" type="date">
-            Stockholm den 9 december 1987 Bengt-Ola Ryttar (s)
+            Stockholm den 9 december 1987
+          </p>
+          <p type="signatureBlock" id="i-NUPkRm7uhK8CTrBZ4Fmmay">
+            Bengt-Ola Ryttar (s)
           </p>
           <p xml:id="i-BrU7Go2TyjEdnd9db322Mi">
             Bo Södersten (s) Ove Karlsson (s) Krister Andersson (s)

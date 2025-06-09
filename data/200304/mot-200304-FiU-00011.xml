@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00011">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Mz8pgN6g68HaN493Bjrn6f"/>
+        <correspAction xml:id="i-Mz8pgN6g68HaN493Bjrn6f" type="basedOn"/>
         <correspContext corresp="i-Mz8pgN6g68HaN493Bjrn6f">
           <ref>Proposition 2002/03:151</ref>
         </correspContext>
@@ -90,16 +90,16 @@
           <note type="signatory" corresp="i-LHnM4Er87J2DaH7xRg62zz"/>
           <note type="signatory" corresp="i-J74sVAjCTSxzD8rbnxRRA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HsvyD4ZFc1gMCeuaxoGXAq">
+        <correspAction xml:id="i-HsvyD4ZFc1gMCeuaxoGXAq" type="referral">
           <date when="2003-10-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HYeduRLAvy9dhTCoNamfUA">
+        <correspAction xml:id="i-HYeduRLAvy9dhTCoNamfUA" type="dismissal">
           <date when="2003-10-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BcEK62V32yVC2qozmutC58">
+        <correspAction xml:id="i-BcEK62V32yVC2qozmutC58" type="submission">
           <date when="2003-10-01"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DqF47MEFFBfY5qsjLCMTQr"/>
+        <correspAction xml:id="i-DqF47MEFFBfY5qsjLCMTQr" type="assigned"/>
         <correspContext corresp="i-DqF47MEFFBfY5qsjLCMTQr">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -114,11 +114,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fi_0011/mot_200304_Fi_0011-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JZj3sZMDLaefMkXtUD8MGU">
-        <div type="motTitle" xml:id="i-RamwLA8GJYH81j1K16rWxC"/>
-        <div type="motSubmissionInfo" xml:id="i-LGwT1WaZvoTgVmuuojG9XC"/>
+      <div xml:id="i-JZj3sZMDLaefMkXtUD8MGU" type="motHeader">
+        <div xml:id="i-RamwLA8GJYH81j1K16rWxC" type="motTitle"/>
+        <div xml:id="i-LGwT1WaZvoTgVmuuojG9XC" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NM8Vv3GhSmbEpPFYZ1iTS3">
+      <div xml:id="i-NM8Vv3GhSmbEpPFYZ1iTS3" type="motBody">
         <div xml:id="i-4aCJmMwUr6Koij5CSAQnLo">
           <p xml:id="i-UfnnBfMbG8RsCfGawBCGBM">
             2003/04 mnr: Fill pnr: c115
@@ -232,9 +232,12 @@
           </p>
           <p xml:id="i-7YGG3sBjZUk6piU9tCfrwN">
             personalkostnadsindex bör därmed ses över. Detta bör ges regeringen
-            till känna. Stockholm den 29 september 2003
+            till känna.
           </p>
-          <p xml:id="i-3k59UeTS3yKiPZ6vCoGTci">
+          <p type="date" id="i-4gZgf1iqAbzpuTwcKmW8uS">
+            Stockholm den 29 september 2003
+          </p>
+          <p xml:id="i-3k59UeTS3yKiPZ6vCoGTci" type="signatureBlock">
             Lena Ek (c) Sven Bergström (c) Jörgen Johansson (c) Anders Larsson
             (c) Rigmor Stenmark (c) Roger Tiefensee (c) Åsa Torstensson (c)
           </p>

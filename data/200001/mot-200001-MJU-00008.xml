@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-MJU-00008">
   <teiHeader>
     <fileDesc>
@@ -181,7 +181,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5z6QK6uq6jV6DE597DAQVu"/>
+        <correspAction xml:id="i-5z6QK6uq6jV6DE597DAQVu" type="basedOn"/>
         <correspContext corresp="i-5z6QK6uq6jV6DE597DAQVu">
           <ref>Proposition 2000/01:47</ref>
         </correspContext>
@@ -210,31 +210,31 @@
           <note type="signatory" corresp="i-5QUSwQFaazTZF6GHyxaAkw"/>
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CbibFF1cCJzM3spy4RoAkY">
+        <correspAction xml:id="i-CbibFF1cCJzM3spy4RoAkY" type="referral">
           <date when="2001-01-24"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-Wj6jieJRLSxcwKupZj9e9V">
+        <correspAction xml:id="i-Wj6jieJRLSxcwKupZj9e9V" type="proposed_referral">
           <date when="2001-01-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Md9iMTxHXGBTaW4tSVAm57">
+        <correspAction xml:id="i-Md9iMTxHXGBTaW4tSVAm57" type="dismissal">
           <date when="2001-01-23"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-AAiwVrxySGNMKFUXq6gqgD">
+        <correspAction xml:id="i-AAiwVrxySGNMKFUXq6gqgD" type="reviewing">
           <date when="2001-01-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4ohpem6iytYMYB2noCGFMq">
+        <correspAction xml:id="i-4ohpem6iytYMYB2noCGFMq" type="submission">
           <date when="2001-01-19"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GyvaFWVutPLAEeHWYaPTjd">
+        <correspAction xml:id="i-GyvaFWVutPLAEeHWYaPTjd" type="referral">
           <date when="2001-01-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2narh6CuEv9sJ1CPMwJZGi">
+        <correspAction xml:id="i-2narh6CuEv9sJ1CPMwJZGi" type="dismissal">
           <date when="2001-01-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VDKDvF8yuzbuXePotpjuGM">
+        <correspAction xml:id="i-VDKDvF8yuzbuXePotpjuGM" type="submission">
           <date when="2001-01-19"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HVQGz4rU7sr3gzsE6WnVrm"/>
+        <correspAction xml:id="i-HVQGz4rU7sr3gzsE6WnVrm" type="assigned"/>
         <correspContext corresp="i-HVQGz4rU7sr3gzsE6WnVrm">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -249,11 +249,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_MJ_0008/mot_200001_MJ_0008-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2LPiYkk2X3Wcqyezhkhpm5">
-        <div type="motTitle" xml:id="i-Ly3NuDmNag6f6GXHa9cuUm"/>
-        <div type="motSubmissionInfo" xml:id="i-2o2vLW6byX2WWsj1RehtjX"/>
+      <div xml:id="i-2LPiYkk2X3Wcqyezhkhpm5" type="motHeader">
+        <div xml:id="i-Ly3NuDmNag6f6GXHa9cuUm" type="motTitle"/>
+        <div xml:id="i-2o2vLW6byX2WWsj1RehtjX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-29wPK9Qn3ByshQzEmuyTWB">
+      <div xml:id="i-29wPK9Qn3ByshQzEmuyTWB" type="motBody">
         <div xml:id="i-oVwKznWRvR1F6x8JyLLWs">
           <p xml:id="i-QwzLUafXUrKc9y3Hsfs7jz">
             10
@@ -445,7 +445,10 @@
             enligt ovanstående modell.
           </p>
           <p xml:id="i-41r2PKDd6ecMnHcjDdkDVn" type="date">
-            Stockholm den 18 januari 2001 Lars Gustafsson (kd)
+            Stockholm den 18 januari 2001
+          </p>
+          <p type="signatureBlock" id="i-UoF3FRWSTeTFnqtud9BST8">
+            Lars Gustafsson (kd)
           </p>
           <p xml:id="i-URb6NLvqQLYKeNWPm6mmPu">
             Ulf Björklund (kd) Caroline Hagström (kd) Ester Lindstedt-Staaf

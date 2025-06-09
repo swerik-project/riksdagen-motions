@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-FöU-00008">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-LmkkKmc2XQLDmqAXoGoovP</idno>
-            <name>Berit Jóhannesson </name>
+            <name>Berit Jóhannesson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-2HbsWxBqCxHmprzk5h3P6u"/>
+        <correspAction xml:id="i-2HbsWxBqCxHmprzk5h3P6u" type="basedOn"/>
         <correspContext corresp="i-2HbsWxBqCxHmprzk5h3P6u">
           <ref>Proposition 1998/99:74</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-LmkkKmc2XQLDmqAXoGoovP"/>
           <note type="signatory" corresp="i-LmkkKmc2XQLDmqAXoGoovP"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8WXBC4FdJmrtMLnnqoCfpn">
+        <correspAction xml:id="i-8WXBC4FdJmrtMLnnqoCfpn" type="referral">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BZHjRv3MvarA24JeqtDsb5">
+        <correspAction xml:id="i-BZHjRv3MvarA24JeqtDsb5" type="dismissal">
           <date when="1999-03-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2iuxKPFBeff6LUSHbYT2bw">
+        <correspAction xml:id="i-2iuxKPFBeff6LUSHbYT2bw" type="submission">
           <date when="1999-03-24"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-5pUq7yaGwCMcdrbWrp8EBH">
+        <correspAction xml:id="i-5pUq7yaGwCMcdrbWrp8EBH" type="referral">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-B3biZPhBnAxwvo2d4uo3y">
+        <correspAction xml:id="i-B3biZPhBnAxwvo2d4uo3y" type="dismissal">
           <date when="1999-03-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TJS9yeCBkE75oPpT34bAKi">
+        <correspAction xml:id="i-TJS9yeCBkE75oPpT34bAKi" type="submission">
           <date when="1999-03-24"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AkrNFZmZV4RWE94wbUEoVB"/>
+        <correspAction xml:id="i-AkrNFZmZV4RWE94wbUEoVB" type="assigned"/>
         <correspContext corresp="i-AkrNFZmZV4RWE94wbUEoVB">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Fö_0008/mot_199899_Fö_0008-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UoDCvSQxVG3G3FuX2jKMiW">
-        <div type="motTitle" xml:id="i-ETnF9xPy2mStd9Lmrtziai"/>
-        <div type="motSubmissionInfo" xml:id="i-CaaAKn2aCRN8DYwr2f4aAV"/>
+      <div xml:id="i-UoDCvSQxVG3G3FuX2jKMiW" type="motHeader">
+        <div xml:id="i-ETnF9xPy2mStd9Lmrtziai" type="motTitle"/>
+        <div xml:id="i-CaaAKn2aCRN8DYwr2f4aAV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9EG5smsGP6p14T2bQ3LHzs">
+      <div xml:id="i-9EG5smsGP6p14T2bQ3LHzs" type="motBody">
         <div xml:id="i-GJmtW3MLBUBYYPJCPhAjgk">
           <p xml:id="i-WBkTQcsDRvHzyqgf3mkGs8">
             1998/99 Fö8 Fö8
@@ -506,8 +506,10 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Fö_0008/mot_199899_Fö_0008-0008.pdf"/>
           <p xml:id="i-VckAJpEyc1E294yDFvZMgn" type="date">
-            Stockholm den 23 mars 1999 Berit Johannesson (v) Stig Sandström
-            (v) Maggi Mikaelsson (v)
+            Stockholm den 23 mars 1999
+          </p>
+          <p type="signatureBlock" id="i-SaHzPMjkvkJE2jyy2tYNnM">
+            Berit Johannesson (v) Stig Sandström (v) Maggi Mikaelsson (v)
           </p>
           <p xml:id="i-72LoWfuNDDxgfb24mP4Lkn">
             Willy Söderdahl (v)

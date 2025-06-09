@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-JuU-00303">
   <teiHeader>
     <fileDesc>
@@ -61,35 +61,35 @@
           </person>
           <person gender="man">
             <idno>i-DZnrxW2kSEVtagNyHZpyyH</idno>
-            <name>Bengt Silfverstrand </name>
+            <name>Bengt Silfverstrand</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-PmmWDhSQEkzH2tiLALeDpf</idno>
-            <name>Jan Andersson </name>
+            <name>Jan Andersson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-KJyvTwrgDxi4yMYySF1bec</idno>
-            <name>Birthe Sörestedt </name>
+            <name>Birthe Sörestedt</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-yBn9sks2oSd1vBumfgwNQ</idno>
-            <name>Bo Nilsson </name>
+            <name>Bo Nilsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-9CvkAU1JKjTkULuqucvebo</idno>
-            <name>Maja Bäckström </name>
+            <name>Maja Bäckström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -110,25 +110,25 @@
           <note type="signatory" corresp="i-yBn9sks2oSd1vBumfgwNQ"/>
           <note type="signatory" corresp="i-9CvkAU1JKjTkULuqucvebo"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2bxXjGZFRbyTXpCN49QH9x">
+        <correspAction xml:id="i-2bxXjGZFRbyTXpCN49QH9x" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FeBfuJFLP83dufJZ62Bu6P">
+        <correspAction xml:id="i-FeBfuJFLP83dufJZ62Bu6P" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-A3GNp2wm1B4UYwzRRBhvQY">
+        <correspAction xml:id="i-A3GNp2wm1B4UYwzRRBhvQY" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-945eB94VBXfUzkmd3zKKUU">
+        <correspAction xml:id="i-945eB94VBXfUzkmd3zKKUU" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DW1vNBmmEJXtLemCJ4SZB5">
+        <correspAction xml:id="i-DW1vNBmmEJXtLemCJ4SZB5" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GUUabs4tVc3fTWhGHB9Xfz">
+        <correspAction xml:id="i-GUUabs4tVc3fTWhGHB9Xfz" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Si9iKtbBqWSc7EfekYScvW"/>
+        <correspAction xml:id="i-Si9iKtbBqWSc7EfekYScvW" type="assigned"/>
         <correspContext corresp="i-Si9iKtbBqWSc7EfekYScvW">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -141,11 +141,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_JuU_303/mot_199293_JuU_303-001.pdf"/>
-      <div type="motHeader" xml:id="i-AH7LiFsuYu38nb7KqMWub6">
-        <div type="motTitle" xml:id="i-4mPcAyNS7pNUWb2mnce4wk"/>
-        <div type="motSubmissionInfo" xml:id="i-XT9ULcUpqSAnQdDbEeQXe3"/>
+      <div xml:id="i-AH7LiFsuYu38nb7KqMWub6" type="motHeader">
+        <div xml:id="i-4mPcAyNS7pNUWb2mnce4wk" type="motTitle"/>
+        <div xml:id="i-XT9ULcUpqSAnQdDbEeQXe3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BKSJN22bWWcRURGgJEKyhL">
+      <div xml:id="i-BKSJN22bWWcRURGgJEKyhL" type="motBody">
         <div xml:id="i-GKsnhhWRycYZqxTEYh59UH">
           <p xml:id="i-TQXWsYGNFapvFshzkM2fg4">
             Motion till riksdagen
@@ -274,7 +274,12 @@
           <p xml:id="i-V7uAVuqQTvDoeY8FHYuaN3">
             Med hänvisning till det anförda hemställs att riksdagen som sin
             mening ger regeringen till känna vad i motio- nen anförts om skärpta
-            åtgärder mot miljöbrottslighet. Stockholm den 26 januari 1993
+            åtgärder mot miljöbrottslighet.
+          </p>
+          <p type="date" id="i-8fjkbvpNa3R5JDA72oJyft">
+            Stockholm den 26 januari 1993
+          </p>
+          <p type="signatureBlock" id="i-5yUxBiWa4r3so5cGgTnYCy">
             Bengt Silfverstrand (s) Jan Andersson (s) Bo Nilsson (s)
           </p>
           <p xml:id="i-WAbzJeN1UATdPboPUbanti">

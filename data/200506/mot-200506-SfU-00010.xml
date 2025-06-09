@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00010">
   <teiHeader>
     <fileDesc>
@@ -98,7 +98,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FDsGSBhmaoj1rKjpyvR6xm"/>
+        <correspAction xml:id="i-FDsGSBhmaoj1rKjpyvR6xm" type="basedOn"/>
         <correspContext corresp="i-FDsGSBhmaoj1rKjpyvR6xm">
           <ref>Proposition 2005/06:46</ref>
         </correspContext>
@@ -115,19 +115,19 @@
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SZGytXUirMpcrJJBL7kyuL">
+        <correspAction xml:id="i-SZGytXUirMpcrJJBL7kyuL" type="referral">
           <date when="2005-11-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-R8YwwwazNS7qcaZAS3RciV">
+        <correspAction xml:id="i-R8YwwwazNS7qcaZAS3RciV" type="dismissal">
           <date when="2005-11-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RaXZYKjvxfcKdFw75Gdr9k">
+        <correspAction xml:id="i-RaXZYKjvxfcKdFw75Gdr9k" type="dismissal">
           <date when="2005-11-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JrFB4cXV1QyGxwULrK2nzW">
+        <correspAction xml:id="i-JrFB4cXV1QyGxwULrK2nzW" type="submission">
           <date when="2005-11-22"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WDhpGdwuyERMHCkc2yXw7P"/>
+        <correspAction xml:id="i-WDhpGdwuyERMHCkc2yXw7P" type="assigned"/>
         <correspContext corresp="i-WDhpGdwuyERMHCkc2yXw7P">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -142,11 +142,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_10/mot_200506_Sf_10-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TpWjZ75L5uCo48Z8PTcXtg">
-        <div type="motTitle" xml:id="i-UQ6aVh8jMY3sLVAKa4gqSK"/>
-        <div type="motSubmissionInfo" xml:id="i-V33TjC7SnYjaVGdsZhLHFq"/>
+      <div xml:id="i-TpWjZ75L5uCo48Z8PTcXtg" type="motHeader">
+        <div xml:id="i-UQ6aVh8jMY3sLVAKa4gqSK" type="motTitle"/>
+        <div xml:id="i-V33TjC7SnYjaVGdsZhLHFq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NoiczDTsUPR5KhEhcxhEdK">
+      <div xml:id="i-NoiczDTsUPR5KhEhcxhEdK" type="motBody">
         <div xml:id="i-FBEK2tPW9MwjGQ2rN4MtXg">
           <p xml:id="i-NWE81KNXSuuE12M5gLRC9J">
             2005/06 mnr: Sf10 pnr: kd122
@@ -284,10 +284,12 @@
             på tiden. Kristdemokraterna har i sitt budgetalternativ förstärkt
             Migrationsverkets anslag för att målet om tre månaders handläggningstid
             skall kunna uppnås. Den socialdemokratiska regeringen, tillsammans
-            med stödpartierna, avslog dock denna förstärkning. Stockholm den
-            22 november 2005
+            med stödpartierna, avslog dock denna förstärkning.
           </p>
-          <p xml:id="i-CP1m892ZvCJZ4QGnZEK9SP">
+          <p type="date" id="i-PRcT3TRAEPHfUN2pSujiyt">
+            Stockholm den 22 november 2005
+          </p>
+          <p xml:id="i-CP1m892ZvCJZ4QGnZEK9SP" type="signatureBlock">
             Sven Brus (kd) Inger Davidson (kd) Chatrine Pålsson (kd) Ulrik
             Lindgren (kd) Rosita Runegrund (kd) Kenneth Lantz (kd) Torsten
             Lindström (kd) Gunilla Tjernberg (kd) Dan Kihlström (kd) Olle

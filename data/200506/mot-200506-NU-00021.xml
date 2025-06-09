@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-NU-00021">
   <teiHeader>
     <fileDesc>
@@ -84,7 +84,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-9cDkKZwaFe2Ham4LwiZHAG"/>
+        <correspAction xml:id="i-9cDkKZwaFe2Ham4LwiZHAG" type="basedOn"/>
         <correspContext corresp="i-9cDkKZwaFe2Ham4LwiZHAG">
           <ref>Proposition 2005/06:127</ref>
         </correspContext>
@@ -99,19 +99,19 @@
           <note type="signatory" corresp="i-ErVmo7eYu7oehJQsJSwD6t"/>
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VXxamrecwjWN8AMpuvKgdY">
+        <correspAction xml:id="i-VXxamrecwjWN8AMpuvKgdY" type="referral">
           <date when="2006-04-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9gcknLuBvkKT3oBAqfg6rY">
+        <correspAction xml:id="i-9gcknLuBvkKT3oBAqfg6rY" type="dismissal">
           <date when="2006-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RH7DgJrEVJQjqXSHrT7DjC">
+        <correspAction xml:id="i-RH7DgJrEVJQjqXSHrT7DjC" type="dismissal">
           <date when="2006-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-J6Xy4ruWAKFCGouknMaQid">
+        <correspAction xml:id="i-J6Xy4ruWAKFCGouknMaQid" type="submission">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-B6whjfDDj6ze9WPhcvRn4"/>
+        <correspAction xml:id="i-B6whjfDDj6ze9WPhcvRn4" type="assigned"/>
         <correspContext corresp="i-B6whjfDDj6ze9WPhcvRn4">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -126,11 +126,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_N_21/mot_200506_N_21-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DPXHiCi61bvJqVKdGza1NK">
-        <div type="motTitle" xml:id="i-X11QdasJ1h3ofXPR19zT31"/>
-        <div type="motSubmissionInfo" xml:id="i-8Bjw55fDqTKyFFfow4iFAz"/>
+      <div xml:id="i-DPXHiCi61bvJqVKdGza1NK" type="motHeader">
+        <div xml:id="i-X11QdasJ1h3ofXPR19zT31" type="motTitle"/>
+        <div xml:id="i-8Bjw55fDqTKyFFfow4iFAz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BUFaruLsb1HUCJRS5Ze2gy">
+      <div xml:id="i-BUFaruLsb1HUCJRS5Ze2gy" type="motBody">
         <div xml:id="i-4kodwPc7ccWevryAaZsTJN">
           <p xml:id="i-BhqNWxaQbX74xgMPGcnMe3">
             2005/06 mnr: N21 pnr: kd166
@@ -148,8 +148,8 @@
             Förslag till riksdagsbeslut
           </p>
           <p xml:id="i-QirnWzxtTMxGs2YCAtcS4T">
-            1. Riksdagen «avslår regeringens förslag om &lt;att inrätta = ett
-            energiutvecklingsråd i enlighet med vad som anförs i motionen.
+            1. Riksdagen «avslår regeringens förslag om &lt;att inrätta =
+            ett energiutvecklingsråd i enlighet med vad som anförs i motionen.
             2. Riksdagen avslår regeringens förslag till fördelning av forskningsresurser
             inom energiområdet och begär att regeringen återkommer till riksdagen
             med förslag i enlighet med vad i motionen anförs.
@@ -173,11 +173,12 @@
             regeringens förslag struktureras inom sex temaområden under ledning
             av Energimyndigheten. Myndigheten skall uppenbarligen utforma
             vision och mål för vart och ett av dessa som man exempelvis redan
-            gjort inom &lt;temaområdet Byggnaden som &lt; energisystem och på vägtrafikområdet.
-            På det senare området har regeringen inrättat en kommission mot
-            oljeberoende för att bistå regeringen i arbetet med att peka ut
-            vägar för att uppfylla det i regeringsförklaringen 2005 uppsatta
-            målet att till år 2020 bryta Sveriges beroende av fossila bränslen.
+            gjort inom &lt;temaområdet Byggnaden som &lt; energisystem och
+            på vägtrafikområdet. På det senare området har regeringen inrättat
+            en kommission mot oljeberoende för att bistå regeringen i arbetet
+            med att peka ut vägar för att uppfylla det i regeringsförklaringen
+            2005 uppsatta målet att till år 2020 bryta Sveriges beroende av
+            fossila bränslen.
           </p>
           <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_N_21/mot_200506_N_21-0002.pdf"/>
           <p xml:id="i-TzWisVj9VdgfksnkPhyDKq">
@@ -246,7 +247,10 @@
             på energiområdet.
           </p>
           <p xml:id="i-R4H4321HmvswB9gcNLrnBg" type="date">
-            Stockholm den 6 april 2006 Mikael Oscarsson (kd)
+            Stockholm den 6 april 2006
+          </p>
+          <p type="signatureBlock" id="i-NbAWwXqK7pfRfCYUxmwyUg">
+            Mikael Oscarsson (kd)
           </p>
           <p xml:id="i-RAisrHadc9AktcqQ4L7cP3">
             Mats Odell (kd) Lars Lindén (kd) Stefan Attefall (kd) Maria Larsson

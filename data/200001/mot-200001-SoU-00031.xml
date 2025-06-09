@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SoU-00031">
   <teiHeader>
     <fileDesc>
@@ -209,7 +209,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-HK997SoNkRDfkMHGt8fGxF"/>
+        <correspAction xml:id="i-HK997SoNkRDfkMHGt8fGxF" type="basedOn"/>
         <correspContext corresp="i-HK997SoNkRDfkMHGt8fGxF">
           <ref>Proposition 2000/01:36</ref>
         </correspContext>
@@ -242,31 +242,31 @@
           <note type="signatory" corresp="i-3rnEh52NL7CXPJYcg4p7bD"/>
           <note type="signatory" corresp="i-BbWhKN8LYooYPeK77uLHBD"/>
         </correspContext>
-        <correspAction type="proposed_referral" xml:id="i-BRgWR9JHjdoRmUpnByUXSQ">
+        <correspAction xml:id="i-BRgWR9JHjdoRmUpnByUXSQ" type="proposed_referral">
           <date when="2000-11-23"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7Q2JZcbBtiKabHQU6WLCjr">
+        <correspAction xml:id="i-7Q2JZcbBtiKabHQU6WLCjr" type="referral">
           <date when="2000-11-23"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-Rdjk2xEe3MniVBszhKbSSe">
+        <correspAction xml:id="i-Rdjk2xEe3MniVBszhKbSSe" type="reviewing">
           <date when="2000-11-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YA7XpbUJEgLuraZnq3aScm">
+        <correspAction xml:id="i-YA7XpbUJEgLuraZnq3aScm" type="dismissal">
           <date when="2000-11-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-S2dRpaDKJQrUBftuH3kaRV">
+        <correspAction xml:id="i-S2dRpaDKJQrUBftuH3kaRV" type="submission">
           <date when="2000-11-21"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-BVwP2XLRcwieUqioK5yD49">
+        <correspAction xml:id="i-BVwP2XLRcwieUqioK5yD49" type="referral">
           <date when="2000-11-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HdvDLr1Xp9cTNPCu7g7p64">
+        <correspAction xml:id="i-HdvDLr1Xp9cTNPCu7g7p64" type="dismissal">
           <date when="2000-11-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DHuLY7J5aLSPjvVtdYA4AD">
+        <correspAction xml:id="i-DHuLY7J5aLSPjvVtdYA4AD" type="submission">
           <date when="2000-11-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4BEBb7H8ygeHecmZW5jCVZ"/>
+        <correspAction xml:id="i-4BEBb7H8ygeHecmZW5jCVZ" type="assigned"/>
         <correspContext corresp="i-4BEBb7H8ygeHecmZW5jCVZ">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -281,11 +281,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_So_0031/mot_200001_So_0031-0001.pdf"/>
-      <div type="motHeader" xml:id="i-W6BDPDfAaEAjLbQjhj8mnh">
-        <div type="motTitle" xml:id="i-LpZKTW99ybWbPfhpTKsfGu"/>
-        <div type="motSubmissionInfo" xml:id="i-U9YzZUAfHDE31gPtxWXS5a"/>
+      <div xml:id="i-W6BDPDfAaEAjLbQjhj8mnh" type="motHeader">
+        <div xml:id="i-LpZKTW99ybWbPfhpTKsfGu" type="motTitle"/>
+        <div xml:id="i-U9YzZUAfHDE31gPtxWXS5a" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GUXSbjb63gKUG9eYjfNnn">
+      <div xml:id="i-GUXSbjb63gKUG9eYjfNnn" type="motBody">
         <div xml:id="i-6ARvBfhLTRmiMBmdCmNift">
           <p xml:id="i-VfEYnoXMmV3gPLUPxMV4uu">
             2000/01 mnr: So31 pnr: m524
@@ -979,9 +979,12 @@
             sjukhus är inte i sig något systemskifte, men kan mycket väl innebära
             ett betydelsefullt steg mot en ny politik och bättre vård. Det
             stora risktagandet för vård och omsorg är snarare att kväva alternativ
-            och förnyelse. Stockholm den 21 november 2000
+            och förnyelse.
           </p>
-          <p xml:id="i-XmrrdvyuYFg6ydBJ38drac">
+          <p type="date" id="i-RdQjDQKQtEDYXv58NkwyQt">
+            Stockholm den 21 november 2000
+          </p>
+          <p xml:id="i-XmrrdvyuYFg6ydBJ38drac" type="signatureBlock">
             Bo Lundgren (m)
           </p>
           <p xml:id="i-5rSfVWQAAzM7uGRjrDoHPJ">

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-SoU-00028">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-FcYFZsJudP2Q26xks7EHrA</idno>
-            <name>Ann-Marie Fagerström </name>
+            <name>Ann-Marie Fagerström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KL2cBKbaweHvcEqofBPf7b"/>
+        <correspAction xml:id="i-KL2cBKbaweHvcEqofBPf7b" type="basedOn"/>
         <correspContext corresp="i-KL2cBKbaweHvcEqofBPf7b">
           <ref>Proposition 1999/2000:79</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-FcYFZsJudP2Q26xks7EHrA"/>
           <note type="signatory" corresp="i-FcYFZsJudP2Q26xks7EHrA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-L13B8j65jvXMwvJTABGURC">
+        <correspAction xml:id="i-L13B8j65jvXMwvJTABGURC" type="referral">
           <date when="2000-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YTEQzkpztV2gWyx6Huwh3z">
+        <correspAction xml:id="i-YTEQzkpztV2gWyx6Huwh3z" type="dismissal">
           <date when="2000-04-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JwZSkeYyvV1F7pG9CTPze3">
+        <correspAction xml:id="i-JwZSkeYyvV1F7pG9CTPze3" type="submission">
           <date when="2000-04-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-FDTVz9z1MYWD4EM1d1W67b">
+        <correspAction xml:id="i-FDTVz9z1MYWD4EM1d1W67b" type="referral">
           <date when="2000-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-62drVa2FfpucfMYcLxJpk5">
+        <correspAction xml:id="i-62drVa2FfpucfMYcLxJpk5" type="dismissal">
           <date when="2000-04-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GxiQssLDGgsj7L311cosbG">
+        <correspAction xml:id="i-GxiQssLDGgsj7L311cosbG" type="submission">
           <date when="2000-04-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9iMcMZmj6jBw1tQdviZYBU"/>
+        <correspAction xml:id="i-9iMcMZmj6jBw1tQdviZYBU" type="assigned"/>
         <correspContext corresp="i-9iMcMZmj6jBw1tQdviZYBU">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_So_0028/mot_199900_So_0028-0001.pdf"/>
-      <div type="motHeader" xml:id="i-ST4hmPTPviyG3nF8fBcju8">
-        <div type="motTitle" xml:id="i-PJCKohJMBcskcJLJv7wPqG"/>
-        <div type="motSubmissionInfo" xml:id="i-Y4ELvmSjpx9hhJs2otbV6c"/>
+      <div xml:id="i-ST4hmPTPviyG3nF8fBcju8" type="motHeader">
+        <div xml:id="i-PJCKohJMBcskcJLJv7wPqG" type="motTitle"/>
+        <div xml:id="i-Y4ELvmSjpx9hhJs2otbV6c" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8Si8sYzkVDJzkBVrZJa65S">
+      <div xml:id="i-8Si8sYzkVDJzkBVrZJa65S" type="motBody">
         <div xml:id="i-H6RAqrVKg2jJKG2P9kE3kG">
           <p xml:id="i-JKVyNV2hU77U1gb6ZM1fSA">
             1999/2000 mnr: S028 pnr: s33086
@@ -138,8 +138,10 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_So_0028/mot_199900_So_0028-0002.pdf"/>
           <p xml:id="i-LgoLgEQXHQ4mjECmdAtPqn" type="date">
-            Stockholm den 29 mars 2000 1999/2000 S028 Ann-Marie Fagerström
-            (s)
+            Stockholm den 29 mars 2000
+          </p>
+          <p type="signatureBlock" id="i-L9hzc3kzEspbAjV2QQTUaC">
+            1999/2000 S028 Ann-Marie Fagerström (s)
           </p>
         </div>
       </div>

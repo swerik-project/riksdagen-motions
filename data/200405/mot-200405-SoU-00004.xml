@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00004">
   <teiHeader>
     <fileDesc>
@@ -48,7 +48,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-AWm4khnUaFre7nSK2pjNwt"/>
+        <correspAction xml:id="i-AWm4khnUaFre7nSK2pjNwt" type="basedOn"/>
         <correspContext corresp="i-AWm4khnUaFre7nSK2pjNwt">
           <ref>Förslag 2004/05:RRS2</ref>
         </correspContext>
@@ -58,19 +58,19 @@
           <note type="signatory" corresp="i-WTCYyz27itjvuvffL1vZLi"/>
           <note type="signatory" corresp="i-991obiMTz36s9V7z3YpuZk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AaYSz8156qcxajrmTjLsB5">
+        <correspAction xml:id="i-AaYSz8156qcxajrmTjLsB5" type="referral">
           <date when="2004-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QWFW1mGFxVomvDT9NDgpQH">
+        <correspAction xml:id="i-QWFW1mGFxVomvDT9NDgpQH" type="dismissal">
           <date when="2004-10-12"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-6AZtqjnRGUwDgrrA5S9UhB">
+        <correspAction xml:id="i-6AZtqjnRGUwDgrrA5S9UhB" type="registration">
           <date when="2004-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7k8khgwb3qFn3p4VPP6BvN">
+        <correspAction xml:id="i-7k8khgwb3qFn3p4VPP6BvN" type="submission">
           <date when="2004-10-08"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MFXV7y1BLBxWsDg3YqNzCp"/>
+        <correspAction xml:id="i-MFXV7y1BLBxWsDg3YqNzCp" type="assigned"/>
         <correspContext corresp="i-MFXV7y1BLBxWsDg3YqNzCp">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -85,11 +85,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_4/mot_200405_So_4-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KHwYg5bdYN8yxcFBHF5a2P">
-        <div type="motTitle" xml:id="i-2P4oeEVN3TtxSpZ14zJccX"/>
-        <div type="motSubmissionInfo" xml:id="i-Qr7ptpJH5kz244tuJqYRRb"/>
+      <div xml:id="i-KHwYg5bdYN8yxcFBHF5a2P" type="motHeader">
+        <div xml:id="i-2P4oeEVN3TtxSpZ14zJccX" type="motTitle"/>
+        <div xml:id="i-Qr7ptpJH5kz244tuJqYRRb" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PAXDeDGckQK7thPte16Tun">
+      <div xml:id="i-PAXDeDGckQK7thPte16Tun" type="motBody">
         <div xml:id="i-W5SsicAxBCT4ivzpsWaEmg">
           <p xml:id="i-F2PcU1TeLnsJ4gbhZvAujL">
             2004/05 mnr: So0o4 pnr: v004
@@ -205,9 +205,12 @@
           <p xml:id="i-P1rDSTzNYZwXtkYmAYREtU">
             regeringen bör beakta i det fortsatta arbetet med prioriteringar
             inom hälso- och sjukvården. Detta bör riksdagen som sin mening
-            ge regeringen till känna. Stockholm den 7 oktober 2004
+            ge regeringen till känna.
           </p>
-          <p xml:id="i-PfQBFVMi8a3u5ojdTtjFem">
+          <p type="date" id="i-3oe5atb4Va89zeQJ8TU9FF">
+            Stockholm den 7 oktober 2004
+          </p>
+          <p xml:id="i-PfQBFVMi8a3u5ojdTtjFem" type="signatureBlock">
             Ingrid Burman (v) Elina Linna (v) Gunilla Wahlén (v)
           </p>
         </div>

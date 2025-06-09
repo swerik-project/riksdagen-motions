@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-NU-00425">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-TVwo4mCECu692GW3ntqQzo"/>
           <note type="signatory" corresp="i-CjfJ7zKhtcCGm2cb4c1t3E"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2vdBeaDRD1XEKo6WczTccg">
+        <correspAction xml:id="i-2vdBeaDRD1XEKo6WczTccg" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8VBTTKTkyJxNH3VoZWKuFr">
+        <correspAction xml:id="i-8VBTTKTkyJxNH3VoZWKuFr" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RF8rH8vsDrqiCmV5Aaxzzr">
+        <correspAction xml:id="i-RF8rH8vsDrqiCmV5Aaxzzr" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6E4ocN5w6xi3VYveEGQRCu"/>
+        <correspAction xml:id="i-6E4ocN5w6xi3VYveEGQRCu" type="assigned"/>
         <correspContext corresp="i-6E4ocN5w6xi3VYveEGQRCu">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_N_425/mot_200506_N_425-0001.pdf"/>
-      <div type="motHeader" xml:id="i-gLzPjuB6xfB7SSHQzAd7i">
-        <div type="motTitle" xml:id="i-WmYrszFn2TqDVF2oYKwQU8"/>
-        <div type="motSubmissionInfo" xml:id="i-J3ijYKknAk26G7pTEap5Ds"/>
+      <div xml:id="i-gLzPjuB6xfB7SSHQzAd7i" type="motHeader">
+        <div xml:id="i-WmYrszFn2TqDVF2oYKwQU8" type="motTitle"/>
+        <div xml:id="i-J3ijYKknAk26G7pTEap5Ds" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8s326391FE36VJL1nGMER6">
+      <div xml:id="i-8s326391FE36VJL1nGMER6" type="motBody">
         <div xml:id="i-S5EnWWfPfnYPJEVTqNJUU5">
           <p xml:id="i-6rpzWJJiiN7YeRxWfwQzea">
             2005/06 mnr: N425 pnr: s47301
@@ -135,9 +135,12 @@
           <p xml:id="i-AcboBdU8gYHvjuTnrFa8H6">
             Vi anser att det är viktigt att vi ännu mer lyfter fram vattenkraften
             och dess betydelse vid den fortsatta energiomställningen i vårt
-            land. Stockholm den 4 oktober 2005
+            land.
           </p>
-          <p xml:id="i-VvY9F7VrS23dfTBfRzg2kv">
+          <p type="date" id="i-JDmJ2pFYUwwsHXzfsViYQL">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p xml:id="i-VvY9F7VrS23dfTBfRzg2kv" type="signatureBlock">
             Kurt Kvarnström (s) Barbro Hietala Nordlund (s)
           </p>
         </div>

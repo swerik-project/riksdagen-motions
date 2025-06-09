@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-MJU-00006">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Y3Fj3J1MFDsVtkMzmSReox"/>
+        <correspAction xml:id="i-Y3Fj3J1MFDsVtkMzmSReox" type="basedOn"/>
         <correspContext corresp="i-Y3Fj3J1MFDsVtkMzmSReox">
           <ref>Regeringsskrivelse 2001/02:50</ref>
         </correspContext>
@@ -50,31 +50,31 @@
           <note type="signatory" corresp="i-PDRRRaXKabL6avxH1jYjid"/>
           <note type="signatory" corresp="i-BHVsLDz5YDDkjyE1f5Gzz3"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SGEeWEwBYkmMUZvRq7zzFF">
+        <correspAction xml:id="i-SGEeWEwBYkmMUZvRq7zzFF" type="referral">
           <date when="2001-11-30"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-9LkU5vGLW4Awdwfro6NuTR">
+        <correspAction xml:id="i-9LkU5vGLW4Awdwfro6NuTR" type="numbering">
           <date when="2001-11-29"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-JqRQMScqi2mwR7hEgHdvfD">
+        <correspAction xml:id="i-JqRQMScqi2mwR7hEgHdvfD" type="proposed_referral">
           <date when="2001-11-29"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-FLyjf1ihXqzo65ztaRzaie">
+        <correspAction xml:id="i-FLyjf1ihXqzo65ztaRzaie" type="committee_proposal">
           <date when="2001-11-29"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-VNhkFoE9GhHvP4PqsJNCPf">
+        <correspAction xml:id="i-VNhkFoE9GhHvP4PqsJNCPf" type="reviewing">
           <date when="2001-11-29"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-Ft8zSuTk9w3isMSef7XTHf">
+        <correspAction xml:id="i-Ft8zSuTk9w3isMSef7XTHf" type="registration">
           <date when="2001-11-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-K51VpcLtLRReJvDqBJueiF">
+        <correspAction xml:id="i-K51VpcLtLRReJvDqBJueiF" type="dismissal">
           <date when="2001-11-29"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AQZFcSRT8vNjWZguZSBa4M">
+        <correspAction xml:id="i-AQZFcSRT8vNjWZguZSBa4M" type="submission">
           <date when="2001-11-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9mHECGk84KJz4oX4VJYkvf"/>
+        <correspAction xml:id="i-9mHECGk84KJz4oX4VJYkvf" type="assigned"/>
         <correspContext corresp="i-9mHECGk84KJz4oX4VJYkvf">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -89,11 +89,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_MJ_0006/mot_200102_MJ_0006-0001.pdf"/>
-      <div type="motHeader" xml:id="i-U3FeKSrn5WCdTwhhkc7wi5">
-        <div type="motTitle" xml:id="i-PGWdmKHyM4qc9aeCXL6F9G"/>
-        <div type="motSubmissionInfo" xml:id="i-S45NJhvGNVez25rTnZkaaw"/>
+      <div xml:id="i-U3FeKSrn5WCdTwhhkc7wi5" type="motHeader">
+        <div xml:id="i-PGWdmKHyM4qc9aeCXL6F9G" type="motTitle"/>
+        <div xml:id="i-S45NJhvGNVez25rTnZkaaw" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RtrS2pkrafxfFKEXcMSpaR">
+      <div xml:id="i-RtrS2pkrafxfFKEXcMSpaR" type="motBody">
         <div xml:id="i-3WkxW6ydHLtvtUurDxbBPP">
           <p xml:id="i-4mMRkdwpZ1B65mDFEkxD5u">
             2001/02 mnr: MJ6 pnr: fp1131
@@ -385,8 +385,10 @@
             verkligen skall efterlevas.
           </p>
           <p xml:id="i-FzgR5MqC9K9r8k7t9z4xnF" type="date">
-            Stockholm den 28 november 2001 Harald Nordlund (fp) Lennart Kollmats
-            (fp)
+            Stockholm den 28 november 2001
+          </p>
+          <p type="signatureBlock" id="i-RXvrGyL87Y4Bzifp63V8FN">
+            Harald Nordlund (fp) Lennart Kollmats (fp)
           </p>
         </div>
       </div>

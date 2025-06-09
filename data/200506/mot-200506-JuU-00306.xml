@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00306">
   <teiHeader>
     <fileDesc>
@@ -95,16 +95,16 @@
           <note type="signatory" corresp="i-SmQxY46smWu5awEQ2oGr4n"/>
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TLvJ1Swx3LpJ523MPvnfbX">
+        <correspAction xml:id="i-TLvJ1Swx3LpJ523MPvnfbX" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YUXAAWzptvFJFx7dFwLKwV">
+        <correspAction xml:id="i-YUXAAWzptvFJFx7dFwLKwV" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Hq92fn1uH4Xivn9qzToqLJ">
+        <correspAction xml:id="i-Hq92fn1uH4Xivn9qzToqLJ" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DeqBCZpQszv5VjzjYkHVgk"/>
+        <correspAction xml:id="i-DeqBCZpQszv5VjzjYkHVgk" type="assigned"/>
         <correspContext corresp="i-DeqBCZpQszv5VjzjYkHVgk">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -119,11 +119,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_306/mot_200506_Ju_306-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NnqP6xcaMdjTQe72Z41Jzq">
-        <div type="motTitle" xml:id="i-8HrtxEUiiqPgobSmzDuUyW"/>
-        <div type="motSubmissionInfo" xml:id="i-QEmToPa5FJiNcKXpzMK9jg"/>
+      <div xml:id="i-NnqP6xcaMdjTQe72Z41Jzq" type="motHeader">
+        <div xml:id="i-8HrtxEUiiqPgobSmzDuUyW" type="motTitle"/>
+        <div xml:id="i-QEmToPa5FJiNcKXpzMK9jg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-P2QSTT8ttyArnk87TBRsTU">
+      <div xml:id="i-P2QSTT8ttyArnk87TBRsTU" type="motBody">
         <div xml:id="i-XnnXzJeNMHnv6DUCop6Ba3">
           <p xml:id="i-CT1J36SuymEkjMuUVRu9tb">
             2005/06 mnr: Ju306 pnr: kd366
@@ -1013,9 +1013,12 @@
             uppmärksamma familjen är minst lika viktigt som att bereda plats
             på arbetsmarknaden för att få en fungerande integration där normer
             och värden överförs och så att vi kan bekämpa problematiken med
-            hedersmord. Stockholm den 27 september 2005
+            hedersmord.
           </p>
-          <p xml:id="i-EQvFQCNPtVRZDUtjhwu96n">
+          <p type="date" id="i-4HVgzXTmfk2Y4GUt6eWYrK">
+            Stockholm den 27 september 2005
+          </p>
+          <p xml:id="i-EQvFQCNPtVRZDUtjhwu96n" type="signatureBlock">
             Maria Larsson (kd) Peter Althin (kd) Olle Sandahl (kd) Ingvar
             Svensson (kd) Helena Höij (kd) Yvonne Andersson (kd) Ingemar Vänerlöv
             (kd) Tuve Skånberg (kd)

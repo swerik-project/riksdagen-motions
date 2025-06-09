@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-UU-00012">
   <teiHeader>
     <fileDesc>
@@ -167,7 +167,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-A7oh7LradBP1BAb1JMez9e"/>
+        <correspAction xml:id="i-A7oh7LradBP1BAb1JMez9e" type="basedOn"/>
         <correspContext corresp="i-A7oh7LradBP1BAb1JMez9e">
           <ref>Regeringsskrivelse 2000/01:90</ref>
         </correspContext>
@@ -194,28 +194,28 @@
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
           <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-87QiWjpUM1vmdSLsDFT3Sa">
+        <correspAction xml:id="i-87QiWjpUM1vmdSLsDFT3Sa" type="referral">
           <date when="2001-04-03"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-USWWeGGtNF8PRe7QEXWn57">
+        <correspAction xml:id="i-USWWeGGtNF8PRe7QEXWn57" type="reviewing">
           <date when="2001-03-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7G5hc4kFtzHpZxoKfeUPdd">
+        <correspAction xml:id="i-7G5hc4kFtzHpZxoKfeUPdd" type="dismissal">
           <date when="2001-03-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BNKB7KDusUbesJrBYtDQvm">
+        <correspAction xml:id="i-BNKB7KDusUbesJrBYtDQvm" type="submission">
           <date when="2001-03-29"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-2aCQNtni73rLTszHxXyS9f">
+        <correspAction xml:id="i-2aCQNtni73rLTszHxXyS9f" type="referral">
           <date when="2001-04-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JhQ8VGDxpASaC7GM2dCzFM">
+        <correspAction xml:id="i-JhQ8VGDxpASaC7GM2dCzFM" type="dismissal">
           <date when="2001-03-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KSsgqxXurJcPCdyfyMUaZ9">
+        <correspAction xml:id="i-KSsgqxXurJcPCdyfyMUaZ9" type="submission">
           <date when="2001-03-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3hxXEjttQEmL7EoifaLW6r"/>
+        <correspAction xml:id="i-3hxXEjttQEmL7EoifaLW6r" type="assigned"/>
         <correspContext corresp="i-3hxXEjttQEmL7EoifaLW6r">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -230,11 +230,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_U_0012/mot_200001_U_0012-0001.pdf"/>
-      <div type="motHeader" xml:id="i-B7zEeFKRdgAgWaaFjnZ2my">
-        <div type="motTitle" xml:id="i-WQuqh1VxHQQTnFBn64HaLj"/>
-        <div type="motSubmissionInfo" xml:id="i-USAQFV5Dk26ch6CzzawCmh"/>
+      <div xml:id="i-B7zEeFKRdgAgWaaFjnZ2my" type="motHeader">
+        <div xml:id="i-WQuqh1VxHQQTnFBn64HaLj" type="motTitle"/>
+        <div xml:id="i-USAQFV5Dk26ch6CzzawCmh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UR1c2jiUCzCfyyDNsPwNWw">
+      <div xml:id="i-UR1c2jiUCzCfyyDNsPwNWw" type="motBody">
         <div xml:id="i-FZdfDWWsMSagaed6BriHMz">
           <p xml:id="i-8DnLhbES3PnVcF37uoV2Z">
             10
@@ -366,7 +366,10 @@
             prioritet.
           </p>
           <p xml:id="i-U5zD1CP9VaDVAgxpYALZR5" type="date">
-            Stockholm den 29 mars 2001 Jan Erik Ågren (kd)
+            Stockholm den 29 mars 2001
+          </p>
+          <p type="signatureBlock" id="i-WL71bCWqPyHrC6nS9NbstN">
+            Jan Erik Ågren (kd)
           </p>
           <p xml:id="i-4xB6gHpwQqztvU4pA4GWVQ">
             Ragnwi Marcelind (kd) Gunilla Tjernberg (kd) Amanda Agestav (kd)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-AU-00399">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-MtR559gF75W3QzkiQ1GKy9">
           <note type="signatory" corresp="i-RJ83sTtQ8c3R3VD4B55j8P"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-G9BnqdZcihdE2sMGWGXHwi">
+        <correspAction xml:id="i-G9BnqdZcihdE2sMGWGXHwi" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BiMy8nREK2JEMyjLH8hFZj">
+        <correspAction xml:id="i-BiMy8nREK2JEMyjLH8hFZj" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-E3FoEEASXudA6rTMkQVesj">
+        <correspAction xml:id="i-E3FoEEASXudA6rTMkQVesj" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-ARYEBVnfGT7Vf1KGxXRf7j"/>
+        <correspAction xml:id="i-ARYEBVnfGT7Vf1KGxXRf7j" type="assigned"/>
         <correspContext corresp="i-ARYEBVnfGT7Vf1KGxXRf7j">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -69,11 +69,11 @@
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_399/mot_200506_A_399-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0399/mot_200506_A_0399-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0399/mot_200506_A_0399-001.pdf"/>
-      <div type="motHeader" xml:id="i-VwdscGGpoHgyvXr1WrnePR">
-        <div type="motTitle" xml:id="i-9JMXYSErPDZFQ2jkgdthnM"/>
-        <div type="motSubmissionInfo" xml:id="i-CX3bCz3qqiey8P1GW48zJ1"/>
+      <div xml:id="i-VwdscGGpoHgyvXr1WrnePR" type="motHeader">
+        <div xml:id="i-9JMXYSErPDZFQ2jkgdthnM" type="motTitle"/>
+        <div xml:id="i-CX3bCz3qqiey8P1GW48zJ1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Pyk6yu3TAiyQYG2bHBU2Zp">
+      <div xml:id="i-Pyk6yu3TAiyQYG2bHBU2Zp" type="motBody">
         <div xml:id="i-5tEPRGqUanE3gXzPKEDvWp">
           <p xml:id="i-QNANE4kxcPaTRduv5ZLorH">
             2005/06 mnr: A399 pnr: s13043
@@ -132,10 +132,12 @@
           </p>
           <p xml:id="i-P3eCXf1yYu1bruMCNqMaA7">
             utbildningarna och att bevara det yrkeskunnande som många besitter.
-            Detta bör ske i samverkan med arbetsmarknadens parter. Stockholm
-            den 29 september 2005
+            Detta bör ske i samverkan med arbetsmarknadens parter.
           </p>
-          <p xml:id="i-9MRSKaro4JB8dDgef4anGH">
+          <p type="date" id="i-DDh98w538PpvcVVJJ77Pjq">
+            Stockholm den 29 september 2005
+          </p>
+          <p xml:id="i-9MRSKaro4JB8dDgef4anGH" type="signatureBlock">
             Åsa Lindestam (s)
           </p>
         </div>

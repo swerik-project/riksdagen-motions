@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-FiU-00018">
   <teiHeader>
     <fileDesc>
@@ -125,7 +125,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-NKcDAEEZBzTdXBssDKW22i"/>
+        <correspAction xml:id="i-NKcDAEEZBzTdXBssDKW22i" type="basedOn"/>
         <correspContext corresp="i-NKcDAEEZBzTdXBssDKW22i">
           <ref>Redogörelse 2001/02:RB1</ref>
         </correspContext>
@@ -146,16 +146,16 @@
           <note type="signatory" corresp="i-43NmWWYd8vEgZrkoXWWCXx"/>
           <note type="signatory" corresp="i-FWydL5N493XBW1LnZgZjCH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JkCbjPKNX99FozLJo616Vv">
+        <correspAction xml:id="i-JkCbjPKNX99FozLJo616Vv" type="referral">
           <date when="2002-03-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LBwv6mWjgZqKJ1vPUPkSz2">
+        <correspAction xml:id="i-LBwv6mWjgZqKJ1vPUPkSz2" type="dismissal">
           <date when="2002-03-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BNwk7ojQycgd3Xhsjubjbn">
+        <correspAction xml:id="i-BNwk7ojQycgd3Xhsjubjbn" type="submission">
           <date when="2002-03-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-wGVcJMi4HP3JQQyhEepvi"/>
+        <correspAction xml:id="i-wGVcJMi4HP3JQQyhEepvi" type="assigned"/>
         <correspContext corresp="i-wGVcJMi4HP3JQQyhEepvi">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -170,11 +170,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Fi_0018/mot_200102_Fi_0018-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RdHXV4jrRdmkAgGeQusxYS">
-        <div type="motTitle" xml:id="i-MeLt5tnugvRSnNqKXqNZTx"/>
-        <div type="motSubmissionInfo" xml:id="i-AACVNuUpi3kXCYrVgmLb6U"/>
+      <div xml:id="i-RdHXV4jrRdmkAgGeQusxYS" type="motHeader">
+        <div xml:id="i-MeLt5tnugvRSnNqKXqNZTx" type="motTitle"/>
+        <div xml:id="i-AACVNuUpi3kXCYrVgmLb6U" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FW1hRvm2NP7Zj74sA2m7HT">
+      <div xml:id="i-FW1hRvm2NP7Zj74sA2m7HT" type="motBody">
         <div xml:id="i-LwvVSGmQw6uqu8XTLcd57V">
           <p xml:id="i-Rj2n5Zzb9XKnkucTN8JrGm">
             2001/02 mnr: Fil18 pnr: kd185
@@ -355,7 +355,10 @@
             strukturpolitikens betydelse bör ges regeringen till känna.
           </p>
           <p xml:id="i-AyQLAApMnB6e9F3pe12f8C" type="date">
-            Stockholm den 4 mars 2002 Mats Odell (kd)
+            Stockholm den 4 mars 2002
+          </p>
+          <p type="signatureBlock" id="i-XrjczqwV8uw1EfeWhKsAwt">
+            Mats Odell (kd)
           </p>
           <p xml:id="i-Ps3afKj3CwkNEMmpkiqM77">
             Stefan Attefall (kd) Harald Bergström (kd) Sven Brus (kd) Rose-Marie

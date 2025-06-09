@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-JoU-00035">
   <teiHeader>
     <fileDesc>
@@ -40,7 +40,7 @@
           </person>
           <person gender="man">
             <idno>i-XazZeCYyyq3u8LSAmNahPt</idno>
-            <name>Elving Andersson </name>
+            <name>Elving Andersson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-CnuAqqLcuaFa3q6n4s1HJF"/>
+        <correspAction xml:id="i-CnuAqqLcuaFa3q6n4s1HJF" type="basedOn"/>
         <correspContext corresp="i-CnuAqqLcuaFa3q6n4s1HJF">
           <ref>Proposition 1989/90:118</ref>
         </correspContext>
@@ -66,16 +66,16 @@
           <note type="signatory" corresp="i-XazZeCYyyq3u8LSAmNahPt"/>
           <note type="signatory" corresp="i-XazZeCYyyq3u8LSAmNahPt"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-ATd14CLeC1jwWNXqywxNtS">
+        <correspAction xml:id="i-ATd14CLeC1jwWNXqywxNtS" type="submission">
           <date when="1990-04-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Vek7739RJbE2tky1KXm6aX">
+        <correspAction xml:id="i-Vek7739RJbE2tky1KXm6aX" type="dismissal">
           <date when="1990-04-18"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-5Xs5ZCqLWDMdSPoG9GmrCP">
+        <correspAction xml:id="i-5Xs5ZCqLWDMdSPoG9GmrCP" type="referral">
           <date when="1990-04-19"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SBf35qWeHFyVywnpTuPgPk">
+        <correspAction xml:id="i-SBf35qWeHFyVywnpTuPgPk" type="assigned">
           <date when="2014-11-21"/>
           <time when="12:10:14"/>
         </correspAction>
@@ -91,11 +91,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_jo_35/mot_198990_jo_35-001.pdf"/>
-      <div type="motHeader" xml:id="i-JWxAB5JUgsf2fCTorMCVRt">
-        <div type="motTitle" xml:id="i-VNWsV3wEELEzWwokeBt3w8"/>
-        <div type="motSubmissionInfo" xml:id="i-DbQuQ29irEs7SHhnUKRsAX"/>
+      <div xml:id="i-JWxAB5JUgsf2fCTorMCVRt" type="motHeader">
+        <div xml:id="i-VNWsV3wEELEzWwokeBt3w8" type="motTitle"/>
+        <div xml:id="i-DbQuQ29irEs7SHhnUKRsAX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2jgkkKA1qxhiaLzixQF1pW">
+      <div xml:id="i-2jgkkKA1qxhiaLzixQF1pW" type="motBody">
         <div xml:id="i-9XKPXxUHK3D8mumQthqHE">
           <p xml:id="i-2anXMHbPp1DDKeuadEZzoe">
             Motion till riksdagen 1989/90:Jo035
@@ -168,9 +168,12 @@
           <p xml:id="i-HRUAjETXHxTZdKzb38a51J">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             beslutar avslå regeringens proposition 1989/90:118 i den del som
-            rör 2 $ djurskyddslagen. Stockholm den 17 april 1990
+            rör 2 $ djurskyddslagen.
           </p>
-          <p xml:id="i-AijL1baWdetp2EjYg1fLc8">
+          <p type="date" id="i-EvPtSKiPHDqu9MxaZUsRkG">
+            Stockholm den 17 april 1990
+          </p>
+          <p xml:id="i-AijL1baWdetp2EjYg1fLc8" type="signatureBlock">
             Elving Andersson (c)
           </p>
           <p xml:id="i-3hE9nKCTxyNPsL2beNkATq">

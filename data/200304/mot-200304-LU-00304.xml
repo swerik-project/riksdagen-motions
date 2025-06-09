@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00304">
   <teiHeader>
     <fileDesc>
@@ -54,16 +54,16 @@
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
           <note type="signatory" corresp="i-9Kt7koTgzUZUA9ovNXYdWj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FatQuaM5ZWC1bk3zZTV3Rb">
+        <correspAction xml:id="i-FatQuaM5ZWC1bk3zZTV3Rb" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-X76zt5f1WusqJVW1MgJGcx">
+        <correspAction xml:id="i-X76zt5f1WusqJVW1MgJGcx" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4SHfrmSnKUocFqxjgH1NL1">
+        <correspAction xml:id="i-4SHfrmSnKUocFqxjgH1NL1" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Qd3F4z8zc2MV7GAiH5hyDT"/>
+        <correspAction xml:id="i-Qd3F4z8zc2MV7GAiH5hyDT" type="assigned"/>
         <correspContext corresp="i-Qd3F4z8zc2MV7GAiH5hyDT">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -78,11 +78,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_L_0304/mot_200304_L_0304-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CrfkBGmLtY9Ppxuf8AamHH">
-        <div type="motTitle" xml:id="i-54DeiNp9MDHNukMjkjUeFF"/>
-        <div type="motSubmissionInfo" xml:id="i-P3WDL4Qs9JrPSXpaMVKNkb"/>
+      <div xml:id="i-CrfkBGmLtY9Ppxuf8AamHH" type="motHeader">
+        <div xml:id="i-54DeiNp9MDHNukMjkjUeFF" type="motTitle"/>
+        <div xml:id="i-P3WDL4Qs9JrPSXpaMVKNkb" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MmYVRsRCdYXkgfXqWUHV6V">
+      <div xml:id="i-MmYVRsRCdYXkgfXqWUHV6V" type="motBody">
         <div xml:id="i-M2WqiEM2632EHKLscPuj57">
           <p xml:id="i-YAkpaNvR67DFTfft2JLcXo">
             2003/04 mnr: L304 pnr: -kd902
@@ -282,9 +282,12 @@
             relation mellan en man
           </p>
           <p xml:id="i-GgTEG1obVNY2mwnp5bV5aY">
-            och en kvinna — för barnens skull. Stockholm den 7 oktober 2003
+            och en kvinna — för barnens skull.
           </p>
-          <p xml:id="i-RFVPkxk69EGrKkE14pqj4u">
+          <p type="date" id="i-KLcAksNbi6s7gPZDsNXrnp">
+            Stockholm den 7 oktober 2003
+          </p>
+          <p xml:id="i-RFVPkxk69EGrKkE14pqj4u" type="signatureBlock">
             Tuve Skånberg (kd) Mikael Oscarsson (kd) Marietta de Pourbaix-Lundin
             (m)
           </p>

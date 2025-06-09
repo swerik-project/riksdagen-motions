@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00004">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KKYyV3Z2pzfV2yd9AeGACU"/>
+        <correspAction xml:id="i-KKYyV3Z2pzfV2yd9AeGACU" type="basedOn"/>
         <correspContext corresp="i-KKYyV3Z2pzfV2yd9AeGACU">
           <ref>Proposition 2002/03:50</ref>
         </correspContext>
@@ -82,16 +82,16 @@
           <note type="signatory" corresp="i-Vuf2iovr2aWWgDThaeqMPN"/>
           <note type="signatory" corresp="i-Q6XV7cn1KAM2Vuyuo8Ah3r"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LtqTfkDQEQENhdTbBxVfbE">
+        <correspAction xml:id="i-LtqTfkDQEQENhdTbBxVfbE" type="referral">
           <date when="2003-02-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Yag9Yfeb2N3RQa36ucXxuL">
+        <correspAction xml:id="i-Yag9Yfeb2N3RQa36ucXxuL" type="dismissal">
           <date when="2003-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BuQXqyqiedJg5KFwPzDMJB">
+        <correspAction xml:id="i-BuQXqyqiedJg5KFwPzDMJB" type="submission">
           <date when="2003-02-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UMbPQ1uhy1og1omS3dy6U4"/>
+        <correspAction xml:id="i-UMbPQ1uhy1og1omS3dy6U4" type="assigned"/>
         <correspContext corresp="i-UMbPQ1uhy1og1omS3dy6U4">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -106,11 +106,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ub_0004/mot_200203_Ub_0004-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3jHu5LD66GSPZSLX1WMf3z">
-        <div type="motTitle" xml:id="i-WUXTMcTohbDfvx9eBTDk6G"/>
-        <div type="motSubmissionInfo" xml:id="i-PYTHxKkaarDQrJbPNDnTX1"/>
+      <div xml:id="i-3jHu5LD66GSPZSLX1WMf3z" type="motHeader">
+        <div xml:id="i-WUXTMcTohbDfvx9eBTDk6G" type="motTitle"/>
+        <div xml:id="i-PYTHxKkaarDQrJbPNDnTX1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BbvQRwBUXBuDXbZJa9GqVf">
+      <div xml:id="i-BbvQRwBUXBuDXbZJa9GqVf" type="motBody">
         <div xml:id="i-9dveRtCsR7ZyG5PhYNYbYB">
           <p xml:id="i-U835trAxBGtNLvNxBjHpnN">
             2002/03 mnr: Ub4 pnr: m201
@@ -674,9 +674,12 @@
             rimligt att inte låta kostnaden utgöra ett hinder för att underställa
             ett tilltänkt projekt prövning. Det är enligt oss lämpligare att
             finansiera de regionala nämnderna via anslag i likhet med den
-            centrala nämnden. Stockholm den 5 februari 2003
+            centrala nämnden.
           </p>
-          <p xml:id="i-RkmcfkRaxuyvmJrjpd1vYn">
+          <p type="date" id="i-TKaZDAzRUW5vnY6f3bKjda">
+            Stockholm den 5 februari 2003
+          </p>
+          <p xml:id="i-RkmcfkRaxuyvmJrjpd1vYn" type="signatureBlock">
             Gunilla Carlsson (m) Per Bill (m) Anna Ibrisagic (m) Tobias Billström
             (m) Ewa Björling (m) Tomas Högström (m)
           </p>

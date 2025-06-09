@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-SoU-00022">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-YH9Fvf7wRNezdjb7Zf3Mj4"/>
+        <correspAction xml:id="i-YH9Fvf7wRNezdjb7Zf3Mj4" type="basedOn"/>
         <correspContext corresp="i-YH9Fvf7wRNezdjb7Zf3Mj4">
           <ref>Proposition 2001/02:63</ref>
         </correspContext>
@@ -66,31 +66,31 @@
           <note type="signatory" corresp="i-JZKa6caqdSKy8yhUyfEJeU"/>
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XnsmiDx3Z4m3LRLCpPG1Dg">
+        <correspAction xml:id="i-XnsmiDx3Z4m3LRLCpPG1Dg" type="referral">
           <date when="2002-02-01"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-APoSqeryRZKJDT7cRjwycy">
+        <correspAction xml:id="i-APoSqeryRZKJDT7cRjwycy" type="numbering">
           <date when="2002-01-31"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-TVDKwqjDrhrW7WCvi4ucQB">
+        <correspAction xml:id="i-TVDKwqjDrhrW7WCvi4ucQB" type="proposed_referral">
           <date when="2002-01-31"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-6XCeoBhhUftPsR6vwoGAmf">
+        <correspAction xml:id="i-6XCeoBhhUftPsR6vwoGAmf" type="committee_proposal">
           <date when="2002-01-31"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-9LC9VA6aHRf8hdvn5LRFCV">
+        <correspAction xml:id="i-9LC9VA6aHRf8hdvn5LRFCV" type="reviewing">
           <date when="2002-01-31"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-QxDXUxLDRhgtdMt6PFEZDe">
+        <correspAction xml:id="i-QxDXUxLDRhgtdMt6PFEZDe" type="registration">
           <date when="2002-01-31"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2Dz6B3NAZ8QhWCEdvHiADe">
+        <correspAction xml:id="i-2Dz6B3NAZ8QhWCEdvHiADe" type="dismissal">
           <date when="2002-01-31"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DHi2yPJyr5275UPVHXEuTT">
+        <correspAction xml:id="i-DHi2yPJyr5275UPVHXEuTT" type="submission">
           <date when="2002-01-30"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7PKqCxPTJgQoGp4oiUqK2S"/>
+        <correspAction xml:id="i-7PKqCxPTJgQoGp4oiUqK2S" type="assigned"/>
         <correspContext corresp="i-7PKqCxPTJgQoGp4oiUqK2S">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -105,11 +105,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_So_0022/mot_200102_So_0022-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PUFNZSRM2bfmu4QaEuN6yb">
-        <div type="motTitle" xml:id="i-HJYaBKd5gcrNu9LxY5ZcTf"/>
-        <div type="motSubmissionInfo" xml:id="i-VuWR17hk9MryAHfw7eL24E"/>
+      <div xml:id="i-PUFNZSRM2bfmu4QaEuN6yb" type="motHeader">
+        <div xml:id="i-HJYaBKd5gcrNu9LxY5ZcTf" type="motTitle"/>
+        <div xml:id="i-VuWR17hk9MryAHfw7eL24E" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HNt81apZhHBZo8sTwgnUs6">
+      <div xml:id="i-HNt81apZhHBZo8sTwgnUs6" type="motBody">
         <div xml:id="i-4sgKzY986YuLmMy37YDYbb">
           <p xml:id="i-LUvW7nKTjEhjWpkzhXHxmw">
             2001/02 mnr: S022 pnr: fp1142
@@ -494,10 +494,12 @@
             kan göras redan nu och behöver inte vänta tills Apotekets monopol
             avskaffas. En avknoppning av Apotekets verksamhet kommer att ske
             under en längre tid och står därmed inte i motsats till att förändra
-            reglerna för dosdispensering redan nu. Stockholm den 30 januari
-            2002
+            reglerna för dosdispensering redan nu.
           </p>
-          <p xml:id="i-SVDN1bDHjF3eJRdryVWEbg">
+          <p type="date" id="i-FkKa21K1JbVJEhivfVQQ9">
+            Stockholm den 30 januari 2002
+          </p>
+          <p xml:id="i-SVDN1bDHjF3eJRdryVWEbg" type="signatureBlock">
             Kerstin Heinemann (fp) Harald Nordlund (fp) Bo Könberg (fp) Johan
             Pehrson (fp)
           </p>

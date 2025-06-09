@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-BoU-00010">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-MVCy9kYJUtc3PHxTyzSnoo"/>
+        <correspAction xml:id="i-MVCy9kYJUtc3PHxTyzSnoo" type="basedOn"/>
         <correspContext corresp="i-MVCy9kYJUtc3PHxTyzSnoo">
           <ref>Proposition 1987/88:37</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="i-FhdnsbdSgKWks7yKVAW7kg"/>
           <note type="signatory" corresp="i-YB1fvm5e6JDCcaaUTXyb9W"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-Jg2vrfcWa58FuBTYynwSso">
+        <correspAction xml:id="i-Jg2vrfcWa58FuBTYynwSso" type="submission">
           <date when="1987-11-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-D6qKea2fAmKfdRk8xx2Xno">
+        <correspAction xml:id="i-D6qKea2fAmKfdRk8xx2Xno" type="dismissal">
           <date when="1987-11-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-AiyyhNLJVcAnycAHH8yMhE">
+        <correspAction xml:id="i-AiyyhNLJVcAnycAHH8yMhE" type="referral">
           <date when="1987-11-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Qbn5SJMLRefki2bBznj7gA">
+        <correspAction xml:id="i-Qbn5SJMLRefki2bBznj7gA" type="assigned">
           <date when="2014-11-22"/>
           <time when="21:20:16"/>
         </correspAction>
@@ -75,11 +75,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_bo_10/mot_198788_bo_10-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-BHyevBEaSdNzzTDo4exYW3">
-        <div type="motTitle" xml:id="i-4tq7HTTTjGm3yDbh9oqg5Z"/>
-        <div type="motSubmissionInfo" xml:id="i-BGJkYJMDRv6LMmsdHvnzD8"/>
+      <div xml:id="i-BHyevBEaSdNzzTDo4exYW3" type="motHeader">
+        <div xml:id="i-4tq7HTTTjGm3yDbh9oqg5Z" type="motTitle"/>
+        <div xml:id="i-BGJkYJMDRv6LMmsdHvnzD8" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-X4zbm4nFCDpjiDKZKwKgPA">
+      <div xml:id="i-X4zbm4nFCDpjiDKZKwKgPA" type="motBody">
         <div xml:id="i-3e3fKwSCEJvKo688Hcrk7j">
           <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_bo_10/mot_198788_bo_10-001.pdf"/>
           <p xml:id="i-RLYGtWGtrKSwhWLgpkcXEr">
@@ -139,8 +139,10 @@
             Gäv- le.
           </p>
           <p xml:id="i-AMQJf6H9MYa144nakKwsaG" type="date">
-            Stockholm den 19 november 1987 Rolf Dahlberg (m) Håkan Stjernlöf
-            (m)
+            Stockholm den 19 november 1987
+          </p>
+          <p type="signatureBlock" id="i-39dbvFtc7udQcb6Ew91hJ2">
+            Rolf Dahlberg (m) Håkan Stjernlöf (m)
           </p>
           <p xml:id="i-PavhCK2FLmww8aymG9F2zi">
             1 Riksdagen 1987/88. 3 saml. Nr Bo10-20

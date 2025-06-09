@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-MJU-00721">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="woman">
             <idno>i-FWydL5N493XBW1LnZgZjCH</idno>
-            <name>Inger Strömbom </name>
+            <name>Inger Strömbom</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-M6F85qijn9rB9XrUARJYDS</idno>
-            <name>Rolf Åbjörnsson </name>
+            <name>Rolf Åbjörnsson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -62,28 +62,28 @@
           <note type="signatory" corresp="i-FWydL5N493XBW1LnZgZjCH"/>
           <note type="signatory" corresp="i-M6F85qijn9rB9XrUARJYDS"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-HGSABHYhUSV4B733tw5z2J">
+        <correspAction xml:id="i-HGSABHYhUSV4B733tw5z2J" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-NVVKSnCdPMYZGQSDaFXbFd">
+        <correspAction xml:id="i-NVVKSnCdPMYZGQSDaFXbFd" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NoxmPnuwFpNdwi1wcG5Wqg">
+        <correspAction xml:id="i-NoxmPnuwFpNdwi1wcG5Wqg" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RgmPPmtUdyUxAqhRW4sELi">
+        <correspAction xml:id="i-RgmPPmtUdyUxAqhRW4sELi" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-BJosH52FtcELmqdRo7TCHK">
+        <correspAction xml:id="i-BJosH52FtcELmqdRo7TCHK" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LMrJXmsTSctiykqePEZbSu">
+        <correspAction xml:id="i-LMrJXmsTSctiykqePEZbSu" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TAPybokCPNa1r7815GCfgf">
+        <correspAction xml:id="i-TAPybokCPNa1r7815GCfgf" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-F35Psams4nkssGMBDxtvDz"/>
+        <correspAction xml:id="i-F35Psams4nkssGMBDxtvDz" type="assigned"/>
         <correspContext corresp="i-F35Psams4nkssGMBDxtvDz">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -98,11 +98,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_MJ_0721/mot_200001_MJ_0721-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HAD3YDMHscDnc7vpeVsacG">
-        <div type="motTitle" xml:id="i-SQbkgmYRtz2WTm8AJcbdkn"/>
-        <div type="motSubmissionInfo" xml:id="i-NEVhBJQR3BFVMCivCThxd8"/>
+      <div xml:id="i-HAD3YDMHscDnc7vpeVsacG" type="motHeader">
+        <div xml:id="i-SQbkgmYRtz2WTm8AJcbdkn" type="motTitle"/>
+        <div xml:id="i-NEVhBJQR3BFVMCivCThxd8" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7x7cvdGuJ81XL4KRDEhrko">
+      <div xml:id="i-7x7cvdGuJ81XL4KRDEhrko" type="motBody">
         <div xml:id="i-G6fmHzLMq8moBtSrgr5QAa">
           <p xml:id="i-2St3MikpJsWFhncpCkEg58">
             20
@@ -150,8 +150,10 @@
             sin mark.
           </p>
           <p xml:id="i-AUffcGkBbReSeTMeRFmxs5" type="date">
-            Stockholm den 27 september 2000 Inger Strömbom (kd) Rolf Åbjörnsson
-            (kd)
+            Stockholm den 27 september 2000
+          </p>
+          <p type="signatureBlock" id="i-E4aBj5qhWZmLtHnn6F9Vyw">
+            Inger Strömbom (kd) Rolf Åbjörnsson (kd)
           </p>
         </div>
       </div>

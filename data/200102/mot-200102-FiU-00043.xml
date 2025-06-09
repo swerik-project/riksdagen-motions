@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-FiU-00043">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-E7tHvwE5Woves14aQDtWk7"/>
+        <correspAction xml:id="i-E7tHvwE5Woves14aQDtWk7" type="basedOn"/>
         <correspContext corresp="i-E7tHvwE5Woves14aQDtWk7">
           <ref>Proposition 2001/02:100</ref>
         </correspContext>
@@ -42,16 +42,16 @@
         <correspContext corresp="i-Vogi8gSEhoXVj8vNzRGRqd">
           <note type="signatory" corresp="i-BVCep6Z6PDPz44gLEcbB89"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-955JMJa7Xs5rWAJJpBbF3P">
+        <correspAction xml:id="i-955JMJa7Xs5rWAJJpBbF3P" type="referral">
           <date when="2002-05-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KS1Te1K1v9nFT6ijz5NucG">
+        <correspAction xml:id="i-KS1Te1K1v9nFT6ijz5NucG" type="dismissal">
           <date when="2002-05-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5Wr6itZ3GTe12WZ5sbepLZ">
+        <correspAction xml:id="i-5Wr6itZ3GTe12WZ5sbepLZ" type="submission">
           <date when="2002-05-02"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EHwcXHW5LiPLNFpVj1Ehqe"/>
+        <correspAction xml:id="i-EHwcXHW5LiPLNFpVj1Ehqe" type="assigned"/>
         <correspContext corresp="i-EHwcXHW5LiPLNFpVj1Ehqe">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -66,11 +66,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Fi_0043/mot_200102_Fi_0043-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2q2aG8P4rLJ9e2qThRxsMG">
-        <div type="motTitle" xml:id="i-Bgnb7ZaiM1c3zJAdtne6vh"/>
-        <div type="motSubmissionInfo" xml:id="i-7bFboEnNv4ayCf9EuQvcYu"/>
+      <div xml:id="i-2q2aG8P4rLJ9e2qThRxsMG" type="motHeader">
+        <div xml:id="i-Bgnb7ZaiM1c3zJAdtne6vh" type="motTitle"/>
+        <div xml:id="i-7bFboEnNv4ayCf9EuQvcYu" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8br4jR3qyabBt2YoZVTU5Z">
+      <div xml:id="i-8br4jR3qyabBt2YoZVTU5Z" type="motBody">
         <div xml:id="i-FVLdCDBLRSDgFZ9VyeX2qw">
           <p xml:id="i-KF5jGvRqPx3vrQAT2o79dU">
             32
@@ -114,7 +114,10 @@
             som har blivit rivna.
           </p>
           <p xml:id="i-8uzptUwt718nXG8oXUDG5U" type="date">
-            Stockholm den 26 april 2002 Carl G Nilsson (m)
+            Stockholm den 26 april 2002
+          </p>
+          <p type="signatureBlock" id="i-PxnBPgnMgc88oNbcymtQG8">
+            Carl G Nilsson (m)
           </p>
         </div>
       </div>

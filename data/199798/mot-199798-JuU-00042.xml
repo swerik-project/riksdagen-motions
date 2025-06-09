@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-JuU-00042">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-8Db8jR6saTELpLZLDGAjHE</idno>
-            <name>Birgitta Hambraeus </name>
+            <name>Birgitta Hambraeus</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Tad9egzmoT8cnBVi8YxgZB"/>
+        <correspAction xml:id="i-Tad9egzmoT8cnBVi8YxgZB" type="basedOn"/>
         <correspContext corresp="i-Tad9egzmoT8cnBVi8YxgZB">
           <ref>Proposition 1997/98:97</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-8Db8jR6saTELpLZLDGAjHE"/>
           <note type="signatory" corresp="i-8Db8jR6saTELpLZLDGAjHE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TAppHmQKtYcQhATJDkwWyt">
+        <correspAction xml:id="i-TAppHmQKtYcQhATJDkwWyt" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-D2WCPkSJpXvrDw3U99XL5M">
+        <correspAction xml:id="i-D2WCPkSJpXvrDw3U99XL5M" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5nYmBBBvLsJNnFzWMYEBnB">
+        <correspAction xml:id="i-5nYmBBBvLsJNnFzWMYEBnB" type="submission">
           <date when="1998-04-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-8gxGTAhEgmdETPWRXdq8G">
+        <correspAction xml:id="i-8gxGTAhEgmdETPWRXdq8G" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GGrhWKJpyTkxoUAT7vrWeS">
+        <correspAction xml:id="i-GGrhWKJpyTkxoUAT7vrWeS" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WSAzXf8ahig5cQ3SKYdxc5">
+        <correspAction xml:id="i-WSAzXf8ahig5cQ3SKYdxc5" type="submission">
           <date when="1998-04-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AqU42k1UNo2JuqyVfEYDTt"/>
+        <correspAction xml:id="i-AqU42k1UNo2JuqyVfEYDTt" type="assigned"/>
         <correspContext corresp="i-AqU42k1UNo2JuqyVfEYDTt">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_JU_0042/mot_199798_JU_0042-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5xmFcPBewW1DUan6LZnFiX">
-        <div type="motTitle" xml:id="i-G2VBGqA4DFXUZu6yUP45wF"/>
-        <div type="motSubmissionInfo" xml:id="i-QCbVGFfgotH5npx6uShoWi"/>
+      <div xml:id="i-5xmFcPBewW1DUan6LZnFiX" type="motHeader">
+        <div xml:id="i-G2VBGqA4DFXUZu6yUP45wF" type="motTitle"/>
+        <div xml:id="i-QCbVGFfgotH5npx6uShoWi" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7KgeBBzLQVWo2U87J6E9dA">
+      <div xml:id="i-7KgeBBzLQVWo2U87J6E9dA" type="motBody">
         <div xml:id="i-UWrLoeEj4k8aD33iDian7g">
           <p xml:id="i-FivCoFXgEdSGwNKArjr136">
             Ju42
@@ -137,7 +137,10 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_JU_0042/mot_199798_JU_0042-0002.pdf"/>
           <p xml:id="i-8Hqm2BFaJCjSUu23KYUzPK" type="date">
-            Stockholm den 31 mars 1998 Mot.
+            Stockholm den 31 mars 1998
+          </p>
+          <p type="signatureBlock" id="i-EQZkivMpPRmPBFeQ549dNs">
+            Mot.
           </p>
           <p xml:id="i-UjLV5dFL5T4ig1YU12Y3iA">
             1997/98Ju42 Birgitta Hambraeus (c)

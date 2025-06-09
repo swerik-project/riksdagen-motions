@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-KU-00003">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-YAFJQStxQXdCtYPxFH9D9a</idno>
-            <name>Ingbritt Irhammar </name>
+            <name>Ingbritt Irhammar</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-XnQxqemoyWF9MsDA1TcD5"/>
+        <correspAction xml:id="i-XnQxqemoyWF9MsDA1TcD5" type="basedOn"/>
         <correspContext corresp="i-XnQxqemoyWF9MsDA1TcD5">
           <ref>Proposition 1995/96:80</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-YAFJQStxQXdCtYPxFH9D9a"/>
           <note type="signatory" corresp="i-YAFJQStxQXdCtYPxFH9D9a"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HtFjGLnxLbZ1gijTKQ6jXY">
+        <correspAction xml:id="i-HtFjGLnxLbZ1gijTKQ6jXY" type="referral">
           <date when="1995-11-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7JjNxnsR8FkJMbntrtS2b2">
+        <correspAction xml:id="i-7JjNxnsR8FkJMbntrtS2b2" type="dismissal">
           <date when="1995-10-27"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7vfHB219EQwG6W3zML2gjo">
+        <correspAction xml:id="i-7vfHB219EQwG6W3zML2gjo" type="submission">
           <date when="1995-10-26"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-DePPm7hLTLW7fnjHKzK9ni">
+        <correspAction xml:id="i-DePPm7hLTLW7fnjHKzK9ni" type="referral">
           <date when="1995-11-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SEG1tokMDtwMCBeXAJRbRS">
+        <correspAction xml:id="i-SEG1tokMDtwMCBeXAJRbRS" type="dismissal">
           <date when="1995-10-27"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M8d1EGm3QjRfH6xtz1sRhp">
+        <correspAction xml:id="i-M8d1EGm3QjRfH6xtz1sRhp" type="submission">
           <date when="1995-10-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Y1WkT74WrLTEbStok7dvvx"/>
+        <correspAction xml:id="i-Y1WkT74WrLTEbStok7dvvx" type="assigned"/>
         <correspContext corresp="i-Y1WkT74WrLTEbStok7dvvx">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_K_0003/mot_199596_K_0003-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TxUsEw2hkwQruL7Twj4TYB">
-        <div type="motTitle" xml:id="i-ANSrrYi8huBjwModP7PZij"/>
-        <div type="motSubmissionInfo" xml:id="i-EW2ECrcyE8sa6kgmFLNJnU"/>
+      <div xml:id="i-TxUsEw2hkwQruL7Twj4TYB" type="motHeader">
+        <div xml:id="i-ANSrrYi8huBjwModP7PZij" type="motTitle"/>
+        <div xml:id="i-EW2ECrcyE8sa6kgmFLNJnU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-X3TtSbLNx17Ys6yyj9mcSJ">
+      <div xml:id="i-X3TtSbLNx17Ys6yyj9mcSJ" type="motBody">
         <div xml:id="i-XGr3y4qcoCMs21VUwkpPe9">
           <p xml:id="i-DSGhCfDQsQBdB5y5tXFhPf">
             1995/96 K3 K1-7
@@ -129,9 +129,12 @@
           <p xml:id="i-9Mgbm442EBf4aEjmAaz7gm">
             Med hänvisning till det anförda hemställs att riksdagen som sin
             mening ger regeringen till känna att den föreslagna kyrkoavgiften
-            skall benämnas kyrkoskatt. Stockholm den 26 oktober 1995
+            skall benämnas kyrkoskatt.
           </p>
-          <p xml:id="i-WNFZm5cc8DFsm6KaxSMM93">
+          <p type="date" id="i-Gab9x4K6sta1cLWicm73kq">
+            Stockholm den 26 oktober 1995
+          </p>
+          <p xml:id="i-WNFZm5cc8DFsm6KaxSMM93" type="signatureBlock">
             Ingbritt Irhammar (c)
           </p>
         </div>

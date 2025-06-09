@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-TU-00072">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-BpXx7nwLpg9Po4oYTZPzUj</idno>
-            <name>Sivert Carlsson </name>
+            <name>Sivert Carlsson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8hctu34Bjgm9kyvsgU2vtY"/>
+        <correspAction xml:id="i-8hctu34Bjgm9kyvsgU2vtY" type="basedOn"/>
         <correspContext corresp="i-8hctu34Bjgm9kyvsgU2vtY">
           <ref>Proposition 1996/97:115</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-BpXx7nwLpg9Po4oYTZPzUj"/>
           <note type="signatory" corresp="i-BpXx7nwLpg9Po4oYTZPzUj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-6jurSGzq4Nj7rw9xga5ZDd">
+        <correspAction xml:id="i-6jurSGzq4Nj7rw9xga5ZDd" type="referral">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9HdJmZs9gWQ3obJUGx52KX">
+        <correspAction xml:id="i-9HdJmZs9gWQ3obJUGx52KX" type="dismissal">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ByZpGjUfx19bu3pHqba3Qf">
+        <correspAction xml:id="i-ByZpGjUfx19bu3pHqba3Qf" type="submission">
           <date when="1997-06-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-DLRBNtKCn9iewoYaXZVFoH">
+        <correspAction xml:id="i-DLRBNtKCn9iewoYaXZVFoH" type="referral">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4zKca8L7zgcHNuWJhvZo2M">
+        <correspAction xml:id="i-4zKca8L7zgcHNuWJhvZo2M" type="dismissal">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-25rjEP32n4VuWVVTcoamG6">
+        <correspAction xml:id="i-25rjEP32n4VuWVVTcoamG6" type="submission">
           <date when="1997-06-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PRsHLHCNTcVPTU2oZ3C4M7"/>
+        <correspAction xml:id="i-PRsHLHCNTcVPTU2oZ3C4M7" type="assigned"/>
         <correspContext corresp="i-PRsHLHCNTcVPTU2oZ3C4M7">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_T_0072/mot_199697_T_0072-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Qrw2j3aJBszQ9axKYLg4ee">
-        <div type="motTitle" xml:id="i-8ni3gHUkvzSnwPNVfjvoJN"/>
-        <div type="motSubmissionInfo" xml:id="i-LRb9QSX8BmpoL1kwnw94fY"/>
+      <div xml:id="i-Qrw2j3aJBszQ9axKYLg4ee" type="motHeader">
+        <div xml:id="i-8ni3gHUkvzSnwPNVfjvoJN" type="motTitle"/>
+        <div xml:id="i-LRb9QSX8BmpoL1kwnw94fY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BnW9Jwkh3Ksrgw7htrhtQS">
+      <div xml:id="i-BnW9Jwkh3Ksrgw7htrhtQS" type="motBody">
         <div xml:id="i-N8LkJRTRknpF66aK71XL2b">
           <p xml:id="i-a8jkqLHAXFqy7YCAUaj5T">
             1996/97 [T72 T68-T72
@@ -166,8 +166,10 @@
             för avslag på tillstånd till färdtjänst.
           </p>
           <p xml:id="i-DiKyEprMgVdYeHsmSqT7a" type="date">
-            Stockholm den 11 juni 1997 Sivert Carlsson (c) Elving Andersson
-            (c) Sven Bergström (c)
+            Stockholm den 11 juni 1997
+          </p>
+          <p type="signatureBlock" id="i-TYdiwUStf9YPUkLMyLJHyq">
+            Sivert Carlsson (c) Elving Andersson (c) Sven Bergström (c)
           </p>
           <p xml:id="i-WCdELrv5LTA1K2qWd9x6HL">
             Margareta Andersson (c) Kjell Ericsson (c)

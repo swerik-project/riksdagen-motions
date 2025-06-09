@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FiU-00017">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-PPD29fd75b6WFEnoRBR2To"/>
+        <correspAction xml:id="i-PPD29fd75b6WFEnoRBR2To" type="basedOn"/>
         <correspContext corresp="i-PPD29fd75b6WFEnoRBR2To">
           <ref>Proposition 2002/03:100</ref>
         </correspContext>
@@ -90,16 +90,16 @@
           <note type="signatory" corresp="i-85m2VX7KSiTFeJSnapgkxu"/>
           <note type="signatory" corresp="i-B471TcSCwHNHrNRk1EdJek"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NQAJGBBpXzDpdczb2tLCwp">
+        <correspAction xml:id="i-NQAJGBBpXzDpdczb2tLCwp" type="referral">
           <date when="2003-05-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-L89gxkxfJyYrZLsf9fhE9X">
+        <correspAction xml:id="i-L89gxkxfJyYrZLsf9fhE9X" type="dismissal">
           <date when="2003-05-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-U2QzrHGBS5daFePtGLTsSY">
+        <correspAction xml:id="i-U2QzrHGBS5daFePtGLTsSY" type="submission">
           <date when="2003-05-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MowNYtaEdXP2PiHZ1MMXch"/>
+        <correspAction xml:id="i-MowNYtaEdXP2PiHZ1MMXch" type="assigned"/>
         <correspContext corresp="i-MowNYtaEdXP2PiHZ1MMXch">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -114,11 +114,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fi_0017/mot_200203_Fi_0017-0001.pdf"/>
-      <div type="motHeader" xml:id="i-YZUXMVJuhTQ3Eov1sBkZ1o">
-        <div type="motTitle" xml:id="i-4enB7rz4yVizG428wq53pS"/>
-        <div type="motSubmissionInfo" xml:id="i-Az54pZHuyMYcdUdNx5phJc"/>
+      <div xml:id="i-YZUXMVJuhTQ3Eov1sBkZ1o" type="motHeader">
+        <div xml:id="i-4enB7rz4yVizG428wq53pS" type="motTitle"/>
+        <div xml:id="i-Az54pZHuyMYcdUdNx5phJc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Nv7twj9vY59UACCFLXW36h">
+      <div xml:id="i-Nv7twj9vY59UACCFLXW36h" type="motBody">
         <div xml:id="i-SShvmMRCaVpeyvhBRM23C8">
           <p xml:id="i-HkEDDymRmtwMT1yNRFVj9">
             2002/03 mnr: Fil7 pnr: c015
@@ -2204,11 +2204,12 @@
             UO 13 Arbetsmarknad 12825 -13025 13325 UO 14 Arbetsliv -230 -240
             -250 UO 15 Studiestöd 0 [0] [0] UO 16 Utbildning och universitetsforskning
             -2646 ++-3646 ++-4 646 UO 17 Kultur, medier, trossamfund och fritid
-            92 110 160 UO 18 Samhällsplanering, bostadsförs. och +&lt;-2213 +:-1800
-            -1800 byggande UO 19 Regional utjämning och utveckling 142 143
-            144 UO 20 Allmän miljö- och naturvård 425 400 405 UO 21 Energi
-            0 [0] [0] UO 22 Kommunikationer 598 848 1098 UO 23 Jord- och skogsbruk,
-            fiske m.m. 210 210 210 UO 24 Näringsliv -130 -140 -147
+            92 110 160 UO 18 Samhällsplanering, bostadsförs. och +&lt;-2213
+            +:-1800 -1800 byggande UO 19 Regional utjämning och utveckling
+            142 143 144 UO 20 Allmän miljö- och naturvård 425 400 405 UO 21
+            Energi 0 [0] [0] UO 22 Kommunikationer 598 848 1098 UO 23 Jord-
+            och skogsbruk, fiske m.m. 210 210 210 UO 24 Näringsliv -130 -140
+            -147
           </p>
           <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fi_0017/mot_200203_Fi_0017-0035.pdf"/>
           <p xml:id="i-7PMbVy6wqgVxBFvAGwMyB2">
@@ -3284,7 +3285,10 @@
             Elanders Gotab, Stockholm 2003
           </p>
           <p xml:id="i-DBbodk5vJtUm9vKeKCz98q" type="date">
-            Stockholm den 5 maj 2003 Maud Olofsson (c)
+            Stockholm den 5 maj 2003
+          </p>
+          <p type="signatureBlock" id="i-TwDhWdk1v2H6Ke4NyUoMh2">
+            Maud Olofsson (c)
           </p>
           <p xml:id="i-PPfz6SxE7TTWVp4aRBH3bd">
             Agne Hansson (c) Åsa Torstensson (c) Kenneth Johansson (c) Margareta

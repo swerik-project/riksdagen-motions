@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00334">
   <teiHeader>
     <fileDesc>
@@ -119,16 +119,16 @@
           <note type="signatory" corresp="i-RDeqY3mXLBtUS9bixjvHS"/>
           <note type="signatory" corresp="i-QhURWkawnPDBf443faKewj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-mHC9V8YGQEJcKJwCBm98Y">
+        <correspAction xml:id="i-mHC9V8YGQEJcKJwCBm98Y" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-66xwokQZaLPAx6vKPVwU9F">
+        <correspAction xml:id="i-66xwokQZaLPAx6vKPVwU9F" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2e7xWSu2AoxTrwTHVGCDoJ">
+        <correspAction xml:id="i-2e7xWSu2AoxTrwTHVGCDoJ" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-H1TtM4HrB4vjsUKakjEDEQ"/>
+        <correspAction xml:id="i-H1TtM4HrB4vjsUKakjEDEQ" type="assigned"/>
         <correspContext corresp="i-H1TtM4HrB4vjsUKakjEDEQ">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -143,11 +143,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_334/mot_200506_T_334-0001.pdf"/>
-      <div type="motHeader" xml:id="i-X6gGyDV467S8RyKoFq79hA">
-        <div type="motTitle" xml:id="i-YEw9dwRhHkiAhVZSr6Jbdb"/>
-        <div type="motSubmissionInfo" xml:id="i-X8fsTpjUGhbjiDV38M9aoQ"/>
+      <div xml:id="i-X6gGyDV467S8RyKoFq79hA" type="motHeader">
+        <div xml:id="i-YEw9dwRhHkiAhVZSr6Jbdb" type="motTitle"/>
+        <div xml:id="i-X8fsTpjUGhbjiDV38M9aoQ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HMiveTWLMaC8f3jXedH3JS">
+      <div xml:id="i-HMiveTWLMaC8f3jXedH3JS" type="motBody">
         <div xml:id="i-SwizNg4AXh8UDzDZjWajVs">
           <p xml:id="i-LLxy1ezxKToNDkAhNvDELd">
             2005/06 mnr: T334 pnr: fp654
@@ -571,9 +571,12 @@
           <p xml:id="i-cT6vtYNnDL7FPtoxjRmD3">
             annan avgiftssättning stimulera insjöfarten. Regeringen bör hitta
             ett system så att insjö- och kustfart i Sverige kan öka och därmed
-            tryggas. Stockholm den 30 september 2005
+            tryggas.
           </p>
-          <p xml:id="i-2ytitjKYcYgFBg7fr3miWA">
+          <p type="date" id="i-XLGwDFSVv2hgsaH41djrZy">
+            Stockholm den 30 september 2005
+          </p>
+          <p xml:id="i-2ytitjKYcYgFBg7fr3miWA" type="signatureBlock">
             Christer Winbäck (fp) Erling Bager (fp) Marita Aronson (fp) Anita
             Brodén (fp) Axel Darvik (fp) Anne-Marie Ekström (fp) Jan Ertsborn
             (fp) Eva Flyborg (fp) Lennart Kollmats (fp) Lars Tysklind (fp)

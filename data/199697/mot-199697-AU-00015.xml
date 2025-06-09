@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-AU-00015">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-AeygsPpZHRw5TndXwnCHQm</idno>
-            <name>Karin Starrin </name>
+            <name>Karin Starrin</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8nBowznUVSFRkXCk29Taip"/>
+        <correspAction xml:id="i-8nBowznUVSFRkXCk29Taip" type="basedOn"/>
         <correspContext corresp="i-8nBowznUVSFRkXCk29Taip">
           <ref>Proposition 1996/97:55</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-AeygsPpZHRw5TndXwnCHQm"/>
           <note type="signatory" corresp="i-AeygsPpZHRw5TndXwnCHQm"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AYZB7YAp1u7moXRh1CEus9">
+        <correspAction xml:id="i-AYZB7YAp1u7moXRh1CEus9" type="referral">
           <date when="1996-11-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JJV21jiuH9oUm2x5rJ9X6M">
+        <correspAction xml:id="i-JJV21jiuH9oUm2x5rJ9X6M" type="dismissal">
           <date when="1996-11-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EUw6muxwLzE81wp6Ngs24D">
+        <correspAction xml:id="i-EUw6muxwLzE81wp6Ngs24D" type="submission">
           <date when="1996-11-27"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-FVqPcqvb2qErSMVcH86ne9">
+        <correspAction xml:id="i-FVqPcqvb2qErSMVcH86ne9" type="referral">
           <date when="1996-11-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PHVEmfojVsJFiPUg9smMhJ">
+        <correspAction xml:id="i-PHVEmfojVsJFiPUg9smMhJ" type="dismissal">
           <date when="1996-11-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4eBXtLGzboNFhK7z7b6ghs">
+        <correspAction xml:id="i-4eBXtLGzboNFhK7z7b6ghs" type="submission">
           <date when="1996-11-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LRRzwSU9tBiXD4Xc5fA85Y"/>
+        <correspAction xml:id="i-LRRzwSU9tBiXD4Xc5fA85Y" type="assigned"/>
         <correspContext corresp="i-LRRzwSU9tBiXD4Xc5fA85Y">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0015/mot_199697_A_0015-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0015/mot_199697_A_0015-001.pdf"/>
-      <div type="motHeader" xml:id="i-4qJFQVZZcdArTPAdZghdX8">
-        <div type="motTitle" xml:id="i-2Xabf54MhtVSkPNamWn4Kf"/>
-        <div type="motSubmissionInfo" xml:id="i-PFZATmkZWvK1xUiGMBYYXg"/>
+      <div xml:id="i-4qJFQVZZcdArTPAdZghdX8" type="motHeader">
+        <div xml:id="i-2Xabf54MhtVSkPNamWn4Kf" type="motTitle"/>
+        <div xml:id="i-PFZATmkZWvK1xUiGMBYYXg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CzmEcbxJUKV53njNouzz8N">
+      <div xml:id="i-CzmEcbxJUKV53njNouzz8N" type="motBody">
         <div xml:id="i-RAgEMydUZqcDGkYsGjYTTb">
           <p xml:id="i-MbDyg2YNTudymR7YL3vtV1">
             1996/97 A15 A14—20
@@ -143,10 +143,12 @@
           <p xml:id="i-4ARSVsYBYzSTk2RA8SdaPd">
             Med hänvisning till det anförda hemställs att riksdagen som sin
             mening ger regeringen till känna vad i motionen anförts om regionalpolitiska
-            hänsyn vid AmuGruppens omstrukturering. Stockholm den 27 november
-            1996
+            hänsyn vid AmuGruppens omstrukturering.
           </p>
-          <p xml:id="i-9saVjpJCKnY2PZY7GCSa9N">
+          <p type="date" id="i-DBYnA5o5SJdfqTaNfz8Dm2">
+            Stockholm den 27 november 1996
+          </p>
+          <p xml:id="i-9saVjpJCKnY2PZY7GCSa9N" type="signatureBlock">
             Karin Starrin (c)
           </p>
         </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00270">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-M2Wbsfxk1CQqaDZL5wjYg6">
           <note type="signatory" corresp="i-FKLdFezw4jPcBcpexqvUyJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5wdLTPJep76uVYjyU5DJb6">
+        <correspAction xml:id="i-5wdLTPJep76uVYjyU5DJb6" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VdWCzAP9gk5YxqEqfZP4ZZ">
+        <correspAction xml:id="i-VdWCzAP9gk5YxqEqfZP4ZZ" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HrbMq86ykp1q7qdtcKkQtg">
+        <correspAction xml:id="i-HrbMq86ykp1q7qdtcKkQtg" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NoHzFHYyGc79uuoURDE6UU"/>
+        <correspAction xml:id="i-NoHzFHYyGc79uuoURDE6UU" type="assigned"/>
         <correspContext corresp="i-NoHzFHYyGc79uuoURDE6UU">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_270/mot_200405_T_270-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VXB7i9XCwAqC354ocxsGsp">
-        <div type="motTitle" xml:id="i-WEE3vgRANnmGUTQ8fsJoz2"/>
-        <div type="motSubmissionInfo" xml:id="i-Mo7w5WScsvqpomhvDyT6vN"/>
+      <div xml:id="i-VXB7i9XCwAqC354ocxsGsp" type="motHeader">
+        <div xml:id="i-WEE3vgRANnmGUTQ8fsJoz2" type="motTitle"/>
+        <div xml:id="i-Mo7w5WScsvqpomhvDyT6vN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RfqUN8oDuH4q17pMLY5HJo">
+      <div xml:id="i-RfqUN8oDuH4q17pMLY5HJo" type="motBody">
         <div xml:id="i-JnhRJg2Rnx7LtLDmXLdZCJ">
           <p xml:id="i-3KTkNVmLEE8vPtB13Dcz7G">
             2004/05 mnr: T270 pnr: m1361
@@ -123,9 +123,12 @@
           <p xml:id="i-GZuR9pR8D2TMviU91Aac3T">
             Men denna väg, som är en livsviktig väg för fordonsindustrin
             liksom för många pendlare och trafikanter, har ännu inte blivit
-            byggd. Stockholm den 28 september 2004
+            byggd.
           </p>
-          <p xml:id="i-98w8ZdH97suzTkZGYhuhjV">
+          <p type="date" id="i-L5gAC8kyt3aPeJAsZVrAXy">
+            Stockholm den 28 september 2004
+          </p>
+          <p xml:id="i-98w8ZdH97suzTkZGYhuhjV" type="signatureBlock">
             Kent Olsson (m)
           </p>
         </div>

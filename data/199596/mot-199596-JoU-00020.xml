@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-JoU-00020">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="man">
             <idno>i-UDXM9dqeHhySJV3ZevrZPw</idno>
-            <name>Dan Ericsson </name>
+            <name>Dan Ericsson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-QrnhMBZLsGdbeBasmoTLpZ</idno>
-            <name>Mats Odell </name>
+            <name>Mats Odell</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KuaNWEmX5zeHQXrKRRAByu"/>
+        <correspAction xml:id="i-KuaNWEmX5zeHQXrKRRAByu" type="basedOn"/>
         <correspContext corresp="i-KuaNWEmX5zeHQXrKRRAByu">
           <ref>Proposition 1995/96:174</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-UDXM9dqeHhySJV3ZevrZPw"/>
           <note type="signatory" corresp="i-QrnhMBZLsGdbeBasmoTLpZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LUundu3YGNsmwyMrk6HSVk">
+        <correspAction xml:id="i-LUundu3YGNsmwyMrk6HSVk" type="referral">
           <date when="1996-05-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DAfWp9JybLZANagPauHuiT">
+        <correspAction xml:id="i-DAfWp9JybLZANagPauHuiT" type="dismissal">
           <date when="1996-05-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PiDb7WDUCHWggNg8HdF9RV">
+        <correspAction xml:id="i-PiDb7WDUCHWggNg8HdF9RV" type="submission">
           <date when="1996-04-30"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Lb8J98yUt4FbMgwaaifggC">
+        <correspAction xml:id="i-Lb8J98yUt4FbMgwaaifggC" type="referral">
           <date when="1996-05-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-F54jaoa9mXkWXiKwuzwnjs">
+        <correspAction xml:id="i-F54jaoa9mXkWXiKwuzwnjs" type="dismissal">
           <date when="1996-05-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M1hKBoXyJSydmyaHU1HnCc">
+        <correspAction xml:id="i-M1hKBoXyJSydmyaHU1HnCc" type="submission">
           <date when="1996-04-30"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5cugr2mkH4MWnH8K9GqXFj"/>
+        <correspAction xml:id="i-5cugr2mkH4MWnH8K9GqXFj" type="assigned"/>
         <correspContext corresp="i-5cugr2mkH4MWnH8K9GqXFj">
           <ref type="assignedTo">Jordbruksutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_JO_0020/mot_199596_JO_0020-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FRSMcSMGhsmMbHxh6DqzF1">
-        <div type="motTitle" xml:id="i-EzPb42khRrT1k69KtuctT3"/>
-        <div type="motSubmissionInfo" xml:id="i-J4stBTLnS25XUDzqTzmbm8"/>
+      <div xml:id="i-FRSMcSMGhsmMbHxh6DqzF1" type="motHeader">
+        <div xml:id="i-EzPb42khRrT1k69KtuctT3" type="motTitle"/>
+        <div xml:id="i-J4stBTLnS25XUDzqTzmbm8" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4NfT1rxF1pLju9y5uhi3dx">
+      <div xml:id="i-4NfT1rxF1pLju9y5uhi3dx" type="motBody">
         <div xml:id="i-GLkfZRJkZMXWWevqSBRWjg">
           <p xml:id="i-JnhDgCLVLbKnRwHAcsGK2v">
             JJo20
@@ -157,7 +157,13 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_JO_0020/mot_199596_JO_0020-0002.pdf"/>
           <p xml:id="i-L62GBx6Ch7QBRCEBkvK52">
-            Mot. Stockholm den 30 april 1996 1995/96J020
+            Mot.
+          </p>
+          <p type="date" id="i-WdAHyyJZiHMJbszgfQ8nMs">
+            Stockholm den 30 april 1996
+          </p>
+          <p type="signatureBlock" id="i-ViUU8gQrs9MYSMsdhL6Ybi">
+            1995/96J020
           </p>
           <p xml:id="i-PZ7u6bDsd6kNmBBiEvArkm">
             Dan Ericsson (kds) Mats Odell (kds)

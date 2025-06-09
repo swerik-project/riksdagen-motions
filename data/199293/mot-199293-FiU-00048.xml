@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-FiU-00048">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-LdbVtbdPx3MQxR6GEgCqax</idno>
-            <name>Berit Andnor </name>
+            <name>Berit Andnor</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-4qJ1WSYreoe9MGDFPCwZKy</idno>
-            <name>Margareta Winberg </name>
+            <name>Margareta Winberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-8cFSCdWjvpDgozuk8RHZyW</idno>
-            <name>Nils-Olof Gustafsson </name>
+            <name>Nils-Olof Gustafsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VckEHQkimw4tTvYb5sUkfD"/>
+        <correspAction xml:id="i-VckEHQkimw4tTvYb5sUkfD" type="basedOn"/>
         <correspContext corresp="i-VckEHQkimw4tTvYb5sUkfD">
           <ref>Proposition 1992/93:50</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-4qJ1WSYreoe9MGDFPCwZKy"/>
           <note type="signatory" corresp="i-8cFSCdWjvpDgozuk8RHZyW"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YHcJa3sUqPYfAGKUNeHoGW">
+        <correspAction xml:id="i-YHcJa3sUqPYfAGKUNeHoGW" type="referral">
           <date when="1992-11-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CW4BcrptdPZrVkhg9JgdWb">
+        <correspAction xml:id="i-CW4BcrptdPZrVkhg9JgdWb" type="dismissal">
           <date when="1992-11-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9wMko6fghLBr1iVT4iykFs">
+        <correspAction xml:id="i-9wMko6fghLBr1iVT4iykFs" type="submission">
           <date when="1992-11-12"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-91aemahGiMswZ7YFcBLYy9">
+        <correspAction xml:id="i-91aemahGiMswZ7YFcBLYy9" type="referral">
           <date when="1992-11-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WectqWKSrw2gr2CLhRxLZn">
+        <correspAction xml:id="i-WectqWKSrw2gr2CLhRxLZn" type="dismissal">
           <date when="1992-11-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-J6pjWPPAz5EGiHUbc9P7ps">
+        <correspAction xml:id="i-J6pjWPPAz5EGiHUbc9P7ps" type="submission">
           <date when="1992-11-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5F86MDwgjHNZVDPTvLbsHb"/>
+        <correspAction xml:id="i-5F86MDwgjHNZVDPTvLbsHb" type="assigned"/>
         <correspContext corresp="i-5F86MDwgjHNZVDPTvLbsHb">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_FiU_48/mot_199293_FiU_48-001.pdf"/>
-      <div type="motHeader" xml:id="i-VVMYXBqD6X2SAN1S58AGmP">
-        <div type="motTitle" xml:id="i-9VUXek7xDYTh5Rc1c6i5xV"/>
-        <div type="motSubmissionInfo" xml:id="i-SxyipcU3DgYFNvcLYWmQC6"/>
+      <div xml:id="i-VVMYXBqD6X2SAN1S58AGmP" type="motHeader">
+        <div xml:id="i-9VUXek7xDYTh5Rc1c6i5xV" type="motTitle"/>
+        <div xml:id="i-SxyipcU3DgYFNvcLYWmQC6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QcXQQFcX8ZG55cnp9iMNzb">
+      <div xml:id="i-QcXQQFcX8ZG55cnp9iMNzb" type="motBody">
         <div xml:id="i-MarmgEBdw9guvSj2MHw7xy">
           <p xml:id="i-7DfZm5n3tvUT9ZkqarURZ5">
             Motion till riksdagen 1992/93:Fi48
@@ -197,7 +197,13 @@
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i denna motion och
             i Socialdemokraternas partimotion 1992/93:Fi35 anförts om sysselsättningsförhållandena
-            i Jämtlands län. Stockholm den 12 november 1992 Berit Andnor (s)
+            i Jämtlands län.
+          </p>
+          <p type="date" id="i-3c8sN9rR3iqPoF4nr13tJE">
+            Stockholm den 12 november 1992
+          </p>
+          <p type="signatureBlock" id="i-KjNebZzR26J5apRbTLvRrE">
+            Berit Andnor (s)
           </p>
           <p xml:id="i-3SPwFXjSw51yhBE6MW7gzd">
             Nils-Olof Gustafsson (s) Margareta Winberg (s)

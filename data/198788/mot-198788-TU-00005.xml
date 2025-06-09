@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-TU-00005">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-EX18TbrxGC6Km2b9y1hQvW"/>
+        <correspAction xml:id="i-EX18TbrxGC6Km2b9y1hQvW" type="basedOn"/>
         <correspContext corresp="i-EX18TbrxGC6Km2b9y1hQvW">
           <ref>Proposition 1987/88:49</ref>
         </correspContext>
@@ -66,16 +66,16 @@
           <note type="signatory" corresp="i-TpZYt1GVcqVji9XRcawvXB"/>
           <note type="signatory" corresp="i-6ZF2Us4x7YRiu8c71xtsNW"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-MZgD4LgjcdWeJywDxHtEpB">
+        <correspAction xml:id="i-MZgD4LgjcdWeJywDxHtEpB" type="submission">
           <date when="1987-11-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2dL23Azgg2YzDGihVnADu9">
+        <correspAction xml:id="i-2dL23Azgg2YzDGihVnADu9" type="dismissal">
           <date when="1987-11-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-R1VnyDzWJmVseV9gmGDUjZ">
+        <correspAction xml:id="i-R1VnyDzWJmVseV9gmGDUjZ" type="referral">
           <date when="1987-11-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BiXQjV6ScG36kNUA8aN8ka">
+        <correspAction xml:id="i-BiXQjV6ScG36kNUA8aN8ka" type="assigned">
           <date when="2014-11-22"/>
           <time when="04:11:25"/>
         </correspAction>
@@ -91,11 +91,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_t_5/mot_198788_t_5-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-NnLUmPty9UGJ3y8bDNFGkL">
-        <div type="motTitle" xml:id="i-BtmGBqNbWSFREzxb14BUTn"/>
-        <div type="motSubmissionInfo" xml:id="i-VAapCbCt1ybrUgAigUT9M4"/>
+      <div xml:id="i-NnLUmPty9UGJ3y8bDNFGkL" type="motHeader">
+        <div xml:id="i-BtmGBqNbWSFREzxb14BUTn" type="motTitle"/>
+        <div xml:id="i-VAapCbCt1ybrUgAigUT9M4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TDPa3Zcoe6ztpGJ67Ps1oe">
+      <div xml:id="i-TDPa3Zcoe6ztpGJ67Ps1oe" type="motBody">
         <div xml:id="i-7JCXu2TCXcQH7vAnUFB2Yf">
           <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_t_5/mot_198788_t_5-001.pdf"/>
           <p xml:id="i-T1GSczASofKyRoTe4njp3m">
@@ -140,7 +140,10 @@
             ” Den som bryter mot 2 $ skall dömas till böter.”
           </p>
           <p xml:id="i-VAahEg4Fb9j7Bp7qQgLSy" type="date">
-            Stockholm den 24 november 1987 Olle Grahn (fp)
+            Stockholm den 24 november 1987
+          </p>
+          <p type="signatureBlock" id="i-FTcse3ZGKAJ2uYt8AHPubW">
+            Olle Grahn (fp)
           </p>
           <p xml:id="i-UJgF7tvRUgj6fvwKq5Z5HM">
             Hugo Bergdahl (fp) Ingrid Hasselström Nyvall (fp) Margareta Fogelberg

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-TU-00293">
   <teiHeader>
     <fileDesc>
@@ -38,34 +38,34 @@
         <correspContext corresp="i-XHKMRUsJzW7xKyaqgdv4pf">
           <note type="signatory" corresp="i-SKjAmNScZ7eZ3a8Xy1J8hs"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QGJkT8y7AknQQTiTQnjyH6">
+        <correspAction xml:id="i-QGJkT8y7AknQQTiTQnjyH6" type="referral">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SVk6ww2Rj9fAjhbZGC6WZi">
+        <correspAction xml:id="i-SVk6ww2Rj9fAjhbZGC6WZi" type="dismissal">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-Rr94FMUTBcQmpqqwi6BfgL">
+        <correspAction xml:id="i-Rr94FMUTBcQmpqqwi6BfgL" type="termination">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CEyg5Q6a1tKCsGA1PwwzM1">
+        <correspAction xml:id="i-CEyg5Q6a1tKCsGA1PwwzM1" type="submission">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-VRkcCZcC87yXMVTRxMHTj7">
+        <correspAction xml:id="i-VRkcCZcC87yXMVTRxMHTj7" type="numbering">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-XLx3ANuYtJrQyJgnvNALrG">
+        <correspAction xml:id="i-XLx3ANuYtJrQyJgnvNALrG" type="proposed_referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-YEuALYknvXFngJF1QuJQj2">
+        <correspAction xml:id="i-YEuALYknvXFngJF1QuJQj2" type="committee_proposal">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-LnGAJWYpRscghvE6Aj2ypo">
+        <correspAction xml:id="i-LnGAJWYpRscghvE6Aj2ypo" type="reviewing">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-MVCaQvRvr5ETQF1n6QmKjm">
+        <correspAction xml:id="i-MVCaQvRvr5ETQF1n6QmKjm" type="registration">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TEj2thyq9NC61LH3mHhx9V"/>
+        <correspAction xml:id="i-TEj2thyq9NC61LH3mHhx9V" type="assigned"/>
         <correspContext corresp="i-TEj2thyq9NC61LH3mHhx9V">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -80,11 +80,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_T_0293/mot_200102_T_0293-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RcwKMJpYvqEBzZpro9S3K7">
-        <div type="motTitle" xml:id="i-NTifoucpx5CF8xsq5FZbDA"/>
-        <div type="motSubmissionInfo" xml:id="i-3ADfaYzRBW2AxrNH9brqjZ"/>
+      <div xml:id="i-RcwKMJpYvqEBzZpro9S3K7" type="motHeader">
+        <div xml:id="i-NTifoucpx5CF8xsq5FZbDA" type="motTitle"/>
+        <div xml:id="i-3ADfaYzRBW2AxrNH9brqjZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Bj1qR2EmjKPXnCXYmjBWSV">
+      <div xml:id="i-Bj1qR2EmjKPXnCXYmjBWSV" type="motBody">
         <div xml:id="i-NdDPTejsVLZF1zToWsFpHx">
           <p xml:id="i-7xaR8PJARJ7wCBDxg4DKLS">
             2001/02
@@ -205,9 +205,12 @@
           <p xml:id="i-NbcQwmNcc23mUNZKrygP64">
             annan är att ändra lagstiftningen så att det blir enkelt att
             erhålla körkort med begränsad behörighet, t ex körning endast
-            i dagsljus. Stockholm den 24 september 2001
+            i dagsljus.
           </p>
-          <p xml:id="i-XrdTLks5yA7LKcozn8DZs1">
+          <p type="date" id="i-AMKYpvZ9zjCPdaEajHhW2y">
+            Stockholm den 24 september 2001
+          </p>
+          <p xml:id="i-XrdTLks5yA7LKcozn8DZs1" type="signatureBlock">
             Maria Larsson (kd)
           </p>
         </div>

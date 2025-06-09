@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00005">
   <teiHeader>
     <fileDesc>
@@ -77,7 +77,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-WarfSeL9viuU1HicJD1gtY"/>
+        <correspAction xml:id="i-WarfSeL9viuU1HicJD1gtY" type="basedOn"/>
         <correspContext corresp="i-WarfSeL9viuU1HicJD1gtY">
           <ref>Proposition 2005/06:98</ref>
         </correspContext>
@@ -91,19 +91,19 @@
           <note type="signatory" corresp="i-SxwXtVqzR6fyXB2uQfozAQ"/>
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NCPL9WPj8SXg3ZmMCcjPBw">
+        <correspAction xml:id="i-NCPL9WPj8SXg3ZmMCcjPBw" type="referral">
           <date when="2006-03-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UysJ9fmW7YW9tSnkVxqwZZ">
+        <correspAction xml:id="i-UysJ9fmW7YW9tSnkVxqwZZ" type="dismissal">
           <date when="2006-03-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MkENzNzHjoJuR25byQYoFq">
+        <correspAction xml:id="i-MkENzNzHjoJuR25byQYoFq" type="dismissal">
           <date when="2006-03-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Uep8ciEU7MwnVMMAgrrM2T">
+        <correspAction xml:id="i-Uep8ciEU7MwnVMMAgrrM2T" type="submission">
           <date when="2006-03-10"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Gx2B4igEtj6nmpouZ6rXYm"/>
+        <correspAction xml:id="i-Gx2B4igEtj6nmpouZ6rXYm" type="assigned"/>
         <correspContext corresp="i-Gx2B4igEtj6nmpouZ6rXYm">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_5/mot_200506_L_5-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5smkwxdeE8ogb8vsKV547h">
-        <div type="motTitle" xml:id="i-GHG1ofao1Qa2bCVsRruggB"/>
-        <div type="motSubmissionInfo" xml:id="i-Rg7Qi7LE8kmJsCv4HwvCaB"/>
+      <div xml:id="i-5smkwxdeE8ogb8vsKV547h" type="motHeader">
+        <div xml:id="i-GHG1ofao1Qa2bCVsRruggB" type="motTitle"/>
+        <div xml:id="i-Rg7Qi7LE8kmJsCv4HwvCaB" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Qs1NEr8smGbt14UN1bay3Z">
+      <div xml:id="i-Qs1NEr8smGbt14UN1bay3Z" type="motBody">
         <div xml:id="i-BeZn7KwGJQhfJ45jGkf4yP">
           <p xml:id="i-9fNztYuPstZS8qjD8GHZLU">
             2005/06 mnr: L5 pnr: v015
@@ -251,7 +251,10 @@
             om franchiseupplåtelse.
           </p>
           <p xml:id="i-MUJmQvL4AX1SaaAcFKfvBp" type="date">
-            Stockholm den 2 mars 2006 Tasso Stafilidis (v)
+            Stockholm den 2 mars 2006
+          </p>
+          <p type="signatureBlock" id="i-Q4Tc54tbcdq9zZVDWMWCpz">
+            Tasso Stafilidis (v)
           </p>
           <p xml:id="i-4caKBy1ogfATRfFCDFg3gq">
             Rossana Dinamarca (v) Mats Einarsson (v) Siv Holma (v) Rolf Olsson

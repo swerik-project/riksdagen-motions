@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00037">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-DhU1hQbKCoEAgCF8x1q97c"/>
+        <correspAction xml:id="i-DhU1hQbKCoEAgCF8x1q97c" type="basedOn"/>
         <correspContext corresp="i-DhU1hQbKCoEAgCF8x1q97c">
           <ref>Regeringsskrivelse 2003/04:143</ref>
         </correspContext>
@@ -66,16 +66,16 @@
           <note type="signatory" corresp="i-WTCYyz27itjvuvffL1vZLi"/>
           <note type="signatory" corresp="i-991obiMTz36s9V7z3YpuZk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EjnNgGpHmXLbRFqGjqk1JU">
+        <correspAction xml:id="i-EjnNgGpHmXLbRFqGjqk1JU" type="referral">
           <date when="2004-06-01"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SPNmoj4xHqmRc7aSkfkmX6">
+        <correspAction xml:id="i-SPNmoj4xHqmRc7aSkfkmX6" type="dismissal">
           <date when="2004-05-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JFJTgAek6gfoK8wZmpXuvg">
+        <correspAction xml:id="i-JFJTgAek6gfoK8wZmpXuvg" type="submission">
           <date when="2004-05-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LvcnCXYdPRJEycXkWV1SKv"/>
+        <correspAction xml:id="i-LvcnCXYdPRJEycXkWV1SKv" type="assigned"/>
         <correspContext corresp="i-LvcnCXYdPRJEycXkWV1SKv">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -90,11 +90,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fi_0037/mot_200304_Fi_0037-0001.pdf"/>
-      <div type="motHeader" xml:id="i-urDQRSwFiYPZUwdMDLmXz">
-        <div type="motTitle" xml:id="i-NqdFXr8yoCGaK5XHZ88wv8"/>
-        <div type="motSubmissionInfo" xml:id="i-CePPYovC1HX9QKzE4G99y2"/>
+      <div xml:id="i-urDQRSwFiYPZUwdMDLmXz" type="motHeader">
+        <div xml:id="i-NqdFXr8yoCGaK5XHZ88wv8" type="motTitle"/>
+        <div xml:id="i-CePPYovC1HX9QKzE4G99y2" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Wix6vqb1GWkFzBgLjtcK3p">
+      <div xml:id="i-Wix6vqb1GWkFzBgLjtcK3p" type="motBody">
         <div xml:id="i-LqVPAqCUHYpnfmSvgFHqZ">
           <p xml:id="i-J1jPB3LV6C2heNKfimnbNc">
             2003/04 mnr: Fi37 pnr: v023
@@ -164,8 +164,11 @@
             sin mening ge regeringen till känna.
           </p>
           <p xml:id="i-VmrYWKHLR6EfTFTqbzhXT1" type="date">
-            Stockholm den 27 maj 2004 Ingrid Burman (v) Siv Holma (v) Elina
-            Linna (v) Gunilla Wahlén (v)
+            Stockholm den 27 maj 2004
+          </p>
+          <p type="signatureBlock" id="i-BpihjwpSAJxXppzcWqEmfZ">
+            Ingrid Burman (v) Siv Holma (v) Elina Linna (v) Gunilla Wahlén
+            (v)
           </p>
         </div>
       </div>

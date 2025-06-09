@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-KU-00029">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-VQ8e4QWrW7Gvhr9MwK6fQ9</idno>
-            <name>Isa Halvarsson </name>
+            <name>Isa Halvarsson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Natu7EpsqDfU3ikaqMuWpZ"/>
+        <correspAction xml:id="i-Natu7EpsqDfU3ikaqMuWpZ" type="basedOn"/>
         <correspContext corresp="i-Natu7EpsqDfU3ikaqMuWpZ">
           <ref>Proposition 1997/98:77</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-VQ8e4QWrW7Gvhr9MwK6fQ9"/>
           <note type="signatory" corresp="i-VQ8e4QWrW7Gvhr9MwK6fQ9"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VEqJUW1RwLYfQmwCEAWpKZ">
+        <correspAction xml:id="i-VEqJUW1RwLYfQmwCEAWpKZ" type="referral">
           <date when="1998-03-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JHfBBejMWNwLtzJCD7WXhC">
+        <correspAction xml:id="i-JHfBBejMWNwLtzJCD7WXhC" type="dismissal">
           <date when="1998-03-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-YTv3fyaNmDJ74S3hzR1DTG">
+        <correspAction xml:id="i-YTv3fyaNmDJ74S3hzR1DTG" type="submission">
           <date when="1998-03-18"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Po4TR65zqaD7DENXVDBJUt">
+        <correspAction xml:id="i-Po4TR65zqaD7DENXVDBJUt" type="referral">
           <date when="1998-03-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Q3s6AxoNBV1eR7op1txk6m">
+        <correspAction xml:id="i-Q3s6AxoNBV1eR7op1txk6m" type="dismissal">
           <date when="1998-03-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Thd9i3jscPAiyN9ge3GJQa">
+        <correspAction xml:id="i-Thd9i3jscPAiyN9ge3GJQa" type="submission">
           <date when="1998-03-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Ae7YBEfb6VZtBgPC5853Vh"/>
+        <correspAction xml:id="i-Ae7YBEfb6VZtBgPC5853Vh" type="assigned"/>
         <correspContext corresp="i-Ae7YBEfb6VZtBgPC5853Vh">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_K_0029/mot_199798_K_0029-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QjmQF7D8Z4rZ5Lqsv6s6xD">
-        <div type="motTitle" xml:id="i-2wSXVhSqCbkPuZtt7SvcjN"/>
-        <div type="motSubmissionInfo" xml:id="i-VTfWGWk2VMPZxKvPwfNQE5"/>
+      <div xml:id="i-QjmQF7D8Z4rZ5Lqsv6s6xD" type="motHeader">
+        <div xml:id="i-2wSXVhSqCbkPuZtt7SvcjN" type="motTitle"/>
+        <div xml:id="i-VTfWGWk2VMPZxKvPwfNQE5" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LHdQRqkZpzJi2VuWSyKZrN">
+      <div xml:id="i-LHdQRqkZpzJi2VuWSyKZrN" type="motBody">
         <div xml:id="i-AezYb8GGGP4CQmJA7yHDJX">
           <p xml:id="i-P945pQaGDq9vD87HTzvfuK">
             1997/98 K29 K28-32
@@ -138,7 +138,10 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_K_0029/mot_199798_K_0029-0002.pdf"/>
           <p xml:id="i-PvCbbAz99sbLzyikmjjnAg" type="date">
-            Stockholm den 18 mars 1998 Mot.
+            Stockholm den 18 mars 1998
+          </p>
+          <p type="signatureBlock" id="i-AQ2N7LenNt6S383Q33Ljc7">
+            Mot.
           </p>
           <p xml:id="i-Jb7L8HmEsNW79LmgMAE8MQ">
             1997/98K29 Isa Halvarsson (fp)

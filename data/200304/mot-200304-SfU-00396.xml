@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00396">
   <teiHeader>
     <fileDesc>
@@ -86,16 +86,16 @@
           <note type="signatory" corresp="i-EANGVQ7bBDvQLJRQXHptPX"/>
           <note type="signatory" corresp="i-CetFkRWST91ShCPmaZKsM4"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-E98BdLdvpmdEiCqZgGF5UN">
+        <correspAction xml:id="i-E98BdLdvpmdEiCqZgGF5UN" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HdkeQiJGZKLBggRcBG9MAD">
+        <correspAction xml:id="i-HdkeQiJGZKLBggRcBG9MAD" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WbNTYFwsCLuz7kHH2QNEX8">
+        <correspAction xml:id="i-WbNTYFwsCLuz7kHH2QNEX8" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5X3UKR65nJgCXn2LMcw8Qp"/>
+        <correspAction xml:id="i-5X3UKR65nJgCXn2LMcw8Qp" type="assigned"/>
         <correspContext corresp="i-5X3UKR65nJgCXn2LMcw8Qp">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0396/mot_200304_Sf_0396-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DxGj5BiizWEq2jFeSv9Ej7">
-        <div type="motTitle" xml:id="i-FW6iRn3oqKZEmkZ7W6QijM"/>
-        <div type="motSubmissionInfo" xml:id="i-SUH2d8FVK9xDWb8tn5PhSY"/>
+      <div xml:id="i-DxGj5BiizWEq2jFeSv9Ej7" type="motHeader">
+        <div xml:id="i-FW6iRn3oqKZEmkZ7W6QijM" type="motTitle"/>
+        <div xml:id="i-SUH2d8FVK9xDWb8tn5PhSY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7cPoUogpf3vCFTYJpBxVxi">
+      <div xml:id="i-7cPoUogpf3vCFTYJpBxVxi" type="motBody">
         <div xml:id="i-WYeZgRvF8P6BSPVPnyXeYn">
           <p xml:id="i-V8cLJAG8a2FjFt8oov4wU3">
             2003/04 mnr: Sf396 pnr: c120
@@ -762,37 +762,38 @@
             som Företagarnas riksorganisation låtit göra visas att en klar
             majoritet av landets småföretagare är beredda att ta ansvar när
             det gäller att integrera invandrare på arbetsmarknaden = — tex.
-            genom =&lt;:att erbjuda praktikplatser. Kommunplaceringen och arbetsplatsplaceringen
-            bör ta sin utgångspunkt i alla individers olika förutsättningar
-            och behov. Dessa ska fastställas i den individuella handlingsplanen.
-            Den som kommer till Sverige ska stimuleras att ta erbjuden sysselsättning
-            i form av praktik- eller introduktionsplats. Socialtjänstlagstiftningen
-            ska ändras så att kommuner får rätt att ställa krav på motprestationer
-            på bidragsmottagare. Detta bör ges regeringen till känna. Vägran
-            att ta erbjuden praktikplats ska leda till radikalt sänkt bidrag,
-            vilket dock inte innebär att man ska vara likgiltig för praktikantens
-            egna önskemål om inriktning. Detta gäller alla dem som erhåller
-            flyktingbidrag eller socialbidrag, dvs. alla oavsett om man är
-            flykting, invandrare eller svensk medborgare. Återigen: arbetslinjen
-            gäller till stöd för den enskilde. Vi återkommer med mer förslag
-            när det gäller arbete och sysselsättning för nyanlända invandrare
-            i stycke 7.5. Efter avslutad praktikplats, såvida personen inte
-            fått anställning, bör personen vara redo för att söka ett jobb
-            som motsvarar utbildning och kunskap. I väntan på arbete ska personen
-            dock vara sysselsatt exempelvis inom den kommunala jobbpoolen.
-            Vad som ovan anförts om ett samarbete mellan arbetsmarknadens
-            parter till nytta för arbete och praktikplatser åt nyanlända invandrare
-            bör ges regeringen till känna. Idag finns det exempel på projekt
-            där man tagit fasta på ökad sysselsättning för flyktingar och
-            invandrare. I både Norge och Danmark har man arbetat fram modeller
-            med ett tydligt sysselsättningsfokus. I Norge har man infört ett
-            introduktionsprogram för asylsökande som innebär praktik varvat
-            med språkundervisning, vilket ger ett visst ekonomiskt stöd åt
-            de deltagande. Stödet kan liknas vid förvärvslön snarare än bidrag
-            och är kopplat till individen, oavsett familjesituation. Tanken
-            är att introduktionskursen i slutändan ska generera anställning.
-            I vårt andra grannland Danmark använder man ett liknande arbetssätt.
-            Centerpartiet sympatiserar inte på något sätt med
+            genom =&lt;:att erbjuda praktikplatser. Kommunplaceringen och
+            arbetsplatsplaceringen bör ta sin utgångspunkt i alla individers
+            olika förutsättningar och behov. Dessa ska fastställas i den individuella
+            handlingsplanen. Den som kommer till Sverige ska stimuleras att
+            ta erbjuden sysselsättning i form av praktik- eller introduktionsplats.
+            Socialtjänstlagstiftningen ska ändras så att kommuner får rätt
+            att ställa krav på motprestationer på bidragsmottagare. Detta
+            bör ges regeringen till känna. Vägran att ta erbjuden praktikplats
+            ska leda till radikalt sänkt bidrag, vilket dock inte innebär
+            att man ska vara likgiltig för praktikantens egna önskemål om
+            inriktning. Detta gäller alla dem som erhåller flyktingbidrag
+            eller socialbidrag, dvs. alla oavsett om man är flykting, invandrare
+            eller svensk medborgare. Återigen: arbetslinjen gäller till stöd
+            för den enskilde. Vi återkommer med mer förslag när det gäller
+            arbete och sysselsättning för nyanlända invandrare i stycke 7.5.
+            Efter avslutad praktikplats, såvida personen inte fått anställning,
+            bör personen vara redo för att söka ett jobb som motsvarar utbildning
+            och kunskap. I väntan på arbete ska personen dock vara sysselsatt
+            exempelvis inom den kommunala jobbpoolen. Vad som ovan anförts
+            om ett samarbete mellan arbetsmarknadens parter till nytta för
+            arbete och praktikplatser åt nyanlända invandrare bör ges regeringen
+            till känna. Idag finns det exempel på projekt där man tagit fasta
+            på ökad sysselsättning för flyktingar och invandrare. I både Norge
+            och Danmark har man arbetat fram modeller med ett tydligt sysselsättningsfokus.
+            I Norge har man infört ett introduktionsprogram för asylsökande
+            som innebär praktik varvat med språkundervisning, vilket ger ett
+            visst ekonomiskt stöd åt de deltagande. Stödet kan liknas vid
+            förvärvslön snarare än bidrag och är kopplat till individen, oavsett
+            familjesituation. Tanken är att introduktionskursen i slutändan
+            ska generera anställning. I vårt andra grannland Danmark använder
+            man ett liknande arbetssätt. Centerpartiet sympatiserar inte på
+            något sätt med
           </p>
           <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0396/mot_200304_Sf_0396-0011.pdf"/>
           <p xml:id="i-P7tD9dPGqZyuJpoN2Axt1W">
@@ -1399,9 +1400,12 @@
             till invandrares företagande under utgiftsområdet Regional utveckling.
             Vi anser att invandrares företagande måste prioriteras i högre
             utsträckning och beaktas vid näringspolitikens utformning. Detta
-            bör ges regeringen till känna. Stockholm den 6 oktober 2003
+            bör ges regeringen till känna.
           </p>
-          <p xml:id="i-LNr3ZUuhhWRYySVKNhogfA">
+          <p type="date" id="i-CEzFd5ymtKL5G2exBGuzeT">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p xml:id="i-LNr3ZUuhhWRYySVKNhogfA" type="signatureBlock">
             Birgitta Carlsson (c)
           </p>
           <p xml:id="i-6vy8AUEDxuME7DBv6yNz26">

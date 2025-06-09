@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-KU-00027">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-NeYACd8NSiYWBhdiUeL6ZZ</idno>
-            <name>Nils Fredrik Aurelius </name>
+            <name>Nils Fredrik Aurelius</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-J9fh3Y2wK1C3hkJm3yQrpU"/>
+        <correspAction xml:id="i-J9fh3Y2wK1C3hkJm3yQrpU" type="basedOn"/>
         <correspContext corresp="i-J9fh3Y2wK1C3hkJm3yQrpU">
           <ref>Proposition 1994/95:226</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-NeYACd8NSiYWBhdiUeL6ZZ"/>
           <note type="signatory" corresp="i-NeYACd8NSiYWBhdiUeL6ZZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BDpXnU1hjCsP8PxGED3KHS">
+        <correspAction xml:id="i-BDpXnU1hjCsP8PxGED3KHS" type="referral">
           <date when="1995-06-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Ber53gP6J7RNUy4copAQui">
+        <correspAction xml:id="i-Ber53gP6J7RNUy4copAQui" type="dismissal">
           <date when="1995-06-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4uTNfVSWxxhoVxoF5iNgtu">
+        <correspAction xml:id="i-4uTNfVSWxxhoVxoF5iNgtu" type="submission">
           <date when="1995-06-13"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-LE9B5XF494BKaESwk2jyJg">
+        <correspAction xml:id="i-LE9B5XF494BKaESwk2jyJg" type="referral">
           <date when="1995-06-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3qkBYPujpZYpWNmKM5UJKu">
+        <correspAction xml:id="i-3qkBYPujpZYpWNmKM5UJKu" type="dismissal">
           <date when="1995-06-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FWWw7wqTQJKzrKvijPD955">
+        <correspAction xml:id="i-FWWw7wqTQJKzrKvijPD955" type="submission">
           <date when="1995-06-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VY91qfRXQqLyWwxrXmWpCb"/>
+        <correspAction xml:id="i-VY91qfRXQqLyWwxrXmWpCb" type="assigned"/>
         <correspContext corresp="i-VY91qfRXQqLyWwxrXmWpCb">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_KU_27/mot_199495_KU_27-001.pdf"/>
-      <div type="motHeader" xml:id="i-PcJbkkBB6KaAJgir6HVTsD">
-        <div type="motTitle" xml:id="i-NNqfsUZoMU1RDDsxmvM9uR"/>
-        <div type="motSubmissionInfo" xml:id="i-JcJ6aM72BrCT4eYkYdaHAH"/>
+      <div xml:id="i-PcJbkkBB6KaAJgir6HVTsD" type="motHeader">
+        <div xml:id="i-NNqfsUZoMU1RDDsxmvM9uR" type="motTitle"/>
+        <div xml:id="i-JcJ6aM72BrCT4eYkYdaHAH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3wF5J1ujdUNV7PetueEvji">
+      <div xml:id="i-3wF5J1ujdUNV7PetueEvji" type="motBody">
         <div xml:id="i-K1TqmRRBQtSPnpfUxwnp9L">
           <p xml:id="i-NwVGVshhiokMK9Zk1ykaPN">
             Motion till riksdagen 1994/95:K27
@@ -122,10 +122,12 @@
           <p xml:id="i-S3WL2r4LRc3gUcWECCWWXi">
             Med hänvisning till anförda hemställs att riksdagen som sin mening
             ger regeringen till känna vad i motio- nen anförts om dopkrav
-            för valbarhet till kyrkliga förtroendeuppdrag. Stockholm den 13
-            juni 1995
+            för valbarhet till kyrkliga förtroendeuppdrag.
           </p>
-          <p xml:id="i-FYSmJWu7Tq97GnjwZvaqpL">
+          <p type="date" id="i-NB2jcqjZqvSbpCHowiwaRU">
+            Stockholm den 13 juni 1995
+          </p>
+          <p xml:id="i-FYSmJWu7Tq97GnjwZvaqpL" type="signatureBlock">
             Nils Fredrik Aurelius (m)
           </p>
           <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_KU_27/mot_199495_KU_27-002.pdf"/>

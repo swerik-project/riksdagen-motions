@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-LU-00003">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KVe251dFVBe219bYVEJyqa"/>
+        <correspAction xml:id="i-KVe251dFVBe219bYVEJyqa" type="basedOn"/>
         <correspContext corresp="i-KVe251dFVBe219bYVEJyqa">
           <ref>Proposition 2000/01:135</ref>
         </correspContext>
@@ -42,34 +42,34 @@
         <correspContext corresp="i-9Zig3qUPy8WWYrm3gqy6Z8">
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Ha7sS2131YQ7zQgAdKLTTu">
+        <correspAction xml:id="i-Ha7sS2131YQ7zQgAdKLTTu" type="referral">
           <date when="2001-09-26"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-NjC2JTevsQjRyH7YwdBRe3">
+        <correspAction xml:id="i-NjC2JTevsQjRyH7YwdBRe3" type="termination">
           <date when="2001-09-25"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-Ho8zyHqwSkegBuVAGk12cK">
+        <correspAction xml:id="i-Ho8zyHqwSkegBuVAGk12cK" type="numbering">
           <date when="2001-09-25"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-YJpsFWE1RcHgmeiMDK9T7K">
+        <correspAction xml:id="i-YJpsFWE1RcHgmeiMDK9T7K" type="proposed_referral">
           <date when="2001-09-25"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-8dZ4a6NzEea5uvrZ1H2nGu">
+        <correspAction xml:id="i-8dZ4a6NzEea5uvrZ1H2nGu" type="committee_proposal">
           <date when="2001-09-25"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-GcRp4ctTi9LkXi2UFexCAV">
+        <correspAction xml:id="i-GcRp4ctTi9LkXi2UFexCAV" type="reviewing">
           <date when="2001-09-25"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-5g6BdNR28MnNQCoZm17EcJ">
+        <correspAction xml:id="i-5g6BdNR28MnNQCoZm17EcJ" type="registration">
           <date when="2001-09-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GyK8F8HUTVRW9MoBBH36PK">
+        <correspAction xml:id="i-GyK8F8HUTVRW9MoBBH36PK" type="dismissal">
           <date when="2001-09-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-L3SACjeneK3KsTk4VJxMfP">
+        <correspAction xml:id="i-L3SACjeneK3KsTk4VJxMfP" type="submission">
           <date when="2001-09-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6mrqvduwkog73RhMimuu1R"/>
+        <correspAction xml:id="i-6mrqvduwkog73RhMimuu1R" type="assigned"/>
         <correspContext corresp="i-6mrqvduwkog73RhMimuu1R">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -84,11 +84,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_L_0003/mot_200102_L_0003-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EkWhshYJrRz8uwFRwSGHKy">
-        <div type="motTitle" xml:id="i-KBqTGtUdr7R64S8Htd3ABh"/>
-        <div type="motSubmissionInfo" xml:id="i-G7S2bqYd1d6ioYBeiBdKk4"/>
+      <div xml:id="i-EkWhshYJrRz8uwFRwSGHKy" type="motHeader">
+        <div xml:id="i-KBqTGtUdr7R64S8Htd3ABh" type="motTitle"/>
+        <div xml:id="i-G7S2bqYd1d6ioYBeiBdKk4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-F7MCm3J7RQ4ChgJ6aK3M2n">
+      <div xml:id="i-F7MCm3J7RQ4ChgJ6aK3M2n" type="motBody">
         <div xml:id="i-2J5V9FMqKzLy4HAjCk7RtP">
           <p xml:id="i-HwA9rWNZgHZg3jH1M7hpYe">
             22
@@ -146,7 +146,10 @@
             2001/02:L3
           </p>
           <p xml:id="i-DiCmXT7kZmfQUyGeVCPTBz" type="date">
-            Stockholm den 20 september 2001 Michael Hagberg (s)
+            Stockholm den 20 september 2001
+          </p>
+          <p type="signatureBlock" id="i-CuovEYxNrwCxgJG4UgWhvy">
+            Michael Hagberg (s)
           </p>
           <p xml:id="i-UH43DqAsGCcukG3SFG3Vi4">
             23

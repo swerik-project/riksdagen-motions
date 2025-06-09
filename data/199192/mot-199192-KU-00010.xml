@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-KU-00010">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-rrg9t2XUkHE4iAjAykgpb</idno>
-            <name>Berith Eriksson </name>
+            <name>Berith Eriksson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-WvrkgGMVWbiVxVoPqgJuEF</idno>
-            <name>Johan Lönnroth </name>
+            <name>Johan Lönnroth</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-UTCSmzsY5HKuaoXinVtDS</idno>
-            <name>Rolf L Nilson </name>
+            <name>Rolf L Nilson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-X2fHj4hodJSRNAGsYx3VGs"/>
+        <correspAction xml:id="i-X2fHj4hodJSRNAGsYx3VGs" type="basedOn"/>
         <correspContext corresp="i-X2fHj4hodJSRNAGsYx3VGs">
           <ref>Proposition 1991/92:73</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-WvrkgGMVWbiVxVoPqgJuEF"/>
           <note type="signatory" corresp="i-UTCSmzsY5HKuaoXinVtDS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TGdCydSQ5iQPnM3jN839cf">
+        <correspAction xml:id="i-TGdCydSQ5iQPnM3jN839cf" type="referral">
           <date when="1991-12-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Qo56k2L47ANpddmFQU16Te">
+        <correspAction xml:id="i-Qo56k2L47ANpddmFQU16Te" type="dismissal">
           <date when="1991-12-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DuZMua6Vp48C6AqJ2Kqhdh">
+        <correspAction xml:id="i-DuZMua6Vp48C6AqJ2Kqhdh" type="submission">
           <date when="1991-11-29"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-6ryPGpsGGb9iECohxpckyj">
+        <correspAction xml:id="i-6ryPGpsGGb9iECohxpckyj" type="referral">
           <date when="1991-12-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VRh2uEfxpD3mrVTqetThiY">
+        <correspAction xml:id="i-VRh2uEfxpD3mrVTqetThiY" type="dismissal">
           <date when="1991-12-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ECnEtyVnXkrEqHZAieRLyi">
+        <correspAction xml:id="i-ECnEtyVnXkrEqHZAieRLyi" type="submission">
           <date when="1991-11-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7D3UNEybyDWJ7LpFCeFVpz"/>
+        <correspAction xml:id="i-7D3UNEybyDWJ7LpFCeFVpz" type="assigned"/>
         <correspContext corresp="i-7D3UNEybyDWJ7LpFCeFVpz">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_KU_10/mot_199192_KU_10-001.pdf"/>
-      <div type="motHeader" xml:id="i-3ReXkJyXnjNrVJW8jPhsik">
-        <div type="motTitle" xml:id="i-MrjxA9x5RQbcaNQ3iwV7D3"/>
-        <div type="motSubmissionInfo" xml:id="i-2gGmNy8D4mFPnMc4bhVJjL"/>
+      <div xml:id="i-3ReXkJyXnjNrVJW8jPhsik" type="motHeader">
+        <div xml:id="i-MrjxA9x5RQbcaNQ3iwV7D3" type="motTitle"/>
+        <div xml:id="i-2gGmNy8D4mFPnMc4bhVJjL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Y6aysGbePTzXjVj83PYwxS">
+      <div xml:id="i-Y6aysGbePTzXjVj83PYwxS" type="motBody">
         <div xml:id="i-NXdkUzcndN3AEzbemTaNLx">
           <p xml:id="i-LaYuMqA43PRpbHjV5Wfptz">
             Motion till riksdagen 1991/92:K10
@@ -147,8 +147,13 @@
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             avslår regeringens proposition 1991/92:73 om sekre- tess inom
             rättsväsendets informationssystem enligt vad i motionen an- förts
-            om kränkning av den enskildes integritet. Stockholm den 27 november
-            1991 Berith Eriksson (v)
+            om kränkning av den enskildes integritet.
+          </p>
+          <p type="date" id="i-J1aHm5K2on216435kbZyrf">
+            Stockholm den 27 november 1991
+          </p>
+          <p type="signatureBlock" id="i-VvkEbxvyomz41tThWpBtxF">
+            Berith Eriksson (v)
           </p>
           <p xml:id="i-WAHG7d8C7a9NBQSowbN3UR">
             Johan Lönnroth (v) Rolf L Nilson (v)

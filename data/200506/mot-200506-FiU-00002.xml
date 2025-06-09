@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-FiU-00002">
   <teiHeader>
     <fileDesc>
@@ -91,7 +91,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8pSbn9kcnLgzfstiBjz3Kk"/>
+        <correspAction xml:id="i-8pSbn9kcnLgzfstiBjz3Kk" type="basedOn"/>
         <correspContext corresp="i-8pSbn9kcnLgzfstiBjz3Kk">
           <ref>Proposition 2005/06:7</ref>
         </correspContext>
@@ -107,19 +107,19 @@
           <note type="signatory" corresp="i-ErVmo7eYu7oehJQsJSwD6t"/>
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EMU5BD1wGCwfHtkWxXtY51">
+        <correspAction xml:id="i-EMU5BD1wGCwfHtkWxXtY51" type="referral">
           <date when="2005-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Aaf7cUYwZma5VC48PAYopb">
+        <correspAction xml:id="i-Aaf7cUYwZma5VC48PAYopb" type="dismissal">
           <date when="2005-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-E981wQGo9cfsSvbEmTBVZT">
+        <correspAction xml:id="i-E981wQGo9cfsSvbEmTBVZT" type="dismissal">
           <date when="2005-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KXHyS7V7JtjwiCSKMTSmU2">
+        <correspAction xml:id="i-KXHyS7V7JtjwiCSKMTSmU2" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8sHZx7zsibdT1JmSEFRoS7"/>
+        <correspAction xml:id="i-8sHZx7zsibdT1JmSEFRoS7" type="assigned"/>
         <correspContext corresp="i-8sHZx7zsibdT1JmSEFRoS7">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -134,11 +134,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Fi_2/mot_200506_Fi_2-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RAE4tj2cEabdgzUAngHzeu">
-        <div type="motTitle" xml:id="i-YJgfg6zxHwVTgTU6FjaMKp"/>
-        <div type="motSubmissionInfo" xml:id="i-HqT64hRiQpwa1JVKazt27t"/>
+      <div xml:id="i-RAE4tj2cEabdgzUAngHzeu" type="motHeader">
+        <div xml:id="i-YJgfg6zxHwVTgTU6FjaMKp" type="motTitle"/>
+        <div xml:id="i-HqT64hRiQpwa1JVKazt27t" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Aq4gjd82kU4rxdiS5dm1Pc">
+      <div xml:id="i-Aq4gjd82kU4rxdiS5dm1Pc" type="motBody">
         <div xml:id="i-TAipcp6SRvW87myAjGk1CA">
           <p xml:id="i-8qWaC1xaUVnP9S85hFB1u9">
             2005/06 mnr: Fi2 pnr: kd103
@@ -256,7 +256,10 @@
             framfört för att förslaget tills vidare bör avslås.
           </p>
           <p xml:id="i-X8efW1ePqJhQmeWxuDyaEG" type="date">
-            Stockholm den 5 oktober 2005 Else-Marie Lindgren (kd)
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-DVum841HDfXe7888hXZ5UR">
+            Else-Marie Lindgren (kd)
           </p>
           <p xml:id="i-QoPEi2M2nrDMwGgYawrXFn">
             Mats Odell (kd) Lars Lindén (kd) Stefan Attefall (kd) Maria Larsson

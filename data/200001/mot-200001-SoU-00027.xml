@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SoU-00027">
   <teiHeader>
     <fileDesc>
@@ -97,7 +97,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VSJSfE9osS6efKkunqKfEQ"/>
+        <correspAction xml:id="i-VSJSfE9osS6efKkunqKfEQ" type="basedOn"/>
         <correspContext corresp="i-VSJSfE9osS6efKkunqKfEQ">
           <ref>Proposition 2000/01:20</ref>
         </correspContext>
@@ -114,28 +114,28 @@
           <note type="signatory" corresp="i-VHSPVhF5LjvV5m4yU1W3FJ"/>
           <note type="signatory" corresp="i-WHEJ8ymFxv9uo3uasyct2e"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-33BH9uzpYAsXeS7G8MTDBW">
+        <correspAction xml:id="i-33BH9uzpYAsXeS7G8MTDBW" type="reviewing">
           <date when="2000-11-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-UaD6bzUyKxQFTZ12ZT4iCP">
+        <correspAction xml:id="i-UaD6bzUyKxQFTZ12ZT4iCP" type="referral">
           <date when="2000-11-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EbXwwMgJUMBMPKmSvujePS">
+        <correspAction xml:id="i-EbXwwMgJUMBMPKmSvujePS" type="dismissal">
           <date when="2000-11-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8HwK3inZ8hq87xXThiHzcn">
+        <correspAction xml:id="i-8HwK3inZ8hq87xXThiHzcn" type="submission">
           <date when="2000-11-02"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-T92xQQGPkVJEr7Tv5JC4pr">
+        <correspAction xml:id="i-T92xQQGPkVJEr7Tv5JC4pr" type="referral">
           <date when="2000-11-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UNk6XH7EoTyvipNiMkusbX">
+        <correspAction xml:id="i-UNk6XH7EoTyvipNiMkusbX" type="dismissal">
           <date when="2000-11-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ECgwKaYJsASimPkYATzsdL">
+        <correspAction xml:id="i-ECgwKaYJsASimPkYATzsdL" type="submission">
           <date when="2000-11-02"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TZgBQwACZLpSqJ5UZRaPFG"/>
+        <correspAction xml:id="i-TZgBQwACZLpSqJ5UZRaPFG" type="assigned"/>
         <correspContext corresp="i-TZgBQwACZLpSqJ5UZRaPFG">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -150,11 +150,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_So_0027/mot_200001_So_0027-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5e557jYDQrcx7jDwwDrXJd">
-        <div type="motTitle" xml:id="i-MWfMMHiaXKQEmQzJ8DptYq"/>
-        <div type="motSubmissionInfo" xml:id="i-qcifDuiH6FwwVfXxW6FDJ"/>
+      <div xml:id="i-5e557jYDQrcx7jDwwDrXJd" type="motHeader">
+        <div xml:id="i-MWfMMHiaXKQEmQzJ8DptYq" type="motTitle"/>
+        <div xml:id="i-qcifDuiH6FwwVfXxW6FDJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TYCTqEpj4rYh37GTieZkmF">
+      <div xml:id="i-TYCTqEpj4rYh37GTieZkmF" type="motBody">
         <div xml:id="i-z34tw71mVKYbuFULrJZ6n">
           <p xml:id="i-R59mPRt8DBFxnEa99W1j7Q">
             28
@@ -398,9 +398,12 @@
           <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_So_0027/mot_200001_So_0027-0005.pdf"/>
           <p xml:id="i-N9HcGStmWwH3UPf8UCavcY">
             principen om generella bidrag till kommunerna. Detta bör ges
-            regeringen till känna. Stockholm den 2 november 2000
+            regeringen till känna.
           </p>
-          <p xml:id="i-4AdN1Nitnf9iPMLTjiAyJt">
+          <p type="date" id="i-HekenVqTRwNfMCFKR5AynN">
+            Stockholm den 2 november 2000
+          </p>
+          <p xml:id="i-4AdN1Nitnf9iPMLTjiAyJt" type="signatureBlock">
             Kenneth Johansson (c) Birgitta Carlsson (c) Agne Hansson (c)
             Rolf Kenneryd (c) Gunnel Wallin (c)
           </p>

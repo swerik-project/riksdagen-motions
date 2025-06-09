@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00360">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-TVwo4mCECu692GW3ntqQzo"/>
           <note type="signatory" corresp="i-VdAfQ3AgRmNNnaK4zoDKny"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-K2uuZM4mH599oEqPJrNyHD">
+        <correspAction xml:id="i-K2uuZM4mH599oEqPJrNyHD" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2peggWNhWK9Ar3idNshRr9">
+        <correspAction xml:id="i-2peggWNhWK9Ar3idNshRr9" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UGpniC9nB1wqMXAn5dBVvs">
+        <correspAction xml:id="i-UGpniC9nB1wqMXAn5dBVvs" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PQk1tPrQCafWRGWPE3Sn56"/>
+        <correspAction xml:id="i-PQk1tPrQCafWRGWPE3Sn56" type="assigned"/>
         <correspContext corresp="i-PQk1tPrQCafWRGWPE3Sn56">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_360/mot_200506_L_360-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5sUSCQD1vqG65zmXRW1SEb">
-        <div type="motTitle" xml:id="i-YKsamjHoi6yL4yamHt4JmE"/>
-        <div type="motSubmissionInfo" xml:id="i-8HZWS1jWvL68XaCSSFndcV"/>
+      <div xml:id="i-5sUSCQD1vqG65zmXRW1SEb" type="motHeader">
+        <div xml:id="i-YKsamjHoi6yL4yamHt4JmE" type="motTitle"/>
+        <div xml:id="i-8HZWS1jWvL68XaCSSFndcV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Q6S159V6jmgvKrxThLC7ms">
+      <div xml:id="i-Q6S159V6jmgvKrxThLC7ms" type="motBody">
         <div xml:id="i-9MHR2pYTjSo3YicmLHkFxx">
           <p xml:id="i-9avgj7odZhLBJBwPGko3vC">
             2005/06 mnr: L360 pnr: s47103
@@ -130,9 +130,12 @@
           <p xml:id="i-X2AtJDigdG76ozvLXytW8Z">
             2005/06:L360 skall inte påföras kunden. Vi ser också behov av
             en översyn av bankernas avgiftsuttag vid transaktioner i utländsk
-            valuta. Stockholm den 28 september 2005
+            valuta.
           </p>
-          <p xml:id="i-SQS6kryXB571JnBiqcAUCU">
+          <p type="date" id="i-33b5WvFjVv59qPae51HHTt">
+            Stockholm den 28 september 2005
+          </p>
+          <p xml:id="i-SQS6kryXB571JnBiqcAUCU" type="signatureBlock">
             Per Erik Granström (s) Kurt Kvarnström (s)
           </p>
         </div>

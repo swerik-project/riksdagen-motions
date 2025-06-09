@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00010">
   <teiHeader>
     <fileDesc>
@@ -35,7 +35,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Tb28vfT4Nk1ZBjb2oSXDqZ"/>
+        <correspAction xml:id="i-Tb28vfT4Nk1ZBjb2oSXDqZ" type="basedOn"/>
         <correspContext corresp="i-Tb28vfT4Nk1ZBjb2oSXDqZ">
           <ref>Proposition 2005/06:109</ref>
         </correspContext>
@@ -43,19 +43,19 @@
         <correspContext corresp="i-5Ys61NRCLKMy43SuG8oJzc">
           <note type="signatory" corresp="i-F8qdE2eedz12PwFanq3ahv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RJqZobwZUr2FdsJ248akQh">
+        <correspAction xml:id="i-RJqZobwZUr2FdsJ248akQh" type="referral">
           <date when="2006-03-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7ZoRrXk4usrKg8c9jp7kyB">
+        <correspAction xml:id="i-7ZoRrXk4usrKg8c9jp7kyB" type="dismissal">
           <date when="2006-03-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Cd4KNt6ifKBuwnPncLUi1B">
+        <correspAction xml:id="i-Cd4KNt6ifKBuwnPncLUi1B" type="dismissal">
           <date when="2006-03-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DE97p1bYmQLTUwbGhUwank">
+        <correspAction xml:id="i-DE97p1bYmQLTUwbGhUwank" type="submission">
           <date when="2006-03-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HkWvpzvdEEicz4u3jYjZyd"/>
+        <correspAction xml:id="i-HkWvpzvdEEicz4u3jYjZyd" type="assigned"/>
         <correspContext corresp="i-HkWvpzvdEEicz4u3jYjZyd">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_10/mot_200506_T_10-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BrSdr5PtaRv8u5GBtQu7iv">
-        <div type="motTitle" xml:id="i-SMN5uDmxAkqLhE3Gaogeip"/>
-        <div type="motSubmissionInfo" xml:id="i-LYLGCC1GcqwAheXq1h8A8h"/>
+      <div xml:id="i-BrSdr5PtaRv8u5GBtQu7iv" type="motHeader">
+        <div xml:id="i-SMN5uDmxAkqLhE3Gaogeip" type="motTitle"/>
+        <div xml:id="i-LYLGCC1GcqwAheXq1h8A8h" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JGZncFsszrgCg7nunfjy27">
+      <div xml:id="i-JGZncFsszrgCg7nunfjy27" type="motBody">
         <div xml:id="i-D1zLm5wq1QUConUTx9JtLu">
           <p xml:id="i-L3Qrz3MC6LH5cTNrUw1qVZ">
             2005/06 mnr: T10 pnr: m1697
@@ -120,7 +120,10 @@
             och beslagtagning av bilen.
           </p>
           <p xml:id="i-MTF4cv1KF7cT9xb6ewrSDY" type="date">
-            Stockholm den 20 mars 2006 Maud Ekendahl (m)
+            Stockholm den 20 mars 2006
+          </p>
+          <p type="signatureBlock" id="i-NweXri6UZhZdhNVQtmjtGT">
+            Maud Ekendahl (m)
           </p>
         </div>
       </div>

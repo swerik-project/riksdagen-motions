@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UU-00338">
   <teiHeader>
     <fileDesc>
@@ -151,16 +151,16 @@
           <note type="signatory" corresp="i-Bx9fbNBh4ybH7H2kWavRdb"/>
           <note type="signatory" corresp="i-BUYvEhrSc9gnHcd6iS4eDJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7QF8o15JXYJyZD1d7uAbdX">
+        <correspAction xml:id="i-7QF8o15JXYJyZD1d7uAbdX" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NqJNrr3jQgfwMRwfGMKo34">
+        <correspAction xml:id="i-NqJNrr3jQgfwMRwfGMKo34" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8vaoTjzXenbDRQsYvY18vN">
+        <correspAction xml:id="i-8vaoTjzXenbDRQsYvY18vN" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2Gx2yxWMjYthZZd3obA38Z"/>
+        <correspAction xml:id="i-2Gx2yxWMjYthZZd3obA38Z" type="assigned"/>
         <correspContext corresp="i-2Gx2yxWMjYthZZd3obA38Z">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -175,11 +175,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_U_338/mot_200506_U_338-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PxdG44fDcRNPrCpcB1aFBG">
-        <div type="motTitle" xml:id="i-2karUqrfFZEvJ8fXYJiEBf"/>
-        <div type="motSubmissionInfo" xml:id="i-BN9xzEy72sBkaevMCpN94k"/>
+      <div xml:id="i-PxdG44fDcRNPrCpcB1aFBG" type="motHeader">
+        <div xml:id="i-2karUqrfFZEvJ8fXYJiEBf" type="motTitle"/>
+        <div xml:id="i-BN9xzEy72sBkaevMCpN94k" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HxggCTT3EpbqyFdvFjYnEd">
+      <div xml:id="i-HxggCTT3EpbqyFdvFjYnEd" type="motBody">
         <div xml:id="i-QfgMV4c1D8Z52HqJwHE3Da">
           <p xml:id="i-QaVgcwEkbnJ56tAHRPLP4J">
             2005/06 mnr: U338 pnr: fp016
@@ -1933,9 +1933,12 @@
             användning av narkotika bör förbjudas. Vi bör också kräva att
             EU:s organ för att följa narkotikafrågan utarbetar statistik som
             möjliggör rättvisande jämförelser mellan länder med olika narkotikapolitik,
-            som t.ex. Nederländerna och Sverige. Stockholm den 5 oktober 2005
+            som t.ex. Nederländerna och Sverige.
           </p>
-          <p xml:id="i-K5bFHJDM8MUMaPD8PGgqLW">
+          <p type="date" id="i-FedGrgECWA8MjiFDQMZyX1">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p xml:id="i-K5bFHJDM8MUMaPD8PGgqLW" type="signatureBlock">
             Lars Leijonborg (fp) Bo Könberg (fp) Marita Aronson (fp) Martin
             Andreasson (fp) Liselott Hagberg (fp) Tobias Krantz (fp) Karin
             Pilsäter (fp) Yvonne Ångström (fp) Ulf Nilsson (fp) Cecilia Wigström

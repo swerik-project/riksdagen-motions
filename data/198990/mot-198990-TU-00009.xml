@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-TU-00009">
   <teiHeader>
     <fileDesc>
@@ -40,7 +40,7 @@
           </person>
           <person gender="man">
             <idno>i-SZgcxyxYn6GnRBLikzLy7M</idno>
-            <name>Kjell Ericsson </name>
+            <name>Kjell Ericsson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -62,16 +62,16 @@
           <note type="signatory" corresp="i-SZgcxyxYn6GnRBLikzLy7M"/>
           <note type="signatory" corresp="i-SZgcxyxYn6GnRBLikzLy7M"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-NKiwRYzEZYYhV3p7gXmxTo">
+        <correspAction xml:id="i-NKiwRYzEZYYhV3p7gXmxTo" type="submission">
           <date when="1989-10-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3e9AxLQzVJc27wbBntVg5G">
+        <correspAction xml:id="i-3e9AxLQzVJc27wbBntVg5G" type="dismissal">
           <date when="1989-11-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-UdCTNZEnhuKtkWzyWkoMi1">
+        <correspAction xml:id="i-UdCTNZEnhuKtkWzyWkoMi1" type="referral">
           <date when="1989-11-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Wpvh3AShk8BS3QmD2THVVm">
+        <correspAction xml:id="i-Wpvh3AShk8BS3QmD2THVVm" type="assigned">
           <date when="2014-11-22"/>
           <time when="07:36:16"/>
         </correspAction>
@@ -87,11 +87,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_t_9/mot_198990_t_9-001.pdf"/>
-      <div type="motHeader" xml:id="i-Axd67tnFPZidb2ypW27qgk">
-        <div type="motTitle" xml:id="i-MndQdZhvh3fgy6x4NzTnMc"/>
-        <div type="motSubmissionInfo" xml:id="i-SiqXxe3KUx4v1UMqQf6Dyo"/>
+      <div xml:id="i-Axd67tnFPZidb2ypW27qgk" type="motHeader">
+        <div xml:id="i-MndQdZhvh3fgy6x4NzTnMc" type="motTitle"/>
+        <div xml:id="i-SiqXxe3KUx4v1UMqQf6Dyo" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DA8yCief3WynpfQapRmbi1">
+      <div xml:id="i-DA8yCief3WynpfQapRmbi1" type="motBody">
         <div xml:id="i-RoMZeMsZZhYpfzRNNr67qW">
           <p xml:id="i-orfow6LLzBTZ7CjyAf3T3">
             Motion till riksdagen 1989/90:T9
@@ -146,9 +146,12 @@
           </p>
           <p xml:id="i-Nx1jA2K3RZn9aQ92MWNG6x">
             att riksdagen beslutar att de s.k. viktavdragen vid överlast
-            fastställs till 500 kg per axel. Stockholm den 26 oktober 1989
+            fastställs till 500 kg per axel.
           </p>
-          <p xml:id="i-5QUMdoAVSfFeJmJ7uGvE5z">
+          <p type="date" id="i-2Ae7yzAh9DT5wMYTgvFP2R">
+            Stockholm den 26 oktober 1989
+          </p>
+          <p xml:id="i-5QUMdoAVSfFeJmJ7uGvE5z" type="signatureBlock">
             Kjell Ericsson (c)
           </p>
         </div>

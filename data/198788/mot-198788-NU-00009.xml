@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-NU-00009">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Sdc8HHgMvQZaZw1Azrde8K"/>
+        <correspAction xml:id="i-Sdc8HHgMvQZaZw1Azrde8K" type="basedOn"/>
         <correspContext corresp="i-Sdc8HHgMvQZaZw1Azrde8K">
           <ref>Proposition 1987/88:25</ref>
         </correspContext>
@@ -66,16 +66,16 @@
           <note type="signatory" corresp="i-BMYEUF5ZqkJVawjRJ2AGUT"/>
           <note type="signatory" corresp="i-HSMHpUXXyiPtGnUcVPDQgp"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-N44Dc8NSR1aWUG1qa43PwW">
+        <correspAction xml:id="i-N44Dc8NSR1aWUG1qa43PwW" type="submission">
           <date when="1987-11-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HksW7AcxucQXui2EJJkvuH">
+        <correspAction xml:id="i-HksW7AcxucQXui2EJJkvuH" type="dismissal">
           <date when="1987-11-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-QSP5qY66kSxnyXVGUDiB8z">
+        <correspAction xml:id="i-QSP5qY66kSxnyXVGUDiB8z" type="referral">
           <date when="1987-11-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-D2x3TBTtqhj54BkozMSCSx">
+        <correspAction xml:id="i-D2x3TBTtqhj54BkozMSCSx" type="assigned">
           <date when="2014-11-23"/>
           <time when="05:33:28"/>
         </correspAction>
@@ -91,11 +91,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_n_9/mot_198788_n_9-001.pdf"/>
-      <div type="motHeader" xml:id="i-LHX4XQv7ye4DyGXimmBKC">
-        <div type="motTitle" xml:id="i-EtEK8WyjN35n8ETVQSD3i2"/>
-        <div type="motSubmissionInfo" xml:id="i-NodhsJKdDA1ZsZTPpQ7Ath"/>
+      <div xml:id="i-LHX4XQv7ye4DyGXimmBKC" type="motHeader">
+        <div xml:id="i-EtEK8WyjN35n8ETVQSD3i2" type="motTitle"/>
+        <div xml:id="i-NodhsJKdDA1ZsZTPpQ7Ath" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VyxcqAXa1FV74uirt1TcVN">
+      <div xml:id="i-VyxcqAXa1FV74uirt1TcVN" type="motBody">
         <div xml:id="i-DBRGzBa3cNv8Z8Jwjf6VME">
           <p xml:id="i-4ffQ37xqRGTnEwE2UN7Mjz">
             Motion till riksdagen
@@ -252,7 +252,10 @@
             gruva i Grängesberg.
           </p>
           <p xml:id="i-Usnjd6KiCme8VF3ipryQE3" type="date">
-            Stockholm den 24 november 1987 Anne Wibble (fp)
+            Stockholm den 24 november 1987
+          </p>
+          <p type="signatureBlock" id="i-XFCy5k1DL9SbTGQLKuSyr5">
+            Anne Wibble (fp)
           </p>
           <p xml:id="i-SQ41eF52LzM6zwz74WwkWN">
             Margitta Edgren (fp) Lennart Alsén (fp) Karin Östergren (fp)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-FöU-00020">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7ssNrXLzd4tVRmzwcsLxkH"/>
+        <correspAction xml:id="i-7ssNrXLzd4tVRmzwcsLxkH" type="basedOn"/>
         <correspContext corresp="i-7ssNrXLzd4tVRmzwcsLxkH">
           <ref>Proposition 2001/02:158</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="i-QqgpadBP4SAf6uA8SRtTMY"/>
           <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7nNas9dfi1uxmxttvXnqKD">
+        <correspAction xml:id="i-7nNas9dfi1uxmxttvXnqKD" type="referral">
           <date when="2002-04-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-E1pTaPherawcWbK2jAkK89">
+        <correspAction xml:id="i-E1pTaPherawcWbK2jAkK89" type="dismissal">
           <date when="2002-04-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NKqbTEZyYUM5D7XTarNHrD">
+        <correspAction xml:id="i-NKqbTEZyYUM5D7XTarNHrD" type="submission">
           <date when="2002-04-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-R6L52QEiEYNsQmiCyJghqC"/>
+        <correspAction xml:id="i-R6L52QEiEYNsQmiCyJghqC" type="assigned"/>
         <correspContext corresp="i-R6L52QEiEYNsQmiCyJghqC">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -74,11 +74,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Fö_0020/mot_200102_Fö_0020-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4Cg9GXVkqDzo2whGAQKnAr">
-        <div type="motTitle" xml:id="i-66YQfKDE2UwDkoRQdoGa9Y"/>
-        <div type="motSubmissionInfo" xml:id="i-Dj1DhvjXLS7uhG8EBY7PWz"/>
+      <div xml:id="i-4Cg9GXVkqDzo2whGAQKnAr" type="motHeader">
+        <div xml:id="i-66YQfKDE2UwDkoRQdoGa9Y" type="motTitle"/>
+        <div xml:id="i-Dj1DhvjXLS7uhG8EBY7PWz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2huFTGh25Z7xr17wdLkqqH">
+      <div xml:id="i-2huFTGh25Z7xr17wdLkqqH" type="motBody">
         <div xml:id="i-FxMG3qJNfsoMn1FCj14jnB">
           <p xml:id="i-NBCYgSBVJeXcLNnrsFomrq">
             2001/02 mnr: Fö20 pnr: fp1158
@@ -356,8 +356,10 @@
             måste få en tillfredsställande lösning mycket snart.
           </p>
           <p xml:id="i-MjkX4M7w4JFZzyREEJRZeW" type="date">
-            Stockholm den 3 april 2002 Runar Patriksson (fp) Eva Flyborg
-            (fp)
+            Stockholm den 3 april 2002
+          </p>
+          <p type="signatureBlock" id="i-XF9ohwyJKXBNr6qPh4q7s8">
+            Runar Patriksson (fp) Eva Flyborg (fp)
           </p>
           <p xml:id="i-99tpGmfJLotJnCMFQfANHF">
             2000/01:c999

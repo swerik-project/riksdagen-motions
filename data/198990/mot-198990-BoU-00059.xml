@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-BoU-00059">
   <teiHeader>
     <fileDesc>
@@ -96,7 +96,7 @@
           </person>
           <person gender="man">
             <idno>i-NLfT4RS4huMCGpWx1zB8Ag</idno>
-            <name>Erling Bager </name>
+            <name>Erling Bager</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -110,28 +110,28 @@
           </person>
           <person gender="man">
             <idno>i-8ihSXxrczC6r6e3uVHuU5A</idno>
-            <name>Leif Olsson </name>
+            <name>Leif Olsson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-N1qw8jfKGpQHZKgF3gs76j</idno>
-            <name>Siw Persson </name>
+            <name>Siw Persson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-NgCTKqp2fs7ZtdGdg2MLiL</idno>
-            <name>Karl-Göran Biörsmark </name>
+            <name>Karl-Göran Biörsmark</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-TpZYt1GVcqVji9XRcawvXB</idno>
-            <name>Ingrid Hasselström Nyvall </name>
+            <name>Ingrid Hasselström Nyvall</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -139,7 +139,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-SxgVJxxfAgBRcfWYeeXsnU"/>
+        <correspAction xml:id="i-SxgVJxxfAgBRcfWYeeXsnU" type="basedOn"/>
         <correspContext corresp="i-SxgVJxxfAgBRcfWYeeXsnU">
           <ref>Proposition 1989/90:126</ref>
         </correspContext>
@@ -162,16 +162,16 @@
           <note type="signatory" corresp="i-NgCTKqp2fs7ZtdGdg2MLiL"/>
           <note type="signatory" corresp="i-TpZYt1GVcqVji9XRcawvXB"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-L9ZxzkhYcESb5zvqwo95J4">
+        <correspAction xml:id="i-L9ZxzkhYcESb5zvqwo95J4" type="submission">
           <date when="1990-04-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4wULJg5TGr6H1ovEzZq1U2">
+        <correspAction xml:id="i-4wULJg5TGr6H1ovEzZq1U2" type="dismissal">
           <date when="1990-04-24"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GJFoQJjx4W7N5k3PDTmpyA">
+        <correspAction xml:id="i-GJFoQJjx4W7N5k3PDTmpyA" type="referral">
           <date when="1990-04-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UcRqieGWEtjpf1Lpsczeq1">
+        <correspAction xml:id="i-UcRqieGWEtjpf1Lpsczeq1" type="assigned">
           <date when="2014-11-23"/>
           <time when="03:00:13"/>
         </correspAction>
@@ -187,11 +187,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_bo_59/mot_198990_bo_59-001.pdf"/>
-      <div type="motHeader" xml:id="i-TpT9bV9x5gt12fjr5LmV8B">
-        <div type="motTitle" xml:id="i-44BcopZFxnRRL2Y9nATZXD"/>
-        <div type="motSubmissionInfo" xml:id="i-PYRTsmBAottbU3qjAYTGZt"/>
+      <div xml:id="i-TpT9bV9x5gt12fjr5LmV8B" type="motHeader">
+        <div xml:id="i-44BcopZFxnRRL2Y9nATZXD" type="motTitle"/>
+        <div xml:id="i-PYRTsmBAottbU3qjAYTGZt" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VSLech7miy8JXMWrWVkRCX">
+      <div xml:id="i-VSLech7miy8JXMWrWVkRCX" type="motBody">
         <div xml:id="i-XLHJpcYYkZVm3dT3LL2NVd">
           <p xml:id="i-Q2uV1jcv6hdW8uVysgEMvD">
             Motion till riksdagen
@@ -232,8 +232,14 @@
           <p xml:id="i-SC9s5ThkCG8qEgQteFGdWY">
             Med hänvisning till det anförda hemställs att riksdagen som sin
             mening ger regeringen till känna vad i motio- nen anförts om nyetableringar
-            inom högexploaterade kustområden. Stockholm den 23 april 1990
-            Erling Bager (fp) Siw Persson (fp) Ingrid Hasselström Nyvall (fp)
+            inom högexploaterade kustområden.
+          </p>
+          <p type="date" id="i-EetNFrdQHQ1J8vPWqpH4zd">
+            Stockholm den 23 april 1990
+          </p>
+          <p type="signatureBlock" id="i-WPLJG845iH7pFyTUZRjgCg">
+            Erling Bager (fp) Siw Persson (fp) Ingrid Hasselström Nyvall
+            (fp)
           </p>
           <p xml:id="i-HfSq4HJCGKxX3ZXuf14gBv">
             Leif Olsson (fp) Karl-Göran Biörsmark (fp)

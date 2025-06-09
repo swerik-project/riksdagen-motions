@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00271">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-RoyUMdcS6G8DQ28bVsJYZn">
           <note type="signatory" corresp="i-DeVfQ6A9p3piatQSzsHysN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KL6JEXXkXkE1ndHkRNUrMf">
+        <correspAction xml:id="i-KL6JEXXkXkE1ndHkRNUrMf" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NF8jV52Rqp8g7xSjCgfDSQ">
+        <correspAction xml:id="i-NF8jV52Rqp8g7xSjCgfDSQ" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WV5yP3YBkcqU2Vu3dT7pUH">
+        <correspAction xml:id="i-WV5yP3YBkcqU2Vu3dT7pUH" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9GK173Uifn68M96WgZ31oQ"/>
+        <correspAction xml:id="i-9GK173Uifn68M96WgZ31oQ" type="assigned"/>
         <correspContext corresp="i-9GK173Uifn68M96WgZ31oQ">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_L_0271/mot_200304_L_0271-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PaLcGtE4Daj2Am1HqSHdKx">
-        <div type="motTitle" xml:id="i-PeJgdbBZsfE3Dmt97yHVTw"/>
-        <div type="motSubmissionInfo" xml:id="i-AHgjhq3YcjXjfnUtk6MMX1"/>
+      <div xml:id="i-PaLcGtE4Daj2Am1HqSHdKx" type="motHeader">
+        <div xml:id="i-PeJgdbBZsfE3Dmt97yHVTw" type="motTitle"/>
+        <div xml:id="i-AHgjhq3YcjXjfnUtk6MMX1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9GGj8YHoUJSaVRaaqLKMwY">
+      <div xml:id="i-9GGj8YHoUJSaVRaaqLKMwY" type="motBody">
         <div xml:id="i-V7jq69PNt6ssMYxzrBh6ek">
           <p xml:id="i-FEuCe793bsiQdXLujNwjxy">
             2003/04 mnr: L271 pnr: s47000
@@ -111,9 +111,12 @@
             angivna belopp i flera olika valutor, vilket lätt skapar förvirring
             vid jämförelser. Enligt uppgift sker ändå en viss omräkning varför
             det är svårt att jämföra med den prisnivå man känner från sitt
-            hemland. Stockholm den 1 oktober 2003
+            hemland.
           </p>
-          <p xml:id="i-PQSgSwgiJgCatiaNDLZyYF">
+          <p type="date" id="i-Rd6XhX87Bfzfg5Dt7LTiVm">
+            Stockholm den 1 oktober 2003
+          </p>
+          <p xml:id="i-PQSgSwgiJgCatiaNDLZyYF" type="signatureBlock">
             Göran Magnusson (s)
           </p>
           <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_L_0271/mot_200304_L_0271-0002.pdf"/>

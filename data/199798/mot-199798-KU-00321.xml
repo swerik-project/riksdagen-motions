@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-KU-00321">
   <teiHeader>
     <fileDesc>
@@ -61,35 +61,35 @@
           </person>
           <person gender="man">
             <idno>i-JFL6JXCEtMcVkwJqetmAZs</idno>
-            <name>Kenneth Kvist </name>
+            <name>Kenneth Kvist</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-7XJQkFtojnsGkBWJ4ArrFx</idno>
-            <name>Charlotta L Bjälkebring </name>
+            <name>Charlotta L Bjälkebring</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-BAB7JTqwHUAHz87bdy5smY</idno>
-            <name>Tanja Linderborg </name>
+            <name>Tanja Linderborg</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-Kytbd3WZfQeKTPffXjTEpk</idno>
-            <name>Eva Zetterberg </name>
+            <name>Eva Zetterberg</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-A9wTTx74ViuquWXmgF5vjj</idno>
-            <name>Jan Jennehag </name>
+            <name>Jan Jennehag</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -110,25 +110,25 @@
           <note type="signatory" corresp="i-Kytbd3WZfQeKTPffXjTEpk"/>
           <note type="signatory" corresp="i-A9wTTx74ViuquWXmgF5vjj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MSo3tXXCAroaRhdsemt9GC">
+        <correspAction xml:id="i-MSo3tXXCAroaRhdsemt9GC" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4R26wiqQPPeCRr61EwAiEB">
+        <correspAction xml:id="i-4R26wiqQPPeCRr61EwAiEB" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GXQEaYY5DCsP39GdL3GyCP">
+        <correspAction xml:id="i-GXQEaYY5DCsP39GdL3GyCP" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-3WF7Ts8Tqb3P7NRDDtchy2">
+        <correspAction xml:id="i-3WF7Ts8Tqb3P7NRDDtchy2" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CbmwTkF3earWvYfSgFcJvM">
+        <correspAction xml:id="i-CbmwTkF3earWvYfSgFcJvM" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AdsCGtBpj7oD6cV5TwHnzc">
+        <correspAction xml:id="i-AdsCGtBpj7oD6cV5TwHnzc" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4GSZrpwgRJWv3gn89BJZzz"/>
+        <correspAction xml:id="i-4GSZrpwgRJWv3gn89BJZzz" type="assigned"/>
         <correspContext corresp="i-4GSZrpwgRJWv3gn89BJZzz">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -141,11 +141,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_K_0321/mot_199798_K_0321-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HSCVULMJRqVQkcZP3X7mZz">
-        <div type="motTitle" xml:id="i-MLkzzUf8p8w5YaSMgaQs4C"/>
-        <div type="motSubmissionInfo" xml:id="i-13Pnuwadi3Lb82nY9Yb1H1"/>
+      <div xml:id="i-HSCVULMJRqVQkcZP3X7mZz" type="motHeader">
+        <div xml:id="i-MLkzzUf8p8w5YaSMgaQs4C" type="motTitle"/>
+        <div xml:id="i-13Pnuwadi3Lb82nY9Yb1H1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LZyxKe1o5FmfwTh8sq7Vn6">
+      <div xml:id="i-LZyxKe1o5FmfwTh8sq7Vn6" type="motBody">
         <div xml:id="i-Bsb8oaZZ7TUaXqJus48Z6F">
           <p xml:id="i-WTuqYH45FyBePCBxJ63X7k">
             1997/98 K321 K318-324
@@ -277,8 +277,10 @@
             för statschefen.
           </p>
           <p xml:id="i-LLEuG9Mhrg8aBRdZgt3bvL" type="date">
-            Stockholm den 2 oktober 1997 Kenneth Kvist (v) Charlotta L Bjälkebring
-            (v) Jan Jennehag (v)
+            Stockholm den 2 oktober 1997
+          </p>
+          <p type="signatureBlock" id="i-7BwBwfWd1bF1hJNbJC5KSw">
+            Kenneth Kvist (v) Charlotta L Bjälkebring (v) Jan Jennehag (v)
           </p>
           <p xml:id="i-PnazEqUeMdwcaV9ikBAkw6">
             Tanja Linderborg (v) Eva Zetterberg (v)

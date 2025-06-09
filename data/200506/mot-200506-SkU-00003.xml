@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00003">
   <teiHeader>
     <fileDesc>
@@ -56,7 +56,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-RUYxM8wSXWN1QWuab1di98"/>
+        <correspAction xml:id="i-RUYxM8wSXWN1QWuab1di98" type="basedOn"/>
         <correspContext corresp="i-RUYxM8wSXWN1QWuab1di98">
           <ref>Proposition 2005/06:40</ref>
         </correspContext>
@@ -67,19 +67,19 @@
           <note type="signatory" corresp="i-ErVmo7eYu7oehJQsJSwD6t"/>
           <note type="signatory" corresp="i-AyN7HRP1y38PeQoLunJifb"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GbKdVz3ZtPfnWXnHQMYUmY">
+        <correspAction xml:id="i-GbKdVz3ZtPfnWXnHQMYUmY" type="referral">
           <date when="2005-11-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FkvXSnqot5EdUoC7KXGLoe">
+        <correspAction xml:id="i-FkvXSnqot5EdUoC7KXGLoe" type="dismissal">
           <date when="2005-11-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DAKjECGpRYqGcQEnT7xRhX">
+        <correspAction xml:id="i-DAKjECGpRYqGcQEnT7xRhX" type="dismissal">
           <date when="2005-11-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Bysx19aBiHqQbcjoZ4tUqQ">
+        <correspAction xml:id="i-Bysx19aBiHqQbcjoZ4tUqQ" type="submission">
           <date when="2005-11-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XVodapbBeGP7BuqB8FNYwq"/>
+        <correspAction xml:id="i-XVodapbBeGP7BuqB8FNYwq" type="assigned"/>
         <correspContext corresp="i-XVodapbBeGP7BuqB8FNYwq">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -94,11 +94,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_3/mot_200506_Sk_3-0001.pdf"/>
-      <div type="motHeader" xml:id="i-B45ukpWubX9AGdcBEByojz">
-        <div type="motTitle" xml:id="i-HHQL2twBd7Z6QXuYY9eSoV"/>
-        <div type="motSubmissionInfo" xml:id="i-SNkNi7ZDWoHAW3yM6dBwQs"/>
+      <div xml:id="i-B45ukpWubX9AGdcBEByojz" type="motHeader">
+        <div xml:id="i-HHQL2twBd7Z6QXuYY9eSoV" type="motTitle"/>
+        <div xml:id="i-SNkNi7ZDWoHAW3yM6dBwQs" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Pvoe7yQFKbdiJgPk7QL6o5">
+      <div xml:id="i-Pvoe7yQFKbdiJgPk7QL6o5" type="motBody">
         <div xml:id="i-EUdTawCQQW5ghCKtvFY3LV">
           <p xml:id="i-6aAsFixPqnWTuWQhfnR63p">
             2005/06 mnr: Sk3 pnr: -m921
@@ -684,9 +684,12 @@
             negativa konsekvenser för så kallade oäkta bostadsföretag. Detta
             måste ske så att de nya reglerna kan gälla för 2007 års taxering
             och utannonseras senast då de förändrade reglerna för fåmansbolagsbeskattning
-            träder i kraft. Stockholm den 10 november 2005
+            träder i kraft.
           </p>
-          <p xml:id="i-W2sMPsmMPiJudxPcXgEELn">
+          <p type="date" id="i-7v1roW2DsDCuAA7o8QwU8Y">
+            Stockholm den 10 november 2005
+          </p>
+          <p xml:id="i-W2sMPsmMPiJudxPcXgEELn" type="signatureBlock">
             Lennart Hedquist (m) Gunnar Andrén (fp) Per Landgren (kd) Jörgen
             Johansson (c)
           </p>

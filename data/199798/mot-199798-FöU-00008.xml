@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-FöU-00008">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-WhkYyHkAQJinZzBj9xsEfU</idno>
-            <name>Annika Nordgren </name>
+            <name>Annika Nordgren</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-GxT9kPtRPRYSNBvP7uogvP"/>
+        <correspAction xml:id="i-GxT9kPtRPRYSNBvP7uogvP" type="basedOn"/>
         <correspContext corresp="i-GxT9kPtRPRYSNBvP7uogvP">
           <ref>Proposition 1997/98:83</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-WhkYyHkAQJinZzBj9xsEfU"/>
           <note type="signatory" corresp="i-WhkYyHkAQJinZzBj9xsEfU"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CpPF5ZePVjLFxGpnoeFDNw">
+        <correspAction xml:id="i-CpPF5ZePVjLFxGpnoeFDNw" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-35UYv6ctspJzLrRLXaBEby">
+        <correspAction xml:id="i-35UYv6ctspJzLrRLXaBEby" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8GRhDhf8DYeLcDe4LuVgnH">
+        <correspAction xml:id="i-8GRhDhf8DYeLcDe4LuVgnH" type="submission">
           <date when="1998-03-27"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-TLJwRixwbSurc9gMGBSjNV">
+        <correspAction xml:id="i-TLJwRixwbSurc9gMGBSjNV" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SisbN5N7UoPQpRLLS2CpB1">
+        <correspAction xml:id="i-SisbN5N7UoPQpRLLS2CpB1" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PbHExagEmbe4DnFQvitbLW">
+        <correspAction xml:id="i-PbHExagEmbe4DnFQvitbLW" type="submission">
           <date when="1998-03-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FFUUc9rRPy4AqyG2zV79Ur"/>
+        <correspAction xml:id="i-FFUUc9rRPy4AqyG2zV79Ur" type="assigned"/>
         <correspContext corresp="i-FFUUc9rRPy4AqyG2zV79Ur">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_FÖ_0008/mot_199798_FÖ_0008-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NFCG4kM5qFywgr7RgsKSCC">
-        <div type="motTitle" xml:id="i-XjDCPrKWJ8aBzqeJKe54po"/>
-        <div type="motSubmissionInfo" xml:id="i-3jVgnKUJuiTgenhHMM1c5k"/>
+      <div xml:id="i-NFCG4kM5qFywgr7RgsKSCC" type="motHeader">
+        <div xml:id="i-XjDCPrKWJ8aBzqeJKe54po" type="motTitle"/>
+        <div xml:id="i-3jVgnKUJuiTgenhHMM1c5k" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8nFfc68wFJsJahoG71Lah5">
+      <div xml:id="i-8nFfc68wFJsJahoG71Lah5" type="motBody">
         <div xml:id="i-JoaygpsydVrWuvmCRqYCM5">
           <p xml:id="i-BPQ86ke9oqvuF5NJ1NFnpR">
             1997/98 Fö8 Fö6-8
@@ -261,9 +261,11 @@
           </p>
           <p xml:id="i-UdrWVhHUHDqWxo7LgnAXhc">
             motionen anförts om ny anslagsstruktur för budgetpropositionen.
+          </p>
+          <p type="date" id="i-UvcVnWA7QUU8mSgG14FTpz">
             Stockholm den 27 mars 1998
           </p>
-          <p xml:id="i-Bro2dFLF4msGqKoF6saXQY">
+          <p xml:id="i-Bro2dFLF4msGqKoF6saXQY" type="signatureBlock">
             Annika Nordgren (mp)
           </p>
           <p xml:id="i-4GfYnEV1PWKnNvuDjknQp5">

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-LU-00001">
   <teiHeader>
     <fileDesc>
@@ -62,7 +62,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FbkCnySYzmq4PEqAD5ne7B"/>
+        <correspAction xml:id="i-FbkCnySYzmq4PEqAD5ne7B" type="basedOn"/>
         <correspContext corresp="i-FbkCnySYzmq4PEqAD5ne7B">
           <ref>Proposition 2002/03:6</ref>
         </correspContext>
@@ -74,16 +74,16 @@
           <note type="signatory" corresp="i-RDeqY3mXLBtUS9bixjvHS"/>
           <note type="signatory" corresp="i-4SAiMdwrEthd2M8z2yjtkv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-ASg8ZqjPxgabqBLcn1BHZF">
+        <correspAction xml:id="i-ASg8ZqjPxgabqBLcn1BHZF" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-17szcz78n6wRDYyqs8b5c6">
+        <correspAction xml:id="i-17szcz78n6wRDYyqs8b5c6" type="dismissal">
           <date when="2002-10-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-N8VTNF4Wpmqas2owd25afk">
+        <correspAction xml:id="i-N8VTNF4Wpmqas2owd25afk" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-ELcUWm9UmtfZ58JhprTS6K"/>
+        <correspAction xml:id="i-ELcUWm9UmtfZ58JhprTS6K" type="assigned"/>
         <correspContext corresp="i-ELcUWm9UmtfZ58JhprTS6K">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -98,11 +98,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_L_0001/mot_200203_L_0001-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TT1xv97zCXyqDrFGUvdacB">
-        <div type="motTitle" xml:id="i-EFcGUbSyG5KpaD5wjXYgs3"/>
-        <div type="motSubmissionInfo" xml:id="i-FNyaE8mZaPfgrimyRkRyDE"/>
+      <div xml:id="i-TT1xv97zCXyqDrFGUvdacB" type="motHeader">
+        <div xml:id="i-EFcGUbSyG5KpaD5wjXYgs3" type="motTitle"/>
+        <div xml:id="i-FNyaE8mZaPfgrimyRkRyDE" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-64wPyRrJTbavTxFyoiQKkU">
+      <div xml:id="i-64wPyRrJTbavTxFyoiQKkU" type="motBody">
         <div xml:id="i-TZtdpc6qunzPvsVXr43UvZ">
           <p xml:id="i-BbDMusjCYcjFNvAyNnCpfz">
             2002/03 mnr: L1 pnr: fp101
@@ -221,8 +221,13 @@
             är något
           </p>
           <p xml:id="i-M331YZgTYwVNki6haBxAaq">
-            annat. Stockholm den 22 oktober 2002 Jan Ertsborn (fp) Martin
-            Andreasson (fp) Lars Tysklind (fp)
+            annat.
+          </p>
+          <p type="date" id="i-J6LqkRPeQoEsUYm2S4NdeA">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-UtdUpzXyVdGXKbFoLRcyad">
+            Jan Ertsborn (fp) Martin Andreasson (fp) Lars Tysklind (fp)
           </p>
           <p xml:id="i-3MVnsUpKmgBRpZVjFMiQWN">
             Mia Franzén (fp) Ana Maria Narti (fp)

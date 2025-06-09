@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00404">
   <teiHeader>
     <fileDesc>
@@ -78,16 +78,16 @@
           <note type="signatory" corresp="i-4iLEXqdotevN5mKmHAcQaC"/>
           <note type="signatory" corresp="i-4k3tGk6aQ13TZxWERSkj72"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4VUFhZ7borvg24BqpyRgkh">
+        <correspAction xml:id="i-4VUFhZ7borvg24BqpyRgkh" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DjJ9XCDX7Swr3KsEVssxFT">
+        <correspAction xml:id="i-DjJ9XCDX7Swr3KsEVssxFT" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-86D59yduU4SAJmULpFCrvi">
+        <correspAction xml:id="i-86D59yduU4SAJmULpFCrvi" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YV7irFEdrhwjnkHPRCd7rd"/>
+        <correspAction xml:id="i-YV7irFEdrhwjnkHPRCd7rd" type="assigned"/>
         <correspContext corresp="i-YV7irFEdrhwjnkHPRCd7rd">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_N_404/mot_200405_N_404-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7B8fZfJackQYnNajzHW9nB">
-        <div type="motTitle" xml:id="i-7qbnj9dVAWsHRdaoDLsQYH"/>
-        <div type="motSubmissionInfo" xml:id="i-TAkckzpDQawZ1Hy8JeJL3Q"/>
+      <div xml:id="i-7B8fZfJackQYnNajzHW9nB" type="motHeader">
+        <div xml:id="i-7qbnj9dVAWsHRdaoDLsQYH" type="motTitle"/>
+        <div xml:id="i-TAkckzpDQawZ1Hy8JeJL3Q" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NrvwcnARLyEjs2wthosgk2">
+      <div xml:id="i-NrvwcnARLyEjs2wthosgk2" type="motBody">
         <div xml:id="i-6H4AZEsGmysQ5YVNQskWzh">
           <p xml:id="i-MWQeU8ARmRJvayxpKsjB1T">
             2004/05
@@ -487,9 +487,12 @@
             och leva vidare genom ökade möjligheter till pendling till tätorterna.
             På så vis stärks tillväxten till fler geografiska områden. Vidgade
             arbetsmarknader bidrar också till att fler får arbete och egen
-            försörjning. Stockholm den 30 september 2004
+            försörjning.
           </p>
-          <p xml:id="i-XnJwgB8MpMcYU7XppufjdL">
+          <p type="date" id="i-GSmo8Yoxdmqxq9EcX6Ud38">
+            Stockholm den 30 september 2004
+          </p>
+          <p xml:id="i-XnJwgB8MpMcYU7XppufjdL" type="signatureBlock">
             Nils-Erik Söderqvist (s) Mona Berglund Nilsson (s) Arne Kjörnsberg
             (s) Majléne Westerlund Panke (s) Kjell Nordström (s) Rolf Lindén
             (s)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SfU-00005">
   <teiHeader>
     <fileDesc>
@@ -153,7 +153,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-V14pFmv3y8zsnuUpc6S8b9"/>
+        <correspAction xml:id="i-V14pFmv3y8zsnuUpc6S8b9" type="basedOn"/>
         <correspContext corresp="i-V14pFmv3y8zsnuUpc6S8b9">
           <ref>Regeringsskrivelse 2000/01:4</ref>
         </correspContext>
@@ -178,28 +178,28 @@
           <note type="signatory" corresp="i-PTuw4s4dbEitoQexouPwtS"/>
           <note type="signatory" corresp="i-GJLL78ePjJhSXVWBYyRW8t"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-V8nEBsB93pbkcJT9WgRBZ8">
+        <correspAction xml:id="i-V8nEBsB93pbkcJT9WgRBZ8" type="reviewing">
           <date when="2000-10-13"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-8nfdQUrrUZVmqLPVAnK4jx">
+        <correspAction xml:id="i-8nfdQUrrUZVmqLPVAnK4jx" type="referral">
           <date when="2000-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3BEpCSb5aorP9MLzXfDvhT">
+        <correspAction xml:id="i-3BEpCSb5aorP9MLzXfDvhT" type="dismissal">
           <date when="2000-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-W3PMXNUycR64TFoiPqe9QY">
+        <correspAction xml:id="i-W3PMXNUycR64TFoiPqe9QY" type="submission">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-G9avt9NoeYkyfrL64rzTJK">
+        <correspAction xml:id="i-G9avt9NoeYkyfrL64rzTJK" type="referral">
           <date when="2000-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-528ngypcnr6xLtVjUJCCCD">
+        <correspAction xml:id="i-528ngypcnr6xLtVjUJCCCD" type="dismissal">
           <date when="2000-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8M1tzyvk2CWhgMUQ7aqZ45">
+        <correspAction xml:id="i-8M1tzyvk2CWhgMUQ7aqZ45" type="submission">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7PUvWRbnSB4YNzf52zj42V"/>
+        <correspAction xml:id="i-7PUvWRbnSB4YNzf52zj42V" type="assigned"/>
         <correspContext corresp="i-7PUvWRbnSB4YNzf52zj42V">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -214,11 +214,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Sf_0005/mot_200001_Sf_0005-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KkrfvHtXaKT1967WzgC5J2">
-        <div type="motTitle" xml:id="i-7b75fPPzaRErceYDTgNoam"/>
-        <div type="motSubmissionInfo" xml:id="i-CeR7FWowXbHC4K6hAM6dPc"/>
+      <div xml:id="i-KkrfvHtXaKT1967WzgC5J2" type="motHeader">
+        <div xml:id="i-7b75fPPzaRErceYDTgNoam" type="motTitle"/>
+        <div xml:id="i-CeR7FWowXbHC4K6hAM6dPc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Fsg1xSTx1r1cEGHtCRozae">
+      <div xml:id="i-Fsg1xSTx1r1cEGHtCRozae" type="motBody">
         <div xml:id="i-54vdsnPuyyWF6BSX2zhKQr">
           <p xml:id="i-AKRn1sX3suc92dPdGYhZp9">
             2000/01
@@ -743,10 +743,12 @@
             syftar till att stimulera till återvändande både kanske genom
             ökat direkt penningstöd och genom att kombinera återvändande med
             biståndsinsatser. Regeringen bör återkomma med förslag till riksdagen
-            vad gäller program för återvandringsfrågor. Stockholm den 11 oktober
-            2000
+            vad gäller program för återvandringsfrågor.
           </p>
-          <p xml:id="i-AM83dpMi4v9Dt2RyQBYqQ7">
+          <p type="date" id="i-MuQnR6X2wiEgVX7ay6RLWu">
+            Stockholm den 11 oktober 2000
+          </p>
+          <p xml:id="i-AM83dpMi4v9Dt2RyQBYqQ7" type="signatureBlock">
             Margit Gennser (m)
           </p>
           <p xml:id="i-NJxfegCWxeuRtNt2dDCpBT">

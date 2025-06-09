@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199394-LU-00318">
   <teiHeader>
     <fileDesc>
@@ -54,28 +54,28 @@
           </person>
           <person gender="man">
             <idno>i-7SADcnbBg83aFZLcFawAoW</idno>
-            <name>Kaj Larsson </name>
+            <name>Kaj Larsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-DuKowRCZeJcfZANidh4RSE</idno>
-            <name>Gunnar Thollander </name>
+            <name>Gunnar Thollander</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-7SJK192EL4VbjkLD12Xg8y</idno>
-            <name>Britta Sundin </name>
+            <name>Britta Sundin</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-9osx7gdXCsvHnf1J7JQnnY</idno>
-            <name>Jarl Lander </name>
+            <name>Jarl Lander</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -94,25 +94,25 @@
           <note type="signatory" corresp="i-7SJK192EL4VbjkLD12Xg8y"/>
           <note type="signatory" corresp="i-9osx7gdXCsvHnf1J7JQnnY"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-W3eCbt6MnyRTTE8V3orqS9">
+        <correspAction xml:id="i-W3eCbt6MnyRTTE8V3orqS9" type="referral">
           <date when="1994-02-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UJ42THtL2EPzVYaiikdbuG">
+        <correspAction xml:id="i-UJ42THtL2EPzVYaiikdbuG" type="dismissal">
           <date when="1994-02-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GQdRWjf212uEgLJmZE5K8a">
+        <correspAction xml:id="i-GQdRWjf212uEgLJmZE5K8a" type="submission">
           <date when="1994-01-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-TExVq1Ka8VvHXssPZULvR4">
+        <correspAction xml:id="i-TExVq1Ka8VvHXssPZULvR4" type="referral">
           <date when="1994-02-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-64S1Y9JrZap5d5iMy2QtjS">
+        <correspAction xml:id="i-64S1Y9JrZap5d5iMy2QtjS" type="dismissal">
           <date when="1994-02-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Ccmjm6rcvrP8xH1UqQHGip">
+        <correspAction xml:id="i-Ccmjm6rcvrP8xH1UqQHGip" type="submission">
           <date when="1994-01-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NDZUAY389Cxdog7wMzLiYR"/>
+        <correspAction xml:id="i-NDZUAY389Cxdog7wMzLiYR" type="assigned"/>
         <correspContext corresp="i-NDZUAY389Cxdog7wMzLiYR">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -125,11 +125,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199394/mot_199394_LU_318/mot_199394_LU_318-001.pdf"/>
-      <div type="motHeader" xml:id="i-3a7oRPoPFXqiMpwv6qz52f">
-        <div type="motTitle" xml:id="i-HePfp7Sb41GYZUMPkXc8gV"/>
-        <div type="motSubmissionInfo" xml:id="i-PNAyu1GtnzLKTg9LGpUX8f"/>
+      <div xml:id="i-3a7oRPoPFXqiMpwv6qz52f" type="motHeader">
+        <div xml:id="i-HePfp7Sb41GYZUMPkXc8gV" type="motTitle"/>
+        <div xml:id="i-PNAyu1GtnzLKTg9LGpUX8f" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Hsr9RDgYFb1hCxmHwze1qX">
+      <div xml:id="i-Hsr9RDgYFb1hCxmHwze1qX" type="motBody">
         <div xml:id="i-XVpKvZsPtFesz59cD8tNyg">
           <p xml:id="i-PvfS39dcwrsXwvyfHSoQLQ">
             Motion till riksdagen 1993/94:1L318
@@ -207,9 +207,13 @@
           <p xml:id="i-WQiXiNdnoMakQwjmBgbgBb">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motio- nen anförts
-            om maximibeloppet för lönegaranti vid företagskonkur- ser. Stockholm
-            den 25 januari 1994 Kaj Larsson (s) Gunnar Thollander (s) Britta
-            Sundin (s)
+            om maximibeloppet för lönegaranti vid företagskonkur- ser.
+          </p>
+          <p type="date" id="i-Dh5QzuZp1ejTNnDy4xFLSL">
+            Stockholm den 25 januari 1994
+          </p>
+          <p type="signatureBlock" id="i-5KQ4TQBAHMSEatowCDMnEt">
+            Kaj Larsson (s) Gunnar Thollander (s) Britta Sundin (s)
           </p>
           <p xml:id="i-JaTVvpmAfJQPepKJVg9c2C">
             Jarl Lander (s)

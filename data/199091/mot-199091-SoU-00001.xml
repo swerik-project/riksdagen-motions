@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-SoU-00001">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="woman">
             <idno>i-9CvkAU1JKjTkULuqucvebo</idno>
-            <name>Maja Bäckström </name>
+            <name>Maja Bäckström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Lv4UkR3Qh5Z1mUCTAdeMZo</idno>
-            <name>Leo Persson </name>
+            <name>Leo Persson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Pcsn9a2tmTSvJf4Vo1Lf6W"/>
+        <correspAction xml:id="i-Pcsn9a2tmTSvJf4Vo1Lf6W" type="basedOn"/>
         <correspContext corresp="i-Pcsn9a2tmTSvJf4Vo1Lf6W">
           <ref>Proposition 1990/91:38</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-9CvkAU1JKjTkULuqucvebo"/>
           <note type="signatory" corresp="i-Lv4UkR3Qh5Z1mUCTAdeMZo"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VyuRPqrRL431Rp7W7SET47">
+        <correspAction xml:id="i-VyuRPqrRL431Rp7W7SET47" type="referral">
           <date when="1990-11-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Gdb7iAfRhUMvz41urMVcHX">
+        <correspAction xml:id="i-Gdb7iAfRhUMvz41urMVcHX" type="dismissal">
           <date when="1990-10-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FhMVEPsNfuS1WqkVWgu3n6">
+        <correspAction xml:id="i-FhMVEPsNfuS1WqkVWgu3n6" type="submission">
           <date when="1990-10-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-QLDnNmw8BJtfxfMBEVU8sr">
+        <correspAction xml:id="i-QLDnNmw8BJtfxfMBEVU8sr" type="referral">
           <date when="1990-11-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JTSv5yVafzyhGvxfdrn9Hp">
+        <correspAction xml:id="i-JTSv5yVafzyhGvxfdrn9Hp" type="dismissal">
           <date when="1990-10-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TUSanu6jAkU79N9bCTn4M9">
+        <correspAction xml:id="i-TUSanu6jAkU79N9bCTn4M9" type="submission">
           <date when="1990-10-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RTfghxsH7yMHSTqu7wh4Rz"/>
+        <correspAction xml:id="i-RTfghxsH7yMHSTqu7wh4Rz" type="assigned"/>
         <correspContext corresp="i-RTfghxsH7yMHSTqu7wh4Rz">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_SoU_1/mot_199091_SoU_1-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-XXeGo38wUxvdL44EkqUDtn">
-        <div type="motTitle" xml:id="i-76YwBftSYdoDkiWqknY6HK"/>
-        <div type="motSubmissionInfo" xml:id="i-8zUZvXehhyXCnz6YHfVvnp"/>
+      <div xml:id="i-XXeGo38wUxvdL44EkqUDtn" type="motHeader">
+        <div xml:id="i-76YwBftSYdoDkiWqknY6HK" type="motTitle"/>
+        <div xml:id="i-8zUZvXehhyXCnz6YHfVvnp" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9FKfHCD81gKw3d5n4CTdC4">
+      <div xml:id="i-9FKfHCD81gKw3d5n4CTdC4" type="motBody">
         <div xml:id="i-LQ34CixxvtdqwXJJc9cfHF">
           <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_SoU_1/mot_199091_SoU_1-001.pdf"/>
           <p xml:id="i-EaWcn8YKKHv75512EBJrRn">
@@ -160,7 +160,10 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_SoU_1/mot_199091_SoU_1-002.pdf"/>
           <p xml:id="i-XvPZ3E2S1zYopax9NAC6a7" type="date">
-            Stockholm den 24 oktober 1990 Mot. 1990/91
+            Stockholm den 24 oktober 1990
+          </p>
+          <p type="signatureBlock" id="i-MJm3RxPzvnbmmzURPeRJvj">
+            Mot. 1990/91
           </p>
           <p xml:id="i-5jWCSm8YnSCP8dpUixLWMQ">
             Maja Bäckström (s) Leo Persson (s) Sol

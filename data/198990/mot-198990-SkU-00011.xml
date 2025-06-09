@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-SkU-00011">
   <teiHeader>
     <fileDesc>
@@ -40,7 +40,7 @@
           </person>
           <person gender="man">
             <idno>i-SZgcxyxYn6GnRBLikzLy7M</idno>
-            <name>Kjell Ericsson </name>
+            <name>Kjell Ericsson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-WFBaE5R1BEskoUwAhZptCe"/>
+        <correspAction xml:id="i-WFBaE5R1BEskoUwAhZptCe" type="basedOn"/>
         <correspContext corresp="i-WFBaE5R1BEskoUwAhZptCe">
           <ref>Proposition 1989/90:40</ref>
         </correspContext>
@@ -66,16 +66,16 @@
           <note type="signatory" corresp="i-SZgcxyxYn6GnRBLikzLy7M"/>
           <note type="signatory" corresp="i-SZgcxyxYn6GnRBLikzLy7M"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-3QZhq9ro27rxyb41fTqqei">
+        <correspAction xml:id="i-3QZhq9ro27rxyb41fTqqei" type="submission">
           <date when="1989-11-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-W81NXC4HEssvqqMiWwKTp5">
+        <correspAction xml:id="i-W81NXC4HEssvqqMiWwKTp5" type="dismissal">
           <date when="1989-11-15"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-ohxziBcLS7QQThTjhCg1u">
+        <correspAction xml:id="i-ohxziBcLS7QQThTjhCg1u" type="referral">
           <date when="1989-11-16"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PjreLwKEUsnY7XCe6n9ygK">
+        <correspAction xml:id="i-PjreLwKEUsnY7XCe6n9ygK" type="assigned">
           <date when="2014-11-22"/>
           <time when="14:57:58"/>
         </correspAction>
@@ -91,11 +91,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_sk_11/mot_198990_sk_11-001.pdf"/>
-      <div type="motHeader" xml:id="i-6NAag3Ne4FFhGdLDeVDBFi">
-        <div type="motTitle" xml:id="i-AU6NgFEd37sQmWd5qoxdnd"/>
-        <div type="motSubmissionInfo" xml:id="i-S9oKsnZ4TG3BUucoRvkyjA"/>
+      <div xml:id="i-6NAag3Ne4FFhGdLDeVDBFi" type="motHeader">
+        <div xml:id="i-AU6NgFEd37sQmWd5qoxdnd" type="motTitle"/>
+        <div xml:id="i-S9oKsnZ4TG3BUucoRvkyjA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DYQe79UupgWVZa2hUbqwZG">
+      <div xml:id="i-DYQe79UupgWVZa2hUbqwZG" type="motBody">
         <div xml:id="i-9ttHtC6bVa1mznTYWBAUqR">
           <p xml:id="i-LWbv2XM5BnUAMsDFNdptG3">
             Motion till riksdagen 1989/90:Sk11
@@ -153,9 +153,12 @@
           </p>
           <p xml:id="i-7W7tqmLoR8F7YmxzFWXQeu">
             att riksdagen avslår proposition 1989/90:40 såvitt avser ändring
-            i 54$ tullagen (1987:1065). Stockholm den 14 november 1989
+            i 54$ tullagen (1987:1065).
           </p>
-          <p xml:id="i-STHYkqsTkF4YfZNzB74tx4">
+          <p type="date" id="i-CnBDteczDjMUxFHK8JSn1A">
+            Stockholm den 14 november 1989
+          </p>
+          <p xml:id="i-STHYkqsTkF4YfZNzB74tx4" type="signatureBlock">
             Kjell Ericsson (c)
           </p>
         </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-LU-00325">
   <teiHeader>
     <fileDesc>
@@ -46,34 +46,34 @@
           <note type="signatory" corresp="i-BprbpWQgeNpqWTF9sztgqA"/>
           <note type="signatory" corresp="i-CajxChHCyySL6R6AQNT1bF"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Gka1cutKGHY3Q25Q7mz14h">
+        <correspAction xml:id="i-Gka1cutKGHY3Q25Q7mz14h" type="referral">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6EV2CSBmrEKWJLkEnDgek4">
+        <correspAction xml:id="i-6EV2CSBmrEKWJLkEnDgek4" type="dismissal">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-TDyZ2sgV7PR5BBAvf5wNo7">
+        <correspAction xml:id="i-TDyZ2sgV7PR5BBAvf5wNo7" type="termination">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2U6KNTDLEpLU4Cj1XJiNM5">
+        <correspAction xml:id="i-2U6KNTDLEpLU4Cj1XJiNM5" type="submission">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-8ecki6W5AfuU7Nzq9o27S">
+        <correspAction xml:id="i-8ecki6W5AfuU7Nzq9o27S" type="numbering">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-26SaazMbRiFvWKCQTY7SH1">
+        <correspAction xml:id="i-26SaazMbRiFvWKCQTY7SH1" type="proposed_referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-RdX2Vv5ny5FwEAb6RjuU3k">
+        <correspAction xml:id="i-RdX2Vv5ny5FwEAb6RjuU3k" type="committee_proposal">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-LmqckjULujWUrnhoSrhwv5">
+        <correspAction xml:id="i-LmqckjULujWUrnhoSrhwv5" type="reviewing">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-YWb72jAwm2PUNeNWxcg6rB">
+        <correspAction xml:id="i-YWb72jAwm2PUNeNWxcg6rB" type="registration">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GiMkxuB8d8PYFbJL4y2xS9"/>
+        <correspAction xml:id="i-GiMkxuB8d8PYFbJL4y2xS9" type="assigned"/>
         <correspContext corresp="i-GiMkxuB8d8PYFbJL4y2xS9">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -88,11 +88,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_L_0325/mot_200102_L_0325-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CYf8GSnRXMHzNF5SKa1jFC">
-        <div type="motTitle" xml:id="i-WHiZcSjn3c4U6UbK5m6adY"/>
-        <div type="motSubmissionInfo" xml:id="i-XazaR4FHaiMmcGx1RhQPER"/>
+      <div xml:id="i-CYf8GSnRXMHzNF5SKa1jFC" type="motHeader">
+        <div xml:id="i-WHiZcSjn3c4U6UbK5m6adY" type="motTitle"/>
+        <div xml:id="i-XazaR4FHaiMmcGx1RhQPER" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JuSSn8WvXDMepUQC4hvkfC">
+      <div xml:id="i-JuSSn8WvXDMepUQC4hvkfC" type="motBody">
         <div xml:id="i-25Qd99vwzkWqTpyKASVJG4">
           <p xml:id="i-QgB2Um2fmfUeXt7MMjTpr1">
             2001/02 mnr: L325 pnr: m1839
@@ -410,9 +410,12 @@
             beredd att ta konsekvenserna av
           </p>
           <p xml:id="i-BSV1WLnE4iyhDRrVRTES7u">
-            sina val. Stockholm den 4 oktober 2001
+            sina val.
           </p>
-          <p xml:id="i-VRQfKguX4QcJjiqw5s3SZq">
+          <p type="date" id="i-MBLGyNa7NUhBsiXzqSqoh6">
+            Stockholm den 4 oktober 2001
+          </p>
+          <p xml:id="i-VRQfKguX4QcJjiqw5s3SZq" type="signatureBlock">
             Lars Lindblad (m) Anna Kinberg (m)
           </p>
         </div>

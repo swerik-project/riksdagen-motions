@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-MJU-00027">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5jKtRLxXCFxbMWH8MTLHLw"/>
+        <correspAction xml:id="i-5jKtRLxXCFxbMWH8MTLHLw" type="basedOn"/>
         <correspContext corresp="i-5jKtRLxXCFxbMWH8MTLHLw">
           <ref>Proposition 2001/02:116</ref>
         </correspContext>
@@ -42,16 +42,16 @@
         <correspContext corresp="i-RN1BfQq2NwAoBYAEN3q9Rt">
           <note type="signatory" corresp="i-3TzUjUVop5GV6tpKYjGYGr"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BjVo8oQLtjqtx3AUbnUWxK">
+        <correspAction xml:id="i-BjVo8oQLtjqtx3AUbnUWxK" type="referral">
           <date when="2002-04-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TgjczbU3paj2oSLiYWxjLq">
+        <correspAction xml:id="i-TgjczbU3paj2oSLiYWxjLq" type="dismissal">
           <date when="2002-04-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3BssNEjTJ8jwLC2bNaBhwS">
+        <correspAction xml:id="i-3BssNEjTJ8jwLC2bNaBhwS" type="submission">
           <date when="2002-03-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EZCZqnQBNybEeqa15sCtSV"/>
+        <correspAction xml:id="i-EZCZqnQBNybEeqa15sCtSV" type="assigned"/>
         <correspContext corresp="i-EZCZqnQBNybEeqa15sCtSV">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -66,11 +66,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_MJ_0027/mot_200102_MJ_0027-0001.pdf"/>
-      <div type="motHeader" xml:id="i-C8yKhruSYN7ggUPqw5WVS8">
-        <div type="motTitle" xml:id="i-57YtwjTn8ws9z7wvkkYCvq"/>
-        <div type="motSubmissionInfo" xml:id="i-D3doPw7ww9GN7KWbK6Q9uU"/>
+      <div xml:id="i-C8yKhruSYN7ggUPqw5WVS8" type="motHeader">
+        <div xml:id="i-57YtwjTn8ws9z7wvkkYCvq" type="motTitle"/>
+        <div xml:id="i-D3doPw7ww9GN7KWbK6Q9uU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9eGTjzoFificaBYVkRYFxn">
+      <div xml:id="i-9eGTjzoFificaBYVkRYFxn" type="motBody">
         <div xml:id="i-U6B3C5P839KzyVVW5sgPQb">
           <p xml:id="i-XmkgfkhtAXPNEZfH6c6EsH">
             2001/02 mnr: MJ27 pnr: m1939
@@ -189,9 +189,12 @@
             i dessa
           </p>
           <p xml:id="i-RFsUhr6skmnfuxRjGDB47R">
-            områden. Stockholm den 14 mars 2002
+            områden.
           </p>
-          <p xml:id="i-NkRJee8KS5DcG2YcAkUo5M">
+          <p type="date" id="i-DA4nciqUBJP3Ud92QAPKgM">
+            Stockholm den 14 mars 2002
+          </p>
+          <p xml:id="i-NkRJee8KS5DcG2YcAkUo5M" type="signatureBlock">
             Rolf Gunnarsson (m)
           </p>
           <p xml:id="i-Nsnpva5NZYQzD5DaSFfDVq">

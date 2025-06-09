@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-SfU-00021">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-EeEQ2rKeN91p4z1e2rPUpR</idno>
-            <name>Inga-Britt Johansson </name>
+            <name>Inga-Britt Johansson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-DRiwPcfjVYQdJiVawKhKpN</idno>
-            <name>Erkki Tammenoksa </name>
+            <name>Erkki Tammenoksa</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-SftjZkfkccEWbWRMJEbd7c</idno>
-            <name>Lahja Exner </name>
+            <name>Lahja Exner</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-HLotvcPR9eVN6WQ7cVGyei"/>
+        <correspAction xml:id="i-HLotvcPR9eVN6WQ7cVGyei" type="basedOn"/>
         <correspContext corresp="i-HLotvcPR9eVN6WQ7cVGyei">
           <ref>Regeringsskrivelse 1990/91:77</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-DRiwPcfjVYQdJiVawKhKpN"/>
           <note type="signatory" corresp="i-SftjZkfkccEWbWRMJEbd7c"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-5TyCuamQc7xGUa7p5devne">
+        <correspAction xml:id="i-5TyCuamQc7xGUa7p5devne" type="submission">
           <date when="1991-02-01"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-G4jxmdnYcEtw8wSvGdYKHm">
+        <correspAction xml:id="i-G4jxmdnYcEtw8wSvGdYKHm" type="dismissal">
           <date when="1991-02-04"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7Ai3F31BATkq8oPLHdzeKa">
+        <correspAction xml:id="i-7Ai3F31BATkq8oPLHdzeKa" type="referral">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9iepPtypQGrmbr7bDGEuTw">
+        <correspAction xml:id="i-9iepPtypQGrmbr7bDGEuTw" type="submission">
           <date when="1991-02-01"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QVftc6XTX5X4bo68hkLofs">
+        <correspAction xml:id="i-QVftc6XTX5X4bo68hkLofs" type="dismissal">
           <date when="1991-02-04"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-MK4EZYDP7RpvcZbyjcj17n">
+        <correspAction xml:id="i-MK4EZYDP7RpvcZbyjcj17n" type="referral">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XjEJjqsxAZgv8zsPzkgEvo"/>
+        <correspAction xml:id="i-XjEJjqsxAZgv8zsPzkgEvo" type="assigned"/>
         <correspContext corresp="i-XjEJjqsxAZgv8zsPzkgEvo">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_SfU_21/mot_199091_SfU_21-001.pdf"/>
-      <div type="motHeader" xml:id="i-NijV4omYxWZ5Uzf1b9zUyM">
-        <div type="motTitle" xml:id="i-6DkHGs6FoCzN57FhZ59Xqw"/>
-        <div type="motSubmissionInfo" xml:id="i-4RBtEQaYtXPsXnmf9npiFt"/>
+      <div xml:id="i-NijV4omYxWZ5Uzf1b9zUyM" type="motHeader">
+        <div xml:id="i-6DkHGs6FoCzN57FhZ59Xqw" type="motTitle"/>
+        <div xml:id="i-4RBtEQaYtXPsXnmf9npiFt" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GYmFqcTfv4h2umbEg6SrTs">
+      <div xml:id="i-GYmFqcTfv4h2umbEg6SrTs" type="motBody">
         <div xml:id="i-XQwby79XcQjJGt5AoXmvMw">
           <p xml:id="i-Wpsk7mUxt62mx244KmnYxa">
             Motion till riksdagen 1990/91:Sf21
@@ -173,8 +173,10 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_SfU_21/mot_199091_SfU_21-002.pdf"/>
           <p xml:id="i-4Evz7JuAyUxV4GkV6LFMS9" type="date">
-            Stockholm den 31 januari 1991 Mot. 1990/91 Sf21 Inga-Britt Johansson
-            (s)
+            Stockholm den 31 januari 1991
+          </p>
+          <p type="signatureBlock" id="i-KLz3xrndktHsCaAXZ2xd9Y">
+            Mot. 1990/91 Sf21 Inga-Britt Johansson (s)
           </p>
           <p xml:id="i-BZFiHWxnkMuhCP1VWfiYPR">
             Erkki Tammenoksa (s) Lahja Exner (s)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-FiU-00011">
   <teiHeader>
     <fileDesc>
@@ -90,7 +90,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-2jrGg98ng93rRcs1fLLqiE"/>
+        <correspAction xml:id="i-2jrGg98ng93rRcs1fLLqiE" type="basedOn"/>
         <correspContext corresp="i-2jrGg98ng93rRcs1fLLqiE">
           <ref>Regeringsskrivelse 2004/05:93</ref>
         </correspContext>
@@ -106,19 +106,19 @@
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
           <note type="signatory" corresp="i-WJM6edqhGfBK1ijhNxfgoj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XFin5whzchhn6VVhZ8jtgZ">
+        <correspAction xml:id="i-XFin5whzchhn6VVhZ8jtgZ" type="referral">
           <date when="2005-04-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GwfBzyhGsmwxadqkMtJyTK">
+        <correspAction xml:id="i-GwfBzyhGsmwxadqkMtJyTK" type="dismissal">
           <date when="2005-04-04"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-SNgmFRy2uK5AZJFgZgiiFN">
+        <correspAction xml:id="i-SNgmFRy2uK5AZJFgZgiiFN" type="registration">
           <date when="2005-04-01"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GqvJxvFBCZMVCtKANmZL4r">
+        <correspAction xml:id="i-GqvJxvFBCZMVCtKANmZL4r" type="submission">
           <date when="2005-03-30"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-U7yMFsGZtfJenzy8ZBvjEG"/>
+        <correspAction xml:id="i-U7yMFsGZtfJenzy8ZBvjEG" type="assigned"/>
         <correspContext corresp="i-U7yMFsGZtfJenzy8ZBvjEG">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -134,11 +134,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Fi_11/mot_200405_Fi_11-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Fi_11/mot_200405_Fi_11-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HkDsUnbKPsdN7fkZg3eJB2">
-        <div type="motTitle" xml:id="i-K6T5xeez9L3EqHB1K77kCQ"/>
-        <div type="motSubmissionInfo" xml:id="i-UGbJK92ErMxdQchuef9rPR"/>
+      <div xml:id="i-HkDsUnbKPsdN7fkZg3eJB2" type="motHeader">
+        <div xml:id="i-K6T5xeez9L3EqHB1K77kCQ" type="motTitle"/>
+        <div xml:id="i-UGbJK92ErMxdQchuef9rPR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MbUhd841UvmA9Lhms2hdNc">
+      <div xml:id="i-MbUhd841UvmA9Lhms2hdNc" type="motBody">
         <div xml:id="i-Uy4dcJ2eDs5R3Tkjsmjd8">
           <p xml:id="i-RjSEMueF8qjeep8Dx2d9i1">
             2004/05 mnr: Fill pnr: kd141
@@ -1025,7 +1025,10 @@
             regeringen inte hörsammat.
           </p>
           <p xml:id="i-Edr6HFgYJsWCGAjGRTGraX" type="date">
-            Stockholm den 30 mars 2005 Mats Odell (kd)
+            Stockholm den 30 mars 2005
+          </p>
+          <p type="signatureBlock" id="i-5AM71kGH8QL7Rr41cntiDU">
+            Mats Odell (kd)
           </p>
           <p xml:id="i-KbcYM7KkWJQvQaw7YZ7VC4">
             Lars Lindén (kd) Stefan Attefall (kd) Maria Larsson (kd) Mikael

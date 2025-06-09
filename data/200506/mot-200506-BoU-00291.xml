@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-BoU-00291">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-MMa2PA7yJ45qkfsEkcFqYb"/>
           <note type="signatory" corresp="i-Spsbo7A5zikEeUY3JEYcNV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RK63g9KZN4tExQQaDAT7WJ">
+        <correspAction xml:id="i-RK63g9KZN4tExQQaDAT7WJ" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EyPG8V2F5L3wUtSpDpx1Tf">
+        <correspAction xml:id="i-EyPG8V2F5L3wUtSpDpx1Tf" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6FwypWA6D4K5jNvwRDS7tL">
+        <correspAction xml:id="i-6FwypWA6D4K5jNvwRDS7tL" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-ESFgjJtqj7K2X6k5hZmj5D"/>
+        <correspAction xml:id="i-ESFgjJtqj7K2X6k5hZmj5D" type="assigned"/>
         <correspContext corresp="i-ESFgjJtqj7K2X6k5hZmj5D">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Bo_291/mot_200506_Bo_291-0001.pdf"/>
-      <div type="motHeader" xml:id="i-X7NNzByXRcxrDPaBgtb3rT">
-        <div type="motTitle" xml:id="i-FgefZvuZumUJp2TnSftQnf"/>
-        <div type="motSubmissionInfo" xml:id="i-D1EK95LRBqWg5eyTPW95Uh"/>
+      <div xml:id="i-X7NNzByXRcxrDPaBgtb3rT" type="motHeader">
+        <div xml:id="i-FgefZvuZumUJp2TnSftQnf" type="motTitle"/>
+        <div xml:id="i-D1EK95LRBqWg5eyTPW95Uh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KSeJoYZBqMmjHZWjQur1UT">
+      <div xml:id="i-KSeJoYZBqMmjHZWjQur1UT" type="motBody">
         <div xml:id="i-Mr6k7oPFPabwfhTRhVBoeV">
           <p xml:id="i-8dtMpHiqvEbFk5BMzTuBx2">
             2005/06 mnr: Bo291 pnr: s11113
@@ -136,9 +136,12 @@
             Det behövs också bostäder till rimliga priser. I dagsläget är
             det alltför många nyproducerade lägenheter som är exklusiva boenden
             och alltför många hyresrätter görs om till bostadsrätter. Allmännyttan
-            behöver byggas ut. Stockholm den 29 september 2005
+            behöver byggas ut.
           </p>
-          <p xml:id="i-ELJ9nhQ19ZTNiVAYvnJiS1">
+          <p type="date" id="i-MJDudMbQM8kxSZLmibTaAj">
+            Stockholm den 29 september 2005
+          </p>
+          <p xml:id="i-ELJ9nhQ19ZTNiVAYvnJiS1" type="signatureBlock">
             Christer Engelhardt (s) Mikael Damberg (s)
           </p>
         </div>

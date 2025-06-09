@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-BoU-00025">
   <teiHeader>
     <fileDesc>
@@ -104,7 +104,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-3fHWfgjhEi43LfiZnoDrXp"/>
+        <correspAction xml:id="i-3fHWfgjhEi43LfiZnoDrXp" type="basedOn"/>
         <correspContext corresp="i-3fHWfgjhEi43LfiZnoDrXp">
           <ref>Proposition 2001/02:62</ref>
         </correspContext>
@@ -122,34 +122,34 @@
           <note type="signatory" corresp="i-5QUSwQFaazTZF6GHyxaAkw"/>
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="termination" xml:id="i-L9qu2Z9pDPfvnTpkoLr43Z">
+        <correspAction xml:id="i-L9qu2Z9pDPfvnTpkoLr43Z" type="termination">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-6SArEJyPQqfNZ2mwHpoVzb">
+        <correspAction xml:id="i-6SArEJyPQqfNZ2mwHpoVzb" type="numbering">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-MrzibrbfgCq31Tzm6fPBhn">
+        <correspAction xml:id="i-MrzibrbfgCq31Tzm6fPBhn" type="proposed_referral">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-DMjfzrDqJpu4xxrtHdTiDt">
+        <correspAction xml:id="i-DMjfzrDqJpu4xxrtHdTiDt" type="committee_proposal">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-VREz8nHrikRAT1TDqB2Uwo">
+        <correspAction xml:id="i-VREz8nHrikRAT1TDqB2Uwo" type="reviewing">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-2dxekeLuSD2ajiYcNYpVp7">
+        <correspAction xml:id="i-2dxekeLuSD2ajiYcNYpVp7" type="registration">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-6ZKLttUWRLLDibKvgfG5nB">
+        <correspAction xml:id="i-6ZKLttUWRLLDibKvgfG5nB" type="referral">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8QvtnWi8i2Paw6iHt216Xs">
+        <correspAction xml:id="i-8QvtnWi8i2Paw6iHt216Xs" type="dismissal">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Hn2dDue8zcuwe3k6sd4sSL">
+        <correspAction xml:id="i-Hn2dDue8zcuwe3k6sd4sSL" type="submission">
           <date when="2001-12-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LjtGN7etfoEcAD42X7QTuB"/>
+        <correspAction xml:id="i-LjtGN7etfoEcAD42X7QTuB" type="assigned"/>
         <correspContext corresp="i-LjtGN7etfoEcAD42X7QTuB">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -164,11 +164,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Bo_0025/mot_200102_Bo_0025-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Y1giKEBkNa4QmUFXJxvNk8">
-        <div type="motTitle" xml:id="i-4PxVcLhV7RFyv18FZadp21"/>
-        <div type="motSubmissionInfo" xml:id="i-HzcUbBo4u8ifEcYacxEwxZ"/>
+      <div xml:id="i-Y1giKEBkNa4QmUFXJxvNk8" type="motHeader">
+        <div xml:id="i-4PxVcLhV7RFyv18FZadp21" type="motTitle"/>
+        <div xml:id="i-HzcUbBo4u8ifEcYacxEwxZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Nb13EcNkAxPM5nZ3ip1NWr">
+      <div xml:id="i-Nb13EcNkAxPM5nZ3ip1NWr" type="motBody">
         <div xml:id="i-VXUP3JBxPA2tJiThSkuX3m">
           <p xml:id="i-HVyYD2QrBPg4cotpstCdvp">
             50
@@ -352,10 +352,12 @@
             och att lagstiftningen därför behöver ses över. Riksdagen bör
             begära att regeringen lägger fram förslag till ändring av hyreslagens
             bestämmelser kring omedelbar uppsägning av hyresavtal i syfte
-            att tillförsäkra ett samrådsförfarande. Stockholm den 13 december
-            2001
+            att tillförsäkra ett samrådsförfarande.
           </p>
-          <p xml:id="i-8LyQ545x5f7yEJoLX9PK5V">
+          <p type="date" id="i-UjVrYZPkY9Wazf7wcjCUfn">
+            Stockholm den 13 december 2001
+          </p>
+          <p xml:id="i-8LyQ545x5f7yEJoLX9PK5V" type="signatureBlock">
             Annelie Enochson (kd) Ulla-Britt Hagström (kd) Harald Bergström
             (kd) Johnny Gylling (kd) Ulf Björklund (kd) Caroline Hagström
             (kd) Tuve Skånberg (kd) Ester Lindstedt-Staaf (kd) Lars Gustafsson

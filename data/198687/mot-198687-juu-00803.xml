@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-juu-00803">
   <teiHeader>
     <fileDesc>
@@ -54,7 +54,7 @@
           <note type="signatory" corresp="i-9q7rZgxi59wWj9sHREqvJT"/>
           <note type="signatory" corresp="i-MCKLqN6XeWUwSHj6Js4X4Y"/>
         </correspContext>
-        <correspAction type="assigned" xml:id="i-W5L2H6LB3kJfSW1xv8xTSj">
+        <correspAction xml:id="i-W5L2H6LB3kJfSW1xv8xTSj" type="assigned">
           <date when="2014-11-19"/>
           <time when="14:44:11"/>
         </correspAction>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198687/mot_198687_ju_803/mot_198687_ju_803-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-Nbi8kj6sZH3HNNs4RFqdvW">
-        <div type="motTitle" xml:id="i-BBGHNDtZtHBh6vmeHH9JhN"/>
-        <div type="motSubmissionInfo" xml:id="i-7u9R4UkoCVQ9fMbEmMDGQC"/>
+      <div xml:id="i-Nbi8kj6sZH3HNNs4RFqdvW" type="motHeader">
+        <div xml:id="i-BBGHNDtZtHBh6vmeHH9JhN" type="motTitle"/>
+        <div xml:id="i-7u9R4UkoCVQ9fMbEmMDGQC" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3VCgD13RJ47F5VWrKJbESQ">
+      <div xml:id="i-3VCgD13RJ47F5VWrKJbESQ" type="motBody">
         <div xml:id="i-EqiLuQwaFvTHXig7QSUsRi">
           <p xml:id="i-N85Y4aJyJ8ktFML75aS1Uo">
             Jåz)
@@ -125,8 +125,10 @@
             riksdagen för beslut.
           </p>
           <p xml:id="i-9WmYXJPrxuBJWcQRg37nSk" type="date">
-            Stockholm den 23 januari 1987 Anita Modin (s) Barbro Evermo (s)
-            Gerd Engman (s)
+            Stockholm den 23 januari 1987
+          </p>
+          <p type="signatureBlock" id="i-6f1AnYNSMw4CdDXMsSuVi8">
+            Anita Modin (s) Barbro Evermo (s) Gerd Engman (s)
           </p>
           <p xml:id="i-VqbqWNS7c3GzbLirRXG4vF">
             1 Riksdagen 1986/87.3 saml. Nr Ju803-811

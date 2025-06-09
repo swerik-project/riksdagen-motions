@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-KU-00065">
   <teiHeader>
     <fileDesc>
@@ -104,7 +104,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-RmBtFVhbcom4ikFqprz7pC"/>
+        <correspAction xml:id="i-RmBtFVhbcom4ikFqprz7pC" type="basedOn"/>
         <correspContext corresp="i-RmBtFVhbcom4ikFqprz7pC">
           <ref>Proposition 2001/02:80</ref>
         </correspContext>
@@ -122,34 +122,34 @@
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
           <note type="signatory" corresp="i-YDBEU8t6zbUyVkVFkdceLF"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XZbecUDyjRVDcAYGYKPQ5h">
+        <correspAction xml:id="i-XZbecUDyjRVDcAYGYKPQ5h" type="referral">
           <date when="2002-02-12"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-97vKyKHKf1jLfer7Q49T67">
+        <correspAction xml:id="i-97vKyKHKf1jLfer7Q49T67" type="termination">
           <date when="2002-02-08"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-JBifidYqwe6NtpqfkKAhuV">
+        <correspAction xml:id="i-JBifidYqwe6NtpqfkKAhuV" type="numbering">
           <date when="2002-02-08"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-DoeJX6x9jBYsduq2QHGtkq">
+        <correspAction xml:id="i-DoeJX6x9jBYsduq2QHGtkq" type="proposed_referral">
           <date when="2002-02-08"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-GwiTHRQLijxsjPFZE9mc1g">
+        <correspAction xml:id="i-GwiTHRQLijxsjPFZE9mc1g" type="committee_proposal">
           <date when="2002-02-08"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-TnnsV7n9dfrX1q1tBdQLi9">
+        <correspAction xml:id="i-TnnsV7n9dfrX1q1tBdQLi9" type="reviewing">
           <date when="2002-02-08"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-M8XVPzn2QboGjhKz2gCR56">
+        <correspAction xml:id="i-M8XVPzn2QboGjhKz2gCR56" type="registration">
           <date when="2002-02-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-L5tthYKj9cvFojsUmZA7pQ">
+        <correspAction xml:id="i-L5tthYKj9cvFojsUmZA7pQ" type="dismissal">
           <date when="2002-02-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9hijPrvwXQhGz7gAzwoyb3">
+        <correspAction xml:id="i-9hijPrvwXQhGz7gAzwoyb3" type="submission">
           <date when="2002-02-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BU89C6kbUjXk5F8SVSYWuT"/>
+        <correspAction xml:id="i-BU89C6kbUjXk5F8SVSYWuT" type="assigned"/>
         <correspContext corresp="i-BU89C6kbUjXk5F8SVSYWuT">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -164,11 +164,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_K_0065/mot_200102_K_0065-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RDwLhNEBevhaR8Ym65mhDA">
-        <div type="motTitle" xml:id="i-BRnEXzxpv3fox7aqa5rdPw"/>
-        <div type="motSubmissionInfo" xml:id="i-A347iHbS4cQxE4FnxjBhMk"/>
+      <div xml:id="i-RDwLhNEBevhaR8Ym65mhDA" type="motHeader">
+        <div xml:id="i-BRnEXzxpv3fox7aqa5rdPw" type="motTitle"/>
+        <div xml:id="i-A347iHbS4cQxE4FnxjBhMk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NHbbGhzNSaV88uiBHW6UNd">
+      <div xml:id="i-NHbbGhzNSaV88uiBHW6UNd" type="motBody">
         <div xml:id="i-TvQA71wK9cVkdwPCW26Dna">
           <p xml:id="i-7gnyoYH6EbTxPoMRB9G7Lj">
             40
@@ -913,10 +913,12 @@
             mått som ska uppfyllas. En = statlig utredning bör = därför =
             tillsättas som = utifrån Demokratiutredningen utvecklar ”ett offentligt
             etos och en demokratisk professionalism”, för att använda dess
-            formuleringar. Det bör ges regeringen till känna. Stockholm den
-            7 februari 2002
+            formuleringar. Det bör ges regeringen till känna.
           </p>
-          <p xml:id="i-XnmPyguwZL4sJrHJKQYnoL">
+          <p type="date" id="i-26n6ocLcNBDpGWWv3KTaDr">
+            Stockholm den 7 februari 2002
+          </p>
+          <p xml:id="i-XnmPyguwZL4sJrHJKQYnoL" type="signatureBlock">
             Ingvar Svensson (kd) Björn von der Esch (kd) Ragnwi Marcelind
             (kd) Ingemar Vänerlöv (kd) Rolf Åbjörnsson (kd) Kjell Eldensjö
             (kd) Magda Ayoub (kd) Maria Larsson (kd) Inger Strömbom (kd) Dan

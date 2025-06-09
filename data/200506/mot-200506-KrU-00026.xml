@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00026">
   <teiHeader>
     <fileDesc>
@@ -35,7 +35,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5KynFHUHhgJTbQVArJJwBs"/>
+        <correspAction xml:id="i-5KynFHUHhgJTbQVArJJwBs" type="basedOn"/>
         <correspContext corresp="i-5KynFHUHhgJTbQVArJJwBs">
           <ref>Proposition 2005/06:147</ref>
         </correspContext>
@@ -43,19 +43,19 @@
         <correspContext corresp="i-H2N4SuENexGVmm5ZQmeSJa">
           <note type="signatory" corresp="i-4SAiMdwrEthd2M8z2yjtkv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KTUikDfPs9ejPJB9qiDUTn">
+        <correspAction xml:id="i-KTUikDfPs9ejPJB9qiDUTn" type="referral">
           <date when="2006-04-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RrG8gdot1B6fTbmWhrtbky">
+        <correspAction xml:id="i-RrG8gdot1B6fTbmWhrtbky" type="dismissal">
           <date when="2006-03-31"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Nf58NJGUrNvFnjSvxo6FUW">
+        <correspAction xml:id="i-Nf58NJGUrNvFnjSvxo6FUW" type="dismissal">
           <date when="2006-03-31"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XEqf1H8dZtsRExZafh6XgX">
+        <correspAction xml:id="i-XEqf1H8dZtsRExZafh6XgX" type="submission">
           <date when="2006-03-30"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-X4NE54hNSwVbLnP3r32mpP"/>
+        <correspAction xml:id="i-X4NE54hNSwVbLnP3r32mpP" type="assigned"/>
         <correspContext corresp="i-X4NE54hNSwVbLnP3r32mpP">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Kr_26/mot_200506_Kr_26-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Tm136pYpKpVJnakeKaR9bF">
-        <div type="motTitle" xml:id="i-PaBdmNjDKdjPMatjP9DnmD"/>
-        <div type="motSubmissionInfo" xml:id="i-Bi3nfud1FeGMqmirH2iAyQ"/>
+      <div xml:id="i-Tm136pYpKpVJnakeKaR9bF" type="motHeader">
+        <div xml:id="i-PaBdmNjDKdjPMatjP9DnmD" type="motTitle"/>
+        <div xml:id="i-Bi3nfud1FeGMqmirH2iAyQ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YX5p8uwBFZseYcPzytYxUD">
+      <div xml:id="i-YX5p8uwBFZseYcPzytYxUD" type="motBody">
         <div xml:id="i-Dbhu147H23de81iAmd7KxU">
           <p xml:id="i-GQCaQbZ6L3k1sGZW6thLf1">
             2005/06 mnr: Kr26 pnr: fp1316
@@ -140,7 +140,10 @@
             till känna.
           </p>
           <p xml:id="i-XecLfnQLUC2CGVj9kTetm1" type="date">
-            Stockholm den 30 mars 2006 Ana Maria Narti (fp)
+            Stockholm den 30 mars 2006
+          </p>
+          <p type="signatureBlock" id="i-UP6n9oZzKCWimwU63N9wYR">
+            Ana Maria Narti (fp)
           </p>
         </div>
       </div>

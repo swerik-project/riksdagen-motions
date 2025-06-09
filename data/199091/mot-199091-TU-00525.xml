@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-TU-00525">
   <teiHeader>
     <fileDesc>
@@ -61,35 +61,35 @@
           </person>
           <person gender="man">
             <idno>i-PkMeDucNdB3kVzpzFtsEgG</idno>
-            <name>Bertil Danielsson </name>
+            <name>Bertil Danielsson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-QkoGcuWJuiryQZaTNFexi4</idno>
-            <name>Karl-Gösta Svenson </name>
+            <name>Karl-Gösta Svenson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-CBuK3dFLMHFNiQVSusHsaD</idno>
-            <name>Ulf Melin </name>
+            <name>Ulf Melin</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-McV8uzEvZdxJephaZbqN9X</idno>
-            <name>Anders G Högmark </name>
+            <name>Anders G Högmark</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-DYxXbC2LXzL11J2rHdExZh</idno>
-            <name>Hans Nyhage </name>
+            <name>Hans Nyhage</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -110,25 +110,25 @@
           <note type="signatory" corresp="i-McV8uzEvZdxJephaZbqN9X"/>
           <note type="signatory" corresp="i-DYxXbC2LXzL11J2rHdExZh"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DWqmLkAr16wVm7dcuRisL5">
+        <correspAction xml:id="i-DWqmLkAr16wVm7dcuRisL5" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XaZ1i3Gf77MHDZicyEoujN">
+        <correspAction xml:id="i-XaZ1i3Gf77MHDZicyEoujN" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7DCT73jxK2WSXZVuJ2ewkK">
+        <correspAction xml:id="i-7DCT73jxK2WSXZVuJ2ewkK" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-K5Mq6gfxsgUnpCg6mRiJhK">
+        <correspAction xml:id="i-K5Mq6gfxsgUnpCg6mRiJhK" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KjA3VQYpaTdeR2sgn3MCmJ">
+        <correspAction xml:id="i-KjA3VQYpaTdeR2sgn3MCmJ" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Jyevizg6MY6Q8Ujjfit1zF">
+        <correspAction xml:id="i-Jyevizg6MY6Q8Ujjfit1zF" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Sq9oHoFParrMSTtzmgDEWA"/>
+        <correspAction xml:id="i-Sq9oHoFParrMSTtzmgDEWA" type="assigned"/>
         <correspContext corresp="i-Sq9oHoFParrMSTtzmgDEWA">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -141,11 +141,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_TU_525/mot_199091_TU_525-001.pdf"/>
-      <div type="motHeader" xml:id="i-BA3jMXfv5B6fWP2HKQZVV3">
-        <div type="motTitle" xml:id="i-JYmus6osBoVgb6yMvGYp8h"/>
-        <div type="motSubmissionInfo" xml:id="i-PWuQ4TsYHaFEo9SqLLc5cg"/>
+      <div xml:id="i-BA3jMXfv5B6fWP2HKQZVV3" type="motHeader">
+        <div xml:id="i-JYmus6osBoVgb6yMvGYp8h" type="motTitle"/>
+        <div xml:id="i-PWuQ4TsYHaFEo9SqLLc5cg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Pb1BFEi8ph9qa6taKFG33P">
+      <div xml:id="i-Pb1BFEi8ph9qa6taKFG33P" type="motBody">
         <div xml:id="i-7NaUSKYi8Kr4xo1beMdytD">
           <p xml:id="i-Em3Fvdpj6dgcMXmaJZgEJi">
             Motion till riksdagen ÅN
@@ -207,8 +207,13 @@
             mening ger regeringen till känna vad i motionen anförts om att
             kust-till-kust-banan, dvs. järnvägen mellan Kalmar/Karlskrona
             och Göteborg, skall bli försöksbana för fri anbudsupphandling
-            av järnvägstrafik. Stockholm den 23 januari 1991 Bertil Danielsson
-            (m)
+            av järnvägstrafik.
+          </p>
+          <p type="date" id="i-YVcBWfw8NcKkLG182UoCzX">
+            Stockholm den 23 januari 1991
+          </p>
+          <p type="signatureBlock" id="i-B519tYQQkgHY6q37en5xi1">
+            Bertil Danielsson (m)
           </p>
           <p xml:id="i-X5boHaVpThxaPbdYPM6XAn">
             Karl-Gösta Svenson (m) Anders G Högmark (m)

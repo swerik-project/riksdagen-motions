@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-JuU-00029">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-N1qw8jfKGpQHZKgF3gs76j</idno>
-            <name>Siw Persson </name>
+            <name>Siw Persson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-M583eVDoBTdnLPkDa6XLNx</idno>
-            <name>Ola Ström </name>
+            <name>Ola Ström</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-4cqJPp6KE913P96Kfc7QxB</idno>
-            <name>Bengt Harding Olson </name>
+            <name>Bengt Harding Olson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-4BuCdya3sZNTcdW8N7DcQ3"/>
+        <correspAction xml:id="i-4BuCdya3sZNTcdW8N7DcQ3" type="basedOn"/>
         <correspContext corresp="i-4BuCdya3sZNTcdW8N7DcQ3">
           <ref>Proposition 1996/97:133</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-M583eVDoBTdnLPkDa6XLNx"/>
           <note type="signatory" corresp="i-4cqJPp6KE913P96Kfc7QxB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7pgQzrfxbRQVhXj2e3vkuX">
+        <correspAction xml:id="i-7pgQzrfxbRQVhXj2e3vkuX" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VHBRxEHSrAQPJPtnyLHWez">
+        <correspAction xml:id="i-VHBRxEHSrAQPJPtnyLHWez" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XbyBq3jv6o2zwLaSULRpkb">
+        <correspAction xml:id="i-XbyBq3jv6o2zwLaSULRpkb" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-3rxJozQ6CH7bMRiALcvsoY">
+        <correspAction xml:id="i-3rxJozQ6CH7bMRiALcvsoY" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FJRf4bv8jRfTqPAmyFQ9zR">
+        <correspAction xml:id="i-FJRf4bv8jRfTqPAmyFQ9zR" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BEiXA3c87eBoXtubBrtbv">
+        <correspAction xml:id="i-BEiXA3c87eBoXtubBrtbv" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Hw3ugwtxWKouxHcdANF5X"/>
+        <correspAction xml:id="i-Hw3ugwtxWKouxHcdANF5X" type="assigned"/>
         <correspContext corresp="i-Hw3ugwtxWKouxHcdANF5X">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_JU_0029/mot_199697_JU_0029-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9bUcqdpUML38BAsoJL7pJH">
-        <div type="motTitle" xml:id="i-AqNYuwnn9zt6dqnqkDYdBK"/>
-        <div type="motSubmissionInfo" xml:id="i-UNJ5A3zuajh1ihivoxQaEb"/>
+      <div xml:id="i-9bUcqdpUML38BAsoJL7pJH" type="motHeader">
+        <div xml:id="i-AqNYuwnn9zt6dqnqkDYdBK" type="motTitle"/>
+        <div xml:id="i-UNJ5A3zuajh1ihivoxQaEb" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LHJyYFefsszhzwM2jkNhpU">
+      <div xml:id="i-LHJyYFefsszhzwM2jkNhpU" type="motBody">
         <div xml:id="i-XQak3WvKGzcbcrsex6icPb">
           <p xml:id="i-PTZogNGZNr5vQ8BXd3vZ8f">
             1996/97 Ju29 Ju26-35
@@ -244,7 +244,12 @@
             SFörslag till riksdagsbeslut Med hänvisning till det anförda
             hemställs att riksdagen avslår regeringens förslag att tingsrätten
             och länsrätten — i mål där nämndemän medverkar — skall bestå av
-            en juristdomare och två nämndemän. Stockholm den 25 mars 1997
+            en juristdomare och två nämndemän.
+          </p>
+          <p type="date" id="i-UYcDSFSdUcCTTbnAw7MNTm">
+            Stockholm den 25 mars 1997
+          </p>
+          <p type="signatureBlock" id="i-8ssw6GvgqrbuUDu7rUnaSi">
             Siw Persson (fp)
           </p>
           <p xml:id="i-5xhcpcaK9Xq3AT1nawwkLr">

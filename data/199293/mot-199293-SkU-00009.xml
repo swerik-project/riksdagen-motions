@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-SkU-00009">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="man">
             <idno>i-YSrKPAF7dEJGwUuQtYWvjX</idno>
-            <name>Bruno Poromaa </name>
+            <name>Bruno Poromaa</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Rb9LcfDrAi5Y6rVKoFXtAg</idno>
-            <name>Owe Andréasson </name>
+            <name>Owe Andréasson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8DqwakvkxbqP4pjSjeJ5mY"/>
+        <correspAction xml:id="i-8DqwakvkxbqP4pjSjeJ5mY" type="basedOn"/>
         <correspContext corresp="i-8DqwakvkxbqP4pjSjeJ5mY">
           <ref>Proposition 1992/93:86</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-YSrKPAF7dEJGwUuQtYWvjX"/>
           <note type="signatory" corresp="i-Rb9LcfDrAi5Y6rVKoFXtAg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SG1T87L8nj1R3EaBeCsUsU">
+        <correspAction xml:id="i-SG1T87L8nj1R3EaBeCsUsU" type="referral">
           <date when="1992-11-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SDomzSAyTref7pcAQFrQhC">
+        <correspAction xml:id="i-SDomzSAyTref7pcAQFrQhC" type="dismissal">
           <date when="1992-11-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-L5JcuhJLJQ4cF452antPD2">
+        <correspAction xml:id="i-L5JcuhJLJQ4cF452antPD2" type="submission">
           <date when="1992-11-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-81MFTkdw2qAsvEn3YmpN2z">
+        <correspAction xml:id="i-81MFTkdw2qAsvEn3YmpN2z" type="referral">
           <date when="1992-11-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UPjqohqCPmQwJfL4p5Amwk">
+        <correspAction xml:id="i-UPjqohqCPmQwJfL4p5Amwk" type="dismissal">
           <date when="1992-11-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5dQ8DPtD8SpUfLmWcie9oE">
+        <correspAction xml:id="i-5dQ8DPtD8SpUfLmWcie9oE" type="submission">
           <date when="1992-11-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4RctH9mATx4mZn4yDu6FVU"/>
+        <correspAction xml:id="i-4RctH9mATx4mZn4yDu6FVU" type="assigned"/>
         <correspContext corresp="i-4RctH9mATx4mZn4yDu6FVU">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_SkU_9/mot_199293_SkU_9-001.pdf"/>
-      <div type="motHeader" xml:id="i-5mN4tx7FpFfU1dzj49rSkM">
-        <div type="motTitle" xml:id="i-WJAcGssZju5ErzSXJDyPcU"/>
-        <div type="motSubmissionInfo" xml:id="i-8xPFd4fYhoUxQHkoVVPcAz"/>
+      <div xml:id="i-5mN4tx7FpFfU1dzj49rSkM" type="motHeader">
+        <div xml:id="i-WJAcGssZju5ErzSXJDyPcU" type="motTitle"/>
+        <div xml:id="i-8xPFd4fYhoUxQHkoVVPcAz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2ChbPCLyd5yMxs3oFZv4m9">
+      <div xml:id="i-2ChbPCLyd5yMxs3oFZv4m9" type="motBody">
         <div xml:id="i-NtzMC4CA4NheKUDgQA8Qmd">
           <p xml:id="i-JxtXUM6g4HoGjGc6a37N2V">
             Motion till riksdagen 1992/93:Sk9
@@ -159,9 +159,12 @@
             om anslaget till skatteförvaltningen.
           </p>
           <p xml:id="i-EQLM33fXF2JcvMWSX37jHq">
-            "Stockholm den 25 november 1992
+            "
           </p>
-          <p xml:id="i-McYc8R6T4osZZEKnecXVKZ">
+          <p type="date" id="i-HNHYBkLeWBZJCvUgfmf3f2">
+            Stockholm den 25 november 1992
+          </p>
+          <p xml:id="i-McYc8R6T4osZZEKnecXVKZ" type="signatureBlock">
             Bruno Poromaa (s) Owe Andréasson (s)
           </p>
         </div>

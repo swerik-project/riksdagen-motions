@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00006">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FXgEWhMpFgpp8ybTVFrAXv"/>
+        <correspAction xml:id="i-FXgEWhMpFgpp8ybTVFrAXv" type="basedOn"/>
         <correspContext corresp="i-FXgEWhMpFgpp8ybTVFrAXv">
           <ref>Proposition 2002/03:55</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="i-TZHBPDEfPriGgMd5y7LfJG"/>
           <note type="signatory" corresp="i-AQAc7L3yWtMcgD3r6CxRHG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8Y4WdzW6yy12LSyVUxjKzN">
+        <correspAction xml:id="i-8Y4WdzW6yy12LSyVUxjKzN" type="referral">
           <date when="2003-04-01"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DUhuHCvaueXiPL8gaRb8Ro">
+        <correspAction xml:id="i-DUhuHCvaueXiPL8gaRb8Ro" type="dismissal">
           <date when="2003-03-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-B2BW9EXWH3VYEeSMjDnnqJ">
+        <correspAction xml:id="i-B2BW9EXWH3VYEeSMjDnnqJ" type="submission">
           <date when="2003-03-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VZvPnvNGv5kMD39zYWjG7n"/>
+        <correspAction xml:id="i-VZvPnvNGv5kMD39zYWjG7n" type="assigned"/>
         <correspContext corresp="i-VZvPnvNGv5kMD39zYWjG7n">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -74,11 +74,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_T_0006/mot_200203_T_0006-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EQGxTcihS2BZKiXwvtCDPg">
-        <div type="motTitle" xml:id="i-VnGiHaxit3gbHKvQEow9Jo"/>
-        <div type="motSubmissionInfo" xml:id="i-3k47x8u2sa5R8PYKdMb7Z2"/>
+      <div xml:id="i-EQGxTcihS2BZKiXwvtCDPg" type="motHeader">
+        <div xml:id="i-VnGiHaxit3gbHKvQEow9Jo" type="motTitle"/>
+        <div xml:id="i-3k47x8u2sa5R8PYKdMb7Z2" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-94PyxhVhLtqi2A8cb3FLzR">
+      <div xml:id="i-94PyxhVhLtqi2A8cb3FLzR" type="motBody">
         <div xml:id="i-EMLwRzm8RuTZ2e9ioctmQ6">
           <p xml:id="i-KxBbWmwGrTi84KzR92LtYn">
             2002/03 mnr: T6 pnr: s18100
@@ -138,7 +138,10 @@
             2002/03:T6
           </p>
           <p xml:id="i-AisEnCBAGBNjBzhGV4547A" type="date">
-            Stockholm den 27 mars 2003 Lars U Granberg (s) Maria Öberg (s)
+            Stockholm den 27 mars 2003
+          </p>
+          <p type="signatureBlock" id="i-C5LZjhj87zzRBiSJBTGjbQ">
+            Lars U Granberg (s) Maria Öberg (s)
           </p>
           <p xml:id="i-R7NQFHvgsd7HgDuvXMfcKx">
             12

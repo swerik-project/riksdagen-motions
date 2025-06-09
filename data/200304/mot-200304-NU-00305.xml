@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-NU-00305">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-SxD4KyJ1hEVLtRN3gMULkH">
           <note type="signatory" corresp="i-XxqQtZTdHUTphXEbUJ35Ss"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-F5rcTjR8GcZF6XezxD3Han">
+        <correspAction xml:id="i-F5rcTjR8GcZF6XezxD3Han" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ByHySJxHrGybRorYB25yyf">
+        <correspAction xml:id="i-ByHySJxHrGybRorYB25yyf" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BTYpgVyhxeCDS9Y7xuSyvF">
+        <correspAction xml:id="i-BTYpgVyhxeCDS9Y7xuSyvF" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HbbdKrjvCQRpLxK5Ti7hsz"/>
+        <correspAction xml:id="i-HbbdKrjvCQRpLxK5Ti7hsz" type="assigned"/>
         <correspContext corresp="i-HbbdKrjvCQRpLxK5Ti7hsz">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_N_0305/mot_200304_N_0305-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Nhjdreu7EtXXoETxDruviw">
-        <div type="motTitle" xml:id="i-LNCpXN2fU3DjBVWVzXKWA3"/>
-        <div type="motSubmissionInfo" xml:id="i-9VdXyLw3ZaBWvJRdSP38jD"/>
+      <div xml:id="i-Nhjdreu7EtXXoETxDruviw" type="motHeader">
+        <div xml:id="i-LNCpXN2fU3DjBVWVzXKWA3" type="motTitle"/>
+        <div xml:id="i-9VdXyLw3ZaBWvJRdSP38jD" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Qz3G9En2zgiHCUEk9JfDa">
+      <div xml:id="i-Qz3G9En2zgiHCUEk9JfDa" type="motBody">
         <div xml:id="i-GU8NrdLTnbMTuuVqnZ1XY1">
           <p xml:id="i-V8SCZHnadnvee1yjdHWvbd">
             2003/04 mnr: N305 pnr: c608
@@ -122,9 +122,12 @@
           </p>
           <p xml:id="i-HcRUfJnecXY2kDgaQx91YC">
             för att förbättra tillgången till riskkapital i de mindre företagen.
-            Inte minst på landsbygden. Stockholm den 2 oktober 2003
+            Inte minst på landsbygden.
           </p>
-          <p xml:id="i-tycnoHmizrodbJ3TtduWg">
+          <p type="date" id="i-BJFy2GbSSeedNaZL59cZnE">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p xml:id="i-tycnoHmizrodbJ3TtduWg" type="signatureBlock">
             Håkan Larsson (c)
           </p>
         </div>

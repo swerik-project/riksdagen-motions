@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-BoU-00291">
   <teiHeader>
     <fileDesc>
@@ -78,16 +78,16 @@
           <note type="signatory" corresp="i-GjgyninALCjktLtfUxc8Qh"/>
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Fn6ymJHBk5XeN13RTrcT8F">
+        <correspAction xml:id="i-Fn6ymJHBk5XeN13RTrcT8F" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DRSaHE3AxBnG7nAY4zijDT">
+        <correspAction xml:id="i-DRSaHE3AxBnG7nAY4zijDT" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-F2CExb18ZvoWMXq63NzaWh">
+        <correspAction xml:id="i-F2CExb18ZvoWMXq63NzaWh" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JXshBnREMnXiYoouNySt4j"/>
+        <correspAction xml:id="i-JXshBnREMnXiYoouNySt4j" type="assigned"/>
         <correspContext corresp="i-JXshBnREMnXiYoouNySt4j">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Bo_0291/mot_200203_Bo_0291-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3d7JdfW3UqAVeYe3kc4fLT">
-        <div type="motTitle" xml:id="i-5dgP83Nk7QpXwwK3QRtRXu"/>
-        <div type="motSubmissionInfo" xml:id="i-QMQeHLpMp5CiUA5nQzmKy8"/>
+      <div xml:id="i-3d7JdfW3UqAVeYe3kc4fLT" type="motHeader">
+        <div xml:id="i-5dgP83Nk7QpXwwK3QRtRXu" type="motTitle"/>
+        <div xml:id="i-QMQeHLpMp5CiUA5nQzmKy8" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-14dhDzn5aVZPCdEBZLpAU7">
+      <div xml:id="i-14dhDzn5aVZPCdEBZLpAU7" type="motBody">
         <div xml:id="i-G9vojGFyFm9Z6sbV5xiDwU">
           <p xml:id="i-XDmKFF6NDnjs5eXVHuL27g">
             2002/03 mnr: Bo291 pnr: kd318
@@ -1615,9 +1615,12 @@
             och övriga byggnader säkras. Kvalitetssäkringen måste fungera
             praktiskt i alla led och relationen mellan byggherre och kvalitetsansvarig
             förtydligas. Bygglovsprövning och systemet för egenkontroll behöver
-            utvecklas. Stockholm den 23 oktober 2002
+            utvecklas.
           </p>
-          <p xml:id="i-28cMS8EZTS3gs7gGtEKiKy">
+          <p type="date" id="i-TyaRwUNNAVx3KeVDAoBwgQ">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p xml:id="i-28cMS8EZTS3gs7gGtEKiKy" type="signatureBlock">
             Göran Hägglund (kd) Dan Kihlström (kd) Johnny Gylling (kd) Sven
             Gunnar Persson (kd) Björn von der Esch (kd)
           </p>

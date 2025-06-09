@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00383">
   <teiHeader>
     <fileDesc>
@@ -55,16 +55,16 @@
           <note type="signatory" corresp="i-UojdP4mF9dqkxf3QQ9oPFe"/>
           <note type="signatory" corresp="i-EZRVrXd7dZCHpRgBpnf69S"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8K71HvoNYiGkWAKzpthdqx">
+        <correspAction xml:id="i-8K71HvoNYiGkWAKzpthdqx" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Fe7dzVPWN6Bp7w8ASCepr6">
+        <correspAction xml:id="i-Fe7dzVPWN6Bp7w8ASCepr6" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4iTE4GD9evV38RMDuQvT46">
+        <correspAction xml:id="i-4iTE4GD9evV38RMDuQvT46" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9Ux6JGAYo2A5CtAckYHPE3"/>
+        <correspAction xml:id="i-9Ux6JGAYo2A5CtAckYHPE3" type="assigned"/>
         <correspContext corresp="i-9Ux6JGAYo2A5CtAckYHPE3">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -79,11 +79,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_383/mot_200506_T_383-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6L1WLYPkJ9i5Rc4nMzDXNB">
-        <div type="motTitle" xml:id="i-6uZsQJYqcQS6sZMPZBAS72"/>
-        <div type="motSubmissionInfo" xml:id="i-QUk1phYyECd3wPf5187JKB"/>
+      <div xml:id="i-6L1WLYPkJ9i5Rc4nMzDXNB" type="motHeader">
+        <div xml:id="i-6uZsQJYqcQS6sZMPZBAS72" type="motTitle"/>
+        <div xml:id="i-QUk1phYyECd3wPf5187JKB" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-K7JamCpydSufGovLt331Sv">
+      <div xml:id="i-K7JamCpydSufGovLt331Sv" type="motBody">
         <div xml:id="i-KS5E4pumvQeHGXq3HD1WcC">
           <p xml:id="i-2rXiq38munYqUVDLxmu4ta">
             2005/06 mnr: T383 pnr: s11045
@@ -139,10 +139,12 @@
           </p>
           <p xml:id="i-TRzv5JWjDa7BwjoC5ND6Af">
             kommer tågtrafikens attraktionskraft i Kalmar län att öka kraftigt
-            med en minimal insats av ekonomiska medel. Stockholm den 30 september
-            2005
+            med en minimal insats av ekonomiska medel.
           </p>
-          <p xml:id="i-Fbjn7eVuBqzX5YfbkJsHqz">
+          <p type="date" id="i-CKd5imuAB2awgPfhJqFxg">
+            Stockholm den 30 september 2005
+          </p>
+          <p xml:id="i-Fbjn7eVuBqzX5YfbkJsHqz" type="signatureBlock">
             Ann-Marie Fagerström (s) Håkan Juholt (s) Agneta Ringman (s)
           </p>
         </div>

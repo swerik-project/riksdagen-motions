@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00001">
   <teiHeader>
     <fileDesc>
@@ -83,7 +83,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-YB6CzUZfU6hRkeQjcbnkKt"/>
+        <correspAction xml:id="i-YB6CzUZfU6hRkeQjcbnkKt" type="basedOn"/>
         <correspContext corresp="i-YB6CzUZfU6hRkeQjcbnkKt">
           <ref>Proposition 2003/04:38</ref>
         </correspContext>
@@ -98,16 +98,16 @@
           <note type="signatory" corresp="i-SxwXtVqzR6fyXB2uQfozAQ"/>
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HjrtujhinbAiUTRJa8hXYg">
+        <correspAction xml:id="i-HjrtujhinbAiUTRJa8hXYg" type="referral">
           <date when="2003-12-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UKwmYNDLysHZTdtYo5Ktgo">
+        <correspAction xml:id="i-UKwmYNDLysHZTdtYo5Ktgo" type="dismissal">
           <date when="2003-12-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JiJYmQLXSgWmH7XFQSyMYN">
+        <correspAction xml:id="i-JiJYmQLXSgWmH7XFQSyMYN" type="submission">
           <date when="2003-12-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KRn15r215eiPtkT3D9QKP9"/>
+        <correspAction xml:id="i-KRn15r215eiPtkT3D9QKP9" type="assigned"/>
         <correspContext corresp="i-KRn15r215eiPtkT3D9QKP9">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -122,11 +122,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_L_0001/mot_200304_L_0001-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TtLKthM21sWAzDhABmSHWd">
-        <div type="motTitle" xml:id="i-8Z3xRTsMMQdnq4zkKF2iNB"/>
-        <div type="motSubmissionInfo" xml:id="i-3m7EKGG888JZbXpkwL38hf"/>
+      <div xml:id="i-TtLKthM21sWAzDhABmSHWd" type="motHeader">
+        <div xml:id="i-8Z3xRTsMMQdnq4zkKF2iNB" type="motTitle"/>
+        <div xml:id="i-3m7EKGG888JZbXpkwL38hf" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WVRfJqdY7az8dTZTm2vxsB">
+      <div xml:id="i-WVRfJqdY7az8dTZTm2vxsB" type="motBody">
         <div xml:id="i-25oYy5cLF7Gcedjv4sUqsb">
           <p xml:id="i-J89mBkMcuY3h82cn1DcMxe">
             2003/04 mnr: L1 pnr: v007
@@ -207,7 +207,10 @@
             fastställs. Detta bör regeringen ges till känna.
           </p>
           <p xml:id="i-4Baxdhsdr7D69kyPjWBgt3" type="date">
-            Stockholm den 2 december 2003 Tasso Stafilidis (v)
+            Stockholm den 2 december 2003
+          </p>
+          <p type="signatureBlock" id="i-3r6mweTJNARCbYxdRTCMDf">
+            Tasso Stafilidis (v)
           </p>
           <p xml:id="i-67GRwsAuwgAeTk2fxwQG59">
             Rossana Dinamarca (v) Mats Einarsson (v) Siv Holma (v) Rolf Olsson

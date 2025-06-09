@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00391">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-QtTymooQxjRd8hNLGtjsiz">
           <note type="signatory" corresp="i-TSGehE1rwudkXFF6bgJHmH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CA2X6YMdfJ52YJuAyEmaVi">
+        <correspAction xml:id="i-CA2X6YMdfJ52YJuAyEmaVi" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DEmMLefPVzmSK3JqpxPvze">
+        <correspAction xml:id="i-DEmMLefPVzmSK3JqpxPvze" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8X7LHzp8cbQ4Dt3j8KsppL">
+        <correspAction xml:id="i-8X7LHzp8cbQ4Dt3j8KsppL" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XYeyuQ77fBjx1vBLHCUDfp"/>
+        <correspAction xml:id="i-XYeyuQ77fBjx1vBLHCUDfp" type="assigned"/>
         <correspContext corresp="i-XYeyuQ77fBjx1vBLHCUDfp">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_391/mot_200405_Sk_391-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3LsRnk8MZQCeSHAc5hAzH2">
-        <div type="motTitle" xml:id="i-8nCy1hWsWng6o5Ei5SWAxm"/>
-        <div type="motSubmissionInfo" xml:id="i-17eRCKKaK48xLE1nQ4cPGw"/>
+      <div xml:id="i-3LsRnk8MZQCeSHAc5hAzH2" type="motHeader">
+        <div xml:id="i-8nCy1hWsWng6o5Ei5SWAxm" type="motTitle"/>
+        <div xml:id="i-17eRCKKaK48xLE1nQ4cPGw" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MmwpePNVBSujLog964T4ku">
+      <div xml:id="i-MmwpePNVBSujLog964T4ku" type="motBody">
         <div xml:id="i-YNqxxQ24NG24q6kZ83tyRq">
           <p xml:id="i-QjnMrQGdxPRyxBwM252j8">
             2004/05 mnr: Sk391 pnr: m1593
@@ -184,10 +184,12 @@
           </p>
           <p xml:id="i-2phSnBPpzYDb7X7Ph2JNJg">
             tillsätta en utredning med syfte att införa en skattereform som
-            gör det möjligt för fler företag att anställa fler. Stockholm
-            den 4 oktober 2004
+            gör det möjligt för fler företag att anställa fler.
           </p>
-          <p xml:id="i-MWTQKNz2evYGx5Tyumvw7E">
+          <p type="date" id="i-MpekdfikyUWNZLKMnNTbBu">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p xml:id="i-MWTQKNz2evYGx5Tyumvw7E" type="signatureBlock">
             Henrik von Sydow (m)
           </p>
         </div>

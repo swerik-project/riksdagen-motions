@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-FiU-00124">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-DMheKZZCYDtLzdvzFzc5vP</idno>
-            <name>Kenth Skårvik </name>
+            <name>Kenth Skårvik</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-VQ8e4QWrW7Gvhr9MwK6fQ9</idno>
-            <name>Isa Halvarsson </name>
+            <name>Isa Halvarsson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-5BAuoreWuHEDmfStAQQoco</idno>
-            <name>Sigge Godin </name>
+            <name>Sigge Godin</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5dBcM2KiFqJ52TPPdW5dSM"/>
+        <correspAction xml:id="i-5dBcM2KiFqJ52TPPdW5dSM" type="basedOn"/>
         <correspContext corresp="i-5dBcM2KiFqJ52TPPdW5dSM">
           <ref>Proposition 1995/96:222</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-VQ8e4QWrW7Gvhr9MwK6fQ9"/>
           <note type="signatory" corresp="i-5BAuoreWuHEDmfStAQQoco"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-TxMs21TVrPXHoZSTxXKfBi">
+        <correspAction xml:id="i-TxMs21TVrPXHoZSTxXKfBi" type="submission">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-HE9rYTwQfnEpgNAwA5gwJF">
+        <correspAction xml:id="i-HE9rYTwQfnEpgNAwA5gwJF" type="referral">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Nt7MQE82uuUuxL6LpBK7sc">
+        <correspAction xml:id="i-Nt7MQE82uuUuxL6LpBK7sc" type="dismissal">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EVnHRtDjNcU1nRKhE4vy4i">
+        <correspAction xml:id="i-EVnHRtDjNcU1nRKhE4vy4i" type="submission">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GCPp4DeQ3nVGFiThZWty99">
+        <correspAction xml:id="i-GCPp4DeQ3nVGFiThZWty99" type="referral">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Gewp1DHdihHkYbLm75GAXg">
+        <correspAction xml:id="i-Gewp1DHdihHkYbLm75GAXg" type="dismissal">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KqnbQxgqhqsj4HiNGRVL48"/>
+        <correspAction xml:id="i-KqnbQxgqhqsj4HiNGRVL48" type="assigned"/>
         <correspContext corresp="i-KqnbQxgqhqsj4HiNGRVL48">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -114,11 +114,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_FI_0124/mot_199596_FI_0124-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_FI_0124/mot_199596_FI_0124-001-000.pdf"/>
-      <div type="motHeader" xml:id="i-JrfA8jUdVpN9kznjrkBQ94">
-        <div type="motTitle" xml:id="i-gGPoku1eu5X61XkuuPMy4"/>
-        <div type="motSubmissionInfo" xml:id="i-4aFZsBwn5K4qZoNpa4hpEa"/>
+      <div xml:id="i-JrfA8jUdVpN9kznjrkBQ94" type="motHeader">
+        <div xml:id="i-gGPoku1eu5X61XkuuPMy4" type="motTitle"/>
+        <div xml:id="i-4aFZsBwn5K4qZoNpa4hpEa" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3KerbQNam6JuTXWmMs48er">
+      <div xml:id="i-3KerbQNam6JuTXWmMs48er" type="motBody">
         <div xml:id="i-UogTmhvXUjSUP9s1PXDZbL">
           <p xml:id="i-GKmUGi9v6dKs2jtmbWnhpq">
             Fil24
@@ -177,7 +177,13 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_FI_0124/mot_199596_FI_0124-0002.pdf"/>
           <p xml:id="i-LWPyjbzd7kwvDKwmxRZsQy">
-            Mot. Stockholm den 18 juni 1996 1995/96Fi124
+            Mot.
+          </p>
+          <p type="date" id="i-FgoJeSBEbiUzi6x1AEy32K">
+            Stockholm den 18 juni 1996
+          </p>
+          <p type="signatureBlock" id="i-FEiGkqVY5noWFdPqGxQ4Yd">
+            1995/96Fi124
           </p>
           <p xml:id="i-RTwJdG6Fuxp6nqxpb5xuWo">
             Kenth Skårvik (fp)

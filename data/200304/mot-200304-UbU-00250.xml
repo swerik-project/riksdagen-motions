@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00250">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-9HmmcKoQsb7srJLTjSMQ3D">
           <note type="signatory" corresp="i-Q8hYBES3N7Q4fZnAATRjsd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XyJGe3BktFPeB3SL4dWwPJ">
+        <correspAction xml:id="i-XyJGe3BktFPeB3SL4dWwPJ" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-N9E6M8G57iNurJqvqaCxRr">
+        <correspAction xml:id="i-N9E6M8G57iNurJqvqaCxRr" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DAERucKte6JDU9r6oH5cZR">
+        <correspAction xml:id="i-DAERucKte6JDU9r6oH5cZR" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EQrH1VaNmfpEtsuqiqyVxD"/>
+        <correspAction xml:id="i-EQrH1VaNmfpEtsuqiqyVxD" type="assigned"/>
         <correspContext corresp="i-EQrH1VaNmfpEtsuqiqyVxD">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ub_0250/mot_200304_Ub_0250-0001.pdf"/>
-      <div type="motHeader" xml:id="i-ShxV4XWNVKFEUHPsQi4Aih">
-        <div type="motTitle" xml:id="i-KwB2zDAf7JugQSZSJMrMcF"/>
-        <div type="motSubmissionInfo" xml:id="i-WsEfdEgBRjWjRuVkgmEmF4"/>
+      <div xml:id="i-ShxV4XWNVKFEUHPsQi4Aih" type="motHeader">
+        <div xml:id="i-KwB2zDAf7JugQSZSJMrMcF" type="motTitle"/>
+        <div xml:id="i-WsEfdEgBRjWjRuVkgmEmF4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AU9ghKDWRXXpeYc6FwoWBr">
+      <div xml:id="i-AU9ghKDWRXXpeYc6FwoWBr" type="motBody">
         <div xml:id="i-8uS6gTejo6pDAekE8os3ZN">
           <p xml:id="i-9Scb4gJDQqMrWidaSq3VBe">
             2003/04 mnr: Ub250 pnr: s3011
@@ -122,9 +122,12 @@
           </p>
           <p xml:id="i-HnAj2Hwm64KYrmPMBa7a5q">
             upplagd utbildning skall erbjudas. Detta bör riksdagen ge regeringen
-            tillkänna. Stockholm den 23 september 2003
+            tillkänna.
           </p>
-          <p xml:id="i-6c3g3LLiQzoND6nbZaLx1J">
+          <p type="date" id="i-HWsvgNqBRVwxQYcY3XiYVE">
+            Stockholm den 23 september 2003
+          </p>
+          <p xml:id="i-6c3g3LLiQzoND6nbZaLx1J" type="signatureBlock">
             Fredrik Olovsson (s)
           </p>
         </div>

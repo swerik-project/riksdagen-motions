@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00001">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-3x1imv67j11KbZ2ZRug1gz"/>
+        <correspAction xml:id="i-3x1imv67j11KbZ2ZRug1gz" type="basedOn"/>
         <correspContext corresp="i-3x1imv67j11KbZ2ZRug1gz">
           <ref>Regeringsskrivelse 2003/04:13</ref>
         </correspContext>
@@ -42,16 +42,16 @@
         <correspContext corresp="i-7o4ExsxNrTx6ae9oa9y9iz">
           <note type="signatory" corresp="i-GjgyninALCjktLtfUxc8Qh"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-L9NfXf9cJirzmJGfEGGLC1">
+        <correspAction xml:id="i-L9NfXf9cJirzmJGfEGGLC1" type="referral">
           <date when="2003-10-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SgoqDXhkkaUvLCbghvgVjN">
+        <correspAction xml:id="i-SgoqDXhkkaUvLCbghvgVjN" type="dismissal">
           <date when="2003-10-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KHyKFrpSrMLD86bZeLon9t">
+        <correspAction xml:id="i-KHyKFrpSrMLD86bZeLon9t" type="submission">
           <date when="2003-10-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UbkubzXCe6dg7EqgumAvcd"/>
+        <correspAction xml:id="i-UbkubzXCe6dg7EqgumAvcd" type="assigned"/>
         <correspContext corresp="i-UbkubzXCe6dg7EqgumAvcd">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -66,11 +66,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0001/mot_200304_K_0001-0001.pdf"/>
-      <div type="motHeader" xml:id="i-25grknXRxyf2WWCJMALnFQ">
-        <div type="motTitle" xml:id="i-WG25feyaUmPRiu7DxBbHEc"/>
-        <div type="motSubmissionInfo" xml:id="i-2htCQe1jxAiiHp3J2KdWGo"/>
+      <div xml:id="i-25grknXRxyf2WWCJMALnFQ" type="motHeader">
+        <div xml:id="i-WG25feyaUmPRiu7DxBbHEc" type="motTitle"/>
+        <div xml:id="i-2htCQe1jxAiiHp3J2KdWGo" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NLWVNY8vkhJWZhyzowsRiA">
+      <div xml:id="i-NLWVNY8vkhJWZhyzowsRiA" type="motBody">
         <div xml:id="i-BTffyyHWGyv7CxgdxQraiG">
           <p xml:id="i-TyTFApm8akvUYwXpKahhbi">
             2003/04 mnr: K1 pnr: kd112
@@ -147,7 +147,10 @@
             nicht diskutieren”.
           </p>
           <p xml:id="i-BcbPy57ZgkRzWAotv2UaF4" type="date">
-            Stockholm den 16 oktober 2003 Björn von der Esch (kd)
+            Stockholm den 16 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-SWfSd1wjzWr2R9nSULpsUz">
+            Björn von der Esch (kd)
           </p>
         </div>
       </div>

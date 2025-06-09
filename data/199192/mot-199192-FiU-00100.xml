@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-FiU-00100">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="man">
             <idno>i-Vrxw6nqNsC7Xr3jonLTumw</idno>
-            <name>Jerzy Einhorn </name>
+            <name>Jerzy Einhorn</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-T9dFBJ1pv742mQeG3uLBtA</idno>
-            <name>Margareta Viklund </name>
+            <name>Margareta Viklund</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-UGoDvBLLTuZmNrFoXWpGhL"/>
+        <correspAction xml:id="i-UGoDvBLLTuZmNrFoXWpGhL" type="basedOn"/>
         <correspContext corresp="i-UGoDvBLLTuZmNrFoXWpGhL">
           <ref>Proposition 1991/92:150</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-Vrxw6nqNsC7Xr3jonLTumw"/>
           <note type="signatory" corresp="i-T9dFBJ1pv742mQeG3uLBtA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TYor9SgkCrFkxu73exh41o">
+        <correspAction xml:id="i-TYor9SgkCrFkxu73exh41o" type="referral">
           <date when="1992-05-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DpUXeRqeUK61Li82GsFcWM">
+        <correspAction xml:id="i-DpUXeRqeUK61Li82GsFcWM" type="dismissal">
           <date when="1992-05-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QEcV15ixhPbbNPme1MpLDb">
+        <correspAction xml:id="i-QEcV15ixhPbbNPme1MpLDb" type="submission">
           <date when="1992-05-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GwjVosiJyjx55jfgYkdwnE">
+        <correspAction xml:id="i-GwjVosiJyjx55jfgYkdwnE" type="referral">
           <date when="1992-05-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BvhFiwPcntUXpHvtRosbk9">
+        <correspAction xml:id="i-BvhFiwPcntUXpHvtRosbk9" type="dismissal">
           <date when="1992-05-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EKJxzyKhVVAAwTjUg7UJBe">
+        <correspAction xml:id="i-EKJxzyKhVVAAwTjUg7UJBe" type="submission">
           <date when="1992-05-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6Eb6fYaFhtZuag9TQDsKtg"/>
+        <correspAction xml:id="i-6Eb6fYaFhtZuag9TQDsKtg" type="assigned"/>
         <correspContext corresp="i-6Eb6fYaFhtZuag9TQDsKtg">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_FiU_100/mot_199192_FiU_100-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-PcvBMjRC47f26AJEMYPyxJ">
-        <div type="motTitle" xml:id="i-9rw5VVzw6Rn8y5Wugzytwr"/>
-        <div type="motSubmissionInfo" xml:id="i-XMmAtWQy3JeRkUkEqQaAeM"/>
+      <div xml:id="i-PcvBMjRC47f26AJEMYPyxJ" type="motHeader">
+        <div xml:id="i-9rw5VVzw6Rn8y5Wugzytwr" type="motTitle"/>
+        <div xml:id="i-XMmAtWQy3JeRkUkEqQaAeM" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-88twcDuYaSr4HJvFM5P25c">
+      <div xml:id="i-88twcDuYaSr4HJvFM5P25c" type="motBody">
         <div xml:id="i-RQ93GSfXSFAWDZ2srkuGPh">
           <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_FiU_100/mot_199192_FiU_100-001.pdf"/>
           <p xml:id="i-5QTMzZCnn7A77VR3TyPNq2">
@@ -216,9 +216,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_FiU_100/mot_199192_FiU_100-003.pdf"/>
           <p xml:id="i-Qqkf3Ev9TmwRP72VoatYfJ">
-            Mot. 1991/92 Fi100 Stockholm den 11 maj 1992
+            Mot. 1991/92 Fi100
           </p>
-          <p xml:id="i-AkUyswYfSanR6tNbfJDc54">
+          <p type="date" id="i-P629NSSDcedXJhjsZd9dqb">
+            Stockholm den 11 maj 1992
+          </p>
+          <p xml:id="i-AkUyswYfSanR6tNbfJDc54" type="signatureBlock">
             Jerzy Einhorn (kds) Margareta Viklund (kds)
           </p>
           <p xml:id="i-AvXdRePjNPhLCcDrSEDTnC">

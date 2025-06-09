@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00009">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-BfmP5i47fyLJPAJsnp9Lks"/>
+        <correspAction xml:id="i-BfmP5i47fyLJPAJsnp9Lks" type="basedOn"/>
         <correspContext corresp="i-BfmP5i47fyLJPAJsnp9Lks">
           <ref>Proposition 2003/04:43</ref>
         </correspContext>
@@ -42,16 +42,16 @@
         <correspContext corresp="i-E86HePfTeE5FC7ryvhUu3C">
           <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AVtyDA6PfT8PRoN9gitgZv">
+        <correspAction xml:id="i-AVtyDA6PfT8PRoN9gitgZv" type="referral">
           <date when="2004-01-28"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DWK3YBy7SJmzMXFn8mAgRX">
+        <correspAction xml:id="i-DWK3YBy7SJmzMXFn8mAgRX" type="dismissal">
           <date when="2004-01-27"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CFdKhKPEXC2bTRAVebbEEW">
+        <correspAction xml:id="i-CFdKhKPEXC2bTRAVebbEEW" type="submission">
           <date when="2004-01-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JprpvsJsJ2fKYW1MioywER"/>
+        <correspAction xml:id="i-JprpvsJsJ2fKYW1MioywER" type="assigned"/>
         <correspContext corresp="i-JprpvsJsJ2fKYW1MioywER">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -66,11 +66,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_L_0009/mot_200304_L_0009-0001.pdf"/>
-      <div type="motHeader" xml:id="i-X85Xh52CumyQeGH5ubuozW">
-        <div type="motTitle" xml:id="i-69gxcv5c6dyp7nQaqXzNWY"/>
-        <div type="motSubmissionInfo" xml:id="i-LJ5n665PxTi6oJF8zQNG3s"/>
+      <div xml:id="i-X85Xh52CumyQeGH5ubuozW" type="motHeader">
+        <div xml:id="i-69gxcv5c6dyp7nQaqXzNWY" type="motTitle"/>
+        <div xml:id="i-LJ5n665PxTi6oJF8zQNG3s" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KPSJhBmPxcCcHZhEM3sSf6">
+      <div xml:id="i-KPSJhBmPxcCcHZhEM3sSf6" type="motBody">
         <div xml:id="i-ACQND49S3pqCgnKcBZ3JC1">
           <p xml:id="i-2Me3kYd9adDpbT9wAF6K2n">
             2003/04 mnr: L9 pnr: fp1210
@@ -130,7 +130,10 @@
             vara fallet, det skall vara teknikneutralt och opt in skall gälla.
           </p>
           <p xml:id="i-Y9ea6ZUNDFm5rKfmXheJqB" type="date">
-            Stockholm den 23 januari 2004 Christer Winbäck (fp)
+            Stockholm den 23 januari 2004
+          </p>
+          <p type="signatureBlock" id="i-HT5LfnzWWKFqkgAGbe8xcx">
+            Christer Winbäck (fp)
           </p>
         </div>
       </div>

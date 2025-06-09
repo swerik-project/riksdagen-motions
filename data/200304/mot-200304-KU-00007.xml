@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00007">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-QrKyGNvC2JqKqCHcDdTHUh"/>
+        <correspAction xml:id="i-QrKyGNvC2JqKqCHcDdTHUh" type="basedOn"/>
         <correspContext corresp="i-QrKyGNvC2JqKqCHcDdTHUh">
           <ref>Regeringsskrivelse 2003/04:13</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="i-62beZab5asYtPmcYVDdXC5"/>
           <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JWBEmxfFhtbMJcYyJ1LDJ8">
+        <correspAction xml:id="i-JWBEmxfFhtbMJcYyJ1LDJ8" type="referral">
           <date when="2003-10-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4yDNuAwpc5Y9xBBAg2PDBy">
+        <correspAction xml:id="i-4yDNuAwpc5Y9xBBAg2PDBy" type="dismissal">
           <date when="2003-10-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-61wDS4FZmRs6jEwUNAejto">
+        <correspAction xml:id="i-61wDS4FZmRs6jEwUNAejto" type="submission">
           <date when="2003-10-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-U25LZJMVx7XFHFLFnLcjDz"/>
+        <correspAction xml:id="i-U25LZJMVx7XFHFLFnLcjDz" type="assigned"/>
         <correspContext corresp="i-U25LZJMVx7XFHFLFnLcjDz">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -74,11 +74,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0007/mot_200304_K_0007-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2zNYYf5wDj475U8BTVWh1r">
-        <div type="motTitle" xml:id="i-MRBiuddZ4FZSiuL4rUC3fL"/>
-        <div type="motSubmissionInfo" xml:id="i-FZ2dAJCamrxq9Vs1MnE8it"/>
+      <div xml:id="i-2zNYYf5wDj475U8BTVWh1r" type="motHeader">
+        <div xml:id="i-MRBiuddZ4FZSiuL4rUC3fL" type="motTitle"/>
+        <div xml:id="i-FZ2dAJCamrxq9Vs1MnE8it" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ET1eMZfu26VRkMXqbkq6cN">
+      <div xml:id="i-ET1eMZfu26VRkMXqbkq6cN" type="motBody">
         <div xml:id="i-DxHFKoRtX96ppRGxbv51r7">
           <p xml:id="i-USnoCSvLjuUWw3Y4jHtf3B">
             2003/04 mnr: K7 pnr: s9303
@@ -152,8 +152,10 @@
             utslagning och diskriminering ... barnens rättigheter.
           </p>
           <p xml:id="i-Y6qjsZgm4xsjMLXN5qV6Hc" type="date">
-            Stockholm den 16 oktober 2003 Nils-Erik Söderqvist (s) Agneta
-            Lundberg (s)
+            Stockholm den 16 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-X18Z9yfFjYVe7tbUd9jABJ">
+            Nils-Erik Söderqvist (s) Agneta Lundberg (s)
           </p>
         </div>
       </div>

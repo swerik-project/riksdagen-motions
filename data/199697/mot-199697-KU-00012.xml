@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-KU-00012">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-WJM6edqhGfBK1ijhNxfgoj</idno>
-            <name>Chatrine Pålsson </name>
+            <name>Chatrine Pålsson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Ap6PaQn9pzDFdUtnP8xyzP</idno>
-            <name>Ulf Björklund </name>
+            <name>Ulf Björklund</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-Hnc99qM2wSocQrZmyQoJhz</idno>
-            <name>Rose-Marie Frebran </name>
+            <name>Rose-Marie Frebran</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-78GCMiuZNvZH1SJ1kQEeoK"/>
+        <correspAction xml:id="i-78GCMiuZNvZH1SJ1kQEeoK" type="basedOn"/>
         <correspContext corresp="i-78GCMiuZNvZH1SJ1kQEeoK">
           <ref>Proposition 1996/97:36</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-Ap6PaQn9pzDFdUtnP8xyzP"/>
           <note type="signatory" corresp="i-Hnc99qM2wSocQrZmyQoJhz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-397CtJdVxmFPKb8qrdWzdZ">
+        <correspAction xml:id="i-397CtJdVxmFPKb8qrdWzdZ" type="referral">
           <date when="1996-10-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9NX7BwW8CXv24C86wCApR">
+        <correspAction xml:id="i-9NX7BwW8CXv24C86wCApR" type="dismissal">
           <date when="1996-10-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XAygcTE3c6KQVNYNbW4TYa">
+        <correspAction xml:id="i-XAygcTE3c6KQVNYNbW4TYa" type="submission">
           <date when="1996-10-18"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-8fCKcLdWAbzVoVmpwVB2z3">
+        <correspAction xml:id="i-8fCKcLdWAbzVoVmpwVB2z3" type="referral">
           <date when="1996-10-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BXXXABCz1baD1Ws64WtrUW">
+        <correspAction xml:id="i-BXXXABCz1baD1Ws64WtrUW" type="dismissal">
           <date when="1996-10-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-R5sjpteTBuhB417QxLPood">
+        <correspAction xml:id="i-R5sjpteTBuhB417QxLPood" type="submission">
           <date when="1996-10-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2uTD1V1wMHmD16ZRrgwxAd"/>
+        <correspAction xml:id="i-2uTD1V1wMHmD16ZRrgwxAd" type="assigned"/>
         <correspContext corresp="i-2uTD1V1wMHmD16ZRrgwxAd">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_K_0012/mot_199697_K_0012-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HeUQ4wyrEuTeUoTcEwpX7P">
-        <div type="motTitle" xml:id="i-C2QyyTpk2p9c4qFNM5dZr"/>
-        <div type="motSubmissionInfo" xml:id="i-T4cQNoMtw8w9VCEwRDySry"/>
+      <div xml:id="i-HeUQ4wyrEuTeUoTcEwpX7P" type="motHeader">
+        <div xml:id="i-C2QyyTpk2p9c4qFNM5dZr" type="motTitle"/>
+        <div xml:id="i-T4cQNoMtw8w9VCEwRDySry" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KdXdS4RSktKTceedeWCtoB">
+      <div xml:id="i-KdXdS4RSktKTceedeWCtoB" type="motBody">
         <div xml:id="i-NGb1pTWHunJYk41K5twu2T">
           <p xml:id="i-Fqxsm3WbfDKu8tFAgBFF9o">
             1996/97 K12 K2-13
@@ -214,11 +214,17 @@
             de fina och vällovliga syften som regeringen framhåller under
             allmänna överväganden. I samband med att landstingsstyrelsen inom
             Landstinget i Kalmar län liksom styrelsen för Kommunförbundet
-            i Kalmar län den 21 mars 1996 lämnade synpunkter till regeringen
-            i form av ett underlag för eventuell för- söksverksamhet i Kalmar
-            län framförde vi kristdemokrater i särskilt yttrande vissa farhågor
-            runt demokratifrågorna i den skissade försöksverksamheten. I det
-            särskilda yttrandet skrev vi:
+            i
+          </p>
+          <p type="date" id="i-PVPzHFQFm6WYqrmztJ5xP1">
+            Kalmar län den 21 mars 1996
+          </p>
+          <p type="signatureBlock" id="i-RA198CxQuLm4YCmX3WS1Sq">
+            lämnade synpunkter till regeringen i form av ett underlag för
+            eventuell för- söksverksamhet i Kalmar län framförde vi kristdemokrater
+            i särskilt yttrande vissa farhågor runt demokratifrågorna i den
+            skissade försöksverksamheten. I det särskilda yttrandet skrev
+            vi:
           </p>
           <p xml:id="i-8BAxXVKoXkCg3mVRpTqaKd">
             Denna del där demokratiargumenten lyfts fram för att överföra
@@ -290,7 +296,10 @@
             regionala samhällsorganisationen.
           </p>
           <p xml:id="i-9GZYc13ktZJHuPHKNs5xE1" type="date">
-            Stockholm den 18 oktober 1996 Chatrine Pålsson (kd)
+            Stockholm den 18 oktober 1996
+          </p>
+          <p type="signatureBlock" id="i-XcDWyqUFrsg22ruud73CNc">
+            Chatrine Pålsson (kd)
           </p>
           <p xml:id="i-XmQqCDP5YkFfN5ZHN44x25">
             Ulf Björklund (kd) Rose-Marie Frebran (kd)

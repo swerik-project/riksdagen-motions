@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-UbU-00039">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-AZnaWEAg22YQ3HzVMfNSHR</idno>
-            <name>Carl Bildt </name>
+            <name>Carl Bildt</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KoL4ekZcvPrmhQ6LgHxJHf"/>
+        <correspAction xml:id="i-KoL4ekZcvPrmhQ6LgHxJHf" type="basedOn"/>
         <correspContext corresp="i-KoL4ekZcvPrmhQ6LgHxJHf">
           <ref>Proposition 1995/96:200</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-AZnaWEAg22YQ3HzVMfNSHR"/>
           <note type="signatory" corresp="i-AZnaWEAg22YQ3HzVMfNSHR"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-KsV4N9UJYqHBpu1qchx45">
+        <correspAction xml:id="i-KsV4N9UJYqHBpu1qchx45" type="submission">
           <date when="1996-06-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-V1R2fB33LwQfTEgZ3yS2dB">
+        <correspAction xml:id="i-V1R2fB33LwQfTEgZ3yS2dB" type="dismissal">
           <date when="1996-06-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GaVy7wjDngA1g4H6dz4npb">
+        <correspAction xml:id="i-GaVy7wjDngA1g4H6dz4npb" type="referral">
           <date when="1996-06-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CC6pnn2oJsf5z8XsHwNV6e">
+        <correspAction xml:id="i-CC6pnn2oJsf5z8XsHwNV6e" type="submission">
           <date when="1996-06-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-L7qjsT36rr65fFAiQu6Wwv">
+        <correspAction xml:id="i-L7qjsT36rr65fFAiQu6Wwv" type="dismissal">
           <date when="1996-06-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-TUQYy2XzLqeGckVDucSpAh">
+        <correspAction xml:id="i-TUQYy2XzLqeGckVDucSpAh" type="referral">
           <date when="1996-06-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7tvYtUv364Qnt5KDmSBMrN"/>
+        <correspAction xml:id="i-7tvYtUv364Qnt5KDmSBMrN" type="assigned"/>
         <correspContext corresp="i-7tvYtUv364Qnt5KDmSBMrN">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_UB_0039/mot_199596_UB_0039-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7w7bB2uDDnn7knCq6GD5Eb">
-        <div type="motTitle" xml:id="i-7SrLHidDfPNShDJE7oVVgN"/>
-        <div type="motSubmissionInfo" xml:id="i-9hWTSdn3hnkxHYRbbNbZAu"/>
+      <div xml:id="i-7w7bB2uDDnn7knCq6GD5Eb" type="motHeader">
+        <div xml:id="i-7SrLHidDfPNShDJE7oVVgN" type="motTitle"/>
+        <div xml:id="i-9hWTSdn3hnkxHYRbbNbZAu" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DdtFJaTmcxUds3LbcCwRbK">
+      <div xml:id="i-DdtFJaTmcxUds3LbcCwRbK" type="motBody">
         <div xml:id="i-ReAGU7VdAaQfvpWaoEsiGb">
           <p xml:id="i-KB2xqP6a8NZTHrPnBHH8sX">
             1995/96 Ub39 Ub37-40
@@ -700,7 +700,13 @@
             och
           </p>
           <p xml:id="i-PMPUZUxhtmEWWf5DomUBaS">
-            gymnasieskolan. Stockholm den 4 juni 1996 Carl Bildt (m)
+            gymnasieskolan.
+          </p>
+          <p type="date" id="i-SprqGwuysaLhzCy4Qe4r5E">
+            Stockholm den 4 juni 1996
+          </p>
+          <p type="signatureBlock" id="i-LcZsLPoU4iGU7BftRn5a3F">
+            Carl Bildt (m)
           </p>
           <p xml:id="i-7xWS5nJmpL5LqdAMKxLJsq">
             Lars Leijonborg (fp) Alf Svensson (kds)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SkU-00020">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-2VQfgPPoyZnkNAF2Hc129H"/>
+        <correspAction xml:id="i-2VQfgPPoyZnkNAF2Hc129H" type="basedOn"/>
         <correspContext corresp="i-2VQfgPPoyZnkNAF2Hc129H">
           <ref>Proposition 2000/01:31</ref>
         </correspContext>
@@ -50,28 +50,28 @@
           <note type="signatory" corresp="i-EfLrWUocZwsV2PVnPdzohZ"/>
           <note type="signatory" corresp="i-EfLrWUocZwsV2PVnPdzohZ"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-YbD2dkLPrrrRKwKEqa2Xzp">
+        <correspAction xml:id="i-YbD2dkLPrrrRKwKEqa2Xzp" type="reviewing">
           <date when="2000-11-15"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-HC18FTNFqEmqS66czin2Ji">
+        <correspAction xml:id="i-HC18FTNFqEmqS66czin2Ji" type="referral">
           <date when="2000-11-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9EinsjRLxhncPeTPKYLjGh">
+        <correspAction xml:id="i-9EinsjRLxhncPeTPKYLjGh" type="dismissal">
           <date when="2000-11-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5GFQtoBGofrNXkUPA3Re6y">
+        <correspAction xml:id="i-5GFQtoBGofrNXkUPA3Re6y" type="submission">
           <date when="2000-11-13"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-KbXD52Y1PRMPExuAmWrydp">
+        <correspAction xml:id="i-KbXD52Y1PRMPExuAmWrydp" type="referral">
           <date when="2000-11-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Vdx1EmDpnHz4c4UDQskAiM">
+        <correspAction xml:id="i-Vdx1EmDpnHz4c4UDQskAiM" type="dismissal">
           <date when="2000-11-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6occqRDrte4YjeW2e4Fi3q">
+        <correspAction xml:id="i-6occqRDrte4YjeW2e4Fi3q" type="submission">
           <date when="2000-11-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QrvbhUEDBxpbVZVQAfXndz"/>
+        <correspAction xml:id="i-QrvbhUEDBxpbVZVQAfXndz" type="assigned"/>
         <correspContext corresp="i-QrvbhUEDBxpbVZVQAfXndz">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -86,11 +86,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Sk_0020/mot_200001_Sk_0020-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3mYnaNHptL8VKVc34tgvfg">
-        <div type="motTitle" xml:id="i-N95to8Jb8xSw6JR6UDhCPb"/>
-        <div type="motSubmissionInfo" xml:id="i-5w7F5SnyTUokpqMMqjWnLv"/>
+      <div xml:id="i-3mYnaNHptL8VKVc34tgvfg" type="motHeader">
+        <div xml:id="i-N95to8Jb8xSw6JR6UDhCPb" type="motTitle"/>
+        <div xml:id="i-5w7F5SnyTUokpqMMqjWnLv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Eo8MmzQUwmpR5UHqWBZPab">
+      <div xml:id="i-Eo8MmzQUwmpR5UHqWBZPab" type="motBody">
         <div xml:id="i-4rsxcAeZtVE9JR49dzxMtT">
           <p xml:id="i-7gk8SxwrsX8YWH5bvXdoaf">
             2000/01 mnr: Sk20 pnr: mp010
@@ -201,10 +201,12 @@
           </p>
           <p xml:id="i-PxKPB9s87dJ3hmoYK8jykj">
             Regeringen bör således ges tillkänna vad som i motionen sägs
-            om behovet av skatt på förbränning av avfall. Stockholm den 13
-            november 2000
+            om behovet av skatt på förbränning av avfall.
           </p>
-          <p xml:id="i-J2YuFEFxSYj2BjG5Hw9Dax">
+          <p type="date" id="i-W2PdSUKFDB7AQ1dfKzfBza">
+            Stockholm den 13 november 2000
+          </p>
+          <p xml:id="i-J2YuFEFxSYj2BjG5Hw9Dax" type="signatureBlock">
             Birger Schlaug (mp)
           </p>
           <p xml:id="i-2hJwDFFvM261NUjxSF27mJ">

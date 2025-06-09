@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-TU-00029">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FSCWYzVCgwYT3364rupkXW"/>
+        <correspAction xml:id="i-FSCWYzVCgwYT3364rupkXW" type="basedOn"/>
         <correspContext corresp="i-FSCWYzVCgwYT3364rupkXW">
           <ref>Proposition 2001/02:20</ref>
         </correspContext>
@@ -42,22 +42,22 @@
         <correspContext corresp="i-2ZyPAhBy4giuFxn1hGrN16">
           <note type="signatory" corresp="i-TZHBPDEfPriGgMd5y7LfJG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Rak4MEj1RSYrvzZvP5zuKW">
+        <correspAction xml:id="i-Rak4MEj1RSYrvzZvP5zuKW" type="referral">
           <date when="2001-10-23"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-U2GFTuSdem88LeAFQ7CBzc">
+        <correspAction xml:id="i-U2GFTuSdem88LeAFQ7CBzc" type="reviewing">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-GaUqFkLMEVvufSudpzeGTd">
+        <correspAction xml:id="i-GaUqFkLMEVvufSudpzeGTd" type="registration">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Ap83XxmUNq63Zcp3nTi1nh">
+        <correspAction xml:id="i-Ap83XxmUNq63Zcp3nTi1nh" type="dismissal">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-S6FT9hNRFwdxL48njPMNKu">
+        <correspAction xml:id="i-S6FT9hNRFwdxL48njPMNKu" type="submission">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Ch8VkgkZNCRF1icUJax48u"/>
+        <correspAction xml:id="i-Ch8VkgkZNCRF1icUJax48u" type="assigned"/>
         <correspContext corresp="i-Ch8VkgkZNCRF1icUJax48u">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -72,11 +72,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_T_0029/mot_200102_T_0029-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XLmRGCUtuV3sNtaDnRiwvH">
-        <div type="motTitle" xml:id="i-7JTsEgsREUQVXsVwEqPtXD"/>
-        <div type="motSubmissionInfo" xml:id="i-EyUdLh3atxVcbNXwPJXvv1"/>
+      <div xml:id="i-XLmRGCUtuV3sNtaDnRiwvH" type="motHeader">
+        <div xml:id="i-7JTsEgsREUQVXsVwEqPtXD" type="motTitle"/>
+        <div xml:id="i-EyUdLh3atxVcbNXwPJXvv1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CMSirwh7ASFyRvKuAKCcRp">
+      <div xml:id="i-CMSirwh7ASFyRvKuAKCcRp" type="motBody">
         <div xml:id="i-8nPMhefUskWJq6tpyTH2xc">
           <p xml:id="i-DBAokVKjBX9s29C5yU7zAv">
             30
@@ -138,7 +138,10 @@
             2001/02:T29
           </p>
           <p xml:id="i-C6RKJjhgfZF7sJN1CM3ihs" type="date">
-            Stockholm den 18 oktober 2001 Lars U Granberg (s)
+            Stockholm den 18 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-WXY6kcWBafownduAA6te5p">
+            Lars U Granberg (s)
           </p>
           <p xml:id="i-YMc7qqcTBAjaU8hLsWD4qU">
             Elanders Gotab, Stockholm 2001

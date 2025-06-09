@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-BoU-00008">
   <teiHeader>
     <fileDesc>
@@ -48,7 +48,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-LPK1XnkT2Uv2p3VvqSzzvH"/>
+        <correspAction xml:id="i-LPK1XnkT2Uv2p3VvqSzzvH" type="basedOn"/>
         <correspContext corresp="i-LPK1XnkT2Uv2p3VvqSzzvH">
           <ref>Proposition 2001/02:41</ref>
         </correspContext>
@@ -58,25 +58,25 @@
           <note type="signatory" corresp="i-TtTt6tncGj7Z7obngWSti"/>
           <note type="signatory" corresp="i-FnYuSnrPcb2UZaoXY7vjXa"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GGEioamYP6YGPDXMyZ2SNL">
+        <correspAction xml:id="i-GGEioamYP6YGPDXMyZ2SNL" type="referral">
           <date when="2001-11-13"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-B73RKNgTHQYRhvesjPk4fn">
+        <correspAction xml:id="i-B73RKNgTHQYRhvesjPk4fn" type="committee_proposal">
           <date when="2001-11-12"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-NxZdPK9o9gJKLoaug4CVpR">
+        <correspAction xml:id="i-NxZdPK9o9gJKLoaug4CVpR" type="reviewing">
           <date when="2001-11-12"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-HzrzZuY1jip14LXLShD58P">
+        <correspAction xml:id="i-HzrzZuY1jip14LXLShD58P" type="registration">
           <date when="2001-11-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8uwykF6wSFkTFcm9oV65b8">
+        <correspAction xml:id="i-8uwykF6wSFkTFcm9oV65b8" type="dismissal">
           <date when="2001-11-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7Guo68VXeeVFHa8s5GnyJL">
+        <correspAction xml:id="i-7Guo68VXeeVFHa8s5GnyJL" type="submission">
           <date when="2001-11-08"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8jRoLUwZMcRHeZaqRKRFyh"/>
+        <correspAction xml:id="i-8jRoLUwZMcRHeZaqRKRFyh" type="assigned"/>
         <correspContext corresp="i-8jRoLUwZMcRHeZaqRKRFyh">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -91,11 +91,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Bo_0008/mot_200102_Bo_0008-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PnPnfvHFHhgxM7ebwg7rsV">
-        <div type="motTitle" xml:id="i-8LZqhtcrHACngR9F5D5Vh5"/>
-        <div type="motSubmissionInfo" xml:id="i-TjAe2tkmr7Hdu7WueoNpfQ"/>
+      <div xml:id="i-PnPnfvHFHhgxM7ebwg7rsV" type="motHeader">
+        <div xml:id="i-8LZqhtcrHACngR9F5D5Vh5" type="motTitle"/>
+        <div xml:id="i-TjAe2tkmr7Hdu7WueoNpfQ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JquVRnnCjsA68hp4KiiCve">
+      <div xml:id="i-JquVRnnCjsA68hp4KiiCve" type="motBody">
         <div xml:id="i-ELRqWGM9AvNNMJ3Hczfa39">
           <p xml:id="i-NKGJZBMhYNsPz8ff233yJx">
             18
@@ -265,10 +265,12 @@
           </p>
           <p xml:id="i-49PHnGAHEBxiimtQRL3ARt">
             hyrestiden med högst tre månader. Detta kan också medverka till
-            att kvaliteten på yttrandena förbättras. Stockholm den 8 november
-            2001
+            att kvaliteten på yttrandena förbättras.
           </p>
-          <p xml:id="i-XogS187C86g2o3o3ZVtCEA">
+          <p type="date" id="i-Bc5ovcEDqvKR9h1vgkRdjV">
+            Stockholm den 8 november 2001
+          </p>
+          <p xml:id="i-XogS187C86g2o3o3ZVtCEA" type="signatureBlock">
             Helena Hillar Rosenqvist (mp) Kia Andreasson (mp) Mikael Johansson
             (mp)
           </p>

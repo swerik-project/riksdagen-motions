@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-TU-00006">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-EZRVrXd7dZCHpRgBpnf69S</idno>
-            <name>Agneta Ringman </name>
+            <name>Agneta Ringman</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Q7rwcxtrAfA3E55GWCYbxa"/>
+        <correspAction xml:id="i-Q7rwcxtrAfA3E55GWCYbxa" type="basedOn"/>
         <correspContext corresp="i-Q7rwcxtrAfA3E55GWCYbxa">
           <ref>Proposition 1996/97:33</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-EZRVrXd7dZCHpRgBpnf69S"/>
           <note type="signatory" corresp="i-EZRVrXd7dZCHpRgBpnf69S"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RpYRYpWdKHCTPH1wXEH5xr">
+        <correspAction xml:id="i-RpYRYpWdKHCTPH1wXEH5xr" type="referral">
           <date when="1996-10-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-C6pJoWveMTySdLLYqHGfm5">
+        <correspAction xml:id="i-C6pJoWveMTySdLLYqHGfm5" type="dismissal">
           <date when="1996-10-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Bicn9FWxBkBokg3RvwN3qW">
+        <correspAction xml:id="i-Bicn9FWxBkBokg3RvwN3qW" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-SHznmPnMcGF6eF3bUdHvr4">
+        <correspAction xml:id="i-SHznmPnMcGF6eF3bUdHvr4" type="referral">
           <date when="1996-10-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SHjUKEoijrJnrq8SpynQ9E">
+        <correspAction xml:id="i-SHjUKEoijrJnrq8SpynQ9E" type="dismissal">
           <date when="1996-10-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UiyfHfTqSrRiBvDnZ5UEED">
+        <correspAction xml:id="i-UiyfHfTqSrRiBvDnZ5UEED" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Hb9M4fhWobyukqqhi5NPF7"/>
+        <correspAction xml:id="i-Hb9M4fhWobyukqqhi5NPF7" type="assigned"/>
         <correspContext corresp="i-Hb9M4fhWobyukqqhi5NPF7">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_T_0006/mot_199697_T_0006-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TyazMXXhPYgHYvMDo5zNq8">
-        <div type="motTitle" xml:id="i-6fefKUHuGycGiH6jmsoFSK"/>
-        <div type="motSubmissionInfo" xml:id="i-DogNBrqMz16spXprDa2T4W"/>
+      <div xml:id="i-TyazMXXhPYgHYvMDo5zNq8" type="motHeader">
+        <div xml:id="i-6fefKUHuGycGiH6jmsoFSK" type="motTitle"/>
+        <div xml:id="i-DogNBrqMz16spXprDa2T4W" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Lv5Rgw6LPknWv1XaGfU5zk">
+      <div xml:id="i-Lv5Rgw6LPknWv1XaGfU5zk" type="motBody">
         <div xml:id="i-SJD6VsSmdB5TSDYvBWM7Mo">
           <p xml:id="i-G2ossQRL6Z6R1cR6ruyEG9">
             1996/97 T6 T1-7
@@ -143,9 +143,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_T_0006/mot_199697_T_0006-0002.pdf"/>
           <p xml:id="i-Y8i1HhFRt2kefc1rj2zkfP">
-            Mot. 1996/97T6!1 Stockholm den 7 oktober 1996
+            Mot. 1996/97T6!1
           </p>
-          <p xml:id="i-8w12GmBNUzknjjdg2pvEd4">
+          <p type="date" id="i-C7ctrdodZU49iLyokUZah3">
+            Stockholm den 7 oktober 1996
+          </p>
+          <p xml:id="i-8w12GmBNUzknjjdg2pvEd4" type="signatureBlock">
             Agneta Ringman (s)
           </p>
         </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00337">
   <teiHeader>
     <fileDesc>
@@ -62,16 +62,16 @@
           <note type="signatory" corresp="i-DMGKRcZKJjLDnd1Mozdje8"/>
           <note type="signatory" corresp="i-MJL89J5NnS7c2Vx7JY9Uga"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LhnT2tVeDFWVZ7Vq3yQcc">
+        <correspAction xml:id="i-LhnT2tVeDFWVZ7Vq3yQcc" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CjL44vcy1DAf21GbE1Cx9C">
+        <correspAction xml:id="i-CjL44vcy1DAf21GbE1Cx9C" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XvXno32X6ss6hUYv6uPfRL">
+        <correspAction xml:id="i-XvXno32X6ss6hUYv6uPfRL" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SAH1m4qS4pLfRhA4H48Pma"/>
+        <correspAction xml:id="i-SAH1m4qS4pLfRhA4H48Pma" type="assigned"/>
         <correspContext corresp="i-SAH1m4qS4pLfRhA4H48Pma">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -86,11 +86,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ub_0337/mot_200203_Ub_0337-0001.pdf"/>
-      <div type="motHeader" xml:id="i-T7Ld6qJiSCmRH8wuvWbWJr">
-        <div type="motTitle" xml:id="i-EZXyj7PZgX1Pm7ARFeEmrr"/>
-        <div type="motSubmissionInfo" xml:id="i-Vi1WUSUB4hEgEd3QwnQ17c"/>
+      <div xml:id="i-T7Ld6qJiSCmRH8wuvWbWJr" type="motHeader">
+        <div xml:id="i-EZXyj7PZgX1Pm7ARFeEmrr" type="motTitle"/>
+        <div xml:id="i-Vi1WUSUB4hEgEd3QwnQ17c" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-F9jfACUJJvVLXb5HjcXQpJ">
+      <div xml:id="i-F9jfACUJJvVLXb5HjcXQpJ" type="motBody">
         <div xml:id="i-NKPJpLixBje87pWFEB2muv">
           <p xml:id="i-Ng3z3QmobtPwfQKLh7zucx">
             2002/03
@@ -423,10 +423,12 @@
           <p xml:id="i-U7nbWwvMcFPRdT3EmaLBev">
             gå till skolans bibliotek för att hämta material som till läroboken.
             Riksdagen bör som sin mening ge regeringen till känna att kommunernas
-            skolplaner även bör behandla skolbibliotekens verksamhet. Stockholm
-            den 17 oktober 2002
+            skolplaner även bör behandla skolbibliotekens verksamhet.
           </p>
-          <p xml:id="i-4rZtQVXXNp592kvQacF9N5">
+          <p type="date" id="i-VN3Rq8EGycbt2eQFhJHZPY">
+            Stockholm den 17 oktober 2002
+          </p>
+          <p xml:id="i-4rZtQVXXNp592kvQacF9N5" type="signatureBlock">
             Lennart Gustavsson (v) Britt-Marie Danestig (v) Camilla Sköld
             Jansson (v) Anders Wiklund (v)
           </p>

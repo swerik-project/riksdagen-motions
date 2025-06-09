@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201415-NU-03079">
   <teiHeader>
     <fileDesc>
@@ -51,7 +51,7 @@
       </particDesc>
       <correspDesc>
         <correspAction type="status" subtype="committeeProcessing"/>
-        <correspAction type="basedOn" xml:id="i-W1HMQ5bLswKSZQp1JL1rhh"/>
+        <correspAction xml:id="i-W1HMQ5bLswKSZQp1JL1rhh" type="basedOn"/>
         <correspContext corresp="i-W1HMQ5bLswKSZQp1JL1rhh">
           <ref>Proposition 2014/15:110</ref>
         </correspContext>
@@ -61,31 +61,31 @@
           <note type="signatory" corresp="i-DF6yJMSNGfT6HwisDSi4qz"/>
           <note type="signatory" corresp="i-4dnqFdd2E3dHMPK1WWi5Tx"/>
         </correspContext>
-        <correspAction type="submitted" xml:id="i-7ADtq6JZ9M1529bcw7YEXb">
+        <correspAction xml:id="i-7ADtq6JZ9M1529bcw7YEXb" type="submitted">
           <date when="2015-04-29"/>
           <time when="12:06:24"/>
         </correspAction>
-        <correspAction type="reviewed" xml:id="i-7nRMtQZ7pm5UW9yyjMsTY9">
+        <correspAction xml:id="i-7nRMtQZ7pm5UW9yyjMsTY9" type="reviewed">
           <date when="2015-04-30"/>
           <time when="11:02:53"/>
         </correspAction>
-        <correspAction type="dismissed" xml:id="i-3PbZx9wzoaW1umq6c2qhDU">
+        <correspAction xml:id="i-3PbZx9wzoaW1umq6c2qhDU" type="dismissed">
           <date when="2015-05-05"/>
         </correspAction>
-        <correspAction type="referred" xml:id="i-KqzDPqbigFFJwafAYbcTrA">
+        <correspAction xml:id="i-KqzDPqbigFFJwafAYbcTrA" type="referred">
           <date when="2015-05-06"/>
         </correspAction>
-        <correspAction type="expired" xml:id="i-A5UbzaZTMNJLfaYHS3op16">
+        <correspAction xml:id="i-A5UbzaZTMNJLfaYHS3op16" type="expired">
           <date when="2015-06-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8HMYk1g3wyeP5PLfrZDrpZ">
+        <correspAction xml:id="i-8HMYk1g3wyeP5PLfrZDrpZ" type="assigned">
           <date when="2018-06-28"/>
           <time when="14:00:17"/>
         </correspAction>
         <correspContext corresp="i-8HMYk1g3wyeP5PLfrZDrpZ">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-eEcqss9Ti7gSHptudg2dj"/>
+        <correspAction xml:id="i-eEcqss9Ti7gSHptudg2dj" type="behandlas_i"/>
         <correspContext corresp="i-eEcqss9Ti7gSHptudg2dj">
           <ref type="uppgift">2015/16:NU6</ref>
           <ref type="ref_dok_id">H301NU6</ref>
@@ -96,7 +96,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-2n3DSRjLtbCQmgtxtbujMa"/>
+        <correspAction xml:id="i-2n3DSRjLtbCQmgtxtbujMa" type="behandlas_i"/>
         <correspContext corresp="i-2n3DSRjLtbCQmgtxtbujMa">
           <ref type="uppgift">2015/16:NU13</ref>
           <ref type="ref_dok_id">H301NU13</ref>
@@ -107,7 +107,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-8SRgVZ8GwQ3ZFQ1vFiyoRj"/>
+        <correspAction xml:id="i-8SRgVZ8GwQ3ZFQ1vFiyoRj" type="behandlas_i"/>
         <correspContext corresp="i-8SRgVZ8GwQ3ZFQ1vFiyoRj">
           <ref type="uppgift">2016/17:NU5</ref>
           <ref type="ref_dok_id">H401NU5</ref>
@@ -118,7 +118,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-ECDKdfqnD4h9m8VYS7imEt"/>
+        <correspAction xml:id="i-ECDKdfqnD4h9m8VYS7imEt" type="behandlas_i"/>
         <correspContext corresp="i-ECDKdfqnD4h9m8VYS7imEt">
           <ref type="uppgift">2017/18:NU22</ref>
           <ref type="ref_dok_id">H501NU22</ref>
@@ -140,7 +140,12 @@
   <text>
     <body>
       <div type="motHeader">
-        <div type="motTitle">Motion till riksdagen 2014/15:3079 av Mattias Bäckström Johansson m.fl. (SD) med anledning av prop. 2014/15:110 Ambitionshöjning för förnybar el och kontrollstation för elcertifikatssystemet 2015</div>
+        <div type="motTitle">
+          Motion till riksdagen 2014/15:3079 av Mattias Bäckström Johansson
+          m.fl. (SD) med anledning av prop. 2014/15:110 Ambitionshöjning
+          för förnybar el och kontrollstation för elcertifikatssystemet
+          2015
+        </div>
       </div>
       <div type="motBody">
         <div type="motProposal" subtype="förslag">
@@ -155,7 +160,7 @@
           </list>
         </div>
         <div type="motContent">
-          <head type="h1" xml:id="i-MuprELh3BUwa6Ys2BYGqGK">
+          <head xml:id="i-MuprELh3BUwa6Ys2BYGqGK" type="h1">
             Motivering
           </head>
           <p xml:id="i-TXPuXscw7tZHETq7nXLCX4">

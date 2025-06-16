@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00461">
   <teiHeader>
     <fileDesc>
@@ -86,16 +86,16 @@
           <note type="signatory" corresp="i-GjgyninALCjktLtfUxc8Qh"/>
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MrguorfcsH2u2AZDbaXfPz">
+        <correspAction xml:id="i-MrguorfcsH2u2AZDbaXfPz" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8Za6TimtpNMMKgMeyhLLRK">
+        <correspAction xml:id="i-8Za6TimtpNMMKgMeyhLLRK" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EJdJ6q9FKZwZHN6Va4KVof">
+        <correspAction xml:id="i-EJdJ6q9FKZwZHN6Va4KVof" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Rz5nFjFwhsSkfBZoEJY75T"/>
+        <correspAction xml:id="i-Rz5nFjFwhsSkfBZoEJY75T" type="assigned"/>
         <correspContext corresp="i-Rz5nFjFwhsSkfBZoEJY75T">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_461/mot_200405_T_461-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7BTZezUSSi9GbgJLuPa3yd">
-        <div type="motTitle" xml:id="i-E6A1VQYHXanyEVggMWXmsz"/>
-        <div type="motSubmissionInfo" xml:id="i-WzQFSJBgrDeWe2ezf9ENpn"/>
+      <div xml:id="i-7BTZezUSSi9GbgJLuPa3yd" type="motHeader">
+        <div xml:id="i-E6A1VQYHXanyEVggMWXmsz" type="motTitle"/>
+        <div xml:id="i-WzQFSJBgrDeWe2ezf9ENpn" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-EuEuxZLp8PBiBYDzDLWcja">
+      <div xml:id="i-EuEuxZLp8PBiBYDzDLWcja" type="motBody">
         <div xml:id="i-7R5UpEFLxcKs9rT1MRwFcG">
           <p xml:id="i-N2K5QVqtet15XmuEuaaiTd">
             2004/05 mnr: T461 pnr: kd398
@@ -761,32 +761,33 @@
             skulle göra det ekonomiskt lönsamt för ler att använda dieselbilar,
             vilket kan minska utsläppen av koldioxid. En ökning av andelen
             dieselbilar till 30 26 av den totala mängden nya bilar i Sverige
-            skulle innebära en reduktion av CO&gt;-utsläppen från bilparken med
-            nästan 10 procentenheter på 15 års tid förutsatt konstant körsträcka.
-            (Källa: VL Svenska Miljöinstitutet) När det gäller koldioxid är
-            det lämpligt med en koldioxidskatt på bränslet eftersom koldioxidutsläppen
-            är ungefär desamma för olika modeller. Detsamma gäller en differentierad
-            energiskatt som tar hänsyn till utsläpp av hälsofarliga ämnen
-            såsom partiklar, flyktiga kolväten o.s.v., som är arakteristiska
-            för respektive bränsle. Denna del kan vara svår att konstruera
-            beroende bland annat på att sådana uppgifter saknas på äldre bilmodeller.
-            Miljö- och hälsofarliga utsläpp varierar mellan olika bilmodeller.
-            Därför bör det vara högre fordonsskatter på äldre, mindre miljövänliga
-            fordon. Samtidigt bör också skrotningspremien höjas för att uppmuntra
-            till en snabb förnyelse av bilparken. Kristdemokraternas = förslag
-            skulle alltså innebära höjningar av punktskatterna på dieselolja
-            kombinerat med en kraftig sänkning av fordonsskatten på dieselbilar.
-            Därigenom skulle den så kallade brytpunkten, som anger vid vilken
-            årlig körsträcka det är ekonomiskt lönsamt att köra med bensin
-            respektive diesel, i stort sett försvinna. Det finns inga miljöskäl
-            för att ha en sådan brytpunkt. Om man exakt jämställer energiskatten
-            baserad på kolinnehållet i bensin och diesel, kommer dieselns
-            pris vid pumpen att överstiga bensinens. Det skulle motverka vårt
-            syfte att minska CO&gt;-utsläppen med en större andel nya dieselbilar.
-            Därför förespråkar vi ett ”pristak” på energiskatten för diesel.
-            Den får alltså inte kosta mer än bensinen. Vår beskattningsmodell
-            förutsätter ett undantag för yrkestrafiken som kör på miljöklass
-            1-diesel. De skulle få samma skattenivå på dieseln som idag och
+            skulle innebära en reduktion av CO&gt;-utsläppen från bilparken
+            med nästan 10 procentenheter på 15 års tid förutsatt konstant
+            körsträcka. (Källa: VL Svenska Miljöinstitutet) När det gäller
+            koldioxid är det lämpligt med en koldioxidskatt på bränslet eftersom
+            koldioxidutsläppen är ungefär desamma för olika modeller. Detsamma
+            gäller en differentierad energiskatt som tar hänsyn till utsläpp
+            av hälsofarliga ämnen såsom partiklar, flyktiga kolväten o.s.v.,
+            som är arakteristiska för respektive bränsle. Denna del kan vara
+            svår att konstruera beroende bland annat på att sådana uppgifter
+            saknas på äldre bilmodeller. Miljö- och hälsofarliga utsläpp varierar
+            mellan olika bilmodeller. Därför bör det vara högre fordonsskatter
+            på äldre, mindre miljövänliga fordon. Samtidigt bör också skrotningspremien
+            höjas för att uppmuntra till en snabb förnyelse av bilparken.
+            Kristdemokraternas = förslag skulle alltså innebära höjningar
+            av punktskatterna på dieselolja kombinerat med en kraftig sänkning
+            av fordonsskatten på dieselbilar. Därigenom skulle den så kallade
+            brytpunkten, som anger vid vilken årlig körsträcka det är ekonomiskt
+            lönsamt att köra med bensin respektive diesel, i stort sett försvinna.
+            Det finns inga miljöskäl för att ha en sådan brytpunkt. Om man
+            exakt jämställer energiskatten baserad på kolinnehållet i bensin
+            och diesel, kommer dieselns pris vid pumpen att överstiga bensinens.
+            Det skulle motverka vårt syfte att minska CO&gt;-utsläppen med
+            en större andel nya dieselbilar. Därför förespråkar vi ett ”pristak”
+            på energiskatten för diesel. Den får alltså inte kosta mer än
+            bensinen. Vår beskattningsmodell förutsätter ett undantag för
+            yrkestrafiken som kör på miljöklass 1-diesel. De skulle få samma
+            skattenivå på dieseln som idag och
           </p>
           <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_461/mot_200405_T_461-0011.pdf"/>
           <p xml:id="i-JjjvswwLKzSm8LLc5Ekeo1">

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00347">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-JxNneJPQ2YkpYR19qiq1vJ">
           <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-44ofiFze5GZVomaGTe4hmM">
+        <correspAction xml:id="i-44ofiFze5GZVomaGTe4hmM" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LxQ1MSFxQbqLyHcXGdtUyY">
+        <correspAction xml:id="i-LxQ1MSFxQbqLyHcXGdtUyY" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ETfviqTjnu4t8oiRHhZyb9">
+        <correspAction xml:id="i-ETfviqTjnu4t8oiRHhZyb9" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UXDxHiQAd39Xwv58NBfv4L"/>
+        <correspAction xml:id="i-UXDxHiQAd39Xwv58NBfv4L" type="assigned"/>
         <correspContext corresp="i-UXDxHiQAd39Xwv58NBfv4L">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_347/mot_200506_So_347-0001.pdf"/>
-      <div type="motHeader" xml:id="i-AS1aiaRza8vzQQvh52oWJU">
-        <div type="motTitle" xml:id="i-HXFqjbBvd1NvQLTy22VM7r"/>
-        <div type="motSubmissionInfo" xml:id="i-VhtavZdMgZgQhPLFsoEjjq"/>
+      <div xml:id="i-AS1aiaRza8vzQQvh52oWJU" type="motHeader">
+        <div xml:id="i-HXFqjbBvd1NvQLTy22VM7r" type="motTitle"/>
+        <div xml:id="i-VhtavZdMgZgQhPLFsoEjjq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DwRz4uSsFprNovwhHbbHGc">
+      <div xml:id="i-DwRz4uSsFprNovwhHbbHGc" type="motBody">
         <div xml:id="i-5djvRNZ4R9pfrwJ66VuWpJ">
           <p xml:id="i-L3XpsPAM5LrtunFUm58gfn">
             2005/06 mnr: S0347 pnr: fp635
@@ -113,8 +113,11 @@
             avseende tandstatus, därför bör en förändrad tandvårdsförsäkring
             utredas. Detta bör riksdagen ge regeringen till känna.
           </p>
-          <p xml:id="i-H5hFmDFXCQdM3ZRbCCCrih">
-            Stockholm den 29 september 2005 Christer Winbäck (fp)
+          <p xml:id="i-H5hFmDFXCQdM3ZRbCCCrih" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-C1BsN9zntiZtMVBtU7JaWc">
+            Christer Winbäck (fp)
           </p>
         </div>
       </div>

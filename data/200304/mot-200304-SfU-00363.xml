@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00363">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-GgyXv4xamqTouNVz7Tncke"/>
           <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-C7dwy7Kw3Xo3JPacQ6TcL1">
+        <correspAction xml:id="i-C7dwy7Kw3Xo3JPacQ6TcL1" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LncyajuWTbiEEgUNh1syen">
+        <correspAction xml:id="i-LncyajuWTbiEEgUNh1syen" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2a2TT7omoUVfqjqbwujNYJ">
+        <correspAction xml:id="i-2a2TT7omoUVfqjqbwujNYJ" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TQuyAb1nKakF7RtWfQZKVB"/>
+        <correspAction xml:id="i-TQuyAb1nKakF7RtWfQZKVB" type="assigned"/>
         <correspContext corresp="i-TQuyAb1nKakF7RtWfQZKVB">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0363/mot_200304_Sf_0363-0001.pdf"/>
-      <div type="motHeader" xml:id="i-WKswhdrTe7CDRPr758QVo6">
-        <div type="motTitle" xml:id="i-WrxqCFmgNL6qDMgooZJRfJ"/>
-        <div type="motSubmissionInfo" xml:id="i-CjAk2APQDzcCEhkjtLHvkU"/>
+      <div xml:id="i-WKswhdrTe7CDRPr758QVo6" type="motHeader">
+        <div xml:id="i-WrxqCFmgNL6qDMgooZJRfJ" type="motTitle"/>
+        <div xml:id="i-CjAk2APQDzcCEhkjtLHvkU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-V91d49VZHpWXvTK7q4VRfm">
+      <div xml:id="i-V91d49VZHpWXvTK7q4VRfm" type="motBody">
         <div xml:id="i-7Mx5pqK5A1fyjBC3uUBC4k">
           <p xml:id="i-XKCDiEU9s2fWa4aASNyBk9">
             2003/04 mnr: Sf363 pnr: m1537
@@ -120,9 +120,11 @@
             därför ges rätt att friskskriva så att detta sker så snart som
             möjligt.
           </p>
-          <p xml:id="i-J5sc7HbTWcQnQHyvh8ULk4">
-            Stockholm den 5 oktober 2003 Anna Lilliehöök (m) Anita Sidén
-            (m)
+          <p xml:id="i-J5sc7HbTWcQnQHyvh8ULk4" type="date">
+            Stockholm den 5 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-Nq85YPaBHdEaVX7g1XfK99">
+            Anna Lilliehöök (m) Anita Sidén (m)
           </p>
         </div>
       </div>

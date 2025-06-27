@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00223">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FAa7Yhn57XZYHa4DTfQukR">
+        <correspAction xml:id="i-FAa7Yhn57XZYHa4DTfQukR" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2PWc2FubMNn61BNnxGpsqQ">
+        <correspAction xml:id="i-2PWc2FubMNn61BNnxGpsqQ" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Pm5VGNdXGpqBUiFrn3M7mg">
+        <correspAction xml:id="i-Pm5VGNdXGpqBUiFrn3M7mg" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QWpjJHoxEWHjrGZkaH1jyf"/>
+        <correspAction xml:id="i-QWpjJHoxEWHjrGZkaH1jyf" type="assigned"/>
         <correspContext corresp="i-QWpjJHoxEWHjrGZkaH1jyf">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_N_223/mot_200405_N_223-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VZwADAcyit9wepCs3G5p8r">
-        <div type="motTitle" xml:id="i-AHy5BhRofuefgfEqWb1j7c"/>
-        <div type="motSubmissionInfo" xml:id="i-Ltnhd42WF5LRHejsM8HNXe"/>
+      <div xml:id="i-VZwADAcyit9wepCs3G5p8r" type="motHeader">
+        <div xml:id="i-AHy5BhRofuefgfEqWb1j7c" type="motTitle"/>
+        <div xml:id="i-Ltnhd42WF5LRHejsM8HNXe" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-EdXFMCUp4X8DTQzMVjfps8">
+      <div xml:id="i-EdXFMCUp4X8DTQzMVjfps8" type="motBody">
         <div xml:id="i-PRiNFgaqNRB5pWwZb3MMYf">
           <p xml:id="i-FAzbnS5f32YkviQPGHCstx">
             2004/05 mnr: N223 pnr: kd581
@@ -145,9 +145,11 @@
             uppgift att hitta en modell för återbäring av vattenkraftpengar
             till de vattenkraftproducerande kommunerna och länen.
           </p>
-          <p xml:id="i-JgpB1VVf8YsmhhEnpFWd75">
-            Stockholm den 22 september 2004 Erling Wälivaara (kd) Gunilla
-            Tjernberg (kd)
+          <p xml:id="i-JgpB1VVf8YsmhhEnpFWd75" type="date">
+            Stockholm den 22 september 2004
+          </p>
+          <p type="signatureBlock" id="i-16RxKp2EChHQbzyUmuU4DT">
+            Erling Wälivaara (kd) Gunilla Tjernberg (kd)
           </p>
         </div>
       </div>

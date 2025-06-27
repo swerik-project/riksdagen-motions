@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00265">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-JxVAStckV1kjWxs95WsAsP">
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EFsQCncgYcfef97Ttwn8CV">
+        <correspAction xml:id="i-EFsQCncgYcfef97Ttwn8CV" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DpDVoA7i6vEtz4j6FUDgCZ">
+        <correspAction xml:id="i-DpDVoA7i6vEtz4j6FUDgCZ" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7xmbBCQaGdRKxdJnWn7iuf">
+        <correspAction xml:id="i-7xmbBCQaGdRKxdJnWn7iuf" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EQVqMMYxWpFhq3oZCkybjm"/>
+        <correspAction xml:id="i-EQVqMMYxWpFhq3oZCkybjm" type="assigned"/>
         <correspContext corresp="i-EQVqMMYxWpFhq3oZCkybjm">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_MJ_0265/mot_200304_MJ_0265-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5drhoLk4zxo2iHWERrAc9N">
-        <div type="motTitle" xml:id="i-69cxGX5CJ4arneSXtNAxej"/>
-        <div type="motSubmissionInfo" xml:id="i-AQDzRVVRggY3ctP3udsbFN"/>
+      <div xml:id="i-5drhoLk4zxo2iHWERrAc9N" type="motHeader">
+        <div xml:id="i-69cxGX5CJ4arneSXtNAxej" type="motTitle"/>
+        <div xml:id="i-AQDzRVVRggY3ctP3udsbFN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Bd3L3U8DxsQdqA4uYdShV3">
+      <div xml:id="i-Bd3L3U8DxsQdqA4uYdShV3" type="motBody">
         <div xml:id="i-KHu4vZrdABR9RDaGrxqxTG">
           <p xml:id="i-HB35D34kUbpF76NnLaLk91">
             2003/04 mnr: MJ265 pnr: kd658
@@ -148,8 +148,11 @@
             släppa in privata intressenter för insamling och transport till
             raffinaderierna i Europa.
           </p>
-          <p xml:id="i-RgSiiVNxeAETbbg3tFo1se">
-            Stockholm den 1 oktober 2003 Tuve Skånberg (kd)
+          <p xml:id="i-RgSiiVNxeAETbbg3tFo1se" type="date">
+            Stockholm den 1 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-UkSMrwqM7tBr1FcFK9qEfw">
+            Tuve Skånberg (kd)
           </p>
         </div>
       </div>

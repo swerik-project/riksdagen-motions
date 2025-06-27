@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00224">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-XueeoDrQj85jsB2HqeQZQC">
           <note type="signatory" corresp="i-DKsVYU73WDtSTFEeLoboVx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Xhdup29MuyPMKadDLFeTun">
+        <correspAction xml:id="i-Xhdup29MuyPMKadDLFeTun" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SB49CbpVgHN6WmCi3ET73k">
+        <correspAction xml:id="i-SB49CbpVgHN6WmCi3ET73k" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Bwge9oPYH63cWnANFUPQ5z">
+        <correspAction xml:id="i-Bwge9oPYH63cWnANFUPQ5z" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GS5hxBej612zJNVcmsU3eX"/>
+        <correspAction xml:id="i-GS5hxBej612zJNVcmsU3eX" type="assigned"/>
         <correspContext corresp="i-GS5hxBej612zJNVcmsU3eX">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ub_0224/mot_200203_Ub_0224-0001.pdf"/>
-      <div type="motHeader" xml:id="i-S2WsNCtkWtWom3nVch9znt">
-        <div type="motTitle" xml:id="i-M38bTXc3mN9ZG9JXYjtDYE"/>
-        <div type="motSubmissionInfo" xml:id="i-BVr3nu2u8a95p2Hfqr28po"/>
+      <div xml:id="i-S2WsNCtkWtWom3nVch9znt" type="motHeader">
+        <div xml:id="i-M38bTXc3mN9ZG9JXYjtDYE" type="motTitle"/>
+        <div xml:id="i-BVr3nu2u8a95p2Hfqr28po" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NdT1ernzmucbfoTkiGP4qW">
+      <div xml:id="i-NdT1ernzmucbfoTkiGP4qW" type="motBody">
         <div xml:id="i-VfmEo29XpBQg46RvL594g6">
           <p xml:id="i-N7H1nRTjSZCHHDhQCb2ACx">
             24
@@ -213,8 +213,11 @@
             Det behövs en specifik tidsmängd vad gäller antal timmar per vecka
             för att eleverna skall kunna nå de viktiga mål som finns uppsatta.
           </p>
-          <p xml:id="i-DW2qsT7THBeNUMbf3EGgrK">
-            Stockholm den 11 oktober 2002 Ola Sundell (m)
+          <p xml:id="i-DW2qsT7THBeNUMbf3EGgrK" type="date">
+            Stockholm den 11 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-DmVJYS4zSmNsbjxyD8Z6zY">
+            Ola Sundell (m)
           </p>
           <p xml:id="i-R3EBiFQYKctcYKs9VvGm4h">
             2002/03:Ub224

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00565">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-FV4LsXZw2WXts2wALgGq9E">
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4Bp9DnZ8uSXL8jaKmnFngC">
+        <correspAction xml:id="i-4Bp9DnZ8uSXL8jaKmnFngC" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XTSDz1pB8cZvwiGbNnv7bL">
+        <correspAction xml:id="i-XTSDz1pB8cZvwiGbNnv7bL" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Ct6ygXRSffSG5H1zyJ13BY">
+        <correspAction xml:id="i-Ct6ygXRSffSG5H1zyJ13BY" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YXB3ezQjmnccoVHhbMNdRF"/>
+        <correspAction xml:id="i-YXB3ezQjmnccoVHhbMNdRF" type="assigned"/>
         <correspContext corresp="i-YXB3ezQjmnccoVHhbMNdRF">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_565/mot_200506_So_565-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NNPutqx1Fantt54RBfoXk3">
-        <div type="motTitle" xml:id="i-DKKCCY6giV1LsjqgQsPT8B"/>
-        <div type="motSubmissionInfo" xml:id="i-FTAqe8SYAGPnyZLVFN5wEX"/>
+      <div xml:id="i-NNPutqx1Fantt54RBfoXk3" type="motHeader">
+        <div xml:id="i-DKKCCY6giV1LsjqgQsPT8B" type="motTitle"/>
+        <div xml:id="i-FTAqe8SYAGPnyZLVFN5wEX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Ew8ZLMNf58oaQCsg131AqT">
+      <div xml:id="i-Ew8ZLMNf58oaQCsg131AqT" type="motBody">
         <div xml:id="i-4JciDCVDtvyT3oTUF5wy2E">
           <p xml:id="i-Pu7D4icyJugY6reEs57q4M">
             2005/06 mnr: S0565 pnr: kd725
@@ -145,8 +145,11 @@
             rätt att sälja receptfria mediciner. Det är hög tid att Apoteket
             AB får konkurrens.
           </p>
-          <p xml:id="i-PBd8rWtUqn1eeHQaGRbXoT">
-            Stockholm den 4 oktober 2005 Mikael Oscarsson (kd)
+          <p xml:id="i-PBd8rWtUqn1eeHQaGRbXoT" type="date">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-9j9LZB8Afbgbxb7xwLyHXD">
+            Mikael Oscarsson (kd)
           </p>
         </div>
       </div>

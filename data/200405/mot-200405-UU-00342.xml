@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00342">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
           <note type="signatory" corresp="i-9x2nw6aosA3pyEJfJTc1eD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RvQoUK5YnvAmFV3anFPXM1">
+        <correspAction xml:id="i-RvQoUK5YnvAmFV3anFPXM1" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VdciFJZzPtUAn2BhEokvRF">
+        <correspAction xml:id="i-VdciFJZzPtUAn2BhEokvRF" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PNZumHuibj4UgXf9jHNi6V">
+        <correspAction xml:id="i-PNZumHuibj4UgXf9jHNi6V" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VKv2VXdLyRsvugq7JXu3ya"/>
+        <correspAction xml:id="i-VKv2VXdLyRsvugq7JXu3ya" type="assigned"/>
         <correspContext corresp="i-VKv2VXdLyRsvugq7JXu3ya">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_342/mot_200405_U_342-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RKH5sVL3yYawbtnrh7cBXi">
-        <div type="motTitle" xml:id="i-PUZoQnRpaEJjpE1n8Fjcb7"/>
-        <div type="motSubmissionInfo" xml:id="i-VVK7HQRxQtcw3Smvb2p9Wa"/>
+      <div xml:id="i-RKH5sVL3yYawbtnrh7cBXi" type="motHeader">
+        <div xml:id="i-PUZoQnRpaEJjpE1n8Fjcb7" type="motTitle"/>
+        <div xml:id="i-VVK7HQRxQtcw3Smvb2p9Wa" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DYTD1ekrRsYaXFDrRX5iqa">
+      <div xml:id="i-DYTD1ekrRsYaXFDrRX5iqa" type="motBody">
         <div xml:id="i-W8Q2e4LpWLqWsrmzQxEmtv">
           <p xml:id="i-BDKJTLGCH8DSoWLxgs1crn">
             2004/05 mnr: U342 pnr: mp923
@@ -194,8 +194,11 @@
             politiken. Riktlinjerna borde också innehålla tydliga regler för
             hur det civila samhället ska kunna delta på ett demokratiskt sätt.
           </p>
-          <p xml:id="i-WSLLunVW1X9iWPmRToXDey">
-            Stockholm den 5 oktober 2004 Jan Lindholm (mp) Ulf Holm (mp)
+          <p xml:id="i-WSLLunVW1X9iWPmRToXDey" type="date">
+            Stockholm den 5 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-2kEfdRb77QidQbmQkZ89HC">
+            Jan Lindholm (mp) Ulf Holm (mp)
           </p>
         </div>
       </div>

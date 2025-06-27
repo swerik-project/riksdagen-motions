@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00321">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-4dJKK36JQ6BQ8usEPyn9My">
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YEwL3FaHBtwQFTyKthQ5qE">
+        <correspAction xml:id="i-YEwL3FaHBtwQFTyKthQ5qE" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JuBANv9fmC8JUNhXdK783h">
+        <correspAction xml:id="i-JuBANv9fmC8JUNhXdK783h" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8i8V1Uvnm9br6TavXW11Ab">
+        <correspAction xml:id="i-8i8V1Uvnm9br6TavXW11Ab" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EZnnrBaMGhEzGLW32Mpebh"/>
+        <correspAction xml:id="i-EZnnrBaMGhEzGLW32Mpebh" type="assigned"/>
         <correspContext corresp="i-EZnnrBaMGhEzGLW32Mpebh">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ub_0321/mot_200304_Ub_0321-0001.pdf"/>
-      <div type="motHeader" xml:id="i-GXaUbg5QVd5Zc8dZfu9ine">
-        <div type="motTitle" xml:id="i-2btBETvchN9BuYDuZrdVXm"/>
-        <div type="motSubmissionInfo" xml:id="i-GGNdbVPyZfM4hwxQaBB5AN"/>
+      <div xml:id="i-GXaUbg5QVd5Zc8dZfu9ine" type="motHeader">
+        <div xml:id="i-2btBETvchN9BuYDuZrdVXm" type="motTitle"/>
+        <div xml:id="i-GGNdbVPyZfM4hwxQaBB5AN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NEvzAnR4QNt8FXvqEberj4">
+      <div xml:id="i-NEvzAnR4QNt8FXvqEberj4" type="motBody">
         <div xml:id="i-WGikSVXK7VkzBKk8ELQeMj">
           <p xml:id="i-8QjHXSv3drHGM7QX4r9iHS">
             2003/04 mnr: Ub321 pnr: kd765
@@ -256,8 +256,11 @@
             med uppgiften att belysa frågor av denna art och föreslå konkreta
             åtgärder för att stärka den ekonomiska etiken.
           </p>
-          <p xml:id="i-PADSjTHxpDvqXNW6t26xe1">
-            Stockholm den 3 oktober 2003 Tuve Skånberg (kd)
+          <p xml:id="i-PADSjTHxpDvqXNW6t26xe1" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-X9rFLSwPJ5CCzUgPhRsFkV">
+            Tuve Skånberg (kd)
           </p>
         </div>
       </div>

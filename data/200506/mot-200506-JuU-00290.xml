@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00290">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-JJKMfYX3QS7QwGmU6d3Xvj">
           <note type="signatory" corresp="i-4pfVnS8LNwychZJ7RaUufZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CKMYMYYxmvRyGdifRahDLe">
+        <correspAction xml:id="i-CKMYMYYxmvRyGdifRahDLe" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VJpvvUxuRyTFFQYhqudgJX">
+        <correspAction xml:id="i-VJpvvUxuRyTFFQYhqudgJX" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TVyMKN6Km2ZCTRA78Rd1tX">
+        <correspAction xml:id="i-TVyMKN6Km2ZCTRA78Rd1tX" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VqTAupwXLoTd6VW5tZ8FMg"/>
+        <correspAction xml:id="i-VqTAupwXLoTd6VW5tZ8FMg" type="assigned"/>
         <correspContext corresp="i-VqTAupwXLoTd6VW5tZ8FMg">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_290/mot_200506_Ju_290-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VzHsjGDSBS2xrA6yFCQhzq">
-        <div type="motTitle" xml:id="i-2xhqxypFtPUPnu6YCBybSJ"/>
-        <div type="motSubmissionInfo" xml:id="i-MVCrEFVFTxaQk5VANXcZEg"/>
+      <div xml:id="i-VzHsjGDSBS2xrA6yFCQhzq" type="motHeader">
+        <div xml:id="i-2xhqxypFtPUPnu6YCBybSJ" type="motTitle"/>
+        <div xml:id="i-MVCrEFVFTxaQk5VANXcZEg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8E14a52zaBGGpbuAPJVR72">
+      <div xml:id="i-8E14a52zaBGGpbuAPJVR72" type="motBody">
         <div xml:id="i-WAiMabT5MwPyr6jPzgq66E">
           <p xml:id="i-SPUWPkz9uvJ8TorQiyzyGm">
             2005/06 mnr: Ju290 pnr: kd575
@@ -106,8 +106,11 @@
             var aktuell, presenterat ett väl genomarbetat förslag för hur
             en polisutbildning skall kunna bedrivas i Borås.
           </p>
-          <p xml:id="i-4FKjs2yDQo9S9vx3Vqzxj6">
-            Stockholm den 21 september 2005 Else-Marie Lindgren (kd)
+          <p xml:id="i-4FKjs2yDQo9S9vx3Vqzxj6" type="date">
+            Stockholm den 21 september 2005
+          </p>
+          <p type="signatureBlock" id="i-MdyVtecjmfih5SKEGmcd9r">
+            Else-Marie Lindgren (kd)
           </p>
         </div>
       </div>

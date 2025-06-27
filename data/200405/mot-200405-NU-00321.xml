@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00321">
   <teiHeader>
     <fileDesc>
@@ -86,16 +86,16 @@
           <note type="signatory" corresp="i-SxwXtVqzR6fyXB2uQfozAQ"/>
           <note type="signatory" corresp="i-RPLcLWRfZW7xXVd61piM6R"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LMFEHAwdRBog3veA6sF75T">
+        <correspAction xml:id="i-LMFEHAwdRBog3veA6sF75T" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PdfE3esh8RJpLUnWDDFqAQ">
+        <correspAction xml:id="i-PdfE3esh8RJpLUnWDDFqAQ" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6rfuHkZw4MyT9NrzJGkmoM">
+        <correspAction xml:id="i-6rfuHkZw4MyT9NrzJGkmoM" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9EkXDwuBCEApfS9kzVgsNi"/>
+        <correspAction xml:id="i-9EkXDwuBCEApfS9kzVgsNi" type="assigned"/>
         <correspContext corresp="i-9EkXDwuBCEApfS9kzVgsNi">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_N_321/mot_200405_N_321-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XLMRCu3buwD8kafZJx5dny">
-        <div type="motTitle" xml:id="i-54FTwHsYTZ3U3yZA3oDfSc"/>
-        <div type="motSubmissionInfo" xml:id="i-TihgEE6vapEeJuXbhh7vjv"/>
+      <div xml:id="i-XLMRCu3buwD8kafZJx5dny" type="motHeader">
+        <div xml:id="i-54FTwHsYTZ3U3yZA3oDfSc" type="motTitle"/>
+        <div xml:id="i-TihgEE6vapEeJuXbhh7vjv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AKTbVv7gL2v1w1MspgX7Lp">
+      <div xml:id="i-AKTbVv7gL2v1w1MspgX7Lp" type="motBody">
         <div xml:id="i-PHwwC3rUbPabok8xa2bPG3">
           <p xml:id="i-3roB3ocN94WChrPviATUrn">
             2004/05 mnr: N321 pnr: v639
@@ -180,8 +180,11 @@
             kunde med fördel nyttjas i den ovan skisserade verksamheten. Detta
             vill vi att riksdagen som sin mening ge regeringen till känna.
           </p>
-          <p xml:id="i-37JYv3XoidU4ADWWG3G5iS">
-            Stockholm den 3 oktober 2004 Gunilla Wahlén (v)
+          <p xml:id="i-37JYv3XoidU4ADWWG3G5iS" type="date">
+            Stockholm den 3 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-A4HXKAVxEp7xRYqWStzJQB">
+            Gunilla Wahlén (v)
           </p>
           <p xml:id="i-8ToN2MPyEJp6MePoKqe1y9">
             Lennart Beijer (v) Lars Bäckström (v) Marie Engström (v) Siv

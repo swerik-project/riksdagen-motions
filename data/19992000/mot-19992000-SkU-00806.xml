@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-SkU-00806">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-RCNVVc6jFAU8YPdr6sW8jH</idno>
-            <name>Stefan Hagfeldt </name>
+            <name>Stefan Hagfeldt</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-DKsVYU73WDtSTFEeLoboVx</idno>
-            <name>Ola Sundell </name>
+            <name>Ola Sundell</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-RCNVVc6jFAU8YPdr6sW8jH"/>
           <note type="signatory" corresp="i-DKsVYU73WDtSTFEeLoboVx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Gc8mMJ1Pe2AYToa5iLrXK4">
+        <correspAction xml:id="i-Gc8mMJ1Pe2AYToa5iLrXK4" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VRDbHu2KkQusiXkhtACj2q">
+        <correspAction xml:id="i-VRDbHu2KkQusiXkhtACj2q" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Q99Lu9q5VsNhE8uda4d6fw">
+        <correspAction xml:id="i-Q99Lu9q5VsNhE8uda4d6fw" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-UkfF6uCmvMTqZcarNWFwY9">
+        <correspAction xml:id="i-UkfF6uCmvMTqZcarNWFwY9" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2n7PRLy8b4tasnQ58d8zxF">
+        <correspAction xml:id="i-2n7PRLy8b4tasnQ58d8zxF" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RfHm5GYJqsg4J7W1ycfrwc">
+        <correspAction xml:id="i-RfHm5GYJqsg4J7W1ycfrwc" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TiZ6xZEFHSiQPFf11Qkt6n"/>
+        <correspAction xml:id="i-TiZ6xZEFHSiQPFf11Qkt6n" type="assigned"/>
         <correspContext corresp="i-TiZ6xZEFHSiQPFf11Qkt6n">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Sk_0806/mot_199900_Sk_0806-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8d6SRRre3BS1XFQFCVorzv">
-        <div type="motTitle" xml:id="i-Gx64Z5zJuVWw4X8uzj2seV"/>
-        <div type="motSubmissionInfo" xml:id="i-PZ1Xr7VoNKCNXhqPJc5KQP"/>
+      <div xml:id="i-8d6SRRre3BS1XFQFCVorzv" type="motHeader">
+        <div xml:id="i-Gx64Z5zJuVWw4X8uzj2seV" type="motTitle"/>
+        <div xml:id="i-PZ1Xr7VoNKCNXhqPJc5KQP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Byq69XbZm1uNJ1NqWdMgKn">
+      <div xml:id="i-Byq69XbZm1uNJ1NqWdMgKn" type="motBody">
         <div xml:id="i-TwbxBH5Kq9v7WLwix5iWaW">
           <p xml:id="i-VajbxbCoyrxSZwvgeczbKT">
             1999/2000 mnr: Sk806 pnr: m224
@@ -153,8 +153,11 @@
             av att synliggöra skatter och arbetsgivar- avgifter.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Sk_0806/mot_199900_Sk_0806-0002.pdf"/>
-          <p xml:id="i-NDhW8MXx7s5ydgrZ8GzL7B">
-            Stockholm den 29 september 1999 Mot. 1999/2000
+          <p xml:id="i-NDhW8MXx7s5ydgrZ8GzL7B" type="date">
+            Stockholm den 29 september 1999
+          </p>
+          <p type="signatureBlock" id="i-RYkhFPhhNe9q1jETsTAJhe">
+            Mot. 1999/2000
           </p>
           <p xml:id="i-NBth1YHcYjtLUEdWPu9qJi">
             Sk806 Stefan Hagfeldt (m) Ola Sundell (m)

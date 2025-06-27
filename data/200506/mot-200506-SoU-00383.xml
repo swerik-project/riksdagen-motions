@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00383">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-UX8JxP3kiELeVgSfTTRqiJ">
           <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CoEgvDVMhZetSAnrYqDP1H">
+        <correspAction xml:id="i-CoEgvDVMhZetSAnrYqDP1H" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PdBxCMGvzCW3dLx7TxG5NE">
+        <correspAction xml:id="i-PdBxCMGvzCW3dLx7TxG5NE" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9ADth2WwJH7xRKukKfXmT3">
+        <correspAction xml:id="i-9ADth2WwJH7xRKukKfXmT3" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-61f8M7JpzzVj4TZZHtru8g"/>
+        <correspAction xml:id="i-61f8M7JpzzVj4TZZHtru8g" type="assigned"/>
         <correspContext corresp="i-61f8M7JpzzVj4TZZHtru8g">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_383/mot_200506_So_383-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SodLhRSzBEvXw5q7KvLoGr">
-        <div type="motTitle" xml:id="i-2A2bYUXJgpYaFYKdd6vmf9"/>
-        <div type="motSubmissionInfo" xml:id="i-Ld3haUoBz7j2CGCZHRMMAX"/>
+      <div xml:id="i-SodLhRSzBEvXw5q7KvLoGr" type="motHeader">
+        <div xml:id="i-2A2bYUXJgpYaFYKdd6vmf9" type="motTitle"/>
+        <div xml:id="i-Ld3haUoBz7j2CGCZHRMMAX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-W7ftRbKQTZawsyxLiC7fzc">
+      <div xml:id="i-W7ftRbKQTZawsyxLiC7fzc" type="motBody">
         <div xml:id="i-T3Ljm2W45yZf7SGR4NCfpV">
           <p xml:id="i-6C7qq5RfTsDfRcDkoFn64u">
             2005/06 mnr: S0383 pnr: mp815
@@ -105,8 +105,11 @@
             om de inte har polisen med sig. Därför borde även kommunala alkoholinspektörer
             få rätt att kontrollera legitimation.
           </p>
-          <p xml:id="i-DP6GabXmeiBUi9HrKHvM7o">
-            Stockholm den 29 september 2005 Jan Lindholm (mp)
+          <p xml:id="i-DP6GabXmeiBUi9HrKHvM7o" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-GJfhDoDhv76euYHnpetSru">
+            Jan Lindholm (mp)
           </p>
         </div>
       </div>

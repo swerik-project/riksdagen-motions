@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-TU-00011">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-DMheKZZCYDtLzdvzFzc5vP</idno>
-            <name>Kenth Skårvik </name>
+            <name>Kenth Skårvik</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-AvtuWmW4WHMDrctQKwDQuR</idno>
-            <name>Eva Flyborg </name>
+            <name>Eva Flyborg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Gcjbk3nJyjWXPaa2dm3MFR</idno>
-            <name>Elver Jonsson </name>
+            <name>Elver Jonsson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5xTUvmFKeHzzEji4RQcWNH"/>
+        <correspAction xml:id="i-5xTUvmFKeHzzEji4RQcWNH" type="basedOn"/>
         <correspContext corresp="i-5xTUvmFKeHzzEji4RQcWNH">
           <ref>Proposition 1999/2000:78</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-Gcjbk3nJyjWXPaa2dm3MFR"/>
           <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Rh7tRVZgFt5VeeR7seZVCq">
+        <correspAction xml:id="i-Rh7tRVZgFt5VeeR7seZVCq" type="referral">
           <date when="2000-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-R5rusAqXKPcvnaB4ze23eP">
+        <correspAction xml:id="i-R5rusAqXKPcvnaB4ze23eP" type="dismissal">
           <date when="2000-04-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QBfdUJSESGFTnAm9scpNnj">
+        <correspAction xml:id="i-QBfdUJSESGFTnAm9scpNnj" type="submission">
           <date when="2000-04-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-3g5DjzQDMP7WprfCVvB9ck">
+        <correspAction xml:id="i-3g5DjzQDMP7WprfCVvB9ck" type="referral">
           <date when="2000-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-H8GH3xFKCH3gHZf6zbFAhS">
+        <correspAction xml:id="i-H8GH3xFKCH3gHZf6zbFAhS" type="dismissal">
           <date when="2000-04-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MMoTWwNoYKfmSkuFvVRZo7">
+        <correspAction xml:id="i-MMoTWwNoYKfmSkuFvVRZo7" type="submission">
           <date when="2000-04-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-T718nkJ4FsdEyRU2K63dzq"/>
+        <correspAction xml:id="i-T718nkJ4FsdEyRU2K63dzq" type="assigned"/>
         <correspContext corresp="i-T718nkJ4FsdEyRU2K63dzq">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_T_0011/mot_199900_T_0011-0001.pdf"/>
-      <div type="motHeader" xml:id="i-P8A34kYorHBD3kWfraqFfx">
-        <div type="motTitle" xml:id="i-A8q33sT5UStUwHXdrWZ7wK"/>
-        <div type="motSubmissionInfo" xml:id="i-5RaQGy1rWFTCpyVWkRp37x"/>
+      <div xml:id="i-P8A34kYorHBD3kWfraqFfx" type="motHeader">
+        <div xml:id="i-A8q33sT5UStUwHXdrWZ7wK" type="motTitle"/>
+        <div xml:id="i-5RaQGy1rWFTCpyVWkRp37x" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AShvNBR63KfdBrqSDri6h6">
+      <div xml:id="i-AShvNBR63KfdBrqSDri6h6" type="motBody">
         <div xml:id="i-TQ9SpBfAH7tLArvoYS7RTZ">
           <p xml:id="i-DAEkNWhAjDeKBwNPNJrS66">
             1999/2000 mnr: T11 pnr: fp1131
@@ -269,8 +269,11 @@
             som sin mening ger regeringen till känna vad i motionen anförts
             om villkoren för den svenska åkerinäringen.
           </p>
-          <p xml:id="i-X89N4fKjbxYFNqy5bFp4BG">
-            Stockholm den 5 april 2000 Kenth Skårvik (fp)
+          <p xml:id="i-X89N4fKjbxYFNqy5bFp4BG" type="date">
+            Stockholm den 5 april 2000
+          </p>
+          <p type="signatureBlock" id="i-RRec4MkzHVUQ96mVrqZBLu">
+            Kenth Skårvik (fp)
           </p>
           <p xml:id="i-QTrWmbjXfRdjoUpuErFnjw">
             Elver Jonsson (fp) Eva Flyborg (fp)

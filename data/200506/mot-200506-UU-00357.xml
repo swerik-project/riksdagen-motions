@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UU-00357">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-XkEmzze1xrzZku87gfe33A"/>
           <note type="signatory" corresp="i-NzHKC9iUGaf1xUAcp3VKCA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BDupmQQxMVdSnGxrEA9eTW">
+        <correspAction xml:id="i-BDupmQQxMVdSnGxrEA9eTW" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AcmufZJyo6qCMRTgA4KGAw">
+        <correspAction xml:id="i-AcmufZJyo6qCMRTgA4KGAw" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ZytfujQ5x9jHHvyzExMJJ">
+        <correspAction xml:id="i-ZytfujQ5x9jHHvyzExMJJ" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XZ4CQm3ErhdWauGxq5oEck"/>
+        <correspAction xml:id="i-XZ4CQm3ErhdWauGxq5oEck" type="assigned"/>
         <correspContext corresp="i-XZ4CQm3ErhdWauGxq5oEck">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_U_357/mot_200506_U_357-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HsD12GSsQbBEfkzVFeZggz">
-        <div type="motTitle" xml:id="i-5hPUSZh5NTeu34fjigaYia"/>
-        <div type="motSubmissionInfo" xml:id="i-UXrP6GGst1FHwnGLq5UvEp"/>
+      <div xml:id="i-HsD12GSsQbBEfkzVFeZggz" type="motHeader">
+        <div xml:id="i-5hPUSZh5NTeu34fjigaYia" type="motTitle"/>
+        <div xml:id="i-UXrP6GGst1FHwnGLq5UvEp" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2kSTVxuMJuEXVa7mnfMcYm">
+      <div xml:id="i-2kSTVxuMJuEXVa7mnfMcYm" type="motBody">
         <div xml:id="i-GA7Rv9btxNGXuGZqzTMozz">
           <p xml:id="i-WSW8pBWtBgV8XuKjGvzh9x">
             2005/06 mnr: U357 pnr: s3105
@@ -190,9 +190,12 @@
           <p xml:id="i-Fs3SQ837Hyhk456LRj973R">
             Isaaks 40-årsdag i hans frånvaro. Vår förhoppning är att en fri
             Dawit Isaak nästa höst kan fira sin födelsedag hemma med sin familj
-            i Sverige. Stockholm den 28 september 2005
+            i Sverige.
           </p>
-          <p xml:id="i-W52wYHmvRBuiLmHuY5BbAy">
+          <p type="date" id="i-FhsbeMerbHdcdVZo1THnhB">
+            Stockholm den 28 september 2005
+          </p>
+          <p xml:id="i-W52wYHmvRBuiLmHuY5BbAy" type="signatureBlock">
             Rezene Tesfazion (s) Inger Lundberg (s)
           </p>
         </div>

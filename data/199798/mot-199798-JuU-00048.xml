@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-JuU-00048">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-TtTt6tncGj7Z7obngWSti</idno>
-            <name>Kia Andreasson </name>
+            <name>Kia Andreasson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-9BUsH2Bn1bGihptNC5r7uq</idno>
-            <name>Peter Eriksson </name>
+            <name>Peter Eriksson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-WhkYyHkAQJinZzBj9xsEfU</idno>
-            <name>Annika Nordgren </name>
+            <name>Annika Nordgren</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-4nqLKtEggLYv7NXYm6vwUX"/>
+        <correspAction xml:id="i-4nqLKtEggLYv7NXYm6vwUX" type="basedOn"/>
         <correspContext corresp="i-4nqLKtEggLYv7NXYm6vwUX">
           <ref>Proposition 1997/98:97</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-9BUsH2Bn1bGihptNC5r7uq"/>
           <note type="signatory" corresp="i-WhkYyHkAQJinZzBj9xsEfU"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-A8byxQgxeEpxKcjoB2u6yr">
+        <correspAction xml:id="i-A8byxQgxeEpxKcjoB2u6yr" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4fpTZpWurnujB8bd6n3gPK">
+        <correspAction xml:id="i-4fpTZpWurnujB8bd6n3gPK" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Do7RNxiwMAjMwKfSBGaX6m">
+        <correspAction xml:id="i-Do7RNxiwMAjMwKfSBGaX6m" type="submission">
           <date when="1998-04-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GxkDzvVjVFrRg8vmasZkTH">
+        <correspAction xml:id="i-GxkDzvVjVFrRg8vmasZkTH" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EpqbAG3XgtFbMYNxqmqSrM">
+        <correspAction xml:id="i-EpqbAG3XgtFbMYNxqmqSrM" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NqD5Th783VnKHQ96TeGWUy">
+        <correspAction xml:id="i-NqD5Th783VnKHQ96TeGWUy" type="submission">
           <date when="1998-04-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-C4Uqcc6CNzNr1yw1d4QPnV"/>
+        <correspAction xml:id="i-C4Uqcc6CNzNr1yw1d4QPnV" type="assigned"/>
         <correspContext corresp="i-C4Uqcc6CNzNr1yw1d4QPnV">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_JU_0048/mot_199798_JU_0048-0001.pdf"/>
-      <div type="motHeader" xml:id="i-M2M4vjwbHbQMrZZnW4LsTE">
-        <div type="motTitle" xml:id="i-LX9EqRB1qdnu5WmKkhpkxw"/>
-        <div type="motSubmissionInfo" xml:id="i-RppwEKvzyMcN33Fvd3UXui"/>
+      <div xml:id="i-M2M4vjwbHbQMrZZnW4LsTE" type="motHeader">
+        <div xml:id="i-LX9EqRB1qdnu5WmKkhpkxw" type="motTitle"/>
+        <div xml:id="i-RppwEKvzyMcN33Fvd3UXui" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-S2NhoYaCub7AbRBPTWFcWz">
+      <div xml:id="i-S2NhoYaCub7AbRBPTWFcWz" type="motBody">
         <div xml:id="i-EVQLWCRBmCiRj2PMjeg44w">
           <p xml:id="i-5A3HL6btdakuoqFk32KB1q">
             1997/98 Ju48 Ju42—50
@@ -564,8 +564,11 @@
             om yrkande 6 avslås, beslutar att bestämmelser enligt 35 8 andra
             stycket polisdatalagen skall meddelas genom lag.
           </p>
-          <p xml:id="i-YLHf6G2ehn6LJChxJRj8mp">
-            Stockholm den 2 april 1998 Kia Andreasson (mp)
+          <p xml:id="i-YLHf6G2ehn6LJChxJRj8mp" type="date">
+            Stockholm den 2 april 1998
+          </p>
+          <p type="signatureBlock" id="i-4phdfv3UefTopRBXdkHjSq">
+            Kia Andreasson (mp)
           </p>
           <p xml:id="i-V1PS35Bhb6JJdgdFE2xMP3">
             Annika Nordgren (mp) Peter Eriksson (mp)

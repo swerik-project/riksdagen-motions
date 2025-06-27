@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00424">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-4MFKLRGb5f2zMnksdXL5aH">
           <note type="signatory" corresp="i-UojdP4mF9dqkxf3QQ9oPFe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EnDRvfkBMzavXGJz8YV3E">
+        <correspAction xml:id="i-EnDRvfkBMzavXGJz8YV3E" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CXftQfiy3bNjaxGg28sDwp">
+        <correspAction xml:id="i-CXftQfiy3bNjaxGg28sDwp" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Vb3U5CLhNeEX3orZVkw7RX">
+        <correspAction xml:id="i-Vb3U5CLhNeEX3orZVkw7RX" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PmrctNbwgmQsDQoZbRNmca"/>
+        <correspAction xml:id="i-PmrctNbwgmQsDQoZbRNmca" type="assigned"/>
         <correspContext corresp="i-PmrctNbwgmQsDQoZbRNmca">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ju_0424/mot_200304_Ju_0424-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Aewx6fvcQQPqYxhZyJYVbQ">
-        <div type="motTitle" xml:id="i-NhEhS6FWX6Y4JWjJwqNJGn"/>
-        <div type="motSubmissionInfo" xml:id="i-YQEog83kMhDdEHMYch3dv4"/>
+      <div xml:id="i-Aewx6fvcQQPqYxhZyJYVbQ" type="motHeader">
+        <div xml:id="i-NhEhS6FWX6Y4JWjJwqNJGn" type="motTitle"/>
+        <div xml:id="i-YQEog83kMhDdEHMYch3dv4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-C4TLViq77SK7hb4AaWXBj5">
+      <div xml:id="i-C4TLViq77SK7hb4AaWXBj5" type="motBody">
         <div xml:id="i-KbV3X2Q618UL6QDxWSKL7t">
           <p xml:id="i-4JYKb2LZ3ZW75prNKKsJcc">
             2003/04 mnr: Ju424 pnr: s11084
@@ -140,8 +140,11 @@
             som vapeninnehavare bör ifrågasättas. Riksdagen bör besluta i
             enlighet med ovan redovisade justeringar av vapenlagstiftningen.
           </p>
-          <p xml:id="i-9Zw3zQxUDP8hoKbvwW2km6">
-            Stockholm den 6 oktober 2003 Håkan Juholt (s)
+          <p xml:id="i-9Zw3zQxUDP8hoKbvwW2km6" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-9b6Vbm1NLDL2RDLn5V2oox">
+            Håkan Juholt (s)
           </p>
         </div>
       </div>

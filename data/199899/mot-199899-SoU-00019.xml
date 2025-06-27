@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-SoU-00019">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-6kLJbGLpwB9hYxDrVrkcqF</idno>
-            <name>Karin Pilsäter </name>
+            <name>Karin Pilsäter</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FbvjM65yniGuisD3dw87GT"/>
+        <correspAction xml:id="i-FbvjM65yniGuisD3dw87GT" type="basedOn"/>
         <correspContext corresp="i-FbvjM65yniGuisD3dw87GT">
           <ref>Proposition 1998/99:70</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
           <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CvsqBstRy3661a7mBDBVob">
+        <correspAction xml:id="i-CvsqBstRy3661a7mBDBVob" type="referral">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-At5zTyTcZZCqWDjpP7UjXk">
+        <correspAction xml:id="i-At5zTyTcZZCqWDjpP7UjXk" type="dismissal">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GudySy15H1yLiW2EQ6huRu">
+        <correspAction xml:id="i-GudySy15H1yLiW2EQ6huRu" type="submission">
           <date when="1999-03-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-MyLyopPwpanZdNVYBGNMk9">
+        <correspAction xml:id="i-MyLyopPwpanZdNVYBGNMk9" type="referral">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-A7pUbkv99n9Qnyi4PVp7MY">
+        <correspAction xml:id="i-A7pUbkv99n9Qnyi4PVp7MY" type="dismissal">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LKE74XS7QkEewDc9u6CQrH">
+        <correspAction xml:id="i-LKE74XS7QkEewDc9u6CQrH" type="submission">
           <date when="1999-03-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UTwi7pTgfRSvwbA86FL3MU"/>
+        <correspAction xml:id="i-UTwi7pTgfRSvwbA86FL3MU" type="assigned"/>
         <correspContext corresp="i-UTwi7pTgfRSvwbA86FL3MU">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_So_0019/mot_199899_So_0019-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Tx9erGaKQBZhQcx9CsgSG6">
-        <div type="motTitle" xml:id="i-KsZRD55Lsaehwnxrhbvzvn"/>
-        <div type="motSubmissionInfo" xml:id="i-L6tZwcZ7pWYSbc5onhvi6p"/>
+      <div xml:id="i-Tx9erGaKQBZhQcx9CsgSG6" type="motHeader">
+        <div xml:id="i-KsZRD55Lsaehwnxrhbvzvn" type="motTitle"/>
+        <div xml:id="i-L6tZwcZ7pWYSbc5onhvi6p" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WStL25tWKi5XnedcPwQLje">
+      <div xml:id="i-WStL25tWKi5XnedcPwQLje" type="motBody">
         <div xml:id="i-SQfRZHuqRLyDsSxDcLzoo5">
           <p xml:id="i-DvFFoYh5r7gZn8VGNVdWY4">
             So19
@@ -145,7 +145,13 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_So_0019/mot_199899_So_0019-0002.pdf"/>
           <p xml:id="i-W6xemMrvvgiZfNAiSPSyjB">
-            Mot. Stockholm den 25 mars 1999 1998/99S019
+            Mot.
+          </p>
+          <p type="date" id="i-QDbM56LEaaFM4e2VgyQ2sQ">
+            Stockholm den 25 mars 1999
+          </p>
+          <p type="signatureBlock" id="i-BxxkvUkTHMGcUWBoZXYq8U">
+            1998/99S019
           </p>
           <p xml:id="i-AV62JPfetA99xw5TmsuUfE">
             Karin Pilsäter (fp)

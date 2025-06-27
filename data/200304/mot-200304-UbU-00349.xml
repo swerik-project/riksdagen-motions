@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00349">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-vAYTvWc5MbJ5Aur7cQSBu">
           <note type="signatory" corresp="i-UmSX9m2mxvWevquvVduNpz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-X14d7dbJHGG8ze4oc8JXtM">
+        <correspAction xml:id="i-X14d7dbJHGG8ze4oc8JXtM" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9Vwv4uDC1fktnjTmjZoXzE">
+        <correspAction xml:id="i-9Vwv4uDC1fktnjTmjZoXzE" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RQZs6AambzBnxcHunY52Ro">
+        <correspAction xml:id="i-RQZs6AambzBnxcHunY52Ro" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RJsGVFYVYVbCd6TLNERAQW"/>
+        <correspAction xml:id="i-RJsGVFYVYVbCd6TLNERAQW" type="assigned"/>
         <correspContext corresp="i-RJsGVFYVYVbCd6TLNERAQW">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ub_0349/mot_200304_Ub_0349-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4kykciUBpuQRQtP1bqHtsB">
-        <div type="motTitle" xml:id="i-MguazUTBjThzoCrJ689LAg"/>
-        <div type="motSubmissionInfo" xml:id="i-DnWSaYGkvzQVTsszUFPHL7"/>
+      <div xml:id="i-4kykciUBpuQRQtP1bqHtsB" type="motHeader">
+        <div xml:id="i-MguazUTBjThzoCrJ689LAg" type="motTitle"/>
+        <div xml:id="i-DnWSaYGkvzQVTsszUFPHL7" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5pE8KN4jnxwJUMPjXRXABq">
+      <div xml:id="i-5pE8KN4jnxwJUMPjXRXABq" type="motBody">
         <div xml:id="i-XNrigTYnJT2h7AYUsejq7V">
           <p xml:id="i-PSCxsMouQJahWzr661xT74">
             2003/04 mnr: Ub349 pnr: fp561
@@ -186,8 +186,11 @@
             måste förändras så att studenterna ges möjlighet till ekonomisk
             försörjning.
           </p>
-          <p xml:id="i-HTyraDTPH3tXLsPW9JAh5G">
-            Stockholm den 5 oktober 2003 Anne-Marie Ekström (fp)
+          <p xml:id="i-HTyraDTPH3tXLsPW9JAh5G" type="date">
+            Stockholm den 5 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-EpWHaSirG3a8QUrJaBVZAT">
+            Anne-Marie Ekström (fp)
           </p>
           <p xml:id="i-12MvPsZCHyQXjrvRScSyfn">
             2003/04:Ub349

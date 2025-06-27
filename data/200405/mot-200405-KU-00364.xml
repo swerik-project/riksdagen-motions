@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00364">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-L82u1LShbtWY7fynBSTp8r">
           <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GxBqvY4nvQe4sixZXSM6v5">
+        <correspAction xml:id="i-GxBqvY4nvQe4sixZXSM6v5" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AzuwpmPSrRLbcw6r1RsYBY">
+        <correspAction xml:id="i-AzuwpmPSrRLbcw6r1RsYBY" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BkTQi9iFJNNAAFf18qQnGF">
+        <correspAction xml:id="i-BkTQi9iFJNNAAFf18qQnGF" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VTpw35x4973YA42GjT2GDp"/>
+        <correspAction xml:id="i-VTpw35x4973YA42GjT2GDp" type="assigned"/>
         <correspContext corresp="i-VTpw35x4973YA42GjT2GDp">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_K_364/mot_200405_K_364-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_K_364/mot_200405_K_364-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QUAyF3kZ5wwwPmSvYKYYpk">
-        <div type="motTitle" xml:id="i-3QMj7XyApq6uBWxqjjEthu"/>
-        <div type="motSubmissionInfo" xml:id="i-EPJusLMT9iN54ndnmWSLQu"/>
+      <div xml:id="i-QUAyF3kZ5wwwPmSvYKYYpk" type="motHeader">
+        <div xml:id="i-3QMj7XyApq6uBWxqjjEthu" type="motTitle"/>
+        <div xml:id="i-EPJusLMT9iN54ndnmWSLQu" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WNM3rbzGGYsDeHLu5rfgpq">
+      <div xml:id="i-WNM3rbzGGYsDeHLu5rfgpq" type="motBody">
         <div xml:id="i-V26bBtLGdXsx9C3m6PKizj">
           <p xml:id="i-N4Vq94dtRFPW1Ti71mi21F">
             2004/05 mnr: K364 pnr: fp212
@@ -121,8 +121,11 @@
           <p xml:id="i-2facJkhjGx84WwtLSw5R7n">
             2004/05:K364
           </p>
-          <p xml:id="i-PrXMvsqKti3WVuKceFD5fk">
-            Stockholm den 4 oktober 2004 Tobias Krantz (fp)
+          <p xml:id="i-PrXMvsqKti3WVuKceFD5fk" type="date">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-TsNAynijyAS5oHbZvcxu6J">
+            Tobias Krantz (fp)
           </p>
         </div>
       </div>

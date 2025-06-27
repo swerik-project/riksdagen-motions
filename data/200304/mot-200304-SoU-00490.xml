@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00490">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-RSCweJKDvDPb8Ep9G3Za7r">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-6HwCjHjr6SQDPXc98VUkEd">
+        <correspAction xml:id="i-6HwCjHjr6SQDPXc98VUkEd" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CLJ8eQ6m84XrM8wyCRLS6">
+        <correspAction xml:id="i-CLJ8eQ6m84XrM8wyCRLS6" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FyRbTi49VrC5tB7EjgLwHz">
+        <correspAction xml:id="i-FyRbTi49VrC5tB7EjgLwHz" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DLKhqnF5WV6PaKCUqP4goG"/>
+        <correspAction xml:id="i-DLKhqnF5WV6PaKCUqP4goG" type="assigned"/>
         <correspContext corresp="i-DLKhqnF5WV6PaKCUqP4goG">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0490/mot_200304_So_0490-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RGcVdgq24cqZf3ctiCzWAh">
-        <div type="motTitle" xml:id="i-6RUASfrvzJy8rBp8XD2jmP"/>
-        <div type="motSubmissionInfo" xml:id="i-XR2e576qWiYJSnRwvyW56u"/>
+      <div xml:id="i-RGcVdgq24cqZf3ctiCzWAh" type="motHeader">
+        <div xml:id="i-6RUASfrvzJy8rBp8XD2jmP" type="motTitle"/>
+        <div xml:id="i-XR2e576qWiYJSnRwvyW56u" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-URA2CWd41iawu4V3qhcYyb">
+      <div xml:id="i-URA2CWd41iawu4V3qhcYyb" type="motBody">
         <div xml:id="i-BSgd3CwBNvRJdq9RFxog14">
           <p xml:id="i-C6p1hcTefTSpk3PfUcXajn">
             2003/04 mnr: S0490 pnr: kd893
@@ -168,8 +168,11 @@
             villkoren för små företag och enskilda yrkesutövare att verka
             inom hälso- och sjukvården och omsorgen behöver ses över.
           </p>
-          <p xml:id="i-CR3ZYbkKNJoEJUMSRxAw5y">
-            Stockholm den 1 oktober 2003 Annelie Enochson (kd)
+          <p xml:id="i-CR3ZYbkKNJoEJUMSRxAw5y" type="date">
+            Stockholm den 1 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-Extk5AK2GnG18Lea5fAvst">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

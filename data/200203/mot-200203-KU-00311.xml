@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00311">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-JZKa6caqdSKy8yhUyfEJeU"/>
           <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8KM6Z6P4YA3wb1kCqBX5WQ">
+        <correspAction xml:id="i-8KM6Z6P4YA3wb1kCqBX5WQ" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-e9NLbNoqbuqwjoHMgUzGs">
+        <correspAction xml:id="i-e9NLbNoqbuqwjoHMgUzGs" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XhEGBbrV9RpgyTSY2v6yy4">
+        <correspAction xml:id="i-XhEGBbrV9RpgyTSY2v6yy4" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4VjX6JePb6Xty9uosSi3Lu"/>
+        <correspAction xml:id="i-4VjX6JePb6Xty9uosSi3Lu" type="assigned"/>
         <correspContext corresp="i-4VjX6JePb6Xty9uosSi3Lu">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_K_0311/mot_200203_K_0311-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PL86uKS985FmK4vSzQQH62">
-        <div type="motTitle" xml:id="i-WGKxBUTbMCCb6Jf5bBQLhe"/>
-        <div type="motSubmissionInfo" xml:id="i-SgjQb3yKhqo1sNf4iy5Jcb"/>
+      <div xml:id="i-PL86uKS985FmK4vSzQQH62" type="motHeader">
+        <div xml:id="i-WGKxBUTbMCCb6Jf5bBQLhe" type="motTitle"/>
+        <div xml:id="i-SgjQb3yKhqo1sNf4iy5Jcb" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FDABn5i5r9s7D5nDV5SqAy">
+      <div xml:id="i-FDABn5i5r9s7D5nDV5SqAy" type="motBody">
         <div xml:id="i-Jj6ncAw2GGFPx6KSBKLQa9">
           <p xml:id="i-KSCoagec1owbf3oknTkmxm">
             2002/03 mnr: K311 pnr: fp139
@@ -153,9 +153,11 @@
             att uppnå detta är det emellertid inte nödvändigt att göra slut
             på ESO.
           </p>
-          <p xml:id="i-K8P6w8LKdK5zp6ZGNp2EgZ">
-            Stockholm den 22 oktober 2002 Bo Könberg (fp) Karin Pilsäter
-            (fp)
+          <p xml:id="i-K8P6w8LKdK5zp6ZGNp2EgZ" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-3zY8pFWLAmNJ5WEdn7LMPA">
+            Bo Könberg (fp) Karin Pilsäter (fp)
           </p>
         </div>
       </div>

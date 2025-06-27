@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00376">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-FJ3qAMd2ReYtDiK92hL27W"/>
           <note type="signatory" corresp="i-9x2nw6aosA3pyEJfJTc1eD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3fRTyhYFh6pQwbyKczAsAY">
+        <correspAction xml:id="i-3fRTyhYFh6pQwbyKczAsAY" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9fLxrj5LSaS6idWnR8VXio">
+        <correspAction xml:id="i-9fLxrj5LSaS6idWnR8VXio" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UsRAxfKwh84bkvqnupRgNP">
+        <correspAction xml:id="i-UsRAxfKwh84bkvqnupRgNP" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MxftH92JEq2BxNfLu5enGf"/>
+        <correspAction xml:id="i-MxftH92JEq2BxNfLu5enGf" type="assigned"/>
         <correspContext corresp="i-MxftH92JEq2BxNfLu5enGf">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_376/mot_200506_L_376-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RXq6MdYci6aawUS5ZMiaV6">
-        <div type="motTitle" xml:id="i-NmbKjrmDW2g3GhouqQBszm"/>
-        <div type="motSubmissionInfo" xml:id="i-BxJ8jCs9WHZEBnwfYKrrdC"/>
+      <div xml:id="i-RXq6MdYci6aawUS5ZMiaV6" type="motHeader">
+        <div xml:id="i-NmbKjrmDW2g3GhouqQBszm" type="motTitle"/>
+        <div xml:id="i-BxJ8jCs9WHZEBnwfYKrrdC" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9BQ3YmurEQiVRNDEGcjutd">
+      <div xml:id="i-9BQ3YmurEQiVRNDEGcjutd" type="motBody">
         <div xml:id="i-SYP4Se2pj9SYEqXBwnADz2">
           <p xml:id="i-ViWKuVmfTSRJRPR23WRGB3">
             2005/06 mnr: L376 pnr: mp703
@@ -246,8 +246,11 @@
             kan användning av resurser optimeras och erfarenheter och lösningar
             samordnas. Ovanstående förslag bör ges regeringen tillkänna.
           </p>
-          <p xml:id="i-S4k6KDXKnWZKhhaTRDLZbD">
-            Stockholm den 5 oktober 2005 Barbro Feltzing (mp) Ulf Holm (mp)
+          <p xml:id="i-S4k6KDXKnWZKhhaTRDLZbD" type="date">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-VxuguEEqrRiaN3h9tSWwvY">
+            Barbro Feltzing (mp) Ulf Holm (mp)
           </p>
         </div>
       </div>

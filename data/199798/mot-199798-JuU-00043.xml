@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-JuU-00043">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-4cqJPp6KE913P96Kfc7QxB</idno>
-            <name>Bengt Harding Olson </name>
+            <name>Bengt Harding Olson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-2c3QCfRZT1v7zi8WisWZP7"/>
+        <correspAction xml:id="i-2c3QCfRZT1v7zi8WisWZP7" type="basedOn"/>
         <correspContext corresp="i-2c3QCfRZT1v7zi8WisWZP7">
           <ref>Proposition 1997/98:97</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-4cqJPp6KE913P96Kfc7QxB"/>
           <note type="signatory" corresp="i-4cqJPp6KE913P96Kfc7QxB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4EK7RzVkeqsdayrAxiojW3">
+        <correspAction xml:id="i-4EK7RzVkeqsdayrAxiojW3" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SsjQJapF6xgtk3H7vyfJxY">
+        <correspAction xml:id="i-SsjQJapF6xgtk3H7vyfJxY" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7UGLkeE54y3T9EcBrcdKvi">
+        <correspAction xml:id="i-7UGLkeE54y3T9EcBrcdKvi" type="submission">
           <date when="1998-04-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-EAANRsnNeCGcZcf1CerwzC">
+        <correspAction xml:id="i-EAANRsnNeCGcZcf1CerwzC" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LBY4Vnymy4TbNRuyGXV5ZQ">
+        <correspAction xml:id="i-LBY4Vnymy4TbNRuyGXV5ZQ" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-YX16HbRuZmczKz4SBdPRZV">
+        <correspAction xml:id="i-YX16HbRuZmczKz4SBdPRZV" type="submission">
           <date when="1998-04-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CGTjfgLqVYFYHK3M5M1JxJ"/>
+        <correspAction xml:id="i-CGTjfgLqVYFYHK3M5M1JxJ" type="assigned"/>
         <correspContext corresp="i-CGTjfgLqVYFYHK3M5M1JxJ">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_JU_0043/mot_199798_JU_0043-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4EREfDq62tGruGKEzh7npg">
-        <div type="motTitle" xml:id="i-3ELq6r1KRU9ASkFC4AV5yF"/>
-        <div type="motSubmissionInfo" xml:id="i-GzUewbJ7ztkgHBLayyYyqG"/>
+      <div xml:id="i-4EREfDq62tGruGKEzh7npg" type="motHeader">
+        <div xml:id="i-3ELq6r1KRU9ASkFC4AV5yF" type="motTitle"/>
+        <div xml:id="i-GzUewbJ7ztkgHBLayyYyqG" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FvhbmQHBBh6HCbnT2SRfre">
+      <div xml:id="i-FvhbmQHBBh6HCbnT2SRfre" type="motBody">
         <div xml:id="i-LMUgqxgznNrXY5i5a1qmAb">
           <p xml:id="i-E5tLACViABt13L9EZPDSiV">
             1997/98 Ju43 Ju42—50
@@ -262,8 +262,11 @@
             till känna vad i motionen anförts om medborgerlig insyn i polisregistren.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_JU_0043/mot_199798_JU_0043-0004.pdf"/>
-          <p xml:id="i-MDBp2kLbSi8uCUJ2ip8XyQ">
-            Stockholm den 2 april 1998 Mot.
+          <p xml:id="i-MDBp2kLbSi8uCUJ2ip8XyQ" type="date">
+            Stockholm den 2 april 1998
+          </p>
+          <p type="signatureBlock" id="i-41hmPXoet6W3WzYc7VfNTR">
+            Mot.
           </p>
           <p xml:id="i-66edw6KJ595R4kvnbGGU8C">
             1997/98Ju43 Bengt Harding Olson (fp)

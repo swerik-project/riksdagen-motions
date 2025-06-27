@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-TU-00016">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-FrizKF8qiYUeCD64QhzzFt</idno>
-            <name>Olof Johansson </name>
+            <name>Olof Johansson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-8KGHHqnCbosJuiWXSVH5vU</idno>
-            <name>Andreas Carlgren </name>
+            <name>Andreas Carlgren</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-GSfuaZB2iKY7EQ9cNr63sp</idno>
-            <name>Lennart Daléus </name>
+            <name>Lennart Daléus</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-78xU8sxery4wJhGbJmpu3M"/>
+        <correspAction xml:id="i-78xU8sxery4wJhGbJmpu3M" type="basedOn"/>
         <correspContext corresp="i-78xU8sxery4wJhGbJmpu3M">
           <ref>Proposition 1997/98:123</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-8KGHHqnCbosJuiWXSVH5vU"/>
           <note type="signatory" corresp="i-GSfuaZB2iKY7EQ9cNr63sp"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AtKvPL17tU1XWoAy2nKvcw">
+        <correspAction xml:id="i-AtKvPL17tU1XWoAy2nKvcw" type="referral">
           <date when="1998-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9wP5PpiPCEDvh6Ec44jN4">
+        <correspAction xml:id="i-9wP5PpiPCEDvh6Ec44jN4" type="dismissal">
           <date when="1998-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-T4wYozcegvATqKHFEwoHRG">
+        <correspAction xml:id="i-T4wYozcegvATqKHFEwoHRG" type="submission">
           <date when="1998-03-17"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-UJ8Hqsmo22BeXsLWmqfz5A">
+        <correspAction xml:id="i-UJ8Hqsmo22BeXsLWmqfz5A" type="referral">
           <date when="1998-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Jv9UYjbZwrzhJo3UXAUXdF">
+        <correspAction xml:id="i-Jv9UYjbZwrzhJo3UXAUXdF" type="dismissal">
           <date when="1998-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CLon9J4SWJguT3ypkJE9wv">
+        <correspAction xml:id="i-CLon9J4SWJguT3ypkJE9wv" type="submission">
           <date when="1998-03-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JeBdTYUafA42ruQqmHXL71"/>
+        <correspAction xml:id="i-JeBdTYUafA42ruQqmHXL71" type="assigned"/>
         <correspContext corresp="i-JeBdTYUafA42ruQqmHXL71">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_T_0016/mot_199798_T_0016-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KujW3uKbBNUea6b4XH1DgW">
-        <div type="motTitle" xml:id="i-Dtfzuk6bYihTV8BdV416C1"/>
-        <div type="motSubmissionInfo" xml:id="i-K4WpL4bVyh4XkxsL38SfG3"/>
+      <div xml:id="i-KujW3uKbBNUea6b4XH1DgW" type="motHeader">
+        <div xml:id="i-Dtfzuk6bYihTV8BdV416C1" type="motTitle"/>
+        <div xml:id="i-K4WpL4bVyh4XkxsL38SfG3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Vw7Xaw3NaDXhQJvRfDkMP5">
+      <div xml:id="i-Vw7Xaw3NaDXhQJvRfDkMP5" type="motBody">
         <div xml:id="i-34x3sTnz9wSfLJBEp2QwMB">
           <p xml:id="i-RYaSonoDUmNckAq5pyKwtA">
             1997/98 T16 T12-19
@@ -300,7 +300,12 @@
           <p xml:id="i-WxLJWADA1KK7HJdqRVrBSd">
             för Riksgäldskontoret att teckna statlig borgen för Södra länken,
             5. — att riksdagen som sin mening ger regeringen till känna vad
-            i motionen anförts om miljöavgifter. Stockholm den 17 mars 1998
+            i motionen anförts om miljöavgifter.
+          </p>
+          <p type="date" id="i-VgisSuxTFgHarqMQ4VM8W9">
+            Stockholm den 17 mars 1998
+          </p>
+          <p type="signatureBlock" id="i-CALqzu9ffxc2UoZgGLnZog">
             Olof Johansson (c)
           </p>
           <p xml:id="i-ULN41shpz8kXwaJtd3DtTL">

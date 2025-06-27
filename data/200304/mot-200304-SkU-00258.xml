@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00258">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-GM53atqq68Md8wrXvoiByU">
           <note type="signatory" corresp="i-RCNVVc6jFAU8YPdr6sW8jH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VzKfEAcDzF294RcX5iMJzv">
+        <correspAction xml:id="i-VzKfEAcDzF294RcX5iMJzv" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GWyHQCuQuxhsVipzpwissY">
+        <correspAction xml:id="i-GWyHQCuQuxhsVipzpwissY" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WEzgLd7nX3voQjjED3vUjQ">
+        <correspAction xml:id="i-WEzgLd7nX3voQjjED3vUjQ" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Kht4mtctcejrErH4oVXhPn"/>
+        <correspAction xml:id="i-Kht4mtctcejrErH4oVXhPn" type="assigned"/>
         <correspContext corresp="i-Kht4mtctcejrErH4oVXhPn">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0258/mot_200304_Sk_0258-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JQscwxu686jydSJBfLV1BM">
-        <div type="motTitle" xml:id="i-KMdEiP3QnqBcD5PWrqJftA"/>
-        <div type="motSubmissionInfo" xml:id="i-GK7K2Z6zc8N85egesQkryY"/>
+      <div xml:id="i-JQscwxu686jydSJBfLV1BM" type="motHeader">
+        <div xml:id="i-KMdEiP3QnqBcD5PWrqJftA" type="motTitle"/>
+        <div xml:id="i-GK7K2Z6zc8N85egesQkryY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-W5wZYoiECpBJiAnS82DZek">
+      <div xml:id="i-W5wZYoiECpBJiAnS82DZek" type="motBody">
         <div xml:id="i-Ttv5briHV98VC7rTp4p6uV">
           <p xml:id="i-E7eUFszxKrJkHn5nmauC7k">
             2003/04 mnr: Sk258 pnr: m1318
@@ -133,8 +133,11 @@
             människan eller familjen är så viktigt att det över huvud taget
             inte skall beskattas med en särskild fastighetsskatt.
           </p>
-          <p xml:id="i-LcByEtBbm8KkAYpBpcTiRf">
-            Stockholm den 30 september 2003 Stefan Hagfeldt (m)
+          <p xml:id="i-LcByEtBbm8KkAYpBpcTiRf" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-7zfrHXvQM17PnmfcmvwaqW">
+            Stefan Hagfeldt (m)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00316">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-WnW9eL5RJZRUYFQXgjBBbD">
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XL9tHGowU7QYcvAoUcy9G2">
+        <correspAction xml:id="i-XL9tHGowU7QYcvAoUcy9G2" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-C3FRw46NejUxYeakJ8UxnU">
+        <correspAction xml:id="i-C3FRw46NejUxYeakJ8UxnU" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TELvGkL8T8HB3n1pW1oFMx">
+        <correspAction xml:id="i-TELvGkL8T8HB3n1pW1oFMx" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DBJBzA3AVq3xC2pnRe1jxR"/>
+        <correspAction xml:id="i-DBJBzA3AVq3xC2pnRe1jxR" type="assigned"/>
         <correspContext corresp="i-DBJBzA3AVq3xC2pnRe1jxR">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_MJ_0316/mot_200304_MJ_0316-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4baDeU4LTFnUhaGVRsYVXB">
-        <div type="motTitle" xml:id="i-5yMN95YZvr55uAfEDmdmce"/>
-        <div type="motSubmissionInfo" xml:id="i-D8dGLBZf6SKQ5KezMrcjzY"/>
+      <div xml:id="i-4baDeU4LTFnUhaGVRsYVXB" type="motHeader">
+        <div xml:id="i-5yMN95YZvr55uAfEDmdmce" type="motTitle"/>
+        <div xml:id="i-D8dGLBZf6SKQ5KezMrcjzY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7GsxL5KDbyezEEMZFbMF4D">
+      <div xml:id="i-7GsxL5KDbyezEEMZFbMF4D" type="motBody">
         <div xml:id="i-GiLyoPgV4rv1ZUjfoXS9sc">
           <p xml:id="i-WMAShktS2ZfGJRTNcFiDiz">
             2003/04 mnr: MJ316 pnr: kd737
@@ -151,8 +151,11 @@
             belyses. Några av dessa frågor kan vara de som jag ovan anfört
             i min motion.
           </p>
-          <p xml:id="i-4jDaEP2HR669VW4XMC5zMQ">
-            Stockholm den 3 oktober 2003 Gunilla Tjernberg (kd)
+          <p xml:id="i-4jDaEP2HR669VW4XMC5zMQ" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-R2tg8oDJ37UB2D52ba1XZs">
+            Gunilla Tjernberg (kd)
           </p>
         </div>
       </div>

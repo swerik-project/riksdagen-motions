@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00402">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-PafCm7TdCP6LHXYYAGNJpi">
           <note type="signatory" corresp="i-KdNZEf7wb1MAJv58QEHYrr"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Hd1TUNJ9F23JYqvvM6bWyA">
+        <correspAction xml:id="i-Hd1TUNJ9F23JYqvvM6bWyA" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Guyx9ZLTzfVV7BbNXSLZQG">
+        <correspAction xml:id="i-Guyx9ZLTzfVV7BbNXSLZQG" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-56ZzCrPCMzpRXaiJQfGM7R">
+        <correspAction xml:id="i-56ZzCrPCMzpRXaiJQfGM7R" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4qpH7Ub3TctK1kH4v2uaKN"/>
+        <correspAction xml:id="i-4qpH7Ub3TctK1kH4v2uaKN" type="assigned"/>
         <correspContext corresp="i-4qpH7Ub3TctK1kH4v2uaKN">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_402/mot_200506_Ub_402-0001.pdf"/>
-      <div type="motHeader" xml:id="i-G9yK7oQuZvvo1khw1xUvgZ">
-        <div type="motTitle" xml:id="i-54pLFoM1etKYReKdDgXmV5"/>
-        <div type="motSubmissionInfo" xml:id="i-B6bzNU93iXXRGZxxBKmLzm"/>
+      <div xml:id="i-G9yK7oQuZvvo1khw1xUvgZ" type="motHeader">
+        <div xml:id="i-54pLFoM1etKYReKdDgXmV5" type="motTitle"/>
+        <div xml:id="i-B6bzNU93iXXRGZxxBKmLzm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GXmurYwUiMhxQzFPPawe1C">
+      <div xml:id="i-GXmurYwUiMhxQzFPPawe1C" type="motBody">
         <div xml:id="i-TAhMQaGQyrnocCsCBfwDEP">
           <p xml:id="i-ByP4DtuciAyfEaTLTMpRtv">
             2005/06 mnr: Ub402 pnr: m1652
@@ -188,8 +188,11 @@
             vara en av vägarna att få alla nödvändiga språk- och samhällskunskaper
             för en medborgarskapstest utan stora kostnader för statskassan.
           </p>
-          <p xml:id="i-YWnPHireSe6Te52qxrN2oL">
-            Stockholm den 4 oktober 2005 Göran Lindblad (m)
+          <p xml:id="i-YWnPHireSe6Te52qxrN2oL" type="date">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-EbLrYWS28BqniQFcTxpWnB">
+            Göran Lindblad (m)
           </p>
         </div>
       </div>

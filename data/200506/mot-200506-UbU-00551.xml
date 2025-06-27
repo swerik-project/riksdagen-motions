@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00551">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-XSoE59R8vSeGm31iRSvpAz"/>
           <note type="signatory" corresp="i-CYXB5gc8UwhvnW3jqhdnoq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-De1HAJdHYKFWMhJKPVqNAh">
+        <correspAction xml:id="i-De1HAJdHYKFWMhJKPVqNAh" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XWej5UaWtskydSiru9XE1Z">
+        <correspAction xml:id="i-XWej5UaWtskydSiru9XE1Z" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6C36PYy2BjQFBeeJ2h9C9v">
+        <correspAction xml:id="i-6C36PYy2BjQFBeeJ2h9C9v" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KMbWZTxAPnZ8bFFnfo8WZ3"/>
+        <correspAction xml:id="i-KMbWZTxAPnZ8bFFnfo8WZ3" type="assigned"/>
         <correspContext corresp="i-KMbWZTxAPnZ8bFFnfo8WZ3">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_551/mot_200506_Ub_551-0001.pdf"/>
-      <div type="motHeader" xml:id="i-896KejAbWguV2LxuadsGTz">
-        <div type="motTitle" xml:id="i-L1P2EpiG56WWxAQpNTBWDv"/>
-        <div type="motSubmissionInfo" xml:id="i-FzMQfDQACDRHf466FdngE4"/>
+      <div xml:id="i-896KejAbWguV2LxuadsGTz" type="motHeader">
+        <div xml:id="i-L1P2EpiG56WWxAQpNTBWDv" type="motTitle"/>
+        <div xml:id="i-FzMQfDQACDRHf466FdngE4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7PUy7iqp6GVCbxfjM6AMbd">
+      <div xml:id="i-7PUy7iqp6GVCbxfjM6AMbd" type="motBody">
         <div xml:id="i-WftwvCoNJ7C5qUXHWwuvD2">
           <p xml:id="i-RtiNVbXbtoFGUs6XWojFju">
             2005/06 mnr: Ub551 pnr: kd796
@@ -153,9 +153,11 @@
             viktigt att Sverige kraftsamlar för att skapa förutsättningar
             för en kraftfull introduktion av solvärme i den nationella energiförsörjningen.
           </p>
-          <p xml:id="i-M4QdBqLJPDv1a8BrdzYMq3">
-            Stockholm den 29 september 2005 Ulrik Lindgren (kd) Sven Gunnar
-            Persson (kd)
+          <p xml:id="i-M4QdBqLJPDv1a8BrdzYMq3" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-3BqA2gQgK1yb1fwwdV5ish">
+            Ulrik Lindgren (kd) Sven Gunnar Persson (kd)
           </p>
         </div>
       </div>

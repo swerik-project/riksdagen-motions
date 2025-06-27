@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00012">
   <teiHeader>
     <fileDesc>
@@ -63,7 +63,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FDrEtN6pwY8NcY3wfwXzwr"/>
+        <correspAction xml:id="i-FDrEtN6pwY8NcY3wfwXzwr" type="basedOn"/>
         <correspContext corresp="i-FDrEtN6pwY8NcY3wfwXzwr">
           <ref>Regeringsskrivelse 2005/06:53</ref>
         </correspContext>
@@ -75,19 +75,19 @@
           <note type="signatory" corresp="i-5CH7vHLGXLfDB5Tn7xx95V"/>
           <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3GbqtzeZ7K5pwt7jTyWdfc">
+        <correspAction xml:id="i-3GbqtzeZ7K5pwt7jTyWdfc" type="referral">
           <date when="2006-01-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WfYNd3qHqeBedTSSmbiDZx">
+        <correspAction xml:id="i-WfYNd3qHqeBedTSSmbiDZx" type="dismissal">
           <date when="2006-01-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Ac4oYpWpgYV4WTqPqcZtkX">
+        <correspAction xml:id="i-Ac4oYpWpgYV4WTqPqcZtkX" type="dismissal">
           <date when="2006-01-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-sPkwW53pu4UYyQBq6H4nv">
+        <correspAction xml:id="i-sPkwW53pu4UYyQBq6H4nv" type="submission">
           <date when="2006-01-20"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LfGoXeS1qvJjHsf8puuE92"/>
+        <correspAction xml:id="i-LfGoXeS1qvJjHsf8puuE92" type="assigned"/>
         <correspContext corresp="i-LfGoXeS1qvJjHsf8puuE92">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_12/mot_200506_Ju_12-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LCJtsr2HbFYzf5RLjcV1z9">
-        <div type="motTitle" xml:id="i-EJWw7mY53sjB3Aa9DvpA1N"/>
-        <div type="motSubmissionInfo" xml:id="i-67iZoGaNjZZncameCrfSkV"/>
+      <div xml:id="i-LCJtsr2HbFYzf5RLjcV1z9" type="motHeader">
+        <div xml:id="i-EJWw7mY53sjB3Aa9DvpA1N" type="motTitle"/>
+        <div xml:id="i-67iZoGaNjZZncameCrfSkV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7rJUnbe5iM69bXbfokB8ko">
+      <div xml:id="i-7rJUnbe5iM69bXbfokB8ko" type="motBody">
         <div xml:id="i-3hkJi7HGUwsdo6JS8CXy9y">
           <p xml:id="i-8A6a6AHS6C7XnKSKqNofM2">
             2005/06 mnr: Ju12 pnr: v008
@@ -224,8 +224,11 @@
             ombud att utöva sina uppdrag bör förbättras. Detta bör riksdagen
             som sin mening ge regeringen till känna.
           </p>
-          <p xml:id="i-CQBBneeds5She3urPzgnZ2">
-            Stockholm den 19 december 2005 Rolf Olsson (v)
+          <p xml:id="i-CQBBneeds5She3urPzgnZ2" type="date">
+            Stockholm den 19 december 2005
+          </p>
+          <p type="signatureBlock" id="i-9P2w9WsH4y2sdrkTz3JrUu">
+            Rolf Olsson (v)
           </p>
           <p xml:id="i-EGBniuVRbkr5RsFWQ57C7p">
             Rossana Dinamarca (v) Mats Einarsson (v) Siv Holma (v) Tasso

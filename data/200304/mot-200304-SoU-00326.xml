@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00326">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-ECLJYXkFMXoWm7AeeZ5rd2">
           <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JX5c3gcV1f3fWuswUUv25n">
+        <correspAction xml:id="i-JX5c3gcV1f3fWuswUUv25n" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LPaHBkgctbiPoVPa6N2NPt">
+        <correspAction xml:id="i-LPaHBkgctbiPoVPa6N2NPt" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GXa6zRa4hhvyGJSYfjmJuT">
+        <correspAction xml:id="i-GXa6zRa4hhvyGJSYfjmJuT" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XRybV8xwsYdp4vfsTWFTDa"/>
+        <correspAction xml:id="i-XRybV8xwsYdp4vfsTWFTDa" type="assigned"/>
         <correspContext corresp="i-XRybV8xwsYdp4vfsTWFTDa">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0326/mot_200304_So_0326-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UnUfmK4m8rAyNUUksQLfh5">
-        <div type="motTitle" xml:id="i-S1Y8GJ2Ds4LieRCCeiAbjX"/>
-        <div type="motSubmissionInfo" xml:id="i-6osTVE2x32ugtrLAAQGrFU"/>
+      <div xml:id="i-UnUfmK4m8rAyNUUksQLfh5" type="motHeader">
+        <div xml:id="i-S1Y8GJ2Ds4LieRCCeiAbjX" type="motTitle"/>
+        <div xml:id="i-6osTVE2x32ugtrLAAQGrFU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3fnsAkyX9Qnufr8F3VFPo2">
+      <div xml:id="i-3fnsAkyX9Qnufr8F3VFPo2" type="motBody">
         <div xml:id="i-GH6aKKhFVNe9ZAtM57FaYa">
           <p xml:id="i-8ryNr7yiR6fdLtXWmN6T4e">
             2003/04 mnr: S0326 pnr: m1384
@@ -238,8 +238,11 @@
             adopterade = behöver, t.ex. genom de = regionala center som adoptionsutredningen
             föreslår.
           </p>
-          <p xml:id="i-7LKtXYGSqcR928K9GZoB41">
-            Stockholm den 1 oktober 2003 Sten Tolgfors (m)
+          <p xml:id="i-7LKtXYGSqcR928K9GZoB41" type="date">
+            Stockholm den 1 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-8F7WUpmjYdHKum76KuJAau">
+            Sten Tolgfors (m)
           </p>
         </div>
       </div>

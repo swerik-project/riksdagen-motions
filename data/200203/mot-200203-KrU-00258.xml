@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KrU-00258">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-N18WkFwpuyjmYL6Py4H4uD">
           <note type="signatory" corresp="i-Ga4FaAaNvVxH6nfoR7FVAe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9KZ3MGYHp1JU4iuPfscjnz">
+        <correspAction xml:id="i-9KZ3MGYHp1JU4iuPfscjnz" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9813zjv4y8XAtic5wpC4WQ">
+        <correspAction xml:id="i-9813zjv4y8XAtic5wpC4WQ" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ArPx4HnKUa1nwSZxmqA9Qh">
+        <correspAction xml:id="i-ArPx4HnKUa1nwSZxmqA9Qh" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4s7q7zYJm1evXHJ1G746M5"/>
+        <correspAction xml:id="i-4s7q7zYJm1evXHJ1G746M5" type="assigned"/>
         <correspContext corresp="i-4s7q7zYJm1evXHJ1G746M5">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Kr_0258/mot_200203_Kr_0258-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4sNcZbxgFt2yiq9X4aLLN4">
-        <div type="motTitle" xml:id="i-13FJQwwsy8uGYJgJ5TQzye"/>
-        <div type="motSubmissionInfo" xml:id="i-6o5k3M3J3VHtvcCUFxBKkC"/>
+      <div xml:id="i-4sNcZbxgFt2yiq9X4aLLN4" type="motHeader">
+        <div xml:id="i-13FJQwwsy8uGYJgJ5TQzye" type="motTitle"/>
+        <div xml:id="i-6o5k3M3J3VHtvcCUFxBKkC" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WDSuXz6wMyVgtTJvjXxAgD">
+      <div xml:id="i-WDSuXz6wMyVgtTJvjXxAgD" type="motBody">
         <div xml:id="i-JjMrrw4zLa95yCanZpdHsr">
           <p xml:id="i-8Tk1xgQyV7XZZgbT3HhfMm">
             2002/03 mnr: Kr258 pnr: fp719
@@ -143,8 +143,11 @@
             vars uppgift skall vara att initiera och där så är lämpligt samordna
             aktiviteter kring Carl von Linnés trehundrade födelsedag.
           </p>
-          <p xml:id="i-4sdNoTkzeWPxzeJ9K9egNP">
-            Stockholm den 21 oktober 2002 Gunnar Nordmark (fp)
+          <p xml:id="i-4sdNoTkzeWPxzeJ9K9egNP" type="date">
+            Stockholm den 21 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-WNS3kKYmgtsSMmwehPmR8w">
+            Gunnar Nordmark (fp)
           </p>
         </div>
       </div>

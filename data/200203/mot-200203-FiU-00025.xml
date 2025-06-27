@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FiU-00025">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-4HcYHrVA9kFEWCbsp41dJA"/>
+        <correspAction xml:id="i-4HcYHrVA9kFEWCbsp41dJA" type="basedOn"/>
         <correspContext corresp="i-4HcYHrVA9kFEWCbsp41dJA">
           <ref>Regeringsskrivelse 2002/03:102</ref>
         </correspContext>
@@ -90,16 +90,16 @@
           <note type="signatory" corresp="i-KtELEJ9HytY7HFgQExEzLq"/>
           <note type="signatory" corresp="i-XxqQtZTdHUTphXEbUJ35Ss"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FZnwkV1eY28qyhF1UVA6CX">
+        <correspAction xml:id="i-FZnwkV1eY28qyhF1UVA6CX" type="referral">
           <date when="2003-05-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XcQboc9bFxakEC4EitrXLm">
+        <correspAction xml:id="i-XcQboc9bFxakEC4EitrXLm" type="dismissal">
           <date when="2003-05-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6KLxQhNJep3kf3BVrsLC8P">
+        <correspAction xml:id="i-6KLxQhNJep3kf3BVrsLC8P" type="submission">
           <date when="2003-05-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Dcnz7i2QCQkBqEhqCdZTmn"/>
+        <correspAction xml:id="i-Dcnz7i2QCQkBqEhqCdZTmn" type="assigned"/>
         <correspContext corresp="i-Dcnz7i2QCQkBqEhqCdZTmn">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -114,11 +114,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fi_0025/mot_200203_Fi_0025-0001.pdf"/>
-      <div type="motHeader" xml:id="i-WBLrBPYSdW1VRqHhLqC99E">
-        <div type="motTitle" xml:id="i-3NM8ReqcHK9qfLcDoTTaWM"/>
-        <div type="motSubmissionInfo" xml:id="i-DcSDeoR8qRFj2zypA5koXL"/>
+      <div xml:id="i-WBLrBPYSdW1VRqHhLqC99E" type="motHeader">
+        <div xml:id="i-3NM8ReqcHK9qfLcDoTTaWM" type="motTitle"/>
+        <div xml:id="i-DcSDeoR8qRFj2zypA5koXL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LriV3fow5KSe3JWdWKPTbR">
+      <div xml:id="i-LriV3fow5KSe3JWdWKPTbR" type="motBody">
         <div xml:id="i-DW3Wh6g4XVuB3innd56bF8">
           <p xml:id="i-EGvcTm7CfgoU98UuyfyhMd">
             2002/03
@@ -610,9 +610,11 @@
             än idag ta till vara på sina utvecklingsmöjligheter. Riksdagen
             bör ge regeringen till känna att regionernas självbestämmande,
             inflytande och delaktighet bör öka såväl i Sverige som inom EU.
+          </p>
+          <p type="date" id="i-5MrmQgqFEvgTzZvRnLxwZJ">
             Stockholm den 5 maj 2003
           </p>
-          <p xml:id="i-CQdCkJPEMXAptwT8To5JJ8">
+          <p xml:id="i-CQdCkJPEMXAptwT8To5JJ8" type="signatureBlock">
             Lena Ek (c) Jörgen Johansson (c) Sven Bergström (c) Roger Karlsson
             (c) Håkan Larsson (c) Rigmor Stenmark (c) Åsa Torstensson (c)
           </p>

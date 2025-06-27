@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00227">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
           <note type="signatory" corresp="i-UdGnyRLxFm6LiCDBYWE7MV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-V7jRBJwETmPfAegkh5AVy">
+        <correspAction xml:id="i-V7jRBJwETmPfAegkh5AVy" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AkpRz8geVj7Lq8WHdih88V">
+        <correspAction xml:id="i-AkpRz8geVj7Lq8WHdih88V" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7BMkH37YjUHUedZP1ra6az">
+        <correspAction xml:id="i-7BMkH37YjUHUedZP1ra6az" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7EBaU5guo4Enxa67LbRiFz"/>
+        <correspAction xml:id="i-7EBaU5guo4Enxa67LbRiFz" type="assigned"/>
         <correspContext corresp="i-7EBaU5guo4Enxa67LbRiFz">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ju_0227/mot_200304_Ju_0227-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Ee2ThAWNVa7uEr61KjAMgo">
-        <div type="motTitle" xml:id="i-8y6SXWHw4hdN9kJhDTwAv2"/>
-        <div type="motSubmissionInfo" xml:id="i-332acuAS5tM77PRSeovjqB"/>
+      <div xml:id="i-Ee2ThAWNVa7uEr61KjAMgo" type="motHeader">
+        <div xml:id="i-8y6SXWHw4hdN9kJhDTwAv2" type="motTitle"/>
+        <div xml:id="i-332acuAS5tM77PRSeovjqB" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UQn3quYRtTdiks1yrcHGHR">
+      <div xml:id="i-UQn3quYRtTdiks1yrcHGHR" type="motBody">
         <div xml:id="i-9jZ9LKCRP7CAMGioC6a6SR">
           <p xml:id="i-JWck5W1ZVMNzNUowmRNiBJ">
             2003/04 mnr: Ju227 pnr: m1110
@@ -131,9 +131,11 @@
             Vår uppfattning är att det krävs en revidering och konkretisering
             av elfte kapitlet.
           </p>
-          <p xml:id="i-PUv5Y6Fh9SknSKPKXNoeTp">
-            Stockholm den 23 september 2003 Ulf Sjösten (m) Bertil Kjellberg
-            (m)
+          <p xml:id="i-PUv5Y6Fh9SknSKPKXNoeTp" type="date">
+            Stockholm den 23 september 2003
+          </p>
+          <p type="signatureBlock" id="i-JgXQdSgZ9a5PJucog9fjAz">
+            Ulf Sjösten (m) Bertil Kjellberg (m)
           </p>
         </div>
       </div>

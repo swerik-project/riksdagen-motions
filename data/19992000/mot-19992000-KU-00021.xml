@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-KU-00021">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="woman">
             <idno>i-CwVjNqMneZm6zhJTP798e5</idno>
-            <name>Helena Bargholtz </name>
+            <name>Helena Bargholtz</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-PyYxwdbw2KYpXyCWKWHmmT</idno>
-            <name>Johan Pehrson </name>
+            <name>Johan Pehrson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-JZKa6caqdSKy8yhUyfEJeU</idno>
-            <name>Bo Könberg </name>
+            <name>Bo Könberg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-AAV4LmQxBJKUfjitJU8JSp"/>
+        <correspAction xml:id="i-AAV4LmQxBJKUfjitJU8JSp" type="basedOn"/>
         <correspContext corresp="i-AAV4LmQxBJKUfjitJU8JSp">
           <ref>Proposition 1999/2000:35</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-JZKa6caqdSKy8yhUyfEJeU"/>
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-A7hSrC3C4Rur27S7A2Kd8g">
+        <correspAction xml:id="i-A7hSrC3C4Rur27S7A2Kd8g" type="referral">
           <date when="2000-01-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-L6nCHZwJ5Xmk6U856TgjJk">
+        <correspAction xml:id="i-L6nCHZwJ5Xmk6U856TgjJk" type="dismissal">
           <date when="2000-01-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ApBqxXTZRcaoRBLAL4TmCD">
+        <correspAction xml:id="i-ApBqxXTZRcaoRBLAL4TmCD" type="submission">
           <date when="2000-01-21"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-2w7GX7QFQdZQMPputFpRAg">
+        <correspAction xml:id="i-2w7GX7QFQdZQMPputFpRAg" type="referral">
           <date when="2000-01-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DRmtY47tfNjT5xcQe4895e">
+        <correspAction xml:id="i-DRmtY47tfNjT5xcQe4895e" type="dismissal">
           <date when="2000-01-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DMUh4fbJDzhUrgKETmmBTp">
+        <correspAction xml:id="i-DMUh4fbJDzhUrgKETmmBTp" type="submission">
           <date when="2000-01-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LmuhdQLgLKJsMUPWQiPFWs"/>
+        <correspAction xml:id="i-LmuhdQLgLKJsMUPWQiPFWs" type="assigned"/>
         <correspContext corresp="i-LmuhdQLgLKJsMUPWQiPFWs">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_K_0021/mot_199900_K_0021-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Tss5heJVsBTcQAQVRuvh1a">
-        <div type="motTitle" xml:id="i-Tn1pJM1mSgurFaeJckP7sE"/>
-        <div type="motSubmissionInfo" xml:id="i-Q54zRsVZAXLrHT99vRZ1Cg"/>
+      <div xml:id="i-Tss5heJVsBTcQAQVRuvh1a" type="motHeader">
+        <div xml:id="i-Tn1pJM1mSgurFaeJckP7sE" type="motTitle"/>
+        <div xml:id="i-Q54zRsVZAXLrHT99vRZ1Cg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-U2y5FZPQampJD1a96c1TQF">
+      <div xml:id="i-U2y5FZPQampJD1a96c1TQF" type="motBody">
         <div xml:id="i-BwNSm4EfW6ciMMsoaD37Wg">
           <p xml:id="i-CpwvDf4mJxHqAiUX9Nq1Ab">
             1999/2000 mnr: K21 pnr: fp1123
@@ -301,8 +301,13 @@
             3. att riksdagen beslutar att punkt 1 övergångsbestämmelsen till
             1999/2000 förslag till lag om ändring i sekretesslagen (1980:100)
             skall ha K21 följande lydelse: Denna lag träder i kraft den 1
-            april 2000 och gäller till utgången av maj år 2002. Stockholm
-            den 21 januari 2000 Helena Bargholtz (fp)
+            april 2000 och gäller till utgången av maj år 2002.
+          </p>
+          <p type="date" id="i-W5A9sjLvZfTwDkhGgX1qtp">
+            Stockholm den 21 januari 2000
+          </p>
+          <p type="signatureBlock" id="i-EaKrM7mcC22VC7CLV5NRUn">
+            Helena Bargholtz (fp)
           </p>
           <p xml:id="i-5DCoqm1kjR86qCXpkLPf2m">
             Johan Pehrson (fp) Bo Könberg (fp)

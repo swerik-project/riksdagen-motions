@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-LU-00300">
   <teiHeader>
     <fileDesc>
@@ -94,16 +94,16 @@
           <note type="signatory" corresp="i-SxwXtVqzR6fyXB2uQfozAQ"/>
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Ph2cM1byPfizMPxpGbGWn7">
+        <correspAction xml:id="i-Ph2cM1byPfizMPxpGbGWn7" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8FuUiXEVXjHkEnjrPJQn55">
+        <correspAction xml:id="i-8FuUiXEVXjHkEnjrPJQn55" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8RTEp42ViD4YAsxJrEuAWA">
+        <correspAction xml:id="i-8RTEp42ViD4YAsxJrEuAWA" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VXdr6hzgECVgm9bQJPU1En"/>
+        <correspAction xml:id="i-VXdr6hzgECVgm9bQJPU1En" type="assigned"/>
         <correspContext corresp="i-VXdr6hzgECVgm9bQJPU1En">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -119,11 +119,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_L_300/mot_200405_L_300-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_L_300/mot_200405_L_300-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FrTutukPveHsa28M3zQHtN">
-        <div type="motTitle" xml:id="i-AjJpb2R14vwBpbFeFRsVLp"/>
-        <div type="motSubmissionInfo" xml:id="i-7QWccvggem9DUm1hBmGFR3"/>
+      <div xml:id="i-FrTutukPveHsa28M3zQHtN" type="motHeader">
+        <div xml:id="i-AjJpb2R14vwBpbFeFRsVLp" type="motTitle"/>
+        <div xml:id="i-7QWccvggem9DUm1hBmGFR3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6BWY74kff1YhNCvZPs4D4R">
+      <div xml:id="i-6BWY74kff1YhNCvZPs4D4R" type="motBody">
         <div xml:id="i-9SnoFVkzGuPqYy2z5RY2G7">
           <p xml:id="i-Y1GUwC5iZob1i6gz6t3nnK">
             2004/05 mnr: L300 pnr: v824
@@ -263,8 +263,11 @@
             som innebär skyldighet för föräldrarna till ett barn som tillkommit
             genom assisterad befruktning att upplysa barnet om dess ursprung.
           </p>
-          <p xml:id="i-Tx8gqvcTVrqLGQN52gCNxx">
-            Stockholm den 29 september 2004 Tasso Stafilidis (v)
+          <p xml:id="i-Tx8gqvcTVrqLGQN52gCNxx" type="date">
+            Stockholm den 29 september 2004
+          </p>
+          <p type="signatureBlock" id="i-WiDNDHvGJmLEv2dqHZqfRo">
+            Tasso Stafilidis (v)
           </p>
           <p xml:id="i-pvnAsKLFvQ49Dp6K3ARgM">
             Rossana Dinamarca (v) Mats Einarsson (v) Siv Holma (v) Rolf Olsson

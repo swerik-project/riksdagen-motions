@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-JoU-00268">
   <teiHeader>
     <fileDesc>
@@ -61,35 +61,35 @@
           </person>
           <person gender="man">
             <idno>i-NJ3F1x3TAusoKGWhKxXUFd</idno>
-            <name>Bengt Rosén </name>
+            <name>Bengt Rosén</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-SohYLAuWsbMU8CyYucDha1</idno>
-            <name>Håkan Holmberg </name>
+            <name>Håkan Holmberg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-X1ToJn6x8wK4Am2pyYt2KG</idno>
-            <name>Sören Norrby </name>
+            <name>Sören Norrby</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-428Hjmwgi7AWPWkBr4Pecy</idno>
-            <name>Lars Ernestam </name>
+            <name>Lars Ernestam</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-LcHg3CseAmhLp3X8gZn1ax</idno>
-            <name>Anders Castberger </name>
+            <name>Anders Castberger</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -110,25 +110,25 @@
           <note type="signatory" corresp="i-428Hjmwgi7AWPWkBr4Pecy"/>
           <note type="signatory" corresp="i-LcHg3CseAmhLp3X8gZn1ax"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WzficuyPDVEem7dNtULJ4h">
+        <correspAction xml:id="i-WzficuyPDVEem7dNtULJ4h" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2CJgdLBe5R78D4eSNRaP2i">
+        <correspAction xml:id="i-2CJgdLBe5R78D4eSNRaP2i" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6ySDzkbQMXFbjhYUrhb6bq">
+        <correspAction xml:id="i-6ySDzkbQMXFbjhYUrhb6bq" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-VUFwJKuPLRnV8EqDoVGAc1">
+        <correspAction xml:id="i-VUFwJKuPLRnV8EqDoVGAc1" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AqccQnzYrZKmKvbu5iigFq">
+        <correspAction xml:id="i-AqccQnzYrZKmKvbu5iigFq" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-X21yWkryZtHRsm3awK7JxA">
+        <correspAction xml:id="i-X21yWkryZtHRsm3awK7JxA" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DZYp53X1uFgWR1Z9zP62P1"/>
+        <correspAction xml:id="i-DZYp53X1uFgWR1Z9zP62P1" type="assigned"/>
         <correspContext corresp="i-DZYp53X1uFgWR1Z9zP62P1">
           <ref type="assignedTo">Jordbruksutskottet</ref>
         </correspContext>
@@ -141,11 +141,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_JoU_268/mot_199091_JoU_268-001.pdf"/>
-      <div type="motHeader" xml:id="i-9ewS8xQHHURJb6zSdasBiA">
-        <div type="motTitle" xml:id="i-FpnxH6igQ6jz1Jnyjj83Eg"/>
-        <div type="motSubmissionInfo" xml:id="i-NbHynEe5Ap6JwG4dZJtVUR"/>
+      <div xml:id="i-9ewS8xQHHURJb6zSdasBiA" type="motHeader">
+        <div xml:id="i-FpnxH6igQ6jz1Jnyjj83Eg" type="motTitle"/>
+        <div xml:id="i-NbHynEe5Ap6JwG4dZJtVUR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ALZMiuziKNbjruWJQ3Zouw">
+      <div xml:id="i-ALZMiuziKNbjruWJQ3Zouw" type="motBody">
         <div xml:id="i-QbsS8QBxteLEtqJGfkpSh">
           <p xml:id="i-PBqciRPj2dVJBoEBiud12C">
             Motion till riksdagen
@@ -752,8 +752,12 @@
             grupp med uppdrag att utforma förslag till en generell arealersättning,
             4. att riksdagen hos regeringen begär förslag till ändring av
             jordför- värvslagen så att fysiska personer undantas från tillståndsplikt.
-            Stockholm den 24 januari 1991 Bengt Rosén (fp) Sören Norrby (fp)
-            Håkan Holmberg (fp)
+          </p>
+          <p type="date" id="i-7RY1ghARE8TwWByjAXu2X5">
+            Stockholm den 24 januari 1991
+          </p>
+          <p type="signatureBlock" id="i-NwFJerdLfHD4VKH9jzNE8R">
+            Bengt Rosén (fp) Sören Norrby (fp) Håkan Holmberg (fp)
           </p>
           <p xml:id="i-TbfGyFaf4xB8qmrHzvNmMF">
             Anders Castberger (fp) Lars Ernestam (fp)

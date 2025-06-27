@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00487">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-EFJ93MgPh6dJrzDB1Tt657"/>
           <note type="signatory" corresp="i-839FvTzHpvrdX4J7ckfWSt"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GUDPT1zZhebnzFZNaEE5rK">
+        <correspAction xml:id="i-GUDPT1zZhebnzFZNaEE5rK" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XABEDLZxMZdxL7e8GTKeYp">
+        <correspAction xml:id="i-XABEDLZxMZdxL7e8GTKeYp" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2GcFXv9P7RwGNTSShDKohN">
+        <correspAction xml:id="i-2GcFXv9P7RwGNTSShDKohN" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-F36uYxhkxaj17bbbPAnVv5"/>
+        <correspAction xml:id="i-F36uYxhkxaj17bbbPAnVv5" type="assigned"/>
         <correspContext corresp="i-F36uYxhkxaj17bbbPAnVv5">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_487/mot_200506_Ub_487-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Qv3kpM7721xGdoEb6xh2ST">
-        <div type="motTitle" xml:id="i-M2TGiaJjzvW1wR61fpmAoc"/>
-        <div type="motSubmissionInfo" xml:id="i-NoP1U48V5qNuD4j2PnZFYS"/>
+      <div xml:id="i-Qv3kpM7721xGdoEb6xh2ST" type="motHeader">
+        <div xml:id="i-M2TGiaJjzvW1wR61fpmAoc" type="motTitle"/>
+        <div xml:id="i-NoP1U48V5qNuD4j2PnZFYS" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-47wbyHdhAUe2hf8MMJXZ3i">
+      <div xml:id="i-47wbyHdhAUe2hf8MMJXZ3i" type="motBody">
         <div xml:id="i-EPbV65LnCVm51TbHErcTUY">
           <p xml:id="i-9oBqToZc4yYx21jTgj5TDh">
             2005/06 mnr: Ub487 pnr: kd870
@@ -148,9 +148,11 @@
             bör därför ges till känna vikten av att Ersta Sköndal högskola
             erhåller forskningsanslag.
           </p>
-          <p xml:id="i-2hdPwevnctY34U1gFoYzpK">
-            Stockholm den 5 oktober 2005 Yvonne Andersson (kd) Sven Brus
-            (kd)
+          <p xml:id="i-2hdPwevnctY34U1gFoYzpK" type="date">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-TvWxHjzaSysWKnx2cRZbkY">
+            Yvonne Andersson (kd) Sven Brus (kd)
           </p>
         </div>
       </div>

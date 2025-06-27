@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00538">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-28Bhq7Sf7VKKYBrQ2k3sTc">
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4hEUTQTUq2yWAHQibPKCJ8">
+        <correspAction xml:id="i-4hEUTQTUq2yWAHQibPKCJ8" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QZfrgaNQDkeuLofemR38ia">
+        <correspAction xml:id="i-QZfrgaNQDkeuLofemR38ia" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Kagtu1GAmLZhUJYhcTjrES">
+        <correspAction xml:id="i-Kagtu1GAmLZhUJYhcTjrES" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MhcEYXigcRiDeFNZphdPPA"/>
+        <correspAction xml:id="i-MhcEYXigcRiDeFNZphdPPA" type="assigned"/>
         <correspContext corresp="i-MhcEYXigcRiDeFNZphdPPA">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0538/mot_200304_T_0538-0001.pdf"/>
-      <div type="motHeader" xml:id="i-K3wf3J5ju21T7v7GGSWmDv">
-        <div type="motTitle" xml:id="i-9XVjCJ4523zAwxCFRBv4Am"/>
-        <div type="motSubmissionInfo" xml:id="i-HovKJxZDTgR59DA9CQfZky"/>
+      <div xml:id="i-K3wf3J5ju21T7v7GGSWmDv" type="motHeader">
+        <div xml:id="i-9XVjCJ4523zAwxCFRBv4Am" type="motTitle"/>
+        <div xml:id="i-HovKJxZDTgR59DA9CQfZky" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TR3hUkM1jXczgGXQQb58oE">
+      <div xml:id="i-TR3hUkM1jXczgGXQQb58oE" type="motBody">
         <div xml:id="i-Fma8uP4nRsg3zZabv37xwE">
           <p xml:id="i-Eqnw1kELvmxHQP1RT7cyT1">
             2003/04 mnr: T538 pnr: s3035
@@ -120,8 +120,11 @@
           <p xml:id="i-DHwiCoSxKa8HLrgDtJdKar">
             2003/04:T538
           </p>
-          <p xml:id="i-X2T4qmQQTpd8nQVbRVpPBp">
-            Stockholm den 6 oktober 2003 Michael Hagberg (s)
+          <p xml:id="i-X2T4qmQQTpd8nQVbRVpPBp" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-9gM5sJLm3MQzRNytb6D9ev">
+            Michael Hagberg (s)
           </p>
         </div>
       </div>

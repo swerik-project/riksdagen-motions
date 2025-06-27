@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-MJU-00904">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-MoGEQsqJ4CuppQSQXqYv1U</idno>
-            <name>Anders Sjölund </name>
+            <name>Anders Sjölund</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-NAAZv6GeNG6UKYzSr8WGFB</idno>
-            <name>Olle Lindström </name>
+            <name>Olle Lindström</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-MoGEQsqJ4CuppQSQXqYv1U"/>
           <note type="signatory" corresp="i-NAAZv6GeNG6UKYzSr8WGFB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EJjzXwDML9MSx1XYFTcfe3">
+        <correspAction xml:id="i-EJjzXwDML9MSx1XYFTcfe3" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2Eua11BYZ7iCGvt1yMcVr6">
+        <correspAction xml:id="i-2Eua11BYZ7iCGvt1yMcVr6" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7Jp34Rx7FA2oPeWC8DLBLY">
+        <correspAction xml:id="i-7Jp34Rx7FA2oPeWC8DLBLY" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-9pfc1xUTUC1qkdPF8awuRc">
+        <correspAction xml:id="i-9pfc1xUTUC1qkdPF8awuRc" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7FuGJ6AuNChBLEKz6Wzvee">
+        <correspAction xml:id="i-7FuGJ6AuNChBLEKz6Wzvee" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5BHcbuLFZpQsw319hu3duD">
+        <correspAction xml:id="i-5BHcbuLFZpQsw319hu3duD" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Vi1yLSGe8JrQaHRiz95w6r"/>
+        <correspAction xml:id="i-Vi1yLSGe8JrQaHRiz95w6r" type="assigned"/>
         <correspContext corresp="i-Vi1yLSGe8JrQaHRiz95w6r">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Mj_0904/mot_199900_Mj_0904-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3a8ZyHfai7Z7EoYav2q3Cy">
-        <div type="motTitle" xml:id="i-T8SNfVMUjdZJu7WTZFGWMT"/>
-        <div type="motSubmissionInfo" xml:id="i-9AWQz62PtWygtEymz41G1F"/>
+      <div xml:id="i-3a8ZyHfai7Z7EoYav2q3Cy" type="motHeader">
+        <div xml:id="i-T8SNfVMUjdZJu7WTZFGWMT" type="motTitle"/>
+        <div xml:id="i-9AWQz62PtWygtEymz41G1F" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-72Mdi2pBvzPtd87tRTw6St">
+      <div xml:id="i-72Mdi2pBvzPtd87tRTw6St" type="motBody">
         <div xml:id="i-Axav4GD5tBu1y5rZdK5RZn">
           <p xml:id="i-NuFGd3R8hGSs8BbQe13CYq">
             1999/2000 mnr: MJ904 pnr: m133
@@ -150,8 +150,11 @@
             jakt på säl.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Mj_0904/mot_199900_Mj_0904-0002.pdf"/>
-          <p xml:id="i-GS955m6gf2brRGxsv1zBsC">
-            Stockholm den 23 september 1999 Mot. 1999/2000
+          <p xml:id="i-GS955m6gf2brRGxsv1zBsC" type="date">
+            Stockholm den 23 september 1999
+          </p>
+          <p type="signatureBlock" id="i-AxMuCZihB6KAohBdefhEuT">
+            Mot. 1999/2000
           </p>
           <p xml:id="i-Dwt2GSAkK3vPvCNr5XA5gB">
             MJ904 Anders Sjölund (m) Olle Lindström (m)

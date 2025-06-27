@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00274">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-5WJKjXtnyPeL6PbH11nt7H">
           <note type="signatory" corresp="i-BijAhigzcR1MHdRoo4YtH5"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Tzks5vQk3e4c1dmu4oHp1n">
+        <correspAction xml:id="i-Tzks5vQk3e4c1dmu4oHp1n" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KE4NUX7zTkHZia51QehuSp">
+        <correspAction xml:id="i-KE4NUX7zTkHZia51QehuSp" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DzhHxUBaRu2ALrE1Bepnge">
+        <correspAction xml:id="i-DzhHxUBaRu2ALrE1Bepnge" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-T9rNFnnEw7XC5uC4W7nDAe"/>
+        <correspAction xml:id="i-T9rNFnnEw7XC5uC4W7nDAe" type="assigned"/>
         <correspContext corresp="i-T9rNFnnEw7XC5uC4W7nDAe">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ju_0274/mot_200304_Ju_0274-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3JoFMkRNfJX7x1mhvueGei">
-        <div type="motTitle" xml:id="i-6BgzCRboAEw71FrCwVrXvh"/>
-        <div type="motSubmissionInfo" xml:id="i-QnjqufcUCJbpnn9fFMgBaa"/>
+      <div xml:id="i-3JoFMkRNfJX7x1mhvueGei" type="motHeader">
+        <div xml:id="i-6BgzCRboAEw71FrCwVrXvh" type="motTitle"/>
+        <div xml:id="i-QnjqufcUCJbpnn9fFMgBaa" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RhpXgPYyJzRnfJ5Bmhyg4f">
+      <div xml:id="i-RhpXgPYyJzRnfJ5Bmhyg4f" type="motBody">
         <div xml:id="i-XBaVxoqb71tH7mcYjygM4B">
           <p xml:id="i-Dbqse21sey5AvgnB59RVaF">
             2003/04 mnr: Ju274 pnr: fp621
@@ -139,8 +139,11 @@
             brottsavhållande faktorn. Riksdagen bör därför ge regeringen i
             uppdrag att verka för behovsstyrd sjöpolisverksamhet.
           </p>
-          <p xml:id="i-GYfAGViaNH2HtheXjsw64G">
-            Stockholm den 30 september 2003 Liselott Hagberg (fp)
+          <p xml:id="i-GYfAGViaNH2HtheXjsw64G" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-6eyV6up1oninX93gfxTezW">
+            Liselott Hagberg (fp)
           </p>
         </div>
       </div>

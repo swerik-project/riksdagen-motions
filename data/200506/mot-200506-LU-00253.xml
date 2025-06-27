@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00253">
   <teiHeader>
     <fileDesc>
@@ -79,16 +79,16 @@
           <note type="signatory" corresp="i-GE8V8xQLUeUXqQYs9agnuG"/>
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2sgzjTWbeCptoZMgzgrTkG">
+        <correspAction xml:id="i-2sgzjTWbeCptoZMgzgrTkG" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TCiqkyPTd7sGycjvabXhNL">
+        <correspAction xml:id="i-TCiqkyPTd7sGycjvabXhNL" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VdD5K9SnkuCZ1hSBdyxT2n">
+        <correspAction xml:id="i-VdD5K9SnkuCZ1hSBdyxT2n" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8GzUSA83EULnzhcyuJpyvE"/>
+        <correspAction xml:id="i-8GzUSA83EULnzhcyuJpyvE" type="assigned"/>
         <correspContext corresp="i-8GzUSA83EULnzhcyuJpyvE">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -103,11 +103,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_253/mot_200506_L_253-0001.pdf"/>
-      <div type="motHeader" xml:id="i-X1GDELGgeygSy3FoB5x1zj">
-        <div type="motTitle" xml:id="i-YR7ySk7YPxNJbH5F83i3oQ"/>
-        <div type="motSubmissionInfo" xml:id="i-VFkAsFQf4ymTb6ceSG8xPZ"/>
+      <div xml:id="i-X1GDELGgeygSy3FoB5x1zj" type="motHeader">
+        <div xml:id="i-YR7ySk7YPxNJbH5F83i3oQ" type="motTitle"/>
+        <div xml:id="i-VFkAsFQf4ymTb6ceSG8xPZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XjaT9TZsRnok2ah8o6Yv44">
+      <div xml:id="i-XjaT9TZsRnok2ah8o6Yv44" type="motBody">
         <div xml:id="i-44vcXTQWR4jQgFomMkmZK5">
           <p xml:id="i-BTVTDjjfUSuNzNbQ7KgD1L">
             2005/06 mnr: L253 pnr: v853
@@ -219,9 +219,12 @@
           </p>
           <p xml:id="i-E2qip7e9vZdK93vFuPPRRC">
             havarna skall tillgodoses. Detta bör riksdagen som sin mening
-            ge regeringen till känna. Stockholm den 23 september 2005
+            ge regeringen till känna.
           </p>
-          <p xml:id="i-Apm2LPL8Yjw53rv2jZo3ZY">
+          <p type="date" id="i-RTcXiwCWc4aECZCGjfHjDC">
+            Stockholm den 23 september 2005
+          </p>
+          <p xml:id="i-Apm2LPL8Yjw53rv2jZo3ZY" type="signatureBlock">
             Tasso Stafilidis (v) Rossana Dinamarca (v) Mats Einarsson (v)
             Siv Holma (v) Rolf Olsson (v) Alice Åström (v)
           </p>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00048">
   <teiHeader>
     <fileDesc>
@@ -77,7 +77,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-G3z4Z5JfTawxF5gZ9nJ6ND"/>
+        <correspAction xml:id="i-G3z4Z5JfTawxF5gZ9nJ6ND" type="basedOn"/>
         <correspContext corresp="i-G3z4Z5JfTawxF5gZ9nJ6ND">
           <ref>Proposition 2005/06:177</ref>
         </correspContext>
@@ -91,19 +91,19 @@
           <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
           <note type="signatory" corresp="i-UdGnyRLxFm6LiCDBYWE7MV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VjPGwhv7umuYMFJgmxzttW">
+        <correspAction xml:id="i-VjPGwhv7umuYMFJgmxzttW" type="referral">
           <date when="2006-04-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JEELdSpM56gfTPtJNdxvNd">
+        <correspAction xml:id="i-JEELdSpM56gfTPtJNdxvNd" type="dismissal">
           <date when="2006-04-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BwWNLsLjDqAGVAwY3oZdsj">
+        <correspAction xml:id="i-BwWNLsLjDqAGVAwY3oZdsj" type="dismissal">
           <date when="2006-04-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FLd8UqqFJBBG9TdVb9mVRi">
+        <correspAction xml:id="i-FLd8UqqFJBBG9TdVb9mVRi" type="submission">
           <date when="2006-04-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CfTR8339phXobop9Rk4uuG"/>
+        <correspAction xml:id="i-CfTR8339phXobop9Rk4uuG" type="assigned"/>
         <correspContext corresp="i-CfTR8339phXobop9Rk4uuG">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_48/mot_200506_Ju_48-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HBQuS9TPaFK5KU9H9LKzRd">
-        <div type="motTitle" xml:id="i-C6zkkA1kEFTraj3r7sA5ED"/>
-        <div type="motSubmissionInfo" xml:id="i-RKjBthtiwNk8faWYA8dYDR"/>
+      <div xml:id="i-HBQuS9TPaFK5KU9H9LKzRd" type="motHeader">
+        <div xml:id="i-C6zkkA1kEFTraj3r7sA5ED" type="motTitle"/>
+        <div xml:id="i-RKjBthtiwNk8faWYA8dYDR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VWsi7w6FNjGVdPYvbnuJZ2">
+      <div xml:id="i-VWsi7w6FNjGVdPYvbnuJZ2" type="motBody">
         <div xml:id="i-Mso2tYmWKX74XXktiThEo7">
           <p xml:id="i-DYd6ZRr7S8nZhX2ykB94dK">
             2005/06 mnr: Ju48 pnr: m240
@@ -306,8 +306,11 @@
             Dessa reformer skulle skicka en stark signal att det svenska rättsväsendet
             inte tolererar brott.
           </p>
-          <p xml:id="i-2iKS2NPgz9NAePaZbPS5BD">
-            Stockholm den 12 april 2006 Beatrice Ask (m)
+          <p xml:id="i-2iKS2NPgz9NAePaZbPS5BD" type="date">
+            Stockholm den 12 april 2006
+          </p>
+          <p type="signatureBlock" id="i-TRvkRX7hkYMXc9sKRMoSge">
+            Beatrice Ask (m)
           </p>
           <p xml:id="i-9HNxsSonxSz2km8egqLYLS">
             Jeppe Johnsson (m) Cecilia Magnusson (m) Hillevi Engström (m)

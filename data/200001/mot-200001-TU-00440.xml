@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-TU-00440">
   <teiHeader>
     <fileDesc>
@@ -78,28 +78,28 @@
           <note type="signatory" corresp="i-G8564CqEnhC5PBjZSwUxsE"/>
           <note type="signatory" corresp="i-FL3Tee8NjTSCkq4XGmHcyw"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-HKhGnNRrQa8vgVRom4NbTF">
+        <correspAction xml:id="i-HKhGnNRrQa8vgVRom4NbTF" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-QLCgcWTKSsA3H8DibNxTxU">
+        <correspAction xml:id="i-QLCgcWTKSsA3H8DibNxTxU" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-S96tN9xoq6rTeiPbqNMDdd">
+        <correspAction xml:id="i-S96tN9xoq6rTeiPbqNMDdd" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UNi1QvPb8XFDb9uHFqrXcS">
+        <correspAction xml:id="i-UNi1QvPb8XFDb9uHFqrXcS" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-6sr7PHsxtJ3Uu4n1tW7DqG">
+        <correspAction xml:id="i-6sr7PHsxtJ3Uu4n1tW7DqG" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8QpuT8c6fJg83sLk3cyZTo">
+        <correspAction xml:id="i-8QpuT8c6fJg83sLk3cyZTo" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-N8T7gP2XjUmZMTaNUSUimH">
+        <correspAction xml:id="i-N8T7gP2XjUmZMTaNUSUimH" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VjK9XspRT4cAW3bFoUNRBg"/>
+        <correspAction xml:id="i-VjK9XspRT4cAW3bFoUNRBg" type="assigned"/>
         <correspContext corresp="i-VjK9XspRT4cAW3bFoUNRBg">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -114,11 +114,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_T_0440/mot_200001_T_0440-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DL7Eiy89h7mfEivh1wicS9">
-        <div type="motTitle" xml:id="i-AU2eHXY33q84rvPwuCKXYQ"/>
-        <div type="motSubmissionInfo" xml:id="i-7w3XJovS185dbmA3QMkrm2"/>
+      <div xml:id="i-DL7Eiy89h7mfEivh1wicS9" type="motHeader">
+        <div xml:id="i-AU2eHXY33q84rvPwuCKXYQ" type="motTitle"/>
+        <div xml:id="i-7w3XJovS185dbmA3QMkrm2" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-E5ka2duLKTW7GXDb8N6V5a">
+      <div xml:id="i-E5ka2duLKTW7GXDb8N6V5a" type="motBody">
         <div xml:id="i-8TEQUX7AW1PdbZbMnML8Zf">
           <p xml:id="i-KjQxbvr4dEAp2XXCQ4Fyz9">
             2000/01 mnr: T440 pnr: s11033
@@ -170,9 +170,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_T_0440/mot_200001_T_0440-0002.pdf"/>
           <p xml:id="i-DcmbJBpoFEkDrDKjnhHJpB">
-            2000/01:T440 Stockholm den 3 oktober 2000
+            2000/01:T440
           </p>
-          <p xml:id="i-Uusz2TM3NnhS37NAfSga7Z">
+          <p type="date" id="i-ERDGNe2N5XsYj6eCtXJG9">
+            Stockholm den 3 oktober 2000
+          </p>
+          <p xml:id="i-Uusz2TM3NnhS37NAfSga7Z" type="signatureBlock">
             Lars Wegendal (s) Carina Adolfsson Elgestam (s) Tomas Eneroth
             (s)
           </p>

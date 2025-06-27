@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00215">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-F8qdE2eedz12PwFanq3ahv"/>
           <note type="signatory" corresp="i-3YBav2r8YXZiNoQkfb1bUy"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AZ485cWCGZYt1NvHNh1hTG">
+        <correspAction xml:id="i-AZ485cWCGZYt1NvHNh1hTG" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BokEGaJHDfMcdeLW3Qnk1n">
+        <correspAction xml:id="i-BokEGaJHDfMcdeLW3Qnk1n" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7i5DM596cKUFKS8BWhqkRq">
+        <correspAction xml:id="i-7i5DM596cKUFKS8BWhqkRq" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-ThvhuUnzQzMt3KAYoX3jcq"/>
+        <correspAction xml:id="i-ThvhuUnzQzMt3KAYoX3jcq" type="assigned"/>
         <correspContext corresp="i-ThvhuUnzQzMt3KAYoX3jcq">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_215/mot_200506_Ju_215-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LA2EnPBKSrRs1bWxa7bdvt">
-        <div type="motTitle" xml:id="i-NkMMqnq34Uo5ZLDJLF325L"/>
-        <div type="motSubmissionInfo" xml:id="i-VY5rmjkWx7FbkwNBBk3Dtq"/>
+      <div xml:id="i-LA2EnPBKSrRs1bWxa7bdvt" type="motHeader">
+        <div xml:id="i-NkMMqnq34Uo5ZLDJLF325L" type="motTitle"/>
+        <div xml:id="i-VY5rmjkWx7FbkwNBBk3Dtq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-M8Sdx1g8XAPbGnxSdmBwmZ">
+      <div xml:id="i-M8Sdx1g8XAPbGnxSdmBwmZ" type="motBody">
         <div xml:id="i-RrKzAFHN26tmAEaAPvmoHz">
           <p xml:id="i-DR3pbH29frfMbT2bgWnkNA">
             2005/06 mnr: Ju215 pnr: m1058
@@ -117,9 +117,11 @@
             att kategorisera behandlingshemmen = efter behandlingsnivåer,
             grad av slutenhet, vilken typ av klientel de passar för bäst O.S.V.
           </p>
-          <p xml:id="i-S8G6Wo1GbpNsKA8XRvAw2d">
-            Stockholm den 13 september 2005 Maud Ekendahl (m) Elizabeth Nyström
-            (m)
+          <p xml:id="i-S8G6Wo1GbpNsKA8XRvAw2d" type="date">
+            Stockholm den 13 september 2005
+          </p>
+          <p type="signatureBlock" id="i-2Dn55i5yuDobnA8kMkUpsB">
+            Maud Ekendahl (m) Elizabeth Nyström (m)
           </p>
         </div>
       </div>

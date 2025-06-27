@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KU-00010">
   <teiHeader>
     <fileDesc>
@@ -56,7 +56,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-H28vf75yVSC3CzrzpRaXz4"/>
+        <correspAction xml:id="i-H28vf75yVSC3CzrzpRaXz4" type="basedOn"/>
         <correspContext corresp="i-H28vf75yVSC3CzrzpRaXz4">
           <ref>Förslag 2005/06:RS3</ref>
         </correspContext>
@@ -67,19 +67,19 @@
           <note type="signatory" corresp="i-WBsZfhYB4L6D3cVQWLdu18"/>
           <note type="signatory" corresp="i-FnYuSnrPcb2UZaoXY7vjXa"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-V99XvDckavdgbJmx7692g2">
+        <correspAction xml:id="i-V99XvDckavdgbJmx7692g2" type="referral">
           <date when="2006-02-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8kiH32MhkffT8hMimRLTxC">
+        <correspAction xml:id="i-8kiH32MhkffT8hMimRLTxC" type="dismissal">
           <date when="2006-02-02"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WZHNbcmUSN9L62KKvP3cDM">
+        <correspAction xml:id="i-WZHNbcmUSN9L62KKvP3cDM" type="dismissal">
           <date when="2006-02-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3vTdPNHYstMBRUhnovkhTs">
+        <correspAction xml:id="i-3vTdPNHYstMBRUhnovkhTs" type="submission">
           <date when="2006-02-01"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PYgrECt3167M5dJoN75eog"/>
+        <correspAction xml:id="i-PYgrECt3167M5dJoN75eog" type="assigned"/>
         <correspContext corresp="i-PYgrECt3167M5dJoN75eog">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -94,11 +94,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_K_10/mot_200506_K_10-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VaPoaz7wXfSf4QDDWG6SwF">
-        <div type="motTitle" xml:id="i-MM1yZ4o3jaTVypbYLKmrHT"/>
-        <div type="motSubmissionInfo" xml:id="i-A6ZkAAqwfsoZcsJm1sBtZr"/>
+      <div xml:id="i-VaPoaz7wXfSf4QDDWG6SwF" type="motHeader">
+        <div xml:id="i-MM1yZ4o3jaTVypbYLKmrHT" type="motTitle"/>
+        <div xml:id="i-A6ZkAAqwfsoZcsJm1sBtZr" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-77zUTi4rmqVdJL5Efb8hgB">
+      <div xml:id="i-77zUTi4rmqVdJL5Efb8hgB" type="motBody">
         <div xml:id="i-98T6VB92NkBA3YrQgQTHtY">
           <p xml:id="i-pjhPzQm6wVVEnUwZeMxqr">
             2005/06 mnr: K10 pnr: mp013
@@ -305,9 +305,12 @@
             form avskaffas. Utskotten bör ansvara för EU-frågor och deras
             behandling i riksdagen.
           </p>
-          <p xml:id="i-BtrBQwm67tkVDKyt16wiQL">
-            Stockholm den 1 februari 2006 Gustav Fridolin (mp) Ulf Holm (mp)
-            Leif Björnlod (mp) Mikael Johansson (mp)
+          <p xml:id="i-BtrBQwm67tkVDKyt16wiQL" type="date">
+            Stockholm den 1 februari 2006
+          </p>
+          <p type="signatureBlock" id="i-JMSYmRi6VjuyDTfXTmhTRv">
+            Gustav Fridolin (mp) Ulf Holm (mp) Leif Björnlod (mp) Mikael
+            Johansson (mp)
           </p>
         </div>
       </div>

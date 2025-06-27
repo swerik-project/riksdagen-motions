@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-FiU-00007">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-AeygsPpZHRw5TndXwnCHQm</idno>
-            <name>Karin Starrin </name>
+            <name>Karin Starrin</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-CXsj4jMcc9YwfqJWp7h4Rr"/>
+        <correspAction xml:id="i-CXsj4jMcc9YwfqJWp7h4Rr" type="basedOn"/>
         <correspContext corresp="i-CXsj4jMcc9YwfqJWp7h4Rr">
           <ref>Proposition 1996/97:17</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-AeygsPpZHRw5TndXwnCHQm"/>
           <note type="signatory" corresp="i-AeygsPpZHRw5TndXwnCHQm"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4jg5qcd2X5LnQ8U3wwSqB7">
+        <correspAction xml:id="i-4jg5qcd2X5LnQ8U3wwSqB7" type="referral">
           <date when="1996-10-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JigpYBfGX4BAzd9ETkXTov">
+        <correspAction xml:id="i-JigpYBfGX4BAzd9ETkXTov" type="dismissal">
           <date when="1996-10-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SaEcq2MQp85JtwSx9wjcmc">
+        <correspAction xml:id="i-SaEcq2MQp85JtwSx9wjcmc" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-CtZRhvbc1dV58qGWYnuutT">
+        <correspAction xml:id="i-CtZRhvbc1dV58qGWYnuutT" type="referral">
           <date when="1996-10-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YUxpHi5ei8gDZRJ4MG86cZ">
+        <correspAction xml:id="i-YUxpHi5ei8gDZRJ4MG86cZ" type="dismissal">
           <date when="1996-10-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2vJ9DMdWYMyTJ74U79jyvF">
+        <correspAction xml:id="i-2vJ9DMdWYMyTJ74U79jyvF" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WSNCxGaLNSGt5BxP3Rx6kv"/>
+        <correspAction xml:id="i-WSNCxGaLNSGt5BxP3Rx6kv" type="assigned"/>
         <correspContext corresp="i-WSNCxGaLNSGt5BxP3Rx6kv">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_FI_0007/mot_199697_FI_0007-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Rntsn8EqFXw6Ho7UrVCNhD">
-        <div type="motTitle" xml:id="i-FHRevwsZWNRjNbHM6K3T5b"/>
-        <div type="motSubmissionInfo" xml:id="i-JNnJtkd2iiEAFk1f3SDKbd"/>
+      <div xml:id="i-Rntsn8EqFXw6Ho7UrVCNhD" type="motHeader">
+        <div xml:id="i-FHRevwsZWNRjNbHM6K3T5b" type="motTitle"/>
+        <div xml:id="i-JNnJtkd2iiEAFk1f3SDKbd" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ArUKtuSCpBzpDmU4GaHwN1">
+      <div xml:id="i-ArUKtuSCpBzpDmU4GaHwN1" type="motBody">
         <div xml:id="i-8ZBPtuDiepBLZbTnkQjF45">
           <p xml:id="i-3QfYFU4VE2UZkxaFE5SxVP">
             1996/97 Fi7 Fil-8
@@ -158,9 +158,12 @@
             till känna vad i
           </p>
           <p xml:id="i-FxCD7KpK1S5taEPmEpUdVj">
-            motionen anförts om omtaxering. Stockholm den 6 oktober 1996
+            motionen anförts om omtaxering.
           </p>
-          <p xml:id="i-8Wqf3tSG2ucKBDBZEG54kK">
+          <p type="date" id="i-97Kijek5Pqe9SM9Ps8cVAb">
+            Stockholm den 6 oktober 1996
+          </p>
+          <p xml:id="i-8Wqf3tSG2ucKBDBZEG54kK" type="signatureBlock">
             Karin Starrin (c)
           </p>
         </div>

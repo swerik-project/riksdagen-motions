@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00261">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-WtK3d6K5z3UXcEXB1xWqwx">
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TeyPcMfSU8fnFFLheFAZsU">
+        <correspAction xml:id="i-TeyPcMfSU8fnFFLheFAZsU" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-jKZWQqNjDKcnjvKChjmCm">
+        <correspAction xml:id="i-jKZWQqNjDKcnjvKChjmCm" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5xNeFtm5AcJUYNzs7sQz46">
+        <correspAction xml:id="i-5xNeFtm5AcJUYNzs7sQz46" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7uh1iyFgv1rHAFZuEDZDXL"/>
+        <correspAction xml:id="i-7uh1iyFgv1rHAFZuEDZDXL" type="assigned"/>
         <correspContext corresp="i-7uh1iyFgv1rHAFZuEDZDXL">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_T_0261/mot_200203_T_0261-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7V3LJ76DfhRu97uA5rec1L">
-        <div type="motTitle" xml:id="i-FAFF6B19Eo2iV9ETaGXSMZ"/>
-        <div type="motSubmissionInfo" xml:id="i-NctrZvJD9ncNtEPFFWo6RS"/>
+      <div xml:id="i-7V3LJ76DfhRu97uA5rec1L" type="motHeader">
+        <div xml:id="i-FAFF6B19Eo2iV9ETaGXSMZ" type="motTitle"/>
+        <div xml:id="i-NctrZvJD9ncNtEPFFWo6RS" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5tVbiGawoAhe1KmKwDiYJF">
+      <div xml:id="i-5tVbiGawoAhe1KmKwDiYJF" type="motBody">
         <div xml:id="i-Cab3jhzAtBfxr1EkcPWWmz">
           <p xml:id="i-RQc7N42gUDirAE2GkJ1hqi">
             2002/03 mnr: T261 pnr: kd565
@@ -154,8 +154,11 @@
             och Malmö drivs sedan 1994 med naturgas. Försök med biogas har
             påbörjats i Eslöv och Kristianstad.
           </p>
-          <p xml:id="i-EX3b1T9nQz1KJHBkKdmhiW">
-            Stockholm den 17 oktober 2002 Tuve Skånberg (kd)
+          <p xml:id="i-EX3b1T9nQz1KJHBkKdmhiW" type="date">
+            Stockholm den 17 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-MgstUVKQzN3E91ySzBckUB">
+            Tuve Skånberg (kd)
           </p>
         </div>
       </div>

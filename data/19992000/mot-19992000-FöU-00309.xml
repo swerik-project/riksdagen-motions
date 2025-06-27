@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-FöU-00309">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-QqgpadBP4SAf6uA8SRtTMY</idno>
-            <name>Runar Patriksson </name>
+            <name>Runar Patriksson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -46,25 +46,25 @@
           <note type="signatory" corresp="i-QqgpadBP4SAf6uA8SRtTMY"/>
           <note type="signatory" corresp="i-QqgpadBP4SAf6uA8SRtTMY"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TT73Jt4ZKN6aUqDZtDedAV">
+        <correspAction xml:id="i-TT73Jt4ZKN6aUqDZtDedAV" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MXhMyoszf6a4CJxqVuduRz">
+        <correspAction xml:id="i-MXhMyoszf6a4CJxqVuduRz" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CJJ57TynoifqGu9jcpkMsh">
+        <correspAction xml:id="i-CJJ57TynoifqGu9jcpkMsh" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-RRc7UEW99SJhzKPDCYizJ7">
+        <correspAction xml:id="i-RRc7UEW99SJhzKPDCYizJ7" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9zH3RWLruw9eJQGCkLYUE1">
+        <correspAction xml:id="i-9zH3RWLruw9eJQGCkLYUE1" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CDA7DPqQQprBzqCRh8uT4i">
+        <correspAction xml:id="i-CDA7DPqQQprBzqCRh8uT4i" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Umjz59ezB8zfWWYJ8Lhn6m"/>
+        <correspAction xml:id="i-Umjz59ezB8zfWWYJ8Lhn6m" type="assigned"/>
         <correspContext corresp="i-Umjz59ezB8zfWWYJ8Lhn6m">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fö_0309/mot_199900_Fö_0309-0001.pdf"/>
-      <div type="motHeader" xml:id="i-96jJnABfDQvZn8TkE3zfUg">
-        <div type="motTitle" xml:id="i-TULUGjbH6i7qnq28ieu53w"/>
-        <div type="motSubmissionInfo" xml:id="i-4B8D6MDTx7jvGiEJZKSBAZ"/>
+      <div xml:id="i-96jJnABfDQvZn8TkE3zfUg" type="motHeader">
+        <div xml:id="i-TULUGjbH6i7qnq28ieu53w" type="motTitle"/>
+        <div xml:id="i-4B8D6MDTx7jvGiEJZKSBAZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3qQhrQf1eFDN5XsEW2osU6">
+      <div xml:id="i-3qQhrQf1eFDN5XsEW2osU6" type="motBody">
         <div xml:id="i-7996nHJdrZe46q2Tc95N83">
           <p xml:id="i-EoT1VjRBVJLc13tEgsXTZz">
             1999/2000 mnr: Fö309 pnr: fp809
@@ -143,8 +143,11 @@
             i Sverige.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fö_0309/mot_199900_Fö_0309-0002.pdf"/>
-          <p xml:id="i-XEcdMcRhx3Eq3HF11y9s2u">
-            Stockholm den 30 september 1999 Mot. 1999/2000 Fö309
+          <p xml:id="i-XEcdMcRhx3Eq3HF11y9s2u" type="date">
+            Stockholm den 30 september 1999
+          </p>
+          <p type="signatureBlock" id="i-G3euM1Lht3mytjxFEXFNGW">
+            Mot. 1999/2000 Fö309
           </p>
           <p xml:id="i-EwUcjfVXTvuwUETaUFAcNQ">
             Runar Patriksson (fp)

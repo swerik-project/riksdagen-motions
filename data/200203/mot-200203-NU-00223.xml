@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-NU-00223">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-BYRar1dcQJCsPsqcaKjnYK">
           <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MMJ6rL6Uswfz1K49B1ERgo">
+        <correspAction xml:id="i-MMJ6rL6Uswfz1K49B1ERgo" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XxFYp89PnbS7ijWrxtanZp">
+        <correspAction xml:id="i-XxFYp89PnbS7ijWrxtanZp" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-H3tLmzxLxg44NUDECbhrDH">
+        <correspAction xml:id="i-H3tLmzxLxg44NUDECbhrDH" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WKcSyMrFAmFMGTLBv1aiTU"/>
+        <correspAction xml:id="i-WKcSyMrFAmFMGTLBv1aiTU" type="assigned"/>
         <correspContext corresp="i-WKcSyMrFAmFMGTLBv1aiTU">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_N_0223/mot_200203_N_0223-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NnnuKCGwCEAPRuS4LdKA8r">
-        <div type="motTitle" xml:id="i-Y4doLW9hc1j4eWnJozbLtV"/>
-        <div type="motSubmissionInfo" xml:id="i-MzYzpVC6ETmVMekuypda4f"/>
+      <div xml:id="i-NnnuKCGwCEAPRuS4LdKA8r" type="motHeader">
+        <div xml:id="i-Y4doLW9hc1j4eWnJozbLtV" type="motTitle"/>
+        <div xml:id="i-MzYzpVC6ETmVMekuypda4f" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8LHb83vL5SCH8EP9hfZBkR">
+      <div xml:id="i-8LHb83vL5SCH8EP9hfZBkR" type="motBody">
         <div xml:id="i-QwKKvuxFXoNQBoGcuDwzbN">
           <p xml:id="i-FJvf5TKtog7GqjZ1wfWQyC">
             2002/03 mnr: N223 pnr: m1230
@@ -141,8 +141,11 @@
             i övrigt bör staten välkomna en ledningsutbyggnad som kan = förbättra
             energiförsörjningen för basindustrin i Mellansverige.
           </p>
-          <p xml:id="i-SHPV7RMmns8YNL3LTNjPsE">
-            Stockholm den 17 oktober 2002 Gunnar Axén (m)
+          <p xml:id="i-SHPV7RMmns8YNL3LTNjPsE" type="date">
+            Stockholm den 17 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-84gbZwvckGgboX6jkpzEWY">
+            Gunnar Axén (m)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199394-SkU-00015">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-GiSwrvRSNBMuuGVLLZE3L9</idno>
-            <name>Roland Sundgren </name>
+            <name>Roland Sundgren</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-EeEQ2rKeN91p4z1e2rPUpR</idno>
-            <name>Inga-Britt Johansson </name>
+            <name>Inga-Britt Johansson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-XawAMXosHR6z4JL22muW4x</idno>
-            <name>Reynoldh Furustrand </name>
+            <name>Reynoldh Furustrand</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FqaGA5oFzeGstdb3etHbvh"/>
+        <correspAction xml:id="i-FqaGA5oFzeGstdb3etHbvh" type="basedOn"/>
         <correspContext corresp="i-FqaGA5oFzeGstdb3etHbvh">
           <ref>Proposition 1993/94:50</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-EeEQ2rKeN91p4z1e2rPUpR"/>
           <note type="signatory" corresp="i-XawAMXosHR6z4JL22muW4x"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4b2sccYp63xwCLyX2tCWaJ">
+        <correspAction xml:id="i-4b2sccYp63xwCLyX2tCWaJ" type="referral">
           <date when="1993-11-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AFDcrKCvnFzuBiQkSFBdpN">
+        <correspAction xml:id="i-AFDcrKCvnFzuBiQkSFBdpN" type="dismissal">
           <date when="1993-11-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-D877hgQYeCacAE44oNrnQp">
+        <correspAction xml:id="i-D877hgQYeCacAE44oNrnQp" type="submission">
           <date when="1993-11-23"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-KwEeGZVugWVnKCZWw2zfQ1">
+        <correspAction xml:id="i-KwEeGZVugWVnKCZWw2zfQ1" type="referral">
           <date when="1993-11-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DM2f8pAzpmzNzLccpYHqrR">
+        <correspAction xml:id="i-DM2f8pAzpmzNzLccpYHqrR" type="dismissal">
           <date when="1993-11-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UbdgYyYp3YcCQkAp8t9iZU">
+        <correspAction xml:id="i-UbdgYyYp3YcCQkAp8t9iZU" type="submission">
           <date when="1993-11-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XuLNFDbku5Qvmjoh4Rzzze"/>
+        <correspAction xml:id="i-XuLNFDbku5Qvmjoh4Rzzze" type="assigned"/>
         <correspContext corresp="i-XuLNFDbku5Qvmjoh4Rzzze">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199394/mot_199394_SkU_15/mot_199394_SkU_15-001.pdf"/>
-      <div type="motHeader" xml:id="i-UfJ7LbbMGFzTFz2DkyBeVg">
-        <div type="motTitle" xml:id="i-Jai2j3yAtjqtpMsXf7PaYe"/>
-        <div type="motSubmissionInfo" xml:id="i-BJMNwQYpeRDFSvqWasGwQL"/>
+      <div xml:id="i-UfJ7LbbMGFzTFz2DkyBeVg" type="motHeader">
+        <div xml:id="i-Jai2j3yAtjqtpMsXf7PaYe" type="motTitle"/>
+        <div xml:id="i-BJMNwQYpeRDFSvqWasGwQL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3ogELZTMcVkPcg63q2v4nv">
+      <div xml:id="i-3ogELZTMcVkPcg63q2v4nv" type="motBody">
         <div xml:id="i-RJfQ7CHZXqZ8RJr66FZ63u">
           <p xml:id="i-UA7ooCoKjN5o6tzmWs3bVo">
             Motion till riksdagen
@@ -214,8 +214,11 @@
             för ekonomiska föreningar, ränta på förlagsinsatser och begränsningen
             i föreningslagen om högsta tillåtna ränta.
           </p>
-          <p xml:id="i-RHu6UaYVC46cLtvrZwEbxV">
-            Stockholm den 23 november 1993 Roland Sundgren (s)
+          <p xml:id="i-RHu6UaYVC46cLtvrZwEbxV" type="date">
+            Stockholm den 23 november 1993
+          </p>
+          <p type="signatureBlock" id="i-TQb8AtpbPoDkKW1vjj1kcH">
+            Roland Sundgren (s)
           </p>
           <p xml:id="i-WDnNCyqMWoqTAEpmnNnECD">
             Inga-Britt Johansson (s) Reynoldh Furustrand (s)

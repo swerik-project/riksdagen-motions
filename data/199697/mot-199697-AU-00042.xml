@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-AU-00042">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-Hco5dtZYVczhhatjt4A2Ah</idno>
-            <name>Carl-Johan Wilson </name>
+            <name>Carl-Johan Wilson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-XEE3pjT2NaoAe3Xu2kHmbj"/>
+        <correspAction xml:id="i-XEE3pjT2NaoAe3Xu2kHmbj" type="basedOn"/>
         <correspContext corresp="i-XEE3pjT2NaoAe3Xu2kHmbj">
           <ref>Proposition 1996/97:107</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-Hco5dtZYVczhhatjt4A2Ah"/>
           <note type="signatory" corresp="i-Hco5dtZYVczhhatjt4A2Ah"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Vab1b8EtcLYErfpNTg2LTL">
+        <correspAction xml:id="i-Vab1b8EtcLYErfpNTg2LTL" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GXTUJH669yWSPiNBV2spEX">
+        <correspAction xml:id="i-GXTUJH669yWSPiNBV2spEX" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-47KEktvvxNVbzTrzxhZDtA">
+        <correspAction xml:id="i-47KEktvvxNVbzTrzxhZDtA" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GVZBgpqXNXChUbzNZLUrDM">
+        <correspAction xml:id="i-GVZBgpqXNXChUbzNZLUrDM" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Qvmzixb8b1hnFiaGZpUQpV">
+        <correspAction xml:id="i-Qvmzixb8b1hnFiaGZpUQpV" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9CLkQFNoniPVv3UFRyCgYC">
+        <correspAction xml:id="i-9CLkQFNoniPVv3UFRyCgYC" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2v6n62qPFBrK3nBFvt1waM"/>
+        <correspAction xml:id="i-2v6n62qPFBrK3nBFvt1waM" type="assigned"/>
         <correspContext corresp="i-2v6n62qPFBrK3nBFvt1waM">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0042/mot_199697_A_0042-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0042/mot_199697_A_0042-001.pdf"/>
-      <div type="motHeader" xml:id="i-YLjMJoEayhJ8s65P64ZPPG">
-        <div type="motTitle" xml:id="i-6Gtzf4WbTJnqQ9dsHpuhmi"/>
-        <div type="motSubmissionInfo" xml:id="i-FaWwMCkNdhWxS9u3ERiNbq"/>
+      <div xml:id="i-YLjMJoEayhJ8s65P64ZPPG" type="motHeader">
+        <div xml:id="i-6Gtzf4WbTJnqQ9dsHpuhmi" type="motTitle"/>
+        <div xml:id="i-FaWwMCkNdhWxS9u3ERiNbq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YUj73cL1ZmMPHZ5Jom2V3h">
+      <div xml:id="i-YUj73cL1ZmMPHZ5Jom2V3h" type="motBody">
         <div xml:id="i-HZbjY8N1Ghjwf7rZNPQwjB">
           <p xml:id="i-8Pb9GzVLDdLHMkoQCJsieo">
             1996/97 |A42 A36-46
@@ -210,9 +210,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0042/mot_199697_A_0042-0003.pdf"/>
           <p xml:id="i-EB3LTsNUWmdU2rpKnkan86">
-            Mot. 1996/97A422 Stockholm den 3 april 1997
+            Mot. 1996/97A422
           </p>
-          <p xml:id="i-HNKDANjGtg4MzG5r8UNjVT">
+          <p type="date" id="i-4s8XRBzn87z7EWWw9NAnmh">
+            Stockholm den 3 april 1997
+          </p>
+          <p xml:id="i-HNKDANjGtg4MzG5r8UNjVT" type="signatureBlock">
             Carl-Johan Wilson (fp)
           </p>
         </div>

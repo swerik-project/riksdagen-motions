@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-UbU-00043">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-8xwhJr3GiQ8oGuymkLFyKR</idno>
-            <name>Ingegerd Sahlström </name>
+            <name>Ingegerd Sahlström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-KAgkDWA5iGbn9XFLkj9FoB</idno>
-            <name>Alf Eriksson </name>
+            <name>Alf Eriksson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Rb9LcfDrAi5Y6rVKoFXtAg</idno>
-            <name>Owe Andréasson </name>
+            <name>Owe Andréasson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Nz1sjLhmGoeDzLw7zdiU6V"/>
+        <correspAction xml:id="i-Nz1sjLhmGoeDzLw7zdiU6V" type="basedOn"/>
         <correspContext corresp="i-Nz1sjLhmGoeDzLw7zdiU6V">
           <ref>Proposition 1992/93:169</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-KAgkDWA5iGbn9XFLkj9FoB"/>
           <note type="signatory" corresp="i-Rb9LcfDrAi5Y6rVKoFXtAg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8vqNNyKqprU1ErzURnTsHx">
+        <correspAction xml:id="i-8vqNNyKqprU1ErzURnTsHx" type="referral">
           <date when="1993-03-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5Cn4JQUz3dtgoD4gx1kr9S">
+        <correspAction xml:id="i-5Cn4JQUz3dtgoD4gx1kr9S" type="dismissal">
           <date when="1993-03-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NMs7PXb4qk3QZ8aZ38c8D5">
+        <correspAction xml:id="i-NMs7PXb4qk3QZ8aZ38c8D5" type="submission">
           <date when="1993-03-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-8WjvFe7cR7PDfSLwM7M3zm">
+        <correspAction xml:id="i-8WjvFe7cR7PDfSLwM7M3zm" type="referral">
           <date when="1993-03-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BEMZ611hQhgAmaT8Wt6LF4">
+        <correspAction xml:id="i-BEMZ611hQhgAmaT8Wt6LF4" type="dismissal">
           <date when="1993-03-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HxNQEXjiUMKdPvbYdMRAAH">
+        <correspAction xml:id="i-HxNQEXjiUMKdPvbYdMRAAH" type="submission">
           <date when="1993-03-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EJNw7xtEa1q3RUditw3HzF"/>
+        <correspAction xml:id="i-EJNw7xtEa1q3RUditw3HzF" type="assigned"/>
         <correspContext corresp="i-EJNw7xtEa1q3RUditw3HzF">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_UbU_43/mot_199293_UbU_43-001.pdf"/>
-      <div type="motHeader" xml:id="i-Q53RZ2TqoP9E7k7eP1Me9h">
-        <div type="motTitle" xml:id="i-VQeZ1aEP3PZ3vYuMwJMgXF"/>
-        <div type="motSubmissionInfo" xml:id="i-GyBMzk1NUQeTWURBARADVM"/>
+      <div xml:id="i-Q53RZ2TqoP9E7k7eP1Me9h" type="motHeader">
+        <div xml:id="i-VQeZ1aEP3PZ3vYuMwJMgXF" type="motTitle"/>
+        <div xml:id="i-GyBMzk1NUQeTWURBARADVM" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BSDQVT8RZXKMRAQdCfhjBm">
+      <div xml:id="i-BSDQVT8RZXKMRAQdCfhjBm" type="motBody">
         <div xml:id="i-RsxCb5cUoZcuRyEihL2tcr">
           <p xml:id="i-A6aVbACTvoqvw12k9f5ApJ">
             Motion till riksdagen 1992/93:Ub43
@@ -199,8 +199,11 @@
             varav 60 platser tilldelas det barn- och ungdomspeda- gogiska
             programmet.
           </p>
-          <p xml:id="i-AfcTE3jJfh8kat3CBY85dz">
-            Stockholm den 11 mars 1993 Ingegerd Sahlström (s)
+          <p xml:id="i-AfcTE3jJfh8kat3CBY85dz" type="date">
+            Stockholm den 11 mars 1993
+          </p>
+          <p type="signatureBlock" id="i-TTicSaV6ft391K7ARP4MyT">
+            Ingegerd Sahlström (s)
           </p>
           <p xml:id="i-SMrnKW41gc2GW9jmN6PgAH">
             Owe Andréasson (s) Alf Eriksson (s)

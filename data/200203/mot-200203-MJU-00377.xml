@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00377">
   <teiHeader>
     <fileDesc>
@@ -86,16 +86,16 @@
           <note type="signatory" corresp="i-8BTYtQ95yRpC5syyC4aHoY"/>
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JKWhopqHR7vUsnkyaTTSJE">
+        <correspAction xml:id="i-JKWhopqHR7vUsnkyaTTSJE" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JzVeGe1jBsESWeHLcY4xeW">
+        <correspAction xml:id="i-JzVeGe1jBsESWeHLcY4xeW" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MYTfTDmYkt2wiLQfVcmcwH">
+        <correspAction xml:id="i-MYTfTDmYkt2wiLQfVcmcwH" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Wp1mYwPWrMYBwkdooGK6U7"/>
+        <correspAction xml:id="i-Wp1mYwPWrMYBwkdooGK6U7" type="assigned"/>
         <correspContext corresp="i-Wp1mYwPWrMYBwkdooGK6U7">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_MJ_0377/mot_200203_MJ_0377-0001.pdf"/>
-      <div type="motHeader" xml:id="i-K3r77h67tJJvxcqyy1Wcrf">
-        <div type="motTitle" xml:id="i-TfCni8zSsU996aCAgHpJh1"/>
-        <div type="motSubmissionInfo" xml:id="i-SuTeCC6gBRDoyNBmfmdNZi"/>
+      <div xml:id="i-K3r77h67tJJvxcqyy1Wcrf" type="motHeader">
+        <div xml:id="i-TfCni8zSsU996aCAgHpJh1" type="motTitle"/>
+        <div xml:id="i-SuTeCC6gBRDoyNBmfmdNZi" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RL1NnhnjR2zBQgwYNovNNu">
+      <div xml:id="i-RL1NnhnjR2zBQgwYNovNNu" type="motBody">
         <div xml:id="i-JrBVVJN8Uri3ZUyeRst6pq">
           <p xml:id="i-Gng5vCuN28GeLAqWgddkts">
             18
@@ -957,8 +957,11 @@
             stöder därför miljöklassningssystemet. En större prisdifferentiering
             av miljöklasserna på bränslet är dock på sikt nödvändigt.
           </p>
-          <p xml:id="i-TC7QCoeqmfuQjQVyNqFsjx">
-            Stockholm den 22 oktober 2002 Lars Gustafsson (kd)
+          <p xml:id="i-TC7QCoeqmfuQjQVyNqFsjx" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-3gmzMzEGtS3mtrCd9tC5TW">
+            Lars Gustafsson (kd)
           </p>
           <p xml:id="i-fTYYtHoUgsBdKyq8UMdrS">
             Johnny Gylling (kd) Mikael Oscarsson (kd) Sven Gunnar Persson

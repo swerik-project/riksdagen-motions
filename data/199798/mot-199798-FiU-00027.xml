@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-FiU-00027">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-DnTstrvT1jenyw6pdMxfZi</idno>
-            <name>Mikael Odenberg </name>
+            <name>Mikael Odenberg</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-8BTYtQ95yRpC5syyC4aHoY</idno>
-            <name>Göran Hägglund </name>
+            <name>Göran Hägglund</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-TUvkLNfgGDFH5c5z5RL7Kw</idno>
-            <name>Christer Eirefelt </name>
+            <name>Christer Eirefelt</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VZbGbjBrQ6Ziufd6qFPNnQ"/>
+        <correspAction xml:id="i-VZbGbjBrQ6Ziufd6qFPNnQ" type="basedOn"/>
         <correspContext corresp="i-VZbGbjBrQ6Ziufd6qFPNnQ">
           <ref>Proposition 1997/98:150</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-8BTYtQ95yRpC5syyC4aHoY"/>
           <note type="signatory" corresp="i-TUvkLNfgGDFH5c5z5RL7Kw"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-12gNhJBbc7qWsEYp7s4t4P">
+        <correspAction xml:id="i-12gNhJBbc7qWsEYp7s4t4P" type="referral">
           <date when="1998-05-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HhiuS1yosRstikFdxY2Fc6">
+        <correspAction xml:id="i-HhiuS1yosRstikFdxY2Fc6" type="dismissal">
           <date when="1998-05-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QjLFtK8LzSLF5HfHfpmEKs">
+        <correspAction xml:id="i-QjLFtK8LzSLF5HfHfpmEKs" type="submission">
           <date when="1998-04-29"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-12S91pQGcz3XCT5R6C3iET">
+        <correspAction xml:id="i-12S91pQGcz3XCT5R6C3iET" type="referral">
           <date when="1998-05-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5w9Xs7AsEc5ZH5E6ZfWdAJ">
+        <correspAction xml:id="i-5w9Xs7AsEc5ZH5E6ZfWdAJ" type="dismissal">
           <date when="1998-05-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4qCb9GkhB4kcvY7vhXKjoC">
+        <correspAction xml:id="i-4qCb9GkhB4kcvY7vhXKjoC" type="submission">
           <date when="1998-04-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AXh9Dm9TiNbfDYsembKE3"/>
+        <correspAction xml:id="i-AXh9Dm9TiNbfDYsembKE3" type="assigned"/>
         <correspContext corresp="i-AXh9Dm9TiNbfDYsembKE3">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_FI_0027/mot_199798_FI_0027-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KCjCeSycY9djydiCwfeyPB">
-        <div type="motTitle" xml:id="i-4McQ7LoCpoKD8FigN2vNVa"/>
-        <div type="motSubmissionInfo" xml:id="i-E3ezNv9oNgqazctg6vtZuc"/>
+      <div xml:id="i-KCjCeSycY9djydiCwfeyPB" type="motHeader">
+        <div xml:id="i-4McQ7LoCpoKD8FigN2vNVa" type="motTitle"/>
+        <div xml:id="i-E3ezNv9oNgqazctg6vtZuc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Ljih6cD9RB8FdLiGJmgvDS">
+      <div xml:id="i-Ljih6cD9RB8FdLiGJmgvDS" type="motBody">
         <div xml:id="i-DgFC9EaAx4PkV5XzQKFmLS">
           <p xml:id="i-EJcacsdSw6yCbUyce4edka">
             Fi27 1997/98
@@ -392,8 +392,11 @@
             om bemyndigande för regeringen att överskrida ramanslaget B11
             under utgiftsområde 21.
           </p>
-          <p xml:id="i-UdegTnwMWmx1ndyJx759ZD">
-            Stockholm den 28 april 1998 Mikael Odenberg (m)
+          <p xml:id="i-UdegTnwMWmx1ndyJx759ZD" type="date">
+            Stockholm den 28 april 1998
+          </p>
+          <p type="signatureBlock" id="i-SVbXGKZRExMbR87xhiuhVs">
+            Mikael Odenberg (m)
           </p>
           <p xml:id="i-BYxYxxA455dmtkPaoUPY3g">
             Christer Eirefelt (fp) Göran Hägglund (kd)

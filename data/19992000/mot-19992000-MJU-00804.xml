@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-MJU-00804">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-RYmzRLEx8QvF7KzEiVDL2U</idno>
-            <name>Lars Ångström </name>
+            <name>Lars Ångström</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -46,25 +46,25 @@
           <note type="signatory" corresp="i-RYmzRLEx8QvF7KzEiVDL2U"/>
           <note type="signatory" corresp="i-RYmzRLEx8QvF7KzEiVDL2U"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EnERr5WFQ56nyBazetrk6C">
+        <correspAction xml:id="i-EnERr5WFQ56nyBazetrk6C" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-C7EbhQiWErKiVzr7B1reQU">
+        <correspAction xml:id="i-C7EbhQiWErKiVzr7B1reQU" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Y5yzDt5JCpzMgo6ouDHo7e">
+        <correspAction xml:id="i-Y5yzDt5JCpzMgo6ouDHo7e" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-9djjJyPk83sX27f5Neiu22">
+        <correspAction xml:id="i-9djjJyPk83sX27f5Neiu22" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-K9YFSK7FFApihZuLHW9Qaj">
+        <correspAction xml:id="i-K9YFSK7FFApihZuLHW9Qaj" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SPfEwAYDV9PMVK5cbx1eBw">
+        <correspAction xml:id="i-SPfEwAYDV9PMVK5cbx1eBw" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JTHXD2hHbUdtMWTNVpCq86"/>
+        <correspAction xml:id="i-JTHXD2hHbUdtMWTNVpCq86" type="assigned"/>
         <correspContext corresp="i-JTHXD2hHbUdtMWTNVpCq86">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Mj_0804/mot_199900_Mj_0804-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5gQN7b4UV5B5Ytgr1vaF7G">
-        <div type="motTitle" xml:id="i-QS4W7uGMqGCjqNjLPnnhGJ"/>
-        <div type="motSubmissionInfo" xml:id="i-MrDN2yqyWP9MDZ8paSd7ed"/>
+      <div xml:id="i-5gQN7b4UV5B5Ytgr1vaF7G" type="motHeader">
+        <div xml:id="i-QS4W7uGMqGCjqNjLPnnhGJ" type="motTitle"/>
+        <div xml:id="i-MrDN2yqyWP9MDZ8paSd7ed" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XpBf2P4xhJspc1kGSk7G8L">
+      <div xml:id="i-XpBf2P4xhJspc1kGSk7G8L" type="motBody">
         <div xml:id="i-RGzmNBt5hSwn45YFRC7mTe">
           <p xml:id="i-58jC94gCQu5r6cf5vFY6wm">
             1999/2000 mnr: MJ804
@@ -148,9 +148,11 @@
             motionen anförts om att göra Lovö till en nationalpark.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Mj_0804/mot_199900_Mj_0804-0002.pdf"/>
-          <p xml:id="i-7hzhMgKxvqNxjsgcnsCbPy">
-            Stockholm den 5 oktober 1999 Mot. 1999/2000 MJ804 Lars Ångström
-            (mp)
+          <p xml:id="i-7hzhMgKxvqNxjsgcnsCbPy" type="date">
+            Stockholm den 5 oktober 1999
+          </p>
+          <p type="signatureBlock" id="i-ThERrcButLoYzjDEHdHWqS">
+            Mot. 1999/2000 MJ804 Lars Ångström (mp)
           </p>
         </div>
       </div>

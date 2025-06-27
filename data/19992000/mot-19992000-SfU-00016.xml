@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-SfU-00016">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="woman">
             <idno>i-CwVjNqMneZm6zhJTP798e5</idno>
-            <name>Helena Bargholtz </name>
+            <name>Helena Bargholtz</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-PyYxwdbw2KYpXyCWKWHmmT</idno>
-            <name>Johan Pehrson </name>
+            <name>Johan Pehrson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-JZKa6caqdSKy8yhUyfEJeU</idno>
-            <name>Bo Könberg </name>
+            <name>Bo Könberg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-AyjzXBp4HX86kAhVJLPTv7"/>
+        <correspAction xml:id="i-AyjzXBp4HX86kAhVJLPTv7" type="basedOn"/>
         <correspContext corresp="i-AyjzXBp4HX86kAhVJLPTv7">
           <ref>Proposition 1999/2000:43</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-JZKa6caqdSKy8yhUyfEJeU"/>
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Pk5EozhTmWTFThQFwVAANC">
+        <correspAction xml:id="i-Pk5EozhTmWTFThQFwVAANC" type="referral">
           <date when="2000-02-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FD6o4JSVfE9ty2UPyWzguy">
+        <correspAction xml:id="i-FD6o4JSVfE9ty2UPyWzguy" type="dismissal">
           <date when="2000-02-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3XaxkN8Ki5uqE88QufP5gd">
+        <correspAction xml:id="i-3XaxkN8Ki5uqE88QufP5gd" type="submission">
           <date when="2000-02-09"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-nCLPVft5vzL2PLebMkXaD">
+        <correspAction xml:id="i-nCLPVft5vzL2PLebMkXaD" type="referral">
           <date when="2000-02-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SSLGrMNmNmAJwTsVmDVRRQ">
+        <correspAction xml:id="i-SSLGrMNmNmAJwTsVmDVRRQ" type="dismissal">
           <date when="2000-02-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XL2A5sxP2xP3iTf7Dprs3o">
+        <correspAction xml:id="i-XL2A5sxP2xP3iTf7Dprs3o" type="submission">
           <date when="2000-02-09"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DxQZVftfeoTQ6XrZgLY9WJ"/>
+        <correspAction xml:id="i-DxQZVftfeoTQ6XrZgLY9WJ" type="assigned"/>
         <correspContext corresp="i-DxQZVftfeoTQ6XrZgLY9WJ">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Sf_0016/mot_199900_Sf_0016-0001.pdf"/>
-      <div type="motHeader" xml:id="i-YTrE2NxuZ8o1eMbr83oWoH">
-        <div type="motTitle" xml:id="i-854PavjZUFnpk5tCw4mAyD"/>
-        <div type="motSubmissionInfo" xml:id="i-WQuZe2izUkd6mRoCfHRpn2"/>
+      <div xml:id="i-YTrE2NxuZ8o1eMbr83oWoH" type="motHeader">
+        <div xml:id="i-854PavjZUFnpk5tCw4mAyD" type="motTitle"/>
+        <div xml:id="i-WQuZe2izUkd6mRoCfHRpn2" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TMwS4hGSAjPRYj542sSiTb">
+      <div xml:id="i-TMwS4hGSAjPRYj542sSiTb" type="motBody">
         <div xml:id="i-KU5TCLfWEXQpJqPXFFQtGb">
           <p xml:id="i-L3C6PsQrmGo4QGm2hJFU6L">
             1999/2000 mnr: Sf16 pnr: fp1125
@@ -272,8 +272,11 @@
             eller inte, 5. att riksdagen avslår regeringens förslag till att
             byta namn på Statens invandrarverk till Migrationsverket.
           </p>
-          <p xml:id="i-DkUFENo6LuC9MzQVtXt4RA">
-            Stockholm den 9 februari 2000 Helena Bargholtz (fp)
+          <p xml:id="i-DkUFENo6LuC9MzQVtXt4RA" type="date">
+            Stockholm den 9 februari 2000
+          </p>
+          <p type="signatureBlock" id="i-YVGhAjNMPGMBGyM1c9PR4H">
+            Helena Bargholtz (fp)
           </p>
           <p xml:id="i-QLSWGW6D9QrZd9bahS96R4">
             Bo Könberg (fp) Johan Pehrson (fp)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-FiU-00070">
   <teiHeader>
     <fileDesc>
@@ -103,35 +103,35 @@
           </person>
           <person gender="man">
             <idno>i-C5oSgDpxjTK7J31TqsPEwQ</idno>
-            <name>Claes Roxbergh </name>
+            <name>Claes Roxbergh</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-T3gdjsEDM8Rwzy9YJpgufQ</idno>
-            <name>Inger Schörling </name>
+            <name>Inger Schörling</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-5LpuiRnqbw3VE57wmf8VJc</idno>
-            <name>Krister Skånberg </name>
+            <name>Krister Skånberg</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-Bno3sd3Zxxh3J4z8T4TyrT</idno>
-            <name>Anita Stenberg </name>
+            <name>Anita Stenberg</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-XqzAgPpb5cRyKeomtt2zjy</idno>
-            <name>Carl Frick </name>
+            <name>Carl Frick</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -139,7 +139,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-K76eXxBuRRtgcmmQRHPPzn"/>
+        <correspAction xml:id="i-K76eXxBuRRtgcmmQRHPPzn" type="basedOn"/>
         <correspContext corresp="i-K76eXxBuRRtgcmmQRHPPzn">
           <ref>Proposition 1989/90:150</ref>
         </correspContext>
@@ -162,16 +162,16 @@
           <note type="signatory" corresp="i-Bno3sd3Zxxh3J4z8T4TyrT"/>
           <note type="signatory" corresp="i-XqzAgPpb5cRyKeomtt2zjy"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-91cy3eytRxSsK8zDApHuQL">
+        <correspAction xml:id="i-91cy3eytRxSsK8zDApHuQL" type="submission">
           <date when="1990-05-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-R7tZTkdBJKuUHwVhuZQfZW">
+        <correspAction xml:id="i-R7tZTkdBJKuUHwVhuZQfZW" type="dismissal">
           <date when="1990-05-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-A5npVLkH8a9dxotB2wKKux">
+        <correspAction xml:id="i-A5npVLkH8a9dxotB2wKKux" type="referral">
           <date when="1990-05-15"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-K1giqS7H9uaKLBJNjJPNG1">
+        <correspAction xml:id="i-K1giqS7H9uaKLBJNjJPNG1" type="assigned">
           <date when="2014-11-22"/>
           <time when="21:03:49"/>
         </correspAction>
@@ -187,11 +187,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_fi_70/mot_198990_fi_70-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-7ap9scdoog91E8WxmUYiH9">
-        <div type="motTitle" xml:id="i-SuEWxVZHtx2mxtAfReisKQ"/>
-        <div type="motSubmissionInfo" xml:id="i-9NKcKbAtpwUm83QtaFHV8f"/>
+      <div xml:id="i-7ap9scdoog91E8WxmUYiH9" type="motHeader">
+        <div xml:id="i-SuEWxVZHtx2mxtAfReisKQ" type="motTitle"/>
+        <div xml:id="i-9NKcKbAtpwUm83QtaFHV8f" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-L8dnvYDDxuN7fKW5iLgMLv">
+      <div xml:id="i-L8dnvYDDxuN7fKW5iLgMLv" type="motBody">
         <div xml:id="i-3zajtNZnCX4Y13hqRmm3SQ">
           <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_fi_70/mot_198990_fi_70-001.pdf"/>
           <p xml:id="i-YBCB6e6h8MjBfXNDR88d3z">
@@ -961,9 +961,11 @@
             anförts om budgetregleringen, 18. att riksdagen avslår förslaget
             om ekonomisk stimulans för att arbeta efter pensionsålderns inträdande.
           </p>
-          <p xml:id="i-RisAP7p8RDq5N6WTm3mt6Q">
-            Stockholm den 10 maj 1990 Claes Roxbergh (mp) Inger Schörling
-            (mp) Carl Frick (mp)
+          <p xml:id="i-RisAP7p8RDq5N6WTm3mt6Q" type="date">
+            Stockholm den 10 maj 1990
+          </p>
+          <p type="signatureBlock" id="i-RCh4gpr8Qz8JtDvYiLPigY">
+            Claes Roxbergh (mp) Inger Schörling (mp) Carl Frick (mp)
           </p>
           <p xml:id="i-8evmcTVkx7xL9QBMerHzEC">
             Anita Stenberg (mp) Krister Skånberg (mp)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-NU-00020">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-UjusnwqMxiEAJYzdWTSGQZ</idno>
-            <name>Lennart Beijer </name>
+            <name>Lennart Beijer</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-WvrkgGMVWbiVxVoPqgJuEF</idno>
-            <name>Johan Lönnroth </name>
+            <name>Johan Lönnroth</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-5q7m7rZyufN9RHaGjB6GHh</idno>
-            <name>Björn Samuelson </name>
+            <name>Björn Samuelson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-DMayc92eiUiDHye1QX64Ki"/>
+        <correspAction xml:id="i-DMayc92eiUiDHye1QX64Ki" type="basedOn"/>
         <correspContext corresp="i-DMayc92eiUiDHye1QX64Ki">
           <ref>Proposition 1995/96:50</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-WvrkgGMVWbiVxVoPqgJuEF"/>
           <note type="signatory" corresp="i-5q7m7rZyufN9RHaGjB6GHh"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-Q6xtxQD3fF8mGEjoHNDU6T">
+        <correspAction xml:id="i-Q6xtxQD3fF8mGEjoHNDU6T" type="submission">
           <date when="1995-11-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SjpB7k3RxVbYmjVKtAgedZ">
+        <correspAction xml:id="i-SjpB7k3RxVbYmjVKtAgedZ" type="dismissal">
           <date when="1995-11-24"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-EUzoxGDEksS12sG7M4uzH5">
+        <correspAction xml:id="i-EUzoxGDEksS12sG7M4uzH5" type="referral">
           <date when="1995-12-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5SKnzLMNiaVJ64yHvRnncT">
+        <correspAction xml:id="i-5SKnzLMNiaVJ64yHvRnncT" type="submission">
           <date when="1995-11-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NRDCMqHTec4jtYodiWbpMp">
+        <correspAction xml:id="i-NRDCMqHTec4jtYodiWbpMp" type="dismissal">
           <date when="1995-11-24"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-XR5dyXxuJjMAjo2mHLgcLP">
+        <correspAction xml:id="i-XR5dyXxuJjMAjo2mHLgcLP" type="referral">
           <date when="1995-12-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2Lg9pZe3SVf9p5tF1ofzwe"/>
+        <correspAction xml:id="i-2Lg9pZe3SVf9p5tF1ofzwe" type="assigned"/>
         <correspContext corresp="i-2Lg9pZe3SVf9p5tF1ofzwe">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_N_0020/mot_199596_N_0020-0001.pdf"/>
-      <div type="motHeader" xml:id="i-W5Fz7SuRTLQvTZx7rkP5sU">
-        <div type="motTitle" xml:id="i-6zPit6GocECyiNcZATR5e1"/>
-        <div type="motSubmissionInfo" xml:id="i-FTkXD8TU8NdVZZ2SdxdVCr"/>
+      <div xml:id="i-W5Fz7SuRTLQvTZx7rkP5sU" type="motHeader">
+        <div xml:id="i-6zPit6GocECyiNcZATR5e1" type="motTitle"/>
+        <div xml:id="i-FTkXD8TU8NdVZZ2SdxdVCr" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AEBBCqJrkQtPk8cpsMUBH5">
+      <div xml:id="i-AEBBCqJrkQtPk8cpsMUBH5" type="motBody">
         <div xml:id="i-5caeabrH1k1UC5FbzwsRAW">
           <p xml:id="i-Q9ypXFfy7u9iY2Uj7WgaRw">
             N20
@@ -170,9 +170,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_N_0020/mot_199596_N_0020-0002.pdf"/>
           <p xml:id="i-8rmRssAowHVFU9ArdSwq9M">
-            Mot. 1995/96N208 Stockholm den 23 november 1995
+            Mot. 1995/96N208
           </p>
-          <p xml:id="i-xg85srBUxi2wsWf8KMAfM">
+          <p type="date" id="i-VvAkAvkDpMVEzLw5fxBVsx">
+            Stockholm den 23 november 1995
+          </p>
+          <p xml:id="i-xg85srBUxi2wsWf8KMAfM" type="signatureBlock">
             Lennart Beijer (v)
           </p>
           <p xml:id="i-TsRZy4wmUZh7J5nYr9r2Qm">

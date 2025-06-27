@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-FiU-00044">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-Rb9LcfDrAi5Y6rVKoFXtAg</idno>
-            <name>Owe Andréasson </name>
+            <name>Owe Andréasson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-KAgkDWA5iGbn9XFLkj9FoB</idno>
-            <name>Alf Eriksson </name>
+            <name>Alf Eriksson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-8xwhJr3GiQ8oGuymkLFyKR</idno>
-            <name>Ingegerd Sahlström </name>
+            <name>Ingegerd Sahlström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-29oznsU9sZuyYPSB3v2dSt"/>
+        <correspAction xml:id="i-29oznsU9sZuyYPSB3v2dSt" type="basedOn"/>
         <correspContext corresp="i-29oznsU9sZuyYPSB3v2dSt">
           <ref>Proposition 1992/93:50</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-KAgkDWA5iGbn9XFLkj9FoB"/>
           <note type="signatory" corresp="i-8xwhJr3GiQ8oGuymkLFyKR"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-85yuTiBZEXVPUjquyQNZkv">
+        <correspAction xml:id="i-85yuTiBZEXVPUjquyQNZkv" type="referral">
           <date when="1992-11-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YXJdwq6YNE1kLHBqb2W2dq">
+        <correspAction xml:id="i-YXJdwq6YNE1kLHBqb2W2dq" type="dismissal">
           <date when="1992-11-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9mogTWeqZNDRvAYj2R1QYQ">
+        <correspAction xml:id="i-9mogTWeqZNDRvAYj2R1QYQ" type="submission">
           <date when="1992-11-12"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7mjTLttdbdBKy3thZBFb56">
+        <correspAction xml:id="i-7mjTLttdbdBKy3thZBFb56" type="referral">
           <date when="1992-11-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5LDzMW7a2T7Vkb54tMcTGv">
+        <correspAction xml:id="i-5LDzMW7a2T7Vkb54tMcTGv" type="dismissal">
           <date when="1992-11-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NuWrgtFVPy7RMxnpupajZo">
+        <correspAction xml:id="i-NuWrgtFVPy7RMxnpupajZo" type="submission">
           <date when="1992-11-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BtvrfixwEv2VK33vPdXGQh"/>
+        <correspAction xml:id="i-BtvrfixwEv2VK33vPdXGQh" type="assigned"/>
         <correspContext corresp="i-BtvrfixwEv2VK33vPdXGQh">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_FiU_44/mot_199293_FiU_44-001.pdf"/>
-      <div type="motHeader" xml:id="i-TF5BFarQ4au7dACGz3zT4U">
-        <div type="motTitle" xml:id="i-7hGjvJ96qq6cpCCqvkwAya"/>
-        <div type="motSubmissionInfo" xml:id="i-3dhkTGMHdU6H9XCJr6dGVs"/>
+      <div xml:id="i-TF5BFarQ4au7dACGz3zT4U" type="motHeader">
+        <div xml:id="i-7hGjvJ96qq6cpCCqvkwAya" type="motTitle"/>
+        <div xml:id="i-3dhkTGMHdU6H9XCJr6dGVs" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FRTVNhTp4BzeZ833KUQDT7">
+      <div xml:id="i-FRTVNhTp4BzeZ833KUQDT7" type="motBody">
         <div xml:id="i-KhKCZuSgA3B9mQYHSE4XNE">
           <p xml:id="i-3XZF3PZz2h3WsiVne8N1eC">
             Motion till riksdagen 1992/93:F144
@@ -201,8 +201,11 @@
             partimotion 1992/93:Fi35 anförts om sysselsättningsförhållandena
             i Hallands län.
           </p>
-          <p xml:id="i-YLhXHm6KJFt3o49SvLiiU6">
-            Stockholm den 12 november 1992 Owe Andréasson (s)
+          <p xml:id="i-YLhXHm6KJFt3o49SvLiiU6" type="date">
+            Stockholm den 12 november 1992
+          </p>
+          <p type="signatureBlock" id="i-UakafMV86n71GNFj8i7V8U">
+            Owe Andréasson (s)
           </p>
           <p xml:id="i-2iBEXedF6qJ3e2h9YdRb4u">
             Ingegerd Sahlström (s) Alf Eriksson (s)

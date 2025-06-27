@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-JuU-00028">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-M6F85qijn9rB9XrUARJYDS</idno>
-            <name>Rolf Åbjörnsson </name>
+            <name>Rolf Åbjörnsson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-8BTYtQ95yRpC5syyC4aHoY</idno>
-            <name>Göran Hägglund </name>
+            <name>Göran Hägglund</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-h1aVBzexdmWPt4dFvXiYA</idno>
-            <name>Inger Davidson </name>
+            <name>Inger Davidson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VrPeGfmtP4TcnjXWFi1NGz"/>
+        <correspAction xml:id="i-VrPeGfmtP4TcnjXWFi1NGz" type="basedOn"/>
         <correspContext corresp="i-VrPeGfmtP4TcnjXWFi1NGz">
           <ref>Proposition 1996/97:133</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-8BTYtQ95yRpC5syyC4aHoY"/>
           <note type="signatory" corresp="i-h1aVBzexdmWPt4dFvXiYA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5iQHn1c1qdRAqsnGPu4o4A">
+        <correspAction xml:id="i-5iQHn1c1qdRAqsnGPu4o4A" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-L6o9Aw7d5z8oc6opYKrxjM">
+        <correspAction xml:id="i-L6o9Aw7d5z8oc6opYKrxjM" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Lpwzwj3mWR2w5Mr3WGq2Zp">
+        <correspAction xml:id="i-Lpwzwj3mWR2w5Mr3WGq2Zp" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-VFyxyMCSPugG9UmqGN7gai">
+        <correspAction xml:id="i-VFyxyMCSPugG9UmqGN7gai" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3cUMe2dUzKt2fsjPuzW8ZL">
+        <correspAction xml:id="i-3cUMe2dUzKt2fsjPuzW8ZL" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Nq3J8mqfAvrw7PkpS4hNM3">
+        <correspAction xml:id="i-Nq3J8mqfAvrw7PkpS4hNM3" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QhrpFHsB1LvsJ7h36qvzbu"/>
+        <correspAction xml:id="i-QhrpFHsB1LvsJ7h36qvzbu" type="assigned"/>
         <correspContext corresp="i-QhrpFHsB1LvsJ7h36qvzbu">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_JU_0028/mot_199697_JU_0028-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9FaTd2Lj2Bgf6AUTuGihYC">
-        <div type="motTitle" xml:id="i-LUoobJn49Hv6NAzB33Kon1"/>
-        <div type="motSubmissionInfo" xml:id="i-CyBJobPx4rWnbURhRB55k3"/>
+      <div xml:id="i-9FaTd2Lj2Bgf6AUTuGihYC" type="motHeader">
+        <div xml:id="i-LUoobJn49Hv6NAzB33Kon1" type="motTitle"/>
+        <div xml:id="i-CyBJobPx4rWnbURhRB55k3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7KJiQXpP4Uy2pjdL25QDS7">
+      <div xml:id="i-7KJiQXpP4Uy2pjdL25QDS7" type="motBody">
         <div xml:id="i-5rAr9j8R9bjyzwWuaRyvcj">
           <p xml:id="i-T9seCd9mx5SJaccZtwkZ4h">
             1996/97 Ju28 Ju26-35
@@ -329,7 +329,13 @@
             motionen anförts om att se över nämndemannasystemet i
           </p>
           <p xml:id="i-TXeUUmBT1Agz5sKRe1c6w2">
-            hovrätten. Stockholm den 25 mars 1997 Rolf Åbjörnsson (kd)
+            hovrätten.
+          </p>
+          <p type="date" id="i-YQdFrguZ9UBxGXdc4R1qzu">
+            Stockholm den 25 mars 1997
+          </p>
+          <p type="signatureBlock" id="i-Avd54DCMP9wNVpM5YzvaDR">
+            Rolf Åbjörnsson (kd)
           </p>
           <p xml:id="i-S6J2VdWiJwqhjPcGY7oPMn">
             Inger Davidson (kd)

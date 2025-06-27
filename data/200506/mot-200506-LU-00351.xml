@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00351">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-2nAEYwcyKWk6MmHt6ji6yF">
           <note type="signatory" corresp="i-RJ83sTtQ8c3R3VD4B55j8P"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-L9PcE2R3R13QX4iyrxWLox">
+        <correspAction xml:id="i-L9PcE2R3R13QX4iyrxWLox" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RpyQfwC3B9qMav1V3JserN">
+        <correspAction xml:id="i-RpyQfwC3B9qMav1V3JserN" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NmQBNGGGEfLJ8HxGgS2HhH">
+        <correspAction xml:id="i-NmQBNGGGEfLJ8HxGgS2HhH" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YGm5w8qkApgHp16ins3R8e"/>
+        <correspAction xml:id="i-YGm5w8qkApgHp16ins3R8e" type="assigned"/>
         <correspContext corresp="i-YGm5w8qkApgHp16ins3R8e">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_351/mot_200506_L_351-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Uv8BCVpu7hxJGoA2p3DKyi">
-        <div type="motTitle" xml:id="i-LMyU6usEx2N5iH47816oRr"/>
-        <div type="motSubmissionInfo" xml:id="i-XqEUu9B8Gtaj6962NWumnq"/>
+      <div xml:id="i-Uv8BCVpu7hxJGoA2p3DKyi" type="motHeader">
+        <div xml:id="i-LMyU6usEx2N5iH47816oRr" type="motTitle"/>
+        <div xml:id="i-XqEUu9B8Gtaj6962NWumnq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LmoDuQCNsELvEbsa21froL">
+      <div xml:id="i-LmoDuQCNsELvEbsa21froL" type="motBody">
         <div xml:id="i-6nYQkC5raVwo4d2GqKJXL3">
           <p xml:id="i-47d2grjivXEhgMHpcXj4fg">
             2005/06 mnr: L351 pnr: s13014
@@ -139,8 +139,11 @@
             system där samtliga överklaganden samlas i en instans skulle ge
             avsevärt förbättrade förutsättningar för en enhetlig rättspraxis.
           </p>
-          <p xml:id="i-SxjtyRp9nPaAdSXcExouhV">
-            Stockholm den 21 september 2005 Åsa Lindestam (s)
+          <p xml:id="i-SxjtyRp9nPaAdSXcExouhV" type="date">
+            Stockholm den 21 september 2005
+          </p>
+          <p type="signatureBlock" id="i-Nc2GouEMoHyyRzMbhKN39Z">
+            Åsa Lindestam (s)
           </p>
         </div>
       </div>

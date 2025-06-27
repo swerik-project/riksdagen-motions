@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-FiU-00005">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-9vFSxpt5zgfpPbTya96yqS"/>
+        <correspAction xml:id="i-9vFSxpt5zgfpPbTya96yqS" type="basedOn"/>
         <correspContext corresp="i-9vFSxpt5zgfpPbTya96yqS">
           <ref>Regeringsskrivelse 2004/05:54</ref>
         </correspContext>
@@ -42,19 +42,19 @@
         <correspContext corresp="i-5NCDMYZpeDtu2C17h7142Y">
           <note type="signatory" corresp="i-Dnc5M1DTGNVBxsnXz7TcBj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8pgKVyBMXynenkpuXY4p7n">
+        <correspAction xml:id="i-8pgKVyBMXynenkpuXY4p7n" type="referral">
           <date when="2005-02-15"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-GrjVD68LSB7SrD3aFTkGoc">
+        <correspAction xml:id="i-GrjVD68LSB7SrD3aFTkGoc" type="registration">
           <date when="2005-02-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9hheouBXUzYKcXEYuWjSuG">
+        <correspAction xml:id="i-9hheouBXUzYKcXEYuWjSuG" type="dismissal">
           <date when="2005-02-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-45bZasEBHYNn4sRX78vQjn">
+        <correspAction xml:id="i-45bZasEBHYNn4sRX78vQjn" type="submission">
           <date when="2005-02-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TNKpF3C1YZxDU6zZWSJHqm"/>
+        <correspAction xml:id="i-TNKpF3C1YZxDU6zZWSJHqm" type="assigned"/>
         <correspContext corresp="i-TNKpF3C1YZxDU6zZWSJHqm">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Fi_5/mot_200405_Fi_5-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Fi_5/mot_200405_Fi_5-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DD3Bdn2mzNiz7QKiU7oq9q">
-        <div type="motTitle" xml:id="i-KSjvqwavUCS93YGGziZyjP"/>
-        <div type="motSubmissionInfo" xml:id="i-9ns7ZJFZpJb5xsJtqbHZpY"/>
+      <div xml:id="i-DD3Bdn2mzNiz7QKiU7oq9q" type="motHeader">
+        <div xml:id="i-KSjvqwavUCS93YGGziZyjP" type="motTitle"/>
+        <div xml:id="i-9ns7ZJFZpJb5xsJtqbHZpY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AQzkwvLfkC3u4nRJPax9bH">
+      <div xml:id="i-AQzkwvLfkC3u4nRJPax9bH" type="motBody">
         <div xml:id="i-Vc5AbTEvEhcB3kATqXQgRW">
           <p xml:id="i-3BLXTVxK96rWW1m576gY6p">
             2004/05 mnr: FiS pnr: s4502
@@ -223,8 +223,11 @@
             att öka delaktigheten i tillsättningen av chefer i de internationella
             finansieringsinstitutionerna.
           </p>
-          <p xml:id="i-SL96y3GtB7r4eR5Nn8VYLB">
-            Stockholm den 11 februari 2005 Pär Axel Sahlberg (s)
+          <p xml:id="i-SL96y3GtB7r4eR5Nn8VYLB" type="date">
+            Stockholm den 11 februari 2005
+          </p>
+          <p type="signatureBlock" id="i-TDUwk16weVkmkCrVFMi9ci">
+            Pär Axel Sahlberg (s)
           </p>
           <p xml:id="i-QEK9bZxwTwNTFjLwokEQhy">
             2004/05:Fi5

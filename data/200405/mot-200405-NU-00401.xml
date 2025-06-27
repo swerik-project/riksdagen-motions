@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00401">
   <teiHeader>
     <fileDesc>
@@ -102,16 +102,16 @@
           <note type="signatory" corresp="i-QhURWkawnPDBf443faKewj"/>
           <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VzGXCCX7nRyFHYE5YfBgmW">
+        <correspAction xml:id="i-VzGXCCX7nRyFHYE5YfBgmW" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CsxuS4GnrJ63UbjKbyVnbw">
+        <correspAction xml:id="i-CsxuS4GnrJ63UbjKbyVnbw" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QaCvKjywQ6eoawTbAcGtzM">
+        <correspAction xml:id="i-QaCvKjywQ6eoawTbAcGtzM" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EuTRCrHC5ZdKjFnWpwNZKT"/>
+        <correspAction xml:id="i-EuTRCrHC5ZdKjFnWpwNZKT" type="assigned"/>
         <correspContext corresp="i-EuTRCrHC5ZdKjFnWpwNZKT">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -126,11 +126,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_N_401/mot_200405_N_401-0001.pdf"/>
-      <div type="motHeader" xml:id="i-YEvwFTRwfBHh8NCVy8wtqw">
-        <div type="motTitle" xml:id="i-3zHyRUsLpLF1XM9NJPFdvw"/>
-        <div type="motSubmissionInfo" xml:id="i-7SLqNnE1jUBsmCdT34sLQs"/>
+      <div xml:id="i-YEvwFTRwfBHh8NCVy8wtqw" type="motHeader">
+        <div xml:id="i-3zHyRUsLpLF1XM9NJPFdvw" type="motTitle"/>
+        <div xml:id="i-7SLqNnE1jUBsmCdT34sLQs" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MwNu57uEEEYu3eH46Hy7Ey">
+      <div xml:id="i-MwNu57uEEEYu3eH46Hy7Ey" type="motBody">
         <div xml:id="i-66AbJLbsZXDiZUb9oLrWAK">
           <p xml:id="i-Kbfp1cYb4ytHnjmcgu97w6">
             2004/05 mnr: N401 pnr: fp602
@@ -1214,8 +1214,11 @@
             utredas. Ingen ska avstå från att starta ett företag för att man
             inte kan få en försäkring.
           </p>
-          <p xml:id="i-Hu3dzMa54D6ppTpLKYNfEA">
-            Stockholm den 5 oktober 2004 Anita Brodén (fp)
+          <p xml:id="i-Hu3dzMa54D6ppTpLKYNfEA" type="date">
+            Stockholm den 5 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-X5NTsp6j9R2xRkndiuyKRm">
+            Anita Brodén (fp)
           </p>
           <p xml:id="i-2WFUDS1asZesCwYYwrqMmX">
             Marita Aronson (fp) Erling Bager (fp) Axel Darvik (fp) Anne-Marie

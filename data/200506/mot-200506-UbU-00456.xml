@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00456">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-S85k1KnHwGYVSur53ssASL">
           <note type="signatory" corresp="i-RJ83sTtQ8c3R3VD4B55j8P"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DjUwTqRmAdzeAq6dpacumv">
+        <correspAction xml:id="i-DjUwTqRmAdzeAq6dpacumv" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UNASnAyhGuDwLcMcLPR8Wf">
+        <correspAction xml:id="i-UNASnAyhGuDwLcMcLPR8Wf" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-H9PykugtCiyERN2Sutf3Pw">
+        <correspAction xml:id="i-H9PykugtCiyERN2Sutf3Pw" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WWuFyPvYnuRqa6rHLRdkXY"/>
+        <correspAction xml:id="i-WWuFyPvYnuRqa6rHLRdkXY" type="assigned"/>
         <correspContext corresp="i-WWuFyPvYnuRqa6rHLRdkXY">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_456/mot_200506_Ub_456-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DeenN2jtDz6QgjY73gDcmn">
-        <div type="motTitle" xml:id="i-PPqasjf5BpwDVK2rRgvRGC"/>
-        <div type="motSubmissionInfo" xml:id="i-HAuphnPj5i6yH9mQwLjC4a"/>
+      <div xml:id="i-DeenN2jtDz6QgjY73gDcmn" type="motHeader">
+        <div xml:id="i-PPqasjf5BpwDVK2rRgvRGC" type="motTitle"/>
+        <div xml:id="i-HAuphnPj5i6yH9mQwLjC4a" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-P6yeuXqTJxRTcqtB2SAwRL">
+      <div xml:id="i-P6yeuXqTJxRTcqtB2SAwRL" type="motBody">
         <div xml:id="i-931UC5LK2gQXJffUEGaWk7">
           <p xml:id="i-Qc6Z11HwgbM8J3t3sw6a3F">
             2005/06 mnr: Ub456 pnr: s13003
@@ -104,8 +104,11 @@
             som skulle kunna stödja ett jämställdhetsarbete i skolan i ett
             nationellt perspektiv.
           </p>
-          <p xml:id="i-M1dEekLrav8hUxx1kchu9m">
-            Stockholm den 20 september 2005 Åsa Lindestam (s)
+          <p xml:id="i-M1dEekLrav8hUxx1kchu9m" type="date">
+            Stockholm den 20 september 2005
+          </p>
+          <p type="signatureBlock" id="i-CgJooQLfKsKZdRC9rzJ9Uj">
+            Åsa Lindestam (s)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-SoU-00016">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-Xrj5P46hsif4EVQjEQc8eH</idno>
-            <name>Georg Andersson </name>
+            <name>Georg Andersson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-Wc8BbEX41g19kGFrxayPxN</idno>
-            <name>Lena Boström </name>
+            <name>Lena Boström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-VBHSUYwX8zTBjLDRcwNsBA</idno>
-            <name>Mats Lindberg </name>
+            <name>Mats Lindberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-DXHsjFWjHh9FxREkXFDonK"/>
+        <correspAction xml:id="i-DXHsjFWjHh9FxREkXFDonK" type="basedOn"/>
         <correspContext corresp="i-DXHsjFWjHh9FxREkXFDonK">
           <ref>Proposition 1991/92:25</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-Wc8BbEX41g19kGFrxayPxN"/>
           <note type="signatory" corresp="i-VBHSUYwX8zTBjLDRcwNsBA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JCfnpnT2mpYdHbGKzeYdGQ">
+        <correspAction xml:id="i-JCfnpnT2mpYdHbGKzeYdGQ" type="referral">
           <date when="1991-11-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-N7YuuRyiX8nkCp3HBpwHa5">
+        <correspAction xml:id="i-N7YuuRyiX8nkCp3HBpwHa5" type="dismissal">
           <date when="1991-11-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-36aCJFs4uqD5vniUTiLS2e">
+        <correspAction xml:id="i-36aCJFs4uqD5vniUTiLS2e" type="submission">
           <date when="1991-11-20"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Nxuxpr5fFNTe2FKpXGQ2M7">
+        <correspAction xml:id="i-Nxuxpr5fFNTe2FKpXGQ2M7" type="referral">
           <date when="1991-11-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EwxZaqmyBLgMRKxtg5VaVg">
+        <correspAction xml:id="i-EwxZaqmyBLgMRKxtg5VaVg" type="dismissal">
           <date when="1991-11-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Ja83q5fbg2tuvuFWKGV9ws">
+        <correspAction xml:id="i-Ja83q5fbg2tuvuFWKGV9ws" type="submission">
           <date when="1991-11-20"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-V7k6jvj2ounhRud4Q27f5y"/>
+        <correspAction xml:id="i-V7k6jvj2ounhRud4Q27f5y" type="assigned"/>
         <correspContext corresp="i-V7k6jvj2ounhRud4Q27f5y">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_SoU_16/mot_199192_SoU_16-001.pdf"/>
-      <div type="motHeader" xml:id="i-YAm278H36NjUqArnGsqhHw">
-        <div type="motTitle" xml:id="i-FpEvoh8twi7QGyR5JQsaUB"/>
-        <div type="motSubmissionInfo" xml:id="i-74kzmVum5Ras3dkFtLntdu"/>
+      <div xml:id="i-YAm278H36NjUqArnGsqhHw" type="motHeader">
+        <div xml:id="i-FpEvoh8twi7QGyR5JQsaUB" type="motTitle"/>
+        <div xml:id="i-74kzmVum5Ras3dkFtLntdu" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VG3uxZN23whUR9t7qUSdaC">
+      <div xml:id="i-VG3uxZN23whUR9t7qUSdaC" type="motBody">
         <div xml:id="i-VQj2biAzuHEgemajwCb4y9">
           <p xml:id="i-96ucbXcXo2PHidMgsaxq2J">
             Motion till riksdagen 1991/92:S016
@@ -181,8 +181,11 @@
             nadsutskottets uttalanden särskilt beaktar förutsättningarna för
             loka- lisering av det nya folkhälsoinstitutet till Umeå.
           </p>
-          <p xml:id="i-AmmTnee6uM2Wk9Ek3uMxfs">
-            Stockholm den 19 november 1991 Georg Andersson (s)
+          <p xml:id="i-AmmTnee6uM2Wk9Ek3uMxfs" type="date">
+            Stockholm den 19 november 1991
+          </p>
+          <p type="signatureBlock" id="i-G9tAKqpX3U7Ay8yGhHea25">
+            Georg Andersson (s)
           </p>
           <p xml:id="i-5zPX9mx8iWjp6p1QY7ZJnt">
             Mats Lindberg (s) Lena Boström (s)

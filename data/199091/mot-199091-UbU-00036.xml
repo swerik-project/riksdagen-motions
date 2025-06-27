@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-UbU-00036">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="woman">
             <idno>i-TpZYt1GVcqVji9XRcawvXB</idno>
-            <name>Ingrid Hasselström Nyvall </name>
+            <name>Ingrid Hasselström Nyvall</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-A2jgxgPRi11BxUsPb2uNmM</idno>
-            <name>Charlotte Branting </name>
+            <name>Charlotte Branting</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-SY6pQn8EpPsMvij4GehxiA"/>
+        <correspAction xml:id="i-SY6pQn8EpPsMvij4GehxiA" type="basedOn"/>
         <correspContext corresp="i-SY6pQn8EpPsMvij4GehxiA">
           <ref>Proposition 1990/91:18</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-TpZYt1GVcqVji9XRcawvXB"/>
           <note type="signatory" corresp="i-A2jgxgPRi11BxUsPb2uNmM"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Y2UThjQ9w9EygWSsYTemJX">
+        <correspAction xml:id="i-Y2UThjQ9w9EygWSsYTemJX" type="referral">
           <date when="1990-11-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-V4Xz5mRnie8NvVjtxrdshf">
+        <correspAction xml:id="i-V4Xz5mRnie8NvVjtxrdshf" type="dismissal">
           <date when="1990-11-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MdyJXH55cLX6fAr6vuRcr6">
+        <correspAction xml:id="i-MdyJXH55cLX6fAr6vuRcr6" type="submission">
           <date when="1990-10-26"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-XbmyBfZxud346qC9nseqiT">
+        <correspAction xml:id="i-XbmyBfZxud346qC9nseqiT" type="referral">
           <date when="1990-11-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8q6s2d9znc714RrPsgYg7T">
+        <correspAction xml:id="i-8q6s2d9znc714RrPsgYg7T" type="dismissal">
           <date when="1990-11-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-L1qsxrFc9QXttDKzWd9eja">
+        <correspAction xml:id="i-L1qsxrFc9QXttDKzWd9eja" type="submission">
           <date when="1990-10-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LQd1mLDYcgZEKCX2d95845"/>
+        <correspAction xml:id="i-LQd1mLDYcgZEKCX2d95845" type="assigned"/>
         <correspContext corresp="i-LQd1mLDYcgZEKCX2d95845">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_UbU_36/mot_199091_UbU_36-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-HyBRGMuvjFxbpGAChLowwy">
-        <div type="motTitle" xml:id="i-8FK5TdBPiZxmqVvWVvReqo"/>
-        <div type="motSubmissionInfo" xml:id="i-PLYB7KtsYbYB8YDisHMpZw"/>
+      <div xml:id="i-HyBRGMuvjFxbpGAChLowwy" type="motHeader">
+        <div xml:id="i-8FK5TdBPiZxmqVvWVvReqo" type="motTitle"/>
+        <div xml:id="i-PLYB7KtsYbYB8YDisHMpZw" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-V5SYdkvGzWZK4xYMefaevp">
+      <div xml:id="i-V5SYdkvGzWZK4xYMefaevp" type="motBody">
         <div xml:id="i-QMZp4tgQpwbybP6Yohk2qq">
           <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_UbU_36/mot_199091_UbU_36-001.pdf"/>
           <p xml:id="i-F4XeDNZyoLrv33HFWpJxah">
@@ -156,9 +156,12 @@
             1 Riksdagen 1990/91. 3 saml. Nr Ub36—39
           </p>
           <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_UbU_36/mot_199091_UbU_36-002.pdf"/>
-          <p xml:id="i-GiuzDrhfePNBq2N8pxdS9p">
-            Stockholm den 26 oktober 1990 Mot. 1990/91 Ub36 Ingrid Hasselström
-            Nyvall (fp) Charlotte Branting (fp)
+          <p xml:id="i-GiuzDrhfePNBq2N8pxdS9p" type="date">
+            Stockholm den 26 oktober 1990
+          </p>
+          <p type="signatureBlock" id="i-GRaG9t1ZjpHMAnGb78kVK7">
+            Mot. 1990/91 Ub36 Ingrid Hasselström Nyvall (fp) Charlotte Branting
+            (fp)
           </p>
         </div>
       </div>

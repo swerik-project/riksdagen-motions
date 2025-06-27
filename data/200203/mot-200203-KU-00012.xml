@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00012">
   <teiHeader>
     <fileDesc>
@@ -48,7 +48,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-ChE8a6ZYiBH6ErYvrzFNyd"/>
+        <correspAction xml:id="i-ChE8a6ZYiBH6ErYvrzFNyd" type="basedOn"/>
         <correspContext corresp="i-ChE8a6ZYiBH6ErYvrzFNyd">
           <ref>Proposition 2002/03:72</ref>
         </correspContext>
@@ -58,16 +58,16 @@
           <note type="signatory" corresp="i-D8B2Xf6UADbqciPHrqFxSc"/>
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WshRSkwUPJZxUs358P7n1v">
+        <correspAction xml:id="i-WshRSkwUPJZxUs358P7n1v" type="referral">
           <date when="2003-04-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5mhfVc7q4UHpuwQB6gcMBn">
+        <correspAction xml:id="i-5mhfVc7q4UHpuwQB6gcMBn" type="dismissal">
           <date when="2003-04-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AW9dpKnZvm7Bm3jnr6TWum">
+        <correspAction xml:id="i-AW9dpKnZvm7Bm3jnr6TWum" type="submission">
           <date when="2003-04-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PgWndvW5RqXu1wHYVji849"/>
+        <correspAction xml:id="i-PgWndvW5RqXu1wHYVji849" type="assigned"/>
         <correspContext corresp="i-PgWndvW5RqXu1wHYVji849">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_K_0012/mot_200203_K_0012-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TG38QCFm2iXo9WxEBLM7KM">
-        <div type="motTitle" xml:id="i-AbsqJLaPVdbgdfVcUk1V6r"/>
-        <div type="motSubmissionInfo" xml:id="i-NZGHjNrtEtWqS6gQpSQfYw"/>
+      <div xml:id="i-TG38QCFm2iXo9WxEBLM7KM" type="motHeader">
+        <div xml:id="i-AbsqJLaPVdbgdfVcUk1V6r" type="motTitle"/>
+        <div xml:id="i-NZGHjNrtEtWqS6gQpSQfYw" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ChujDmGoT5S5P1eXvm8KmC">
+      <div xml:id="i-ChujDmGoT5S5P1eXvm8KmC" type="motBody">
         <div xml:id="i-Ae9mA8MGwFKrLYfD2LPsJU">
           <p xml:id="i-98Nv8xaGLMwQgZmC1JYk5F">
             30
@@ -253,9 +253,12 @@
           <p xml:id="i-Xug3nTpCmyBDpjHbiKDtTP">
             anmärkningsvärd med hänsyn till de uttalanden som bl.a. riksdagen
             gjort om att UR:s digitala program måste beredas plats i SVT:s
-            kanaler. Stockholm den 3 april 2003
+            kanaler.
           </p>
-          <p xml:id="i-J7WkEMkXGCTaTUFbc92kUQ">
+          <p type="date" id="i-oC1wtLnRwvRDaK4ZF8G7c">
+            Stockholm den 3 april 2003
+          </p>
+          <p xml:id="i-J7WkEMkXGCTaTUFbc92kUQ" type="signatureBlock">
             Agne Hansson (c) Birgitta Ohlsson (fp) Dan Kihlström (kd)
           </p>
           <p xml:id="i-XwkMKnZLvSnQhRKciSCY3J">

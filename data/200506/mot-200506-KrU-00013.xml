@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00013">
   <teiHeader>
     <fileDesc>
@@ -56,7 +56,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-HhbVzEWhWvqsgur7PGCFsm"/>
+        <correspAction xml:id="i-HhbVzEWhWvqsgur7PGCFsm" type="basedOn"/>
         <correspContext corresp="i-HhbVzEWhWvqsgur7PGCFsm">
           <ref>Proposition 2005/06:4</ref>
         </correspContext>
@@ -67,19 +67,19 @@
           <note type="signatory" corresp="i-MtQDAwnav9eHyeftxbQLvf"/>
           <note type="signatory" corresp="i-Ev13DrJjHbo85jEmQ5EPLM"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2QRhMV8F1U1mpBMYKr9Ckk">
+        <correspAction xml:id="i-2QRhMV8F1U1mpBMYKr9Ckk" type="referral">
           <date when="2005-11-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-521vF8R8aYZzebh5Aix429">
+        <correspAction xml:id="i-521vF8R8aYZzebh5Aix429" type="dismissal">
           <date when="2005-11-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Pb11Y7Gk1z1VchkjHSo4Lj">
+        <correspAction xml:id="i-Pb11Y7Gk1z1VchkjHSo4Lj" type="submission">
           <date when="2005-10-31"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4p7aCSjmVWkAWHyrW1g79r">
+        <correspAction xml:id="i-4p7aCSjmVWkAWHyrW1g79r" type="dismissal">
           <date when="2005-10-31"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6bpz2CKqeU1pm8BTYrVyLi"/>
+        <correspAction xml:id="i-6bpz2CKqeU1pm8BTYrVyLi" type="assigned"/>
         <correspContext corresp="i-6bpz2CKqeU1pm8BTYrVyLi">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -94,11 +94,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_kr_13/mot_200506_kr_13-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9x9dXt3yr4RVat3Se8JWP2">
-        <div type="motTitle" xml:id="i-34RnYmwuziTXsPqK3Q6L6p"/>
-        <div type="motSubmissionInfo" xml:id="i-YVY4w5veThPkAdQHLchmip"/>
+      <div xml:id="i-9x9dXt3yr4RVat3Se8JWP2" type="motHeader">
+        <div xml:id="i-34RnYmwuziTXsPqK3Q6L6p" type="motTitle"/>
+        <div xml:id="i-YVY4w5veThPkAdQHLchmip" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6gdLmk6vRgYoN28gGTqr26">
+      <div xml:id="i-6gdLmk6vRgYoN28gGTqr26" type="motBody">
         <div xml:id="i-HJeMyuckwcUqzJVJsQ5fyT">
           <p xml:id="i-rotXBJvjL3ar2jXKdFa2r">
             2005/06 mnr: Kr13 pnr: m1684
@@ -166,9 +166,12 @@
             med samma nivå som överenskommelsen motsvarar. Detta bör riksdagen
             ge regeringen till känna.
           </p>
-          <p xml:id="i-U1vgoFLWyVrjihTe2YjCj2">
-            Stockholm den 31 oktober 2005 Magdalena Andersson (m) Hillevi
-            Engström (m) Inger René (m) Ewa Thalén Finné (m)
+          <p xml:id="i-U1vgoFLWyVrjihTe2YjCj2" type="date">
+            Stockholm den 31 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-Vir29Ye3FTT2PRdYbetMzh">
+            Magdalena Andersson (m) Hillevi Engström (m) Inger René (m) Ewa
+            Thalén Finné (m)
           </p>
         </div>
       </div>

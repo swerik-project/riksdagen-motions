@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-AU-00456">
   <teiHeader>
     <fileDesc>
@@ -26,35 +26,35 @@
         <listPerson>
           <person gender="man">
             <idno>i-9osx7gdXCsvHnf1J7JQnnY</idno>
-            <name>Jarl Lander </name>
+            <name>Jarl Lander</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-KcofmNasLprpHKsdaYM625</idno>
-            <name>Bo Finnkvist </name>
+            <name>Bo Finnkvist</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-VXkZessNxc9eyPfvwLgWcK</idno>
-            <name>Kristina Svensson </name>
+            <name>Kristina Svensson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-GN2jVbnWZ4paSMz4G7gSPo</idno>
-            <name>Lisbeth Staaf-Igelström </name>
+            <name>Lisbeth Staaf-Igelström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-WhyY4N88ajLQNt1Z2Z3z44</idno>
-            <name>Magnus Persson </name>
+            <name>Magnus Persson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -110,25 +110,25 @@
           <note type="signatory" corresp="i-KcofmNasLprpHKsdaYM625"/>
           <note type="signatory" corresp="i-WhyY4N88ajLQNt1Z2Z3z44"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XpeHJuFmbUd62CHwmQU9tV">
+        <correspAction xml:id="i-XpeHJuFmbUd62CHwmQU9tV" type="referral">
           <date when="1992-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-64h17mvsP92M4ZZenhANuK">
+        <correspAction xml:id="i-64h17mvsP92M4ZZenhANuK" type="dismissal">
           <date when="1992-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NHsWALrCGQ5set3AtKp6iY">
+        <correspAction xml:id="i-NHsWALrCGQ5set3AtKp6iY" type="submission">
           <date when="1992-01-27"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-8uys5EPzxM4AStY9ZdB36P">
+        <correspAction xml:id="i-8uys5EPzxM4AStY9ZdB36P" type="referral">
           <date when="1992-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Ka6otkowvSyRcCn35B3zPk">
+        <correspAction xml:id="i-Ka6otkowvSyRcCn35B3zPk" type="dismissal">
           <date when="1992-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8tNNfURrcM7knjsuVMXknJ">
+        <correspAction xml:id="i-8tNNfURrcM7knjsuVMXknJ" type="submission">
           <date when="1992-01-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Xae6hThJwKmdqB6G3uqqdy"/>
+        <correspAction xml:id="i-Xae6hThJwKmdqB6G3uqqdy" type="assigned"/>
         <correspContext corresp="i-Xae6hThJwKmdqB6G3uqqdy">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -141,11 +141,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_AU_456/mot_199192_AU_456-001.pdf"/>
-      <div type="motHeader" xml:id="i-iHfZEn3EqCLPrhUUBtxEq">
-        <div type="motTitle" xml:id="i-ArnPcDbruMBzY4pf76iWtu"/>
-        <div type="motSubmissionInfo" xml:id="i-5QdvxMVU1jaRA8SCPGGBog"/>
+      <div xml:id="i-iHfZEn3EqCLPrhUUBtxEq" type="motHeader">
+        <div xml:id="i-ArnPcDbruMBzY4pf76iWtu" type="motTitle"/>
+        <div xml:id="i-5QdvxMVU1jaRA8SCPGGBog" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3xGXbdWrdhfAjQNugoYjcm">
+      <div xml:id="i-3xGXbdWrdhfAjQNugoYjcm" type="motBody">
         <div xml:id="i-MEaM5kmpUjn1cyBGJEqrwK">
           <p xml:id="i-TJ5ApDwJuQuXHLG7tQYk8j">
             Motion till riksdagen 1991/92:A456
@@ -618,9 +618,11 @@
             4. att riksdagen som sin mening ger regeringen till känna vad
             i mo- tionen anförts om Vänersjöfarten.
           </p>
-          <p xml:id="i-EorXYFmLLXskcGmmuXUued">
-            Stockholm den 27 januari 1992 Magnus Persson (s) Bo Finnkvist
-            (s) Jarl Lander (s)
+          <p xml:id="i-EorXYFmLLXskcGmmuXUued" type="date">
+            Stockholm den 27 januari 1992
+          </p>
+          <p type="signatureBlock" id="i-Ui9cbwPEXQpm2ziL9fdDpY">
+            Magnus Persson (s) Bo Finnkvist (s) Jarl Lander (s)
           </p>
           <p xml:id="i-BFK5ChCDPXycoxz4nwsC88">
             Kristina Svensson (s) Lisbeth Staaf-Igelström (s)

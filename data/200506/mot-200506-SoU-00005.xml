@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00005">
   <teiHeader>
     <fileDesc>
@@ -42,7 +42,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-3bZTqiKr9v3qW4jEMqqivh"/>
+        <correspAction xml:id="i-3bZTqiKr9v3qW4jEMqqivh" type="basedOn"/>
         <correspContext corresp="i-3bZTqiKr9v3qW4jEMqqivh">
           <ref>Proposition 2005/06:30</ref>
         </correspContext>
@@ -51,19 +51,19 @@
           <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
           <note type="signatory" corresp="i-62beZab5asYtPmcYVDdXC5"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NGo8odQyDi516Yqbc4U75s">
+        <correspAction xml:id="i-NGo8odQyDi516Yqbc4U75s" type="referral">
           <date when="2005-12-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JEsvqzv7PDwdiS4XHPpAby">
+        <correspAction xml:id="i-JEsvqzv7PDwdiS4XHPpAby" type="dismissal">
           <date when="2005-12-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Q7btAE1xWseMtUXupdn8go">
+        <correspAction xml:id="i-Q7btAE1xWseMtUXupdn8go" type="dismissal">
           <date when="2005-12-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ST5EJrj96yb8cUrU9YNoKP">
+        <correspAction xml:id="i-ST5EJrj96yb8cUrU9YNoKP" type="submission">
           <date when="2005-12-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QybEbK7UneDU81KMKY5n3Q"/>
+        <correspAction xml:id="i-QybEbK7UneDU81KMKY5n3Q" type="assigned"/>
         <correspContext corresp="i-QybEbK7UneDU81KMKY5n3Q">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -78,11 +78,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_5/mot_200506_So_5-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Mxk8yDYgg2ErR2jcWzLEt9">
-        <div type="motTitle" xml:id="i-94BCi25BLj3zaWbuK6y27K"/>
-        <div type="motSubmissionInfo" xml:id="i-KeyAyz4F2pH8DPZX2DJBtY"/>
+      <div xml:id="i-Mxk8yDYgg2ErR2jcWzLEt9" type="motHeader">
+        <div xml:id="i-94BCi25BLj3zaWbuK6y27K" type="motTitle"/>
+        <div xml:id="i-KeyAyz4F2pH8DPZX2DJBtY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JHi2i6uFfxB1hMGh7J5BGQ">
+      <div xml:id="i-JHi2i6uFfxB1hMGh7J5BGQ" type="motBody">
         <div xml:id="i-HCrYBxReFgEjknEt3Udrse">
           <p xml:id="i-KzQXgKNxzUXJWgHmJ3LdHJ">
             2005/06 mnr: So5 pnr: s18462
@@ -382,9 +382,11 @@
             mera handfast följa sitt eget resonemang om folkrörelserna som
             en resurs i alkohol- och narkotikaarbetet.
           </p>
-          <p xml:id="i-KAho9Hu6jShbjwcBEeR1mm">
-            Stockholm den 5 december 2005 Agneta Lundberg (s) Nils-Erik Söderqvist
-            (s)
+          <p xml:id="i-KAho9Hu6jShbjwcBEeR1mm" type="date">
+            Stockholm den 5 december 2005
+          </p>
+          <p type="signatureBlock" id="i-Ln5r4AtBKnCjEiRucoPv2a">
+            Agneta Lundberg (s) Nils-Erik Söderqvist (s)
           </p>
         </div>
       </div>

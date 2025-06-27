@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00030">
   <teiHeader>
     <fileDesc>
@@ -104,7 +104,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-HjGrKHpDtusni3TqPY5EAD"/>
+        <correspAction xml:id="i-HjGrKHpDtusni3TqPY5EAD" type="basedOn"/>
         <correspContext corresp="i-HjGrKHpDtusni3TqPY5EAD">
           <ref>Proposition 2002/03:35</ref>
         </correspContext>
@@ -122,16 +122,16 @@
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QGidwEVDuHfxB5cB1GGEnk">
+        <correspAction xml:id="i-QGidwEVDuHfxB5cB1GGEnk" type="referral">
           <date when="2003-01-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KEjhvG6a8npCaV7VSoqhDm">
+        <correspAction xml:id="i-KEjhvG6a8npCaV7VSoqhDm" type="dismissal">
           <date when="2003-01-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XTrEBaQWeYJLx37ksBrapB">
+        <correspAction xml:id="i-XTrEBaQWeYJLx37ksBrapB" type="submission">
           <date when="2003-01-24"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-B3Cq3MArAm1BAtiMZ1iNGV"/>
+        <correspAction xml:id="i-B3Cq3MArAm1BAtiMZ1iNGV" type="assigned"/>
         <correspContext corresp="i-B3Cq3MArAm1BAtiMZ1iNGV">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -146,11 +146,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_So_0030/mot_200203_So_0030-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9K7Xd6paWSKRybGYFoxivE">
-        <div type="motTitle" xml:id="i-TyK4Y8UggW7zh5MHJDaSAD"/>
-        <div type="motSubmissionInfo" xml:id="i-8eZjeg24qPJ93tabHuydBF"/>
+      <div xml:id="i-9K7Xd6paWSKRybGYFoxivE" type="motHeader">
+        <div xml:id="i-TyK4Y8UggW7zh5MHJDaSAD" type="motTitle"/>
+        <div xml:id="i-8eZjeg24qPJ93tabHuydBF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Ktgy2F3k6PSbnjfsmyBR1t">
+      <div xml:id="i-Ktgy2F3k6PSbnjfsmyBR1t" type="motBody">
         <div xml:id="i-3s8fQHup5T38LVZbw1i4Ra">
           <p xml:id="i-LyDz2oHSjLEqhfZrxzKcrf">
             28
@@ -500,9 +500,12 @@
           <p xml:id="i-LZuN3wPsamUFuLMS1BZ8V7">
             öka dess skatteunderlag och självfinansiering, vilket bara kan
             göras genom en långt mer tillväxtvänlig näringslivspolitik och
-            förnyad arbetsmarknadspolitik. Stockholm den 24 januari 2003
+            förnyad arbetsmarknadspolitik.
           </p>
-          <p xml:id="i-8iG4QBnEPz9v3C6wfo2arG">
+          <p type="date" id="i-NDKvvDvaHTqPsgGai3EdyL">
+            Stockholm den 24 januari 2003
+          </p>
+          <p xml:id="i-8iG4QBnEPz9v3C6wfo2arG" type="signatureBlock">
             Ulrik Lindgren (kd)
           </p>
           <p xml:id="i-7B1Y4vNyZmS4M2oQdzYaaT">

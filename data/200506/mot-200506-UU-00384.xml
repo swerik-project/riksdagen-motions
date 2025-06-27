@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UU-00384">
   <teiHeader>
     <fileDesc>
@@ -111,16 +111,16 @@
           <note type="signatory" corresp="i-WCrN5vpCNm6z9SvfXfby4e"/>
           <note type="signatory" corresp="i-CvmaDbz8ueGm8meSVWj6vr"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AX3CAhTwouUq2iPMgEHvq5">
+        <correspAction xml:id="i-AX3CAhTwouUq2iPMgEHvq5" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ULhbA4nQmGKD3SZBBQrVK7">
+        <correspAction xml:id="i-ULhbA4nQmGKD3SZBBQrVK7" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Wnzjnavx231D8WZw87cvNY">
+        <correspAction xml:id="i-Wnzjnavx231D8WZw87cvNY" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-A2YGd41MjyYQnSFQmztd3m"/>
+        <correspAction xml:id="i-A2YGd41MjyYQnSFQmztd3m" type="assigned"/>
         <correspContext corresp="i-A2YGd41MjyYQnSFQmztd3m">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -135,11 +135,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_U_384/mot_200506_U_384-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3v851LRoCLVPbLWz7kq8Tp">
-        <div type="motTitle" xml:id="i-DsrX2A3QSa2DSVzjxtAthz"/>
-        <div type="motSubmissionInfo" xml:id="i-EqjVZzV55qbQTJUHBMeXA7"/>
+      <div xml:id="i-3v851LRoCLVPbLWz7kq8Tp" type="motHeader">
+        <div xml:id="i-DsrX2A3QSa2DSVzjxtAthz" type="motTitle"/>
+        <div xml:id="i-EqjVZzV55qbQTJUHBMeXA7" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2o52vCxVZPvfttifecvXL1">
+      <div xml:id="i-2o52vCxVZPvfttifecvXL1" type="motBody">
         <div xml:id="i-9FuAUoDMxzfyHwJ5NYDbZ8">
           <p xml:id="i-LFJiuUfM67EMi6KkSYYRB5">
             2005/06 mnr: U384 pnr: kd471
@@ -1182,8 +1182,11 @@
             trovärdighet står på spel, och det här bör bli en viktig fråga
             inför valet 2006.
           </p>
-          <p xml:id="i-HU5GxA42q2WJu6risQMGbq">
-            Stockholm den 5 oktober 2005 Holger Gustafsson (kd)
+          <p xml:id="i-HU5GxA42q2WJu6risQMGbq" type="date">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-MRs8ijxfUfFQQZWeMgdvC">
+            Holger Gustafsson (kd)
           </p>
           <p xml:id="i-6jcoHgtG5eArPqcZe5UydH">
             Rosita Runegrund (kd) Erling Wälivaara (kd) Else-Marie Lindgren

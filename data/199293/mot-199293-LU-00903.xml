@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-LU-00903">
   <teiHeader>
     <fileDesc>
@@ -54,28 +54,28 @@
           </person>
           <person gender="man">
             <idno>i-DMheKZZCYDtLzdvzFzc5vP</idno>
-            <name>Kenth Skårvik </name>
+            <name>Kenth Skårvik</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-LPu746JyqFfRCJu8F5NVmS</idno>
-            <name>Lars Svensk </name>
+            <name>Lars Svensk</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-4HwVdTBbapZ5KwNJtKs6Ux</idno>
-            <name>Marianne Andersson </name>
+            <name>Marianne Andersson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-FYyRXPgwp22BpTRV76t6ga</idno>
-            <name>Filip Fridolfsson </name>
+            <name>Filip Fridolfsson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -94,25 +94,25 @@
           <note type="signatory" corresp="i-4HwVdTBbapZ5KwNJtKs6Ux"/>
           <note type="signatory" corresp="i-FYyRXPgwp22BpTRV76t6ga"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AeWADSd7Mkwrtn63ck1PBX">
+        <correspAction xml:id="i-AeWADSd7Mkwrtn63ck1PBX" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2AwSTdsRtMXmWTFyxkETnr">
+        <correspAction xml:id="i-2AwSTdsRtMXmWTFyxkETnr" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XpxHVvJi5pVrba9Nqs2YBu">
+        <correspAction xml:id="i-XpxHVvJi5pVrba9Nqs2YBu" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-TVyp4YUmSPb3zuiW4tkcGt">
+        <correspAction xml:id="i-TVyp4YUmSPb3zuiW4tkcGt" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2f8rv67QcACjcPXRgKQScj">
+        <correspAction xml:id="i-2f8rv67QcACjcPXRgKQScj" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EpjNPzggwZwe6WnXAUz44m">
+        <correspAction xml:id="i-EpjNPzggwZwe6WnXAUz44m" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6FV1zxeKV45uMhtHWGAy8F"/>
+        <correspAction xml:id="i-6FV1zxeKV45uMhtHWGAy8F" type="assigned"/>
         <correspContext corresp="i-6FV1zxeKV45uMhtHWGAy8F">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -125,11 +125,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_LU_903/mot_199293_LU_903-001.pdf"/>
-      <div type="motHeader" xml:id="i-HRQiQbZpxsFb7VxtefawPq">
-        <div type="motTitle" xml:id="i-MHK94wbf9mCipgKakDgPg6"/>
-        <div type="motSubmissionInfo" xml:id="i-T8c7euY5uopGk66GFZkgre"/>
+      <div xml:id="i-HRQiQbZpxsFb7VxtefawPq" type="motHeader">
+        <div xml:id="i-MHK94wbf9mCipgKakDgPg6" type="motTitle"/>
+        <div xml:id="i-T8c7euY5uopGk66GFZkgre" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-V7zBCUckUGEP2fi3LNzV5t">
+      <div xml:id="i-V7zBCUckUGEP2fi3LNzV5t" type="motBody">
         <div xml:id="i-42gTqBCbas5bGMbvzRDJzk">
           <p xml:id="i-6SJH6motNyi2RAnKZmCFUi">
             Motion till riksdagen
@@ -224,9 +224,11 @@
             som sin mening ger regeringen till känna vad i mo- tionen anförts
             om behovet av en översyn av bestämmelserna om hä- leri.
           </p>
-          <p xml:id="i-8XueAx9fTyrDpFq3rVrk4K">
-            Stockholm den 25 januari 1993 Kenth Skårvik (fp) Marianne Andersson
-            (c) Filip Fridolfsson (m)
+          <p xml:id="i-8XueAx9fTyrDpFq3rVrk4K" type="date">
+            Stockholm den 25 januari 1993
+          </p>
+          <p type="signatureBlock" id="i-L1Sb1A6Za2CxY31HRxTaL">
+            Kenth Skårvik (fp) Marianne Andersson (c) Filip Fridolfsson (m)
           </p>
           <p xml:id="i-Kp3EkckcUJbCJkhQoHU9dL">
             Lars Svensk (kds)

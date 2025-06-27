@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00379">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Svqs1f6fKpBLPCBzw9cePe">
           <note type="signatory" corresp="i-HzSoQ1C7ZLGcuc11An72dD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-A9b92S7h77svgdJ8wf6TCb">
+        <correspAction xml:id="i-A9b92S7h77svgdJ8wf6TCb" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ucwR1rMU7uP7HVZ93nbNq">
+        <correspAction xml:id="i-ucwR1rMU7uP7HVZ93nbNq" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9nMLHsFiowHjn72mACqTcM">
+        <correspAction xml:id="i-9nMLHsFiowHjn72mACqTcM" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8T372g5zL9QmwBcZn3BaDm"/>
+        <correspAction xml:id="i-8T372g5zL9QmwBcZn3BaDm" type="assigned"/>
         <correspContext corresp="i-8T372g5zL9QmwBcZn3BaDm">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0379/mot_200304_Sf_0379-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2S8Hquji5Eq1VTYyyZaMpU">
-        <div type="motTitle" xml:id="i-NkFLWTTPp2yeyyquT8mUYq"/>
-        <div type="motSubmissionInfo" xml:id="i-2XTz5YGYqsonsKWHAbsd2y"/>
+      <div xml:id="i-2S8Hquji5Eq1VTYyyZaMpU" type="motHeader">
+        <div xml:id="i-NkFLWTTPp2yeyyquT8mUYq" type="motTitle"/>
+        <div xml:id="i-2XTz5YGYqsonsKWHAbsd2y" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TigHkgg1FcDg3n2id3XS7C">
+      <div xml:id="i-TigHkgg1FcDg3n2id3XS7C" type="motBody">
         <div xml:id="i-BqDCHVSoEmqEFWZ34USfG3">
           <p xml:id="i-7iVJdPkM6ydJXRHAo1cVJD">
             2003/04 mnr: Sf379 pnr: s36042
@@ -127,9 +127,12 @@
             det sofistikerade
           </p>
           <p xml:id="i-K36NVWNp8yzTWPguQuaeJo">
-            valsystemet. Stockholm den 2 oktober 2003
+            valsystemet.
           </p>
-          <p xml:id="i-YKpcgAeCfn7rkJQ4NunrYz">
+          <p type="date" id="i-XuMxVFwULq6qLEqUJvVCLD">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p xml:id="i-YKpcgAeCfn7rkJQ4NunrYz" type="signatureBlock">
             Leif Jakobsson (s)
           </p>
         </div>

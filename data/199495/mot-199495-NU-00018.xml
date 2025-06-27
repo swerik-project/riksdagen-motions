@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-NU-00018">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-5orH1EJN5hP5LGxnLXboj2</idno>
-            <name>Eva Goës </name>
+            <name>Eva Goës</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-FJ3qAMd2ReYtDiK92hL27W</idno>
-            <name>Barbro Johansson </name>
+            <name>Barbro Johansson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-EfLrWUocZwsV2PVnPdzohZ</idno>
-            <name>Birger Schlaug </name>
+            <name>Birger Schlaug</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Py42251res8EXD7LtZrydb"/>
+        <correspAction xml:id="i-Py42251res8EXD7LtZrydb" type="basedOn"/>
         <correspContext corresp="i-Py42251res8EXD7LtZrydb">
           <ref>Proposition 1994/95:184</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-FJ3qAMd2ReYtDiK92hL27W"/>
           <note type="signatory" corresp="i-EfLrWUocZwsV2PVnPdzohZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-A3k2wf4AoZb7JhJXjCykDb">
+        <correspAction xml:id="i-A3k2wf4AoZb7JhJXjCykDb" type="referral">
           <date when="1995-04-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7QovY8HWrL3onFxVNYRNhe">
+        <correspAction xml:id="i-7QovY8HWrL3onFxVNYRNhe" type="dismissal">
           <date when="1995-04-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DE9wTtgxyVUWZxGTEGK1GY">
+        <correspAction xml:id="i-DE9wTtgxyVUWZxGTEGK1GY" type="submission">
           <date when="1995-04-19"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-U8u1mKRo5wnTQdWEWMV6YH">
+        <correspAction xml:id="i-U8u1mKRo5wnTQdWEWMV6YH" type="referral">
           <date when="1995-04-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RTStxUBkkFnM7YTfnu6PtE">
+        <correspAction xml:id="i-RTStxUBkkFnM7YTfnu6PtE" type="dismissal">
           <date when="1995-04-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NRqRxurp7hmsbvegpZ64fM">
+        <correspAction xml:id="i-NRqRxurp7hmsbvegpZ64fM" type="submission">
           <date when="1995-04-19"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Co9EQb16HmjrKfga7DGtiQ"/>
+        <correspAction xml:id="i-Co9EQb16HmjrKfga7DGtiQ" type="assigned"/>
         <correspContext corresp="i-Co9EQb16HmjrKfga7DGtiQ">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_NU_18/mot_199495_NU_18-001.pdf"/>
-      <div type="motHeader" xml:id="i-9oR4TFQ2rjwrZHTEocFfbM">
-        <div type="motTitle" xml:id="i-BranTkb9qbGqfpM5NLHBbt"/>
-        <div type="motSubmissionInfo" xml:id="i-Uw6cWMhNu7NnpFjFRNe97y"/>
+      <div xml:id="i-9oR4TFQ2rjwrZHTEocFfbM" type="motHeader">
+        <div xml:id="i-BranTkb9qbGqfpM5NLHBbt" type="motTitle"/>
+        <div xml:id="i-Uw6cWMhNu7NnpFjFRNe97y" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XYgM8pZE928xWp1A4stzYc">
+      <div xml:id="i-XYgM8pZE928xWp1A4stzYc" type="motBody">
         <div xml:id="i-SVojfCzBAQnZQhXcGmjaNQ">
           <p xml:id="i-Urxskcw6oU38AEHLUeFJy4">
             Motion till riksdagen 1994/95:N18
@@ -240,8 +240,11 @@
             3. att riksdagen som sin mening ger regeringen till känna vad
             i mo- Mot. 1994/95 tionen anförts om trafikförsäkringar. NI18
           </p>
-          <p xml:id="i-5QA2pxtYYbDbBsJXex7YSN">
-            Stockholm den 19 april 1995 Eva Goés (mp)
+          <p xml:id="i-5QA2pxtYYbDbBsJXex7YSN" type="date">
+            Stockholm den 19 april 1995
+          </p>
+          <p type="signatureBlock" id="i-8Sf15uHpocKp72AHsw6ZeC">
+            Eva Goés (mp)
           </p>
           <p xml:id="i-oqS4cRysYa6SKVCWVp2ZX">
             Birger Schlaug (mp) Barbro Johansson (mp)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-UbU-00238">
   <teiHeader>
     <fileDesc>
@@ -38,34 +38,34 @@
         <correspContext corresp="i-963gXg3UBktUPkGRX6U7eZ">
           <note type="signatory" corresp="i-9Kt7koTgzUZUA9ovNXYdWj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GpL88pJ8BL8Du866YwvRiY">
+        <correspAction xml:id="i-GpL88pJ8BL8Du866YwvRiY" type="referral">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JinjEGagTq5UUTF2x8PiUd">
+        <correspAction xml:id="i-JinjEGagTq5UUTF2x8PiUd" type="dismissal">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-JY5TqzdAVcBZmKjo6w8dg">
+        <correspAction xml:id="i-JY5TqzdAVcBZmKjo6w8dg" type="termination">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-K3Lnwt285u5kY6utLRoWsX">
+        <correspAction xml:id="i-K3Lnwt285u5kY6utLRoWsX" type="submission">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-Fqp3mrX1RDuRFZ3URj6MVg">
+        <correspAction xml:id="i-Fqp3mrX1RDuRFZ3URj6MVg" type="numbering">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-EmGVi26FiMGajpr125mVdw">
+        <correspAction xml:id="i-EmGVi26FiMGajpr125mVdw" type="proposed_referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-X9XMSMM5kD82PETfhi5c2p">
+        <correspAction xml:id="i-X9XMSMM5kD82PETfhi5c2p" type="committee_proposal">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-WKrtsm5MNTGyCSXDXHy9hH">
+        <correspAction xml:id="i-WKrtsm5MNTGyCSXDXHy9hH" type="reviewing">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-J2AUHJ1ayx7317D8pHLLKv">
+        <correspAction xml:id="i-J2AUHJ1ayx7317D8pHLLKv" type="registration">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-63XnXZMhae4gLvnyPwhuh2"/>
+        <correspAction xml:id="i-63XnXZMhae4gLvnyPwhuh2" type="assigned"/>
         <correspContext corresp="i-63XnXZMhae4gLvnyPwhuh2">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -80,11 +80,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Ub_0238/mot_200102_Ub_0238-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Kzk9daPDz5BppJgecfCc7x">
-        <div type="motTitle" xml:id="i-3BNS6Nsz92f1NLeS8aXnN9"/>
-        <div type="motSubmissionInfo" xml:id="i-VBVBe3noV5JjaPHhTm3ZCD"/>
+      <div xml:id="i-Kzk9daPDz5BppJgecfCc7x" type="motHeader">
+        <div xml:id="i-3BNS6Nsz92f1NLeS8aXnN9" type="motTitle"/>
+        <div xml:id="i-VBVBe3noV5JjaPHhTm3ZCD" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KQUS1p5tXk7cmPSLmBRmsB">
+      <div xml:id="i-KQUS1p5tXk7cmPSLmBRmsB" type="motBody">
         <div xml:id="i-RyiDhjVoXBhi6CzuEFVz6D">
           <p xml:id="i-UT3eoUSTDayTQZAEKnQAFB">
             2001/02 mnr: Ub238 pnr: m1210
@@ -141,9 +141,12 @@
           </p>
           <p xml:id="i-2dcMopxqMJkZ5gMiTWJSYo">
             dvs. från samma ålder som gäller för studiemedel vid universitets-
-            och högskolestudier. Stockholm den 25 september 2001
+            och högskolestudier.
           </p>
-          <p xml:id="i-7YuBd76vASvx2NcBpuruCH">
+          <p type="date" id="i-75wC7LiEpD3QcVgVHi3UA1">
+            Stockholm den 25 september 2001
+          </p>
+          <p xml:id="i-7YuBd76vASvx2NcBpuruCH" type="signatureBlock">
             Marietta de Pourbaix-Lundin (m)
           </p>
         </div>

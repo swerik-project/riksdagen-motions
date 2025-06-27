@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-FiU-00036">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-Gcjbk3nJyjWXPaa2dm3MFR</idno>
-            <name>Elver Jonsson </name>
+            <name>Elver Jonsson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8qVUrwzB5eenJ8tpJ5DJok"/>
+        <correspAction xml:id="i-8qVUrwzB5eenJ8tpJ5DJok" type="basedOn"/>
         <correspContext corresp="i-8qVUrwzB5eenJ8tpJ5DJok">
           <ref>Proposition 1999/2000:100</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-Gcjbk3nJyjWXPaa2dm3MFR"/>
           <note type="signatory" corresp="i-Gcjbk3nJyjWXPaa2dm3MFR"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4C2hAaPGDjvwSYK8xnW3HC">
+        <correspAction xml:id="i-4C2hAaPGDjvwSYK8xnW3HC" type="referral">
           <date when="2000-05-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QgkdiKTHYQd1ptCsvPDUnE">
+        <correspAction xml:id="i-QgkdiKTHYQd1ptCsvPDUnE" type="dismissal">
           <date when="2000-05-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Lz4ALCYXfnthwcXr15VMXV">
+        <correspAction xml:id="i-Lz4ALCYXfnthwcXr15VMXV" type="submission">
           <date when="2000-04-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-34CjyvUE3D64oadvPRNjuA">
+        <correspAction xml:id="i-34CjyvUE3D64oadvPRNjuA" type="referral">
           <date when="2000-05-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WTtCw41FzDKmDwVrTiBZMD">
+        <correspAction xml:id="i-WTtCw41FzDKmDwVrTiBZMD" type="dismissal">
           <date when="2000-05-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FmfdCHd1p8J2FmF3eYF4vr">
+        <correspAction xml:id="i-FmfdCHd1p8J2FmF3eYF4vr" type="submission">
           <date when="2000-04-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4eEPXqzS27eRHVKR5kRd3t"/>
+        <correspAction xml:id="i-4eEPXqzS27eRHVKR5kRd3t" type="assigned"/>
         <correspContext corresp="i-4eEPXqzS27eRHVKR5kRd3t">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fi_0036/mot_199900_Fi_0036-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LxMqkWwrfhugq965Q8gE49">
-        <div type="motTitle" xml:id="i-UQ7gvczwBEsLVCWZvqx6n5"/>
-        <div type="motSubmissionInfo" xml:id="i-SdjD2xq78vyDPmZ31RajvY"/>
+      <div xml:id="i-LxMqkWwrfhugq965Q8gE49" type="motHeader">
+        <div xml:id="i-UQ7gvczwBEsLVCWZvqx6n5" type="motTitle"/>
+        <div xml:id="i-SdjD2xq78vyDPmZ31RajvY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7RhXFBuBqnRjFbRVdD4ZsA">
+      <div xml:id="i-7RhXFBuBqnRjFbRVdD4ZsA" type="motBody">
         <div xml:id="i-DX3cpG7mhXmbaya3KGQu3Q">
           <p xml:id="i-5arDWXqBADm9HWfgMSTZPC">
             1999/2000 mnr: Fi36 pnr: fp1212
@@ -138,8 +138,11 @@
             finansierade enligt PPP-principen.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fi_0036/mot_199900_Fi_0036-0002.pdf"/>
-          <p xml:id="i-ED5NzFhy7gHdFGWXXUsxZw">
-            Stockholm den 28 april 2000 1999/2000 Fi36 Elver Jonsson (fp)
+          <p xml:id="i-ED5NzFhy7gHdFGWXXUsxZw" type="date">
+            Stockholm den 28 april 2000
+          </p>
+          <p type="signatureBlock" id="i-5zFkk6U7BH1z4gkriiGTRR">
+            1999/2000 Fi36 Elver Jonsson (fp)
           </p>
         </div>
       </div>

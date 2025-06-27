@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00404">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-GCgP8KvKLBX78LzNFG3fsq">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SBfFrjaUsoGwrEchNh4Nag">
+        <correspAction xml:id="i-SBfFrjaUsoGwrEchNh4Nag" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BVtApmwZbsUFEcFfbovDju">
+        <correspAction xml:id="i-BVtApmwZbsUFEcFfbovDju" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ED7d7UZLgtHMGTAm2a16QK">
+        <correspAction xml:id="i-ED7d7UZLgtHMGTAm2a16QK" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BaBLJS1EsqG2Q5g9qDGr8m"/>
+        <correspAction xml:id="i-BaBLJS1EsqG2Q5g9qDGr8m" type="assigned"/>
         <correspContext corresp="i-BaBLJS1EsqG2Q5g9qDGr8m">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_404/mot_200405_So_404-0001.pdf"/>
-      <div type="motHeader" xml:id="i-H9QGe6HRnmKes96smgeTHM">
-        <div type="motTitle" xml:id="i-7jgdpt9CiFiJQjVRUAn9S7"/>
-        <div type="motSubmissionInfo" xml:id="i-Ruc7CFy2ErUYHr4zHZU9XV"/>
+      <div xml:id="i-H9QGe6HRnmKes96smgeTHM" type="motHeader">
+        <div xml:id="i-7jgdpt9CiFiJQjVRUAn9S7" type="motTitle"/>
+        <div xml:id="i-Ruc7CFy2ErUYHr4zHZU9XV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JQJuusowBGLGuz3DD8pnaJ">
+      <div xml:id="i-JQJuusowBGLGuz3DD8pnaJ" type="motBody">
         <div xml:id="i-LdGjA9ZHTdbPfbcuoTJS2q">
           <p xml:id="i-55g3khQJLzXW2gMQYzuPgF">
             2004/05 mnr: S0404 pnr: kd724
@@ -131,8 +131,11 @@
             och urholka den restriktiva narkotikapolitiken. Därför anser jag
             att alla former av sprutbytesverksamhet skall förbjudas.
           </p>
-          <p xml:id="i-QEqNVTS2aJddB7H79LczQm">
-            Stockholm den 30 september 2004 Annelie Enochson (kd)
+          <p xml:id="i-QEqNVTS2aJddB7H79LczQm" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-Xf8qgu9shyMHuydsbYSUQs">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

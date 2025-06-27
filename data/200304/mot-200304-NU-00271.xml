@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-NU-00271">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-GQtsD7umg1zLDUsChFD4xi">
           <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KC52sMhnzhiCokeyCpGLUo">
+        <correspAction xml:id="i-KC52sMhnzhiCokeyCpGLUo" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9qaNk9TqkBXwtoQnZ6zcys">
+        <correspAction xml:id="i-9qaNk9TqkBXwtoQnZ6zcys" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BJFW1qwqfP3ka3wZmSRyne">
+        <correspAction xml:id="i-BJFW1qwqfP3ka3wZmSRyne" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-ERRVYfRPQUp1PV3aa22kFu"/>
+        <correspAction xml:id="i-ERRVYfRPQUp1PV3aa22kFu" type="assigned"/>
         <correspContext corresp="i-ERRVYfRPQUp1PV3aa22kFu">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_N_0271/mot_200304_N_0271-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XnzLcLWZwkt8XwkoBrAztR">
-        <div type="motTitle" xml:id="i-8ySTpsqdv1ev9GwPHgVUEd"/>
-        <div type="motSubmissionInfo" xml:id="i-4o4tV5zKHHcVZ9r5zwrGHc"/>
+      <div xml:id="i-XnzLcLWZwkt8XwkoBrAztR" type="motHeader">
+        <div xml:id="i-8ySTpsqdv1ev9GwPHgVUEd" type="motTitle"/>
+        <div xml:id="i-4o4tV5zKHHcVZ9r5zwrGHc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Su9h5KPFPXHZc48ZyYQg8H">
+      <div xml:id="i-Su9h5KPFPXHZc48ZyYQg8H" type="motBody">
         <div xml:id="i-GepyM1aZTayzbYWYiNTiMK">
           <p xml:id="i-2HiPkZusoJdyKg7Kpa3qSx">
             2003/04 mnr: N271 pnr: kd744
@@ -117,8 +117,11 @@
           <p xml:id="i-Hcv3XwsQe5Xnmhd9dZUYWb">
             2003/04:N271
           </p>
-          <p xml:id="i-XwNxowNHTWQeXrzFD34GEg">
-            Stockholm den 2 oktober 2003 Erling Wälivaara (kd)
+          <p xml:id="i-XwNxowNHTWQeXrzFD34GEg" type="date">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-4MnPvsWUDARE9YwrGcJfvb">
+            Erling Wälivaara (kd)
           </p>
         </div>
       </div>

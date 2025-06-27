@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00394">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-AjsJKaJjNJocMysdD5QZtC">
           <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5CTG8iSJeXuSLGBw43PHrW">
+        <correspAction xml:id="i-5CTG8iSJeXuSLGBw43PHrW" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JNQZptZ4nCthjvyYoSN2CW">
+        <correspAction xml:id="i-JNQZptZ4nCthjvyYoSN2CW" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3nLmqAWg1VZLcibFfuw8tW">
+        <correspAction xml:id="i-3nLmqAWg1VZLcibFfuw8tW" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-THAq6MwACP7HcdtQymQ2qH"/>
+        <correspAction xml:id="i-THAq6MwACP7HcdtQymQ2qH" type="assigned"/>
         <correspContext corresp="i-THAq6MwACP7HcdtQymQ2qH">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_So_0394/mot_200203_So_0394-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2VC42FY7hDbRuXa2j8Vwaf">
-        <div type="motTitle" xml:id="i-EkxhFQnwRqHNzibYgDt7RL"/>
-        <div type="motSubmissionInfo" xml:id="i-Rui5yMvwp6RWC7nStXH6Dg"/>
+      <div xml:id="i-2VC42FY7hDbRuXa2j8Vwaf" type="motHeader">
+        <div xml:id="i-EkxhFQnwRqHNzibYgDt7RL" type="motTitle"/>
+        <div xml:id="i-Rui5yMvwp6RWC7nStXH6Dg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TLveb26GoAqiXcZQ7heLMT">
+      <div xml:id="i-TLveb26GoAqiXcZQ7heLMT" type="motBody">
         <div xml:id="i-E4GA2oYrb2gpMmPw7f2mRc">
           <p xml:id="i-Czn9ZzPvVrf7viZtaYfiwc">
             16
@@ -174,8 +174,11 @@
             riksdagen bör ge regeringen till känna att försäljningen av folköl
             endast ska få ske på Systembolaget.
           </p>
-          <p xml:id="i-3SfffuRnZuF5NEwkVhfe16">
-            Stockholm den 19 oktober 2002 Tasso Stafilidis (v)
+          <p xml:id="i-3SfffuRnZuF5NEwkVhfe16" type="date">
+            Stockholm den 19 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-HAgek4KQVix6xM2y7TsDak">
+            Tasso Stafilidis (v)
           </p>
         </div>
       </div>

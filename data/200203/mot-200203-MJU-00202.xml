@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00202">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-HbV9pbZgy3daxTMdza7Fac">
           <note type="signatory" corresp="i-6Lf4ZWSEWXurZm4mkDAE7B"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MbQxeyhQPQkaMP39PMVbdP">
+        <correspAction xml:id="i-MbQxeyhQPQkaMP39PMVbdP" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XSpXM8jmnHG4apXL9MFrR8">
+        <correspAction xml:id="i-XSpXM8jmnHG4apXL9MFrR8" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Xh7Fz6VirKNPkKqxxLi9sU">
+        <correspAction xml:id="i-Xh7Fz6VirKNPkKqxxLi9sU" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-A3yEeSXwgFNZ4j6MqURL6U"/>
+        <correspAction xml:id="i-A3yEeSXwgFNZ4j6MqURL6U" type="assigned"/>
         <correspContext corresp="i-A3yEeSXwgFNZ4j6MqURL6U">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_MJ_0202/mot_200203_MJ_0202-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Jn2MfC37mipMkMh3q15Hsy">
-        <div type="motTitle" xml:id="i-BZ6qMZc1WvEZKBu6SSMqCh"/>
-        <div type="motSubmissionInfo" xml:id="i-HDQPRASGX4sehaXQtRXSRW"/>
+      <div xml:id="i-Jn2MfC37mipMkMh3q15Hsy" type="motHeader">
+        <div xml:id="i-BZ6qMZc1WvEZKBu6SSMqCh" type="motTitle"/>
+        <div xml:id="i-HDQPRASGX4sehaXQtRXSRW" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9oG7dYSNqx5emYjyoiPCU6">
+      <div xml:id="i-9oG7dYSNqx5emYjyoiPCU6" type="motBody">
         <div xml:id="i-Qmn4NVFiCYpeSFhQwaEAP">
           <p xml:id="i-HNS7j3nuGnspRbQcY1ZmER">
             2002/03 mnr: MJ202 pnr: m1017
@@ -118,8 +118,11 @@
           <p xml:id="i-ELU6NiiQPZXB5qc6y66YgH">
             2002/03:MJ202
           </p>
-          <p xml:id="i-Hrs3VXsD3xLR2CgfJ4qWab">
-            Stockholm den 3 oktober 2002 Carl-Axel Johansson (m)
+          <p xml:id="i-Hrs3VXsD3xLR2CgfJ4qWab" type="date">
+            Stockholm den 3 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-HygPwpHuGyWXjdngxWTjF2">
+            Carl-Axel Johansson (m)
           </p>
         </div>
       </div>

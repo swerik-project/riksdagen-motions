@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00244">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-GdRB96tiottRXkLA5J52E3">
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MgdVkdi4Hv1rFzGqyoi3eN">
+        <correspAction xml:id="i-MgdVkdi4Hv1rFzGqyoi3eN" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6KrqiwtmrZDPVkqfg7i6ig">
+        <correspAction xml:id="i-6KrqiwtmrZDPVkqfg7i6ig" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GEJ4t62jFGvw4vQjniagfe">
+        <correspAction xml:id="i-GEJ4t62jFGvw4vQjniagfe" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8Hd1ZaJ1WNg9knjyDckfzC"/>
+        <correspAction xml:id="i-8Hd1ZaJ1WNg9knjyDckfzC" type="assigned"/>
         <correspContext corresp="i-8Hd1ZaJ1WNg9knjyDckfzC">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_244/mot_200506_Sf_244-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JvKnstV66ZffRWcFoPZibH">
-        <div type="motTitle" xml:id="i-PPmKKfLnoaESjvwmw51GGU"/>
-        <div type="motSubmissionInfo" xml:id="i-SRkHRQJmZGKq1tWzkanXRx"/>
+      <div xml:id="i-JvKnstV66ZffRWcFoPZibH" type="motHeader">
+        <div xml:id="i-PPmKKfLnoaESjvwmw51GGU" type="motTitle"/>
+        <div xml:id="i-SRkHRQJmZGKq1tWzkanXRx" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Km5Nsh6fdG2n3yV5rb9Z3M">
+      <div xml:id="i-Km5Nsh6fdG2n3yV5rb9Z3M" type="motBody">
         <div xml:id="i-Xb5yLike1pkVYqESnnKXzo">
           <p xml:id="i-Q3yZdgEKmKNWgh2gpWsaUJ">
             2005/06 mnr: Sf244 pnr: kd665
@@ -116,8 +116,11 @@
             och en har sin ekonomi och därför anser jag att det är rimligt
             att kräva en översyn av dessa regler.
           </p>
-          <p xml:id="i-BgPkkeKZsagWtZ3HT3gT8B">
-            Stockholm den 19 september 2005 Gunilla Tjernberg (kd)
+          <p xml:id="i-BgPkkeKZsagWtZ3HT3gT8B" type="date">
+            Stockholm den 19 september 2005
+          </p>
+          <p type="signatureBlock" id="i-NgRLwngRKTB5PHqoqJ9zRB">
+            Gunilla Tjernberg (kd)
           </p>
         </div>
       </div>

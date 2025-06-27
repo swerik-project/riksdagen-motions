@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FiU-00016">
   <teiHeader>
     <fileDesc>
@@ -90,7 +90,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-HNg82HUm6nkEgYLwarz3Nh"/>
+        <correspAction xml:id="i-HNg82HUm6nkEgYLwarz3Nh" type="basedOn"/>
         <correspContext corresp="i-HNg82HUm6nkEgYLwarz3Nh">
           <ref>Proposition 2002/03:100</ref>
         </correspContext>
@@ -106,16 +106,16 @@
           <note type="signatory" corresp="i-PsSysCdjrkuVBAo163T4KM"/>
           <note type="signatory" corresp="i-NbYfhm8ZWHtRw5CgJqJe42"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4ntYYDVX4dkfjyX2PtF3by">
+        <correspAction xml:id="i-4ntYYDVX4dkfjyX2PtF3by" type="referral">
           <date when="2003-05-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Lt6Z7DgbDXrz278ZEbUE1R">
+        <correspAction xml:id="i-Lt6Z7DgbDXrz278ZEbUE1R" type="dismissal">
           <date when="2003-05-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CGkhcDnpTcBVoAQ8ZP4Rqc">
+        <correspAction xml:id="i-CGkhcDnpTcBVoAQ8ZP4Rqc" type="submission">
           <date when="2003-05-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SM9CJcS2BThoQSYf1CqkPe"/>
+        <correspAction xml:id="i-SM9CJcS2BThoQSYf1CqkPe" type="assigned"/>
         <correspContext corresp="i-SM9CJcS2BThoQSYf1CqkPe">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -130,11 +130,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fi_0016/mot_200203_Fi_0016-0001.pdf"/>
-      <div type="motHeader" xml:id="i-GfAcykEH4zGKuat9L2JR5f">
-        <div type="motTitle" xml:id="i-KcMwhQFUQNFWGjyWkPx1Xg"/>
-        <div type="motSubmissionInfo" xml:id="i-Rdzvn4uzocApGcwHZnZWPH"/>
+      <div xml:id="i-GfAcykEH4zGKuat9L2JR5f" type="motHeader">
+        <div xml:id="i-KcMwhQFUQNFWGjyWkPx1Xg" type="motTitle"/>
+        <div xml:id="i-Rdzvn4uzocApGcwHZnZWPH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-E1UArLt9hXdiFuMnc1Ts95">
+      <div xml:id="i-E1UArLt9hXdiFuMnc1Ts95" type="motBody">
         <div xml:id="i-7LTLRdkkgaUKjTjDqtDndh">
           <p xml:id="i-5CRWzYxoN2d8xdgM252Hbb">
             2002/03 mnr: Fi16 pnr: kd100
@@ -1757,8 +1757,8 @@
             kronor. Detta innebär att även om utgiftsökningen, åtminstone
             i Socialdemokraternas prognoser, har = hejdats något så = förväntas
             ohälsoutgifterna i genomsnitt öka med drygt 18,5 miljoner kronor
-            per dag under hela nioårsperioden 1997-2006. Det &lt;ohämmade &lt;&lt;
-            budgettrixandet med = utgiftstaket = fortsätter. Socialdemokraterna
+            per dag under hela nioårsperioden 1997-2006. Det &lt;ohämmade
+            &lt;&lt; budgettrixandet med = utgiftstaket = fortsätter. Socialdemokraterna
             flyttar ytterligare ett stöd på arbetsmarknadsområdet (OSA) från
             statsbudgetens utgiftssida till dess inkomstsida. Därmed ”skapas”
             ett nytt utrymme under utgiftstaket på 785 miljoner kronor. Att
@@ -1905,9 +1905,9 @@
             länder 1970-1996
           </p>
           <p xml:id="i-BTCjWvAHUbCmp3vX8p8bPx">
-            60,0 50,0 SD NM fy FH vs 2 400 2 240 Lå &amp; lo är R ut” oo Ty .
-            E E 200 ä use SF Por JP E 200 i z E 100 : H å 00 00 05 AO LS 20
-            25 30 35 40 45 50 Genomsnittlig tillväxttakt, procent
+            60,0 50,0 SD NM fy FH vs 2 400 2 240 Lå &amp; lo är R ut” oo
+            Ty . E E 200 ä use SF Por JP E 200 i z E 100 : H å 00 00 05 AO
+            LS 20 25 30 35 40 45 50 Genomsnittlig tillväxttakt, procent
           </p>
           <p xml:id="i-QRffzRjAbwJYzEGrrPK3Wp">
             Källa: OECD
@@ -6362,8 +6362,11 @@
             och en ökning av budgeteringsmarginalen med drygt 3,5 miljarder
             kronor.
           </p>
-          <p xml:id="i-N5eS2ZrhbnQMWotnmQu5cp">
-            Stockholm den 5 maj 2003 Alf Svensson (kd)
+          <p xml:id="i-N5eS2ZrhbnQMWotnmQu5cp" type="date">
+            Stockholm den 5 maj 2003
+          </p>
+          <p type="signatureBlock" id="i-TE54PzquxMVDVqiB6QpHmr">
+            Alf Svensson (kd)
           </p>
           <p xml:id="i-Ng7HvdyVWdYM7yDu9Lwama">
             Inger Davidson (kd) Stefan Attefall (kd) Göran Hägglund (kd)

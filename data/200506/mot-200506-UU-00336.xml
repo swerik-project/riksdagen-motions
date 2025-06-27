@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UU-00336">
   <teiHeader>
     <fileDesc>
@@ -167,16 +167,16 @@
           <note type="signatory" corresp="i-nX9ipUS8FhkbQHkWWytwf"/>
           <note type="signatory" corresp="i-QKE6ihmLRJvwhV4neD6h7b"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QJBFUSLchwwzPYKQaDy5xz">
+        <correspAction xml:id="i-QJBFUSLchwwzPYKQaDy5xz" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8L5NNSG6rxtJRQhc75XswT">
+        <correspAction xml:id="i-8L5NNSG6rxtJRQhc75XswT" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WYArSiSoxe8qPCct4vg5Xb">
+        <correspAction xml:id="i-WYArSiSoxe8qPCct4vg5Xb" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Rj75E34EF8iSDjP8nWRvUe"/>
+        <correspAction xml:id="i-Rj75E34EF8iSDjP8nWRvUe" type="assigned"/>
         <correspContext corresp="i-Rj75E34EF8iSDjP8nWRvUe">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -191,11 +191,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_U_336/mot_200506_U_336-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LN9JcYn34bywRe5dBeUEec">
-        <div type="motTitle" xml:id="i-KEfGB6XfiXEBjUbaB9Vtfm"/>
-        <div type="motSubmissionInfo" xml:id="i-Nv4viF7cd2E8yP7drbxdEm"/>
+      <div xml:id="i-LN9JcYn34bywRe5dBeUEec" type="motHeader">
+        <div xml:id="i-KEfGB6XfiXEBjUbaB9Vtfm" type="motTitle"/>
+        <div xml:id="i-Nv4viF7cd2E8yP7drbxdEm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9ZH1AxQQubjT4t7WT3wJYn">
+      <div xml:id="i-9ZH1AxQQubjT4t7WT3wJYn" type="motBody">
         <div xml:id="i-U2Yh9wZ6oNb7CvTUizq72o">
           <p xml:id="i-36ed98qBqPXnmcRvxdNDu2">
             2005/06 mnr: U336 pnr: fp017
@@ -1961,10 +1961,12 @@
             förutsättning för att biståndet skall bli verksamt. Detta är också
             ett faktum som Sida tydligt pekar på i sitt budgetunderlag till
             regeringen för 2006. Vi vill också betona vikten av utvärderingar
-            och uppföljning i biståndsarbetet för ökad effektivitet. Stockholm
-            den 30 september 2005
+            och uppföljning i biståndsarbetet för ökad effektivitet.
           </p>
-          <p xml:id="i-C3JzsN4RGSx2BhVRSAgxNB">
+          <p type="date" id="i-KucM4oiZxRK3oxXxFUdBCz">
+            Stockholm den 30 september 2005
+          </p>
+          <p xml:id="i-C3JzsN4RGSx2BhVRSAgxNB" type="signatureBlock">
             Lars Leijonborg (fp) Cecilia Wigström (fp) Birgitta Ohlsson (fp)
             Cecilia Wikström (fp) Allan Widman (fp) Gabriel Romanus (fp) Nina
             Lundström (fp) Bo Könberg (fp) Martin Andreasson (fp) Marita Aronson

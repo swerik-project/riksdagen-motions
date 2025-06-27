@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00440">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-XNeqerEHV9w4MzzhZ6ujEx">
           <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4ASdoD1BTrhWHXLbQxVRfG">
+        <correspAction xml:id="i-4ASdoD1BTrhWHXLbQxVRfG" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KaKmNeMrrAMmmjt7pp9iWj">
+        <correspAction xml:id="i-KaKmNeMrrAMmmjt7pp9iWj" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XALZ76s32BX7LZz6i5fidn">
+        <correspAction xml:id="i-XALZ76s32BX7LZz6i5fidn" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Q1RgxCiBaFhaXRtVw3N7vQ"/>
+        <correspAction xml:id="i-Q1RgxCiBaFhaXRtVw3N7vQ" type="assigned"/>
         <correspContext corresp="i-Q1RgxCiBaFhaXRtVw3N7vQ">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ju_0440/mot_200304_Ju_0440-0001.pdf"/>
-      <div type="motHeader" xml:id="i-YWdnnHh73MkQxPiuevMKkk">
-        <div type="motTitle" xml:id="i-RgqBygLjLjAvawZM2F3Eo6"/>
-        <div type="motSubmissionInfo" xml:id="i-Bpb1TBosxddpHwfrYZ3L8h"/>
+      <div xml:id="i-YWdnnHh73MkQxPiuevMKkk" type="motHeader">
+        <div xml:id="i-RgqBygLjLjAvawZM2F3Eo6" type="motTitle"/>
+        <div xml:id="i-Bpb1TBosxddpHwfrYZ3L8h" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Kg6UGmgXyJw7xEUj3EW6Tj">
+      <div xml:id="i-Kg6UGmgXyJw7xEUj3EW6Tj" type="motBody">
         <div xml:id="i-BrWkbroYgS4e2QFYJRnH4p">
           <p xml:id="i-97aE2eVvm65pXA2u8h2k8c">
             2003/04 mnr: Ju440 pnr: fp902
@@ -104,8 +104,11 @@
             som prismässigt är mycket billigare än den variant på fotboja
             som används idag.
           </p>
-          <p xml:id="i-EoUHaZ27n7ScKqrpPZNxPx">
-            Stockholm den 7 oktober 2003 Christer Winbäck (fp)
+          <p xml:id="i-EoUHaZ27n7ScKqrpPZNxPx" type="date">
+            Stockholm den 7 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-6xWWJ4wQ9oKBfMXP4peDMg">
+            Christer Winbäck (fp)
           </p>
         </div>
       </div>

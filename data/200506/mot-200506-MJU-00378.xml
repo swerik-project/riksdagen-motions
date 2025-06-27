@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00378">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-ALWFfJzKePCjx73DQaMpkK">
           <note type="signatory" corresp="i-R9MuNkxgtjYredKHhh6ujV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5jJ9ANJnPJeaCpSfnUDpjP">
+        <correspAction xml:id="i-5jJ9ANJnPJeaCpSfnUDpjP" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SnyawzHKVg5sKp6mevGQXy">
+        <correspAction xml:id="i-SnyawzHKVg5sKp6mevGQXy" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DWKY8fqKvciKozX83wiWA8">
+        <correspAction xml:id="i-DWKY8fqKvciKozX83wiWA8" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7488sv5raPNrjj5pYdMzcS"/>
+        <correspAction xml:id="i-7488sv5raPNrjj5pYdMzcS" type="assigned"/>
         <correspContext corresp="i-7488sv5raPNrjj5pYdMzcS">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_378/mot_200506_MJ_378-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9wxMaqXM5wGe4nd2X7zaRT">
-        <div type="motTitle" xml:id="i-Wr4Nf2u5YLQVqWJYCh7rZ2"/>
-        <div type="motSubmissionInfo" xml:id="i-Rvxp1LH4t1g7rpKDXgV7MX"/>
+      <div xml:id="i-9wxMaqXM5wGe4nd2X7zaRT" type="motHeader">
+        <div xml:id="i-Wr4Nf2u5YLQVqWJYCh7rZ2" type="motTitle"/>
+        <div xml:id="i-Rvxp1LH4t1g7rpKDXgV7MX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-V4oN4a1aTsnpxjzMN3n9P2">
+      <div xml:id="i-V4oN4a1aTsnpxjzMN3n9P2" type="motBody">
         <div xml:id="i-8MWMUi5mj3MS8ekP2UD82h">
           <p xml:id="i-Dx3uChQq5TuHEUoQCE2Z71">
             2005/06 mnr: MJ378 pnr: m1609
@@ -108,8 +108,11 @@
             intressen bör verka för att generiska begrepp inte missbrukas
             för enskilda kommersiella intressen.
           </p>
-          <p xml:id="i-7iMj7VvYz5DNYPqWoJCkhv">
-            Stockholm den 3 oktober 2003 Per Bill (m)
+          <p xml:id="i-7iMj7VvYz5DNYPqWoJCkhv" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-BYPjGzY1WJaEt4Lxo3TPYh">
+            Per Bill (m)
           </p>
         </div>
       </div>

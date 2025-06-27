@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UU-00291">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-X4wcJGPCyffnhV1ocfk2op">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HsdCxPemPBhP3qq6mw6Zez">
+        <correspAction xml:id="i-HsdCxPemPBhP3qq6mw6Zez" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WC753776sLPxpNF9BdveEs">
+        <correspAction xml:id="i-WC753776sLPxpNF9BdveEs" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-89Qr5TyoKQuvGV4fAavtqN">
+        <correspAction xml:id="i-89Qr5TyoKQuvGV4fAavtqN" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Qes9LuuJb7jpjeTSDZPcL1"/>
+        <correspAction xml:id="i-Qes9LuuJb7jpjeTSDZPcL1" type="assigned"/>
         <correspContext corresp="i-Qes9LuuJb7jpjeTSDZPcL1">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_U_291/mot_200506_U_291-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CeUQa2TBQswhAYuE2zA2kL">
-        <div type="motTitle" xml:id="i-G4Ai9juZPPNSf4C8mu8xri"/>
-        <div type="motSubmissionInfo" xml:id="i-KhY51LReZXKQnJs1J2CBoh"/>
+      <div xml:id="i-CeUQa2TBQswhAYuE2zA2kL" type="motHeader">
+        <div xml:id="i-G4Ai9juZPPNSf4C8mu8xri" type="motTitle"/>
+        <div xml:id="i-KhY51LReZXKQnJs1J2CBoh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Nx9xEhTCLzCotfFCFR6G97">
+      <div xml:id="i-Nx9xEhTCLzCotfFCFR6G97" type="motBody">
         <div xml:id="i-3c1Px8hx9UEa9CyzZSiKoW">
           <p xml:id="i-AGTwG61FNkM6k5Nen2K2zN">
             2005/06 mnr: U291 pnr: kd671
@@ -240,8 +240,11 @@
           <p xml:id="i-45rnWRxgMr4E6U938Nbe8k">
             2005/06:U291
           </p>
-          <p xml:id="i-8q6SXhPKnWvbTLzxNSu3Qx">
-            Stockholm den 26 september 2005 Annelie Enochson (kd)
+          <p xml:id="i-8q6SXhPKnWvbTLzxNSu3Qx" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-ChQuQVJrVtkwRTPwgwXsHU">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

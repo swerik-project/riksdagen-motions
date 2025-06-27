@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-SkU-00082">
   <teiHeader>
     <fileDesc>
@@ -54,14 +54,14 @@
           </person>
           <person gender="man">
             <idno>i-9msUCw725vKguNSQS4ikv4</idno>
-            <name>Hans Dau </name>
+            <name>Hans Dau</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-UnoNXQEwX76AtugdBBHfa1</idno>
-            <name>Sven Eric Lorentzon </name>
+            <name>Sven Eric Lorentzon</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Su7r1tohyeL1749DXAx4xv"/>
+        <correspAction xml:id="i-Su7r1tohyeL1749DXAx4xv" type="basedOn"/>
         <correspContext corresp="i-Su7r1tohyeL1749DXAx4xv">
           <ref>Proposition 1989/90:110</ref>
         </correspContext>
@@ -82,16 +82,16 @@
           <note type="signatory" corresp="i-9msUCw725vKguNSQS4ikv4"/>
           <note type="signatory" corresp="i-UnoNXQEwX76AtugdBBHfa1"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-TeK86ZrGBtyvMRaHTHD6qN">
+        <correspAction xml:id="i-TeK86ZrGBtyvMRaHTHD6qN" type="submission">
           <date when="1990-05-02"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-D2W98cuMgQWXUL92e8L1u6">
+        <correspAction xml:id="i-D2W98cuMgQWXUL92e8L1u6" type="dismissal">
           <date when="1990-05-03"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-kSrmgvPRHjB9vNiSJanLe">
+        <correspAction xml:id="i-kSrmgvPRHjB9vNiSJanLe" type="referral">
           <date when="1990-05-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3d9hkZzXjTunuwdBHZAQuL">
+        <correspAction xml:id="i-3d9hkZzXjTunuwdBHZAQuL" type="assigned">
           <date when="2014-11-24"/>
           <time when="03:22:06"/>
         </correspAction>
@@ -107,11 +107,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_sk_82/mot_198990_sk_82-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-PafbXvKKN3qVU9ZXNVYpxQ">
-        <div type="motTitle" xml:id="i-VrPfiu79ifGd7wwAhQfgoT"/>
-        <div type="motSubmissionInfo" xml:id="i-F5YWsTaQpxJCVFebqNmsMj"/>
+      <div xml:id="i-PafbXvKKN3qVU9ZXNVYpxQ" type="motHeader">
+        <div xml:id="i-VrPfiu79ifGd7wwAhQfgoT" type="motTitle"/>
+        <div xml:id="i-F5YWsTaQpxJCVFebqNmsMj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-F6fPEptyxQB4CXqvi3JLkn">
+      <div xml:id="i-F6fPEptyxQB4CXqvi3JLkn" type="motBody">
         <div xml:id="i-XyFkiL5ytmidQdjEsbKJFs">
           <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_sk_82/mot_198990_sk_82-001.pdf"/>
           <p xml:id="i-SambAkqPDwAHNohr3pX74A">
@@ -170,10 +170,12 @@
           </p>
           <p xml:id="i-CbpqBM3FSC38GF4R38hwMr">
             att riksdagen beslutar att skattefriheten för uppvärmning med
-            ved från egen skog skall behållas oförändrad. Stockholm den 2
-            maj 1990
+            ved från egen skog skall behållas oförändrad.
           </p>
-          <p xml:id="i-FCHAevDGw6DCJg7QbfjijN">
+          <p type="date" id="i-JbeSdSy63bEtaqi3iZcuoV">
+            Stockholm den 2 maj 1990
+          </p>
+          <p xml:id="i-FCHAevDGw6DCJg7QbfjijN" type="signatureBlock">
             Hans Dau (m) Sven Eric Lorentzon (m)
           </p>
         </div>

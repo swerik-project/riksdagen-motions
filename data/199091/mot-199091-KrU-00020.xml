@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-KrU-00020">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-5JKt3JHcrr8pme3Wk6qvJA</idno>
-            <name>Hans Göran Franck </name>
+            <name>Hans Göran Franck</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-64XJu4ni7zXTLVcwGQjJ4z"/>
+        <correspAction xml:id="i-64XJu4ni7zXTLVcwGQjJ4z" type="basedOn"/>
         <correspContext corresp="i-64XJu4ni7zXTLVcwGQjJ4z">
           <ref>Proposition 1990/91:82</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-5JKt3JHcrr8pme3Wk6qvJA"/>
           <note type="signatory" corresp="i-5JKt3JHcrr8pme3Wk6qvJA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Wn1gBGDvKKTXdLkAFmvtdQ">
+        <correspAction xml:id="i-Wn1gBGDvKKTXdLkAFmvtdQ" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VjKdKKtpNohjao7kmH3PX">
+        <correspAction xml:id="i-VjKdKKtpNohjao7kmH3PX" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3UjRZYc7XpAfcUpUtybeoK">
+        <correspAction xml:id="i-3UjRZYc7XpAfcUpUtybeoK" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-LU4F9KGMbxdp7yrtFUQmfk">
+        <correspAction xml:id="i-LU4F9KGMbxdp7yrtFUQmfk" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WLt3VN8XtWH3gB3qnG4yL4">
+        <correspAction xml:id="i-WLt3VN8XtWH3gB3qnG4yL4" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-J7V5KXJiX331hJVm85bs6g">
+        <correspAction xml:id="i-J7V5KXJiX331hJVm85bs6g" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-iRZ37C2pLJZe1XBk6Wf5H"/>
+        <correspAction xml:id="i-iRZ37C2pLJZe1XBk6Wf5H" type="assigned"/>
         <correspContext corresp="i-iRZ37C2pLJZe1XBk6Wf5H">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_KrU_20/mot_199091_KrU_20-001.pdf"/>
-      <div type="motHeader" xml:id="i-59yyDJRhmWqtY3HKNpjJGP">
-        <div type="motTitle" xml:id="i-6zE8CWHj44xQ3shKx3NGch"/>
-        <div type="motSubmissionInfo" xml:id="i-2WsMZQvj8mXgkBv4PjQuKe"/>
+      <div xml:id="i-59yyDJRhmWqtY3HKNpjJGP" type="motHeader">
+        <div xml:id="i-6zE8CWHj44xQ3shKx3NGch" type="motTitle"/>
+        <div xml:id="i-2WsMZQvj8mXgkBv4PjQuKe" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-X3ZN8WcJftieZygCSqJae2">
+      <div xml:id="i-X3ZN8WcJftieZygCSqJae2" type="motBody">
         <div xml:id="i-AUgAQNXzaRHUjRuz6AoXdN">
           <p xml:id="i-7bGR1BryBJ3q2UGkofYkAo">
             Motion till riksdagen 1990/91:Kr20
@@ -218,8 +218,13 @@
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motio- nen anförts
             om klarare markering av och resursförstärkning till ut- vecklingsarbete,
-            pedagogisk forskning och folkligt förankrad kultur. Stockholm
-            den 14 mars 1991 Hans Göran Franck (s)
+            pedagogisk forskning och folkligt förankrad kultur.
+          </p>
+          <p type="date" id="i-UEL9VpPoZx9NbwEX4LVsZk">
+            Stockholm den 14 mars 1991
+          </p>
+          <p type="signatureBlock" id="i-7aGLUzcBH95PDahhWaHFRG">
+            Hans Göran Franck (s)
           </p>
           <p xml:id="i-D8hMPwcTsmBS8w8yLdmHvt">
             Anita Johansson (s) Ines Uusmann (s)

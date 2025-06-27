@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00343">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-9x2nw6aosA3pyEJfJTc1eD"/>
           <note type="signatory" corresp="i-9CH1KbWwyrj8DRqAQB3Fza"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TZUJz54STXAZp1N5GsRPbT">
+        <correspAction xml:id="i-TZUJz54STXAZp1N5GsRPbT" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6dLcCS2hNcFTMETkekHyG7">
+        <correspAction xml:id="i-6dLcCS2hNcFTMETkekHyG7" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4QFGBXDP4VDR5H2iuucKkV">
+        <correspAction xml:id="i-4QFGBXDP4VDR5H2iuucKkV" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FCiT3zvyT6okeZV8YfXwHH"/>
+        <correspAction xml:id="i-FCiT3zvyT6okeZV8YfXwHH" type="assigned"/>
         <correspContext corresp="i-FCiT3zvyT6okeZV8YfXwHH">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_L_0343/mot_200304_L_0343-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DGAP7Z3Hm5Bi36kjDpGiX2">
-        <div type="motTitle" xml:id="i-9rFLhQwbaWBu7xcPPZhzcF"/>
-        <div type="motSubmissionInfo" xml:id="i-TJu4SywqCbAqz5y4ubzcJZ"/>
+      <div xml:id="i-DGAP7Z3Hm5Bi36kjDpGiX2" type="motHeader">
+        <div xml:id="i-9rFLhQwbaWBu7xcPPZhzcF" type="motTitle"/>
+        <div xml:id="i-TJu4SywqCbAqz5y4ubzcJZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VKRRz2vAN2NXCnYvJWAwbu">
+      <div xml:id="i-VKRRz2vAN2NXCnYvJWAwbu" type="motBody">
         <div xml:id="i-R9KdxF1sj5sdkdfNf1g9sF">
           <p xml:id="i-UgxoDXrLsh9m3Poa1ZwHJN">
             2003/04 mnr: L343 pnr: mp720
@@ -163,8 +163,11 @@
             så att den också skall omfatta offentligt producerade tjänster
             och varor.
           </p>
-          <p xml:id="i-4UNJCZcZa4a731yRQ8XwWp">
-            Stockholm den 7 oktober 2003 Ulf Holm (mp) Gustav Fridolin (mp)
+          <p xml:id="i-4UNJCZcZa4a731yRQ8XwWp" type="date">
+            Stockholm den 7 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-7UES1kyNDD9K5M4kkhtKsH">
+            Ulf Holm (mp) Gustav Fridolin (mp)
           </p>
         </div>
       </div>

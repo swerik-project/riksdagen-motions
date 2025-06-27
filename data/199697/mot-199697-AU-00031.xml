@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-AU-00031">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-GTDxf4NudVQ4es4EhotQR1</idno>
-            <name>Sten Svensson </name>
+            <name>Sten Svensson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-RYKNqxpHH7rzxz7R2oxyiJ"/>
+        <correspAction xml:id="i-RYKNqxpHH7rzxz7R2oxyiJ" type="basedOn"/>
         <correspContext corresp="i-RYKNqxpHH7rzxz7R2oxyiJ">
           <ref>Proposition 1996/97:106</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-GTDxf4NudVQ4es4EhotQR1"/>
           <note type="signatory" corresp="i-GTDxf4NudVQ4es4EhotQR1"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GNAL6ZcRCPRvJDk42DPLCN">
+        <correspAction xml:id="i-GNAL6ZcRCPRvJDk42DPLCN" type="referral">
           <date when="1997-03-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EfwycYi6Ww4LUf9aYF87HM">
+        <correspAction xml:id="i-EfwycYi6Ww4LUf9aYF87HM" type="dismissal">
           <date when="1997-03-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TKycgFuX6RSeieJ6rbMg1p">
+        <correspAction xml:id="i-TKycgFuX6RSeieJ6rbMg1p" type="submission">
           <date when="1997-03-20"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-8KyFjM9mujEzKXyuz9pWfD">
+        <correspAction xml:id="i-8KyFjM9mujEzKXyuz9pWfD" type="referral">
           <date when="1997-03-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-81Z1wPrLWoozm8VmRQo3dd">
+        <correspAction xml:id="i-81Z1wPrLWoozm8VmRQo3dd" type="dismissal">
           <date when="1997-03-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-D8vug7TvzHd5pXcaz2q26">
+        <correspAction xml:id="i-D8vug7TvzHd5pXcaz2q26" type="submission">
           <date when="1997-03-20"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Kp9nPTbKg4YMdBMzf2BHWj"/>
+        <correspAction xml:id="i-Kp9nPTbKg4YMdBMzf2BHWj" type="assigned"/>
         <correspContext corresp="i-Kp9nPTbKg4YMdBMzf2BHWj">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0031/mot_199697_A_0031-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0031/mot_199697_A_0031-001.pdf"/>
-      <div type="motHeader" xml:id="i-NnBGsbH6koZuqgEiuMP52k">
-        <div type="motTitle" xml:id="i-8PPAdro4mdZG1LMHSbMn7n"/>
-        <div type="motSubmissionInfo" xml:id="i-McUQ9pbkBweKENq61hnXdA"/>
+      <div xml:id="i-NnBGsbH6koZuqgEiuMP52k" type="motHeader">
+        <div xml:id="i-8PPAdro4mdZG1LMHSbMn7n" type="motTitle"/>
+        <div xml:id="i-McUQ9pbkBweKENq61hnXdA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MVX4rE8L3NpCcy5wdr3w3G">
+      <div xml:id="i-MVX4rE8L3NpCcy5wdr3w3G" type="motBody">
         <div xml:id="i-2MM1d3vEhFEd9efzuRmhyZ">
           <p xml:id="i-CmE5Q82GxLiY88ULxJ9m7b">
             1996/97 A31 A30-35
@@ -191,9 +191,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0031/mot_199697_A_0031-0003.pdf"/>
           <p xml:id="i-Aw1hDvr9ou3FTWdmzHZjvq">
-            Mot. 1996/97A314 Stockholm den 20 mars 1997
+            Mot. 1996/97A314
           </p>
-          <p xml:id="i-Lng3wcfm5Msd93K5B7Hh5W">
+          <p type="date" id="i-NPBAbcVCC6VJuzudQxo2TY">
+            Stockholm den 20 mars 1997
+          </p>
+          <p xml:id="i-Lng3wcfm5Msd93K5B7Hh5W" type="signatureBlock">
             Sten Svensson (m) Inga Berggren (m) Marianne Andersson (c) Kjell
             Ericsson (c) Bengt Harding Olson (fp)
           </p>

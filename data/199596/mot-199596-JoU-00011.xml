@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-JoU-00011">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="woman">
             <idno>i-MtMnExPuB5LF2GfXWFioaD</idno>
-            <name>Mariann Ytterberg </name>
+            <name>Mariann Ytterberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-CjfJ7zKhtcCGm2cb4c1t3E</idno>
-            <name>Barbro Hietala Nordlund </name>
+            <name>Barbro Hietala Nordlund</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-ip8PYaQ7eTUJmK38bJq32"/>
+        <correspAction xml:id="i-ip8PYaQ7eTUJmK38bJq32" type="basedOn"/>
         <correspContext corresp="i-ip8PYaQ7eTUJmK38bJq32">
           <ref>Regeringsskrivelse 1995/96:120</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-MtMnExPuB5LF2GfXWFioaD"/>
           <note type="signatory" corresp="i-CjfJ7zKhtcCGm2cb4c1t3E"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KNBQCGaRtUyDBESanc3qt6">
+        <correspAction xml:id="i-KNBQCGaRtUyDBESanc3qt6" type="referral">
           <date when="1996-02-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8EuXbD1tvUGpSzrMkFPYNw">
+        <correspAction xml:id="i-8EuXbD1tvUGpSzrMkFPYNw" type="dismissal">
           <date when="1996-02-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Y1qULd8RCrqJHz1LCQS91J">
+        <correspAction xml:id="i-Y1qULd8RCrqJHz1LCQS91J" type="submission">
           <date when="1996-02-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-TLzKJF5i73ajpWAMBmF4tU">
+        <correspAction xml:id="i-TLzKJF5i73ajpWAMBmF4tU" type="referral">
           <date when="1996-02-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Seucjp785gQnBBJU2U5Db5">
+        <correspAction xml:id="i-Seucjp785gQnBBJU2U5Db5" type="dismissal">
           <date when="1996-02-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SjEbwU435USDeWRA6mTuYh">
+        <correspAction xml:id="i-SjEbwU435USDeWRA6mTuYh" type="submission">
           <date when="1996-02-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FoncznM6zJeML6NmK42kPo"/>
+        <correspAction xml:id="i-FoncznM6zJeML6NmK42kPo" type="assigned"/>
         <correspContext corresp="i-FoncznM6zJeML6NmK42kPo">
           <ref type="assignedTo">Jordbruksutskottet</ref>
         </correspContext>
@@ -98,11 +98,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_JO_0011/mot_199596_JO_0011-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_JO_0011/mot_199596_JO_0011-001.pdf"/>
-      <div type="motHeader" xml:id="i-MdzsLNVVMXUHKpmdeoSsLc">
-        <div type="motTitle" xml:id="i-DvvGbs1vPMADHzZYn4bAUz"/>
-        <div type="motSubmissionInfo" xml:id="i-LC1Wva94PmnXEYTKy78rGX"/>
+      <div xml:id="i-MdzsLNVVMXUHKpmdeoSsLc" type="motHeader">
+        <div xml:id="i-DvvGbs1vPMADHzZYn4bAUz" type="motTitle"/>
+        <div xml:id="i-LC1Wva94PmnXEYTKy78rGX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PDchJzLz85WDwryG2KQtKV">
+      <div xml:id="i-PDchJzLz85WDwryG2KQtKV" type="motBody">
         <div xml:id="i-AXEqJSr1aXJ1TNaUKeJGRc">
           <p xml:id="i-Ru2YH2nT5BGgrbNnpZnN1P">
             1995/96 Joll Jo10-15
@@ -181,10 +181,12 @@
           <p xml:id="i-Pvyghr1pd7ihGrba1Pusap">
             Med hänvisning till det anförda hemställs att regeringen utarbetar
             en tydligare, långsiktigt sektorsövergripande politik för att
-            ställa om Sverige till ekologisk uthållighet. Stockholm den 6
-            februari 1996
+            ställa om Sverige till ekologisk uthållighet.
           </p>
-          <p xml:id="i-U79tSqDaLnK4YmubXYYGrK">
+          <p type="date" id="i-HBMZmB5MGmt8J1FJdA9gd4">
+            Stockholm den 6 februari 1996
+          </p>
+          <p xml:id="i-U79tSqDaLnK4YmubXYYGrK" type="signatureBlock">
             Mariann Ytterberg (s) Barbro Hietala Nordlund (s)
           </p>
           <p xml:id="i-2KQHX7v2DrrGQvFzz9HPx5">

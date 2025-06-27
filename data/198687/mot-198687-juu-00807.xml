@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-juu-00807">
   <teiHeader>
     <fileDesc>
@@ -134,7 +134,7 @@
           <note type="signatory" corresp="i-HpykFSDEKjFd3AQrjBW2xc"/>
           <note type="signatory" corresp="i-CQwK55qAkVUZt7PtiHxAxd"/>
         </correspContext>
-        <correspAction type="assigned" xml:id="i-9PLEwRRKXPWvpmcuPKCCL1">
+        <correspAction xml:id="i-9PLEwRRKXPWvpmcuPKCCL1" type="assigned">
           <date when="2014-11-19"/>
           <time when="14:38:14"/>
         </correspAction>
@@ -150,11 +150,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198687/mot_198687_ju_807/mot_198687_ju_807-001.pdf"/>
-      <div type="motHeader" xml:id="i-4KaZRxV51LEerT8fv7rB2K">
-        <div type="motTitle" xml:id="i-MYg7T1UrVVeQPu58DLwN8M"/>
-        <div type="motSubmissionInfo" xml:id="i-Pn3HZmBCJH544DMggXZoRt"/>
+      <div xml:id="i-4KaZRxV51LEerT8fv7rB2K" type="motHeader">
+        <div xml:id="i-MYg7T1UrVVeQPu58DLwN8M" type="motTitle"/>
+        <div xml:id="i-Pn3HZmBCJH544DMggXZoRt" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-G2e5BcdXJLA9izCYp7xmm3">
+      <div xml:id="i-G2e5BcdXJLA9izCYp7xmm3" type="motBody">
         <div xml:id="i-G1XtxUoUL9XSZU1ZBxG1uE">
           <p xml:id="i-FBTQaBHLUtJ7a5bdG1Dkcg">
             Motion till riksdagen
@@ -173,8 +173,11 @@
             att riksdagen som sin mening ger regeringen till känna vad som
             i motionen anförs angående rättsligt samarbete.
           </p>
-          <p xml:id="i-3DHnvUiiU8BqAi5ZSjv6d2">
-            Stockholm den 22 januari 1987 Carl Bildt (m)
+          <p xml:id="i-3DHnvUiiU8BqAi5ZSjv6d2" type="date">
+            Stockholm den 22 januari 1987
+          </p>
+          <p type="signatureBlock" id="i-3YfuuQMNc8NeonEz4P7STS">
+            Carl Bildt (m)
           </p>
           <p xml:id="i-MCPhDC5cKaKXTVVZoqrGXo">
             Lars Tobisson (m) Ingegerd Troedsson (m) Anders Björck (m) Ingrid

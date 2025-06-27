@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00484">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
           <note type="signatory" corresp="i-4XjgirbqceZQdnz2JX6DGB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8PgZP3uy1SAG6P8AKgmZAy">
+        <correspAction xml:id="i-8PgZP3uy1SAG6P8AKgmZAy" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BEAdigngTeVzkhqSyoMWrV">
+        <correspAction xml:id="i-BEAdigngTeVzkhqSyoMWrV" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6xPjy4b4En5kAYpSFySoC1">
+        <correspAction xml:id="i-6xPjy4b4En5kAYpSFySoC1" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NnxssoBG8FMLTpwTGXQvLY"/>
+        <correspAction xml:id="i-NnxssoBG8FMLTpwTGXQvLY" type="assigned"/>
         <correspContext corresp="i-NnxssoBG8FMLTpwTGXQvLY">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0484/mot_200304_So_0484-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BRxQaBjEfwGjurzoUdvCte">
-        <div type="motTitle" xml:id="i-6q6BAbj3NGsJvmRvbUjAzn"/>
-        <div type="motSubmissionInfo" xml:id="i-Sg7cLLmubML9PfThzsz5fL"/>
+      <div xml:id="i-BRxQaBjEfwGjurzoUdvCte" type="motHeader">
+        <div xml:id="i-6q6BAbj3NGsJvmRvbUjAzn" type="motTitle"/>
+        <div xml:id="i-Sg7cLLmubML9PfThzsz5fL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-64VbnWG3ChcZKfDqS2cqGm">
+      <div xml:id="i-64VbnWG3ChcZKfDqS2cqGm" type="motBody">
         <div xml:id="i-TP9qJMuBa1GDePNxqsJ8D9">
           <p xml:id="i-UkWDWirJSDcMJXxbv8ZY4C">
             2003/04 mnr: S0484 pnr: v936
@@ -170,9 +170,11 @@
             ska endast ske på Systembolaget. Detta bör riksdagen som sin mening
             ge regeringen till känna.
           </p>
-          <p xml:id="i-ZQAbExAn4uJh78P9nTKj5">
-            Stockholm den 6 oktober 2003 Tasso Stafilidis (v) Karin Thorborg
-            (v)
+          <p xml:id="i-ZQAbExAn4uJh78P9nTKj5" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-PKVSG7BexsCU5W4QRzegK7">
+            Tasso Stafilidis (v) Karin Thorborg (v)
           </p>
         </div>
       </div>

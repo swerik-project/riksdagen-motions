@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FöU-00208">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-2QjnR1ctBUMfNnoU8hu6jz">
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4bVvN1AhJxTy8NqthCQAKQ">
+        <correspAction xml:id="i-4bVvN1AhJxTy8NqthCQAKQ" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HxTA19tbHrsSF6TWHtSV7d">
+        <correspAction xml:id="i-HxTA19tbHrsSF6TWHtSV7d" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-44rEXTkrAaLbdUwbPP4Mjv">
+        <correspAction xml:id="i-44rEXTkrAaLbdUwbPP4Mjv" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KKDKqhCAA68sYRXEdNADeL"/>
+        <correspAction xml:id="i-KKDKqhCAA68sYRXEdNADeL" type="assigned"/>
         <correspContext corresp="i-KKDKqhCAA68sYRXEdNADeL">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fö_0208/mot_200304_Fö_0208-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9QCbLrh8XTmawk69ce9zLw">
-        <div type="motTitle" xml:id="i-AqU89G6fJGqzZSLPdobAcd"/>
-        <div type="motSubmissionInfo" xml:id="i-LwH3VNQU7vXLC7fwqVgS7V"/>
+      <div xml:id="i-9QCbLrh8XTmawk69ce9zLw" type="motHeader">
+        <div xml:id="i-AqU89G6fJGqzZSLPdobAcd" type="motTitle"/>
+        <div xml:id="i-LwH3VNQU7vXLC7fwqVgS7V" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CAvPuradViSAZK3ZMPoChe">
+      <div xml:id="i-CAvPuradViSAZK3ZMPoChe" type="motBody">
         <div xml:id="i-FvKkNZEfp5UeuuVCFhfKkw">
           <p xml:id="i-Ggui5QLVuzAoVLpUkPepdi">
             2003/04 mnr: Fö208 pnr: kd506
@@ -122,8 +122,11 @@
           <p xml:id="i-GwzSqL2zeoSEJdyzfjMxTB">
             2003/04:Fö208
           </p>
-          <p xml:id="i-SB1K8wU7sebMCbqQ2mNebD">
-            Stockholm den 24 september 2003 Gunilla Tjernberg (kd)
+          <p xml:id="i-SB1K8wU7sebMCbqQ2mNebD" type="date">
+            Stockholm den 24 september 2003
+          </p>
+          <p type="signatureBlock" id="i-DsUXK3ic8jurd7nARoqxqa">
+            Gunilla Tjernberg (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00207">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-HcrCwUNFbUYHi1rXAVPPKN">
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PMQbGq3ooYqDeDHJSS5igD">
+        <correspAction xml:id="i-PMQbGq3ooYqDeDHJSS5igD" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-L11xkHW62auYAY1zGvGDu4">
+        <correspAction xml:id="i-L11xkHW62auYAY1zGvGDu4" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6o8uskTJAgpGb5xdKtCm8q">
+        <correspAction xml:id="i-6o8uskTJAgpGb5xdKtCm8q" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VEoQZcsW2U6jHNCtVFWN9S"/>
+        <correspAction xml:id="i-VEoQZcsW2U6jHNCtVFWN9S" type="assigned"/>
         <correspContext corresp="i-VEoQZcsW2U6jHNCtVFWN9S">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Kr_207/mot_200506_Kr_207-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NKTPVPuZV1zijidqHK9N9J">
-        <div type="motTitle" xml:id="i-FM7xG1Tx1h26bm3qirZybp"/>
-        <div type="motSubmissionInfo" xml:id="i-FrK1F9QAbtZXh8Yz9knS5A"/>
+      <div xml:id="i-NKTPVPuZV1zijidqHK9N9J" type="motHeader">
+        <div xml:id="i-FM7xG1Tx1h26bm3qirZybp" type="motTitle"/>
+        <div xml:id="i-FrK1F9QAbtZXh8Yz9knS5A" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BosynNcZL8yBrGeBjq5ctF">
+      <div xml:id="i-BosynNcZL8yBrGeBjq5ctF" type="motBody">
         <div xml:id="i-CSbZtXxSQ4roHrVTftP4Fg">
           <p xml:id="i-6KibDvYLc6ty5Jr7sEi6xx">
             2005/06 mnr: Kr207 pnr: m1022
@@ -126,8 +126,11 @@
             breda designperspektivet, dels stärker den unika roll som textil
             har i landet.
           </p>
-          <p xml:id="i-H5GWnFHqaXzo2uJnhehac8">
-            Stockholm den 15 september 2005 Ulf Sjösten (m)
+          <p xml:id="i-H5GWnFHqaXzo2uJnhehac8" type="date">
+            Stockholm den 15 september 2005
+          </p>
+          <p type="signatureBlock" id="i-WdjvR1eGFyvvi81f749T79">
+            Ulf Sjösten (m)
           </p>
         </div>
       </div>

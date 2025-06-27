@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-SfU-00026">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-KFLLBh5CxVpZkUZaHy3pAz</idno>
-            <name>Margit Gennser </name>
+            <name>Margit Gennser</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-TGRYz5MP8H74cAARpQFeTE"/>
+        <correspAction xml:id="i-TGRYz5MP8H74cAARpQFeTE" type="basedOn"/>
         <correspContext corresp="i-TGRYz5MP8H74cAARpQFeTE">
           <ref>Proposition 1999/2000:138</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-KFLLBh5CxVpZkUZaHy3pAz"/>
           <note type="signatory" corresp="i-KFLLBh5CxVpZkUZaHy3pAz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JtsGKmVMxzzok4kXv1oXft">
+        <correspAction xml:id="i-JtsGKmVMxzzok4kXv1oXft" type="referral">
           <date when="2000-07-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Nmv4dK2X2E8fz1HiP4eup4">
+        <correspAction xml:id="i-Nmv4dK2X2E8fz1HiP4eup4" type="dismissal">
           <date when="2000-07-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-U9CVoKZzTdNGyPXz7ML6DB">
+        <correspAction xml:id="i-U9CVoKZzTdNGyPXz7ML6DB" type="submission">
           <date when="2000-06-29"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-UXqAZac4kRiaupafPPPgvL">
+        <correspAction xml:id="i-UXqAZac4kRiaupafPPPgvL" type="referral">
           <date when="2000-07-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DeGvteLFRP9mpwpvHSmVMr">
+        <correspAction xml:id="i-DeGvteLFRP9mpwpvHSmVMr" type="dismissal">
           <date when="2000-07-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-R2pZRv3Kt4hBxPwzNTTqNv">
+        <correspAction xml:id="i-R2pZRv3Kt4hBxPwzNTTqNv" type="submission">
           <date when="2000-06-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FU8nD89uKx77jMyXWBAtri"/>
+        <correspAction xml:id="i-FU8nD89uKx77jMyXWBAtri" type="assigned"/>
         <correspContext corresp="i-FU8nD89uKx77jMyXWBAtri">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Sf_0026/mot_199900_Sf_0026-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KFTDSfrvhM5KuhghxZe7A2">
-        <div type="motTitle" xml:id="i-3WULm8KNz1fT33mstHEizK"/>
-        <div type="motSubmissionInfo" xml:id="i-HVg7Qs5yyaWCeenKayVErw"/>
+      <div xml:id="i-KFTDSfrvhM5KuhghxZe7A2" type="motHeader">
+        <div xml:id="i-3WULm8KNz1fT33mstHEizK" type="motTitle"/>
+        <div xml:id="i-HVg7Qs5yyaWCeenKayVErw" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WxU22ygxeTWGJRJpQfNHjm">
+      <div xml:id="i-WxU22ygxeTWGJRJpQfNHjm" type="motBody">
         <div xml:id="i-4cWbQRQq7xN4gjgY8qqj74">
           <p xml:id="i-D7Tia6qd7AeLnMhYdabFs1">
             1999/2000 mnr: Sf26 pnr: m1167
@@ -133,9 +133,12 @@
             i motionen.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Sf_0026/mot_199900_Sf_0026-0002.pdf"/>
-          <p xml:id="i-HZBgsvaHb9YagFaeDXBMqe">
-            Stockholm den 19 juni 2000 Margit Gennser (m) Gustaf von Essen
-            (m) Cecilia Magnusson (m) Björn Leivik (m)
+          <p xml:id="i-HZBgsvaHb9YagFaeDXBMqe" type="date">
+            Stockholm den 19 juni 2000
+          </p>
+          <p type="signatureBlock" id="i-CiaKu4AF6ToDwdptPwpeJK">
+            Margit Gennser (m) Gustaf von Essen (m) Cecilia Magnusson (m)
+            Björn Leivik (m)
           </p>
           <p xml:id="i-X8YkbtN2VfQuZ4iUypvLPD">
             Carl G Nilsson (m)

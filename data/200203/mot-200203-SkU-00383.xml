@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00383">
   <teiHeader>
     <fileDesc>
@@ -94,16 +94,16 @@
           <note type="signatory" corresp="i-J2pcjBf6ppCUUibn7Biroc"/>
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-6p7MkPAPz4e25UxXbRPkk1">
+        <correspAction xml:id="i-6p7MkPAPz4e25UxXbRPkk1" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SGXUeZVTQW7v3w1LRzcJ3r">
+        <correspAction xml:id="i-SGXUeZVTQW7v3w1LRzcJ3r" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WYAsS6tLLnXdvUcRkLgmMk">
+        <correspAction xml:id="i-WYAsS6tLLnXdvUcRkLgmMk" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HpcwZNpqYnRy62D4Thz6Kt"/>
+        <correspAction xml:id="i-HpcwZNpqYnRy62D4Thz6Kt" type="assigned"/>
         <correspContext corresp="i-HpcwZNpqYnRy62D4Thz6Kt">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Sk_0383/mot_200203_Sk_0383-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Wu2vAXVshQdopdzNEQzPoK">
-        <div type="motTitle" xml:id="i-XLhdejLkx3RAXz5wHxnpvG"/>
-        <div type="motSubmissionInfo" xml:id="i-FUh97WkAuin89VydgnkZRn"/>
+      <div xml:id="i-Wu2vAXVshQdopdzNEQzPoK" type="motHeader">
+        <div xml:id="i-XLhdejLkx3RAXz5wHxnpvG" type="motTitle"/>
+        <div xml:id="i-FUh97WkAuin89VydgnkZRn" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7hjYPPS9gd7MYAv9GYwW5e">
+      <div xml:id="i-7hjYPPS9gd7MYAv9GYwW5e" type="motBody">
         <div xml:id="i-4FZVj1C66Gf9P1sYg4W8Vx">
           <p xml:id="i-LNXJTdEpb3FsWPCaXNTn9R">
             38
@@ -972,8 +972,11 @@
             nuvarande regler att justeras ned automatiskt om vårt förslag
             för skattereduktion på hushållstjänster genomförs.
           </p>
-          <p xml:id="i-2MYnq9Sb5i26fghJEph9cD">
-            Stockholm den 22 oktober 2002 Per Landgren (kd)
+          <p xml:id="i-2MYnq9Sb5i26fghJEph9cD" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-DeAjQ1Fi4rcALqbVEPN9tG">
+            Per Landgren (kd)
           </p>
           <p xml:id="i-Ke6bs6aP1iXVVDJoDF84Q5">
             Lars Gustafsson (kd) Mats Odell (kd) Stefan Attefall (kd) Annelie

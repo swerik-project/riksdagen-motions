@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-LU-00009">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8zjTdWx3h6pd6jcaQkm1wD"/>
+        <correspAction xml:id="i-8zjTdWx3h6pd6jcaQkm1wD" type="basedOn"/>
         <correspContext corresp="i-8zjTdWx3h6pd6jcaQkm1wD">
           <ref>Proposition 2000/01:68</ref>
         </correspContext>
@@ -66,28 +66,28 @@
           <note type="signatory" corresp="i-4SAiMdwrEthd2M8z2yjtkv"/>
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8bSJYiJ2f3ukQWDqzqYYDP">
+        <correspAction xml:id="i-8bSJYiJ2f3ukQWDqzqYYDP" type="referral">
           <date when="2001-04-17"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-WhzWZqkxG2MGbSxWdPMtRW">
+        <correspAction xml:id="i-WhzWZqkxG2MGbSxWdPMtRW" type="reviewing">
           <date when="2001-04-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DJqXAmbAWus7YKbjaGu39x">
+        <correspAction xml:id="i-DJqXAmbAWus7YKbjaGu39x" type="dismissal">
           <date when="2001-04-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QLe311Jz2YMGAXPdQkuycX">
+        <correspAction xml:id="i-QLe311Jz2YMGAXPdQkuycX" type="submission">
           <date when="2001-04-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-VSc73jnMmYb8mabfAVUZdZ">
+        <correspAction xml:id="i-VSc73jnMmYb8mabfAVUZdZ" type="referral">
           <date when="2001-04-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GCMzXi8hB64LJ4hKdXKSz1">
+        <correspAction xml:id="i-GCMzXi8hB64LJ4hKdXKSz1" type="dismissal">
           <date when="2001-04-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-V1i8FtkcEzMpNhN3xkgaM3">
+        <correspAction xml:id="i-V1i8FtkcEzMpNhN3xkgaM3" type="submission">
           <date when="2001-04-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8NDMWDdrwhTsRFrEPjdz2"/>
+        <correspAction xml:id="i-8NDMWDdrwhTsRFrEPjdz2" type="assigned"/>
         <correspContext corresp="i-8NDMWDdrwhTsRFrEPjdz2">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_L_0009/mot_200001_L_0009-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5ZXXqKoPocr47d1p7xr9j9">
-        <div type="motTitle" xml:id="i-BmFVWnsS6rvtsgPqKxz4Ca"/>
-        <div type="motSubmissionInfo" xml:id="i-2nwSnY6V9A9xGiSYDBTgUb"/>
+      <div xml:id="i-5ZXXqKoPocr47d1p7xr9j9" type="motHeader">
+        <div xml:id="i-BmFVWnsS6rvtsgPqKxz4Ca" type="motTitle"/>
+        <div xml:id="i-2nwSnY6V9A9xGiSYDBTgUb" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8TmiBiT4bZYT6wvDTRUasB">
+      <div xml:id="i-8TmiBiT4bZYT6wvDTRUasB" type="motBody">
         <div xml:id="i-VcdLWaBRGGzsDoWteHxrMZ">
           <p xml:id="i-4MrVhVVJEJpcrpTCf2VRSf">
             2000/01 mnr: L9 pnr: fp1148
@@ -183,9 +183,11 @@
             regleras. Folkpartiet anser att regeringen bör återkomma till
             riksdagen i denna fråga.
           </p>
-          <p xml:id="i-T62FYqwrECXF5x7fJk1wo3">
-            Stockholm den 5 april 2001 Ana Maria Narti (fp) Johan Pehrson
-            (fp)
+          <p xml:id="i-T62FYqwrECXF5x7fJk1wo3" type="date">
+            Stockholm den 5 april 2001
+          </p>
+          <p type="signatureBlock" id="i-XKZPeUUPu8eJjaXkakzVhr">
+            Ana Maria Narti (fp) Johan Pehrson (fp)
           </p>
         </div>
       </div>

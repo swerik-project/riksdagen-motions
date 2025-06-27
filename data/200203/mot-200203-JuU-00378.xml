@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-JuU-00378">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Ajcg94oko22QrFYkH3L1mq">
           <note type="signatory" corresp="i-KdNZEf7wb1MAJv58QEHYrr"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BJ7JgmAqWd3HAirdodgSuo">
+        <correspAction xml:id="i-BJ7JgmAqWd3HAirdodgSuo" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WtmescEA35wYVnXLcssaFa">
+        <correspAction xml:id="i-WtmescEA35wYVnXLcssaFa" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WYpLva5kCnaDyF5h3TbEgz">
+        <correspAction xml:id="i-WYpLva5kCnaDyF5h3TbEgz" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XXWQ5Z6MiecNxojigrDMi4"/>
+        <correspAction xml:id="i-XXWQ5Z6MiecNxojigrDMi4" type="assigned"/>
         <correspContext corresp="i-XXWQ5Z6MiecNxojigrDMi4">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ju_0378/mot_200203_Ju_0378-0001.pdf"/>
-      <div type="motHeader" xml:id="i-WX3G3CeZwegGHGu92EMShK">
-        <div type="motTitle" xml:id="i-DapYNAdVdQZYwsbhSfCyjp"/>
-        <div type="motSubmissionInfo" xml:id="i-RqcP4fMsemEjuwq5bD9Jze"/>
+      <div xml:id="i-WX3G3CeZwegGHGu92EMShK" type="motHeader">
+        <div xml:id="i-DapYNAdVdQZYwsbhSfCyjp" type="motTitle"/>
+        <div xml:id="i-RqcP4fMsemEjuwq5bD9Jze" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-98QxEUH5wWUCiVUN5xHudp">
+      <div xml:id="i-98QxEUH5wWUCiVUN5xHudp" type="motBody">
         <div xml:id="i-HAPwXCkaNs7Ji4tVLHQQcd">
           <p xml:id="i-LF5QswCsuJ497A4Ydi9SLc">
             24
@@ -133,8 +133,11 @@
             för såväl intagna som anställda, samt inte minst för väljarna,
             vilka har rätt att kräva en fungerande kriminalvård.
           </p>
-          <p xml:id="i-FseKsSQdsQA5h1wzavY6Mu">
-            Stockholm den 21 oktober 2002 Göran Lindblad (m)
+          <p xml:id="i-FseKsSQdsQA5h1wzavY6Mu" type="date">
+            Stockholm den 21 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-E9XyuDSsJD18LD1uYthmnM">
+            Göran Lindblad (m)
           </p>
         </div>
       </div>

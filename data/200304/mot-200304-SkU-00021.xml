@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00021">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-2mrmprkT5Cd2jZS64HK4zG"/>
+        <correspAction xml:id="i-2mrmprkT5Cd2jZS64HK4zG" type="basedOn"/>
         <correspContext corresp="i-2mrmprkT5Cd2jZS64HK4zG">
           <ref>Proposition 2003/04:21</ref>
         </correspContext>
@@ -42,16 +42,16 @@
         <correspContext corresp="i-JzU6pJKjjbCHAR5uKzwiid">
           <note type="signatory" corresp="i-6Lf4ZWSEWXurZm4mkDAE7B"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XxnsybsjbyS2VccsR7q7qe">
+        <correspAction xml:id="i-XxnsybsjbyS2VccsR7q7qe" type="referral">
           <date when="2003-11-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JSiFRWdT87jVdQdXL3pyKS">
+        <correspAction xml:id="i-JSiFRWdT87jVdQdXL3pyKS" type="dismissal">
           <date when="2003-11-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-31Z1cthMSCPr3sXCAZmYCi">
+        <correspAction xml:id="i-31Z1cthMSCPr3sXCAZmYCi" type="submission">
           <date when="2003-11-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XbGyVCgpgPSVz5dxWjcqZh"/>
+        <correspAction xml:id="i-XbGyVCgpgPSVz5dxWjcqZh" type="assigned"/>
         <correspContext corresp="i-XbGyVCgpgPSVz5dxWjcqZh">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -66,11 +66,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0021/mot_200304_Sk_0021-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8EXVMtWqU7UgGDQwXeB8x">
-        <div type="motTitle" xml:id="i-Y4M6U2rV6AQV7BUHfe6VJW"/>
-        <div type="motSubmissionInfo" xml:id="i-RNustwtypgnf5KuUQ8HHYT"/>
+      <div xml:id="i-8EXVMtWqU7UgGDQwXeB8x" type="motHeader">
+        <div xml:id="i-Y4M6U2rV6AQV7BUHfe6VJW" type="motTitle"/>
+        <div xml:id="i-RNustwtypgnf5KuUQ8HHYT" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RXKYMF3MSpKXMiEYiz7U4e">
+      <div xml:id="i-RXKYMF3MSpKXMiEYiz7U4e" type="motBody">
         <div xml:id="i-Tf7hNFYHMz48p93ToDRo1D">
           <p xml:id="i-GfUVwdq1yqPss2znAUK61m">
             2003/04 mnr: Sk21 pnr: m1598
@@ -124,9 +124,12 @@
             Jag anser att regeringen i stället borde utreda om en tandvårdsförmån
             kan tillskapas som arbetsgivaren betalar utan att den anställde
             förmånsbeskattas i enlighet med vad som för närvarande gäller
-            företagshälsovården. Stockholm den 30 oktober 2003
+            företagshälsovården.
           </p>
-          <p xml:id="i-YNW1BNryrSf2zoUVBEM1cu">
+          <p type="date" id="i-5LBMkn44xTSXqbkbwbkM53">
+            Stockholm den 30 oktober 2003
+          </p>
+          <p xml:id="i-YNW1BNryrSf2zoUVBEM1cu" type="signatureBlock">
             Carl-Axel Johansson (m)
           </p>
         </div>

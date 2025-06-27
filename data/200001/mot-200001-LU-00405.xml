@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-LU-00405">
   <teiHeader>
     <fileDesc>
@@ -46,28 +46,28 @@
           <note type="signatory" corresp="i-T9dFBJ1pv742mQeG3uLBtA"/>
           <note type="signatory" corresp="i-T9dFBJ1pv742mQeG3uLBtA"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-VgKqxrXCJnpsmusqUj1bwR">
+        <correspAction xml:id="i-VgKqxrXCJnpsmusqUj1bwR" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-P2YE69rk8VRPCC2mh7soSC">
+        <correspAction xml:id="i-P2YE69rk8VRPCC2mh7soSC" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-T6nMPnAAqG3JBTngGQHdGz">
+        <correspAction xml:id="i-T6nMPnAAqG3JBTngGQHdGz" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BYGrJSMPTKmtSwuWW2wbsB">
+        <correspAction xml:id="i-BYGrJSMPTKmtSwuWW2wbsB" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-KSVkVEowMdnprE1MVu2k4d">
+        <correspAction xml:id="i-KSVkVEowMdnprE1MVu2k4d" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TvaEnHiWqdb6DxhEesEgrS">
+        <correspAction xml:id="i-TvaEnHiWqdb6DxhEesEgrS" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-97F2hepnaGy2nw89w1U4Jv">
+        <correspAction xml:id="i-97F2hepnaGy2nw89w1U4Jv" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-14ousKWyFPZQTfBqHJh118"/>
+        <correspAction xml:id="i-14ousKWyFPZQTfBqHJh118" type="assigned"/>
         <correspContext corresp="i-14ousKWyFPZQTfBqHJh118">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_L_0405/mot_200001_L_0405-0001.pdf"/>
-      <div type="motHeader" xml:id="i-H5qpTjVBkufigfhDfQY55M">
-        <div type="motTitle" xml:id="i-W5zuWvqBaiTZ2Tv2VmTYNe"/>
-        <div type="motSubmissionInfo" xml:id="i-TmLVNscSHvdXHE3yBz9J1h"/>
+      <div xml:id="i-H5qpTjVBkufigfhDfQY55M" type="motHeader">
+        <div xml:id="i-W5zuWvqBaiTZ2Tv2VmTYNe" type="motTitle"/>
+        <div xml:id="i-TmLVNscSHvdXHE3yBz9J1h" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7CsP9vaYXxG1NJYpWJ3owd">
+      <div xml:id="i-7CsP9vaYXxG1NJYpWJ3owd" type="motBody">
         <div xml:id="i-ThrVgC17uLLVmzURNZGQsW">
           <p xml:id="i-63MYfTMmrgXadtmyjGxjTU">
             2000/01 mnr: L405 pnr: kd360
@@ -174,8 +174,11 @@
             barns intresse är av yttersta vikt i angelägenheter som rör deras
             vårdnad”.
           </p>
-          <p xml:id="i-PkavKFKY3VCFLK7CTUkNij">
-            Stockholm den 22 september 2000 Margareta Viklund (kd)
+          <p xml:id="i-PkavKFKY3VCFLK7CTUkNij" type="date">
+            Stockholm den 22 september 2000
+          </p>
+          <p type="signatureBlock" id="i-45bhn81XEGdDLP2iA2koAb">
+            Margareta Viklund (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00330">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-KTaQdF1NxYNKxax9mrjKtB">
           <note type="signatory" corresp="i-GLV4P4jtfPZVZ95YSNxfBh"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-ZJZu8SZ2eyvXjbZutSb8p">
+        <correspAction xml:id="i-ZJZu8SZ2eyvXjbZutSb8p" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6Rc5Uv9fwP4Tcw8ZNo6tYH">
+        <correspAction xml:id="i-6Rc5Uv9fwP4Tcw8ZNo6tYH" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XvdsL7DmEqisAxVQCwc1TL">
+        <correspAction xml:id="i-XvdsL7DmEqisAxVQCwc1TL" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5D7utKZSNGYdypa8F7FeVH"/>
+        <correspAction xml:id="i-5D7utKZSNGYdypa8F7FeVH" type="assigned"/>
         <correspContext corresp="i-5D7utKZSNGYdypa8F7FeVH">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_330/mot_200506_MJ_330-0001.pdf"/>
-      <div type="motHeader" xml:id="i-URX5w2gegZEno5CDjLivz5">
-        <div type="motTitle" xml:id="i-FxbQd5HpfF6r5vQNz8jp6d"/>
-        <div type="motSubmissionInfo" xml:id="i-KbFfhfz6ciZStub2VvfPMK"/>
+      <div xml:id="i-URX5w2gegZEno5CDjLivz5" type="motHeader">
+        <div xml:id="i-FxbQd5HpfF6r5vQNz8jp6d" type="motTitle"/>
+        <div xml:id="i-KbFfhfz6ciZStub2VvfPMK" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SkXWs4d1VsR9JNRs8XPDST">
+      <div xml:id="i-SkXWs4d1VsR9JNRs8XPDST" type="motBody">
         <div xml:id="i-MK6ozMDEVKi1E6PB98UMeh">
           <p xml:id="i-Tm5PkL97Fu4ntnMygKzfBt">
             2005/06 mnr: MJ330 pnr: mp513
@@ -181,8 +181,11 @@
           <p xml:id="i-GFpNVdp2TUnWZDc95VvqHG">
             2005/06:MJ330
           </p>
-          <p xml:id="i-An4TJ7Q8dBB9S64LZFw2iz">
-            Stockholm den 2 oktober 2005 Åsa Domeij (mp)
+          <p xml:id="i-An4TJ7Q8dBB9S64LZFw2iz" type="date">
+            Stockholm den 2 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-C6JC3gHjSsbCm8i4LEiwUM">
+            Åsa Domeij (mp)
           </p>
         </div>
       </div>

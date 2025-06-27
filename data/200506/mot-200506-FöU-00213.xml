@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-FöU-00213">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-LssE1F1PwgeFRXcwACktve"/>
           <note type="signatory" corresp="i-EgqHRHVoW5y9USDYuNoYuA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CHZ3KE27r58q6of4ZfcMjc">
+        <correspAction xml:id="i-CHZ3KE27r58q6of4ZfcMjc" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-As3X4pXjqkF4FMpVPawrHM">
+        <correspAction xml:id="i-As3X4pXjqkF4FMpVPawrHM" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KUDwCmLfUDLnyfXNMvVFtu">
+        <correspAction xml:id="i-KUDwCmLfUDLnyfXNMvVFtu" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-E1vCdRfHbqgNHdukXm3Zor"/>
+        <correspAction xml:id="i-E1vCdRfHbqgNHdukXm3Zor" type="assigned"/>
         <correspContext corresp="i-E1vCdRfHbqgNHdukXm3Zor">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Fö_213/mot_200506_Fö_213-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PhyW4LufebJY9MG7konu76">
-        <div type="motTitle" xml:id="i-5bnu1XTp4vJhYhDpgSCChK"/>
-        <div type="motSubmissionInfo" xml:id="i-QMMocL92fVyK2KfKxvUEFM"/>
+      <div xml:id="i-PhyW4LufebJY9MG7konu76" type="motHeader">
+        <div xml:id="i-5bnu1XTp4vJhYhDpgSCChK" type="motTitle"/>
+        <div xml:id="i-QMMocL92fVyK2KfKxvUEFM" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JaXYbhbR98ecNsVGg6DN6G">
+      <div xml:id="i-JaXYbhbR98ecNsVGg6DN6G" type="motBody">
         <div xml:id="i-SnXx9NTDtJweFcunAMDP8t">
           <p xml:id="i-6SBrifWAgv1BQdRAZpqMMb">
             2005/06 mnr: Fö213 pnr: s36004
@@ -132,10 +132,12 @@
           </p>
           <p xml:id="i-Y3dN9J8AHXS45AvJvV9p6b">
             På 2000-talet finns det inte längre plats för diskriminering,
-            utan alla ska vara lika under lagen. Stockholm den 21 september
-            2005
+            utan alla ska vara lika under lagen.
           </p>
-          <p xml:id="i-Ad2qJCeGLS9BCwdRWeeakB">
+          <p type="date" id="i-FT1hDMp5Q6xPVscUfEfj2R">
+            Stockholm den 21 september 2005
+          </p>
+          <p xml:id="i-Ad2qJCeGLS9BCwdRWeeakB" type="signatureBlock">
             Anders Bengtsson (s) Hillevi Larsson (s)
           </p>
         </div>

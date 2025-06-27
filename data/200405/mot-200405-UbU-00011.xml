@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00011">
   <teiHeader>
     <fileDesc>
@@ -83,7 +83,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-UVohRsKkzretLx3M9hKCsy"/>
+        <correspAction xml:id="i-UVohRsKkzretLx3M9hKCsy" type="basedOn"/>
         <correspContext corresp="i-UVohRsKkzretLx3M9hKCsy">
           <ref>Proposition 2004/05:80</ref>
         </correspContext>
@@ -98,16 +98,16 @@
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
           <note type="signatory" corresp="i-XxqQtZTdHUTphXEbUJ35Ss"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LA7Kf7g6AqHcxiDBZRadi">
+        <correspAction xml:id="i-LA7Kf7g6AqHcxiDBZRadi" type="referral">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Evd8JjUTiE1Q8Q6XxPFht3">
+        <correspAction xml:id="i-Evd8JjUTiE1Q8Q6XxPFht3" type="dismissal">
           <date when="2005-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GEvWs9nm1n1kLWm4Ae8zds">
+        <correspAction xml:id="i-GEvWs9nm1n1kLWm4Ae8zds" type="submission">
           <date when="2005-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HJhFMzMVMuHGjgBAKxvazm"/>
+        <correspAction xml:id="i-HJhFMzMVMuHGjgBAKxvazm" type="assigned"/>
         <correspContext corresp="i-HJhFMzMVMuHGjgBAKxvazm">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -122,11 +122,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_11/mot_200405_Ub_11-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Jrb3rmsXemEvuKjWUTeV4a">
-        <div type="motTitle" xml:id="i-EtUgFmB18eWxUt1BZBiERe"/>
-        <div type="motSubmissionInfo" xml:id="i-Syk47nR3mZt3oSEgDB3mEa"/>
+      <div xml:id="i-Jrb3rmsXemEvuKjWUTeV4a" type="motHeader">
+        <div xml:id="i-EtUgFmB18eWxUt1BZBiERe" type="motTitle"/>
+        <div xml:id="i-Syk47nR3mZt3oSEgDB3mEa" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-J6UdvZccqY7FcPL313soUz">
+      <div xml:id="i-J6UdvZccqY7FcPL313soUz" type="motBody">
         <div xml:id="i-LNnBKesDzJ1uJod1LTxhHF">
           <p xml:id="i-VSUHBwvcKqrwobL1m3gmi">
             2004/05
@@ -859,8 +859,11 @@
             i detta sammanhang blir riktiga, eftersom Europeiska unionen nu
             skaffar sig en alltmer omfattande och långtgående forskningspolitik.
           </p>
-          <p xml:id="i-UPcPdMMezFzFZFvimwV9mA">
-            Stockholm den 6 april 2005 Ulf Nilsson (fp)
+          <p xml:id="i-UPcPdMMezFzFZFvimwV9mA" type="date">
+            Stockholm den 6 april 2005
+          </p>
+          <p type="signatureBlock" id="i-BxUp7eQqUYNjGgUuQUhfJY">
+            Ulf Nilsson (fp)
           </p>
           <p xml:id="i-H3ogXJDpLNghnFpU6sTpRb">
             Sten Tolgfors (m) Inger Davidson (kd) Sofia Larsen (c) Ana Maria

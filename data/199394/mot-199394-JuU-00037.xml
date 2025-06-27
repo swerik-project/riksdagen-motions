@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199394-JuU-00037">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-NJ3F1x3TAusoKGWhKxXUFd</idno>
-            <name>Bengt Rosén </name>
+            <name>Bengt Rosén</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-XyQ1e9eUJ1p9J4kkYnAMv"/>
+        <correspAction xml:id="i-XyQ1e9eUJ1p9J4kkYnAMv" type="basedOn"/>
         <correspContext corresp="i-XyQ1e9eUJ1p9J4kkYnAMv">
           <ref>Proposition 1993/94:200</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-NJ3F1x3TAusoKGWhKxXUFd"/>
           <note type="signatory" corresp="i-NJ3F1x3TAusoKGWhKxXUFd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-T6rtAnnnKnYsE6GnJtYFfe">
+        <correspAction xml:id="i-T6rtAnnnKnYsE6GnJtYFfe" type="referral">
           <date when="1994-04-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7UpQ8nWDYsDLqwFsoNdSKx">
+        <correspAction xml:id="i-7UpQ8nWDYsDLqwFsoNdSKx" type="dismissal">
           <date when="1994-04-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GY5MY79F9jmyFm4SAWB69C">
+        <correspAction xml:id="i-GY5MY79F9jmyFm4SAWB69C" type="submission">
           <date when="1994-04-18"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-QxwgWUxFzsUqptiwyfP247">
+        <correspAction xml:id="i-QxwgWUxFzsUqptiwyfP247" type="referral">
           <date when="1994-04-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RtF14Tk7o4jEZVKzx62yhf">
+        <correspAction xml:id="i-RtF14Tk7o4jEZVKzx62yhf" type="dismissal">
           <date when="1994-04-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Bq7ECmZdVh19kZBocmf8Hh">
+        <correspAction xml:id="i-Bq7ECmZdVh19kZBocmf8Hh" type="submission">
           <date when="1994-04-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FJbPwgqSVgEZLhaRUTTgw8"/>
+        <correspAction xml:id="i-FJbPwgqSVgEZLhaRUTTgw8" type="assigned"/>
         <correspContext corresp="i-FJbPwgqSVgEZLhaRUTTgw8">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199394/mot_199394_JuU_37/mot_199394_JuU_37-001.pdf"/>
-      <div type="motHeader" xml:id="i-S3CDji6ARTpp5fz7uidAKR">
-        <div type="motTitle" xml:id="i-MHfiH1PBDYQyJe3Dqhj5gY"/>
-        <div type="motSubmissionInfo" xml:id="i-94TGdvZWKcUNbeA7L66dEW"/>
+      <div xml:id="i-S3CDji6ARTpp5fz7uidAKR" type="motHeader">
+        <div xml:id="i-MHfiH1PBDYQyJe3Dqhj5gY" type="motTitle"/>
+        <div xml:id="i-94TGdvZWKcUNbeA7L66dEW" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VX11JbZNMyo7URurtFw1ez">
+      <div xml:id="i-VX11JbZNMyo7URurtFw1ez" type="motBody">
         <div xml:id="i-QmsegpHrKt7YjdTSSvLKsk">
           <p xml:id="i-DatETH4LK2qFpiCzhVYwrs">
             Motion till riksdagen
@@ -207,10 +207,12 @@
           </p>
           <p xml:id="i-WDDLsF4dUkV25YFs6Dfz5X">
             att riksdagen som sin mening ger regeringen till känna att Bostads-
-            domstolen skall upphöra den 1 juli 1995. Stockholm den 18 april
-            1994
+            domstolen skall upphöra den 1 juli 1995.
           </p>
-          <p xml:id="i-CYYn8uKitEQW8rEKeMqUJ8">
+          <p type="date" id="i-PgrMGxZBknUpJEMvkz5kGz">
+            Stockholm den 18 april 1994
+          </p>
+          <p xml:id="i-CYYn8uKitEQW8rEKeMqUJ8" type="signatureBlock">
             Bengt Rosén (fp)
           </p>
         </div>

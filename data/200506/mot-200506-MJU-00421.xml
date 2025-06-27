@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00421">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
           <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Sdm4CohXBCjPxgwT9evqcg">
+        <correspAction xml:id="i-Sdm4CohXBCjPxgwT9evqcg" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LHrPBah47CALxaP5cwWXJb">
+        <correspAction xml:id="i-LHrPBah47CALxaP5cwWXJb" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-D8WKtWvQVEWGaVZzzzwYH5">
+        <correspAction xml:id="i-D8WKtWvQVEWGaVZzzzwYH5" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GyMZbYevQjEZowmUBge89E"/>
+        <correspAction xml:id="i-GyMZbYevQjEZowmUBge89E" type="assigned"/>
         <correspContext corresp="i-GyMZbYevQjEZowmUBge89E">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_421/mot_200506_MJ_421-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3MA4qXcEFA2x1MRvFokqie">
-        <div type="motTitle" xml:id="i-MMDpuf48CWPCzVwJ4G9mWy"/>
-        <div type="motSubmissionInfo" xml:id="i-EcyPmxZ52Cm1us5S3PFxnR"/>
+      <div xml:id="i-3MA4qXcEFA2x1MRvFokqie" type="motHeader">
+        <div xml:id="i-MMDpuf48CWPCzVwJ4G9mWy" type="motTitle"/>
+        <div xml:id="i-EcyPmxZ52Cm1us5S3PFxnR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-REzHbNHgcfSiJ5jxSbYWWo">
+      <div xml:id="i-REzHbNHgcfSiJ5jxSbYWWo" type="motBody">
         <div xml:id="i-LhSyD4hiDqWQwut6vKVNjS">
           <p xml:id="i-TckuLvLnc5nUybqGUDpkMA">
             2005/06 mnr: MJ421 pnr: kd731
@@ -148,9 +148,11 @@
             att levande renar kan transporteras till Norge eller Finland och
             vid slakt ha rätt till prisstöd på renkött.
           </p>
-          <p xml:id="i-DUMHioJjYV7rZjLct6ag3B">
-            Stockholm den 29 september 2005 Gunilla Tjernberg (kd) Erling
-            Wälivaara (kd)
+          <p xml:id="i-DUMHioJjYV7rZjLct6ag3B" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-XSf2tmMfXrHPpxLvhz2TVy">
+            Gunilla Tjernberg (kd) Erling Wälivaara (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00248">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Bzx5Qt6R7eo7JgvEDtqjE2">
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Kmo61mYgdaHL4vr9FcmbdD">
+        <correspAction xml:id="i-Kmo61mYgdaHL4vr9FcmbdD" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XoyWUnUVLw8NcCTqdaHELG">
+        <correspAction xml:id="i-XoyWUnUVLw8NcCTqdaHELG" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TYWUgY281TmRx2in5wRofv">
+        <correspAction xml:id="i-TYWUgY281TmRx2in5wRofv" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4696dYB777x24CJzPtHter"/>
+        <correspAction xml:id="i-4696dYB777x24CJzPtHter" type="assigned"/>
         <correspContext corresp="i-4696dYB777x24CJzPtHter">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_So_0248/mot_200203_So_0248-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7SbmX3BkhqpUqFfcrGVWNg">
-        <div type="motTitle" xml:id="i-VqAb7wEr3EBwFqSJsDVV13"/>
-        <div type="motSubmissionInfo" xml:id="i-D31pxpz9KSc4yGSNstci9T"/>
+      <div xml:id="i-7SbmX3BkhqpUqFfcrGVWNg" type="motHeader">
+        <div xml:id="i-VqAb7wEr3EBwFqSJsDVV13" type="motTitle"/>
+        <div xml:id="i-D31pxpz9KSc4yGSNstci9T" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Xsv2dYAcg7sR1KT7Vfm66h">
+      <div xml:id="i-Xsv2dYAcg7sR1KT7Vfm66h" type="motBody">
         <div xml:id="i-NFyrm3cjgW7s5WobTRwUcc">
           <p xml:id="i-39Zb2kVcLqBZCKm924rUxP">
             2002/03 mnr: S0248 pnr: kd567
@@ -122,8 +122,11 @@
           <p xml:id="i-NDd6CbeED9NT3zptH9RWD4">
             2002/03:S0248
           </p>
-          <p xml:id="i-R7sYD4Fvhq8BHUPfmshnKg">
-            Stockholm den 17 oktober 2002 Tuve Skånberg (kd)
+          <p xml:id="i-R7sYD4Fvhq8BHUPfmshnKg" type="date">
+            Stockholm den 17 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-G4JkWXcNfVbDefHr1tyCao">
+            Tuve Skånberg (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00302">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-7pP7twc3YVXCUZEHt2BhKX">
           <note type="signatory" corresp="i-D8B2Xf6UADbqciPHrqFxSc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CYwfyeWRoH46XRNXYW7DKN">
+        <correspAction xml:id="i-CYwfyeWRoH46XRNXYW7DKN" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8KFfn7u9fYRQpHC4ZuEwvc">
+        <correspAction xml:id="i-8KFfn7u9fYRQpHC4ZuEwvc" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3Hxyy3wBquksdhFWwkH1JC">
+        <correspAction xml:id="i-3Hxyy3wBquksdhFWwkH1JC" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UFrc5DjabvR3QGPEE9Xt1v"/>
+        <correspAction xml:id="i-UFrc5DjabvR3QGPEE9Xt1v" type="assigned"/>
         <correspContext corresp="i-UFrc5DjabvR3QGPEE9Xt1v">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_MJ_0302/mot_200304_MJ_0302-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Vvvj7DGaRNGtG7Ei9Ug3jE">
-        <div type="motTitle" xml:id="i-P9ccFwUm3iZV23cpnVLWaa"/>
-        <div type="motSubmissionInfo" xml:id="i-3TheL2j2fnwDse1YdPD8pd"/>
+      <div xml:id="i-Vvvj7DGaRNGtG7Ei9Ug3jE" type="motHeader">
+        <div xml:id="i-P9ccFwUm3iZV23cpnVLWaa" type="motTitle"/>
+        <div xml:id="i-3TheL2j2fnwDse1YdPD8pd" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-23cRShwZCF9fFKBE58c1xp">
+      <div xml:id="i-23cRShwZCF9fFKBE58c1xp" type="motBody">
         <div xml:id="i-AZQhsVf3cb1RcH6c9zSspy">
           <p xml:id="i-8xKFHWww7g1TyoqUjfxhij">
             2003/04 mnr: MJ302 pnr: fp432
@@ -114,8 +114,11 @@
             på samma sätt som vi rensat bort andra avarter inom den svenska
             jakten som exempelvis rävjakt enligt engelsk manér.
           </p>
-          <p xml:id="i-ZBJee1uRLFhVX5WdpQ6gr">
-            Stockholm den 30 september 2003 Birgitta Ohlsson (fp)
+          <p xml:id="i-ZBJee1uRLFhVX5WdpQ6gr" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-FTaCSKsinYSmvjU38qnfZg">
+            Birgitta Ohlsson (fp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-FiU-00287">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-2RcEiKfXsiWSeu1NPzZmFE">
           <note type="signatory" corresp="i-ErVmo7eYu7oehJQsJSwD6t"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7tT3Du6gZL2ycbhWCbte6D">
+        <correspAction xml:id="i-7tT3Du6gZL2ycbhWCbte6D" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Kf3rVffUFEweZ8TCEEBzzr">
+        <correspAction xml:id="i-Kf3rVffUFEweZ8TCEEBzzr" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RqKg8PnND7BTUF9tGNEs3X">
+        <correspAction xml:id="i-RqKg8PnND7BTUF9tGNEs3X" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KUML7ScUZWn8SgkJZKv56D"/>
+        <correspAction xml:id="i-KUML7ScUZWn8SgkJZKv56D" type="assigned"/>
         <correspContext corresp="i-KUML7ScUZWn8SgkJZKv56D">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Fi_287/mot_200506_Fi_287-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VG6NwujoSazgEDdgEwGRes">
-        <div type="motTitle" xml:id="i-Wwcy1pJUxv4ygrJyQWQquX"/>
-        <div type="motSubmissionInfo" xml:id="i-SVFDEyepgYsFk1sLGvKeGg"/>
+      <div xml:id="i-VG6NwujoSazgEDdgEwGRes" type="motHeader">
+        <div xml:id="i-Wwcy1pJUxv4ygrJyQWQquX" type="motTitle"/>
+        <div xml:id="i-SVFDEyepgYsFk1sLGvKeGg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-dsgpKYVdDPMXwwrj6i9FV">
+      <div xml:id="i-dsgpKYVdDPMXwwrj6i9FV" type="motBody">
         <div xml:id="i-BRtTGSAbS8WksXx8wzR9W6">
           <p xml:id="i-Tkv3K7cxRqRR5wXapAzpXf">
             2005/06 mnr: Fi287 pnr: kd1031
@@ -119,8 +119,11 @@
           <p xml:id="i-J32TYiFkoFHJEFKwqdhKqr">
             2005/06:Fi287
           </p>
-          <p xml:id="i-XpawFAhqEjZbmdNEWvHwPc">
-            Stockholm den 29 september 2005 Per Landgren (kd)
+          <p xml:id="i-XpawFAhqEjZbmdNEWvHwPc" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-9SxN666TKZMJi74Bwa2RrQ">
+            Per Landgren (kd)
           </p>
         </div>
       </div>

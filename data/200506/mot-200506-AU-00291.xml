@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-AU-00291">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-2nbunHD77vgW5nsvaKHxDf">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DnjUYXfAQJGfaugYQbEhgu">
+        <correspAction xml:id="i-DnjUYXfAQJGfaugYQbEhgu" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JzHvw3SbDBp76kvCTCcTCF">
+        <correspAction xml:id="i-JzHvw3SbDBp76kvCTCcTCF" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NtiEq1TMd8qLBPQQ3kN2Kw">
+        <correspAction xml:id="i-NtiEq1TMd8qLBPQQ3kN2Kw" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UEJ6TVLhmjmLjfWvFSSWeD"/>
+        <correspAction xml:id="i-UEJ6TVLhmjmLjfWvFSSWeD" type="assigned"/>
         <correspContext corresp="i-UEJ6TVLhmjmLjfWvFSSWeD">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -69,11 +69,11 @@
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_291/mot_200506_A_291-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0291/mot_200506_A_0291-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0291/mot_200506_A_0291-001.pdf"/>
-      <div type="motHeader" xml:id="i-Htu9KGRtghn8U5pk9LNKu9">
-        <div type="motTitle" xml:id="i-D4nUT75hEgfB3mZL24Yydq"/>
-        <div type="motSubmissionInfo" xml:id="i-89MRCSkBdvscHY1Vq9qsZV"/>
+      <div xml:id="i-Htu9KGRtghn8U5pk9LNKu9" type="motHeader">
+        <div xml:id="i-D4nUT75hEgfB3mZL24Yydq" type="motTitle"/>
+        <div xml:id="i-89MRCSkBdvscHY1Vq9qsZV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FuUDsUxbuEg8Ya35bTguKy">
+      <div xml:id="i-FuUDsUxbuEg8Ya35bTguKy" type="motBody">
         <div xml:id="i-KVS2ZuooBQYYPkv1KSWpYQ">
           <p xml:id="i-3tuAk28MqE7jRLjKPvSBKV">
             2005/06 mnr: A291 pnr: kd832
@@ -162,8 +162,11 @@
             skulle vara ett led i arbetet för att minska de höga ohälsotalen
             som kostar skattebetalarna stora summor varje år.
           </p>
-          <p xml:id="i-NcGcbbhoz8CNn5xxj6LLn">
-            Stockholm den 3 oktober 2005 Annelie Enochson (kd)
+          <p xml:id="i-NcGcbbhoz8CNn5xxj6LLn" type="date">
+            Stockholm den 3 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-Gyuxy7RVEWovyzPC15UJNJ">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

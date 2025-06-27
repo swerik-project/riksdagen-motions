@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FöU-00252">
   <teiHeader>
     <fileDesc>
@@ -86,16 +86,16 @@
           <note type="signatory" corresp="i-CvmaDbz8ueGm8meSVWj6vr"/>
           <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WiJVeXneQCxzxtyKGrVCXw">
+        <correspAction xml:id="i-WiJVeXneQCxzxtyKGrVCXw" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MacQ12yuxer6X3mUM4GkA1">
+        <correspAction xml:id="i-MacQ12yuxer6X3mUM4GkA1" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9tzeCfF1mxSGVk9NLfQHZW">
+        <correspAction xml:id="i-9tzeCfF1mxSGVk9NLfQHZW" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7NiDmWSaYtFNA3YBf3yuES"/>
+        <correspAction xml:id="i-7NiDmWSaYtFNA3YBf3yuES" type="assigned"/>
         <correspContext corresp="i-7NiDmWSaYtFNA3YBf3yuES">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fö_0252/mot_200203_Fö_0252-0001.pdf"/>
-      <div type="motHeader" xml:id="i-F94AiVfDdCU2VVz5iy6qSE">
-        <div type="motTitle" xml:id="i-PgXxBxy2jQ82ueSDJaUVFr"/>
-        <div type="motSubmissionInfo" xml:id="i-Mnr1zf77GLWeajrnhUFgf4"/>
+      <div xml:id="i-F94AiVfDdCU2VVz5iy6qSE" type="motHeader">
+        <div xml:id="i-PgXxBxy2jQ82ueSDJaUVFr" type="motTitle"/>
+        <div xml:id="i-Mnr1zf77GLWeajrnhUFgf4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8jmfYXbxRDX9hpqP3z8o6b">
+      <div xml:id="i-8jmfYXbxRDX9hpqP3z8o6b" type="motBody">
         <div xml:id="i-5Hh3FgQKBYSoGeVoVfFF9T">
           <p xml:id="i-7AnjRKtr8JsmJTVC2KJRMH">
             14
@@ -207,8 +207,11 @@
           <p xml:id="i-SnVycrySg72HdZzfs88TXu">
             uppgifter.
           </p>
-          <p xml:id="i-NuHeVyZA673DdeZHDy7w6m">
-            Stockholm den 22 oktober 2002 Else-Marie Lindgren (kd)
+          <p xml:id="i-NuHeVyZA673DdeZHDy7w6m" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-YFaZNCt7pwyZTWYrnPSkTc">
+            Else-Marie Lindgren (kd)
           </p>
           <p xml:id="i-X4fKMvZiTCptVLWAexyfjJ">
             Annelie Enochson (kd) Holger Gustafsson (kd) Mats Odell (kd)

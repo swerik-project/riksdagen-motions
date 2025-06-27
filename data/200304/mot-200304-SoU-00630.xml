@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00630">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-PSA43Si5h3bEgkBZWpDgFh">
           <note type="signatory" corresp="i-BQkxuAonXYMwkLiuxdAv6S"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Px3qvYW8KBXEg64eoT8y15">
+        <correspAction xml:id="i-Px3qvYW8KBXEg64eoT8y15" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EP5zF3EAM93bzs7ZYgkHpN">
+        <correspAction xml:id="i-EP5zF3EAM93bzs7ZYgkHpN" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-A92sN4ZgK9k4fDYZLELzrX">
+        <correspAction xml:id="i-A92sN4ZgK9k4fDYZLELzrX" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-F1ts3eJUvoE8gaXYoDFii"/>
+        <correspAction xml:id="i-F1ts3eJUvoE8gaXYoDFii" type="assigned"/>
         <correspContext corresp="i-F1ts3eJUvoE8gaXYoDFii">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0630/mot_200304_So_0630-0001.pdf"/>
-      <div type="motHeader" xml:id="i-YSHgmQh9b4mSRfdDCuSeLF">
-        <div type="motTitle" xml:id="i-SjCMnRSRPyFwBHccihE2Z7"/>
-        <div type="motSubmissionInfo" xml:id="i-Q4MvGkLqiWZMoks1V9jXFW"/>
+      <div xml:id="i-YSHgmQh9b4mSRfdDCuSeLF" type="motHeader">
+        <div xml:id="i-SjCMnRSRPyFwBHccihE2Z7" type="motTitle"/>
+        <div xml:id="i-Q4MvGkLqiWZMoks1V9jXFW" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8Yb9grePNygtvpfkmLHqB3">
+      <div xml:id="i-8Yb9grePNygtvpfkmLHqB3" type="motBody">
         <div xml:id="i-EkYRLu7KrGMyjwXNfUN56G">
           <p xml:id="i-8gQr99AbQsqP8bnPwiKKAJ">
             2003/04 mnr: S0630 pnr: s7044
@@ -251,8 +251,11 @@
           <p xml:id="i-FgGU2uqdpt3Vpr2ukkjVcX">
             krav. Denna skriver:
           </p>
-          <p xml:id="i-Pv3BDFgyud17qT9VcTAkPu">
-            Stockholm den 29 september 2003 Niclas Lindberg (s)
+          <p xml:id="i-Pv3BDFgyud17qT9VcTAkPu" type="date">
+            Stockholm den 29 september 2003
+          </p>
+          <p type="signatureBlock" id="i-SEDvxgR7isiMfQ8VP14Re9">
+            Niclas Lindberg (s)
           </p>
           <p xml:id="i-17YT151V8sW1xjQMKbTrzk">
             2003/04:S0630

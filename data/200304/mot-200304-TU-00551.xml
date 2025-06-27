@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00551">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-6A1Lrj5nXG2dFSv39EAD1S">
           <note type="signatory" corresp="i-9x2nw6aosA3pyEJfJTc1eD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RWhEZznXrmg9q82MuNdegF">
+        <correspAction xml:id="i-RWhEZznXrmg9q82MuNdegF" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JvmMRNKaKqbtPfS76Tbd9j">
+        <correspAction xml:id="i-JvmMRNKaKqbtPfS76Tbd9j" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-J3XiBofFEvqnvf6cBVrqzG">
+        <correspAction xml:id="i-J3XiBofFEvqnvf6cBVrqzG" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BhyxscvsBNZvwSW3bbWNcf"/>
+        <correspAction xml:id="i-BhyxscvsBNZvwSW3bbWNcf" type="assigned"/>
         <correspContext corresp="i-BhyxscvsBNZvwSW3bbWNcf">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0551/mot_200304_T_0551-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NHaabi6wsSAP9FALm8mrjg">
-        <div type="motTitle" xml:id="i-Rdn9zrS8KawqwYyc2N5SGu"/>
-        <div type="motSubmissionInfo" xml:id="i-MeHFw5hguyd1Fyu4aEgYEV"/>
+      <div xml:id="i-NHaabi6wsSAP9FALm8mrjg" type="motHeader">
+        <div xml:id="i-Rdn9zrS8KawqwYyc2N5SGu" type="motTitle"/>
+        <div xml:id="i-MeHFw5hguyd1Fyu4aEgYEV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2MLrrBDJeQTyM5vH4CEntH">
+      <div xml:id="i-2MLrrBDJeQTyM5vH4CEntH" type="motBody">
         <div xml:id="i-2sDCf7Y6Ai2VEa8ZiCnY4g">
           <p xml:id="i-5dyHe93rEyeCPTxE4FPngq">
             2003/04 mnr: T551 pnr: mp608
@@ -111,8 +111,11 @@
             säkerställa att de har en tillräckligt avskräckande inverkan på
             bilisterna. Detta bör ges regeringen tillkänna.
           </p>
-          <p xml:id="i-A5jo9ZsuFtrWaqCeWLhxgv">
-            Stockholm den 7 oktober 2003 Ulf Holm (mp)
+          <p xml:id="i-A5jo9ZsuFtrWaqCeWLhxgv" type="date">
+            Stockholm den 7 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-PfWXkNYrMnhJN2MFUTgK5k">
+            Ulf Holm (mp)
           </p>
         </div>
       </div>

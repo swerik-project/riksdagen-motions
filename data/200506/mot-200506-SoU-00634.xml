@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00634">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-PMkeWR8qy4ohkxZ3iiUQPq">
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FreMnVG7EKpn8P2YJwuy4e">
+        <correspAction xml:id="i-FreMnVG7EKpn8P2YJwuy4e" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Y2F3u3yU7EYUa7mGcu9BXB">
+        <correspAction xml:id="i-Y2F3u3yU7EYUa7mGcu9BXB" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TrUjkik39WfSM3uievM9d7">
+        <correspAction xml:id="i-TrUjkik39WfSM3uievM9d7" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JGtFTpi5pY3MWbwzVvmF9u"/>
+        <correspAction xml:id="i-JGtFTpi5pY3MWbwzVvmF9u" type="assigned"/>
         <correspContext corresp="i-JGtFTpi5pY3MWbwzVvmF9u">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_634/mot_200506_So_634-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Y2t63qUkMB7NVsFQMCUw5F">
-        <div type="motTitle" xml:id="i-JZqnDtaBVG8YyFxm9Uo5g7"/>
-        <div type="motSubmissionInfo" xml:id="i-KGNrsfoZz7Zrd8peJR4A3q"/>
+      <div xml:id="i-Y2t63qUkMB7NVsFQMCUw5F" type="motHeader">
+        <div xml:id="i-JZqnDtaBVG8YyFxm9Uo5g7" type="motTitle"/>
+        <div xml:id="i-KGNrsfoZz7Zrd8peJR4A3q" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XmhK1VMhCEumrdfg7HCCB4">
+      <div xml:id="i-XmhK1VMhCEumrdfg7HCCB4" type="motBody">
         <div xml:id="i-CVTg8yfB2Z77PQAewtppwc">
           <p xml:id="i-MsTTUXZuCBWmNQeZ5XnCXv">
             2005/06
@@ -300,8 +300,11 @@
             som sker via Internet måste kraftigt förstärkas. Upp till 90 procent
             av droghandeln sker i dag via Internet.
           </p>
-          <p xml:id="i-L27UMUz1Vay6qj4SWGk3Dd">
-            Stockholm den 4 oktober 2005 Mikael Oscarsson (kd)
+          <p xml:id="i-L27UMUz1Vay6qj4SWGk3Dd" type="date">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-4f2FuEZXtEPj3AqDgj2Zku">
+            Mikael Oscarsson (kd)
           </p>
         </div>
       </div>

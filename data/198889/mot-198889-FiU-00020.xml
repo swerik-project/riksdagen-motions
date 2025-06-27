@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198889-FiU-00020">
   <teiHeader>
     <fileDesc>
@@ -75,21 +75,21 @@
           </person>
           <person gender="man">
             <idno>i-GTDxf4NudVQ4es4EhotQR1</idno>
-            <name>Sten Svensson </name>
+            <name>Sten Svensson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-QkoGcuWJuiryQZaTNFexi4</idno>
-            <name>Karl-Gösta Svenson </name>
+            <name>Karl-Gösta Svenson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person>
             <idno>r-0000000000000</idno>
-            <name>Stig Bertilsson </name>
+            <name>Stig Bertilsson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -97,7 +97,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-4xKJ6FSQavr4ExYwoLLmwz"/>
+        <correspAction xml:id="i-4xKJ6FSQavr4ExYwoLLmwz" type="basedOn"/>
         <correspContext corresp="i-4xKJ6FSQavr4ExYwoLLmwz">
           <ref>Proposition 1988/89:47</ref>
         </correspContext>
@@ -114,16 +114,16 @@
           <note type="signatory" corresp="i-QkoGcuWJuiryQZaTNFexi4"/>
           <note type="signatory" corresp="r-0000000000000"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-4FE1uz2UmJjfm28px7CVWG">
+        <correspAction xml:id="i-4FE1uz2UmJjfm28px7CVWG" type="submission">
           <date when="1988-11-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UBDvhkkryTtjcoAgyzokUx">
+        <correspAction xml:id="i-UBDvhkkryTtjcoAgyzokUx" type="dismissal">
           <date when="1988-11-17"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-U4joP6rkmpbvemWszf8MSL">
+        <correspAction xml:id="i-U4joP6rkmpbvemWszf8MSL" type="referral">
           <date when="1988-11-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-K7dMWrDewQ1eagymvKNgHP">
+        <correspAction xml:id="i-K7dMWrDewQ1eagymvKNgHP" type="assigned">
           <date when="2014-11-23"/>
           <time when="20:07:47"/>
         </correspAction>
@@ -139,11 +139,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198889/mot_198889_fi_20/mot_198889_fi_20-001.pdf"/>
-      <div type="motHeader" xml:id="i-RTWYnzVSydnp9UHfeZC7c8">
-        <div type="motTitle" xml:id="i-5e4eBEXShxUkzwsJG9fqnm"/>
-        <div type="motSubmissionInfo" xml:id="i-P81qKhUVpxUPUDKABoNqqa"/>
+      <div xml:id="i-RTWYnzVSydnp9UHfeZC7c8" type="motHeader">
+        <div xml:id="i-5e4eBEXShxUkzwsJG9fqnm" type="motTitle"/>
+        <div xml:id="i-P81qKhUVpxUPUDKABoNqqa" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FVQ6UxRqn6hM7CXdMcyiWn">
+      <div xml:id="i-FVQ6UxRqn6hM7CXdMcyiWn" type="motBody">
         <div xml:id="i-VNxFsRJKPNG2nPEkHm4eka">
           <p xml:id="i-8KLZPV8Pihf3Fed5ebXFjs">
             Motion till riksdagen 1988/89:Fi20
@@ -236,8 +236,11 @@
             med reglerna före den 26 oktober, oaktat låneansökan vid samma
             tidpunkt ej lämnats till förmedlingsorgan.
           </p>
-          <p xml:id="i-HazS2n7Mot8KwTdvrVT5se">
-            Stockholm den 16 november 1988 Sten Svensson (m)
+          <p xml:id="i-HazS2n7Mot8KwTdvrVT5se" type="date">
+            Stockholm den 16 november 1988
+          </p>
+          <p type="signatureBlock" id="i-5PXKwngeLvbLq1CveCzWRH">
+            Sten Svensson (m)
           </p>
           <p xml:id="i-HVdPtJYGdkNsg4aR7VNepX">
             Karl-Gösta Svenson (m) Stig Bertilsson (m)

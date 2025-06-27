@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-SkU-00010">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-SfnrsjEZBg9vdQjkU5VSZ2</idno>
-            <name>Ian Wachtmeister </name>
+            <name>Ian Wachtmeister</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-LvT4xzQrHUKrVDH5VNSL5s</idno>
-            <name>Stefan Kihlberg </name>
+            <name>Stefan Kihlberg</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-KC7Pg8aEPmzzkGC8SbK2cS</idno>
-            <name>Peter Kling </name>
+            <name>Peter Kling</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-TMexkjW8eShYH5QkThg9T"/>
+        <correspAction xml:id="i-TMexkjW8eShYH5QkThg9T" type="basedOn"/>
         <correspContext corresp="i-TMexkjW8eShYH5QkThg9T">
           <ref>Proposition 1992/93:86</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-LvT4xzQrHUKrVDH5VNSL5s"/>
           <note type="signatory" corresp="i-KC7Pg8aEPmzzkGC8SbK2cS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CZKxtX5f7tBw4GqmFB9zM2">
+        <correspAction xml:id="i-CZKxtX5f7tBw4GqmFB9zM2" type="referral">
           <date when="1992-11-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7ovM9R2gV6wJy1WYz95Mib">
+        <correspAction xml:id="i-7ovM9R2gV6wJy1WYz95Mib" type="dismissal">
           <date when="1992-11-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M6MvQ85vAdiBjvGsQu3m9q">
+        <correspAction xml:id="i-M6MvQ85vAdiBjvGsQu3m9q" type="submission">
           <date when="1992-11-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-5d2FRZrz3cUYN3djU8HsGy">
+        <correspAction xml:id="i-5d2FRZrz3cUYN3djU8HsGy" type="referral">
           <date when="1992-11-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NecPpGS7SUxR58JkRdoutf">
+        <correspAction xml:id="i-NecPpGS7SUxR58JkRdoutf" type="dismissal">
           <date when="1992-11-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Lzb45fbgikkR7QRz5wU3zw">
+        <correspAction xml:id="i-Lzb45fbgikkR7QRz5wU3zw" type="submission">
           <date when="1992-11-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-V5be5fDuKYeAWQ7GkLHA2d"/>
+        <correspAction xml:id="i-V5be5fDuKYeAWQ7GkLHA2d" type="assigned"/>
         <correspContext corresp="i-V5be5fDuKYeAWQ7GkLHA2d">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_SkU_10/mot_199293_SkU_10-001.pdf"/>
-      <div type="motHeader" xml:id="i-5sg85jnfXYJUnKp9fCU7rW">
-        <div type="motTitle" xml:id="i-8St63nBzXgzEqR6Du4AR62"/>
-        <div type="motSubmissionInfo" xml:id="i-bGvk8vAwF1NPTomPAnPZV"/>
+      <div xml:id="i-5sg85jnfXYJUnKp9fCU7rW" type="motHeader">
+        <div xml:id="i-8St63nBzXgzEqR6Du4AR62" type="motTitle"/>
+        <div xml:id="i-bGvk8vAwF1NPTomPAnPZV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6AmfjDgdy5Z6vFyw9j9Vmc">
+      <div xml:id="i-6AmfjDgdy5Z6vFyw9j9Vmc" type="motBody">
         <div xml:id="i-UDbxDnKApHbyn51ytzfSso">
           <p xml:id="i-JTWhaYqVtvD5ceTgdL1Nz">
             Motion till riksdagen 1992/93:Sk10
@@ -187,8 +187,11 @@
             som grundas på oriktig uppgift i deklarationsblanketten i enlighet
             med vad som anförts i motionen.
           </p>
-          <p xml:id="i-PiK3P67v51DxuzRjVRDC5z">
-            Stockholm den 25 november 1992 Ian Wachtmeister (nyd)
+          <p xml:id="i-PiK3P67v51DxuzRjVRDC5z" type="date">
+            Stockholm den 25 november 1992
+          </p>
+          <p type="signatureBlock" id="i-WLcL7P7L2qbUuFvRhu8bG4">
+            Ian Wachtmeister (nyd)
           </p>
           <p xml:id="i-7HTUgmVG6KBD71HCZStwhp">
             Peter Kling (nyd) Stefan Kihlberg (nyd)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198889-SkU-00336">
   <teiHeader>
     <fileDesc>
@@ -40,7 +40,7 @@
           </person>
           <person gender="man">
             <idno>i-SZgcxyxYn6GnRBLikzLy7M</idno>
-            <name>Kjell Ericsson </name>
+            <name>Kjell Ericsson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -62,16 +62,16 @@
           <note type="signatory" corresp="i-SZgcxyxYn6GnRBLikzLy7M"/>
           <note type="signatory" corresp="i-SZgcxyxYn6GnRBLikzLy7M"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-Lxi9ipBfeCHHmZNrWLRRai">
+        <correspAction xml:id="i-Lxi9ipBfeCHHmZNrWLRRai" type="submission">
           <date when="1989-01-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8Y1QY3bZLtH9MuXgpLeFJx">
+        <correspAction xml:id="i-8Y1QY3bZLtH9MuXgpLeFJx" type="dismissal">
           <date when="1989-02-01"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-3iGdfakuTAj6cy1SJNasPG">
+        <correspAction xml:id="i-3iGdfakuTAj6cy1SJNasPG" type="referral">
           <date when="1989-02-02"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-M1NQDQJq4s6rqTkNozh1BQ">
+        <correspAction xml:id="i-M1NQDQJq4s6rqTkNozh1BQ" type="assigned">
           <date when="2014-11-19"/>
           <time when="18:01:17"/>
         </correspAction>
@@ -87,11 +87,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198889/mot_198889_sk_336/mot_198889_sk_336-001.pdf"/>
-      <div type="motHeader" xml:id="i-LEiofhZd6tTyTSVURRwAZt">
-        <div type="motTitle" xml:id="i-W9F1qWb3P224Ceva5HvHEE"/>
-        <div type="motSubmissionInfo" xml:id="i-3YyNrdD8yATeq1BSvaURFh"/>
+      <div xml:id="i-LEiofhZd6tTyTSVURRwAZt" type="motHeader">
+        <div xml:id="i-W9F1qWb3P224Ceva5HvHEE" type="motTitle"/>
+        <div xml:id="i-3YyNrdD8yATeq1BSvaURFh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-L2YyS2PwE3wQFEQa5mxdqj">
+      <div xml:id="i-L2YyS2PwE3wQFEQa5mxdqj" type="motBody">
         <div xml:id="i-6P3C8AoVYhdyP763RnRq5D">
           <p xml:id="i-R15mr9fQGxezXUQqsazdP1">
             Motion till riksdagen 1988/89:Sk336
@@ -143,10 +143,12 @@
             Med hänvisning till det anförda hemställs Sk336
           </p>
           <p xml:id="i-6Zk6Eq3ju8YQohJ9xaNWyN">
-            att riksdagen beslutar avveckla skogsvårdsavgiften. Stockholm
-            den 19 januari 1989
+            att riksdagen beslutar avveckla skogsvårdsavgiften.
           </p>
-          <p xml:id="i-SrAVa7fycUPPJwHGCSYURA">
+          <p type="date" id="i-Agc3BSu6bWf8wCaB4e7b4D">
+            Stockholm den 19 januari 1989
+          </p>
+          <p xml:id="i-SrAVa7fycUPPJwHGCSYURA" type="signatureBlock">
             Kjell Ericsson (c)
           </p>
         </div>

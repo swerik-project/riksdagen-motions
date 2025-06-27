@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-LU-00231">
   <teiHeader>
     <fileDesc>
@@ -86,16 +86,16 @@
           <note type="signatory" corresp="i-7Gy2xwC7Jyimjy9QTKnQEf"/>
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8iQF8xr2hCTCR6zGU7p4mk">
+        <correspAction xml:id="i-8iQF8xr2hCTCR6zGU7p4mk" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RkEmfqrBoXBeJEGJ71MqxJ">
+        <correspAction xml:id="i-RkEmfqrBoXBeJEGJ71MqxJ" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FoicKeyj9RbdPKWYQKB1sP">
+        <correspAction xml:id="i-FoicKeyj9RbdPKWYQKB1sP" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-J9snnxcTk7EAxkbh1CTJYA"/>
+        <correspAction xml:id="i-J9snnxcTk7EAxkbh1CTJYA" type="assigned"/>
         <correspContext corresp="i-J9snnxcTk7EAxkbh1CTJYA">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_L_0231/mot_200203_L_0231-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2NYZFRDGVha8AbKy9BdUcZ">
-        <div type="motTitle" xml:id="i-HkuRcKQooKxAzQKdbeWJH1"/>
-        <div type="motSubmissionInfo" xml:id="i-BJBweVoCyeNidGeQpptpXS"/>
+      <div xml:id="i-2NYZFRDGVha8AbKy9BdUcZ" type="motHeader">
+        <div xml:id="i-HkuRcKQooKxAzQKdbeWJH1" type="motTitle"/>
+        <div xml:id="i-BJBweVoCyeNidGeQpptpXS" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TRKzKtwdxARCYtR39eBPLr">
+      <div xml:id="i-TRKzKtwdxARCYtR39eBPLr" type="motBody">
         <div xml:id="i-PWUYHCUcAfDtnKHKYdufYd">
           <p xml:id="i-VCWAzdSwnRG6RDnU3aTcDq">
             2002/03 mnr: L231 pnr: v953
@@ -185,8 +185,11 @@
             till ändring i marknadsföringslagen innebärande att marknadsföring
             via elektronisk post ska kräva konsumentens aktiva samtycke.
           </p>
-          <p xml:id="i-FbTyTpoECMtrrxPkshfsi2">
-            Stockholm den 15 oktober 2002 Tasso Stafilidis (v)
+          <p xml:id="i-FbTyTpoECMtrrxPkshfsi2" type="date">
+            Stockholm den 15 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-LEYSfwE87FpZ7KBKEqyEAE">
+            Tasso Stafilidis (v)
           </p>
           <p xml:id="i-FaDUhjQTHzZrVHRVNLwA3d">
             Mats Einarsson (v) Siv Holma (v) Peter Pedersen (v) Per Rosengren

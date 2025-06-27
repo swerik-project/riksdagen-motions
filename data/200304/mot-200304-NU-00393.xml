@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-NU-00393">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
           <note type="signatory" corresp="i-9xcMYrrML4AzXQ6jGcD6e2"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WVzwEZKrbmGZvkjTS6J4H7">
+        <correspAction xml:id="i-WVzwEZKrbmGZvkjTS6J4H7" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7KTs4ci64i77a4rzXmjA54">
+        <correspAction xml:id="i-7KTs4ci64i77a4rzXmjA54" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RstuwrZAPBU9pmpePiDvpr">
+        <correspAction xml:id="i-RstuwrZAPBU9pmpePiDvpr" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Qiu5x6dVwLYVQ1voqnRteP"/>
+        <correspAction xml:id="i-Qiu5x6dVwLYVQ1voqnRteP" type="assigned"/>
         <correspContext corresp="i-Qiu5x6dVwLYVQ1voqnRteP">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_N_0393/mot_200304_N_0393-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LbshHVHKhPwtDC9SSHjdmx">
-        <div type="motTitle" xml:id="i-FKnjfXrrypeSxZKcZxG6ho"/>
-        <div type="motSubmissionInfo" xml:id="i-JxotzetpAdsGQm3JR7oj3y"/>
+      <div xml:id="i-LbshHVHKhPwtDC9SSHjdmx" type="motHeader">
+        <div xml:id="i-FKnjfXrrypeSxZKcZxG6ho" type="motTitle"/>
+        <div xml:id="i-JxotzetpAdsGQm3JR7oj3y" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QePTDo9SDnri6S6qM65fSn">
+      <div xml:id="i-QePTDo9SDnri6S6qM65fSn" type="motBody">
         <div xml:id="i-LcyaYrg9ojqHSLKinEuwES">
           <p xml:id="i-Y8F9ZhjhrFn7K6whG4ZmkY">
             2003/04 mnr: N393 pnr: s3030
@@ -141,9 +141,11 @@
             i Småland. För Sörmlands del skulle en etablering av naturgas
             bidra till regionens utveckling och konkurrenskraft.
           </p>
-          <p xml:id="i-XWtXNU6CrVC7uSZVHqXkvS">
-            Stockholm den 1 oktober 2003 Michael Hagberg (s) Christin Nilsson
-            (s)
+          <p xml:id="i-XWtXNU6CrVC7uSZVHqXkvS" type="date">
+            Stockholm den 1 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-2byzJsb9mTGGDxZskWy33p">
+            Michael Hagberg (s) Christin Nilsson (s)
           </p>
         </div>
       </div>

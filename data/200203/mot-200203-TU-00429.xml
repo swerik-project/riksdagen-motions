@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00429">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-77kDTjwCDm7vQ9jUMFRGiK">
           <note type="signatory" corresp="i-KNqtzTyLq88RopWq6R35xs"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UJM1ahMbivL2LVCvAMNLdM">
+        <correspAction xml:id="i-UJM1ahMbivL2LVCvAMNLdM" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-X37hFV77XZkh4j4XGs1PNM">
+        <correspAction xml:id="i-X37hFV77XZkh4j4XGs1PNM" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-E4XNi4oyqLKM7XAbkvHcxf">
+        <correspAction xml:id="i-E4XNi4oyqLKM7XAbkvHcxf" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PRyV5QTZJZj7xQBybQ7kjQ"/>
+        <correspAction xml:id="i-PRyV5QTZJZj7xQBybQ7kjQ" type="assigned"/>
         <correspContext corresp="i-PRyV5QTZJZj7xQBybQ7kjQ">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_T_0429/mot_200203_T_0429-0001.pdf"/>
-      <div type="motHeader" xml:id="i-rE1b26k97tiF5M89LScsu">
-        <div type="motTitle" xml:id="i-Ufa19wApRdV1jLBqm9H6nK"/>
-        <div type="motSubmissionInfo" xml:id="i-6xurqfU2AicuAtFxJQpn7A"/>
+      <div xml:id="i-rE1b26k97tiF5M89LScsu" type="motHeader">
+        <div xml:id="i-Ufa19wApRdV1jLBqm9H6nK" type="motTitle"/>
+        <div xml:id="i-6xurqfU2AicuAtFxJQpn7A" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HqGzoYDW2wPFUvaUGfJawc">
+      <div xml:id="i-HqGzoYDW2wPFUvaUGfJawc" type="motBody">
         <div xml:id="i-8vwuBepuXtd8ECeA2SdbPk">
           <p xml:id="i-UbvYcPnGcM65hSQ22Wi4D9">
             2002/03 mnr: T429 pnr: s38025
@@ -115,8 +115,11 @@
             har enligt uppgift någon sådan utredning inte tillsatts och några
             direktiv inte utfärdats.
           </p>
-          <p xml:id="i-6CkbefcTqXXtDm2SfZaLcu">
-            Stockholm den 20 oktober 2002 Ronny Olander (s)
+          <p xml:id="i-6CkbefcTqXXtDm2SfZaLcu" type="date">
+            Stockholm den 20 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-YJUSafwckfscWshK4MDLDr">
+            Ronny Olander (s)
           </p>
         </div>
       </div>

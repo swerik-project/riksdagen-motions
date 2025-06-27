@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00517">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-6kr8vh9a8rD9dfZ2fiWV5H">
           <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PRVn6vrF8Pee87cd2pdq5c">
+        <correspAction xml:id="i-PRVn6vrF8Pee87cd2pdq5c" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TBRDLpitVhFsySUKqbZFwj">
+        <correspAction xml:id="i-TBRDLpitVhFsySUKqbZFwj" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BkBdRV9fmXn6YkqR31EeXo">
+        <correspAction xml:id="i-BkBdRV9fmXn6YkqR31EeXo" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MMReh3G9mT1fxi5wxnaetY"/>
+        <correspAction xml:id="i-MMReh3G9mT1fxi5wxnaetY" type="assigned"/>
         <correspContext corresp="i-MMReh3G9mT1fxi5wxnaetY">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_517/mot_200506_Ub_517-0001.pdf"/>
-      <div type="motHeader" xml:id="i-WfZXeqaTXFdA594BsKmxAy">
-        <div type="motTitle" xml:id="i-SJo1VcsCozqarXqQJpaUob"/>
-        <div type="motSubmissionInfo" xml:id="i-31PoW47qPbVbddJdRBUq48"/>
+      <div xml:id="i-WfZXeqaTXFdA594BsKmxAy" type="motHeader">
+        <div xml:id="i-SJo1VcsCozqarXqQJpaUob" type="motTitle"/>
+        <div xml:id="i-31PoW47qPbVbddJdRBUq48" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-U6gv13AEgffrRMjiKijeG">
+      <div xml:id="i-U6gv13AEgffrRMjiKijeG" type="motBody">
         <div xml:id="i-Y6TwzDBFqu1dPoE6unSqiE">
           <p xml:id="i-4i9VysW1siXhUn6k2oeTxm">
             2005/06 mnr: Ub517 pnr: v879
@@ -164,8 +164,11 @@
             och att statens ansvar för utbildningen klargörs. Detta bör riksdagen
             som sin mening ge regeringen till känna.
           </p>
-          <p xml:id="i-MYBHTJgSJLViowqzabr8EH">
-            Stockholm den 1 oktober 2005 Tasso Stafilidis (v)
+          <p xml:id="i-MYBHTJgSJLViowqzabr8EH" type="date">
+            Stockholm den 1 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-FTjpGbqdB5zLgqgi22VVTM">
+            Tasso Stafilidis (v)
           </p>
         </div>
       </div>

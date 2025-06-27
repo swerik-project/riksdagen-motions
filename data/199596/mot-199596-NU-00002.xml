@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-NU-00002">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-122QwSSpyGJQiTJjmrUJCM</idno>
-            <name>Krister Örnfjäder </name>
+            <name>Krister Örnfjäder</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-9ngRSVFhf2Kb8BZHPgfy4H"/>
+        <correspAction xml:id="i-9ngRSVFhf2Kb8BZHPgfy4H" type="basedOn"/>
         <correspContext corresp="i-9ngRSVFhf2Kb8BZHPgfy4H">
           <ref>Proposition 1995/96:3</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-122QwSSpyGJQiTJjmrUJCM"/>
           <note type="signatory" corresp="i-122QwSSpyGJQiTJjmrUJCM"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-C6mvF4rD537kva4WD3nocN">
+        <correspAction xml:id="i-C6mvF4rD537kva4WD3nocN" type="referral">
           <date when="1995-10-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PboJpaRXLvYiCeLrdEeWUf">
+        <correspAction xml:id="i-PboJpaRXLvYiCeLrdEeWUf" type="submission">
           <date when="1995-10-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BaAjH71ibkvRAEuSvismqp">
+        <correspAction xml:id="i-BaAjH71ibkvRAEuSvismqp" type="dismissal">
           <date when="1995-10-19"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-SJP1BKrrUSRweed9JyAdvd">
+        <correspAction xml:id="i-SJP1BKrrUSRweed9JyAdvd" type="referral">
           <date when="1995-10-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XMA3hpc9j1a4azYtCUbiki">
+        <correspAction xml:id="i-XMA3hpc9j1a4azYtCUbiki" type="submission">
           <date when="1995-10-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-K4bJQ6jQQoBoA4g8qcYPwq">
+        <correspAction xml:id="i-K4bJQ6jQQoBoA4g8qcYPwq" type="dismissal">
           <date when="1995-10-19"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KQ1wHLivTYM96G6c7VzkiY"/>
+        <correspAction xml:id="i-KQ1wHLivTYM96G6c7VzkiY" type="assigned"/>
         <correspContext corresp="i-KQ1wHLivTYM96G6c7VzkiY">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_N_0002/mot_199596_N_0002-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BaYHDuQ79rjNfTPPuHVHNM">
-        <div type="motTitle" xml:id="i-7VDrrMPbc2TWsoECWYamZM"/>
-        <div type="motSubmissionInfo" xml:id="i-64PHAUf173eyGnoKTLxAXj"/>
+      <div xml:id="i-BaYHDuQ79rjNfTPPuHVHNM" type="motHeader">
+        <div xml:id="i-7VDrrMPbc2TWsoECWYamZM" type="motTitle"/>
+        <div xml:id="i-64PHAUf173eyGnoKTLxAXj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RAUzogdLhnDh9QtXb1Yumy">
+      <div xml:id="i-RAUzogdLhnDh9QtXb1Yumy" type="motBody">
         <div xml:id="i-GC9kKu6Ye2pZTWha5kCtmi">
           <p xml:id="i-6CXt73DQDhHkmkSuf537Jt">
             1995/96 N2 N1-4
@@ -148,9 +148,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_N_0002/mot_199596_N_0002-0002.pdf"/>
           <p xml:id="i-T7Jwu1nV19KASbd1ftv7p2">
-            Mot. 1995/96N2 4 Stockholm den 27 oktober 1995
+            Mot. 1995/96N2 4
           </p>
-          <p xml:id="i-T6ifAtFLx51Q8PZ6gN46ic">
+          <p type="date" id="i-Pn2Um1RntiRcZJYKpYvFyF">
+            Stockholm den 27 oktober 1995
+          </p>
+          <p xml:id="i-T6ifAtFLx51Q8PZ6gN46ic" type="signatureBlock">
             Krister Örnfjäder (s)
           </p>
         </div>

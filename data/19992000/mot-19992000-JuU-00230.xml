@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-JuU-00230">
   <teiHeader>
     <fileDesc>
@@ -26,28 +26,28 @@
         <listPerson>
           <person gender="woman">
             <idno>i-3rnEh52NL7CXPJYcg4p7bD</idno>
-            <name>Gun Hellsvik </name>
+            <name>Gun Hellsvik</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-Ha5uZXGHudhTidCuW8UjXN</idno>
-            <name>Ragnwi Marcelind </name>
+            <name>Ragnwi Marcelind</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-WHEJ8ymFxv9uo3uasyct2e</idno>
-            <name>Gunnel Wallin </name>
+            <name>Gunnel Wallin</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-N1qw8jfKGpQHZKgF3gs76j</idno>
-            <name>Siw Persson </name>
+            <name>Siw Persson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -94,25 +94,25 @@
           <note type="signatory" corresp="i-WHEJ8ymFxv9uo3uasyct2e"/>
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JhSWQMHrKgQgHyh5T9a7R">
+        <correspAction xml:id="i-JhSWQMHrKgQgHyh5T9a7R" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-E7AfvTY7M7jga2zGCi3bqW">
+        <correspAction xml:id="i-E7AfvTY7M7jga2zGCi3bqW" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EdAmnoHyMEZqhPjNqknnBG">
+        <correspAction xml:id="i-EdAmnoHyMEZqhPjNqknnBG" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-6WKgKxVd5yDANC6VUS8tWD">
+        <correspAction xml:id="i-6WKgKxVd5yDANC6VUS8tWD" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FUJL5VwFs6nZ2rTgrx77d9">
+        <correspAction xml:id="i-FUJL5VwFs6nZ2rTgrx77d9" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6iFXVSRRLutpgtNDae33Hz">
+        <correspAction xml:id="i-6iFXVSRRLutpgtNDae33Hz" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YEBHyXRQQcfqb4agc9gGq3"/>
+        <correspAction xml:id="i-YEBHyXRQQcfqb4agc9gGq3" type="assigned"/>
         <correspContext corresp="i-YEBHyXRQQcfqb4agc9gGq3">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -125,11 +125,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Ju_0230/mot_199900_Ju_0230-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9b6SzqdK2wEkSuLbMp2jMi">
-        <div type="motTitle" xml:id="i-DqhQSYwCWPVXEupozb7W8V"/>
-        <div type="motSubmissionInfo" xml:id="i-PkFT7iURgAmFThD4a94iHF"/>
+      <div xml:id="i-9b6SzqdK2wEkSuLbMp2jMi" type="motHeader">
+        <div xml:id="i-DqhQSYwCWPVXEupozb7W8V" type="motTitle"/>
+        <div xml:id="i-PkFT7iURgAmFThD4a94iHF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-wjbv5YiyQor7HsWyrPZkw">
+      <div xml:id="i-wjbv5YiyQor7HsWyrPZkw" type="motBody">
         <div xml:id="i-VyghGcvzk4vUCpyyThq7cS">
           <p xml:id="i-Wep2uzzyLV47dQSu4LCNEA">
             1999/2000 mnr: Ju230 pnr: -m940
@@ -197,9 +197,13 @@
           <p xml:id="i-QsqxatgDzxkSmdZViXzvYd">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motionen anförts
-            om den nationella insatsstyrkans organisatoriska hemvist. Stockholm
-            den 4 oktober 1999 Gun Hellsvik (m) Ragnwi Marcelind (kd) Gunnel
-            Wallin (c)
+            om den nationella insatsstyrkans organisatoriska hemvist.
+          </p>
+          <p type="date" id="i-7uo4PHdSy1ZBgnFfegiTsR">
+            Stockholm den 4 oktober 1999
+          </p>
+          <p type="signatureBlock" id="i-S78PhSD6iCdv52dEvmc4f7">
+            Gun Hellsvik (m) Ragnwi Marcelind (kd) Gunnel Wallin (c)
           </p>
           <p xml:id="i-SrhZAbThDpFi8p65j9XxYx">
             Siw Persson (fp)

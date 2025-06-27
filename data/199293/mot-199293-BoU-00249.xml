@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-BoU-00249">
   <teiHeader>
     <fileDesc>
@@ -61,35 +61,35 @@
           </person>
           <person gender="man">
             <idno>i-SfnrsjEZBg9vdQjkU5VSZ2</idno>
-            <name>Ian Wachtmeister </name>
+            <name>Ian Wachtmeister</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-UwR9aTcbsp2FAzzbpFB47A</idno>
-            <name>Dan Eriksson </name>
+            <name>Dan Eriksson</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-ALh3PHXDXv6YrkEMi4FuSj</idno>
-            <name>Ulf Eriksson </name>
+            <name>Ulf Eriksson</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-KseKGSrYKqytdjGTMEnxFS</idno>
-            <name>Bo G Jenevall </name>
+            <name>Bo G Jenevall</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-KC7Pg8aEPmzzkGC8SbK2cS</idno>
-            <name>Peter Kling </name>
+            <name>Peter Kling</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
@@ -110,25 +110,25 @@
           <note type="signatory" corresp="i-KseKGSrYKqytdjGTMEnxFS"/>
           <note type="signatory" corresp="i-KC7Pg8aEPmzzkGC8SbK2cS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-M1iWJcyZd6bEaHkeXoEyp2">
+        <correspAction xml:id="i-M1iWJcyZd6bEaHkeXoEyp2" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Vt1DsJNr7WJfP9JtU2PSDp">
+        <correspAction xml:id="i-Vt1DsJNr7WJfP9JtU2PSDp" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-F5rD9yXKFT8AcB9areT7L9">
+        <correspAction xml:id="i-F5rD9yXKFT8AcB9areT7L9" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-RhnXJx4KVfJZjs3qAgiieD">
+        <correspAction xml:id="i-RhnXJx4KVfJZjs3qAgiieD" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AwCgMKKvHq1QGSuBgBKmAn">
+        <correspAction xml:id="i-AwCgMKKvHq1QGSuBgBKmAn" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-zacf2CwbhFPJeiQnwQvFv">
+        <correspAction xml:id="i-zacf2CwbhFPJeiQnwQvFv" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Rx7LRM5kcQaWYkm29kJn36"/>
+        <correspAction xml:id="i-Rx7LRM5kcQaWYkm29kJn36" type="assigned"/>
         <correspContext corresp="i-Rx7LRM5kcQaWYkm29kJn36">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -141,11 +141,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_BoU_249/mot_199293_BoU_249-001.pdf"/>
-      <div type="motHeader" xml:id="i-4gjY6e8EJdsieenK3S4Fr6">
-        <div type="motTitle" xml:id="i-ARK7N2PJKS8wrhTfvcGzWW"/>
-        <div type="motSubmissionInfo" xml:id="i-6tiv9jRBrBh8Vjf9Wp28bd"/>
+      <div xml:id="i-4gjY6e8EJdsieenK3S4Fr6" type="motHeader">
+        <div xml:id="i-ARK7N2PJKS8wrhTfvcGzWW" type="motTitle"/>
+        <div xml:id="i-6tiv9jRBrBh8Vjf9Wp28bd" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GT9hwit4gvCz982PJjYxds">
+      <div xml:id="i-GT9hwit4gvCz982PJjYxds" type="motBody">
         <div xml:id="i-UwZzzNc8iaf7iKbsnJ7etZ">
           <p xml:id="i-Vr9mFPEpWxi3X6GifMtvsf">
             Motion till riksdagen 1992/93:B0249
@@ -230,8 +230,13 @@
           <p xml:id="i-B28CTZRBi9fewheVUc8KEy">
             Med hänvisning till det anförda hemställs att riksdagen som sin
             mening ger regeringen till känna att den sna- rast bör inkomma
-            med ett ROT-program. Stockholm den 22 januari 1993 Ian Wachtmeister
-            (nyd) Bo G Jenevall (nyd) Peter Kling (nyd)
+            med ett ROT-program.
+          </p>
+          <p type="date" id="i-8yCja7tJS84NQqiErQVRGL">
+            Stockholm den 22 januari 1993
+          </p>
+          <p type="signatureBlock" id="i-HHAj7nNacYb4LqzbFfaMss">
+            Ian Wachtmeister (nyd) Bo G Jenevall (nyd) Peter Kling (nyd)
           </p>
           <p xml:id="i-54xbbsR4WxZbtsFXwsGoAM">
             Dan Eriksson (nyd) Ulf Eriksson (nyd) i Stockholm

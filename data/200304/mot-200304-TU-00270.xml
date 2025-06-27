@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00270">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-RCNVVc6jFAU8YPdr6sW8jH"/>
           <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-z7vXDdNVhJ8fuB1jA12vn">
+        <correspAction xml:id="i-z7vXDdNVhJ8fuB1jA12vn" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JFfR2Hz5bo6fFTHEnk7ZKT">
+        <correspAction xml:id="i-JFfR2Hz5bo6fFTHEnk7ZKT" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8BNo5dzFnwmT7MB7bGwSwf">
+        <correspAction xml:id="i-8BNo5dzFnwmT7MB7bGwSwf" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XKnqQ6XWchuaaJAo2efTsp"/>
+        <correspAction xml:id="i-XKnqQ6XWchuaaJAo2efTsp" type="assigned"/>
         <correspContext corresp="i-XKnqQ6XWchuaaJAo2efTsp">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0270/mot_200304_T_0270-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4LSkpE4JKKvvtvAtjW5Smf">
-        <div type="motTitle" xml:id="i-3pkmhdj18Z7XQQNtVsi8qj"/>
-        <div type="motSubmissionInfo" xml:id="i-3PMNKeYzrn4MJHczFA8MHr"/>
+      <div xml:id="i-4LSkpE4JKKvvtvAtjW5Smf" type="motHeader">
+        <div xml:id="i-3pkmhdj18Z7XQQNtVsi8qj" type="motTitle"/>
+        <div xml:id="i-3PMNKeYzrn4MJHczFA8MHr" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5B5To4MVWr18AWCqjuCdvB">
+      <div xml:id="i-5B5To4MVWr18AWCqjuCdvB" type="motBody">
         <div xml:id="i-LCZZKq5gUZMX8vvT8hMS5k">
           <p xml:id="i-6RfsGhpaRhMjF9kdL8EL83">
             2003/04 mnr: T270 pnr: m1301
@@ -165,9 +165,11 @@
             vara. Det är helt oacceptabelt ur trafiksäkerhetssynpunkt att
             denna satsning ännu inte har gjorts.
           </p>
-          <p xml:id="i-DyZnxuw5L2qJzQdtX726XY">
-            Stockholm den 30 september 2003 Stefan Hagfeldt (m) Gunnar Axén
-            (m)
+          <p xml:id="i-DyZnxuw5L2qJzQdtX726XY" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-E6RbwuupvbCakmiztLp27C">
+            Stefan Hagfeldt (m) Gunnar Axén (m)
           </p>
         </div>
       </div>

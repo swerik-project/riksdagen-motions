@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00267">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-GLV4P4jtfPZVZ95YSNxfBh"/>
           <note type="signatory" corresp="i-9CH1KbWwyrj8DRqAQB3Fza"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NtbgqNhQSrmdpRUBo7iaGe">
+        <correspAction xml:id="i-NtbgqNhQSrmdpRUBo7iaGe" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-L2dneQ6oEP1wayAXD9ciLo">
+        <correspAction xml:id="i-L2dneQ6oEP1wayAXD9ciLo" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7kiZNDug4iiMkHHQnceWyF">
+        <correspAction xml:id="i-7kiZNDug4iiMkHHQnceWyF" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Fp2HLmdRKmSwA197s6YKzt"/>
+        <correspAction xml:id="i-Fp2HLmdRKmSwA197s6YKzt" type="assigned"/>
         <correspContext corresp="i-Fp2HLmdRKmSwA197s6YKzt">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_267/mot_200506_L_267-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CVpmSuHbbEQ5KVKBjQmFq7">
-        <div type="motTitle" xml:id="i-PcTvaxNHmXmS7XU87YefE5"/>
-        <div type="motSubmissionInfo" xml:id="i-6M6mBaRcJAbot7BhLnZdwy"/>
+      <div xml:id="i-CVpmSuHbbEQ5KVKBjQmFq7" type="motHeader">
+        <div xml:id="i-PcTvaxNHmXmS7XU87YefE5" type="motTitle"/>
+        <div xml:id="i-6M6mBaRcJAbot7BhLnZdwy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8MT7MDUF4v5unaKYwGehL7">
+      <div xml:id="i-8MT7MDUF4v5unaKYwGehL7" type="motBody">
         <div xml:id="i-2e1tNbaoA9S3B38f2kC7DS">
           <p xml:id="i-7MrfKdVVYSDD6sjFHBkMaZ">
             2005/06 mnr: L267 pnr: mp720
@@ -150,9 +150,11 @@
             reglerna om vem och hur många som kan bli vårdnadshavare luckras
             upp. För barnets bästa.
           </p>
-          <p xml:id="i-Cguvmsico8y9jLnYCZML3y">
-            Stockholm den 29 september 2005 Gustav Fridolin (mp) Åsa Domeij
-            (mp)
+          <p xml:id="i-Cguvmsico8y9jLnYCZML3y" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-YjsJP6Phv8TdFop2apfe1">
+            Gustav Fridolin (mp) Åsa Domeij (mp)
           </p>
         </div>
       </div>

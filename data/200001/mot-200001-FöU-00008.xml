@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-FöU-00008">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-NWktMmS8PsGLSstSr42xqW"/>
+        <correspAction xml:id="i-NWktMmS8PsGLSstSr42xqW" type="basedOn"/>
         <correspContext corresp="i-NWktMmS8PsGLSstSr42xqW">
           <ref>Regeringsskrivelse 2000/01:52</ref>
         </correspContext>
@@ -50,31 +50,31 @@
           <note type="signatory" corresp="i-CACgimSSwyWTa9yioWxPRC"/>
           <note type="signatory" corresp="i-CACgimSSwyWTa9yioWxPRC"/>
         </correspContext>
-        <correspAction type="proposed_referral" xml:id="i-pVStsQ19DDSsCm5bqBuQs">
+        <correspAction xml:id="i-pVStsQ19DDSsCm5bqBuQs" type="proposed_referral">
           <date when="2001-01-24"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-UDJgxRc9DH6rBS6WBSfQEu">
+        <correspAction xml:id="i-UDJgxRc9DH6rBS6WBSfQEu" type="referral">
           <date when="2001-01-24"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-22ajWRNa8vj6uj2SBpZaoz">
+        <correspAction xml:id="i-22ajWRNa8vj6uj2SBpZaoz" type="reviewing">
           <date when="2001-01-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Nq4KkfRqB3ieyU7EZRVRwX">
+        <correspAction xml:id="i-Nq4KkfRqB3ieyU7EZRVRwX" type="dismissal">
           <date when="2001-01-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NQMagM6LA3HhhA8iuqMSZ3">
+        <correspAction xml:id="i-NQMagM6LA3HhhA8iuqMSZ3" type="submission">
           <date when="2001-01-19"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-JFyPBjiHT3zgDuuks5NvfD">
+        <correspAction xml:id="i-JFyPBjiHT3zgDuuks5NvfD" type="referral">
           <date when="2001-01-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BtbpAiDjTXZALo5d3en3ok">
+        <correspAction xml:id="i-BtbpAiDjTXZALo5d3en3ok" type="dismissal">
           <date when="2001-01-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DfF6DAbTUWsbCVLesdVcoz">
+        <correspAction xml:id="i-DfF6DAbTUWsbCVLesdVcoz" type="submission">
           <date when="2001-01-19"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4zQX9ru7sNx97YBNQdcnxJ"/>
+        <correspAction xml:id="i-4zQX9ru7sNx97YBNQdcnxJ" type="assigned"/>
         <correspContext corresp="i-4zQX9ru7sNx97YBNQdcnxJ">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -89,11 +89,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Fö_0008/mot_200001_Fö_0008-0001.pdf"/>
-      <div type="motHeader" xml:id="i-B5DezghJATVtt4vSCMdquy">
-        <div type="motTitle" xml:id="i-wKhHgJG3tkyZTJQRVwWtr"/>
-        <div type="motSubmissionInfo" xml:id="i-BCk7mP1yn24PXDf4L6hGhV"/>
+      <div xml:id="i-B5DezghJATVtt4vSCMdquy" type="motHeader">
+        <div xml:id="i-wKhHgJG3tkyZTJQRVwWtr" type="motTitle"/>
+        <div xml:id="i-BCk7mP1yn24PXDf4L6hGhV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DK84Erjsg8aL8QGZmd2CXF">
+      <div xml:id="i-DK84Erjsg8aL8QGZmd2CXF" type="motBody">
         <div xml:id="i-2QLJTpvsZ7FtUWePGEa6Nc">
           <p xml:id="i-DiXnCYou2ErDk5jJ8vMTbc">
             2000/01 mnr: Fö8 pnr: kd121
@@ -152,8 +152,11 @@
             som i andra länder. För att säkerställa detta bör vi kontinuerligt
             utbilda miljö- och katastrofarbetare.
           </p>
-          <p xml:id="i-NrbZ4vfCGmUJTPNvJ3wSmP">
-            Stockholm den 19 januari 2001 Kjell Eldensjö (kd)
+          <p xml:id="i-NrbZ4vfCGmUJTPNvJ3wSmP" type="date">
+            Stockholm den 19 januari 2001
+          </p>
+          <p type="signatureBlock" id="i-4xdDRGbPyiHwFqBwQMU9kY">
+            Kjell Eldensjö (kd)
           </p>
         </div>
       </div>

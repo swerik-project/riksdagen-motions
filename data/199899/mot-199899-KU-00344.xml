@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-KU-00344">
   <teiHeader>
     <fileDesc>
@@ -26,35 +26,35 @@
         <listPerson>
           <person gender="woman">
             <idno>i-NzHKC9iUGaf1xUAcp3VKCA</idno>
-            <name>Inger Lundberg </name>
+            <name>Inger Lundberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-XR9BxcVrd8sb1rJBBTL5vp</idno>
-            <name>Nils-Göran Holmqvist </name>
+            <name>Nils-Göran Holmqvist</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-YReAj4T8PWK3QbxXgEneMx</idno>
-            <name>Helena Frisk </name>
+            <name>Helena Frisk</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-QBjhdigjuYnc4dZSUCUByw</idno>
-            <name>Maud Björnemalm </name>
+            <name>Maud Björnemalm</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-VvmFc1QdZUrzxunymPXLNn</idno>
-            <name>Hans Karlsson </name>
+            <name>Hans Karlsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -110,25 +110,25 @@
           <note type="signatory" corresp="i-XR9BxcVrd8sb1rJBBTL5vp"/>
           <note type="signatory" corresp="i-YReAj4T8PWK3QbxXgEneMx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-P3Exib9KHBYf57u2rx8Xc9">
+        <correspAction xml:id="i-P3Exib9KHBYf57u2rx8Xc9" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Hiy7zXA7XWqc12jk8jbHSC">
+        <correspAction xml:id="i-Hiy7zXA7XWqc12jk8jbHSC" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2YQ4MmYqJ942E3dgovW8wn">
+        <correspAction xml:id="i-2YQ4MmYqJ942E3dgovW8wn" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-HsZoAGzb6zbSeMEqx8R8qv">
+        <correspAction xml:id="i-HsZoAGzb6zbSeMEqx8R8qv" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PhPgqabLj44XGRMVqWHb7c">
+        <correspAction xml:id="i-PhPgqabLj44XGRMVqWHb7c" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TGXPsUy5btCDeWfXKVAByC">
+        <correspAction xml:id="i-TGXPsUy5btCDeWfXKVAByC" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Q9D9BThttxFRjueqfkUmXB"/>
+        <correspAction xml:id="i-Q9D9BThttxFRjueqfkUmXB" type="assigned"/>
         <correspContext corresp="i-Q9D9BThttxFRjueqfkUmXB">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -141,11 +141,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_k_0344/mot_199899_k_0344-0001.pdf"/>
-      <div type="motHeader" xml:id="i-36HFigXwfr1ibwLRoYtC7C">
-        <div type="motTitle" xml:id="i-Xx152Nx458jtwzqSkSemNu"/>
-        <div type="motSubmissionInfo" xml:id="i-CzhyBBAE1r4Yq3GDxKWLn3"/>
+      <div xml:id="i-36HFigXwfr1ibwLRoYtC7C" type="motHeader">
+        <div xml:id="i-Xx152Nx458jtwzqSkSemNu" type="motTitle"/>
+        <div xml:id="i-CzhyBBAE1r4Yq3GDxKWLn3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QvcP3Tn7Y5NcMHSTrD5dbv">
+      <div xml:id="i-QvcP3Tn7Y5NcMHSTrD5dbv" type="motBody">
         <div xml:id="i-MWRZpJZFnrmYZ5XJBJAi5p">
           <p xml:id="i-V91BDnji55j4e8aPunSTVn">
             1998/99 K344 K344
@@ -213,7 +213,13 @@
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motionen anförts
             om analys av statens och kommunernas insatser i samband med de
-            allmänna valen. Stockholm den 24 oktober 1998 Inger Lundberg (s)
+            allmänna valen.
+          </p>
+          <p type="date" id="i-YU3Lb8YXoeLqs4Ldju5E3R">
+            Stockholm den 24 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-CLi2NUSkV7CkHqRpkKUHVG">
+            Inger Lundberg (s)
           </p>
           <p xml:id="i-5qpcW1X3HL7dVuLGJ3yk83">
             Maud Björnemalm (s) Hans Karlsson (s)

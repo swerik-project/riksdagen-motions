@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-SkU-00400">
   <teiHeader>
     <fileDesc>
@@ -38,34 +38,34 @@
         <correspContext corresp="i-X2X1JDsipV5zbd5PKiuN7C">
           <note type="signatory" corresp="i-T2aXcsQqA9hkUFtCcU4AeQ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2ZbkEJuunP7mAPJK1xoVip">
+        <correspAction xml:id="i-2ZbkEJuunP7mAPJK1xoVip" type="referral">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ERYQWmaoxirYk6w1Gvvq5s">
+        <correspAction xml:id="i-ERYQWmaoxirYk6w1Gvvq5s" type="dismissal">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-2uB4rGr6UTxXQEB48LiDGr">
+        <correspAction xml:id="i-2uB4rGr6UTxXQEB48LiDGr" type="termination">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KnDURDGSAvCiNtu3h4UDgH">
+        <correspAction xml:id="i-KnDURDGSAvCiNtu3h4UDgH" type="submission">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-SE12z8SsvBJpipv3LWwTj8">
+        <correspAction xml:id="i-SE12z8SsvBJpipv3LWwTj8" type="numbering">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-2pHTnQ2uxcUWo983mMe9MQ">
+        <correspAction xml:id="i-2pHTnQ2uxcUWo983mMe9MQ" type="proposed_referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-XoBmXuYbnBQyazYjdevCN9">
+        <correspAction xml:id="i-XoBmXuYbnBQyazYjdevCN9" type="committee_proposal">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-DPgwdGja4XAHdQyXsYpi9X">
+        <correspAction xml:id="i-DPgwdGja4XAHdQyXsYpi9X" type="reviewing">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-2jEbhRaqFS2CtyvoijqNPB">
+        <correspAction xml:id="i-2jEbhRaqFS2CtyvoijqNPB" type="registration">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KT4zFQ2mqkNgcP8SAnLAWs"/>
+        <correspAction xml:id="i-KT4zFQ2mqkNgcP8SAnLAWs" type="assigned"/>
         <correspContext corresp="i-KT4zFQ2mqkNgcP8SAnLAWs">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -80,11 +80,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Sk_0400/mot_200102_Sk_0400-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9z6PCLWLEDeGrQJG2sedq3">
-        <div type="motTitle" xml:id="i-Fk2p2QfLqm4YL5HWyuxGgK"/>
-        <div type="motSubmissionInfo" xml:id="i-6s79Zw6Euq7wnrmCP4dJXx"/>
+      <div xml:id="i-9z6PCLWLEDeGrQJG2sedq3" type="motHeader">
+        <div xml:id="i-Fk2p2QfLqm4YL5HWyuxGgK" type="motTitle"/>
+        <div xml:id="i-6s79Zw6Euq7wnrmCP4dJXx" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PguszukDfp7Wnq786GEQbp">
+      <div xml:id="i-PguszukDfp7Wnq786GEQbp" type="motBody">
         <div xml:id="i-JjfZTcCsQobpyzfTCN3DFm">
           <p xml:id="i-6pgLb6S12Qp98tv2dzUcyK">
             2001/02 mnr: Sk400 pnr: m1690
@@ -146,8 +146,11 @@
             rånmoms skall kunna sättas i system är det viktigt att beviskrav
             på dokumentation o. dyl. är höga.
           </p>
-          <p xml:id="i-WfCyhnr1koMeQR1RV9fuZy">
-            Stockholm den 3 oktober 2001 Henrik S Järrel (m)
+          <p xml:id="i-WfCyhnr1koMeQR1RV9fuZy" type="date">
+            Stockholm den 3 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-8nUFKvMJhfL7vvP83XmoVK">
+            Henrik S Järrel (m)
           </p>
           <p xml:id="i-XnKVPxvJ68GvCSAGXMSjCA">
             32 Elanders Gotab, Stockholm 2001

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00211">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-RTHpVjzKvqozXuptZgQzHr">
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LycGyJ7CUKmh52MWAMdBZj">
+        <correspAction xml:id="i-LycGyJ7CUKmh52MWAMdBZj" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FUQiM7UzMaLigaeZpDEacd">
+        <correspAction xml:id="i-FUQiM7UzMaLigaeZpDEacd" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TKdJHbSzBgvxAB3ZLLwsFJ">
+        <correspAction xml:id="i-TKdJHbSzBgvxAB3ZLLwsFJ" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RbWFU7h7vtGBH1X7F6w5u1"/>
+        <correspAction xml:id="i-RbWFU7h7vtGBH1X7F6w5u1" type="assigned"/>
         <correspContext corresp="i-RbWFU7h7vtGBH1X7F6w5u1">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_211/mot_200405_T_211-0001.pdf"/>
-      <div type="motHeader" xml:id="i-J5UZPTcUvctya8RnurpqUp">
-        <div type="motTitle" xml:id="i-DDpUgSAq93w6zurpbKUEpz"/>
-        <div type="motSubmissionInfo" xml:id="i-WZakhN6YV4qzTaUoPb1o2C"/>
+      <div xml:id="i-J5UZPTcUvctya8RnurpqUp" type="motHeader">
+        <div xml:id="i-DDpUgSAq93w6zurpbKUEpz" type="motTitle"/>
+        <div xml:id="i-WZakhN6YV4qzTaUoPb1o2C" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MHMHgEn18LXBvDNqjoSzK9">
+      <div xml:id="i-MHMHgEn18LXBvDNqjoSzK9" type="motBody">
         <div xml:id="i-KFAnWYZe8rQ8LWNqY64vsz">
           <p xml:id="i-AApYhXgDUsPwajvGK4G33z">
             2004/05 mnr: T211 pnr: m1123
@@ -154,8 +154,11 @@
             vid vägbyggnation dröjer. Det är nu hög tid att prova alternativfinansiering
             på några vägobjekt i Sverige.
           </p>
-          <p xml:id="i-DkZxLbRkRQfJM7D5uMtLVK">
-            Stockholm den 20 september 2004 Ulf Sjösten (m)
+          <p xml:id="i-DkZxLbRkRQfJM7D5uMtLVK" type="date">
+            Stockholm den 20 september 2004
+          </p>
+          <p type="signatureBlock" id="i-EdGmtNEq9gvg1W8is1FgJk">
+            Ulf Sjösten (m)
           </p>
         </div>
       </div>

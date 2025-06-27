@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00451">
   <teiHeader>
     <fileDesc>
@@ -94,16 +94,16 @@
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Rx1dXkFDu3bavKEiM1LMg3">
+        <correspAction xml:id="i-Rx1dXkFDu3bavKEiM1LMg3" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DdGGMQqMyKCDwRhV5PnY2R">
+        <correspAction xml:id="i-DdGGMQqMyKCDwRhV5PnY2R" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8WsqYA1YkgiEdeDidu2fV">
+        <correspAction xml:id="i-8WsqYA1YkgiEdeDidu2fV" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Thdh6i5wCef697YGMwAyNj"/>
+        <correspAction xml:id="i-Thdh6i5wCef697YGMwAyNj" type="assigned"/>
         <correspContext corresp="i-Thdh6i5wCef697YGMwAyNj">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_451/mot_200405_Sk_451-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UovBEQDy4F1emGRmUG914Y">
-        <div type="motTitle" xml:id="i-2dZ6fdDMsuuBkKT3VH1qWJ"/>
-        <div type="motSubmissionInfo" xml:id="i-AipwU9adbc5oVydccGd61c"/>
+      <div xml:id="i-UovBEQDy4F1emGRmUG914Y" type="motHeader">
+        <div xml:id="i-2dZ6fdDMsuuBkKT3VH1qWJ" type="motTitle"/>
+        <div xml:id="i-AipwU9adbc5oVydccGd61c" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8Tc6yvnESiCRPvRXJ8xynx">
+      <div xml:id="i-8Tc6yvnESiCRPvRXJ8xynx" type="motBody">
         <div xml:id="i-GzTzyNFV6YtJUfhAeGk4Hi">
           <p xml:id="i-BhKDEmijWokSEN41V5qy4X">
             2004/05 mnr: Sk451 pnr: kd329
@@ -457,8 +457,11 @@
             så kallade skatteväxling avslås. Vidare motivering för detta görs
             i andra motioner.
           </p>
-          <p xml:id="i-4ip6VhNqKXhXzRRhKXJAnh">
-            Stockholm den 5 oktober 2004 Per Landgren (kd)
+          <p xml:id="i-4ip6VhNqKXhXzRRhKXJAnh" type="date">
+            Stockholm den 5 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-HhPsFXUxoi2mCkNY3U5TNN">
+            Per Landgren (kd)
           </p>
           <p xml:id="i-YEvho7jZeS2HFf45u9iybu">
             Mats Odell (kd) Lars Lindén (kd) Stefan Attefall (kd) Maria Larsson

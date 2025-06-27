@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-FiU-00298">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-JERWRnB227uTCW6FGLWfYs"/>
           <note type="signatory" corresp="i-PxnWyEEEJkswzBKdKbv36K"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9ooHUmzzccx6SAmS1KbrWX">
+        <correspAction xml:id="i-9ooHUmzzccx6SAmS1KbrWX" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AFq2xVHfkLKSLjFddJQbnX">
+        <correspAction xml:id="i-AFq2xVHfkLKSLjFddJQbnX" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FttpRUYKzhCqKycNaEvBEJ">
+        <correspAction xml:id="i-FttpRUYKzhCqKycNaEvBEJ" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Po6jG2xHekejdw6SVfEg5x"/>
+        <correspAction xml:id="i-Po6jG2xHekejdw6SVfEg5x" type="assigned"/>
         <correspContext corresp="i-Po6jG2xHekejdw6SVfEg5x">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Fi_298/mot_200506_Fi_298-0001.pdf"/>
-      <div type="motHeader" xml:id="i-21FEvbkhgWPvqu6bG9aDQB">
-        <div type="motTitle" xml:id="i-JuRAp8oDo9ZLcZ48P4e5Vo"/>
-        <div type="motSubmissionInfo" xml:id="i-35VRhYxwWeLfqhUZ7tqMFY"/>
+      <div xml:id="i-21FEvbkhgWPvqu6bG9aDQB" type="motHeader">
+        <div xml:id="i-JuRAp8oDo9ZLcZ48P4e5Vo" type="motTitle"/>
+        <div xml:id="i-35VRhYxwWeLfqhUZ7tqMFY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5qJUYLfrMkjJd5J8DWCocs">
+      <div xml:id="i-5qJUYLfrMkjJd5J8DWCocs" type="motBody">
         <div xml:id="i-6aq78qzbQsSM2dkPyjowAY">
           <p xml:id="i-MUhcXJziwyJz1EVWXMwdQT">
             2005/06 mnr: Fi298 pnr: s18453
@@ -126,9 +126,11 @@
           <p xml:id="i-PxWieAvi9PvtYcUF5BhTaN">
             förmåner som arbetsmiljö.
           </p>
-          <p xml:id="i-KaRtcjznRCU8eZg9FYvtKD">
-            Stockholm den 3 oktober 2005 Hans Stenberg (s) Agneta Lundberg
-            (s)
+          <p xml:id="i-KaRtcjznRCU8eZg9FYvtKD" type="date">
+            Stockholm den 3 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-3i2AgYWdGJikVKiZ5d1UfZ">
+            Hans Stenberg (s) Agneta Lundberg (s)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00484">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-3Q3X2TJQoc3iWdqhPdGjYw">
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-42ubwFmY5m1rsX7s6QQkpG">
+        <correspAction xml:id="i-42ubwFmY5m1rsX7s6QQkpG" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8zHYwsfCQVyLnnRL8PYUt9">
+        <correspAction xml:id="i-8zHYwsfCQVyLnnRL8PYUt9" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PhXbHPgbGamz2pxS9gxvXT">
+        <correspAction xml:id="i-PhXbHPgbGamz2pxS9gxvXT" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KW8F28KF5YudjtwkMT7NMH"/>
+        <correspAction xml:id="i-KW8F28KF5YudjtwkMT7NMH" type="assigned"/>
         <correspContext corresp="i-KW8F28KF5YudjtwkMT7NMH">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_484/mot_200506_Sk_484-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RGuksjFdypXX96FbA4wsh5">
-        <div type="motTitle" xml:id="i-DESoWYMeRABKtBtfNBskU3"/>
-        <div type="motSubmissionInfo" xml:id="i-2Epow2n49G1AuE8WEtoQSd"/>
+      <div xml:id="i-RGuksjFdypXX96FbA4wsh5" type="motHeader">
+        <div xml:id="i-DESoWYMeRABKtBtfNBskU3" type="motTitle"/>
+        <div xml:id="i-2Epow2n49G1AuE8WEtoQSd" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DSj27CJ4WvQM4NL1ejTL6w">
+      <div xml:id="i-DSj27CJ4WvQM4NL1ejTL6w" type="motBody">
         <div xml:id="i-QThoG4faEEz3zQcyX1Xu2e">
           <p xml:id="i-HcCAqU2KQSkTvsNwFL6Ru8">
             2005/06 mnr: Sk484 pnr: fp304
@@ -120,8 +120,11 @@
           <p xml:id="i-AtYk3uprXFDsYdXUJA5qZG">
             2005/06:Sk484
           </p>
-          <p xml:id="i-9CYctw2EEzZdhqjM2MCos9">
-            Stockholm den 5 oktober 2005 Johan Pehrson (fp)
+          <p xml:id="i-9CYctw2EEzZdhqjM2MCos9" type="date">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-3Woowm1EvLiJshnyAADVA5">
+            Johan Pehrson (fp)
           </p>
         </div>
       </div>

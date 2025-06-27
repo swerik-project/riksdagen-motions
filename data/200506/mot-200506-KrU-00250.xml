@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00250">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-4qoAEk4nv6Gdoz1ikgjbQh">
           <note type="signatory" corresp="i-QKE6ihmLRJvwhV4neD6h7b"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5GWN1fkqSkc5HcPqCxNqHU">
+        <correspAction xml:id="i-5GWN1fkqSkc5HcPqCxNqHU" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-J16tCUHZe5MHaxX1TT4yn3">
+        <correspAction xml:id="i-J16tCUHZe5MHaxX1TT4yn3" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DjFYp6TGmt9hnUT6HPbJgM">
+        <correspAction xml:id="i-DjFYp6TGmt9hnUT6HPbJgM" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EHd1MFTQDhRoRcvXc62pdp"/>
+        <correspAction xml:id="i-EHd1MFTQDhRoRcvXc62pdp" type="assigned"/>
         <correspContext corresp="i-EHd1MFTQDhRoRcvXc62pdp">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Kr_250/mot_200506_Kr_250-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4msjJ6w3pqtnRfdJerz9hP">
-        <div type="motTitle" xml:id="i-4BxxnMmqXhsrCod15ek4Ef"/>
-        <div type="motSubmissionInfo" xml:id="i-RSBVzadkyB9ZHQRUxYvciy"/>
+      <div xml:id="i-4msjJ6w3pqtnRfdJerz9hP" type="motHeader">
+        <div xml:id="i-4BxxnMmqXhsrCod15ek4Ef" type="motTitle"/>
+        <div xml:id="i-RSBVzadkyB9ZHQRUxYvciy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8yNuyhYepUaR2tTFqhZYi5">
+      <div xml:id="i-8yNuyhYepUaR2tTFqhZYi5" type="motBody">
         <div xml:id="i-3a76BKmJq4EZugTncncKMd">
           <p xml:id="i-MPRSnr2uT4hDrYkaz2iNbx">
             2005/06 mnr: Kr250 pnr: fp953
@@ -267,8 +267,11 @@
             eller vi som individer svika i grundläggande värderingsfrågor
             som kampen mot rasism, antisemitism och islamofobi.
           </p>
-          <p xml:id="i-Ph54cBDFd5MFzfUGGAE2ZH">
-            Stockholm den 28 september 2005 Erik Ullenhag (fp)
+          <p xml:id="i-Ph54cBDFd5MFzfUGGAE2ZH" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-Fmtsy4tj6NgeB9VD1Q2Mwu">
+            Erik Ullenhag (fp)
           </p>
         </div>
       </div>

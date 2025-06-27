@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00257">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-Vrk9rhKbHSLjbRMjhnSUV8">
           <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XYuit2rNHivvczx9FHezdC">
+        <correspAction xml:id="i-XYuit2rNHivvczx9FHezdC" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EALfnEhyq24QKcKFbNEcGg">
+        <correspAction xml:id="i-EALfnEhyq24QKcKFbNEcGg" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9bus8s3VSjGXTnfisCUFdQ">
+        <correspAction xml:id="i-9bus8s3VSjGXTnfisCUFdQ" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GcFMHjW349VuqE8WB6mhho"/>
+        <correspAction xml:id="i-GcFMHjW349VuqE8WB6mhho" type="assigned"/>
         <correspContext corresp="i-GcFMHjW349VuqE8WB6mhho">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_257/mot_200506_Ju_257-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PaTC9zzpH9xh6FSokinPrc">
-        <div type="motTitle" xml:id="i-QLJBEsh53yHahBzeG9U4U"/>
-        <div type="motSubmissionInfo" xml:id="i-435vniqBjGbrJ8w2TMHEnM"/>
+      <div xml:id="i-PaTC9zzpH9xh6FSokinPrc" type="motHeader">
+        <div xml:id="i-QLJBEsh53yHahBzeG9U4U" type="motTitle"/>
+        <div xml:id="i-435vniqBjGbrJ8w2TMHEnM" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FD5aYiJgJ3Y93XTdm83jBW">
+      <div xml:id="i-FD5aYiJgJ3Y93XTdm83jBW" type="motBody">
         <div xml:id="i-XtCp2qY9yC9SWGpXDAWtsM">
           <p xml:id="i-4DGPMwPeNrNyRnhf7KTHEj">
             2005/06 mnr: Ju257 pnr: m1256
@@ -141,8 +141,11 @@
             vänta innan polisen ges nödvändiga befogenheter och möjligheter
             att agera.
           </p>
-          <p xml:id="i-TF5hbEnMMYMYg82DGG51jK">
-            Stockholm den 22 september 2005 Sten Tolgfors (m)
+          <p xml:id="i-TF5hbEnMMYMYg82DGG51jK" type="date">
+            Stockholm den 22 september 2005
+          </p>
+          <p type="signatureBlock" id="i-APq57riJK8KWRXHCnttWuB">
+            Sten Tolgfors (m)
           </p>
         </div>
       </div>

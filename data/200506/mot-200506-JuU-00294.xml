@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00294">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-GgyXv4xamqTouNVz7Tncke"/>
           <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SWnYUj4cCcpnxDoJzt8oeK">
+        <correspAction xml:id="i-SWnYUj4cCcpnxDoJzt8oeK" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GSKZyD8KqCpMLqypmoTK8U">
+        <correspAction xml:id="i-GSKZyD8KqCpMLqypmoTK8U" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9sm8jgxK7MGeLYykGTYQnj">
+        <correspAction xml:id="i-9sm8jgxK7MGeLYykGTYQnj" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EkAJYGXiQYXUHcPw6oKusQ"/>
+        <correspAction xml:id="i-EkAJYGXiQYXUHcPw6oKusQ" type="assigned"/>
         <correspContext corresp="i-EkAJYGXiQYXUHcPw6oKusQ">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_294/mot_200506_Ju_294-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DBNQcmhrf54wRMEV4xDEx4">
-        <div type="motTitle" xml:id="i-M4HQVELJFkMPsU4j7HwLYh"/>
-        <div type="motSubmissionInfo" xml:id="i-8xgzoHHyAEocLYicmsXUsn"/>
+      <div xml:id="i-DBNQcmhrf54wRMEV4xDEx4" type="motHeader">
+        <div xml:id="i-M4HQVELJFkMPsU4j7HwLYh" type="motTitle"/>
+        <div xml:id="i-8xgzoHHyAEocLYicmsXUsn" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AvNWSfjc8BTRceQJPFPf14">
+      <div xml:id="i-AvNWSfjc8BTRceQJPFPf14" type="motBody">
         <div xml:id="i-3gdkRUwWghdPkHFJKXhXBH">
           <p xml:id="i-D9VRsNJ6rA1Df97NcyAiF8">
             2005/06 mnr: Ju294 pnr: m1345
@@ -123,9 +123,11 @@
             komma till stånd för att ge polisen möjlighet att använda digitala
             bilder.
           </p>
-          <p xml:id="i-BQeJz8XQuvuG1cAecK2bcu">
-            Stockholm den 26 september 2005 Anna Lilliehöök (m) Anita Sidén
-            (m)
+          <p xml:id="i-BQeJz8XQuvuG1cAecK2bcu" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-AebPzmH2WLiQC7YZKjkwDU">
+            Anna Lilliehöök (m) Anita Sidén (m)
           </p>
         </div>
       </div>

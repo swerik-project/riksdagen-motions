@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00227">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-RAxz7xDPC9gMcEDfMo93iQ">
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2DS9tXnKtz7a3FH1pn6bCB">
+        <correspAction xml:id="i-2DS9tXnKtz7a3FH1pn6bCB" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-We5zw1CFgprmkScbY9eZam">
+        <correspAction xml:id="i-We5zw1CFgprmkScbY9eZam" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BjZg6jBdaxNbhhkNph4VQf">
+        <correspAction xml:id="i-BjZg6jBdaxNbhhkNph4VQf" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BR2nLUsbRFeuZkj3GqjkHt"/>
+        <correspAction xml:id="i-BR2nLUsbRFeuZkj3GqjkHt" type="assigned"/>
         <correspContext corresp="i-BR2nLUsbRFeuZkj3GqjkHt">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0227/mot_200304_T_0227-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8sfcPuAtBkKCFUBopZiHzY">
-        <div type="motTitle" xml:id="i-Vaz94juBi7DVaCHFNyzPWs"/>
-        <div type="motSubmissionInfo" xml:id="i-JYdzVcdSGrjjSThwbA96cn"/>
+      <div xml:id="i-8sfcPuAtBkKCFUBopZiHzY" type="motHeader">
+        <div xml:id="i-Vaz94juBi7DVaCHFNyzPWs" type="motTitle"/>
+        <div xml:id="i-JYdzVcdSGrjjSThwbA96cn" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RdyBYmFdrx4SicwzJDZexf">
+      <div xml:id="i-RdyBYmFdrx4SicwzJDZexf" type="motBody">
         <div xml:id="i-Uy2pyabUtyWLcFJtnfA45w">
           <p xml:id="i-2jweGCKsQZ9uAPDtHUPizd">
             2003/04 mnr: T227 pnr: m1094
@@ -116,8 +116,11 @@
           <p xml:id="i-7BJmXcwuMUEiFVEgYUVu11">
             2003/04:T227
           </p>
-          <p xml:id="i-SwV2WDAMZdkSsiKuWvfqZL">
-            Stockholm den 18 september 2003 Ulf Sjösten (m)
+          <p xml:id="i-SwV2WDAMZdkSsiKuWvfqZL" type="date">
+            Stockholm den 18 september 2003
+          </p>
+          <p type="signatureBlock" id="i-MXad36hv7SLiG1UQFwuHbf">
+            Ulf Sjösten (m)
           </p>
         </div>
       </div>

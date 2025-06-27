@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-UbU-00402">
   <teiHeader>
     <fileDesc>
@@ -54,28 +54,28 @@
           </person>
           <person gender="man">
             <idno>i-FYsVUYKruvwGFkVY3YHpi7</idno>
-            <name>Sven-Gösta Signell </name>
+            <name>Sven-Gösta Signell</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-8kBfhXyjrBgUH1YAVjW1DD</idno>
-            <name>Birgitta Johansson </name>
+            <name>Birgitta Johansson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Q8WzP8vYdvJL6vzDTwXJ6u</idno>
-            <name>Jan Fransson </name>
+            <name>Jan Fransson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-F8Q1QN8EmRLzQz9iUe6zgL</idno>
-            <name>Anders Nilsson </name>
+            <name>Anders Nilsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -94,25 +94,25 @@
           <note type="signatory" corresp="i-Q8WzP8vYdvJL6vzDTwXJ6u"/>
           <note type="signatory" corresp="i-F8Q1QN8EmRLzQz9iUe6zgL"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RHF2B9jVAyXhxbPwgTix5R">
+        <correspAction xml:id="i-RHF2B9jVAyXhxbPwgTix5R" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GEdf2KjMRJG82TnUCzLAvR">
+        <correspAction xml:id="i-GEdf2KjMRJG82TnUCzLAvR" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KrDCY14mzc7pgDGsmYvXLt">
+        <correspAction xml:id="i-KrDCY14mzc7pgDGsmYvXLt" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-CGeRDvB7L12nvWsWKDM863">
+        <correspAction xml:id="i-CGeRDvB7L12nvWsWKDM863" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-S2zLe5W5HPMB12nTDfh9Tu">
+        <correspAction xml:id="i-S2zLe5W5HPMB12nTDfh9Tu" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DgxdScLLQ4vJ7i1tT4h3J9">
+        <correspAction xml:id="i-DgxdScLLQ4vJ7i1tT4h3J9" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DUX6JZX8qXdUE9gsNvgfjq"/>
+        <correspAction xml:id="i-DUX6JZX8qXdUE9gsNvgfjq" type="assigned"/>
         <correspContext corresp="i-DUX6JZX8qXdUE9gsNvgfjq">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -125,11 +125,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_UbU_402/mot_199293_UbU_402-001.pdf"/>
-      <div type="motHeader" xml:id="i-FiwSddYBMCHtK64erhcNpk">
-        <div type="motTitle" xml:id="i-R5FFgA8qnFiz4ARYNMGPJW"/>
-        <div type="motSubmissionInfo" xml:id="i-VJkSA3znXvEq9N8tTMQzrd"/>
+      <div xml:id="i-FiwSddYBMCHtK64erhcNpk" type="motHeader">
+        <div xml:id="i-R5FFgA8qnFiz4ARYNMGPJW" type="motTitle"/>
+        <div xml:id="i-VJkSA3znXvEq9N8tTMQzrd" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-EZBMdjoMxC4vbj9zgF2JaC">
+      <div xml:id="i-EZBMdjoMxC4vbj9zgF2JaC" type="motBody">
         <div xml:id="i-K4oGxWMYvjbqWYqvcFiRPX">
           <p xml:id="i-CL7ZSuZ6fh4fYoZfDHDGgk">
             Motion till riksdagen 1992/93:Ub402
@@ -198,8 +198,13 @@
           <p xml:id="i-7yFBEw6RqczWmxQbVKc1yu">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             hos regeringen begär en snabbutredning om möjligheten för kommunerna
-            att ha två intagningar per år till kommunens skolor. Stockholm
-            den 13 januari 1993 Sven-Gösta Signell (s)
+            att ha två intagningar per år till kommunens skolor.
+          </p>
+          <p type="date" id="i-r5AhbvCYWczNQYgFGk5DR">
+            Stockholm den 13 januari 1993
+          </p>
+          <p type="signatureBlock" id="i-P66hZG6j6ixCVivPiEgw1x">
+            Sven-Gösta Signell (s)
           </p>
           <p xml:id="i-2z5Jp6ro8kuopYUMHZSzEf">
             Birgitta Johansson (s) Jan Fransson (s)

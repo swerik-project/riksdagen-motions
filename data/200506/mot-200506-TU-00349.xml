@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00349">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-SLZALgpDFytpGonkCme9Eb">
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-jLfhogtyuhaQrKr7wLiiS">
+        <correspAction xml:id="i-jLfhogtyuhaQrKr7wLiiS" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QbcXFMgCuyC9A1B6cpvCb">
+        <correspAction xml:id="i-QbcXFMgCuyC9A1B6cpvCb" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Tm2YTp8Dx2dQXwyZMnzkK1">
+        <correspAction xml:id="i-Tm2YTp8Dx2dQXwyZMnzkK1" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BTPMjZ499pndobkJqDbQHv"/>
+        <correspAction xml:id="i-BTPMjZ499pndobkJqDbQHv" type="assigned"/>
         <correspContext corresp="i-BTPMjZ499pndobkJqDbQHv">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_349/mot_200506_T_349-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XSJcKwG2rpGPAU9xB73ahs">
-        <div type="motTitle" xml:id="i-Xc214W3ymtEkvE3hkxBJde"/>
-        <div type="motSubmissionInfo" xml:id="i-Pfat2ZU7uSHibDtRUCJyZU"/>
+      <div xml:id="i-XSJcKwG2rpGPAU9xB73ahs" type="motHeader">
+        <div xml:id="i-Xc214W3ymtEkvE3hkxBJde" type="motTitle"/>
+        <div xml:id="i-Pfat2ZU7uSHibDtRUCJyZU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Uj36ufwwCWz63A25kVhfwh">
+      <div xml:id="i-Uj36ufwwCWz63A25kVhfwh" type="motBody">
         <div xml:id="i-QGvAhZbGua4L7jUsDQk6xi">
           <p xml:id="i-Q4SNujdfTFqGvCa49Ufk2b">
             2005/06 mnr: T349 pnr: kd737
@@ -163,8 +163,11 @@
             mellan Hudiksvall och Enånger. Mot bakgrund av ovanstående anser
             jag att sträckan E4 Enånger- Hudiksvall ska vara fyrfilig motorväg.
           </p>
-          <p xml:id="i-AeUxkncSVDfxW1xPqTjo2v">
-            Stockholm den 27 september 2005 Ragnwi Marcelind (kd)
+          <p xml:id="i-AeUxkncSVDfxW1xPqTjo2v" type="date">
+            Stockholm den 27 september 2005
+          </p>
+          <p type="signatureBlock" id="i-JyPdX5FWz8MSYFKU2YJUku">
+            Ragnwi Marcelind (kd)
           </p>
         </div>
       </div>

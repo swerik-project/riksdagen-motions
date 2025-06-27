@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00347">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-AQ2TKG8F5KSrk5mYTrET5V">
           <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-S6kQ5UySVpRwDC2zfnVLBC">
+        <correspAction xml:id="i-S6kQ5UySVpRwDC2zfnVLBC" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LSp19bWMAEnhWtR8kXYJhd">
+        <correspAction xml:id="i-LSp19bWMAEnhWtR8kXYJhd" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-41HaAeCsRNZgTotv5okALr">
+        <correspAction xml:id="i-41HaAeCsRNZgTotv5okALr" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FDWRqkySCQWFkpP5wkFdLs"/>
+        <correspAction xml:id="i-FDWRqkySCQWFkpP5wkFdLs" type="assigned"/>
         <correspContext corresp="i-FDWRqkySCQWFkpP5wkFdLs">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_347/mot_200405_So_347-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HmYVcNAZKukNdaYqPDZFrw">
-        <div type="motTitle" xml:id="i-St47scULELv2ZwqoZJkDNx"/>
-        <div type="motSubmissionInfo" xml:id="i-UxbYvdmLsArH4TmVvnyRmP"/>
+      <div xml:id="i-HmYVcNAZKukNdaYqPDZFrw" type="motHeader">
+        <div xml:id="i-St47scULELv2ZwqoZJkDNx" type="motTitle"/>
+        <div xml:id="i-UxbYvdmLsArH4TmVvnyRmP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LCxYfscAe1mRXF41GnM9op">
+      <div xml:id="i-LCxYfscAe1mRXF41GnM9op" type="motBody">
         <div xml:id="i-HjMBqma5kByVcPhYKfrPZ5">
           <p xml:id="i-4VZTzn9kSMSSxnK4fbF7ZF">
             2004/05 mnr: S0347 pnr: mp827
@@ -159,8 +159,11 @@
             Denna idé skall dock inte tolkas som en styrning av uppdraget
             att hitta en bra lösning.
           </p>
-          <p xml:id="i-HuFQ1MsMwcYH4wvr7eWUKq">
-            Stockholm den 29 september 2004 Jan Lindholm (mp)
+          <p xml:id="i-HuFQ1MsMwcYH4wvr7eWUKq" type="date">
+            Stockholm den 29 september 2004
+          </p>
+          <p type="signatureBlock" id="i-KatSS15TMfzZ9jQT4UgF8c">
+            Jan Lindholm (mp)
           </p>
         </div>
       </div>

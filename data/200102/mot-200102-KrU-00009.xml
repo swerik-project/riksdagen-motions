@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-KrU-00009">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-TgU59QAtDSUuzbZfW9TvtP"/>
+        <correspAction xml:id="i-TgU59QAtDSUuzbZfW9TvtP" type="basedOn"/>
         <correspContext corresp="i-TgU59QAtDSUuzbZfW9TvtP">
           <ref>Proposition 2001/02:153</ref>
         </correspContext>
@@ -90,16 +90,16 @@
           <note type="signatory" corresp="i-KnfRfemwD98TyCA1A8KCeX"/>
           <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XAPk7UUKChxUVfStzqvYt2">
+        <correspAction xml:id="i-XAPk7UUKChxUVfStzqvYt2" type="referral">
           <date when="2002-04-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ACQirUTB58U5xcb94LZ164">
+        <correspAction xml:id="i-ACQirUTB58U5xcb94LZ164" type="dismissal">
           <date when="2002-04-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-34o5j3ykc3z4eWWVXCy7q6">
+        <correspAction xml:id="i-34o5j3ykc3z4eWWVXCy7q6" type="submission">
           <date when="2002-04-09"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KtkTojhPCpFfRSrSLgSbKC"/>
+        <correspAction xml:id="i-KtkTojhPCpFfRSrSLgSbKC" type="assigned"/>
         <correspContext corresp="i-KtkTojhPCpFfRSrSLgSbKC">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -114,11 +114,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Kr_0009/mot_200102_Kr_0009-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VLTaVdKEda1MhDWSr5jVXo">
-        <div type="motTitle" xml:id="i-3qm5tF7t72DQV2E2SVwTwd"/>
-        <div type="motSubmissionInfo" xml:id="i-Ddyop3dc7wLafV6Ww4knGJ"/>
+      <div xml:id="i-VLTaVdKEda1MhDWSr5jVXo" type="motHeader">
+        <div xml:id="i-3qm5tF7t72DQV2E2SVwTwd" type="motTitle"/>
+        <div xml:id="i-Ddyop3dc7wLafV6Ww4knGJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NbJPHnsdQUdJzXvSdV7kMo">
+      <div xml:id="i-NbJPHnsdQUdJzXvSdV7kMo" type="motBody">
         <div xml:id="i-B8FCZBaZ6toF3Cdv3ZKWKo">
           <p xml:id="i-VbQ33HZKxpTikxv2WQXiB8">
             2001/02 mnr: Kr9I9 pnr: v034
@@ -251,8 +251,11 @@
             text som spelanordnaren åläggs att via tillståndsgivningen ta
             in i sin sändning.
           </p>
-          <p xml:id="i-WFK1Wss7wq4P3uJmRdaEhX">
-            Stockholm den 4 april 2002 Charlotta L Bjälkebring (v)
+          <p xml:id="i-WFK1Wss7wq4P3uJmRdaEhX" type="date">
+            Stockholm den 4 april 2002
+          </p>
+          <p type="signatureBlock" id="i-EXwXnZcb9zRSmMNaQZ4TVS">
+            Charlotta L Bjälkebring (v)
           </p>
           <p xml:id="i-8mas2xFUQgRMQnY1PW5X13">
             Mats Einarsson (v) Kenneth Kvist (v) Boel Lindén (v) Tanja Linderborg

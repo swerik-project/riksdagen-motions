@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00577">
   <teiHeader>
     <fileDesc>
@@ -71,16 +71,16 @@
           <note type="signatory" corresp="i-PMx51X9QbaLUMtQNq6sVfz"/>
           <note type="signatory" corresp="i-LYgs6CxKoYV4fCQZqbNzzy"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-32f5nKdvVWMX1LjHjZVZJH">
+        <correspAction xml:id="i-32f5nKdvVWMX1LjHjZVZJH" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-F6w3DbBYnoPEZe8bkXpC7Q">
+        <correspAction xml:id="i-F6w3DbBYnoPEZe8bkXpC7Q" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8q6iaiWrfbRn1DFnUv3osg">
+        <correspAction xml:id="i-8q6iaiWrfbRn1DFnUv3osg" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-P1UtonxnogZZtX6L9ZRyVj"/>
+        <correspAction xml:id="i-P1UtonxnogZZtX6L9ZRyVj" type="assigned"/>
         <correspContext corresp="i-P1UtonxnogZZtX6L9ZRyVj">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -95,11 +95,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_577/mot_200506_T_577-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BXk92vcKuJHtXqGmMw2Xag">
-        <div type="motTitle" xml:id="i-7WZY8MgbA3Es2ve64yHWq3"/>
-        <div type="motSubmissionInfo" xml:id="i-W1oFvuEk3tLn6X3jjsMaND"/>
+      <div xml:id="i-BXk92vcKuJHtXqGmMw2Xag" type="motHeader">
+        <div xml:id="i-7WZY8MgbA3Es2ve64yHWq3" type="motTitle"/>
+        <div xml:id="i-W1oFvuEk3tLn6X3jjsMaND" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WX6q9fKdhH6uHZN2T7om2y">
+      <div xml:id="i-WX6q9fKdhH6uHZN2T7om2y" type="motBody">
         <div xml:id="i-8CV1C5sVbA8gTHugupGCLi">
           <p xml:id="i-5z6FayEacewkQs73TEHz3q">
             2005/06 mnr: T577 pnr: s3314
@@ -161,9 +161,12 @@
           <p xml:id="i-MyWLespJh3mjUroZUemVtG">
             effekterna av driftsbidraget till de icke-statliga flygplatserna
             och säkra att driftbidraget till flygplatser som Örebros inte
-            äventyras. Stockholm den 4 oktober 2005
+            äventyras.
           </p>
-          <p xml:id="i-E5JivKyzBcSevz3F2UcPtv">
+          <p type="date" id="i-5wkRtWqURQt5Q3W49qnG3e">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p xml:id="i-E5JivKyzBcSevz3F2UcPtv" type="signatureBlock">
             Inger Lundberg (s) Nils-Göran Holmqvist (s) Lennart Axelsson
             (s) Matilda Ernkrans (s) Ameer Sachet (s)
           </p>

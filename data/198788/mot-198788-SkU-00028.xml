@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-SkU-00028">
   <teiHeader>
     <fileDesc>
@@ -62,7 +62,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-2iArypbcCuyKH5iJD6tYmv"/>
+        <correspAction xml:id="i-2iArypbcCuyKH5iJD6tYmv" type="basedOn"/>
         <correspContext corresp="i-2iArypbcCuyKH5iJD6tYmv">
           <ref>Proposition 1987/88:50</ref>
         </correspContext>
@@ -74,16 +74,16 @@
           <note type="signatory" corresp="i-8cFSCdWjvpDgozuk8RHZyW"/>
           <note type="signatory" corresp="i-Lv4UkR3Qh5Z1mUCTAdeMZo"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-DxVpQLdLCxY3KtwuT37yJS">
+        <correspAction xml:id="i-DxVpQLdLCxY3KtwuT37yJS" type="submission">
           <date when="1988-01-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NYVCeco6v2ubQLQPr5NRop">
+        <correspAction xml:id="i-NYVCeco6v2ubQLQPr5NRop" type="dismissal">
           <date when="1988-02-02"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-NN1hYpnrkktNt8ykqdtmEm">
+        <correspAction xml:id="i-NN1hYpnrkktNt8ykqdtmEm" type="referral">
           <date when="1988-02-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3na5HGgxLTqVo1W1miFnfg">
+        <correspAction xml:id="i-3na5HGgxLTqVo1W1miFnfg" type="assigned">
           <date when="2014-11-24"/>
           <time when="02:20:08"/>
         </correspAction>
@@ -99,11 +99,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_sk_28/mot_198788_sk_28-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-Nge13c85KEkxTAzhAXmDRt">
-        <div type="motTitle" xml:id="i-XEEUVrKh4fUCJcNi1c5ZPv"/>
-        <div type="motSubmissionInfo" xml:id="i-VgAW5XHGmaMBWWHtuJvTyH"/>
+      <div xml:id="i-Nge13c85KEkxTAzhAXmDRt" type="motHeader">
+        <div xml:id="i-XEEUVrKh4fUCJcNi1c5ZPv" type="motTitle"/>
+        <div xml:id="i-VgAW5XHGmaMBWWHtuJvTyH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-S5Jz8T2qNu56RFJnBCM6eQ">
+      <div xml:id="i-S5Jz8T2qNu56RFJnBCM6eQ" type="motBody">
         <div xml:id="i-8h32F7nDYwSFHkFmTe8Eip">
           <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_sk_28/mot_198788_sk_28-001.pdf"/>
           <p xml:id="i-VCw7n2AkJmErp65kbSM3Yy">
@@ -186,8 +186,11 @@
             som sin mening ger regeringen till känna vad i motionen an- förts
             om en ytterligare regional differentiering av fordonsskatten.
           </p>
-          <p xml:id="i-NuarSFE1UpP6N79Fj3oiAx">
-            Stockholm den 26 januari 1988 Sten-Ove Sundström (s)
+          <p xml:id="i-NuarSFE1UpP6N79Fj3oiAx" type="date">
+            Stockholm den 26 januari 1988
+          </p>
+          <p type="signatureBlock" id="i-DVsQ9YAJKNqPr85jsB4tWw">
+            Sten-Ove Sundström (s)
           </p>
           <p xml:id="i-EH4rtWLMPU7JSKfCX2eQmV">
             Ture Ångqvist (s) Jarl Lander (s) Nils-Olof Gustafsson (s) Leo

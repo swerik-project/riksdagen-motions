@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00303">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-GLV4P4jtfPZVZ95YSNxfBh"/>
           <note type="signatory" corresp="i-WBsZfhYB4L6D3cVQWLdu18"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4sXYhCostKydst33AG5qD4">
+        <correspAction xml:id="i-4sXYhCostKydst33AG5qD4" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Y7bmSu2d1aY1DZznftmJzh">
+        <correspAction xml:id="i-Y7bmSu2d1aY1DZznftmJzh" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KvHEmzNEZxUigXT5Kxz9mc">
+        <correspAction xml:id="i-KvHEmzNEZxUigXT5Kxz9mc" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Eb6HyDLfEcbHPVufsZiJPH"/>
+        <correspAction xml:id="i-Eb6HyDLfEcbHPVufsZiJPH" type="assigned"/>
         <correspContext corresp="i-Eb6HyDLfEcbHPVufsZiJPH">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Kr_0303/mot_200304_Kr_0303-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Ag1qyhzy3BJLRrtEMBtMsc">
-        <div type="motTitle" xml:id="i-HrGa36BXw1T8VBNjHDL2GN"/>
-        <div type="motSubmissionInfo" xml:id="i-CoZpjTNuEe5duQWytaxDbb"/>
+      <div xml:id="i-Ag1qyhzy3BJLRrtEMBtMsc" type="motHeader">
+        <div xml:id="i-HrGa36BXw1T8VBNjHDL2GN" type="motTitle"/>
+        <div xml:id="i-CoZpjTNuEe5duQWytaxDbb" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KpLZ7FMUwUCBEzNDuxwwC4">
+      <div xml:id="i-KpLZ7FMUwUCBEzNDuxwwC4" type="motBody">
         <div xml:id="i-SX8FytFvkHzcy8rkGpEuZq">
           <p xml:id="i-4ZgY8D1QWXr78xe3jhruLU">
             2003/04 mnr: Kr303 pnr: mp660
@@ -184,10 +184,12 @@
           </p>
           <p xml:id="i-74Na64ag3F2C4kkvFCS533">
             specificerade miljögiftsansvar kan museet självt samtidigt avsätta
-            medel för att rusta upp laboratoriemiljön. Stockholm den 6 oktober
-            2003
+            medel för att rusta upp laboratoriemiljön.
           </p>
-          <p xml:id="i-TxnoYmcv4VZqo5gANTovde">
+          <p type="date" id="i-C6TER5EihpvVwryzF6QRn2">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p xml:id="i-TxnoYmcv4VZqo5gANTovde" type="signatureBlock">
             Åsa Domeij (mp) Leif Björnlod (mp)
           </p>
         </div>

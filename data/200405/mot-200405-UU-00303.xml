@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00303">
   <teiHeader>
     <fileDesc>
@@ -86,16 +86,16 @@
           <note type="signatory" corresp="i-CvmaDbz8ueGm8meSVWj6vr"/>
           <note type="signatory" corresp="i-QrnhMBZLsGdbeBasmoTLpZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NHaa7hh8QL7QxUNjZDRgKF">
+        <correspAction xml:id="i-NHaa7hh8QL7QxUNjZDRgKF" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QqnNuxjrY3JD2soTgqVKQK">
+        <correspAction xml:id="i-QqnNuxjrY3JD2soTgqVKQK" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QS9nEuPTgV8sTmnZVi64Js">
+        <correspAction xml:id="i-QS9nEuPTgV8sTmnZVi64Js" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QqzYKJMFN9WQn7Sz4PP2u7"/>
+        <correspAction xml:id="i-QqzYKJMFN9WQn7Sz4PP2u7" type="assigned"/>
         <correspContext corresp="i-QqzYKJMFN9WQn7Sz4PP2u7">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_303/mot_200405_U_303-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9kgi9ToPJkbbAuhyo3GnuQ">
-        <div type="motTitle" xml:id="i-6AGLdSwxMx4if3s3qLxgDF"/>
-        <div type="motSubmissionInfo" xml:id="i-RbyEqY1vRvjZPVkw7mZKvF"/>
+      <div xml:id="i-9kgi9ToPJkbbAuhyo3GnuQ" type="motHeader">
+        <div xml:id="i-6AGLdSwxMx4if3s3qLxgDF" type="motTitle"/>
+        <div xml:id="i-RbyEqY1vRvjZPVkw7mZKvF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3yQN3Hp8xjjroTyoG6Sm2Y">
+      <div xml:id="i-3yQN3Hp8xjjroTyoG6Sm2Y" type="motBody">
         <div xml:id="i-Y6RyoJuUzjF2hpowG4QyzJ">
           <p xml:id="i-DEAPjgivgAz3V9hGy98dDT">
             2004/05 mnr: U303 pnr: kd454
@@ -1093,8 +1093,11 @@
           <p xml:id="i-KusqhUC5F67fXjUxbaidJx">
             Språk: Turkiska, kurdiska, arabiska, armeniska och grekiska
           </p>
-          <p xml:id="i-Qkh38ZsAAZRkyAheRKFmFs">
-            Stockholm den 5 oktober 2004 Holger Gustafsson (kd)
+          <p xml:id="i-Qkh38ZsAAZRkyAheRKFmFs" type="date">
+            Stockholm den 5 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-SoEZBZ72SA1nmT58d2QiN9">
+            Holger Gustafsson (kd)
           </p>
           <p xml:id="i-WEmNdNLHJ9wZyrkzC8igk3">
             Rosita Runegrund (kd) Alf Svensson (kd) Erling Wälivaara (kd)

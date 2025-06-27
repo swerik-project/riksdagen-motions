@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-JuU-00344">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-QvMJuaBTCusGavcxRh9hGF">
           <note type="signatory" corresp="i-SLMauHd9udrtkguQd9gymK"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SLSa7AGqeREKGJox69TmyD">
+        <correspAction xml:id="i-SLSa7AGqeREKGJox69TmyD" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Qx95bY2X7w5stQfzju5qZ">
+        <correspAction xml:id="i-Qx95bY2X7w5stQfzju5qZ" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-We7wgumyM8VGWjXNW9yEg7">
+        <correspAction xml:id="i-We7wgumyM8VGWjXNW9yEg7" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Go9b1LiozJgs4rshPZ4ajV"/>
+        <correspAction xml:id="i-Go9b1LiozJgs4rshPZ4ajV" type="assigned"/>
         <correspContext corresp="i-Go9b1LiozJgs4rshPZ4ajV">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ju_0344/mot_200203_Ju_0344-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9fyJDp2MnMdxVTsRLcMsSj">
-        <div type="motTitle" xml:id="i-Qd9S9b1qfDG52Bch4cFZ9z"/>
-        <div type="motSubmissionInfo" xml:id="i-3oXAvwer3wPPdjcH49HfRv"/>
+      <div xml:id="i-9fyJDp2MnMdxVTsRLcMsSj" type="motHeader">
+        <div xml:id="i-Qd9S9b1qfDG52Bch4cFZ9z" type="motTitle"/>
+        <div xml:id="i-3oXAvwer3wPPdjcH49HfRv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KqAzCWqKpV9R5WMXifU6DP">
+      <div xml:id="i-KqAzCWqKpV9R5WMXifU6DP" type="motBody">
         <div xml:id="i-2LCUWBgHBjbrxsuRZwZ1Fn">
           <p xml:id="i-NU433AqLKTWvwvHBfWtZcA">
             28
@@ -111,8 +111,11 @@
             princip inne i city kan ersättas. Lämplig placering finns också
             i kommunens ytterdelar.
           </p>
-          <p xml:id="i-6S2EBLT383a3VrDcQAiZn6">
-            Stockholm den 17 oktober 2002 Billy Gustafsson (s)
+          <p xml:id="i-6S2EBLT383a3VrDcQAiZn6" type="date">
+            Stockholm den 17 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-T4XLKxDz6X11Bqz6TmtJft">
+            Billy Gustafsson (s)
           </p>
         </div>
       </div>

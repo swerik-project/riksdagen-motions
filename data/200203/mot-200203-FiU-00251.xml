@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FiU-00251">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-UrMA94KsoMyNCMQ4ASV6Dx">
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UyL9KaJWMrQjDNDDmccgKK">
+        <correspAction xml:id="i-UyL9KaJWMrQjDNDDmccgKK" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EPEYSWZthMeQaNqHUKxTg1">
+        <correspAction xml:id="i-EPEYSWZthMeQaNqHUKxTg1" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RFX8RLRpFMnT3x8VAsKWcN">
+        <correspAction xml:id="i-RFX8RLRpFMnT3x8VAsKWcN" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-J3kFZvDLTUGUVQR1KxUzB3"/>
+        <correspAction xml:id="i-J3kFZvDLTUGUVQR1KxUzB3" type="assigned"/>
         <correspContext corresp="i-J3kFZvDLTUGUVQR1KxUzB3">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fi_0251/mot_200203_Fi_0251-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PxMuLB3cgPWgoPgpP3kBv9">
-        <div type="motTitle" xml:id="i-RfUoA54yPCZRUC1B6vnFx3"/>
-        <div type="motSubmissionInfo" xml:id="i-Sv1u1Wuq9Za2XbyXo9cTQQ"/>
+      <div xml:id="i-PxMuLB3cgPWgoPgpP3kBv9" type="motHeader">
+        <div xml:id="i-RfUoA54yPCZRUC1B6vnFx3" type="motTitle"/>
+        <div xml:id="i-Sv1u1Wuq9Za2XbyXo9cTQQ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Y45mJNwqZwvjZEJyKoHckN">
+      <div xml:id="i-Y45mJNwqZwvjZEJyKoHckN" type="motBody">
         <div xml:id="i-4E6FTsafCV1Hv5EtNMoVGt">
           <p xml:id="i-Wifnf3LKXJQDuhedxAHGwq">
             2002/03 mnr: Fi251 pnr: fp429
@@ -126,8 +126,11 @@
           <p xml:id="i-HSKGgfn8GDJS5WjX1LYLC8">
             2002/03:Fi251
           </p>
-          <p xml:id="i-8vaEdehFe8J2MQ1kTKQPo1">
-            Stockholm den 23 oktober 2002 Johan Pehrson (fp)
+          <p xml:id="i-8vaEdehFe8J2MQ1kTKQPo1" type="date">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-JcoUrUxxRUSSP8sF2uHf3B">
+            Johan Pehrson (fp)
           </p>
           <p xml:id="i-CRAxdKiyssTKUFFQTWqy7E">
             22

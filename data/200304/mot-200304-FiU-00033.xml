@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00033">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Jb12khgwzx8phQZWo5Xjvw"/>
+        <correspAction xml:id="i-Jb12khgwzx8phQZWo5Xjvw" type="basedOn"/>
         <correspContext corresp="i-Jb12khgwzx8phQZWo5Xjvw">
           <ref>Regeringsskrivelse 2003/04:102</ref>
         </correspContext>
@@ -90,19 +90,19 @@
           <note type="signatory" corresp="i-UmhVhzFM3Rs65aFjMTgRvj"/>
           <note type="signatory" corresp="i-3p3w5Vw2i74gEMeqzABeEG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XSofRRVSE3bNUj3VUSd1af">
+        <correspAction xml:id="i-XSofRRVSE3bNUj3VUSd1af" type="referral">
           <date when="2004-05-25"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-4gF2kWCdU1nQfyZQ9d4eRw">
+        <correspAction xml:id="i-4gF2kWCdU1nQfyZQ9d4eRw" type="registration">
           <date when="2004-05-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7WDS94PQV8znBaoktY4ESD">
+        <correspAction xml:id="i-7WDS94PQV8znBaoktY4ESD" type="dismissal">
           <date when="2004-05-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Ln8Wa88g2gTWoEs9moa9Ex">
+        <correspAction xml:id="i-Ln8Wa88g2gTWoEs9moa9Ex" type="submission">
           <date when="2004-05-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WVn4amsRBimDukMMTmean5"/>
+        <correspAction xml:id="i-WVn4amsRBimDukMMTmean5" type="assigned"/>
         <correspContext corresp="i-WVn4amsRBimDukMMTmean5">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -117,11 +117,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fi_0033/mot_200304_Fi_0033-0001.pdf"/>
-      <div type="motHeader" xml:id="i-91VWovtHKdnb1yuMvpsSXS">
-        <div type="motTitle" xml:id="i-7rQ1JGqxi1yCsr6opwG9Pw"/>
-        <div type="motSubmissionInfo" xml:id="i-17C2SdUgozr3sfWdGWuL4k"/>
+      <div xml:id="i-91VWovtHKdnb1yuMvpsSXS" type="motHeader">
+        <div xml:id="i-7rQ1JGqxi1yCsr6opwG9Pw" type="motTitle"/>
+        <div xml:id="i-17C2SdUgozr3sfWdGWuL4k" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-S1S9Nbzw9ctRQNuhw2t5Cp">
+      <div xml:id="i-S1S9Nbzw9ctRQNuhw2t5Cp" type="motBody">
         <div xml:id="i-3Qtxp7SsuVKGh945VgaAFP">
           <p xml:id="i-EHHrtNdF5b4HKUAF9wdsdv">
             2003/04
@@ -1050,8 +1050,11 @@
             detta där kunskapsförmedling är skolans viktigaste uppdrag och
             individualisering är ett nyckelord.
           </p>
-          <p xml:id="i-ECnbQLDeZaTq8dqtJgTLyC">
-            Stockholm den 19 maj 2004 Mikael Odenberg (m)
+          <p xml:id="i-ECnbQLDeZaTq8dqtJgTLyC" type="date">
+            Stockholm den 19 maj 2004
+          </p>
+          <p type="signatureBlock" id="i-NmNbA3XiDf4Bfsx6LEC86q">
+            Mikael Odenberg (m)
           </p>
           <p xml:id="i-BrFgcroZs5bdiKd3drLnpH">
             Gunnar Axén (m) Tomas Högström (m) Ulf Sjösten (m) Lennart Hedquist

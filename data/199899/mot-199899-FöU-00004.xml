@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-FöU-00004">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-8ZdkUhuFmDYTWVRGRdMXeW</idno>
-            <name>Stig Sandström </name>
+            <name>Stig Sandström</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-LmkkKmc2XQLDmqAXoGoovP</idno>
-            <name>Berit Jóhannesson </name>
+            <name>Berit Jóhannesson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-UECMza7UsdUvRzjijGoYLT"/>
+        <correspAction xml:id="i-UECMza7UsdUvRzjijGoYLT" type="basedOn"/>
         <correspContext corresp="i-UECMza7UsdUvRzjijGoYLT">
           <ref>Proposition 1998/99:64</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-8ZdkUhuFmDYTWVRGRdMXeW"/>
           <note type="signatory" corresp="i-LmkkKmc2XQLDmqAXoGoovP"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-H2FHs9nJm9efx284ihzkvj">
+        <correspAction xml:id="i-H2FHs9nJm9efx284ihzkvj" type="referral">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FhRKmeuioZ4j2hgoqVCrL2">
+        <correspAction xml:id="i-FhRKmeuioZ4j2hgoqVCrL2" type="dismissal">
           <date when="1999-03-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GmCzqaEN8ccnMCY8shVeth">
+        <correspAction xml:id="i-GmCzqaEN8ccnMCY8shVeth" type="submission">
           <date when="1999-03-24"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-5wEQ2fP58didxiuxxQMe9g">
+        <correspAction xml:id="i-5wEQ2fP58didxiuxxQMe9g" type="referral">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PDnYQbzfsjn8A3pyRCXTR1">
+        <correspAction xml:id="i-PDnYQbzfsjn8A3pyRCXTR1" type="dismissal">
           <date when="1999-03-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DCBuumaMKrfNiRa4uNxZAV">
+        <correspAction xml:id="i-DCBuumaMKrfNiRa4uNxZAV" type="submission">
           <date when="1999-03-24"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7NnbhRp9SNS3PZGLDuhque"/>
+        <correspAction xml:id="i-7NnbhRp9SNS3PZGLDuhque" type="assigned"/>
         <correspContext corresp="i-7NnbhRp9SNS3PZGLDuhque">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Fö_0004/mot_199899_Fö_0004-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UzVQJSvhVn3KhCVoU6joTx">
-        <div type="motTitle" xml:id="i-WkDsJHapk1Phcjd6DR6JRv"/>
-        <div type="motSubmissionInfo" xml:id="i-T8PRMRtZgagxwqsd5nHe8Z"/>
+      <div xml:id="i-UzVQJSvhVn3KhCVoU6joTx" type="motHeader">
+        <div xml:id="i-WkDsJHapk1Phcjd6DR6JRv" type="motTitle"/>
+        <div xml:id="i-T8PRMRtZgagxwqsd5nHe8Z" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9HSVWNZuvQyNH8Djr217fi">
+      <div xml:id="i-9HSVWNZuvQyNH8Djr217fi" type="motBody">
         <div xml:id="i-31xYFGvKk4tqZzTnTQY3G5">
           <p xml:id="i-4dR9w8sZDJrCyDnkjhioez">
             1998/99 Fö4 Fö3—4
@@ -239,9 +239,12 @@
             I-
           </p>
           <p xml:id="i-VDRaEjFAZvtM4zoVYLteTW">
-            direktivet görs, Stockholm den 24 mars 1999
+            direktivet görs,
           </p>
-          <p xml:id="i-4xAE4d7WPXs8g338VVaRCj">
+          <p type="date" id="i-UHchTfNWd3BnqRrJvRu5AJ">
+            Stockholm den 24 mars 1999
+          </p>
+          <p xml:id="i-4xAE4d7WPXs8g338VVaRCj" type="signatureBlock">
             Stig Sandström (v)
           </p>
           <p xml:id="i-YWW9xS75wKKaM6nYeunoYR">

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00007">
   <teiHeader>
     <fileDesc>
@@ -90,7 +90,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-9Jd93SwtjzXHtKha4z8fUZ"/>
+        <correspAction xml:id="i-9Jd93SwtjzXHtKha4z8fUZ" type="basedOn"/>
         <correspContext corresp="i-9Jd93SwtjzXHtKha4z8fUZ">
           <ref>Regeringsskrivelse 2002/03:29</ref>
         </correspContext>
@@ -106,16 +106,16 @@
           <note type="signatory" corresp="i-NRb4HpaQ87qUwhLNcKt7Gz"/>
           <note type="signatory" corresp="i-AktM7FqujRsJ6kGjNePGjq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-1kyTXEU9TYuDy1Wdye7vv">
+        <correspAction xml:id="i-1kyTXEU9TYuDy1Wdye7vv" type="referral">
           <date when="2003-02-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JCiZ83BB5PFx77h4xX6SXX">
+        <correspAction xml:id="i-JCiZ83BB5PFx77h4xX6SXX" type="dismissal">
           <date when="2003-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Qfch2K8hpoiWr8wStCWNoF">
+        <correspAction xml:id="i-Qfch2K8hpoiWr8wStCWNoF" type="submission">
           <date when="2003-02-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HbCq8mWE3F1Kbvm7k6DLgU"/>
+        <correspAction xml:id="i-HbCq8mWE3F1Kbvm7k6DLgU" type="assigned"/>
         <correspContext corresp="i-HbCq8mWE3F1Kbvm7k6DLgU">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -130,11 +130,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_MJ_0007/mot_200203_MJ_0007-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Pq1o5TvwfSGv5YgFKjf1zW">
-        <div type="motTitle" xml:id="i-8yUc2G5KAhnKn5nrcDyfq4"/>
-        <div type="motSubmissionInfo" xml:id="i-4FFHeN4xqgWBmLzEGQ6riq"/>
+      <div xml:id="i-Pq1o5TvwfSGv5YgFKjf1zW" type="motHeader">
+        <div xml:id="i-8yUc2G5KAhnKn5nrcDyfq4" type="motTitle"/>
+        <div xml:id="i-4FFHeN4xqgWBmLzEGQ6riq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9qYGgD4UcnNwrvsuKUugzM">
+      <div xml:id="i-9qYGgD4UcnNwrvsuKUugzM" type="motBody">
         <div xml:id="i-MXiT4ubNm3KgUsmWXQqPph">
           <p xml:id="i-BwB6nXeoyfe6sqSJmpG7tq">
             2002/03 mnr: MJ7 pnr: c148
@@ -637,10 +637,10 @@
           <p xml:id="i-LLeWuPMmjFaf16KisjBRzH">
             10
           </p>
-          <p xml:id="i-SodWwLzFgcWWYeD9gyibg2">
+          <p xml:id="i-SodWwLzFgcWWYeD9gyibg2" type="date">
             Stockholm den 5 februari 2003
           </p>
-          <p xml:id="i-Q939Qz3Z3dJtmgmGR4FMXu">
+          <p xml:id="i-Q939Qz3Z3dJtmgmGR4FMXu" type="signatureBlock">
             Jan Andersson (c) Roger Karlsson (c) Sofia Larsen (c) Birgitta
             Carlsson (c) Annika Qarlsson (c)
           </p>

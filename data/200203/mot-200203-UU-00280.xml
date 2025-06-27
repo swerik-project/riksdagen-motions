@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UU-00280">
   <teiHeader>
     <fileDesc>
@@ -86,16 +86,16 @@
           <note type="signatory" corresp="i-CvmaDbz8ueGm8meSVWj6vr"/>
           <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5J9WGPhcyamNNF1VSY1Bgq">
+        <correspAction xml:id="i-5J9WGPhcyamNNF1VSY1Bgq" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Xvs3NMnV2ou2AtqNhrR3Bo">
+        <correspAction xml:id="i-Xvs3NMnV2ou2AtqNhrR3Bo" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3EAxbp86owokwNXHm2Fp7H">
+        <correspAction xml:id="i-3EAxbp86owokwNXHm2Fp7H" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DmeBjz6L6DuvYTpVUAJsBi"/>
+        <correspAction xml:id="i-DmeBjz6L6DuvYTpVUAJsBi" type="assigned"/>
         <correspContext corresp="i-DmeBjz6L6DuvYTpVUAJsBi">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_U_0280/mot_200203_U_0280-0001.pdf"/>
-      <div type="motHeader" xml:id="i-GS4i4iHnfXqsbvAX38E7YP">
-        <div type="motTitle" xml:id="i-KoW8sRS23ocJaffqHK4CA9"/>
-        <div type="motSubmissionInfo" xml:id="i-ThpYRp1KPx5r4PXRMvHaQ4"/>
+      <div xml:id="i-GS4i4iHnfXqsbvAX38E7YP" type="motHeader">
+        <div xml:id="i-KoW8sRS23ocJaffqHK4CA9" type="motTitle"/>
+        <div xml:id="i-ThpYRp1KPx5r4PXRMvHaQ4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-R2g2pQJVqZkdCZYyZJQRbQ">
+      <div xml:id="i-R2g2pQJVqZkdCZYyZJQRbQ" type="motBody">
         <div xml:id="i-Da3YjW6jSAcjw2asVArZCC">
           <p xml:id="i-Wj92aBsXDCVKM27FUNFtJs">
             2002/03 mnr: U280 pnr: kd399
@@ -1202,10 +1202,12 @@
             med att lösa säkerhetsproblem i Europa och övriga närområdet,
             såväl som i övriga delar av världen efter förmåga och kapacitet.
             Vårt medlemskap i FN och EU och samarbete med Nato ger oss tillgång
-            till de bästa kanalerna och möjligheterna. Stockholm den 23 oktober
-            2002
+            till de bästa kanalerna och möjligheterna.
           </p>
-          <p xml:id="i-G5RbWKhPGGu2v25eWQr56J">
+          <p type="date" id="i-GRswLyg8muqPC1Giq3fQyz">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p xml:id="i-G5RbWKhPGGu2v25eWQr56J" type="signatureBlock">
             Rosita Runegrund (kd) Holger Gustafsson (kd) Mats Odell (kd)
             Erling Wälivaara (kd) Else-Marie Lindgren (kd) Ingvar Svensson
             (kd) Annelie Enochson (kd)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00268">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-HqnUDt1QBCh23qQuyJh7Gp">
           <note type="signatory" corresp="i-3hmS3YtKuXCDu8pntcLAdc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2dP2i8hTJb971e4yXYjK6B">
+        <correspAction xml:id="i-2dP2i8hTJb971e4yXYjK6B" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-982gxGnz2io3HmhrhgUniw">
+        <correspAction xml:id="i-982gxGnz2io3HmhrhgUniw" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NsotuYjCB8qHJpXuLDpGiU">
+        <correspAction xml:id="i-NsotuYjCB8qHJpXuLDpGiU" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QX199pmqc6VxxvVyQCiymW"/>
+        <correspAction xml:id="i-QX199pmqc6VxxvVyQCiymW" type="assigned"/>
         <correspContext corresp="i-QX199pmqc6VxxvVyQCiymW">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0268/mot_200304_K_0268-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JrkRRWyAqyHbNEghvKDubM">
-        <div type="motTitle" xml:id="i-QAKYLMYnnfGaadLX1RzmCD"/>
-        <div type="motSubmissionInfo" xml:id="i-PJNRpGg9bbGXvPUf8hyK8P"/>
+      <div xml:id="i-JrkRRWyAqyHbNEghvKDubM" type="motHeader">
+        <div xml:id="i-QAKYLMYnnfGaadLX1RzmCD" type="motTitle"/>
+        <div xml:id="i-PJNRpGg9bbGXvPUf8hyK8P" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XzzD3frFFkqRGbDKF5m4f6">
+      <div xml:id="i-XzzD3frFFkqRGbDKF5m4f6" type="motBody">
         <div xml:id="i-GJDPRjLkFbG8otQpcZCU7u">
           <p xml:id="i-DH6MckWSQadYFBkYcEu5TD">
             2003/04 mnr: K268 pnr: s4502
@@ -108,8 +108,11 @@
             jämlikare möjligheter för Sveriges skolelever att göra ett besök
             i Sveriges riksdag.
           </p>
-          <p xml:id="i-2mpRJdUYDE2vjH2BzcJEDv">
-            Stockholm den 25 september 2003 Hans Hoff (s)
+          <p xml:id="i-2mpRJdUYDE2vjH2BzcJEDv" type="date">
+            Stockholm den 25 september 2003
+          </p>
+          <p type="signatureBlock" id="i-AgE7vEF1ynoGC1ZbVZoJEo">
+            Hans Hoff (s)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-KU-00044">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-PkMeDucNdB3kVzpzFtsEgG</idno>
-            <name>Bertil Danielsson </name>
+            <name>Bertil Danielsson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-BkQoi6KA1EKK9EEJhT16Cz</idno>
-            <name>Ingegerd Troedsson </name>
+            <name>Ingegerd Troedsson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person>
             <idno>r-0000000000000</idno>
-            <name>Stig Bertilsson </name>
+            <name>Stig Bertilsson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-YEb8MKXyVWhZzZaBPtLwqM"/>
+        <correspAction xml:id="i-YEb8MKXyVWhZzZaBPtLwqM" type="basedOn"/>
         <correspContext corresp="i-YEb8MKXyVWhZzZaBPtLwqM">
           <ref>Proposition 1990/91:122</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-BkQoi6KA1EKK9EEJhT16Cz"/>
           <note type="signatory" corresp="r-0000000000000"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TbR1D9dtwLYiq49joRERqB">
+        <correspAction xml:id="i-TbR1D9dtwLYiq49joRERqB" type="referral">
           <date when="1991-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4C5hKbmzHpysnNfNxyAXoV">
+        <correspAction xml:id="i-4C5hKbmzHpysnNfNxyAXoV" type="dismissal">
           <date when="1991-03-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TUMY47zo74P48VzTT2rh2Z">
+        <correspAction xml:id="i-TUMY47zo74P48VzTT2rh2Z" type="submission">
           <date when="1991-03-27"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-58tc6omSkHz9AXeoGmS1kN">
+        <correspAction xml:id="i-58tc6omSkHz9AXeoGmS1kN" type="referral">
           <date when="1991-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NEYfzVpf6tnhz6ujANM5h9">
+        <correspAction xml:id="i-NEYfzVpf6tnhz6ujANM5h9" type="dismissal">
           <date when="1991-03-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EybLZ3tUVN3jeyfkV1Do2g">
+        <correspAction xml:id="i-EybLZ3tUVN3jeyfkV1Do2g" type="submission">
           <date when="1991-03-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-79wjY8NF23XMT5ETL2Qs5y"/>
+        <correspAction xml:id="i-79wjY8NF23XMT5ETL2Qs5y" type="assigned"/>
         <correspContext corresp="i-79wjY8NF23XMT5ETL2Qs5y">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_KU_44/mot_199091_KU_44-001.pdf"/>
-      <div type="motHeader" xml:id="i-HsXxn2VKujqSyCniDzUqja">
-        <div type="motTitle" xml:id="i-H7WEAmcyTfkczUc59MJWyq"/>
-        <div type="motSubmissionInfo" xml:id="i-WYNg8z4uNYXZLf7FMzsg6a"/>
+      <div xml:id="i-HsXxn2VKujqSyCniDzUqja" type="motHeader">
+        <div xml:id="i-H7WEAmcyTfkczUc59MJWyq" type="motTitle"/>
+        <div xml:id="i-WYNg8z4uNYXZLf7FMzsg6a" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Eqmq7Ly3Tiy8CKyDLEqnHY">
+      <div xml:id="i-Eqmq7Ly3Tiy8CKyDLEqnHY" type="motBody">
         <div xml:id="i-9iYkR77sVz9rNcQEBZRxpk">
           <p xml:id="i-ErNAXYSuFEoNCsBtcripx5">
             Motion till riksdagen 1990/91:K44
@@ -176,10 +176,12 @@
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             beslutar anta nedanstående förslag till lag om ändring i lagen
             (1982:942) om kyrkomötet: 5 $ Kyrkomötet sammanträder varje år.
-            Biskoparna i stiften är självskrivna ledamöter i kyrkomötet. Stockholm
-            den 27 mars 1991
+            Biskoparna i stiften är självskrivna ledamöter i kyrkomötet.
           </p>
-          <p xml:id="i-XYwGEv2mC8AG1z8Fuu9UqC">
+          <p type="date" id="i-EAqDBNps3nsZoBDBzZWufj">
+            Stockholm den 27 mars 1991
+          </p>
+          <p xml:id="i-XYwGEv2mC8AG1z8Fuu9UqC" type="signatureBlock">
             Bertil Danielsson (m)
           </p>
           <p xml:id="i-6msLGSdLQL2kSx5BkdpAZR">

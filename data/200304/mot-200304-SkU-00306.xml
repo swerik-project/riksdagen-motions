@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00306">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-JDmcq5sydCnHKMk6tPhnam">
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XJT7hFc7FCGuNErSmfCdkz">
+        <correspAction xml:id="i-XJT7hFc7FCGuNErSmfCdkz" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UC1tyffGP6t4TXhvtnoWdc">
+        <correspAction xml:id="i-UC1tyffGP6t4TXhvtnoWdc" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UDikYJ5WeuoFXS7UAHpJyZ">
+        <correspAction xml:id="i-UDikYJ5WeuoFXS7UAHpJyZ" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-K2REZhDF2qCeojC2YFEnHV"/>
+        <correspAction xml:id="i-K2REZhDF2qCeojC2YFEnHV" type="assigned"/>
         <correspContext corresp="i-K2REZhDF2qCeojC2YFEnHV">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0306/mot_200304_Sk_0306-0001.pdf"/>
-      <div type="motHeader" xml:id="i-F3V7opFG1uU4DWEZi21zB3">
-        <div type="motTitle" xml:id="i-Udx7VCeD2aycjPkYCkr4mp"/>
-        <div type="motSubmissionInfo" xml:id="i-6TtikTrVyKEXFqrKoDp3V3"/>
+      <div xml:id="i-F3V7opFG1uU4DWEZi21zB3" type="motHeader">
+        <div xml:id="i-Udx7VCeD2aycjPkYCkr4mp" type="motTitle"/>
+        <div xml:id="i-6TtikTrVyKEXFqrKoDp3V3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MuSk1mJ2YLUMXvVfYFaru5">
+      <div xml:id="i-MuSk1mJ2YLUMXvVfYFaru5" type="motBody">
         <div xml:id="i-6b6rFthuS3XVH1GU7Ckbbn">
           <p xml:id="i-QigfR5S6Em1htV5mviegDm">
             20
@@ -164,8 +164,11 @@
           <p xml:id="i-Tkqw1YBFHiz9swx7MQquet">
             2003/04:Sk306
           </p>
-          <p xml:id="i-S6ebyLUdW5pX1jZuMohRuu">
-            Stockholm den 3 oktober 2003 Lars Gustafsson (kd)
+          <p xml:id="i-S6ebyLUdW5pX1jZuMohRuu" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-Qyftm86rSmNe2pzoZhLHhR">
+            Lars Gustafsson (kd)
           </p>
         </div>
       </div>

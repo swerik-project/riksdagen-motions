@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00494">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-UdGnyRLxFm6LiCDBYWE7MV"/>
           <note type="signatory" corresp="i-3YBav2r8YXZiNoQkfb1bUy"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VjZkUWUgZnMfSqSysFt3cD">
+        <correspAction xml:id="i-VjZkUWUgZnMfSqSysFt3cD" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Q2QBZdgRUzCC6U7j8M4g1G">
+        <correspAction xml:id="i-Q2QBZdgRUzCC6U7j8M4g1G" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UMuT2mQuHCDZaZjkAad6ba">
+        <correspAction xml:id="i-UMuT2mQuHCDZaZjkAad6ba" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UdzTHBixfP5T96AFSFNoss"/>
+        <correspAction xml:id="i-UdzTHBixfP5T96AFSFNoss" type="assigned"/>
         <correspContext corresp="i-UdzTHBixfP5T96AFSFNoss">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_494/mot_200405_So_494-0001.pdf"/>
-      <div type="motHeader" xml:id="i-44Bjno9T9JwnnoqaLFr4pf">
-        <div type="motTitle" xml:id="i-VDtHdufyUXjyfvVETpFuYy"/>
-        <div type="motSubmissionInfo" xml:id="i-AHc1Mabp5kvUHfzfzWEQGp"/>
+      <div xml:id="i-44Bjno9T9JwnnoqaLFr4pf" type="motHeader">
+        <div xml:id="i-VDtHdufyUXjyfvVETpFuYy" type="motTitle"/>
+        <div xml:id="i-AHc1Mabp5kvUHfzfzWEQGp" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YbauHNcRQWPdNnRVjtm35t">
+      <div xml:id="i-YbauHNcRQWPdNnRVjtm35t" type="motBody">
         <div xml:id="i-KyjorfnyMkbqYZsYFAg2k2">
           <p xml:id="i-Xcppp6y7SHxVFdLyzcg1WK">
             2004/05 mnr: S0494 pnr: m1592
@@ -128,9 +128,11 @@
           <p xml:id="i-MkovChjntyRmiJp8SwJRzV">
             2004/05:S0494
           </p>
-          <p xml:id="i-HYHVmd1gsEnQUq83ysoDK8">
-            Stockholm den 4 oktober 2004 Bertil Kjellberg (m) Elizabeth Nyström
-            (m)
+          <p xml:id="i-HYHVmd1gsEnQUq83ysoDK8" type="date">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-L8VfJGCknfEUeojH8rLxTs">
+            Bertil Kjellberg (m) Elizabeth Nyström (m)
           </p>
         </div>
       </div>

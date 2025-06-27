@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00372">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-K78hWKSMeXLEz5rTHpLr4s">
           <note type="signatory" corresp="i-WJM6edqhGfBK1ijhNxfgoj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4kNoBoNd3MmzhzQ1SuBpK4">
+        <correspAction xml:id="i-4kNoBoNd3MmzhzQ1SuBpK4" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AFyvkyqibtNfcRqssz9edr">
+        <correspAction xml:id="i-AFyvkyqibtNfcRqssz9edr" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-s5tYSYbqCGybGWASnenyL">
+        <correspAction xml:id="i-s5tYSYbqCGybGWASnenyL" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2z4hQ9fcUmxGiVs9VMyfKx"/>
+        <correspAction xml:id="i-2z4hQ9fcUmxGiVs9VMyfKx" type="assigned"/>
         <correspContext corresp="i-2z4hQ9fcUmxGiVs9VMyfKx">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ju_0372/mot_200304_Ju_0372-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XMmzXH5yKeEZN4YbNaDgDg">
-        <div type="motTitle" xml:id="i-FmcsawW7hKkUimXr6xm7Y3"/>
-        <div type="motSubmissionInfo" xml:id="i-XouGFyY2hHphLve4S8Wz4s"/>
+      <div xml:id="i-XMmzXH5yKeEZN4YbNaDgDg" type="motHeader">
+        <div xml:id="i-FmcsawW7hKkUimXr6xm7Y3" type="motTitle"/>
+        <div xml:id="i-XouGFyY2hHphLve4S8Wz4s" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JJYpXN9VZdViXiGbRqGd2u">
+      <div xml:id="i-JJYpXN9VZdViXiGbRqGd2u" type="motBody">
         <div xml:id="i-BzbMX8n43TR8PQeq5ijASJ">
           <p xml:id="i-5AE5RnRf9fCarFLSoi8kNF">
             2003/04 mnr: Ju372 pnr: kd810
@@ -148,8 +148,11 @@
             förrän konsekvenserna av de redan genomförda nedläggningarna kan
             avläsas.
           </p>
-          <p xml:id="i-7YVTCrqxqjmLxisw7Gdfy7">
-            Stockholm den 3 oktober 2003 Chatrine Pålsson (kd)
+          <p xml:id="i-7YVTCrqxqjmLxisw7Gdfy7" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-QDoXGb7dKKG3fKSMmU3zRb">
+            Chatrine Pålsson (kd)
           </p>
         </div>
       </div>

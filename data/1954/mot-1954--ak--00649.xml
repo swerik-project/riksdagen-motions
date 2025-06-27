@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1954--ak--00649">
   <teiHeader>
     <fileDesc>
       <titleStmt/>
@@ -17,7 +17,7 @@
       <correspDesc/>
     </profileDesc>
     <revisionDesc>
-      <correction who="orcid_0000-0002-7647-4048" when="2024-10-01" corresp="i-BENA5rc3tG89Wnnhg6a3QG">OCR correction</correction>
+      <correction who="orcid_0000-0002-7647-4048" corresp="i-BENA5rc3tG89Wnnhg6a3QG" when="2024-10-01">OCR correction</correction>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -26,11 +26,11 @@
       <fw xml:id="i-BENA5rc3tG89Wnnhg6a3QG">
         2 Motioner i Andra kammaren, nr 648-—649.
       </fw>
-      <div type="motHeader" xml:id="i-Y1tq7tE1rJsjCUP6cmAugn">
-        <div type="motTitle" xml:id="i-E2psznbi9qvCgpRhNcHMfu"/>
-        <div type="motSubmissionInfo" xml:id="i-TPtcWsYGLDa66G5vgrbXav"/>
+      <div xml:id="i-Y1tq7tE1rJsjCUP6cmAugn" type="motHeader">
+        <div xml:id="i-E2psznbi9qvCgpRhNcHMfu" type="motTitle"/>
+        <div xml:id="i-TPtcWsYGLDa66G5vgrbXav" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TxiiC12oyLzLKwUCMxWdfs">
+      <div xml:id="i-TxiiC12oyLzLKwUCMxWdfs" type="motBody">
         <div xml:id="i-Qm8CPGF4SSAQdcuv1sjXba">
           <p xml:id="i-RwamPpJYBM9KN59RdxgUMw">
             väl ingen anledning tro, att det skulle bli annorlunda i fortsättningen.
@@ -69,8 +69,11 @@
           <p xml:id="i-WZedUZknArizi1MX2SiUPz">
             (Lika lydande med motion i Första kammaren, nr 510.)
           </p>
-          <p xml:id="i-CNzrQNSpBCsvbzTDS78qnZ">
-            Stockholm den 31 mars 1954. Manne Ståhl.
+          <p xml:id="i-CNzrQNSpBCsvbzTDS78qnZ" type="date">
+            Stockholm den 31 mars 1954.
+          </p>
+          <p type="signatureBlock" id="i-6Ca7VJqTM7pNFppmSdzQUP">
+            Manne Ståhl.
           </p>
         </div>
       </div>

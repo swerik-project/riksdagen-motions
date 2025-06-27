@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SkU-00036">
   <teiHeader>
     <fileDesc>
@@ -223,7 +223,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Jk6QveNhXc6vyeL3ckhobP"/>
+        <correspAction xml:id="i-Jk6QveNhXc6vyeL3ckhobP" type="basedOn"/>
         <correspContext corresp="i-Jk6QveNhXc6vyeL3ckhobP">
           <ref>Proposition 2000/01:121</ref>
         </correspContext>
@@ -258,28 +258,28 @@
           <note type="signatory" corresp="i-5QUSwQFaazTZF6GHyxaAkw"/>
           <note type="signatory" corresp="i-839FvTzHpvrdX4J7ckfWSt"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BCvSyMrCd1ngbYFxAUzkTU">
+        <correspAction xml:id="i-BCvSyMrCd1ngbYFxAUzkTU" type="referral">
           <date when="2001-05-04"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-UgcT8a8wRN5pCGSy8xeAmM">
+        <correspAction xml:id="i-UgcT8a8wRN5pCGSy8xeAmM" type="reviewing">
           <date when="2001-05-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ShfwSoUfRkU9DBXxZS1Lj2">
+        <correspAction xml:id="i-ShfwSoUfRkU9DBXxZS1Lj2" type="dismissal">
           <date when="2001-05-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3bRjxuPgBeAyVrVVSosnVm">
+        <correspAction xml:id="i-3bRjxuPgBeAyVrVVSosnVm" type="submission">
           <date when="2001-05-02"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-EGwouQytfB4TYjkypmatsW">
+        <correspAction xml:id="i-EGwouQytfB4TYjkypmatsW" type="referral">
           <date when="2001-05-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6pioXkXmAG8Nyy8SZae7sV">
+        <correspAction xml:id="i-6pioXkXmAG8Nyy8SZae7sV" type="dismissal">
           <date when="2001-05-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Pohyi8KZnfimyVNj2BrvHh">
+        <correspAction xml:id="i-Pohyi8KZnfimyVNj2BrvHh" type="submission">
           <date when="2001-05-02"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HRvesA1VUzmX7cNHacsKAQ"/>
+        <correspAction xml:id="i-HRvesA1VUzmX7cNHacsKAQ" type="assigned"/>
         <correspContext corresp="i-HRvesA1VUzmX7cNHacsKAQ">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -294,11 +294,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Sk_0036/mot_200001_Sk_0036-0001.pdf"/>
-      <div type="motHeader" xml:id="i-M9T6iHCbUJ3sneTUDbY3fJ">
-        <div type="motTitle" xml:id="i-Pdc5xQvqHYPfBz79A4w8r2"/>
-        <div type="motSubmissionInfo" xml:id="i-3pK6xEqRbXf4mF9hA8iJGA"/>
+      <div xml:id="i-M9T6iHCbUJ3sneTUDbY3fJ" type="motHeader">
+        <div xml:id="i-Pdc5xQvqHYPfBz79A4w8r2" type="motTitle"/>
+        <div xml:id="i-3pK6xEqRbXf4mF9hA8iJGA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TdwzFq5qvp2KtieJ5gQbwJ">
+      <div xml:id="i-TdwzFq5qvp2KtieJ5gQbwJ" type="motBody">
         <div xml:id="i-HU7YUhgQA35mTc9reeCTQ4">
           <p xml:id="i-2qzRehQvqMkpVEV2NLYXCB">
             2000/01 mnr: Sk36 pnr: kd156
@@ -676,8 +676,11 @@
             självförsörjning gör det än mer besynnerligt att regeringens direktiv
             inte öppnade för en utredning av det kommunala alternativet.
           </p>
-          <p xml:id="i-8kdznYC2vBuQDbfsXtBXgU">
-            Stockholm den 2 maj 2001 Mats Odell (kd)
+          <p xml:id="i-8kdznYC2vBuQDbfsXtBXgU" type="date">
+            Stockholm den 2 maj 2001
+          </p>
+          <p type="signatureBlock" id="i-9JsHbp9fNqA61tTXkpSr24">
+            Mats Odell (kd)
           </p>
           <p xml:id="i-PXbFckcFshk1fm5NiuYCuC">
             Stefan Attefall (kd) Harald Bergström (kd) Sven Brus (kd) Rose-Marie

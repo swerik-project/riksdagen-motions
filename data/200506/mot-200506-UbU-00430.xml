@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00430">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-Xj4bcqhDuQ9yC5SuS2PD3z">
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QFRNyZVCKBdfLmVXhVPRJs">
+        <correspAction xml:id="i-QFRNyZVCKBdfLmVXhVPRJs" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KCbhsgC3T2CuLZEcRKnCwZ">
+        <correspAction xml:id="i-KCbhsgC3T2CuLZEcRKnCwZ" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HD1DBQNCEB7Q97Ajzh6mym">
+        <correspAction xml:id="i-HD1DBQNCEB7Q97Ajzh6mym" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6VvrQ7g4fNMs3fn1KkMscX"/>
+        <correspAction xml:id="i-6VvrQ7g4fNMs3fn1KkMscX" type="assigned"/>
         <correspContext corresp="i-6VvrQ7g4fNMs3fn1KkMscX">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_430/mot_200506_Ub_430-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7r8iv74XMsxHLfQ1vR79Vm">
-        <div type="motTitle" xml:id="i-ACx1XPt5kc7SQuWgvWqAuR"/>
-        <div type="motSubmissionInfo" xml:id="i-QXijDKf1PQicSaHP8TNroV"/>
+      <div xml:id="i-7r8iv74XMsxHLfQ1vR79Vm" type="motHeader">
+        <div xml:id="i-ACx1XPt5kc7SQuWgvWqAuR" type="motTitle"/>
+        <div xml:id="i-QXijDKf1PQicSaHP8TNroV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ShyAn46XsUMamywmNwVgo">
+      <div xml:id="i-ShyAn46XsUMamywmNwVgo" type="motBody">
         <div xml:id="i-XqTGRyViMRUMCYraN4cYEE">
           <p xml:id="i-V4hXacYVEbbCwrTQcEwfj6">
             2005/06 mnr: Ub430 pnr: kd1014
@@ -223,8 +223,11 @@
             att de ska kunna följa den demokratiskt uttalade folkviljan. Självklart
             bör dessa kommuner få bli försökskommuner!
           </p>
-          <p xml:id="i-HpHjTsjd89cA8yVp9yimZV">
-            Stockholm den 29 september 2005 Mikael Oscarsson (kd)
+          <p xml:id="i-HpHjTsjd89cA8yVp9yimZV" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-TV5PnnLrZw4sh5mYHNAcwC">
+            Mikael Oscarsson (kd)
           </p>
           <p xml:id="i-HwPeA2D7DX3rXTmeu5u4KZ">
             2005/06:Ub430

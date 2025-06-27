@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00406">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-MMa2PA7yJ45qkfsEkcFqYb"/>
           <note type="signatory" corresp="i-Dt448JefoURo4sEMRH39aM"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Vsz7ELhW7g6mfnYXgyWYvg">
+        <correspAction xml:id="i-Vsz7ELhW7g6mfnYXgyWYvg" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9VKRyD1vy9KkEWLY23fsW6">
+        <correspAction xml:id="i-9VKRyD1vy9KkEWLY23fsW6" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LcK5hNqJyxoZGXW49DPNSP">
+        <correspAction xml:id="i-LcK5hNqJyxoZGXW49DPNSP" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CUwE8CZsm2jSW57FmQR7fg"/>
+        <correspAction xml:id="i-CUwE8CZsm2jSW57FmQR7fg" type="assigned"/>
         <correspContext corresp="i-CUwE8CZsm2jSW57FmQR7fg">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_406/mot_200506_Ub_406-0001.pdf"/>
-      <div type="motHeader" xml:id="i-51iBpzC4EC2JqhFQx2sKAF">
-        <div type="motTitle" xml:id="i-5TbCCEJYgtTxfEbJC3GWHu"/>
-        <div type="motSubmissionInfo" xml:id="i-HdaRHLW8Lh67LKEFXwbxxF"/>
+      <div xml:id="i-51iBpzC4EC2JqhFQx2sKAF" type="motHeader">
+        <div xml:id="i-5TbCCEJYgtTxfEbJC3GWHu" type="motTitle"/>
+        <div xml:id="i-HdaRHLW8Lh67LKEFXwbxxF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5LMn9Eo2i5j9CzqWbZWqdn">
+      <div xml:id="i-5LMn9Eo2i5j9CzqWbZWqdn" type="motBody">
         <div xml:id="i-HLiivabDoCcAxrTKLL42zw">
           <p xml:id="i-478GeGin3EfJFnqnvnWZkQ">
             2005/06 mnr: Ub406 pnr: s11057
@@ -140,9 +140,11 @@
             resurser för forskning kring havsmiljön och dess algblomning inrättas
             vid Gotlands högskola.
           </p>
-          <p xml:id="i-ipg8iaazLizbVvziXdMAj">
-            Stockholm den 30 september 2005 Christer Engelhardt (s) Lilian
-            Virgin (s)
+          <p xml:id="i-ipg8iaazLizbVvziXdMAj" type="date">
+            Stockholm den 30 september 2005
+          </p>
+          <p type="signatureBlock" id="i-8MJZtcpUiJBAv4YuUWqyCJ">
+            Christer Engelhardt (s) Lilian Virgin (s)
           </p>
         </div>
       </div>

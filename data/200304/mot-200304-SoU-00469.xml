@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00469">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-SUucED5kgofa8oNdX7KSK8">
           <note type="signatory" corresp="i-WJM6edqhGfBK1ijhNxfgoj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MfmnNZfNjY7fhjKHrQmMGN">
+        <correspAction xml:id="i-MfmnNZfNjY7fhjKHrQmMGN" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-H5D5XNLTHY8C2qV5TEwBJX">
+        <correspAction xml:id="i-H5D5XNLTHY8C2qV5TEwBJX" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8kgcozRe277C5kMY2f2xBN">
+        <correspAction xml:id="i-8kgcozRe277C5kMY2f2xBN" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VYcXZPzvC71bYjGXDg3J83"/>
+        <correspAction xml:id="i-VYcXZPzvC71bYjGXDg3J83" type="assigned"/>
         <correspContext corresp="i-VYcXZPzvC71bYjGXDg3J83">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0469/mot_200304_So_0469-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Bk5rqBvsb1ifLobpLqgruV">
-        <div type="motTitle" xml:id="i-tPDAnqVDoGm8bK8QWTfpa"/>
-        <div type="motSubmissionInfo" xml:id="i-NC7imjhFEoTSMxc6YeRaXW"/>
+      <div xml:id="i-Bk5rqBvsb1ifLobpLqgruV" type="motHeader">
+        <div xml:id="i-tPDAnqVDoGm8bK8QWTfpa" type="motTitle"/>
+        <div xml:id="i-NC7imjhFEoTSMxc6YeRaXW" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3EQArryENUeZQAkenaseP1">
+      <div xml:id="i-3EQArryENUeZQAkenaseP1" type="motBody">
         <div xml:id="i-Hfj4LXEjoEi8k3K8CVUEdP">
           <p xml:id="i-54mf5zK2NixEv96nQgDQe4">
             2003/04 mnr: S0469 pnr: kd770
@@ -173,8 +173,11 @@
           <p xml:id="i-NmzcjvXcciZqx51mf5i6Cj">
             2003/04:5S0469
           </p>
-          <p xml:id="i-QmPLbDE76G7ic9LrM5CbZ3">
-            Stockholm den 3 oktober 2003 Chatrine Pålsson (kd)
+          <p xml:id="i-QmPLbDE76G7ic9LrM5CbZ3" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-8dtJ9fbmhLUv3Rk1S3JWDa">
+            Chatrine Pålsson (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00371">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-XJKoGbfvxUjrhfP2MEFzmX">
           <note type="signatory" corresp="i-PsSysCdjrkuVBAo163T4KM"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3Ux1caEvZDmsdNHNwXdSZ5">
+        <correspAction xml:id="i-3Ux1caEvZDmsdNHNwXdSZ5" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-E1qgpdTSXZHG4d3gk6aWsa">
+        <correspAction xml:id="i-E1qgpdTSXZHG4d3gk6aWsa" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RLPrgSnRaxcwrEJSxJZcLQ">
+        <correspAction xml:id="i-RLPrgSnRaxcwrEJSxJZcLQ" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9ZvQEpZxyV3WQe2kMAcS2S"/>
+        <correspAction xml:id="i-9ZvQEpZxyV3WQe2kMAcS2S" type="assigned"/>
         <correspContext corresp="i-9ZvQEpZxyV3WQe2kMAcS2S">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Sk_0371/mot_200203_Sk_0371-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RsDVVzt6RAMsawRi4ANHHK">
-        <div type="motTitle" xml:id="i-W1E8eJX2sdXyXig23m4AJF"/>
-        <div type="motSubmissionInfo" xml:id="i-WNi4ZpBpzYeGrNu1ALec97"/>
+      <div xml:id="i-RsDVVzt6RAMsawRi4ANHHK" type="motHeader">
+        <div xml:id="i-W1E8eJX2sdXyXig23m4AJF" type="motTitle"/>
+        <div xml:id="i-WNi4ZpBpzYeGrNu1ALec97" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YDi17fPUhdRELh6uWnCfg3">
+      <div xml:id="i-YDi17fPUhdRELh6uWnCfg3" type="motBody">
         <div xml:id="i-MEnpBNdtDdQk2REPTJz29D">
           <p xml:id="i-7iwNPdSTimdkYpK3VGjFZg">
             2002/03 mnr: Sk371 pnr: kd775
@@ -175,8 +175,11 @@
             som i motionen anförs om förändringar i reseavdragen för personer
             med nedsatt arbetsförmåga samt om avdrag för resor med motorfordon.
           </p>
-          <p xml:id="i-BVyVB2CQKpY3AYV5iLKsiQ">
-            Stockholm den 22 oktober 2002 Johnny Gylling (kd)
+          <p xml:id="i-BVyVB2CQKpY3AYV5iLKsiQ" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-Ecri919mQouPy3KsC4PbaL">
+            Johnny Gylling (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00231">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-6gir36wVuSs35fWASSeJfr">
           <note type="signatory" corresp="i-4SAiMdwrEthd2M8z2yjtkv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Xbpn5eWRNg34u4c75aj2ar">
+        <correspAction xml:id="i-Xbpn5eWRNg34u4c75aj2ar" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AK3XgonH9oJbqkBSc3kshM">
+        <correspAction xml:id="i-AK3XgonH9oJbqkBSc3kshM" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-42HEbmUMgJG5AxqTuUeoSu">
+        <correspAction xml:id="i-42HEbmUMgJG5AxqTuUeoSu" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2ZBYHkVqb4UptBqBvHK2HP"/>
+        <correspAction xml:id="i-2ZBYHkVqb4UptBqBvHK2HP" type="assigned"/>
         <correspContext corresp="i-2ZBYHkVqb4UptBqBvHK2HP">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_231/mot_200506_Sf_231-0001.pdf"/>
-      <div type="motHeader" xml:id="i-B4GFLofVoZgKsMqebabYhg">
-        <div type="motTitle" xml:id="i-F5YnMeTd71LDTnnfoTGr1s"/>
-        <div type="motSubmissionInfo" xml:id="i-H2bUkvFvWDfQZtEFPcLUps"/>
+      <div xml:id="i-B4GFLofVoZgKsMqebabYhg" type="motHeader">
+        <div xml:id="i-F5YnMeTd71LDTnnfoTGr1s" type="motTitle"/>
+        <div xml:id="i-H2bUkvFvWDfQZtEFPcLUps" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SbTW6F4VQ95JK7VYfQBuuq">
+      <div xml:id="i-SbTW6F4VQ95JK7VYfQBuuq" type="motBody">
         <div xml:id="i-M3geKGsajNwZ6spQpKmvKc">
           <p xml:id="i-XQyuPtCimoxeds6UWAHDue">
             2005/06 mnr: Sf231 pnr: fp806
@@ -134,8 +134,11 @@
             som väntar på definitivt svar från migrationsmyndigheterna. Detta
             bör riksdagen ge regeringen till känna.
           </p>
-          <p xml:id="i-XJe9YmXn7E8EvkrNWq1Py9">
-            Stockholm den 26 september 2005 Ana Maria Narti (fp)
+          <p xml:id="i-XJe9YmXn7E8EvkrNWq1Py9" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-RSqLAaSErfJxd6Gmf1VFqk">
+            Ana Maria Narti (fp)
           </p>
         </div>
       </div>

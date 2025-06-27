@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-NU-00262">
   <teiHeader>
     <fileDesc>
@@ -94,16 +94,16 @@
           <note type="signatory" corresp="i-BTT4KmhANXmGX5MoaLfFg9"/>
           <note type="signatory" corresp="i-JJGD2ECwHv6xGCZyyrtKmA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QK2T5cZjwEZKgoUoeYSEUD">
+        <correspAction xml:id="i-QK2T5cZjwEZKgoUoeYSEUD" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YEjWCwCoxzfFZpbMeX31GB">
+        <correspAction xml:id="i-YEjWCwCoxzfFZpbMeX31GB" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LhKRunWf8M6khCWh23uaCP">
+        <correspAction xml:id="i-LhKRunWf8M6khCWh23uaCP" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MQaZnnXwoaB3j5da3p4Loa"/>
+        <correspAction xml:id="i-MQaZnnXwoaB3j5da3p4Loa" type="assigned"/>
         <correspContext corresp="i-MQaZnnXwoaB3j5da3p4Loa">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_N_0262/mot_200203_N_0262-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TSLWQGZetEcfhLFrCcGoi5">
-        <div type="motTitle" xml:id="i-FawYg1tcrbJxJTX3Q2oBNb"/>
-        <div type="motSubmissionInfo" xml:id="i-LZxsAmK3DMxbCZxURhs53Z"/>
+      <div xml:id="i-TSLWQGZetEcfhLFrCcGoi5" type="motHeader">
+        <div xml:id="i-FawYg1tcrbJxJTX3Q2oBNb" type="motTitle"/>
+        <div xml:id="i-LZxsAmK3DMxbCZxURhs53Z" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Uui6UMN7fv8weyz3oVXgY4">
+      <div xml:id="i-Uui6UMN7fv8weyz3oVXgY4" type="motBody">
         <div xml:id="i-TSqiGM4KQ5f9f4FFiBE66A">
           <p xml:id="i-EMhaskGeDomTgo6YJ4wXBb">
             2002/03
@@ -484,8 +484,11 @@
             är av yttersta vikt för den skånska industrin och därmed en mycket
             stor del av den svenska sysselsättningen.
           </p>
-          <p xml:id="i-VjYzQS1ncTHap5MMF2F4XH">
-            Stockholm den 18 oktober 2002 Lars Lindblad (m)
+          <p xml:id="i-VjYzQS1ncTHap5MMF2F4XH" type="date">
+            Stockholm den 18 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-FPtJU8ABa3TnTSwDeAhTLx">
+            Lars Lindblad (m)
           </p>
           <p xml:id="i-6XfBzEA84hXYgW2PojQQCf">
             Tobias Billström (m) Peter Danielsson (m) Carl-Axel Johansson

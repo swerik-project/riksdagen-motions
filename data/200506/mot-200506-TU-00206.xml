@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00206">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-WmjMwXTd9v8XPeovHMGfqg">
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2DoWcUdV2mcgTLTuFxfuFv">
+        <correspAction xml:id="i-2DoWcUdV2mcgTLTuFxfuFv" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-G299RsZrVmUv7ZpiWKaJP6">
+        <correspAction xml:id="i-G299RsZrVmUv7ZpiWKaJP6" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Sjtsfr4W6AMp9Eo4P8XWgx">
+        <correspAction xml:id="i-Sjtsfr4W6AMp9Eo4P8XWgx" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3LKiHHY1JN83XuoPjYuj4x"/>
+        <correspAction xml:id="i-3LKiHHY1JN83XuoPjYuj4x" type="assigned"/>
         <correspContext corresp="i-3LKiHHY1JN83XuoPjYuj4x">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_206/mot_200506_T_206-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Gk3kjXgAaSoLYfxRTtaiLc">
-        <div type="motTitle" xml:id="i-XrWhMXVzcpTW6gRbFSBGdA"/>
-        <div type="motSubmissionInfo" xml:id="i-HXCN7hAwkKCM8nmRHaukob"/>
+      <div xml:id="i-Gk3kjXgAaSoLYfxRTtaiLc" type="motHeader">
+        <div xml:id="i-XrWhMXVzcpTW6gRbFSBGdA" type="motTitle"/>
+        <div xml:id="i-HXCN7hAwkKCM8nmRHaukob" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PQRrc3FwZhdhJJ9GmpooHS">
+      <div xml:id="i-PQRrc3FwZhdhJJ9GmpooHS" type="motBody">
         <div xml:id="i-CeesE7xC82QwmhG3wwG4X4">
           <p xml:id="i-J2BJQT9x2iQaJQ9RvaTUn8">
             2005/06 mnr: T206 pnr: m1005
@@ -118,8 +118,11 @@
           <p xml:id="i-4wKoA3YeMcyecqWn7Q5a6w">
             2005/06:T206
           </p>
-          <p xml:id="i-ErjXw8ryF9L3nEiC8hsZe1">
-            Stockholm den 15 september 2005 Ulf Sjösten (m)
+          <p xml:id="i-ErjXw8ryF9L3nEiC8hsZe1" type="date">
+            Stockholm den 15 september 2005
+          </p>
+          <p type="signatureBlock" id="i-JqDTRrCLhi8CZ7es5tGzca">
+            Ulf Sjösten (m)
           </p>
         </div>
       </div>

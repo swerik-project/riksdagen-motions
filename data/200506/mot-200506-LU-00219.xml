@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00219">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-3hmS3YtKuXCDu8pntcLAdc"/>
           <note type="signatory" corresp="i-KAgkDWA5iGbn9XFLkj9FoB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NRDF3odubpqmqsQqvrFafN">
+        <correspAction xml:id="i-NRDF3odubpqmqsQqvrFafN" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2ZQbvrEN63YF4Lz1YxMvGx">
+        <correspAction xml:id="i-2ZQbvrEN63YF4Lz1YxMvGx" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Aj6hVbe5w7GofxPQi7EcqX">
+        <correspAction xml:id="i-Aj6hVbe5w7GofxPQi7EcqX" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TvfjW2NTQTtu7tQzGQ74YU"/>
+        <correspAction xml:id="i-TvfjW2NTQTtu7tQzGQ74YU" type="assigned"/>
         <correspContext corresp="i-TvfjW2NTQTtu7tQzGQ74YU">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_219/mot_200506_L_219-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Mj8xUTfDXYWtdvBRzo8gdv">
-        <div type="motTitle" xml:id="i-KAMhqLdzYYnBSJGptM1BCa"/>
-        <div type="motSubmissionInfo" xml:id="i-MaW7fkyn5LHgKCdKSZJE3f"/>
+      <div xml:id="i-Mj8xUTfDXYWtdvBRzo8gdv" type="motHeader">
+        <div xml:id="i-KAMhqLdzYYnBSJGptM1BCa" type="motTitle"/>
+        <div xml:id="i-MaW7fkyn5LHgKCdKSZJE3f" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VcYdPKwgo2GorsgN5rj7VE">
+      <div xml:id="i-VcYdPKwgo2GorsgN5rj7VE" type="motBody">
         <div xml:id="i-LzoZbQ41VtnyBymK8nQT4n">
           <p xml:id="i-RZSCVbgSvGvoiSfxiNWhGZ">
             2005/06 mnr: L219 pnr: s49504
@@ -131,8 +131,11 @@
           <p xml:id="i-UGrEtmxZ56MXL6vYEp87Xb">
             2005/06:L219
           </p>
-          <p xml:id="i-2U2cQJsiqU3MZhU4we7ZSk">
-            Stockholm den 22 september 2005 Hans Hoff (s) Alf Eriksson (s)
+          <p xml:id="i-2U2cQJsiqU3MZhU4we7ZSk" type="date">
+            Stockholm den 22 september 2005
+          </p>
+          <p type="signatureBlock" id="i-XVkQJbhYLoJH6JyctuSRFf">
+            Hans Hoff (s) Alf Eriksson (s)
           </p>
         </div>
       </div>

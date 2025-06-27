@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00003">
   <teiHeader>
     <fileDesc>
@@ -83,7 +83,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-CE2kDPUrWWHCjzTTF5U9Ds"/>
+        <correspAction xml:id="i-CE2kDPUrWWHCjzTTF5U9Ds" type="basedOn"/>
         <correspContext corresp="i-CE2kDPUrWWHCjzTTF5U9Ds">
           <ref>Proposition 2002/03:5</ref>
         </correspContext>
@@ -98,16 +98,16 @@
           <note type="signatory" corresp="i-J2pcjBf6ppCUUibn7Biroc"/>
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3fVYcLwc3YDXyiS8o1rUC8">
+        <correspAction xml:id="i-3fVYcLwc3YDXyiS8o1rUC8" type="referral">
           <date when="2002-11-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4m5arZGnniL4NQKw26UPtG">
+        <correspAction xml:id="i-4m5arZGnniL4NQKw26UPtG" type="dismissal">
           <date when="2002-11-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4272GyzamkW8ku1vAQW7ej">
+        <correspAction xml:id="i-4272GyzamkW8ku1vAQW7ej" type="submission">
           <date when="2002-11-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FoeUTAZQAg1KpvJZFnzMA1"/>
+        <correspAction xml:id="i-FoeUTAZQAg1KpvJZFnzMA1" type="assigned"/>
         <correspContext corresp="i-FoeUTAZQAg1KpvJZFnzMA1">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -122,11 +122,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Sk_0003/mot_200203_Sk_0003-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Ds2zC8SrZ6V6wvWqubhPcV">
-        <div type="motTitle" xml:id="i-KzPFTS5XpjebtePQZBksuh"/>
-        <div type="motSubmissionInfo" xml:id="i-UucXpQqmBYr7JFqPgnDAnk"/>
+      <div xml:id="i-Ds2zC8SrZ6V6wvWqubhPcV" type="motHeader">
+        <div xml:id="i-KzPFTS5XpjebtePQZBksuh" type="motTitle"/>
+        <div xml:id="i-UucXpQqmBYr7JFqPgnDAnk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8bq9pGoyGDtKXZxsP85SiA">
+      <div xml:id="i-8bq9pGoyGDtKXZxsP85SiA" type="motBody">
         <div xml:id="i-5LfLvEnh5SFvu9f6hVN4kh">
           <p xml:id="i-BWLDLJA1bU4amvTrMHWVpK">
             2002/03 mnr: Sk3 pnr: kd104
@@ -242,8 +242,11 @@
             riksdagen i vilket det tillåtna uppskovet uppgår till minst ett
             halvår.
           </p>
-          <p xml:id="i-KCaY3zvtvTeEzpZm1jw9Zi">
-            Stockholm den 31 oktober 2002 Per Landgren (kd)
+          <p xml:id="i-KCaY3zvtvTeEzpZm1jw9Zi" type="date">
+            Stockholm den 31 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-MKHXZTvqu392StH81dQbFN">
+            Per Landgren (kd)
           </p>
           <p xml:id="i-4eJZ99QVcGhKugVTez4cQ8">
             Lars Gustafsson (kd) Mats Odell (kd) Stefan Attefall (kd) Annelie

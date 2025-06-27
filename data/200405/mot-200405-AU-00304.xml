@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-AU-00304">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-7hZAvgTJaGCA8ZFLATfSFw">
           <note type="signatory" corresp="i-VkgCZCfoAga9JDLAtq7rRZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NPdxig9D28HFv36wc9dCzo">
+        <correspAction xml:id="i-NPdxig9D28HFv36wc9dCzo" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WXXLw3kCmgnBqJz3drdPSh">
+        <correspAction xml:id="i-WXXLw3kCmgnBqJz3drdPSh" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HwYKxAg8dwNxtrYifSinGV">
+        <correspAction xml:id="i-HwYKxAg8dwNxtrYifSinGV" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Tgqun8kAGLB7HXmMhyALSt"/>
+        <correspAction xml:id="i-Tgqun8kAGLB7HXmMhyALSt" type="assigned"/>
         <correspContext corresp="i-Tgqun8kAGLB7HXmMhyALSt">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -66,11 +66,11 @@
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_A_304/mot_200405_A_304-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_A_0304/mot_200405_A_0304-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_A_0304/mot_200405_A_0304-001.pdf"/>
-      <div type="motHeader" xml:id="i-CgKrFpvCPrigmrsEQCQnJT">
-        <div type="motTitle" xml:id="i-LVNZxr91JKjFdvmFYAgBUa"/>
-        <div type="motSubmissionInfo" xml:id="i-GJN6M67mhJhwzmFhYja4JL"/>
+      <div xml:id="i-CgKrFpvCPrigmrsEQCQnJT" type="motHeader">
+        <div xml:id="i-LVNZxr91JKjFdvmFYAgBUa" type="motTitle"/>
+        <div xml:id="i-GJN6M67mhJhwzmFhYja4JL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-V72ua5j1HFfedtDpykxYAx">
+      <div xml:id="i-V72ua5j1HFfedtDpykxYAx" type="motBody">
         <div xml:id="i-SkEMJevp89NNXXZ1JKwgUB">
           <p xml:id="i-Rp9k7EH4tLBCAMZBdqyyQi">
             2004/05 mnr: A304 pnr: s3045
@@ -128,8 +128,11 @@
           <p xml:id="i-VYPWj2Ng8zx925qoKiCCYo">
             2004/05:A304
           </p>
-          <p xml:id="i-S9kMn19V4CRsZkrxow6JJx">
-            Stockholm den 27 september 2004 Agneta Gille (s)
+          <p xml:id="i-S9kMn19V4CRsZkrxow6JJx" type="date">
+            Stockholm den 27 september 2004
+          </p>
+          <p type="signatureBlock" id="i-GjCsfw2tTkGF7aWNDuPEGp">
+            Agneta Gille (s)
           </p>
         </div>
       </div>

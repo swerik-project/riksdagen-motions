@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00393">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-EAJ4bb7Me4yzByZkYqvboi">
           <note type="signatory" corresp="i-9x2nw6aosA3pyEJfJTc1eD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-382HEJk85begUfsNGCVe7K">
+        <correspAction xml:id="i-382HEJk85begUfsNGCVe7K" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GDcFWeAZhuz18evJTwiVHN">
+        <correspAction xml:id="i-GDcFWeAZhuz18evJTwiVHN" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-X1pKnRB4Bw7bCcUCawRZAs">
+        <correspAction xml:id="i-X1pKnRB4Bw7bCcUCawRZAs" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WgeFUo1jMcvS2BzA4nT1CD"/>
+        <correspAction xml:id="i-WgeFUo1jMcvS2BzA4nT1CD" type="assigned"/>
         <correspContext corresp="i-WgeFUo1jMcvS2BzA4nT1CD">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_393/mot_200506_L_393-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6V2CVyWjKouAV7sWxxVpje">
-        <div type="motTitle" xml:id="i-Cm5SGaBAP2awn5xRg8WVPv"/>
-        <div type="motSubmissionInfo" xml:id="i-VKKhEzKK5HWHZpFXnLopoo"/>
+      <div xml:id="i-6V2CVyWjKouAV7sWxxVpje" type="motHeader">
+        <div xml:id="i-Cm5SGaBAP2awn5xRg8WVPv" type="motTitle"/>
+        <div xml:id="i-VKKhEzKK5HWHZpFXnLopoo" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-E3jzrzjCjrnY5jahMZssC9">
+      <div xml:id="i-E3jzrzjCjrnY5jahMZssC9" type="motBody">
         <div xml:id="i-UzUdmV4ufFFd6TtCSD8wf7">
           <p xml:id="i-Fpcd4KyCarAeYSYdgbobhm">
             2005/06 mnr: L393 pnr: mp711
@@ -131,8 +131,11 @@
             med att ha allt samlat i en miljöbalk. Jag tror det skulle vara
             samma fördel med att samla konsumentlagstiftningen i en konsumentbalk.
           </p>
-          <p xml:id="i-FdZFYzJ4Np5W2UMatn9VjL">
-            Stockholm den 5 oktober 2005 Ulf Holm (mp)
+          <p xml:id="i-FdZFYzJ4Np5W2UMatn9VjL" type="date">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-39PafqLXvcybmzM7sWzBXQ">
+            Ulf Holm (mp)
           </p>
         </div>
       </div>

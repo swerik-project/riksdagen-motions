@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00521">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-XSoE59R8vSeGm31iRSvpAz"/>
           <note type="signatory" corresp="i-JUDfhnxTxyfMtZUBuv5NAa"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GXE2RerbBHvaBfWzhKc4MP">
+        <correspAction xml:id="i-GXE2RerbBHvaBfWzhKc4MP" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DQef4esA6hQ1UXeUUYSTwV">
+        <correspAction xml:id="i-DQef4esA6hQ1UXeUUYSTwV" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KToREPWNVMUvfoJF7CMqnE">
+        <correspAction xml:id="i-KToREPWNVMUvfoJF7CMqnE" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Bt5iFGCE8LBEFtRxQ58VWZ"/>
+        <correspAction xml:id="i-Bt5iFGCE8LBEFtRxQ58VWZ" type="assigned"/>
         <correspContext corresp="i-Bt5iFGCE8LBEFtRxQ58VWZ">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_521/mot_200506_Ju_521-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KeSTruvN1kuJuCghoNBSbV">
-        <div type="motTitle" xml:id="i-5x5RQciyHZit8TWkpteJLz"/>
-        <div type="motSubmissionInfo" xml:id="i-B1deY8oUN62iiKqTo1Kzqk"/>
+      <div xml:id="i-KeSTruvN1kuJuCghoNBSbV" type="motHeader">
+        <div xml:id="i-5x5RQciyHZit8TWkpteJLz" type="motTitle"/>
+        <div xml:id="i-B1deY8oUN62iiKqTo1Kzqk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-R3Fko4669oEbn5suaUPLBX">
+      <div xml:id="i-R3Fko4669oEbn5suaUPLBX" type="motBody">
         <div xml:id="i-PctNmAs7dhcgrBgraMWf7m">
           <p xml:id="i-FdPvZN55kkS36aGpNNVpjz">
             2005/06 mnr: Ju521 pnr: kd1037
@@ -143,9 +143,11 @@
             Den lokala polisen ska dessutom genomföra den nya uppgiften med
             befintliga resurser.
           </p>
-          <p xml:id="i-L5PryRMjNRtFvYLQznKBUF">
-            Stockholm den 29 september 2005 Ulrik Lindgren (kd) Peter Althin
-            (kd)
+          <p xml:id="i-L5PryRMjNRtFvYLQznKBUF" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-RAeS4BLnEYbsqFPdRFAP8S">
+            Ulrik Lindgren (kd) Peter Althin (kd)
           </p>
         </div>
       </div>

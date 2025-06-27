@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00512">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-UamjhtBjawiPZgFUWtKAmy">
           <note type="signatory" corresp="i-WxKXQnWjxN8pQCfBtNDnKa"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Nk6Hn7KJe34DBJ9PHvtAEP">
+        <correspAction xml:id="i-Nk6Hn7KJe34DBJ9PHvtAEP" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QKEgRGimxpNKQqoG5g53yU">
+        <correspAction xml:id="i-QKEgRGimxpNKQqoG5g53yU" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3YuUsqNcozVdbxbKLEahxb">
+        <correspAction xml:id="i-3YuUsqNcozVdbxbKLEahxb" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NqtCdPXWpYXCcaBVxZFtvR"/>
+        <correspAction xml:id="i-NqtCdPXWpYXCcaBVxZFtvR" type="assigned"/>
         <correspContext corresp="i-NqtCdPXWpYXCcaBVxZFtvR">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_512/mot_200506_T_512-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TEqPwQMpmdqxeht4RZD9tS">
-        <div type="motTitle" xml:id="i-T7NuYZugLP7evzXLqwZJRR"/>
-        <div type="motSubmissionInfo" xml:id="i-NYddbgcAPfnWeHWcS4KeSX"/>
+      <div xml:id="i-TEqPwQMpmdqxeht4RZD9tS" type="motHeader">
+        <div xml:id="i-T7NuYZugLP7evzXLqwZJRR" type="motTitle"/>
+        <div xml:id="i-NYddbgcAPfnWeHWcS4KeSX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CUCFNXV9UJaijtz3hKGDNo">
+      <div xml:id="i-CUCFNXV9UJaijtz3hKGDNo" type="motBody">
         <div xml:id="i-ApjdET9HTX9CQaimQg2YRL">
           <p xml:id="i-Ht7X38G9abXwLC7UdXAQqp">
             2005/06 mnr: T512 pnr: s45223
@@ -149,8 +149,11 @@
             kan med fördel lokaliseras till ställen som verkligen behöver
             nya arbetsplatser, t.ex. till Gäddede, Vilhelmina eller Jokkmokk.
           </p>
-          <p xml:id="i-XDQuXymmCzqUjcMRmuQTYf">
-            Stockholm den 3 oktober 2005 Sören Wibe (s)
+          <p xml:id="i-XDQuXymmCzqUjcMRmuQTYf" type="date">
+            Stockholm den 3 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-YT8HGK4S2hHxU3NHKEbAUw">
+            Sören Wibe (s)
           </p>
         </div>
       </div>

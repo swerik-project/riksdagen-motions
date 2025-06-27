@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-JuU-00314">
   <teiHeader>
     <fileDesc>
@@ -102,16 +102,16 @@
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
           <note type="signatory" corresp="i-mN8mVTBvBYjtHLNThWLo4"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-E2kXcmr6UC5zZYJCwpYTdk">
+        <correspAction xml:id="i-E2kXcmr6UC5zZYJCwpYTdk" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8FF1nsdto4E9fiauR41z81">
+        <correspAction xml:id="i-8FF1nsdto4E9fiauR41z81" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-J9kVMPN1HgWjaqY1i9NJbR">
+        <correspAction xml:id="i-J9kVMPN1HgWjaqY1i9NJbR" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3GgmB66n1k1NTa7u6Li45P"/>
+        <correspAction xml:id="i-3GgmB66n1k1NTa7u6Li45P" type="assigned"/>
         <correspContext corresp="i-3GgmB66n1k1NTa7u6Li45P">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -127,11 +127,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ju_314/mot_200405_Ju_314-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ju_314/mot_200405_Ju_314-0001.pdf"/>
-      <div type="motHeader" xml:id="i-W33YMN7AJJmoxAuiyY7uv1">
-        <div type="motTitle" xml:id="i-RcQF69DGKJp4GU45ousVwA"/>
-        <div type="motSubmissionInfo" xml:id="i-HBC72PMu7KGyTv29g6ZwA"/>
+      <div xml:id="i-W33YMN7AJJmoxAuiyY7uv1" type="motHeader">
+        <div xml:id="i-RcQF69DGKJp4GU45ousVwA" type="motTitle"/>
+        <div xml:id="i-HBC72PMu7KGyTv29g6ZwA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SxRa1iSQ6KpvLdn77Jgoqo">
+      <div xml:id="i-SxRa1iSQ6KpvLdn77Jgoqo" type="motBody">
         <div xml:id="i-3Zgg7fRrfnTXCrGi6poGkJ">
           <p xml:id="i-A4BA9pJC5usfPMrwKRveyp">
             2004/05 mnr: Ju314 pnr: v702
@@ -203,8 +203,11 @@
             modernt samhälle. Detta bör riksdagen som sin mening regeringen
             till känna.
           </p>
-          <p xml:id="i-FaMAKLhKA6SQwE6qs45z8X">
-            Stockholm den 24 september 2004 Rolf Olsson (v)
+          <p xml:id="i-FaMAKLhKA6SQwE6qs45z8X" type="date">
+            Stockholm den 24 september 2004
+          </p>
+          <p type="signatureBlock" id="i-2kN7fkaWo593dDd16vsVdr">
+            Rolf Olsson (v)
           </p>
           <p xml:id="i-UgxKxG3gGaNZTFQuU5uxyb">
             Rossana Dinamarca (v) Mats Einarsson (v) Siv Holma (v) Peter

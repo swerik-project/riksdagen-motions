@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-AU-00044">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="man">
             <idno>i-NLfT4RS4huMCGpWx1zB8Ag</idno>
-            <name>Erling Bager </name>
+            <name>Erling Bager</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-5BAuoreWuHEDmfStAQQoco</idno>
-            <name>Sigge Godin </name>
+            <name>Sigge Godin</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5BdwnqgEYEKgFCAYcRNUpH"/>
+        <correspAction xml:id="i-5BdwnqgEYEKgFCAYcRNUpH" type="basedOn"/>
         <correspContext corresp="i-5BdwnqgEYEKgFCAYcRNUpH">
           <ref>Proposition 1996/97:107</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-NLfT4RS4huMCGpWx1zB8Ag"/>
           <note type="signatory" corresp="i-5BAuoreWuHEDmfStAQQoco"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QPMpFprG3jvHTcvs8jVegp">
+        <correspAction xml:id="i-QPMpFprG3jvHTcvs8jVegp" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DGgJJrMiU8TFqfxcQJ22gr">
+        <correspAction xml:id="i-DGgJJrMiU8TFqfxcQJ22gr" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SGfbetT6JXYdaR6m9mmpbh">
+        <correspAction xml:id="i-SGfbetT6JXYdaR6m9mmpbh" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-P1dp93Pb2JL5HiF1dF3KUa">
+        <correspAction xml:id="i-P1dp93Pb2JL5HiF1dF3KUa" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-85g4FiXqAqBnKViLKKn6hk">
+        <correspAction xml:id="i-85g4FiXqAqBnKViLKKn6hk" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7N6cv6JEjdpEbsiKXindM6">
+        <correspAction xml:id="i-7N6cv6JEjdpEbsiKXindM6" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FcuBeSoVaz4D2gptwpEtsg"/>
+        <correspAction xml:id="i-FcuBeSoVaz4D2gptwpEtsg" type="assigned"/>
         <correspContext corresp="i-FcuBeSoVaz4D2gptwpEtsg">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -98,11 +98,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0044/mot_199697_A_0044-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0044/mot_199697_A_0044-001.pdf"/>
-      <div type="motHeader" xml:id="i-K1sm86WiuXLiX8AKpKjRyh">
-        <div type="motTitle" xml:id="i-EcD51hSkedTAdvCPgRWiug"/>
-        <div type="motSubmissionInfo" xml:id="i-5ArRhwqnzzyxPprBxLUvKx"/>
+      <div xml:id="i-K1sm86WiuXLiX8AKpKjRyh" type="motHeader">
+        <div xml:id="i-EcD51hSkedTAdvCPgRWiug" type="motTitle"/>
+        <div xml:id="i-5ArRhwqnzzyxPprBxLUvKx" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-91B6GvAz7ZeLUz3HtvmcvR">
+      <div xml:id="i-91B6GvAz7ZeLUz3HtvmcvR" type="motBody">
         <div xml:id="i-MVJRd9xzvCfrkUr6QvsSJe">
           <p xml:id="i-XLcTVozWM5ThVQNKLK1joF">
             1996/97 |A44 A44—44
@@ -287,9 +287,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0044/mot_199697_A_0044-0004.pdf"/>
           <p xml:id="i-2ZpxdRkBg36hp4i5tc7HAV">
-            Mot. 1996/97A430 Stockholm den 3 april 1997
+            Mot. 1996/97A430
           </p>
-          <p xml:id="i-QikBT6PxZCWQXTPQ6uGVmt">
+          <p type="date" id="i-EntELhdYNpPVcCwcQTa4MN">
+            Stockholm den 3 april 1997
+          </p>
+          <p xml:id="i-QikBT6PxZCWQXTPQ6uGVmt" type="signatureBlock">
             Erling Bager (fp) Sigge Godin (fp)
           </p>
         </div>

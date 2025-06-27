@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-AU-00005">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Bo2CZmfgdHFvDGEVZQdyuR"/>
+        <correspAction xml:id="i-Bo2CZmfgdHFvDGEVZQdyuR" type="basedOn"/>
         <correspContext corresp="i-Bo2CZmfgdHFvDGEVZQdyuR">
           <ref>Proposition 2004/05:148</ref>
         </correspContext>
@@ -66,19 +66,19 @@
           <note type="signatory" corresp="i-Ry3pP9VZKrW87Vcxq73jQG"/>
           <note type="signatory" corresp="i-97ancH8vcZWM84VcKVCDX7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7vKo3BTvx98DmpeEKoggFZ">
+        <correspAction xml:id="i-7vKo3BTvx98DmpeEKoggFZ" type="referral">
           <date when="2005-04-21"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-Aj1wsFbES5STcECkpHhExP">
+        <correspAction xml:id="i-Aj1wsFbES5STcECkpHhExP" type="registration">
           <date when="2005-04-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Qs78CGSpaN7URLRyov4AJt">
+        <correspAction xml:id="i-Qs78CGSpaN7URLRyov4AJt" type="dismissal">
           <date when="2005-04-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6JVsbYcmsPPjoxUEELaac6">
+        <correspAction xml:id="i-6JVsbYcmsPPjoxUEELaac6" type="submission">
           <date when="2005-04-19"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XZAUrHx5CSkzxKtq3Rs3uS"/>
+        <correspAction xml:id="i-XZAUrHx5CSkzxKtq3Rs3uS" type="assigned"/>
         <correspContext corresp="i-XZAUrHx5CSkzxKtq3Rs3uS">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_A_5/mot_200405_A_5-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_A_0005/mot_200405_A_0005-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_A_0005/mot_200405_A_0005-001.pdf"/>
-      <div type="motHeader" xml:id="i-SX2iGNbQ4sJZY1wurLvv1G">
-        <div type="motTitle" xml:id="i-6My7tDpVsNFiBxt1BqSE7o"/>
-        <div type="motSubmissionInfo" xml:id="i-JvcQzj4d9xSsSHnpygUakj"/>
+      <div xml:id="i-SX2iGNbQ4sJZY1wurLvv1G" type="motHeader">
+        <div xml:id="i-6My7tDpVsNFiBxt1BqSE7o" type="motTitle"/>
+        <div xml:id="i-JvcQzj4d9xSsSHnpygUakj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6HNyVA7tygzSQ71KQyuHYf">
+      <div xml:id="i-6HNyVA7tygzSQ71KQyuHYf" type="motBody">
         <div xml:id="i-Y3CRNdWJkSiTCsvfeZU52Y">
           <p xml:id="i-FNWeBW4MTBDhXU5fXQdtux">
             2004/05 mnr: A5 pnr: kd161
@@ -213,9 +213,14 @@
           <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_A_5/mot_200405_A_5-0003.pdf"/>
           <p xml:id="i-NW7mwt4z5Mv5uxmRs5dxcb">
             innebär att regler om information och samråd inte behöver tillämpas
-            på företag med mindre än 50 anställda. Stockholm den 19 april
-            2005 Stefan Attefall (kd) Anders G Högmark (m) Carl B Hamilton
-            (fp) Margareta Andersson (c)
+            på företag med mindre än 50 anställda.
+          </p>
+          <p type="date" id="i-5LyQ2kiC5aebiMG7QPUiFx">
+            Stockholm den 19 april 2005
+          </p>
+          <p type="signatureBlock" id="i-63r9sokef3qZRRdfRCXTKf">
+            Stefan Attefall (kd) Anders G Högmark (m) Carl B Hamilton (fp)
+            Margareta Andersson (c)
           </p>
           <p xml:id="i-USy9s6gnMX6LNDpkDxvHY3">
             2004/05:A5

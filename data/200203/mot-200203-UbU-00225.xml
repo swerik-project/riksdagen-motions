@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00225">
   <teiHeader>
     <fileDesc>
@@ -94,16 +94,16 @@
           <note type="signatory" corresp="i-WJM6edqhGfBK1ijhNxfgoj"/>
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8ZQH88a7mQunfuzCfbN8vd">
+        <correspAction xml:id="i-8ZQH88a7mQunfuzCfbN8vd" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XCjnWgP2Rd5oc96TLQFPik">
+        <correspAction xml:id="i-XCjnWgP2Rd5oc96TLQFPik" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KQ3CkiR46zecbSNmLUbCay">
+        <correspAction xml:id="i-KQ3CkiR46zecbSNmLUbCay" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BLgx7niWF8rn8P3X82biFt"/>
+        <correspAction xml:id="i-BLgx7niWF8rn8P3X82biFt" type="assigned"/>
         <correspContext corresp="i-BLgx7niWF8rn8P3X82biFt">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ub_0225/mot_200203_Ub_0225-0001.pdf"/>
-      <div type="motHeader" xml:id="i-289gGqMyFjdA3cituWk5BA">
-        <div type="motTitle" xml:id="i-WcgEuozo6cTwXHD4xEavQt"/>
-        <div type="motSubmissionInfo" xml:id="i-CZ6wiTnARRnQPpxXWtJqkx"/>
+      <div xml:id="i-289gGqMyFjdA3cituWk5BA" type="motHeader">
+        <div xml:id="i-WcgEuozo6cTwXHD4xEavQt" type="motTitle"/>
+        <div xml:id="i-CZ6wiTnARRnQPpxXWtJqkx" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-H1YgShXVDtvq2QBDH8HGms">
+      <div xml:id="i-H1YgShXVDtvq2QBDH8HGms" type="motBody">
         <div xml:id="i-KL7jDhQdoRJBeXX3Bi64FA">
           <p xml:id="i-Lth33f1TNGiB8ZD2ojg7c2">
             2002/03 mnr: Ub225 pnr: kd350
@@ -268,8 +268,11 @@
             Att minska barngruppernas storlek är ett första, absolut nödvändigt
             steg i det arbetet.
           </p>
-          <p xml:id="i-SAHtnUZMisP7vXbws8VqSo">
-            Stockholm den 14 oktober 2002 Inger Davidson (kd)
+          <p xml:id="i-SAHtnUZMisP7vXbws8VqSo" type="date">
+            Stockholm den 14 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-3MYz6RjK7NuMf6iAaMCCaz">
+            Inger Davidson (kd)
           </p>
           <p xml:id="i-9vqVvzzbHyPdDbVdfU3WMJ">
             Sven Brus (kd) Helena Höij (kd) Kenneth Lantz (kd) Ulrik Lindgren

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00032">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8st2RhQY5V8XA1fFJrGG8E"/>
+        <correspAction xml:id="i-8st2RhQY5V8XA1fFJrGG8E" type="basedOn"/>
         <correspContext corresp="i-8st2RhQY5V8XA1fFJrGG8E">
           <ref>Proposition 2003/04:50</ref>
         </correspContext>
@@ -82,16 +82,16 @@
           <note type="signatory" corresp="i-6Lf4ZWSEWXurZm4mkDAE7B"/>
           <note type="signatory" corresp="i-GuqTA1ryPxMT4VhaTEcYK3"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4A4Qs68xY3qAmkx7DazEEQ">
+        <correspAction xml:id="i-4A4Qs68xY3qAmkx7DazEEQ" type="referral">
           <date when="2004-02-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WtccSfjbc3vphTYpwjz1Qh">
+        <correspAction xml:id="i-WtccSfjbc3vphTYpwjz1Qh" type="dismissal">
           <date when="2004-02-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-uBw9bdoS2rGzYm3q3JEQn">
+        <correspAction xml:id="i-uBw9bdoS2rGzYm3q3JEQn" type="submission">
           <date when="2004-02-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7H4AWN2ntn1ea79GDDjLLd"/>
+        <correspAction xml:id="i-7H4AWN2ntn1ea79GDDjLLd" type="assigned"/>
         <correspContext corresp="i-7H4AWN2ntn1ea79GDDjLLd">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -106,11 +106,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0032/mot_200304_Sf_0032-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SqK5bhpf8is8LakfNX1Jdj">
-        <div type="motTitle" xml:id="i-HUodTi2gMgxnV7R2wXSu3T"/>
-        <div type="motSubmissionInfo" xml:id="i-7Hc9HzdejEBXCgiXqJV1EJ"/>
+      <div xml:id="i-SqK5bhpf8is8LakfNX1Jdj" type="motHeader">
+        <div xml:id="i-HUodTi2gMgxnV7R2wXSu3T" type="motTitle"/>
+        <div xml:id="i-7Hc9HzdejEBXCgiXqJV1EJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-44gN5yJcPJBcXC231XuUdJ">
+      <div xml:id="i-44gN5yJcPJBcXC231XuUdJ" type="motBody">
         <div xml:id="i-4YyXpAuywnRshERo4Jpfsz">
           <p xml:id="i-Hh3uusdCRszN3DcUnYksbG">
             2003/04 mnr: Sf32 pnr: m233
@@ -371,10 +371,12 @@
           <p xml:id="i-8ZZxxwKh8hrs3Rg3y93EkS">
             2003/04:Sf32
           </p>
-          <p xml:id="i-TvjtMkWziHAVMuksXsc7fp">
-            Stockholm den 6 februari 2004 Per Westerberg (m) Anita Sidén
-            (m) Anna Lilliehöök (m) Anne-Marie Pålsson (m) Carl-Axel Johansson
-            (m) Anne Marie Brodén (m)
+          <p xml:id="i-TvjtMkWziHAVMuksXsc7fp" type="date">
+            Stockholm den 6 februari 2004
+          </p>
+          <p type="signatureBlock" id="i-TLrBjfLeNfZ9sMq2MhaEvY">
+            Per Westerberg (m) Anita Sidén (m) Anna Lilliehöök (m) Anne-Marie
+            Pålsson (m) Carl-Axel Johansson (m) Anne Marie Brodén (m)
           </p>
         </div>
       </div>

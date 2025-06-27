@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-TU-00070">
   <teiHeader>
     <fileDesc>
@@ -104,7 +104,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KLb7eBMm4eifhoJFKWZFbh"/>
+        <correspAction xml:id="i-KLb7eBMm4eifhoJFKWZFbh" type="basedOn"/>
         <correspContext corresp="i-KLb7eBMm4eifhoJFKWZFbh">
           <ref>Proposition 2001/02:130</ref>
         </correspContext>
@@ -122,16 +122,16 @@
           <note type="signatory" corresp="i-SJ42wRfKHNtRCpYVmj3n8G"/>
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9paytwBwTeshfLzV4QDio4">
+        <correspAction xml:id="i-9paytwBwTeshfLzV4QDio4" type="referral">
           <date when="2002-04-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7ieEDoWsQ9nUXWpMFBUkGq">
+        <correspAction xml:id="i-7ieEDoWsQ9nUXWpMFBUkGq" type="dismissal">
           <date when="2002-04-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6Ypn2LoGEh6Snh5CBMYKTM">
+        <correspAction xml:id="i-6Ypn2LoGEh6Snh5CBMYKTM" type="submission">
           <date when="2002-04-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CK7sjhvMGEcNRtLZP2WEWE"/>
+        <correspAction xml:id="i-CK7sjhvMGEcNRtLZP2WEWE" type="assigned"/>
         <correspContext corresp="i-CK7sjhvMGEcNRtLZP2WEWE">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -146,11 +146,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_T_0070/mot_200102_T_0070-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7bpDzYGh1emd9PM6h79Tar">
-        <div type="motTitle" xml:id="i-AHLyLhHWNYrM6hdmtpmLuo"/>
-        <div type="motSubmissionInfo" xml:id="i-KN95Kfak9Ht8AwZKeHCaRL"/>
+      <div xml:id="i-7bpDzYGh1emd9PM6h79Tar" type="motHeader">
+        <div xml:id="i-AHLyLhHWNYrM6hdmtpmLuo" type="motTitle"/>
+        <div xml:id="i-KN95Kfak9Ht8AwZKeHCaRL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3HD1LvJgcWZquE4NmxDwni">
+      <div xml:id="i-3HD1LvJgcWZquE4NmxDwni" type="motBody">
         <div xml:id="i-HKn3m3NswuixJQaeX3UvE1">
           <p xml:id="i-XdyAvRtkpDpWzt185f5uvE">
             2001/02 mnr: T70 pnr: kd195
@@ -297,8 +297,11 @@
             och motorcyklar med sådan försäkring kan behandlas som veteranfordon
             görs idag.
           </p>
-          <p xml:id="i-VjuhTS5eVMMHatMb5PPQJj">
-            Stockholm den 4 april 2002 Johnny Gylling (kd)
+          <p xml:id="i-VjuhTS5eVMMHatMb5PPQJj" type="date">
+            Stockholm den 4 april 2002
+          </p>
+          <p type="signatureBlock" id="i-YGhKysLetdnhMFapT7Vtar">
+            Johnny Gylling (kd)
           </p>
           <p xml:id="i-9TUgLoVZSU39zHr94AmknM">
             Tuve Skånberg (kd) Lars Gustafsson (kd) Magnus Jacobsson (kd)

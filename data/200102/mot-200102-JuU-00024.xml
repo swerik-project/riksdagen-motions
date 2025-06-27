@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-JuU-00024">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-3USDDeXSppsNtMoiUjhtwa"/>
+        <correspAction xml:id="i-3USDDeXSppsNtMoiUjhtwa" type="basedOn"/>
         <correspContext corresp="i-3USDDeXSppsNtMoiUjhtwa">
           <ref>Proposition 2001/02:124</ref>
         </correspContext>
@@ -42,13 +42,13 @@
         <correspContext corresp="i-3hCiqvwE6rMraNL5j7q73d">
           <note type="signatory" corresp="i-CwVjNqMneZm6zhJTP798e5"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WSDRqQyYVADwekbXbqZwDS">
+        <correspAction xml:id="i-WSDRqQyYVADwekbXbqZwDS" type="referral">
           <date when="2002-04-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3HaBCf88XhA96sdCGQfm6y">
+        <correspAction xml:id="i-3HaBCf88XhA96sdCGQfm6y" type="dismissal">
           <date when="2002-04-10"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7PWwAxvNEYtFsyHpt5Uu1s"/>
+        <correspAction xml:id="i-7PWwAxvNEYtFsyHpt5Uu1s" type="assigned"/>
         <correspContext corresp="i-7PWwAxvNEYtFsyHpt5Uu1s">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Ju_0024/mot_200102_Ju_0024-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4JCCfgshUxZ9BevCcuwEqZ">
-        <div type="motTitle" xml:id="i-L8jytBYyzF4ygqQ52rkwYV"/>
-        <div type="motSubmissionInfo" xml:id="i-75hnydAEiunnFBUsuQayfy"/>
+      <div xml:id="i-4JCCfgshUxZ9BevCcuwEqZ" type="motHeader">
+        <div xml:id="i-L8jytBYyzF4ygqQ52rkwYV" type="motTitle"/>
+        <div xml:id="i-75hnydAEiunnFBUsuQayfy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TZcsBcdTTrdAkkB7GgywuB">
+      <div xml:id="i-TZcsBcdTTrdAkkB7GgywuB" type="motBody">
         <div xml:id="i-JL8cmoaGiPaRHCUK7seLak">
           <p xml:id="i-T3qGcKJtuicovbGQMBQ5c5">
             26
@@ -192,8 +192,11 @@
             de ska ”arbeta” under. Kravet på att rekrytering eller transport
             ska ha skett på ett vis sätt bör tas bort för det föreslagna brottet.
           </p>
-          <p xml:id="i-QrCRhJwU9fBfoHgkGUszbS">
-            Stockholm den 9 april 2002 Helena Bargholtz (fp)
+          <p xml:id="i-QrCRhJwU9fBfoHgkGUszbS" type="date">
+            Stockholm den 9 april 2002
+          </p>
+          <p type="signatureBlock" id="i-5jG16mFrkTixJrfeYzdazZ">
+            Helena Bargholtz (fp)
           </p>
           <p xml:id="i-6oyhGsQJEpeGoBVXWB5YDy">
             2000/01:c999

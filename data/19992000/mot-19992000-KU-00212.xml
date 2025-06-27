@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-KU-00212">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-R9MuNkxgtjYredKHhh6ujV</idno>
-            <name>Per Bill </name>
+            <name>Per Bill</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -46,25 +46,25 @@
           <note type="signatory" corresp="i-R9MuNkxgtjYredKHhh6ujV"/>
           <note type="signatory" corresp="i-R9MuNkxgtjYredKHhh6ujV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3tSHMjqye2Wm8bZMaUeTje">
+        <correspAction xml:id="i-3tSHMjqye2Wm8bZMaUeTje" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DcFMZDpkVajVv1zXmfQMMh">
+        <correspAction xml:id="i-DcFMZDpkVajVv1zXmfQMMh" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Gwwszc83VTArK97TAabni2">
+        <correspAction xml:id="i-Gwwszc83VTArK97TAabni2" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Rhk2cVxU6LRZqQWEMyabVn">
+        <correspAction xml:id="i-Rhk2cVxU6LRZqQWEMyabVn" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FAvZ6kDBn3JizrjxBvcfjL">
+        <correspAction xml:id="i-FAvZ6kDBn3JizrjxBvcfjL" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JonznvqQfydEGBR57qcJgw">
+        <correspAction xml:id="i-JonznvqQfydEGBR57qcJgw" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VAbayiUvJbpMxRiwmDek6D"/>
+        <correspAction xml:id="i-VAbayiUvJbpMxRiwmDek6D" type="assigned"/>
         <correspContext corresp="i-VAbayiUvJbpMxRiwmDek6D">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_K_0212/mot_199900_K_0212-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QzZQBjm2dbDzy9ZfcUnHT3">
-        <div type="motTitle" xml:id="i-2RenZu6bH4amRrNHVzvw9e"/>
-        <div type="motSubmissionInfo" xml:id="i-3JLEdvdDDu5ar2T1cH5cjk"/>
+      <div xml:id="i-QzZQBjm2dbDzy9ZfcUnHT3" type="motHeader">
+        <div xml:id="i-2RenZu6bH4amRrNHVzvw9e" type="motTitle"/>
+        <div xml:id="i-3JLEdvdDDu5ar2T1cH5cjk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-R33y72ZqXCc6ZogbbJWRXC">
+      <div xml:id="i-R33y72ZqXCc6ZogbbJWRXC" type="motBody">
         <div xml:id="i-7BVNmY276rHY7UDc2x5nDY">
           <p xml:id="i-7QGmLVegSDqGVYf4kKNVHr">
             1999/2000 mnr: K212 pnr: m001
@@ -136,9 +136,11 @@
             i enlighet med vad som anförts i motionen.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_K_0212/mot_199900_K_0212-0002.pdf"/>
-          <p xml:id="i-6q6vZT8Dg2KHW2NeNUyy2K">
-            Stockholm den 14 september 1999 Mot. 1999/2000 K212 Per Bill
-            (m)
+          <p xml:id="i-6q6vZT8Dg2KHW2NeNUyy2K" type="date">
+            Stockholm den 14 september 1999
+          </p>
+          <p type="signatureBlock" id="i-VrPBAzZXBYPfNbjt2ce4do">
+            Mot. 1999/2000 K212 Per Bill (m)
           </p>
         </div>
       </div>

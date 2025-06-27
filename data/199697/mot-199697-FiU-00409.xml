@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-FiU-00409">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-HmFB3PZrTLuf8xHTqtz5Lx</idno>
-            <name>Lena Larsson </name>
+            <name>Lena Larsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -46,25 +46,25 @@
           <note type="signatory" corresp="i-HmFB3PZrTLuf8xHTqtz5Lx"/>
           <note type="signatory" corresp="i-HmFB3PZrTLuf8xHTqtz5Lx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CLHEwRsAbNiz6YS3yqUCCd">
+        <correspAction xml:id="i-CLHEwRsAbNiz6YS3yqUCCd" type="referral">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SUoRPTEV6vndyxk1sJHYfF">
+        <correspAction xml:id="i-SUoRPTEV6vndyxk1sJHYfF" type="dismissal">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LY86g7pcu8ZZHd6idwuK7T">
+        <correspAction xml:id="i-LY86g7pcu8ZZHd6idwuK7T" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-76nxwyaqwKhXApSLb5aQ7v">
+        <correspAction xml:id="i-76nxwyaqwKhXApSLb5aQ7v" type="referral">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QMThnc5zuJQpDUDE4to8Hy">
+        <correspAction xml:id="i-QMThnc5zuJQpDUDE4to8Hy" type="dismissal">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MCJLdTB1vUxYSMXL4odPQB">
+        <correspAction xml:id="i-MCJLdTB1vUxYSMXL4odPQB" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CFmz2Hazpcsb2hddtdkSwC"/>
+        <correspAction xml:id="i-CFmz2Hazpcsb2hddtdkSwC" type="assigned"/>
         <correspContext corresp="i-CFmz2Hazpcsb2hddtdkSwC">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_FI_0409/mot_199697_FI_0409-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SSiPCdLzqs3tdKa616oiCE">
-        <div type="motTitle" xml:id="i-JLUaCpNhLyKFgGGQJ9qdkn"/>
-        <div type="motSubmissionInfo" xml:id="i-EPCZUu3KEqrgFDWNrCfz9T"/>
+      <div xml:id="i-SSiPCdLzqs3tdKa616oiCE" type="motHeader">
+        <div xml:id="i-JLUaCpNhLyKFgGGQJ9qdkn" type="motTitle"/>
+        <div xml:id="i-EPCZUu3KEqrgFDWNrCfz9T" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HXFo7XG9bSbkK4cc7PQ6pc">
+      <div xml:id="i-HXFo7XG9bSbkK4cc7PQ6pc" type="motBody">
         <div xml:id="i-JYkfCc7DDd4v2AVQtSft1Q">
           <p xml:id="i-HNZRMEJCpz4Ah2VQ4q3mN3">
             1996/97 Fi409 Fi408-415
@@ -136,8 +136,11 @@
             skyndsam översyn av både beskattningen av fastigheter och realisationsvinsten.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_FI_0409/mot_199697_FI_0409-0002.pdf"/>
-          <p xml:id="i-Pj616Zi2wxqdQptwmc4rPt">
-            Stockholm den 30 september 1996 Mot.
+          <p xml:id="i-Pj616Zi2wxqdQptwmc4rPt" type="date">
+            Stockholm den 30 september 1996
+          </p>
+          <p type="signatureBlock" id="i-RHJE57MiSoP92ucF9rTCat">
+            Mot.
           </p>
           <p xml:id="i-UQw8S2mvGa69VbDHT3pzk2">
             1996/97Fi409 Lena Larsson (s)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00016">
   <teiHeader>
     <fileDesc>
@@ -91,7 +91,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-AhzRmD94pUXHRX56hSC6wn"/>
+        <correspAction xml:id="i-AhzRmD94pUXHRX56hSC6wn" type="basedOn"/>
         <correspContext corresp="i-AhzRmD94pUXHRX56hSC6wn">
           <ref>Proposition 2005/06:167</ref>
         </correspContext>
@@ -107,19 +107,19 @@
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
           <note type="signatory" corresp="i-4pfVnS8LNwychZJ7RaUufZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PnzbrnV7jUWjLAp8wJFJZi">
+        <correspAction xml:id="i-PnzbrnV7jUWjLAp8wJFJZi" type="referral">
           <date when="2006-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-H8cQW9W1KxYmY62xAnDSVZ">
+        <correspAction xml:id="i-H8cQW9W1KxYmY62xAnDSVZ" type="dismissal">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BF8BbVqPbthiUu6KwLi5GN">
+        <correspAction xml:id="i-BF8BbVqPbthiUu6KwLi5GN" type="dismissal">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CQNZ3cyvGfJBQJ7WD22ULU">
+        <correspAction xml:id="i-CQNZ3cyvGfJBQJ7WD22ULU" type="submission">
           <date when="2006-04-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XxhADXt1m3m9BLwuctCPiD"/>
+        <correspAction xml:id="i-XxhADXt1m3m9BLwuctCPiD" type="assigned"/>
         <correspContext corresp="i-XxhADXt1m3m9BLwuctCPiD">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -134,11 +134,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_16/mot_200506_Sk_16-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VYmKankauP7aBh8neiCWjr">
-        <div type="motTitle" xml:id="i-2sCHB4Zm5rTr1eBgMcEMNM"/>
-        <div type="motSubmissionInfo" xml:id="i-KQJfjDJ9LmEbmXkZ3zJA3t"/>
+      <div xml:id="i-VYmKankauP7aBh8neiCWjr" type="motHeader">
+        <div xml:id="i-2sCHB4Zm5rTr1eBgMcEMNM" type="motTitle"/>
+        <div xml:id="i-KQJfjDJ9LmEbmXkZ3zJA3t" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Xhs3351PJw4Wx5nhAZg4cw">
+      <div xml:id="i-Xhs3351PJw4Wx5nhAZg4cw" type="motBody">
         <div xml:id="i-6DUc8ZMUztgpcxFEAh6fGi">
           <p xml:id="i-9PJXLf4GzQbFP6d4pqYYpS">
             2005/06 mnr: Sk16 pnr: kd163
@@ -280,8 +280,11 @@
             med förslag till lagstiftning som möjliggör nedsättning av fordonsskatten
             — för tyngre fordon genom = eftermontering av avgasreningsutrustning.
           </p>
-          <p xml:id="i-DrzkS1BhNpGTUsTPPZBP5j">
-            Stockholm den 5 april 2006 Lars Gustafsson (kd)
+          <p xml:id="i-DrzkS1BhNpGTUsTPPZBP5j" type="date">
+            Stockholm den 5 april 2006
+          </p>
+          <p type="signatureBlock" id="i-4t9UVY1xZqJgZvdWPwD1Eo">
+            Lars Gustafsson (kd)
           </p>
           <p xml:id="i-5z9LPRPbdgu7nbktkG9Y1J">
             Per Landgren (kd) Mats Odell (kd) Maria Larsson (kd) Stefan Attefall

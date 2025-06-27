@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00473">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-NKzW1LYVYaLNxfmSMpSu6T">
           <note type="signatory" corresp="i-h1aVBzexdmWPt4dFvXiYA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LufrZNks4kzsMSxcKkTRcR">
+        <correspAction xml:id="i-LufrZNks4kzsMSxcKkTRcR" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Am6irPKyuTCgV1PQSGiFeE">
+        <correspAction xml:id="i-Am6irPKyuTCgV1PQSGiFeE" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4y9Z3CRCs56HrRsWFzX2oF">
+        <correspAction xml:id="i-4y9Z3CRCs56HrRsWFzX2oF" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8KyWS8LBTwdnVE8SeEbQC3"/>
+        <correspAction xml:id="i-8KyWS8LBTwdnVE8SeEbQC3" type="assigned"/>
         <correspContext corresp="i-8KyWS8LBTwdnVE8SeEbQC3">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_So_0473/mot_200203_So_0473-0001.pdf"/>
-      <div type="motHeader" xml:id="i-pF1P67TxuKw2sUjEiJZat">
-        <div type="motTitle" xml:id="i-7kMvBAuHtYvtMz3T39L86n"/>
-        <div type="motSubmissionInfo" xml:id="i-5gFXsxmGV769vJysjdNFfv"/>
+      <div xml:id="i-pF1P67TxuKw2sUjEiJZat" type="motHeader">
+        <div xml:id="i-7kMvBAuHtYvtMz3T39L86n" type="motTitle"/>
+        <div xml:id="i-5gFXsxmGV769vJysjdNFfv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-We4TFKgqh28LdWCFsv5spv">
+      <div xml:id="i-We4TFKgqh28LdWCFsv5spv" type="motBody">
         <div xml:id="i-JGfAKGsN5kLjfhaWxuxE6J">
           <p xml:id="i-PQY5fnBLoXPhh778SEFLqA">
             2002/03 mnr: S0473 pnr: kd778
@@ -143,8 +143,11 @@
             om i dessa fall kräver välutbildad och erfaren personal. Det är
             troligen den viktigaste faktorn för hur utfallet av vården blir.
           </p>
-          <p xml:id="i-U6kdM1XVY3obuzdhTEogjg">
-            Stockholm den 23 oktober 2002 Inger Davidson (kd)
+          <p xml:id="i-U6kdM1XVY3obuzdhTEogjg" type="date">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-2jGFxQRNyvNgDDiiHrTqvh">
+            Inger Davidson (kd)
           </p>
         </div>
       </div>

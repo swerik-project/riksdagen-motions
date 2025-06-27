@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-FiU-00042">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-USjy9qPfM1AoHPrniSWX79</idno>
-            <name>Magnus Johansson </name>
+            <name>Magnus Johansson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-MZhckWC7gTGkDo2FBobkNc"/>
+        <correspAction xml:id="i-MZhckWC7gTGkDo2FBobkNc" type="basedOn"/>
         <correspContext corresp="i-MZhckWC7gTGkDo2FBobkNc">
           <ref>Proposition 1997/98:150</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-USjy9qPfM1AoHPrniSWX79"/>
           <note type="signatory" corresp="i-USjy9qPfM1AoHPrniSWX79"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FFEeMofyFHXhbRBUd1y2yM">
+        <correspAction xml:id="i-FFEeMofyFHXhbRBUd1y2yM" type="referral">
           <date when="1998-05-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KLCFAfzdh4bBxRygdnhNpg">
+        <correspAction xml:id="i-KLCFAfzdh4bBxRygdnhNpg" type="dismissal">
           <date when="1998-05-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-YBWzV9TB1t3ajgsMRmqGi6">
+        <correspAction xml:id="i-YBWzV9TB1t3ajgsMRmqGi6" type="submission">
           <date when="1998-04-29"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-LULjTT9q9E3JYwjE54Dxdf">
+        <correspAction xml:id="i-LULjTT9q9E3JYwjE54Dxdf" type="referral">
           <date when="1998-05-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MkTB5YGi9ufT66Y75Phfwi">
+        <correspAction xml:id="i-MkTB5YGi9ufT66Y75Phfwi" type="dismissal">
           <date when="1998-05-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BHysYifzJrtCNiH6siA8CX">
+        <correspAction xml:id="i-BHysYifzJrtCNiH6siA8CX" type="submission">
           <date when="1998-04-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NEo8JVLaRUT3vG33kg7i6q"/>
+        <correspAction xml:id="i-NEo8JVLaRUT3vG33kg7i6q" type="assigned"/>
         <correspContext corresp="i-NEo8JVLaRUT3vG33kg7i6q">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_FI_0042/mot_199798_FI_0042-0001.pdf"/>
-      <div type="motHeader" xml:id="i-L45qeZDTic9xh2C7jgn3s3">
-        <div type="motTitle" xml:id="i-VKvx8ZHDfYfGGkpvDhfaa7"/>
-        <div type="motSubmissionInfo" xml:id="i-V4K7bh7fgyZ7KrMkNNxbdw"/>
+      <div xml:id="i-L45qeZDTic9xh2C7jgn3s3" type="motHeader">
+        <div xml:id="i-VKvx8ZHDfYfGGkpvDhfaa7" type="motTitle"/>
+        <div xml:id="i-V4K7bh7fgyZ7KrMkNNxbdw" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LshrQ4YLc3GstFdPh7GbQc">
+      <div xml:id="i-LshrQ4YLc3GstFdPh7GbQc" type="motBody">
         <div xml:id="i-WuWCJ2ZwyxWa5MWjrMjf7p">
           <p xml:id="i-Zk9V7TMYK18KmtbPbmPFs">
             1997/98 Fi42 Fi42
@@ -164,10 +164,12 @@
           <p xml:id="i-NuDyYK1YY7gR9pD8DguQxa">
             Med hänvisning till det anförda hemställs att riksdagen som sin
             mening ger regeringen till känna vad i motionen anförts om sänkt
-            skatt som medel att bekämpa illegal handel med tobak. Stockholm
-            den 28 april 1998
+            skatt som medel att bekämpa illegal handel med tobak.
           </p>
-          <p xml:id="i-TnXdhqH8jDzpXdZ2HkSU32">
+          <p type="date" id="i-GNFM2CuuZbQCwyfce6zqwH">
+            Stockholm den 28 april 1998
+          </p>
+          <p xml:id="i-TnXdhqH8jDzpXdZ2HkSU32" type="signatureBlock">
             Magnus Johansson (s) Karin Olsson (s)
           </p>
           <p xml:id="i-7yUsPNbQQXcbYzdsj3aTd4">

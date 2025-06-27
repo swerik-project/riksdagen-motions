@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00008">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8cWiGNHQTQhetQLeN7tkSj"/>
+        <correspAction xml:id="i-8cWiGNHQTQhetQLeN7tkSj" type="basedOn"/>
         <correspContext corresp="i-8cWiGNHQTQhetQLeN7tkSj">
           <ref>Proposition 2004/05:80</ref>
         </correspContext>
@@ -42,16 +42,16 @@
         <correspContext corresp="i-QeBPtGxnRRjhLXh4qAT1vx">
           <note type="signatory" corresp="i-ASHgRusN9GoHAH8eioxicP"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VzYrdpWnReYxcXihdTdubS">
+        <correspAction xml:id="i-VzYrdpWnReYxcXihdTdubS" type="referral">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XC3vLGhGBMEA2pU4hhfGJq">
+        <correspAction xml:id="i-XC3vLGhGBMEA2pU4hhfGJq" type="dismissal">
           <date when="2005-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KCLkiigq53RBUj6jr4BCmN">
+        <correspAction xml:id="i-KCLkiigq53RBUj6jr4BCmN" type="submission">
           <date when="2005-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-N3saRrBC7Gskv1wUrcNRbz"/>
+        <correspAction xml:id="i-N3saRrBC7Gskv1wUrcNRbz" type="assigned"/>
         <correspContext corresp="i-N3saRrBC7Gskv1wUrcNRbz">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -66,11 +66,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_8/mot_200405_Ub_8-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FdMpqhjVfbE26A9vckHw6D">
-        <div type="motTitle" xml:id="i-RJ9mBjrtmNC7WWyYhPj6CQ"/>
-        <div type="motSubmissionInfo" xml:id="i-Qy2i7WjEN16ZpPKaxomQp5"/>
+      <div xml:id="i-FdMpqhjVfbE26A9vckHw6D" type="motHeader">
+        <div xml:id="i-RJ9mBjrtmNC7WWyYhPj6CQ" type="motTitle"/>
+        <div xml:id="i-Qy2i7WjEN16ZpPKaxomQp5" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-U4qx343aeAmugPj7BQDtmF">
+      <div xml:id="i-U4qx343aeAmugPj7BQDtmF" type="motBody">
         <div xml:id="i-75aJPJWRwMqpjPD5HmHNgC">
           <p xml:id="i-TRGnu7NPgNs6obsxYgjhYd">
             2004/05 mnr: Ub8 pnr: fp1207
@@ -328,8 +328,11 @@
             vara viktigt för att se till att vetenskap och forskning också
             deltar i större utsträckning i det demokratiska arbetet.
           </p>
-          <p xml:id="i-BP366PBiDw8pH4uG2f5xWg">
-            Stockholm den 6 april 2005 Marie Wahlgren (fp)
+          <p xml:id="i-BP366PBiDw8pH4uG2f5xWg" type="date">
+            Stockholm den 6 april 2005
+          </p>
+          <p type="signatureBlock" id="i-CEYD5JmDjw7P9rMza5T26A">
+            Marie Wahlgren (fp)
           </p>
           <p xml:id="i-9k3sTkrR5QgVnea6aYgVdW">
             2004/05:Ub8

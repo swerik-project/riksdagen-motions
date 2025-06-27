@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-AU-00267">
   <teiHeader>
     <fileDesc>
@@ -26,28 +26,28 @@
         <listPerson>
           <person gender="man">
             <idno>i-VvmFc1QdZUrzxunymPXLNn</idno>
-            <name>Hans Karlsson </name>
+            <name>Hans Karlsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-YReAj4T8PWK3QbxXgEneMx</idno>
-            <name>Helena Frisk </name>
+            <name>Helena Frisk</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-XR9BxcVrd8sb1rJBBTL5vp</idno>
-            <name>Nils-Göran Holmqvist </name>
+            <name>Nils-Göran Holmqvist</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-NzHKC9iUGaf1xUAcp3VKCA</idno>
-            <name>Inger Lundberg </name>
+            <name>Inger Lundberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -94,25 +94,25 @@
           <note type="signatory" corresp="i-XR9BxcVrd8sb1rJBBTL5vp"/>
           <note type="signatory" corresp="i-YReAj4T8PWK3QbxXgEneMx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AHgb9ptqFMs76qXrLHYQPw">
+        <correspAction xml:id="i-AHgb9ptqFMs76qXrLHYQPw" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XpopsgmjPNGyiccpbNtRH">
+        <correspAction xml:id="i-XpopsgmjPNGyiccpbNtRH" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EBX2GXfBUTMuexQL7tzXdj">
+        <correspAction xml:id="i-EBX2GXfBUTMuexQL7tzXdj" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-JFQQxbkLBEB6enp49VTPzC">
+        <correspAction xml:id="i-JFQQxbkLBEB6enp49VTPzC" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-L3iTvmbTohzraJrMDrF9j7">
+        <correspAction xml:id="i-L3iTvmbTohzraJrMDrF9j7" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PNMBguWiiHo2dCcnz4wu2D">
+        <correspAction xml:id="i-PNMBguWiiHo2dCcnz4wu2D" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BSGJeLtAa5DkRHPD5BnrZx"/>
+        <correspAction xml:id="i-BSGJeLtAa5DkRHPD5BnrZx" type="assigned"/>
         <correspContext corresp="i-BSGJeLtAa5DkRHPD5BnrZx">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -126,11 +126,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_A_0267/mot_199899_A_0267-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_A_0267/mot_199899_A_0267-001.pdf"/>
-      <div type="motHeader" xml:id="i-8wgCG6RerEtfiv6QUVBT6u">
-        <div type="motTitle" xml:id="i-SyxzGMangWDT3RYS9e3bBz"/>
-        <div type="motSubmissionInfo" xml:id="i-TFfGohqrXoDifuF1H5Vma"/>
+      <div xml:id="i-8wgCG6RerEtfiv6QUVBT6u" type="motHeader">
+        <div xml:id="i-SyxzGMangWDT3RYS9e3bBz" type="motTitle"/>
+        <div xml:id="i-TFfGohqrXoDifuF1H5Vma" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ByDSshS3fZGxWYq785KvUH">
+      <div xml:id="i-ByDSshS3fZGxWYq785KvUH" type="motBody">
         <div xml:id="i-RC8Jjg6bSGTuUsA3hkE6Sk">
           <p xml:id="i-Um1kKvNnz5T4j3ZbiEXKG8">
             1998/99 |A267 A267
@@ -169,8 +169,13 @@
           <p xml:id="i-8rRBYu1FjFJPG3WzMKZkP9">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motionen anförts
-            om fortsatt datorteksverksamhet med hög kvalitet. Stockholm den
-            26 oktober 1998 Hans Karlsson (s)
+            om fortsatt datorteksverksamhet med hög kvalitet.
+          </p>
+          <p type="date" id="i-GpuUo9BzJP3LaV7m96mvcy">
+            Stockholm den 26 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-LSLn6jRLir1Ks8LTJTfExT">
+            Hans Karlsson (s)
           </p>
           <p xml:id="i-CJpL6aVZ92Hi3ycspV3fsp">
             Inger Lundberg (s) Nils-Göran Holmqvist (s)
@@ -216,8 +221,13 @@
           <p xml:id="i-VPF1brAKtq9Kn4n6fe1DXM">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motionen anförts
-            om fortsatt datorteksverksamhet med hög kvalitet. Stockholm den
-            26 oktober 1998 Hans Karlsson (s)
+            om fortsatt datorteksverksamhet med hög kvalitet.
+          </p>
+          <p type="date" id="i-7ank9WJh1mhtbt8HWxDXQF">
+            Stockholm den 26 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-7m52V8gzs1dNGWFBQiEFWm">
+            Hans Karlsson (s)
           </p>
           <p xml:id="i-3K8W3KpSRd5sSEiYHPUd3E">
             Inger Lundberg (s) Nils-Göran Holmqvist (s)

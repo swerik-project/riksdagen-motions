@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-UbU-00029">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-M583eVDoBTdnLPkDa6XLNx</idno>
-            <name>Ola Ström </name>
+            <name>Ola Ström</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-7SbYcm2aco17894PWFdmaD</idno>
-            <name>Siri Dannaeus </name>
+            <name>Siri Dannaeus</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-L3xspgThUxUN1YtSDqcmk8</idno>
-            <name>Barbro Westerholm </name>
+            <name>Barbro Westerholm</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -78,25 +78,25 @@
           <note type="signatory" corresp="i-7SbYcm2aco17894PWFdmaD"/>
           <note type="signatory" corresp="i-L3xspgThUxUN1YtSDqcmk8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Hwdrf3uJzqrc7GiSxMDccF">
+        <correspAction xml:id="i-Hwdrf3uJzqrc7GiSxMDccF" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JiJuyQqSeq8ktTvFJhz5rU">
+        <correspAction xml:id="i-JiJuyQqSeq8ktTvFJhz5rU" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FzEGWdxhLJuRDMGWQkYa9u">
+        <correspAction xml:id="i-FzEGWdxhLJuRDMGWQkYa9u" type="submission">
           <date when="1998-03-27"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-RUviNQYGsDLXsfy7nc6UsK">
+        <correspAction xml:id="i-RUviNQYGsDLXsfy7nc6UsK" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6Vw1aLuxQV5nGCipCWRmoR">
+        <correspAction xml:id="i-6Vw1aLuxQV5nGCipCWRmoR" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XaVQUPFTxFUntckQrgoQjr">
+        <correspAction xml:id="i-XaVQUPFTxFUntckQrgoQjr" type="submission">
           <date when="1998-03-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XNtLEbirWLgXKNpaN5xx8o"/>
+        <correspAction xml:id="i-XNtLEbirWLgXKNpaN5xx8o" type="assigned"/>
         <correspContext corresp="i-XNtLEbirWLgXKNpaN5xx8o">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_UB_0029/mot_199798_UB_0029-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9ZnWPoGpU4k5bucsaDafB5">
-        <div type="motTitle" xml:id="i-TK7F9KogAngLpgdUtW7get"/>
-        <div type="motSubmissionInfo" xml:id="i-BP96TUEU4MeLzupccjSrgP"/>
+      <div xml:id="i-9ZnWPoGpU4k5bucsaDafB5" type="motHeader">
+        <div xml:id="i-TK7F9KogAngLpgdUtW7get" type="motTitle"/>
+        <div xml:id="i-BP96TUEU4MeLzupccjSrgP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-54wTaf9RqQHt94kcs8NLDz">
+      <div xml:id="i-54wTaf9RqQHt94kcs8NLDz" type="motBody">
         <div xml:id="i-PizdrkPPmRfRCsb1VTSVXw">
           <p xml:id="i-Grc6eQgeafZJ9TgSumxGi7">
             1997/98 Ub29 Ub26-35
@@ -442,8 +442,11 @@
             anförts om en nationell handlingsplan för hur kampen mot ungas
             missbruk av alkohol, narkotika och tobak skall intensifieras.
           </p>
-          <p xml:id="i-F5ern8sPha9fSA4S6jEL31">
-            Stockholm den 27 mars 1998 Ola Ström (fp)
+          <p xml:id="i-F5ern8sPha9fSA4S6jEL31" type="date">
+            Stockholm den 27 mars 1998
+          </p>
+          <p type="signatureBlock" id="i-c5bECZAdJW5vW7BxQZ3sW">
+            Ola Ström (fp)
           </p>
           <p xml:id="i-Tdyy1Y8zXaSRtMNpja7Xhj">
             Barbro Westerholm (fp) Siri Dannaeus (fp)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-FiU-00007">
   <teiHeader>
     <fileDesc>
@@ -230,7 +230,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-2AoRkJuJhmWHqSWAtKj4kP"/>
+        <correspAction xml:id="i-2AoRkJuJhmWHqSWAtKj4kP" type="basedOn"/>
         <correspContext corresp="i-2AoRkJuJhmWHqSWAtKj4kP">
           <ref>Proposition 2000/01:27</ref>
         </correspContext>
@@ -266,31 +266,31 @@
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
           <note type="signatory" corresp="i-839FvTzHpvrdX4J7ckfWSt"/>
         </correspContext>
-        <correspAction type="proposed_referral" xml:id="i-ThvW6fyVt7wduYjQPDDUjo">
+        <correspAction xml:id="i-ThvW6fyVt7wduYjQPDDUjo" type="proposed_referral">
           <date when="2000-11-15"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-Jxxx1dyhWDxaJo6WZbHycc">
+        <correspAction xml:id="i-Jxxx1dyhWDxaJo6WZbHycc" type="reviewing">
           <date when="2000-11-15"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Lo7FgZf7ygDmqUvyePsDsd">
+        <correspAction xml:id="i-Lo7FgZf7ygDmqUvyePsDsd" type="referral">
           <date when="2000-11-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FhWvqESYTrzNNM1oELtJUF">
+        <correspAction xml:id="i-FhWvqESYTrzNNM1oELtJUF" type="dismissal">
           <date when="2000-11-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7TymHYnRpUQT386stsxEUr">
+        <correspAction xml:id="i-7TymHYnRpUQT386stsxEUr" type="submission">
           <date when="2000-11-13"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-LBdR49p51mVhmsHKCLUnXV">
+        <correspAction xml:id="i-LBdR49p51mVhmsHKCLUnXV" type="referral">
           <date when="2000-11-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3XGaHhRRaDy7a62AJ68SqW">
+        <correspAction xml:id="i-3XGaHhRRaDy7a62AJ68SqW" type="dismissal">
           <date when="2000-11-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DHtaams6Dbmifs7MCxqNTa">
+        <correspAction xml:id="i-DHtaams6Dbmifs7MCxqNTa" type="submission">
           <date when="2000-11-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AxmizzYD1iBmdpKs9bokLn"/>
+        <correspAction xml:id="i-AxmizzYD1iBmdpKs9bokLn" type="assigned"/>
         <correspContext corresp="i-AxmizzYD1iBmdpKs9bokLn">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -305,11 +305,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Fi_0007/mot_200001_Fi_0007-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6XBCVM49NNRvzDmz32boGD">
-        <div type="motTitle" xml:id="i-SLvjmkgewZNzmqg1w19sCq"/>
-        <div type="motSubmissionInfo" xml:id="i-EgbWzFbYKWGHmbHdKwjqsK"/>
+      <div xml:id="i-6XBCVM49NNRvzDmz32boGD" type="motHeader">
+        <div xml:id="i-SLvjmkgewZNzmqg1w19sCq" type="motTitle"/>
+        <div xml:id="i-EgbWzFbYKWGHmbHdKwjqsK" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DuSDRWNAQrAMauMSVh1ebs">
+      <div xml:id="i-DuSDRWNAQrAMauMSVh1ebs" type="motBody">
         <div xml:id="i-G8osen17e5qwWx9WBXK6oH">
           <p xml:id="i-2sZa1uWZd87YXiJdDWjfsT">
             2000/01 mnr: Fi7 pnr: kd110
@@ -528,8 +528,11 @@
             rättssäkerhet och ökar företagens samarbetsvilja. Därmed kan också
             statistikens kvalitet höjas.
           </p>
-          <p xml:id="i-X5qmXyQy3uFhFDH8igo5hu">
-            Stockholm den 13 november 2000 Per Landgren (kd)
+          <p xml:id="i-X5qmXyQy3uFhFDH8igo5hu" type="date">
+            Stockholm den 13 november 2000
+          </p>
+          <p type="signatureBlock" id="i-QsA2NxSUuhkFoWvgstqqcK">
+            Per Landgren (kd)
           </p>
           <p xml:id="i-E9BPWiapUBQ3uG7jVXY68q">
             Harald Bergström (kd) Sven Brus (kd) Annelie Enochson (kd) Rose-Marie

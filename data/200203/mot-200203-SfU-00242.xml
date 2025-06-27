@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SfU-00242">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-SdVyGDWS77YaNdNKSgPVY5">
           <note type="signatory" corresp="i-CwVjNqMneZm6zhJTP798e5"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RmJ1yCdFWRQCURq5iCkgQq">
+        <correspAction xml:id="i-RmJ1yCdFWRQCURq5iCkgQq" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ciUsxE3erpvyDq6cwx1J3">
+        <correspAction xml:id="i-ciUsxE3erpvyDq6cwx1J3" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KjwPTJnio2kyeVJrg2vh3m">
+        <correspAction xml:id="i-KjwPTJnio2kyeVJrg2vh3m" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Gx72r8hxpr7gRdwsEmGdft"/>
+        <correspAction xml:id="i-Gx72r8hxpr7gRdwsEmGdft" type="assigned"/>
         <correspContext corresp="i-Gx72r8hxpr7gRdwsEmGdft">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Sf_0242/mot_200203_Sf_0242-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HkMbTrivtHBfbY61ii8kV3">
-        <div type="motTitle" xml:id="i-H84yFYxCkdhL8e3exY2WVb"/>
-        <div type="motSubmissionInfo" xml:id="i-Q8nGXWKrJ8YGVS91wU45jZ"/>
+      <div xml:id="i-HkMbTrivtHBfbY61ii8kV3" type="motHeader">
+        <div xml:id="i-H84yFYxCkdhL8e3exY2WVb" type="motTitle"/>
+        <div xml:id="i-Q8nGXWKrJ8YGVS91wU45jZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-D97a1bH22ridPhKQRvnApL">
+      <div xml:id="i-D97a1bH22ridPhKQRvnApL" type="motBody">
         <div xml:id="i-D5hvVJNM2t7SssYv5D5VJt">
           <p xml:id="i-G9VP8bTwNmkCrF7X3ANm4m">
             28
@@ -159,8 +159,11 @@
             i lagstiftningen slukar inte bara den drabbade sjukpensionärens
             personliga ekonomi utan även hans tro på rättsstaten Sverige.
           </p>
-          <p xml:id="i-WivP8ANs7aP553jsHBn85K">
-            Stockholm den 21 oktober 2002 Helena Bargholtz (fp)
+          <p xml:id="i-WivP8ANs7aP553jsHBn85K" type="date">
+            Stockholm den 21 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-N5SDHUMXKrfzmXZ55BroAe">
+            Helena Bargholtz (fp)
           </p>
         </div>
       </div>

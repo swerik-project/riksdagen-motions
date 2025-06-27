@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00281">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-VHSPVhF5LjvV5m4yU1W3FJ"/>
           <note type="signatory" corresp="i-KktUCXax2JFL3tqFqQN9oq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-D8ZVG59Q1xHBZPqEAhqarp">
+        <correspAction xml:id="i-D8ZVG59Q1xHBZPqEAhqarp" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BHyUx3VmZxP81m1frEJz6S">
+        <correspAction xml:id="i-BHyUx3VmZxP81m1frEJz6S" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VqVS5LH5br8oLVorXfM5Fo">
+        <correspAction xml:id="i-VqVS5LH5br8oLVorXfM5Fo" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5Dyp2aAP7EWfQMdVXCxd9d"/>
+        <correspAction xml:id="i-5Dyp2aAP7EWfQMdVXCxd9d" type="assigned"/>
         <correspContext corresp="i-5Dyp2aAP7EWfQMdVXCxd9d">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0281/mot_200304_Sk_0281-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7MGFw69r5rabya4zH6MENv">
-        <div type="motTitle" xml:id="i-KiTm2crcMbryPEogtD2TPz"/>
-        <div type="motSubmissionInfo" xml:id="i-LkiTP2fRt5ufHXsGHrd3fc"/>
+      <div xml:id="i-7MGFw69r5rabya4zH6MENv" type="motHeader">
+        <div xml:id="i-KiTm2crcMbryPEogtD2TPz" type="motTitle"/>
+        <div xml:id="i-LkiTP2fRt5ufHXsGHrd3fc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Dh7xnq7cDwm53Bp4QJpneQ">
+      <div xml:id="i-Dh7xnq7cDwm53Bp4QJpneQ" type="motBody">
         <div xml:id="i-3K977ZJovfV2orQ5u1L6QC">
           <p xml:id="i-CXYHHWH6i8sHRg37mYXMB4">
             2003/04 mnr: Sk281 pnr: c452
@@ -136,10 +136,12 @@
           <p xml:id="i-7rnm5XZipdo3SEcKgTaVVN">
             För många glesbygdskommuner är det viktigt att möjligheten till
             dubbel bosättning finns eftersom de åderlåts på skatteintäkter
-            när både företag och deras personal flyttar därifrån. Stockholm
-            den 30 september 2003
+            när både företag och deras personal flyttar därifrån.
           </p>
-          <p xml:id="i-Uhz3nmVRxzpuhSBgyvFJWg">
+          <p type="date" id="i-QH1vsUvBfPB8x2egJ9qBDo">
+            Stockholm den 30 september 2003
+          </p>
+          <p xml:id="i-Uhz3nmVRxzpuhSBgyvFJWg" type="signatureBlock">
             Birgitta Carlsson (c) Birgitta Sellén (c)
           </p>
         </div>

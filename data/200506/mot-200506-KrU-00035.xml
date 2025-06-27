@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00035">
   <teiHeader>
     <fileDesc>
@@ -98,7 +98,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7N9HQwmbfpdzmoNdQELJum"/>
+        <correspAction xml:id="i-7N9HQwmbfpdzmoNdQELJum" type="basedOn"/>
         <correspContext corresp="i-7N9HQwmbfpdzmoNdQELJum">
           <ref>Proposition 2005/06:112</ref>
         </correspContext>
@@ -115,19 +115,19 @@
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UopfAhHP8QfrpZJsuM8PhP">
+        <correspAction xml:id="i-UopfAhHP8QfrpZJsuM8PhP" type="referral">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RynX5N3eMQtw3osNDKp2Gb">
+        <correspAction xml:id="i-RynX5N3eMQtw3osNDKp2Gb" type="dismissal">
           <date when="2006-04-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UEj9BZ4JsNexjKhN58P2Kx">
+        <correspAction xml:id="i-UEj9BZ4JsNexjKhN58P2Kx" type="dismissal">
           <date when="2006-04-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HMMgTXN9bzb2mJ8Aohw5SN">
+        <correspAction xml:id="i-HMMgTXN9bzb2mJ8Aohw5SN" type="submission">
           <date when="2006-04-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FERozhcpDtvT3435NCSpLR"/>
+        <correspAction xml:id="i-FERozhcpDtvT3435NCSpLR" type="assigned"/>
         <correspContext corresp="i-FERozhcpDtvT3435NCSpLR">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -142,11 +142,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Kr_35/mot_200506_Kr_35-0001.pdf"/>
-      <div type="motHeader" xml:id="i-ET5vcARKdtAMBi4G4a6H9">
-        <div type="motTitle" xml:id="i-XUqJrWQno9K5Y6rjAhGKsf"/>
-        <div type="motSubmissionInfo" xml:id="i-VfFGv51DMW9kgSU9BM8GEV"/>
+      <div xml:id="i-ET5vcARKdtAMBi4G4a6H9" type="motHeader">
+        <div xml:id="i-XUqJrWQno9K5Y6rjAhGKsf" type="motTitle"/>
+        <div xml:id="i-VfFGv51DMW9kgSU9BM8GEV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TEeEhUc2UqkxEk98YZbAVi">
+      <div xml:id="i-TEeEhUc2UqkxEk98YZbAVi" type="motBody">
         <div xml:id="i-Mwkkwzka4bFGZiwCHyryXr">
           <p xml:id="i-Q4kkhZaq1fzQeJNwHmcvMw">
             2005/06 mnr: Kr35 pnr: kd159
@@ -451,8 +451,11 @@
             anses oacceptabelt sänks även på SVT. Det är viktigt att SVT är
             uppmärksam på utvecklingen.
           </p>
-          <p xml:id="i-9P81XonK392KCT675Yg4UX">
-            Stockholm den 4 april 2006 Dan Kihlström (kd)
+          <p xml:id="i-9P81XonK392KCT675Yg4UX" type="date">
+            Stockholm den 4 april 2006
+          </p>
+          <p type="signatureBlock" id="i-7nRQfhhWTMTX3MoXKet7j9">
+            Dan Kihlström (kd)
           </p>
           <p xml:id="i-B1VfeEtQwaT77sqNp6RJHt">
             Inger Davidson (kd) Gunilla Tjernberg (kd) Sven Brus (kd) Torsten

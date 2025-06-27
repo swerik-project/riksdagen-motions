@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00377">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-XzAh6hySx1dA1m3N3Samxv">
           <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GoWnbHxpz1KCvfWGE3PBUC">
+        <correspAction xml:id="i-GoWnbHxpz1KCvfWGE3PBUC" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PY2fogGJ7hHKEnhPGrXMuU">
+        <correspAction xml:id="i-PY2fogGJ7hHKEnhPGrXMuU" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PQzCeWffuYwRXDJECgZnMv">
+        <correspAction xml:id="i-PQzCeWffuYwRXDJECgZnMv" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-U9QNoqKfCYL55YCazoieXB"/>
+        <correspAction xml:id="i-U9QNoqKfCYL55YCazoieXB" type="assigned"/>
         <correspContext corresp="i-U9QNoqKfCYL55YCazoieXB">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_377/mot_200506_T_377-0001.pdf"/>
-      <div type="motHeader" xml:id="i-GD2T4A3endDLswWnDyZo16">
-        <div type="motTitle" xml:id="i-Enz5BwL4zuoiRYB7T9QPKH"/>
-        <div type="motSubmissionInfo" xml:id="i-TQuVVLSJPLCqtd5VCNEntp"/>
+      <div xml:id="i-GD2T4A3endDLswWnDyZo16" type="motHeader">
+        <div xml:id="i-Enz5BwL4zuoiRYB7T9QPKH" type="motTitle"/>
+        <div xml:id="i-TQuVVLSJPLCqtd5VCNEntp" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ksrzf54NNpKrRW66NYDuN">
+      <div xml:id="i-ksrzf54NNpKrRW66NYDuN" type="motBody">
         <div xml:id="i-UJWW9JUL2agvgJ94zeWYDA">
           <p xml:id="i-CJNxgnafyrVEbkC6K6gU9Q">
             2005/06 mnr: T377 pnr: kd704
@@ -138,8 +138,11 @@
             att se över vilka möjligheter som finns för att öka registreringen
             av kontantkort och minska den illegala användningen.
           </p>
-          <p xml:id="i-Nhp5DWYPvhE3Rh9j2uNzLp">
-            Stockholm den 28 september 2005 Erling Wälivaara (kd)
+          <p xml:id="i-Nhp5DWYPvhE3Rh9j2uNzLp" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-SBPFN5srszGN1DNTGYhvUS">
+            Erling Wälivaara (kd)
           </p>
         </div>
       </div>

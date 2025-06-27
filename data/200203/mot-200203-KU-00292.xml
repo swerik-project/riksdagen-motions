@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00292">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-R19SCLYTVrqLJbt6cUHXAF">
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5gztoRqeL9J2HausDGv4Cp">
+        <correspAction xml:id="i-5gztoRqeL9J2HausDGv4Cp" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8YnrcsijWZ3i9zrcKP49Y6">
+        <correspAction xml:id="i-8YnrcsijWZ3i9zrcKP49Y6" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-YFm49ejPBpKv7om9zYPNtG">
+        <correspAction xml:id="i-YFm49ejPBpKv7om9zYPNtG" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-29BCZMcvhsbW9zSY9HzyGA"/>
+        <correspAction xml:id="i-29BCZMcvhsbW9zSY9HzyGA" type="assigned"/>
         <correspContext corresp="i-29BCZMcvhsbW9zSY9HzyGA">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_K_0292/mot_200203_K_0292-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KGVmH5nHfFBJt2AS1rMRp2">
-        <div type="motTitle" xml:id="i-Ba3GgoLbc171mpweBCtnF"/>
-        <div type="motSubmissionInfo" xml:id="i-Xc1vEgJ8UzyReNhuTgnuyy"/>
+      <div xml:id="i-KGVmH5nHfFBJt2AS1rMRp2" type="motHeader">
+        <div xml:id="i-Ba3GgoLbc171mpweBCtnF" type="motTitle"/>
+        <div xml:id="i-Xc1vEgJ8UzyReNhuTgnuyy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-944tsU8thhgv127gc5PUYM">
+      <div xml:id="i-944tsU8thhgv127gc5PUYM" type="motBody">
         <div xml:id="i-85zuFo8Y5rfagYoPxwD4qT">
           <p xml:id="i-YXgmuKMZTdKZq19nNT34KM">
             20
@@ -190,8 +190,11 @@
             motionen om omvänt skaderekvisit. Det står klart att det inte
             finns någon risk för skada.
           </p>
-          <p xml:id="i-CuhYk471LJjoizH32Ly6vV">
-            Stockholm den 22 oktober 2002 Ragnwi Marcelind (kd)
+          <p xml:id="i-CuhYk471LJjoizH32Ly6vV" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-3EJ7EtSWtFfNmUtv12Xn4U">
+            Ragnwi Marcelind (kd)
           </p>
           <p xml:id="i-MpeCrqPeNatshbbWbUfJTB">
             2002/03:K292

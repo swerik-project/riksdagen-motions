@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00030">
   <teiHeader>
     <fileDesc>
@@ -97,7 +97,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-XSseDf3pBWGt5AV5oWoyUh"/>
+        <correspAction xml:id="i-XSseDf3pBWGt5AV5oWoyUh" type="basedOn"/>
         <correspContext corresp="i-XSseDf3pBWGt5AV5oWoyUh">
           <ref>Proposition 2004/05:118</ref>
         </correspContext>
@@ -114,19 +114,19 @@
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7qB1aLoGy6m5JFAmHUfhB4">
+        <correspAction xml:id="i-7qB1aLoGy6m5JFAmHUfhB4" type="referral">
           <date when="2005-04-11"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-Dkg6w3GPPwyft4FJLvWtCe">
+        <correspAction xml:id="i-Dkg6w3GPPwyft4FJLvWtCe" type="registration">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RhZFHwrLquyrsVQ6fbCdwR">
+        <correspAction xml:id="i-RhZFHwrLquyrsVQ6fbCdwR" type="dismissal">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WyzEshNw5Db5JnCQTqLyRn">
+        <correspAction xml:id="i-WyzEshNw5Db5JnCQTqLyRn" type="submission">
           <date when="2005-04-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VzzKGMhVUPUFHgG1s7KV94"/>
+        <correspAction xml:id="i-VzzKGMhVUPUFHgG1s7KV94" type="assigned"/>
         <correspContext corresp="i-VzzKGMhVUPUFHgG1s7KV94">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -141,11 +141,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_30/mot_200405_So_30-0001.pdf"/>
-      <div type="motHeader" xml:id="i-StBekQ7T6Lc4HXKuMs6Yvn">
-        <div type="motTitle" xml:id="i-6FQvzxzEVw2yj2BzyiRnx3"/>
-        <div type="motSubmissionInfo" xml:id="i-DzB2hh6SmkCk3R4maFWDER"/>
+      <div xml:id="i-StBekQ7T6Lc4HXKuMs6Yvn" type="motHeader">
+        <div xml:id="i-6FQvzxzEVw2yj2BzyiRnx3" type="motTitle"/>
+        <div xml:id="i-DzB2hh6SmkCk3R4maFWDER" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-54gzQEaASLZNVBVXVKjLqY">
+      <div xml:id="i-54gzQEaASLZNVBVXVKjLqY" type="motBody">
         <div xml:id="i-Vk3ZUXhMhxZ15y6pv4ZX7W">
           <p xml:id="i-6qpZbyY6qbseJzGwkCExvG">
             2004/05 mnr: S030 pnr: kd190
@@ -347,8 +347,11 @@
             därifrån. Denna risk förstärks ytterligare av den planerade flytten
             av Folkhälsoinstitutet till Östersund.
           </p>
-          <p xml:id="i-MJAvNt4GkzsJaN39yo7FSV">
-            Stockholm den 7 april 2005 Ulrik Lindgren (kd)
+          <p xml:id="i-MJAvNt4GkzsJaN39yo7FSV" type="date">
+            Stockholm den 7 april 2005
+          </p>
+          <p type="signatureBlock" id="i-Kcsho9uHEQQcV5qpmsGxYR">
+            Ulrik Lindgren (kd)
           </p>
           <p xml:id="i-3HCnmdK6ncGgVyGUdwk5d6">
             Inger Davidson (kd) Sven Brus (kd) Dan Kihlström (kd) Kenneth

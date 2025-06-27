@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-AU-00001">
   <teiHeader>
     <fileDesc>
@@ -104,7 +104,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-RehVdDUe4hFZGs9TCmuzyo"/>
+        <correspAction xml:id="i-RehVdDUe4hFZGs9TCmuzyo" type="basedOn"/>
         <correspContext corresp="i-RehVdDUe4hFZGs9TCmuzyo">
           <ref>Proposition 2000/01:147</ref>
         </correspContext>
@@ -122,28 +122,28 @@
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
           <note type="signatory" corresp="i-YDBEU8t6zbUyVkVFkdceLF"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Dktuvzi7uNPectQoZt8fbf">
+        <correspAction xml:id="i-Dktuvzi7uNPectQoZt8fbf" type="referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-6QsrGuy3d4NEFfaXu3KgeG">
+        <correspAction xml:id="i-6QsrGuy3d4NEFfaXu3KgeG" type="proposed_referral">
           <date when="2001-10-04"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-5fuTVTCQ6VKdm9bU8mbrG6">
+        <correspAction xml:id="i-5fuTVTCQ6VKdm9bU8mbrG6" type="committee_proposal">
           <date when="2001-10-04"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-h3qD1xz6o3Qq4NzsqbJNs">
+        <correspAction xml:id="i-h3qD1xz6o3Qq4NzsqbJNs" type="reviewing">
           <date when="2001-10-04"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-74ejCbwoFkYpxYxoCtMRXh">
+        <correspAction xml:id="i-74ejCbwoFkYpxYxoCtMRXh" type="registration">
           <date when="2001-10-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ErnrfTgK4iQe2QqKvrQbPS">
+        <correspAction xml:id="i-ErnrfTgK4iQe2QqKvrQbPS" type="dismissal">
           <date when="2001-10-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RrZ7QSNnmYxV2Szp6oXrg8">
+        <correspAction xml:id="i-RrZ7QSNnmYxV2Szp6oXrg8" type="submission">
           <date when="2001-10-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JShSxe4rFD9ASCPcCxuSXx"/>
+        <correspAction xml:id="i-JShSxe4rFD9ASCPcCxuSXx" type="assigned"/>
         <correspContext corresp="i-JShSxe4rFD9ASCPcCxuSXx">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -159,11 +159,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_A_0001/mot_200102_A_0001-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_A_0001/mot_200102_A_0001-001.pdf"/>
-      <div type="motHeader" xml:id="i-QBg4esw6tXQQysneSaz4qg">
-        <div type="motTitle" xml:id="i-3i7CBG4KCEphVL2geW4h2X"/>
-        <div type="motSubmissionInfo" xml:id="i-YVDFU5wvgwEHjSZJMitYws"/>
+      <div xml:id="i-QBg4esw6tXQQysneSaz4qg" type="motHeader">
+        <div xml:id="i-3i7CBG4KCEphVL2geW4h2X" type="motTitle"/>
+        <div xml:id="i-YVDFU5wvgwEHjSZJMitYws" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8udEgtNm3ZVyfpZkJZrxu2">
+      <div xml:id="i-8udEgtNm3ZVyfpZkJZrxu2" type="motBody">
         <div xml:id="i-SmisxWFaD6HDQX3P1Fku7S">
           <p xml:id="i-Smgc9yGdAfJLFdtnuyR4at">
             2001/02 mnr: A1 pnr: kd106
@@ -241,8 +241,11 @@
             införas som omfattar dessa domare, liknande det som fanns före
             1970.
           </p>
-          <p xml:id="i-UwSM9YiYEQQNxTvki4kXgx">
-            Stockholm den 2 oktober 2001 Rolf Åbjörnsson (kd)
+          <p xml:id="i-UwSM9YiYEQQNxTvki4kXgx" type="date">
+            Stockholm den 2 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-6AgDics1guEP5wsLWfH9YM">
+            Rolf Åbjörnsson (kd)
           </p>
           <p xml:id="i-8PYsuR9BNpS7rjxKBKtrcZ">
             Kjell Eldensjö (kd) Ingvar Svensson (kd) Björn von der Esch (kd)
@@ -327,8 +330,11 @@
             införas som omfattar dessa domare, liknande det som fanns före
             1970.
           </p>
-          <p xml:id="i-U2ZTfo1Lgu95pgUq7RsDQe">
-            Stockholm den 2 oktober 2001 Rolf Åbjörnsson (kd)
+          <p xml:id="i-U2ZTfo1Lgu95pgUq7RsDQe" type="date">
+            Stockholm den 2 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-CdXvPyTuN58MWjF2qRNifx">
+            Rolf Åbjörnsson (kd)
           </p>
           <p xml:id="i-V9xf1mf2qV3NvMXHCdCAoe">
             Kjell Eldensjö (kd) Ingvar Svensson (kd) Björn von der Esch (kd)

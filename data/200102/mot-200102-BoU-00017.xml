@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-BoU-00017">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-WHbv5mgcu38cdAgVKqdgL9"/>
+        <correspAction xml:id="i-WHbv5mgcu38cdAgVKqdgL9" type="basedOn"/>
         <correspContext corresp="i-WHbv5mgcu38cdAgVKqdgL9">
           <ref>Proposition 2001/02:58</ref>
         </correspContext>
@@ -90,34 +90,34 @@
           <note type="signatory" corresp="i-GgyXv4xamqTouNVz7Tncke"/>
           <note type="signatory" corresp="i-GJLL78ePjJhSXVWBYyRW8t"/>
         </correspContext>
-        <correspAction type="termination" xml:id="i-QGcDdgqQCWTGGsJRdHDLrG">
+        <correspAction xml:id="i-QGcDdgqQCWTGGsJRdHDLrG" type="termination">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-Y67NxXR9aeo8cxkVPjyUyV">
+        <correspAction xml:id="i-Y67NxXR9aeo8cxkVPjyUyV" type="numbering">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-UrbxNtPs8CpZDLFvkdTqMi">
+        <correspAction xml:id="i-UrbxNtPs8CpZDLFvkdTqMi" type="proposed_referral">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-PFucjR4A2mp4k5EX2HVeCF">
+        <correspAction xml:id="i-PFucjR4A2mp4k5EX2HVeCF" type="committee_proposal">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-4gikwB9FLohibdP9Yd1SxF">
+        <correspAction xml:id="i-4gikwB9FLohibdP9Yd1SxF" type="reviewing">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-ThwNFYEDK6weTduGudiYnq">
+        <correspAction xml:id="i-ThwNFYEDK6weTduGudiYnq" type="registration">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-CyDML6cB7FAsEMdDxNi8J8">
+        <correspAction xml:id="i-CyDML6cB7FAsEMdDxNi8J8" type="referral">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Riu7gDWf2mcHnxT7rdnduD">
+        <correspAction xml:id="i-Riu7gDWf2mcHnxT7rdnduD" type="dismissal">
           <date when="2001-12-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Cnge6ww8KiYzYcFq3nrzrR">
+        <correspAction xml:id="i-Cnge6ww8KiYzYcFq3nrzrR" type="submission">
           <date when="2001-12-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KaiB2tba6q417e6AY81uvB"/>
+        <correspAction xml:id="i-KaiB2tba6q417e6AY81uvB" type="assigned"/>
         <correspContext corresp="i-KaiB2tba6q417e6AY81uvB">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -133,11 +133,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Bo_0017/mot_200102_Bo_0017-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Bo_0017/mot_200102_Bo_0017-001.pdf"/>
-      <div type="motHeader" xml:id="i-JmZiVSJdjYsZ9ArB36hhEu">
-        <div type="motTitle" xml:id="i-CA8XwDafHV84DFKqFYipCs"/>
-        <div type="motSubmissionInfo" xml:id="i-XkLfjZeWcCWodDwToaSJbc"/>
+      <div xml:id="i-JmZiVSJdjYsZ9ArB36hhEu" type="motHeader">
+        <div xml:id="i-CA8XwDafHV84DFKqFYipCs" type="motTitle"/>
+        <div xml:id="i-XkLfjZeWcCWodDwToaSJbc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Gpi53YKeVS9r3W7FuB63L8">
+      <div xml:id="i-Gpi53YKeVS9r3W7FuB63L8" type="motBody">
         <div xml:id="i-2NVmBqKmo22CJ1sf5Vmnt6">
           <p xml:id="i-EJQ9KQyuYY5J3MDum4SdWc">
             20
@@ -404,8 +404,11 @@
             Innebörden blir att i dag välmående och välskötta bostadsföretag
             riskerar att få problem på sikt.
           </p>
-          <p xml:id="i-XBsnpPjqpiciiGc9vcjsQj">
-            Stockholm den 13 december 2001 Knut Billing (m)
+          <p xml:id="i-XBsnpPjqpiciiGc9vcjsQj" type="date">
+            Stockholm den 13 december 2001
+          </p>
+          <p type="signatureBlock" id="i-3mGzcgatoehZQkJ6vH6GLo">
+            Knut Billing (m)
           </p>
           <p xml:id="i-Rhw28Mao9KgHvYyyHNEGPT">
             Inga Berggren (m) Carl-Erik Skårman (m) Ewa Thalén Finné (m)
@@ -683,8 +686,11 @@
             Innebörden blir att i dag välmående och välskötta bostadsföretag
             riskerar att få problem på sikt.
           </p>
-          <p xml:id="i-VSTVFB2BhDkchw68vjMNVM">
-            Stockholm den 13 december 2001 Knut Billing (m)
+          <p xml:id="i-VSTVFB2BhDkchw68vjMNVM" type="date">
+            Stockholm den 13 december 2001
+          </p>
+          <p type="signatureBlock" id="i-8kS2L4yUnD3ALphzRzieKC">
+            Knut Billing (m)
           </p>
           <p xml:id="i-DqtqFacaxyJFtT2eH9hpja">
             Inga Berggren (m) Carl-Erik Skårman (m) Ewa Thalén Finné (m)

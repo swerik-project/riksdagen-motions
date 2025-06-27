@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00222">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-839FvTzHpvrdX4J7ckfWSt"/>
           <note type="signatory" corresp="i-EFJ93MgPh6dJrzDB1Tt657"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Lf7PTkzPr6tc6Zw8yiXj2o">
+        <correspAction xml:id="i-Lf7PTkzPr6tc6Zw8yiXj2o" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WPa38aZ8msskebrwdeN3rA">
+        <correspAction xml:id="i-WPa38aZ8msskebrwdeN3rA" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2RYWjTPKymn1H3LGCzymtJ">
+        <correspAction xml:id="i-2RYWjTPKymn1H3LGCzymtJ" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MoGz75nFRTg3g3Uz8Jw9fS"/>
+        <correspAction xml:id="i-MoGz75nFRTg3g3Uz8Jw9fS" type="assigned"/>
         <correspContext corresp="i-MoGz75nFRTg3g3Uz8Jw9fS">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Kr_0222/mot_200304_Kr_0222-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NqXjWV1Tvg2aWgSy7HVwFP">
-        <div type="motTitle" xml:id="i-wUfjx86Z3t8oSvBa2U6zH"/>
-        <div type="motSubmissionInfo" xml:id="i-KMeTj1X3Mmsar2DAB2mLzR"/>
+      <div xml:id="i-NqXjWV1Tvg2aWgSy7HVwFP" type="motHeader">
+        <div xml:id="i-wUfjx86Z3t8oSvBa2U6zH" type="motTitle"/>
+        <div xml:id="i-KMeTj1X3Mmsar2DAB2mLzR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NDTCLAKXfgjfZG1yKQeFWC">
+      <div xml:id="i-NDTCLAKXfgjfZG1yKQeFWC" type="motBody">
         <div xml:id="i-Kbr6LbUNtvQi7h2ZW3YEfR">
           <p xml:id="i-674L4QQiCsCzv4xirwABc2">
             2003/04 mnr: Kr222 pnr: kd616
@@ -187,9 +187,11 @@
           <p xml:id="i-5oDZrYbPBJKuNbejshhChs">
             2003/04:Kr222
           </p>
-          <p xml:id="i-3GzjRBTjsnc7TDJ5ias8x4">
-            Stockholm den 30 september 2003 Sven Brus (kd) Yvonne Andersson
-            (kd)
+          <p xml:id="i-3GzjRBTjsnc7TDJ5ias8x4" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-SgT4xvfaVmjzsTLLTMNDge">
+            Sven Brus (kd) Yvonne Andersson (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00024">
   <teiHeader>
     <fileDesc>
@@ -35,7 +35,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-ExUcTPQ96yNHKA8U587QB5"/>
+        <correspAction xml:id="i-ExUcTPQ96yNHKA8U587QB5" type="basedOn"/>
         <correspContext corresp="i-ExUcTPQ96yNHKA8U587QB5">
           <ref>Proposition 2005/06:183</ref>
         </correspContext>
@@ -43,19 +43,19 @@
         <correspContext corresp="i-YEkkXEa7xLa7BUzGuexi9L">
           <note type="signatory" corresp="i-GLV4P4jtfPZVZ95YSNxfBh"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Xy7Z3HP3y6yDCXwxjRUVyf">
+        <correspAction xml:id="i-Xy7Z3HP3y6yDCXwxjRUVyf" type="referral">
           <date when="2006-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6GtHTqAkEPK9zG8XmwErYQ">
+        <correspAction xml:id="i-6GtHTqAkEPK9zG8XmwErYQ" type="dismissal">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8owVS2n5gFPEfn2sZ6sCns">
+        <correspAction xml:id="i-8owVS2n5gFPEfn2sZ6sCns" type="dismissal">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-H1tkav2EnhbgSgsbXvPMx">
+        <correspAction xml:id="i-H1tkav2EnhbgSgsbXvPMx" type="submission">
           <date when="2006-04-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TV78gVEW4TkQ1yHtX3XZAc"/>
+        <correspAction xml:id="i-TV78gVEW4TkQ1yHtX3XZAc" type="assigned"/>
         <correspContext corresp="i-TV78gVEW4TkQ1yHtX3XZAc">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_24/mot_200506_MJ_24-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5o3DGGpSNy1sV4eB6cpEwz">
-        <div type="motTitle" xml:id="i-5PzuSEtcBmnNNKUW9Cnopu"/>
-        <div type="motSubmissionInfo" xml:id="i-3k3awFvp1ifAD9DYPa3Atj"/>
+      <div xml:id="i-5o3DGGpSNy1sV4eB6cpEwz" type="motHeader">
+        <div xml:id="i-5PzuSEtcBmnNNKUW9Cnopu" type="motTitle"/>
+        <div xml:id="i-3k3awFvp1ifAD9DYPa3Atj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Kezc4gTKb7ThN51oFxDfZK">
+      <div xml:id="i-Kezc4gTKb7ThN51oFxDfZK" type="motBody">
         <div xml:id="i-QoPdNcPCjwMpwrrXFhHS6U">
           <p xml:id="i-7KQZirABfqzx95tVDzxPDT">
             2005/06 mnr: MJ24 pnr: mp023
@@ -150,8 +150,11 @@
             avsatt pengar till fonden får skjuta till mer pengar om det visar
             sig att gjorda fonderingar inte förslår.
           </p>
-          <p xml:id="i-P8hgs5CAtwdvbQzSjBa8HM">
-            Stockholm den 5 april 2006 Åsa Domeij (mp)
+          <p xml:id="i-P8hgs5CAtwdvbQzSjBa8HM" type="date">
+            Stockholm den 5 april 2006
+          </p>
+          <p type="signatureBlock" id="i-2i9ChaBdUGvRAyg6zstunF">
+            Åsa Domeij (mp)
           </p>
         </div>
       </div>

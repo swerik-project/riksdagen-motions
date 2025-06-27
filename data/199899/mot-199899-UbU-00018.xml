@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-UbU-00018">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-PRHkYxGCaT2cbJpjjfnRtn</idno>
-            <name>Beatrice Ask </name>
+            <name>Beatrice Ask</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VRFjRQZzP3ewzGkSsHQMxn"/>
+        <correspAction xml:id="i-VRFjRQZzP3ewzGkSsHQMxn" type="basedOn"/>
         <correspContext corresp="i-VRFjRQZzP3ewzGkSsHQMxn">
           <ref>Proposition 1998/99:105</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-PRHkYxGCaT2cbJpjjfnRtn"/>
           <note type="signatory" corresp="i-PRHkYxGCaT2cbJpjjfnRtn"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LRah7vpAYcptxKcA4x4JDE">
+        <correspAction xml:id="i-LRah7vpAYcptxKcA4x4JDE" type="referral">
           <date when="1999-06-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Dz1Xx7qCgeRdHtjAUPvTG7">
+        <correspAction xml:id="i-Dz1Xx7qCgeRdHtjAUPvTG7" type="dismissal">
           <date when="1999-06-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4F4cMGpBYNAgMt2ZX2cVDc">
+        <correspAction xml:id="i-4F4cMGpBYNAgMt2ZX2cVDc" type="submission">
           <date when="1999-06-01"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-KmBVeniaPaTiZct1xVETwX">
+        <correspAction xml:id="i-KmBVeniaPaTiZct1xVETwX" type="referral">
           <date when="1999-06-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QFbCuyv4VJ7MjSyDe9z9yU">
+        <correspAction xml:id="i-QFbCuyv4VJ7MjSyDe9z9yU" type="dismissal">
           <date when="1999-06-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WvkTe8vkRJxbUUcZjMduws">
+        <correspAction xml:id="i-WvkTe8vkRJxbUUcZjMduws" type="submission">
           <date when="1999-06-01"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MY1dq5x4LuiqCjmCJfBqxm"/>
+        <correspAction xml:id="i-MY1dq5x4LuiqCjmCJfBqxm" type="assigned"/>
         <correspContext corresp="i-MY1dq5x4LuiqCjmCJfBqxm">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Ub_0018/mot_199899_Ub_0018-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7dnYo1FnNeopkiUt84odqz">
-        <div type="motTitle" xml:id="i-N4pLs1pp1Trm8GJQDLfeQc"/>
-        <div type="motSubmissionInfo" xml:id="i-BcMA97CUmwrn4P9eykfD2t"/>
+      <div xml:id="i-7dnYo1FnNeopkiUt84odqz" type="motHeader">
+        <div xml:id="i-N4pLs1pp1Trm8GJQDLfeQc" type="motTitle"/>
+        <div xml:id="i-BcMA97CUmwrn4P9eykfD2t" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DVScko14yhJwqBfqD7ZxHc">
+      <div xml:id="i-DVScko14yhJwqBfqD7ZxHc" type="motBody">
         <div xml:id="i-BdEd7j1k1XseTgDBe3aGTY">
           <p xml:id="i-KiNcXThPiffMuCWJj6Qiw4">
             1998/99 Ubl8 Ub18
@@ -420,9 +420,11 @@
           <p xml:id="i-FwYJJwFsknwnn87nXNRg4a">
             Mot. 17 1998/99Ub18
           </p>
-          <p xml:id="i-Tw9CYgPMMao8zU7WEembW2">
-            Stockholm den 1 juni 1999 Beatrice Ask (m) Lars Hjertén (m) Per
-            Bill (m) Anita Sidén (m)
+          <p xml:id="i-Tw9CYgPMMao8zU7WEembW2" type="date">
+            Stockholm den 1 juni 1999
+          </p>
+          <p type="signatureBlock" id="i-PxxYhciDtyB3k3MgNgDkJL">
+            Beatrice Ask (m) Lars Hjertén (m) Per Bill (m) Anita Sidén (m)
           </p>
           <p xml:id="i-PNPzYA5Sk3cGFWtJv6eW39">
             Hans Hjortzberg-Nordlund (m)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-NU-00310">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-WTiY1S96adG9xTheWbnC5v">
           <note type="signatory" corresp="i-DKsVYU73WDtSTFEeLoboVx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YY2pHgNUu2D1JdJqumwtFE">
+        <correspAction xml:id="i-YY2pHgNUu2D1JdJqumwtFE" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4jNsB9rqfzEhiRTab9BDdw">
+        <correspAction xml:id="i-4jNsB9rqfzEhiRTab9BDdw" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Jq9qqTmiWDR3Xv5jRMKwre">
+        <correspAction xml:id="i-Jq9qqTmiWDR3Xv5jRMKwre" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FyfXwkX61xfqDtFvDVTVC3"/>
+        <correspAction xml:id="i-FyfXwkX61xfqDtFvDVTVC3" type="assigned"/>
         <correspContext corresp="i-FyfXwkX61xfqDtFvDVTVC3">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_N_310/mot_200506_N_310-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DHzpBs1zNFtnFjRzX9vLH3">
-        <div type="motTitle" xml:id="i-8URyRP2HgbopHV6nPdFDMR"/>
-        <div type="motSubmissionInfo" xml:id="i-BcYSYepNrxLXY2sY2DRAu9"/>
+      <div xml:id="i-DHzpBs1zNFtnFjRzX9vLH3" type="motHeader">
+        <div xml:id="i-8URyRP2HgbopHV6nPdFDMR" type="motTitle"/>
+        <div xml:id="i-BcYSYepNrxLXY2sY2DRAu9" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PZweqByANM5e2BMiKEoRyc">
+      <div xml:id="i-PZweqByANM5e2BMiKEoRyc" type="motBody">
         <div xml:id="i-G8BBvT3PFxjk6tcVPv94Jf">
           <p xml:id="i-FnWDwwS7CPcSBYVRbbqpwh">
             2005/06 mnr: N310 pnr: m1406
@@ -150,8 +150,11 @@
             att regeringen återkommer med förslag som möjliggör en fortsatt
             utveckling av torv som energikälla.
           </p>
-          <p xml:id="i-JHa7TqMrV8kFg3QurhwgPw">
-            Stockholm den 27 september 2005 Ola Sundell (m)
+          <p xml:id="i-JHa7TqMrV8kFg3QurhwgPw" type="date">
+            Stockholm den 27 september 2005
+          </p>
+          <p type="signatureBlock" id="i-WSaAEgApGCZ9tT4RaTwELQ">
+            Ola Sundell (m)
           </p>
         </div>
       </div>

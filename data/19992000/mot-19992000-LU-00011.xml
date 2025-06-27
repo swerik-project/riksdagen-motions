@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-LU-00011">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="woman">
             <idno>i-4SAiMdwrEthd2M8z2yjtkv</idno>
-            <name>Ana Maria Narti </name>
+            <name>Ana Maria Narti</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-nX9ipUS8FhkbQHkWWytwf</idno>
-            <name>Ulf Nilsson </name>
+            <name>Ulf Nilsson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-N1qw8jfKGpQHZKgF3gs76j</idno>
-            <name>Siw Persson </name>
+            <name>Siw Persson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-86JWEJnYvyxYcVkVHrdidb"/>
+        <correspAction xml:id="i-86JWEJnYvyxYcVkVHrdidb" type="basedOn"/>
         <correspContext corresp="i-86JWEJnYvyxYcVkVHrdidb">
           <ref>Proposition 1999/2000:34</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-N1qw8jfKGpQHZKgF3gs76j"/>
           <note type="signatory" corresp="i-nX9ipUS8FhkbQHkWWytwf"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RNA5SgzBnSzwMHMeafv6zj">
+        <correspAction xml:id="i-RNA5SgzBnSzwMHMeafv6zj" type="referral">
           <date when="1999-01-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DXmkzLfVEFnGw6WZfwXHdP">
+        <correspAction xml:id="i-DXmkzLfVEFnGw6WZfwXHdP" type="dismissal">
           <date when="1999-01-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3GhtpWgnTUDhf8tc4MoTK6">
+        <correspAction xml:id="i-3GhtpWgnTUDhf8tc4MoTK6" type="submission">
           <date when="1999-01-21"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-9XnJF7NZLVq47mMR9EBLcs">
+        <correspAction xml:id="i-9XnJF7NZLVq47mMR9EBLcs" type="referral">
           <date when="2000-01-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PuUM5NftsqEDwSc3gYj2YY">
+        <correspAction xml:id="i-PuUM5NftsqEDwSc3gYj2YY" type="dismissal">
           <date when="2000-01-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XB7ihBa8CizPSmuEHzAfuF">
+        <correspAction xml:id="i-XB7ihBa8CizPSmuEHzAfuF" type="submission">
           <date when="2000-01-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EiGBapfsgdem5sq6NsGuKF"/>
+        <correspAction xml:id="i-EiGBapfsgdem5sq6NsGuKF" type="assigned"/>
         <correspContext corresp="i-EiGBapfsgdem5sq6NsGuKF">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_L_0011/mot_199900_L_0011-0001.pdf"/>
-      <div type="motHeader" xml:id="i-81waAEoS9J4Tdy9LWG7rFc">
-        <div type="motTitle" xml:id="i-JxgComiePdnya3khSoXmU9"/>
-        <div type="motSubmissionInfo" xml:id="i-PktYYGiMaRfQduoCvezyTP"/>
+      <div xml:id="i-81waAEoS9J4Tdy9LWG7rFc" type="motHeader">
+        <div xml:id="i-JxgComiePdnya3khSoXmU9" type="motTitle"/>
+        <div xml:id="i-PktYYGiMaRfQduoCvezyTP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SRGasjvDZbXCx6QZG32HcS">
+      <div xml:id="i-SRGasjvDZbXCx6QZG32HcS" type="motBody">
         <div xml:id="i-WXPRyMbeWJ71u4AN4oNXUa">
           <p xml:id="i-PpA4odvS6jeL32rw3A89PY">
             1999/2000 mnr: L11 pnr: fp1121
@@ -219,8 +219,11 @@
             så att förslag, som innebär att även icke- noterade privata aktiebolag
             kan återköpa egna aktier, föreläggs riks- dagen senast under 2001.
           </p>
-          <p xml:id="i-9hQicbJvHJx7PzY4i7Rehx">
-            Stockholm den 21 januari 2000 Ana Maria Narti (fp)
+          <p xml:id="i-9hQicbJvHJx7PzY4i7Rehx" type="date">
+            Stockholm den 21 januari 2000
+          </p>
+          <p type="signatureBlock" id="i-BST8YAfRgvP9SyvFh4HCLr">
+            Ana Maria Narti (fp)
           </p>
           <p xml:id="i-D1v6VuMLFdsFw6UdmxRFvo">
             Ulf Nilsson (fp) Siw Persson (fp)

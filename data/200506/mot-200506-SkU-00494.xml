@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00494">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-AuQZewf4y4duKKUzNvzRW8">
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EpKf4yARhUpDoJcitopxZ2">
+        <correspAction xml:id="i-EpKf4yARhUpDoJcitopxZ2" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5h4gxb3xtNacqc1fNzwzzc">
+        <correspAction xml:id="i-5h4gxb3xtNacqc1fNzwzzc" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VoUZ8urEpM8E3ee6xTNHEc">
+        <correspAction xml:id="i-VoUZ8urEpM8E3ee6xTNHEc" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NVYaMaYVN9MqZncmUz12Fb"/>
+        <correspAction xml:id="i-NVYaMaYVN9MqZncmUz12Fb" type="assigned"/>
         <correspContext corresp="i-NVYaMaYVN9MqZncmUz12Fb">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_494/mot_200506_Sk_494-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KWG3Dso5nhncvmsPBRZ3o1">
-        <div type="motTitle" xml:id="i-78sWUT6Gf1RE3xgwBykh1A"/>
-        <div type="motSubmissionInfo" xml:id="i-MTWHEJVAYTaTfAtyCXpC3i"/>
+      <div xml:id="i-KWG3Dso5nhncvmsPBRZ3o1" type="motHeader">
+        <div xml:id="i-78sWUT6Gf1RE3xgwBykh1A" type="motTitle"/>
+        <div xml:id="i-MTWHEJVAYTaTfAtyCXpC3i" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JXnBFdBDLGWT51xVDJGMMi">
+      <div xml:id="i-JXnBFdBDLGWT51xVDJGMMi" type="motBody">
         <div xml:id="i-KzcoowXjKTNT3waFLLfUX3">
           <p xml:id="i-XaEoVYpt9J3UaiSKcvEx7d">
             2005/06 mnr: Sk494 pnr: kd642
@@ -135,8 +135,11 @@
             i Sverige heller. Nu är det hög tid att Sveriges alla ideella
             organisationer får besked om vad som gäller.
           </p>
-          <p xml:id="i-43wrzFqM1Q3BhQVicKPXvV">
-            Stockholm den 22 september 2005 Mikael Oscarsson (kd)
+          <p xml:id="i-43wrzFqM1Q3BhQVicKPXvV" type="date">
+            Stockholm den 22 september 2005
+          </p>
+          <p type="signatureBlock" id="i-G3KoAtqPUcrMYSQw66tZiX">
+            Mikael Oscarsson (kd)
           </p>
         </div>
       </div>

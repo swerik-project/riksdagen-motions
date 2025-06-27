@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-KrU-00241">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-AHMTURuCvt5jswfNK1Q8Qg</idno>
-            <name>Anita Jönsson </name>
+            <name>Anita Jönsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -46,25 +46,25 @@
           <note type="signatory" corresp="i-AHMTURuCvt5jswfNK1Q8Qg"/>
           <note type="signatory" corresp="i-AHMTURuCvt5jswfNK1Q8Qg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2Wu7H5AYZLqGijMZzHLhBe">
+        <correspAction xml:id="i-2Wu7H5AYZLqGijMZzHLhBe" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4TLirYEGqEkyfUPHumRaR3">
+        <correspAction xml:id="i-4TLirYEGqEkyfUPHumRaR3" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SzgcjHkSVP6MXsxtSqjKXg">
+        <correspAction xml:id="i-SzgcjHkSVP6MXsxtSqjKXg" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-D3cCTNbFJNWuBx4CiT2r8x">
+        <correspAction xml:id="i-D3cCTNbFJNWuBx4CiT2r8x" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Wecc4kMem4YRNUidfxdgqn">
+        <correspAction xml:id="i-Wecc4kMem4YRNUidfxdgqn" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QosRiSv4m7cadrnLSQKx9">
+        <correspAction xml:id="i-QosRiSv4m7cadrnLSQKx9" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-C3xJm1QmNqDsADawdkinas"/>
+        <correspAction xml:id="i-C3xJm1QmNqDsADawdkinas" type="assigned"/>
         <correspContext corresp="i-C3xJm1QmNqDsADawdkinas">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_kr_0241/mot_199899_kr_0241-0001.pdf"/>
-      <div type="motHeader" xml:id="i-zEdcuMpcsFPdh6iN6ADbv">
-        <div type="motTitle" xml:id="i-KWrbCURDw2Uk2v4p1YfcsF"/>
-        <div type="motSubmissionInfo" xml:id="i-Gtd5J227K7hZKXLhM5aRsA"/>
+      <div xml:id="i-zEdcuMpcsFPdh6iN6ADbv" type="motHeader">
+        <div xml:id="i-KWrbCURDw2Uk2v4p1YfcsF" type="motTitle"/>
+        <div xml:id="i-Gtd5J227K7hZKXLhM5aRsA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FvSKgSKjaLDT5oUSKRgNnP">
+      <div xml:id="i-FvSKgSKjaLDT5oUSKRgNnP" type="motBody">
         <div xml:id="i-LQcm6PApu1rCKS8xYiKP5k">
           <p xml:id="i-Uze2J2M91yxKhGt72RHYHe">
             1998/99 Kr241 Kr237-244
@@ -134,8 +134,11 @@
             m.m.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_kr_0241/mot_199899_kr_0241-0002.pdf"/>
-          <p xml:id="i-4TAvFHpqCw8iE6eFMd2rNg">
-            Stockholm den 26 oktober 1998 Mot.
+          <p xml:id="i-4TAvFHpqCw8iE6eFMd2rNg" type="date">
+            Stockholm den 26 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-RtsxpRVXdZMgvp2rbWjCPE">
+            Mot.
           </p>
           <p xml:id="i-MfveoH8byQ6BVgadVdT7Ej">
             1998/99Kr241 Anita Jönsson (s)

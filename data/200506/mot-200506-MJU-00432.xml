@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00432">
   <teiHeader>
     <fileDesc>
@@ -71,16 +71,16 @@
           <note type="signatory" corresp="i-2Bind9dyirGQ1UMwS9XjsT"/>
           <note type="signatory" corresp="i-PMx51X9QbaLUMtQNq6sVfz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SCC7o6mwK3hgVi7gs1Nnp8">
+        <correspAction xml:id="i-SCC7o6mwK3hgVi7gs1Nnp8" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6wSqQBKb24e9QqQ2U9VEmF">
+        <correspAction xml:id="i-6wSqQBKb24e9QqQ2U9VEmF" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FvAhP6Saf78JuhtmTjwZkp">
+        <correspAction xml:id="i-FvAhP6Saf78JuhtmTjwZkp" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4RfRK2DQvgSkSg7UArsk3c"/>
+        <correspAction xml:id="i-4RfRK2DQvgSkSg7UArsk3c" type="assigned"/>
         <correspContext corresp="i-4RfRK2DQvgSkSg7UArsk3c">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -95,11 +95,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_432/mot_200506_MJ_432-0001.pdf"/>
-      <div type="motHeader" xml:id="i-X4yjVVcBZhLuusYBX1Ja1w">
-        <div type="motTitle" xml:id="i-sz7bj7nu1Re8a3pAYqB12"/>
-        <div type="motSubmissionInfo" xml:id="i-4y5127EJ5nLjuC4EDUfxLv"/>
+      <div xml:id="i-X4yjVVcBZhLuusYBX1Ja1w" type="motHeader">
+        <div xml:id="i-sz7bj7nu1Re8a3pAYqB12" type="motTitle"/>
+        <div xml:id="i-4y5127EJ5nLjuC4EDUfxLv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2ZHzcurCEZ82JCNmcXndp2">
+      <div xml:id="i-2ZHzcurCEZ82JCNmcXndp2" type="motBody">
         <div xml:id="i-WSuRjVMpd9b8QJF1Am43Y5">
           <p xml:id="i-SZdWGqXCh6757pgERKgaPR">
             2005/06 mnr: MJ432 pnr: s3319
@@ -157,9 +157,12 @@
           </p>
           <p xml:id="i-JPzrWNbs1bSZjH3xsWpFui">
             kommuner som har liknande förutsättningar, det vill säga glesbebyggda
-            med långa sjöstränder. Stockholm den 29 september 2005
+            med långa sjöstränder.
           </p>
-          <p xml:id="i-ATsLu2T79PBJhnk5XPqjbw">
+          <p type="date" id="i-YUvb6k6LNaNCpwLNpqdiUw">
+            Stockholm den 29 september 2005
+          </p>
+          <p xml:id="i-ATsLu2T79PBJhnk5XPqjbw" type="signatureBlock">
             Ameer Sachet (s) Inger Lundberg (s) Nils-Göran Holmqvist (s)
             Lennart Axelsson (s) Matilda Ernkrans (s)
           </p>

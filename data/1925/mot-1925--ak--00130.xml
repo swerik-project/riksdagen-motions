@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1925--ak--00130">
   <teiHeader>
     <fileDesc>
       <titleStmt/>
@@ -17,7 +17,7 @@
       <correspDesc/>
     </profileDesc>
     <revisionDesc>
-      <correction who="0000-0002-7647-4048" when="2024-10-07" corresp="i-2GMqysDgNSJzLvEQP2bVni">OCR correction</correction>
+      <correction who="0000-0002-7647-4048" corresp="i-2GMqysDgNSJzLvEQP2bVni" when="2024-10-07">OCR correction</correction>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -26,11 +26,11 @@
       <fw xml:id="i-2GMqysDgNSJzLvEQP2bVni">
         Motioner i Andra kammaren, Nr 130. 7
       </fw>
-      <div type="motHeader" xml:id="i-UwEYYeDbstSsmFB2whPfGs">
-        <div type="motTitle" xml:id="i-X14sW8Hy95KBBDusvL8MK2"/>
-        <div type="motSubmissionInfo" xml:id="i-W49H8JiVwmyW2SupbWqLas"/>
+      <div xml:id="i-UwEYYeDbstSsmFB2whPfGs" type="motHeader">
+        <div xml:id="i-X14sW8Hy95KBBDusvL8MK2" type="motTitle"/>
+        <div xml:id="i-W49H8JiVwmyW2SupbWqLas" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CvdRpigt8v1ugGsbKrzZVN">
+      <div xml:id="i-CvdRpigt8v1ugGsbKrzZVN" type="motBody">
         <div xml:id="i-JnkJJrg9fvywYXWgKimjXQ">
           <p xml:id="i-2bEeVjxBSMK5nwMLB6gcLT">
             Nr 130.
@@ -64,8 +64,11 @@
             i slöjd vid de allmänna läroverken höja det nu utgående ordinarie
             förslagsanslaget 21,000 kronor med 20,000 kronor till 41,000 kronor.
           </p>
-          <p xml:id="i-NdhUB7DR72uFqK6dpBcjdo">
-            Stockholm den 22 januari 1925. Gust. Holmberg.
+          <p xml:id="i-NdhUB7DR72uFqK6dpBcjdo" type="date">
+            Stockholm den 22 januari 1925.
+          </p>
+          <p type="signatureBlock" id="i-E4eMzRg3ZDRbBbJxjbpKNQ">
+            Gust. Holmberg.
           </p>
           <pb facs="riksdagen-motions-pdf/data/1925/mot_1925__ak__130/mot_1925__ak__130-002.pdf"/>
         </div>

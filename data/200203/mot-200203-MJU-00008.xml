@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00008">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-69swEF3bKAYYUbmPEV3g3j"/>
+        <correspAction xml:id="i-69swEF3bKAYYUbmPEV3g3j" type="basedOn"/>
         <correspContext corresp="i-69swEF3bKAYYUbmPEV3g3j">
           <ref>Regeringsskrivelse 2002/03:29</ref>
         </correspContext>
@@ -90,16 +90,16 @@
           <note type="signatory" corresp="i-QhURWkawnPDBf443faKewj"/>
           <note type="signatory" corresp="i-D8B2Xf6UADbqciPHrqFxSc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DmEcwwaA1ojcJbuqrXW823">
+        <correspAction xml:id="i-DmEcwwaA1ojcJbuqrXW823" type="referral">
           <date when="2003-02-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Hdpm3P8638TtWw9SBURZJU">
+        <correspAction xml:id="i-Hdpm3P8638TtWw9SBURZJU" type="dismissal">
           <date when="2003-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NEth5W48t4o8Hi1v6Sgchz">
+        <correspAction xml:id="i-NEth5W48t4o8Hi1v6Sgchz" type="submission">
           <date when="2003-02-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7q8qYjHU9FdCS6doXzQjSq"/>
+        <correspAction xml:id="i-7q8qYjHU9FdCS6doXzQjSq" type="assigned"/>
         <correspContext corresp="i-7q8qYjHU9FdCS6doXzQjSq">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -114,11 +114,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_MJ_0008/mot_200203_MJ_0008-0001.pdf"/>
-      <div type="motHeader" xml:id="i-55FskJNBFik618iCRpBS1t">
-        <div type="motTitle" xml:id="i-LN8VPk6Q41gbGJzYn2399y"/>
-        <div type="motSubmissionInfo" xml:id="i-HgAind73utP7ghA6mpc2FH"/>
+      <div xml:id="i-55FskJNBFik618iCRpBS1t" type="motHeader">
+        <div xml:id="i-LN8VPk6Q41gbGJzYn2399y" type="motTitle"/>
+        <div xml:id="i-HgAind73utP7ghA6mpc2FH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DDhupwvP7PQgKRRqSZtSES">
+      <div xml:id="i-DDhupwvP7PQgKRRqSZtSES" type="motBody">
         <div xml:id="i-Tm7qUXY3TXw7oQSzo3f3ed">
           <p xml:id="i-BVWBe4nBntVXYVJ5j5AVwU">
             2002/03 mnr: MJ8 pnr: fp1113
@@ -539,8 +539,11 @@
             skevheter och orättvisor. I vissa fall är det berättigat att satsa
             på riktade insatser, såväl för kvinnor som för män.
           </p>
-          <p xml:id="i-RwaeakMoFjijCvn6wBqDdD">
-            Stockholm den 5 februari 2003 Sverker Thorén (fp)
+          <p xml:id="i-RwaeakMoFjijCvn6wBqDdD" type="date">
+            Stockholm den 5 februari 2003
+          </p>
+          <p type="signatureBlock" id="i-A3TLnkLUEBP2xNqBdrrMuq">
+            Sverker Thorén (fp)
           </p>
           <p xml:id="i-ReDeQ86isaAxjwp928ZAVy">
             Lennart Fremling (fp) Anita Brodén (fp) Marie Wahlgren (fp) Heli

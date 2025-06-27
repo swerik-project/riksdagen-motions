@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00323">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-TsvyLtcGvYf34FcRFFetM2">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Hy48HDq6o4WjWvg7Q4mJwS">
+        <correspAction xml:id="i-Hy48HDq6o4WjWvg7Q4mJwS" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-N7Pv4f9xWjxgakfdaoVgcn">
+        <correspAction xml:id="i-N7Pv4f9xWjxgakfdaoVgcn" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BoxPbNvZMTwJJWfbVbw8dk">
+        <correspAction xml:id="i-BoxPbNvZMTwJJWfbVbw8dk" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-K5aXidNERYBzSuQG6aPVUQ"/>
+        <correspAction xml:id="i-K5aXidNERYBzSuQG6aPVUQ" type="assigned"/>
         <correspContext corresp="i-K5aXidNERYBzSuQG6aPVUQ">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Kr_323/mot_200506_Kr_323-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EsGZPca6dwZAR6iR2566Dw">
-        <div type="motTitle" xml:id="i-DGi2Jf1WFg9xdEJwdXgT6s"/>
-        <div type="motSubmissionInfo" xml:id="i-SokTEcQXKsPT1VmtyhLmQB"/>
+      <div xml:id="i-EsGZPca6dwZAR6iR2566Dw" type="motHeader">
+        <div xml:id="i-DGi2Jf1WFg9xdEJwdXgT6s" type="motTitle"/>
+        <div xml:id="i-SokTEcQXKsPT1VmtyhLmQB" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CQCQ2bJNhVHrEuSJy5AhKz">
+      <div xml:id="i-CQCQ2bJNhVHrEuSJy5AhKz" type="motBody">
         <div xml:id="i-UBHaxT7Mkage6hKBbjNhEK">
           <p xml:id="i-GzpG9FAxvQKYgSKvEkQ1VW">
             2005/06 mnr: Kr323 pnr: kd925
@@ -185,8 +185,11 @@
             till sig kunskapen om betydelsen av vad design innebär för helande
             av ande, kropp och själ.
           </p>
-          <p xml:id="i-Xbjtkum1G3fKxpU3HdYoBz">
-            Stockholm den 26 september 2005 Annelie Enochson (kd)
+          <p xml:id="i-Xbjtkum1G3fKxpU3HdYoBz" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-6TPWFYqsXBhc4CX4NoDXqa">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00264">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-JGWppzsrDvoFiXyASZWa2q">
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QgczjdZSxQurB758hCNSZK">
+        <correspAction xml:id="i-QgczjdZSxQurB758hCNSZK" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QafVTct1SbCjREKPkQq7pN">
+        <correspAction xml:id="i-QafVTct1SbCjREKPkQq7pN" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-H92w29kDfVEvhwNKH9Z37S">
+        <correspAction xml:id="i-H92w29kDfVEvhwNKH9Z37S" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RtxsZ2RYZwtXsyBV6nqD1e"/>
+        <correspAction xml:id="i-RtxsZ2RYZwtXsyBV6nqD1e" type="assigned"/>
         <correspContext corresp="i-RtxsZ2RYZwtXsyBV6nqD1e">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0264/mot_200304_Sk_0264-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VFbsXmJHHqt1QZePuKya4b">
-        <div type="motTitle" xml:id="i-A6dEhnWR8pcb4jibRicsNM"/>
-        <div type="motSubmissionInfo" xml:id="i-2yTdBCDDC7uLustLTXpYGR"/>
+      <div xml:id="i-VFbsXmJHHqt1QZePuKya4b" type="motHeader">
+        <div xml:id="i-A6dEhnWR8pcb4jibRicsNM" type="motTitle"/>
+        <div xml:id="i-2yTdBCDDC7uLustLTXpYGR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KZCPYJ6HqVJhL3TvYdE6pP">
+      <div xml:id="i-KZCPYJ6HqVJhL3TvYdE6pP" type="motBody">
         <div xml:id="i-RFujQEAVkTMNQ5xyVYA3gW">
           <p xml:id="i-T1b9oijHVsZcfZQQHHjh2D">
             2003/04 mnr: Sk264 pnr: kd639
@@ -109,8 +109,11 @@
             ideella föreningar frigöra kapital och resurser som annars aldrig
             kommit dessa till del.
           </p>
-          <p xml:id="i-VscZpsPKVo5afXBg56Js31">
-            Stockholm den 30 september 2003 Tuve Skånberg (kd)
+          <p xml:id="i-VscZpsPKVo5afXBg56Js31" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-T2v6PcZhthMHER33pFyaiT">
+            Tuve Skånberg (kd)
           </p>
         </div>
       </div>

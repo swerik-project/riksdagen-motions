@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-KU-00218">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-8HiHungHEQFnPqnUhnscP3</idno>
-            <name>Martin Nilsson </name>
+            <name>Martin Nilsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-L7Ay5GaFaMutWEX7utMv62</idno>
-            <name>Ulrica Messing </name>
+            <name>Ulrica Messing</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-PdJw8xPqQjV6cBPBbRhsqT</idno>
-            <name>Kent Carlsson </name>
+            <name>Kent Carlsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -78,25 +78,25 @@
           <note type="signatory" corresp="i-L7Ay5GaFaMutWEX7utMv62"/>
           <note type="signatory" corresp="i-PdJw8xPqQjV6cBPBbRhsqT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RmzzRtrG7t1UBi2bb3GCP6">
+        <correspAction xml:id="i-RmzzRtrG7t1UBi2bb3GCP6" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-a87W8rUT6gJdPK73qxVoz">
+        <correspAction xml:id="i-a87W8rUT6gJdPK73qxVoz" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BifWJ1NPfqaZDQjNjUDA7L">
+        <correspAction xml:id="i-BifWJ1NPfqaZDQjNjUDA7L" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Y2MnYuA6Dt2GyR85N9Wdbr">
+        <correspAction xml:id="i-Y2MnYuA6Dt2GyR85N9Wdbr" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6DfHRjKtFoJLHo9pSv8Pgj">
+        <correspAction xml:id="i-6DfHRjKtFoJLHo9pSv8Pgj" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-G7DDPDMt2aAYq793EN12pV">
+        <correspAction xml:id="i-G7DDPDMt2aAYq793EN12pV" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GSAVMDjsNNHCukYtuUgnp5"/>
+        <correspAction xml:id="i-GSAVMDjsNNHCukYtuUgnp5" type="assigned"/>
         <correspContext corresp="i-GSAVMDjsNNHCukYtuUgnp5">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_KU_218/mot_199293_KU_218-001.pdf"/>
-      <div type="motHeader" xml:id="i-N7insf1vzpP3gRvdejRMJk">
-        <div type="motTitle" xml:id="i-CrwB84nZU8XMjSiZrc4qku"/>
-        <div type="motSubmissionInfo" xml:id="i-Xrc7hGxa5xDueBynyaH8VA"/>
+      <div xml:id="i-N7insf1vzpP3gRvdejRMJk" type="motHeader">
+        <div xml:id="i-CrwB84nZU8XMjSiZrc4qku" type="motTitle"/>
+        <div xml:id="i-Xrc7hGxa5xDueBynyaH8VA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9GcZn36M3QFsugesxxt2dJ">
+      <div xml:id="i-9GcZn36M3QFsugesxxt2dJ" type="motBody">
         <div xml:id="i-KSgojJL1ffbQRZ6EraR7uY">
           <p xml:id="i-NH1FLUFyqnYWkLr5nTckSR">
             Motion till riksdagen 1992/93:K218
@@ -404,8 +404,11 @@
             tionen anförts om parlamentariska styrelseformer i kommuner och
             landsting.
           </p>
-          <p xml:id="i-C3V89rjAeXq8CtBR8EVitG">
-            Stockholm den 25 januari 1993 Martin Nilsson (s)
+          <p xml:id="i-C3V89rjAeXq8CtBR8EVitG" type="date">
+            Stockholm den 25 januari 1993
+          </p>
+          <p type="signatureBlock" id="i-6iVRCmuJuYg5hxLpUvHy68">
+            Martin Nilsson (s)
           </p>
           <p xml:id="i-92tBMeJ5t7jYcgJUVkLTc5">
             Kent Carlsson (s) Ulrika Messing (s)

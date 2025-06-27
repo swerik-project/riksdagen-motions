@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00298">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-NENXWmvJudzJtNjKzMQ4Wa">
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AexUUfZQV1RKdo1tELDXL9">
+        <correspAction xml:id="i-AexUUfZQV1RKdo1tELDXL9" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-U3hG3KHZu3phH5XxFxmXVc">
+        <correspAction xml:id="i-U3hG3KHZu3phH5XxFxmXVc" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-URi6bUWAsV1yPLYgF65f2j">
+        <correspAction xml:id="i-URi6bUWAsV1yPLYgF65f2j" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-V7RE6ymUgJUAfpKTH75ziy"/>
+        <correspAction xml:id="i-V7RE6ymUgJUAfpKTH75ziy" type="assigned"/>
         <correspContext corresp="i-V7RE6ymUgJUAfpKTH75ziy">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0298/mot_200304_T_0298-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KUbgGzvxz96sD7NV4gpAZd">
-        <div type="motTitle" xml:id="i-3QTT8XsQ4zomhJVTZLJ7st"/>
-        <div type="motSubmissionInfo" xml:id="i-QxZjRdH9YhBtFkM57WeAWP"/>
+      <div xml:id="i-KUbgGzvxz96sD7NV4gpAZd" type="motHeader">
+        <div xml:id="i-3QTT8XsQ4zomhJVTZLJ7st" type="motTitle"/>
+        <div xml:id="i-QxZjRdH9YhBtFkM57WeAWP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KodVSXWFRPxKbRY9cWqB86">
+      <div xml:id="i-KodVSXWFRPxKbRY9cWqB86" type="motBody">
         <div xml:id="i-EZMKnxB5J3HzQ4hBz53w4f">
           <p xml:id="i-76rGU9ovR6rATG7jtPr2fw">
             2003/04 mnr: T298 pnr: kd629
@@ -173,8 +173,11 @@
           <p xml:id="i-E2BABhhDhaac9xjtXBbC5N">
             2003/04:T298
           </p>
-          <p xml:id="i-2o7JZiZqTW3vTc4DXHvShq">
-            Stockholm den 30 september 2003 Olle Sandahl (kd)
+          <p xml:id="i-2o7JZiZqTW3vTc4DXHvShq" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-35PfiVKmJTFKkNkm6bcAZh">
+            Olle Sandahl (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-NU-00048">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-JERWRnB227uTCW6FGLWfYs</idno>
-            <name>Hans Stenberg </name>
+            <name>Hans Stenberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-TZHBPDEfPriGgMd5y7LfJG</idno>
-            <name>Lars U Granberg </name>
+            <name>Lars U Granberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-Q5smfAWD9kCwe7tQviBPMn</idno>
-            <name>Carin Lundberg </name>
+            <name>Carin Lundberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-RcX1YDQ14i9XRzNNnPTqGu"/>
+        <correspAction xml:id="i-RcX1YDQ14i9XRzNNnPTqGu" type="basedOn"/>
         <correspContext corresp="i-RcX1YDQ14i9XRzNNnPTqGu">
           <ref>Proposition 1999/2000:140</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-Q5smfAWD9kCwe7tQviBPMn"/>
           <note type="signatory" corresp="i-TZHBPDEfPriGgMd5y7LfJG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-C6yhWGM6ssYRfscjjuEkzM">
+        <correspAction xml:id="i-C6yhWGM6ssYRfscjjuEkzM" type="referral">
           <date when="2000-07-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-W45pQVSiciXYW5FBNFxnCG">
+        <correspAction xml:id="i-W45pQVSiciXYW5FBNFxnCG" type="dismissal">
           <date when="2000-07-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-89gaTtc35iVcD4Ta84JXpa">
+        <correspAction xml:id="i-89gaTtc35iVcD4Ta84JXpa" type="submission">
           <date when="2000-06-29"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-5hB5Juj8sKr6aXHTdXdB7e">
+        <correspAction xml:id="i-5hB5Juj8sKr6aXHTdXdB7e" type="referral">
           <date when="2000-07-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EVTw7qoZqL6BPNYQCzFTKv">
+        <correspAction xml:id="i-EVTw7qoZqL6BPNYQCzFTKv" type="dismissal">
           <date when="2000-07-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2Wpd7d4NDERpQ9pQebmwfF">
+        <correspAction xml:id="i-2Wpd7d4NDERpQ9pQebmwfF" type="submission">
           <date when="2000-06-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FuwZpuadvimsCqgbkddgmD"/>
+        <correspAction xml:id="i-FuwZpuadvimsCqgbkddgmD" type="assigned"/>
         <correspContext corresp="i-FuwZpuadvimsCqgbkddgmD">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_N_0048/mot_199900_N_0048-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VXptF4ST8s6vsEPn3p5Dco">
-        <div type="motTitle" xml:id="i-KEtGHPTNEz1MEmFw1eWWWc"/>
-        <div type="motSubmissionInfo" xml:id="i-ER73wp9VJfrz7hSCL37U1m"/>
+      <div xml:id="i-VXptF4ST8s6vsEPn3p5Dco" type="motHeader">
+        <div xml:id="i-KEtGHPTNEz1MEmFw1eWWWc" type="motTitle"/>
+        <div xml:id="i-ER73wp9VJfrz7hSCL37U1m" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HGdRSXNuBdLHYa74SCswYS">
+      <div xml:id="i-HGdRSXNuBdLHYa74SCswYS" type="motBody">
         <div xml:id="i-APVq1LZcdhNMqKXq2myDpH">
           <p xml:id="i-CzA18v875y3FFVZN8QVa9">
             1999/2000 mnr: N48 pnr: s34001
@@ -177,8 +177,11 @@
             29
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_N_0048/mot_199900_N_0048-0002.pdf"/>
-          <p xml:id="i-HhoqztPwg3ScsLZYR4tEUN">
-            Stockholm den 28 juni 2000 Hans Stenberg (s)
+          <p xml:id="i-HhoqztPwg3ScsLZYR4tEUN" type="date">
+            Stockholm den 28 juni 2000
+          </p>
+          <p type="signatureBlock" id="i-CW8rXZ7uBjApiFj2QRkjbC">
+            Hans Stenberg (s)
           </p>
           <p xml:id="i-RvNWQFQdaX56nFAZqNjmu2">
             Carin Lundberg (s)

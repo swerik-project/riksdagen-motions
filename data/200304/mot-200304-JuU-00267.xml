@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00267">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-L1H4186XTnZFY3bg1ZtqyK">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RD8z1ou76my8kVxQbQsubk">
+        <correspAction xml:id="i-RD8z1ou76my8kVxQbQsubk" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9qmLeK7vrP7YXaqA1wigVT">
+        <correspAction xml:id="i-9qmLeK7vrP7YXaqA1wigVT" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EzWmSMoAAyuGKk2Uptiss6">
+        <correspAction xml:id="i-EzWmSMoAAyuGKk2Uptiss6" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9FnJbZuaFnbJpDHvikdtkk"/>
+        <correspAction xml:id="i-9FnJbZuaFnbJpDHvikdtkk" type="assigned"/>
         <correspContext corresp="i-9FnJbZuaFnbJpDHvikdtkk">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ju_0267/mot_200304_Ju_0267-0001.pdf"/>
-      <div type="motHeader" xml:id="i-B6HxPJBeYBmkry2YzTjHtx">
-        <div type="motTitle" xml:id="i-PuA4jr4r3BX4bo7i2Xf7oy"/>
-        <div type="motSubmissionInfo" xml:id="i-Nm1DwxpcJicHtKbDUMtVW9"/>
+      <div xml:id="i-B6HxPJBeYBmkry2YzTjHtx" type="motHeader">
+        <div xml:id="i-PuA4jr4r3BX4bo7i2Xf7oy" type="motTitle"/>
+        <div xml:id="i-Nm1DwxpcJicHtKbDUMtVW9" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SPQydAcJZQQa3vYtGk4k7S">
+      <div xml:id="i-SPQydAcJZQQa3vYtGk4k7S" type="motBody">
         <div xml:id="i-RoRBur9sFszw2DZSBnZNxB">
           <p xml:id="i-PUYtvj4GsxvCUHGeQuu7ft">
             2003/04 mnr: Ju267 pnr: kd601
@@ -156,8 +156,11 @@
             myndighet är mycket bra. Där kommer en brottsofferombudsman att
             behöva finnas med.
           </p>
-          <p xml:id="i-Jc93B86RBez9dwb4zXD3Wk">
-            Stockholm den 29 september 2003 Annelie Enochson (kd)
+          <p xml:id="i-Jc93B86RBez9dwb4zXD3Wk" type="date">
+            Stockholm den 29 september 2003
+          </p>
+          <p type="signatureBlock" id="i-VVztzPhMfmR8w13c2oVMvx">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

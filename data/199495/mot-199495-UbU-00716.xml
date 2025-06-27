@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-UbU-00716">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="man">
             <idno>i-LpTxkBd4YXu6ChW6t8S9rX</idno>
-            <name>Christer Skoog </name>
+            <name>Christer Skoog</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-USjy9qPfM1AoHPrniSWX79</idno>
-            <name>Magnus Johansson </name>
+            <name>Magnus Johansson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-LpTxkBd4YXu6ChW6t8S9rX"/>
           <note type="signatory" corresp="i-USjy9qPfM1AoHPrniSWX79"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-VcgrjndvMAEoqcb9kAJVZi">
+        <correspAction xml:id="i-VcgrjndvMAEoqcb9kAJVZi" type="submission">
           <date when="1995-01-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-zJmEuaXXGUSnfLrAZJAMw">
+        <correspAction xml:id="i-zJmEuaXXGUSnfLrAZJAMw" type="dismissal">
           <date when="1995-02-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7brMhSzvJh2uKNwBTmkCUN">
+        <correspAction xml:id="i-7brMhSzvJh2uKNwBTmkCUN" type="referral">
           <date when="1995-02-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9KGWEG4yJdg9WBaHieU2Tt">
+        <correspAction xml:id="i-9KGWEG4yJdg9WBaHieU2Tt" type="submission">
           <date when="1995-01-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FC4sEMdMuo4q7JQApgXpQN">
+        <correspAction xml:id="i-FC4sEMdMuo4q7JQApgXpQN" type="dismissal">
           <date when="1995-02-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-4MbJP4CYP6sptDfs6toGjm">
+        <correspAction xml:id="i-4MbJP4CYP6sptDfs6toGjm" type="referral">
           <date when="1995-02-08"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WytTV7HbqupAT1kj9S6pLD"/>
+        <correspAction xml:id="i-WytTV7HbqupAT1kj9S6pLD" type="assigned"/>
         <correspContext corresp="i-WytTV7HbqupAT1kj9S6pLD">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_UbU_716/mot_199495_UbU_716-001.pdf"/>
-      <div type="motHeader" xml:id="i-NLxysv8NpUa6fhyYZnGMZE">
-        <div type="motTitle" xml:id="i-BjcdTxtSbrE2HSxZnZWN2C"/>
-        <div type="motSubmissionInfo" xml:id="i-D5bAiqQnPnXoaenDSbnyqY"/>
+      <div xml:id="i-NLxysv8NpUa6fhyYZnGMZE" type="motHeader">
+        <div xml:id="i-BjcdTxtSbrE2HSxZnZWN2C" type="motTitle"/>
+        <div xml:id="i-D5bAiqQnPnXoaenDSbnyqY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YBfY7nyDmrZdXRPV65uWCA">
+      <div xml:id="i-YBfY7nyDmrZdXRPV65uWCA" type="motBody">
         <div xml:id="i-XhgCLSqzkaBgk7Mx9xNWzd">
           <p xml:id="i-Ns9Ceok8TcFwEgQnKEKbDW">
             Motion till riksdagen
@@ -166,8 +166,11 @@
             tionen anförts om behovet av en analys av resurstilldelningen
             till inred- ning och utrustning.
           </p>
-          <p xml:id="i-6xkYA6BkJaYkVYKQFMFk9D">
-            Stockholm den 25 januari 1995 Christer Skoog (s)
+          <p xml:id="i-6xkYA6BkJaYkVYKQFMFk9D" type="date">
+            Stockholm den 25 januari 1995
+          </p>
+          <p type="signatureBlock" id="i-8ywHDDhYcyQjGGLLWhTmSK">
+            Christer Skoog (s)
           </p>
           <p xml:id="i-RQUujugLMsrit4vMAq7orb">
             Karin Olsson (s) Magnus Johansson (s)

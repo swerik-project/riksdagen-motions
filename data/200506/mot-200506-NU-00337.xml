@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-NU-00337">
   <teiHeader>
     <fileDesc>
@@ -63,16 +63,16 @@
           <note type="signatory" corresp="i-EZRVrXd7dZCHpRgBpnf69S"/>
           <note type="signatory" corresp="i-UojdP4mF9dqkxf3QQ9oPFe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YR6qWqQsMFHtVFg8V6Qo7N">
+        <correspAction xml:id="i-YR6qWqQsMFHtVFg8V6Qo7N" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WoyqrP2iz4gxZamsiNS5au">
+        <correspAction xml:id="i-WoyqrP2iz4gxZamsiNS5au" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VeFHLcZbkFj23wyGCQM8Pn">
+        <correspAction xml:id="i-VeFHLcZbkFj23wyGCQM8Pn" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YXE1bYEECkC5g5bHLd2rVQ"/>
+        <correspAction xml:id="i-YXE1bYEECkC5g5bHLd2rVQ" type="assigned"/>
         <correspContext corresp="i-YXE1bYEECkC5g5bHLd2rVQ">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -87,11 +87,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_N_337/mot_200506_N_337-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Tnr96TTEV5c7H5VcstzFvf">
-        <div type="motTitle" xml:id="i-WQG3pbatXsGZ3DzFyNXGae"/>
-        <div type="motSubmissionInfo" xml:id="i-Eo1Kzyd5cHNF18GXgCSfDL"/>
+      <div xml:id="i-Tnr96TTEV5c7H5VcstzFvf" type="motHeader">
+        <div xml:id="i-WQG3pbatXsGZ3DzFyNXGae" type="motTitle"/>
+        <div xml:id="i-Eo1Kzyd5cHNF18GXgCSfDL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SxNd6hKh5ud7ZwbKPKpiro">
+      <div xml:id="i-SxNd6hKh5ud7ZwbKPKpiro" type="motBody">
         <div xml:id="i-QvFnk8McZmHu13mdMGuoTg">
           <p xml:id="i-EiVEZrg5dyMtktBGLQ4QbU">
             2005/06 mnr: N337 pnr: s11089
@@ -260,10 +260,12 @@
             är stort och initiativkraften god. Att det finns kvar är en nödvändig
             förutsättning för fortsatt utveckling. Men staten måste också
             fortsätta att ta sitt ansvar på samma sätt som man exempelvis
-            gjort med etableringen och utvecklandet av högskolan. Stockholm
-            den 30 september 2005
+            gjort med etableringen och utvecklandet av högskolan.
           </p>
-          <p xml:id="i-3bBJoA1H1Te9VwRykXnN7u">
+          <p type="date" id="i-W8SoJtSy4ZtdNyGjbGbQ5C">
+            Stockholm den 30 september 2005
+          </p>
+          <p xml:id="i-3bBJoA1H1Te9VwRykXnN7u" type="signatureBlock">
             Krister Örnfjäder (s) Ann-Marie Fagerström (s) Agneta Ringman
             (s) Håkan Juholt (s)
           </p>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00412">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-5sETD4bdwxH2Nct3Pi859k">
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Kwoib1dBMJtfqhLuhSeGpM">
+        <correspAction xml:id="i-Kwoib1dBMJtfqhLuhSeGpM" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-V3cA3D9kGLeDex9qhQQQgf">
+        <correspAction xml:id="i-V3cA3D9kGLeDex9qhQQQgf" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XE3jh6JPDHVqvDGzMUXwFE">
+        <correspAction xml:id="i-XE3jh6JPDHVqvDGzMUXwFE" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3s6rubckknTq3tGfMLYWtQ"/>
+        <correspAction xml:id="i-3s6rubckknTq3tGfMLYWtQ" type="assigned"/>
         <correspContext corresp="i-3s6rubckknTq3tGfMLYWtQ">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_412/mot_200405_Sk_412-0001.pdf"/>
-      <div type="motHeader" xml:id="i-A6VSxfLLbPfk1qj2ChbuwL">
-        <div type="motTitle" xml:id="i-PfpH5fYyQi1NSaQ85YQT2F"/>
-        <div type="motSubmissionInfo" xml:id="i-CTaCg1cUSVHz3Qpkr8trK2"/>
+      <div xml:id="i-A6VSxfLLbPfk1qj2ChbuwL" type="motHeader">
+        <div xml:id="i-PfpH5fYyQi1NSaQ85YQT2F" type="motTitle"/>
+        <div xml:id="i-CTaCg1cUSVHz3Qpkr8trK2" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MsW5TUvKzHGhSJvCSdDBn">
+      <div xml:id="i-MsW5TUvKzHGhSJvCSdDBn" type="motBody">
         <div xml:id="i-AE6q8TAeTJbJczR6KNdnp4">
           <p xml:id="i-47CKJXADuqaY4vmgVhX1nz">
             2004/05 mnr: Sk412 pnr: s3129
@@ -141,8 +141,11 @@
             i energiskattesammanhang ska åtnjuta samma regelverk som enskilda
             fruktodlingsföretag.
           </p>
-          <p xml:id="i-CsmWzoDkSh51icn2JcS13g">
-            Stockholm den 1 oktober 2004 Michael Hagberg (s)
+          <p xml:id="i-CsmWzoDkSh51icn2JcS13g" type="date">
+            Stockholm den 1 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-8KHVu4pn2kLD21oSuR2V2n">
+            Michael Hagberg (s)
           </p>
         </div>
       </div>

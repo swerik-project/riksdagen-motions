@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00352">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-4RfzVamcdcj6AKSdfua9UZ">
           <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QHZtkJfz54iYrnyPyT3deV">
+        <correspAction xml:id="i-QHZtkJfz54iYrnyPyT3deV" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XQQKfCs2AQsv8qpGBsTByk">
+        <correspAction xml:id="i-XQQKfCs2AQsv8qpGBsTByk" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HuK6sQ3bJzueLXGvMzwBN5">
+        <correspAction xml:id="i-HuK6sQ3bJzueLXGvMzwBN5" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4hoeM1xPyJUPLGg7BBeA9P"/>
+        <correspAction xml:id="i-4hoeM1xPyJUPLGg7BBeA9P" type="assigned"/>
         <correspContext corresp="i-4hoeM1xPyJUPLGg7BBeA9P">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_352/mot_200506_Ub_352-0001.pdf"/>
-      <div type="motHeader" xml:id="i-K3v6Je6jkMAnujsqCaLUuV">
-        <div type="motTitle" xml:id="i-SGTUXUwm5Qdmo8NwNC8QBy"/>
-        <div type="motSubmissionInfo" xml:id="i-GXWu9M1Yogwg6ddUDFtqQC"/>
+      <div xml:id="i-K3v6Je6jkMAnujsqCaLUuV" type="motHeader">
+        <div xml:id="i-SGTUXUwm5Qdmo8NwNC8QBy" type="motTitle"/>
+        <div xml:id="i-GXWu9M1Yogwg6ddUDFtqQC" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-APL4L4P6tk1pD7Ro1VwgL8">
+      <div xml:id="i-APL4L4P6tk1pD7Ro1VwgL8" type="motBody">
         <div xml:id="i-2f5Vt2jUL73nFCWVnpoyRP">
           <p xml:id="i-WYMiJfunNttXHReEVbuVpz">
             2005/06 mnr: Ub352 pnr: m1633
@@ -189,9 +189,12 @@
           </p>
           <p xml:id="i-Jds3eeqdaLVmwowTo88hmF">
             styrelse. Ett ytterligare alternativ är att denna organisationsform
-            införs i annan lag. Stockholm den 1 oktober 2005
+            införs i annan lag.
           </p>
-          <p xml:id="i-6DAWHjoao4b3XTd6uGoyWo">
+          <p type="date" id="i-LWrDDWrwLAvFF9BtMnXBic">
+            Stockholm den 1 oktober 2005
+          </p>
+          <p xml:id="i-6DAWHjoao4b3XTd6uGoyWo" type="signatureBlock">
             Gunnar Axén (m)
           </p>
         </div>

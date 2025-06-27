@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-BoU-00215">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-LUeSTNnMBwyC7Vv1VR1qH">
           <note type="signatory" corresp="i-JJGD2ECwHv6xGCZyyrtKmA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FZ1ojdfyYE35ekALhGvPsH">
+        <correspAction xml:id="i-FZ1ojdfyYE35ekALhGvPsH" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9G6qrNwB51VMk2zEpeTsTB">
+        <correspAction xml:id="i-9G6qrNwB51VMk2zEpeTsTB" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4xXbgNk5NPP7yLkNJMDXk3">
+        <correspAction xml:id="i-4xXbgNk5NPP7yLkNJMDXk3" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WaSiGdyvztbiBMxDZ7aJWZ"/>
+        <correspAction xml:id="i-WaSiGdyvztbiBMxDZ7aJWZ" type="assigned"/>
         <correspContext corresp="i-WaSiGdyvztbiBMxDZ7aJWZ">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -66,11 +66,11 @@
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Bo_215/mot_200405_Bo_215-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Bo_0215/mot_200405_Bo_0215-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Bo_0215/mot_200405_Bo_0215-001.pdf"/>
-      <div type="motHeader" xml:id="i-AoD9LokcDTX1hxuiXTA2rq">
-        <div type="motTitle" xml:id="i-PUJv3Kghp8pQrF49f6aU9e"/>
-        <div type="motSubmissionInfo" xml:id="i-QEgoocpQPGPTYu7Khf4i3H"/>
+      <div xml:id="i-AoD9LokcDTX1hxuiXTA2rq" type="motHeader">
+        <div xml:id="i-PUJv3Kghp8pQrF49f6aU9e" type="motTitle"/>
+        <div xml:id="i-QEgoocpQPGPTYu7Khf4i3H" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-S4vAhwhTxhdk3R29y6yPQS">
+      <div xml:id="i-S4vAhwhTxhdk3R29y6yPQS" type="motBody">
         <div xml:id="i-35KBUGExXKBxdGv178ShM4">
           <p xml:id="i-2Aj18VpLyjLH1uE3aq3kmK">
             2004/05 mnr: Bo215 pnr: m1332
@@ -109,8 +109,11 @@
             fastigheter m.m. Nu är det dags att gå från ord till handling.
             Rensa upp i lagstiftningen så att bullerservitut kan införas.
           </p>
-          <p xml:id="i-VuJHmJzB8ogKVDmhCHZ6xE">
-            Stockholm den 27 september 2004 Carl-Axel Roslund (m)
+          <p xml:id="i-VuJHmJzB8ogKVDmhCHZ6xE" type="date">
+            Stockholm den 27 september 2004
+          </p>
+          <p type="signatureBlock" id="i-7j9mRcB9M53zdkdhMstzYC">
+            Carl-Axel Roslund (m)
           </p>
         </div>
       </div>

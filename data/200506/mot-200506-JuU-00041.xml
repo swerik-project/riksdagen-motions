@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00041">
   <teiHeader>
     <fileDesc>
@@ -70,7 +70,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7j8Rnyydi1sJ21H2vuqryS"/>
+        <correspAction xml:id="i-7j8Rnyydi1sJ21H2vuqryS" type="basedOn"/>
         <correspContext corresp="i-7j8Rnyydi1sJ21H2vuqryS">
           <ref>Proposition 2005/06:165</ref>
         </correspContext>
@@ -83,19 +83,19 @@
           <note type="signatory" corresp="i-EFJ93MgPh6dJrzDB1Tt657"/>
           <note type="signatory" corresp="i-SmQxY46smWu5awEQ2oGr4n"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-S7E8gcm9GePce1MpJvUuzS">
+        <correspAction xml:id="i-S7E8gcm9GePce1MpJvUuzS" type="referral">
           <date when="2006-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2bytpm5RmyuvuX7JxpE8J5">
+        <correspAction xml:id="i-2bytpm5RmyuvuX7JxpE8J5" type="dismissal">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BJeVFGsCooNy6icB8YDRqV">
+        <correspAction xml:id="i-BJeVFGsCooNy6icB8YDRqV" type="dismissal">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-E2aLZVUmoGqG6t4HJJYUQd">
+        <correspAction xml:id="i-E2aLZVUmoGqG6t4HJJYUQd" type="submission">
           <date when="2006-04-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NJpqpC6MJwQ67kBrpy9nDd"/>
+        <correspAction xml:id="i-NJpqpC6MJwQ67kBrpy9nDd" type="assigned"/>
         <correspContext corresp="i-NJpqpC6MJwQ67kBrpy9nDd">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_41/mot_200506_Ju_41-0001.pdf"/>
-      <div type="motHeader" xml:id="i-81z2ccpEkyrMH5dyk5bcST">
-        <div type="motTitle" xml:id="i-DH48JqJJegy7KDW3ocmhG2"/>
-        <div type="motSubmissionInfo" xml:id="i-A8z3v7SaXwmCdj4hKe2iCA"/>
+      <div xml:id="i-81z2ccpEkyrMH5dyk5bcST" type="motHeader">
+        <div xml:id="i-DH48JqJJegy7KDW3ocmhG2" type="motTitle"/>
+        <div xml:id="i-A8z3v7SaXwmCdj4hKe2iCA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-E5oidQTJb9NQrArzNsu41V">
+      <div xml:id="i-E5oidQTJb9NQrArzNsu41V" type="motBody">
         <div xml:id="i-UzXXLYsvnad3FtfSwFLTf5">
           <p xml:id="i-7BzQXNzRr6M8WdRDb8rtjs">
             2005/06 mnr: Ju41 pnr: kd168
@@ -566,8 +566,11 @@
             för de unga och en person bör inte straffas för att medbrottslingarna
             inte gör rätt för sig.
           </p>
-          <p xml:id="i-XQX2SFm2emNSRxu39cg39i">
-            Stockholm den 5 april 2006 Peter Althin (kd)
+          <p xml:id="i-XQX2SFm2emNSRxu39cg39i" type="date">
+            Stockholm den 5 april 2006
+          </p>
+          <p type="signatureBlock" id="i-H2WTiq4Bs4K5R4ySXhDPPM">
+            Peter Althin (kd)
           </p>
           <p xml:id="i-NsvbMy2CoskGhGaRe4mZbt">
             Olle Sandahl (kd) Ingvar Svensson (kd) Helena Höij (kd) Yvonne

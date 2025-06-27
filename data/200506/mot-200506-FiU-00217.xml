@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-FiU-00217">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-MQxtRkaKY7fRMrw7gnXKsf"/>
           <note type="signatory" corresp="i-KNqtzTyLq88RopWq6R35xs"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EKWuzbEUTu9TfGq57ar8Y9">
+        <correspAction xml:id="i-EKWuzbEUTu9TfGq57ar8Y9" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7yYMRUffEyaW3DM9E53wHS">
+        <correspAction xml:id="i-7yYMRUffEyaW3DM9E53wHS" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WZVBoLkHArYYaW1K63CZLM">
+        <correspAction xml:id="i-WZVBoLkHArYYaW1K63CZLM" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-73ykutZrtMT3jicDuCv8ou"/>
+        <correspAction xml:id="i-73ykutZrtMT3jicDuCv8ou" type="assigned"/>
         <correspContext corresp="i-73ykutZrtMT3jicDuCv8ou">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Fi_217/mot_200506_Fi_217-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TUv9vwJteRKAWGZuaHV7YU">
-        <div type="motTitle" xml:id="i-KKotuG3TmU1n3MzqNxai9V"/>
-        <div type="motSubmissionInfo" xml:id="i-65igrQrhsPReaYYUFUWCKL"/>
+      <div xml:id="i-TUv9vwJteRKAWGZuaHV7YU" type="motHeader">
+        <div xml:id="i-KKotuG3TmU1n3MzqNxai9V" type="motTitle"/>
+        <div xml:id="i-65igrQrhsPReaYYUFUWCKL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MM7Z8TQs2BcUSTzmbzvSww">
+      <div xml:id="i-MM7Z8TQs2BcUSTzmbzvSww" type="motBody">
         <div xml:id="i-SX8kRLozPY1QMzt4VwBJ3o">
           <p xml:id="i-DtSjbQKDVfQfDnNMNj5F1G">
             2005/06 mnr: Fi217 pnr: s36012
@@ -135,9 +135,11 @@
             tillsyn när det gäller hur de finansiella företagen utformar sina
             erbjudanden.
           </p>
-          <p xml:id="i-9yzK9keNaFmDNThEJvKWEp">
-            Stockholm den 26 september 2005 Ulla Wester (s) Ronny Olander
-            (s)
+          <p xml:id="i-9yzK9keNaFmDNThEJvKWEp" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-BTHCzjGXoy587YDndLAa78">
+            Ulla Wester (s) Ronny Olander (s)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00472">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-JrnJ7zG1qrrezx8jvaKLne">
           <note type="signatory" corresp="i-BvxBJicYo5FW1E9fuXk8LW"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-U6HKbYMTxkAtxcRG7H2Go7">
+        <correspAction xml:id="i-U6HKbYMTxkAtxcRG7H2Go7" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8K4yxD8X91E7b5KANv3Q7A">
+        <correspAction xml:id="i-8K4yxD8X91E7b5KANv3Q7A" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-S5WMkRxJixNGzgxjJ1J25D">
+        <correspAction xml:id="i-S5WMkRxJixNGzgxjJ1J25D" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MkEVgDE2bgHfB4jwHVLhG2"/>
+        <correspAction xml:id="i-MkEVgDE2bgHfB4jwHVLhG2" type="assigned"/>
         <correspContext corresp="i-MkEVgDE2bgHfB4jwHVLhG2">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_472/mot_200506_Sk_472-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Ar1BNfBGXV3YrNihk6U17n">
-        <div type="motTitle" xml:id="i-TdBx7ktpjis2THob4dEGVn"/>
-        <div type="motSubmissionInfo" xml:id="i-SXX6zJYtivTAZbjfMnn6ah"/>
+      <div xml:id="i-Ar1BNfBGXV3YrNihk6U17n" type="motHeader">
+        <div xml:id="i-TdBx7ktpjis2THob4dEGVn" type="motTitle"/>
+        <div xml:id="i-SXX6zJYtivTAZbjfMnn6ah" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-W9rMXqmnw4M8Ddxxk81d3J">
+      <div xml:id="i-W9rMXqmnw4M8Ddxxk81d3J" type="motBody">
         <div xml:id="i-XorHe7XcE7ZPU25qHST7yz">
           <p xml:id="i-GFtupp2qsuDQGJNhPoTXFM">
             2005/06 mnr: Sk472 pnr: v754
@@ -137,8 +137,11 @@
             A-SINK reglerna bör förtydligas i det avseendet. Detta bör riksdagen
             som sin mening ge regeringen till känna.
           </p>
-          <p xml:id="i-6xH95kJaa99FkSDtskMvAY">
-            Stockholm den 4 oktober 2005 Owe Hellberg (v)
+          <p xml:id="i-6xH95kJaa99FkSDtskMvAY" type="date">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-U6giJwJRxHqpEAwKyCcQbF">
+            Owe Hellberg (v)
           </p>
         </div>
       </div>

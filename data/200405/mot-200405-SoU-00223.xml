@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00223">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-KdNZEf7wb1MAJv58QEHYrr"/>
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5n62DX4E28qhXsq56sRGEj">
+        <correspAction xml:id="i-5n62DX4E28qhXsq56sRGEj" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QDUF2oriHV6BQa2LNq4smT">
+        <correspAction xml:id="i-QDUF2oriHV6BQa2LNq4smT" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-P6xXW444bLnHyqXPkUsarT">
+        <correspAction xml:id="i-P6xXW444bLnHyqXPkUsarT" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PM3vRTS5aFxi4XajqC6hN2"/>
+        <correspAction xml:id="i-PM3vRTS5aFxi4XajqC6hN2" type="assigned"/>
         <correspContext corresp="i-PM3vRTS5aFxi4XajqC6hN2">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_223/mot_200405_So_223-0001.pdf"/>
-      <div type="motHeader" xml:id="i-GgqpPnvKv7MgZbi3pAsguV">
-        <div type="motTitle" xml:id="i-FumBxamn4Zc9Lfe3AgnAco"/>
-        <div type="motSubmissionInfo" xml:id="i-7YZu6kRKiE9FNn17hKZ8EH"/>
+      <div xml:id="i-GgqpPnvKv7MgZbi3pAsguV" type="motHeader">
+        <div xml:id="i-FumBxamn4Zc9Lfe3AgnAco" type="motTitle"/>
+        <div xml:id="i-7YZu6kRKiE9FNn17hKZ8EH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HcCCNypX9hHyqde1wkdPMK">
+      <div xml:id="i-HcCCNypX9hHyqde1wkdPMK" type="motBody">
         <div xml:id="i-UMqeCp3Nmic6D9o2KbkF8D">
           <p xml:id="i-Qx3WZyA5NBgk38YYB5YssN">
             2004/05 mnr: S0223 pnr: m1207
@@ -139,9 +139,11 @@
             individualiseras biståndet och biståndstagaren får själv inflytande
             och makt över sin egen situation.
           </p>
-          <p xml:id="i-SudMVPBD2NAGd2ojJeFf8F">
-            Stockholm den 21 september 2004 Göran Lindblad (m) Ulf Sjösten
-            (m)
+          <p xml:id="i-SudMVPBD2NAGd2ojJeFf8F" type="date">
+            Stockholm den 21 september 2004
+          </p>
+          <p type="signatureBlock" id="i-E7r57hrFM2oA8qNEtWN1E7">
+            Göran Lindblad (m) Ulf Sjösten (m)
           </p>
         </div>
       </div>

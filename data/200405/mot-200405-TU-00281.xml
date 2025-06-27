@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00281">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Cw3ai9bLFpfZfAzX6oLgtC">
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-X21yv8NRF91KgfPp1LaBN6">
+        <correspAction xml:id="i-X21yv8NRF91KgfPp1LaBN6" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-15FyQncXbv54HAsUisbtmW">
+        <correspAction xml:id="i-15FyQncXbv54HAsUisbtmW" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AGQobMRFsnQ9yP6FyKdKsG">
+        <correspAction xml:id="i-AGQobMRFsnQ9yP6FyKdKsG" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5Ypqx2RQfF3BDkNJnLUg7t"/>
+        <correspAction xml:id="i-5Ypqx2RQfF3BDkNJnLUg7t" type="assigned"/>
         <correspContext corresp="i-5Ypqx2RQfF3BDkNJnLUg7t">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_281/mot_200405_T_281-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9WtdcGCRETQZiYNMyS9Pqp">
-        <div type="motTitle" xml:id="i-GUnbWtYscTwbAv81bz5tyv"/>
-        <div type="motSubmissionInfo" xml:id="i-4M2fWxtbpiEE1LQa9YW67s"/>
+      <div xml:id="i-9WtdcGCRETQZiYNMyS9Pqp" type="motHeader">
+        <div xml:id="i-GUnbWtYscTwbAv81bz5tyv" type="motTitle"/>
+        <div xml:id="i-4M2fWxtbpiEE1LQa9YW67s" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4tgybLa9BzbhcMygVuhNse">
+      <div xml:id="i-4tgybLa9BzbhcMygVuhNse" type="motBody">
         <div xml:id="i-4SZfsmctUhWf6PqcFz7MLS">
           <p xml:id="i-6zUrSxTNyLSXV92SrcBFhg">
             2004/05 mnr: T281 pnr: kd660
@@ -151,8 +151,11 @@
             för trafiken anpassas. SJ ska offentligt särredovisa intäkter
             och kostnader för den regionala trafiken i området.
           </p>
-          <p xml:id="i-Fv4PrdLoYhJtcTShsmXW7i">
-            Stockholm den 28 september 2004 Ragnwi Marcelind (kd)
+          <p xml:id="i-Fv4PrdLoYhJtcTShsmXW7i" type="date">
+            Stockholm den 28 september 2004
+          </p>
+          <p type="signatureBlock" id="i-2Avx8kQc9tUHnQbJZg1hMH">
+            Ragnwi Marcelind (kd)
           </p>
         </div>
       </div>

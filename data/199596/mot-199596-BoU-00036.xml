@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-BoU-00036">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-CZYhqMaUy5VkTwsMNWg9pc</idno>
-            <name>Inga Berggren </name>
+            <name>Inga Berggren</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KXKtTsCLcF7c1fdsbZqE8G"/>
+        <correspAction xml:id="i-KXKtTsCLcF7c1fdsbZqE8G" type="basedOn"/>
         <correspContext corresp="i-KXKtTsCLcF7c1fdsbZqE8G">
           <ref>Proposition 1995/96:224</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-CZYhqMaUy5VkTwsMNWg9pc"/>
           <note type="signatory" corresp="i-CZYhqMaUy5VkTwsMNWg9pc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RsoEFeHP7XUAG1U9MoFqSJ">
+        <correspAction xml:id="i-RsoEFeHP7XUAG1U9MoFqSJ" type="referral">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Jsm89HxE5AfkiqVT3WWMsJ">
+        <correspAction xml:id="i-Jsm89HxE5AfkiqVT3WWMsJ" type="dismissal">
           <date when="1996-06-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NofpexjrNwCpyviZ3hW8Z6">
+        <correspAction xml:id="i-NofpexjrNwCpyviZ3hW8Z6" type="submission">
           <date when="1996-06-12"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Pv3AvYKkMpuyKGFbiu6LLV">
+        <correspAction xml:id="i-Pv3AvYKkMpuyKGFbiu6LLV" type="referral">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-89SVVcnN4eFMsm28dRE1bS">
+        <correspAction xml:id="i-89SVVcnN4eFMsm28dRE1bS" type="dismissal">
           <date when="1996-06-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SdBmQcEpaJcZQu5YDRiR25">
+        <correspAction xml:id="i-SdBmQcEpaJcZQu5YDRiR25" type="submission">
           <date when="1996-06-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-F6Vx2nqZZDZrZ543dymjY9"/>
+        <correspAction xml:id="i-F6Vx2nqZZDZrZ543dymjY9" type="assigned"/>
         <correspContext corresp="i-F6Vx2nqZZDZrZ543dymjY9">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_BO_0036/mot_199596_BO_0036-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_BO_0036/mot_199596_BO_0036-001.pdf"/>
-      <div type="motHeader" xml:id="i-4Uwz3JctKSAaBr3BjGVcAx">
-        <div type="motTitle" xml:id="i-6J1ahmDRWUKnvxpgdbwD6y"/>
-        <div type="motSubmissionInfo" xml:id="i-MQbxei9Sz4VrsPKn8M6hu5"/>
+      <div xml:id="i-4Uwz3JctKSAaBr3BjGVcAx" type="motHeader">
+        <div xml:id="i-6J1ahmDRWUKnvxpgdbwD6y" type="motTitle"/>
+        <div xml:id="i-MQbxei9Sz4VrsPKn8M6hu5" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TKEGttDCZENB5xkEu4TtEt">
+      <div xml:id="i-TKEGttDCZENB5xkEu4TtEt" type="motBody">
         <div xml:id="i-HnyJBrjUxPTyFGy48JWMXC">
           <p xml:id="i-JvoEDDRLE1X3q7XnEMLdtg">
             1995/96 Bo36 Bo34-38
@@ -182,8 +182,11 @@
             och 1998 skall ske så att mandatfördelningen motsvarar resultatet
             i 1994 års val i enlighet med vad som anförts i motionen.
           </p>
-          <p xml:id="i-DpNbzPMRiC9Caq1nPjVWGH">
-            Stockholm den 12 juni 1996 Inga Berggren (m)
+          <p xml:id="i-DpNbzPMRiC9Caq1nPjVWGH" type="date">
+            Stockholm den 12 juni 1996
+          </p>
+          <p type="signatureBlock" id="i-4F2wsG1J4uw4gzyErz52oP">
+            Inga Berggren (m)
           </p>
           <p xml:id="i-WtQPpRwu27oaJDCjNdUGSF">
             Bo Lundgren (m) Bertil Persson (m)

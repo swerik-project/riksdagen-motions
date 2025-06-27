@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00372">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-BXpR2GEHKN2fK4Av22X32z"/>
           <note type="signatory" corresp="i-KaSxq71cfsHXLTkod92hHL"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-V1CsDo4Tc59Awk2xAgD7kq">
+        <correspAction xml:id="i-V1CsDo4Tc59Awk2xAgD7kq" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-j57QWBPAUkiWSvCQYFEcM">
+        <correspAction xml:id="i-j57QWBPAUkiWSvCQYFEcM" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6ZCNKtfJBgBCe5oR6SpQJY">
+        <correspAction xml:id="i-6ZCNKtfJBgBCe5oR6SpQJY" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-ZNq8RZRwLhFmdq5WhhVcC"/>
+        <correspAction xml:id="i-ZNq8RZRwLhFmdq5WhhVcC" type="assigned"/>
         <correspContext corresp="i-ZNq8RZRwLhFmdq5WhhVcC">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_372/mot_200405_T_372-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NBUdV1YCXddf9gu4eCczZ1">
-        <div type="motTitle" xml:id="i-4CY2EpVWjiqxtPJUkjEJKS"/>
-        <div type="motSubmissionInfo" xml:id="i-PGBPqnm56jv1tJayPErCsi"/>
+      <div xml:id="i-NBUdV1YCXddf9gu4eCczZ1" type="motHeader">
+        <div xml:id="i-4CY2EpVWjiqxtPJUkjEJKS" type="motTitle"/>
+        <div xml:id="i-PGBPqnm56jv1tJayPErCsi" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JZsmz5pX1Ku8RpuQXJeG7j">
+      <div xml:id="i-JZsmz5pX1Ku8RpuQXJeG7j" type="motBody">
         <div xml:id="i-37BNogjHE6m1wAkwopHBp4">
           <p xml:id="i-SDTN2pyDGX6XDqudNrQtwT">
             2004/05 mnr: T372 pnr: s44119
@@ -123,9 +123,11 @@
           <p xml:id="i-3dJxPyQUcgBCzVfXPgJaB6">
             nytillverkade bilar.
           </p>
-          <p xml:id="i-C3XUMoYq521VqKB3xCMyxk">
-            Stockholm den 1 oktober 2004 Birgitta Ahlqvist (s) Birgitta Gidblom
-            (s)
+          <p xml:id="i-C3XUMoYq521VqKB3xCMyxk" type="date">
+            Stockholm den 1 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-EKTPTPiaDja2DjTskoLKZA">
+            Birgitta Ahlqvist (s) Birgitta Gidblom (s)
           </p>
         </div>
       </div>

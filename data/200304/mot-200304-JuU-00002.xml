@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00002">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7wUy7epRqXCeHhiiHqa5Br"/>
+        <correspAction xml:id="i-7wUy7epRqXCeHhiiHqa5Br" type="basedOn"/>
         <correspContext corresp="i-7wUy7epRqXCeHhiiHqa5Br">
           <ref>Proposition 2003/04:3</ref>
         </correspContext>
@@ -82,19 +82,19 @@
           <note type="signatory" corresp="i-P2x4fiHNXrW2XTzJZRJeJJ"/>
           <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-gDr1PR3d7BSePn1BaYyif">
+        <correspAction xml:id="i-gDr1PR3d7BSePn1BaYyif" type="referral">
           <date when="2003-10-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DfF63vCy1LSdsy8uBrnk9o">
+        <correspAction xml:id="i-DfF63vCy1LSdsy8uBrnk9o" type="dismissal">
           <date when="2003-10-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M9LcTveUNMyiJK1BRZqfBP">
+        <correspAction xml:id="i-M9LcTveUNMyiJK1BRZqfBP" type="submission">
           <date when="2003-10-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XkSVh9MzBYfZ5h2SoEiWW9">
+        <correspAction xml:id="i-XkSVh9MzBYfZ5h2SoEiWW9" type="submission">
           <date when="2003-10-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-ByZ1WSmbiZu29P8dGAppHp"/>
+        <correspAction xml:id="i-ByZ1WSmbiZu29P8dGAppHp" type="assigned"/>
         <correspContext corresp="i-ByZ1WSmbiZu29P8dGAppHp">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ju_0002/mot_200304_Ju_0002-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8q3RZuBrPknWLW933hJJQG">
-        <div type="motTitle" xml:id="i-3aLvDKR3ChkW34yd2v3SYy"/>
-        <div type="motSubmissionInfo" xml:id="i-XyiCumF66DZLjjyHhPvCLw"/>
+      <div xml:id="i-8q3RZuBrPknWLW933hJJQG" type="motHeader">
+        <div xml:id="i-3aLvDKR3ChkW34yd2v3SYy" type="motTitle"/>
+        <div xml:id="i-XyiCumF66DZLjjyHhPvCLw" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-M6P3UCKHUFm5YvQSVkVS99">
+      <div xml:id="i-M6P3UCKHUFm5YvQSVkVS99" type="motBody">
         <div xml:id="i-7rCgmYpE5SLNzDyepZhpU1">
           <p xml:id="i-Fz44vRwNQoVBuaxtSy1Mh7">
             2003/04 mnr: Ju2 pnr: m208
@@ -277,10 +277,12 @@
           </p>
           <p xml:id="i-GjxhG1FJa1xfLwDt5M4Luf">
             Drogtester bör användas i ökad utsträckning. Intagna bör endast
-            få tillgodoräkna sig påvisad drogfri tid som avtjänad tid. Stockholm
-            den 15 oktober 2003
+            få tillgodoräkna sig påvisad drogfri tid som avtjänad tid.
           </p>
-          <p xml:id="i-JwCQCsGKJ9sGwqu2jzUm7L">
+          <p type="date" id="i-J8rqueJ6LZSexzdH1gxiZF">
+            Stockholm den 15 oktober 2003
+          </p>
+          <p xml:id="i-JwCQCsGKJ9sGwqu2jzUm7L" type="signatureBlock">
             Beatrice Ask (m) Jeppe Johnsson (m) Cecilia Magnusson (m) Hillevi
             Engström (m) Bengt-Anders Johansson (m)
           </p>

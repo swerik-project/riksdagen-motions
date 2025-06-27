@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-AU-00119">
   <teiHeader>
     <fileDesc>
@@ -75,21 +75,21 @@
           </person>
           <person gender="woman">
             <idno>i-8MNvcPrNhVW2gd9o1fiYTU</idno>
-            <name>Anna Horn af Rantzien </name>
+            <name>Anna Horn af Rantzien</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-T3gdjsEDM8Rwzy9YJpgufQ</idno>
-            <name>Inger Schörling </name>
+            <name>Inger Schörling</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-4dim1Fo5tt4Pc2BXAe9wjD</idno>
-            <name>Lars Norberg </name>
+            <name>Lars Norberg</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -97,7 +97,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-CDuzgWCxdocS6jYDZSGd54"/>
+        <correspAction xml:id="i-CDuzgWCxdocS6jYDZSGd54" type="basedOn"/>
         <correspContext corresp="i-CDuzgWCxdocS6jYDZSGd54">
           <ref>Proposition 1989/90:125</ref>
         </correspContext>
@@ -114,16 +114,16 @@
           <note type="signatory" corresp="i-T3gdjsEDM8Rwzy9YJpgufQ"/>
           <note type="signatory" corresp="i-4dim1Fo5tt4Pc2BXAe9wjD"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-XEAnBCEf6F5gapr1JMY8J3">
+        <correspAction xml:id="i-XEAnBCEf6F5gapr1JMY8J3" type="submission">
           <date when="1990-04-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4w9RDirbGzM4HbGMaTYsLL">
+        <correspAction xml:id="i-4w9RDirbGzM4HbGMaTYsLL" type="dismissal">
           <date when="1990-04-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-FNHsSQatfxvGKNnPozGv7U">
+        <correspAction xml:id="i-FNHsSQatfxvGKNnPozGv7U" type="referral">
           <date when="1990-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NPntDMtP4xifrbZEGSavKH">
+        <correspAction xml:id="i-NPntDMtP4xifrbZEGSavKH" type="assigned">
           <date when="2014-11-22"/>
           <time when="21:11:08"/>
         </correspAction>
@@ -139,11 +139,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_a_119/mot_198990_a_119-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-Ry8tv49efGfQmZCeKB2mJB">
-        <div type="motTitle" xml:id="i-HFmFRUrRCr2j4chjcVxSy8"/>
-        <div type="motSubmissionInfo" xml:id="i-D6VJKMnLBc9JKiJ5YR73PM"/>
+      <div xml:id="i-Ry8tv49efGfQmZCeKB2mJB" type="motHeader">
+        <div xml:id="i-HFmFRUrRCr2j4chjcVxSy8" type="motTitle"/>
+        <div xml:id="i-D6VJKMnLBc9JKiJ5YR73PM" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-S3HhQSsrhnjnJYLWET5Fe4">
+      <div xml:id="i-S3HhQSsrhnjnJYLWET5Fe4" type="motBody">
         <div xml:id="i-GhxvvXcNKocif8QmDZ4a83">
           <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_a_119/mot_198990_a_119-001-002.pdf"/>
           <p xml:id="i-f8DVB2AfvndfANTC6PCPV">
@@ -218,8 +218,11 @@
             som sin mening ger regeringen till känna att verk- samheten årligen
             bör redovisas för riksdagen.
           </p>
-          <p xml:id="i-No5LdyALLXhyaibmhaeufL">
-            Stockholm den 30 mars 1990 Anna Horn af Rantzien (mp)
+          <p xml:id="i-No5LdyALLXhyaibmhaeufL" type="date">
+            Stockholm den 30 mars 1990
+          </p>
+          <p type="signatureBlock" id="i-9Kdh5GPg84PxKzaFW3Vqqf">
+            Anna Horn af Rantzien (mp)
           </p>
           <p xml:id="i-4kMnyf95ej7ykGnxYQbtDg">
             Inger Schörling (mp) Lars Norberg (mp)

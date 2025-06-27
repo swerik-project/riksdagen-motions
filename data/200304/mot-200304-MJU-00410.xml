@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00410">
   <teiHeader>
     <fileDesc>
@@ -118,16 +118,16 @@
           <note type="signatory" corresp="i-LqvLajCTsK6crqsTTth9uu"/>
           <note type="signatory" corresp="i-WTCYyz27itjvuvffL1vZLi"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EtQJgvZyn9KWFsWXCL6H6u">
+        <correspAction xml:id="i-EtQJgvZyn9KWFsWXCL6H6u" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3ysPNSC3RxcT3u92oh36YD">
+        <correspAction xml:id="i-3ysPNSC3RxcT3u92oh36YD" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-B6iH4zdWTdCecGSyCXfKYU">
+        <correspAction xml:id="i-B6iH4zdWTdCecGSyCXfKYU" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-W45Cae1TPN22QvDvCYRBtR"/>
+        <correspAction xml:id="i-W45Cae1TPN22QvDvCYRBtR" type="assigned"/>
         <correspContext corresp="i-W45Cae1TPN22QvDvCYRBtR">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -142,11 +142,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_MJ_0410/mot_200304_MJ_0410-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QUAM1R9iQzQAdhYBKTugRT">
-        <div type="motTitle" xml:id="i-6GjVPpTPS7gkoL1knLUKiW"/>
-        <div type="motSubmissionInfo" xml:id="i-CoerXAd1U6hB64w3QKdWDM"/>
+      <div xml:id="i-QUAM1R9iQzQAdhYBKTugRT" type="motHeader">
+        <div xml:id="i-6GjVPpTPS7gkoL1knLUKiW" type="motTitle"/>
+        <div xml:id="i-CoerXAd1U6hB64w3QKdWDM" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YHuPH7N2TTvxmk6T48ne1f">
+      <div xml:id="i-YHuPH7N2TTvxmk6T48ne1f" type="motBody">
         <div xml:id="i-JD7D42VT779qDgQ9SK6nsE">
           <p xml:id="i-sufjmJXxkqAbVygwGEfa2">
             2003/04 mnr: MJ410
@@ -1042,8 +1042,11 @@
             och män. Detta bör riksdagen som sin mening ge regeringen till
             känna.
           </p>
-          <p xml:id="i-KYZGhzfy2yvRbjX4CkwXta">
-            Stockholm den 2 oktober 2003 Ulla Hoffmann (v)
+          <p xml:id="i-KYZGhzfy2yvRbjX4CkwXta" type="date">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-MQB8QHkNBwvBwnQZA73vQr">
+            Ulla Hoffmann (v)
           </p>
           <p xml:id="i-9u9eesDk6zDfZHfoUgk5gL">
             Lars Bäckström (v) Rossana Dinamarca (v) Mats Einarsson (v) Marie

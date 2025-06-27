@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-202021-TU-02805">
   <teiHeader>
     <fileDesc>
@@ -73,25 +73,25 @@
           <note type="signatory" corresp="i-Eo9kRYLJjs1m75cXCdvmdh"/>
           <note type="signatory" corresp="i-RVBRPDgYSffQso5SLJ9Cxr"/>
         </correspContext>
-        <correspAction type="submitted" xml:id="i-7HJpuVLBvF2AvLxqhVDVHA">
+        <correspAction xml:id="i-7HJpuVLBvF2AvLxqhVDVHA" type="submitted">
           <date when="2020-10-06"/>
           <time when="09:38:57"/>
         </correspAction>
-        <correspAction type="reviewed" xml:id="i-L3RkdUqXwCBG3eXLNf3JKB">
+        <correspAction xml:id="i-L3RkdUqXwCBG3eXLNf3JKB" type="reviewed">
           <date when="2020-10-06"/>
           <time when="10:13:27"/>
         </correspAction>
-        <correspAction type="referred" xml:id="i-AwSHmC8bC7Cp3gX6L8Uei6">
+        <correspAction xml:id="i-AwSHmC8bC7Cp3gX6L8Uei6" type="referred">
           <date when="2020-10-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Qf2ArN3CeHLh3ikAYD8rHs">
+        <correspAction xml:id="i-Qf2ArN3CeHLh3ikAYD8rHs" type="assigned">
           <date when="2021-08-23"/>
           <time when="12:33:33"/>
         </correspAction>
         <correspContext corresp="i-Qf2ArN3CeHLh3ikAYD8rHs">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-EpeyZNAfYfZFSLBZ6qDEax"/>
+        <correspAction xml:id="i-EpeyZNAfYfZFSLBZ6qDEax" type="behandlas_i"/>
         <correspContext corresp="i-EpeyZNAfYfZFSLBZ6qDEax">
           <ref type="uppgift">2020/21:TU3</ref>
           <ref type="ref_dok_id">H801TU3</ref>
@@ -102,7 +102,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-WcZvBm3rxQkFW71dD2SCaJ"/>
+        <correspAction xml:id="i-WcZvBm3rxQkFW71dD2SCaJ" type="behandlas_i"/>
         <correspContext corresp="i-WcZvBm3rxQkFW71dD2SCaJ">
           <ref type="uppgift">2020/21:TU6</ref>
           <ref type="ref_dok_id">H801TU6</ref>
@@ -113,7 +113,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-MX6NRFkC6mPKvUPgGNYxZ9"/>
+        <correspAction xml:id="i-MX6NRFkC6mPKvUPgGNYxZ9" type="behandlas_i"/>
         <correspContext corresp="i-MX6NRFkC6mPKvUPgGNYxZ9">
           <ref type="uppgift">2020/21:TU9</ref>
           <ref type="ref_dok_id">H801TU9</ref>
@@ -124,7 +124,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-UMkaMGLSHUBB2U19iezJr6"/>
+        <correspAction xml:id="i-UMkaMGLSHUBB2U19iezJr6" type="behandlas_i"/>
         <correspContext corresp="i-UMkaMGLSHUBB2U19iezJr6">
           <ref type="uppgift">2020/21:TU14</ref>
           <ref type="ref_dok_id">H801TU14</ref>
@@ -135,7 +135,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-4YYCZYCmMW1Aj9csPQ2UPB"/>
+        <correspAction xml:id="i-4YYCZYCmMW1Aj9csPQ2UPB" type="behandlas_i"/>
         <correspContext corresp="i-4YYCZYCmMW1Aj9csPQ2UPB">
           <ref type="uppgift">2020/21:JuU24</ref>
           <ref type="ref_dok_id">H801JuU24</ref>
@@ -146,7 +146,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-FkADsgum7Wen8UiF94DtjU"/>
+        <correspAction xml:id="i-FkADsgum7Wen8UiF94DtjU" type="behandlas_i"/>
         <correspContext corresp="i-FkADsgum7Wen8UiF94DtjU">
           <ref type="uppgift">2020/21:JuU23</ref>
           <ref type="ref_dok_id">H801JuU23</ref>
@@ -168,10 +168,13 @@
   <text>
     <body>
       <div type="motHeader">
-        <div type="motTitle">Motion till riksdagen 2020/21:2805 av Magnus Jacobsson m.fl. (KD) Trafiksäkerhetspolitisk motion</div>
+        <div type="motTitle">
+          Motion till riksdagen 2020/21:2805 av Magnus Jacobsson m.fl.
+          (KD) Trafiksäkerhetspolitisk motion
+        </div>
       </div>
       <div type="motBody">
-        <div type="TOC" xml:id="i-8XZpjWrboiDXAdUggo3tZy">
+        <div xml:id="i-8XZpjWrboiDXAdUggo3tZy" type="TOC">
           <head xml:id="i-PcDppStZpWXyqpCNnvjyqy">
             Innehållsförteckning
           </head>
@@ -278,7 +281,7 @@
           </list>
         </div>
         <div type="motContent">
-          <head type="h1" xml:id="i-SvkuB5CGBptKgh9ec6hnWZ">
+          <head xml:id="i-SvkuB5CGBptKgh9ec6hnWZ" type="h1">
             Motivering
           </head>
           <p xml:id="i-4MXrtgTp2R7bUJthXf3jYH">
@@ -299,7 +302,7 @@
             att separera trafiken. Kristdemokraterna redogör särskilt för
             våra trafiksäkerhetspolitiska förslag i denna motion.
           </p>
-          <head type="h2" xml:id="i-KCZugQWACEHsFvnkPk5n5y">
+          <head xml:id="i-KCZugQWACEHsFvnkPk5n5y" type="h2">
             Nolltolerans mot alkohol och narkotika i trafiken
           </head>
           <p xml:id="i-5AWQtZBFTeu2CjoL8Zf3D9">
@@ -394,7 +397,7 @@
             vid fler strategiska platser än Göteborgs hamn för att göra trafiken
             säkrare och rädda liv.
           </p>
-          <head type="h1" xml:id="i-4PbCWiEQ1qdYU9AKUyELHP">
+          <head xml:id="i-4PbCWiEQ1qdYU9AKUyELHP" type="h1">
             Tillåt rutinkontroller av narkotikapåverkade förare
           </head>
           <p xml:id="i-RohBoarqSpvejSUvJqHFVK">
@@ -414,7 +417,7 @@
             sållnings­instrument för att rutinkontrollera trafikanter för
             narkotika. Detta bör ges regeringen tillkänna.
           </p>
-          <head type="h2" xml:id="i-2kPS6w1gVrfaqvE3R6SSJM">
+          <head xml:id="i-2kPS6w1gVrfaqvE3R6SSJM" type="h2">
             Synskärpans betydelse för trafiksäkerheten
           </head>
           <p xml:id="i-EKUwo44Hj7cKoSc4qpNB3k">
@@ -450,7 +453,7 @@
             beakta frågan om kontroll av synskärpa och införa syntester i
             samband med körkortsförnyelse.
           </p>
-          <head type="h2" xml:id="i-BzX2iJVa9hXDxFCL58woSC">
+          <head xml:id="i-BzX2iJVa9hXDxFCL58woSC" type="h2">
             Öka säkerheten för motorcyklister
           </head>
           <p xml:id="i-QT7wRwaS3xMg8DqtZtbSfB">
@@ -481,7 +484,7 @@
             moderna vägräck­en för att minska antalet dödade och allvarligt
             skadade motorcyklister.
           </p>
-          <head type="h2" xml:id="i-Te2Pmx9sNW9Au9Cyak61CC">
+          <head xml:id="i-Te2Pmx9sNW9Au9Cyak61CC" type="h2">
             Omkörning av cyklister
           </head>
           <p xml:id="i-456qjeDLmW9TWc8JsW8rAB">
@@ -497,7 +500,7 @@
             Kristdemokraterna föreslår att detta av­stånd specificeras i lagen
             till minst 1,5 meter.
           </p>
-          <head type="h2" xml:id="i-VmSU6gY6VXJaEVhXB18Nnu">
+          <head xml:id="i-VmSU6gY6VXJaEVhXB18Nnu" type="h2">
             Rätt hastighet på vägarna
           </head>
           <p xml:id="i-N8Aooc1CdqT4ESHM6Uu4EK">
@@ -538,7 +541,7 @@
             För att främja valet av de säkraste vägarna bör därför möjligheten
             att höja hastighetsbegränsningen på flera vägsträckor prövas.
           </p>
-          <head type="h2" xml:id="i-7gLgX2pS3dupUMyiQhvWTP">
+          <head xml:id="i-7gLgX2pS3dupUMyiQhvWTP" type="h2">
             Skärpta regler vid användning av drönare
           </head>
           <p xml:id="i-31LkBZkzJx1RRnnsPVNTq7">

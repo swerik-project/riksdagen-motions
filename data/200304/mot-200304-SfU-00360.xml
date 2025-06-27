@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00360">
   <teiHeader>
     <fileDesc>
@@ -110,16 +110,16 @@
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
           <note type="signatory" corresp="i-mN8mVTBvBYjtHLNThWLo4"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BAqsybSjQt75oNzhbHBrh8">
+        <correspAction xml:id="i-BAqsybSjQt75oNzhbHBrh8" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NnDep4QMnxoxAEtrhqgvkx">
+        <correspAction xml:id="i-NnDep4QMnxoxAEtrhqgvkx" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6gKVGM22WMp1knZ9jaNV8g">
+        <correspAction xml:id="i-6gKVGM22WMp1knZ9jaNV8g" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3zwfYHkEhww1HcsZXjYyDD"/>
+        <correspAction xml:id="i-3zwfYHkEhww1HcsZXjYyDD" type="assigned"/>
         <correspContext corresp="i-3zwfYHkEhww1HcsZXjYyDD">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -134,11 +134,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0360/mot_200304_Sf_0360-0001.pdf"/>
-      <div type="motHeader" xml:id="i-87mVMeLQAojHwBU89JZe2g">
-        <div type="motTitle" xml:id="i-YL1GDZkCt46b36AS4X5T4x"/>
-        <div type="motSubmissionInfo" xml:id="i-Hz7mZ4Lbfmp8hwvegkQ881"/>
+      <div xml:id="i-87mVMeLQAojHwBU89JZe2g" type="motHeader">
+        <div xml:id="i-YL1GDZkCt46b36AS4X5T4x" type="motTitle"/>
+        <div xml:id="i-Hz7mZ4Lbfmp8hwvegkQ881" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-77j5P6pJHVENwWHq6Y8WdB">
+      <div xml:id="i-77j5P6pJHVENwWHq6Y8WdB" type="motBody">
         <div xml:id="i-RcfFe4zz7Mam45JDpqZmRm">
           <p xml:id="i-MjJ5gRivYCGh4ukYKNLy6M">
             2003/04 mnr: Sf360
@@ -941,8 +941,11 @@
             till 95 procent bäst kan genomföras. Detta bör riksdagen som sin
             mening ge regeringen till känna.
           </p>
-          <p xml:id="i-Xk8CfN9mFXHbQ4LuDmZRZp">
-            Stockholm den 30 september 2003 Ulla Hoffmann (v)
+          <p xml:id="i-Xk8CfN9mFXHbQ4LuDmZRZp" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-GGYkzgXonfUdfNM6t1bkn">
+            Ulla Hoffmann (v)
           </p>
           <p xml:id="i-NBGXrqA7pboKKWfNB3YSDz">
             Lars Bäckström (v) Rossana Dinamarca (v) Mats Einarsson (v) Marie

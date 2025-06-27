@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00236">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-A34dTm6zarXyd42FJFY9AY">
           <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-37CpqDEaKwSzU8wkhKnW5a">
+        <correspAction xml:id="i-37CpqDEaKwSzU8wkhKnW5a" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-F1H6rYEeW1cwvioXdtthLF">
+        <correspAction xml:id="i-F1H6rYEeW1cwvioXdtthLF" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3REMBpkakw1xEsDeri1dkT">
+        <correspAction xml:id="i-3REMBpkakw1xEsDeri1dkT" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PQcAPm6wh874fNcGQ48zfR"/>
+        <correspAction xml:id="i-PQcAPm6wh874fNcGQ48zfR" type="assigned"/>
         <correspContext corresp="i-PQcAPm6wh874fNcGQ48zfR">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_236/mot_200506_Ub_236-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FUnUivo4AGWrRVQLbfxX2x">
-        <div type="motTitle" xml:id="i-QV9tyHzeiT5zha3PtNTuZJ"/>
-        <div type="motSubmissionInfo" xml:id="i-S78kpasM1DPn1Q392WtYpM"/>
+      <div xml:id="i-FUnUivo4AGWrRVQLbfxX2x" type="motHeader">
+        <div xml:id="i-QV9tyHzeiT5zha3PtNTuZJ" type="motTitle"/>
+        <div xml:id="i-S78kpasM1DPn1Q392WtYpM" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MEavTwjAazpJ7tK6kRN1Be">
+      <div xml:id="i-MEavTwjAazpJ7tK6kRN1Be" type="motBody">
         <div xml:id="i-WSQdgvAgsqaftj9ywziADu">
           <p xml:id="i-DfCJh4dJBc5UzHm6Bofr8f">
             2005/06 mnr: Ub236 pnr: fp318
@@ -123,8 +123,11 @@
           <p xml:id="i-VMtt9RpMBKvNtRuJec7s8G">
             2005/06:Ub236
           </p>
-          <p xml:id="i-MvKC2sHUjAFqqxcgBEjGUZ">
-            Stockholm den 23 september 2005 Tobias Krantz (fp)
+          <p xml:id="i-MvKC2sHUjAFqqxcgBEjGUZ" type="date">
+            Stockholm den 23 september 2005
+          </p>
+          <p type="signatureBlock" id="i-5r24NzKx48oW25E9QbwEAX">
+            Tobias Krantz (fp)
           </p>
         </div>
       </div>

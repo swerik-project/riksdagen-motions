@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SkU-01006">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-7XJQkFtojnsGkBWJ4ArrFx</idno>
-            <name>Charlotta L Bjälkebring </name>
+            <name>Charlotta L Bjälkebring</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -46,28 +46,28 @@
           <note type="signatory" corresp="i-7XJQkFtojnsGkBWJ4ArrFx"/>
           <note type="signatory" corresp="i-7XJQkFtojnsGkBWJ4ArrFx"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-NWwimhwysmimYyVxrunMCo">
+        <correspAction xml:id="i-NWwimhwysmimYyVxrunMCo" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-HLTKZ695QtKAtgbvfdQCBL">
+        <correspAction xml:id="i-HLTKZ695QtKAtgbvfdQCBL" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3PotVETxp72ywNFUUSVcs7">
+        <correspAction xml:id="i-3PotVETxp72ywNFUUSVcs7" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PL3U676UpUAadsSSwy7514">
+        <correspAction xml:id="i-PL3U676UpUAadsSSwy7514" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-3LJWutiHfYP252JDxQGmaM">
+        <correspAction xml:id="i-3LJWutiHfYP252JDxQGmaM" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TZo7VUuPik2ENQfZJ4LEud">
+        <correspAction xml:id="i-TZo7VUuPik2ENQfZJ4LEud" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SiKiyybTfzjNqYLBZj1AwQ">
+        <correspAction xml:id="i-SiKiyybTfzjNqYLBZj1AwQ" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XDz55QTywSsrtNYQ9U2BBm"/>
+        <correspAction xml:id="i-XDz55QTywSsrtNYQ9U2BBm" type="assigned"/>
         <correspContext corresp="i-XDz55QTywSsrtNYQ9U2BBm">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Sk_1006/mot_200001_Sk_1006-0001.pdf"/>
-      <div type="motHeader" xml:id="i-AjFDstN3kgNWdTEEJ2CkK2">
-        <div type="motTitle" xml:id="i-4a6W7kx61KgKE1i3HWG4HP"/>
-        <div type="motSubmissionInfo" xml:id="i-GqJvsKaL5hgMKWRKAZy6yz"/>
+      <div xml:id="i-AjFDstN3kgNWdTEEJ2CkK2" type="motHeader">
+        <div xml:id="i-4a6W7kx61KgKE1i3HWG4HP" type="motTitle"/>
+        <div xml:id="i-GqJvsKaL5hgMKWRKAZy6yz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-emRAgf4HaSNxrK91wpGzp">
+      <div xml:id="i-emRAgf4HaSNxrK91wpGzp" type="motBody">
         <div xml:id="i-5xv1rpcbT1NgTLay7LnYrP">
           <p xml:id="i-FzZpsj9gJjXg7eCvqTFhwb">
             2000/01 mnr: Sk1006 pnr: v1209
@@ -154,8 +154,11 @@
             för att se över möjligheterna att införa en allmän och lika kulturmoms
             på 696, inkluderande momsen på dansbandsmusik.
           </p>
-          <p xml:id="i-8qZ6ZGVgAmfW5vQY9KqQR2">
-            Stockholm den 3 oktober 2000 Charlotta L Bjälkebring (v)
+          <p xml:id="i-8qZ6ZGVgAmfW5vQY9KqQR2" type="date">
+            Stockholm den 3 oktober 2000
+          </p>
+          <p type="signatureBlock" id="i-KwQ8ag1eE9DcK6m3yHfQoW">
+            Charlotta L Bjälkebring (v)
           </p>
         </div>
       </div>

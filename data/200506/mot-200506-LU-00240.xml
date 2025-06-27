@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00240">
   <teiHeader>
     <fileDesc>
@@ -87,16 +87,16 @@
           <note type="signatory" corresp="i-SxwXtVqzR6fyXB2uQfozAQ"/>
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VGEJJo46Vg3rsqbpD5tjLr">
+        <correspAction xml:id="i-VGEJJo46Vg3rsqbpD5tjLr" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YFp7tQJ9VpdRJ8HRqwt6MA">
+        <correspAction xml:id="i-YFp7tQJ9VpdRJ8HRqwt6MA" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Eao2pyEeKHhrpSu5vkkQJC">
+        <correspAction xml:id="i-Eao2pyEeKHhrpSu5vkkQJC" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9AMEYVgz2LbKMNXDUKP2NW"/>
+        <correspAction xml:id="i-9AMEYVgz2LbKMNXDUKP2NW" type="assigned"/>
         <correspContext corresp="i-9AMEYVgz2LbKMNXDUKP2NW">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -111,11 +111,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_240/mot_200506_L_240-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3fdoBbFUnytNKxqJZidaMo">
-        <div type="motTitle" xml:id="i-3utNvKggboB4U1mioGLjUj"/>
-        <div type="motSubmissionInfo" xml:id="i-No9zq2mqBnwHog9jt9fRUJ"/>
+      <div xml:id="i-3fdoBbFUnytNKxqJZidaMo" type="motHeader">
+        <div xml:id="i-3utNvKggboB4U1mioGLjUj" type="motTitle"/>
+        <div xml:id="i-No9zq2mqBnwHog9jt9fRUJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-43gkXVFRnyXZeU8ZbRgvpR">
+      <div xml:id="i-43gkXVFRnyXZeU8ZbRgvpR" type="motBody">
         <div xml:id="i-Fj9CCXRGjrKftVKYt8w2jz">
           <p xml:id="i-PsQiTiwdXqeCc7vCkiri2H">
             2005/06 mnr: L240 pnr: v862
@@ -253,8 +253,11 @@
             i börsnoterade aktiebolag samt i statligt och kommunalt ägda aktiebolags
             styrelser.
           </p>
-          <p xml:id="i-J6thehTUs6AZBbi8nq9cVp">
-            Stockholm den 26 september 2005 Tasso Stafilidis (v)
+          <p xml:id="i-J6thehTUs6AZBbi8nq9cVp" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-72Mc5zsLfL86pk9ZPmHokw">
+            Tasso Stafilidis (v)
           </p>
           <p xml:id="i-PFqesueERiqsR9fG4pqWov">
             Rossana Dinamarca (v) Mats Einarsson (v) Siv Holma (v) Rolf Olsson

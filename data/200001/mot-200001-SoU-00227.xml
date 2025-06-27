@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SoU-00227">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-JuBXXY8rg7e17ax8wgpWHG</idno>
-            <name>Dan Kihlström </name>
+            <name>Dan Kihlström</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -46,28 +46,28 @@
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-NHWzHXVf7MpSfWD8nabWmj">
+        <correspAction xml:id="i-NHWzHXVf7MpSfWD8nabWmj" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-V2G1Fv817bNFGBxWAzexZ1">
+        <correspAction xml:id="i-V2G1Fv817bNFGBxWAzexZ1" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Bh8mB1cvZmgtuC3KAjMppM">
+        <correspAction xml:id="i-Bh8mB1cvZmgtuC3KAjMppM" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KKbmH3RoacmrhcPzjYMsHg">
+        <correspAction xml:id="i-KKbmH3RoacmrhcPzjYMsHg" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Me62pua2N6WFdosDzkzq7F">
+        <correspAction xml:id="i-Me62pua2N6WFdosDzkzq7F" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NpdS4yfqxnKtn3ZdJJRES3">
+        <correspAction xml:id="i-NpdS4yfqxnKtn3ZdJJRES3" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KiZMXAj4PodEnkGRSjfrzd">
+        <correspAction xml:id="i-KiZMXAj4PodEnkGRSjfrzd" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Ad7rV7mDszKLf5vx1bGPhY"/>
+        <correspAction xml:id="i-Ad7rV7mDszKLf5vx1bGPhY" type="assigned"/>
         <correspContext corresp="i-Ad7rV7mDszKLf5vx1bGPhY">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_So_0227/mot_200001_So_0227-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EBsRv28zWzu6Bpt6PHdmHD">
-        <div type="motTitle" xml:id="i-5CCZBctPAvdgQeysQ19RMs"/>
-        <div type="motSubmissionInfo" xml:id="i-4baUe4oVzMHgUgseY3RNcn"/>
+      <div xml:id="i-EBsRv28zWzu6Bpt6PHdmHD" type="motHeader">
+        <div xml:id="i-5CCZBctPAvdgQeysQ19RMs" type="motTitle"/>
+        <div xml:id="i-4baUe4oVzMHgUgseY3RNcn" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Mh1ivXRCrnWGYBL6vXFHcA">
+      <div xml:id="i-Mh1ivXRCrnWGYBL6vXFHcA" type="motBody">
         <div xml:id="i-M89nGRrdf8tWKPTnrFk3gR">
           <p xml:id="i-LMcXusfRz6FH2vqTyXvbNa">
             2000/01 mnr: S0o227 pnr: kd443
@@ -157,8 +157,11 @@
             att leta efter goda exempel samt stödja ideell missbrukarvård
             på olika sätt på nationell nivå.
           </p>
-          <p xml:id="i-UNBGguZYVgeBmoFSwgeneb">
-            Stockholm den 26 september 2000 Dan Kihlström (kd)
+          <p xml:id="i-UNBGguZYVgeBmoFSwgeneb" type="date">
+            Stockholm den 26 september 2000
+          </p>
+          <p type="signatureBlock" id="i-4fJZSBynGVW1jgJKREiSTx">
+            Dan Kihlström (kd)
           </p>
         </div>
       </div>

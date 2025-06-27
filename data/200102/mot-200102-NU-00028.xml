@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-NU-00028">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-SqUF1TXCcsCu9LKYNmDvD3"/>
+        <correspAction xml:id="i-SqUF1TXCcsCu9LKYNmDvD3" type="basedOn"/>
         <correspContext corresp="i-SqUF1TXCcsCu9LKYNmDvD3">
           <ref>Proposition 2001/02:4</ref>
         </correspContext>
@@ -50,22 +50,22 @@
           <note type="signatory" corresp="i-Q5smfAWD9kCwe7tQviBPMn"/>
           <note type="signatory" corresp="i-D5W4KMbqzfAEfRXajZLt7z"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EBvFfizta8WKxGiNeJjjUg">
+        <correspAction xml:id="i-EBvFfizta8WKxGiNeJjjUg" type="referral">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-XvZefXqHz3nXWSbV6AaQnz">
+        <correspAction xml:id="i-XvZefXqHz3nXWSbV6AaQnz" type="reviewing">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-8x4DwrangtDQ3s9iR7VJgt">
+        <correspAction xml:id="i-8x4DwrangtDQ3s9iR7VJgt" type="registration">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-D9WMtUAwZ9MbFRfS8Lfof9">
+        <correspAction xml:id="i-D9WMtUAwZ9MbFRfS8Lfof9" type="dismissal">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TBmejxWPGYtWoCDzfDSQmt">
+        <correspAction xml:id="i-TBmejxWPGYtWoCDzfDSQmt" type="submission">
           <date when="2001-10-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YKoSxBmMEQ2pzuCgTsBsW2"/>
+        <correspAction xml:id="i-YKoSxBmMEQ2pzuCgTsBsW2" type="assigned"/>
         <correspContext corresp="i-YKoSxBmMEQ2pzuCgTsBsW2">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -80,11 +80,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_N_0028/mot_200102_N_0028-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BDWdv2vf8zb7ZcsKTo2sW7">
-        <div type="motTitle" xml:id="i-Ce4FXuaQm5m6ZAeva5rJcy"/>
-        <div type="motSubmissionInfo" xml:id="i-JjQgLxR7zv6UWcfpSRHZey"/>
+      <div xml:id="i-BDWdv2vf8zb7ZcsKTo2sW7" type="motHeader">
+        <div xml:id="i-Ce4FXuaQm5m6ZAeva5rJcy" type="motTitle"/>
+        <div xml:id="i-JjQgLxR7zv6UWcfpSRHZey" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-URKuU9TRcz1NbbmYhXM2y3">
+      <div xml:id="i-URKuU9TRcz1NbbmYhXM2y3" type="motBody">
         <div xml:id="i-9vu395Nok7GFBHmXEAJhbM">
           <p xml:id="i-4v2hmP4wfXFunQV5xJQEvy">
             2001/02 mnr: N28 pnr: s45158
@@ -158,8 +158,11 @@
             vilket i praktiken innebär att de stora arbetsmarknaderna är enda
             alternativet.
           </p>
-          <p xml:id="i-WiWqvudJcZoy2r1bK8ZFeT">
-            Stockholm den 17 oktober 2001 Carin Lundberg (s) Lars Lilja (s)
+          <p xml:id="i-WiWqvudJcZoy2r1bK8ZFeT" type="date">
+            Stockholm den 17 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-VoxignAcnkKga8e4hDtAqJ">
+            Carin Lundberg (s) Lars Lilja (s)
           </p>
         </div>
       </div>

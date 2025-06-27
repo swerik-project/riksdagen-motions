@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00302">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Xwc1mEhVg29kVGo1iRu3d9">
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HspWGbw9LGioaVHammRMqu">
+        <correspAction xml:id="i-HspWGbw9LGioaVHammRMqu" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SQQwQbzLBprNH2Mr8ewXZP">
+        <correspAction xml:id="i-SQQwQbzLBprNH2Mr8ewXZP" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NTPRodtBAxVLK3CBmnBLu6">
+        <correspAction xml:id="i-NTPRodtBAxVLK3CBmnBLu6" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RmiFWX56Z2ECrto6ALjEwY"/>
+        <correspAction xml:id="i-RmiFWX56Z2ECrto6ALjEwY" type="assigned"/>
         <correspContext corresp="i-RmiFWX56Z2ECrto6ALjEwY">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Sk_0302/mot_200203_Sk_0302-0001.pdf"/>
-      <div type="motHeader" xml:id="i-G2Lzd3eGtyRtXwq1VMkmTq">
-        <div type="motTitle" xml:id="i-H3dkijBtqBoC86NPqVtF6g"/>
-        <div type="motSubmissionInfo" xml:id="i-RiDpAXusCYLiYDyQ4CaUkL"/>
+      <div xml:id="i-G2Lzd3eGtyRtXwq1VMkmTq" type="motHeader">
+        <div xml:id="i-H3dkijBtqBoC86NPqVtF6g" type="motTitle"/>
+        <div xml:id="i-RiDpAXusCYLiYDyQ4CaUkL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ULcqCpcAdKU8tLMaimfSXG">
+      <div xml:id="i-ULcqCpcAdKU8tLMaimfSXG" type="motBody">
         <div xml:id="i-C2uxQokxERcW9ZdwuGNYAx">
           <p xml:id="i-LJtpUu7XCWHucLJGNK6R7Q">
             2002/03 mnr: Sk302 pnr: kd618
@@ -130,8 +130,11 @@
             och underlag till hur en sådan differentiering skulle kunna utformas
             och med glesbygdsbegreppet som en viktig delkomponent.
           </p>
-          <p xml:id="i-GKmL1RsKE6f2ijDkGNfG1A">
-            Stockholm den 21 oktober 2002 Dan Kihlström (kd)
+          <p xml:id="i-GKmL1RsKE6f2ijDkGNfG1A" type="date">
+            Stockholm den 21 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-VhUC4ksW4Q4Wj6yNt3FhAR">
+            Dan Kihlström (kd)
           </p>
         </div>
       </div>

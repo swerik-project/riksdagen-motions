@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-JuU-00724">
   <teiHeader>
     <fileDesc>
@@ -366,28 +366,28 @@
           <note type="signatory" corresp="i-CwVjNqMneZm6zhJTP798e5"/>
           <note type="signatory" corresp="i-EgqHRHVoW5y9USDYuNoYuA"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-FHjACxoywLwA3za9QM82Kb">
+        <correspAction xml:id="i-FHjACxoywLwA3za9QM82Kb" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-LVpjcTXRguxzMkyPa8iFJT">
+        <correspAction xml:id="i-LVpjcTXRguxzMkyPa8iFJT" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Q5vZfPivGgG6cGCqMMobNc">
+        <correspAction xml:id="i-Q5vZfPivGgG6cGCqMMobNc" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-62jxAUAE7TiTLKt7kJWSzw">
+        <correspAction xml:id="i-62jxAUAE7TiTLKt7kJWSzw" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-49RXAh11DYnEnUh4UR67cB">
+        <correspAction xml:id="i-49RXAh11DYnEnUh4UR67cB" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HqDNfKYFUeNJ2V2LjSqz9S">
+        <correspAction xml:id="i-HqDNfKYFUeNJ2V2LjSqz9S" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-57JeaQabczruvboz6ikZfF">
+        <correspAction xml:id="i-57JeaQabczruvboz6ikZfF" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FkNdAv3zGoK2xBXdmJ3yJi"/>
+        <correspAction xml:id="i-FkNdAv3zGoK2xBXdmJ3yJi" type="assigned"/>
         <correspContext corresp="i-FkNdAv3zGoK2xBXdmJ3yJi">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -401,11 +401,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Ju_0724/mot_200001_Ju_0724-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4GtUJr8yL158QcUQKzjKna">
-        <div type="motTitle" xml:id="i-WwgVzRK7mSj41uMineCLZm"/>
-        <div type="motSubmissionInfo" xml:id="i-2LuPsbV3Njjph5THLBJPKC"/>
+      <div xml:id="i-4GtUJr8yL158QcUQKzjKna" type="motHeader">
+        <div xml:id="i-WwgVzRK7mSj41uMineCLZm" type="motTitle"/>
+        <div xml:id="i-2LuPsbV3Njjph5THLBJPKC" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NnHSg2eStSZ93e5tD6Kjjf">
+      <div xml:id="i-NnHSg2eStSZ93e5tD6Kjjf" type="motBody">
         <div xml:id="i-Uxefv2ErbSWvU4XLT7fkuQ">
           <p xml:id="i-4bBDr77HJNooU4Q5o3k5bA">
             2000/01 mnr: Ju724 pnr: -fp805
@@ -1903,8 +1903,11 @@
             av kön, sexuell läggning eller könsidentitet måste föras in under
             2 8 under flyktingbegreppet enligt Genévekonventionen.
           </p>
-          <p xml:id="i-3p7UtECuKZTV2ovU1YMA5T">
-            Stockholm den 5 oktober 2000 Tasso Stafilidis (v)
+          <p xml:id="i-3p7UtECuKZTV2ovU1YMA5T" type="date">
+            Stockholm den 5 oktober 2000
+          </p>
+          <p type="signatureBlock" id="i-TJTkf4XJAQF4JaxW82xCXF">
+            Tasso Stafilidis (v)
           </p>
           <p xml:id="i-BdwVFL6aSeobxb9n4SnAKy">
             Ulf Nilsson (fp) Hillevi Larsson (s) Yvonne Ruwaida (mp) Sofia

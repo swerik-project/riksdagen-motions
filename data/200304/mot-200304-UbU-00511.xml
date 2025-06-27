@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00511">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-7xAaK4EhbGVZTLFYVGMAmA">
           <note type="signatory" corresp="i-PRFN1BS8QWUhjjGAM8w3Fj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-E1kpJ63THpNfhUQjpwyKmc">
+        <correspAction xml:id="i-E1kpJ63THpNfhUQjpwyKmc" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2aALMbch6GMojKwDjPUrcz">
+        <correspAction xml:id="i-2aALMbch6GMojKwDjPUrcz" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8FDyDguddSuJ6ZHKsdXqvQ">
+        <correspAction xml:id="i-8FDyDguddSuJ6ZHKsdXqvQ" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KEXHFYGEVqW9CriBMFwQif"/>
+        <correspAction xml:id="i-KEXHFYGEVqW9CriBMFwQif" type="assigned"/>
         <correspContext corresp="i-KEXHFYGEVqW9CriBMFwQif">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ub_0511/mot_200304_Ub_0511-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Mpk3kKdZGRDMJXAnSVhyNz">
-        <div type="motTitle" xml:id="i-87fFp21tFpYdwwE3iQBn88"/>
-        <div type="motSubmissionInfo" xml:id="i-9yUenoFASnc5BQDfadtwrk"/>
+      <div xml:id="i-Mpk3kKdZGRDMJXAnSVhyNz" type="motHeader">
+        <div xml:id="i-87fFp21tFpYdwwE3iQBn88" type="motTitle"/>
+        <div xml:id="i-9yUenoFASnc5BQDfadtwrk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NdQk7hiQhWe51q2shaDCWQ">
+      <div xml:id="i-NdQk7hiQhWe51q2shaDCWQ" type="motBody">
         <div xml:id="i-V7ZXrQUqBD7zzXUMGo1vev">
           <p xml:id="i-9vv9PwU4QhrsDBoJSFgjnP">
             2003/04 mnr: Ub511 pnr: c687
@@ -140,8 +140,11 @@
             25 miljoner kronor. Finansieringen bör ske genom prioritering
             inför utgiftsområdets ram.
           </p>
-          <p xml:id="i-NknapunhFESqbASn7sudQv">
-            Stockholm den 7 oktober 2003 Maud Olofsson (c)
+          <p xml:id="i-NknapunhFESqbASn7sudQv" type="date">
+            Stockholm den 7 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-HfWrDtjhgvSzSrsq5gxUr1">
+            Maud Olofsson (c)
           </p>
         </div>
       </div>

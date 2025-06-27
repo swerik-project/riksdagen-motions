@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-NU-00302">
   <teiHeader>
     <fileDesc>
@@ -46,34 +46,34 @@
           <note type="signatory" corresp="i-9KG7jeGdkJDsSQQb3gKA2U"/>
           <note type="signatory" corresp="i-Uxe3rhosBnSZpqJX5d7gpy"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3GNYKVyuz88qxq4QohdVNS">
+        <correspAction xml:id="i-3GNYKVyuz88qxq4QohdVNS" type="referral">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CGeaBbJvfAH5oKC18SdvoP">
+        <correspAction xml:id="i-CGeaBbJvfAH5oKC18SdvoP" type="dismissal">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-YE3jmL3NmYdKkvSUaD3xnt">
+        <correspAction xml:id="i-YE3jmL3NmYdKkvSUaD3xnt" type="termination">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SyZUhZk13Eh8mBMCnQnkFu">
+        <correspAction xml:id="i-SyZUhZk13Eh8mBMCnQnkFu" type="submission">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-3gFWUniqq3DeC7XLa5e3jr">
+        <correspAction xml:id="i-3gFWUniqq3DeC7XLa5e3jr" type="numbering">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-J7VL38zcp8HQwYnmBiRyuz">
+        <correspAction xml:id="i-J7VL38zcp8HQwYnmBiRyuz" type="proposed_referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-Vg8rD6qMULMsvf6XANa5EM">
+        <correspAction xml:id="i-Vg8rD6qMULMsvf6XANa5EM" type="committee_proposal">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-3ojsKMyKdaBLDHuVxh1mWk">
+        <correspAction xml:id="i-3ojsKMyKdaBLDHuVxh1mWk" type="reviewing">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-S15XNSxh7TiVdcjVEek3Sg">
+        <correspAction xml:id="i-S15XNSxh7TiVdcjVEek3Sg" type="registration">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SaMKyxpdg9u1jefL1tv9dy"/>
+        <correspAction xml:id="i-SaMKyxpdg9u1jefL1tv9dy" type="assigned"/>
         <correspContext corresp="i-SaMKyxpdg9u1jefL1tv9dy">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -88,11 +88,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_N_0302/mot_200102_N_0302-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UrrRbFWgSKVrT8b6U3ytNc">
-        <div type="motTitle" xml:id="i-JK5ryznE4NeV9SrN6mQ6pY"/>
-        <div type="motSubmissionInfo" xml:id="i-ArdqdYgHJzyUBQrsZfcGZj"/>
+      <div xml:id="i-UrrRbFWgSKVrT8b6U3ytNc" type="motHeader">
+        <div xml:id="i-JK5ryznE4NeV9SrN6mQ6pY" type="motTitle"/>
+        <div xml:id="i-ArdqdYgHJzyUBQrsZfcGZj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5AJqmqgpMrhyPuifutEuut">
+      <div xml:id="i-5AJqmqgpMrhyPuifutEuut" type="motBody">
         <div xml:id="i-MLbyb2iG9kvJrdoHvQ3xXJ">
           <p xml:id="i-BMkvpP3b8sqdMmYG68fVzQ">
             2001/02 mnr: N302 pnr: s9601
@@ -167,8 +167,11 @@
             elkollektivet. Regeringen bör undersöka möjligheten att finna
             en lösning även på detta problem.
           </p>
-          <p xml:id="i-7RV8sAhWpHSqHU4nsFxvsy">
-            Stockholm den 2 oktober 2001 Urban Ahlin (s) Carina Ohlsson (s)
+          <p xml:id="i-7RV8sAhWpHSqHU4nsFxvsy" type="date">
+            Stockholm den 2 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-KiG1MzmdfKj4dmyepzooQc">
+            Urban Ahlin (s) Carina Ohlsson (s)
           </p>
         </div>
       </div>

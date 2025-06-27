@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-JuU-00369">
   <teiHeader>
     <fileDesc>
@@ -78,16 +78,16 @@
           <note type="signatory" corresp="i-P2x4fiHNXrW2XTzJZRJeJJ"/>
           <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3fJEgrRqXkuxQFyofW4PRZ">
+        <correspAction xml:id="i-3fJEgrRqXkuxQFyofW4PRZ" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CnwSkPdFsChWJ91xJEGd3K">
+        <correspAction xml:id="i-CnwSkPdFsChWJ91xJEGd3K" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-35ofrq3nxsd1rJPm9wCSPD">
+        <correspAction xml:id="i-35ofrq3nxsd1rJPm9wCSPD" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MMjsY89MhtqiQir8tTuPs5"/>
+        <correspAction xml:id="i-MMjsY89MhtqiQir8tTuPs5" type="assigned"/>
         <correspContext corresp="i-MMjsY89MhtqiQir8tTuPs5">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ju_0369/mot_200203_Ju_0369-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Greu6Zjj7eMm4iTiwbM92P">
-        <div type="motTitle" xml:id="i-4LYixdBwFPXSw2G3bUsXqd"/>
-        <div type="motSubmissionInfo" xml:id="i-QNfKg4PpFhc4MwtDUkzDXc"/>
+      <div xml:id="i-Greu6Zjj7eMm4iTiwbM92P" type="motHeader">
+        <div xml:id="i-4LYixdBwFPXSw2G3bUsXqd" type="motTitle"/>
+        <div xml:id="i-QNfKg4PpFhc4MwtDUkzDXc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FaDfszyvyNaxAd2ZuyU3Jo">
+      <div xml:id="i-FaDfszyvyNaxAd2ZuyU3Jo" type="motBody">
         <div xml:id="i-AgjXBJSTYxhLzVrEFe1J6o">
           <p xml:id="i-TFh4bcqsraJKDaszg5WerA">
             2002/03 mnr: Ju369
@@ -436,10 +436,12 @@
           </p>
           <p xml:id="i-AJvCkHrWREESi9zjAdwPHq">
             till Brottsofferfonden. På så sätt inskärps de dömdas ansvar
-            för att göra rätt för sig gentemot offren. Stockholm den 23 oktober
-            2002
+            för att göra rätt för sig gentemot offren.
           </p>
-          <p xml:id="i-GkVbE5dtHAjGL5UorHtQ9H">
+          <p type="date" id="i-LzA1yz7fF4q8kVjjdh1hgN">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p xml:id="i-GkVbE5dtHAjGL5UorHtQ9H" type="signatureBlock">
             Beatrice Ask (m) Jeppe Johnsson (m) Cecilia Magnusson (m) Hillevi
             Engström (m) Bengt-Anders Johansson (m)
           </p>

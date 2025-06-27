@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-201617-FöU-03207">
   <teiHeader>
     <fileDesc>
@@ -65,25 +65,25 @@
           <note type="signatory" corresp="i-F7At3v6PvJpNCH37qRhr8A"/>
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="submitted" xml:id="i-231QXDit26V2f7GizHSghX">
+        <correspAction xml:id="i-231QXDit26V2f7GizHSghX" type="submitted">
           <date when="2016-10-05"/>
           <time when="15:24:19"/>
         </correspAction>
-        <correspAction type="reviewed" xml:id="i-9KPPiKkNYTakYS1gBowZaG">
+        <correspAction xml:id="i-9KPPiKkNYTakYS1gBowZaG" type="reviewed">
           <date when="2016-10-06"/>
           <time when="14:39:54"/>
         </correspAction>
-        <correspAction type="referred" xml:id="i-MpRuN4LbCaVWstm5pRnDAo">
+        <correspAction xml:id="i-MpRuN4LbCaVWstm5pRnDAo" type="referred">
           <date when="2016-10-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6VnfeFG6wFAw7fzdV4Mebr">
+        <correspAction xml:id="i-6VnfeFG6wFAw7fzdV4Mebr" type="assigned">
           <date when="2018-06-12"/>
           <time when="16:53:18"/>
         </correspAction>
         <correspContext corresp="i-6VnfeFG6wFAw7fzdV4Mebr">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-XsAvK26YSnzjpoaUGeEFPe"/>
+        <correspAction xml:id="i-XsAvK26YSnzjpoaUGeEFPe" type="behandlas_i"/>
         <correspContext corresp="i-XsAvK26YSnzjpoaUGeEFPe">
           <ref type="uppgift">2016/17:FöU3</ref>
           <ref type="ref_dok_id">H401FöU3</ref>
@@ -94,7 +94,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-PwFfKKt4qE4EqssvMe3hz2"/>
+        <correspAction xml:id="i-PwFfKKt4qE4EqssvMe3hz2" type="behandlas_i"/>
         <correspContext corresp="i-PwFfKKt4qE4EqssvMe3hz2">
           <ref type="uppgift">2016/17:FöU1</ref>
           <ref type="ref_dok_id">H401FöU1</ref>
@@ -105,7 +105,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-BokPWq1C96ZV7uc68PpJCY"/>
+        <correspAction xml:id="i-BokPWq1C96ZV7uc68PpJCY" type="behandlas_i"/>
         <correspContext corresp="i-BokPWq1C96ZV7uc68PpJCY">
           <ref type="uppgift">2016/17:FöU6</ref>
           <ref type="ref_dok_id">H401FöU6</ref>
@@ -116,7 +116,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-YPCxWszxrcw9QdzZTdyY5j"/>
+        <correspAction xml:id="i-YPCxWszxrcw9QdzZTdyY5j" type="behandlas_i"/>
         <correspContext corresp="i-YPCxWszxrcw9QdzZTdyY5j">
           <ref type="uppgift">2017/18:UU11</ref>
           <ref type="ref_dok_id">H501UU11</ref>
@@ -127,7 +127,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-P3VsMvMVCbyVRSEatC2J26"/>
+        <correspAction xml:id="i-P3VsMvMVCbyVRSEatC2J26" type="behandlas_i"/>
         <correspContext corresp="i-P3VsMvMVCbyVRSEatC2J26">
           <ref type="uppgift">2017/18:UU8</ref>
           <ref type="ref_dok_id">H501UU8</ref>
@@ -138,7 +138,7 @@
           <ref type="ref_dok_subtyp">bet</ref>
           <ref type="ref_dok_dokumentnamn">Betänkande</ref>
         </correspContext>
-        <correspAction type="behandlas_i" xml:id="i-P1ixP1ER9kpEQSqqYSSHCz"/>
+        <correspAction xml:id="i-P1ixP1ER9kpEQSqqYSSHCz" type="behandlas_i"/>
         <correspContext corresp="i-P1ixP1ER9kpEQSqqYSSHCz">
           <ref type="uppgift">2016/17:UU1</ref>
           <ref type="ref_dok_id">H401UU1</ref>
@@ -160,7 +160,10 @@
   <text>
     <body>
       <div type="motHeader">
-        <div type="motTitle">Motion till riksdagen 2016/17:3207 av Mikael Oscarsson m.fl. (KD) Utgiftsområde 6 Försvar och samhällets krisberedskap</div>
+        <div type="motTitle">
+          Motion till riksdagen 2016/17:3207 av Mikael Oscarsson m.fl.
+          (KD) Utgiftsområde 6 Försvar och samhällets krisberedskap
+        </div>
       </div>
       <div type="motBody">
         <div type="motProposal" subtype="förslag">
@@ -203,7 +206,7 @@
             </item>
           </list>
           <table>
-            <row style="label" xml:id="i-MyGBC3yZtEEVabbR6FbL6U">
+            <row xml:id="i-MyGBC3yZtEEVabbR6FbL6U" style="label">
               <cell>
                 Miljoner kronor
               </cell>
@@ -282,7 +285,7 @@
           </table>
         </div>
         <div type="motContent">
-          <head type="h1" xml:id="i-79iu6VNRnVFxUe3yTtYQLr">
+          <head xml:id="i-79iu6VNRnVFxUe3yTtYQLr" type="h1">
             Inledning
           </head>
           <p xml:id="i-9tLsfUxowWG2CZ9WsGnGdR">
@@ -296,7 +299,7 @@
             Det skapar förutsättningarna för den ram inom vilken ett gott
             samhälle frodas.
           </p>
-          <head type="h1" xml:id="i-6sF8R7YB35YYPeKbfS4W5P">
+          <head xml:id="i-6sF8R7YB35YYPeKbfS4W5P" type="h1">
             Omvärldsläget
           </head>
           <p xml:id="i-XvnXLEydegmfWufcKYLGu9">
@@ -322,7 +325,7 @@
             en bild av ett allt mer aggressivt Ryssland som inte skyr att
             med vapenmakt flytta territorialgränser.
           </p>
-          <head type="h1" xml:id="i-Se5vmNxqLRXS3frxgcnMeY">
+          <head xml:id="i-Se5vmNxqLRXS3frxgcnMeY" type="h1">
             Totalförsvaret
           </head>
           <p xml:id="i-HvFXSry2vq3Eadxi35MTgX">
@@ -362,7 +365,7 @@
             Därför ser Kristdemokraterna positivt på att planeringen för
             totalförsvaret nu pågår.
           </p>
-          <head type="h1" xml:id="i-3No13ySqbXraanSBqjoCCC">
+          <head xml:id="i-3No13ySqbXraanSBqjoCCC" type="h1">
             Försvaret
           </head>
           <p xml:id="i-8Fdpw78UydzpeK6sggobAx">
@@ -415,7 +418,7 @@
             idag framgångsrikt i Tyskland och även i viss utsträckning i de
             baltiska länderna.
           </p>
-          <head type="h1" xml:id="i-SaYFhpTg5dVJfuLRgx2ew9">
+          <head xml:id="i-SaYFhpTg5dVJfuLRgx2ew9" type="h1">
             Psykologiskt försvar
           </head>
           <p xml:id="i-U1gancwTDEhSnqbhfvVUSE">
@@ -474,7 +477,7 @@
             med ansvar för det psykologiska försvaret. För detta avsätter
             vi 40 miljoner kronor kommande år.
           </p>
-          <head type="h1" xml:id="i-CB19v3vqyzuXw29YHHDgqd">
+          <head xml:id="i-CB19v3vqyzuXw29YHHDgqd" type="h1">
             Frivilligorganisationerna
           </head>
           <p xml:id="i-XTRYaAgbK13SnihUQeyZUc">
@@ -492,7 +495,7 @@
             Därför bör frivilligorganisationernas förutsättningar utvecklas
             i syfte att stärka dem i deras arbete inom ramen för totalförsvaret.
           </p>
-          <head type="h1" xml:id="i-25L11GQnFWDA2Naz1GfKZb">
+          <head xml:id="i-25L11GQnFWDA2Naz1GfKZb" type="h1">
             Internationella insatser
           </head>
           <p xml:id="i-YJFHC9U7Hnf2gtxBRhPTbA">
@@ -515,7 +518,7 @@
             och säkerhetsfrämjande verksamhet på utgiftsområde 5 kommande
             år.
           </p>
-          <head type="h1" xml:id="i-7grnjfwCkg5o5gSEA7JBTB">
+          <head xml:id="i-7grnjfwCkg5o5gSEA7JBTB" type="h1">
             Terrorism
           </head>
           <p xml:id="i-SZen95CyLyZqPMMpsLErZD">

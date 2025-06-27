@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-UbU-00092">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-SfnrsjEZBg9vdQjkU5VSZ2</idno>
-            <name>Ian Wachtmeister </name>
+            <name>Ian Wachtmeister</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-LvT4xzQrHUKrVDH5VNSL5s</idno>
-            <name>Stefan Kihlberg </name>
+            <name>Stefan Kihlberg</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-KseKGSrYKqytdjGTMEnxFS</idno>
-            <name>Bo G Jenevall </name>
+            <name>Bo G Jenevall</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-HxP2FUZdVAR4mZgsoSLgbM"/>
+        <correspAction xml:id="i-HxP2FUZdVAR4mZgsoSLgbM" type="basedOn"/>
         <correspContext corresp="i-HxP2FUZdVAR4mZgsoSLgbM">
           <ref>Proposition 1992/93:171</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-LvT4xzQrHUKrVDH5VNSL5s"/>
           <note type="signatory" corresp="i-KseKGSrYKqytdjGTMEnxFS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Uo3xjm3fhmeerATsaCWNw">
+        <correspAction xml:id="i-Uo3xjm3fhmeerATsaCWNw" type="referral">
           <date when="1993-03-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UMSVeSdgV9781sVhsDx33x">
+        <correspAction xml:id="i-UMSVeSdgV9781sVhsDx33x" type="dismissal">
           <date when="1993-03-16"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3EmNrqKsxdXoCED9iTZBhJ">
+        <correspAction xml:id="i-3EmNrqKsxdXoCED9iTZBhJ" type="submission">
           <date when="1993-03-15"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-EkA79vGNXCvpnegQVg1Whe">
+        <correspAction xml:id="i-EkA79vGNXCvpnegQVg1Whe" type="referral">
           <date when="1993-03-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TCVrWPRxy5FnkK3M3PxrVY">
+        <correspAction xml:id="i-TCVrWPRxy5FnkK3M3PxrVY" type="dismissal">
           <date when="1993-03-16"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-P67KQbXuCnJ17NAHkZTrnr">
+        <correspAction xml:id="i-P67KQbXuCnJ17NAHkZTrnr" type="submission">
           <date when="1993-03-15"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5mGufiKpNxXS3dVfS2cKHU"/>
+        <correspAction xml:id="i-5mGufiKpNxXS3dVfS2cKHU" type="assigned"/>
         <correspContext corresp="i-5mGufiKpNxXS3dVfS2cKHU">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_UbU_92/mot_199293_UbU_92-001.pdf"/>
-      <div type="motHeader" xml:id="i-S1RFmiHsfDEY58vbDajLU6">
-        <div type="motTitle" xml:id="i-51gXrbVt8UYw5zLZQNiVuV"/>
-        <div type="motSubmissionInfo" xml:id="i-Gz5xVwZ5PnpL5VLNN24fJi"/>
+      <div xml:id="i-S1RFmiHsfDEY58vbDajLU6" type="motHeader">
+        <div xml:id="i-51gXrbVt8UYw5zLZQNiVuV" type="motTitle"/>
+        <div xml:id="i-Gz5xVwZ5PnpL5VLNN24fJi" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FJhLx5tGqc6cv81fdS2tiN">
+      <div xml:id="i-FJhLx5tGqc6cv81fdS2tiN" type="motBody">
         <div xml:id="i-KZMxRxYJvtmDX4yAb1dgsb">
           <p xml:id="i-DRXnStP5tXz9CyRNLABXE3">
             Motion till riksdagen 1992/93:Ub92
@@ -249,8 +249,11 @@
             utnämningar, 6. att riksdagen beslutar att forskningsstyrelserna
             endast får utdela realavkastningen till forskningen varje år.
           </p>
-          <p xml:id="i-YLqfDbVy1g7D2N3RyQ7RZt">
-            Stockholm den 15 mars 1992 Ian Wachtmeister (nyd)
+          <p xml:id="i-YLqfDbVy1g7D2N3RyQ7RZt" type="date">
+            Stockholm den 15 mars 1992
+          </p>
+          <p type="signatureBlock" id="i-RZGFYtfSjLmoh1bW5hPkii">
+            Ian Wachtmeister (nyd)
           </p>
           <p xml:id="i-TyKgx15CmQ5YxjLULgMq1j">
             Stefan Kihlberg (nyd) Bo G Jenevall (nyd)

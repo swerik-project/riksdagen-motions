@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00303">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-2KbZYyQVoJMorTRDdt2Dty">
           <note type="signatory" corresp="i-UdGnyRLxFm6LiCDBYWE7MV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TaGprNFmFX1ZbAinWi1vG6">
+        <correspAction xml:id="i-TaGprNFmFX1ZbAinWi1vG6" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VoiovnAFV4hf6jG96znKiF">
+        <correspAction xml:id="i-VoiovnAFV4hf6jG96znKiF" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BZewKkxpFeBrq8VbeLv4Qq">
+        <correspAction xml:id="i-BZewKkxpFeBrq8VbeLv4Qq" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-C9fgvmxNRP6HZ9Y1n3BAJZ"/>
+        <correspAction xml:id="i-C9fgvmxNRP6HZ9Y1n3BAJZ" type="assigned"/>
         <correspContext corresp="i-C9fgvmxNRP6HZ9Y1n3BAJZ">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ju_0303/mot_200304_Ju_0303-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9qMcVgEJzLaDwWPE7Kg2r8">
-        <div type="motTitle" xml:id="i-65dJFRa7K9HU74pvCZtZhg"/>
-        <div type="motSubmissionInfo" xml:id="i-H7tqZz3AktKJMQYoNtYaah"/>
+      <div xml:id="i-9qMcVgEJzLaDwWPE7Kg2r8" type="motHeader">
+        <div xml:id="i-65dJFRa7K9HU74pvCZtZhg" type="motTitle"/>
+        <div xml:id="i-H7tqZz3AktKJMQYoNtYaah" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JuShdNviYCLJqtWz9rjvyD">
+      <div xml:id="i-JuShdNviYCLJqtWz9rjvyD" type="motBody">
         <div xml:id="i-PF1nc56snqWLzeHRWHUaEP">
           <p xml:id="i-UV1u8D799EHeV5R4royR6W">
             2003/04 mnr: Ju303 pnr: m1409
@@ -131,8 +131,11 @@
             missbruksrelaterad kriminalitet bör rimligtvis ligga inom kriminalvårdens
             ansvarsområde.
           </p>
-          <p xml:id="i-DXJeL8dM5aJk1DQypCw6Nb">
-            Stockholm den 2 oktober 2003 Bertil Kjellberg (m)
+          <p xml:id="i-DXJeL8dM5aJk1DQypCw6Nb" type="date">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-H8qo3iUKntKxMg2TXkAmg6">
+            Bertil Kjellberg (m)
           </p>
         </div>
       </div>

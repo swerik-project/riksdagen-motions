@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-SoU-00061">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-8ZdkUhuFmDYTWVRGRdMXeW</idno>
-            <name>Stig Sandström </name>
+            <name>Stig Sandström</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-N2DCALLzDDrori3ZEwXGwH"/>
+        <correspAction xml:id="i-N2DCALLzDDrori3ZEwXGwH" type="basedOn"/>
         <correspContext corresp="i-N2DCALLzDDrori3ZEwXGwH">
           <ref>Proposition 1996/97:146</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-8ZdkUhuFmDYTWVRGRdMXeW"/>
           <note type="signatory" corresp="i-8ZdkUhuFmDYTWVRGRdMXeW"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MrpsuW8Qk5iBkCf382xsEW">
+        <correspAction xml:id="i-MrpsuW8Qk5iBkCf382xsEW" type="referral">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DzLwi1SEbSQRq1qKaFcoyQ">
+        <correspAction xml:id="i-DzLwi1SEbSQRq1qKaFcoyQ" type="dismissal">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SAuW4pn8c2sz7dTA6P8XC1">
+        <correspAction xml:id="i-SAuW4pn8c2sz7dTA6P8XC1" type="submission">
           <date when="1997-06-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-3LiUPVHf4fvzed3cWESUa5">
+        <correspAction xml:id="i-3LiUPVHf4fvzed3cWESUa5" type="referral">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QMcEzYpPyGe4ojDbGugtzm">
+        <correspAction xml:id="i-QMcEzYpPyGe4ojDbGugtzm" type="dismissal">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ADuaSAMQBXRMuHHqthFPYd">
+        <correspAction xml:id="i-ADuaSAMQBXRMuHHqthFPYd" type="submission">
           <date when="1997-06-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-C2u8Y6cJywYbcV4CeGVV9f"/>
+        <correspAction xml:id="i-C2u8Y6cJywYbcV4CeGVV9f" type="assigned"/>
         <correspContext corresp="i-C2u8Y6cJywYbcV4CeGVV9f">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_SO_0061/mot_199697_SO_0061-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4nS3LUh9uozL5YhPgA8LZe">
-        <div type="motTitle" xml:id="i-AqoWpb1VcYKknfUM67RvWV"/>
-        <div type="motSubmissionInfo" xml:id="i-SU2CF5BEQQBbQr2mG37euT"/>
+      <div xml:id="i-4nS3LUh9uozL5YhPgA8LZe" type="motHeader">
+        <div xml:id="i-AqoWpb1VcYKknfUM67RvWV" type="motTitle"/>
+        <div xml:id="i-SU2CF5BEQQBbQr2mG37euT" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CR7KodTpzKxMVZoB5dgFtU">
+      <div xml:id="i-CR7KodTpzKxMVZoB5dgFtU" type="motBody">
         <div xml:id="i-7BfoSQgXiDbLrTfNGTiF1b">
           <p xml:id="i-HnEVNLmmEmCm4wihcZTBYm">
             1996/97 So61 S056-61
@@ -205,9 +205,12 @@
           <p xml:id="i-XDsR9SLdvTbggFo7vpAwwi">
             Mot. 15 1996/97S061
           </p>
-          <p xml:id="i-8A2pKrNe1JpSFbPRrjt7xL">
-            Stockholm den 11 juni 1997 Stig Sandström (v) Charlotta L Bjälkebring
-            (v) Britt-Marie Danestig-Olofsson (v) Ulla Hoffmann (v)
+          <p xml:id="i-8A2pKrNe1JpSFbPRrjt7xL" type="date">
+            Stockholm den 11 juni 1997
+          </p>
+          <p type="signatureBlock" id="i-3XEGqQrZfpZPfpry3Xsnkn">
+            Stig Sandström (v) Charlotta L Bjälkebring (v) Britt-Marie Danestig-Olofsson
+            (v) Ulla Hoffmann (v)
           </p>
           <p xml:id="i-6LKpo6PZ7gGyEd9u7aa2XR">
             Johan Lönnroth (v)

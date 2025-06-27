@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00225">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-GX7nSd5p9oDyY4nGy5kJYa">
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-E5JrhEyMeSL4nBUDApmxSP">
+        <correspAction xml:id="i-E5JrhEyMeSL4nBUDApmxSP" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PJoSthyMnpE3hXUQ2zJ7MQ">
+        <correspAction xml:id="i-PJoSthyMnpE3hXUQ2zJ7MQ" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Kq1qCq21mwCVV8f4oc9QAh">
+        <correspAction xml:id="i-Kq1qCq21mwCVV8f4oc9QAh" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-xnGUex5DWgNnS2ug74u6e"/>
+        <correspAction xml:id="i-xnGUex5DWgNnS2ug74u6e" type="assigned"/>
         <correspContext corresp="i-xnGUex5DWgNnS2ug74u6e">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_T_0225/mot_200203_T_0225-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8KLi39dZrrXJCNkmPBUCHp">
-        <div type="motTitle" xml:id="i-N4H2RD7evFCVvWXPiMoVW4"/>
-        <div type="motSubmissionInfo" xml:id="i-KzVauTJvKooyWEUmsgFArz"/>
+      <div xml:id="i-8KLi39dZrrXJCNkmPBUCHp" type="motHeader">
+        <div xml:id="i-N4H2RD7evFCVvWXPiMoVW4" type="motTitle"/>
+        <div xml:id="i-KzVauTJvKooyWEUmsgFArz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2LRZEAgymgBQu7Vsd7KpN6">
+      <div xml:id="i-2LRZEAgymgBQu7Vsd7KpN6" type="motBody">
         <div xml:id="i-5cwscpnSaVE1eiCHC6ZyFn">
           <p xml:id="i-LKFnbwQ9mF4Fk9AkRkAyxU">
             14
@@ -135,8 +135,11 @@
             Regeringen måste när den fördelar medel till vägunderhåll i hela
             riket särskilt beakta situationen i Västerbotten.
           </p>
-          <p xml:id="i-NSVth379tdg61qmNsaNASg">
-            Stockholm den 14 oktober 2002 Gunilla Tjernberg (kd)
+          <p xml:id="i-NSVth379tdg61qmNsaNASg" type="date">
+            Stockholm den 14 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-H3wx6eNVprr7nCHd8Am9gv">
+            Gunilla Tjernberg (kd)
           </p>
         </div>
       </div>

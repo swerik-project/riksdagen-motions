@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-JuU-00296">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-JhAXtFERJgBse2xeP41m1A">
           <note type="signatory" corresp="i-KNqtzTyLq88RopWq6R35xs"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SEfwYKw4dwGsM1CjR1bs4K">
+        <correspAction xml:id="i-SEfwYKw4dwGsM1CjR1bs4K" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9GJozEZbhY8R9aAc5c8xvr">
+        <correspAction xml:id="i-9GJozEZbhY8R9aAc5c8xvr" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6nWjpMjxxF1DzxKYjGMqz9">
+        <correspAction xml:id="i-6nWjpMjxxF1DzxKYjGMqz9" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Ue9NfZiTe6h1nLS9VBsnpq"/>
+        <correspAction xml:id="i-Ue9NfZiTe6h1nLS9VBsnpq" type="assigned"/>
         <correspContext corresp="i-Ue9NfZiTe6h1nLS9VBsnpq">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ju_0296/mot_200203_Ju_0296-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8GYUN6MRt4QZq2CnJu5udg">
-        <div type="motTitle" xml:id="i-WP8YaKsgxj1PEZA7EyWxGd"/>
-        <div type="motSubmissionInfo" xml:id="i-U79i9nnFh5hG29q3cyoNzK"/>
+      <div xml:id="i-8GYUN6MRt4QZq2CnJu5udg" type="motHeader">
+        <div xml:id="i-WP8YaKsgxj1PEZA7EyWxGd" type="motTitle"/>
+        <div xml:id="i-U79i9nnFh5hG29q3cyoNzK" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-W8KLr2hK7nYeM17oosY22M">
+      <div xml:id="i-W8KLr2hK7nYeM17oosY22M" type="motBody">
         <div xml:id="i-ANxuHksD8gUB7CNsyA8H7E">
           <p xml:id="i-A9cHcpEWoREp19mo8JPXa7">
             2002/03 mnr: Ju296 pnr: s38008
@@ -275,8 +275,11 @@
             och även är beredd att när så bedöms nödvändigt tillgripa ändrad
             lagstiftning för att skydda den personliga integriteten.
           </p>
-          <p xml:id="i-KMtokPxr7zhGW9bDcgKiyk">
-            Stockholm den 17 oktober 2002 Ronny Olander (s)
+          <p xml:id="i-KMtokPxr7zhGW9bDcgKiyk" type="date">
+            Stockholm den 17 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-D5tQAVdgnk3MFRYhqqz2Ko">
+            Ronny Olander (s)
           </p>
         </div>
       </div>

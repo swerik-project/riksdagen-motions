@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00429">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-6hragAQrAodw1CQU7ZKseu">
+        <correspAction xml:id="i-6hragAQrAodw1CQU7ZKseu" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QdG9cPNgu9kEqr1YqgbHEa">
+        <correspAction xml:id="i-QdG9cPNgu9kEqr1YqgbHEa" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4NDtehB8rQzmkq23UtaXBq">
+        <correspAction xml:id="i-4NDtehB8rQzmkq23UtaXBq" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8Fkb4tjyHf7RPtmtXXWfmR"/>
+        <correspAction xml:id="i-8Fkb4tjyHf7RPtmtXXWfmR" type="assigned"/>
         <correspContext corresp="i-8Fkb4tjyHf7RPtmtXXWfmR">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_429/mot_200506_T_429-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CCrM8qexGuKgLSZxEBwxvQ">
-        <div type="motTitle" xml:id="i-BotpJtRz57FHEQeVkjphJ3"/>
-        <div type="motSubmissionInfo" xml:id="i-XTTiAiDJFzTGpiLpubpciW"/>
+      <div xml:id="i-CCrM8qexGuKgLSZxEBwxvQ" type="motHeader">
+        <div xml:id="i-BotpJtRz57FHEQeVkjphJ3" type="motTitle"/>
+        <div xml:id="i-XTTiAiDJFzTGpiLpubpciW" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-V4HN57NHuSysdtS84r13cV">
+      <div xml:id="i-V4HN57NHuSysdtS84r13cV" type="motBody">
         <div xml:id="i-LzWdGUvX4To3BW5ptAzbuY">
           <p xml:id="i-ThtAkXkEDYdsqZSoMqPSNe">
             2005/06 mnr: T429 pnr: kd648
@@ -139,9 +139,11 @@
             är alltså stora sett såväl i den enskildes perspektiv som i nationalekonomiskt,
             miljömässigt och trafikmässigt perspektiv.
           </p>
-          <p xml:id="i-Rfd1BG6wB129SbXYFnvBss">
-            Stockholm den 28 september 2005 Tuve Skånberg (kd) Mikael Oscarsson
-            (kd)
+          <p xml:id="i-Rfd1BG6wB129SbXYFnvBss" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-b6znsrYzuRDH49Zoeuycp">
+            Tuve Skånberg (kd) Mikael Oscarsson (kd)
           </p>
         </div>
       </div>

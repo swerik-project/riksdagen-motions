@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SfU-00024">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-BnPTiDR8MMyC71ezAtPLFa"/>
+        <correspAction xml:id="i-BnPTiDR8MMyC71ezAtPLFa" type="basedOn"/>
         <correspContext corresp="i-BnPTiDR8MMyC71ezAtPLFa">
           <ref>Proposition 2004/05:138</ref>
         </correspContext>
@@ -50,19 +50,19 @@
           <note type="signatory" corresp="i-APELvxGf3JYiSTi4k8E9SN"/>
           <note type="signatory" corresp="i-9CH1KbWwyrj8DRqAQB3Fza"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2W4BqfrtbLWsaA1cmL5eRj">
+        <correspAction xml:id="i-2W4BqfrtbLWsaA1cmL5eRj" type="referral">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-EmJhDbAKbFw8u38Scvp8B7">
+        <correspAction xml:id="i-EmJhDbAKbFw8u38Scvp8B7" type="registration">
           <date when="2005-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BfhAjsZJYipPgqrJdViwpc">
+        <correspAction xml:id="i-BfhAjsZJYipPgqrJdViwpc" type="dismissal">
           <date when="2005-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UShTcAfXFVC4WPk5BTeoti">
+        <correspAction xml:id="i-UShTcAfXFVC4WPk5BTeoti" type="submission">
           <date when="2005-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UFJNxbERxjhBXzvBm4gwPC"/>
+        <correspAction xml:id="i-UFJNxbERxjhBXzvBm4gwPC" type="assigned"/>
         <correspContext corresp="i-UFJNxbERxjhBXzvBm4gwPC">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sf_24/mot_200405_Sf_24-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SjNpcR5PG1sAXyniFMaH2e">
-        <div type="motTitle" xml:id="i-AjE1sEpaJLw19ByNL5oYoC"/>
-        <div type="motSubmissionInfo" xml:id="i-4KHRjwTqyZWoko7HEyEyFq"/>
+      <div xml:id="i-SjNpcR5PG1sAXyniFMaH2e" type="motHeader">
+        <div xml:id="i-AjE1sEpaJLw19ByNL5oYoC" type="motTitle"/>
+        <div xml:id="i-4KHRjwTqyZWoko7HEyEyFq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5pYAHS58MVXP3556LY4muj">
+      <div xml:id="i-5pYAHS58MVXP3556LY4muj" type="motBody">
         <div xml:id="i-W2GbrPtM6Q4BPTU9JiihoG">
           <p xml:id="i-YJ8GVHZUroLHmoppW31Maa">
             2004/05 mnr: Sf24 pnr: mp021
@@ -190,10 +190,12 @@
           </p>
           <p xml:id="i-LUsPbrZMQoMEjCDh7hcS5e">
             rättssäkerhetsproblemet är löst är det vår skyldighet att ge
-            en fristad till personer som flyr till Sverige. Stockholm den
-            6 april 2005
+            en fristad till personer som flyr till Sverige.
           </p>
-          <p xml:id="i-3eSEBSGrdyNPnN745cw3bQ">
+          <p type="date" id="i-QEbn9D1VDrAFxU2E48V4Ne">
+            Stockholm den 6 april 2005
+          </p>
+          <p xml:id="i-3eSEBSGrdyNPnN745cw3bQ" type="signatureBlock">
             Mona Jönsson (mp) Gustav Fridolin (mp)
           </p>
         </div>

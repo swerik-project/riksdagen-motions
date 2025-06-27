@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00471">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Jhk9VQNeMtF6q1yCoyX8c9">
           <note type="signatory" corresp="i-XSoE59R8vSeGm31iRSvpAz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HwiM4yy1jCKsuc1gKhxx4v">
+        <correspAction xml:id="i-HwiM4yy1jCKsuc1gKhxx4v" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-uYDoJq249tCXvcG7bx7Ct">
+        <correspAction xml:id="i-uYDoJq249tCXvcG7bx7Ct" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Pk6Afn1oKhiqCKXE76YLpy">
+        <correspAction xml:id="i-Pk6Afn1oKhiqCKXE76YLpy" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6wMYM9ajVmPHmshrccGwok"/>
+        <correspAction xml:id="i-6wMYM9ajVmPHmshrccGwok" type="assigned"/>
         <correspContext corresp="i-6wMYM9ajVmPHmshrccGwok">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0471/mot_200304_So_0471-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VGoAdYch6qF1gZ5gHVD87s">
-        <div type="motTitle" xml:id="i-XySvCDxYVH18BjW5cDoKK"/>
-        <div type="motSubmissionInfo" xml:id="i-MkxcMSvcp77g5GPbbKUySH"/>
+      <div xml:id="i-VGoAdYch6qF1gZ5gHVD87s" type="motHeader">
+        <div xml:id="i-XySvCDxYVH18BjW5cDoKK" type="motTitle"/>
+        <div xml:id="i-MkxcMSvcp77g5GPbbKUySH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XpZiVM97WLndjtqTvMdn5W">
+      <div xml:id="i-XpZiVM97WLndjtqTvMdn5W" type="motBody">
         <div xml:id="i-BL8L4JCkH1EM3p4Nm5cakR">
           <p xml:id="i-KNhystP6ZsiJVeASVJbyaS">
             2003/04 mnr: S0471 pnr: kd776
@@ -141,8 +141,11 @@
             av åtgärder som behöver vidtas för att minska alkoholkonsumtionen
             är att folkölsförsäljningen endast får äga rum på systembolaget.
           </p>
-          <p xml:id="i-9cipt6UEk3h896buhtjFSq">
-            Stockholm den 3 oktober 2003 Ulrik Lindgren (kd)
+          <p xml:id="i-9cipt6UEk3h896buhtjFSq" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-8MHRAapKLpZCi8CgB73i9N">
+            Ulrik Lindgren (kd)
           </p>
         </div>
       </div>

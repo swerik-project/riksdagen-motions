@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00524">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-QA8C8brE7zTKNTNcn5mDbS">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2RtimxD2kXLHtXvsfuNcgt">
+        <correspAction xml:id="i-2RtimxD2kXLHtXvsfuNcgt" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QM5jTxinGgqQ2xwnyZQNss">
+        <correspAction xml:id="i-QM5jTxinGgqQ2xwnyZQNss" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FF4KF3q5EN4CZDNZCZ9CoH">
+        <correspAction xml:id="i-FF4KF3q5EN4CZDNZCZ9CoH" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JnJea9r6upRHs6JtniaFE6"/>
+        <correspAction xml:id="i-JnJea9r6upRHs6JtniaFE6" type="assigned"/>
         <correspContext corresp="i-JnJea9r6upRHs6JtniaFE6">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0524/mot_200304_So_0524-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HMYa2DN23fJuC5m5KYGatc">
-        <div type="motTitle" xml:id="i-WDC6639xC9ant9WzqZXNCa"/>
-        <div type="motSubmissionInfo" xml:id="i-CaH2NexqTg7XkthU9kP2Hc"/>
+      <div xml:id="i-HMYa2DN23fJuC5m5KYGatc" type="motHeader">
+        <div xml:id="i-WDC6639xC9ant9WzqZXNCa" type="motTitle"/>
+        <div xml:id="i-CaH2NexqTg7XkthU9kP2Hc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-M153AdtWzyMaYuLgwtrGGw">
+      <div xml:id="i-M153AdtWzyMaYuLgwtrGGw" type="motBody">
         <div xml:id="i-YGsg8Bd4yRZyRajP3vc6jh">
           <p xml:id="i-AaLxpzR3WHUfUMXuLDjnJW">
             2003/04 mnr: So524 pnr: kd886
@@ -204,8 +204,11 @@
             investera i. Medicinska, etiska och ekonomiska skäl talar alla
             för ökade insatser för att minska ett av våra allvarligaste folkhälsoproblem.
           </p>
-          <p xml:id="i-7WxwR8jYTw7btbMVTLvejh">
-            Stockholm den 6 oktober 2003 Annelie Enochson (kd)
+          <p xml:id="i-7WxwR8jYTw7btbMVTLvejh" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-YYiy6NnD7iq9zgc1n1m9g5">
+            Annelie Enochson (kd)
           </p>
           <p xml:id="i-3BrAxm4Ep3L1pwuHHX8DoX">
             2003/04:S0524

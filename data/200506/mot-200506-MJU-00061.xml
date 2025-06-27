@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00061">
   <teiHeader>
     <fileDesc>
@@ -42,7 +42,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-98hqiWMRbMqmFVKe4d29kp"/>
+        <correspAction xml:id="i-98hqiWMRbMqmFVKe4d29kp" type="basedOn"/>
         <correspContext corresp="i-98hqiWMRbMqmFVKe4d29kp">
           <ref>Regeringsskrivelse 2005/06:211</ref>
         </correspContext>
@@ -51,19 +51,19 @@
           <note type="signatory" corresp="i-GLV4P4jtfPZVZ95YSNxfBh"/>
           <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DbkYSUTsFbxcxdubknx9ya">
+        <correspAction xml:id="i-DbkYSUTsFbxcxdubknx9ya" type="referral">
           <date when="2006-05-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7XLsnReKxD3WQDWFoGNMkD">
+        <correspAction xml:id="i-7XLsnReKxD3WQDWFoGNMkD" type="dismissal">
           <date when="2006-05-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UMd81pKynyspJaJAi27vk8">
+        <correspAction xml:id="i-UMd81pKynyspJaJAi27vk8" type="dismissal">
           <date when="2006-05-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BZFFWnUvDXfnteKj2ssyMP">
+        <correspAction xml:id="i-BZFFWnUvDXfnteKj2ssyMP" type="submission">
           <date when="2006-05-24"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LuT11wi2EBUEuFSfEvVxWD"/>
+        <correspAction xml:id="i-LuT11wi2EBUEuFSfEvVxWD" type="assigned"/>
         <correspContext corresp="i-LuT11wi2EBUEuFSfEvVxWD">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -78,11 +78,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_61/mot_200506_MJ_61-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CMEzPcr6P9AviM7Zudh7mw">
-        <div type="motTitle" xml:id="i-PddYhwqzyF59HYdY4EJjhk"/>
-        <div type="motSubmissionInfo" xml:id="i-7yKnmUbQhbAA5jTPr8qNp5"/>
+      <div xml:id="i-CMEzPcr6P9AviM7Zudh7mw" type="motHeader">
+        <div xml:id="i-PddYhwqzyF59HYdY4EJjhk" type="motTitle"/>
+        <div xml:id="i-7yKnmUbQhbAA5jTPr8qNp5" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7AQXg57Xj2EeqimKBYEy8G">
+      <div xml:id="i-7AQXg57Xj2EeqimKBYEy8G" type="motBody">
         <div xml:id="i-JPyDZH8iSK9ZkR1bkTMTbP">
           <p xml:id="i-3XymQ4CeauGizVL44mMQqz">
             2005/06 mnr: MJ61 pnr: mp038
@@ -275,8 +275,11 @@
             insamlingen. Fastighetsnära insamling ger i stort sett alltid
             ett renare material som är lättare att omhänderta.
           </p>
-          <p xml:id="i-785v1jMnSfAagUgB4Qf3mS">
-            Stockholm den 24 maj 2006 Åsa Domeij (mp) Jan Lindholm (mp)
+          <p xml:id="i-785v1jMnSfAagUgB4Qf3mS" type="date">
+            Stockholm den 24 maj 2006
+          </p>
+          <p type="signatureBlock" id="i-RuSXsimW4hi7YyWHWykmVX">
+            Åsa Domeij (mp) Jan Lindholm (mp)
           </p>
         </div>
       </div>

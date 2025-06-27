@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00008">
   <teiHeader>
     <fileDesc>
@@ -104,7 +104,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-BnrVHJMBaWSG5fp6r8frg6"/>
+        <correspAction xml:id="i-BnrVHJMBaWSG5fp6r8frg6" type="basedOn"/>
         <correspContext corresp="i-BnrVHJMBaWSG5fp6r8frg6">
           <ref>Regeringsskrivelse 2003/04:13</ref>
         </correspContext>
@@ -122,16 +122,16 @@
           <note type="signatory" corresp="i-5jLvgtZLz4tn3NhaKToY29"/>
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8djdXR33h7mps7icKUa8SB">
+        <correspAction xml:id="i-8djdXR33h7mps7icKUa8SB" type="referral">
           <date when="2003-10-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-W4yjgRsWQF4oJe4tYYmsn8">
+        <correspAction xml:id="i-W4yjgRsWQF4oJe4tYYmsn8" type="dismissal">
           <date when="2003-10-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KGgZfpE5fjejBsS2j7YFB6">
+        <correspAction xml:id="i-KGgZfpE5fjejBsS2j7YFB6" type="submission">
           <date when="2003-10-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2imYJhP46eGFYU2ju4799a"/>
+        <correspAction xml:id="i-2imYJhP46eGFYU2ju4799a" type="assigned"/>
         <correspContext corresp="i-2imYJhP46eGFYU2ju4799a">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -146,11 +146,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0008/mot_200304_K_0008-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9JKdppix7qpCdttd3YBWjF">
-        <div type="motTitle" xml:id="i-DHfP2NyDS8ttezLfU5GfRp"/>
-        <div type="motSubmissionInfo" xml:id="i-Y13oV7oq75EHifwEdwUFNF"/>
+      <div xml:id="i-9JKdppix7qpCdttd3YBWjF" type="motHeader">
+        <div xml:id="i-DHfP2NyDS8ttezLfU5GfRp" type="motTitle"/>
+        <div xml:id="i-Y13oV7oq75EHifwEdwUFNF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-26xMZkb6LXYQjX2235QfiH">
+      <div xml:id="i-26xMZkb6LXYQjX2235QfiH" type="motBody">
         <div xml:id="i-NshEDMsJX4hAMRUMifw2cf">
           <p xml:id="i-BpuqCTu7hvHVn8ZwFHoGh">
             2003/04 mnr: K8 pnr: kd113
@@ -1933,8 +1933,11 @@
             att ytterligare diskutera vad denna form av räddningstjänst skall
             innefatta innan det lagfästs i fördraget.
           </p>
-          <p xml:id="i-83aPLG2rbB7TzPEQrc6e7H">
-            Stockholm den 17 oktober 2003 Alf Svensson (kd)
+          <p xml:id="i-83aPLG2rbB7TzPEQrc6e7H" type="date">
+            Stockholm den 17 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-W7FCUXesRzQszbTbdU1bmG">
+            Alf Svensson (kd)
           </p>
           <p xml:id="i-GYSU5ZLjhCr78bdFNvRMjQ">
             Stefan Attefall (kd) Maria Larsson (kd) Inger Davidson (kd) Johnny

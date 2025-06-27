@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00486">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-AzmapadeCAqPSxStgVU8Br">
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HFTQAqCYDQR1aB2fnFdFMb">
+        <correspAction xml:id="i-HFTQAqCYDQR1aB2fnFdFMb" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JGAHywPu7Lyo1CVLzWbSKj">
+        <correspAction xml:id="i-JGAHywPu7Lyo1CVLzWbSKj" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DbcWSBaZJAXkksfPuD3aPB">
+        <correspAction xml:id="i-DbcWSBaZJAXkksfPuD3aPB" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NjBYMqpMLckibXuuAt9vdu"/>
+        <correspAction xml:id="i-NjBYMqpMLckibXuuAt9vdu" type="assigned"/>
         <correspContext corresp="i-NjBYMqpMLckibXuuAt9vdu">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_486/mot_200405_T_486-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JdnpDGTNfNZm9qxjZRDGiU">
-        <div type="motTitle" xml:id="i-Uy9ecT5aiufUYKz76m5Gmi"/>
-        <div type="motSubmissionInfo" xml:id="i-6azeFKDLuAxwGrVuxE7k9v"/>
+      <div xml:id="i-JdnpDGTNfNZm9qxjZRDGiU" type="motHeader">
+        <div xml:id="i-Uy9ecT5aiufUYKz76m5Gmi" type="motTitle"/>
+        <div xml:id="i-6azeFKDLuAxwGrVuxE7k9v" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GM6oTGHFnSnbU3Bncs7zRF">
+      <div xml:id="i-GM6oTGHFnSnbU3Bncs7zRF" type="motBody">
         <div xml:id="i-CUndrJ7ZsXywpXN59UPXUP">
           <p xml:id="i-B3j6xr2XQoN7Z8zfyeSXze">
             2004/05 mnr: T486 pnr: fp521
@@ -142,8 +142,11 @@
             län kan inte återigen vara ett spelfält för tomma löften. Detta
             bör ges regeringen tillkänna.
           </p>
-          <p xml:id="i-Bkhvbqtc92MXb7doVGTxN3">
-            Stockholm den 5 oktober 2004 Johan Pehrson (fp)
+          <p xml:id="i-Bkhvbqtc92MXb7doVGTxN3" type="date">
+            Stockholm den 5 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-B7GMVJFm9QFMpWnV6R89zb">
+            Johan Pehrson (fp)
           </p>
         </div>
       </div>

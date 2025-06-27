@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00313">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-3JSNQTCskiVNvdQW3rW9Cc">
           <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TvDhvBSKnLCSGC3kXcqXqg">
+        <correspAction xml:id="i-TvDhvBSKnLCSGC3kXcqXqg" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Fe6JLvgqDyA4nER8K9UTy7">
+        <correspAction xml:id="i-Fe6JLvgqDyA4nER8K9UTy7" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LkRaDC9tmWqNgWQ5xpyJkD">
+        <correspAction xml:id="i-LkRaDC9tmWqNgWQ5xpyJkD" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PD1HZwabZX8jJzKPDTVp8f"/>
+        <correspAction xml:id="i-PD1HZwabZX8jJzKPDTVp8f" type="assigned"/>
         <correspContext corresp="i-PD1HZwabZX8jJzKPDTVp8f">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_MJ_0313/mot_200304_MJ_0313-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EtSpb61CFw5d1iCWf2FRuL">
-        <div type="motTitle" xml:id="i-Cvr6YXToaPfBKQFMvwFfxH"/>
-        <div type="motSubmissionInfo" xml:id="i-RkRbPYnMkyrfqFzheVrUmW"/>
+      <div xml:id="i-EtSpb61CFw5d1iCWf2FRuL" type="motHeader">
+        <div xml:id="i-Cvr6YXToaPfBKQFMvwFfxH" type="motTitle"/>
+        <div xml:id="i-RkRbPYnMkyrfqFzheVrUmW" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KH1ySkcpQfWyL6pUudhrDp">
+      <div xml:id="i-KH1ySkcpQfWyL6pUudhrDp" type="motBody">
         <div xml:id="i-FfUHxHZ5gFJp8ggiVNbikL">
           <p xml:id="i-NsT61FDjHMo1tCoMiALm84">
             2003/04 mnr: MJ313 pnr: kd768
@@ -103,8 +103,11 @@
             få ske från båt och jakttiden bör förändras så att jakten får
             starta redan den 15 april.
           </p>
-          <p xml:id="i-LzdQHs4J9HyrbNrNh97r21">
-            Stockholm den 3 oktober 2003 Erling Wälivaara (kd)
+          <p xml:id="i-LzdQHs4J9HyrbNrNh97r21" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-TehHieqttuzzEBxXfPtsFQ">
+            Erling Wälivaara (kd)
           </p>
         </div>
       </div>

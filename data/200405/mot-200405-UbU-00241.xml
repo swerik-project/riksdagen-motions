@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00241">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-RsGrjgPtgL2hkXEYEuXFUE">
           <note type="signatory" corresp="i-P9fVT6wJo29FgZWPQLxr6o"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-H7c1ZrMGJub5k9fgAWi8sn">
+        <correspAction xml:id="i-H7c1ZrMGJub5k9fgAWi8sn" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SBLacYFiUiPmvEotJFSj47">
+        <correspAction xml:id="i-SBLacYFiUiPmvEotJFSj47" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UJf85yeV3gzfCAgNydTjSt">
+        <correspAction xml:id="i-UJf85yeV3gzfCAgNydTjSt" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WXKm3cMsHPAK9pZLbeLV1n"/>
+        <correspAction xml:id="i-WXKm3cMsHPAK9pZLbeLV1n" type="assigned"/>
         <correspContext corresp="i-WXKm3cMsHPAK9pZLbeLV1n">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_241/mot_200405_Ub_241-0001.pdf"/>
-      <div type="motHeader" xml:id="i-wt49gLLkSCarogzzNphC8">
-        <div type="motTitle" xml:id="i-Lhn2y46rdwbCYigKaAjxoi"/>
-        <div type="motSubmissionInfo" xml:id="i-WQUhGrupJF8hD275eXU2wv"/>
+      <div xml:id="i-wt49gLLkSCarogzzNphC8" type="motHeader">
+        <div xml:id="i-Lhn2y46rdwbCYigKaAjxoi" type="motTitle"/>
+        <div xml:id="i-WQUhGrupJF8hD275eXU2wv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AhAYjFpLeQQSxvRVepq9Ex">
+      <div xml:id="i-AhAYjFpLeQQSxvRVepq9Ex" type="motBody">
         <div xml:id="i-LZ7K6qhYF1ULVbeX73Ke8s">
           <p xml:id="i-V6eofbdkDtEsvsmMoSpUCj">
             2004/05 mnr: Ub241 pnr: fp700
@@ -130,8 +130,11 @@
             därför i högre utsträckning vara arbetsplatsförlagd och de små
             företag som tar emot elever bör få ersättning för detta.
           </p>
-          <p xml:id="i-F9rQ8yTEY3VdKW9HHb3SQF">
-            Stockholm den 22 september 2004 Anna Grönlund Krantz (fp)
+          <p xml:id="i-F9rQ8yTEY3VdKW9HHb3SQF" type="date">
+            Stockholm den 22 september 2004
+          </p>
+          <p type="signatureBlock" id="i-66DXEBURWHs4LSSLQfn35d">
+            Anna Grönlund Krantz (fp)
           </p>
         </div>
       </div>

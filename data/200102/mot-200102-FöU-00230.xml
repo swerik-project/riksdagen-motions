@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-FöU-00230">
   <teiHeader>
     <fileDesc>
@@ -46,34 +46,34 @@
           <note type="signatory" corresp="i-9qwc3VxwtKLym8d6MM3YkT"/>
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GaCfT9xCvJQDo7d3YSJffa">
+        <correspAction xml:id="i-GaCfT9xCvJQDo7d3YSJffa" type="referral">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Uat2wMFKiJWVnnbEVqhrJi">
+        <correspAction xml:id="i-Uat2wMFKiJWVnnbEVqhrJi" type="dismissal">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-9e333wzY4fu6y9opPTQ9J">
+        <correspAction xml:id="i-9e333wzY4fu6y9opPTQ9J" type="termination">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CUHiZzHfTafPa4KizqADEQ">
+        <correspAction xml:id="i-CUHiZzHfTafPa4KizqADEQ" type="submission">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-CA1NKcXGxJxexDq3dAUq6N">
+        <correspAction xml:id="i-CA1NKcXGxJxexDq3dAUq6N" type="numbering">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-36sXNrRb3TFgx5RhWyb6gj">
+        <correspAction xml:id="i-36sXNrRb3TFgx5RhWyb6gj" type="proposed_referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-Xf9Ct4JYGatG84Vya9hrBt">
+        <correspAction xml:id="i-Xf9Ct4JYGatG84Vya9hrBt" type="committee_proposal">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-7B577PX8XbFxTjvGWGUiYp">
+        <correspAction xml:id="i-7B577PX8XbFxTjvGWGUiYp" type="reviewing">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-61gUepyQXuXqEWenzG7sHN">
+        <correspAction xml:id="i-61gUepyQXuXqEWenzG7sHN" type="registration">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Xwt49ZHLkXm5uNZ6y2nikg"/>
+        <correspAction xml:id="i-Xwt49ZHLkXm5uNZ6y2nikg" type="assigned"/>
         <correspContext corresp="i-Xwt49ZHLkXm5uNZ6y2nikg">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -88,11 +88,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Fö_0230/mot_200102_Fö_0230-0001.pdf"/>
-      <div type="motHeader" xml:id="i-AZixneKqyhN16TJtye6dcq">
-        <div type="motTitle" xml:id="i-Lig4gc7VHic8c2AHHvhznx"/>
-        <div type="motSubmissionInfo" xml:id="i-E9EEyzBpsnJ9wJT91fdwVF"/>
+      <div xml:id="i-AZixneKqyhN16TJtye6dcq" type="motHeader">
+        <div xml:id="i-Lig4gc7VHic8c2AHHvhznx" type="motTitle"/>
+        <div xml:id="i-E9EEyzBpsnJ9wJT91fdwVF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WbkqwB25jiXToy9B2B1WHh">
+      <div xml:id="i-WbkqwB25jiXToy9B2B1WHh" type="motBody">
         <div xml:id="i-KqA4SiC6fz5aYmEjfL6Ngc">
           <p xml:id="i-Nx5bFFCMZ9bxhK6Z93Rffs">
             2001/02 mnr: Fö230 pnr: kd924
@@ -189,9 +189,11 @@
             turistnäringen drabbas hårt. Det är inte rimligt att dessa ensamma
             ska bära denna börda.
           </p>
-          <p xml:id="i-3EBpYcs3wfZttykGSxaRd3">
-            Stockholm den 28 september 2001 Jan Erik Ågren (kd) Dan Kihlström
-            (kd)
+          <p xml:id="i-3EBpYcs3wfZttykGSxaRd3" type="date">
+            Stockholm den 28 september 2001
+          </p>
+          <p type="signatureBlock" id="i-6qWNCc7B4SfxXTRprXqWeC">
+            Jan Erik Ågren (kd) Dan Kihlström (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00495">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-8Eg8CninsJpaRCbTcriHsr">
           <note type="signatory" corresp="i-RJ83sTtQ8c3R3VD4B55j8P"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-M1yS5i5mk9YYfUZ1k69Zfx">
+        <correspAction xml:id="i-M1yS5i5mk9YYfUZ1k69Zfx" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9nqNfV5M9wVREees3jDhMj">
+        <correspAction xml:id="i-9nqNfV5M9wVREees3jDhMj" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JTkUhboM4xHQy55ZMzwAoi">
+        <correspAction xml:id="i-JTkUhboM4xHQy55ZMzwAoi" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-R29XQ1NGfCwM6DJcBHFs6T"/>
+        <correspAction xml:id="i-R29XQ1NGfCwM6DJcBHFs6T" type="assigned"/>
         <correspContext corresp="i-R29XQ1NGfCwM6DJcBHFs6T">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_495/mot_200506_Ju_495-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FK4RSU5nQuD8TJDjQFBY1A">
-        <div type="motTitle" xml:id="i-PGRTw698B7FemvWA6DJzw6"/>
-        <div type="motSubmissionInfo" xml:id="i-GfWyD7zUQzyct4BuLb2KfK"/>
+      <div xml:id="i-FK4RSU5nQuD8TJDjQFBY1A" type="motHeader">
+        <div xml:id="i-PGRTw698B7FemvWA6DJzw6" type="motTitle"/>
+        <div xml:id="i-GfWyD7zUQzyct4BuLb2KfK" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DGhEdcc3hXNjpwMN1N6BvX">
+      <div xml:id="i-DGhEdcc3hXNjpwMN1N6BvX" type="motBody">
         <div xml:id="i-BfNS8xntiUcZ7aVmv8EmAX">
           <p xml:id="i-RCvCR65wLM96r19WhGgpi9">
             2005/06 mnr: Ju495 pnr: s13009
@@ -106,8 +106,11 @@
             tjänsteman. Hot mot förtroendevalda skall alltid vara i rollen
             som beslutsfattare.
           </p>
-          <p xml:id="i-L3JL6XvTYgwQTqSD4VP48N">
-            Stockholm den 20 september 2005 Åsa Lindestam (s)
+          <p xml:id="i-L3JL6XvTYgwQTqSD4VP48N" type="date">
+            Stockholm den 20 september 2005
+          </p>
+          <p type="signatureBlock" id="i-5v39xxiBDXAnML4WrmKGyH">
+            Åsa Lindestam (s)
           </p>
         </div>
       </div>

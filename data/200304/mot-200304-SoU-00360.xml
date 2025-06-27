@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00360">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-GZtkET4Agx2jcJRfCaMntp">
           <note type="signatory" corresp="i-XSoE59R8vSeGm31iRSvpAz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KiDxtotWgUvvDX711Qaiid">
+        <correspAction xml:id="i-KiDxtotWgUvvDX711Qaiid" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UmfBfJtQJeo8STR78mpBd5">
+        <correspAction xml:id="i-UmfBfJtQJeo8STR78mpBd5" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6JJCRG1578ZiD9NR4SYiwA">
+        <correspAction xml:id="i-6JJCRG1578ZiD9NR4SYiwA" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4sYAJLgA33R4takmJHUhq9"/>
+        <correspAction xml:id="i-4sYAJLgA33R4takmJHUhq9" type="assigned"/>
         <correspContext corresp="i-4sYAJLgA33R4takmJHUhq9">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0360/mot_200304_So_0360-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BDMo97hrH3sL4kfX8PX8rE">
-        <div type="motTitle" xml:id="i-GqBYfv9SBxfPZGbCQvwD9U"/>
-        <div type="motSubmissionInfo" xml:id="i-3JvSUsLSxRtVDA5BtXhgP6"/>
+      <div xml:id="i-BDMo97hrH3sL4kfX8PX8rE" type="motHeader">
+        <div xml:id="i-GqBYfv9SBxfPZGbCQvwD9U" type="motTitle"/>
+        <div xml:id="i-3JvSUsLSxRtVDA5BtXhgP6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DjMK2Da4euKY8Tv6AcUju1">
+      <div xml:id="i-DjMK2Da4euKY8Tv6AcUju1" type="motBody">
         <div xml:id="i-CbAcDESgytXX7yJBK4pK9Q">
           <p xml:id="i-JwKS6f9Jh4MNFnA3g2gsE5">
             2003/04 mnr: S0o360 pnr: kd752
@@ -114,8 +114,11 @@
             och LSS vara skyldiga att anmäla allvarliga missförhållanden i
             verksamheten.
           </p>
-          <p xml:id="i-Gwij4i6nmKMc74rgtLWJo9">
-            Stockholm den 3 oktober 2003 Ulrik Lindgren (kd)
+          <p xml:id="i-Gwij4i6nmKMc74rgtLWJo9" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-AMw5bUGP1zGgJqBidFrNJW">
+            Ulrik Lindgren (kd)
           </p>
         </div>
       </div>

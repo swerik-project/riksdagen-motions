@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00297">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-WrndrvJ2AoWRWP6nSaV8JB">
           <note type="signatory" corresp="i-BoRLrCqi4prCw3N11EyJPF"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HzkiE5fKabVdYmHg5ZiVFi">
+        <correspAction xml:id="i-HzkiE5fKabVdYmHg5ZiVFi" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XoaWhsaEygqomN6yoVVTyr">
+        <correspAction xml:id="i-XoaWhsaEygqomN6yoVVTyr" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4iAMGkJpQmJoohRESCqMTL">
+        <correspAction xml:id="i-4iAMGkJpQmJoohRESCqMTL" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DMsJwSnqaduzTvYAhmq8EF"/>
+        <correspAction xml:id="i-DMsJwSnqaduzTvYAhmq8EF" type="assigned"/>
         <correspContext corresp="i-DMsJwSnqaduzTvYAhmq8EF">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_297/mot_200506_Ju_297-0001.pdf"/>
-      <div type="motHeader" xml:id="i-W6oZ3B6VUi4pWRd674Ga5b">
-        <div type="motTitle" xml:id="i-67xysNe2HAbicrxd7EXHfz"/>
-        <div type="motSubmissionInfo" xml:id="i-XPg243mhL9EJQXz2yQk5rm"/>
+      <div xml:id="i-W6oZ3B6VUi4pWRd674Ga5b" type="motHeader">
+        <div xml:id="i-67xysNe2HAbicrxd7EXHfz" type="motTitle"/>
+        <div xml:id="i-XPg243mhL9EJQXz2yQk5rm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-U5uBbD6rbjXf1N7SRzfujj">
+      <div xml:id="i-U5uBbD6rbjXf1N7SRzfujj" type="motBody">
         <div xml:id="i-EABJx2Qs6CwXEcaswf9oYv">
           <p xml:id="i-FszpoLEZxG11rcK5VSSns3">
             2005/06 mnr: Ju297 pnr: fp734
@@ -128,8 +128,11 @@
             landets fängelser och rättspsykiatriska anstalter som dömts för
             sexualbrott bör därför ej ha rätt att ta del av pornografi.
           </p>
-          <p xml:id="i-GHDDbZxwC3sCMwnyAx7HTn">
-            Stockholm den 26 september 2005 Solveig Hellquist (fp)
+          <p xml:id="i-GHDDbZxwC3sCMwnyAx7HTn" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-X5xkS2Urm6WyNARNwKpLKc">
+            Solveig Hellquist (fp)
           </p>
         </div>
       </div>

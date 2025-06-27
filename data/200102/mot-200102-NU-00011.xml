@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-NU-00011">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-6ooVBxnfXoH8uSmHfrGHcN"/>
+        <correspAction xml:id="i-6ooVBxnfXoH8uSmHfrGHcN" type="basedOn"/>
         <correspContext corresp="i-6ooVBxnfXoH8uSmHfrGHcN">
           <ref>Proposition 2001/02:4</ref>
         </correspContext>
@@ -66,22 +66,22 @@
           <note type="signatory" corresp="i-FcYFZsJudP2Q26xks7EHrA"/>
           <note type="signatory" corresp="i-UojdP4mF9dqkxf3QQ9oPFe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FNmozTMCcVdGdaAzM5SKaS">
+        <correspAction xml:id="i-FNmozTMCcVdGdaAzM5SKaS" type="referral">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-2mJzJ4tCTW9tayaTDnsnUu">
+        <correspAction xml:id="i-2mJzJ4tCTW9tayaTDnsnUu" type="reviewing">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-MwcGnzpCgJZyCwp5Rj4uqS">
+        <correspAction xml:id="i-MwcGnzpCgJZyCwp5Rj4uqS" type="registration">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-qDoCMBeMD9LZBxCnk1jVa">
+        <correspAction xml:id="i-qDoCMBeMD9LZBxCnk1jVa" type="dismissal">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GEvzYdZXGcpN2YcEXomUAW">
+        <correspAction xml:id="i-GEvzYdZXGcpN2YcEXomUAW" type="submission">
           <date when="2001-10-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2umc2C7G9VGnJL23ZUDaPo"/>
+        <correspAction xml:id="i-2umc2C7G9VGnJL23ZUDaPo" type="assigned"/>
         <correspContext corresp="i-2umc2C7G9VGnJL23ZUDaPo">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -96,11 +96,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_N_0011/mot_200102_N_0011-0001.pdf"/>
-      <div type="motHeader" xml:id="i-U1ukpm787HzDT9qyFn3z9J">
-        <div type="motTitle" xml:id="i-C4GKHgj3vb4zPHvUCXyNBs"/>
-        <div type="motSubmissionInfo" xml:id="i-QayQZA9exeKxxTfexXvxgr"/>
+      <div xml:id="i-U1ukpm787HzDT9qyFn3z9J" type="motHeader">
+        <div xml:id="i-C4GKHgj3vb4zPHvUCXyNBs" type="motTitle"/>
+        <div xml:id="i-QayQZA9exeKxxTfexXvxgr" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QfWq6KcXQRiL6PK6jzBRMU">
+      <div xml:id="i-QfWq6KcXQRiL6PK6jzBRMU" type="motBody">
         <div xml:id="i-E23ZWe5rD9fBKJJ6o5Qx6U">
           <p xml:id="i-UmeUHfPQjaoeB6YD1fjqcu">
             2001/02 mnr: N11 pnr: s33060
@@ -160,10 +160,12 @@
           <p xml:id="i-WTyfZsTMU78JEkvEyH1hnA">
             Hela Sverige ska ges chans att leva och att överleva. Genom en
             förläggning av djurskyddsmyndigheten till Borgholm på Öland ger
-            man även Öland en större möjlighet att överleva. Stockholm den
-            4 oktober 2001
+            man även Öland en större möjlighet att överleva.
           </p>
-          <p xml:id="i-Wg64EXFVtdTRUCCXZZKZTm">
+          <p type="date" id="i-YbZE7wwxS3auVLUPZfpT3k">
+            Stockholm den 4 oktober 2001
+          </p>
+          <p xml:id="i-Wg64EXFVtdTRUCCXZZKZTm" type="signatureBlock">
             Agneta Ringman (s) Krister Örnfjäder (s) Ann-Marie Fagerström
             (s) Håkan Juholt (s)
           </p>

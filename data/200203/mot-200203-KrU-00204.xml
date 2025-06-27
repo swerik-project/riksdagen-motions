@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KrU-00204">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-KHKPPKmv8TLCp4L1jjfVNE">
           <note type="signatory" corresp="i-4SAiMdwrEthd2M8z2yjtkv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BpJTj26m3qVhP729YM4co">
+        <correspAction xml:id="i-BpJTj26m3qVhP729YM4co" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PbsEpS2zyia1ZCn5M5BNnw">
+        <correspAction xml:id="i-PbsEpS2zyia1ZCn5M5BNnw" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BJyvEFseGLZKQgA6XEZevW">
+        <correspAction xml:id="i-BJyvEFseGLZKQgA6XEZevW" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Kve21NF8qYZHsEp1ftEmKu"/>
+        <correspAction xml:id="i-Kve21NF8qYZHsEp1ftEmKu" type="assigned"/>
         <correspContext corresp="i-Kve21NF8qYZHsEp1ftEmKu">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Kr_0204/mot_200203_Kr_0204-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7umkue8JJGLhMQhKsmWrXp">
-        <div type="motTitle" xml:id="i-MNcij6qYs1hQYQjzTb16JV"/>
-        <div type="motSubmissionInfo" xml:id="i-98vdRVvvJTHDZu5GG9zVa8"/>
+      <div xml:id="i-7umkue8JJGLhMQhKsmWrXp" type="motHeader">
+        <div xml:id="i-MNcij6qYs1hQYQjzTb16JV" type="motTitle"/>
+        <div xml:id="i-98vdRVvvJTHDZu5GG9zVa8" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Y8SLUbJZv8niv4yGdoi34u">
+      <div xml:id="i-Y8SLUbJZv8niv4yGdoi34u" type="motBody">
         <div xml:id="i-R9nKiPskrYXk8r6eEcd2o9">
           <p xml:id="i-64zr5hsRuUSw4ncnEm15f8">
             2002/03 mnr: Kr204 pnr: fp401
@@ -148,8 +148,11 @@
             och behandla den i riksdagen. Detta bör riksdagen tillkännage
             regeringen.
           </p>
-          <p xml:id="i-VqDyhvPmBjEYoRbT98eYkR">
-            Stockholm den 9 oktober 2002 Ana Maria Narti (fp)
+          <p xml:id="i-VqDyhvPmBjEYoRbT98eYkR" type="date">
+            Stockholm den 9 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-8dU2zsFQ2w3piDgUAPdJF3">
+            Ana Maria Narti (fp)
           </p>
         </div>
       </div>

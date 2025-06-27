@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FiU-00212">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-YaN1jaPx75LMCzcGaN8cCm"/>
           <note type="signatory" corresp="i-BvxBJicYo5FW1E9fuXk8LW"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YJYTB3mfgEHbip1QeGpVKw">
+        <correspAction xml:id="i-YJYTB3mfgEHbip1QeGpVKw" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UUjcbj47tp3QbfeGLMdwis">
+        <correspAction xml:id="i-UUjcbj47tp3QbfeGLMdwis" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UA4jF8SHxjR2WFHfUPr7Qs">
+        <correspAction xml:id="i-UA4jF8SHxjR2WFHfUPr7Qs" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4vyanVLUFmrtxqphAry9RQ"/>
+        <correspAction xml:id="i-4vyanVLUFmrtxqphAry9RQ" type="assigned"/>
         <correspContext corresp="i-4vyanVLUFmrtxqphAry9RQ">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fi_0212/mot_200203_Fi_0212-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TeezqRKy8n9p8HtVaYc6Ua">
-        <div type="motTitle" xml:id="i-KGUe45sj7YuRXPaoZVcGKm"/>
-        <div type="motSubmissionInfo" xml:id="i-BWJjGQV4vKCbLHkbRp4Xyu"/>
+      <div xml:id="i-TeezqRKy8n9p8HtVaYc6Ua" type="motHeader">
+        <div xml:id="i-KGUe45sj7YuRXPaoZVcGKm" type="motTitle"/>
+        <div xml:id="i-BWJjGQV4vKCbLHkbRp4Xyu" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MGSh3FY9RkCsCh1UdE9ta1">
+      <div xml:id="i-MGSh3FY9RkCsCh1UdE9ta1" type="motBody">
         <div xml:id="i-JVZWzLsbBL1b3oDv6Bfp2d">
           <p xml:id="i-Mb5zsieetFYHrvgx5MnLod">
             2002/03 mnr: Fi212 pnr: v776
@@ -175,9 +175,11 @@
             förslag till ändring av ägardirektiven till Akademiska Hus i enlighet
             med det ovan anförda.
           </p>
-          <p xml:id="i-H7cS2WbdG9nJQ63Jv1AtQ6">
-            Stockholm den 19 oktober 2002 Sten Lundström (v) Owe Hellberg
-            (v)
+          <p xml:id="i-H7cS2WbdG9nJQ63Jv1AtQ6" type="date">
+            Stockholm den 19 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-P7bZCPMwWQKXyUSJMFiTDp">
+            Sten Lundström (v) Owe Hellberg (v)
           </p>
         </div>
       </div>

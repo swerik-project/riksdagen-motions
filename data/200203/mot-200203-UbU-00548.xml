@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00548">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-6q877wHGotWju65UY2G4V1">
           <note type="signatory" corresp="i-5gSCoqgN8cUnJLfPPLD7nv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-ED5HCs7NVEakyhmK84nmA">
+        <correspAction xml:id="i-ED5HCs7NVEakyhmK84nmA" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6e6Vs2yxYHiDPtDqTxtHa4">
+        <correspAction xml:id="i-6e6Vs2yxYHiDPtDqTxtHa4" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RC8WdtsoGsCVQWdarETteQ">
+        <correspAction xml:id="i-RC8WdtsoGsCVQWdarETteQ" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VqHczNhWDd67BH46mG4b6H"/>
+        <correspAction xml:id="i-VqHczNhWDd67BH46mG4b6H" type="assigned"/>
         <correspContext corresp="i-VqHczNhWDd67BH46mG4b6H">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ub_0548/mot_200203_Ub_0548-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4RTNsoM4jAHQvpscSxxYrZ">
-        <div type="motTitle" xml:id="i-VbNWbH74K9i8kunR8buNpe"/>
-        <div type="motSubmissionInfo" xml:id="i-FQLGgH6gajwnK6ifzKgaNs"/>
+      <div xml:id="i-4RTNsoM4jAHQvpscSxxYrZ" type="motHeader">
+        <div xml:id="i-VbNWbH74K9i8kunR8buNpe" type="motTitle"/>
+        <div xml:id="i-FQLGgH6gajwnK6ifzKgaNs" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MUUNLnTTKVzxaRLbjkJTHo">
+      <div xml:id="i-MUUNLnTTKVzxaRLbjkJTHo" type="motBody">
         <div xml:id="i-7NypUSKVKxLw3JP275D6ZB">
           <p xml:id="i-MLY5URxowumPuZrixwHQVF">
             2002/03 mnr: Ub548 pnr: s7083
@@ -171,8 +171,11 @@
           <p xml:id="i-4WRbauuRADPXGhgYf1DFzu">
             2002/03:Ub548
           </p>
-          <p xml:id="i-UjkSRJFrFfcFToaxhnV7Pv">
-            Stockholm den 21 oktober 2002 Christina Axelsson (s)
+          <p xml:id="i-UjkSRJFrFfcFToaxhnV7Pv" type="date">
+            Stockholm den 21 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-DcXHSLwo64a5m3JYeQBvKg">
+            Christina Axelsson (s)
           </p>
         </div>
       </div>

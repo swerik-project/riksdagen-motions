@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00002">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-P2kTJ5u25BhjXPTMaSWAvs"/>
+        <correspAction xml:id="i-P2kTJ5u25BhjXPTMaSWAvs" type="basedOn"/>
         <correspContext corresp="i-P2kTJ5u25BhjXPTMaSWAvs">
           <ref>Proposition 2002/03:55</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="i-5gSCoqgN8cUnJLfPPLD7nv"/>
           <note type="signatory" corresp="i-XvdGNU5wNmbTiaurFoUuPb"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-F5FhdSYGDfEaEhyfB79CV5">
+        <correspAction xml:id="i-F5FhdSYGDfEaEhyfB79CV5" type="referral">
           <date when="2003-04-01"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5VKAmxRiDGmHnyoi2CHt3c">
+        <correspAction xml:id="i-5VKAmxRiDGmHnyoi2CHt3c" type="dismissal">
           <date when="2003-03-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-N6vSCda7vyuqxfgrG8SQut">
+        <correspAction xml:id="i-N6vSCda7vyuqxfgrG8SQut" type="submission">
           <date when="2003-03-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EHxRrniweMdQ4s26yeGifR"/>
+        <correspAction xml:id="i-EHxRrniweMdQ4s26yeGifR" type="assigned"/>
         <correspContext corresp="i-EHxRrniweMdQ4s26yeGifR">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -74,11 +74,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_T_0002/mot_200203_T_0002-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QjBnjgWned4GseKFpFRVgf">
-        <div type="motTitle" xml:id="i-EmagLpiDs8326BwsUqunPf"/>
-        <div type="motSubmissionInfo" xml:id="i-8cRZ6DfS657ve7F9WNS3Wk"/>
+      <div xml:id="i-QjBnjgWned4GseKFpFRVgf" type="motHeader">
+        <div xml:id="i-EmagLpiDs8326BwsUqunPf" type="motTitle"/>
+        <div xml:id="i-8cRZ6DfS657ve7F9WNS3Wk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AqDXeumtgcSf8PKqQq6qMH">
+      <div xml:id="i-AqDXeumtgcSf8PKqQq6qMH" type="motBody">
         <div xml:id="i-J59Dxdr3QNuHY5mabk4GN3">
           <p xml:id="i-QAeh5MfUL8CVoeLic6c6z3">
             2002/03 mnr: T2 pnr: s7089
@@ -143,9 +143,11 @@
             utvidgas är det viktigt att ta de tekniska problem som kvinnor
             upplever på allvar och att de beaktas vid utformningen av tekniken.
           </p>
-          <p xml:id="i-XRKxjhmWcaLybcGpMfXYk3">
-            Stockholm den 26 mars 2003 Christina Axelsson (s) Eva Arvidsson
-            (s)
+          <p xml:id="i-XRKxjhmWcaLybcGpMfXYk3" type="date">
+            Stockholm den 26 mars 2003
+          </p>
+          <p type="signatureBlock" id="i-34zzwv2RjefDn12PAKFKQu">
+            Christina Axelsson (s) Eva Arvidsson (s)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00022">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-JsoJnzU86zzE5oQb3kDg4s"/>
+        <correspAction xml:id="i-JsoJnzU86zzE5oQb3kDg4s" type="basedOn"/>
         <correspContext corresp="i-JsoJnzU86zzE5oQb3kDg4s">
           <ref>Regeringsskrivelse 2004/05:161</ref>
         </correspContext>
@@ -42,19 +42,19 @@
         <correspContext corresp="i-UYjw1dPvXUuzp5C6QPxrWS">
           <note type="signatory" corresp="i-PDRRRaXKabL6avxH1jYjid"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-K6LwJYR5fbevRoRWEnys7D">
+        <correspAction xml:id="i-K6LwJYR5fbevRoRWEnys7D" type="referral">
           <date when="2005-06-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-55LeSbZB8Y4o2ZJPc2jU1f">
+        <correspAction xml:id="i-55LeSbZB8Y4o2ZJPc2jU1f" type="dismissal">
           <date when="2005-06-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-A3kx4jj3JrST1GkvfPtvv1">
+        <correspAction xml:id="i-A3kx4jj3JrST1GkvfPtvv1" type="dismissal">
           <date when="2005-06-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JwAeTJS2nkbQMBiuFx6iSa">
+        <correspAction xml:id="i-JwAeTJS2nkbQMBiuFx6iSa" type="submission">
           <date when="2005-06-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KA69xksLwKtnzYZY81aweX"/>
+        <correspAction xml:id="i-KA69xksLwKtnzYZY81aweX" type="assigned"/>
         <correspContext corresp="i-KA69xksLwKtnzYZY81aweX">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -69,11 +69,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_22/mot_200405_U_22-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JFYmPNxBnX44cgXDvzuDD8">
-        <div type="motTitle" xml:id="i-GRUvHvAq8HCVWXEn69ZoE5"/>
-        <div type="motSubmissionInfo" xml:id="i-TKrx4ASHsVCPXxcfZ7WPCH"/>
+      <div xml:id="i-JFYmPNxBnX44cgXDvzuDD8" type="motHeader">
+        <div xml:id="i-GRUvHvAq8HCVWXEn69ZoE5" type="motTitle"/>
+        <div xml:id="i-TKrx4ASHsVCPXxcfZ7WPCH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BTcj1bcR9G65mChjENVtoG">
+      <div xml:id="i-BTcj1bcR9G65mChjENVtoG" type="motBody">
         <div xml:id="i-NZ6Nu94e9gNyrBcdqtPKhm">
           <p xml:id="i-3H76yEGim9rrLFbgvkzcU1">
             2004/05
@@ -248,8 +248,11 @@
             förutsättningen att även stora nationer som USA visar internationell
             solidaritet.
           </p>
-          <p xml:id="i-SNReHknRKzSnoVZSgBmJT2">
-            Stockholm den 13 juni 2005 Harald Nordlund (fp)
+          <p xml:id="i-SNReHknRKzSnoVZSgBmJT2" type="date">
+            Stockholm den 13 juni 2005
+          </p>
+          <p type="signatureBlock" id="i-84wZSdyXqqw8ZecWJxjZRx">
+            Harald Nordlund (fp)
           </p>
         </div>
       </div>

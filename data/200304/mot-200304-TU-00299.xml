@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00299">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-EsXLupD8uMiuKcXL27xeo7">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3ztQV9fZafUVokMLENK2ro">
+        <correspAction xml:id="i-3ztQV9fZafUVokMLENK2ro" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QK38wY9miUX8DvATCgM5ff">
+        <correspAction xml:id="i-QK38wY9miUX8DvATCgM5ff" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TwxBRw9RQ6dykr5G4ZS8xV">
+        <correspAction xml:id="i-TwxBRw9RQ6dykr5G4ZS8xV" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-E1LMgRwy4eFpjSNKH7navf"/>
+        <correspAction xml:id="i-E1LMgRwy4eFpjSNKH7navf" type="assigned"/>
         <correspContext corresp="i-E1LMgRwy4eFpjSNKH7navf">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0299/mot_200304_T_0299-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Hxx2oTx3Qu6C45CbYrEbQh">
-        <div type="motTitle" xml:id="i-Y8haM5Z8hYqtqTCvy54SDb"/>
-        <div type="motSubmissionInfo" xml:id="i-xioWBDuYrou8QxV4cNVid"/>
+      <div xml:id="i-Hxx2oTx3Qu6C45CbYrEbQh" type="motHeader">
+        <div xml:id="i-Y8haM5Z8hYqtqTCvy54SDb" type="motTitle"/>
+        <div xml:id="i-xioWBDuYrou8QxV4cNVid" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Tf4u6KiBkwBCaF2vC3u3pj">
+      <div xml:id="i-Tf4u6KiBkwBCaF2vC3u3pj" type="motBody">
         <div xml:id="i-WzSRRB4c9BBQFdNBK4NapK">
           <p xml:id="i-Xx5efpw9MidVLddova79ZS">
             2003/04 mnr: T299 pnr: kd630
@@ -151,8 +151,11 @@
             länders hamnar och sjöfarten får konkurrensneutralitet gentemot
             andra transportslag.
           </p>
-          <p xml:id="i-GokkAE1ooTqnE1LNVxehg5">
-            Stockholm den 30 september 2003 Annelie Enochson (kd)
+          <p xml:id="i-GokkAE1ooTqnE1LNVxehg5" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-DJUBH6scCeAjPQQ9LTBY4o">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

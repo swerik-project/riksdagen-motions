@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-BoU-00336">
   <teiHeader>
     <fileDesc>
@@ -95,16 +95,16 @@
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
           <note type="signatory" corresp="i-GjgyninALCjktLtfUxc8Qh"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UwyL34YNofcivpg6ssf99D">
+        <correspAction xml:id="i-UwyL34YNofcivpg6ssf99D" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ES9CunwUMTSYj3j7cYEEoM">
+        <correspAction xml:id="i-ES9CunwUMTSYj3j7cYEEoM" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-673Hc98yHiCFyf8nkvfHaw">
+        <correspAction xml:id="i-673Hc98yHiCFyf8nkvfHaw" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9CC842wbJy39SbeW9HeWBa"/>
+        <correspAction xml:id="i-9CC842wbJy39SbeW9HeWBa" type="assigned"/>
         <correspContext corresp="i-9CC842wbJy39SbeW9HeWBa">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -119,11 +119,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Bo_336/mot_200506_Bo_336-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BhZ2ZyvC4aAr7KUdLggVAo">
-        <div type="motTitle" xml:id="i-CzWUdSYYJohrPoyw6TeTFB"/>
-        <div type="motSubmissionInfo" xml:id="i-P71CBLcsx4G4oSEhX3se1T"/>
+      <div xml:id="i-BhZ2ZyvC4aAr7KUdLggVAo" type="motHeader">
+        <div xml:id="i-CzWUdSYYJohrPoyw6TeTFB" type="motTitle"/>
+        <div xml:id="i-P71CBLcsx4G4oSEhX3se1T" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CFZVTq5hBAKUD6TqB4JdAY">
+      <div xml:id="i-CFZVTq5hBAKUD6TqB4JdAY" type="motBody">
         <div xml:id="i-SfSSBDQHMy5H9tLFEKwiSx">
           <p xml:id="i-KuvrQjdPNpPYTatdWBTBqw">
             2005/06 mnr: Bo336 pnr: kd382
@@ -1077,8 +1077,11 @@
             spara ihop till ett eget boende med ett stort mått av frihet och
             flexibilitet.
           </p>
-          <p xml:id="i-EoYycwJJimtpnS6XpgStAg">
-            Stockholm den 5 oktober 2005 Ragnwi Marcelind (kd)
+          <p xml:id="i-EoYycwJJimtpnS6XpgStAg" type="date">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-HrAwMNyHcBvbGZgMzgKoar">
+            Ragnwi Marcelind (kd)
           </p>
           <p xml:id="i-Q9w73aMMB12KTihwesXD2o">
             Dan Kihlström (kd) Annelie Enochson (kd) Sven Gunnar Persson

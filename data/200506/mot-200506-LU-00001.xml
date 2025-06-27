@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00001">
   <teiHeader>
     <fileDesc>
@@ -84,7 +84,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FFJCuU8dfjrkFDcqqxReMS"/>
+        <correspAction xml:id="i-FFJCuU8dfjrkFDcqqxReMS" type="basedOn"/>
         <correspContext corresp="i-FFJCuU8dfjrkFDcqqxReMS">
           <ref>Proposition 2004/05:178</ref>
         </correspContext>
@@ -99,19 +99,19 @@
           <note type="signatory" corresp="i-EFJ93MgPh6dJrzDB1Tt657"/>
           <note type="signatory" corresp="i-MAjkY7TMfvfsiuE3eArFUA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-327BTjCpRKV7ed9vKBhdfK">
+        <correspAction xml:id="i-327BTjCpRKV7ed9vKBhdfK" type="referral">
           <date when="2005-09-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HxcgfHFrVTSyxQDncrYyeS">
+        <correspAction xml:id="i-HxcgfHFrVTSyxQDncrYyeS" type="dismissal">
           <date when="2005-09-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6KvcYqoDQrSazXqxLounyu">
+        <correspAction xml:id="i-6KvcYqoDQrSazXqxLounyu" type="dismissal">
           <date when="2005-09-29"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Wd3zLetFpfnfas3zLkP9rA">
+        <correspAction xml:id="i-Wd3zLetFpfnfas3zLkP9rA" type="submission">
           <date when="2005-09-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4xuVNtwL5UGM6q2UXPgX8s"/>
+        <correspAction xml:id="i-4xuVNtwL5UGM6q2UXPgX8s" type="assigned"/>
         <correspContext corresp="i-4xuVNtwL5UGM6q2UXPgX8s">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -126,11 +126,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_1/mot_200506_L_1-0001.pdf"/>
-      <div type="motHeader" xml:id="i-T6HVa9szsj2vpVWBcHqKkG">
-        <div type="motTitle" xml:id="i-5avSck5N9bSAF2ypn1NoEP"/>
-        <div type="motSubmissionInfo" xml:id="i-PC5Ndj3DKmqzG4gBVTS6CY"/>
+      <div xml:id="i-T6HVa9szsj2vpVWBcHqKkG" type="motHeader">
+        <div xml:id="i-5avSck5N9bSAF2ypn1NoEP" type="motTitle"/>
+        <div xml:id="i-PC5Ndj3DKmqzG4gBVTS6CY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-V7H2ybwmaDJdeNBv14yQj2">
+      <div xml:id="i-V7H2ybwmaDJdeNBv14yQj2" type="motBody">
         <div xml:id="i-GySCwApEeZDmLPyZrPuKDa">
           <p xml:id="i-Re5dG7TQU1B2To9FHdHQAd">
             2005/06 mnr: L1 pnr: fp1250
@@ -192,8 +192,11 @@
             att det inte föreligger något behov av den föreslagna aktiebolagsformen.
             Propositionen skall därför avslås.
           </p>
-          <p xml:id="i-HQ53xqCqFrCRrgWQ5G7jXk">
-            Stockholm den 23 september 2005 Jan Ertsborn (fp)
+          <p xml:id="i-HQ53xqCqFrCRrgWQ5G7jXk" type="date">
+            Stockholm den 23 september 2005
+          </p>
+          <p type="signatureBlock" id="i-CaZKJL95BscqaYvTC1A7zS">
+            Jan Ertsborn (fp)
           </p>
           <p xml:id="i-ECQG9jjZYTiCZCUWtimxwj">
             Inger René (m) Bertil Kjellberg (m) Henrik von Sydow (m) Yvonne

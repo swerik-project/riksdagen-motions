@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00517">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-D5W4KMbqzfAEfRXajZLt7z"/>
           <note type="signatory" corresp="i-Q5smfAWD9kCwe7tQviBPMn"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DEbsu5oiUaL1YdHBagJG4T">
+        <correspAction xml:id="i-DEbsu5oiUaL1YdHBagJG4T" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SYdE9JgpfsoP2cEgEWLmkw">
+        <correspAction xml:id="i-SYdE9JgpfsoP2cEgEWLmkw" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MuKjVv1sNMQL34xhP9msKm">
+        <correspAction xml:id="i-MuKjVv1sNMQL34xhP9msKm" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FqgCHQxsvFUH1ZEoFHASbi"/>
+        <correspAction xml:id="i-FqgCHQxsvFUH1ZEoFHASbi" type="assigned"/>
         <correspContext corresp="i-FqgCHQxsvFUH1ZEoFHASbi">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_517/mot_200506_Sk_517-0001.pdf"/>
-      <div type="motHeader" xml:id="i-T3nZg25Pw6fVRr5wdyUyiY">
-        <div type="motTitle" xml:id="i-3221A4VKHYXiMt3XCX4udH"/>
-        <div type="motSubmissionInfo" xml:id="i-CsEvFuGfFR7miVp427Uhjv"/>
+      <div xml:id="i-T3nZg25Pw6fVRr5wdyUyiY" type="motHeader">
+        <div xml:id="i-3221A4VKHYXiMt3XCX4udH" type="motTitle"/>
+        <div xml:id="i-CsEvFuGfFR7miVp427Uhjv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5QJ534m9zETiZ7TxA3yN1M">
+      <div xml:id="i-5QJ534m9zETiZ7TxA3yN1M" type="motBody">
         <div xml:id="i-P43KM5Hgp5qLJybSbe51HS">
           <p xml:id="i-E5r2nszyQTDnn8E7uJ7raS">
             2005/06 mnr: Sk517 pnr: s45203
@@ -131,8 +131,11 @@
           <p xml:id="i-N4Lf4THQoAjQskkgAzQm5i">
             2005/06:Sk517
           </p>
-          <p xml:id="i-r8AekQNxRFcAaHXoKqNJ1">
-            Stockholm den 4 oktober 2005 Lars Lilja (s) Carin Lundberg (s)
+          <p xml:id="i-r8AekQNxRFcAaHXoKqNJ1" type="date">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-SwimpxGwEqJuNi6uS6GWk6">
+            Lars Lilja (s) Carin Lundberg (s)
           </p>
         </div>
       </div>

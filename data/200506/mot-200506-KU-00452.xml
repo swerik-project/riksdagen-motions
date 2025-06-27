@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KU-00452">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-UdjVEhYnTZZzRiE3ypQQi7">
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AFL18ftqdpxYbm3Ewgf9X">
+        <correspAction xml:id="i-AFL18ftqdpxYbm3Ewgf9X" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SHKMpvCH6bDZM8Cxeu5dkj">
+        <correspAction xml:id="i-SHKMpvCH6bDZM8Cxeu5dkj" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Bk3fahBAiEwUx44qe6M3Px">
+        <correspAction xml:id="i-Bk3fahBAiEwUx44qe6M3Px" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MjDtFM6PiPLsd3HEoqH3Wt"/>
+        <correspAction xml:id="i-MjDtFM6PiPLsd3HEoqH3Wt" type="assigned"/>
         <correspContext corresp="i-MjDtFM6PiPLsd3HEoqH3Wt">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_K_452/mot_200506_K_452-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3SAipr6TTZ6cSogpHMdBFx">
-        <div type="motTitle" xml:id="i-TCaroc9bPtLdesBZTtqvZ"/>
-        <div type="motSubmissionInfo" xml:id="i-Go5oC6Ews9Xj143XWBg1fn"/>
+      <div xml:id="i-3SAipr6TTZ6cSogpHMdBFx" type="motHeader">
+        <div xml:id="i-TCaroc9bPtLdesBZTtqvZ" type="motTitle"/>
+        <div xml:id="i-Go5oC6Ews9Xj143XWBg1fn" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Am2yNYHJSXLnR2kPR5oePn">
+      <div xml:id="i-Am2yNYHJSXLnR2kPR5oePn" type="motBody">
         <div xml:id="i-NNongE8xdPAXbpsngZ21wQ">
           <p xml:id="i-JmxaAEH5gTvroHUmUwiGEF">
             2005/06 mnr: K452 pnr: kd1016
@@ -274,8 +274,11 @@
             Sverige bör inte ge inresetillstånd till islamister som förespråkar
             folkmord på judar.
           </p>
-          <p xml:id="i-CCmZjXd4Qd7vjK3YiMrN44">
-            Stockholm den 29 september 2005 Mikael Oscarsson (kd)
+          <p xml:id="i-CCmZjXd4Qd7vjK3YiMrN44" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-KKKQczeeREzES3nJjaHxgS">
+            Mikael Oscarsson (kd)
           </p>
         </div>
       </div>

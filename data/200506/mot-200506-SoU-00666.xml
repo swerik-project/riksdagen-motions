@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00666">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-5aTY1pJEgYHaoGS2vGVFPG">
           <note type="signatory" corresp="i-LrcUg7tEu4KwWdidwr1MAk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LGFnc7UJ2xMugLddc4nuVQ">
+        <correspAction xml:id="i-LGFnc7UJ2xMugLddc4nuVQ" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UBpsdotRKRWEfpYfsXHawS">
+        <correspAction xml:id="i-UBpsdotRKRWEfpYfsXHawS" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DM8DjP7oodwHZtzp86Xnbr">
+        <correspAction xml:id="i-DM8DjP7oodwHZtzp86Xnbr" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MpMvg9X7Ekz2ZrfhPa9aMG"/>
+        <correspAction xml:id="i-MpMvg9X7Ekz2ZrfhPa9aMG" type="assigned"/>
         <correspContext corresp="i-MpMvg9X7Ekz2ZrfhPa9aMG">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_666/mot_200506_So_666-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CJfeqJXMasYGsyoCcWp5fD">
-        <div type="motTitle" xml:id="i-RrbmmBaVAzkpF9Sz5S3gb"/>
-        <div type="motSubmissionInfo" xml:id="i-MYvMDU1wZbxBeF9jrGLzGR"/>
+      <div xml:id="i-CJfeqJXMasYGsyoCcWp5fD" type="motHeader">
+        <div xml:id="i-RrbmmBaVAzkpF9Sz5S3gb" type="motTitle"/>
+        <div xml:id="i-MYvMDU1wZbxBeF9jrGLzGR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FMbaS1feu9iEox6dRdALb9">
+      <div xml:id="i-FMbaS1feu9iEox6dRdALb9" type="motBody">
         <div xml:id="i-QAyJDmzWQVJhqHefuyRAtz">
           <p xml:id="i-SL3voMW593thHAsmbPWYVp">
             2005/06 mnr: So666 pnr: s7037
@@ -135,8 +135,11 @@
             blir delaktig är blinda och gravt synskadade. Regeringen bör därför
             överväga översyn vad gäller LSS- tillämpningen för denna grupp.
           </p>
-          <p xml:id="i-X7T3Ku2MKUtd4AhLVCK3Nu">
-            Stockholm den 29 september 2005 Kaj Nordquist (s)
+          <p xml:id="i-X7T3Ku2MKUtd4AhLVCK3Nu" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-H3V8Fq8QhJyTz1ApQ3JrSA">
+            Kaj Nordquist (s)
           </p>
         </div>
       </div>

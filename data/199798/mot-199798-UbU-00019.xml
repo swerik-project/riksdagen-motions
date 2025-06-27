@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-UbU-00019">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-M583eVDoBTdnLPkDa6XLNx</idno>
-            <name>Ola Ström </name>
+            <name>Ola Ström</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-7SbYcm2aco17894PWFdmaD</idno>
-            <name>Siri Dannaeus </name>
+            <name>Siri Dannaeus</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-L3xspgThUxUN1YtSDqcmk8</idno>
-            <name>Barbro Westerholm </name>
+            <name>Barbro Westerholm</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-SHKe2EEzVVJ7VTnUh6tmE2"/>
+        <correspAction xml:id="i-SHKe2EEzVVJ7VTnUh6tmE2" type="basedOn"/>
         <correspContext corresp="i-SHKe2EEzVVJ7VTnUh6tmE2">
           <ref>Proposition 1997/98:93</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-7SbYcm2aco17894PWFdmaD"/>
           <note type="signatory" corresp="i-L3xspgThUxUN1YtSDqcmk8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EMqKn5vLh8HXmAgVAR1e8F">
+        <correspAction xml:id="i-EMqKn5vLh8HXmAgVAR1e8F" type="referral">
           <date when="1998-03-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DhB9CCkSQQigmkcuFhDjwv">
+        <correspAction xml:id="i-DhB9CCkSQQigmkcuFhDjwv" type="dismissal">
           <date when="1998-03-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JSCaCEEx6aseQHjJHoUD3n">
+        <correspAction xml:id="i-JSCaCEEx6aseQHjJHoUD3n" type="submission">
           <date when="1998-03-20"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-2dRUXPhoh54iBoJiNJP8Ya">
+        <correspAction xml:id="i-2dRUXPhoh54iBoJiNJP8Ya" type="referral">
           <date when="1998-03-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6Kc2pXm9aUe7eYZTXxRoZd">
+        <correspAction xml:id="i-6Kc2pXm9aUe7eYZTXxRoZd" type="dismissal">
           <date when="1998-03-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3Kww9DqCCmFeWmzvYVN5nS">
+        <correspAction xml:id="i-3Kww9DqCCmFeWmzvYVN5nS" type="submission">
           <date when="1998-03-20"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LmdfWqtTwtKn5CKKDYMBjk"/>
+        <correspAction xml:id="i-LmdfWqtTwtKn5CKKDYMBjk" type="assigned"/>
         <correspContext corresp="i-LmdfWqtTwtKn5CKKDYMBjk">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_UB_0019/mot_199798_UB_0019-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4TNGfafMoBMcucgdAJLow3">
-        <div type="motTitle" xml:id="i-RNJZWZkwMA1CTsZmLoRXbZ"/>
-        <div type="motSubmissionInfo" xml:id="i-FZZ6C315nTpxrbxcEMy2kS"/>
+      <div xml:id="i-4TNGfafMoBMcucgdAJLow3" type="motHeader">
+        <div xml:id="i-RNJZWZkwMA1CTsZmLoRXbZ" type="motTitle"/>
+        <div xml:id="i-FZZ6C315nTpxrbxcEMy2kS" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-U4xSyboXWCgeu1MSx7mmrD">
+      <div xml:id="i-U4xSyboXWCgeu1MSx7mmrD" type="motBody">
         <div xml:id="i-3fjkVHWdnD7D8hkFfqjNHQ">
           <p xml:id="i-AmxMFYXspAoFKPyNbAdC46">
             1997/98 Ubl9 Ub16-25
@@ -360,8 +360,11 @@
             som i dag arbetar inom förskolan ges möjlighet till vidareutbildning
             till förskollärare.
           </p>
-          <p xml:id="i-HLarMGRQUjuLU3P5PF1R3e">
-            Stockholm den 20 mars 1998 Ola Ström (fp)
+          <p xml:id="i-HLarMGRQUjuLU3P5PF1R3e" type="date">
+            Stockholm den 20 mars 1998
+          </p>
+          <p type="signatureBlock" id="i-Nf1eKyN2vTEhspYcm6GxYF">
+            Ola Ström (fp)
           </p>
           <p xml:id="i-SLGLtZSqYXZtMbgB5yB6BW">
             Siri Dannaeus (fp) Barbro Westerholm (fp)

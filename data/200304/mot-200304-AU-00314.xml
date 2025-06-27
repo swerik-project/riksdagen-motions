@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-AU-00314">
   <teiHeader>
     <fileDesc>
@@ -118,16 +118,16 @@
           <note type="signatory" corresp="i-DMGKRcZKJjLDnd1Mozdje8"/>
           <note type="signatory" corresp="i-MJL89J5NnS7c2Vx7JY9Uga"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9yMyfqYzMHxtxvHqGgJrTr">
+        <correspAction xml:id="i-9yMyfqYzMHxtxvHqGgJrTr" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6eEBbLUtUkYLK48Pv7zcMr">
+        <correspAction xml:id="i-6eEBbLUtUkYLK48Pv7zcMr" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3SncMYny85SiX7Qc8FQrsA">
+        <correspAction xml:id="i-3SncMYny85SiX7Qc8FQrsA" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7WMk9on75w7Kgp8S4HGinb"/>
+        <correspAction xml:id="i-7WMk9on75w7Kgp8S4HGinb" type="assigned"/>
         <correspContext corresp="i-7WMk9on75w7Kgp8S4HGinb">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -143,11 +143,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_A_0314/mot_200304_A_0314-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_A_0314/mot_200304_A_0314-001.pdf"/>
-      <div type="motHeader" xml:id="i-4ZVVEbz8SXXJZgnR6R6PQL">
-        <div type="motTitle" xml:id="i-YFLjvPP5HfnmLjinZP6Y5e"/>
-        <div type="motSubmissionInfo" xml:id="i-EMJhM7aTV9WKusw8NgceqB"/>
+      <div xml:id="i-4ZVVEbz8SXXJZgnR6R6PQL" type="motHeader">
+        <div xml:id="i-YFLjvPP5HfnmLjinZP6Y5e" type="motTitle"/>
+        <div xml:id="i-EMJhM7aTV9WKusw8NgceqB" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DqTbyQv8h8Rk2ngRwfCsrC">
+      <div xml:id="i-DqTbyQv8h8Rk2ngRwfCsrC" type="motBody">
         <div xml:id="i-75sgeSgzKZk4V58zYLjGX2">
           <p xml:id="i-SkdHUNQN29ujZudDsXHSLF">
             2003/04 mnr: A314
@@ -459,8 +459,11 @@
             fler prova på nya utmaningar och möjligheter. Detta bör riksdagen
             som sin mening ge regeringen till känna.
           </p>
-          <p xml:id="i-8mkzfhazormHJzUYuXktUN">
-            Stockholm den 2 oktober 2003 Ulla Hoffmann (v)
+          <p xml:id="i-8mkzfhazormHJzUYuXktUN" type="date">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-VPGW5mUkRmSyhuKjkhkPtv">
+            Ulla Hoffmann (v)
           </p>
           <p xml:id="i-8oA1JMLQrRnkFVbdwCiefX">
             Lars Bäckström (v) Rossana Dinamarca (v) Mats Einarsson (v) Marie
@@ -852,10 +855,10 @@
             prova på nya utmaningar och möjligheter. mening ge regeringen
             till känna.
           </p>
-          <p xml:id="i-U6P823ZaZcmjeUjKc9MQ8Y">
+          <p xml:id="i-U6P823ZaZcmjeUjKc9MQ8Y" type="date">
             Stockholm den 2 oktober 2003
           </p>
-          <p xml:id="i-Y9spoP1YGGjfuXJz7Y7wwt">
+          <p xml:id="i-Y9spoP1YGGjfuXJz7Y7wwt" type="signatureBlock">
             Ulla Hoffmann (v) Lars Bäckström (v) Mats Einarsson (v) Marie
             Owe Hellberg (v) Sten Lundström (v)
           </p>

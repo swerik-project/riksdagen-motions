@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00496">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-C4i8P7p6bG1VneVyLegYTs">
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GfAcTk6nuWaHuiC2G94KmD">
+        <correspAction xml:id="i-GfAcTk6nuWaHuiC2G94KmD" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2kGW8mASgBmYH2dEhjKmdU">
+        <correspAction xml:id="i-2kGW8mASgBmYH2dEhjKmdU" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WGah8Xwfii2rUoW8C8vwXn">
+        <correspAction xml:id="i-WGah8Xwfii2rUoW8C8vwXn" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UPiwh3ZqRG3ChWZon7QSZr"/>
+        <correspAction xml:id="i-UPiwh3ZqRG3ChWZon7QSZr" type="assigned"/>
         <correspContext corresp="i-UPiwh3ZqRG3ChWZon7QSZr">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_496/mot_200506_T_496-0001.pdf"/>
-      <div type="motHeader" xml:id="i-V8ZBifM4x5fEaT2gZ4Sui3">
-        <div type="motTitle" xml:id="i-WV8UASHiEapbqN8tb2krqs"/>
-        <div type="motSubmissionInfo" xml:id="i-Ty5B5MwQ5bNBxM6f7RNE3n"/>
+      <div xml:id="i-V8ZBifM4x5fEaT2gZ4Sui3" type="motHeader">
+        <div xml:id="i-WV8UASHiEapbqN8tb2krqs" type="motTitle"/>
+        <div xml:id="i-Ty5B5MwQ5bNBxM6f7RNE3n" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CbsvesqUfGPWMxQbmz9euy">
+      <div xml:id="i-CbsvesqUfGPWMxQbmz9euy" type="motBody">
         <div xml:id="i-6efwphcx38zEzbhQTyPMVc">
           <p xml:id="i-SUQaoa6XfA4bdYDefUbfnu">
             2005/06 mnr: T496 pnr: kd980
@@ -136,8 +136,11 @@
             övervakning av den svenska skogen för att kunna upptäcka och förhindra
             skogsbränder, bör stödet till skogsbrandflyget permanentas.
           </p>
-          <p xml:id="i-Cag4u6DKnV4CdsGhmGdZ7x">
-            Stockholm den 29 september 2005 Lars Gustafsson (kd)
+          <p xml:id="i-Cag4u6DKnV4CdsGhmGdZ7x" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-TP6PxA4V8pmhR4BsJVwwt1">
+            Lars Gustafsson (kd)
           </p>
         </div>
       </div>

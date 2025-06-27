@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00402">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-DmBxKYdwyxGJyYeijAmqYW">
           <note type="signatory" corresp="i-WBsZfhYB4L6D3cVQWLdu18"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-P2McRL3CP5S7TogdftASsy">
+        <correspAction xml:id="i-P2McRL3CP5S7TogdftASsy" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AF4Wdaw5TZhK8YxX22YY5v">
+        <correspAction xml:id="i-AF4Wdaw5TZhK8YxX22YY5v" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VDWCMh3NPjyAhtaNzVqS9D">
+        <correspAction xml:id="i-VDWCMh3NPjyAhtaNzVqS9D" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9ixxLxDvJiM3f8pFKzQ42A"/>
+        <correspAction xml:id="i-9ixxLxDvJiM3f8pFKzQ42A" type="assigned"/>
         <correspContext corresp="i-9ixxLxDvJiM3f8pFKzQ42A">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_402/mot_200405_Sk_402-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3HRPHcg3xtJ6cuuAURuatT">
-        <div type="motTitle" xml:id="i-NzWSSbUwidLvW3JPJkv6Lm"/>
-        <div type="motSubmissionInfo" xml:id="i-7tifrkReJSkJ1ZMiVQ9Ujt"/>
+      <div xml:id="i-3HRPHcg3xtJ6cuuAURuatT" type="motHeader">
+        <div xml:id="i-NzWSSbUwidLvW3JPJkv6Lm" type="motTitle"/>
+        <div xml:id="i-7tifrkReJSkJ1ZMiVQ9Ujt" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CwHCdbVdAxXiTPRbyu1knr">
+      <div xml:id="i-CwHCdbVdAxXiTPRbyu1knr" type="motBody">
         <div xml:id="i-MhB6ECGLzVA8wXJoBKHjD7">
           <p xml:id="i-VfYHi43FbEpVtvLbRXYKfL">
             2004/05 mnr: Sk402 pnr: mp409
@@ -136,8 +136,11 @@
             enbart hos överlevare på landsbygden utan även bland uppfinningsrika
             människor i andra verksamheter.
           </p>
-          <p xml:id="i-FDQg9cjWFseKemBNHHyoBG">
-            Stockholm den 4 oktober 2004 Leif Björnlod (mp)
+          <p xml:id="i-FDQg9cjWFseKemBNHHyoBG" type="date">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-GeJvu4yb2brCWG7rpHTrpT">
+            Leif Björnlod (mp)
           </p>
         </div>
       </div>

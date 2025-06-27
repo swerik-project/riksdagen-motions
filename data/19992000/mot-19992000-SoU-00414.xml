@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-SoU-00414">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-SCUY6mwHfi1UzkWNFBF5hc</idno>
-            <name>Thomas Julin </name>
+            <name>Thomas Julin</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-VGuxFg9SBivesgRyVWVWkd</idno>
-            <name>Kerstin-Maria Stalin </name>
+            <name>Kerstin-Maria Stalin</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-NAZHDwfGffE63ZZmJW4qqn</idno>
-            <name>Marianne Samuelsson </name>
+            <name>Marianne Samuelsson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -78,25 +78,25 @@
           <note type="signatory" corresp="i-NAZHDwfGffE63ZZmJW4qqn"/>
           <note type="signatory" corresp="i-VGuxFg9SBivesgRyVWVWkd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FuQefqsgdpVCAScR44xqdc">
+        <correspAction xml:id="i-FuQefqsgdpVCAScR44xqdc" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ULBTkZCGVLN6wcPBAZUEWU">
+        <correspAction xml:id="i-ULBTkZCGVLN6wcPBAZUEWU" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5j5AQ9MtTELp9UYZfBkMib">
+        <correspAction xml:id="i-5j5AQ9MtTELp9UYZfBkMib" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PsqinhSBN8K5TFAG1LYgxm">
+        <correspAction xml:id="i-PsqinhSBN8K5TFAG1LYgxm" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FZExEegd4qpT4ZucYikfGX">
+        <correspAction xml:id="i-FZExEegd4qpT4ZucYikfGX" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KqhEF1gkcY4N1LHhumU7yr">
+        <correspAction xml:id="i-KqhEF1gkcY4N1LHhumU7yr" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7zay37pQNxxL49oZjDk2X1"/>
+        <correspAction xml:id="i-7zay37pQNxxL49oZjDk2X1" type="assigned"/>
         <correspContext corresp="i-7zay37pQNxxL49oZjDk2X1">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_So_0414/mot_199900_So_0414-0001.pdf"/>
-      <div type="motHeader" xml:id="i-G4PotvRDHMjmExQGP6VeyE">
-        <div type="motTitle" xml:id="i-8navoRAdFtLDGArSzHGELD"/>
-        <div type="motSubmissionInfo" xml:id="i-7gkcuFiJ5FWyEVubf3JcBm"/>
+      <div xml:id="i-G4PotvRDHMjmExQGP6VeyE" type="motHeader">
+        <div xml:id="i-8navoRAdFtLDGArSzHGELD" type="motTitle"/>
+        <div xml:id="i-7gkcuFiJ5FWyEVubf3JcBm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FC2c7vGNfPZVxa1rkHQbLS">
+      <div xml:id="i-FC2c7vGNfPZVxa1rkHQbLS" type="motBody">
         <div xml:id="i-R7DQcXvk7vkrob1jqAxscr">
           <p xml:id="i-C3Veo9pXcUeBjwZef9UtoC">
             1999/2000 mnr: S0414 pnr: mp829
@@ -166,8 +166,11 @@
           <p xml:id="i-W7hhP4R9zuYDBdKC2K47JL">
             Mot. 1999/2000
           </p>
-          <p xml:id="i-LGnnxZPMjtaUjcxrH4vFfw">
-            Stockholm den 4 oktober 1999 S0414
+          <p xml:id="i-LGnnxZPMjtaUjcxrH4vFfw" type="date">
+            Stockholm den 4 oktober 1999
+          </p>
+          <p type="signatureBlock" id="i-GmSwK7263ZE1snxNhA5sPK">
+            S0414
           </p>
           <p xml:id="i-UGHgBrdY7BQWcrdE1Kbqqz">
             Thomas Julin (mp)

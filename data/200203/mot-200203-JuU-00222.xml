@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-JuU-00222">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Dx29XmvwkYcRK4xsGHUDwh">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CPWf5iiCG2YKSLGmneBa9C">
+        <correspAction xml:id="i-CPWf5iiCG2YKSLGmneBa9C" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RpcHcgHaHt9gPikFFQJAbG">
+        <correspAction xml:id="i-RpcHcgHaHt9gPikFFQJAbG" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7TUMpKwzQMVkzRhsrSfMmF">
+        <correspAction xml:id="i-7TUMpKwzQMVkzRhsrSfMmF" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Xc5CgXq5zxeyTAY4mRmfz9"/>
+        <correspAction xml:id="i-Xc5CgXq5zxeyTAY4mRmfz9" type="assigned"/>
         <correspContext corresp="i-Xc5CgXq5zxeyTAY4mRmfz9">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ju_0222/mot_200203_Ju_0222-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DK4S3gusFcbpRS5PRCHqji">
-        <div type="motTitle" xml:id="i-KNAWYAsLbGS8HZ9ZBoGw38"/>
-        <div type="motSubmissionInfo" xml:id="i-5CHnbMvrd9pdggdYU82qKL"/>
+      <div xml:id="i-DK4S3gusFcbpRS5PRCHqji" type="motHeader">
+        <div xml:id="i-KNAWYAsLbGS8HZ9ZBoGw38" type="motTitle"/>
+        <div xml:id="i-5CHnbMvrd9pdggdYU82qKL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3cUYZ7xgMLC6rPye9vw6Gq">
+      <div xml:id="i-3cUYZ7xgMLC6rPye9vw6Gq" type="motBody">
         <div xml:id="i-3jJpfHDxpuWKzDmUUUbZZ6">
           <p xml:id="i-SkchsdQc2Rra364KU4zfDX">
             12
@@ -155,8 +155,11 @@
             och vara ett stöd under hela upprättelseprocessen. En brottsofferombudsman
             med denna funktion bör därför inrättas.
           </p>
-          <p xml:id="i-8ofgtYNr5fi1vhEPY5QcrL">
-            Stockholm den 15 oktober 2002 Annelie Enochson (kd)
+          <p xml:id="i-8ofgtYNr5fi1vhEPY5QcrL" type="date">
+            Stockholm den 15 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-XSKAVc2YYAd4RE6Yx3p9Hc">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

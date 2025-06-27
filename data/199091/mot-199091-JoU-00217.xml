@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-JoU-00217">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="man">
             <idno>i-VBHSUYwX8zTBjLDRcwNsBA</idno>
-            <name>Mats Lindberg </name>
+            <name>Mats Lindberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Es9MssSEtBNEH1aADUejcS</idno>
-            <name>Leif Marklund </name>
+            <name>Leif Marklund</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-VBHSUYwX8zTBjLDRcwNsBA"/>
           <note type="signatory" corresp="i-Es9MssSEtBNEH1aADUejcS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2wK3F7wVcp7rQuZ9KXVHyx">
+        <correspAction xml:id="i-2wK3F7wVcp7rQuZ9KXVHyx" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LyAsdowosmBimpGf8DLfS">
+        <correspAction xml:id="i-LyAsdowosmBimpGf8DLfS" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CLingJGirgPCNYFDMCGBH">
+        <correspAction xml:id="i-CLingJGirgPCNYFDMCGBH" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-SSex27yjavH5Ve5AWdaYYN">
+        <correspAction xml:id="i-SSex27yjavH5Ve5AWdaYYN" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Cf8fDkirCo37k6sUmZAszU">
+        <correspAction xml:id="i-Cf8fDkirCo37k6sUmZAszU" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AkyUx7ytcU5H7V8FYa7Stz">
+        <correspAction xml:id="i-AkyUx7ytcU5H7V8FYa7Stz" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TMpurKv81KkuWPbRRUu4BU"/>
+        <correspAction xml:id="i-TMpurKv81KkuWPbRRUu4BU" type="assigned"/>
         <correspContext corresp="i-TMpurKv81KkuWPbRRUu4BU">
           <ref type="assignedTo">Jordbruksutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_JoU_217/mot_199091_JoU_217-001.pdf"/>
-      <div type="motHeader" xml:id="i-UTeCddJd2awC3FYiez5si">
-        <div type="motTitle" xml:id="i-TLPjHPCRFNgEBLpG5YPmQR"/>
-        <div type="motSubmissionInfo" xml:id="i-NAWSd6mbdwv8wcVJNSzeGc"/>
+      <div xml:id="i-UTeCddJd2awC3FYiez5si" type="motHeader">
+        <div xml:id="i-TLPjHPCRFNgEBLpG5YPmQR" type="motTitle"/>
+        <div xml:id="i-NAWSd6mbdwv8wcVJNSzeGc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BoYvk2xQzE41oMFHqT2sTQ">
+      <div xml:id="i-BoYvk2xQzE41oMFHqT2sTQ" type="motBody">
         <div xml:id="i-BuiaoabEpVgsvrpS9zBxVn">
           <p xml:id="i-DFC8swnqKfamg44UZAECHF">
             Motion till riksdagen
@@ -167,9 +167,12 @@
             rennäringslagen.
           </p>
           <p xml:id="i-KQWyn533vDWEzCVFxzj9KQ">
-            - Stockholm den 23 januari 1991
+            -
           </p>
-          <p xml:id="i-Ee4FfvjdNNhyNigDzjk4ts">
+          <p type="date" id="i-PHyZNSxh28AWJuSqBXHNFD">
+            Stockholm den 23 januari 1991
+          </p>
+          <p xml:id="i-Ee4FfvjdNNhyNigDzjk4ts" type="signatureBlock">
             Mats Lindberg (s) Leif Marklund (s)
           </p>
         </div>

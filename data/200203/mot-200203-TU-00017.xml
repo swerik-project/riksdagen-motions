@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00017">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-58uKfCB33gjvJyfApcQjes"/>
+        <correspAction xml:id="i-58uKfCB33gjvJyfApcQjes" type="basedOn"/>
         <correspContext corresp="i-58uKfCB33gjvJyfApcQjes">
           <ref>Proposition 2002/03:124</ref>
         </correspContext>
@@ -90,16 +90,16 @@
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7V5GzMmQSfSzMEBqLrwhsD">
+        <correspAction xml:id="i-7V5GzMmQSfSzMEBqLrwhsD" type="referral">
           <date when="2003-06-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-V6DVVUwQGy2yAPkvqJCBX4">
+        <correspAction xml:id="i-V6DVVUwQGy2yAPkvqJCBX4" type="dismissal">
           <date when="2003-06-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5dWHPLFfAhgzg7Zfra5orB">
+        <correspAction xml:id="i-5dWHPLFfAhgzg7Zfra5orB" type="submission">
           <date when="2003-06-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RyszgSNefSAWBFESPhio1e"/>
+        <correspAction xml:id="i-RyszgSNefSAWBFESPhio1e" type="assigned"/>
         <correspContext corresp="i-RyszgSNefSAWBFESPhio1e">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -114,11 +114,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_T_0017/mot_200203_T_0017-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2xXB5KXmoUjwzEP1ZsiZaY">
-        <div type="motTitle" xml:id="i-PMqa3MjzCGeCyZ7bzVQJBs"/>
-        <div type="motSubmissionInfo" xml:id="i-W8H4XqGWMYTVFZsGv5T8x6"/>
+      <div xml:id="i-2xXB5KXmoUjwzEP1ZsiZaY" type="motHeader">
+        <div xml:id="i-PMqa3MjzCGeCyZ7bzVQJBs" type="motTitle"/>
+        <div xml:id="i-W8H4XqGWMYTVFZsGv5T8x6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-cmP5Y97QxaHVKxjs5mpMd">
+      <div xml:id="i-cmP5Y97QxaHVKxjs5mpMd" type="motBody">
         <div xml:id="i-Pm7kiBtDC4PrTULYeVSNqr">
           <p xml:id="i-SXv9Tzi9pGfj7kvCeB9jbs">
             2002/03 mnr: T17 pnr: kd159
@@ -260,8 +260,11 @@
             samt ISPS-koden, att tillkännage för regeringen att Sjöfartsinspektionen
             bör skiljas från Sjöfartsverket.
           </p>
-          <p xml:id="i-F6tvAZ8SvEFteeit7mUaSp">
-            Stockholm den 12 juni 2003 Johnny Gylling (kd)
+          <p xml:id="i-F6tvAZ8SvEFteeit7mUaSp" type="date">
+            Stockholm den 12 juni 2003
+          </p>
+          <p type="signatureBlock" id="i-UFLD5zxpS99GZcsfs1KJb9">
+            Johnny Gylling (kd)
           </p>
           <p xml:id="i-5o6ke9BiYKd4Nh4kkbweG1">
             Mikael Oscarsson (kd) Göran Hägglund (kd) Sven Gunnar Persson

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00387">
   <teiHeader>
     <fileDesc>
@@ -118,16 +118,16 @@
           <note type="signatory" corresp="i-839FvTzHpvrdX4J7ckfWSt"/>
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7SkUM6XXjJF1xCE9evTHwU">
+        <correspAction xml:id="i-7SkUM6XXjJF1xCE9evTHwU" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UvTXYqZm5cMKjnmtW2woSu">
+        <correspAction xml:id="i-UvTXYqZm5cMKjnmtW2woSu" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7WM5GjzgqiQmnpvDZUmJhP">
+        <correspAction xml:id="i-7WM5GjzgqiQmnpvDZUmJhP" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EBjKFtu5ef4oJBGM4SWpS7"/>
+        <correspAction xml:id="i-EBjKFtu5ef4oJBGM4SWpS7" type="assigned"/>
         <correspContext corresp="i-EBjKFtu5ef4oJBGM4SWpS7">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -142,11 +142,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Kr_0387/mot_200304_Kr_0387-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TDHNwjY1ngXPX9aEcdREqP">
-        <div type="motTitle" xml:id="i-PDdQh6Ly94rqTtJPnLEM7n"/>
-        <div type="motSubmissionInfo" xml:id="i-NVzBGPbvvHcSbeHF7RhGJA"/>
+      <div xml:id="i-TDHNwjY1ngXPX9aEcdREqP" type="motHeader">
+        <div xml:id="i-PDdQh6Ly94rqTtJPnLEM7n" type="motTitle"/>
+        <div xml:id="i-NVzBGPbvvHcSbeHF7RhGJA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GLmgsi6wv3T1k41SQM4NJB">
+      <div xml:id="i-GLmgsi6wv3T1k41SQM4NJB" type="motBody">
         <div xml:id="i-8VHpT8NoXmoXCrh8aFAR5L">
           <p xml:id="i-Xgi7y1TTxZ6wjSG6rocnZB">
             2003/04 mnr: Kr387 pnr: kd470
@@ -1163,8 +1163,11 @@
             förra årets anslagshöjning. Vi kommer att följa upp utvecklingen
             för att tillse att verksamheten kan garanteras.
           </p>
-          <p xml:id="i-2zCQJCFZjYpP8emtCZeeY4">
-            Stockholm den 7 oktober 2003 Gunilla Tjernberg (kd)
+          <p xml:id="i-2zCQJCFZjYpP8emtCZeeY4" type="date">
+            Stockholm den 7 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-Sjk6zLkxWjcfNi3ubqNR7r">
+            Gunilla Tjernberg (kd)
           </p>
           <p xml:id="i-BBYQVFYB6AY3D91twP3gdD">
             Inger Davidson (kd) Chatrine Pålsson (kd) Dan Kihlström (kd)

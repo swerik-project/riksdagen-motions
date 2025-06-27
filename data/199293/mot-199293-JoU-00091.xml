@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-JoU-00091">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-5jLvgtZLz4tn3NhaKToY29</idno>
-            <name>Holger Gustafsson </name>
+            <name>Holger Gustafsson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Fa75ePV6JC2wN91aE4xcYD</idno>
-            <name>Stefan Attefall </name>
+            <name>Stefan Attefall</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-Hnc99qM2wSocQrZmyQoJhz</idno>
-            <name>Rose-Marie Frebran </name>
+            <name>Rose-Marie Frebran</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-9DeNp8pHSAuzYFPJurvoqJ"/>
+        <correspAction xml:id="i-9DeNp8pHSAuzYFPJurvoqJ" type="basedOn"/>
         <correspContext corresp="i-9DeNp8pHSAuzYFPJurvoqJ">
           <ref>Proposition 1992/93:179</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-Fa75ePV6JC2wN91aE4xcYD"/>
           <note type="signatory" corresp="i-Hnc99qM2wSocQrZmyQoJhz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Tk6gHQYTJ3zjsJ5nQ3sDaf">
+        <correspAction xml:id="i-Tk6gHQYTJ3zjsJ5nQ3sDaf" type="referral">
           <date when="1993-03-31"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3fHWFc1kW5XJbVpwH1CZBJ">
+        <correspAction xml:id="i-3fHWFc1kW5XJbVpwH1CZBJ" type="dismissal">
           <date when="1993-03-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5htxSbriaaDLXucApNL7Bv">
+        <correspAction xml:id="i-5htxSbriaaDLXucApNL7Bv" type="submission">
           <date when="1993-03-29"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-FDwooywbhemmSxxxCFtSc8">
+        <correspAction xml:id="i-FDwooywbhemmSxxxCFtSc8" type="referral">
           <date when="1993-03-31"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XjSnZFt7yhJhxpULqxVYdS">
+        <correspAction xml:id="i-XjSnZFt7yhJhxpULqxVYdS" type="dismissal">
           <date when="1993-03-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ShfUvJQsd2Vd3H6mZWQU5K">
+        <correspAction xml:id="i-ShfUvJQsd2Vd3H6mZWQU5K" type="submission">
           <date when="1993-03-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RojJMdqfssr8ptUeuKL7fh"/>
+        <correspAction xml:id="i-RojJMdqfssr8ptUeuKL7fh" type="assigned"/>
         <correspContext corresp="i-RojJMdqfssr8ptUeuKL7fh">
           <ref type="assignedTo">Jordbruksutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_JoU_91/mot_199293_JoU_91-001.pdf"/>
-      <div type="motHeader" xml:id="i-8E3yntPVPbp3ng8RJpoDZE">
-        <div type="motTitle" xml:id="i-Ja4tAwTk8ri1EZz2afAkSH"/>
-        <div type="motSubmissionInfo" xml:id="i-Sqvb23qDtHJrSFvaJVxHai"/>
+      <div xml:id="i-8E3yntPVPbp3ng8RJpoDZE" type="motHeader">
+        <div xml:id="i-Ja4tAwTk8ri1EZz2afAkSH" type="motTitle"/>
+        <div xml:id="i-Sqvb23qDtHJrSFvaJVxHai" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8P23VzMMo5Zgf112cWVU78">
+      <div xml:id="i-8P23VzMMo5Zgf112cWVU78" type="motBody">
         <div xml:id="i-XeU5D2jbvBgzgRVMGLELoC">
           <p xml:id="i-hEdF5ACvoxaCtoZaAfaFh">
             Motion till riksdagen
@@ -383,8 +383,11 @@
             i mo- tionen anförts om att nya regler för tjänstebilsförmåner
             bör tas fram.
           </p>
-          <p xml:id="i-5U3vBdQ8W96UaZaarshKE6">
-            Stockholm den 29 mars 1993 Holger Gustafsson (kds)
+          <p xml:id="i-5U3vBdQ8W96UaZaarshKE6" type="date">
+            Stockholm den 29 mars 1993
+          </p>
+          <p type="signatureBlock" id="i-LC7tLNUQHv3p55bnfpinAP">
+            Holger Gustafsson (kds)
           </p>
           <p xml:id="i-9qEHMUMs4HpiKH2TppLUHk">
             Stefan Attefall (kds) Rose-Marie Frebran (kds)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-BoU-00006">
   <teiHeader>
     <fileDesc>
@@ -62,7 +62,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-LuMLnNh949nX5fAUDCGjQN"/>
+        <correspAction xml:id="i-LuMLnNh949nX5fAUDCGjQN" type="basedOn"/>
         <correspContext corresp="i-LuMLnNh949nX5fAUDCGjQN">
           <ref>Proposition 1987/88:35</ref>
         </correspContext>
@@ -74,16 +74,16 @@
           <note type="signatory" corresp="i-7RcGCGfWkJMjP15ns7TKSq"/>
           <note type="signatory" corresp="i-JvrnLfed8t4X5ZRydAh8Aq"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-E4MnFiAsmMgADj3yGinWY2">
+        <correspAction xml:id="i-E4MnFiAsmMgADj3yGinWY2" type="submission">
           <date when="1987-11-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FjzvCLc67Jx7S9AmYhn6ap">
+        <correspAction xml:id="i-FjzvCLc67Jx7S9AmYhn6ap" type="dismissal">
           <date when="1987-11-19"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Du2RJA89qpH8UC8WJt5bfa">
+        <correspAction xml:id="i-Du2RJA89qpH8UC8WJt5bfa" type="referral">
           <date when="1987-11-20"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GuMsUwtLXKQnghgcCBS4PL">
+        <correspAction xml:id="i-GuMsUwtLXKQnghgcCBS4PL" type="assigned">
           <date when="2014-11-22"/>
           <time when="23:30:54"/>
         </correspAction>
@@ -99,11 +99,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_bo_6/mot_198788_bo_6-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-6gMnLjLvUvJHCMxGtxPSMD">
-        <div type="motTitle" xml:id="i-R9G8BfiaKFKYRCXdCUjh9q"/>
-        <div type="motSubmissionInfo" xml:id="i-PPaShauRZor1AasLVw4qiU"/>
+      <div xml:id="i-6gMnLjLvUvJHCMxGtxPSMD" type="motHeader">
+        <div xml:id="i-R9G8BfiaKFKYRCXdCUjh9q" type="motTitle"/>
+        <div xml:id="i-PPaShauRZor1AasLVw4qiU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-A43oRnUBe9sTYZnAZNYiWM">
+      <div xml:id="i-A43oRnUBe9sTYZnAZNYiWM" type="motBody">
         <div xml:id="i-B41TYCVBo3sdjpb4qZUTEu">
           <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_bo_6/mot_198788_bo_6-001.pdf"/>
           <p xml:id="i-M11mMmAHh7G1tNQhuJzvch">
@@ -257,9 +257,11 @@
             avslår proposition 1987/88:35 i den del som rör förslag om införande
             av lag om kommunal bostadsanvisningsrätt och ändringar i bostadslåneförfattningarna.
           </p>
-          <p xml:id="i-PAd5eRH7PF1jtwCKpDhcvh">
-            Stockholm den 18 november 1987 Agne Hansson (c) Birgitta Hambraeus
-            (c) Ivar Franzén (c)
+          <p xml:id="i-PAd5eRH7PF1jtwCKpDhcvh" type="date">
+            Stockholm den 18 november 1987
+          </p>
+          <p type="signatureBlock" id="i-RcA51bdYUae9jzAJdavits">
+            Agne Hansson (c) Birgitta Hambraeus (c) Ivar Franzén (c)
           </p>
           <p xml:id="i-NfMHqo6LZiUD4Z88YXXwby">
             Rune Thorén (c) Eva Rydén (c)

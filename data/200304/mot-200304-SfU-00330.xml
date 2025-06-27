@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00330">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Y4Zji2MMTUXUEkAsmzj3bZ">
           <note type="signatory" corresp="i-BUYvEhrSc9gnHcd6iS4eDJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NfnPPGvbZAtwVgKFPKSBct">
+        <correspAction xml:id="i-NfnPPGvbZAtwVgKFPKSBct" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WFQWJN3niKNTHpgzwpBz6t">
+        <correspAction xml:id="i-WFQWJN3niKNTHpgzwpBz6t" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Dykkqy8hnbRYCiQeYT4Cgs">
+        <correspAction xml:id="i-Dykkqy8hnbRYCiQeYT4Cgs" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-59Jpo3gVouNKPCJ9sURwzH"/>
+        <correspAction xml:id="i-59Jpo3gVouNKPCJ9sURwzH" type="assigned"/>
         <correspContext corresp="i-59Jpo3gVouNKPCJ9sURwzH">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0330/mot_200304_Sf_0330-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9jaXZzsx9sFJmQQVHM1iCW">
-        <div type="motTitle" xml:id="i-5v4cUF9zQXGq737a9tmjyX"/>
-        <div type="motSubmissionInfo" xml:id="i-Vua6qfEwC21o3ropRApxrC"/>
+      <div xml:id="i-9jaXZzsx9sFJmQQVHM1iCW" type="motHeader">
+        <div xml:id="i-5v4cUF9zQXGq737a9tmjyX" type="motTitle"/>
+        <div xml:id="i-Vua6qfEwC21o3ropRApxrC" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AHNrvNLi5Sfp1AGthHhhcc">
+      <div xml:id="i-AHNrvNLi5Sfp1AGthHhhcc" type="motBody">
         <div xml:id="i-Ladn5ScMHmPW8UDuVbcFnB">
           <p xml:id="i-9eaMoogAkQTyRyZZ8SmWxE">
             2003/04 mnr: Sf330 pnr: fp241
@@ -144,8 +144,11 @@
             att detta är av underordnad betydelse om utvecklingen beträffande
             längre sjukskrivningar och sjukersättning kan vändas.
           </p>
-          <p xml:id="i-65vN71BEvjqjXkLWBjeVSq">
-            Stockholm den 6 oktober 2003 Allan Widman (fp)
+          <p xml:id="i-65vN71BEvjqjXkLWBjeVSq" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-Xzgdp5aF1Ci1aKZnmxoyWE">
+            Allan Widman (fp)
           </p>
         </div>
       </div>

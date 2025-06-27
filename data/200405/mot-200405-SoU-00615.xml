@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00615">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Q4jP7C4PZXhfW1ESoKXL4N">
           <note type="signatory" corresp="i-24CbHNwsRznss4Yas6HseU"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VDvRf6SVkSbCgJ3ukdNBZD">
+        <correspAction xml:id="i-VDvRf6SVkSbCgJ3ukdNBZD" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FfNFW8gMAdTcSXQYfvUJmg">
+        <correspAction xml:id="i-FfNFW8gMAdTcSXQYfvUJmg" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JAbPDDwQ5mMwHZUGJTB1je">
+        <correspAction xml:id="i-JAbPDDwQ5mMwHZUGJTB1je" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GciQ5wxiyEFWR3jHUhDGZ6"/>
+        <correspAction xml:id="i-GciQ5wxiyEFWR3jHUhDGZ6" type="assigned"/>
         <correspContext corresp="i-GciQ5wxiyEFWR3jHUhDGZ6">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_615/mot_200405_So_615-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VY238YDD6B8nKVEs5WghuB">
-        <div type="motTitle" xml:id="i-71yWwxWprTPhcBnkPep4wz"/>
-        <div type="motSubmissionInfo" xml:id="i-XSfhNKE81JX5dhS6R3ndyP"/>
+      <div xml:id="i-VY238YDD6B8nKVEs5WghuB" type="motHeader">
+        <div xml:id="i-71yWwxWprTPhcBnkPep4wz" type="motTitle"/>
+        <div xml:id="i-XSfhNKE81JX5dhS6R3ndyP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UjYMVFV8wNzzUKCatzYmqF">
+      <div xml:id="i-UjYMVFV8wNzzUKCatzYmqF" type="motBody">
         <div xml:id="i-McGbDK3t4hGdV4fovg4eGZ">
           <p xml:id="i-TZCT6KRfQ6d4Y74gM2xCM7">
             2004/05 mnr: So615 pnr: fp646
@@ -123,8 +123,11 @@
             tillförsäkra patienter med amalgamfyllningsproblem lika behandling
             i hela landet. Det är angeläget att dessa regelförändringar genomförs.
           </p>
-          <p xml:id="i-JgX8hUXbD865qCQfpVUjdA">
-            Stockholm den 3 oktober 2004 Anita Brodén (fp)
+          <p xml:id="i-JgX8hUXbD865qCQfpVUjdA" type="date">
+            Stockholm den 3 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-4RX2rdiRsa6wM1aucQjoBp">
+            Anita Brodén (fp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00275">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-EM2TVoxsoYX5GgjF1VyYVm">
           <note type="signatory" corresp="i-4pfVnS8LNwychZJ7RaUufZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MMtpsjt9tBFXJkwEb5MrAe">
+        <correspAction xml:id="i-MMtpsjt9tBFXJkwEb5MrAe" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TbzJsAxC88fDRyisbErb3t">
+        <correspAction xml:id="i-TbzJsAxC88fDRyisbErb3t" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-V7taVWUbe8aiAKHwSiaMDt">
+        <correspAction xml:id="i-V7taVWUbe8aiAKHwSiaMDt" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-1cRwSwcWwTKkhfvm3enL6"/>
+        <correspAction xml:id="i-1cRwSwcWwTKkhfvm3enL6" type="assigned"/>
         <correspContext corresp="i-1cRwSwcWwTKkhfvm3enL6">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ub_0275/mot_200304_Ub_0275-0001.pdf"/>
-      <div type="motHeader" xml:id="i-P2AbuScYFCzjCm4CZDjiZr">
-        <div type="motTitle" xml:id="i-QGHuQamvs2QN2XmAF7E2HE"/>
-        <div type="motSubmissionInfo" xml:id="i-XAwR3P1noCQYzWr1n4Zp2o"/>
+      <div xml:id="i-P2AbuScYFCzjCm4CZDjiZr" type="motHeader">
+        <div xml:id="i-QGHuQamvs2QN2XmAF7E2HE" type="motTitle"/>
+        <div xml:id="i-XAwR3P1noCQYzWr1n4Zp2o" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YGTGJG2gGQ2UdE4KSRupKY">
+      <div xml:id="i-YGTGJG2gGQ2UdE4KSRupKY" type="motBody">
         <div xml:id="i-6nPErco7nokUHkWXutKwXL">
           <p xml:id="i-WdE51vW9t6bVChDT2Mpi32">
             2003/04 mnr: Ub275 pnr: kd677
@@ -149,8 +149,11 @@
             kunskapscentrum inom ambulanssjukvård med placering på Högskolan
             i Borås med årlig anslagsfinansiering.
           </p>
-          <p xml:id="i-HKsb7NPRV6i5GxTBqUUEMz">
-            Stockholm den 1 oktober 2003 Else-Marie Lindgren (kd)
+          <p xml:id="i-HKsb7NPRV6i5GxTBqUUEMz" type="date">
+            Stockholm den 1 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-UTkh66czoAVgVsk7TURf7P">
+            Else-Marie Lindgren (kd)
           </p>
         </div>
       </div>

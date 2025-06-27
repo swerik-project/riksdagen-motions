@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00011">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-F5L3MyVZ5Dt9xbKKX1hDh2"/>
+        <correspAction xml:id="i-F5L3MyVZ5Dt9xbKKX1hDh2" type="basedOn"/>
         <correspContext corresp="i-F5L3MyVZ5Dt9xbKKX1hDh2">
           <ref>Regeringsskrivelse 2003/04:13</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="i-C6MPg8QS78d6rtHZ6Jc424"/>
           <note type="signatory" corresp="i-KAgkDWA5iGbn9XFLkj9FoB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GpvNScwvYQ1HTpdcfKe98D">
+        <correspAction xml:id="i-GpvNScwvYQ1HTpdcfKe98D" type="referral">
           <date when="2003-10-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-J2Z4NjgPKKLhn3RckqHLyi">
+        <correspAction xml:id="i-J2Z4NjgPKKLhn3RckqHLyi" type="dismissal">
           <date when="2003-10-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8sjwT9kS9GiP1hybMtz8rv">
+        <correspAction xml:id="i-8sjwT9kS9GiP1hybMtz8rv" type="submission">
           <date when="2003-10-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YPTUXqoqHCZpfar41Pe9df"/>
+        <correspAction xml:id="i-YPTUXqoqHCZpfar41Pe9df" type="assigned"/>
         <correspContext corresp="i-YPTUXqoqHCZpfar41Pe9df">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -74,11 +74,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0011/mot_200304_K_0011-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HT7LA4UCKn6mJozg2fHT2L">
-        <div type="motTitle" xml:id="i-Y5381jeUnWrQVLqRaB4RLY"/>
-        <div type="motSubmissionInfo" xml:id="i-JayDErGRWNDgU65izrERjE"/>
+      <div xml:id="i-HT7LA4UCKn6mJozg2fHT2L" type="motHeader">
+        <div xml:id="i-Y5381jeUnWrQVLqRaB4RLY" type="motTitle"/>
+        <div xml:id="i-JayDErGRWNDgU65izrERjE" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6RN6Tu7uvFDyThHry6rTB8">
+      <div xml:id="i-6RN6Tu7uvFDyThHry6rTB8" type="motBody">
         <div xml:id="i-TzW35pKqQBeeMqW8TrmrjX">
           <p xml:id="i-AKvEvvmqggF5ohXxxwk7pf">
             2003/04 mnr: K11 pnr: s28000
@@ -141,9 +141,11 @@
             behov. En bedömning bör också göras av fördelar eller nackdelar
             med att agera eller att inte göra det.
           </p>
-          <p xml:id="i-SEz4Qkm3i8LWQpG9SXCVCQ">
-            Stockholm den 17 oktober 2003 Sinikka Bohlin (s) Alf Eriksson
-            (s)
+          <p xml:id="i-SEz4Qkm3i8LWQpG9SXCVCQ" type="date">
+            Stockholm den 17 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-sNEL8uMFi2tZo2t4W5qcx">
+            Sinikka Bohlin (s) Alf Eriksson (s)
           </p>
         </div>
       </div>

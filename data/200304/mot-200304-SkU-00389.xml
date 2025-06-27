@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00389">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-4sBVpXefsL1CF7kS8shrq5"/>
           <note type="signatory" corresp="i-WJM6edqhGfBK1ijhNxfgoj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CpXuhNUBQto4Z2CVa7PhQj">
+        <correspAction xml:id="i-CpXuhNUBQto4Z2CVa7PhQj" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9SdFGrqz34MzSkj7bzPFrN">
+        <correspAction xml:id="i-9SdFGrqz34MzSkj7bzPFrN" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-X15uR4uLXLqayTpuWKCEN2">
+        <correspAction xml:id="i-X15uR4uLXLqayTpuWKCEN2" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6rn7YEm9N19HVoYnZdN6Jg"/>
+        <correspAction xml:id="i-6rn7YEm9N19HVoYnZdN6Jg" type="assigned"/>
         <correspContext corresp="i-6rn7YEm9N19HVoYnZdN6Jg">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0389/mot_200304_Sk_0389-0001.pdf"/>
-      <div type="motHeader" xml:id="i-53sED3D5MhZLGNKpudU24Q">
-        <div type="motTitle" xml:id="i-ShMZphNhhpzcUZhfMYW1CL"/>
-        <div type="motSubmissionInfo" xml:id="i-HYgPSt88vdLUrNhkgm6xyo"/>
+      <div xml:id="i-53sED3D5MhZLGNKpudU24Q" type="motHeader">
+        <div xml:id="i-ShMZphNhhpzcUZhfMYW1CL" type="motTitle"/>
+        <div xml:id="i-HYgPSt88vdLUrNhkgm6xyo" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MRSNSCb8ZhegvTeGY8Vo4m">
+      <div xml:id="i-MRSNSCb8ZhegvTeGY8Vo4m" type="motBody">
         <div xml:id="i-T62ZsHZtRVofZCenC3XN5D">
           <p xml:id="i-BX3uCTdFnG9Vuh1si3rCbR">
             2003/04 mnr: Sk389 pnr: -fp222
@@ -141,9 +141,11 @@
             riktigt att enbart kraftsamla till de tre storstadsområdena —
             tullen i Kalmar bör alltså behållas!
           </p>
-          <p xml:id="i-H2RMJDvKFdFjZsnKt2SDRM">
-            Stockholm den 30 september 2003 Sverker Thorén (fp) Chatrine
-            Pålsson (kd)
+          <p xml:id="i-H2RMJDvKFdFjZsnKt2SDRM" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-GTj1R3tgTmsDepEXhGTd5g">
+            Sverker Thorén (fp) Chatrine Pålsson (kd)
           </p>
         </div>
       </div>

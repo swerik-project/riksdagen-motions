@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SfU-00022">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-WYjrtb9Ro3PQTBdcCAvzaX"/>
+        <correspAction xml:id="i-WYjrtb9Ro3PQTBdcCAvzaX" type="basedOn"/>
         <correspContext corresp="i-WYjrtb9Ro3PQTBdcCAvzaX">
           <ref>Förslag 2004/05:RRS16</ref>
         </correspContext>
@@ -42,19 +42,19 @@
         <correspContext corresp="i-4oZdbGHpkegVZBLWAR6rm7">
           <note type="signatory" corresp="i-GgyXv4xamqTouNVz7Tncke"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QmWkqnnbUvPW8VR8upzzxv">
+        <correspAction xml:id="i-QmWkqnnbUvPW8VR8upzzxv" type="referral">
           <date when="2005-04-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-2dHAWkinvtLKXseq4vxUZX">
+        <correspAction xml:id="i-2dHAWkinvtLKXseq4vxUZX" type="registration">
           <date when="2005-04-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Tg3c33X4qXCPuA28vgMPiS">
+        <correspAction xml:id="i-Tg3c33X4qXCPuA28vgMPiS" type="dismissal">
           <date when="2005-04-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VaZ9BYsVUFS6MpHn9mfscD">
+        <correspAction xml:id="i-VaZ9BYsVUFS6MpHn9mfscD" type="submission">
           <date when="2005-03-31"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TZNjEpk4SMtwDAMHk1JdU3"/>
+        <correspAction xml:id="i-TZNjEpk4SMtwDAMHk1JdU3" type="assigned"/>
         <correspContext corresp="i-TZNjEpk4SMtwDAMHk1JdU3">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -69,11 +69,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sf_22/mot_200405_Sf_22-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HDynXYWoKL553bf2qrCJHd">
-        <div type="motTitle" xml:id="i-3PDafHVybXWEQkUyECxoXQ"/>
-        <div type="motSubmissionInfo" xml:id="i-41mVtbzN5PmsqTPPKVomq9"/>
+      <div xml:id="i-HDynXYWoKL553bf2qrCJHd" type="motHeader">
+        <div xml:id="i-3PDafHVybXWEQkUyECxoXQ" type="motTitle"/>
+        <div xml:id="i-41mVtbzN5PmsqTPPKVomq9" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FmwdrTei3ddASzG8gf2wFw">
+      <div xml:id="i-FmwdrTei3ddASzG8gf2wFw" type="motBody">
         <div xml:id="i-8pnVyZJEnj6j2YvvpMxkbV">
           <p xml:id="i-XKnhszSQQUzQjLkJS61FtA">
             2004/05 mnr: Sf22 pnr: m1645
@@ -135,8 +135,11 @@
             utvecklingen på ett annat sätt och politiken hade kunnat inriktas
             på att få fler tillbaka i arbete.
           </p>
-          <p xml:id="i-JjUwB38o9puqBKPosL6D6Q">
-            Stockholm den 29 mars 2005 Anna Lilliehöök (m)
+          <p xml:id="i-JjUwB38o9puqBKPosL6D6Q" type="date">
+            Stockholm den 29 mars 2005
+          </p>
+          <p type="signatureBlock" id="i-2zpE8vrDTrMmhspxLnDcuq">
+            Anna Lilliehöök (m)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00410">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-5NEZXLEpFHozenjNCetK9p">
           <note type="signatory" corresp="i-55RmS5Pfuux2GvYZfGZhK2"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-6UzxgHG5N43rJpb6bUkmpb">
+        <correspAction xml:id="i-6UzxgHG5N43rJpb6bUkmpb" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LcZKVbAbNYAgzqzbVvmATd">
+        <correspAction xml:id="i-LcZKVbAbNYAgzqzbVvmATd" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FCzTaV34ESWah17RjRyt91">
+        <correspAction xml:id="i-FCzTaV34ESWah17RjRyt91" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-U3fb4rza6dwjFn1UgbhYnD"/>
+        <correspAction xml:id="i-U3fb4rza6dwjFn1UgbhYnD" type="assigned"/>
         <correspContext corresp="i-U3fb4rza6dwjFn1UgbhYnD">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ub_0410/mot_200304_Ub_0410-0001.pdf"/>
-      <div type="motHeader" xml:id="i-StKZXKGHXrRXbkbkxcv71p">
-        <div type="motTitle" xml:id="i-83exis4XVGc9BY6u6LJ9US"/>
-        <div type="motSubmissionInfo" xml:id="i-MoZGYnGdsUeDU4bQXxRfrJ"/>
+      <div xml:id="i-StKZXKGHXrRXbkbkxcv71p" type="motHeader">
+        <div xml:id="i-83exis4XVGc9BY6u6LJ9US" type="motTitle"/>
+        <div xml:id="i-MoZGYnGdsUeDU4bQXxRfrJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-G6hMjfeJjKTdbU4iLPDT8U">
+      <div xml:id="i-G6hMjfeJjKTdbU4iLPDT8U" type="motBody">
         <div xml:id="i-XRZezVK4sF7ASDf1P1muuX">
           <p xml:id="i-ByWML92rTFQPnapJGL3Q2Z">
             2003/04 mnr: Ub410 pnr: s3007
@@ -112,8 +112,11 @@
             termin före examen. För både den enskilde och samhället är detta
             en mycket stor förlust.
           </p>
-          <p xml:id="i-R6cn41SYRXuu8kcr3BW9fN">
-            Stockholm den 23 september 2003 Conny Öhman (s)
+          <p xml:id="i-R6cn41SYRXuu8kcr3BW9fN" type="date">
+            Stockholm den 23 september 2003
+          </p>
+          <p type="signatureBlock" id="i-94LsgMoDJQg9kkek2urBsk">
+            Conny Öhman (s)
           </p>
         </div>
       </div>

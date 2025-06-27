@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-TU-00029">
   <teiHeader>
     <fileDesc>
@@ -62,7 +62,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-W4j4H7JJbawgcATfSdLRq"/>
+        <correspAction xml:id="i-W4j4H7JJbawgcATfSdLRq" type="basedOn"/>
         <correspContext corresp="i-W4j4H7JJbawgcATfSdLRq">
           <ref>Proposition 1987/88:50</ref>
         </correspContext>
@@ -74,16 +74,16 @@
           <note type="signatory" corresp="i-VXkZessNxc9eyPfvwLgWcK"/>
           <note type="signatory" corresp="i-EnY75k4BnjsRjmfLfQWBqT"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-8oiYwWzpJtbv67r6hgTp71">
+        <correspAction xml:id="i-8oiYwWzpJtbv67r6hgTp71" type="submission">
           <date when="1988-01-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-W4vh93RD1MwQxhcrPATGwP">
+        <correspAction xml:id="i-W4vh93RD1MwQxhcrPATGwP" type="dismissal">
           <date when="1988-02-02"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-BZa72QADjKdMKPrMWYrZgW">
+        <correspAction xml:id="i-BZa72QADjKdMKPrMWYrZgW" type="referral">
           <date when="1988-02-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6apdbD2Zo39eLMscmNr9Wy">
+        <correspAction xml:id="i-6apdbD2Zo39eLMscmNr9Wy" type="assigned">
           <date when="2014-11-22"/>
           <time when="22:47:12"/>
         </correspAction>
@@ -99,11 +99,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_t_29/mot_198788_t_29-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-K8va6na25cM2NJW88yN2HV">
-        <div type="motTitle" xml:id="i-Gd3BPcQcfdyVBfyBYNhfxn"/>
-        <div type="motSubmissionInfo" xml:id="i-AfSSu1uwxSPSWZsLQkigy9"/>
+      <div xml:id="i-K8va6na25cM2NJW88yN2HV" type="motHeader">
+        <div xml:id="i-Gd3BPcQcfdyVBfyBYNhfxn" type="motTitle"/>
+        <div xml:id="i-AfSSu1uwxSPSWZsLQkigy9" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-S1iQ2zz3vNH5smb2MM3BuS">
+      <div xml:id="i-S1iQ2zz3vNH5smb2MM3BuS" type="motBody">
         <div xml:id="i-GjaKSyhNFq6WUqo9AEpMSK">
           <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_t_29/mot_198788_t_29-001.pdf"/>
           <p xml:id="i-1CHiedqmDPYwT3dm7VUuu">
@@ -190,8 +190,11 @@
             3. att riksdagen som sin mening ger regeringen till känna vad
             i motionen anförts om utbyggnad av väg E18 på delen Kristinehamn—Karlskoga.
           </p>
-          <p xml:id="i-WnY2a4XMfBurzxV3gbKdGb">
-            Stockholm den 28 januari 1988 Magnus Persson (s)
+          <p xml:id="i-WnY2a4XMfBurzxV3gbKdGb" type="date">
+            Stockholm den 28 januari 1988
+          </p>
+          <p type="signatureBlock" id="i-8VqMJxGAFmVBT99YVkMnfF">
+            Magnus Persson (s)
           </p>
           <p xml:id="i-45eg1ipQNQYVwYoq5zFyHG">
             Bo Finnkvist (s) Erik Janson (s) Kristina Svensson (s) Hans Rosengren

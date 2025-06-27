@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00549">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-4Cj6mytarpoiJKmNZ2nT4X">
           <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-ESfF7iqztfzRBpcmq6SmzB">
+        <correspAction xml:id="i-ESfF7iqztfzRBpcmq6SmzB" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Dk1tXzoCiwuTm2rnEoshJC">
+        <correspAction xml:id="i-Dk1tXzoCiwuTm2rnEoshJC" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XHey5nyvxx6RbqkUQ2gaCA">
+        <correspAction xml:id="i-XHey5nyvxx6RbqkUQ2gaCA" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-H31yPynMrV43wWtQB27BN3"/>
+        <correspAction xml:id="i-H31yPynMrV43wWtQB27BN3" type="assigned"/>
         <correspContext corresp="i-H31yPynMrV43wWtQB27BN3">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_549/mot_200506_T_549-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8rTCT2vuFkdwZ89yaZ6Csv">
-        <div type="motTitle" xml:id="i-691eNupZTAkU5AFVVr7Qhn"/>
-        <div type="motSubmissionInfo" xml:id="i-KverUi6Po145Yk5QRCk5t7"/>
+      <div xml:id="i-8rTCT2vuFkdwZ89yaZ6Csv" type="motHeader">
+        <div xml:id="i-691eNupZTAkU5AFVVr7Qhn" type="motTitle"/>
+        <div xml:id="i-KverUi6Po145Yk5QRCk5t7" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3YUTN2wAaBEQvjsaL4eTSg">
+      <div xml:id="i-3YUTN2wAaBEQvjsaL4eTSg" type="motBody">
         <div xml:id="i-V8T8yAfnsURAFciu2VshHr">
           <p xml:id="i-8hBCzEdB6skgJujtEBFyJm">
             2005/06 mnr: T549 pnr: v881
@@ -368,8 +368,11 @@
             en viktig roll för att stora transeuropeiska infrastruktur- projekt
             ska kunna genomföras.
           </p>
-          <p xml:id="i-2qJudc5M99EXETsz8fNKLU">
-            Stockholm den 5 oktober 2005 Tasso Stafilidis (v)
+          <p xml:id="i-2qJudc5M99EXETsz8fNKLU" type="date">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-UHq44ZFSqkzV32C5w1LPym">
+            Tasso Stafilidis (v)
           </p>
         </div>
       </div>

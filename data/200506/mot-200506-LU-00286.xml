@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00286">
   <teiHeader>
     <fileDesc>
@@ -79,16 +79,16 @@
           <note type="signatory" corresp="i-GE8V8xQLUeUXqQYs9agnuG"/>
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9Fmjxg6eNEKMte6sE9ZF5m">
+        <correspAction xml:id="i-9Fmjxg6eNEKMte6sE9ZF5m" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9oPytyqPvzR1PsdEeP6F6c">
+        <correspAction xml:id="i-9oPytyqPvzR1PsdEeP6F6c" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XYjmRnXRnYPVv56dbYkGxQ">
+        <correspAction xml:id="i-XYjmRnXRnYPVv56dbYkGxQ" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UmeLkLaSFNdWWfwGGWqKjc"/>
+        <correspAction xml:id="i-UmeLkLaSFNdWWfwGGWqKjc" type="assigned"/>
         <correspContext corresp="i-UmeLkLaSFNdWWfwGGWqKjc">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -103,11 +103,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_286/mot_200506_L_286-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Xa8BJYGcLmNZhqZWX1kvHh">
-        <div type="motTitle" xml:id="i-TSAzJPq9KPsW89dkXQGNbs"/>
-        <div type="motSubmissionInfo" xml:id="i-VpEDtLVY3RajrBsbXimMVG"/>
+      <div xml:id="i-Xa8BJYGcLmNZhqZWX1kvHh" type="motHeader">
+        <div xml:id="i-TSAzJPq9KPsW89dkXQGNbs" type="motTitle"/>
+        <div xml:id="i-VpEDtLVY3RajrBsbXimMVG" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SLUH1f46n2XbGuc5u9LVpR">
+      <div xml:id="i-SLUH1f46n2XbGuc5u9LVpR" type="motBody">
         <div xml:id="i-E1or7WYX6j7ejEiBepGseq">
           <p xml:id="i-GwdgksqbRtHXVout17UueK">
             2005/06 mnr: L286 pnr: v854
@@ -252,8 +252,11 @@
             lagstiftning som innebär att en person som har bytt namnidentitet
             eller personnummer har rätt att få dessa uppgifter ändrade retroaktivt.
           </p>
-          <p xml:id="i-Ux89KrKwAV5ocUuqKxevsZ">
-            Stockholm den 23 september 2005 Tasso Stafilidis (v)
+          <p xml:id="i-Ux89KrKwAV5ocUuqKxevsZ" type="date">
+            Stockholm den 23 september 2005
+          </p>
+          <p type="signatureBlock" id="i-RqZCxQJEUwoVAiihtMbr16">
+            Tasso Stafilidis (v)
           </p>
           <p xml:id="i-RavKiE8XE54kETwPewiPgx">
             Rossana Dinamarca (v) Mats Einarsson (v) Siv Holma (v) Rolf Olsson

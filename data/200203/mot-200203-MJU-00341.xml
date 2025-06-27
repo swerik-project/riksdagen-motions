@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00341">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-SKWvvh2d5nxoxgHcbzkync">
           <note type="signatory" corresp="i-D8B2Xf6UADbqciPHrqFxSc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Q6J9fp9LiDwgLCpQM6gb1T">
+        <correspAction xml:id="i-Q6J9fp9LiDwgLCpQM6gb1T" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CxDuwQ1HiRV4peXC9dWoHG">
+        <correspAction xml:id="i-CxDuwQ1HiRV4peXC9dWoHG" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Qkv9V8suSKk3629r7UcXcg">
+        <correspAction xml:id="i-Qkv9V8suSKk3629r7UcXcg" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Sa63hsu6iPpxgS7vCSWZVM"/>
+        <correspAction xml:id="i-Sa63hsu6iPpxgS7vCSWZVM" type="assigned"/>
         <correspContext corresp="i-Sa63hsu6iPpxgS7vCSWZVM">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_MJ_0341/mot_200203_MJ_0341-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8NieqqMLDk1QLiSJR5yj3e">
-        <div type="motTitle" xml:id="i-KgEomYPzAHBUar5Jma9qcs"/>
-        <div type="motSubmissionInfo" xml:id="i-GezsGqx8z3LK5U1xVUazNV"/>
+      <div xml:id="i-8NieqqMLDk1QLiSJR5yj3e" type="motHeader">
+        <div xml:id="i-KgEomYPzAHBUar5Jma9qcs" type="motTitle"/>
+        <div xml:id="i-GezsGqx8z3LK5U1xVUazNV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-EzgvMiuWC6sb9XFXhozWFk">
+      <div xml:id="i-EzgvMiuWC6sb9XFXhozWFk" type="motBody">
         <div xml:id="i-C7VhSmCMRAhHspkx9pyAh8">
           <p xml:id="i-CuhikPBqQ677fD4GfkH2YZ">
             2002/03 mnr: MJ341 pnr: fp710
@@ -165,8 +165,11 @@
             till att öka djurarters mångfald och de vetenskapliga bidragen
             till zoologisk forskning.
           </p>
-          <p xml:id="i-AjdfL3QthF7hJx3hse5GqJ">
-            Stockholm den 22 oktober 2002 Birgitta Ohlsson (fp)
+          <p xml:id="i-AjdfL3QthF7hJx3hse5GqJ" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-CBBy8KDgK55DptHjWP1fir">
+            Birgitta Ohlsson (fp)
           </p>
         </div>
       </div>

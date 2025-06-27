@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00313">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-2bR6J2uCVEhafkHhViipKq">
           <note type="signatory" corresp="i-BprbpWQgeNpqWTF9sztgqA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YXcQZtRuDztXRApX9Ztg6e">
+        <correspAction xml:id="i-YXcQZtRuDztXRApX9Ztg6e" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Ayeau3rRob2U8qufy4joHf">
+        <correspAction xml:id="i-Ayeau3rRob2U8qufy4joHf" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Q65N6V3ZG7csfThX6Z28pR">
+        <correspAction xml:id="i-Q65N6V3ZG7csfThX6Z28pR" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4MiPtc4QMBFQZTyauTTzyM"/>
+        <correspAction xml:id="i-4MiPtc4QMBFQZTyauTTzyM" type="assigned"/>
         <correspContext corresp="i-4MiPtc4QMBFQZTyauTTzyM">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_313/mot_200405_Sk_313-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Lyf1k9PzKwfQ8Gc15GEpiF">
-        <div type="motTitle" xml:id="i-WGxapEtSLZKtRpX75LJaju"/>
-        <div type="motSubmissionInfo" xml:id="i-PsRnCd5eZbapkXUZ2Ym6Lc"/>
+      <div xml:id="i-Lyf1k9PzKwfQ8Gc15GEpiF" type="motHeader">
+        <div xml:id="i-WGxapEtSLZKtRpX75LJaju" type="motTitle"/>
+        <div xml:id="i-PsRnCd5eZbapkXUZ2Ym6Lc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SXwsJsmvehWPtC6tk5ApfF">
+      <div xml:id="i-SXwsJsmvehWPtC6tk5ApfF" type="motBody">
         <div xml:id="i-LZRhQYopr1wfskhpoj2QiQ">
           <p xml:id="i-Pw25y38NuamqtrfnHspJz">
             2004/05 mnr: Sk313 pnr: m1455
@@ -138,8 +138,11 @@
             skall ändras så att reglerna gäller alla typer av lastbilar, oavhängigt
             så kallad luftspalt.
           </p>
-          <p xml:id="i-Wtm2tMczgLbCKpGqZgpt5P">
-            Stockholm den 30 september 2004 Lars Lindblad (m)
+          <p xml:id="i-Wtm2tMczgLbCKpGqZgpt5P" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-3QkXenYim2rJvmbmQpJsUJ">
+            Lars Lindblad (m)
           </p>
         </div>
       </div>

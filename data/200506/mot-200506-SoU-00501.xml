@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00501">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-NVw2bgMNjzJecFNrNted3C">
           <note type="signatory" corresp="i-LrcUg7tEu4KwWdidwr1MAk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8TpGY7GGzwVEJCMnkguy36">
+        <correspAction xml:id="i-8TpGY7GGzwVEJCMnkguy36" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-F264ZM8TxAk3aRaWX2BNHX">
+        <correspAction xml:id="i-F264ZM8TxAk3aRaWX2BNHX" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DXUY7oKJC8U3QUGh7MAeca">
+        <correspAction xml:id="i-DXUY7oKJC8U3QUGh7MAeca" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BXmNEzR1GaEjqvjR49q23z"/>
+        <correspAction xml:id="i-BXmNEzR1GaEjqvjR49q23z" type="assigned"/>
         <correspContext corresp="i-BXmNEzR1GaEjqvjR49q23z">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_501/mot_200506_So_501-0001.pdf"/>
-      <div type="motHeader" xml:id="i-V7cBeHf3NjYcZvVaGK3afo">
-        <div type="motTitle" xml:id="i-6dRMePAi4paRcK7QZBp8Yx"/>
-        <div type="motSubmissionInfo" xml:id="i-LHPsc8TASPrQKBx7YxkEqR"/>
+      <div xml:id="i-V7cBeHf3NjYcZvVaGK3afo" type="motHeader">
+        <div xml:id="i-6dRMePAi4paRcK7QZBp8Yx" type="motTitle"/>
+        <div xml:id="i-LHPsc8TASPrQKBx7YxkEqR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RvLT42BoXCHhRGJbKyJxNg">
+      <div xml:id="i-RvLT42BoXCHhRGJbKyJxNg" type="motBody">
         <div xml:id="i-93jDb4qr426t1ufHdMvTvt">
           <p xml:id="i-9sTDaQMcHGvfBDn39eqsyM">
             2005/06 mnr: So501 pnr: s7038
@@ -154,8 +154,11 @@
             samt överväga hur handikappdimensionen kan inkluderas i statliga
             utredningar.
           </p>
-          <p xml:id="i-17Sqgx6VkJ6XwtbQ489hA9">
-            Stockholm den 29 september 2005 Kaj Nordquist (s)
+          <p xml:id="i-17Sqgx6VkJ6XwtbQ489hA9" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-UbAoPgqctfhFmoQMSf1LXm">
+            Kaj Nordquist (s)
           </p>
         </div>
       </div>

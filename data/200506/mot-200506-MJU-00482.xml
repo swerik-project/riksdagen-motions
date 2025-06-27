@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00482">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-Fkc7WAzCzrPbenoDm6tmu4">
           <note type="signatory" corresp="i-D8B2Xf6UADbqciPHrqFxSc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4zAQPUMpgDhWWJEw1pR4ij">
+        <correspAction xml:id="i-4zAQPUMpgDhWWJEw1pR4ij" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VyguLpCMTa8prMAaTxvNwQ">
+        <correspAction xml:id="i-VyguLpCMTa8prMAaTxvNwQ" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2WL1Qdp9JomiM9AZS3fmkc">
+        <correspAction xml:id="i-2WL1Qdp9JomiM9AZS3fmkc" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-F2GQc6vLJDWUZga7dBNt8V"/>
+        <correspAction xml:id="i-F2GQc6vLJDWUZga7dBNt8V" type="assigned"/>
         <correspContext corresp="i-F2GQc6vLJDWUZga7dBNt8V">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_482/mot_200506_MJ_482-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8hassyaPdNRPfsKzwaiYXp">
-        <div type="motTitle" xml:id="i-ThaDHhBND5c54PYn6PqNGj"/>
-        <div type="motSubmissionInfo" xml:id="i-EF3uPNd9CFZcY75XSCW1nb"/>
+      <div xml:id="i-8hassyaPdNRPfsKzwaiYXp" type="motHeader">
+        <div xml:id="i-ThaDHhBND5c54PYn6PqNGj" type="motTitle"/>
+        <div xml:id="i-EF3uPNd9CFZcY75XSCW1nb" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-X18XAVBd2ZBGwXwC8qBbEK">
+      <div xml:id="i-X18XAVBd2ZBGwXwC8qBbEK" type="motBody">
         <div xml:id="i-QpiuR2d9mFLq3Wp7hf4uob">
           <p xml:id="i-FMdVXVGxR1s4HybRuDR9LU">
             2005/06 mnr: MJ482 pnr: fp280
@@ -192,8 +192,11 @@
           <p xml:id="i-L3FT3KfsUkMxstmh7ef74a">
             industriell slakt av fjäderfän. Broilerproduktionen måste bort.
           </p>
-          <p xml:id="i-5b9SXehMwNEFAS9UbXncwN">
-            Stockholm den 4 oktober 2005 Birgitta Ohlsson (fp)
+          <p xml:id="i-5b9SXehMwNEFAS9UbXncwN" type="date">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-3a9KSYKvvT3SjCyuzKTP1K">
+            Birgitta Ohlsson (fp)
           </p>
         </div>
       </div>

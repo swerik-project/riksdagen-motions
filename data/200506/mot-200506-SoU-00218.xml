@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00218">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-Hb7cXVk1QrhwjttXq45aKr">
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4KD2uZjMoxBqMrqB6yLKYU">
+        <correspAction xml:id="i-4KD2uZjMoxBqMrqB6yLKYU" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GaGkZRY72Hx9vCPwDQizVt">
+        <correspAction xml:id="i-GaGkZRY72Hx9vCPwDQizVt" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3zDcx9RR9kuDNmHXPm9FZ2">
+        <correspAction xml:id="i-3zDcx9RR9kuDNmHXPm9FZ2" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PqEztFK2HQUARoxCoAY3oe"/>
+        <correspAction xml:id="i-PqEztFK2HQUARoxCoAY3oe" type="assigned"/>
         <correspContext corresp="i-PqEztFK2HQUARoxCoAY3oe">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_218/mot_200506_So_218-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HgfBRXQur51Asf3BHUpMMA">
-        <div type="motTitle" xml:id="i-MnbsjK5Etk8szQLkcrjVJD"/>
-        <div type="motSubmissionInfo" xml:id="i-RWLt2h64tQxf8GZToA5ZEH"/>
+      <div xml:id="i-HgfBRXQur51Asf3BHUpMMA" type="motHeader">
+        <div xml:id="i-MnbsjK5Etk8szQLkcrjVJD" type="motTitle"/>
+        <div xml:id="i-RWLt2h64tQxf8GZToA5ZEH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2k5nKGV3YzVMipQYQGAeM8">
+      <div xml:id="i-2k5nKGV3YzVMipQYQGAeM8" type="motBody">
         <div xml:id="i-NdCtHwY5tqyxDoCRaHCiwj">
           <p xml:id="i-DkGQAKJb5dSNtaNCysNPQN">
             2005/06 mnr: S0o218 pnr: m1027
@@ -140,8 +140,11 @@
             om att öka möjligheten till sprututbyte känns som ett steg mot
             ett drogliberalare Sverige. Det känns inte bra.
           </p>
-          <p xml:id="i-HCrnXod9rEBh9G7EWmCraR">
-            Stockholm den 15 september 2005 Ulf Sjösten (m)
+          <p xml:id="i-HCrnXod9rEBh9G7EWmCraR" type="date">
+            Stockholm den 15 september 2005
+          </p>
+          <p type="signatureBlock" id="i-PjvQo8hVmqeKeQzFKyJxuJ">
+            Ulf Sjösten (m)
           </p>
         </div>
       </div>

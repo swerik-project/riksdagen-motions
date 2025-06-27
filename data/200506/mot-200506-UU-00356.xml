@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UU-00356">
   <teiHeader>
     <fileDesc>
@@ -111,16 +111,16 @@
           <note type="signatory" corresp="i-WCrN5vpCNm6z9SvfXfby4e"/>
           <note type="signatory" corresp="i-CvmaDbz8ueGm8meSVWj6vr"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LdFSJgZqhwPkqCMHjW3jvj">
+        <correspAction xml:id="i-LdFSJgZqhwPkqCMHjW3jvj" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QTBy9GK5aWc2pDxkn6WsAn">
+        <correspAction xml:id="i-QTBy9GK5aWc2pDxkn6WsAn" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PfC6sNvhnUD7nVPZSg69ro">
+        <correspAction xml:id="i-PfC6sNvhnUD7nVPZSg69ro" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RSX8kMhjCqXin3MwSYZs4w"/>
+        <correspAction xml:id="i-RSX8kMhjCqXin3MwSYZs4w" type="assigned"/>
         <correspContext corresp="i-RSX8kMhjCqXin3MwSYZs4w">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -135,11 +135,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_U_356/mot_200506_U_356-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Amb8HgGHKoUa3hR8DAfVRs">
-        <div type="motTitle" xml:id="i-NBPK2MjjXibCmgrqYQKgwQ"/>
-        <div type="motSubmissionInfo" xml:id="i-NmazR3Yz9oiDrgrgwZBNqf"/>
+      <div xml:id="i-Amb8HgGHKoUa3hR8DAfVRs" type="motHeader">
+        <div xml:id="i-NBPK2MjjXibCmgrqYQKgwQ" type="motTitle"/>
+        <div xml:id="i-NmazR3Yz9oiDrgrgwZBNqf" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GGXMxsdnANiTMYq8x6CS2G">
+      <div xml:id="i-GGXMxsdnANiTMYq8x6CS2G" type="motBody">
         <div xml:id="i-H9P3sABxW1jWnb7MebpUUE">
           <p xml:id="i-77xyng1cTQ2Pz5VhpXd9Kq">
             2005/06 mnr: U356
@@ -866,8 +866,11 @@
             över, framför allt i ekonomiska starka nationer samt i länder
             där bistånds- och handelspolitiken i ökad utsträckning bör samordnas.
           </p>
-          <p xml:id="i-Hj6oe9UZ41zw8hTg7PtRwX">
-            Stockholm den 26 september 2005 Holger Gustafsson (kd)
+          <p xml:id="i-Hj6oe9UZ41zw8hTg7PtRwX" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-HdqLSRuv9GKpdETdvzRocP">
+            Holger Gustafsson (kd)
           </p>
           <p xml:id="i-22QyQ6PVmPHfZ6mzFcyfAD">
             Rosita Runegrund (kd) Erling Wälivaara (kd) Else-Marie Lindgren

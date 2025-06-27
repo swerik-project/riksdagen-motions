@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00261">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-P7NUw4Dxh7cTjBhJSWj7mQ">
           <note type="signatory" corresp="i-SS4MgL3HhkwCjKYAxgBPkd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8yxUY6PepabWGtSNWeAjEn">
+        <correspAction xml:id="i-8yxUY6PepabWGtSNWeAjEn" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GxXBLnoNXwPhvjQkydtMAv">
+        <correspAction xml:id="i-GxXBLnoNXwPhvjQkydtMAv" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HChVMy39MF9UCCRM4H1pgw">
+        <correspAction xml:id="i-HChVMy39MF9UCCRM4H1pgw" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-K4vjkezee6joH6rBYgHSEc"/>
+        <correspAction xml:id="i-K4vjkezee6joH6rBYgHSEc" type="assigned"/>
         <correspContext corresp="i-K4vjkezee6joH6rBYgHSEc">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_261/mot_200506_MJ_261-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QDvaHX7thiJGTEbkeVK978">
-        <div type="motTitle" xml:id="i-VqtWeyXadAz3nFZwbVHgCc"/>
-        <div type="motSubmissionInfo" xml:id="i-ArtSr4ZUBeeKqAXEAE4zGX"/>
+      <div xml:id="i-QDvaHX7thiJGTEbkeVK978" type="motHeader">
+        <div xml:id="i-VqtWeyXadAz3nFZwbVHgCc" type="motTitle"/>
+        <div xml:id="i-ArtSr4ZUBeeKqAXEAE4zGX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-X5MZ3dy2oCj8WdfQfWpszf">
+      <div xml:id="i-X5MZ3dy2oCj8WdfQfWpszf" type="motBody">
         <div xml:id="i-Rrzh4FkYhNKbN75JbuCQ49">
           <p xml:id="i-YRdHSw8uJyz2NgEpnF6fPZ">
             2005/06 mnr: MJ261 pnr: fp330
@@ -151,8 +151,11 @@
             ovanstående lista bör tillstånd för förvaring av ormar och giftiga
             djur i flerfamiljshus generellt vara restriktiv.
           </p>
-          <p xml:id="i-34wVsQagpsYBpHV3guf2NL">
-            Stockholm den 28 september 2005 Karin Granbom (fp)
+          <p xml:id="i-34wVsQagpsYBpHV3guf2NL" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-HZvbryd3Bv2FacJ2ZR4hVy">
+            Karin Granbom (fp)
           </p>
         </div>
       </div>

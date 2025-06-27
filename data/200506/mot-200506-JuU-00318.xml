@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00318">
   <teiHeader>
     <fileDesc>
@@ -79,16 +79,16 @@
           <note type="signatory" corresp="i-GE8V8xQLUeUXqQYs9agnuG"/>
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5ugbv94fMqFqiHfLPUKqoL">
+        <correspAction xml:id="i-5ugbv94fMqFqiHfLPUKqoL" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VVQ4UaUJtJPxVZ68BMVpa3">
+        <correspAction xml:id="i-VVQ4UaUJtJPxVZ68BMVpa3" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-H96EmqYi9WjZJQoEAMJFHG">
+        <correspAction xml:id="i-H96EmqYi9WjZJQoEAMJFHG" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Q1GyBzvgq31MMdp9JnaDd7"/>
+        <correspAction xml:id="i-Q1GyBzvgq31MMdp9JnaDd7" type="assigned"/>
         <correspContext corresp="i-Q1GyBzvgq31MMdp9JnaDd7">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -103,11 +103,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_318/mot_200506_Ju_318-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Wm9esd5ucfdoZ7scXMkoTB">
-        <div type="motTitle" xml:id="i-T53Vgt9x4tZnhGvd1Xbhzs"/>
-        <div type="motSubmissionInfo" xml:id="i-MAKv3usSTqu6N3y1UDfGnW"/>
+      <div xml:id="i-Wm9esd5ucfdoZ7scXMkoTB" type="motHeader">
+        <div xml:id="i-T53Vgt9x4tZnhGvd1Xbhzs" type="motTitle"/>
+        <div xml:id="i-MAKv3usSTqu6N3y1UDfGnW" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8U3cwHNED2MzvtbUvN1o6u">
+      <div xml:id="i-8U3cwHNED2MzvtbUvN1o6u" type="motBody">
         <div xml:id="i-3Xy4KZQXKQfqDdT7zKc7FC">
           <p xml:id="i-9sJmFYpztd1YhhWofCYs4o">
             2005/06 mnr: Ju318 pnr: v865
@@ -197,8 +197,11 @@
             innebär att det blir straffbart för föräldrar att arrangera äktenskap
             för minderåriga barn.
           </p>
-          <p xml:id="i-KMRc7hE9KSkLxTyuRxeXyz">
-            Stockholm den 26 september 2005 Tasso Stafilidis (v)
+          <p xml:id="i-KMRc7hE9KSkLxTyuRxeXyz" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-RGBHuYdbAbsyS49feP3e2E">
+            Tasso Stafilidis (v)
           </p>
           <p xml:id="i-Ewak597Rc7iu4QPcsatTAM">
             Rossana Dinamarca (v) Mats Einarsson (v) Siv Holma (v) Rolf Olsson

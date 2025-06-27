@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-NU-00213">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-BJHRmhq4dDMcYYVX3Bkvro">
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-T7m9bPTPJa6i92QdfwJ1t3">
+        <correspAction xml:id="i-T7m9bPTPJa6i92QdfwJ1t3" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8cuBV1CgmZEpquFpkiTpdC">
+        <correspAction xml:id="i-8cuBV1CgmZEpquFpkiTpdC" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MjtYuyk5sitZirUGN3Ai7P">
+        <correspAction xml:id="i-MjtYuyk5sitZirUGN3Ai7P" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AkPmfCbqAyvG4Apjzp1FhN"/>
+        <correspAction xml:id="i-AkPmfCbqAyvG4Apjzp1FhN" type="assigned"/>
         <correspContext corresp="i-AkPmfCbqAyvG4Apjzp1FhN">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_N_0213/mot_200304_N_0213-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FYqHWzYwTzMTv1acidnp7o">
-        <div type="motTitle" xml:id="i-AwN1SHskmjhoBSt3oN1DXk"/>
-        <div type="motSubmissionInfo" xml:id="i-XGmUybNHKc5qgE4dLrwKs9"/>
+      <div xml:id="i-FYqHWzYwTzMTv1acidnp7o" type="motHeader">
+        <div xml:id="i-AwN1SHskmjhoBSt3oN1DXk" type="motTitle"/>
+        <div xml:id="i-XGmUybNHKc5qgE4dLrwKs9" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XQgMwrRGdToDuY2MWB9eqE">
+      <div xml:id="i-XQgMwrRGdToDuY2MWB9eqE" type="motBody">
         <div xml:id="i-JDXRp6VPkSgutEHMLCkupg">
           <p xml:id="i-MvVS1D3n22xNtYL8wwN71e">
             2003/04 mnr: N213 pnr: m1208
@@ -140,8 +140,11 @@
             ett nationellt miljöteknikcentrum för miljödriven utveckling bör
             förläggas till Västra Götaland.
           </p>
-          <p xml:id="i-RMq4wUbroHgK4bb2TGVAKu">
-            Stockholm den 25 september 2003 Ulf Sjösten (m)
+          <p xml:id="i-RMq4wUbroHgK4bb2TGVAKu" type="date">
+            Stockholm den 25 september 2003
+          </p>
+          <p type="signatureBlock" id="i-XkSvDYaTP2gjhnqzEFcn8Z">
+            Ulf Sjösten (m)
           </p>
         </div>
       </div>

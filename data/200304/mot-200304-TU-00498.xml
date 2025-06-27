@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00498">
   <teiHeader>
     <fileDesc>
@@ -78,16 +78,16 @@
           <note type="signatory" corresp="i-XhKn9p4oQVJvYzm2h78jih"/>
           <note type="signatory" corresp="i-4XjgirbqceZQdnz2JX6DGB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-43PwBKgda7SSEhvqaf3Jcv">
+        <correspAction xml:id="i-43PwBKgda7SSEhvqaf3Jcv" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PjBDdqdEJF3U7QygDeGrDY">
+        <correspAction xml:id="i-PjBDdqdEJF3U7QygDeGrDY" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2VeWkuZadSNbsGTv9Brfpp">
+        <correspAction xml:id="i-2VeWkuZadSNbsGTv9Brfpp" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XrsztFfkcbHPvBJB5r1gQ1"/>
+        <correspAction xml:id="i-XrsztFfkcbHPvBJB5r1gQ1" type="assigned"/>
         <correspContext corresp="i-XrsztFfkcbHPvBJB5r1gQ1">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0498/mot_200304_T_0498-0001.pdf"/>
-      <div type="motHeader" xml:id="i-AXbwut6UaWZBGeBMLQx6JP">
-        <div type="motTitle" xml:id="i-R2g4YMJKrFek7aEkzdqZxm"/>
-        <div type="motSubmissionInfo" xml:id="i-9wwkCGcNEVeKRfMt5rH3XY"/>
+      <div xml:id="i-AXbwut6UaWZBGeBMLQx6JP" type="motHeader">
+        <div xml:id="i-R2g4YMJKrFek7aEkzdqZxm" type="motTitle"/>
+        <div xml:id="i-9wwkCGcNEVeKRfMt5rH3XY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6tSBdpyhQxxteBX6VgrhsQ">
+      <div xml:id="i-6tSBdpyhQxxteBX6VgrhsQ" type="motBody">
         <div xml:id="i-QYCWrccyb1r7Yd18ZAipLC">
           <p xml:id="i-3PSCZDXT761D4wrjhzDPsX">
             2003/04 mnr: T498 pnr: v305
@@ -390,10 +390,12 @@
           </p>
           <p xml:id="i-Nk2V9ZG3BEVVyYNTa1Bxgh">
             fungerar utmärkt på flera varumarknader, men ska hållas borta
-            från de områden där de inte fungerar i praktiken. Stockholm den
-            7 oktober 2003
+            från de områden där de inte fungerar i praktiken.
           </p>
-          <p xml:id="i-W4gFse1wfKF6U81B4srHcv">
+          <p type="date" id="i-RxhWRyVqiSDpwATmDqiV6A">
+            Stockholm den 7 oktober 2003
+          </p>
+          <p xml:id="i-W4gFse1wfKF6U81B4srHcv" type="signatureBlock">
             Karin Svensson Smith (v) Owe Hellberg (v) Kjell-Erik Karlsson
             (v) Sten Lundström (v) Sven-Erik Sjöstrand (v) Karin Thorborg
             (v)

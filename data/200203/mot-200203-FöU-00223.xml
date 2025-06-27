@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FöU-00223">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-AxED7wqfY1B9tz3xF48P2s">
           <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-J7QEwiKNNQj6jP3AdQfQ4X">
+        <correspAction xml:id="i-J7QEwiKNNQj6jP3AdQfQ4X" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Ltn7vZfjAukshojeEithLS">
+        <correspAction xml:id="i-Ltn7vZfjAukshojeEithLS" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QKVrKgCJNqYrdE1DJBX9aa">
+        <correspAction xml:id="i-QKVrKgCJNqYrdE1DJBX9aa" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-H4PoLh15UjjQJRZWsk6Sro"/>
+        <correspAction xml:id="i-H4PoLh15UjjQJRZWsk6Sro" type="assigned"/>
         <correspContext corresp="i-H4PoLh15UjjQJRZWsk6Sro">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fö_0223/mot_200203_Fö_0223-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EiWDwgLQrzySDTC7ybKSQR">
-        <div type="motTitle" xml:id="i-HkodTij3aKTJWy7pxmWmyf"/>
-        <div type="motSubmissionInfo" xml:id="i-37gk8PcWbQUM2Qpi3JLEb2"/>
+      <div xml:id="i-EiWDwgLQrzySDTC7ybKSQR" type="motHeader">
+        <div xml:id="i-HkodTij3aKTJWy7pxmWmyf" type="motTitle"/>
+        <div xml:id="i-37gk8PcWbQUM2Qpi3JLEb2" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KbYmWS2hghmmaMZgwRzSxj">
+      <div xml:id="i-KbYmWS2hghmmaMZgwRzSxj" type="motBody">
         <div xml:id="i-Pmh6QVhGQrxFaXjs9bC6jW">
           <p xml:id="i-SudTA1UCyGfH4oSjEuP5EB">
             2002/03 mnr: Fö223 pnr: fp536
@@ -263,8 +263,11 @@
             värnplikt även till kvinnor! För kvinnorna och männen. För försvaret.
             För Sverige.
           </p>
-          <p xml:id="i-Qt9qu1ByG5BYY1C9cDwgEa">
-            Stockholm den 18 oktober 2002 Eva Flyborg (fp)
+          <p xml:id="i-Qt9qu1ByG5BYY1C9cDwgEa" type="date">
+            Stockholm den 18 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-E4svRpxssaYRv5v9nNh79g">
+            Eva Flyborg (fp)
           </p>
           <p xml:id="i-8buJbnNCNnNwmLqbLEBKir">
             Elanders Gotab, Stockholm 2002

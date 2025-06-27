@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-JoU-00018">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-8NfHDFVXcoFu1TRQN5CdnD</idno>
-            <name>Eva Eriksson </name>
+            <name>Eva Eriksson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-8jfC3Q5rPXg5ngt6RVLGtt</idno>
-            <name>Lennart Fremling </name>
+            <name>Lennart Fremling</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-NLfT4RS4huMCGpWx1zB8Ag</idno>
-            <name>Erling Bager </name>
+            <name>Erling Bager</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-CMLJfr4A4fQ4Eiuz9ZYHoZ"/>
+        <correspAction xml:id="i-CMLJfr4A4fQ4Eiuz9ZYHoZ" type="basedOn"/>
         <correspContext corresp="i-CMLJfr4A4fQ4Eiuz9ZYHoZ">
           <ref>Regeringsskrivelse 1996/97:50</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-8jfC3Q5rPXg5ngt6RVLGtt"/>
           <note type="signatory" corresp="i-NLfT4RS4huMCGpWx1zB8Ag"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-P9v9atzsYVCSPeYPFfzunk">
+        <correspAction xml:id="i-P9v9atzsYVCSPeYPFfzunk" type="referral">
           <date when="1997-02-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HZHLdJJQFWBpXg6BkUgMs7">
+        <correspAction xml:id="i-HZHLdJJQFWBpXg6BkUgMs7" type="dismissal">
           <date when="1997-02-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-A7rdTKckQ1kJSL8sBtHau">
+        <correspAction xml:id="i-A7rdTKckQ1kJSL8sBtHau" type="submission">
           <date when="1997-02-18"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-VHCT5uugQgbpJgcqCPqxNr">
+        <correspAction xml:id="i-VHCT5uugQgbpJgcqCPqxNr" type="referral">
           <date when="1997-02-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JRWSxf52HuRGQeBrokLp6z">
+        <correspAction xml:id="i-JRWSxf52HuRGQeBrokLp6z" type="dismissal">
           <date when="1997-02-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-34ma8G3eBi2yn6cbivFFqY">
+        <correspAction xml:id="i-34ma8G3eBi2yn6cbivFFqY" type="submission">
           <date when="1997-02-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NjuzMRuPbqJg6WvwGVK3mW"/>
+        <correspAction xml:id="i-NjuzMRuPbqJg6WvwGVK3mW" type="assigned"/>
         <correspContext corresp="i-NjuzMRuPbqJg6WvwGVK3mW">
           <ref type="assignedTo">Jordbruksutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_JO_0018/mot_199697_JO_0018-0001.pdf"/>
-      <div type="motHeader" xml:id="i-MGHoY8sE67HnwhtqutUM8f">
-        <div type="motTitle" xml:id="i-EsGjVE9YSV2HkMmFrdarW4"/>
-        <div type="motSubmissionInfo" xml:id="i-USsQRiVBhdRs2zCJq64hwa"/>
+      <div xml:id="i-MGHoY8sE67HnwhtqutUM8f" type="motHeader">
+        <div xml:id="i-EsGjVE9YSV2HkMmFrdarW4" type="motTitle"/>
+        <div xml:id="i-USsQRiVBhdRs2zCJq64hwa" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WvzrGLQnstb3qYtxCBYheF">
+      <div xml:id="i-WvzrGLQnstb3qYtxCBYheF" type="motBody">
         <div xml:id="i-NLtkqUX9xx5xB5cEVF3iJs">
           <p xml:id="i-X6c6YhGEcVLQVTjx9hi15V">
             1996/97 Jo18 Jo16-20
@@ -474,8 +474,11 @@
             i motionen anförts om behovet av ett ökat skydd för Sveriges kvar-
             varande naturskogar.
           </p>
-          <p xml:id="i-4aedEJfH9u5jQFWFY2CxVu">
-            Stockholm den 17 februari 1997 Eva Eriksson (fp)
+          <p xml:id="i-4aedEJfH9u5jQFWFY2CxVu" type="date">
+            Stockholm den 17 februari 1997
+          </p>
+          <p type="signatureBlock" id="i-SvjTBvQ2uZKMKPU4X5E8eb">
+            Eva Eriksson (fp)
           </p>
           <p xml:id="i-LqtGUp7QA4JBdBrMkvzm1Z">
             Lennart Fremling (fp) Erling Bager (fp)

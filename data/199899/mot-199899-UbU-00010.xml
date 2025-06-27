@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-UbU-00010">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-EFJ93MgPh6dJrzDB1Tt657</idno>
-            <name>Yvonne Andersson </name>
+            <name>Yvonne Andersson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-TSwTiF4QbGnt7j1Mu4NEsL"/>
+        <correspAction xml:id="i-TSwTiF4QbGnt7j1Mu4NEsL" type="basedOn"/>
         <correspContext corresp="i-TSwTiF4QbGnt7j1Mu4NEsL">
           <ref>Proposition 1998/99:94</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-EFJ93MgPh6dJrzDB1Tt657"/>
           <note type="signatory" corresp="i-EFJ93MgPh6dJrzDB1Tt657"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Mh38NjWrSYtZWkQhXtH4Kd">
+        <correspAction xml:id="i-Mh38NjWrSYtZWkQhXtH4Kd" type="referral">
           <date when="1999-05-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WyPHZQ3Jt472nq1oYGYHRP">
+        <correspAction xml:id="i-WyPHZQ3Jt472nq1oYGYHRP" type="dismissal">
           <date when="1999-05-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DtJYrtv1hEVemxCBDheVCx">
+        <correspAction xml:id="i-DtJYrtv1hEVemxCBDheVCx" type="submission">
           <date when="1999-05-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Pg7H997jCPHdmaN2R2jNaj">
+        <correspAction xml:id="i-Pg7H997jCPHdmaN2R2jNaj" type="referral">
           <date when="1999-05-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-T6PjEyP47HPA6wY2HWzWNA">
+        <correspAction xml:id="i-T6PjEyP47HPA6wY2HWzWNA" type="dismissal">
           <date when="1999-05-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-R1MdmpafLhDDjFUGtVUKNj">
+        <correspAction xml:id="i-R1MdmpafLhDDjFUGtVUKNj" type="submission">
           <date when="1999-05-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VkQpCt6PTVXjp3q5ro49r5"/>
+        <correspAction xml:id="i-VkQpCt6PTVXjp3q5ro49r5" type="assigned"/>
         <correspContext corresp="i-VkQpCt6PTVXjp3q5ro49r5">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Ub_0010/mot_199899_Ub_0010-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XQ3N4oSK5dQwXG4d53KhEg">
-        <div type="motTitle" xml:id="i-RFK25NnishWrVBdGCnq3QU"/>
-        <div type="motSubmissionInfo" xml:id="i-Per5uEbdDXe5qTUAY1hPnx"/>
+      <div xml:id="i-XQ3N4oSK5dQwXG4d53KhEg" type="motHeader">
+        <div xml:id="i-RFK25NnishWrVBdGCnq3QU" type="motTitle"/>
+        <div xml:id="i-Per5uEbdDXe5qTUAY1hPnx" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Rt955vYL5ks5r6SSzs9xvF">
+      <div xml:id="i-Rt955vYL5ks5r6SSzs9xvF" type="motBody">
         <div xml:id="i-8y2eLneJN2CcecgRSwdeGe">
           <p xml:id="i-RYAkEuuSMGuJK7U75YBKRi">
             1998/99 Ubl0 Ub10
@@ -499,11 +499,13 @@
           <p xml:id="i-M9zKfi25uPeqTMyP4BKzTb">
             Mot. 17 1998/99Ub10
           </p>
-          <p xml:id="i-MZBP4dvZrzxCSxBrdW3M7X">
-            Stockholm den 6 maj 1999 Yvonne Andersson (kd) Erling Wälivaara
-            (kd) Gunilla Tjernberg (kd) Rose-Marie Frebran (kd) Dan Kihlström
-            (kd) Ester Lindstedt-Staaf (kd) Chatrine Pålsson (kd) Rosita Runegrund
-            (kd)
+          <p xml:id="i-MZBP4dvZrzxCSxBrdW3M7X" type="date">
+            Stockholm den 6 maj 1999
+          </p>
+          <p type="signatureBlock" id="i-LZ5azNeDq6MZ4uHQUZADUg">
+            Yvonne Andersson (kd) Erling Wälivaara (kd) Gunilla Tjernberg
+            (kd) Rose-Marie Frebran (kd) Dan Kihlström (kd) Ester Lindstedt-Staaf
+            (kd) Chatrine Pålsson (kd) Rosita Runegrund (kd)
           </p>
           <p xml:id="i-MjhPxyLrUmgavSSRivYhpZ">
             Maj-Britt Wallhorn (kd)

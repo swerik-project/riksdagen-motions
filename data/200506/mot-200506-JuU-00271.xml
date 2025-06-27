@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00271">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-8gBiXMP5yjmZWBqXfH5juB">
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GFb9yaij5hGXUSNkF85k5u">
+        <correspAction xml:id="i-GFb9yaij5hGXUSNkF85k5u" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9udYVm3VcCfrPnqPZ3KkYb">
+        <correspAction xml:id="i-9udYVm3VcCfrPnqPZ3KkYb" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-A3Ey8mv4qcY5hshPHCuWjb">
+        <correspAction xml:id="i-A3Ey8mv4qcY5hshPHCuWjb" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4roPtmhedvm4U3dSqrRVJG"/>
+        <correspAction xml:id="i-4roPtmhedvm4U3dSqrRVJG" type="assigned"/>
         <correspContext corresp="i-4roPtmhedvm4U3dSqrRVJG">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_271/mot_200506_Ju_271-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9u2A6qPSdxUB3GXPpq2dbu">
-        <div type="motTitle" xml:id="i-F7v1w8Sq7Ze8qZ45YP5ojU"/>
-        <div type="motSubmissionInfo" xml:id="i-NzfFdePUj6jRem4upVWKSq"/>
+      <div xml:id="i-9u2A6qPSdxUB3GXPpq2dbu" type="motHeader">
+        <div xml:id="i-F7v1w8Sq7Ze8qZ45YP5ojU" type="motTitle"/>
+        <div xml:id="i-NzfFdePUj6jRem4upVWKSq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SbzXdPzRfKMZRNAua3oP9p">
+      <div xml:id="i-SbzXdPzRfKMZRNAua3oP9p" type="motBody">
         <div xml:id="i-VurDpuRo6oW1zZB9QgFFJf">
           <p xml:id="i-UVvDrCDpAG4hk8T2fWcgqC">
             2005/06 mnr: Ju271 pnr: kd538
@@ -156,8 +156,11 @@
             kännbart straff som bör användas för att motverka att personer
             inte ska se rymningen som ett slags semester från fängelset.
           </p>
-          <p xml:id="i-KEV1UkaoeoVrUCSMBYtiUP">
-            Stockholm den 23 september 2005 Ragnwi Marcelind (kd)
+          <p xml:id="i-KEV1UkaoeoVrUCSMBYtiUP" type="date">
+            Stockholm den 23 september 2005
+          </p>
+          <p type="signatureBlock" id="i-LED5c2edg8Hyv3dERLHeLJ">
+            Ragnwi Marcelind (kd)
           </p>
         </div>
       </div>

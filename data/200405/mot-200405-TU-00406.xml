@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00406">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-2bEZquDstzsH38C8kfRDK6">
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KADoY4drvEhRmrzPDobLsg">
+        <correspAction xml:id="i-KADoY4drvEhRmrzPDobLsg" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VDoCJUrvs1JzhFBEcFPhaR">
+        <correspAction xml:id="i-VDoCJUrvs1JzhFBEcFPhaR" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4YwaYTSDcvmZ34gXNjQgTq">
+        <correspAction xml:id="i-4YwaYTSDcvmZ34gXNjQgTq" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Ek5AVnwDJfn9nLQDLs7kZy"/>
+        <correspAction xml:id="i-Ek5AVnwDJfn9nLQDLs7kZy" type="assigned"/>
         <correspContext corresp="i-Ek5AVnwDJfn9nLQDLs7kZy">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_406/mot_200405_T_406-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8Qf7r4PWxF79s88mGzBF53">
-        <div type="motTitle" xml:id="i-3FYiZ9V2iXJ2naWD8eFuJo"/>
-        <div type="motSubmissionInfo" xml:id="i-y3Me5UaecZ7DuyeCmg4Mr"/>
+      <div xml:id="i-8Qf7r4PWxF79s88mGzBF53" type="motHeader">
+        <div xml:id="i-3FYiZ9V2iXJ2naWD8eFuJo" type="motTitle"/>
+        <div xml:id="i-y3Me5UaecZ7DuyeCmg4Mr" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5gVQsvnbZvPQwZHquWXRcj">
+      <div xml:id="i-5gVQsvnbZvPQwZHquWXRcj" type="motBody">
         <div xml:id="i-LsgQZZwehTBZP9A49jn2cS">
           <p xml:id="i-F1GvWoEtyTaMbwcdUPKmdG">
             2004/05 mnr: T406 pnr: kd906
@@ -106,8 +106,11 @@
             för det nya systemet bör vara begränsade och uppförande av varningssystemet
             kan lämpligen göras i samband med översyn och renovering av korsningar.
           </p>
-          <p xml:id="i-Qm1Wd2WAqqxmf5cZBx2fat">
-            Stockholm den 4 oktober 2004 Lars Gustafsson (kd)
+          <p xml:id="i-Qm1Wd2WAqqxmf5cZBx2fat" type="date">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-6jBEURCiCb3B1ENTteQ5dy">
+            Lars Gustafsson (kd)
           </p>
         </div>
       </div>

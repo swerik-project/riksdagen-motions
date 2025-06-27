@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00415">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-65Vmhq9Dw5PEVgWDjZ4YwE">
           <note type="signatory" corresp="i-4pfVnS8LNwychZJ7RaUufZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4TzzdenGZJSJnjKFJSZYfb">
+        <correspAction xml:id="i-4TzzdenGZJSJnjKFJSZYfb" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-B6b9T4GLKXgTnNfJv7gbKE">
+        <correspAction xml:id="i-B6b9T4GLKXgTnNfJv7gbKE" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4koHu6qqUczqKYuRpenMBv">
+        <correspAction xml:id="i-4koHu6qqUczqKYuRpenMBv" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XKdv5aVS9HspyhVTswBEC4"/>
+        <correspAction xml:id="i-XKdv5aVS9HspyhVTswBEC4" type="assigned"/>
         <correspContext corresp="i-XKdv5aVS9HspyhVTswBEC4">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_415/mot_200405_Ub_415-0001.pdf"/>
-      <div type="motHeader" xml:id="i-YKKvydftSZ5k6WGtbwKQCq">
-        <div type="motTitle" xml:id="i-DG9ZBtuZNU2wA3ffww5Snq"/>
-        <div type="motSubmissionInfo" xml:id="i-MTEMYrZUSzjJiWh5APp7VX"/>
+      <div xml:id="i-YKKvydftSZ5k6WGtbwKQCq" type="motHeader">
+        <div xml:id="i-DG9ZBtuZNU2wA3ffww5Snq" type="motTitle"/>
+        <div xml:id="i-MTEMYrZUSzjJiWh5APp7VX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PVYjniMQXuCsHp6sVpCZmo">
+      <div xml:id="i-PVYjniMQXuCsHp6sVpCZmo" type="motBody">
         <div xml:id="i-JgUUYntK4AuhTMSGcpqeaK">
           <p xml:id="i-T6hG1vfmxDJT8oRAyBAyp3">
             2004/05 mnr: Ub415 pnr: kd756
@@ -130,8 +130,11 @@
             sträcker sig, istället för att låta detta bli föremål för ett
             politiskt beslut.
           </p>
-          <p xml:id="i-M7iqkKfgm6bCnNFtwdQa9B">
-            Stockholm den 30 september 2004 Else-Marie Lindgren (kd)
+          <p xml:id="i-M7iqkKfgm6bCnNFtwdQa9B" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-8azTRiTVNjxQyNfRdgxXLy">
+            Else-Marie Lindgren (kd)
           </p>
         </div>
       </div>

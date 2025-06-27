@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-MJU-00018">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7FgVSjqZ5SeBN36d1EetkH"/>
+        <correspAction xml:id="i-7FgVSjqZ5SeBN36d1EetkH" type="basedOn"/>
         <correspContext corresp="i-7FgVSjqZ5SeBN36d1EetkH">
           <ref>Proposition 2001/02:65</ref>
         </correspContext>
@@ -42,31 +42,31 @@
         <correspContext corresp="i-Kb6y74ntjbi3oRdW4bR3Pf">
           <note type="signatory" corresp="i-8d1Y8z9sPbywJy42Y7Roqc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BW65JfLF3KCpQ25CosK1U5">
+        <correspAction xml:id="i-BW65JfLF3KCpQ25CosK1U5" type="referral">
           <date when="2002-01-23"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-TP5nyoWanuDMvfKR2PbnE5">
+        <correspAction xml:id="i-TP5nyoWanuDMvfKR2PbnE5" type="numbering">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-KzWn4EAWd51jgcNuRkm5iK">
+        <correspAction xml:id="i-KzWn4EAWd51jgcNuRkm5iK" type="proposed_referral">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-WTcJ2EJGQH138WRtS6KTJb">
+        <correspAction xml:id="i-WTcJ2EJGQH138WRtS6KTJb" type="committee_proposal">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-5nsnZ8xFTFaZY6i643XAhy">
+        <correspAction xml:id="i-5nsnZ8xFTFaZY6i643XAhy" type="reviewing">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-5ttySSmAWysEhWs2WyhCo9">
+        <correspAction xml:id="i-5ttySSmAWysEhWs2WyhCo9" type="registration">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YDMg3ZcEyUYnhFPrRB6Cd9">
+        <correspAction xml:id="i-YDMg3ZcEyUYnhFPrRB6Cd9" type="dismissal">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6vFWrj26JevGYWkoJJMxSH">
+        <correspAction xml:id="i-6vFWrj26JevGYWkoJJMxSH" type="submission">
           <date when="2002-01-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GkZ2B9eGxMsJ5885g9R6FV"/>
+        <correspAction xml:id="i-GkZ2B9eGxMsJ5885g9R6FV" type="assigned"/>
         <correspContext corresp="i-GkZ2B9eGxMsJ5885g9R6FV">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_MJ_0018/mot_200102_MJ_0018-0001.pdf"/>
-      <div type="motHeader" xml:id="i-D2Zq6j6Ejk97SubcY4Vcv1">
-        <div type="motTitle" xml:id="i-QQwdLYTLSF5EgZpnFEoL3q"/>
-        <div type="motSubmissionInfo" xml:id="i-DQGLshbEBRojaa3AUZEVXk"/>
+      <div xml:id="i-D2Zq6j6Ejk97SubcY4Vcv1" type="motHeader">
+        <div xml:id="i-QQwdLYTLSF5EgZpnFEoL3q" type="motTitle"/>
+        <div xml:id="i-DQGLshbEBRojaa3AUZEVXk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7g98JPPU1t5ZWjhwqeuKVm">
+      <div xml:id="i-7g98JPPU1t5ZWjhwqeuKVm" type="motBody">
         <div xml:id="i-XsoL8tU2WtNq8fTW8AAwQF">
           <p xml:id="i-WWG5yfKFtj5gyNG1FmVTHN">
             2001/02 mnr: MJ18 pnr: m1919
@@ -155,8 +155,11 @@
             så bör en eventuellt tidigare beslutad miljösanktionsavgift för
             samma förseelse avräknas från boten.
           </p>
-          <p xml:id="i-SXaeBFJM9nBiY6NzppuC3E">
-            Stockholm den 18 januari 2002 Carl Fredrik Graf (m)
+          <p xml:id="i-SXaeBFJM9nBiY6NzppuC3E" type="date">
+            Stockholm den 18 januari 2002
+          </p>
+          <p type="signatureBlock" id="i-LtTtzxLfWPPmkAyY86brSy">
+            Carl Fredrik Graf (m)
           </p>
         </div>
       </div>

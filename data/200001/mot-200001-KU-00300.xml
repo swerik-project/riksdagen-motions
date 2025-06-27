@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-KU-00300">
   <teiHeader>
     <fileDesc>
@@ -46,28 +46,28 @@
           <note type="signatory" corresp="i-R9MuNkxgtjYredKHhh6ujV"/>
           <note type="signatory" corresp="i-R9MuNkxgtjYredKHhh6ujV"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-T7GfLoo1ygN3NENwSZKARv">
+        <correspAction xml:id="i-T7GfLoo1ygN3NENwSZKARv" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7q1vEc4suysGqyaJfbHCNn">
+        <correspAction xml:id="i-7q1vEc4suysGqyaJfbHCNn" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KJsrjzJe4aRr9Dy1rpBoeK">
+        <correspAction xml:id="i-KJsrjzJe4aRr9Dy1rpBoeK" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5NMyXPTGg99iy7DpJPfASC">
+        <correspAction xml:id="i-5NMyXPTGg99iy7DpJPfASC" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-JwtCgDVNJfJgvmJ42EKckx">
+        <correspAction xml:id="i-JwtCgDVNJfJgvmJ42EKckx" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WWTXF2nTEvPVwoxBEiZ4xq">
+        <correspAction xml:id="i-WWTXF2nTEvPVwoxBEiZ4xq" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9gdAg5Y51N5QvBpUUNAfe3">
+        <correspAction xml:id="i-9gdAg5Y51N5QvBpUUNAfe3" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7ofsWx1mUY6u3JSQd6kL5Y"/>
+        <correspAction xml:id="i-7ofsWx1mUY6u3JSQd6kL5Y" type="assigned"/>
         <correspContext corresp="i-7ofsWx1mUY6u3JSQd6kL5Y">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_K_0300/mot_200001_K_0300-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UNK8AkijmtD84SocvEw4SE">
-        <div type="motTitle" xml:id="i-ErbPGtFmzja1tGhC6iCfWr"/>
-        <div type="motSubmissionInfo" xml:id="i-PSJcGHnqctZEsQuCWQYjML"/>
+      <div xml:id="i-UNK8AkijmtD84SocvEw4SE" type="motHeader">
+        <div xml:id="i-ErbPGtFmzja1tGhC6iCfWr" type="motTitle"/>
+        <div xml:id="i-PSJcGHnqctZEsQuCWQYjML" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3PiSXrvh7FMHUTYKHhXeMa">
+      <div xml:id="i-3PiSXrvh7FMHUTYKHhXeMa" type="motBody">
         <div xml:id="i-L9FijqTQs3Q111H7JNV55L">
           <p xml:id="i-MeDxkr1qEriACEt2E29gk7">
             2000/01 mnr: K300 pnr: m113
@@ -154,8 +154,11 @@
             pratar om dess förträfflighet. Detta skulle även kunna bidra till
             att öka förståelsen för den nya tekniken hos riksdagens ledamöter.
           </p>
-          <p xml:id="i-FsKUVJGgBEzLXbRCfmkkNH">
-            Stockholm den 3 oktober 2000 Per Bill (m)
+          <p xml:id="i-FsKUVJGgBEzLXbRCfmkkNH" type="date">
+            Stockholm den 3 oktober 2000
+          </p>
+          <p type="signatureBlock" id="i-SgeRBXf5M16YeqXhtAeqEC">
+            Per Bill (m)
           </p>
         </div>
       </div>

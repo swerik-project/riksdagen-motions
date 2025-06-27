@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-UbU-00814">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-nX9ipUS8FhkbQHkWWytwf</idno>
-            <name>Ulf Nilsson </name>
+            <name>Ulf Nilsson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-4SAiMdwrEthd2M8z2yjtkv</idno>
-            <name>Ana Maria Narti </name>
+            <name>Ana Maria Narti</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-4tAUyrL5FDqt2q3oYkcH9W</idno>
-            <name>Yvonne Ångström </name>
+            <name>Yvonne Ångström</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -78,25 +78,25 @@
           <note type="signatory" corresp="i-4tAUyrL5FDqt2q3oYkcH9W"/>
           <note type="signatory" corresp="i-4SAiMdwrEthd2M8z2yjtkv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Ab1JPcBqagrVp32mpZqEXJ">
+        <correspAction xml:id="i-Ab1JPcBqagrVp32mpZqEXJ" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-87LSGXTtSAHcQqRGWXUKQJ">
+        <correspAction xml:id="i-87LSGXTtSAHcQqRGWXUKQJ" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BcDbTkpFK3ZThg5ZkBXj2">
+        <correspAction xml:id="i-BcDbTkpFK3ZThg5ZkBXj2" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-VNxoxUaZFXGa4D9iZKUirF">
+        <correspAction xml:id="i-VNxoxUaZFXGa4D9iZKUirF" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WCWsHnFsAdyuXfSZ6UPucR">
+        <correspAction xml:id="i-WCWsHnFsAdyuXfSZ6UPucR" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ScRufvVQR8zKqkwDjYbrfa">
+        <correspAction xml:id="i-ScRufvVQR8zKqkwDjYbrfa" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NqPhvb2yngVLpXgbz9w54g"/>
+        <correspAction xml:id="i-NqPhvb2yngVLpXgbz9w54g" type="assigned"/>
         <correspContext corresp="i-NqPhvb2yngVLpXgbz9w54g">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Ub_0814/mot_199900_Ub_0814-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7BzsQACKibAHaPw7Y5Kfi4">
-        <div type="motTitle" xml:id="i-TY494tJ41jaV58Un9sAeuF"/>
-        <div type="motSubmissionInfo" xml:id="i-465jJS4nw6bGmbkpPwavKR"/>
+      <div xml:id="i-7BzsQACKibAHaPw7Y5Kfi4" type="motHeader">
+        <div xml:id="i-TY494tJ41jaV58Un9sAeuF" type="motTitle"/>
+        <div xml:id="i-465jJS4nw6bGmbkpPwavKR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LAdkB1QxXsu8BkyEyaXKSx">
+      <div xml:id="i-LAdkB1QxXsu8BkyEyaXKSx" type="motBody">
         <div xml:id="i-TQC462VxCit7vKBX1yNbX2">
           <p xml:id="i-XPehzHx3M6hFNiN1HBZHEY">
             1999/2000 mnr: Ub814 pnr: fp138
@@ -1033,8 +1033,11 @@
           <p xml:id="i-DnMkJyy58XrdKKXm7ZMwMx">
             utgiftsområdet
           </p>
-          <p xml:id="i-CsoG8PJz4u4kRL2XAsqKWz">
-            Stockholm den 5 oktober 1999 Ulf Nilsson (fp)
+          <p xml:id="i-CsoG8PJz4u4kRL2XAsqKWz" type="date">
+            Stockholm den 5 oktober 1999
+          </p>
+          <p type="signatureBlock" id="i-PyNv8YAvdfeZoaukiB5KwN">
+            Ulf Nilsson (fp)
           </p>
           <p xml:id="i-Q9s63ktrBAgfbJAMPKbuae">
             Yvonne Ångström (fp)

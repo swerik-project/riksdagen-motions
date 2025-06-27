@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UU-00253">
   <teiHeader>
     <fileDesc>
@@ -71,16 +71,16 @@
           <note type="signatory" corresp="i-4XjgirbqceZQdnz2JX6DGB"/>
           <note type="signatory" corresp="i-BcpdUKhPbeES19rexxtwyD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-ET7fkAtn8AXksAND6Hb7ni">
+        <correspAction xml:id="i-ET7fkAtn8AXksAND6Hb7ni" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RMVzQPv6AcC8yZpMdVXmLv">
+        <correspAction xml:id="i-RMVzQPv6AcC8yZpMdVXmLv" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-raDyrrmJuSeYSbj5kzHCQ">
+        <correspAction xml:id="i-raDyrrmJuSeYSbj5kzHCQ" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XZ5tPe8ryKb2UnfPaMCkvA"/>
+        <correspAction xml:id="i-XZ5tPe8ryKb2UnfPaMCkvA" type="assigned"/>
         <correspContext corresp="i-XZ5tPe8ryKb2UnfPaMCkvA">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -95,11 +95,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_U_253/mot_200506_U_253-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SsmvBs1BTSF2cR3MD4pMjL">
-        <div type="motTitle" xml:id="i-CShAAULd8pJPe1A43XioBj"/>
-        <div type="motSubmissionInfo" xml:id="i-DCryceetmQKodedXUsLfJd"/>
+      <div xml:id="i-SsmvBs1BTSF2cR3MD4pMjL" type="motHeader">
+        <div xml:id="i-CShAAULd8pJPe1A43XioBj" type="motTitle"/>
+        <div xml:id="i-DCryceetmQKodedXUsLfJd" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5PYobUsLAmFPdyaRksUYCD">
+      <div xml:id="i-5PYobUsLAmFPdyaRksUYCD" type="motBody">
         <div xml:id="i-Pt3HPbFySmyAQV4xwqG7yQ">
           <p xml:id="i-W9MhsfkEr67kwZkGnbh6nw">
             2005/06 mnr: U253 pnr: v606
@@ -344,8 +344,11 @@
             Detta vill vi att riksdagen som sin mening ger regeringen till
             känna.
           </p>
-          <p xml:id="i-HnGWBGLDvVkeGQoo2xQJKN">
-            Stockholm den 3 oktober 2005 Alice Åström (v)
+          <p xml:id="i-HnGWBGLDvVkeGQoo2xQJKN" type="date">
+            Stockholm den 3 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-7pXTWdHtLjSyjWTGfDT21C">
+            Alice Åström (v)
           </p>
           <p xml:id="i-H8L122eh6sPhsuG6CzQ8zz">
             Berit Johannesson (v) Per Rosengren (v) Karin Thorborg (v) Sermin

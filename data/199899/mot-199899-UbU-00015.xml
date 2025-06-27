@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-UbU-00015">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-L3xspgThUxUN1YtSDqcmk8</idno>
-            <name>Barbro Westerholm </name>
+            <name>Barbro Westerholm</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-MGEce3GaZQxECQjrVjXvEC"/>
+        <correspAction xml:id="i-MGEce3GaZQxECQjrVjXvEC" type="basedOn"/>
         <correspContext corresp="i-MGEce3GaZQxECQjrVjXvEC">
           <ref>Regeringsskrivelse 1998/99:121</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-L3xspgThUxUN1YtSDqcmk8"/>
           <note type="signatory" corresp="i-L3xspgThUxUN1YtSDqcmk8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-52xqqwJit2WA6JpXsBL6m8">
+        <correspAction xml:id="i-52xqqwJit2WA6JpXsBL6m8" type="referral">
           <date when="1999-06-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6bHdpkUWawMiqnTn4tGwAS">
+        <correspAction xml:id="i-6bHdpkUWawMiqnTn4tGwAS" type="dismissal">
           <date when="1999-06-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DwDYkWUst5EJshKVbRSvES">
+        <correspAction xml:id="i-DwDYkWUst5EJshKVbRSvES" type="submission">
           <date when="1999-06-01"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-UvZPdcbQfcEQZEep7HeLoZ">
+        <correspAction xml:id="i-UvZPdcbQfcEQZEep7HeLoZ" type="referral">
           <date when="1999-06-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-K9SVpXwa8ZJKJxas2PH69s">
+        <correspAction xml:id="i-K9SVpXwa8ZJKJxas2PH69s" type="dismissal">
           <date when="1999-06-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CevHJRwDAhnfvbNnPa3m55">
+        <correspAction xml:id="i-CevHJRwDAhnfvbNnPa3m55" type="submission">
           <date when="1999-06-01"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KAQiLdkkxpo6v2x9UjuFPt"/>
+        <correspAction xml:id="i-KAQiLdkkxpo6v2x9UjuFPt" type="assigned"/>
         <correspContext corresp="i-KAQiLdkkxpo6v2x9UjuFPt">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Ub_0015/mot_199899_Ub_0015-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HUkPz5zuUzDmaNn2yfBaHq">
-        <div type="motTitle" xml:id="i-HQj6fxQA6eVggcfgDHESPg"/>
-        <div type="motSubmissionInfo" xml:id="i-D1AHbZDEazn8NEDP75MsbZ"/>
+      <div xml:id="i-HUkPz5zuUzDmaNn2yfBaHq" type="motHeader">
+        <div xml:id="i-HQj6fxQA6eVggcfgDHESPg" type="motTitle"/>
+        <div xml:id="i-D1AHbZDEazn8NEDP75MsbZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SfoZLCya4AE4MrwpVbr3b5">
+      <div xml:id="i-SfoZLCya4AE4MrwpVbr3b5" type="motBody">
         <div xml:id="i-Cy83CiHGwhZzf7LejLLY9Q">
           <p xml:id="i-NDsKXwyTkgPHfYqXerksw3">
             1998/99 Ubl5 Ub15
@@ -405,8 +405,11 @@
             i motionen anförts om att det är angeläget att ett jämställdhetsper-
             spektiv används i skolan.
           </p>
-          <p xml:id="i-BYrCNP3NWSBbb3HtAFPMxS">
-            Stockholm den 1 juni 1999 Barbro Westerholm (fp)
+          <p xml:id="i-BYrCNP3NWSBbb3HtAFPMxS" type="date">
+            Stockholm den 1 juni 1999
+          </p>
+          <p type="signatureBlock" id="i-Fk9TcjWQzDQDZEby8fbTXN">
+            Barbro Westerholm (fp)
           </p>
           <p xml:id="i-Dh8KB8KtfSjoQp6zP44wX8">
             Ulf Nilsson (fp) Yvonne Ångström (fp)

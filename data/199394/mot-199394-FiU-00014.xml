@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199394-FiU-00014">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="woman">
             <idno>i-8Db8jR6saTELpLZLDGAjHE</idno>
-            <name>Birgitta Hambraeus </name>
+            <name>Birgitta Hambraeus</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-QD529ywv2NxNf9n1Uh7cuj</idno>
-            <name>Pär Granstedt </name>
+            <name>Pär Granstedt</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-NVirWCuQk8jfKzXb8EmguH"/>
+        <correspAction xml:id="i-NVirWCuQk8jfKzXb8EmguH" type="basedOn"/>
         <correspContext corresp="i-NVirWCuQk8jfKzXb8EmguH">
           <ref>Proposition 1993/94:78</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-8Db8jR6saTELpLZLDGAjHE"/>
           <note type="signatory" corresp="i-QD529ywv2NxNf9n1Uh7cuj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BTi6VAmPH2YUeQbpV5yQVe">
+        <correspAction xml:id="i-BTi6VAmPH2YUeQbpV5yQVe" type="referral">
           <date when="1993-11-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Lg34R3LfioZMiHS3ugti6b">
+        <correspAction xml:id="i-Lg34R3LfioZMiHS3ugti6b" type="dismissal">
           <date when="1993-11-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-81nBAXpRiSJUSzAsd5WuHB">
+        <correspAction xml:id="i-81nBAXpRiSJUSzAsd5WuHB" type="submission">
           <date when="1993-11-18"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-J7p1FnL6nBEU7BWDgZPEwN">
+        <correspAction xml:id="i-J7p1FnL6nBEU7BWDgZPEwN" type="referral">
           <date when="1993-11-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-57Sv2ZARvqedPK9EXEJeue">
+        <correspAction xml:id="i-57Sv2ZARvqedPK9EXEJeue" type="dismissal">
           <date when="1993-11-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FYqecg7EB57nKHMzXxYXZj">
+        <correspAction xml:id="i-FYqecg7EB57nKHMzXxYXZj" type="submission">
           <date when="1993-11-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GxXWquxgsFmT3xVvCJXyye"/>
+        <correspAction xml:id="i-GxXWquxgsFmT3xVvCJXyye" type="assigned"/>
         <correspContext corresp="i-GxXWquxgsFmT3xVvCJXyye">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199394/mot_199394_FiU_14/mot_199394_FiU_14-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-XzVLgM6g2TPTK8oD8XqG7k">
-        <div type="motTitle" xml:id="i-DCkyA8hwoBJmAdpFUWRhCr"/>
-        <div type="motSubmissionInfo" xml:id="i-LnLQbyeCsz1i6gVQv5GDg8"/>
+      <div xml:id="i-XzVLgM6g2TPTK8oD8XqG7k" type="motHeader">
+        <div xml:id="i-DCkyA8hwoBJmAdpFUWRhCr" type="motTitle"/>
+        <div xml:id="i-LnLQbyeCsz1i6gVQv5GDg8" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8E16EkwX3XLLS8SG7T2hkT">
+      <div xml:id="i-8E16EkwX3XLLS8SG7T2hkT" type="motBody">
         <div xml:id="i-SbVjuDiaMZ2cUL5qX1DT16">
           <pb facs="riksdagen-motions-pdf/data/199394/mot_199394_FiU_14/mot_199394_FiU_14-001.pdf"/>
           <p xml:id="i-2gin3nzNk6h6V89zQm9R1j">
@@ -211,9 +211,11 @@
             Mot. 1993/94 Fil4
           </p>
           <pb facs="riksdagen-motions-pdf/data/199394/mot_199394_FiU_14/mot_199394_FiU_14-003.pdf"/>
-          <p xml:id="i-NUziwT1bzTNS8awSjSBxdE">
-            Stockholm den 18 november 1993 Mot. 1993/94 Fil4 Birgitta Hambraeus
-            (c) Pär Granstedt (c)
+          <p xml:id="i-NUziwT1bzTNS8awSjSBxdE" type="date">
+            Stockholm den 18 november 1993
+          </p>
+          <p type="signatureBlock" id="i-FYQAJT7g3h92pvnYGd2iRg">
+            Mot. 1993/94 Fil4 Birgitta Hambraeus (c) Pär Granstedt (c)
           </p>
         </div>
       </div>

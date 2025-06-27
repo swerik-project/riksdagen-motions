@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-JoU-00044">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-XjhC1wB9aMhvuVUssE6wF2"/>
+        <correspAction xml:id="i-XjhC1wB9aMhvuVUssE6wF2" type="basedOn"/>
         <correspContext corresp="i-XjhC1wB9aMhvuVUssE6wF2">
           <ref>Proposition 1987/88:93</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="r-0"/>
           <note type="signatory" corresp="r-0"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-MUPoXKZshK66VaygdiM4AL">
+        <correspAction xml:id="i-MUPoXKZshK66VaygdiM4AL" type="submission">
           <date when="1988-04-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AAho4bub3f6Xi8Tq9MRTBU">
+        <correspAction xml:id="i-AAho4bub3f6Xi8Tq9MRTBU" type="dismissal">
           <date when="1988-04-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-UFcxRGskgwL2WiuvRLErWN">
+        <correspAction xml:id="i-UFcxRGskgwL2WiuvRLErWN" type="referral">
           <date when="1988-04-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8VLqZaBXLkTv9wpHCDRFek">
+        <correspAction xml:id="i-8VLqZaBXLkTv9wpHCDRFek" type="assigned">
           <date when="2014-11-23"/>
           <time when="04:32:57"/>
         </correspAction>
@@ -75,11 +75,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_jo_44/mot_198788_jo_44-001.pdf"/>
-      <div type="motHeader" xml:id="i-PSupb1SRVQthAd2p8czM4f">
-        <div type="motTitle" xml:id="i-Jx2DQddr7yZXAtKVjYcdHs"/>
-        <div type="motSubmissionInfo" xml:id="i-NdrdqKsmGoP7BLL4M55FXX"/>
+      <div xml:id="i-PSupb1SRVQthAd2p8czM4f" type="motHeader">
+        <div xml:id="i-Jx2DQddr7yZXAtKVjYcdHs" type="motTitle"/>
+        <div xml:id="i-NdrdqKsmGoP7BLL4M55FXX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PLCB7accaKuUP1qei19x3Q">
+      <div xml:id="i-PLCB7accaKuUP1qei19x3Q" type="motBody">
         <div xml:id="i-TqQGisEXFbMcXPpMcs42nD">
           <p xml:id="i-Fni85kDXmf3o2rsW1Ftm5g">
             Motion till riksdagen 1987/88:J044
@@ -154,9 +154,12 @@
             preparatet eller dess olika beståndsdelar tes-
           </p>
           <p xml:id="i-2muodTXmwrwhBpookjTJiw">
-            tats på djur. Stockholm den 5 april 1988
+            tats på djur.
           </p>
-          <p xml:id="i-K3NJKBhrnz5p9jFyCpHdyA">
+          <p type="date" id="i-9Ag5RyfARMZJoyHtxYdSAu">
+            Stockholm den 5 april 1988
+          </p>
+          <p xml:id="i-K3NJKBhrnz5p9jFyCpHdyA" type="signatureBlock">
             Martin Olsson (c)
           </p>
           <p xml:id="i-2uQwfnEsFaqF1FQ4DHyStw">

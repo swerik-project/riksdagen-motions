@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-AU-00211">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-4nXjpwaGn4jrXJTWs4uXBU">
           <note type="signatory" corresp="i-LrcUg7tEu4KwWdidwr1MAk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UCNDifR62iJpYDE57HZtjB">
+        <correspAction xml:id="i-UCNDifR62iJpYDE57HZtjB" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Mrb23zafsUDafSHykn2SVc">
+        <correspAction xml:id="i-Mrb23zafsUDafSHykn2SVc" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KdRJasaSb3EgQvcQkHei3o">
+        <correspAction xml:id="i-KdRJasaSb3EgQvcQkHei3o" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WsBWYg4fgy7MkuXBPFgVSu"/>
+        <correspAction xml:id="i-WsBWYg4fgy7MkuXBPFgVSu" type="assigned"/>
         <correspContext corresp="i-WsBWYg4fgy7MkuXBPFgVSu">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -69,11 +69,11 @@
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_211/mot_200506_A_211-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0211/mot_200506_A_0211-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0211/mot_200506_A_0211-001.pdf"/>
-      <div type="motHeader" xml:id="i-V7Fq7fe4HkiN5Hd6DpaRyk">
-        <div type="motTitle" xml:id="i-Ar3FDX3QmyBLUuQuuZEucT"/>
-        <div type="motSubmissionInfo" xml:id="i-4Hua29i5xBKssrWmiFd1Wf"/>
+      <div xml:id="i-V7Fq7fe4HkiN5Hd6DpaRyk" type="motHeader">
+        <div xml:id="i-Ar3FDX3QmyBLUuQuuZEucT" type="motTitle"/>
+        <div xml:id="i-4Hua29i5xBKssrWmiFd1Wf" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4yL3WYE4kk4G2WnMmsjtVS">
+      <div xml:id="i-4yL3WYE4kk4G2WnMmsjtVS" type="motBody">
         <div xml:id="i-64Mt1zKQZfVcUFX8JCDzk3">
           <p xml:id="i-QBSZ1RKbDod8FJU7NsNUgJ">
             2005/06 mnr: A211 pnr: s7005
@@ -143,8 +143,11 @@
             av rådande bestämmelser samt tolkningen av begreppet ”tillfredsställande
             arbetsmiljö” i arbetsmiljölagen.
           </p>
-          <p xml:id="i-XAtuwGVbRBVzk9WoRvbA7n">
-            Stockholm den 21 september 2005 Kaj Nordquist (s)
+          <p xml:id="i-XAtuwGVbRBVzk9WoRvbA7n" type="date">
+            Stockholm den 21 september 2005
+          </p>
+          <p type="signatureBlock" id="i-JkwePyfRnpyeTuHt4P6cKy">
+            Kaj Nordquist (s)
           </p>
         </div>
       </div>

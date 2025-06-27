@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-TU-00405">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-PmmWDhSQEkzH2tiLALeDpf</idno>
-            <name>Jan Andersson </name>
+            <name>Jan Andersson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-DZnrxW2kSEVtagNyHZpyyH</idno>
-            <name>Bengt Silfverstrand </name>
+            <name>Bengt Silfverstrand</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-PmmWDhSQEkzH2tiLALeDpf"/>
           <note type="signatory" corresp="i-DZnrxW2kSEVtagNyHZpyyH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XQTsx6iU9qcqGHqRtp6spS">
+        <correspAction xml:id="i-XQTsx6iU9qcqGHqRtp6spS" type="referral">
           <date when="1992-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-E9j2D6nnRMockPDb7S6Jg9">
+        <correspAction xml:id="i-E9j2D6nnRMockPDb7S6Jg9" type="dismissal">
           <date when="1992-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6YYorZvTCXs5n66S2BL6GM">
+        <correspAction xml:id="i-6YYorZvTCXs5n66S2BL6GM" type="submission">
           <date when="1992-01-27"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-2siFnr2VneBZZss1bt7gEN">
+        <correspAction xml:id="i-2siFnr2VneBZZss1bt7gEN" type="referral">
           <date when="1992-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6N1DoV1c35Ge3oiZLZ7PhS">
+        <correspAction xml:id="i-6N1DoV1c35Ge3oiZLZ7PhS" type="dismissal">
           <date when="1992-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VjSkM8gAvf9sa9ffkpHQVn">
+        <correspAction xml:id="i-VjSkM8gAvf9sa9ffkpHQVn" type="submission">
           <date when="1992-01-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XQnUqi9z8e3HXLLGrxLzbN"/>
+        <correspAction xml:id="i-XQnUqi9z8e3HXLLGrxLzbN" type="assigned"/>
         <correspContext corresp="i-XQnUqi9z8e3HXLLGrxLzbN">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_TU_405/mot_199192_TU_405-001.pdf"/>
-      <div type="motHeader" xml:id="i-51fBr8Pwo1hDczzz5spk6y">
-        <div type="motTitle" xml:id="i-9U3rGAHpez2Ac4tcG3kFS2"/>
-        <div type="motSubmissionInfo" xml:id="i-NSWZCtPc4U7dCU5oKqkTfk"/>
+      <div xml:id="i-51fBr8Pwo1hDczzz5spk6y" type="motHeader">
+        <div xml:id="i-9U3rGAHpez2Ac4tcG3kFS2" type="motTitle"/>
+        <div xml:id="i-NSWZCtPc4U7dCU5oKqkTfk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-32ZUVhhbuUB77JmEsxfTKi">
+      <div xml:id="i-32ZUVhhbuUB77JmEsxfTKi" type="motBody">
         <div xml:id="i-Vj9E3eqVbcAC3BWXfn38T5">
           <p xml:id="i-D2H8azz8LB9jsyZPtJ19gM">
             Motion till riksdagen 1991/92:T405
@@ -148,9 +148,11 @@
             lastfordon skall vara försedda med väl synlig ljusanordning.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_TU_405/mot_199192_TU_405-002.pdf"/>
-          <p xml:id="i-PZQuFFjagQqgUqGC7xNn8W">
-            Stockholm den 16 januari 1992 Mot. 1991/92 | T405 Bengt Silfverstrand
-            (s) Jan Andersson (s)
+          <p xml:id="i-PZQuFFjagQqgUqGC7xNn8W" type="date">
+            Stockholm den 16 januari 1992
+          </p>
+          <p type="signatureBlock" id="i-SNumzjQ76RXsqNpQtpe1W">
+            Mot. 1991/92 | T405 Bengt Silfverstrand (s) Jan Andersson (s)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-TU-00811">
   <teiHeader>
     <fileDesc>
@@ -62,28 +62,28 @@
           <note type="signatory" corresp="i-XXuTUfCrSzD7sKMdyYtEft"/>
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-KQ7Z6XN6yk1hfFaz9X8DAt">
+        <correspAction xml:id="i-KQ7Z6XN6yk1hfFaz9X8DAt" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-ACvHAEd5vBJ9mmU5UWDSAx">
+        <correspAction xml:id="i-ACvHAEd5vBJ9mmU5UWDSAx" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Ft2gEcUy5h2dKGrEwKgFZd">
+        <correspAction xml:id="i-Ft2gEcUy5h2dKGrEwKgFZd" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9A2jSBLKHFvh8MyyzbnPqA">
+        <correspAction xml:id="i-9A2jSBLKHFvh8MyyzbnPqA" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Gxud25M1Gfnj11KaMk3AVx">
+        <correspAction xml:id="i-Gxud25M1Gfnj11KaMk3AVx" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-L81pS8CZsi1Q7sUeeERwkx">
+        <correspAction xml:id="i-L81pS8CZsi1Q7sUeeERwkx" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VqhMsomccB24qY8Ti2pBXn">
+        <correspAction xml:id="i-VqhMsomccB24qY8Ti2pBXn" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LBdsm2o9FtRYkdE136uJ8T"/>
+        <correspAction xml:id="i-LBdsm2o9FtRYkdE136uJ8T" type="assigned"/>
         <correspContext corresp="i-LBdsm2o9FtRYkdE136uJ8T">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -98,11 +98,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_T_0811/mot_200001_T_0811-0001.pdf"/>
-      <div type="motHeader" xml:id="i-34HwC1Ae8YVNVzAu3sVQCf">
-        <div type="motTitle" xml:id="i-2tWcoYfqdGqpUz9S84TedD"/>
-        <div type="motSubmissionInfo" xml:id="i-XaHKEHA1pBSayRHFwUprBc"/>
+      <div xml:id="i-34HwC1Ae8YVNVzAu3sVQCf" type="motHeader">
+        <div xml:id="i-2tWcoYfqdGqpUz9S84TedD" type="motTitle"/>
+        <div xml:id="i-XaHKEHA1pBSayRHFwUprBc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7i6g9pP46hf6CuTLYVrMcr">
+      <div xml:id="i-7i6g9pP46hf6CuTLYVrMcr" type="motBody">
         <div xml:id="i-VYF4KRGNNFqy5jX72eWHD4">
           <p xml:id="i-4BmkU9XEDN7Ba2WpNb5YpF">
             2000/01 mnr: T811 pnr: -c361
@@ -202,9 +202,11 @@
             är det därför viktigt att vi kan garantera en god postservice
             i alla länets delar, i såväl stad som på landsbygd.
           </p>
-          <p xml:id="i-BLeo8Fv1CzDWvZQ62x7tVN">
-            Stockholm den 1 oktober 2000 Sofia Jonsson (c) Johan Pehrson
-            (fp)
+          <p xml:id="i-BLeo8Fv1CzDWvZQ62x7tVN" type="date">
+            Stockholm den 1 oktober 2000
+          </p>
+          <p type="signatureBlock" id="i-M6HLayyRAaFcP7Lr1oN5Cr">
+            Sofia Jonsson (c) Johan Pehrson (fp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-FöU-00012">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-XazZeCYyyq3u8LSAmNahPt</idno>
-            <name>Elving Andersson </name>
+            <name>Elving Andersson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-AdHnKUrbCNysbc2a2Q13nb"/>
+        <correspAction xml:id="i-AdHnKUrbCNysbc2a2Q13nb" type="basedOn"/>
         <correspContext corresp="i-AdHnKUrbCNysbc2a2Q13nb">
           <ref>Proposition 1996/97:4</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-XazZeCYyyq3u8LSAmNahPt"/>
           <note type="signatory" corresp="i-XazZeCYyyq3u8LSAmNahPt"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-6AccQTJzL3Abwg1Fe3t7Zv">
+        <correspAction xml:id="i-6AccQTJzL3Abwg1Fe3t7Zv" type="referral">
           <date when="1996-10-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9RWuTdHpqi7SoQdJCg77mC">
+        <correspAction xml:id="i-9RWuTdHpqi7SoQdJCg77mC" type="dismissal">
           <date when="1996-10-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Kv2Rfz6aLMmhBDqUqqVEr8">
+        <correspAction xml:id="i-Kv2Rfz6aLMmhBDqUqqVEr8" type="submission">
           <date when="1996-10-04"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7USat87tABxFaj6VrjVU9U">
+        <correspAction xml:id="i-7USat87tABxFaj6VrjVU9U" type="referral">
           <date when="1996-10-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UXHLyLAFEsjQgXFUFeVpzx">
+        <correspAction xml:id="i-UXHLyLAFEsjQgXFUFeVpzx" type="dismissal">
           <date when="1996-10-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QRgJFpbKespXczJkTtni5r">
+        <correspAction xml:id="i-QRgJFpbKespXczJkTtni5r" type="submission">
           <date when="1996-10-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PXMFHJb2e7RT5yz7RTn8BN"/>
+        <correspAction xml:id="i-PXMFHJb2e7RT5yz7RTn8BN" type="assigned"/>
         <correspContext corresp="i-PXMFHJb2e7RT5yz7RTn8BN">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_FÖ_0012/mot_199697_FÖ_0012-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FNHJjva8LkS9juJut1HQgW">
-        <div type="motTitle" xml:id="i-4uLPFJHZyQXdHBipdG6h46"/>
-        <div type="motSubmissionInfo" xml:id="i-HbaVnHDpGoUp5fV2wR9G1B"/>
+      <div xml:id="i-FNHJjva8LkS9juJut1HQgW" type="motHeader">
+        <div xml:id="i-4uLPFJHZyQXdHBipdG6h46" type="motTitle"/>
+        <div xml:id="i-HbaVnHDpGoUp5fV2wR9G1B" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Xgz8ADEuETonKJuxhkb87F">
+      <div xml:id="i-Xgz8ADEuETonKJuxhkb87F" type="motBody">
         <div xml:id="i-7fdKnZD97tKPaVv3s79DFW">
           <p xml:id="i-6n2aetMsZUoq13racZj8JN">
             1996/97 Föl2 Fö6-13
@@ -222,9 +222,12 @@
             till
           </p>
           <p xml:id="i-DPQ8i56wLjoSMnQLELDRJu">
-            Säve. Stockholm den 3 oktober 1996
+            Säve.
           </p>
-          <p xml:id="i-SJ5QNNP8gA7afPKF2qLQCd">
+          <p type="date" id="i-2drgmZnL2YSsuQy4eULHRQ">
+            Stockholm den 3 oktober 1996
+          </p>
+          <p xml:id="i-SJ5QNNP8gA7afPKF2qLQCd" type="signatureBlock">
             Elving Andersson (c)
           </p>
           <p xml:id="i-CX1AdGNDFd9fmvj8D14ihq">

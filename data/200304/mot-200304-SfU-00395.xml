@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00395">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-BXpR2GEHKN2fK4Av22X32z"/>
           <note type="signatory" corresp="i-AQAc7L3yWtMcgD3r6CxRHG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EqwViuKLtAYEQVFcw4sKu">
+        <correspAction xml:id="i-EqwViuKLtAYEQVFcw4sKu" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JprxxhYcYzyhf2ACP2Fh8L">
+        <correspAction xml:id="i-JprxxhYcYzyhf2ACP2Fh8L" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Qg7fPTQ2SZLHnNshZmimW">
+        <correspAction xml:id="i-Qg7fPTQ2SZLHnNshZmimW" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SZiePYkLsXAVv2aRG46EYy"/>
+        <correspAction xml:id="i-SZiePYkLsXAVv2aRG46EYy" type="assigned"/>
         <correspContext corresp="i-SZiePYkLsXAVv2aRG46EYy">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0395/mot_200304_Sf_0395-0001.pdf"/>
-      <div type="motHeader" xml:id="i-G8PqZeZV8TSxK8HRhvWejn">
-        <div type="motTitle" xml:id="i-7VbT2ZupReKFEYLFG6s6eJ"/>
-        <div type="motSubmissionInfo" xml:id="i-2SDBcjp7hbWzGdsfSvnUp4"/>
+      <div xml:id="i-G8PqZeZV8TSxK8HRhvWejn" type="motHeader">
+        <div xml:id="i-7VbT2ZupReKFEYLFG6s6eJ" type="motTitle"/>
+        <div xml:id="i-2SDBcjp7hbWzGdsfSvnUp4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6HuGxARavjVxxcDhQbXFY2">
+      <div xml:id="i-6HuGxARavjVxxcDhQbXFY2" type="motBody">
         <div xml:id="i-A2q7BtDarVcHu9kif5vPPY">
           <p xml:id="i-LjutYriZxVA4ffrNRRB2E3">
             2003/04 mnr: Sf395 pnr: s45159
@@ -120,9 +120,11 @@
             av den yrkesverksamma tiden vill spara i premiesparfonden skall
             naturligtvis ha denna möjlighet.
           </p>
-          <p xml:id="i-4w4KeRxE8voL3QMzhEQYUe">
-            Stockholm den 6 oktober 2003 Birgitta Ahlqvist (s) Maria Öberg
-            (s)
+          <p xml:id="i-4w4KeRxE8voL3QMzhEQYUe" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-5N7MVUEbcYyBhxGi2dDQXb">
+            Birgitta Ahlqvist (s) Maria Öberg (s)
           </p>
         </div>
       </div>

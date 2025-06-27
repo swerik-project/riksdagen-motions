@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00456">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-PnoryT3cczS95tfoUwhYVa">
           <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8RQNStJgZorjQRenVNeNFw">
+        <correspAction xml:id="i-8RQNStJgZorjQRenVNeNFw" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Cfnigo1JGEZ7E9Ng6UTeMw">
+        <correspAction xml:id="i-Cfnigo1JGEZ7E9Ng6UTeMw" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Sttv4Q3Pxt5kD75ZvvqG4p">
+        <correspAction xml:id="i-Sttv4Q3Pxt5kD75ZvvqG4p" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-E11rqCxURSbo915BkrVR4Y"/>
+        <correspAction xml:id="i-E11rqCxURSbo915BkrVR4Y" type="assigned"/>
         <correspContext corresp="i-E11rqCxURSbo915BkrVR4Y">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_MJ_0456/mot_200203_MJ_0456-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9FAMwMvu6kMPFNQBvERoJn">
-        <div type="motTitle" xml:id="i-64J2SYk7rxvX2wnGrb1Pvd"/>
-        <div type="motSubmissionInfo" xml:id="i-2YYw3bnJSvSmgLGsSxcMKP"/>
+      <div xml:id="i-9FAMwMvu6kMPFNQBvERoJn" type="motHeader">
+        <div xml:id="i-64J2SYk7rxvX2wnGrb1Pvd" type="motTitle"/>
+        <div xml:id="i-2YYw3bnJSvSmgLGsSxcMKP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Q64bWRbrZwFvaYP3T7NgtN">
+      <div xml:id="i-Q64bWRbrZwFvaYP3T7NgtN" type="motBody">
         <div xml:id="i-7N4JraSaQ9rskFaZfAyV1z">
           <p xml:id="i-TqATngKNoS8x6tZdWBe8Fn">
             2002/03 mnr: MJ456 pnr: v1212
@@ -136,8 +136,11 @@
             på djur införas. Detta bör riksdagen tillkännage för regeringen
             som sin mening.
           </p>
-          <p xml:id="i-TyvzC6jdTBVAkP9NoPfoVQ">
-            Stockholm den 23 oktober 2002 Tasso Stafilidis (v)
+          <p xml:id="i-TyvzC6jdTBVAkP9NoPfoVQ" type="date">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-86E5Qg3LmBS7UtW75prL8c">
+            Tasso Stafilidis (v)
           </p>
         </div>
       </div>

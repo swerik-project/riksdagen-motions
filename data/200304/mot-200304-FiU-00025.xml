@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00025">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-QPP4u1TMcsVfaCaNjLKc3o"/>
+        <correspAction xml:id="i-QPP4u1TMcsVfaCaNjLKc3o" type="basedOn"/>
         <correspContext corresp="i-QPP4u1TMcsVfaCaNjLKc3o">
           <ref>Proposition 2003/04:100</ref>
         </correspContext>
@@ -90,19 +90,19 @@
           <note type="signatory" corresp="i-85m2VX7KSiTFeJSnapgkxu"/>
           <note type="signatory" corresp="i-B471TcSCwHNHrNRk1EdJek"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DrkhMmy3G1NnnXVDUTA4Sb">
+        <correspAction xml:id="i-DrkhMmy3G1NnnXVDUTA4Sb" type="referral">
           <date when="2004-05-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-SZrn9i2zg63zWs7yMS9NCz">
+        <correspAction xml:id="i-SZrn9i2zg63zWs7yMS9NCz" type="registration">
           <date when="2004-05-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-A2ptW67xMm3rMQFYNCkJid">
+        <correspAction xml:id="i-A2ptW67xMm3rMQFYNCkJid" type="dismissal">
           <date when="2004-05-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9EG7pJ1ndx5UVsj3CbmXU1">
+        <correspAction xml:id="i-9EG7pJ1ndx5UVsj3CbmXU1" type="submission">
           <date when="2004-05-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FQioWooFem7mcHK9cmxQJ7"/>
+        <correspAction xml:id="i-FQioWooFem7mcHK9cmxQJ7" type="assigned"/>
         <correspContext corresp="i-FQioWooFem7mcHK9cmxQJ7">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -117,11 +117,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fi_0025/mot_200304_Fi_0025-0001.pdf"/>
-      <div type="motHeader" xml:id="i-91y1DCW469FMT5t57x8G5K">
-        <div type="motTitle" xml:id="i-EszgodQY7nki7WHvcp8JDi"/>
-        <div type="motSubmissionInfo" xml:id="i-5y8MFEWKrBkiZh48UHNdVC"/>
+      <div xml:id="i-91y1DCW469FMT5t57x8G5K" type="motHeader">
+        <div xml:id="i-EszgodQY7nki7WHvcp8JDi" type="motTitle"/>
+        <div xml:id="i-5y8MFEWKrBkiZh48UHNdVC" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7mDZnnZhTiAEEJYq43KyrB">
+      <div xml:id="i-7mDZnnZhTiAEEJYq43KyrB" type="motBody">
         <div xml:id="i-WaeHvLjcV8kR2XgMRnokdY">
           <p xml:id="i-M8L8cC718hbKwt7iTGK9Cy">
             2003/04 mnr: Fi25 pnr: c019
@@ -2616,17 +2616,18 @@
             del, starta-eget-bidrag -100 -200
           </p>
           <p xml:id="i-3cSwirFhZxBLeVZRTVSi4K">
-            &gt; Ingår gör Slopat grundavdrag, Skatte- och förvärvsrabatt, skatterabatter
-            för pensionsavgift, reseavdrag, ”tillfälligt arbete, dubbel bosättning
-            och hemresor”, pensionssparande samt sänkt statlig inkomstskatt,
-            höjda skiktgränser och slopad avdragsrätt för ”övriga utgifter”.
+            &gt; Ingår gör Slopat grundavdrag, Skatte- och förvärvsrabatt,
+            skatterabatter för pensionsavgift, reseavdrag, ”tillfälligt arbete,
+            dubbel bosättning och hemresor”, pensionssparande samt sänkt statlig
+            inkomstskatt, höjda skiktgränser och slopad avdragsrätt för ”övriga
+            utgifter”.
           </p>
           <p xml:id="i-RPPtiHwM6yBKkNFka4fmcs">
             "Varav 1 000 msek avgår 2005 från regeringens satsning.
           </p>
           <p xml:id="i-TjtyVgHKDEsyPTe7BC4YnX">
-            &gt; Sänkt uttagsprocent till 0,9 26 år 2005 samt 0,75 926 år 2006.
-            Regeringens dämpnings- och begränsningsregler om 600 miljoner
+            &gt; Sänkt uttagsprocent till 0,9 26 år 2005 samt 0,75 926 år
+            2006. Regeringens dämpnings- och begränsningsregler om 600 miljoner
             kr årligen avgår från detta belopp.
           </p>
           <p xml:id="i-UqyYBhCgCNDmerRWxRCja4">
@@ -3688,9 +3689,11 @@
           </p>
           <p xml:id="i-UrasQcTifozeBphiDdU7rG">
             Källa: Riksdagens utredningstjänst Dnr 2004:825 samt egna beräkningar.
+          </p>
+          <p type="date" id="i-Hvg8sZ4MwnSXTa32hwgtXx">
             Stockholm den 3 maj 2004
           </p>
-          <p xml:id="i-VfV95qdb7K7Aqe4k4AAx4P">
+          <p xml:id="i-VfV95qdb7K7Aqe4k4AAx4P" type="signatureBlock">
             Maud Olofsson (c)
           </p>
           <p xml:id="i-TrH88fYmsrQSXSuLogpB2m">

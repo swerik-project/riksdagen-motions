@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-FiU-00908">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-MQxtRkaKY7fRMrw7gnXKsf</idno>
-            <name>Ulla Wester </name>
+            <name>Ulla Wester</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -46,25 +46,25 @@
           <note type="signatory" corresp="i-MQxtRkaKY7fRMrw7gnXKsf"/>
           <note type="signatory" corresp="i-MQxtRkaKY7fRMrw7gnXKsf"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XbGzUUh8CsDhUmhe9NYy7d">
+        <correspAction xml:id="i-XbGzUUh8CsDhUmhe9NYy7d" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DgBjKtjyRTBy7Tb7eSjBqJ">
+        <correspAction xml:id="i-DgBjKtjyRTBy7Tb7eSjBqJ" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QDaWeUY52A2vVDtBEm5oyZ">
+        <correspAction xml:id="i-QDaWeUY52A2vVDtBEm5oyZ" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-LjDxN7LRafYac7nhUVjgGY">
+        <correspAction xml:id="i-LjDxN7LRafYac7nhUVjgGY" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SKZpS2QFCF5jHF4MvbxQ8F">
+        <correspAction xml:id="i-SKZpS2QFCF5jHF4MvbxQ8F" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RzaVCEukhq9TyxquPVrBoy">
+        <correspAction xml:id="i-RzaVCEukhq9TyxquPVrBoy" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Aj7qJTXsD6sYk6LUa1UNC3"/>
+        <correspAction xml:id="i-Aj7qJTXsD6sYk6LUa1UNC3" type="assigned"/>
         <correspContext corresp="i-Aj7qJTXsD6sYk6LUa1UNC3">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Fi_0908/mot_199899_Fi_0908-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XdSxbLVztPHfvqbWpXdcYz">
-        <div type="motTitle" xml:id="i-RbC8p7VkD85eQXW8Ky5Cfj"/>
-        <div type="motSubmissionInfo" xml:id="i-XPiP54VShVLHztoB48wVL7"/>
+      <div xml:id="i-XdSxbLVztPHfvqbWpXdcYz" type="motHeader">
+        <div xml:id="i-RbC8p7VkD85eQXW8Ky5Cfj" type="motTitle"/>
+        <div xml:id="i-XPiP54VShVLHztoB48wVL7" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-59oMVif3GgPXmLuF1yRspe">
+      <div xml:id="i-59oMVif3GgPXmLuF1yRspe" type="motBody">
         <div xml:id="i-AMVdsrpRMxMRcKWAwdpjmw">
           <p xml:id="i-FDhmSdFicXj7y6vZ147hv7">
             1998/99 Fi908 Fi908
@@ -138,8 +138,11 @@
             av statliga bolag.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Fi_0908/mot_199899_Fi_0908-0002.pdf"/>
-          <p xml:id="i-CmZDZMJgqWxd32nojuENXm">
-            Stockholm den 27 oktober 1998 Mot. 15
+          <p xml:id="i-CmZDZMJgqWxd32nojuENXm" type="date">
+            Stockholm den 27 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-A1ULYms3piwcrshX3axoLA">
+            Mot. 15
           </p>
           <p xml:id="i-2xqQJHhHsdL1PT6YknU4Pz">
             1998/99Fi908 Ulla Wester (s)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00397">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-SxExXubYu8hoy2DJUJx3Fx">
           <note type="signatory" corresp="i-SLMauHd9udrtkguQd9gymK"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HJgwgEWzfzCo9JTwLEKRbX">
+        <correspAction xml:id="i-HJgwgEWzfzCo9JTwLEKRbX" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VFR176sHP4vvD2jZuRtEDS">
+        <correspAction xml:id="i-VFR176sHP4vvD2jZuRtEDS" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2L1aztXE1jDPAZqERyFy6s">
+        <correspAction xml:id="i-2L1aztXE1jDPAZqERyFy6s" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QUwBvKbzAE5iWWgvpXETtg"/>
+        <correspAction xml:id="i-QUwBvKbzAE5iWWgvpXETtg" type="assigned"/>
         <correspContext corresp="i-QUwBvKbzAE5iWWgvpXETtg">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_397/mot_200506_So_397-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NboThRLUVTjyE9oNrTw5kS">
-        <div type="motTitle" xml:id="i-SUwbr662rZxX9fUrAV6cnu"/>
-        <div type="motSubmissionInfo" xml:id="i-AJLBDNyyWTYJ8mhwRsrcd9"/>
+      <div xml:id="i-NboThRLUVTjyE9oNrTw5kS" type="motHeader">
+        <div xml:id="i-SUwbr662rZxX9fUrAV6cnu" type="motTitle"/>
+        <div xml:id="i-AJLBDNyyWTYJ8mhwRsrcd9" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TqqZNvQLL73TbGjwSamXwC">
+      <div xml:id="i-TqqZNvQLL73TbGjwSamXwC" type="motBody">
         <div xml:id="i-HG9kgUMW49oV1jNbha9TGg">
           <p xml:id="i-MQQfzVr8b7oVG6GHFbEJ4K">
             2005/06 mnr: S0397 pnr: s3208
@@ -108,8 +108,11 @@
             bakgrund finns behov av att överväga en översyn syftande till
             en reglering av tandvårdsavgifterna.
           </p>
-          <p xml:id="i-XUPugrZqbLeWGp3mhEFrwh">
-            Stockholm den 23 september 2005 Billy Gustafsson (s)
+          <p xml:id="i-XUPugrZqbLeWGp3mhEFrwh" type="date">
+            Stockholm den 23 september 2005
+          </p>
+          <p type="signatureBlock" id="i-LjQtJsQTdr8CMFRHb5H3dW">
+            Billy Gustafsson (s)
           </p>
         </div>
       </div>

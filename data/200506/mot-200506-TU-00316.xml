@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00316">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
           <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GmFwQWrLtrTLpietG6x6KX">
+        <correspAction xml:id="i-GmFwQWrLtrTLpietG6x6KX" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8oVjVbG6ZfbR6QejW5DvF4">
+        <correspAction xml:id="i-8oVjVbG6ZfbR6QejW5DvF4" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Ee44AbYQ7WVYbCW6gyPn8a">
+        <correspAction xml:id="i-Ee44AbYQ7WVYbCW6gyPn8a" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6LJYd99rgtE9z4kZdb6npw"/>
+        <correspAction xml:id="i-6LJYd99rgtE9z4kZdb6npw" type="assigned"/>
         <correspContext corresp="i-6LJYd99rgtE9z4kZdb6npw">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_316/mot_200506_T_316-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FsDj9SvvFMc2XUrFZMa4rx">
-        <div type="motTitle" xml:id="i-DjP7cRujhJ8yzdMn4Tm4c4"/>
-        <div type="motSubmissionInfo" xml:id="i-K7SiJZTP1YVE67Ccesftdf"/>
+      <div xml:id="i-FsDj9SvvFMc2XUrFZMa4rx" type="motHeader">
+        <div xml:id="i-DjP7cRujhJ8yzdMn4Tm4c4" type="motTitle"/>
+        <div xml:id="i-K7SiJZTP1YVE67Ccesftdf" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-59T4c2GC47MAxm4314uJzJ">
+      <div xml:id="i-59T4c2GC47MAxm4314uJzJ" type="motBody">
         <div xml:id="i-F7quQpLthvJ2P4X1XJZixJ">
           <p xml:id="i-8veUu2bxaPd5faFygTin9x">
             2005/06 mnr: T316 pnr: m1148
@@ -134,9 +134,11 @@
             förbättras, pendling till arbete och utbildning underlättas,
             liksom näringslivets transportmöjligheter.
           </p>
-          <p xml:id="i-T4CQFW5g3FcoeSLSyRaJBd">
-            Stockholm den 28 september 2005 Sten Tolgfors (m) Gunnar Axén
-            (m)
+          <p xml:id="i-T4CQFW5g3FcoeSLSyRaJBd" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-rjxeU7okqGm8JM1WB4a6c">
+            Sten Tolgfors (m) Gunnar Axén (m)
           </p>
         </div>
       </div>

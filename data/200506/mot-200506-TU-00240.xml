@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00240">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-TJA6yta3Tu4fs57zpFR6RD">
           <note type="signatory" corresp="i-DKsVYU73WDtSTFEeLoboVx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EZEkAsv9mDUdL7jUspurmE">
+        <correspAction xml:id="i-EZEkAsv9mDUdL7jUspurmE" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CXy9iM8Uxxyf75Nv7nWLN6">
+        <correspAction xml:id="i-CXy9iM8Uxxyf75Nv7nWLN6" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ARBG9nX9DCznX3XvEG7F7v">
+        <correspAction xml:id="i-ARBG9nX9DCznX3XvEG7F7v" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WKkVUM7xu8Ekr4SnuFq8fN"/>
+        <correspAction xml:id="i-WKkVUM7xu8Ekr4SnuFq8fN" type="assigned"/>
         <correspContext corresp="i-WKkVUM7xu8Ekr4SnuFq8fN">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_240/mot_200506_T_240-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EYUhoMKifxbaEUyaZiREbr">
-        <div type="motTitle" xml:id="i-9g8pnXXeDNDwgnRj1PFBPp"/>
-        <div type="motSubmissionInfo" xml:id="i-KFzUYRVv94QAPRf2AJJrzE"/>
+      <div xml:id="i-EYUhoMKifxbaEUyaZiREbr" type="motHeader">
+        <div xml:id="i-9g8pnXXeDNDwgnRj1PFBPp" type="motTitle"/>
+        <div xml:id="i-KFzUYRVv94QAPRf2AJJrzE" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5hGJJ71nwoDhy2JfkRkRWX">
+      <div xml:id="i-5hGJJ71nwoDhy2JfkRkRWX" type="motBody">
         <div xml:id="i-PF8D31m5u2VUHDP5XiNkPr">
           <p xml:id="i-GM1ywYaNpsHmMj15GCoFo1">
             2005/06 mnr: T240 pnr: m1265
@@ -201,8 +201,11 @@
             det bör tillgång till telefoni och datakommunikation gälla hela
             landets yta.
           </p>
-          <p xml:id="i-Rgsxj8wzekjU8iggCxErw5">
-            Stockholm den 22 september 2005 Ola Sundell (m)
+          <p xml:id="i-Rgsxj8wzekjU8iggCxErw5" type="date">
+            Stockholm den 22 september 2005
+          </p>
+          <p type="signatureBlock" id="i-54TZeFbJxSYxmc3NdJmM7p">
+            Ola Sundell (m)
           </p>
           <p xml:id="i-QgdaMeWA3vjZ1pRuA697gQ">
             2005/06:T240

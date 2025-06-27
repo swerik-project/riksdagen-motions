@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00252">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-D1WnWJWhb1fBaKRKL7B1cz">
           <note type="signatory" corresp="i-XN7bgwBGaQixfiHi5Cbu8f"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KGJEF2wprkCWM4tPEfhtNV">
+        <correspAction xml:id="i-KGJEF2wprkCWM4tPEfhtNV" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GDHGGKkaEzTdfu6d54meoa">
+        <correspAction xml:id="i-GDHGGKkaEzTdfu6d54meoa" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MSUgMZke3YCEkGQELxG8Jo">
+        <correspAction xml:id="i-MSUgMZke3YCEkGQELxG8Jo" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Ecuk31wxoKxGkAApErv3m6"/>
+        <correspAction xml:id="i-Ecuk31wxoKxGkAApErv3m6" type="assigned"/>
         <correspContext corresp="i-Ecuk31wxoKxGkAApErv3m6">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0252/mot_200304_K_0252-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HoT6yyTqKFmUz5cKMA11pB">
-        <div type="motTitle" xml:id="i-2neaxK5ZVmQuYiEbU97je9"/>
-        <div type="motSubmissionInfo" xml:id="i-KSi3XsVV2f4vsK9V4bYy7t"/>
+      <div xml:id="i-HoT6yyTqKFmUz5cKMA11pB" type="motHeader">
+        <div xml:id="i-2neaxK5ZVmQuYiEbU97je9" type="motTitle"/>
+        <div xml:id="i-KSi3XsVV2f4vsK9V4bYy7t" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8F42Z2zeNP3c1PHMcAe7P1">
+      <div xml:id="i-8F42Z2zeNP3c1PHMcAe7P1" type="motBody">
         <div xml:id="i-CadQhpUAAtBdSBV2Ku4vf3">
           <p xml:id="i-WLRf5KRzgFGApzy8Np7x8h">
             2003/04 mnr: K252 pnr: fp601
@@ -162,8 +162,11 @@
             riksdag att med alla de medel som står oss till buds försvara
             folkviljan och respekten för de demokratiska spelreglerna.
           </p>
-          <p xml:id="i-PHwMcFZNJdB3dUqz8ztgNi">
-            Stockholm den 25 september 2003 Cecilia Wikström (fp)
+          <p xml:id="i-PHwMcFZNJdB3dUqz8ztgNi" type="date">
+            Stockholm den 25 september 2003
+          </p>
+          <p type="signatureBlock" id="i-QwX3oE4UzrZJe4Mc3VJo9Y">
+            Cecilia Wikström (fp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00335">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-WFDqfsPzt8YUwiynP4CLTj">
           <note type="signatory" corresp="i-XN7bgwBGaQixfiHi5Cbu8f"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CaxN5kKvkwYXbMmizB5xS4">
+        <correspAction xml:id="i-CaxN5kKvkwYXbMmizB5xS4" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3XpLkjAUjkqVxKiaEFbHqi">
+        <correspAction xml:id="i-3XpLkjAUjkqVxKiaEFbHqi" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3NrJhujzhrAFJPNxQjMh5c">
+        <correspAction xml:id="i-3NrJhujzhrAFJPNxQjMh5c" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VaERyjXtmVCZcERSAZ3k9W"/>
+        <correspAction xml:id="i-VaERyjXtmVCZcERSAZ3k9W" type="assigned"/>
         <correspContext corresp="i-VaERyjXtmVCZcERSAZ3k9W">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_K_0335/mot_200203_K_0335-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9FKSbV5TQQyhPkRxZQuSaj">
-        <div type="motTitle" xml:id="i-UhCmGMHTCfyEBbbkqc1GnE"/>
-        <div type="motSubmissionInfo" xml:id="i-PMYsndinEoiZxsx1S23ZxU"/>
+      <div xml:id="i-9FKSbV5TQQyhPkRxZQuSaj" type="motHeader">
+        <div xml:id="i-UhCmGMHTCfyEBbbkqc1GnE" type="motTitle"/>
+        <div xml:id="i-PMYsndinEoiZxsx1S23ZxU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Lrf44oVBnvi3smgninCHMF">
+      <div xml:id="i-Lrf44oVBnvi3smgninCHMF" type="motBody">
         <div xml:id="i-6Zbntf5AJAcs9a5stjUH5B">
           <p xml:id="i-9LpX9nESM3KjnkS3uijYf">
             22
@@ -143,8 +143,11 @@
             som står oss till buds försvara folkviljan och respekten för de
             demokratiska spelreglerna.
           </p>
-          <p xml:id="i-CctCp3GjmYX6pfzLJesjT8">
-            Stockholm den 9 oktober 2002 Cecilia Wikström (fp)
+          <p xml:id="i-CctCp3GjmYX6pfzLJesjT8" type="date">
+            Stockholm den 9 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-5uJSU13Re3h8sM6birYJA7">
+            Cecilia Wikström (fp)
           </p>
         </div>
       </div>

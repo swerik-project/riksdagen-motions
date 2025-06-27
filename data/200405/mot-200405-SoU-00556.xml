@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00556">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-7eBaALg3X1CLuNTUpxdxsn">
           <note type="signatory" corresp="i-XN7bgwBGaQixfiHi5Cbu8f"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SHJ6YCswKzo7pYWG8Zua6X">
+        <correspAction xml:id="i-SHJ6YCswKzo7pYWG8Zua6X" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AUUQ8ZTR28j6vzDedn1p9N">
+        <correspAction xml:id="i-AUUQ8ZTR28j6vzDedn1p9N" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DTqBPA1z1KHkhy9tgDMjT6">
+        <correspAction xml:id="i-DTqBPA1z1KHkhy9tgDMjT6" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8DjzqscAFtG5xw5xEwCE6o"/>
+        <correspAction xml:id="i-8DjzqscAFtG5xw5xEwCE6o" type="assigned"/>
         <correspContext corresp="i-8DjzqscAFtG5xw5xEwCE6o">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_556/mot_200405_So_556-0001.pdf"/>
-      <div type="motHeader" xml:id="i-ApAWz8YrXQsghtU52BaaS8">
-        <div type="motTitle" xml:id="i-HGZ38zQLyS5h7Suk6sysR8"/>
-        <div type="motSubmissionInfo" xml:id="i-8pbhDVU955bamQWbBVZpXU"/>
+      <div xml:id="i-ApAWz8YrXQsghtU52BaaS8" type="motHeader">
+        <div xml:id="i-HGZ38zQLyS5h7Suk6sysR8" type="motTitle"/>
+        <div xml:id="i-8pbhDVU955bamQWbBVZpXU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UWXyysFTbhMY26HFRb4yjS">
+      <div xml:id="i-UWXyysFTbhMY26HFRb4yjS" type="motBody">
         <div xml:id="i-E9fvLJ5wYdi66Bk5h78o2B">
           <p xml:id="i-HZNPTbnBHwLpe1EMtS4tgK">
             2004/05 mnr: S0556 pnr: fp1035
@@ -151,8 +151,11 @@
             behandlingsmetoder som innebär att kommunerna kan spara in pengar
             på hjälpmedel och många äldre kan få ett värdigare liv.
           </p>
-          <p xml:id="i-K2cAZdpVMpkvuyzSMmQmRh">
-            Stockholm den 4 oktober 2004 Cecilia Wikström (fp)
+          <p xml:id="i-K2cAZdpVMpkvuyzSMmQmRh" type="date">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-QrGdggYwCPSo927vRqvTRe">
+            Cecilia Wikström (fp)
           </p>
         </div>
       </div>

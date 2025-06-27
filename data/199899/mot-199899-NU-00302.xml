@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-NU-00302">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="woman">
             <idno>i-FJ3qAMd2ReYtDiK92hL27W</idno>
-            <name>Barbro Johansson </name>
+            <name>Barbro Johansson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-SCUY6mwHfi1UzkWNFBF5hc</idno>
-            <name>Thomas Julin </name>
+            <name>Thomas Julin</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-E2VEuW8StdbwuJyGXtUP4D</idno>
-            <name>Per Lager </name>
+            <name>Per Lager</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -78,25 +78,25 @@
           <note type="signatory" corresp="i-E2VEuW8StdbwuJyGXtUP4D"/>
           <note type="signatory" corresp="i-SCUY6mwHfi1UzkWNFBF5hc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2vMjYcsJ7vFwVYrt1H5SAM">
+        <correspAction xml:id="i-2vMjYcsJ7vFwVYrt1H5SAM" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GiSE3Ff7zEiBFWcZygM1ag">
+        <correspAction xml:id="i-GiSE3Ff7zEiBFWcZygM1ag" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RNtjENbrqwqWr3ZWtYoZfp">
+        <correspAction xml:id="i-RNtjENbrqwqWr3ZWtYoZfp" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-L7VLznCdhSaEmfjvKm9PWo">
+        <correspAction xml:id="i-L7VLznCdhSaEmfjvKm9PWo" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Bp1gFutUA9t9W1RVBSQs39">
+        <correspAction xml:id="i-Bp1gFutUA9t9W1RVBSQs39" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NcNZbqBR1FWtJA8SrDFhFR">
+        <correspAction xml:id="i-NcNZbqBR1FWtJA8SrDFhFR" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CuZvzg1SY33qVWK3VedGk8"/>
+        <correspAction xml:id="i-CuZvzg1SY33qVWK3VedGk8" type="assigned"/>
         <correspContext corresp="i-CuZvzg1SY33qVWK3VedGk8">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_n_0302/mot_199899_n_0302-0001.pdf"/>
-      <div type="motHeader" xml:id="i-dZ1orXicRCTJLeVebW7Mg">
-        <div type="motTitle" xml:id="i-SKwb8mMxagHDq6MtE4L4zr"/>
-        <div type="motSubmissionInfo" xml:id="i-EkwxR51GMemZincQ6NkYac"/>
+      <div xml:id="i-dZ1orXicRCTJLeVebW7Mg" type="motHeader">
+        <div xml:id="i-SKwb8mMxagHDq6MtE4L4zr" type="motTitle"/>
+        <div xml:id="i-EkwxR51GMemZincQ6NkYac" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-EZuE4Q98qG6oUJoapUtXDz">
+      <div xml:id="i-EZuE4Q98qG6oUJoapUtXDz" type="motBody">
         <div xml:id="i-QVvrsztnJaRCWziTjxPBLa">
           <p xml:id="i-KYPPAouZxYsPGDNkVfnQpb">
             1998/99 N302 N302
@@ -316,8 +316,11 @@
             eller skatteregler som gynnar framtagning av alternativa drivmedel,
             såsom vätgas kommer till stånd.
           </p>
-          <p xml:id="i-BKXHudfuEpDMsoERxNxXAN">
-            Stockholm den 21 oktober 1998 Barbro Johansson (mp)
+          <p xml:id="i-BKXHudfuEpDMsoERxNxXAN" type="date">
+            Stockholm den 21 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-QvSrrqcTFrgbjudQSR2ime">
+            Barbro Johansson (mp)
           </p>
           <p xml:id="i-6WWMfmN7CraABkhktJjegv">
             Per Lager (mp) Thomas Julin (mp)

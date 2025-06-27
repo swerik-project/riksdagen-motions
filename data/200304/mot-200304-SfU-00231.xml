@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00231">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-LJpiES8GC4Y8Yi5TntWnQ6">
           <note type="signatory" corresp="i-R9MuNkxgtjYredKHhh6ujV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VANYspseJSHTSp6sdeD1tX">
+        <correspAction xml:id="i-VANYspseJSHTSp6sdeD1tX" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TxWB4v1YhPB1e3a3viKiLB">
+        <correspAction xml:id="i-TxWB4v1YhPB1e3a3viKiLB" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-94fwmGFPcxQNiJ8fjbVYtM">
+        <correspAction xml:id="i-94fwmGFPcxQNiJ8fjbVYtM" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SH7sGzSyUbxV7ySosHTVsP"/>
+        <correspAction xml:id="i-SH7sGzSyUbxV7ySosHTVsP" type="assigned"/>
         <correspContext corresp="i-SH7sGzSyUbxV7ySosHTVsP">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0231/mot_200304_Sf_0231-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EHPBnH5HXRWDsrRJajevqM">
-        <div type="motTitle" xml:id="i-HJxwAoSiswat6BMToh6o2S"/>
-        <div type="motSubmissionInfo" xml:id="i-8BXyufUrkjEQVyTU7HLAD1"/>
+      <div xml:id="i-EHPBnH5HXRWDsrRJajevqM" type="motHeader">
+        <div xml:id="i-HJxwAoSiswat6BMToh6o2S" type="motTitle"/>
+        <div xml:id="i-8BXyufUrkjEQVyTU7HLAD1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9XpEySArx6vgg4tSAif7yb">
+      <div xml:id="i-9XpEySArx6vgg4tSAif7yb" type="motBody">
         <div xml:id="i-KAWrbSZLXeVf2nxYBjqMTn">
           <p xml:id="i-BpkhWUo29EJAq8QVSWfzpm">
             2003/04 mnr: Sf231 pnr: m1336
@@ -271,8 +271,11 @@
             Frågan är om vi har råd att avstå från den kunskap som vi dagligen
             går miste om.
           </p>
-          <p xml:id="i-K3AXz2wN9YtzXwT9zLQAs2">
-            Stockholm den 30 september 2003 Per Bill (m)
+          <p xml:id="i-K3AXz2wN9YtzXwT9zLQAs2" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-XLrJs1dAjbFfKb18ifHATA">
+            Per Bill (m)
           </p>
         </div>
       </div>

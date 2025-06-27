@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-JuU-00015">
   <teiHeader>
     <fileDesc>
@@ -48,7 +48,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Gx7LbvUJ4ttdB9cpVADtWC"/>
+        <correspAction xml:id="i-Gx7LbvUJ4ttdB9cpVADtWC" type="basedOn"/>
         <correspContext corresp="i-Gx7LbvUJ4ttdB9cpVADtWC">
           <ref>Proposition 2002/03:74</ref>
         </correspContext>
@@ -58,16 +58,16 @@
           <note type="signatory" corresp="i-9CH1KbWwyrj8DRqAQB3Fza"/>
           <note type="signatory" corresp="i-9x2nw6aosA3pyEJfJTc1eD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-K2qwyPAHYXpe7pFFXqgUV6">
+        <correspAction xml:id="i-K2qwyPAHYXpe7pFFXqgUV6" type="referral">
           <date when="2003-06-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-D31KoWceZEccdsSUmbr4ft">
+        <correspAction xml:id="i-D31KoWceZEccdsSUmbr4ft" type="dismissal">
           <date when="2003-06-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-G3XeDUZb36udMmhUW7phpN">
+        <correspAction xml:id="i-G3XeDUZb36udMmhUW7phpN" type="submission">
           <date when="2003-06-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KmYhmkfsGwqxgUyuX5AAbi"/>
+        <correspAction xml:id="i-KmYhmkfsGwqxgUyuX5AAbi" type="assigned"/>
         <correspContext corresp="i-KmYhmkfsGwqxgUyuX5AAbi">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ju_0015/mot_200203_Ju_0015-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SXFA7vZ7vofwDU3apnrcF5">
-        <div type="motTitle" xml:id="i-PwxVkoPohz4woitnCGZKuv"/>
-        <div type="motSubmissionInfo" xml:id="i-Xx6BaAhvy8u8t1eMTTs3oj"/>
+      <div xml:id="i-SXFA7vZ7vofwDU3apnrcF5" type="motHeader">
+        <div xml:id="i-PwxVkoPohz4woitnCGZKuv" type="motTitle"/>
+        <div xml:id="i-Xx6BaAhvy8u8t1eMTTs3oj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7wwjNbafqP9XtQGRF7gA6q">
+      <div xml:id="i-7wwjNbafqP9XtQGRF7gA6q" type="motBody">
         <div xml:id="i-L9HGnZ7iN4gNmFqA8nvmJV">
           <p xml:id="i-VTMoWgMW1bhgGaBjqJYxYF">
             10
@@ -262,10 +262,12 @@
           </p>
           <p xml:id="i-nYu2ErBiVvMgTkYRhtr7B">
             kravet på synnerliga skäl, enär intrånget i sig självt inte kan
-            anses godtagbart i ett demokratiskt samhälle. Stockholm den 12
-            juni 2003
+            anses godtagbart i ett demokratiskt samhälle.
           </p>
-          <p xml:id="i-S1ZwFTmm7gaDh62DXNaXna">
+          <p type="date" id="i-4HpREvMR5h7vLMActBUGgo">
+            Stockholm den 12 juni 2003
+          </p>
+          <p xml:id="i-S1ZwFTmm7gaDh62DXNaXna" type="signatureBlock">
             Leif Björnlod (mp) Gustav Fridolin (mp) Ulf Holm (mp)
           </p>
           <p xml:id="i-8a996YQRNDCYf1gyzZUvnv">

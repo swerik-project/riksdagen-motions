@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00282">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-RDeqY3mXLBtUS9bixjvHS"/>
           <note type="signatory" corresp="i-J74sVAjCTSxzD8rbnxRRA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GHzaDhkYP6Ya5CWh34FhPb">
+        <correspAction xml:id="i-GHzaDhkYP6Ya5CWh34FhPb" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-554jMJQPMcXx17pGB5VF99">
+        <correspAction xml:id="i-554jMJQPMcXx17pGB5VF99" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EZnaWZt4JSeh6niVBCQQsK">
+        <correspAction xml:id="i-EZnaWZt4JSeh6niVBCQQsK" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4j3s9cr2WJFoMfqBkB6hv3"/>
+        <correspAction xml:id="i-4j3s9cr2WJFoMfqBkB6hv3" type="assigned"/>
         <correspContext corresp="i-4j3s9cr2WJFoMfqBkB6hv3">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_282/mot_200506_T_282-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Rhuo8s4nrwtGF4Y7VriqZh">
-        <div type="motTitle" xml:id="i-BqyFjCeBEZfLTkgRttwcKq"/>
-        <div type="motSubmissionInfo" xml:id="i-RkUHzvtFs57xH8jdghFxry"/>
+      <div xml:id="i-Rhuo8s4nrwtGF4Y7VriqZh" type="motHeader">
+        <div xml:id="i-BqyFjCeBEZfLTkgRttwcKq" type="motTitle"/>
+        <div xml:id="i-RkUHzvtFs57xH8jdghFxry" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Aot75L6DM26cueMKv4Zbmn">
+      <div xml:id="i-Aot75L6DM26cueMKv4Zbmn" type="motBody">
         <div xml:id="i-MSiXVkyr1xbtGnFUYfwKau">
           <p xml:id="i-UxAwePc9EY4cn4ndu9WKsB">
             2005/06 mnr: T282 pnr: -fp632
@@ -132,9 +132,12 @@
           </p>
           <p xml:id="i-V4uFSPHhcu42weszyDGUBQ">
             av väg E 6 ställs mot utveckling av Bohusbanan. Detta bör riksdagen
-            ge regeringen till känna. Stockholm den 23 september 2005
+            ge regeringen till känna.
           </p>
-          <p xml:id="i-RXNAiTWPKyJoS7BEh5hQvG">
+          <p type="date" id="i-VdK7wBF9k7u2PYTPYp83Zt">
+            Stockholm den 23 september 2005
+          </p>
+          <p xml:id="i-RXNAiTWPKyJoS7BEh5hQvG" type="signatureBlock">
             Lars Tysklind (fp) Åsa Torstensson (c)
           </p>
         </div>

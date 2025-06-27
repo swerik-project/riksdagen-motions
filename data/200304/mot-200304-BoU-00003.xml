@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-BoU-00003">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-RGceZPi8PrK7MBVV5mreLW"/>
+        <correspAction xml:id="i-RGceZPi8PrK7MBVV5mreLW" type="basedOn"/>
         <correspContext corresp="i-RGceZPi8PrK7MBVV5mreLW">
           <ref>Proposition 2003/04:94</ref>
         </correspContext>
@@ -90,19 +90,19 @@
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7hMJw7aRLbq9Bghe1m8sWH">
+        <correspAction xml:id="i-7hMJw7aRLbq9Bghe1m8sWH" type="referral">
           <date when="2004-03-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KEe2XHW8KwtSMn6U1X4vsf">
+        <correspAction xml:id="i-KEe2XHW8KwtSMn6U1X4vsf" type="dismissal">
           <date when="2004-03-23"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-5i88Wgxg7kTkEKp7GYRHqP">
+        <correspAction xml:id="i-5i88Wgxg7kTkEKp7GYRHqP" type="registration">
           <date when="2004-03-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4zjaRdfofM2LQWngMAU4ya">
+        <correspAction xml:id="i-4zjaRdfofM2LQWngMAU4ya" type="submission">
           <date when="2004-03-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8dWRxTtFwgTg77sPfFX3Yz"/>
+        <correspAction xml:id="i-8dWRxTtFwgTg77sPfFX3Yz" type="assigned"/>
         <correspContext corresp="i-8dWRxTtFwgTg77sPfFX3Yz">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -117,11 +117,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_BO_0003/mot_200304_BO_0003-0001.pdf"/>
-      <div type="motHeader" xml:id="i-MQEdBBMbpGDjmRRckDAxcK">
-        <div type="motTitle" xml:id="i-SyB1gKimBLMRTwzPT4iGA3"/>
-        <div type="motSubmissionInfo" xml:id="i-QqAvY3nu7g5LkeYhh4ip4W"/>
+      <div xml:id="i-MQEdBBMbpGDjmRRckDAxcK" type="motHeader">
+        <div xml:id="i-SyB1gKimBLMRTwzPT4iGA3" type="motTitle"/>
+        <div xml:id="i-QqAvY3nu7g5LkeYhh4ip4W" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NZYEcZ1w2wzxyKxPkzMw2V">
+      <div xml:id="i-NZYEcZ1w2wzxyKxPkzMw2V" type="motBody">
         <div xml:id="i-T5yZwBLRmzuLNX38rBd9T8">
           <p xml:id="i-5fz4YHKmZy5bHio9H4G9b3">
             2003/04 mnr: Bo3 pnr: kd145
@@ -421,8 +421,11 @@
             låta utföra en sådan utredning och därefter återkomma till riksdagen
             med de lagförslag m.m. som kan bli aktuella.
           </p>
-          <p xml:id="i-5DRAZb5pb9jLK7y1veFvhH">
-            Stockholm den 18 mars 2004 Dan Kihlström (kd)
+          <p xml:id="i-5DRAZb5pb9jLK7y1veFvhH" type="date">
+            Stockholm den 18 mars 2004
+          </p>
+          <p type="signatureBlock" id="i-L5vrjdGVHB9YUuNBaJshBV">
+            Dan Kihlström (kd)
           </p>
           <p xml:id="i-8ijCCMWXyJqNk12nn8fsC8">
             Göran Hägglund (kd) Johnny Gylling (kd) Sven Gunnar Persson (kd)

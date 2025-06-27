@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00468">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-LoEBTdRXUxJF7NxwccX8P9">
           <note type="signatory" corresp="i-BUYvEhrSc9gnHcd6iS4eDJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2MAqwvoBTm9mSnynkG7Xym">
+        <correspAction xml:id="i-2MAqwvoBTm9mSnynkG7Xym" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UBWqmHUJkxFcHfCff1hHnB">
+        <correspAction xml:id="i-UBWqmHUJkxFcHfCff1hHnB" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XvrCdBbUmXcLyWNmLay393">
+        <correspAction xml:id="i-XvrCdBbUmXcLyWNmLay393" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SwAQqe9MZDN3KViadS5zyK"/>
+        <correspAction xml:id="i-SwAQqe9MZDN3KViadS5zyK" type="assigned"/>
         <correspContext corresp="i-SwAQqe9MZDN3KViadS5zyK">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_468/mot_200405_So_468-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SdWkdxWFM7FQeNu8QY7N1u">
-        <div type="motTitle" xml:id="i-KQb6eNyZBZxV3czmhjsza1"/>
-        <div type="motSubmissionInfo" xml:id="i-UFwBdq1WdMoBj6chb3d95F"/>
+      <div xml:id="i-SdWkdxWFM7FQeNu8QY7N1u" type="motHeader">
+        <div xml:id="i-KQb6eNyZBZxV3czmhjsza1" type="motTitle"/>
+        <div xml:id="i-UFwBdq1WdMoBj6chb3d95F" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PJSYmsPg6rwCuWLTzwUgGP">
+      <div xml:id="i-PJSYmsPg6rwCuWLTzwUgGP" type="motBody">
         <div xml:id="i-DotoRm16auTqX4oCvQFFaW">
           <p xml:id="i-A8J1nx9AdRjvm33ewYtGGC">
             2004/05 mnr: S0468 pnr: fp216
@@ -134,8 +134,11 @@
             att det skall finnas tydliga incitament att hushålla med läkemedelsuttagen
             av skäl hänförliga till patientsäkerhet, hälsa och samhällsekonomi.
           </p>
-          <p xml:id="i-CifmB4zLK5tuR6fdhdQeiz">
-            Stockholm den 4 oktober 2004 Allan Widman (fp)
+          <p xml:id="i-CifmB4zLK5tuR6fdhdQeiz" type="date">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-HTa64gy6m3BqPmmPQ3ksYG">
+            Allan Widman (fp)
           </p>
         </div>
       </div>

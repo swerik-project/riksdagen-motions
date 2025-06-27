@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-JuU-00931">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-N1qw8jfKGpQHZKgF3gs76j</idno>
-            <name>Siw Persson </name>
+            <name>Siw Persson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-M583eVDoBTdnLPkDa6XLNx</idno>
-            <name>Ola Ström </name>
+            <name>Ola Ström</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-4cqJPp6KE913P96Kfc7QxB</idno>
-            <name>Bengt Harding Olson </name>
+            <name>Bengt Harding Olson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -78,25 +78,25 @@
           <note type="signatory" corresp="i-M583eVDoBTdnLPkDa6XLNx"/>
           <note type="signatory" corresp="i-4cqJPp6KE913P96Kfc7QxB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-54k3i6oAobNWuKYH32wqmw">
+        <correspAction xml:id="i-54k3i6oAobNWuKYH32wqmw" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4tSnjBwyJqWxMnEpntnpcc">
+        <correspAction xml:id="i-4tSnjBwyJqWxMnEpntnpcc" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NQqrPD4Uh6eaRfKMcB7tKW">
+        <correspAction xml:id="i-NQqrPD4Uh6eaRfKMcB7tKW" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-CmG2AQd9Xaiv3vEC98etLB">
+        <correspAction xml:id="i-CmG2AQd9Xaiv3vEC98etLB" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-35EPaLU6Gx5EZkECxQeE9A">
+        <correspAction xml:id="i-35EPaLU6Gx5EZkECxQeE9A" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KJxEUVFapz8sL7ZvWZVC5w">
+        <correspAction xml:id="i-KJxEUVFapz8sL7ZvWZVC5w" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8m8VV7rqRBvPBjPGdk81yQ"/>
+        <correspAction xml:id="i-8m8VV7rqRBvPBjPGdk81yQ" type="assigned"/>
         <correspContext corresp="i-8m8VV7rqRBvPBjPGdk81yQ">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_JU_0931/mot_199798_JU_0931-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FSkFyb1A1t1bGxNbtEAgk9">
-        <div type="motTitle" xml:id="i-VB5SRwEeSCiaHmbYUW1TD6"/>
-        <div type="motSubmissionInfo" xml:id="i-Wpqjexq81ktJVBwVFWhTay"/>
+      <div xml:id="i-FSkFyb1A1t1bGxNbtEAgk9" type="motHeader">
+        <div xml:id="i-VB5SRwEeSCiaHmbYUW1TD6" type="motTitle"/>
+        <div xml:id="i-Wpqjexq81ktJVBwVFWhTay" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5kTsJyiv4RCjcfAoeP2vmx">
+      <div xml:id="i-5kTsJyiv4RCjcfAoeP2vmx" type="motBody">
         <div xml:id="i-XNtqqtpHuna9UcSJJvyzjS">
           <p xml:id="i-JGZnMir4qVBof1kPB3Kvdk">
             1997/98 Ju931 Ju927-931
@@ -499,8 +499,11 @@
             "Innebär minskat anslagssparande och medför ingen förändring
             i verksamheten.
           </p>
-          <p xml:id="i-K2YHTYd9esLtMyFUR4wPb">
-            Stockholm den 5 oktober 1997 Siw Persson (fp)
+          <p xml:id="i-K2YHTYd9esLtMyFUR4wPb" type="date">
+            Stockholm den 5 oktober 1997
+          </p>
+          <p type="signatureBlock" id="i-48mAQiuUdER9Z1FN7HZxxy">
+            Siw Persson (fp)
           </p>
           <p xml:id="i-D2PDzRK6JH8xQCpjdZSY82">
             Bengt Harding Olson (fp) Ola Ström (fp)

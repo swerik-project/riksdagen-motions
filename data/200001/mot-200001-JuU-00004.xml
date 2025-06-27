@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-JuU-00004">
   <teiHeader>
     <fileDesc>
@@ -181,7 +181,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-MxCV12sCZckSnKr1YkCw2e"/>
+        <correspAction xml:id="i-MxCV12sCZckSnKr1YkCw2e" type="basedOn"/>
         <correspContext corresp="i-MxCV12sCZckSnKr1YkCw2e">
           <ref>Regeringsskrivelse 2000/01:62</ref>
         </correspContext>
@@ -210,31 +210,31 @@
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
           <note type="signatory" corresp="i-7Fnps4HB4T8k2Yc71rfops"/>
         </correspContext>
-        <correspAction type="proposed_referral" xml:id="i-9MU9wAgb3fPSnBk3xMVM33">
+        <correspAction xml:id="i-9MU9wAgb3fPSnBk3xMVM33" type="proposed_referral">
           <date when="2001-02-21"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-H4iqxPg1KnCKQS57rYjDAG">
+        <correspAction xml:id="i-H4iqxPg1KnCKQS57rYjDAG" type="referral">
           <date when="2001-02-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KM9AZqXGmyeL2GoJBYNqM9">
+        <correspAction xml:id="i-KM9AZqXGmyeL2GoJBYNqM9" type="dismissal">
           <date when="2001-02-20"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-F7GRQfnbkpE9spMjzCJJmN">
+        <correspAction xml:id="i-F7GRQfnbkpE9spMjzCJJmN" type="reviewing">
           <date when="2001-02-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CJjNHNv2CQstadUNvhqPHB">
+        <correspAction xml:id="i-CJjNHNv2CQstadUNvhqPHB" type="submission">
           <date when="2001-02-16"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-5V4DS5H2h6PMf6tUyhgNup">
+        <correspAction xml:id="i-5V4DS5H2h6PMf6tUyhgNup" type="referral">
           <date when="2001-02-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PxdDu19yB21ANVMNxC2KCa">
+        <correspAction xml:id="i-PxdDu19yB21ANVMNxC2KCa" type="dismissal">
           <date when="2001-02-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BoKM4kDd9h62tUqWoXVi6b">
+        <correspAction xml:id="i-BoKM4kDd9h62tUqWoXVi6b" type="submission">
           <date when="2001-02-16"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TrJJm1C2cAYHAyUdjGD3Ln"/>
+        <correspAction xml:id="i-TrJJm1C2cAYHAyUdjGD3Ln" type="assigned"/>
         <correspContext corresp="i-TrJJm1C2cAYHAyUdjGD3Ln">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -249,11 +249,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Ju_0004/mot_200001_Ju_0004-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SnvATrMqefSvAEywFPEy3X">
-        <div type="motTitle" xml:id="i-Qq9oiLgnHxZR59ojRJwiVr"/>
-        <div type="motSubmissionInfo" xml:id="i-KgXq5vedu1Q4LM3KzRkEA5"/>
+      <div xml:id="i-SnvATrMqefSvAEywFPEy3X" type="motHeader">
+        <div xml:id="i-Qq9oiLgnHxZR59ojRJwiVr" type="motTitle"/>
+        <div xml:id="i-KgXq5vedu1Q4LM3KzRkEA5" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PUZ7XV5UpEGwf1JTAfGEva">
+      <div xml:id="i-PUZ7XV5UpEGwf1JTAfGEva" type="motBody">
         <div xml:id="i-2GHvTdt86mhDbUjwsRkDDp">
           <p xml:id="i-Gjp5pRneCwFKJQ6LA6iKbW">
             2000/01 mnr: Ju4 pnr: kd127
@@ -924,8 +924,11 @@
             sitt arbete. Polisen spelar en avgörande roll i det brottsförebyggande
             arbetet.
           </p>
-          <p xml:id="i-2v61kcNS2obxyEgn1eWmpV">
-            Stockholm den 15 februari 2001 Ragnwi Marcelind (kd)
+          <p xml:id="i-2v61kcNS2obxyEgn1eWmpV" type="date">
+            Stockholm den 15 februari 2001
+          </p>
+          <p type="signatureBlock" id="i-2zVYQ8kvgQwwBLxkRRJjr9">
+            Ragnwi Marcelind (kd)
           </p>
           <p xml:id="i-A7sFyTashZ7Rgz6uf7K1Zf">
             Ingemar Vänerlöv (kd) Ingvar Svensson (kd) Björn von der Esch

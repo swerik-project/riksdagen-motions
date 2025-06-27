@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-SfU-00030">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-GRNPu7oSfuqjgf6xMv5mB8</idno>
-            <name>Dag Ericson </name>
+            <name>Dag Ericson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VsctnYxYPvEtnry7gTwZR4"/>
+        <correspAction xml:id="i-VsctnYxYPvEtnry7gTwZR4" type="basedOn"/>
         <correspContext corresp="i-VsctnYxYPvEtnry7gTwZR4">
           <ref>Proposition 1995/96:209</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-GRNPu7oSfuqjgf6xMv5mB8"/>
           <note type="signatory" corresp="i-GRNPu7oSfuqjgf6xMv5mB8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Lze4NjFxghnydXMxbz3W7f">
+        <correspAction xml:id="i-Lze4NjFxghnydXMxbz3W7f" type="referral">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6A6zXL8iNV91Ltt8g9JL3g">
+        <correspAction xml:id="i-6A6zXL8iNV91Ltt8g9JL3g" type="dismissal">
           <date when="1996-06-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FrBCX4TVMaYK4DGtztMwZr">
+        <correspAction xml:id="i-FrBCX4TVMaYK4DGtztMwZr" type="submission">
           <date when="1996-06-12"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7tcnyrqxPtT9sYsjuaj7c5">
+        <correspAction xml:id="i-7tcnyrqxPtT9sYsjuaj7c5" type="referral">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-P1tVZAorpKDQbjMLJauuTv">
+        <correspAction xml:id="i-P1tVZAorpKDQbjMLJauuTv" type="dismissal">
           <date when="1996-06-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WWXFxkQ4197b4QBT2Lf9EZ">
+        <correspAction xml:id="i-WWXFxkQ4197b4QBT2Lf9EZ" type="submission">
           <date when="1996-06-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4hWktiE1YizuWas5d8TYcf"/>
+        <correspAction xml:id="i-4hWktiE1YizuWas5d8TYcf" type="assigned"/>
         <correspContext corresp="i-4hWktiE1YizuWas5d8TYcf">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_SF_0030/mot_199596_SF_0030-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UUjfhZY224yF4rYXNJTnrm">
-        <div type="motTitle" xml:id="i-MSdXf2Jb7tbFD8FLz8n59L"/>
-        <div type="motSubmissionInfo" xml:id="i-US7wwYri862KoFJPGRiNfC"/>
+      <div xml:id="i-UUjfhZY224yF4rYXNJTnrm" type="motHeader">
+        <div xml:id="i-MSdXf2Jb7tbFD8FLz8n59L" type="motTitle"/>
+        <div xml:id="i-US7wwYri862KoFJPGRiNfC" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AQxcMEFxkZJVzYeAom9eYp">
+      <div xml:id="i-AQxcMEFxkZJVzYeAom9eYp" type="motBody">
         <div xml:id="i-3KVWhFtxQSgY5sTxNnztvE">
           <p xml:id="i-GeyCAt5pyhEmAYcMRFcbaG">
             1995/96 Sf30 Sf29-36
@@ -192,8 +192,11 @@
             om omedelbara informationsinsatser till små och medelstora företag
             om möjligheten att försäkra sig mot sjuklönekostnader.
           </p>
-          <p xml:id="i-8keaMsC9LWxr2J5P7uSYkE">
-            Stockholm den 5 juni 1996 Dag Ericson (s)
+          <p xml:id="i-8keaMsC9LWxr2J5P7uSYkE" type="date">
+            Stockholm den 5 juni 1996
+          </p>
+          <p type="signatureBlock" id="i-6Kpph3VLRvWAczRFWHB3gP">
+            Dag Ericson (s)
           </p>
           <p xml:id="i-Xgk1vfbogVrJS27T4zeop6">
             Christina Axelsson (s) Eva Johansson (s)

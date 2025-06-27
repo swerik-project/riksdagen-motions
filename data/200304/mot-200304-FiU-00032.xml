@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00032">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-42o7SMZgBJfzEVVqMnUG5d"/>
+        <correspAction xml:id="i-42o7SMZgBJfzEVVqMnUG5d" type="basedOn"/>
         <correspContext corresp="i-42o7SMZgBJfzEVVqMnUG5d">
           <ref>Regeringsskrivelse 2003/04:104</ref>
         </correspContext>
@@ -90,19 +90,19 @@
           <note type="signatory" corresp="i-UmhVhzFM3Rs65aFjMTgRvj"/>
           <note type="signatory" corresp="i-3p3w5Vw2i74gEMeqzABeEG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-94TmN5b1EJYvwMtMzxS8YX">
+        <correspAction xml:id="i-94TmN5b1EJYvwMtMzxS8YX" type="referral">
           <date when="2004-05-10"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-KSx5LbcknAk2TU1SpUjNvX">
+        <correspAction xml:id="i-KSx5LbcknAk2TU1SpUjNvX" type="registration">
           <date when="2004-05-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JiQVhUcEzqp7YM73YLd6vK">
+        <correspAction xml:id="i-JiQVhUcEzqp7YM73YLd6vK" type="dismissal">
           <date when="2004-05-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6CvXDSB4M8Hhb4FFTeURZK">
+        <correspAction xml:id="i-6CvXDSB4M8Hhb4FFTeURZK" type="submission">
           <date when="2004-05-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WMSmDCjL4KRRUptL5GQSjg"/>
+        <correspAction xml:id="i-WMSmDCjL4KRRUptL5GQSjg" type="assigned"/>
         <correspContext corresp="i-WMSmDCjL4KRRUptL5GQSjg">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -117,11 +117,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fi_0032/mot_200304_Fi_0032-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SPppjFMJcp2dYgPWBQaxkm">
-        <div type="motTitle" xml:id="i-6VwcTyvLtKyz7Ex6vw3gqr"/>
-        <div type="motSubmissionInfo" xml:id="i-MrAzZti5V9u5Mx55QDWu2Y"/>
+      <div xml:id="i-SPppjFMJcp2dYgPWBQaxkm" type="motHeader">
+        <div xml:id="i-6VwcTyvLtKyz7Ex6vw3gqr" type="motTitle"/>
+        <div xml:id="i-MrAzZti5V9u5Mx55QDWu2Y" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-974fJtrKK6hjMFPE3U7oSU">
+      <div xml:id="i-974fJtrKK6hjMFPE3U7oSU" type="motBody">
         <div xml:id="i-UEZ1sSJvHAwR57XFLaiEXj">
           <p xml:id="i-4gpP4Zt4epTXt37Dztbp1w">
             2003/04 mnr: Fi32 pnr: m264
@@ -170,8 +170,11 @@
           <p xml:id="i-TqKEjWUrn22S3dpNP3Xuoq">
             2003/04:Fi32
           </p>
-          <p xml:id="i-MkwhtfpYMNFDYLnhdAh6Uv">
-            Stockholm den 6 maj 2004 Mikael Odenberg (m)
+          <p xml:id="i-MkwhtfpYMNFDYLnhdAh6Uv" type="date">
+            Stockholm den 6 maj 2004
+          </p>
+          <p type="signatureBlock" id="i-6Cbf6VgofURCEqHtrsrxUv">
+            Mikael Odenberg (m)
           </p>
           <p xml:id="i-4VxWR5zicWEJZAwLzUckx9">
             Gunnar Axén (m) Tomas Högström (m) Ulf Sjösten (m) Lennart Hedquist

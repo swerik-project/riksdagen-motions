@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-NU-00355">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-2ggBvfkHRn3s8FvFEPLxjs</idno>
-            <name>Agne Hansson </name>
+            <name>Agne Hansson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -46,25 +46,25 @@
           <note type="signatory" corresp="i-2ggBvfkHRn3s8FvFEPLxjs"/>
           <note type="signatory" corresp="i-2ggBvfkHRn3s8FvFEPLxjs"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-K6BHqU9XS4W3qW2wxe4Dbr">
+        <correspAction xml:id="i-K6BHqU9XS4W3qW2wxe4Dbr" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TjADJktj6K3zfQkAkFaV1b">
+        <correspAction xml:id="i-TjADJktj6K3zfQkAkFaV1b" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KJ4BkFY5LuRz1uP9sCv7Gy">
+        <correspAction xml:id="i-KJ4BkFY5LuRz1uP9sCv7Gy" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-5RLXHw1H43AJ3TfnKpjY9o">
+        <correspAction xml:id="i-5RLXHw1H43AJ3TfnKpjY9o" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FRWa4D1oWV8bBYNFxyRrrM">
+        <correspAction xml:id="i-FRWa4D1oWV8bBYNFxyRrrM" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4EptVCK55c9W12pEMB5ZyH">
+        <correspAction xml:id="i-4EptVCK55c9W12pEMB5ZyH" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Kwd5M6YXs6KsVWyedJzUzm"/>
+        <correspAction xml:id="i-Kwd5M6YXs6KsVWyedJzUzm" type="assigned"/>
         <correspContext corresp="i-Kwd5M6YXs6KsVWyedJzUzm">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_N_0355/mot_199900_N_0355-0001.pdf"/>
-      <div type="motHeader" xml:id="i-ArDNmYY9qTJRm6ZM9ngdsm">
-        <div type="motTitle" xml:id="i-XesLgYsKsHuBkY1LqKkWyd"/>
-        <div type="motSubmissionInfo" xml:id="i-Ky5Sba7VNtFo2pizKn5Pgd"/>
+      <div xml:id="i-ArDNmYY9qTJRm6ZM9ngdsm" type="motHeader">
+        <div xml:id="i-XesLgYsKsHuBkY1LqKkWyd" type="motTitle"/>
+        <div xml:id="i-Ky5Sba7VNtFo2pizKn5Pgd" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PGrnRwDEyAxkNd2Y69zXBu">
+      <div xml:id="i-PGrnRwDEyAxkNd2Y69zXBu" type="motBody">
         <div xml:id="i-QKb8DfWAdDX4G2Ex3ZEC3e">
           <p xml:id="i-Vf4h9sWSPX1LXqNdmQiboE">
             1999/2000 mnr: N355 pnr: c545
@@ -318,9 +318,11 @@
             för regional utveckling och syssel- sättning i Kalmar län.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_N_0355/mot_199900_N_0355-0005.pdf"/>
-          <p xml:id="i-XXiuf1rdU382ePM7wrpR6Q">
-            Stockholm den 5 oktober 1999 Mot. 1999/2000 N355 Agne Hansson
-            (c)
+          <p xml:id="i-XXiuf1rdU382ePM7wrpR6Q" type="date">
+            Stockholm den 5 oktober 1999
+          </p>
+          <p type="signatureBlock" id="i-PfJ2sxcaMbUE6r7cy6HByd">
+            Mot. 1999/2000 N355 Agne Hansson (c)
           </p>
         </div>
       </div>

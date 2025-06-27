@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00448">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-CUcMijwQnbRtGPSmGLpYuA">
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XV9mEcYoxsjEsTVRrR9pnv">
+        <correspAction xml:id="i-XV9mEcYoxsjEsTVRrR9pnv" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-dHW7miUWCjDo84VoEcwha">
+        <correspAction xml:id="i-dHW7miUWCjDo84VoEcwha" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-By13NaxLLe5bq5po2u86dt">
+        <correspAction xml:id="i-By13NaxLLe5bq5po2u86dt" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EQ5AJkYvw1aoWRkDiZuJNS"/>
+        <correspAction xml:id="i-EQ5AJkYvw1aoWRkDiZuJNS" type="assigned"/>
         <correspContext corresp="i-EQ5AJkYvw1aoWRkDiZuJNS">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_448/mot_200405_Sk_448-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6yxUgtb65HVzpbCYfvYY1U">
-        <div type="motTitle" xml:id="i-SJujAYoZY2FPrCv6AVV6Zc"/>
-        <div type="motSubmissionInfo" xml:id="i-4PqHbNtibfLkTshuufQv3m"/>
+      <div xml:id="i-6yxUgtb65HVzpbCYfvYY1U" type="motHeader">
+        <div xml:id="i-SJujAYoZY2FPrCv6AVV6Zc" type="motTitle"/>
+        <div xml:id="i-4PqHbNtibfLkTshuufQv3m" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-G4ewWmTptrJdU45yjSan47">
+      <div xml:id="i-G4ewWmTptrJdU45yjSan47" type="motBody">
         <div xml:id="i-AYgKQwkkaJoEyP2DWXBLmy">
           <p xml:id="i-6jzv8ogsiGzJ6Gj9yqkMx8">
             2004/05
@@ -248,8 +248,11 @@
             penningvärde. Beräkningarna visar att kostnaderna snart är uppe
             i 150 miljarder kronor per år.
           </p>
-          <p xml:id="i-Ry79v1y2EVYcbc8qgeV6r8">
-            Stockholm den 1 oktober 2004 Mikael Oscarsson (kd)
+          <p xml:id="i-Ry79v1y2EVYcbc8qgeV6r8" type="date">
+            Stockholm den 1 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-2wnFke2aHtnfdZcYZwA4Yz">
+            Mikael Oscarsson (kd)
           </p>
         </div>
       </div>

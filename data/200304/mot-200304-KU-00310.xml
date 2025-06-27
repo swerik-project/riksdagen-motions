@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00310">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Q7xiZ7ZxG3oHJkfxKbkkJV">
           <note type="signatory" corresp="i-UmSX9m2mxvWevquvVduNpz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DghuFXkQg9ts7UUdHFx6LG">
+        <correspAction xml:id="i-DghuFXkQg9ts7UUdHFx6LG" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QNtR8FTQMZ7Qi7TYVyeDFc">
+        <correspAction xml:id="i-QNtR8FTQMZ7Qi7TYVyeDFc" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DSQ4mskp7JScFmTRVgwjAQ">
+        <correspAction xml:id="i-DSQ4mskp7JScFmTRVgwjAQ" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GPnZk1oteWYifcd44y1Aej"/>
+        <correspAction xml:id="i-GPnZk1oteWYifcd44y1Aej" type="assigned"/>
         <correspContext corresp="i-GPnZk1oteWYifcd44y1Aej">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0310/mot_200304_K_0310-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QevBgknZqJ1Xizdx2uAt4u">
-        <div type="motTitle" xml:id="i-4rpfuK8ajyHQugWpYazKex"/>
-        <div type="motSubmissionInfo" xml:id="i-2eULv6mHL1hH8PdDqTGCur"/>
+      <div xml:id="i-QevBgknZqJ1Xizdx2uAt4u" type="motHeader">
+        <div xml:id="i-4rpfuK8ajyHQugWpYazKex" type="motTitle"/>
+        <div xml:id="i-2eULv6mHL1hH8PdDqTGCur" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CCppTT5P3q93DdTkLkTXcK">
+      <div xml:id="i-CCppTT5P3q93DdTkLkTXcK" type="motBody">
         <div xml:id="i-Vgqoa3jWUd63uFCdcbpwkc">
           <p xml:id="i-MzKWrd8kj1r6YYSy7gxTvM">
             2003/04 mnr: K310 pnr: fp554
@@ -109,8 +109,11 @@
             Möjligheten att införa medborgarkontrakt bör undersökas och uppmuntras
             inom stat, kommun och landsting.
           </p>
-          <p xml:id="i-SFYiUpzjf696aWDbCsFJ5P">
-            Stockholm den 5 oktober 2003 Anne-Marie Ekström (fp)
+          <p xml:id="i-SFYiUpzjf696aWDbCsFJ5P" type="date">
+            Stockholm den 5 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-Uw68FQcZvoEv8m3xwpidLB">
+            Anne-Marie Ekström (fp)
           </p>
         </div>
       </div>

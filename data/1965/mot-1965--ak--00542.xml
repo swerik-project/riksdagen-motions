@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1965--ak--00542">
   <teiHeader>
     <fileDesc>
       <titleStmt/>
@@ -17,8 +17,8 @@
       <correspDesc/>
     </profileDesc>
     <revisionDesc>
-      <correction who="orcid_0000-0002-7647-4048" when="2024-10-01" corresp="i-GoNnFLjcXHaQrXjAQSEtyG">OCR correction</correction>
-      <correction who="orcid_0000-0002-7647-4048" when="2024-10-01" corresp="i-C9prnt5vQtitQKdqxCKddW">OCR correction</correction>
+      <correction who="orcid_0000-0002-7647-4048" corresp="i-GoNnFLjcXHaQrXjAQSEtyG" when="2024-10-01">OCR correction</correction>
+      <correction who="orcid_0000-0002-7647-4048" corresp="i-C9prnt5vQtitQKdqxCKddW" when="2024-10-01">OCR correction</correction>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -27,11 +27,11 @@
       <fw xml:id="i-GoNnFLjcXHaQrXjAQSEtyG">
         10 Motioner i Andra kammaren, nr 541—542 år 1965
       </fw>
-      <div type="motHeader" xml:id="i-TYRMy2kmyaKCaoTSBUQo8c">
-        <div type="motTitle" xml:id="i-MoaL93FZpFCWf6tAnmC2Ca"/>
-        <div type="motSubmissionInfo" xml:id="i-7LkX3wcGe2dxNCp6Z94sey"/>
+      <div xml:id="i-TYRMy2kmyaKCaoTSBUQo8c" type="motHeader">
+        <div xml:id="i-MoaL93FZpFCWf6tAnmC2Ca" type="motTitle"/>
+        <div xml:id="i-7LkX3wcGe2dxNCp6Z94sey" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9QYjyNiQqEmPVYRa9T2gvm">
+      <div xml:id="i-9QYjyNiQqEmPVYRa9T2gvm" type="motBody">
         <div xml:id="i-DYB21c9DaLyqSEoNdBmKxz">
           <p xml:id="i-3zjZcwZVWSVHKXAuuemp3Q">
             Nr 541
@@ -41,10 +41,12 @@
             vid Karlshamn-Ronneby lotsplats, m. m.
           </p>
           <p xml:id="i-CMdyeaJUqAX3KCeJdVbVdL">
-            (Lika lydande med motion nr 437 i Första kammaren) Stockholm
-            den 27 januari 1965
+            (Lika lydande med motion nr 437 i Första kammaren)
           </p>
-          <p xml:id="i-WaDDtFJ7MFMw8UVSEAoitj">
+          <p type="date" id="i-PDxqjSMPyeaSLM7fGyZK4X">
+            Stockholm den 27 januari 1965
+          </p>
+          <p xml:id="i-WaDDtFJ7MFMw8UVSEAoitj" type="signatureBlock">
             Thyra Löfqvist Claes Elmstedt Olaus Nyberg
           </p>
           <p xml:id="i-88gJpPY4Udcv3SAoqyT2BP">
@@ -112,10 +114,10 @@
             e) till Vägmaskiner m.m. för budgetåret 1965/66 anvisa ett investeringsanslag
             av .... 46 800 000 kr.
           </p>
-          <p xml:id="i-BMjqVaGwmUPnY42HtVxiMs">
+          <p xml:id="i-BMjqVaGwmUPnY42HtVxiMs" type="date">
             Stockholm den 27 januari 1965
           </p>
-          <p xml:id="i-QeB7nr8JYcYy7RMR66MJev">
+          <p xml:id="i-QeB7nr8JYcYy7RMR66MJev" type="signatureBlock">
             Tage Magnusson Hans Nordgren i Borås Nr 543
           </p>
           <p xml:id="i-JvyZacGef2zEfdiomignE9">
@@ -125,8 +127,11 @@
           <p xml:id="i-GhP2dwREghXHNFKVPjoYSy">
             (Lika lydande med motion nr 440 i Första kammaren)
           </p>
-          <p xml:id="i-MaU2VQCUoRn7e2aerCcJxP">
-            Stockholm den 27 januari 1965 Jöns Nilsson i Bästekille
+          <p xml:id="i-MaU2VQCUoRn7e2aerCcJxP" type="date">
+            Stockholm den 27 januari 1965
+          </p>
+          <p type="signatureBlock" id="i-KodYLUG2Hh8eWnwN6ojECf">
+            Jöns Nilsson i Bästekille
           </p>
           <p xml:id="i-AdyHnf1kNGWWz76QN2tVTU">
             Hans Nordgren Erik Magnusson Lennart Stiernstedt i Tumhult

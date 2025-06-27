@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-LU-00346">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-2bk8kgLDuWyW5kjRpoVKKL">
           <note type="signatory" corresp="i-XmKy9xZWRYrVWK3GgNvWyc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VF6b3t5nwBkQSMNBxRggFM">
+        <correspAction xml:id="i-VF6b3t5nwBkQSMNBxRggFM" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-C52sEsujYfmgVhXx9E87Tn">
+        <correspAction xml:id="i-C52sEsujYfmgVhXx9E87Tn" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6fSvsneeq5Ere2JSJ227ak">
+        <correspAction xml:id="i-6fSvsneeq5Ere2JSJ227ak" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TvGCEbVxD96PcHAUuC3ZC"/>
+        <correspAction xml:id="i-TvGCEbVxD96PcHAUuC3ZC" type="assigned"/>
         <correspContext corresp="i-TvGCEbVxD96PcHAUuC3ZC">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_L_346/mot_200506_L_346-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SXoiLLb32gP6KDtNpvWCGk">
-        <div type="motTitle" xml:id="i-JYd5S2EGHnqc6UyyRNuw6P"/>
-        <div type="motSubmissionInfo" xml:id="i-MjRGj4B4wzQZ5rRvZgacmu"/>
+      <div xml:id="i-SXoiLLb32gP6KDtNpvWCGk" type="motHeader">
+        <div xml:id="i-JYd5S2EGHnqc6UyyRNuw6P" type="motTitle"/>
+        <div xml:id="i-MjRGj4B4wzQZ5rRvZgacmu" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6XysG5B3bqk8riTNfRM4RE">
+      <div xml:id="i-6XysG5B3bqk8riTNfRM4RE" type="motBody">
         <div xml:id="i-B2qJcJTQr8LhuUYEqUv328">
           <p xml:id="i-rCMbcFMoTpD7HPk6vgvhy">
             2005/06 mnr: L346 pnr: s36035
@@ -217,8 +217,11 @@
             vi gärna målar upp av det moderna Sverige. Det är hög tid att
             ta bort de sista resterna av feodalsamhället.
           </p>
-          <p xml:id="i-TUWmpgFLtsjaXgrf76GjuM">
-            Stockholm den 29 september 2005 Christer Adelsbo (s)
+          <p xml:id="i-TUWmpgFLtsjaXgrf76GjuM" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-DFd5xrZp57PymSLauctQKP">
+            Christer Adelsbo (s)
           </p>
           <p xml:id="i-RJBKtXu6yUi7J7Hx2rBKa8">
             2005/06:L346

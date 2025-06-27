@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-NU-00362">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-BPTcDMgzV99FhpMg8M4QsM">
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5g84aAL1bZY1NiLUKhKYUk">
+        <correspAction xml:id="i-5g84aAL1bZY1NiLUKhKYUk" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Xb8xfEpBjD6UETK9hRZFfz">
+        <correspAction xml:id="i-Xb8xfEpBjD6UETK9hRZFfz" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3KSBYY2eBfCWZybgaYi4QK">
+        <correspAction xml:id="i-3KSBYY2eBfCWZybgaYi4QK" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-ES7Qy3iWibrgxbhewjegyE"/>
+        <correspAction xml:id="i-ES7Qy3iWibrgxbhewjegyE" type="assigned"/>
         <correspContext corresp="i-ES7Qy3iWibrgxbhewjegyE">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_N_362/mot_200506_N_362-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8pqGKcyERLe9SYM182ZNcF">
-        <div type="motTitle" xml:id="i-KWw5bZPvFtUhjKmHuw1gBX"/>
-        <div type="motSubmissionInfo" xml:id="i-LhGybdXuC5DgTYTdCCXnnA"/>
+      <div xml:id="i-8pqGKcyERLe9SYM182ZNcF" type="motHeader">
+        <div xml:id="i-KWw5bZPvFtUhjKmHuw1gBX" type="motTitle"/>
+        <div xml:id="i-LhGybdXuC5DgTYTdCCXnnA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4LYxouTqS7Y1nFK1a4v9Uj">
+      <div xml:id="i-4LYxouTqS7Y1nFK1a4v9Uj" type="motBody">
         <div xml:id="i-Kyi1q4U7gDQDec5FM32pwv">
           <p xml:id="i-7Hnxuz99aotYPZbZLVW3pk">
             2005/06 mnr: N362 pnr: s3421
@@ -114,8 +114,11 @@
             vara bäst lämpad att göra erforderliga avvägningar vid prövning
             av en ansökan.
           </p>
-          <p xml:id="i-AUJ8tkL3J2qCJyTRqC8JTM">
-            Stockholm den 29 september 2005 Michael Hagberg (s)
+          <p xml:id="i-AUJ8tkL3J2qCJyTRqC8JTM" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-YUzX3wRHDkDPRHqTw9ah5q">
+            Michael Hagberg (s)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-NU-00275">
   <teiHeader>
     <fileDesc>
@@ -26,28 +26,28 @@
         <listPerson>
           <person gender="man">
             <idno>i-2ggBvfkHRn3s8FvFEPLxjs</idno>
-            <name>Agne Hansson </name>
+            <name>Agne Hansson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-85m2VX7KSiTFeJSnapgkxu</idno>
-            <name>Lena Ek </name>
+            <name>Lena Ek</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-97ancH8vcZWM84VcKVCDX7</idno>
-            <name>Margareta Andersson </name>
+            <name>Margareta Andersson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-B471TcSCwHNHrNRk1EdJek</idno>
-            <name>Eskil Erlandsson </name>
+            <name>Eskil Erlandsson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -94,25 +94,25 @@
           <note type="signatory" corresp="i-97ancH8vcZWM84VcKVCDX7"/>
           <note type="signatory" corresp="i-85m2VX7KSiTFeJSnapgkxu"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-E3wZh2gHxsybBdYAB8WDiy">
+        <correspAction xml:id="i-E3wZh2gHxsybBdYAB8WDiy" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MMhapteF2Sker95ZbRRkqG">
+        <correspAction xml:id="i-MMhapteF2Sker95ZbRRkqG" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UE9djhdScyL5cbCZrxitLt">
+        <correspAction xml:id="i-UE9djhdScyL5cbCZrxitLt" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-3wGMS42dYT3WAVZETwrbg9">
+        <correspAction xml:id="i-3wGMS42dYT3WAVZETwrbg9" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VZcVjNzSRVAqZH8sj34Ptp">
+        <correspAction xml:id="i-VZcVjNzSRVAqZH8sj34Ptp" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AT2gKHtqQf1RYpEuZKUrQr">
+        <correspAction xml:id="i-AT2gKHtqQf1RYpEuZKUrQr" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WvkBv4w6ETdmjWyXNLVSmB"/>
+        <correspAction xml:id="i-WvkBv4w6ETdmjWyXNLVSmB" type="assigned"/>
         <correspContext corresp="i-WvkBv4w6ETdmjWyXNLVSmB">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -125,11 +125,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_n_0275/mot_199899_n_0275-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Etg9Wg5mSKbPzq9MNLW41E">
-        <div type="motTitle" xml:id="i-2beETvhrX3fSKu6zuPwJis"/>
-        <div type="motSubmissionInfo" xml:id="i-UfcZXXAd4W9cd6fRSTq3j8"/>
+      <div xml:id="i-Etg9Wg5mSKbPzq9MNLW41E" type="motHeader">
+        <div xml:id="i-2beETvhrX3fSKu6zuPwJis" type="motTitle"/>
+        <div xml:id="i-UfcZXXAd4W9cd6fRSTq3j8" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WJzZW8TbTvpmU9n7WdUuZN">
+      <div xml:id="i-WJzZW8TbTvpmU9n7WdUuZN" type="motBody">
         <div xml:id="i-PoEgC5eX7gXS4AwSg2SGfz">
           <p xml:id="i-6cs5wjNEWWY7LLbE2P6QQg">
             N275
@@ -925,9 +925,11 @@
             känna vad i motionen anförts om initiativ för en funktionell decentralisering
             och utlokalisering från den centrala statliga förvaltningen.
           </p>
-          <p xml:id="i-Fn1XPaX9VBFkYa4QFniLkF">
-            Stockholm den 27 oktober 1998 Agne Hansson (c) Eskil Erlandsson
-            (c) Margareta Andersson (c)
+          <p xml:id="i-Fn1XPaX9VBFkYa4QFniLkF" type="date">
+            Stockholm den 27 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-4PZAVPBoyoyd6eAk4JAq52">
+            Agne Hansson (c) Eskil Erlandsson (c) Margareta Andersson (c)
           </p>
           <p xml:id="i-X8mckmTJT288xXWGNs99cu">
             Lena Ek (c)

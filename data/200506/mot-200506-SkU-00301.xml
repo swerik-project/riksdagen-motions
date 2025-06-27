@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00301">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-JrWzCJLJxaphNK3DdyUUqa">
           <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-66gHphHt3ccSvLLS9xvMbu">
+        <correspAction xml:id="i-66gHphHt3ccSvLLS9xvMbu" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-92PBffDaqR1xdq1dY2CkeP">
+        <correspAction xml:id="i-92PBffDaqR1xdq1dY2CkeP" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XTU8x3C7rfGxbfmEWFgsHe">
+        <correspAction xml:id="i-XTU8x3C7rfGxbfmEWFgsHe" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PXxwrDkTiQPN4MpQCM9g5A"/>
+        <correspAction xml:id="i-PXxwrDkTiQPN4MpQCM9g5A" type="assigned"/>
         <correspContext corresp="i-PXxwrDkTiQPN4MpQCM9g5A">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_301/mot_200506_Sk_301-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EankMwb7mLoHWcuqBxsAvQ">
-        <div type="motTitle" xml:id="i-8D5gj8ChYQV8yrubporoHm"/>
-        <div type="motSubmissionInfo" xml:id="i-KzRwa7L25DqYtgTprCcA6P"/>
+      <div xml:id="i-EankMwb7mLoHWcuqBxsAvQ" type="motHeader">
+        <div xml:id="i-8D5gj8ChYQV8yrubporoHm" type="motTitle"/>
+        <div xml:id="i-KzRwa7L25DqYtgTprCcA6P" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7qZeoVgUMFtsqxK3BuoDqx">
+      <div xml:id="i-7qZeoVgUMFtsqxK3BuoDqx" type="motBody">
         <div xml:id="i-B3uQVhfL3EqxFBdaN9yoDP">
           <p xml:id="i-QKYSEsv8WSw7AoDgYSRmF6">
             2005/06 mnr: Sk301 pnr: fp642
@@ -103,8 +103,11 @@
             2002. Men det går för långsamt. Det är dags att avskaffa den nu!
             Detta bör riksdagen ge regeringen till känna.
           </p>
-          <p xml:id="i-GAPXRGzvVjTSAcZ84kVXXg">
-            Stockholm den 28 september 2005 Christer Winbäck (fp)
+          <p xml:id="i-GAPXRGzvVjTSAcZ84kVXXg" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-UuFM6sztosaTuTc63BS3TS">
+            Christer Winbäck (fp)
           </p>
         </div>
       </div>

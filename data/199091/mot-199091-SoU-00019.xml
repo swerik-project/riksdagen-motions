@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-SoU-00019">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-H6rrzni8wdNEWHUXz4FTEZ</idno>
-            <name>Margitta Edgren </name>
+            <name>Margitta Edgren</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-9zMaK3CVtpd6kY7dATfeep</idno>
-            <name>Kjell-Arne Welin </name>
+            <name>Kjell-Arne Welin</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-N1qw8jfKGpQHZKgF3gs76j</idno>
-            <name>Siw Persson </name>
+            <name>Siw Persson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-R1dpAXDA7YESUU9k2Cqj77"/>
+        <correspAction xml:id="i-R1dpAXDA7YESUU9k2Cqj77" type="basedOn"/>
         <correspContext corresp="i-R1dpAXDA7YESUU9k2Cqj77">
           <ref>Proposition 1990/91:14</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-9zMaK3CVtpd6kY7dATfeep"/>
           <note type="signatory" corresp="i-N1qw8jfKGpQHZKgF3gs76j"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Lko3enfmdSsD8CrrfazVoP">
+        <correspAction xml:id="i-Lko3enfmdSsD8CrrfazVoP" type="referral">
           <date when="1990-11-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HMNNHiuVcLtjFNogNnNGtH">
+        <correspAction xml:id="i-HMNNHiuVcLtjFNogNnNGtH" type="dismissal">
           <date when="1990-11-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UCwWHVSFUqTnUf6pWctgzb">
+        <correspAction xml:id="i-UCwWHVSFUqTnUf6pWctgzb" type="submission">
           <date when="1990-10-26"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7uNXKmpmJuJz4efcwv3Gow">
+        <correspAction xml:id="i-7uNXKmpmJuJz4efcwv3Gow" type="referral">
           <date when="1990-11-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Bnm8KVb5QyoLNwgd2f5TxB">
+        <correspAction xml:id="i-Bnm8KVb5QyoLNwgd2f5TxB" type="dismissal">
           <date when="1990-11-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6XzXAbD1yLZz1FHN8YufSg">
+        <correspAction xml:id="i-6XzXAbD1yLZz1FHN8YufSg" type="submission">
           <date when="1990-10-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9rXTj6RMcq1YszVVu6op8"/>
+        <correspAction xml:id="i-9rXTj6RMcq1YszVVu6op8" type="assigned"/>
         <correspContext corresp="i-9rXTj6RMcq1YszVVu6op8">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_SoU_19/mot_199091_SoU_19-001.pdf"/>
-      <div type="motHeader" xml:id="i-GTDqyCKbp8zPqoBEeeAJmF">
-        <div type="motTitle" xml:id="i-SQavkBfKUiFw9We51W6sAS"/>
-        <div type="motSubmissionInfo" xml:id="i-39zDda1gqkDMq3whweAhBN"/>
+      <div xml:id="i-GTDqyCKbp8zPqoBEeeAJmF" type="motHeader">
+        <div xml:id="i-SQavkBfKUiFw9We51W6sAS" type="motTitle"/>
+        <div xml:id="i-39zDda1gqkDMq3whweAhBN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VA381HfAtPmNdby3tq5ycX">
+      <div xml:id="i-VA381HfAtPmNdby3tq5ycX" type="motBody">
         <div xml:id="i-TsJt2TgiUUEfnvhm17kJmQ">
           <p xml:id="i-L54DPM5JXjrp1J6bANLVGp">
             Motion till riksdagen
@@ -213,9 +213,11 @@
             begär förslag till de lagändringar som krävs för att alternativa
             lösningar av problemen skall bli möjliga att genomföra.
           </p>
-          <p xml:id="i-crdpLKaeuBeCtsdxDSXCj">
-            Stockholm den 26 oktober 1990 Margitta Edgren (fp) Kjell Arne
-            Welin (fp)
+          <p xml:id="i-crdpLKaeuBeCtsdxDSXCj" type="date">
+            Stockholm den 26 oktober 1990
+          </p>
+          <p type="signatureBlock" id="i-6S1e95A6ap5iYDhYx2PSCu">
+            Margitta Edgren (fp) Kjell Arne Welin (fp)
           </p>
           <p xml:id="i-FVf16nLg2wuFqrirXfgvzS">
             Siw Persson (fp)

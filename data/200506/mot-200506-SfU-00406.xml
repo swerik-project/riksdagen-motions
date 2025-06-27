@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00406">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-7txR2hT2MA1ULy7Y9JZvyv">
           <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-945YqxyVYnT5T2AaX82F5v">
+        <correspAction xml:id="i-945YqxyVYnT5T2AaX82F5v" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Svkcyo4qnHs4tuUmydANmQ">
+        <correspAction xml:id="i-Svkcyo4qnHs4tuUmydANmQ" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TqKhKtaoRo4XGBd1bwCh3T">
+        <correspAction xml:id="i-TqKhKtaoRo4XGBd1bwCh3T" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AhiXzS9FPd9og7fKEUWQ6M"/>
+        <correspAction xml:id="i-AhiXzS9FPd9og7fKEUWQ6M" type="assigned"/>
         <correspContext corresp="i-AhiXzS9FPd9og7fKEUWQ6M">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_406/mot_200506_Sf_406-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EP3XupsUqJB2m1Z5LwbaEY">
-        <div type="motTitle" xml:id="i-4Bp6ATS4xfb7nrZD1eyyYk"/>
-        <div type="motSubmissionInfo" xml:id="i-Sfqjf553oKyrDZ8ZSVDn9t"/>
+      <div xml:id="i-EP3XupsUqJB2m1Z5LwbaEY" type="motHeader">
+        <div xml:id="i-4Bp6ATS4xfb7nrZD1eyyYk" type="motTitle"/>
+        <div xml:id="i-Sfqjf553oKyrDZ8ZSVDn9t" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Xig6Y78oXx5hYcWDUB9qz">
+      <div xml:id="i-Xig6Y78oXx5hYcWDUB9qz" type="motBody">
         <div xml:id="i-3dpN61ACitB33QSVC76NVB">
           <p xml:id="i-UmQ9yfQRzHXLzjdFkcEQPC">
             2005/06 mnr: Sf406 pnr: v885
@@ -113,8 +113,11 @@
             inte ska splittras. Detta bör riksdagen som sin mening ge regeringen
             till känna.
           </p>
-          <p xml:id="i-AYJgAb3ZKkmRT7dogo2Z2t">
-            Stockholm den 1 oktober 2005 Tasso Stafilidis (v)
+          <p xml:id="i-AYJgAb3ZKkmRT7dogo2Z2t" type="date">
+            Stockholm den 1 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-QQBqk7p7QUTSL8xvmAbZEE">
+            Tasso Stafilidis (v)
           </p>
         </div>
       </div>

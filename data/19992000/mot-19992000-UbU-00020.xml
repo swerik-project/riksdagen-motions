@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-UbU-00020">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="woman">
             <idno>i-RsJr1rsFNFbn3SapToHxbM</idno>
-            <name>Britt-Marie Danestig </name>
+            <name>Britt-Marie Danestig</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-mN8mVTBvBYjtHLNThWLo4</idno>
-            <name>Kalle Larsson </name>
+            <name>Kalle Larsson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-RPLcLWRfZW7xXVd61piM6R</idno>
-            <name>Lennart Gustavsson </name>
+            <name>Lennart Gustavsson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KVjnXbq33K5UshobqBq89M"/>
+        <correspAction xml:id="i-KVjnXbq33K5UshobqBq89M" type="basedOn"/>
         <correspContext corresp="i-KVjnXbq33K5UshobqBq89M">
           <ref>Proposition 1999/2000:68</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-RPLcLWRfZW7xXVd61piM6R"/>
           <note type="signatory" corresp="i-mN8mVTBvBYjtHLNThWLo4"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9xrWnkLmyV3affz8vvgoC">
+        <correspAction xml:id="i-9xrWnkLmyV3affz8vvgoC" type="referral">
           <date when="2000-04-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2LRHxyZ95X5fgp67LAJDPz">
+        <correspAction xml:id="i-2LRHxyZ95X5fgp67LAJDPz" type="dismissal">
           <date when="2000-04-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SZRfmLfwhE32nkjwgm1JAD">
+        <correspAction xml:id="i-SZRfmLfwhE32nkjwgm1JAD" type="submission">
           <date when="2000-04-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GuRameWCXZdQiBfega3WZc">
+        <correspAction xml:id="i-GuRameWCXZdQiBfega3WZc" type="referral">
           <date when="2000-04-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HzLbY77NQEsGid4uZ24szJ">
+        <correspAction xml:id="i-HzLbY77NQEsGid4uZ24szJ" type="dismissal">
           <date when="2000-04-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-YPHesD7kTcZJMz5LzUdvuC">
+        <correspAction xml:id="i-YPHesD7kTcZJMz5LzUdvuC" type="submission">
           <date when="2000-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Tyxtny9tqosCaSMppXdY4R"/>
+        <correspAction xml:id="i-Tyxtny9tqosCaSMppXdY4R" type="assigned"/>
         <correspContext corresp="i-Tyxtny9tqosCaSMppXdY4R">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Ub_0020/mot_199900_Ub_0020-0001.pdf"/>
-      <div type="motHeader" xml:id="i-D4ttPmkDcMzXwqKsv4L34v">
-        <div type="motTitle" xml:id="i-Z6PrVAJSPM5AfX1YE7zwj"/>
-        <div type="motSubmissionInfo" xml:id="i-AqvTZKQJsTb7CsLxoTAfdZ"/>
+      <div xml:id="i-D4ttPmkDcMzXwqKsv4L34v" type="motHeader">
+        <div xml:id="i-Z6PrVAJSPM5AfX1YE7zwj" type="motTitle"/>
+        <div xml:id="i-AqvTZKQJsTb7CsLxoTAfdZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4s8itG9afyqZwaQy4XHBWK">
+      <div xml:id="i-4s8itG9afyqZwaQy4XHBWK" type="motBody">
         <div xml:id="i-7DcC6wcEdpjucPro1GQkA4">
           <p xml:id="i-SYEAQGLmhSSkZpp9MePkmA">
             1999/2000 mnr: Ub20 pnr: v028
@@ -190,7 +190,12 @@
             Med hänvisning till det anförda hemställs att riksdagen som sin
             mening ger regeringen till känna att projektarbetet inom gymnasieskolan
             endast skall betygsättas med stegen godkänd eller icke godkänd.
-            Stockholm den 6 april 2000 Britt-Marie Danestig (v)
+          </p>
+          <p type="date" id="i-48PcuEyHg7Zaw2hqaZ2DKx">
+            Stockholm den 6 april 2000
+          </p>
+          <p type="signatureBlock" id="i-Uk4NNHE2gp349zYe88ycP7">
+            Britt-Marie Danestig (v)
           </p>
           <p xml:id="i-Q7fC9bqaSmMe7GCUx1Si9U">
             Lennart Gustavsson (v) Kalle Larsson (v)

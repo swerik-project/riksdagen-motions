@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00246">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Drug9Ng3C3uUACKDncbNCF">
           <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3eAKhkFPDYaiPANHT9UGoF">
+        <correspAction xml:id="i-3eAKhkFPDYaiPANHT9UGoF" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LuCbh7ydEc8Jmo58qAYVAa">
+        <correspAction xml:id="i-LuCbh7ydEc8Jmo58qAYVAa" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M1zETdJuQDrwPg3dCmNEvn">
+        <correspAction xml:id="i-M1zETdJuQDrwPg3dCmNEvn" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FT8g7mQuxoNkcdqiGCBZfp"/>
+        <correspAction xml:id="i-FT8g7mQuxoNkcdqiGCBZfp" type="assigned"/>
         <correspContext corresp="i-FT8g7mQuxoNkcdqiGCBZfp">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_246/mot_200405_Sk_246-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Hg62D2EjRzkPEceS8bsxnX">
-        <div type="motTitle" xml:id="i-RP7fAGchh7GxkqnHSzTV3p"/>
-        <div type="motSubmissionInfo" xml:id="i-63cBz1RvVBJRGozRpnZnu3"/>
+      <div xml:id="i-Hg62D2EjRzkPEceS8bsxnX" type="motHeader">
+        <div xml:id="i-RP7fAGchh7GxkqnHSzTV3p" type="motTitle"/>
+        <div xml:id="i-63cBz1RvVBJRGozRpnZnu3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KCiRRu1Lf38jSgi9PVF4vB">
+      <div xml:id="i-KCiRRu1Lf38jSgi9PVF4vB" type="motBody">
         <div xml:id="i-PW7HFax5v2EmSp4CN7rzTh">
           <p xml:id="i-RRmPpVEk9Sxqb3aSAQLrjk">
             2004/05 mnr: Sk246 pnr: kd574
@@ -135,8 +135,11 @@
             Kanske är införandet av en schablonskatt som uppköparna betalar
             en framkomlig väg.
           </p>
-          <p xml:id="i-ShGcSWM3wNz9r3tt5Xqhor">
-            Stockholm den 22 september 2004 Erling Wälivaara (kd)
+          <p xml:id="i-ShGcSWM3wNz9r3tt5Xqhor" type="date">
+            Stockholm den 22 september 2004
+          </p>
+          <p type="signatureBlock" id="i-4M2dtoe2QzagT2jGzMuJyr">
+            Erling Wälivaara (kd)
           </p>
         </div>
       </div>

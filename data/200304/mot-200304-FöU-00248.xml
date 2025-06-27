@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FöU-00248">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-9UXShdcvDLvXB8AjykvLzt">
           <note type="signatory" corresp="i-C6MPg8QS78d6rtHZ6Jc424"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UnkkgDQEDTECJXQmomK2Zb">
+        <correspAction xml:id="i-UnkkgDQEDTECJXQmomK2Zb" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Enb5QLjM4ehZQnUPjsjUwJ">
+        <correspAction xml:id="i-Enb5QLjM4ehZQnUPjsjUwJ" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NHBjSuKxg2sa1vEgqAaHEm">
+        <correspAction xml:id="i-NHBjSuKxg2sa1vEgqAaHEm" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Tem5LXjfEVQLdAZ3NZiGJZ"/>
+        <correspAction xml:id="i-Tem5LXjfEVQLdAZ3NZiGJZ" type="assigned"/>
         <correspContext corresp="i-Tem5LXjfEVQLdAZ3NZiGJZ">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fö_0248/mot_200304_Fö_0248-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RP8LHuMMcK5A11JjZgSQXS">
-        <div type="motTitle" xml:id="i-BGtXjBr5BAkgiVH6QL4mzu"/>
-        <div type="motSubmissionInfo" xml:id="i-RmHKsFSmicQwRVTVF8WLLv"/>
+      <div xml:id="i-RP8LHuMMcK5A11JjZgSQXS" type="motHeader">
+        <div xml:id="i-BGtXjBr5BAkgiVH6QL4mzu" type="motTitle"/>
+        <div xml:id="i-RmHKsFSmicQwRVTVF8WLLv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FMqUcvuFu7DiE3GhL9aqoT">
+      <div xml:id="i-FMqUcvuFu7DiE3GhL9aqoT" type="motBody">
         <div xml:id="i-Prs8BABCKD4yB8wZbKik2S">
           <p xml:id="i-QVqgabwdDwKEKanB7Nztwc">
             2003/04 mnr: Fö248 pnr: s26029
@@ -138,8 +138,11 @@
             av utsläpp av miljöfarliga ämnen genom samarbete gällande material,
             utbildning samt gemensamma beredskapsövningar.
           </p>
-          <p xml:id="i-KXBeH544tYbCBqq99GAWAu">
-            Stockholm den 30 september 2003 Sinikka Bohlin (s)
+          <p xml:id="i-KXBeH544tYbCBqq99GAWAu" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-FAURzJbatTnqQJzdNqEdNH">
+            Sinikka Bohlin (s)
           </p>
         </div>
       </div>

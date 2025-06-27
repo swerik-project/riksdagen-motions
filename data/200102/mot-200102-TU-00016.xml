@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-TU-00016">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-WKHQMoCcQBsdKXsu8wXKiv"/>
+        <correspAction xml:id="i-WKHQMoCcQBsdKXsu8wXKiv" type="basedOn"/>
         <correspContext corresp="i-WKHQMoCcQBsdKXsu8wXKiv">
           <ref>Proposition 2001/02:20</ref>
         </correspContext>
@@ -42,22 +42,22 @@
         <correspContext corresp="i-NsgvfDkRs7WygppDLweePw">
           <note type="signatory" corresp="i-GgyXv4xamqTouNVz7Tncke"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TBVHN36YsqWeG7jeaq5Mbt">
+        <correspAction xml:id="i-TBVHN36YsqWeG7jeaq5Mbt" type="referral">
           <date when="2001-10-23"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-KQipa7wCgKE8at5P52eqFK">
+        <correspAction xml:id="i-KQipa7wCgKE8at5P52eqFK" type="reviewing">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-5DrL88RHsCCXH4r2hj7REf">
+        <correspAction xml:id="i-5DrL88RHsCCXH4r2hj7REf" type="registration">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YRVmNP6EoRAH2GfuETzsmz">
+        <correspAction xml:id="i-YRVmNP6EoRAH2GfuETzsmz" type="dismissal">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EL3TAx9WzRHuAGPvcUHFeH">
+        <correspAction xml:id="i-EL3TAx9WzRHuAGPvcUHFeH" type="submission">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YGpSStrUHCRrS7ZNs2jCPh"/>
+        <correspAction xml:id="i-YGpSStrUHCRrS7ZNs2jCPh" type="assigned"/>
         <correspContext corresp="i-YGpSStrUHCRrS7ZNs2jCPh">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -72,11 +72,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_T_0016/mot_200102_T_0016-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UST1RfChrhB22sqvYTyxHd">
-        <div type="motTitle" xml:id="i-2ba2D4f4oferBDKsUv4V3Q"/>
-        <div type="motSubmissionInfo" xml:id="i-GgiQCmxuyBT2g2WbzT4hyF"/>
+      <div xml:id="i-UST1RfChrhB22sqvYTyxHd" type="motHeader">
+        <div xml:id="i-2ba2D4f4oferBDKsUv4V3Q" type="motTitle"/>
+        <div xml:id="i-GgiQCmxuyBT2g2WbzT4hyF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CrHkWJG1xqT4Ak92E7cXNR">
+      <div xml:id="i-CrHkWJG1xqT4Ak92E7cXNR" type="motBody">
         <div xml:id="i-Q5Ji376kVxNsR7tDBbvBJE">
           <p xml:id="i-T6988FKmdm1q42K5pbvQzB">
             2001/02 mnr: T16 pnr: m1890
@@ -205,8 +205,11 @@
             i närtid med en direktkanalisering av Stockholmsområdets trafikskatter
             under tre års tid.
           </p>
-          <p xml:id="i-WU4PXx4JwmYaFrdtVke5rR">
-            Stockholm den 18 oktober 2001 Anna Lilliehöök (m)
+          <p xml:id="i-WU4PXx4JwmYaFrdtVke5rR" type="date">
+            Stockholm den 18 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-Dg8WfCgSwPG4ouxX4tJs5i">
+            Anna Lilliehöök (m)
           </p>
           <p xml:id="i-TetbT9HTyjredrVg4Yz5FE">
             Elanders Gotab, Stockholm 2001

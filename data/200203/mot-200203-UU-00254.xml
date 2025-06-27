@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UU-00254">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-G1QUjobyhwPSN8vnRj17Jq">
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-21j3oc33NDVL7F8SEAUKMA">
+        <correspAction xml:id="i-21j3oc33NDVL7F8SEAUKMA" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6WrAxcCawRGTHNReaKzKwC">
+        <correspAction xml:id="i-6WrAxcCawRGTHNReaKzKwC" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TZv622aNGHvs7CtBa6NUny">
+        <correspAction xml:id="i-TZv622aNGHvs7CtBa6NUny" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AcWh2k4oEoS1fkbK9Xtgf7"/>
+        <correspAction xml:id="i-AcWh2k4oEoS1fkbK9Xtgf7" type="assigned"/>
         <correspContext corresp="i-AcWh2k4oEoS1fkbK9Xtgf7">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_U_0254/mot_200203_U_0254-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6eLbsGYBtNW2RsMjK6zZWn">
-        <div type="motTitle" xml:id="i-CcQJnvCkcpeRPpBUjJJntf"/>
-        <div type="motSubmissionInfo" xml:id="i-YPGs5HhP92C96VriYCfgpa"/>
+      <div xml:id="i-6eLbsGYBtNW2RsMjK6zZWn" type="motHeader">
+        <div xml:id="i-CcQJnvCkcpeRPpBUjJJntf" type="motTitle"/>
+        <div xml:id="i-YPGs5HhP92C96VriYCfgpa" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Adngj1Rr81rzGDuGi2EvwE">
+      <div xml:id="i-Adngj1Rr81rzGDuGi2EvwE" type="motBody">
         <div xml:id="i-72u7GiDDui7QhFk9ADkSCd">
           <p xml:id="i-HJdcFLXV95VfTR2ZzLrbA9">
             2002/03 mnr: U254 pnr: kd693
@@ -161,8 +161,11 @@
             tros ha spelat en stor roll under 90-talets inbördeskrig, men
             förhållandena har aldrig utretts.
           </p>
-          <p xml:id="i-32hze1F3XRPGLwXsCXjg7o">
-            Stockholm den 22 oktober 2002 Tuve Skånberg (kd)
+          <p xml:id="i-32hze1F3XRPGLwXsCXjg7o" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-XJX8QAmxw788jvB1aHVrN7">
+            Tuve Skånberg (kd)
           </p>
         </div>
       </div>

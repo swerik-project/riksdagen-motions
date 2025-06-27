@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00244">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-XkxnoTee2Bonn7hQD2XviQ">
           <note type="signatory" corresp="i-JJGD2ECwHv6xGCZyyrtKmA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DUKBiVKVpi9p4yMoKbTGzo">
+        <correspAction xml:id="i-DUKBiVKVpi9p4yMoKbTGzo" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TAsEnQS5gqFUboApGueySm">
+        <correspAction xml:id="i-TAsEnQS5gqFUboApGueySm" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DyLiKo7kCf2YTiW1WYbdfp">
+        <correspAction xml:id="i-DyLiKo7kCf2YTiW1WYbdfp" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7dR6pnvCwKLFqAPgzEdyTp"/>
+        <correspAction xml:id="i-7dR6pnvCwKLFqAPgzEdyTp" type="assigned"/>
         <correspContext corresp="i-7dR6pnvCwKLFqAPgzEdyTp">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Kr_0244/mot_200304_Kr_0244-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HJrrhAC7MayJzN9HuauiTX">
-        <div type="motTitle" xml:id="i-D5aUHTHiz2WBpHgES3r9ok"/>
-        <div type="motSubmissionInfo" xml:id="i-9ay9LYPcnLLyK1FmkWTHgh"/>
+      <div xml:id="i-HJrrhAC7MayJzN9HuauiTX" type="motHeader">
+        <div xml:id="i-D5aUHTHiz2WBpHgES3r9ok" type="motTitle"/>
+        <div xml:id="i-9ay9LYPcnLLyK1FmkWTHgh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Bo45Y95TdGixqSHokYfiGY">
+      <div xml:id="i-Bo45Y95TdGixqSHokYfiGY" type="motBody">
         <div xml:id="i-K2D5FGPSmmjykF7TBx89vN">
           <p xml:id="i-X8YVkRZTgTShWwYafSHqxa">
             2003/04 mnr: Kr244 pnr: m1407
@@ -135,8 +135,11 @@
             bör lagstiftningen ses över — i syfte att skydda det som faktiskt
             är en del av vårt kulturarv.
           </p>
-          <p xml:id="i-QT7gGvEhVKkLpv6TSYmSPw">
-            Stockholm den 1 oktober 2003 Carl-Axel Roslund (m)
+          <p xml:id="i-QT7gGvEhVKkLpv6TSYmSPw" type="date">
+            Stockholm den 1 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-JKrMxSD42eFHbNGgzuVH5R">
+            Carl-Axel Roslund (m)
           </p>
         </div>
       </div>

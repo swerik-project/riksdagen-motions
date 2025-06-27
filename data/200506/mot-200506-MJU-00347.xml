@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00347">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-58S2PpLgCsLXsGw3aTq9ex">
           <note type="signatory" corresp="i-CetFkRWST91ShCPmaZKsM4"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PKkpgzFskiXbr5m4sQ85UZ">
+        <correspAction xml:id="i-PKkpgzFskiXbr5m4sQ85UZ" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QmmnQM1Mw1PEtya8VaELkJ">
+        <correspAction xml:id="i-QmmnQM1Mw1PEtya8VaELkJ" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MTYU1dd1VVzYSn3uq2LosS">
+        <correspAction xml:id="i-MTYU1dd1VVzYSn3uq2LosS" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Gjm7U5oqe47LrG2xYvQnRG"/>
+        <correspAction xml:id="i-Gjm7U5oqe47LrG2xYvQnRG" type="assigned"/>
         <correspContext corresp="i-Gjm7U5oqe47LrG2xYvQnRG">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_347/mot_200506_MJ_347-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EMpkPs6zCbKmXpmuMJHNfi">
-        <div type="motTitle" xml:id="i-WRkaXKQZQddQkM9KWLJg6E"/>
-        <div type="motSubmissionInfo" xml:id="i-GZYmLyJPi18wJ1Hvwds3uy"/>
+      <div xml:id="i-EMpkPs6zCbKmXpmuMJHNfi" type="motHeader">
+        <div xml:id="i-WRkaXKQZQddQkM9KWLJg6E" type="motTitle"/>
+        <div xml:id="i-GZYmLyJPi18wJ1Hvwds3uy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-91RUfH2E53uoT3GvsyUs8w">
+      <div xml:id="i-91RUfH2E53uoT3GvsyUs8w" type="motBody">
         <div xml:id="i-Eh5fWntyLL1FUSq89cX82R">
           <p xml:id="i-K3AyFba4WkuZpo39GNhg4m">
             2005/06 mnr: MJ347 pnr: c572
@@ -129,8 +129,11 @@
             respektive ges bygglov vid ges rätten att själva utforma reglerna
             för strandskyddet.
           </p>
-          <p xml:id="i-L78GedqAnUUKWeYLa8oP7Q">
-            Stockholm den 28 september 2005 Jan Andersson (c)
+          <p xml:id="i-L78GedqAnUUKWeYLa8oP7Q" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-7Zgon7dUxKJnzMw4HWJGr4">
+            Jan Andersson (c)
           </p>
         </div>
       </div>

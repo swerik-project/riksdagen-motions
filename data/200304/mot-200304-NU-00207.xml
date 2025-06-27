@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-NU-00207">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-GYkkiH76dDwbRuKJM7Bghm">
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KzBxu68WqHSTEmUiyx3SCZ">
+        <correspAction xml:id="i-KzBxu68WqHSTEmUiyx3SCZ" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GUqNhzWsMyAGGxdXk19ucZ">
+        <correspAction xml:id="i-GUqNhzWsMyAGGxdXk19ucZ" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BVzEAzTGZfckckexd8Bkcb">
+        <correspAction xml:id="i-BVzEAzTGZfckckexd8Bkcb" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9Y8pSjzVvPpP4MHhQwc2TP"/>
+        <correspAction xml:id="i-9Y8pSjzVvPpP4MHhQwc2TP" type="assigned"/>
         <correspContext corresp="i-9Y8pSjzVvPpP4MHhQwc2TP">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_N_0207/mot_200304_N_0207-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6aFnLCc2Df1m9fNnHhRxjo">
-        <div type="motTitle" xml:id="i-SYvN7Q4hgUPpfRQY8uv3uo"/>
-        <div type="motSubmissionInfo" xml:id="i-JEASYWQCErdRjstJPwtabB"/>
+      <div xml:id="i-6aFnLCc2Df1m9fNnHhRxjo" type="motHeader">
+        <div xml:id="i-SYvN7Q4hgUPpfRQY8uv3uo" type="motTitle"/>
+        <div xml:id="i-JEASYWQCErdRjstJPwtabB" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YDa8AP4mZit3jgTigmqGhD">
+      <div xml:id="i-YDa8AP4mZit3jgTigmqGhD" type="motBody">
         <div xml:id="i-X1kQ6bS31413TjstExWgh2">
           <p xml:id="i-3f39Qp8N1rXui7vxCyNaWe">
             2003/04 mnr: N207 pnr: kd501
@@ -181,8 +181,11 @@
           <p xml:id="i-JpyrDvg4FQpfVaFcPtdNPe">
             2003/04:N207
           </p>
-          <p xml:id="i-RXaSC56LErMhK6cEYGB3y">
-            Stockholm den 23 september 2003 Ragnwi Marcelind (kd)
+          <p xml:id="i-RXaSC56LErMhK6cEYGB3y" type="date">
+            Stockholm den 23 september 2003
+          </p>
+          <p type="signatureBlock" id="i-J3vPFZBXLknacSk2rVCyxT">
+            Ragnwi Marcelind (kd)
           </p>
         </div>
       </div>

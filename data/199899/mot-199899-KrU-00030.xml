@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-KrU-00030">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="woman">
             <idno>i-h1aVBzexdmWPt4dFvXiYA</idno>
-            <name>Inger Davidson </name>
+            <name>Inger Davidson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-EruHaNuq8b5NdZwmhDTx8P"/>
+        <correspAction xml:id="i-EruHaNuq8b5NdZwmhDTx8P" type="basedOn"/>
         <correspContext corresp="i-EruHaNuq8b5NdZwmhDTx8P">
           <ref>Proposition 1998/99:115</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-h1aVBzexdmWPt4dFvXiYA"/>
           <note type="signatory" corresp="i-h1aVBzexdmWPt4dFvXiYA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MKpdMp6u6E4ENycgBG6GNP">
+        <correspAction xml:id="i-MKpdMp6u6E4ENycgBG6GNP" type="referral">
           <date when="1999-05-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Jq27YHC1dUFyTduHkfWthJ">
+        <correspAction xml:id="i-Jq27YHC1dUFyTduHkfWthJ" type="dismissal">
           <date when="1999-05-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EfsboXWXHN5jMSQdDrLXSB">
+        <correspAction xml:id="i-EfsboXWXHN5jMSQdDrLXSB" type="submission">
           <date when="1999-05-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-G8s3pPLXFcZJGeSeuizs4z">
+        <correspAction xml:id="i-G8s3pPLXFcZJGeSeuizs4z" type="referral">
           <date when="1999-05-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NvnEzUB4bhRZyW81oVcdER">
+        <correspAction xml:id="i-NvnEzUB4bhRZyW81oVcdER" type="dismissal">
           <date when="1999-05-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BKK4B1ZTbXfioaYyPvvb6y">
+        <correspAction xml:id="i-BKK4B1ZTbXfioaYyPvvb6y" type="submission">
           <date when="1999-05-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3D4uAcrFnW7DrexMDf6xmY"/>
+        <correspAction xml:id="i-3D4uAcrFnW7DrexMDf6xmY" type="assigned"/>
         <correspContext corresp="i-3D4uAcrFnW7DrexMDf6xmY">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Kr_0030/mot_199899_Kr_0030-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DKEird4V4se48oiZvRFTSr">
-        <div type="motTitle" xml:id="i-MCCsYrMHFPr4gvDpq2Vb4i"/>
-        <div type="motSubmissionInfo" xml:id="i-445VejWmgtWr18gDLb9323"/>
+      <div xml:id="i-DKEird4V4se48oiZvRFTSr" type="motHeader">
+        <div xml:id="i-MCCsYrMHFPr4gvDpq2Vb4i" type="motTitle"/>
+        <div xml:id="i-445VejWmgtWr18gDLb9323" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-EM5KvDcCcAoVasUPj2ai4s">
+      <div xml:id="i-EM5KvDcCcAoVasUPj2ai4s" type="motBody">
         <div xml:id="i-7aPvDezp8f2nUCBzwPQUxK">
           <p xml:id="i-J6X5Q4qN6rj4Eapj3ptsgr">
             1998/99 Kr30 Kr30
@@ -1288,11 +1288,14 @@
             sektorn i utformandet av samarbetsprojekt mellan Ungdomsstyrelsen,
             svenska EU-programkontoret och Sida.
           </p>
-          <p xml:id="i-PWtjbgThFBCP9Z4kiXaEic">
-            Stockholm den 21 maj 1999 Inger Davidson (kd) Dan Kihlström (kd)
-            Magnus Jacobsson (kd) Yvonne Andersson (kd) Lars Gustafsson (kd)
-            Kenneth Lantz (kd) Desirée Pethrus Engström (kd) Fanny Rizell
-            (kd) Ingvar Svensson (kd)
+          <p xml:id="i-PWtjbgThFBCP9Z4kiXaEic" type="date">
+            Stockholm den 21 maj 1999
+          </p>
+          <p type="signatureBlock" id="i-SsQXDf1N16aZcgH1k31UGm">
+            Inger Davidson (kd) Dan Kihlström (kd) Magnus Jacobsson (kd)
+            Yvonne Andersson (kd) Lars Gustafsson (kd) Kenneth Lantz (kd)
+            Desirée Pethrus Engström (kd) Fanny Rizell (kd) Ingvar Svensson
+            (kd)
           </p>
           <p xml:id="i-SaxB5hEwGN616QczF9rJrh">
             Erling Wälivaara (kd)

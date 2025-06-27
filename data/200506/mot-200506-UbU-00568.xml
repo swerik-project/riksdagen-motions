@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00568">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-XvdGNU5wNmbTiaurFoUuPb"/>
           <note type="signatory" corresp="i-QMDwkhc4AcuaCPrQxkeYYk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FCwRte6zAiDnPNCG6qa58v">
+        <correspAction xml:id="i-FCwRte6zAiDnPNCG6qa58v" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Mw24KebZQ9tLGZQQL2PbRC">
+        <correspAction xml:id="i-Mw24KebZQ9tLGZQQL2PbRC" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KjfxuNHK1NbvcbsP22NMyL">
+        <correspAction xml:id="i-KjfxuNHK1NbvcbsP22NMyL" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CLrsxhmWbE4sgjBJx7qbtq"/>
+        <correspAction xml:id="i-CLrsxhmWbE4sgjBJx7qbtq" type="assigned"/>
         <correspContext corresp="i-CLrsxhmWbE4sgjBJx7qbtq">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_568/mot_200506_Ub_568-0001.pdf"/>
-      <div type="motHeader" xml:id="i-N8ui6EC494C4WeeNnSvHHs">
-        <div type="motTitle" xml:id="i-391fjzVHX1n3huRVrwnsBg"/>
-        <div type="motSubmissionInfo" xml:id="i-GfqsZEPRQyqu89yTUeGskm"/>
+      <div xml:id="i-N8ui6EC494C4WeeNnSvHHs" type="motHeader">
+        <div xml:id="i-391fjzVHX1n3huRVrwnsBg" type="motTitle"/>
+        <div xml:id="i-GfqsZEPRQyqu89yTUeGskm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VBQyh8UD9BvWmRcXA4jzst">
+      <div xml:id="i-VBQyh8UD9BvWmRcXA4jzst" type="motBody">
         <div xml:id="i-6zQwB3cZv6LX7M43C8apqg">
           <p xml:id="i-BCgJ3u2stLobcvhz7FbaJF">
             2005/06 mnr: Ub568 pnr: s14020
@@ -140,9 +140,11 @@
             inte minst vad gäller konsekvenserna av det låga anslaget per
             studerande som gäller på utbildningen.
           </p>
-          <p xml:id="i-JZ4gccWLNrBaMYSb2iKKrQ">
-            Stockholm den 30 september 2005 Eva Arvidsson (s) Berndt Ekholm
-            (s)
+          <p xml:id="i-JZ4gccWLNrBaMYSb2iKKrQ" type="date">
+            Stockholm den 30 september 2005
+          </p>
+          <p type="signatureBlock" id="i-NNPCaTXsCgRtvXT6wgLQ6Z">
+            Eva Arvidsson (s) Berndt Ekholm (s)
           </p>
         </div>
       </div>

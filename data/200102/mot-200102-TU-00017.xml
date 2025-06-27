@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-TU-00017">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-vxtTfzHHk7PrFypfZCF8C"/>
+        <correspAction xml:id="i-vxtTfzHHk7PrFypfZCF8C" type="basedOn"/>
         <correspContext corresp="i-vxtTfzHHk7PrFypfZCF8C">
           <ref>Proposition 2001/02:20</ref>
         </correspContext>
@@ -50,22 +50,22 @@
           <note type="signatory" corresp="i-7Fnps4HB4T8k2Yc71rfops"/>
           <note type="signatory" corresp="i-T9dFBJ1pv742mQeG3uLBtA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4VvNeCjHA2xvosvJ6ji9xF">
+        <correspAction xml:id="i-4VvNeCjHA2xvosvJ6ji9xF" type="referral">
           <date when="2001-10-23"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-39Y5qLjJsRQdDf5qWnzqtS">
+        <correspAction xml:id="i-39Y5qLjJsRQdDf5qWnzqtS" type="reviewing">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-TyV5XeNfXRTSCmhf66NXNp">
+        <correspAction xml:id="i-TyV5XeNfXRTSCmhf66NXNp" type="registration">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WxnQv3x3f5u7hjQEpFDsPg">
+        <correspAction xml:id="i-WxnQv3x3f5u7hjQEpFDsPg" type="dismissal">
           <date when="2001-10-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GhswBdkoDSatMkDjHeB7v4">
+        <correspAction xml:id="i-GhswBdkoDSatMkDjHeB7v4" type="submission">
           <date when="2001-10-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Tw7pniovsyfYHx1ar6dUF9"/>
+        <correspAction xml:id="i-Tw7pniovsyfYHx1ar6dUF9" type="assigned"/>
         <correspContext corresp="i-Tw7pniovsyfYHx1ar6dUF9">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -80,11 +80,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_T_0017/mot_200102_T_0017-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Cr651fV8hrppFP1fUU75sJ">
-        <div type="motTitle" xml:id="i-Ue2nCw8nGcwNBPsReNK6dQ"/>
-        <div type="motSubmissionInfo" xml:id="i-PNDZnDycDAHodkUKSVJYp6"/>
+      <div xml:id="i-Cr651fV8hrppFP1fUU75sJ" type="motHeader">
+        <div xml:id="i-Ue2nCw8nGcwNBPsReNK6dQ" type="motTitle"/>
+        <div xml:id="i-PNDZnDycDAHodkUKSVJYp6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5JDk6d4cfmiXCKLmTkkUaR">
+      <div xml:id="i-5JDk6d4cfmiXCKLmTkkUaR" type="motBody">
         <div xml:id="i-NWCjxkHjbYqupWar4KGVAJ">
           <p xml:id="i-CUECmFFRBmnUUbqG4p3CLJ">
             2001/02 mnr: T17 pnr: kd122
@@ -105,8 +105,8 @@
           <p xml:id="i-B6H9YJnyu9wBKBvTSoyUaQ">
             1. Riksdagen tillkännager för regeringen som sin mening vad i
             motionen anförs om att införa PPP-lösningar. 2. Riksdagen tillkännager
-            för regeringen som sin mening vad i motionen anförs om =&lt;att bibehålla
-            det regionala ansvaret = för infrastrukturinvesteringar.
+            för regeringen som sin mening vad i motionen anförs om =&lt;att
+            bibehålla det regionala ansvaret = för infrastrukturinvesteringar.
           </p>
           <p xml:id="i-4MYaYYycs4J21wrKqZbkjY">
             Motivering
@@ -172,9 +172,11 @@
             PPP-lösningar. Med den ordningen kan ett modernt och effektivt
             transportnät skapas i Sverige.
           </p>
-          <p xml:id="i-6ifn1nERPEYmnSodi5Ed3s">
-            Stockholm den 18 oktober 2001 Magda Ayoub (kd) Margareta Viklund
-            (kd)
+          <p xml:id="i-6ifn1nERPEYmnSodi5Ed3s" type="date">
+            Stockholm den 18 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-XRRj8JxKYxm2J8DfNeFWph">
+            Magda Ayoub (kd) Margareta Viklund (kd)
           </p>
         </div>
       </div>

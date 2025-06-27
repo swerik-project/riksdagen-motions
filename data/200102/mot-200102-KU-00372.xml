@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-KU-00372">
   <teiHeader>
     <fileDesc>
@@ -38,34 +38,34 @@
         <correspContext corresp="i-A6n3jJ8BtjaFM4p8sP9DDR">
           <note type="signatory" corresp="i-nX9ipUS8FhkbQHkWWytwf"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-81XLSs8tLJn9RnkgCpX9uy">
+        <correspAction xml:id="i-81XLSs8tLJn9RnkgCpX9uy" type="referral">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AJ3QZavrJd3MwsRwfCC2M3">
+        <correspAction xml:id="i-AJ3QZavrJd3MwsRwfCC2M3" type="dismissal">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-RfXhVyTT3W1ByczU48jqQH">
+        <correspAction xml:id="i-RfXhVyTT3W1ByczU48jqQH" type="termination">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-w4MHq9MsXFRLaqJhpQ3hQ">
+        <correspAction xml:id="i-w4MHq9MsXFRLaqJhpQ3hQ" type="submission">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-Q3EkuB1JoybpWobaFVu2HJ">
+        <correspAction xml:id="i-Q3EkuB1JoybpWobaFVu2HJ" type="numbering">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-Fw3JzSgD3fCGa83u189xJX">
+        <correspAction xml:id="i-Fw3JzSgD3fCGa83u189xJX" type="proposed_referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-PKWrmMfsL6JYsW7p34FdLX">
+        <correspAction xml:id="i-PKWrmMfsL6JYsW7p34FdLX" type="committee_proposal">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-NUitzbvUiGDhKzWg5jtfk4">
+        <correspAction xml:id="i-NUitzbvUiGDhKzWg5jtfk4" type="reviewing">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-6D8VXZEUxppU4wcShHSSye">
+        <correspAction xml:id="i-6D8VXZEUxppU4wcShHSSye" type="registration">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UeE63fXzCFnzXNSCRx4RJq"/>
+        <correspAction xml:id="i-UeE63fXzCFnzXNSCRx4RJq" type="assigned"/>
         <correspContext corresp="i-UeE63fXzCFnzXNSCRx4RJq">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -80,11 +80,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_K_0372/mot_200102_K_0372-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DWXsbR4dfw7RiXQte6VqhD">
-        <div type="motTitle" xml:id="i-ZFBWhmifgpLp6TM9gpdYG"/>
-        <div type="motSubmissionInfo" xml:id="i-MFoPf2ATBYYYmSR8VhymfH"/>
+      <div xml:id="i-DWXsbR4dfw7RiXQte6VqhD" type="motHeader">
+        <div xml:id="i-ZFBWhmifgpLp6TM9gpdYG" type="motTitle"/>
+        <div xml:id="i-MFoPf2ATBYYYmSR8VhymfH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MzkzbY1yJ73xvm95AGuZi6">
+      <div xml:id="i-MzkzbY1yJ73xvm95AGuZi6" type="motBody">
         <div xml:id="i-N1E8giBiCPA3y21YepZ11J">
           <p xml:id="i-RFHioaWYnHnMCyFze8UFWY">
             2001/02 mnr: K372 pnr: fp502
@@ -184,8 +184,11 @@
             intresse finns bland företrädare för de andra försöksregionerna
             bör även deras försöksverksamhet övergå i permanent organisation.
           </p>
-          <p xml:id="i-D9GtQLMPfLH54M8Xhm4yyL">
-            Stockholm den 1 oktober 2001 Ulf Nilsson (fp)
+          <p xml:id="i-D9GtQLMPfLH54M8Xhm4yyL" type="date">
+            Stockholm den 1 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-HsWxa1Bn1rso6c2WksG9Xe">
+            Ulf Nilsson (fp)
           </p>
         </div>
       </div>

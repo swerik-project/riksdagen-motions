@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00233">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-5vhrhHRdTPVq1EoiRx9j1M">
           <note type="signatory" corresp="i-4sBVpXefsL1CF7kS8shrq5"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YXmtaPSqgZBSqB6oRvj4Rw">
+        <correspAction xml:id="i-YXmtaPSqgZBSqB6oRvj4Rw" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2n4KQFnpg6J4WwLA4qhdLB">
+        <correspAction xml:id="i-2n4KQFnpg6J4WwLA4qhdLB" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9mgADcxtEsnaai1XZJyrpm">
+        <correspAction xml:id="i-9mgADcxtEsnaai1XZJyrpm" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Ejgy84vHmxKGHVht8rhUx9"/>
+        <correspAction xml:id="i-Ejgy84vHmxKGHVht8rhUx9" type="assigned"/>
         <correspContext corresp="i-Ejgy84vHmxKGHVht8rhUx9">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ub_0233/mot_200304_Ub_0233-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FopA1CBNjC81AW278jGL38">
-        <div type="motTitle" xml:id="i-VBLHVc9wSH8ZqsuBtQRdjB"/>
-        <div type="motSubmissionInfo" xml:id="i-RKvYAGo2jfRnUritaWM8AP"/>
+      <div xml:id="i-FopA1CBNjC81AW278jGL38" type="motHeader">
+        <div xml:id="i-VBLHVc9wSH8ZqsuBtQRdjB" type="motTitle"/>
+        <div xml:id="i-RKvYAGo2jfRnUritaWM8AP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AZYNbSJPBifZJ1MFWyj9N3">
+      <div xml:id="i-AZYNbSJPBifZJ1MFWyj9N3" type="motBody">
         <div xml:id="i-LwgLM9LZe7vB6TRnyp5bum">
           <p xml:id="i-mj5kz5HKvs4Y56bNxetnc">
             2003/04 mnr: Ub233 pnr: fp205
@@ -136,8 +136,11 @@
             på lika villkor av alla forskare som är aktiva inom egentliga
             Östersjön.
           </p>
-          <p xml:id="i-3aKJ1YCryAikn54AwwyUtk">
-            Stockholm den 26 september 2003 Sverker Thorén (fp)
+          <p xml:id="i-3aKJ1YCryAikn54AwwyUtk" type="date">
+            Stockholm den 26 september 2003
+          </p>
+          <p type="signatureBlock" id="i-Mhci2ztTnezptwThZ1a51o">
+            Sverker Thorén (fp)
           </p>
         </div>
       </div>

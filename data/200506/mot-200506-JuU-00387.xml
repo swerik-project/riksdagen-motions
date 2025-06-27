@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00387">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-DXt2p5z4v3LVkjF7H3Ky9n">
           <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SrGwEXWTfWvuRBVC9hEfEc">
+        <correspAction xml:id="i-SrGwEXWTfWvuRBVC9hEfEc" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-R8H3f2UgiKw3gZE2NryfYh">
+        <correspAction xml:id="i-R8H3f2UgiKw3gZE2NryfYh" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MAyQY9xBeV7skoDSPLu99w">
+        <correspAction xml:id="i-MAyQY9xBeV7skoDSPLu99w" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RSCTB8wwNdzKnAaA8YDuLG"/>
+        <correspAction xml:id="i-RSCTB8wwNdzKnAaA8YDuLG" type="assigned"/>
         <correspContext corresp="i-RSCTB8wwNdzKnAaA8YDuLG">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_387/mot_200506_Ju_387-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5JNzX6q6LDbJBt1AvF8kRL">
-        <div type="motTitle" xml:id="i-W96WRfpV8hTLF4f7KyUzdd"/>
-        <div type="motSubmissionInfo" xml:id="i-QTN2dA1bgiRjDyxPRgPDXm"/>
+      <div xml:id="i-5JNzX6q6LDbJBt1AvF8kRL" type="motHeader">
+        <div xml:id="i-W96WRfpV8hTLF4f7KyUzdd" type="motTitle"/>
+        <div xml:id="i-QTN2dA1bgiRjDyxPRgPDXm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JBSug2ywTVM96K4Ak5pL6z">
+      <div xml:id="i-JBSug2ywTVM96K4Ak5pL6z" type="motBody">
         <div xml:id="i-USVWxcaXXJfJCjPYx2ruwr">
           <p xml:id="i-GaPenkbPenVD7CZaMyBTAw">
             2005/06 mnr: Ju387 pnr: kd658
@@ -410,8 +410,11 @@
             uttrycka sitt stöd för ”Arms Trade Treaty”, ramverksfördraget
             rörande internationella vapenöverföringar.
           </p>
-          <p xml:id="i-5BP9Yuh9t9QowoNqH9LTue">
-            Stockholm den 27 september 2005 Erling Wälivaara (kd)
+          <p xml:id="i-5BP9Yuh9t9QowoNqH9LTue" type="date">
+            Stockholm den 27 september 2005
+          </p>
+          <p type="signatureBlock" id="i-PDEE2sV4dq1P8mG7XUam6F">
+            Erling Wälivaara (kd)
           </p>
         </div>
       </div>

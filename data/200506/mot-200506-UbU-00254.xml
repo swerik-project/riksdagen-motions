@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00254">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-RbBu9zqyJgXPK5z3JhYQLd">
           <note type="signatory" corresp="i-BijAhigzcR1MHdRoo4YtH5"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JjbjJNS2m1WAfNWCU8mgR9">
+        <correspAction xml:id="i-JjbjJNS2m1WAfNWCU8mgR9" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JBAmC7bFk31Q1Vm88CCUKG">
+        <correspAction xml:id="i-JBAmC7bFk31Q1Vm88CCUKG" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GEZK6m8q9JXQpecudEWWdQ">
+        <correspAction xml:id="i-GEZK6m8q9JXQpecudEWWdQ" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CyoxJoa4RxjkB86aZdFskG"/>
+        <correspAction xml:id="i-CyoxJoa4RxjkB86aZdFskG" type="assigned"/>
         <correspContext corresp="i-CyoxJoa4RxjkB86aZdFskG">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_254/mot_200506_Ub_254-0001.pdf"/>
-      <div type="motHeader" xml:id="i-A6xCZ2mQAV6jPbdtAjP1hm">
-        <div type="motTitle" xml:id="i-UXFKiYCtK4fT5qvaY7DZiX"/>
-        <div type="motSubmissionInfo" xml:id="i-5vxJqqnxRPiFewiVSAWvor"/>
+      <div xml:id="i-A6xCZ2mQAV6jPbdtAjP1hm" type="motHeader">
+        <div xml:id="i-UXFKiYCtK4fT5qvaY7DZiX" type="motTitle"/>
+        <div xml:id="i-5vxJqqnxRPiFewiVSAWvor" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PrF4EYYr2fnT74Pm9amfJ7">
+      <div xml:id="i-PrF4EYYr2fnT74Pm9amfJ7" type="motBody">
         <div xml:id="i-PgySedE5DquTCFfJPKZu2S">
           <p xml:id="i-RmcvmTEGwAMr1N8BmzRrGX">
             2005/06 mnr: Ub254 pnr: fp950
@@ -131,8 +131,11 @@
             en fördel är att länet rent geografiskt ligger i en region där
             en tredjedel av landets invånare är bosatta.
           </p>
-          <p xml:id="i-JYwQMn8eU6pasVG81jMWv">
-            Stockholm den 26 september 2005 Liselott Hagberg (fp)
+          <p xml:id="i-JYwQMn8eU6pasVG81jMWv" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-3b6QRdyu5AT7wRhbGxpMsD">
+            Liselott Hagberg (fp)
           </p>
         </div>
       </div>

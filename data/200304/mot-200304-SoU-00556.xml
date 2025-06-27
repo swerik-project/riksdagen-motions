@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00556">
   <teiHeader>
     <fileDesc>
@@ -62,16 +62,16 @@
           <note type="signatory" corresp="i-Spsbo7A5zikEeUY3JEYcNV"/>
           <note type="signatory" corresp="i-4dHfDoweVJM2iAJu9BCQqo"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UNDJHXZ3cMRXSwkfrYHz7w">
+        <correspAction xml:id="i-UNDJHXZ3cMRXSwkfrYHz7w" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QzgzGVkUVriK25CaVuRqf8">
+        <correspAction xml:id="i-QzgzGVkUVriK25CaVuRqf8" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NyLssRwQ74eaTHfRzFsjrr">
+        <correspAction xml:id="i-NyLssRwQ74eaTHfRzFsjrr" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-W8VxNrSoSdNmih7uhPqNKF"/>
+        <correspAction xml:id="i-W8VxNrSoSdNmih7uhPqNKF" type="assigned"/>
         <correspContext corresp="i-W8VxNrSoSdNmih7uhPqNKF">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -86,11 +86,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0556/mot_200304_So_0556-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6bGUT2zJMWcGknmCaRrgPb">
-        <div type="motTitle" xml:id="i-T4mYbzpcJuBK8S3xE5WY3f"/>
-        <div type="motSubmissionInfo" xml:id="i-6Ef6NPsLHAtuhCXj1xs69G"/>
+      <div xml:id="i-6bGUT2zJMWcGknmCaRrgPb" type="motHeader">
+        <div xml:id="i-T4mYbzpcJuBK8S3xE5WY3f" type="motTitle"/>
+        <div xml:id="i-6Ef6NPsLHAtuhCXj1xs69G" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CseniuGrVEyrnCp9fTfbtM">
+      <div xml:id="i-CseniuGrVEyrnCp9fTfbtM" type="motBody">
         <div xml:id="i-7mi2iHo6cUMc8gj3c6xe8c">
           <p xml:id="i-2QjhieDSteE9zD8Ey38ixj">
             2003/04 mnr: S0556 pnr: s7150
@@ -176,8 +176,11 @@
             nationella taxan samt kostnaderna för den medicinska service som
             de konsumerat.
           </p>
-          <p xml:id="i-5KWogapmPRk3oCuvJv5cjY">
-            Stockholm den 7 oktober 2003 Christina Axelsson (s)
+          <p xml:id="i-5KWogapmPRk3oCuvJv5cjY" type="date">
+            Stockholm den 7 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-G7GhyMiKZ168PWmcZgLbPR">
+            Christina Axelsson (s)
           </p>
         </div>
       </div>

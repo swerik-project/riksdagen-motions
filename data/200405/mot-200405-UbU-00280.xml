@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00280">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-KbCPrn2WHoNkFm3rfGxrqb">
           <note type="signatory" corresp="i-BvxBJicYo5FW1E9fuXk8LW"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2GyEZgeUCTLdZFhqpHJuSk">
+        <correspAction xml:id="i-2GyEZgeUCTLdZFhqpHJuSk" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WohPrD6iSfYixiVphkPkNC">
+        <correspAction xml:id="i-WohPrD6iSfYixiVphkPkNC" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6rBRobshNEL2K3EWAHahxr">
+        <correspAction xml:id="i-6rBRobshNEL2K3EWAHahxr" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-USzWjfDjzUUma9BW6QazpX"/>
+        <correspAction xml:id="i-USzWjfDjzUUma9BW6QazpX" type="assigned"/>
         <correspContext corresp="i-USzWjfDjzUUma9BW6QazpX">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_280/mot_200405_Ub_280-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QG9JfvLoFDdPshXNHBwP86">
-        <div type="motTitle" xml:id="i-83LiLDJWYeGRfoKNFgqNwd"/>
-        <div type="motSubmissionInfo" xml:id="i-BVkLJnXt3fudfo79wbmV88"/>
+      <div xml:id="i-QG9JfvLoFDdPshXNHBwP86" type="motHeader">
+        <div xml:id="i-83LiLDJWYeGRfoKNFgqNwd" type="motTitle"/>
+        <div xml:id="i-BVkLJnXt3fudfo79wbmV88" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-K3rnmtojewjvgntAYd7QR2">
+      <div xml:id="i-K3rnmtojewjvgntAYd7QR2" type="motBody">
         <div xml:id="i-D7oVFDwz173oNzRAh3BXcu">
           <p xml:id="i-6Wdnf8d2XQWFCFYQzXKB8q">
             2004/05 mnr: Ub280 pnr: v329
@@ -151,8 +151,11 @@
             inom området teknik. Detta bör riksdagen som sin mening ge regeringen
             till känna.
           </p>
-          <p xml:id="i-4gg9EEkRPNxed1Zm14G3d9">
-            Stockholm den 23 september 2004 Owe Hellberg (v)
+          <p xml:id="i-4gg9EEkRPNxed1Zm14G3d9" type="date">
+            Stockholm den 23 september 2004
+          </p>
+          <p type="signatureBlock" id="i-NWXtFMk6HdTDtn5VRfp1AR">
+            Owe Hellberg (v)
           </p>
         </div>
       </div>

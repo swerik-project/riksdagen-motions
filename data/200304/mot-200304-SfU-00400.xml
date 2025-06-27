@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00400">
   <teiHeader>
     <fileDesc>
@@ -118,16 +118,16 @@
           <note type="signatory" corresp="i-839FvTzHpvrdX4J7ckfWSt"/>
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VdFRWWfwmvi5DKVvngFwP5">
+        <correspAction xml:id="i-VdFRWWfwmvi5DKVvngFwP5" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-F3eoBGkDXNVDGVMaQUc7Fq">
+        <correspAction xml:id="i-F3eoBGkDXNVDGVMaQUc7Fq" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-zPdjyqGLenkDK5Q5zpqr3">
+        <correspAction xml:id="i-zPdjyqGLenkDK5Q5zpqr3" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AbkjScsoMyQafYRDT9u1hL"/>
+        <correspAction xml:id="i-AbkjScsoMyQafYRDT9u1hL" type="assigned"/>
         <correspContext corresp="i-AbkjScsoMyQafYRDT9u1hL">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -142,11 +142,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0400/mot_200304_Sf_0400-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6QXSP6xWzmQZhdP1hFwbCA">
-        <div type="motTitle" xml:id="i-JoNByRyXEcr3A2e9ZBrDkj"/>
-        <div type="motSubmissionInfo" xml:id="i-3U4XBEY1yaFt7hLKdaFTCk"/>
+      <div xml:id="i-6QXSP6xWzmQZhdP1hFwbCA" type="motHeader">
+        <div xml:id="i-JoNByRyXEcr3A2e9ZBrDkj" type="motTitle"/>
+        <div xml:id="i-3U4XBEY1yaFt7hLKdaFTCk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6zBSu2G1JwLarwEJkrwcfQ">
+      <div xml:id="i-6zBSu2G1JwLarwEJkrwcfQ" type="motBody">
         <div xml:id="i-T45LudZKukikwX1EvuMbBF">
           <p xml:id="i-4qDCNh8jqgET1NGWvoFu7k">
             2003/04 mnr: Sf400
@@ -674,8 +674,11 @@
             anser att det behövs en grundlig regelförändring när det gäller
             underhållsstödet.
           </p>
-          <p xml:id="i-YMp15vvePRDvSHtHWp9k8v">
-            Stockholm den 7 oktober 2003 Inger Davidson (kd)
+          <p xml:id="i-YMp15vvePRDvSHtHWp9k8v" type="date">
+            Stockholm den 7 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-EY8Jdxne7CfuKa8XgHCrsL">
+            Inger Davidson (kd)
           </p>
           <p xml:id="i-65gMtF5reHNukTLofpmgbV">
             Dan Kihlström (kd) Chatrine Pålsson (kd) Kenneth Lantz (kd) Gunilla

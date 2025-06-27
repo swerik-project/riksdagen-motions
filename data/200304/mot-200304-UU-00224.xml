@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UU-00224">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-6Q14mVAEcj4d45ZDTEmFhF">
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5BoJWfLCKcDGrZ5imtRYJ2">
+        <correspAction xml:id="i-5BoJWfLCKcDGrZ5imtRYJ2" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4x2vf3hNLUpedPQ7dijbSX">
+        <correspAction xml:id="i-4x2vf3hNLUpedPQ7dijbSX" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Y6efTiPtqR7upwTY1K2Q4J">
+        <correspAction xml:id="i-Y6efTiPtqR7upwTY1K2Q4J" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PkoPZLjhLpAsS5YmSYBdf"/>
+        <correspAction xml:id="i-PkoPZLjhLpAsS5YmSYBdf" type="assigned"/>
         <correspContext corresp="i-PkoPZLjhLpAsS5YmSYBdf">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_U_0224/mot_200304_U_0224-0001.pdf"/>
-      <div type="motHeader" xml:id="i-24LFFNuQW5DPxRsQY1r4FK">
-        <div type="motTitle" xml:id="i-T5SqvYZWrCGMaetP6UciDD"/>
-        <div type="motSubmissionInfo" xml:id="i-5rNC9ke1BS11Q9oRYWZuTN"/>
+      <div xml:id="i-24LFFNuQW5DPxRsQY1r4FK" type="motHeader">
+        <div xml:id="i-T5SqvYZWrCGMaetP6UciDD" type="motTitle"/>
+        <div xml:id="i-5rNC9ke1BS11Q9oRYWZuTN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QDe3FH47RSGWsKSSrLWkvt">
+      <div xml:id="i-QDe3FH47RSGWsKSSrLWkvt" type="motBody">
         <div xml:id="i-2oYP22qPhihTmZc22QcJmc">
           <p xml:id="i-H8qWUnd6rn3RiYkDPpaswf">
             2003/04 mnr: U224 pnr: kd653
@@ -134,8 +134,11 @@
             bör också inom ramen för EU-sammarbetet aktivt verka för religionsfrihet
             i Europa och dess närhet.
           </p>
-          <p xml:id="i-Vy6VtPQRaHnPPSUZ7jPY1a">
-            Stockholm den 30 september 2003 Tuve Skånberg (kd)
+          <p xml:id="i-Vy6VtPQRaHnPPSUZ7jPY1a" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-C7n2oq69SzXfzKb56Zr9ih">
+            Tuve Skånberg (kd)
           </p>
         </div>
       </div>

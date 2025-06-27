@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-LU-00022">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-SfnrsjEZBg9vdQjkU5VSZ2</idno>
-            <name>Ian Wachtmeister </name>
+            <name>Ian Wachtmeister</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-HkXGTzvc5Z6H1Ccj4BwQ7U</idno>
-            <name>Richard Ulfvengren </name>
+            <name>Richard Ulfvengren</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-XAZuDYpjMWVDmo4L97UiJw</idno>
-            <name>John Bouvin </name>
+            <name>John Bouvin</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-M1y8hE4XSCGtLbozKMam83"/>
+        <correspAction xml:id="i-M1y8hE4XSCGtLbozKMam83" type="basedOn"/>
         <correspContext corresp="i-M1y8hE4XSCGtLbozKMam83">
           <ref>Proposition 1991/92:139</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-HkXGTzvc5Z6H1Ccj4BwQ7U"/>
           <note type="signatory" corresp="i-XAZuDYpjMWVDmo4L97UiJw"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Bs8inFYa5HpPd1CQdKjmhA">
+        <correspAction xml:id="i-Bs8inFYa5HpPd1CQdKjmhA" type="referral">
           <date when="1992-04-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3Axmf5dHpCTBwaKwuB8u1o">
+        <correspAction xml:id="i-3Axmf5dHpCTBwaKwuB8u1o" type="dismissal">
           <date when="1992-04-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QsYekoJUxZ1eyoXQu72EyN">
+        <correspAction xml:id="i-QsYekoJUxZ1eyoXQu72EyN" type="submission">
           <date when="1992-04-21"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-WUdG7UrXjhfmhXr71gRJJs">
+        <correspAction xml:id="i-WUdG7UrXjhfmhXr71gRJJs" type="referral">
           <date when="1992-04-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8kC5zdUw2SWpGsjYyjfpcf">
+        <correspAction xml:id="i-8kC5zdUw2SWpGsjYyjfpcf" type="dismissal">
           <date when="1992-04-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UtF7TnU4s2Qc9VrsSAgSko">
+        <correspAction xml:id="i-UtF7TnU4s2Qc9VrsSAgSko" type="submission">
           <date when="1992-04-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UQRaSu1y9WcjoyfEj2KnmV"/>
+        <correspAction xml:id="i-UQRaSu1y9WcjoyfEj2KnmV" type="assigned"/>
         <correspContext corresp="i-UQRaSu1y9WcjoyfEj2KnmV">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_LU_22/mot_199192_LU_22-001.pdf"/>
-      <div type="motHeader" xml:id="i-CY5SoEDYpTnUZfxXPfF5BE">
-        <div type="motTitle" xml:id="i-7dFL4aPEjCnTBGEQCdLJnN"/>
-        <div type="motSubmissionInfo" xml:id="i-EawGgWkfdfzr9466iTNHpt"/>
+      <div xml:id="i-CY5SoEDYpTnUZfxXPfF5BE" type="motHeader">
+        <div xml:id="i-7dFL4aPEjCnTBGEQCdLJnN" type="motTitle"/>
+        <div xml:id="i-EawGgWkfdfzr9466iTNHpt" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JHhQkxUmcqfQcCNCqyaoGi">
+      <div xml:id="i-JHhQkxUmcqfQcCNCqyaoGi" type="motBody">
         <div xml:id="i-PeNK1v8vqRP2mYMSHXDMoy">
           <p xml:id="i-HdBrdbpV8cQDxfuZE9J2Lx">
             Motion till riksdagen 1991/92:1.22
@@ -220,8 +220,11 @@
             gäller för arbetslöshetsförsäkringen, dvs. för när- varande 90
             20 av inkomsten, samt beräknas på lönedelar upp till 7,5 basbelopp.
           </p>
-          <p xml:id="i-HXmgsu3c8gdqgcopxZnABb">
-            Stockholm den 21 april 1992 Ian Wachtmeister (nyd)
+          <p xml:id="i-HXmgsu3c8gdqgcopxZnABb" type="date">
+            Stockholm den 21 april 1992
+          </p>
+          <p type="signatureBlock" id="i-KmMjZUbtduy2TiHVxrBHDK">
+            Ian Wachtmeister (nyd)
           </p>
           <p xml:id="i-4hf7gWumXNNgAWYkWVpemA">
             Richard Ulfvengren (nyd) John Bouvin (nyd)

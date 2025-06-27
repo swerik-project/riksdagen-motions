@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1926--ak--00382">
   <teiHeader>
     <fileDesc>
       <titleStmt/>
@@ -23,11 +23,11 @@
       <fw xml:id="i-KwtNP62XQBvTSs4Geq8Tsg">
         Motioner i Andra kammaren, Nr 382. 1
       </fw>
-      <div type="motHeader" xml:id="i-6n6UF9fB2DyFiicuTc4o8M">
-        <div type="motTitle" xml:id="i-DJbjBp5KRJp4kQKvuW43e4"/>
-        <div type="motSubmissionInfo" xml:id="i-82EZpTYJXVuYk7g2dxQc6o"/>
+      <div xml:id="i-6n6UF9fB2DyFiicuTc4o8M" type="motHeader">
+        <div xml:id="i-DJbjBp5KRJp4kQKvuW43e4" type="motTitle"/>
+        <div xml:id="i-82EZpTYJXVuYk7g2dxQc6o" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WqvPuZJ33AdHvSsMGQFNs5">
+      <div xml:id="i-WqvPuZJ33AdHvSsMGQFNs5" type="motBody">
         <div xml:id="i-Bttv25VZ7KngpBnZdhtDXH">
           <p xml:id="i-Ndane2xKG6ue1ZSwfJDXuF">
             Nr 382.
@@ -220,10 +220,10 @@
             sköterskorna, i enlighet med av medici- nalstyrelsen den 24 februari
             1921 i underdånigt utlåtande av- givet förslag.
           </p>
-          <p xml:id="i-G7NjFhxR9pn8MPsEk3K8Ad">
+          <p xml:id="i-G7NjFhxR9pn8MPsEk3K8Ad" type="date">
             Stockholm den 3 mars 1926.
           </p>
-          <p xml:id="i-XEAdM1PLta2RDLXVV6kbAd">
+          <p xml:id="i-XEAdM1PLta2RDLXVV6kbAd" type="signatureBlock">
             Gottfrid Karlsson, M. Chr. Jensen. Carl Lovén. Vadstena. Ernst
             Hage. J. H. Blomquist. Avskrift. Bilaga.
           </p>
@@ -361,26 +361,27 @@
           <p xml:id="i-BTkswLykMSK5RD8YiiK3pE">
             I I i Y r ke arbetstid! arbetstid | tim. | Tvätterska . « - :
             so» &amp;s « &amp; 1 240 | Kokerska . oss c- ss: | 202 | Köksbiträden
-            . . . . . . - «sv | 292 Bagerska « « = : + » om + &amp; | 292 | Lasarettet
-            i Falkenberg, Hallands län. | Vaktmästare . ........ | 267 | Garphytte
-            sanatorium, | Örebro län. Eldare. . ....... | -285!/2 | Chaufför
-            . «= « : = so» 6 &amp; | 271 I Gårdskarl « ; s &amp; ss 8 6 &amp; | 207 |
-            Sköterskebiträden . . . . . . . | d47/2 | Barnsköterska . . ...
-            cc. 302 Städerska om mer | - 258!/2 | Tvättbiträde . . ..... +
-            228 Bagerska. . ... .. .. + + 218!/2 Köksbiträde . . ...... .|
-            303 | Lasarettet i Haparanda, | Norrbottens län. | Maskinist 8
-            8 s hå FE | 208 Vaktmästare . . ..... . .| 208 I Köksbiträde .
-            .. sc. cc | 322 Tvättbiträde . . . . ... . . | 296 Hesselby sanatorium,
-            Jönköpings län. Eldare . . oc s ss os 0 cr 265!/4 | Dräng' « »
-            s sö: sc &amp; &amp; sm » | 265 | Sköterskebiträde . . . . . . . | 3831
-            | Bagerska. . .. «| 245!/2 | Baderska . | 232 | Underkokerska
-            d24/2 Telefonist . . . . ... . 2.) 26712 | Köksbiträde . . . ss.
-            299 | Serveringsbiträde . . . . . . . I 267 | Tvättbiträde . .
-            cs... cv 230 | Länslasarettet i Jönköping, | Jönköpings län. |
-            Eldare. ... . . sco cccs | 317 | Vaktmästare . ........ 302 Avdelningsbiträden
-            . . . . . .« 308!/2 Maskintvätterska . . . 3 | 220 | Angmangelbiträde
-            . . . . . . .« | 220 Köksbiträde . ........ | 347 | Lasarettet
-            i Hudiksvall, Gävleborgs län.
+            . . . . . . - «sv | 292 Bagerska « « = : + » om + &amp; | 292
+            | Lasarettet i Falkenberg, Hallands län. | Vaktmästare . ........
+            | 267 | Garphytte sanatorium, | Örebro län. Eldare. . .......
+            | -285!/2 | Chaufför . «= « : = so» 6 &amp; | 271 I Gårdskarl
+            « ; s &amp; ss 8 6 &amp; | 207 | Sköterskebiträden . . . . . .
+            . | d47/2 | Barnsköterska . . ... cc. 302 Städerska om mer | -
+            258!/2 | Tvättbiträde . . ..... + 228 Bagerska. . ... .. .. +
+            + 218!/2 Köksbiträde . . ...... .| 303 | Lasarettet i Haparanda,
+            | Norrbottens län. | Maskinist 8 8 s hå FE | 208 Vaktmästare .
+            . ..... . .| 208 I Köksbiträde . .. sc. cc | 322 Tvättbiträde
+            . . . . ... . . | 296 Hesselby sanatorium, Jönköpings län. Eldare
+            . . oc s ss os 0 cr 265!/4 | Dräng' « » s sö: sc &amp; &amp; sm
+            » | 265 | Sköterskebiträde . . . . . . . | 3831 | Bagerska. .
+            .. «| 245!/2 | Baderska . | 232 | Underkokerska d24/2 Telefonist
+            . . . . ... . 2.) 26712 | Köksbiträde . . . ss. 299 | Serveringsbiträde
+            . . . . . . . I 267 | Tvättbiträde . . cs... cv 230 | Länslasarettet
+            i Jönköping, | Jönköpings län. | Eldare. ... . . sco cccs | 317
+            | Vaktmästare . ........ 302 Avdelningsbiträden . . . . . .« 308!/2
+            Maskintvätterska . . . 3 | 220 | Angmangelbiträde . . . . . .
+            .« | 220 Köksbiträde . ........ | 347 | Lasarettet i Hudiksvall,
+            Gävleborgs län.
           </p>
           <p xml:id="i-Hn99BYjXaXGajFPJjHYMH4">
             | Maskinist
@@ -546,8 +547,8 @@
           <p xml:id="i-569iKUJ3nui36QNXUaJCQb">
             | Y r ke arbetstidlarbetstid Anmärkningar. | tim. tim. | Operationsbiträde
             . . . . . . «| 330 — Inkl. måltider. Beredskapstjänst vid ope-
-            | ration på natten. | Tvättbiträde . « « s « « « &amp; &amp; 237!'/2 —
-            Får dessutom tjänstgöra två timmar i kö- | ket varannan söndag.
+            | ration på natten. | Tvättbiträde . « « s « « « &amp; &amp; 237!'/2
+            — Får dessutom tjänstgöra två timmar i kö- | ket varannan söndag.
             Kokerska . , ss sc cc 314!/2 — ) Inkl. måltider.
           </p>
           <p xml:id="i-3HLVYFEmEfTwWy6XNHNAKB">
@@ -572,14 +573,14 @@
             . ........ 338 — Serveringsbiträden . ..... 312 = | Köksbiträden.
             . ....... 312 = fed rt tt 324 — V Arbetstiden obegränsad. | Tvättförestånderska
             . . . . . . 206 — Tvättbiträde . . —. .... 4 206 — Baderskä.s
-            s : = 6 ss 8 &amp; s «| 2386 — Köksbiträde . . .. .....| 284 =E Centrallasarettet
-            i Karlstad, Värmlands län. Maskinist . oo ocoococosc.oc.s. 228
-            — E1ldäfö: oo os 8 a NH 8 3 rä &amp; 228 — Ambulanschaufför . . .
-            . .. | 221 — Dessutom beredskapstjänst alla dagar den övriga tiden
-            av dygnet. Sköterskebiträde . . ..... 240 — Städerskå. : s = ss:
-            i: äs 225!/2 219 Tvättbiträde . ........ 228 — Kokerska . .........
-            228 — Köksbiträde . ........ 239 216 Bageribiträde . . . ......
-            228 —
+            s : = 6 ss 8 &amp; s «| 2386 — Köksbiträde . . .. .....| 284 =E
+            Centrallasarettet i Karlstad, Värmlands län. Maskinist . oo ocoococosc.oc.s.
+            228 — E1ldäfö: oo os 8 a NH 8 3 rä &amp; 228 — Ambulanschaufför
+            . . . . .. | 221 — Dessutom beredskapstjänst alla dagar den övriga
+            tiden av dygnet. Sköterskebiträde . . ..... 240 — Städerskå. :
+            s = ss: i: äs 225!/2 219 Tvättbiträde . ........ 228 — Kokerska
+            . ......... 228 — Köksbiträde . ........ 239 216 Bageribiträde
+            . . . ...... 228 —
           </p>
           <pb facs="riksdagen-motions-pdf/data/1926/mot_1926__ak__382/mot_1926__ak__382-010.pdf"/>
           <fw xml:id="i-KEcKvpJtPXnZxbLWSSiQmR">
@@ -602,9 +603,9 @@
             | 246 — Desutom beredskapstjänst var tredje natt. Natt-undersköterska
             . . . . . . 220 210 Inkl. måltider. Städerska . . oo. scoccc 268
             — Baderska.. « « « ss &amp; 8 &amp; x = 231 — Tvätterska . . ........
-            206 — Sömmerskö.; : = ss : &gt; 5 : 206 — Kökspersonal . . .. . .
-            sc c 228 — Moheds sanatorium, Gävleborgs län. Eldare . . oe 0
-            ca 213!/2 | 203!/4 DIräng . oss ss ss vvs 225 — Gårdskarl (trädgårdsmästare)
+            206 — Sömmerskö.; : = ss : &gt; 5 : 206 — Kökspersonal . . ..
+            . . sc c 228 — Moheds sanatorium, Gävleborgs län. Eldare . . oe
+            0 ca 213!/2 | 203!/4 DIräng . oss ss ss vvs 225 — Gårdskarl (trädgårdsmästare)
             207 = På grund av att dessa båda sysslor äro kombinerade är arbetstiden
             betydligt . . 2 längre under sommaren. Sjukvårdsbiträde . . .
             . . ..« 320!/a | 284 Städerska . . .......c 216 — Tvättbiträden
@@ -733,12 +734,13 @@
             Lasarettet i Växsjö, Kronobergs län.
           </p>
           <p xml:id="i-8DRPakbWxFtrri7WbgNVfQ">
-            Maskinist . . .... .... Eldärö' s s « « &amp; äs : r &amp; &amp; ä Vaktmästare
-            . . ... .. .. DJÄNE js öv os a osm 6 6 io 6 Sköterskebiträden
+            Maskinist . . .... .... Eldärö' s s « « &amp; äs : r &amp; &amp;
+            ä Vaktmästare . . ... .. .. DJÄNE js öv os a osm 6 6 io 6 Sköterskebiträden
             . . . . . . . Klinikbiträde . . . . . . . . 5 Städerskor . . ..
             cc coccc Tvätterskor . . cs sc ccc Tvättbiträden ..o. ...... Sömmerskor
-            . . ... .. ..c Kokörskös ss : &amp;s msn: vf Serveringsbiträde . .
-            . . . . . Köksbiträde . . ....... Telefonist . . os sc sc cc
+            . . ... .. ..c Kokörskös ss : &amp;s msn: vf Serveringsbiträde
+            . . . . . . . Köksbiträde . . ....... Telefonist . . os sc sc
+            cc
           </p>
           <p xml:id="i-3Xr48JsT2zNfSmxjQErzib">
             Lasarettet i Ängelholm, Kristianstads län.
@@ -769,9 +771,9 @@
             . .. . .
           </p>
           <p xml:id="i-WKMaDLKGZnFnSeLVhMJyr9">
-            Vaktmästare . .... . e.o... Dräng's : oss 8 8 &amp; äs &amp; Kokerska
-            . . ... cc cc0s Köksbiträde . . ..... cc Tvättbiträde . . ......
-            .
+            Vaktmästare . .... . e.o... Dräng's : oss 8 8 &amp; äs &amp;
+            Kokerska . . ... cc cc0s Köksbiträde . . ..... cc Tvättbiträde
+            . . ...... .
           </p>
           <p xml:id="i-Uqzw4oeGzo83haTvojcRZP">
             Längsta arbetstid tim.

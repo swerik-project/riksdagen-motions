@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00246">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-BUb5ZbNa3G5vfweaiJwCzN">
           <note type="signatory" corresp="i-BUYvEhrSc9gnHcd6iS4eDJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-L3dARPcAuqgjFWohijepxS">
+        <correspAction xml:id="i-L3dARPcAuqgjFWohijepxS" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NRcvxXxWDcYraKoGpLTCUC">
+        <correspAction xml:id="i-NRcvxXxWDcYraKoGpLTCUC" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6WXy5EL1zzDgBnoHE2dQcf">
+        <correspAction xml:id="i-6WXy5EL1zzDgBnoHE2dQcf" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BBLHbAu3vMqr58ht6LV2Nj"/>
+        <correspAction xml:id="i-BBLHbAu3vMqr58ht6LV2Nj" type="assigned"/>
         <correspContext corresp="i-BBLHbAu3vMqr58ht6LV2Nj">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_246/mot_200506_Sf_246-0001.pdf"/>
-      <div type="motHeader" xml:id="i-V4znvsjoVHWBvmoG2FdPms">
-        <div type="motTitle" xml:id="i-KjN1ZFFuyEbNJCwQBMJiKt"/>
-        <div type="motSubmissionInfo" xml:id="i-DudTCqZLby7XvGafKXEzJp"/>
+      <div xml:id="i-V4znvsjoVHWBvmoG2FdPms" type="motHeader">
+        <div xml:id="i-KjN1ZFFuyEbNJCwQBMJiKt" type="motTitle"/>
+        <div xml:id="i-DudTCqZLby7XvGafKXEzJp" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YQxH6gUi3QHn3ZUytLFRjR">
+      <div xml:id="i-YQxH6gUi3QHn3ZUytLFRjR" type="motBody">
         <div xml:id="i-Jdhx7QSfmx8VhvAPgyFJKD">
           <p xml:id="i-FJ289oNJQnJe47Y6F84fHK">
             2005/06 mnr: Sf246 pnr: fp396
@@ -138,8 +138,11 @@
             om utvecklingen beträffande längre sjukskrivningar och sjukersättning
             kan vändas.
           </p>
-          <p xml:id="i-P3rF5ZcSoTaMHAEZWbhCrd">
-            Stockholm den 29 september 2005 Allan Widman (fp)
+          <p xml:id="i-P3rF5ZcSoTaMHAEZWbhCrd" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-NnwtsC56SjAKefediwi5fb">
+            Allan Widman (fp)
           </p>
         </div>
       </div>

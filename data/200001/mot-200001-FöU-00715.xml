@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-FöU-00715">
   <teiHeader>
     <fileDesc>
@@ -46,28 +46,28 @@
           <note type="signatory" corresp="i-8f78XhQUuZ8RoeUoZAueFm"/>
           <note type="signatory" corresp="i-8f78XhQUuZ8RoeUoZAueFm"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-XsvG5YdwBr4DZ3nNYBHooJ">
+        <correspAction xml:id="i-XsvG5YdwBr4DZ3nNYBHooJ" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-B2hjMeBHShK9Rjb6L2xSof">
+        <correspAction xml:id="i-B2hjMeBHShK9Rjb6L2xSof" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8eG1U46n4NKn3uasCpmCce">
+        <correspAction xml:id="i-8eG1U46n4NKn3uasCpmCce" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6YYR6hKJBtt9WkZaJX8DqG">
+        <correspAction xml:id="i-6YYR6hKJBtt9WkZaJX8DqG" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-5pSoK91qtqmYR6KBxsoNXn">
+        <correspAction xml:id="i-5pSoK91qtqmYR6KBxsoNXn" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BNH5X9qJYramd6xyKrzHcp">
+        <correspAction xml:id="i-BNH5X9qJYramd6xyKrzHcp" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M3QMtpWDx6b51ZTFmsoQVP">
+        <correspAction xml:id="i-M3QMtpWDx6b51ZTFmsoQVP" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4D5RMwYdXMU2UkjGbC3BeN"/>
+        <correspAction xml:id="i-4D5RMwYdXMU2UkjGbC3BeN" type="assigned"/>
         <correspContext corresp="i-4D5RMwYdXMU2UkjGbC3BeN">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Fö_0715/mot_200001_Fö_0715-0001.pdf"/>
-      <div type="motHeader" xml:id="i-aVYMrkB7V4iAw3xYWVRao">
-        <div type="motTitle" xml:id="i-2oDwUXeogjYU2iQ8Cs68Px"/>
-        <div type="motSubmissionInfo" xml:id="i-CifqWkTgRwtV7nwAyzTBkh"/>
+      <div xml:id="i-aVYMrkB7V4iAw3xYWVRao" type="motHeader">
+        <div xml:id="i-2oDwUXeogjYU2iQ8Cs68Px" type="motTitle"/>
+        <div xml:id="i-CifqWkTgRwtV7nwAyzTBkh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CHGVAMZhuXJ16prbaAGG8b">
+      <div xml:id="i-CHGVAMZhuXJ16prbaAGG8b" type="motBody">
         <div xml:id="i-HWWBXChoMNbB7eD9Z5d1Nk">
           <p xml:id="i-66wMXkNneUfovK75YA4d38">
             28
@@ -157,8 +157,11 @@
             — rätt att få ersättning för inträffade skador, som inte omfattas
             av gällande försäkringar.
           </p>
-          <p xml:id="i-5kcaM6ZoecnHxcXwLMxKgD">
-            Stockholm den 3 oktober 2000 Per-Richard Molén (m)
+          <p xml:id="i-5kcaM6ZoecnHxcXwLMxKgD" type="date">
+            Stockholm den 3 oktober 2000
+          </p>
+          <p type="signatureBlock" id="i-VGNdf1n7wF6LE52go4EYbg">
+            Per-Richard Molén (m)
           </p>
         </div>
       </div>

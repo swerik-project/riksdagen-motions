@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-JuU-00012">
   <teiHeader>
     <fileDesc>
@@ -97,7 +97,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-H1bQfGYuD3diVxDXnWsszr"/>
+        <correspAction xml:id="i-H1bQfGYuD3diVxDXnWsszr" type="basedOn"/>
         <correspContext corresp="i-H1bQfGYuD3diVxDXnWsszr">
           <ref>Proposition 2000/01:79</ref>
         </correspContext>
@@ -114,28 +114,28 @@
           <note type="signatory" corresp="i-97ancH8vcZWM84VcKVCDX7"/>
           <note type="signatory" corresp="i-MAjkY7TMfvfsiuE3eArFUA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3cRFKrh9furFNbR81pvm4S">
+        <correspAction xml:id="i-3cRFKrh9furFNbR81pvm4S" type="referral">
           <date when="2001-04-04"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-LjE3ky1UHNf6w8cypwinKA">
+        <correspAction xml:id="i-LjE3ky1UHNf6w8cypwinKA" type="reviewing">
           <date when="2001-04-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9XLZJz3FcFu6bKwX51p1aP">
+        <correspAction xml:id="i-9XLZJz3FcFu6bKwX51p1aP" type="dismissal">
           <date when="2001-04-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FmX2vLRUnPoAGTnH8RN6DM">
+        <correspAction xml:id="i-FmX2vLRUnPoAGTnH8RN6DM" type="submission">
           <date when="2001-04-02"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-JFsizZxyzVWaW9jt1i8JDK">
+        <correspAction xml:id="i-JFsizZxyzVWaW9jt1i8JDK" type="referral">
           <date when="2001-04-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6uX5Kt9EC17GvNGk7rq2CG">
+        <correspAction xml:id="i-6uX5Kt9EC17GvNGk7rq2CG" type="dismissal">
           <date when="2001-04-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AuqkoeX3MRem7eNn6TDxAR">
+        <correspAction xml:id="i-AuqkoeX3MRem7eNn6TDxAR" type="submission">
           <date when="2001-04-02"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8JQYmh3Ppi4EUzvsbfWYa"/>
+        <correspAction xml:id="i-8JQYmh3Ppi4EUzvsbfWYa" type="assigned"/>
         <correspContext corresp="i-8JQYmh3Ppi4EUzvsbfWYa">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -150,11 +150,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Ju_0012/mot_200001_Ju_0012-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Kvv3jbYVMrpFCjtHcjiq3C">
-        <div type="motTitle" xml:id="i-29YK8RtGNwbyjBh1TMvKjq"/>
-        <div type="motSubmissionInfo" xml:id="i-QCC7pwZU6JHSGEYiy5qCWc"/>
+      <div xml:id="i-Kvv3jbYVMrpFCjtHcjiq3C" type="motHeader">
+        <div xml:id="i-29YK8RtGNwbyjBh1TMvKjq" type="motTitle"/>
+        <div xml:id="i-QCC7pwZU6JHSGEYiy5qCWc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XKRSUTSXKcDqkqvAWD9Uog">
+      <div xml:id="i-XKRSUTSXKcDqkqvAWD9Uog" type="motBody">
         <div xml:id="i-9Gm5FvVqx8HZKfFarYFqtL">
           <p xml:id="i-Vevrirfv6wuJoNet2HxCLU">
             2000/01 mnr: Ju12 pnr: c164
@@ -355,8 +355,11 @@
             i en proposition. Vad som ovan sagts om insatser för att förbättra
             informationen till brottsoffren bör ges regeringen till känna.
           </p>
-          <p xml:id="i-86EWoos8Tc2JUc1mbEZWUj">
-            Stockholm den 29 mars 2001 Gunnel Wallin (c)
+          <p xml:id="i-86EWoos8Tc2JUc1mbEZWUj" type="date">
+            Stockholm den 29 mars 2001
+          </p>
+          <p type="signatureBlock" id="i-JctpNnjA8JqZHs37ngJkDe">
+            Gunnel Wallin (c)
           </p>
           <p xml:id="i-Cw2FfkmqBUuHP5WkckVsiR">
             Viviann Gerdin (c) Rigmor Stenmark (c) Margareta Andersson (c)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-KU-00240">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-PDRRRaXKabL6avxH1jYjid</idno>
-            <name>Harald Nordlund </name>
+            <name>Harald Nordlund</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -46,28 +46,28 @@
           <note type="signatory" corresp="i-PDRRRaXKabL6avxH1jYjid"/>
           <note type="signatory" corresp="i-PDRRRaXKabL6avxH1jYjid"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-99b6fL8ReZhjoDvrSsvyC2">
+        <correspAction xml:id="i-99b6fL8ReZhjoDvrSsvyC2" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-NrUcUc8Vm94EgrUGpQNeD9">
+        <correspAction xml:id="i-NrUcUc8Vm94EgrUGpQNeD9" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EmRSxDkAWnQCs6RYuXH2fT">
+        <correspAction xml:id="i-EmRSxDkAWnQCs6RYuXH2fT" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-H1FUPKepb3EUNegw3oSJXr">
+        <correspAction xml:id="i-H1FUPKepb3EUNegw3oSJXr" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7StGvUcxXRq7XmEHhkUZvc">
+        <correspAction xml:id="i-7StGvUcxXRq7XmEHhkUZvc" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EqdZXuSBCdc64Lkrgu185h">
+        <correspAction xml:id="i-EqdZXuSBCdc64Lkrgu185h" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MpR5ygC5Wx94HCvUA7Kw1J">
+        <correspAction xml:id="i-MpR5ygC5Wx94HCvUA7Kw1J" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-N42UJHV5oZoEL1CxMLJAZA"/>
+        <correspAction xml:id="i-N42UJHV5oZoEL1CxMLJAZA" type="assigned"/>
         <correspContext corresp="i-N42UJHV5oZoEL1CxMLJAZA">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_K_0240/mot_200001_K_0240-0001.pdf"/>
-      <div type="motHeader" xml:id="i-S9a3zC5v8TtKKnbE1WB33e">
-        <div type="motTitle" xml:id="i-9tuC52u7RVNyMf356ayA4a"/>
-        <div type="motSubmissionInfo" xml:id="i-DRtJ9HdNHgA2BTR5iya2ew"/>
+      <div xml:id="i-S9a3zC5v8TtKKnbE1WB33e" type="motHeader">
+        <div xml:id="i-9tuC52u7RVNyMf356ayA4a" type="motTitle"/>
+        <div xml:id="i-DRtJ9HdNHgA2BTR5iya2ew" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-hwRuNwhns8FLQwVTzredd">
+      <div xml:id="i-hwRuNwhns8FLQwVTzredd" type="motBody">
         <div xml:id="i-H5QHVE3vnN2bxfcLs6VdiP">
           <p xml:id="i-5ZmowaknbTir2htbqVB7b6">
             12
@@ -134,8 +134,11 @@
             miljöutskottet och att jordbruks-, skogs- och fiskefrågor överförs
             till näringsutskottet.
           </p>
-          <p xml:id="i-Wdde2zgDCbKYbLrkAKLvvp">
-            Stockholm den 27 september 2000 Harald Nordlund (fp)
+          <p xml:id="i-Wdde2zgDCbKYbLrkAKLvvp" type="date">
+            Stockholm den 27 september 2000
+          </p>
+          <p type="signatureBlock" id="i-HjqZKVmKQJ8KFAykiNdBf7">
+            Harald Nordlund (fp)
           </p>
         </div>
       </div>

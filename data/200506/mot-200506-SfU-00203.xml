@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00203">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-48y8BxkHD9YWGjJnVNXDfR">
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AZfLBhoLUXsGu1TEQzNsrf">
+        <correspAction xml:id="i-AZfLBhoLUXsGu1TEQzNsrf" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GFgDz6MijPamsrEjcp1hZt">
+        <correspAction xml:id="i-GFgDz6MijPamsrEjcp1hZt" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Nb3cdNimeEmXeZBfvs1Hn">
+        <correspAction xml:id="i-Nb3cdNimeEmXeZBfvs1Hn" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LQQNtWVgRuXWHxFMsKsfXX"/>
+        <correspAction xml:id="i-LQQNtWVgRuXWHxFMsKsfXX" type="assigned"/>
         <correspContext corresp="i-LQQNtWVgRuXWHxFMsKsfXX">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_203/mot_200506_Sf_203-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BcQ5Z7D6BioiBA34PFFKbd">
-        <div type="motTitle" xml:id="i-WHoyvAUAQyCyXBo2Zf4QAa"/>
-        <div type="motSubmissionInfo" xml:id="i-GcN2zYuvLnp3S55wv4aato"/>
+      <div xml:id="i-BcQ5Z7D6BioiBA34PFFKbd" type="motHeader">
+        <div xml:id="i-WHoyvAUAQyCyXBo2Zf4QAa" type="motTitle"/>
+        <div xml:id="i-GcN2zYuvLnp3S55wv4aato" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UJB6jVUiZwng6o5vgLoPsv">
+      <div xml:id="i-UJB6jVUiZwng6o5vgLoPsv" type="motBody">
         <div xml:id="i-MRFQWNko4cApz8ps8F1Wu8">
           <p xml:id="i-Pjcfj3PygxQHgSq4qWnQjc">
             2005/06 mnr: Sf203 pnr: m1002
@@ -130,8 +130,11 @@
             Jag föreslår ett nationellt uppdrag i samverkan med ideella organisationer
             för kunskapsutveckling och stöd på området.
           </p>
-          <p xml:id="i-QkDnAbqd4KhssVcYYUyaeS">
-            Stockholm den 15 september 2005 Ulf Sjösten (m)
+          <p xml:id="i-QkDnAbqd4KhssVcYYUyaeS" type="date">
+            Stockholm den 15 september 2005
+          </p>
+          <p type="signatureBlock" id="i-LtXBK5U8yKd1Zsu96wT1Mf">
+            Ulf Sjösten (m)
           </p>
         </div>
       </div>

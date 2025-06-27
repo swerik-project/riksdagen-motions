@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-JuU-00010">
   <teiHeader>
     <fileDesc>
@@ -62,7 +62,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-RREr95BfLHdosdP72E9kxS"/>
+        <correspAction xml:id="i-RREr95BfLHdosdP72E9kxS" type="basedOn"/>
         <correspContext corresp="i-RREr95BfLHdosdP72E9kxS">
           <ref>Regeringsskrivelse 2003/04:178</ref>
         </correspContext>
@@ -74,19 +74,19 @@
           <note type="signatory" corresp="i-Nywj47pd422wBAiv8K2vPV"/>
           <note type="signatory" corresp="i-QhURWkawnPDBf443faKewj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WSi2NBC6a2V1eK3KYiNRnk">
+        <correspAction xml:id="i-WSi2NBC6a2V1eK3KYiNRnk" type="referral">
           <date when="2004-10-01"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-6cTgKXcGyD9G1y7hUagvxg">
+        <correspAction xml:id="i-6cTgKXcGyD9G1y7hUagvxg" type="registration">
           <date when="2004-09-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DUM6c9noFehnukQHstbqsw">
+        <correspAction xml:id="i-DUM6c9noFehnukQHstbqsw" type="submission">
           <date when="2004-09-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-N1MJ65Y218CG23B62wUga4">
+        <correspAction xml:id="i-N1MJ65Y218CG23B62wUga4" type="dismissal">
           <date when="2004-09-30"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FKqar375jRTGCuunS3abkE"/>
+        <correspAction xml:id="i-FKqar375jRTGCuunS3abkE" type="assigned"/>
         <correspContext corresp="i-FKqar375jRTGCuunS3abkE">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ju_10/mot_200405_Ju_10-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ju_10/mot_200405_Ju_10-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Xiwu3nah5VrJxDSTZ3kE5e">
-        <div type="motTitle" xml:id="i-96P3XZLfRz2F3uYMLcXKSY"/>
-        <div type="motSubmissionInfo" xml:id="i-R14Wu42X4ECkbTLpTTF1FM"/>
+      <div xml:id="i-Xiwu3nah5VrJxDSTZ3kE5e" type="motHeader">
+        <div xml:id="i-96P3XZLfRz2F3uYMLcXKSY" type="motTitle"/>
+        <div xml:id="i-R14Wu42X4ECkbTLpTTF1FM" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KVBW2JENyfGGXBmoL7DwRS">
+      <div xml:id="i-KVBW2JENyfGGXBmoL7DwRS" type="motBody">
         <div xml:id="i-rpBGQCVFnLp6P9crbH7GL">
           <p xml:id="i-UBXmFssk88BsiiqXTFDZ7w">
             2004/05 mnr: Ju10 pnr: fp1151
@@ -590,9 +590,12 @@
             lämplighet men prövar i normalfallet då inte själva skuldfrågan.
             Möjligheten att ”förklara sig skyldig” ska inte vara tillämplig
             om den tilltalade är under 21 år gammal. Förslaget måste noggrant
-            utredas. Stockholm den 17 september 2004
+            utredas.
           </p>
-          <p xml:id="i-VGSAoCJhD5u3UTYcTwggUu">
+          <p type="date" id="i-9dkx9Tu5JbPE5WzhxVCze7">
+            Stockholm den 17 september 2004
+          </p>
+          <p xml:id="i-VGSAoCJhD5u3UTYcTwggUu" type="signatureBlock">
             Johan Pehrson (fp) Torkild Strandberg (fp) Karin Granbom (fp)
             Jan Ertsborn (fp) Cecilia Wigström (fp)
           </p>

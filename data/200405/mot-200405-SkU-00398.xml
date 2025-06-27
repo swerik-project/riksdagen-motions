@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00398">
   <teiHeader>
     <fileDesc>
@@ -94,16 +94,16 @@
           <note type="signatory" corresp="i-4tAUyrL5FDqt2q3oYkcH9W"/>
           <note type="signatory" corresp="i-NRb4HpaQ87qUwhLNcKt7Gz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NHv3FJoBesd79WukgWM86e">
+        <correspAction xml:id="i-NHv3FJoBesd79WukgWM86e" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RTSTikVioXvqKcgaGAdiJh">
+        <correspAction xml:id="i-RTSTikVioXvqKcgaGAdiJh" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2gBFnqqgAdUWAuAxMgY7ry">
+        <correspAction xml:id="i-2gBFnqqgAdUWAuAxMgY7ry" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BeiTpePJN6E3CZNM5is84g"/>
+        <correspAction xml:id="i-BeiTpePJN6E3CZNM5is84g" type="assigned"/>
         <correspContext corresp="i-BeiTpePJN6E3CZNM5is84g">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_398/mot_200405_Sk_398-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8V34HbszKdFnsUVxtx12CZ">
-        <div type="motTitle" xml:id="i-QpC654SxgqvUxMowwQVcsr"/>
-        <div type="motSubmissionInfo" xml:id="i-XU9UsbqH1jQwNKvasLjLoF"/>
+      <div xml:id="i-8V34HbszKdFnsUVxtx12CZ" type="motHeader">
+        <div xml:id="i-QpC654SxgqvUxMowwQVcsr" type="motTitle"/>
+        <div xml:id="i-XU9UsbqH1jQwNKvasLjLoF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DXZVdno4SiPqEZ4HhMtWfq">
+      <div xml:id="i-DXZVdno4SiPqEZ4HhMtWfq" type="motBody">
         <div xml:id="i-EA9GKG2bc4fftSKeZFwAcM">
           <p xml:id="i-MLH1t52d2uLkB1kHYdJQGd">
             2004/05 mnr: Sk398 pnr: -kd619
@@ -185,8 +185,11 @@
             inbetalning av mervärdesskatten endast någon enstaka gång. Sedan
             förväntas företaget hantera problemet.
           </p>
-          <p xml:id="i-SRJMRBSTKugKPWr6W5vNcq">
-            Stockholm den 30 september 2004 Lars Lindén (kd)
+          <p xml:id="i-SRJMRBSTKugKPWr6W5vNcq" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-F6RpxbMrW21t6spgXT5Bx7">
+            Lars Lindén (kd)
           </p>
           <p xml:id="i-3Kcu8kjKRUxSS5ZJUDeP4Q">
             Elizabeth Nyström (m) Runar Patriksson (fp) Sven Bergström (c)

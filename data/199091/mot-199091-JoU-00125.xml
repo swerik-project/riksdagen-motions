@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-JoU-00125">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="man">
             <idno>i-9msUCw725vKguNSQS4ikv4</idno>
-            <name>Hans Dau </name>
+            <name>Hans Dau</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-7EqnaA8N82a8e94n92Ucda</idno>
-            <name>Ingrid Hemmingsson </name>
+            <name>Ingrid Hemmingsson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-P78K5HhoUxej3uAcPrYfwr"/>
+        <correspAction xml:id="i-P78K5HhoUxej3uAcPrYfwr" type="basedOn"/>
         <correspContext corresp="i-P78K5HhoUxej3uAcPrYfwr">
           <ref>Proposition 1990/91:99</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-9msUCw725vKguNSQS4ikv4"/>
           <note type="signatory" corresp="i-7EqnaA8N82a8e94n92Ucda"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-V2i2BkFgmH3k3xDpy6Y6m5">
+        <correspAction xml:id="i-V2i2BkFgmH3k3xDpy6Y6m5" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-38KVpqQhhgQLZBXtUvtaqj">
+        <correspAction xml:id="i-38KVpqQhhgQLZBXtUvtaqj" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AcsChQd3Uw4Qug1wnzWyxv">
+        <correspAction xml:id="i-AcsChQd3Uw4Qug1wnzWyxv" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-HUoGCH1jMignWZkt2YYsGG">
+        <correspAction xml:id="i-HUoGCH1jMignWZkt2YYsGG" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-U5nP9UZgurwM7vvbDjGqtd">
+        <correspAction xml:id="i-U5nP9UZgurwM7vvbDjGqtd" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GSazeKqVyV7Hzk8Pvt1xhc">
+        <correspAction xml:id="i-GSazeKqVyV7Hzk8Pvt1xhc" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6oR9BeZnmfN5EQQssEZoTm"/>
+        <correspAction xml:id="i-6oR9BeZnmfN5EQQssEZoTm" type="assigned"/>
         <correspContext corresp="i-6oR9BeZnmfN5EQQssEZoTm">
           <ref type="assignedTo">Jordbruksutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_JoU_125/mot_199091_JoU_125-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-EFeJsma6wcYibHt1tzYEde">
-        <div type="motTitle" xml:id="i-TBSHNF8nzhu43pT1xXzvd5"/>
-        <div type="motSubmissionInfo" xml:id="i-3x9iqAQ9XrDaApyGt1YxQ4"/>
+      <div xml:id="i-EFeJsma6wcYibHt1tzYEde" type="motHeader">
+        <div xml:id="i-TBSHNF8nzhu43pT1xXzvd5" type="motTitle"/>
+        <div xml:id="i-3x9iqAQ9XrDaApyGt1YxQ4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-A249zdURbcMaTCBQPQ2Eu3">
+      <div xml:id="i-A249zdURbcMaTCBQPQ2Eu3" type="motBody">
         <div xml:id="i-AjDtqwkAgKFzyfaeh6vNTV">
           <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_JoU_125/mot_199091_JoU_125-001.pdf"/>
           <p xml:id="i-LebMuTQfY7DzPFFcnv6YmU">
@@ -157,9 +157,11 @@
             1 Riksdagen 1990/91. 3 saml. Nr Jo125—-131
           </p>
           <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_JoU_125/mot_199091_JoU_125-002.pdf"/>
-          <p xml:id="i-FoL1dXyQrR7hFX4AfiCstN">
-            Stockholm den 14 mars 1991 Mot. 1990/91 Jo125 Hans Dau (m) Ingrid
-            Hemmingsson (m)
+          <p xml:id="i-FoL1dXyQrR7hFX4AfiCstN" type="date">
+            Stockholm den 14 mars 1991
+          </p>
+          <p type="signatureBlock" id="i-SCJQJUK81uGGUczWCX2RK4">
+            Mot. 1990/91 Jo125 Hans Dau (m) Ingrid Hemmingsson (m)
           </p>
         </div>
       </div>

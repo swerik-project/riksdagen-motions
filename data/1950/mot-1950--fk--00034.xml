@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-1950--fk--00034">
   <teiHeader>
     <fileDesc>
       <titleStmt/>
@@ -17,7 +17,7 @@
       <correspDesc/>
     </profileDesc>
     <revisionDesc>
-      <correction who="orcid_0000-0002-7647-4048" when="2024-10-01" corresp="i-zMwPdJo7Duz45n7XjXP8y">OCR correction</correction>
+      <correction who="orcid_0000-0002-7647-4048" corresp="i-zMwPdJo7Duz45n7XjXP8y" when="2024-10-01">OCR correction</correction>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -26,11 +26,11 @@
       <fw xml:id="i-zMwPdJo7Duz45n7XjXP8y">
         Motioner i Första kammaren, nr 33—34. 9
       </fw>
-      <div type="motHeader" xml:id="i-YJ5MwGdsxDME8QSFaPMv9f">
-        <div type="motTitle" xml:id="i-DWBtBvsV8nvzF4LHC9kDCb"/>
-        <div type="motSubmissionInfo" xml:id="i-4MiHQexq2xxAS7rm4EzhVV"/>
+      <div xml:id="i-YJ5MwGdsxDME8QSFaPMv9f" type="motHeader">
+        <div xml:id="i-DWBtBvsV8nvzF4LHC9kDCb" type="motTitle"/>
+        <div xml:id="i-4MiHQexq2xxAS7rm4EzhVV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HeuYtjYTV7UaSjCxioiT7f">
+      <div xml:id="i-HeuYtjYTV7UaSjCxioiT7f" type="motBody">
         <div xml:id="i-YCDR6TSRtdZ45WB4n2RoBt">
           <p xml:id="i-TUZjPBHHFkiacfBpjZsRzi">
             Nr 33.
@@ -43,8 +43,11 @@
           <p xml:id="i-5DiPptVnyrM274uQeTZ8VK">
             (Lika lydande med motion i Andra kammaren nr 35.)
           </p>
-          <p xml:id="i-CFs5KccgCYKjVC6DGWMH5N">
-            Stockholm den 17 januari 1950:
+          <p xml:id="i-CFs5KccgCYKjVC6DGWMH5N" type="date">
+            Stockholm den 17 januari 1950
+          </p>
+          <p type="signatureBlock" id="i-A1jw8CDyMgsNZ12ZVA78FJ">
+            :
           </p>
           <p xml:id="i-DRKHzD5biKnH1gv52KvHso">
             Ragn. Bergh.
@@ -57,10 +60,12 @@
             mindre fartyg i kustfart och östersjöfart m. m.
           </p>
           <p xml:id="i-2B8LRgiVstpg8E2dHEimv1">
-            (Lika lydande med motion i Andra kammaren nr 37.) Stockholm den
-            17 januari 1950.
+            (Lika lydande med motion i Andra kammaren nr 37.)
           </p>
-          <p xml:id="i-7ZhXXQut5Cs9my8FS8vUc7">
+          <p type="date" id="i-CZmM818X9ZpmW5g9X1pyAT">
+            Stockholm den 17 januari 1950.
+          </p>
+          <p xml:id="i-7ZhXXQut5Cs9my8FS8vUc7" type="signatureBlock">
             Gunnar Spetz.
           </p>
         </div>

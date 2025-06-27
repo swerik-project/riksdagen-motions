@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SfU-00203">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Rddos9d1FBYbyZPMd1rZZR">
           <note type="signatory" corresp="i-6Lf4ZWSEWXurZm4mkDAE7B"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4obt4wWWV7kvDLMpuN6csK">
+        <correspAction xml:id="i-4obt4wWWV7kvDLMpuN6csK" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-315wAEKpBELkBo4vzC7MwW">
+        <correspAction xml:id="i-315wAEKpBELkBo4vzC7MwW" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-E1hSvSzVrSrG9jGZYitCfS">
+        <correspAction xml:id="i-E1hSvSzVrSrG9jGZYitCfS" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-F64qwKn2pgZW59JB4A73cm"/>
+        <correspAction xml:id="i-F64qwKn2pgZW59JB4A73cm" type="assigned"/>
         <correspContext corresp="i-F64qwKn2pgZW59JB4A73cm">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Sf_0203/mot_200203_Sf_0203-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3aGNg96ukXEmHqG1rCsnn6">
-        <div type="motTitle" xml:id="i-WHQuSFDQiuMit1DzsrgQ7"/>
-        <div type="motSubmissionInfo" xml:id="i-3CkG1r42chZ9RQCwbzr65D"/>
+      <div xml:id="i-3aGNg96ukXEmHqG1rCsnn6" type="motHeader">
+        <div xml:id="i-WHQuSFDQiuMit1DzsrgQ7" type="motTitle"/>
+        <div xml:id="i-3CkG1r42chZ9RQCwbzr65D" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VEYs1cm6Bs2wiCcg6xh5EZ">
+      <div xml:id="i-VEYs1cm6Bs2wiCcg6xh5EZ" type="motBody">
         <div xml:id="i-2oNTWMsejzJbQfqmSDdoHn">
           <p xml:id="i-KGCwDDHCAvgbYhhb3P5TW9">
             2002/03 mnr: Sf203 pnr: m1066
@@ -129,8 +129,11 @@
             rehabilitering. Detta skulle ge ökad mångfald inom rehabiliteringen,
             vilket skulle innebära en positiv utveckling.
           </p>
-          <p xml:id="i-PWPZp7VrHbsJcc16PbSeSy">
-            Stockholm den 7 oktober 2002 Carl-Axel Johansson (m)
+          <p xml:id="i-PWPZp7VrHbsJcc16PbSeSy" type="date">
+            Stockholm den 7 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-Krz31CJjQ9pKrjeqjz54su">
+            Carl-Axel Johansson (m)
           </p>
         </div>
       </div>

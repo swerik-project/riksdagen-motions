@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00248">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-2xBmDveAbK9gT65N9cGctz">
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BKdsiBun44MVVqKwtZFm7">
+        <correspAction xml:id="i-BKdsiBun44MVVqKwtZFm7" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PYUSLLoRp8ewRbr3YWFgiS">
+        <correspAction xml:id="i-PYUSLLoRp8ewRbr3YWFgiS" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3UCzbGMSRjV2iBdwbB5ywH">
+        <correspAction xml:id="i-3UCzbGMSRjV2iBdwbB5ywH" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5GMEDuEeXSbe3zZa88at37"/>
+        <correspAction xml:id="i-5GMEDuEeXSbe3zZa88at37" type="assigned"/>
         <correspContext corresp="i-5GMEDuEeXSbe3zZa88at37">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_248/mot_200405_Ub_248-0001.pdf"/>
-      <div type="motHeader" xml:id="i-ChhYwVrP24TdeUJ8jbGBvy">
-        <div type="motTitle" xml:id="i-KJ2Ghhb7zjrS9xEgKGS1PD"/>
-        <div type="motSubmissionInfo" xml:id="i-WAKSoqydhZfF8eTxrAj1Wj"/>
+      <div xml:id="i-ChhYwVrP24TdeUJ8jbGBvy" type="motHeader">
+        <div xml:id="i-KJ2Ghhb7zjrS9xEgKGS1PD" type="motTitle"/>
+        <div xml:id="i-WAKSoqydhZfF8eTxrAj1Wj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ABMuHwtgwn8h7ZHtBm6epZ">
+      <div xml:id="i-ABMuHwtgwn8h7ZHtBm6epZ" type="motBody">
         <div xml:id="i-RxwhF36ewe2nmgh2v3aDbd">
           <p xml:id="i-2sVXup2WbHi9wWRg3geWpd">
             2004/05 mnr: Ub248 pnr: kd642
@@ -207,8 +207,11 @@
             välfärdssamhälle. Detta faktum kan vara en stimulans till insats
             för den som inte ser hälsonyttan för varje elev som skäl nog.
           </p>
-          <p xml:id="i-QXyNdLhTpJK1TRRPsArp91">
-            Stockholm den 27 september 2004 Olle Sandahl (kd)
+          <p xml:id="i-QXyNdLhTpJK1TRRPsArp91" type="date">
+            Stockholm den 27 september 2004
+          </p>
+          <p type="signatureBlock" id="i-P9PwaAutHrUK1u817vZ2RQ">
+            Olle Sandahl (kd)
           </p>
           <p xml:id="i-2Hwc57f5LMJzg6Cpn4xDSJ">
             2004/05:Ub248

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UU-00235">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-NqwVyU384J1ADAcXFNpYwu">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PZRcVGYScZAQmJQcHCTgu7">
+        <correspAction xml:id="i-PZRcVGYScZAQmJQcHCTgu7" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-H4E6VfgiVCfVebNa2DVmYn">
+        <correspAction xml:id="i-H4E6VfgiVCfVebNa2DVmYn" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UVQwviXjw3Vz4J5YMPmmxD">
+        <correspAction xml:id="i-UVQwviXjw3Vz4J5YMPmmxD" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-48G3FtqQ4wG2PvxrEnN1SU"/>
+        <correspAction xml:id="i-48G3FtqQ4wG2PvxrEnN1SU" type="assigned"/>
         <correspContext corresp="i-48G3FtqQ4wG2PvxrEnN1SU">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_U_0235/mot_200304_U_0235-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6a65zRn8j7PLFVStpzEYcg">
-        <div type="motTitle" xml:id="i-2pfCX1cBDZPzjmCMcoGhSW"/>
-        <div type="motSubmissionInfo" xml:id="i-BpY2hcV7QN47rGBrrfSdbT"/>
+      <div xml:id="i-6a65zRn8j7PLFVStpzEYcg" type="motHeader">
+        <div xml:id="i-2pfCX1cBDZPzjmCMcoGhSW" type="motTitle"/>
+        <div xml:id="i-BpY2hcV7QN47rGBrrfSdbT" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4w9gceQ7dBVsCzCiuAJkZt">
+      <div xml:id="i-4w9gceQ7dBVsCzCiuAJkZt" type="motBody">
         <div xml:id="i-Qre5w1pPSCk5rsPu4nEfxt">
           <p xml:id="i-Vpb235QYAworxxCuxC1UzM">
             2003/04 mnr: U235 pnr: kd719
@@ -159,8 +159,11 @@
             utvecklingen. Detta i sin tur leder till att kampen mot judehat
             försvåras.
           </p>
-          <p xml:id="i-5WoirbHvK6Khj6gSQXezvm">
-            Stockholm den 2 oktober 2003 Annelie Enochson (kd)
+          <p xml:id="i-5WoirbHvK6Khj6gSQXezvm" type="date">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-2Fy8oBmjKgDX5BK4T7Du2R">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

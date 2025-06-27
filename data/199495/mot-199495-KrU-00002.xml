@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-KrU-00002">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-M583eVDoBTdnLPkDa6XLNx</idno>
-            <name>Ola Ström </name>
+            <name>Ola Ström</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-L3xspgThUxUN1YtSDqcmk8</idno>
-            <name>Barbro Westerholm </name>
+            <name>Barbro Westerholm</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-5BAuoreWuHEDmfStAQQoco</idno>
-            <name>Sigge Godin </name>
+            <name>Sigge Godin</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-9FchBA1AJpzUscQXXkS7FN"/>
+        <correspAction xml:id="i-9FchBA1AJpzUscQXXkS7FN" type="basedOn"/>
         <correspContext corresp="i-9FchBA1AJpzUscQXXkS7FN">
           <ref>Regeringsskrivelse 1994/95:127</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-L3xspgThUxUN1YtSDqcmk8"/>
           <note type="signatory" corresp="i-5BAuoreWuHEDmfStAQQoco"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PCotgBELnitcF1WLxFmf1M">
+        <correspAction xml:id="i-PCotgBELnitcF1WLxFmf1M" type="referral">
           <date when="1995-02-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-P6DJdJiJroTwJtSNJkMdUo">
+        <correspAction xml:id="i-P6DJdJiJroTwJtSNJkMdUo" type="dismissal">
           <date when="1995-02-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5epMHX9UnWaMcoce33fs4m">
+        <correspAction xml:id="i-5epMHX9UnWaMcoce33fs4m" type="submission">
           <date when="1995-02-10"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7nLLYo7uZQsQavJbGLwaQk">
+        <correspAction xml:id="i-7nLLYo7uZQsQavJbGLwaQk" type="referral">
           <date when="1995-02-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-92uqrGtzcwzcQnqPa4ET58">
+        <correspAction xml:id="i-92uqrGtzcwzcQnqPa4ET58" type="dismissal">
           <date when="1995-02-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PNk2dirS4S4VRDB8MwPo3U">
+        <correspAction xml:id="i-PNk2dirS4S4VRDB8MwPo3U" type="submission">
           <date when="1995-02-10"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-A9XBaCdkWx9a2YxL8xheWH"/>
+        <correspAction xml:id="i-A9XBaCdkWx9a2YxL8xheWH" type="assigned"/>
         <correspContext corresp="i-A9XBaCdkWx9a2YxL8xheWH">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_KrU_2/mot_199495_KrU_2-001.pdf"/>
-      <div type="motHeader" xml:id="i-TVXWzV61u6pw4PBPijLNrm">
-        <div type="motTitle" xml:id="i-9SCRtHspNsXNwoQjxehoHd"/>
-        <div type="motSubmissionInfo" xml:id="i-73JbmrwEdUe1W5R5zCoX6h"/>
+      <div xml:id="i-TVXWzV61u6pw4PBPijLNrm" type="motHeader">
+        <div xml:id="i-9SCRtHspNsXNwoQjxehoHd" type="motTitle"/>
+        <div xml:id="i-73JbmrwEdUe1W5R5zCoX6h" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LqcWB9BHZ1bwuSpECfAGk8">
+      <div xml:id="i-LqcWB9BHZ1bwuSpECfAGk8" type="motBody">
         <div xml:id="i-X9BpiZNQekgDsocSodnXzj">
           <p xml:id="i-Buv99Q9nV74iJgxFLEQsdV">
             Motion till riksdagen
@@ -224,8 +224,11 @@
             Mot. 1994/95 Kr2
           </p>
           <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_KrU_2/mot_199495_KrU_2-003.pdf"/>
-          <p xml:id="i-9ZoWJFF12uwN7VvC5jx58k">
-            Stockholm den 10 februari 1995 Mot. 1994/95
+          <p xml:id="i-9ZoWJFF12uwN7VvC5jx58k" type="date">
+            Stockholm den 10 februari 1995
+          </p>
+          <p type="signatureBlock" id="i-F65G2wdhk8uLBX7krN7Rb4">
+            Mot. 1994/95
           </p>
           <p xml:id="i-Xi4n2bTfNedu8SeFBdpqdv">
             Kr2 Ola Ström (fp)

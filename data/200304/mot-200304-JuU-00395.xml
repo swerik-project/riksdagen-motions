@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00395">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-6LG6pLYr57kafb4c2vdM1c">
           <note type="signatory" corresp="i-4pfVnS8LNwychZJ7RaUufZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Pb6BgLngefEo3LgNRksrGW">
+        <correspAction xml:id="i-Pb6BgLngefEo3LgNRksrGW" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JJMrKfRdAf6FvvoctE2Le2">
+        <correspAction xml:id="i-JJMrKfRdAf6FvvoctE2Le2" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SC2BuTP4ykYfcUuLbHPcuX">
+        <correspAction xml:id="i-SC2BuTP4ykYfcUuLbHPcuX" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2YsB3NXYmKBQxJ4dsGdUFB"/>
+        <correspAction xml:id="i-2YsB3NXYmKBQxJ4dsGdUFB" type="assigned"/>
         <correspContext corresp="i-2YsB3NXYmKBQxJ4dsGdUFB">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ju_0395/mot_200304_Ju_0395-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Fmgm3ixxB96VHbmkTobBJG">
-        <div type="motTitle" xml:id="i-K8CZL7AuU86TuNZfTrCnW6"/>
-        <div type="motSubmissionInfo" xml:id="i-QWgteynHqabzo2zkJjanNp"/>
+      <div xml:id="i-Fmgm3ixxB96VHbmkTobBJG" type="motHeader">
+        <div xml:id="i-K8CZL7AuU86TuNZfTrCnW6" type="motTitle"/>
+        <div xml:id="i-QWgteynHqabzo2zkJjanNp" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Xh5Gjef47tQZYGEGBtady8">
+      <div xml:id="i-Xh5Gjef47tQZYGEGBtady8" type="motBody">
         <div xml:id="i-nYDRsoqskHzBKvrLV6Cjx">
           <p xml:id="i-CEDewf3AxE8oFx24167oGw">
             2003/04 mnr: Ju395 pnr: kd873
@@ -110,8 +110,11 @@
             bevisföring. Provet kan genomföras på enklaste sätt genom t.ex.
             ett hårstrå eller lite saliv utan medverkan av sjukvårdande personal.
           </p>
-          <p xml:id="i-7MAmzUbJ34C5P7TyimeJpv">
-            Stockholm den 6 oktober 2003 Else-Marie Lindgren (kd)
+          <p xml:id="i-7MAmzUbJ34C5P7TyimeJpv" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-HjjU1ccAjesWMP3PBcUiKw">
+            Else-Marie Lindgren (kd)
           </p>
         </div>
       </div>

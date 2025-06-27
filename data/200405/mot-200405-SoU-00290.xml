@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00290">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Afrump4GeN1drzM9w7npmZ">
           <note type="signatory" corresp="i-XSoE59R8vSeGm31iRSvpAz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VDwWTRj4hbVQ3H7AxN2Kn4">
+        <correspAction xml:id="i-VDwWTRj4hbVQ3H7AxN2Kn4" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FRn886HDTv7yHc9KW3DUqQ">
+        <correspAction xml:id="i-FRn886HDTv7yHc9KW3DUqQ" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Ra6LvsvPjgLH45Xc3kYPs7">
+        <correspAction xml:id="i-Ra6LvsvPjgLH45Xc3kYPs7" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TdGixz2m7TCgnnEtoM49Rn"/>
+        <correspAction xml:id="i-TdGixz2m7TCgnnEtoM49Rn" type="assigned"/>
         <correspContext corresp="i-TdGixz2m7TCgnnEtoM49Rn">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_290/mot_200405_So_290-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5YKzskLy6TZrbwwMYgGVoD">
-        <div type="motTitle" xml:id="i-KtprYB4T2fhhhgtrjGMaDa"/>
-        <div type="motSubmissionInfo" xml:id="i-CmUUvAAHJ1vQaWY5Pt62x6"/>
+      <div xml:id="i-5YKzskLy6TZrbwwMYgGVoD" type="motHeader">
+        <div xml:id="i-KtprYB4T2fhhhgtrjGMaDa" type="motTitle"/>
+        <div xml:id="i-CmUUvAAHJ1vQaWY5Pt62x6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AnobXgHSeeDyLfDesxFH82">
+      <div xml:id="i-AnobXgHSeeDyLfDesxFH82" type="motBody">
         <div xml:id="i-GLmsxSaHFYhF9ViG7xM565">
           <p xml:id="i-DVDWK5TfgKpD9hXXRMCJmt">
             2004/05 mnr: S0290 pnr: kd628
@@ -114,8 +114,11 @@
             och LSS vara skyldiga att anmäla allvarliga missförhållanden i
             verksamheten.
           </p>
-          <p xml:id="i-RnAPfs786oySoy8Wp4CGdu">
-            Stockholm den 27 september 2004 Ulrik Lindgren (kd)
+          <p xml:id="i-RnAPfs786oySoy8Wp4CGdu" type="date">
+            Stockholm den 27 september 2004
+          </p>
+          <p type="signatureBlock" id="i-8EC2wxACitDKEcEkKMyupC">
+            Ulrik Lindgren (kd)
           </p>
         </div>
       </div>

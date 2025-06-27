@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-NU-00240">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Bjn6wYrGs5k3peZ558sVkS">
           <note type="signatory" corresp="i-P9fVT6wJo29FgZWPQLxr6o"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MYJzM4zTbYPikPViXceM4S">
+        <correspAction xml:id="i-MYJzM4zTbYPikPViXceM4S" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5L7eHniZXVfsVgC4bEJP4P">
+        <correspAction xml:id="i-5L7eHniZXVfsVgC4bEJP4P" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MxYVD4GXWb9YPS3F2dEJKd">
+        <correspAction xml:id="i-MxYVD4GXWb9YPS3F2dEJKd" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2EogFZTsjwaKYWws752PJo"/>
+        <correspAction xml:id="i-2EogFZTsjwaKYWws752PJo" type="assigned"/>
         <correspContext corresp="i-2EogFZTsjwaKYWws752PJo">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_N_0240/mot_200304_N_0240-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HTMmeL97x9coYa6hEzLpnF">
-        <div type="motTitle" xml:id="i-Bm6Vr5Tyhm62LF8STgqvAs"/>
-        <div type="motSubmissionInfo" xml:id="i-CzgRivXtZ7gdQEJTWqrqrx"/>
+      <div xml:id="i-HTMmeL97x9coYa6hEzLpnF" type="motHeader">
+        <div xml:id="i-Bm6Vr5Tyhm62LF8STgqvAs" type="motTitle"/>
+        <div xml:id="i-CzgRivXtZ7gdQEJTWqrqrx" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Kc2yW5o2bf64S4oxVHrS4C">
+      <div xml:id="i-Kc2yW5o2bf64S4oxVHrS4C" type="motBody">
         <div xml:id="i-7bJTpGzLWYYEiqdZfSSXia">
           <p xml:id="i-Bq3HxfGENK9dE72VnzPTNL">
             2003/04 mnr: N240 pnr: fp431
@@ -166,8 +166,11 @@
             som drabbar företagen skulle leda till goda förutsättningar för
             en ökad tillväxt i hela landet.
           </p>
-          <p xml:id="i-HvVfPu2L6iWhkbbWFjR1tF">
-            Stockholm den 30 september 2003 Anna Grönlund (fp)
+          <p xml:id="i-HvVfPu2L6iWhkbbWFjR1tF" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-P2VafLfWrwxQqzkctXfi98">
+            Anna Grönlund (fp)
           </p>
         </div>
       </div>

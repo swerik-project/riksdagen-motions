@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00484">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-N1q472qnaTJkivTTnwuzYt">
           <note type="signatory" corresp="i-C6MPg8QS78d6rtHZ6Jc424"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-H2oVE3jZSjajsXwu13tHKU">
+        <correspAction xml:id="i-H2oVE3jZSjajsXwu13tHKU" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GHiUtfStZeMzuhbCohMqDJ">
+        <correspAction xml:id="i-GHiUtfStZeMzuhbCohMqDJ" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WKt3Qdw2Q5cPn4K98Bc3Jr">
+        <correspAction xml:id="i-WKt3Qdw2Q5cPn4K98Bc3Jr" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8fr5ZbcvejGe2u1fdjTf1R"/>
+        <correspAction xml:id="i-8fr5ZbcvejGe2u1fdjTf1R" type="assigned"/>
         <correspContext corresp="i-8fr5ZbcvejGe2u1fdjTf1R">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ub_0484/mot_200203_Ub_0484-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PXwaLQ9Ss3e2xfmTHJ73A9">
-        <div type="motTitle" xml:id="i-FAoX31RizkcuMCkkaf8u3d"/>
-        <div type="motSubmissionInfo" xml:id="i-Cs68B2F2Hz363iGWj4eMRY"/>
+      <div xml:id="i-PXwaLQ9Ss3e2xfmTHJ73A9" type="motHeader">
+        <div xml:id="i-FAoX31RizkcuMCkkaf8u3d" type="motTitle"/>
+        <div xml:id="i-Cs68B2F2Hz363iGWj4eMRY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-W9EmEnp1s8GwWiwQ7EF6hX">
+      <div xml:id="i-W9EmEnp1s8GwWiwQ7EF6hX" type="motBody">
         <div xml:id="i-DRWdMGvNPo64YJBbLrNuL3">
           <p xml:id="i-5ostockNqnMBgBadxCeUWg">
             26
@@ -141,8 +141,11 @@
             följer upp möjligheterna att finansiera studier på grundskolenivå
             för vuxenstuderande som saknar tidigare förvärvsarbete.
           </p>
-          <p xml:id="i-CQ6xnQjLqqXA7w4YaL3qzh">
-            Stockholm den 23 oktober 2002 Sinikka Bohlin (s)
+          <p xml:id="i-CQ6xnQjLqqXA7w4YaL3qzh" type="date">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-BFzXb13gjJGZ58NN2NcKRu">
+            Sinikka Bohlin (s)
           </p>
         </div>
       </div>

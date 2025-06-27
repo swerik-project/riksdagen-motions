@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00571">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-HsmyrkjqQGCAargTNWaeXi"/>
           <note type="signatory" corresp="i-MQxtRkaKY7fRMrw7gnXKsf"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-6dvJEmdvQ1PZvpsb4YnFyb">
+        <correspAction xml:id="i-6dvJEmdvQ1PZvpsb4YnFyb" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8EG6DgtzR5MbFbebao9Zpc">
+        <correspAction xml:id="i-8EG6DgtzR5MbFbebao9Zpc" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8SAvcPgtVSgstYX2GduJPH">
+        <correspAction xml:id="i-8SAvcPgtVSgstYX2GduJPH" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XS2fcBqHmPYmcZF7u12pec"/>
+        <correspAction xml:id="i-XS2fcBqHmPYmcZF7u12pec" type="assigned"/>
         <correspContext corresp="i-XS2fcBqHmPYmcZF7u12pec">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_571/mot_200506_Ub_571-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NgxBgm1VWg3oGsKYCy6Fcb">
-        <div type="motTitle" xml:id="i-ShrF6NSSTVDmTx2vEAVwyU"/>
-        <div type="motSubmissionInfo" xml:id="i-D4dWV3LWtMGdKyDX9td9R4"/>
+      <div xml:id="i-NgxBgm1VWg3oGsKYCy6Fcb" type="motHeader">
+        <div xml:id="i-ShrF6NSSTVDmTx2vEAVwyU" type="motTitle"/>
+        <div xml:id="i-D4dWV3LWtMGdKyDX9td9R4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4xdsTagW585QY69oFndqTi">
+      <div xml:id="i-4xdsTagW585QY69oFndqTi" type="motBody">
         <div xml:id="i-gpa1nRa6zjo414aa9oY2y">
           <p xml:id="i-Xj13fKMtHFxrn5J6ojAzqC">
             2005/06 mnr: Ub571 pnr: s49114
@@ -144,9 +144,11 @@
             Ytterligare insatser behövs för att göra yrkesinriktade utbildningar
             mer tillgängliga för de som står längst bort från arbetsmarknaden.
           </p>
-          <p xml:id="i-DEf5GrAnY3pujKnM3oWejk">
-            Stockholm den 4 oktober 2005 Siw Wittgren-Ahl (s) Ulla Wester
-            (s)
+          <p xml:id="i-DEf5GrAnY3pujKnM3oWejk" type="date">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-PSQB94MyNFmXKgrwjti4XX">
+            Siw Wittgren-Ahl (s) Ulla Wester (s)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00386">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-6zBaZRz6s8GV2fxyJrjZxq">
           <note type="signatory" corresp="i-Ga4FaAaNvVxH6nfoR7FVAe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HDtHEVDyU21rt64tJkKeyx">
+        <correspAction xml:id="i-HDtHEVDyU21rt64tJkKeyx" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8RewusERuEFKNDyNm6yBR">
+        <correspAction xml:id="i-8RewusERuEFKNDyNm6yBR" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HACU63H6LwrMUDYuGXAAS4">
+        <correspAction xml:id="i-HACU63H6LwrMUDYuGXAAS4" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2Ye47NSPnsJGJfAiJ5SiT1"/>
+        <correspAction xml:id="i-2Ye47NSPnsJGJfAiJ5SiT1" type="assigned"/>
         <correspContext corresp="i-2Ye47NSPnsJGJfAiJ5SiT1">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_K_386/mot_200405_K_386-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_K_386/mot_200405_K_386-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CDoLCSKNNCf8jctofW2oxT">
-        <div type="motTitle" xml:id="i-GkbkcJK58DCLZqpFwG5qLC"/>
-        <div type="motSubmissionInfo" xml:id="i-Kr1PszvpT1KBqY2JcnjmWv"/>
+      <div xml:id="i-CDoLCSKNNCf8jctofW2oxT" type="motHeader">
+        <div xml:id="i-GkbkcJK58DCLZqpFwG5qLC" type="motTitle"/>
+        <div xml:id="i-Kr1PszvpT1KBqY2JcnjmWv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-S1U4EuG9pz1QTC9Stus8LN">
+      <div xml:id="i-S1U4EuG9pz1QTC9Stus8LN" type="motBody">
         <div xml:id="i-B6nMXkwJkxG6DQD1Zu99jy">
           <p xml:id="i-NndC4r5NkgFmmScRvLeRbf">
             2004/05 mnr: K386 pnr: fp206
@@ -151,8 +151,11 @@
           <p xml:id="i-FKHfoxnLVVDK3YLWdy9V7p">
             2004/05:K386
           </p>
-          <p xml:id="i-G8VccyCAkfeAHR1qs2HB4t">
-            Stockholm den 4 oktober 2004 Gunnar Nordmark (fp)
+          <p xml:id="i-G8VccyCAkfeAHR1qs2HB4t" type="date">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-Mv1EXmqcWcthasVTMsyChC">
+            Gunnar Nordmark (fp)
           </p>
         </div>
       </div>

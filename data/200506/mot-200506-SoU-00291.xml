@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00291">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-DuvPoQvLtLPQJBtbMQckHk">
           <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KCPoAQ9WhJTeFvNeT4JSri">
+        <correspAction xml:id="i-KCPoAQ9WhJTeFvNeT4JSri" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PZuSjCwtrVt9Hx52yTA7Dt">
+        <correspAction xml:id="i-PZuSjCwtrVt9Hx52yTA7Dt" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CFqeCkbwG6XL8Uw4FY6WF4">
+        <correspAction xml:id="i-CFqeCkbwG6XL8Uw4FY6WF4" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5bjarQEgMZGGh9nZsbgwVx"/>
+        <correspAction xml:id="i-5bjarQEgMZGGh9nZsbgwVx" type="assigned"/>
         <correspContext corresp="i-5bjarQEgMZGGh9nZsbgwVx">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_291/mot_200506_So_291-0001.pdf"/>
-      <div type="motHeader" xml:id="i-YDbuZuELUH8cxP1eWYbMY7">
-        <div type="motTitle" xml:id="i-4ZTRJdSDnKmFXc97xPJgqL"/>
-        <div type="motSubmissionInfo" xml:id="i-8Vmc9wtTtLviRrfnDYbeT"/>
+      <div xml:id="i-YDbuZuELUH8cxP1eWYbMY7" type="motHeader">
+        <div xml:id="i-4ZTRJdSDnKmFXc97xPJgqL" type="motTitle"/>
+        <div xml:id="i-8Vmc9wtTtLviRrfnDYbeT" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UNRb64KZhsJPPBp6BLAZ2C">
+      <div xml:id="i-UNRb64KZhsJPPBp6BLAZ2C" type="motBody">
         <div xml:id="i-RM7jAECPR8UAyosMHdwy9b">
           <p xml:id="i-4NkevRPM98aNDpRS1eTdL4">
             2005/06 mnr: S0291 pnr: fp648
@@ -129,8 +129,11 @@
             ett fritt vårdval över riket garanteras. Detta bör riksdagen ge
             regeringen till känna.
           </p>
-          <p xml:id="i-DQHS8zTDVAPsCTUBQi8J72">
-            Stockholm den 27 september 2005 Christer Winbäck (fp)
+          <p xml:id="i-DQHS8zTDVAPsCTUBQi8J72" type="date">
+            Stockholm den 27 september 2005
+          </p>
+          <p type="signatureBlock" id="i-TD8rpvEycbo6ywgYWJgYGL">
+            Christer Winbäck (fp)
           </p>
         </div>
       </div>

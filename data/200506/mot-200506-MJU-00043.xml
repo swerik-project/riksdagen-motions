@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00043">
   <teiHeader>
     <fileDesc>
@@ -35,7 +35,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-WXbwWqGTVJqtaiiRFhEdha"/>
+        <correspAction xml:id="i-WXbwWqGTVJqtaiiRFhEdha" type="basedOn"/>
         <correspContext corresp="i-WXbwWqGTVJqtaiiRFhEdha">
           <ref>Proposition 2005/06:197</ref>
         </correspContext>
@@ -43,19 +43,19 @@
         <correspContext corresp="i-JBKmhm8K2etr6YLc59PQL1">
           <note type="signatory" corresp="i-PsSysCdjrkuVBAo163T4KM"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NBt1vpwWvBjzVCfbRibmws">
+        <correspAction xml:id="i-NBt1vpwWvBjzVCfbRibmws" type="referral">
           <date when="2006-04-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FDuEiFPnjTjtEr5bCB6aov">
+        <correspAction xml:id="i-FDuEiFPnjTjtEr5bCB6aov" type="dismissal">
           <date when="2006-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MDHwM3JrSyk5fu1jj5uwnj">
+        <correspAction xml:id="i-MDHwM3JrSyk5fu1jj5uwnj" type="dismissal">
           <date when="2006-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4UoJBwhZ5CZT4XgEVPDEGX">
+        <correspAction xml:id="i-4UoJBwhZ5CZT4XgEVPDEGX" type="submission">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KZxejo2PtuUKqhxkA3Mcv9"/>
+        <correspAction xml:id="i-KZxejo2PtuUKqhxkA3Mcv9" type="assigned"/>
         <correspContext corresp="i-KZxejo2PtuUKqhxkA3Mcv9">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_43/mot_200506_MJ_43-0001.pdf"/>
-      <div type="motHeader" xml:id="i-W5xXG8AYjFUa8ysTcc9Rkc">
-        <div type="motTitle" xml:id="i-Lq449uM8NoJzgD2syhMkqN"/>
-        <div type="motSubmissionInfo" xml:id="i-92L79TbPtToMRun2u6M8hN"/>
+      <div xml:id="i-W5xXG8AYjFUa8ysTcc9Rkc" type="motHeader">
+        <div xml:id="i-Lq449uM8NoJzgD2syhMkqN" type="motTitle"/>
+        <div xml:id="i-92L79TbPtToMRun2u6M8hN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PDz4JS8B3fLKNbhZUGAjV8">
+      <div xml:id="i-PDz4JS8B3fLKNbhZUGAjV8" type="motBody">
         <div xml:id="i-EdUBHomdzK3zFeG8jvW5zk">
           <p xml:id="i-VNE76Ru5621gcNKBAtomTd">
             2005/06 mnr: MJ43 pnr: kd175
@@ -162,8 +162,11 @@
             flyttas utomlands med stora konsekvenser för en hel näring, ett
             helt län och för djurskyddet. Propositionen bör därför avslås.
           </p>
-          <p xml:id="i-T8WoA5uw1CM9xf8QnN1bLg">
-            Stockholm den 6 april 2006 Johnny Gylling (kd)
+          <p xml:id="i-T8WoA5uw1CM9xf8QnN1bLg" type="date">
+            Stockholm den 6 april 2006
+          </p>
+          <p type="signatureBlock" id="i-8UX6kHxr8sFzcWf6QD5hPi">
+            Johnny Gylling (kd)
           </p>
         </div>
       </div>

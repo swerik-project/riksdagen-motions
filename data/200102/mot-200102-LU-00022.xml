@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-LU-00022">
   <teiHeader>
     <fileDesc>
@@ -90,7 +90,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-G1txA6JdrgxG1R39KEZttx"/>
+        <correspAction xml:id="i-G1txA6JdrgxG1R39KEZttx" type="basedOn"/>
         <correspContext corresp="i-G1txA6JdrgxG1R39KEZttx">
           <ref>Proposition 2001/02:123</ref>
         </correspContext>
@@ -106,16 +106,16 @@
           <note type="signatory" corresp="i-2uMH5aDkHeeZUeQKUH1yLp"/>
           <note type="signatory" corresp="i-UbvajuFemhBJVPzqk7sHWG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PYQEvsi1cbgXq1ujuTGjT4">
+        <correspAction xml:id="i-PYQEvsi1cbgXq1ujuTGjT4" type="referral">
           <date when="2002-04-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XGDDsv9oAaV7EE4Qyoxavp">
+        <correspAction xml:id="i-XGDDsv9oAaV7EE4Qyoxavp" type="dismissal">
           <date when="2002-04-02"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GHkkRbHFeFp39sTZAyCAkd">
+        <correspAction xml:id="i-GHkkRbHFeFp39sTZAyCAkd" type="submission">
           <date when="2002-03-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UYrdEVzNx3MYfVFSUh4sit"/>
+        <correspAction xml:id="i-UYrdEVzNx3MYfVFSUh4sit" type="assigned"/>
         <correspContext corresp="i-UYrdEVzNx3MYfVFSUh4sit">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -130,11 +130,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_L_0022/mot_200102_L_0022-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CsX4nm3bgXPLR2MJwqWUKi">
-        <div type="motTitle" xml:id="i-Mik9CAQSkK4RbjivNsaEos"/>
-        <div type="motSubmissionInfo" xml:id="i-4HBnhRLNGTEhhpu5idNZfc"/>
+      <div xml:id="i-CsX4nm3bgXPLR2MJwqWUKi" type="motHeader">
+        <div xml:id="i-Mik9CAQSkK4RbjivNsaEos" type="motTitle"/>
+        <div xml:id="i-4HBnhRLNGTEhhpu5idNZfc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WHCS9DUtbU5KzhpGPhQuyN">
+      <div xml:id="i-WHCS9DUtbU5KzhpGPhQuyN" type="motBody">
         <div xml:id="i-8kymq4sD9yqJVQy8BuMqDL">
           <p xml:id="i-FTPDSBw5PgjgtrntwgZEch">
             18
@@ -955,10 +955,12 @@
             en annan tid och ett annat system. Regeringens främsta prioritet
             borde vara att se över dessa, innan några mer genomgripande reformer
             genomförs. Vi hemställer därför att regeringen omedelbart skall
-            företa denna översyn, med beaktande av vad som ovan anförts. Stockholm
-            den 27 mars 2002
+            företa denna översyn, med beaktande av vad som ovan anförts.
           </p>
-          <p xml:id="i-PMJDExgdqVQvWTamH9eDtZ">
+          <p type="date" id="i-MKCvK4ZhNRNmDKzxkE6TNy">
+            Stockholm den 27 mars 2002
+          </p>
+          <p xml:id="i-PMJDExgdqVQvWTamH9eDtZ" type="signatureBlock">
             Christel Anderberg (m) Henrik S Järrel (m) Elizabeth Nyström
             (m) Berit Adolfsson (m) Petra Gardos (m) Anders Sjölund (m) Marietta
             de Pourbaix-Lundin (m) Lennart Bolander (m) Stig Rindborg (m)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-KU-00008">
   <teiHeader>
     <fileDesc>
@@ -62,7 +62,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-NLfGbU6uYqUpokycKPUS7z"/>
+        <correspAction xml:id="i-NLfGbU6uYqUpokycKPUS7z" type="basedOn"/>
         <correspContext corresp="i-NLfGbU6uYqUpokycKPUS7z">
           <ref>Proposition 2004/05:8</ref>
         </correspContext>
@@ -74,19 +74,19 @@
           <note type="signatory" corresp="i-FKLdFezw4jPcBcpexqvUyJ"/>
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FzQ8NxwBaSnHvMk5k159pK">
+        <correspAction xml:id="i-FzQ8NxwBaSnHvMk5k159pK" type="referral">
           <date when="2004-11-08"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-DB4FEy66A5pMqZUUJ7rPQ7">
+        <correspAction xml:id="i-DB4FEy66A5pMqZUUJ7rPQ7" type="registration">
           <date when="2004-10-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7YQiAAPbwQ6Yq59dH97nov">
+        <correspAction xml:id="i-7YQiAAPbwQ6Yq59dH97nov" type="dismissal">
           <date when="2004-10-29"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VJEdU4VBaMy2bGM5dpRrjU">
+        <correspAction xml:id="i-VJEdU4VBaMy2bGM5dpRrjU" type="submission">
           <date when="2004-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7dzo3VmhGcCVeiPe7jGiDA"/>
+        <correspAction xml:id="i-7dzo3VmhGcCVeiPe7jGiDA" type="assigned"/>
         <correspContext corresp="i-7dzo3VmhGcCVeiPe7jGiDA">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_K_8/mot_200405_K_8-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_K_8/mot_200405_K_8-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HPcyqEaey8sNzEVpEGqan9">
-        <div type="motTitle" xml:id="i-JxNbKPCgWQBP5FAXCtSw1A"/>
-        <div type="motSubmissionInfo" xml:id="i-4W9WGUNmfiLwbUhuT8CNnu"/>
+      <div xml:id="i-HPcyqEaey8sNzEVpEGqan9" type="motHeader">
+        <div xml:id="i-JxNbKPCgWQBP5FAXCtSw1A" type="motTitle"/>
+        <div xml:id="i-4W9WGUNmfiLwbUhuT8CNnu" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MTKuWcKY37hgQ5hKWZdgqQ">
+      <div xml:id="i-MTKuWcKY37hgQ5hKWZdgqQ" type="motBody">
         <div xml:id="i-RXxsdqK52qohxRZ34neEr8">
           <p xml:id="i-HbLN4yveCkfjtiCLGBPBLm">
             2004/05 mnr: K8 pnr: m1630
@@ -184,9 +184,12 @@
             pågått i sex år. Det är dags för en utvärdering innan beslut tas
             om Västra Götalandsregionens framtid.
           </p>
-          <p xml:id="i-U1iY54vRMkv54nd1rKedL7">
-            Stockholm den 25 oktober 2004 Elizabeth Nyström (m) Cecilia Widegren
-            (m) Inger René (m) Kent Olsson (m) Ulf Sjösten (m)
+          <p xml:id="i-U1iY54vRMkv54nd1rKedL7" type="date">
+            Stockholm den 25 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-8jgCWsQKKFE8RzsAbtPL6m">
+            Elizabeth Nyström (m) Cecilia Widegren (m) Inger René (m) Kent
+            Olsson (m) Ulf Sjösten (m)
           </p>
         </div>
       </div>

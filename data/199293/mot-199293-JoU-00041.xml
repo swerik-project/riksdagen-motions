@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-JoU-00041">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-YSrKPAF7dEJGwUuQtYWvjX</idno>
-            <name>Bruno Poromaa </name>
+            <name>Bruno Poromaa</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-T52vqFxDFPGpvkPRtqScLC</idno>
-            <name>Sten-Ove Sundström </name>
+            <name>Sten-Ove Sundström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Es9MssSEtBNEH1aADUejcS</idno>
-            <name>Leif Marklund </name>
+            <name>Leif Marklund</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-ArU5r5XLMgVkNLk3S1YQqw"/>
+        <correspAction xml:id="i-ArU5r5XLMgVkNLk3S1YQqw" type="basedOn"/>
         <correspContext corresp="i-ArU5r5XLMgVkNLk3S1YQqw">
           <ref>Proposition 1992/93:184</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-T52vqFxDFPGpvkPRtqScLC"/>
           <note type="signatory" corresp="i-Es9MssSEtBNEH1aADUejcS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GNRGnEpLst9xEuCkZnq9Yq">
+        <correspAction xml:id="i-GNRGnEpLst9xEuCkZnq9Yq" type="referral">
           <date when="1993-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HKi9wGhhf8fWuAdkpPHSUY">
+        <correspAction xml:id="i-HKi9wGhhf8fWuAdkpPHSUY" type="dismissal">
           <date when="1993-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TS1KTbbcUcw9PG932WQ4k7">
+        <correspAction xml:id="i-TS1KTbbcUcw9PG932WQ4k7" type="submission">
           <date when="1993-03-17"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-3a2EPz9JhF5UgXt4xo8abC">
+        <correspAction xml:id="i-3a2EPz9JhF5UgXt4xo8abC" type="referral">
           <date when="1993-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2GZ1EUbXoxCoMVsvKMfZqm">
+        <correspAction xml:id="i-2GZ1EUbXoxCoMVsvKMfZqm" type="dismissal">
           <date when="1993-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GRaXFEK7jJhNs1uH26GR1B">
+        <correspAction xml:id="i-GRaXFEK7jJhNs1uH26GR1B" type="submission">
           <date when="1993-03-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9CFByHKBetvNw3dfUPnD2o"/>
+        <correspAction xml:id="i-9CFByHKBetvNw3dfUPnD2o" type="assigned"/>
         <correspContext corresp="i-9CFByHKBetvNw3dfUPnD2o">
           <ref type="assignedTo">Jordbruksutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_JoU_41/mot_199293_JoU_41-001.pdf"/>
-      <div type="motHeader" xml:id="i-Hojcanvm3S4UDde3Qb5nfU">
-        <div type="motTitle" xml:id="i-BRSKcAwNJfKn2GCERqGpAa"/>
-        <div type="motSubmissionInfo" xml:id="i-CJKJEFW1gehxxpBXZjahFZ"/>
+      <div xml:id="i-Hojcanvm3S4UDde3Qb5nfU" type="motHeader">
+        <div xml:id="i-BRSKcAwNJfKn2GCERqGpAa" type="motTitle"/>
+        <div xml:id="i-CJKJEFW1gehxxpBXZjahFZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RH3HvaYPjpf9hvdAJfzh1o">
+      <div xml:id="i-RH3HvaYPjpf9hvdAJfzh1o" type="motBody">
         <div xml:id="i-UuCBTH1sSR32UWBE1awKDu">
           <p xml:id="i-F7YpiaXodiM4sEptjjNzyb">
             Motion till riksdagen 1992/93:J041
@@ -170,9 +170,12 @@
           <p xml:id="i-L6pfECsWjD46uW6fFS12d3">
             att riksdagen som sin mening ger regeringen till känna vad i
             motio- nen anförts om åtgärder i syfte att främja reproduktionen
-            av naturlax. Stockholm den 17 mars 1993
+            av naturlax.
           </p>
-          <p xml:id="i-5okuX8qEdmoSAoeArVrYn3">
+          <p type="date" id="i-Ngj33kFzgsFUvziAn3CmGP">
+            Stockholm den 17 mars 1993
+          </p>
+          <p xml:id="i-5okuX8qEdmoSAoeArVrYn3" type="signatureBlock">
             Bruno Poromaa (s)
           </p>
           <p xml:id="i-3bgMxagt1SdP7YeZ3KyZus">

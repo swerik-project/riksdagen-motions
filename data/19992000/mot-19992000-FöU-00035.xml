@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-FöU-00035">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-9qwc3VxwtKLym8d6MM3YkT</idno>
-            <name>Jan Erik Ågren </name>
+            <name>Jan Erik Ågren</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-SiceK3ayRH23n7fRq4DgTE"/>
+        <correspAction xml:id="i-SiceK3ayRH23n7fRq4DgTE" type="basedOn"/>
         <correspContext corresp="i-SiceK3ayRH23n7fRq4DgTE">
           <ref>Proposition 1999/2000:30</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-9qwc3VxwtKLym8d6MM3YkT"/>
           <note type="signatory" corresp="i-9qwc3VxwtKLym8d6MM3YkT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-N9MWBS9ambD3ceNHRAnCBu">
+        <correspAction xml:id="i-N9MWBS9ambD3ceNHRAnCBu" type="referral">
           <date when="1999-12-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WPQZgj9QWB9tK5UAtd4EjP">
+        <correspAction xml:id="i-WPQZgj9QWB9tK5UAtd4EjP" type="dismissal">
           <date when="1999-12-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DuUjyP3vKJUZT3NTgWiLUt">
+        <correspAction xml:id="i-DuUjyP3vKJUZT3NTgWiLUt" type="submission">
           <date when="1999-12-10"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-L72xisM7J5bq1qqLNQW9TC">
+        <correspAction xml:id="i-L72xisM7J5bq1qqLNQW9TC" type="referral">
           <date when="1999-12-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4pSZaqXLPWPeQzXjHkWmdU">
+        <correspAction xml:id="i-4pSZaqXLPWPeQzXjHkWmdU" type="dismissal">
           <date when="1999-12-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VVdEm2it1qS5gjQFL6kbJw">
+        <correspAction xml:id="i-VVdEm2it1qS5gjQFL6kbJw" type="submission">
           <date when="1999-12-10"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QNfXMGTuRBW3iNr3Nd3QFi"/>
+        <correspAction xml:id="i-QNfXMGTuRBW3iNr3Nd3QFi" type="assigned"/>
         <correspContext corresp="i-QNfXMGTuRBW3iNr3Nd3QFi">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fö_0035/mot_199900_Fö_0035-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8uVb4zZfiKFYmhNrHoFftr">
-        <div type="motTitle" xml:id="i-UqisRAyWZk2L1iRFkzpRzc"/>
-        <div type="motSubmissionInfo" xml:id="i-VHT5A9DRRiFSwF8Dmq48s"/>
+      <div xml:id="i-8uVb4zZfiKFYmhNrHoFftr" type="motHeader">
+        <div xml:id="i-UqisRAyWZk2L1iRFkzpRzc" type="motTitle"/>
+        <div xml:id="i-VHT5A9DRRiFSwF8Dmq48s" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JcWEq6Ux7Gyy9P11rWD5mb">
+      <div xml:id="i-JcWEq6Ux7Gyy9P11rWD5mb" type="motBody">
         <div xml:id="i-A3BSAfhcxG9JS1PsAHCAjg">
           <p xml:id="i-PDi3FPucUvHvqSWazjMHit">
             1999/2000 mnr: Fö35 pnr: kd134
@@ -247,9 +247,11 @@
             trängkår, T 3, skall bibehållas.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fö_0035/mot_199900_Fö_0035-0004.pdf"/>
-          <p xml:id="i-5XJDega2XUXNrb23HeSKw9">
-            Stockholm den 9 december 1999 Mot. 1999/2000 Fö35 Jan Erik Ågren
-            (kd)
+          <p xml:id="i-5XJDega2XUXNrb23HeSKw9" type="date">
+            Stockholm den 9 december 1999
+          </p>
+          <p type="signatureBlock" id="i-X7oqi9H9CBAGyWPdyFztd4">
+            Mot. 1999/2000 Fö35 Jan Erik Ågren (kd)
           </p>
         </div>
       </div>

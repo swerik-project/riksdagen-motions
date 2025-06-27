@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00051">
   <teiHeader>
     <fileDesc>
@@ -35,7 +35,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7A6UUcDZ6jvKAEPXaJ4grH"/>
+        <correspAction xml:id="i-7A6UUcDZ6jvKAEPXaJ4grH" type="basedOn"/>
         <correspContext corresp="i-7A6UUcDZ6jvKAEPXaJ4grH">
           <ref>Regeringsskrivelse 2005/06:205</ref>
         </correspContext>
@@ -43,22 +43,22 @@
         <correspContext corresp="i-2nxfNXSCXzEMXGq9iyYYmP">
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
         </correspContext>
-        <correspAction type="expire" xml:id="i-14TQx2LvxwFb2snrzGPdVp">
+        <correspAction xml:id="i-14TQx2LvxwFb2snrzGPdVp" type="expire">
           <date when="2006-11-15"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-AarCc6A8nepiAebLMe3uJZ">
+        <correspAction xml:id="i-AarCc6A8nepiAebLMe3uJZ" type="referral">
           <date when="2006-06-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-X91CVhwMb6WobPdKgcCXsB">
+        <correspAction xml:id="i-X91CVhwMb6WobPdKgcCXsB" type="dismissal">
           <date when="2006-06-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-M62VzvbMnj7vxRangkTHTz">
+        <correspAction xml:id="i-M62VzvbMnj7vxRangkTHTz" type="dismissal">
           <date when="2006-06-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-H5TJ2So8JTPzwCyXmpiUJR">
+        <correspAction xml:id="i-H5TJ2So8JTPzwCyXmpiUJR" type="submission">
           <date when="2006-06-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Y5X5A3EMYFSDPeae5wx1we"/>
+        <correspAction xml:id="i-Y5X5A3EMYFSDPeae5wx1we" type="assigned"/>
         <correspContext corresp="i-Y5X5A3EMYFSDPeae5wx1we">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -73,11 +73,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_51/mot_200506_So_51-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JaZvkTLwoyBYH4Gs3M4MRi">
-        <div type="motTitle" xml:id="i-Nj2immRxciaeAVvsdksggd"/>
-        <div type="motSubmissionInfo" xml:id="i-29VyQYRkhfrtmtVzJgWWX1"/>
+      <div xml:id="i-JaZvkTLwoyBYH4Gs3M4MRi" type="motHeader">
+        <div xml:id="i-Nj2immRxciaeAVvsdksggd" type="motTitle"/>
+        <div xml:id="i-29VyQYRkhfrtmtVzJgWWX1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-D8s12WJHX5j12d2fXaJQi5">
+      <div xml:id="i-D8s12WJHX5j12d2fXaJQi5" type="motBody">
         <div xml:id="i-6kvrzcarf6NgubkjN9ordp">
           <p xml:id="i-Lot8VEuC6qaFuHm73tA1Um">
             2005/06 mnr: So51 pnr: s3437
@@ -122,8 +122,11 @@
             ta fram förslag på hur ridning kan användas som rehabilitering
             och friskvård.
           </p>
-          <p xml:id="i-Bq9BkRRhntrXdnm4Ut312N">
-            Stockholm den 13 juni 2006 Michael Hagberg (s)
+          <p xml:id="i-Bq9BkRRhntrXdnm4Ut312N" type="date">
+            Stockholm den 13 juni 2006
+          </p>
+          <p type="signatureBlock" id="i-KhxcRDMdfxb9rfZGSvTjuF">
+            Michael Hagberg (s)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00423">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-B8aGXGha9Phyahyt5wxbMy">
           <note type="signatory" corresp="i-GLV4P4jtfPZVZ95YSNxfBh"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7Uow16tFNZd1egBitk7BaT">
+        <correspAction xml:id="i-7Uow16tFNZd1egBitk7BaT" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EoN4vtpVyNt2EJobjPgvUB">
+        <correspAction xml:id="i-EoN4vtpVyNt2EJobjPgvUB" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WtDivjKRFpaGoZbSXREyw">
+        <correspAction xml:id="i-WtDivjKRFpaGoZbSXREyw" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WUFUEaJF6pB9mSEcGR8Jug"/>
+        <correspAction xml:id="i-WUFUEaJF6pB9mSEcGR8Jug" type="assigned"/>
         <correspContext corresp="i-WUFUEaJF6pB9mSEcGR8Jug">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_MJ_0423/mot_200304_MJ_0423-0001.pdf"/>
-      <div type="motHeader" xml:id="i-S6FZ2YtATLbK4Xb6oUW2mX">
-        <div type="motTitle" xml:id="i-XgUgcnwW8zGTa5Si3knJTX"/>
-        <div type="motSubmissionInfo" xml:id="i-7nZ2steBADo5xxtGg39Hxm"/>
+      <div xml:id="i-S6FZ2YtATLbK4Xb6oUW2mX" type="motHeader">
+        <div xml:id="i-XgUgcnwW8zGTa5Si3knJTX" type="motTitle"/>
+        <div xml:id="i-7nZ2steBADo5xxtGg39Hxm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UNtESs7PYyQLmEF7Wv4cy4">
+      <div xml:id="i-UNtESs7PYyQLmEF7Wv4cy4" type="motBody">
         <div xml:id="i-6JPkqUSixGUdwnn8FNvtZ4">
           <p xml:id="i-RR4mEp4TUq29RV8orfWGmL">
             2003/04 mnr: MJ423 pnr: mp538
@@ -249,8 +249,11 @@
             vara stark i Sverige. Det går att få ihop dessa mål men det krävs
             en långsiktig planering och insatser från både näringen och samhället.
           </p>
-          <p xml:id="i-XCn8rM2mCt6Tt91PERZQKY">
-            Stockholm den 6 oktober 2003 Åsa Domeij (mp)
+          <p xml:id="i-XCn8rM2mCt6Tt91PERZQKY" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-EtfQmxi4KLdnkE7rDTqoR1">
+            Åsa Domeij (mp)
           </p>
         </div>
       </div>

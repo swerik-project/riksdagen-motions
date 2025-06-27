@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00003">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-TDJ7FGxMUJmEEzER4Doi1F"/>
+        <correspAction xml:id="i-TDJ7FGxMUJmEEzER4Doi1F" type="basedOn"/>
         <correspContext corresp="i-TDJ7FGxMUJmEEzER4Doi1F">
           <ref>Regeringsskrivelse 2004/05:4</ref>
         </correspContext>
@@ -42,19 +42,19 @@
         <correspContext corresp="i-BJTYs7QpjumASsXRPbra5d">
           <note type="signatory" corresp="i-Q6T8pKy9pERdSQEuTcARyR"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UtsqLisuPquGM8HrPY7aUW">
+        <correspAction xml:id="i-UtsqLisuPquGM8HrPY7aUW" type="referral">
           <date when="2004-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LZ1N3qqViqZ2Rsnswrk2Hy">
+        <correspAction xml:id="i-LZ1N3qqViqZ2Rsnswrk2Hy" type="dismissal">
           <date when="2004-10-12"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-ELoGLgMkCMMuQB4pUHCEh4">
+        <correspAction xml:id="i-ELoGLgMkCMMuQB4pUHCEh4" type="registration">
           <date when="2004-10-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VwJsLdRfASaEK9VeYCHj8b">
+        <correspAction xml:id="i-VwJsLdRfASaEK9VeYCHj8b" type="submission">
           <date when="2004-10-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4He4CPbZRiri6rDsHEAMDW"/>
+        <correspAction xml:id="i-4He4CPbZRiri6rDsHEAMDW" type="assigned"/>
         <correspContext corresp="i-4He4CPbZRiri6rDsHEAMDW">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -69,11 +69,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_3/mot_200405_U_3-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Pcre2aD22DnvUerep6wa6i">
-        <div type="motTitle" xml:id="i-V5BxR1vtmnXSHNbwzyY6Em"/>
-        <div type="motSubmissionInfo" xml:id="i-K61dSUj8QLm8N5WHwshaSN"/>
+      <div xml:id="i-Pcre2aD22DnvUerep6wa6i" type="motHeader">
+        <div xml:id="i-V5BxR1vtmnXSHNbwzyY6Em" type="motTitle"/>
+        <div xml:id="i-K61dSUj8QLm8N5WHwshaSN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Q5pazu5bv9xYUR4agiKStG">
+      <div xml:id="i-Q5pazu5bv9xYUR4agiKStG" type="motBody">
         <div xml:id="i-3TnFpa686qyH9S9dEW4FGQ">
           <p xml:id="i-CYyNJF9MUJyFA1gqL56zvj">
             2004/05 mnr: U3 pnr: mp002
@@ -235,10 +235,12 @@
           <p xml:id="i-Fxd1xJzz8TZysWHLzfkSfF">
             I det sammanhanget är det också påkallat att regeringen återkommer
             med preciseringar och skärpningar för företagens åtaganden och
-            ansvar gentemot miljön och sociala sammanhang. Stockholm den 29
-            september 2004
+            ansvar gentemot miljön och sociala sammanhang.
           </p>
-          <p xml:id="i-EMauVLj47sTVUuFNZRS4V3">
+          <p type="date" id="i-3TqUSX5ZSjvcbUsDE7ie7e">
+            Stockholm den 29 september 2004
+          </p>
+          <p xml:id="i-EMauVLj47sTVUuFNZRS4V3" type="signatureBlock">
             Lotta Hedström (mp)
           </p>
         </div>

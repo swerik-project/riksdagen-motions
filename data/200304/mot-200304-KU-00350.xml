@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00350">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-YAmcqmVuqVTMbboMx2hsN7">
           <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NXnG1E44znM5duyMoRPPV">
+        <correspAction xml:id="i-NXnG1E44znM5duyMoRPPV" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9zHgoc1MLkvLBwmTC6434b">
+        <correspAction xml:id="i-9zHgoc1MLkvLBwmTC6434b" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WH8PpMtJYqvxH8Xz9qCaLh">
+        <correspAction xml:id="i-WH8PpMtJYqvxH8Xz9qCaLh" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9rMjVqmtMSuwoSSuQ3iezb"/>
+        <correspAction xml:id="i-9rMjVqmtMSuwoSSuQ3iezb" type="assigned"/>
         <correspContext corresp="i-9rMjVqmtMSuwoSSuQ3iezb">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0350/mot_200304_K_0350-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LCawSf46LHPUdKeCYUoZ3x">
-        <div type="motTitle" xml:id="i-H48Wv99BGGmeqRaKSyCUEz"/>
-        <div type="motSubmissionInfo" xml:id="i-NFKrdsfaiKHhZExfZJRRwJ"/>
+      <div xml:id="i-LCawSf46LHPUdKeCYUoZ3x" type="motHeader">
+        <div xml:id="i-H48Wv99BGGmeqRaKSyCUEz" type="motTitle"/>
+        <div xml:id="i-NFKrdsfaiKHhZExfZJRRwJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9Tt2RJJKgfNqHoWMf36a6M">
+      <div xml:id="i-9Tt2RJJKgfNqHoWMf36a6M" type="motBody">
         <div xml:id="i-KcCnjaZeMzEbSkKECytWWR">
           <p xml:id="i-6qACoZfmdWXmzpWWK5qmHS">
             2003/04 mnr: K350 pnr: fp258
@@ -121,8 +121,11 @@
           <p xml:id="i-CqsbdMpajtkk626iuqpRg6">
             2003/04:K350
           </p>
-          <p xml:id="i-Lv2FGc5ZTdW7gcfwYVbg8A">
-            Stockholm den 6 oktober 2003 Tobias Krantz (fp)
+          <p xml:id="i-Lv2FGc5ZTdW7gcfwYVbg8A" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-T4ndczGYY5SqtSs3TmyoLa">
+            Tobias Krantz (fp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00002">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5MCZ6raQq7RRGDG3XHHUCP"/>
+        <correspAction xml:id="i-5MCZ6raQq7RRGDG3XHHUCP" type="basedOn"/>
         <correspContext corresp="i-5MCZ6raQq7RRGDG3XHHUCP">
           <ref>Redogörelse 2004/05:RRS3</ref>
         </correspContext>
@@ -50,19 +50,19 @@
           <note type="signatory" corresp="i-5jLvgtZLz4tn3NhaKToY29"/>
           <note type="signatory" corresp="i-43NmWWYd8vEgZrkoXWWCXx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XtPod9JbsYRY8pYEiVcTBj">
+        <correspAction xml:id="i-XtPod9JbsYRY8pYEiVcTBj" type="referral">
           <date when="2004-10-01"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-Qx9nxfVdeTBthim2crucJB">
+        <correspAction xml:id="i-Qx9nxfVdeTBthim2crucJB" type="registration">
           <date when="2004-09-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6ZAsDtJ6Gxus7qSjedK1S6">
+        <correspAction xml:id="i-6ZAsDtJ6Gxus7qSjedK1S6" type="dismissal">
           <date when="2004-09-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GKPsfDsDnqADHyrqoBde96">
+        <correspAction xml:id="i-GKPsfDsDnqADHyrqoBde96" type="submission">
           <date when="2004-09-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-85hghmLDee4kSQQ3Q29FyY"/>
+        <correspAction xml:id="i-85hghmLDee4kSQQ3Q29FyY" type="assigned"/>
         <correspContext corresp="i-85hghmLDee4kSQQ3Q29FyY">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_2/mot_200405_U_2-0001.pdf"/>
-      <div type="motHeader" xml:id="i-F6mvRtiq26rpC2oKcynsbP">
-        <div type="motTitle" xml:id="i-PK3LCqB6idtuKuTX1Tmscz"/>
-        <div type="motSubmissionInfo" xml:id="i-QKHrzfm4fDcksnPnBN1UVG"/>
+      <div xml:id="i-F6mvRtiq26rpC2oKcynsbP" type="motHeader">
+        <div xml:id="i-PK3LCqB6idtuKuTX1Tmscz" type="motTitle"/>
+        <div xml:id="i-QKHrzfm4fDcksnPnBN1UVG" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-aTkuHgAWjr9BTbqoMtjQW">
+      <div xml:id="i-aTkuHgAWjr9BTbqoMtjQW" type="motBody">
         <div xml:id="i-3qUCrF6xHcLGNtVUunPtE1">
           <p xml:id="i-Atg8x4abjnr8QTFrGFYKkX">
             2004/05 mnr: U2 pnr: kd103
@@ -122,9 +122,11 @@
             förutsätter att regeringen gör precis det och utvecklar det svenska
             utvecklingssamarbetet i linje med Riksrevisionens riktlinjer.
           </p>
-          <p xml:id="i-ByZtwPfsKcRAswKWa28XKr">
-            Stockholm den 29 september 2004 Holger Gustafsson (kd) Rosita
-            Runegrund (kd)
+          <p xml:id="i-ByZtwPfsKcRAswKWa28XKr" type="date">
+            Stockholm den 29 september 2004
+          </p>
+          <p type="signatureBlock" id="i-6jCQanxiQ2aDK46bfWE8uU">
+            Holger Gustafsson (kd) Rosita Runegrund (kd)
           </p>
         </div>
       </div>

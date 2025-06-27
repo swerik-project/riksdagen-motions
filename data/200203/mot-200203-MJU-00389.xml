@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00389">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-39zwmAAyHvAQnfZvi52F9U">
           <note type="signatory" corresp="i-PRFN1BS8QWUhjjGAM8w3Fj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8YfSNCun9dyGba4WVuyVUh">
+        <correspAction xml:id="i-8YfSNCun9dyGba4WVuyVUh" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TCVZGPNQVzj21992fjpmHe">
+        <correspAction xml:id="i-TCVZGPNQVzj21992fjpmHe" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CgHhsYem5mJPdhYxe8xqSd">
+        <correspAction xml:id="i-CgHhsYem5mJPdhYxe8xqSd" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-K7Upj9g4ZMXpT6UQSrLG7j"/>
+        <correspAction xml:id="i-K7Upj9g4ZMXpT6UQSrLG7j" type="assigned"/>
         <correspContext corresp="i-K7Upj9g4ZMXpT6UQSrLG7j">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_MJ_0389/mot_200203_MJ_0389-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LtgRhnYqP9LXhqQaaC4ADM">
-        <div type="motTitle" xml:id="i-UfYvsTuS66ho2Ko8aDSfCE"/>
-        <div type="motSubmissionInfo" xml:id="i-FywpJowK7nak6BbAp7ovGS"/>
+      <div xml:id="i-LtgRhnYqP9LXhqQaaC4ADM" type="motHeader">
+        <div xml:id="i-UfYvsTuS66ho2Ko8aDSfCE" type="motTitle"/>
+        <div xml:id="i-FywpJowK7nak6BbAp7ovGS" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-X2RYpAoDoecTVJWHTtNLNW">
+      <div xml:id="i-X2RYpAoDoecTVJWHTtNLNW" type="motBody">
         <div xml:id="i-WfsNkyndyrdTUrvwAbyA97">
           <p xml:id="i-MWUws3wRyLc9vtt2wBxgWZ">
             2002/03 mnr: MJ389 pnr: c492
@@ -175,8 +175,11 @@
             och urholkningen av institutionens basresurser är ett hot mot
             detta.
           </p>
-          <p xml:id="i-VjZp9NqgNA5fD3hbLByR4b">
-            Stockholm den 21 oktober 2002 Maud Olofsson (c)
+          <p xml:id="i-VjZp9NqgNA5fD3hbLByR4b" type="date">
+            Stockholm den 21 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-WfvsJChm2cVGRkcxptMcD3">
+            Maud Olofsson (c)
           </p>
           <p xml:id="i-FJmP3NztiPz5LHLdgEc5PZ">
             Elanders Gotab, Stockholm 2002

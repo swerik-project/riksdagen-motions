@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-MJU-00209">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-NXNY6RqNuERrrfDVTJBFkt</idno>
-            <name>Ingvar Eriksson </name>
+            <name>Ingvar Eriksson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-3YBav2r8YXZiNoQkfb1bUy</idno>
-            <name>Elizabeth Nyström </name>
+            <name>Elizabeth Nyström</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-NXNY6RqNuERrrfDVTJBFkt"/>
           <note type="signatory" corresp="i-3YBav2r8YXZiNoQkfb1bUy"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QTNLXPAdcYhGGsNnrhEa38">
+        <correspAction xml:id="i-QTNLXPAdcYhGGsNnrhEa38" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FDzs3kcKRyPxA9Z4YTYcEi">
+        <correspAction xml:id="i-FDzs3kcKRyPxA9Z4YTYcEi" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-H5Zrd6sfXVpJ7FvrKrPLUk">
+        <correspAction xml:id="i-H5Zrd6sfXVpJ7FvrKrPLUk" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-UUVncfruLuCuBPXLx6eY2p">
+        <correspAction xml:id="i-UUVncfruLuCuBPXLx6eY2p" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-351EnVezgBDeYfN1szPet5">
+        <correspAction xml:id="i-351EnVezgBDeYfN1szPet5" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MgCyaEKa2ujJZU4Y33XEG9">
+        <correspAction xml:id="i-MgCyaEKa2ujJZU4Y33XEG9" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UpsctFNoryneXYUFAPFLWN"/>
+        <correspAction xml:id="i-UpsctFNoryneXYUFAPFLWN" type="assigned"/>
         <correspContext corresp="i-UpsctFNoryneXYUFAPFLWN">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_MJ_0209/mot_199900_MJ_0209-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PAm4NdpcsinoyB9GeHizrv">
-        <div type="motTitle" xml:id="i-SDLK8iH5zHjAq3hWbPshcg"/>
-        <div type="motSubmissionInfo" xml:id="i-5CHbiFtCuuMvm3gQZ4fdTZ"/>
+      <div xml:id="i-PAm4NdpcsinoyB9GeHizrv" type="motHeader">
+        <div xml:id="i-SDLK8iH5zHjAq3hWbPshcg" type="motTitle"/>
+        <div xml:id="i-5CHbiFtCuuMvm3gQZ4fdTZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MqNVM9ZfbeQLtMVbDD126r">
+      <div xml:id="i-MqNVM9ZfbeQLtMVbDD126r" type="motBody">
         <div xml:id="i-XsZr6zfTWfZXCvFXqk3dXV">
           <p xml:id="i-2mabWrByDY7AfATTtfcRiW">
             1999/2000 mnr: MJ209 pnr: m186
@@ -152,8 +152,11 @@
             ekologiskt övergångsstöd för yrkesmässig växthusodling.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_MJ_0209/mot_199900_MJ_0209-0002.pdf"/>
-          <p xml:id="i-EQeWKK8Ef1hvzvxDLbzTEz">
-            Stockholm den 27 september 1999 Mot. 1999/2000
+          <p xml:id="i-EQeWKK8Ef1hvzvxDLbzTEz" type="date">
+            Stockholm den 27 september 1999
+          </p>
+          <p type="signatureBlock" id="i-AgKqaatsHWqNi4exNq53gZ">
+            Mot. 1999/2000
           </p>
           <p xml:id="i-YA9JoNugU2L4tAa57NGCMh">
             MJ209 Ingvar Eriksson (m) Elizabeth Nyström (m)

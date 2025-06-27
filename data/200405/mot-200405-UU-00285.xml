@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00285">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-FRXDS5WPbQCrnBn22AJBxL">
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MNgyT7mToZkMoG7iR8y6VW">
+        <correspAction xml:id="i-MNgyT7mToZkMoG7iR8y6VW" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RAqrHF2zJgBgHPG2EhenHM">
+        <correspAction xml:id="i-RAqrHF2zJgBgHPG2EhenHM" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7Aff6UWd1Wzavz9PZnj1Hc">
+        <correspAction xml:id="i-7Aff6UWd1Wzavz9PZnj1Hc" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Ac8u53YpJmr4zMwZaRz5CQ"/>
+        <correspAction xml:id="i-Ac8u53YpJmr4zMwZaRz5CQ" type="assigned"/>
         <correspContext corresp="i-Ac8u53YpJmr4zMwZaRz5CQ">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_285/mot_200405_U_285-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CcNBW3Dfmsu1a8jq5Riuro">
-        <div type="motTitle" xml:id="i-BBgQve3mFnefDoUWb4mWZH"/>
-        <div type="motSubmissionInfo" xml:id="i-X3xdZ4JphgdMmTjdrdQoiq"/>
+      <div xml:id="i-CcNBW3Dfmsu1a8jq5Riuro" type="motHeader">
+        <div xml:id="i-BBgQve3mFnefDoUWb4mWZH" type="motTitle"/>
+        <div xml:id="i-X3xdZ4JphgdMmTjdrdQoiq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KGUXg9jKBztmgzxMTxcere">
+      <div xml:id="i-KGUXg9jKBztmgzxMTxcere" type="motBody">
         <div xml:id="i-HdWy7Y5JBjdaXUyjAZekhL">
           <p xml:id="i-SJMJVSH9tUGH3hXVjD3FKQ">
             2004/05 mnr: U285 pnr: s3156
@@ -110,8 +110,11 @@
             är helt enkelt inte acceptabelt med så pass allvarlig miljöförstöring
             som sker medvetet i vårt närområde.
           </p>
-          <p xml:id="i-ULS2WdJksd84FqJHSjQfaU">
-            Stockholm den 30 september 2004 Michael Hagberg (s)
+          <p xml:id="i-ULS2WdJksd84FqJHSjQfaU" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-2NeqvG5twyy3PZ3kJMgvke">
+            Michael Hagberg (s)
           </p>
         </div>
       </div>

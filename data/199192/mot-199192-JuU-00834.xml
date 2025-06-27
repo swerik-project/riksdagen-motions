@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-JuU-00834">
   <teiHeader>
     <fileDesc>
@@ -54,28 +54,28 @@
           </person>
           <person gender="man">
             <idno>i-SfnrsjEZBg9vdQjkU5VSZ2</idno>
-            <name>Ian Wachtmeister </name>
+            <name>Ian Wachtmeister</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-9aRLLJUPp6dkL6wGF6nZuc</idno>
-            <name>Sten Söderberg </name>
+            <name>Sten Söderberg</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-KC7Pg8aEPmzzkGC8SbK2cS</idno>
-            <name>Peter Kling </name>
+            <name>Peter Kling</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
           </person>
           <person gender="man">
             <idno>i-XAZuDYpjMWVDmo4L97UiJw</idno>
-            <name>John Bouvin </name>
+            <name>John Bouvin</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc/>
             </state>
@@ -94,25 +94,25 @@
           <note type="signatory" corresp="i-KC7Pg8aEPmzzkGC8SbK2cS"/>
           <note type="signatory" corresp="i-XAZuDYpjMWVDmo4L97UiJw"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2sdjgoP9hZ95RUy2R4XP9R">
+        <correspAction xml:id="i-2sdjgoP9hZ95RUy2R4XP9R" type="referral">
           <date when="1992-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QpBBVQdqRCc9TiU8XxMj2f">
+        <correspAction xml:id="i-QpBBVQdqRCc9TiU8XxMj2f" type="dismissal">
           <date when="1992-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HfThLPSrEJE1DgEZ8oKt5H">
+        <correspAction xml:id="i-HfThLPSrEJE1DgEZ8oKt5H" type="submission">
           <date when="1992-01-27"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-AiBoYFbgStd9TVZKXMDpK4">
+        <correspAction xml:id="i-AiBoYFbgStd9TVZKXMDpK4" type="referral">
           <date when="1992-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-T5pigJMWzKdmwUge5uUqD1">
+        <correspAction xml:id="i-T5pigJMWzKdmwUge5uUqD1" type="dismissal">
           <date when="1992-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7gvjrHNJfgS32L9n1sVWYM">
+        <correspAction xml:id="i-7gvjrHNJfgS32L9n1sVWYM" type="submission">
           <date when="1992-01-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KLwz4YyeAbpuxWL3j58XGn"/>
+        <correspAction xml:id="i-KLwz4YyeAbpuxWL3j58XGn" type="assigned"/>
         <correspContext corresp="i-KLwz4YyeAbpuxWL3j58XGn">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -125,11 +125,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_JuU_834/mot_199192_JuU_834-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-SURwjC3Y3fjcaLi271AnDG">
-        <div type="motTitle" xml:id="i-VRgLWKe5BqTkBLD51x6w3W"/>
-        <div type="motSubmissionInfo" xml:id="i-HjBLLrgdYohcKBQUs63WYh"/>
+      <div xml:id="i-SURwjC3Y3fjcaLi271AnDG" type="motHeader">
+        <div xml:id="i-VRgLWKe5BqTkBLD51x6w3W" type="motTitle"/>
+        <div xml:id="i-HjBLLrgdYohcKBQUs63WYh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-N6E33S65MnpDiN3g4hkALA">
+      <div xml:id="i-N6E33S65MnpDiN3g4hkALA" type="motBody">
         <div xml:id="i-JycDQYQJPEASckij54dUQq">
           <p xml:id="i-DWquQhBzCzymBDgGVCSvD9">
             &amp;
@@ -478,9 +478,11 @@
             ett besöksförbud skall omedelbart anhållas eller häk- tas, om
             det ej är uppenbart att skäl därtill ej förekommer.
           </p>
-          <p xml:id="i-KTbdF8PwPCi91vxTd8bq9W">
-            Stockholm den 24 januari 1992 Ian Wachtmeister (nyd) Sten Söderberg
-            (nyd) John Bouvin (nyd)
+          <p xml:id="i-KTbdF8PwPCi91vxTd8bq9W" type="date">
+            Stockholm den 24 januari 1992
+          </p>
+          <p type="signatureBlock" id="i-KWutBe9BPNTgqvJ7icH9pt">
+            Ian Wachtmeister (nyd) Sten Söderberg (nyd) John Bouvin (nyd)
           </p>
           <p xml:id="i-4iPkBqvrdR6Mq5ynkkEdU8">
             Peter Kling (nyd)

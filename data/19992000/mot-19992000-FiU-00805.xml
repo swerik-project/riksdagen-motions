@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-FiU-00805">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="woman">
             <idno>i-6kLJbGLpwB9hYxDrVrkcqF</idno>
-            <name>Karin Pilsäter </name>
+            <name>Karin Pilsäter</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-JZKa6caqdSKy8yhUyfEJeU</idno>
-            <name>Bo Könberg </name>
+            <name>Bo Könberg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-NZES3NTTAs3ZaBTU3RVkYE</idno>
-            <name>Lars Leijonborg </name>
+            <name>Lars Leijonborg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -78,25 +78,25 @@
           <note type="signatory" corresp="i-NZES3NTTAs3ZaBTU3RVkYE"/>
           <note type="signatory" corresp="i-JZKa6caqdSKy8yhUyfEJeU"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3LTkbqSoVKMcrzgykTXWPk">
+        <correspAction xml:id="i-3LTkbqSoVKMcrzgykTXWPk" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HFzBWXD971fFWt9CNKMYhY">
+        <correspAction xml:id="i-HFzBWXD971fFWt9CNKMYhY" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9Ne4MoNv5UqiVEp5w6LTAr">
+        <correspAction xml:id="i-9Ne4MoNv5UqiVEp5w6LTAr" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-SteC1VkCgnUYXefuYeZgTf">
+        <correspAction xml:id="i-SteC1VkCgnUYXefuYeZgTf" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3PCMK1G33Q2kibToGm6gPb">
+        <correspAction xml:id="i-3PCMK1G33Q2kibToGm6gPb" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2bj7aCvngtF5dNnXPXJouQ">
+        <correspAction xml:id="i-2bj7aCvngtF5dNnXPXJouQ" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-kg9TXziMgnCqHb7wVw9K9"/>
+        <correspAction xml:id="i-kg9TXziMgnCqHb7wVw9K9" type="assigned"/>
         <correspContext corresp="i-kg9TXziMgnCqHb7wVw9K9">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fi_0805/mot_199900_Fi_0805-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HttaddgFBptNAYMftZuf1v">
-        <div type="motTitle" xml:id="i-JZkZobYrF4PF1csZTsQTcW"/>
-        <div type="motSubmissionInfo" xml:id="i-5v78YDVaDRYqY9ZJ5Xh6Nu"/>
+      <div xml:id="i-HttaddgFBptNAYMftZuf1v" type="motHeader">
+        <div xml:id="i-JZkZobYrF4PF1csZTsQTcW" type="motTitle"/>
+        <div xml:id="i-5v78YDVaDRYqY9ZJ5Xh6Nu" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LhPQ53Ag2xYtcAErJsxbfu">
+      <div xml:id="i-LhPQ53Ag2xYtcAErJsxbfu" type="motBody">
         <div xml:id="i-U5Xb8ENrZxxSdRtx3mFfGV">
           <p xml:id="i-Hoc5W4HA2716KRDvcETL8u">
             1999/2000 mnr: Fi805 pnr: fp125
@@ -318,8 +318,11 @@
             regeringen till känna vad i motionen anförts om småföretagens
             möjligheter att lämna anbud och delta i entreprenader.
           </p>
-          <p xml:id="i-BMGxyp7JRfxTnmSc9GZFJE">
-            Stockholm den 4 oktober 1999 Karin Pilsäter (fp)
+          <p xml:id="i-BMGxyp7JRfxTnmSc9GZFJE" type="date">
+            Stockholm den 4 oktober 1999
+          </p>
+          <p type="signatureBlock" id="i-G5UvtfVqYhVLBFocNBRo34">
+            Karin Pilsäter (fp)
           </p>
           <p xml:id="i-VWDVVBj3bkHHrsgP7P8BsJ">
             Lars Leijonborg (fp) Bo Könberg (fp)

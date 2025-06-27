@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-LU-00014">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-Pdrt5Lc774RrxkCz3JRRWF</idno>
-            <name>Elisabet Franzén </name>
+            <name>Elisabet Franzén</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-XqzAgPpb5cRyKeomtt2zjy</idno>
-            <name>Carl Frick </name>
+            <name>Carl Frick</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-7AYyrtR4bzRwsLctDg5j9i</idno>
-            <name>Kent Lundgren </name>
+            <name>Kent Lundgren</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-XS79hnU4zq8wiJCFb8c6im"/>
+        <correspAction xml:id="i-XS79hnU4zq8wiJCFb8c6im" type="basedOn"/>
         <correspContext corresp="i-XS79hnU4zq8wiJCFb8c6im">
           <ref>Proposition 1990/91:22</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-XqzAgPpb5cRyKeomtt2zjy"/>
           <note type="signatory" corresp="i-7AYyrtR4bzRwsLctDg5j9i"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8Chn2RpVjYrksu8GUUUCQr">
+        <correspAction xml:id="i-8Chn2RpVjYrksu8GUUUCQr" type="referral">
           <date when="1990-10-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UzFCih3fBuEyvEbaR74Y9P">
+        <correspAction xml:id="i-UzFCih3fBuEyvEbaR74Y9P" type="dismissal">
           <date when="1990-10-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-93HTzP43tWLyafnEEtbAUY">
+        <correspAction xml:id="i-93HTzP43tWLyafnEEtbAUY" type="submission">
           <date when="1990-10-24"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PXeSEgYi1iTSoThKLAWKLE">
+        <correspAction xml:id="i-PXeSEgYi1iTSoThKLAWKLE" type="referral">
           <date when="1990-10-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-J6i2yk2uwot8NHhGJc49YJ">
+        <correspAction xml:id="i-J6i2yk2uwot8NHhGJc49YJ" type="dismissal">
           <date when="1990-10-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WKE1DqcaYEHUP1UcjrWT7Y">
+        <correspAction xml:id="i-WKE1DqcaYEHUP1UcjrWT7Y" type="submission">
           <date when="1990-10-24"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2wm49tdN8VotWknxa7wKUz"/>
+        <correspAction xml:id="i-2wm49tdN8VotWknxa7wKUz" type="assigned"/>
         <correspContext corresp="i-2wm49tdN8VotWknxa7wKUz">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_LU_14/mot_199091_LU_14-001.pdf"/>
-      <div type="motHeader" xml:id="i-Ca7fExJ8VwuEK7TraRCgQa">
-        <div type="motTitle" xml:id="i-2w5ANPGqhCZTqnBarQPcff"/>
-        <div type="motSubmissionInfo" xml:id="i-BMtTgFxHgbBMDHR525s6qT"/>
+      <div xml:id="i-Ca7fExJ8VwuEK7TraRCgQa" type="motHeader">
+        <div xml:id="i-2w5ANPGqhCZTqnBarQPcff" type="motTitle"/>
+        <div xml:id="i-BMtTgFxHgbBMDHR525s6qT" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LvNn9Aq2BBtR4fM2sJgaEF">
+      <div xml:id="i-LvNn9Aq2BBtR4fM2sJgaEF" type="motBody">
         <div xml:id="i-YanSaBxxGt6GYp8tPi6U9A">
           <p xml:id="i-8jLDmPavJuGnriAEatX8ES">
             Motion till riksdagen 1990/91:L14
@@ -171,8 +171,11 @@
             15
           </p>
           <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_LU_14/mot_199091_LU_14-002.pdf"/>
-          <p xml:id="i-MmXd1QCcKRQDZ28Thvok83">
-            Stockholm den 24 oktober 1990 Elisabet Franzén (mp)
+          <p xml:id="i-MmXd1QCcKRQDZ28Thvok83" type="date">
+            Stockholm den 24 oktober 1990
+          </p>
+          <p type="signatureBlock" id="i-5KoAikhnv6vTBwJf1ZGGhz">
+            Elisabet Franzén (mp)
           </p>
           <p xml:id="i-eR3V95Ez95A9HGjq7Jxx7">
             Kent Lundgren (mp)

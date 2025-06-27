@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00218">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-J3SKuFT9H8vee5hiaDxZ21">
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Gq6mrt7ST1KrzvimV1hS74">
+        <correspAction xml:id="i-Gq6mrt7ST1KrzvimV1hS74" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RqKTQQNnuLNaF3GAECTm1p">
+        <correspAction xml:id="i-RqKTQQNnuLNaF3GAECTm1p" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XDDabns7qLVKmkmaNTRc7L">
+        <correspAction xml:id="i-XDDabns7qLVKmkmaNTRc7L" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FmyzofB8A7iJdS8EU336mG"/>
+        <correspAction xml:id="i-FmyzofB8A7iJdS8EU336mG" type="assigned"/>
         <correspContext corresp="i-FmyzofB8A7iJdS8EU336mG">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_218/mot_200405_So_218-0001.pdf"/>
-      <div type="motHeader" xml:id="i-P4eHCtcoSsjfcfuqHhzyZw">
-        <div type="motTitle" xml:id="i-PZazdiAtZZryaGkmXTr9iy"/>
-        <div type="motSubmissionInfo" xml:id="i-KM62njGiZzkCXhR2urvEHh"/>
+      <div xml:id="i-P4eHCtcoSsjfcfuqHhzyZw" type="motHeader">
+        <div xml:id="i-PZazdiAtZZryaGkmXTr9iy" type="motTitle"/>
+        <div xml:id="i-KM62njGiZzkCXhR2urvEHh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HbkDj7mh4dpcvRiahCv5tD">
+      <div xml:id="i-HbkDj7mh4dpcvRiahCv5tD" type="motBody">
         <div xml:id="i-RA8uzU6WtTffqR9sYiU9HJ">
           <p xml:id="i-Jzp2yw9mPc724miKrwjoqw">
             2004/05 mnr: S0o218 pnr: m1132
@@ -105,8 +105,11 @@
             i sig är mycket personalintensiv innebär en allt större ekonomisk
             påfrestning.
           </p>
-          <p xml:id="i-A7WWdqUizGERoTmwH4zY7j">
-            Stockholm den 20 september 2004 Ulf Sjösten (m)
+          <p xml:id="i-A7WWdqUizGERoTmwH4zY7j" type="date">
+            Stockholm den 20 september 2004
+          </p>
+          <p type="signatureBlock" id="i-VrNaEpNH4HsXmTaito42JE">
+            Ulf Sjösten (m)
           </p>
         </div>
       </div>

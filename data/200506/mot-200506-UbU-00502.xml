@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00502">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-ETv7X6VJirhV84VGfd288E">
           <note type="signatory" corresp="i-C6MPg8QS78d6rtHZ6Jc424"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8cNjKmxwitypv4xSVSU4Qy">
+        <correspAction xml:id="i-8cNjKmxwitypv4xSVSU4Qy" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YZrV5kSQdyfEFzJeUkVJC2">
+        <correspAction xml:id="i-YZrV5kSQdyfEFzJeUkVJC2" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GdS8mAok3o89beTfi12ef4">
+        <correspAction xml:id="i-GdS8mAok3o89beTfi12ef4" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LZ93yxmLNqxHdmmrh6uEHG"/>
+        <correspAction xml:id="i-LZ93yxmLNqxHdmmrh6uEHG" type="assigned"/>
         <correspContext corresp="i-LZ93yxmLNqxHdmmrh6uEHG">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_502/mot_200506_Ub_502-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RPBcmmPx93joxArZ2bLXyD">
-        <div type="motTitle" xml:id="i-ED24ZthZPMUaP7vXKKPB7y"/>
-        <div type="motSubmissionInfo" xml:id="i-6ynBY4CNXKm42xFAehHRLk"/>
+      <div xml:id="i-RPBcmmPx93joxArZ2bLXyD" type="motHeader">
+        <div xml:id="i-ED24ZthZPMUaP7vXKKPB7y" type="motTitle"/>
+        <div xml:id="i-6ynBY4CNXKm42xFAehHRLk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9MdE62u6UBkQnpPSu2bfZB">
+      <div xml:id="i-9MdE62u6UBkQnpPSu2bfZB" type="motBody">
         <div xml:id="i-6NtFGbvEd7tEzZePpCQiSp">
           <p xml:id="i-KXud7ygDQ1uH2WjXvqvAw4">
             2005/06 mnr: Ub502 pnr: s48000
@@ -110,8 +110,11 @@
             i ett samhälleligt sammanhang, det vill säga att förstå hur samhället
             fungerar och hur det är strukturerat.
           </p>
-          <p xml:id="i-5MfA7btSAZAS7MfrZWpQLo">
-            Stockholm den 4 oktober 2005 Sinikka Bohlin (s)
+          <p xml:id="i-5MfA7btSAZAS7MfrZWpQLo" type="date">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-SxCQ1AEzVJdsiRwmfM2cUH">
+            Sinikka Bohlin (s)
           </p>
         </div>
       </div>

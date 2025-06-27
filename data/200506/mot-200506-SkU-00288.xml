@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00288">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-LeSqdywoDr4gQHEdAbfNdH">
           <note type="signatory" corresp="i-TGAeNgQV9rZoovTn5C8JAd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2RLEBmCT7DTEbkUhCgZyUT">
+        <correspAction xml:id="i-2RLEBmCT7DTEbkUhCgZyUT" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-X1zypLcnE8LV7kc832Rh6K">
+        <correspAction xml:id="i-X1zypLcnE8LV7kc832Rh6K" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KBrXREgkmm8h2xDysQ4fjK">
+        <correspAction xml:id="i-KBrXREgkmm8h2xDysQ4fjK" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AppEhhoLrGXjQerxM7Szi8"/>
+        <correspAction xml:id="i-AppEhhoLrGXjQerxM7Szi8" type="assigned"/>
         <correspContext corresp="i-AppEhhoLrGXjQerxM7Szi8">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_288/mot_200506_Sk_288-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PBDwJ4MEiUDUDwDBqZAPk7">
-        <div type="motTitle" xml:id="i-7KSRQFUhDY83zqws1aHxsF"/>
-        <div type="motSubmissionInfo" xml:id="i-MxvQpNi98TaBQUwrSUeGo5"/>
+      <div xml:id="i-PBDwJ4MEiUDUDwDBqZAPk7" type="motHeader">
+        <div xml:id="i-7KSRQFUhDY83zqws1aHxsF" type="motTitle"/>
+        <div xml:id="i-MxvQpNi98TaBQUwrSUeGo5" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TUi19X5ifKZBUxM9v4hhTp">
+      <div xml:id="i-TUi19X5ifKZBUxM9v4hhTp" type="motBody">
         <div xml:id="i-UM2afPyWziNLQWgKRhQVs9">
           <p xml:id="i-sA2gMvRWgRTEe9UJaeKM1">
             2005/06 mnr: Sk288 pnr: m1348
@@ -137,8 +137,11 @@
             och i den mest kontrollerade miljön för alkoholintag som erbjuds
             i Sverige.
           </p>
-          <p xml:id="i-UJP8vpgggTHfhB7kybMgy1">
-            Stockholm den 26 september 2005 Lena Adelsohn Liljeroth (m)
+          <p xml:id="i-UJP8vpgggTHfhB7kybMgy1" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-4gGE9cgfbeju2D7FJHpeXH">
+            Lena Adelsohn Liljeroth (m)
           </p>
         </div>
       </div>

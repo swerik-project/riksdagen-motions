@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00337">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-R9MuNkxgtjYredKHhh6ujV"/>
           <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CNC9JoDXUybTrbTxDpHVez">
+        <correspAction xml:id="i-CNC9JoDXUybTrbTxDpHVez" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-96s5WT1nTR17X2NfgJUfjP">
+        <correspAction xml:id="i-96s5WT1nTR17X2NfgJUfjP" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MAfycjiU7bXDNRiUYAoTr">
+        <correspAction xml:id="i-MAfycjiU7bXDNRiUYAoTr" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2kFoVecf9WCwyREPqEWSuL"/>
+        <correspAction xml:id="i-2kFoVecf9WCwyREPqEWSuL" type="assigned"/>
         <correspContext corresp="i-2kFoVecf9WCwyREPqEWSuL">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_T_0337/mot_200203_T_0337-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LNUe2Da3UpHeeyi1HveJBb">
-        <div type="motTitle" xml:id="i-M4PvoQc16Hox13aEot4ud8"/>
-        <div type="motSubmissionInfo" xml:id="i-VgJGNpxG76z4usXhwtWPWq"/>
+      <div xml:id="i-LNUe2Da3UpHeeyi1HveJBb" type="motHeader">
+        <div xml:id="i-M4PvoQc16Hox13aEot4ud8" type="motTitle"/>
+        <div xml:id="i-VgJGNpxG76z4usXhwtWPWq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-81qpZSJ7jPD84rjXZ9Y3rF">
+      <div xml:id="i-81qpZSJ7jPD84rjXZ9Y3rF" type="motBody">
         <div xml:id="i-JykwvUX9zRWV1e9eEBkGW5">
           <p xml:id="i-KKEk2HTcqkFvo3Y6bh2Wan">
             2002/03 mnr: T337 pnr: m1290
@@ -147,8 +147,11 @@
             köpet beklagar sig över att de inte får höja sina redan höga priser
             ännu mer. Tills vidare bör Posten inte beviljas höja portot.
           </p>
-          <p xml:id="i-3nJMhPyXR2Q73paToLeCav">
-            Stockholm den 22 oktober 2002 Per Bill (m) Gunnar Axén (m)
+          <p xml:id="i-3nJMhPyXR2Q73paToLeCav" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-KKFcovb5C8LuHkFpNFT3AS">
+            Per Bill (m) Gunnar Axén (m)
           </p>
         </div>
       </div>

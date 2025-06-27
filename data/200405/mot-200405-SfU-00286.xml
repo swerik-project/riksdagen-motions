@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SfU-00286">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-XAhtET4MvUyQaMSmru9UPv">
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5ABhoNwVVVAAXhwD6XiPw6">
+        <correspAction xml:id="i-5ABhoNwVVVAAXhwD6XiPw6" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Fof9uPbaXstpiDRT9hdWnX">
+        <correspAction xml:id="i-Fof9uPbaXstpiDRT9hdWnX" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Nvkw6wmDzxQ13SDmqcmUjG">
+        <correspAction xml:id="i-Nvkw6wmDzxQ13SDmqcmUjG" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-C3b76TkVQhMHi9rR51DdiF"/>
+        <correspAction xml:id="i-C3b76TkVQhMHi9rR51DdiF" type="assigned"/>
         <correspContext corresp="i-C3b76TkVQhMHi9rR51DdiF">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sf_286/mot_200405_Sf_286-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BYsw3bifv6FPwW62TKEUVJ">
-        <div type="motTitle" xml:id="i-5ejqPcjdtXuLdYdHi3dizp"/>
-        <div type="motSubmissionInfo" xml:id="i-8tcgoMrgCqC6BB5FksL4pf"/>
+      <div xml:id="i-BYsw3bifv6FPwW62TKEUVJ" type="motHeader">
+        <div xml:id="i-5ejqPcjdtXuLdYdHi3dizp" type="motTitle"/>
+        <div xml:id="i-8tcgoMrgCqC6BB5FksL4pf" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BNJm54vd8pV1RHGqYrLvw7">
+      <div xml:id="i-BNJm54vd8pV1RHGqYrLvw7" type="motBody">
         <div xml:id="i-128ZE2VdV2d8pZ3eNfG28H">
           <p xml:id="i-4dW3Xser6MDdGE7w9qFmhn">
             2004/05 mnr: Sf286 pnr: kd732
@@ -258,8 +258,11 @@
             hur det påverkar familjen. Detta bör också vara den svenska riksdagens
             och regeringens hållning.
           </p>
-          <p xml:id="i-EqP94cvF984yc1yhhi9ZiS">
-            Stockholm den 30 september 2004 Tuve Skånberg (kd)
+          <p xml:id="i-EqP94cvF984yc1yhhi9ZiS" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-SRm5TC11ETEJtmh4iVvCW7">
+            Tuve Skånberg (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-TU-00068">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-2gNKPrWQZC2gCkbhmVS2fN"/>
+        <correspAction xml:id="i-2gNKPrWQZC2gCkbhmVS2fN" type="basedOn"/>
         <correspContext corresp="i-2gNKPrWQZC2gCkbhmVS2fN">
           <ref>Proposition 2001/02:66</ref>
         </correspContext>
@@ -50,31 +50,31 @@
           <note type="signatory" corresp="i-CajxChHCyySL6R6AQNT1bF"/>
           <note type="signatory" corresp="i-BDyTfvRPbqHRWnog75qTEp"/>
         </correspContext>
-        <correspAction type="numbering" xml:id="i-HuX6q9eg8ijdFD68UxaPZR">
+        <correspAction xml:id="i-HuX6q9eg8ijdFD68UxaPZR" type="numbering">
           <date when="2001-12-04"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-5CWRJbgEFyLnAx1Luyvqkt">
+        <correspAction xml:id="i-5CWRJbgEFyLnAx1Luyvqkt" type="proposed_referral">
           <date when="2001-12-04"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-QBcgN1GJwaxGifJBMpDQPy">
+        <correspAction xml:id="i-QBcgN1GJwaxGifJBMpDQPy" type="committee_proposal">
           <date when="2001-12-04"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-9WTfwUCTP8XCFUTBCnx2tJ">
+        <correspAction xml:id="i-9WTfwUCTP8XCFUTBCnx2tJ" type="reviewing">
           <date when="2001-12-04"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-FVu5kJW72RKtkTYeu48DJq">
+        <correspAction xml:id="i-FVu5kJW72RKtkTYeu48DJq" type="registration">
           <date when="2001-12-04"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-SMDWicJWQfknaG9qYEQai6">
+        <correspAction xml:id="i-SMDWicJWQfknaG9qYEQai6" type="referral">
           <date when="2001-12-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NZExDv4FyXe6ELyRQo4ZVb">
+        <correspAction xml:id="i-NZExDv4FyXe6ELyRQo4ZVb" type="dismissal">
           <date when="2001-12-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5uVLPKdun3JFHFirSSwbTz">
+        <correspAction xml:id="i-5uVLPKdun3JFHFirSSwbTz" type="submission">
           <date when="2001-12-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4THnD27PkHAvVCmoJX3kMh"/>
+        <correspAction xml:id="i-4THnD27PkHAvVCmoJX3kMh" type="assigned"/>
         <correspContext corresp="i-4THnD27PkHAvVCmoJX3kMh">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -89,11 +89,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_T_0068/mot_200102_T_0068-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XumaHiXKknS3XpJP1wy7Zy">
-        <div type="motTitle" xml:id="i-MEpAScpCan8vgbnE5sQKUA"/>
-        <div type="motSubmissionInfo" xml:id="i-Tzyq5AxDjP6uP1u3bd1GMH"/>
+      <div xml:id="i-XumaHiXKknS3XpJP1wy7Zy" type="motHeader">
+        <div xml:id="i-MEpAScpCan8vgbnE5sQKUA" type="motTitle"/>
+        <div xml:id="i-Tzyq5AxDjP6uP1u3bd1GMH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-K1jAVB5Ze3cJVhdgdw8arp">
+      <div xml:id="i-K1jAVB5Ze3cJVhdgdw8arp" type="motBody">
         <div xml:id="i-Jj5Ttmdm2asbYweq34tjkP">
           <p xml:id="i-WdoLtKRV7v8pd3nnrY6EET">
             2001/02 mnr: T68 pnr: m1906
@@ -285,9 +285,11 @@
             torde spekulationer om drastiska scenarier, såsom omfattande flygstopp
             i händelse av garantiernas upphörande, kunna avfärdas.
           </p>
-          <p xml:id="i-8g9WNUCLepG57GoHCmiKq8">
-            Stockholm den 3 december 2001 Anna Kinberg (m) Carl Erik Hedlund
-            (m)
+          <p xml:id="i-8g9WNUCLepG57GoHCmiKq8" type="date">
+            Stockholm den 3 december 2001
+          </p>
+          <p type="signatureBlock" id="i-3hi9kvnjkbydHc2Z444c4S">
+            Anna Kinberg (m) Carl Erik Hedlund (m)
           </p>
           <p xml:id="i-BcptFVexAwzj6qcKuMoeUU">
             Elanders Gotab, Stockholm 2001

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00321">
   <teiHeader>
     <fileDesc>
@@ -78,16 +78,16 @@
           <note type="signatory" corresp="i-24CbHNwsRznss4Yas6HseU"/>
           <note type="signatory" corresp="i-U6F8gqiuV2DEZN1aMhyDnJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7eDo6v7o9guE63icTQTS73">
+        <correspAction xml:id="i-7eDo6v7o9guE63icTQTS73" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ErgAxkYZfFoRthmGr1QCuz">
+        <correspAction xml:id="i-ErgAxkYZfFoRthmGr1QCuz" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Cvij4fXx6z4nEbQL8gtb36">
+        <correspAction xml:id="i-Cvij4fXx6z4nEbQL8gtb36" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6FRFdRYy7Y8vK1fNnXTEUW"/>
+        <correspAction xml:id="i-6FRFdRYy7Y8vK1fNnXTEUW" type="assigned"/>
         <correspContext corresp="i-6FRFdRYy7Y8vK1fNnXTEUW">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_321/mot_200405_Ub_321-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6n25PpYFN4xC2KFtvWyram">
-        <div type="motTitle" xml:id="i-2kEVhNpZXAxMrxWzYhSmGj"/>
-        <div type="motSubmissionInfo" xml:id="i-AqqLTT8ZAQjnVJJr8spdLh"/>
+      <div xml:id="i-6n25PpYFN4xC2KFtvWyram" type="motHeader">
+        <div xml:id="i-2kEVhNpZXAxMrxWzYhSmGj" type="motTitle"/>
+        <div xml:id="i-AqqLTT8ZAQjnVJJr8spdLh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-12hr8qtLrBH1NyV1sMD2VE">
+      <div xml:id="i-12hr8qtLrBH1NyV1sMD2VE" type="motBody">
         <div xml:id="i-TLCCNXahfx9Vc68AtK9WCb">
           <p xml:id="i-5Jpkwg8Uj4CwNj1RLDSwh6">
             2004/05
@@ -624,8 +624,11 @@
             skall beskattas på samma sätt som när det gäller individuellt
             pensionssparande.
           </p>
-          <p xml:id="i-BVMRa3fiFSALH2rtzoXeip">
-            Stockholm den 30 september 2004 Ulf Nilsson (fp)
+          <p xml:id="i-BVMRa3fiFSALH2rtzoXeip" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-UsaFD8Ewt2bGXDHfxyqdAC">
+            Ulf Nilsson (fp)
           </p>
           <p xml:id="i-4UH2TZhbPy543koGWuNfSR">
             Ana Maria Narti (fp) Axel Darvik (fp) Marita Aronson (fp) Anita

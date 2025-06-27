@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SkU-00793">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-8d1Y8z9sPbywJy42Y7Roqc</idno>
-            <name>Carl Fredrik Graf </name>
+            <name>Carl Fredrik Graf</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -46,28 +46,28 @@
           <note type="signatory" corresp="i-8d1Y8z9sPbywJy42Y7Roqc"/>
           <note type="signatory" corresp="i-8d1Y8z9sPbywJy42Y7Roqc"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-G3cq2bwmRnbJXwtPEKd6kU">
+        <correspAction xml:id="i-G3cq2bwmRnbJXwtPEKd6kU" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-2WNZbzJ8Z2Rvv97vXTXRLk">
+        <correspAction xml:id="i-2WNZbzJ8Z2Rvv97vXTXRLk" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NHrpjYp3JZmdjZbWaEbqcy">
+        <correspAction xml:id="i-NHrpjYp3JZmdjZbWaEbqcy" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M3bJ32rDakgVrL1Z1MsEwA">
+        <correspAction xml:id="i-M3bJ32rDakgVrL1Z1MsEwA" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-YS7YCpwccpH1CDLbeJzde5">
+        <correspAction xml:id="i-YS7YCpwccpH1CDLbeJzde5" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VopNAnVjwMghsHmgPWKYGh">
+        <correspAction xml:id="i-VopNAnVjwMghsHmgPWKYGh" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GtaYuGzK3Gcer8hLQRfJdV">
+        <correspAction xml:id="i-GtaYuGzK3Gcer8hLQRfJdV" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HJJdaZVaWQoCaZTd1YgqY4"/>
+        <correspAction xml:id="i-HJJdaZVaWQoCaZTd1YgqY4" type="assigned"/>
         <correspContext corresp="i-HJJdaZVaWQoCaZTd1YgqY4">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Sk_0793/mot_200001_Sk_0793-0001.pdf"/>
-      <div type="motHeader" xml:id="i-S5GUPPZcWWHUapoXKgj4fX">
-        <div type="motTitle" xml:id="i-Dt11A66prrpUYiGHeGXHX8"/>
-        <div type="motSubmissionInfo" xml:id="i-3BRkZ4BYFhwdhvfq1oFK46"/>
+      <div xml:id="i-S5GUPPZcWWHUapoXKgj4fX" type="motHeader">
+        <div xml:id="i-Dt11A66prrpUYiGHeGXHX8" type="motTitle"/>
+        <div xml:id="i-3BRkZ4BYFhwdhvfq1oFK46" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3BCMZet6jLDSJLtHc7jMHd">
+      <div xml:id="i-3BCMZet6jLDSJLtHc7jMHd" type="motBody">
         <div xml:id="i-AQB4rhXUbr3GCMX13CU9DT">
           <p xml:id="i-KW1FA4k3CNFxCGc5XvBQSN">
             2000/01 mnr: Sk793 pnr: m751
@@ -154,8 +154,11 @@
             betalas till den stat där fastigheten i fråga är belägen. Detta
             bör ges regeringen till känna.
           </p>
-          <p xml:id="i-EmQnLp87eeGvyJNm32hjLH">
-            Stockholm den 4 oktober 2000 Carl Fredrik Graf (m)
+          <p xml:id="i-EmQnLp87eeGvyJNm32hjLH" type="date">
+            Stockholm den 4 oktober 2000
+          </p>
+          <p type="signatureBlock" id="i-TeDXgNGecTiTukQ3UMKMjN">
+            Carl Fredrik Graf (m)
           </p>
         </div>
       </div>

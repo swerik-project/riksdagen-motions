@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00280">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-WqNEPiwYwiYhm6QsayDeMh">
           <note type="signatory" corresp="i-A1WkfiAbmndDMThhAvrWEm"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8pCb7PnDqMK4etS4h8RHrp">
+        <correspAction xml:id="i-8pCb7PnDqMK4etS4h8RHrp" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HFsNXzt5vQYXjozNn9EjpT">
+        <correspAction xml:id="i-HFsNXzt5vQYXjozNn9EjpT" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8ZwqX72aNd14GkrL2ZcbKt">
+        <correspAction xml:id="i-8ZwqX72aNd14GkrL2ZcbKt" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DHrfpciBrqeSNGUUW5Ncv6"/>
+        <correspAction xml:id="i-DHrfpciBrqeSNGUUW5Ncv6" type="assigned"/>
         <correspContext corresp="i-DHrfpciBrqeSNGUUW5Ncv6">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_280/mot_200506_Sk_280-0001.pdf"/>
-      <div type="motHeader" xml:id="i-D1WwzdsgiwjbZjoGJMk2j8">
-        <div type="motTitle" xml:id="i-RpHsv2p2XAPSnkQxJ1dhVP"/>
-        <div type="motSubmissionInfo" xml:id="i-UAuJ7xdR7o5aGQkEEh44Vg"/>
+      <div xml:id="i-D1WwzdsgiwjbZjoGJMk2j8" type="motHeader">
+        <div xml:id="i-RpHsv2p2XAPSnkQxJ1dhVP" type="motTitle"/>
+        <div xml:id="i-UAuJ7xdR7o5aGQkEEh44Vg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-rLXPKANibexUqDoY8uq83">
+      <div xml:id="i-rLXPKANibexUqDoY8uq83" type="motBody">
         <div xml:id="i-LZ6BbguYoX3wcZGNrNDBRY">
           <p xml:id="i-7c9AcvWFB5J8uayVrMQWW9">
             2005/06 mnr: Sk280 pnr: fp811
@@ -154,8 +154,11 @@
             därmed kan få en öppen redovisning av hur mycket av lönen som
             går till olika skatter och avgifter.
           </p>
-          <p xml:id="i-PzzUzPwSRU1TxpzLPXdTpe">
-            Stockholm den 23 september 2005 Hans Backman (fp)
+          <p xml:id="i-PzzUzPwSRU1TxpzLPXdTpe" type="date">
+            Stockholm den 23 september 2005
+          </p>
+          <p type="signatureBlock" id="i-RqVhkWpwvcxx8s4efHkajJ">
+            Hans Backman (fp)
           </p>
         </div>
       </div>

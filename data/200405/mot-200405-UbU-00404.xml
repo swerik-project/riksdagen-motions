@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00404">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-4KKccf5kupZ3aBgtTrdYjt">
           <note type="signatory" corresp="i-h1aVBzexdmWPt4dFvXiYA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RYGkRCuEpcXNtPeajBjvLM">
+        <correspAction xml:id="i-RYGkRCuEpcXNtPeajBjvLM" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-H3bQHtRSxGUo1vhxL5PLou">
+        <correspAction xml:id="i-H3bQHtRSxGUo1vhxL5PLou" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CVEs3Pw3uGUMHx4CaATSTV">
+        <correspAction xml:id="i-CVEs3Pw3uGUMHx4CaATSTV" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YZqcZXX7k6rjZUiTbLm4AE"/>
+        <correspAction xml:id="i-YZqcZXX7k6rjZUiTbLm4AE" type="assigned"/>
         <correspContext corresp="i-YZqcZXX7k6rjZUiTbLm4AE">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_404/mot_200405_Ub_404-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NiFt7rWAiBtdXBaZdbpbEt">
-        <div type="motTitle" xml:id="i-Q9UHe5CVH3HQme674Sir7Z"/>
-        <div type="motSubmissionInfo" xml:id="i-V5gxTM2STUsYyMJU8i4HtR"/>
+      <div xml:id="i-NiFt7rWAiBtdXBaZdbpbEt" type="motHeader">
+        <div xml:id="i-Q9UHe5CVH3HQme674Sir7Z" type="motTitle"/>
+        <div xml:id="i-V5gxTM2STUsYyMJU8i4HtR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TeRq1Z4xeAndjRaNj8n8GN">
+      <div xml:id="i-TeRq1Z4xeAndjRaNj8n8GN" type="motBody">
         <div xml:id="i-2wD6FHwMxA7rJ75VugzPCF">
           <p xml:id="i-V22WHiu8XQw2LUm5gRfSwZ">
             2004/05 mnr: Ub404 pnr: kd801
@@ -105,8 +105,11 @@
             till examen som =: röntgensjuksköterska, sjukgymnast, specialistsjuksköterska
             och specialpedagog. Detta bör ges regeringen till känna.
           </p>
-          <p xml:id="i-6bbkUkdKsAbBzr7dQmjRha">
-            Stockholm den 1 oktober 2004 Inger Davidson (kd)
+          <p xml:id="i-6bbkUkdKsAbBzr7dQmjRha" type="date">
+            Stockholm den 1 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-PjnniMtWHkjQqttKyvCvr">
+            Inger Davidson (kd)
           </p>
         </div>
       </div>

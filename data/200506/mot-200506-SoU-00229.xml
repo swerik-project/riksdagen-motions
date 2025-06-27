@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00229">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-4CE9X37q7hsQwcXNQ5Ec5r">
           <note type="signatory" corresp="i-A1WkfiAbmndDMThhAvrWEm"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TPH5wJdw9k858BCREjjPEB">
+        <correspAction xml:id="i-TPH5wJdw9k858BCREjjPEB" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3mw3hGYhvnQDRbHnCvQhxc">
+        <correspAction xml:id="i-3mw3hGYhvnQDRbHnCvQhxc" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HggxEuuzyZ5eLDTNwd2aq1">
+        <correspAction xml:id="i-HggxEuuzyZ5eLDTNwd2aq1" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XNu29tNcmWBqyrC46Nb1nd"/>
+        <correspAction xml:id="i-XNu29tNcmWBqyrC46Nb1nd" type="assigned"/>
         <correspContext corresp="i-XNu29tNcmWBqyrC46Nb1nd">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_229/mot_200506_So_229-0001.pdf"/>
-      <div type="motHeader" xml:id="i-X7v8bDKXUZyxiFy5yxKKvd">
-        <div type="motTitle" xml:id="i-YARjj2BpXJPuhzEZdwY62"/>
-        <div type="motSubmissionInfo" xml:id="i-KnEaQmaCXd6dKczNFVUSjz"/>
+      <div xml:id="i-X7v8bDKXUZyxiFy5yxKKvd" type="motHeader">
+        <div xml:id="i-YARjj2BpXJPuhzEZdwY62" type="motTitle"/>
+        <div xml:id="i-KnEaQmaCXd6dKczNFVUSjz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KgMfGuAx5xwhgSmaehZcby">
+      <div xml:id="i-KgMfGuAx5xwhgSmaehZcby" type="motBody">
         <div xml:id="i-BbZRPKsZAH4oUgHgS69oX4">
           <p xml:id="i-BWeNkeUTTawy5dt8kJdq6Z">
             2005/06 mnr: S0229 pnr: fp714
@@ -112,8 +112,11 @@
             bör ändras så att kommunernas socialtjänst inte tillåts att sänka
             familjers socialbidrag när barnen feriejobbar.
           </p>
-          <p xml:id="i-8weVKjYGvhbvRV38Q9PaWU">
-            Stockholm den 19 september 2005 Hans Backman (fp)
+          <p xml:id="i-8weVKjYGvhbvRV38Q9PaWU" type="date">
+            Stockholm den 19 september 2005
+          </p>
+          <p type="signatureBlock" id="i-NCy2pBLN9MZEXpmVAZnUHk">
+            Hans Backman (fp)
           </p>
         </div>
       </div>

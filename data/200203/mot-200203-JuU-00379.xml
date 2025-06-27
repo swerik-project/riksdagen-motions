@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-JuU-00379">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-KdNZEf7wb1MAJv58QEHYrr"/>
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RNbf33xMxaCv6Mrr19bC7f">
+        <correspAction xml:id="i-RNbf33xMxaCv6Mrr19bC7f" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JFbKXGQQfrGHGLL7HeimwU">
+        <correspAction xml:id="i-JFbKXGQQfrGHGLL7HeimwU" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DwFhqYqerFmfNBqi5pwGQs">
+        <correspAction xml:id="i-DwFhqYqerFmfNBqi5pwGQs" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9QDaYfEy2MrRmmXvW6QyAo"/>
+        <correspAction xml:id="i-9QDaYfEy2MrRmmXvW6QyAo" type="assigned"/>
         <correspContext corresp="i-9QDaYfEy2MrRmmXvW6QyAo">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ju_0379/mot_200203_Ju_0379-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UNYDdTfXUNP4ojUxe4gnuS">
-        <div type="motTitle" xml:id="i-ChUKdiNiRxCk3gU5L3UXk5"/>
-        <div type="motSubmissionInfo" xml:id="i-WAdmHBb5drDauoFmV8iETQ"/>
+      <div xml:id="i-UNYDdTfXUNP4ojUxe4gnuS" type="motHeader">
+        <div xml:id="i-ChUKdiNiRxCk3gU5L3UXk5" type="motTitle"/>
+        <div xml:id="i-WAdmHBb5drDauoFmV8iETQ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-T7Rouvb7sCHzjG59RVcWGE">
+      <div xml:id="i-T7Rouvb7sCHzjG59RVcWGE" type="motBody">
         <div xml:id="i-MyPMarF6vyexV1NyZsvknM">
           <p xml:id="i-3bqqNHUcgHwCuLaZGgyKax">
             26
@@ -169,9 +169,11 @@
             på ett bättre sätt än i dag förbättrar sin statistik och uppföljning
             när det gäller försvunna personer.
           </p>
-          <p xml:id="i-THKxWDtS8ydxLqT1VdFNQ9">
-            Stockholm den 21 oktober 2002 Göran Lindblad (m) Ulf Sjösten
-            (m)
+          <p xml:id="i-THKxWDtS8ydxLqT1VdFNQ9" type="date">
+            Stockholm den 21 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-w2qCFJt9533VgZfLgEbNy">
+            Göran Lindblad (m) Ulf Sjösten (m)
           </p>
         </div>
       </div>

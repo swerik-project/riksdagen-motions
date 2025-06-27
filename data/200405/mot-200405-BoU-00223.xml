@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-BoU-00223">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Nqv79dWMKrE1G8Lzfu16ni">
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2N9xjjkA1YgeDPbNWxk9gW">
+        <correspAction xml:id="i-2N9xjjkA1YgeDPbNWxk9gW" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2QDwWMF3jKvv3vynY4zkaN">
+        <correspAction xml:id="i-2QDwWMF3jKvv3vynY4zkaN" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6uZwDLuDnSPFpMBN8j3nXr">
+        <correspAction xml:id="i-6uZwDLuDnSPFpMBN8j3nXr" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XqkxJ6V26Z55AdMR8sYPEa"/>
+        <correspAction xml:id="i-XqkxJ6V26Z55AdMR8sYPEa" type="assigned"/>
         <correspContext corresp="i-XqkxJ6V26Z55AdMR8sYPEa">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -66,11 +66,11 @@
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Bo_223/mot_200405_Bo_223-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Bo_0223/mot_200405_Bo_0223-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Bo_0223/mot_200405_Bo_0223-001.pdf"/>
-      <div type="motHeader" xml:id="i-A5So7KEPY4kHSZwLpxZsY">
-        <div type="motTitle" xml:id="i-4gtXaQ1NyJnexfNZ7K4XF4"/>
-        <div type="motSubmissionInfo" xml:id="i-NKZqkA6DJqE8VZuX7jbbQH"/>
+      <div xml:id="i-A5So7KEPY4kHSZwLpxZsY" type="motHeader">
+        <div xml:id="i-4gtXaQ1NyJnexfNZ7K4XF4" type="motTitle"/>
+        <div xml:id="i-NKZqkA6DJqE8VZuX7jbbQH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WiTWWRDAs4BsGukyGX8q1s">
+      <div xml:id="i-WiTWWRDAs4BsGukyGX8q1s" type="motBody">
         <div xml:id="i-47cXR9LFGWcBHB7eBwMNub">
           <p xml:id="i-V6NcMtzuHwqQ4DgMjJEqgC">
             2004/05 mnr: Bo223 pnr: kd654
@@ -183,8 +183,11 @@
           <p xml:id="i-PdfUjavJcMWB2xdP1RVMQx">
             2004/05:B0o223
           </p>
-          <p xml:id="i-Rpn3izGXN4MYgn79P6S9Q3">
-            Stockholm den 28 september 2004 Ragnwi Marcelind (kd)
+          <p xml:id="i-Rpn3izGXN4MYgn79P6S9Q3" type="date">
+            Stockholm den 28 september 2004
+          </p>
+          <p type="signatureBlock" id="i-RjSG1KRyfY6ap92CxZb3ur">
+            Ragnwi Marcelind (kd)
           </p>
         </div>
       </div>

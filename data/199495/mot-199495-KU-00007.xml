@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-KU-00007">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-NAZHDwfGffE63ZZmJW4qqn</idno>
-            <name>Marianne Samuelsson </name>
+            <name>Marianne Samuelsson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-9BUsH2Bn1bGihptNC5r7uq</idno>
-            <name>Peter Eriksson </name>
+            <name>Peter Eriksson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-EfLrWUocZwsV2PVnPdzohZ</idno>
-            <name>Birger Schlaug </name>
+            <name>Birger Schlaug</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-4Hw8Pc7AU9e1vS1WHULQW5"/>
+        <correspAction xml:id="i-4Hw8Pc7AU9e1vS1WHULQW5" type="basedOn"/>
         <correspContext corresp="i-4Hw8Pc7AU9e1vS1WHULQW5">
           <ref>Förslag 1994/95:TK1</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-9BUsH2Bn1bGihptNC5r7uq"/>
           <note type="signatory" corresp="i-EfLrWUocZwsV2PVnPdzohZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BWqvMwWFVPHDweyY15r3Rw">
+        <correspAction xml:id="i-BWqvMwWFVPHDweyY15r3Rw" type="referral">
           <date when="1994-11-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-R98qKAPAiSQMDCkhzjtBKX">
+        <correspAction xml:id="i-R98qKAPAiSQMDCkhzjtBKX" type="dismissal">
           <date when="1994-11-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XeEfUomv2S9HbYmAJfuTJN">
+        <correspAction xml:id="i-XeEfUomv2S9HbYmAJfuTJN" type="submission">
           <date when="1994-11-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Hqb2PbqaqbmCidSMTbRAjG">
+        <correspAction xml:id="i-Hqb2PbqaqbmCidSMTbRAjG" type="referral">
           <date when="1994-11-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KJzAzCf7cyqzCYczpfm1jN">
+        <correspAction xml:id="i-KJzAzCf7cyqzCYczpfm1jN" type="dismissal">
           <date when="1994-11-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-V6fKME64JLXcHwGf7pHkS">
+        <correspAction xml:id="i-V6fKME64JLXcHwGf7pHkS" type="submission">
           <date when="1994-11-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FTxeUCy5yN2ZUnwYtpYBTi"/>
+        <correspAction xml:id="i-FTxeUCy5yN2ZUnwYtpYBTi" type="assigned"/>
         <correspContext corresp="i-FTxeUCy5yN2ZUnwYtpYBTi">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_KU_7/mot_199495_KU_7-001.pdf"/>
-      <div type="motHeader" xml:id="i-DZ2rTamfVTqDctPQXREjDC">
-        <div type="motTitle" xml:id="i-CBR5pfZFeYAaVbD9t2yByr"/>
-        <div type="motSubmissionInfo" xml:id="i-V6nXarviGRcAuTGK1ttEzY"/>
+      <div xml:id="i-DZ2rTamfVTqDctPQXREjDC" type="motHeader">
+        <div xml:id="i-CBR5pfZFeYAaVbD9t2yByr" type="motTitle"/>
+        <div xml:id="i-V6nXarviGRcAuTGK1ttEzY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-X8ABZAZTW9ADRJDuyqanVC">
+      <div xml:id="i-X8ABZAZTW9ADRJDuyqanVC" type="motBody">
         <div xml:id="i-39mtnFSP3mJtn2h9ocKd87">
           <p xml:id="i-98pkRbpLVZ4NE9GAA1jRe1">
             Motion till riksdagen 1994/95:K7
@@ -278,8 +278,11 @@
             i riksdagsord- ningen angående en nämnd i riksdagen för Europeiska
             unionen m.m.
           </p>
-          <p xml:id="i-DNVPY7AyXchKtipnS2s82n">
-            Stockholm den 25 november 1994 Marianne Samuelsson (mp)
+          <p xml:id="i-DNVPY7AyXchKtipnS2s82n" type="date">
+            Stockholm den 25 november 1994
+          </p>
+          <p type="signatureBlock" id="i-2hpDiWGB96jQH9HNxVEhi1">
+            Marianne Samuelsson (mp)
           </p>
           <p xml:id="i-XnajF6Jfb8cAWcDtGnAcZM">
             Birger Schlaug (mp) Peter Eriksson (mp)

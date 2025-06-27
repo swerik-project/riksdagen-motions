@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-BoU-00239">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Bah9FS5uwk5YEZZPcgvYmu">
           <note type="signatory" corresp="i-WBsZfhYB4L6D3cVQWLdu18"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MbSYpguQSCwQp7NLSpna6f">
+        <correspAction xml:id="i-MbSYpguQSCwQp7NLSpna6f" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LZaR4aZU4eJEs5ff4wURQi">
+        <correspAction xml:id="i-LZaR4aZU4eJEs5ff4wURQi" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RRGQRZt9HCT64unoPFqJeg">
+        <correspAction xml:id="i-RRGQRZt9HCT64unoPFqJeg" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FW9PN5xpV25b8DomF89kXL"/>
+        <correspAction xml:id="i-FW9PN5xpV25b8DomF89kXL" type="assigned"/>
         <correspContext corresp="i-FW9PN5xpV25b8DomF89kXL">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -66,11 +66,11 @@
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Bo_239/mot_200405_Bo_239-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Bo_0239/mot_200405_Bo_0239-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Bo_0239/mot_200405_Bo_0239-001.pdf"/>
-      <div type="motHeader" xml:id="i-E5A4cB7NPC5S9j3SbCcjmk">
-        <div type="motTitle" xml:id="i-9hUgFqjpk5fosSzbVxWjiU"/>
-        <div type="motSubmissionInfo" xml:id="i-FF1bR7SMzXL5frfZH3ybvY"/>
+      <div xml:id="i-E5A4cB7NPC5S9j3SbCcjmk" type="motHeader">
+        <div xml:id="i-9hUgFqjpk5fosSzbVxWjiU" type="motTitle"/>
+        <div xml:id="i-FF1bR7SMzXL5frfZH3ybvY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VMNf1LYBjnPGFCWnzzCGfg">
+      <div xml:id="i-VMNf1LYBjnPGFCWnzzCGfg" type="motBody">
         <div xml:id="i-Xfw1qfxt57S9TsmkwhRAws">
           <p xml:id="i-CvPuoqQZ6r9ayeYDtMBm4o">
             2004/05 mnr: Bo239 pnr: mp857
@@ -171,8 +171,11 @@
           <p xml:id="i-NHKFjgZWSNkmM4yqtc56Ru">
             2004/05:B0239
           </p>
-          <p xml:id="i-WhNVArZdp3CAHeqNJUpavb">
-            Stockholm den 30 september 2004 Leif Björnlod (mp)
+          <p xml:id="i-WhNVArZdp3CAHeqNJUpavb" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-WBNnZu9qMU9ypruwaKRRoY">
+            Leif Björnlod (mp)
           </p>
         </div>
       </div>

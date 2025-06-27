@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00431">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-XX1Bgw1Q3dPb46rRgEPpen">
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CanZhMLKxTsgXetC5i5zSE">
+        <correspAction xml:id="i-CanZhMLKxTsgXetC5i5zSE" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QqshDWfKbBcCZfavNWzJhi">
+        <correspAction xml:id="i-QqshDWfKbBcCZfavNWzJhi" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2wbu1gNQpJRBm2WTkdLFvB">
+        <correspAction xml:id="i-2wbu1gNQpJRBm2WTkdLFvB" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HfoukWHPfsJHbjAGebN4m"/>
+        <correspAction xml:id="i-HfoukWHPfsJHbjAGebN4m" type="assigned"/>
         <correspContext corresp="i-HfoukWHPfsJHbjAGebN4m">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_431/mot_200506_Ub_431-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Kd9xawxPavF8z3hGeN11dJ">
-        <div type="motTitle" xml:id="i-bngoeE5aYSGZ4XxGaptQ2"/>
-        <div type="motSubmissionInfo" xml:id="i-WPeqPcoh2ocdx7yAuDc3sx"/>
+      <div xml:id="i-Kd9xawxPavF8z3hGeN11dJ" type="motHeader">
+        <div xml:id="i-bngoeE5aYSGZ4XxGaptQ2" type="motTitle"/>
+        <div xml:id="i-WPeqPcoh2ocdx7yAuDc3sx" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RFEX8qveghzAHtikcDUNsM">
+      <div xml:id="i-RFEX8qveghzAHtikcDUNsM" type="motBody">
         <div xml:id="i-MUMV4KVQX13prDWSvF53sZ">
           <p xml:id="i-NpYfud8CChgBFw4eUv1Gcf">
             2005/06 mnr: Ub431 pnr: kd692
@@ -146,8 +146,11 @@
             rätt till vila och rekreation på motsvarande sätt som redan gäller
             vuxna.
           </p>
-          <p xml:id="i-RxbhvzZS2UrcJFgnFhKeYA">
-            Stockholm den 28 september 2005 Mikael Oscarsson (kd)
+          <p xml:id="i-RxbhvzZS2UrcJFgnFhKeYA" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-MyypKfbVP8EHmALUPytuKs">
+            Mikael Oscarsson (kd)
           </p>
         </div>
       </div>

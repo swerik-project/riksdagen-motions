@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-AU-00317">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-AQAc7L3yWtMcgD3r6CxRHG"/>
           <note type="signatory" corresp="i-VhAPHtDbXzmUeiVRSdRFGD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NajhMeWogxjnvkPAsPSFkt">
+        <correspAction xml:id="i-NajhMeWogxjnvkPAsPSFkt" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QdZm7td58L2EycmuyLMZQ7">
+        <correspAction xml:id="i-QdZm7td58L2EycmuyLMZQ7" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5f5F4KNKPnJwgK61wWDMGV">
+        <correspAction xml:id="i-5f5F4KNKPnJwgK61wWDMGV" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NDoFg1LskL2oKB6x6AkJvE"/>
+        <correspAction xml:id="i-NDoFg1LskL2oKB6x6AkJvE" type="assigned"/>
         <correspContext corresp="i-NDoFg1LskL2oKB6x6AkJvE">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -74,11 +74,11 @@
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_A_317/mot_200405_A_317-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_A_0317/mot_200405_A_0317-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_A_0317/mot_200405_A_0317-001.pdf"/>
-      <div type="motHeader" xml:id="i-TNVAQYezDY4Jw6FDS632Wx">
-        <div type="motTitle" xml:id="i-PXPn9cJV6NznRTfsEELASb"/>
-        <div type="motSubmissionInfo" xml:id="i-DDxNq1hfrDCCaQWi3Az13M"/>
+      <div xml:id="i-TNVAQYezDY4Jw6FDS632Wx" type="motHeader">
+        <div xml:id="i-PXPn9cJV6NznRTfsEELASb" type="motTitle"/>
+        <div xml:id="i-DDxNq1hfrDCCaQWi3Az13M" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BuZCRFtzR9Veckr6sRcULf">
+      <div xml:id="i-BuZCRFtzR9Veckr6sRcULf" type="motBody">
         <div xml:id="i-NHjSLNRmFTU7y8h9HWdGoB">
           <p xml:id="i-FEnRf1yMJB7TWtWSqLYW5i">
             2004/05 mnr: A317 pnr: s44136
@@ -121,8 +121,11 @@
             verksamhet måste vara anpassad = därefter. Möjligheterna till
             lokala och regionala arbetsmarknadsinsatser måste utökas.
           </p>
-          <p xml:id="i-9HPcUigkm131GmjkKWehnZ">
-            Stockholm den 4 oktober 2004 Maria Öberg (s) Karin Åström (s)
+          <p xml:id="i-9HPcUigkm131GmjkKWehnZ" type="date">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-GomdFVQSzjeqvVef1ib5Fr">
+            Maria Öberg (s) Karin Åström (s)
           </p>
         </div>
       </div>

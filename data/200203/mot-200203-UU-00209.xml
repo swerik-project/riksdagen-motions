@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UU-00209">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-QrqZGqcBLZ9QhcdcY2LhUD">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HEaGPtfgUdJwFcxbgYpNCb">
+        <correspAction xml:id="i-HEaGPtfgUdJwFcxbgYpNCb" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VMooNGDxixwUk46NcbJ6om">
+        <correspAction xml:id="i-VMooNGDxixwUk46NcbJ6om" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XhFtzaJrL6PFo4dcpLw7AB">
+        <correspAction xml:id="i-XhFtzaJrL6PFo4dcpLw7AB" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-J8EmH7rLC4LASxTsRt6br3"/>
+        <correspAction xml:id="i-J8EmH7rLC4LASxTsRt6br3" type="assigned"/>
         <correspContext corresp="i-J8EmH7rLC4LASxTsRt6br3">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_U_0209/mot_200203_U_0209-0001.pdf"/>
-      <div type="motHeader" xml:id="i-GhG1W4Uz636C8rWqqbkgMj">
-        <div type="motTitle" xml:id="i-URBdy2b4KGfhaGSzp9sKJN"/>
-        <div type="motSubmissionInfo" xml:id="i-2G7iP4ntQL7VfWC1q1V1dE"/>
+      <div xml:id="i-GhG1W4Uz636C8rWqqbkgMj" type="motHeader">
+        <div xml:id="i-URBdy2b4KGfhaGSzp9sKJN" type="motTitle"/>
+        <div xml:id="i-2G7iP4ntQL7VfWC1q1V1dE" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PyF4NhhSyc8uUkKWTudCyr">
+      <div xml:id="i-PyF4NhhSyc8uUkKWTudCyr" type="motBody">
         <div xml:id="i-LCpVm7E1wVvTWfPjnkadTy">
           <p xml:id="i-EhPYaZ9d1XTBYR3nUFnhbC">
             2002/03 mnr: U209 pnr: kd532
@@ -146,8 +146,11 @@
             påverkan från EU på parterna, i det här fallet den palestinska
             myndigheten, kan på sikt få en stor betydelse för fredsprocessen.
           </p>
-          <p xml:id="i-NKQY5PQNmJzTSaUKNQEYGk">
-            Stockholm den 15 oktober 2002 Annelie Enochson (kd)
+          <p xml:id="i-NKQY5PQNmJzTSaUKNQEYGk" type="date">
+            Stockholm den 15 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-AKorA3Gt4cc7rzf7XazUsx">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

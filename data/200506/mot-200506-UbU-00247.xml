@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00247">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-3s3zHMPvZwqXmKgJt1x5Xp">
           <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Po6bvhVCD8d5mN2bAsfz9F">
+        <correspAction xml:id="i-Po6bvhVCD8d5mN2bAsfz9F" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-B3rE4dxhV7Y6DWm4VN58Nq">
+        <correspAction xml:id="i-B3rE4dxhV7Y6DWm4VN58Nq" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3FEot52nGvjpsqtag3H8z9">
+        <correspAction xml:id="i-3FEot52nGvjpsqtag3H8z9" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Fyerh31jwNsJka1DjXHm5n"/>
+        <correspAction xml:id="i-Fyerh31jwNsJka1DjXHm5n" type="assigned"/>
         <correspContext corresp="i-Fyerh31jwNsJka1DjXHm5n">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_247/mot_200506_Ub_247-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3cK6AvxNwUNLJBLiy55WaG">
-        <div type="motTitle" xml:id="i-DSniPy25y5jjbVtzx811aG"/>
-        <div type="motSubmissionInfo" xml:id="i-XYRzmB45ThpAwXt1C1QEfh"/>
+      <div xml:id="i-3cK6AvxNwUNLJBLiy55WaG" type="motHeader">
+        <div xml:id="i-DSniPy25y5jjbVtzx811aG" type="motTitle"/>
+        <div xml:id="i-XYRzmB45ThpAwXt1C1QEfh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UMtNeRjjfpp2KmiDP92VYK">
+      <div xml:id="i-UMtNeRjjfpp2KmiDP92VYK" type="motBody">
         <div xml:id="i-D4x3sKm59BVRfxDHKgcmGi">
           <p xml:id="i-J6BLWHyPh9d8nzEw9fB3oL">
             2005/06 mnr: Ub247 pnr: fp319
@@ -133,8 +133,11 @@
             mycket framgångsrika svenska restriktiva narkotikapolitiken riskerar
             att undermineras. Det får inte ske.
           </p>
-          <p xml:id="i-Gh5i3UN3ci9RqMf1CkRpiS">
-            Stockholm den 26 september 2005 Tobias Krantz (fp)
+          <p xml:id="i-Gh5i3UN3ci9RqMf1CkRpiS" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-3uJvzwRtaiPuiBQKtJsadF">
+            Tobias Krantz (fp)
           </p>
         </div>
       </div>

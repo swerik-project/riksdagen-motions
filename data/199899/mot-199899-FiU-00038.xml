@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-FiU-00038">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="woman">
             <idno>i-6kLJbGLpwB9hYxDrVrkcqF</idno>
-            <name>Karin Pilsäter </name>
+            <name>Karin Pilsäter</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-JZKa6caqdSKy8yhUyfEJeU</idno>
-            <name>Bo Könberg </name>
+            <name>Bo Könberg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-NZES3NTTAs3ZaBTU3RVkYE</idno>
-            <name>Lars Leijonborg </name>
+            <name>Lars Leijonborg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-JcXDxA9xA6Z1xssSbv9SrD"/>
+        <correspAction xml:id="i-JcXDxA9xA6Z1xssSbv9SrD" type="basedOn"/>
         <correspContext corresp="i-JcXDxA9xA6Z1xssSbv9SrD">
           <ref>Proposition 1998/99:89</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-NZES3NTTAs3ZaBTU3RVkYE"/>
           <note type="signatory" corresp="i-JZKa6caqdSKy8yhUyfEJeU"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3qtqvP9RTck6qRvmoKtS8W">
+        <correspAction xml:id="i-3qtqvP9RTck6qRvmoKtS8W" type="referral">
           <date when="1999-05-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Q4apCvqXizBhwaeCxojh9g">
+        <correspAction xml:id="i-Q4apCvqXizBhwaeCxojh9g" type="dismissal">
           <date when="1999-04-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XQticZW9gJ1qVc14SUjjFX">
+        <correspAction xml:id="i-XQticZW9gJ1qVc14SUjjFX" type="submission">
           <date when="1999-04-29"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-ABBbdHJrqtxmjzCoyEUr6K">
+        <correspAction xml:id="i-ABBbdHJrqtxmjzCoyEUr6K" type="referral">
           <date when="1999-05-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EE6CDDFeDiucUqwUmpEyeT">
+        <correspAction xml:id="i-EE6CDDFeDiucUqwUmpEyeT" type="dismissal">
           <date when="1999-04-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UscNsh41R3wuaMzFPSN8oZ">
+        <correspAction xml:id="i-UscNsh41R3wuaMzFPSN8oZ" type="submission">
           <date when="1999-04-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HCWE4DoJ6n4PTgNvhja7SS"/>
+        <correspAction xml:id="i-HCWE4DoJ6n4PTgNvhja7SS" type="assigned"/>
         <correspContext corresp="i-HCWE4DoJ6n4PTgNvhja7SS">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_fi_0038/mot_199899_fi_0038-0001.pdf"/>
-      <div type="motHeader" xml:id="i-14Myrz6qQUrqutLx8sH2Nb">
-        <div type="motTitle" xml:id="i-E5KpNX49WDFS5ug2qt1xN"/>
-        <div type="motSubmissionInfo" xml:id="i-33jZPZC4R1wZzc8FD4TKAR"/>
+      <div xml:id="i-14Myrz6qQUrqutLx8sH2Nb" type="motHeader">
+        <div xml:id="i-E5KpNX49WDFS5ug2qt1xN" type="motTitle"/>
+        <div xml:id="i-33jZPZC4R1wZzc8FD4TKAR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FhLVuYuadScVxDBqrVPzFn">
+      <div xml:id="i-FhLVuYuadScVxDBqrVPzFn" type="motBody">
         <div xml:id="i-7sxpnMfr4GaBs6znTzLweu">
           <p xml:id="i-HuaWNVggYRneRRoiZjjnX9">
             1998/99 Fi38 Fi38
@@ -452,8 +452,11 @@
           <p xml:id="i-BZDsEqjkZEoxXsMNwTuabG">
             Mot. 14 1998/99Fi38
           </p>
-          <p xml:id="i-Gbvx5ZqX6UNckSfwsG6Usm">
-            Stockholm den 28 april 1999 Karin Pilsäter (fp)
+          <p xml:id="i-Gbvx5ZqX6UNckSfwsG6Usm" type="date">
+            Stockholm den 28 april 1999
+          </p>
+          <p type="signatureBlock" id="i-8VmkmZsiMzHt7wKKpfzSJP">
+            Karin Pilsäter (fp)
           </p>
           <p xml:id="i-GpfhtN8uHuFZfYWDyENSiH">
             Bo Könberg (fp) Lars Leijonborg (fp)

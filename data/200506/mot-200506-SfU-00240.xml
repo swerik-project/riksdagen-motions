@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00240">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-GgyXv4xamqTouNVz7Tncke"/>
           <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VAUfJq7jLkGVAxeWU3A9eu">
+        <correspAction xml:id="i-VAUfJq7jLkGVAxeWU3A9eu" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HtaQJYP4oNzs5toJwGVScj">
+        <correspAction xml:id="i-HtaQJYP4oNzs5toJwGVScj" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KsNxDTxmnXWSrFCpWRNJTT">
+        <correspAction xml:id="i-KsNxDTxmnXWSrFCpWRNJTT" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VJu5gqvaNCYpwWc1NdtEqo"/>
+        <correspAction xml:id="i-VJu5gqvaNCYpwWc1NdtEqo" type="assigned"/>
         <correspContext corresp="i-VJu5gqvaNCYpwWc1NdtEqo">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_240/mot_200506_Sf_240-0001.pdf"/>
-      <div type="motHeader" xml:id="i-L4S1UAhHxAgmnEvwtx9pt8">
-        <div type="motTitle" xml:id="i-34qofMQynVz3DVXxQ1YvBd"/>
-        <div type="motSubmissionInfo" xml:id="i-59B7UjV6Tc8jgJBpN5hC3q"/>
+      <div xml:id="i-L4S1UAhHxAgmnEvwtx9pt8" type="motHeader">
+        <div xml:id="i-34qofMQynVz3DVXxQ1YvBd" type="motTitle"/>
+        <div xml:id="i-59B7UjV6Tc8jgJBpN5hC3q" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CEQJAKrUmr54kDbCnKa7tY">
+      <div xml:id="i-CEQJAKrUmr54kDbCnKa7tY" type="motBody">
         <div xml:id="i-BRSECaPSwyUxgG41K7XX2Z">
           <p xml:id="i-NKTN55KdfisRVfEc8yS9Sm">
             2005/06 mnr: Sf240 pnr: m1422
@@ -138,9 +138,11 @@
             avstår Sverige helt i onödan från den kompetens som utländska
             studenter skulle kunna fortsätta att tillföra Sverige.
           </p>
-          <p xml:id="i-2n7ugadkwrsznTipX4vzZ4">
-            Stockholm den 28 september 2005 Anna Lilliehöök (m) Anita Sidén
-            (m)
+          <p xml:id="i-2n7ugadkwrsznTipX4vzZ4" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-8WaAd1PFVdrupsKNGWFQbc">
+            Anna Lilliehöök (m) Anita Sidén (m)
           </p>
         </div>
       </div>

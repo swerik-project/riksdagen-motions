@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00030">
   <teiHeader>
     <fileDesc>
@@ -35,7 +35,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Q2kde2PBfbpxabBwWoVAtV"/>
+        <correspAction xml:id="i-Q2kde2PBfbpxabBwWoVAtV" type="basedOn"/>
         <correspContext corresp="i-Q2kde2PBfbpxabBwWoVAtV">
           <ref>Proposition 2005/06:92</ref>
         </correspContext>
@@ -43,19 +43,19 @@
         <correspContext corresp="i-QLiSopwnErffxtTUEKf8BT">
           <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PrPW7MY6pbMoZzwW44SFER">
+        <correspAction xml:id="i-PrPW7MY6pbMoZzwW44SFER" type="referral">
           <date when="2006-04-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XanToJfeFQUFBPvBC7Tq2P">
+        <correspAction xml:id="i-XanToJfeFQUFBPvBC7Tq2P" type="dismissal">
           <date when="2006-03-31"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WTYfGSK4ndXCgc5PEYsMiJ">
+        <correspAction xml:id="i-WTYfGSK4ndXCgc5PEYsMiJ" type="dismissal">
           <date when="2006-03-31"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GuFdaupMb8u1qkwpT6bGfs">
+        <correspAction xml:id="i-GuFdaupMb8u1qkwpT6bGfs" type="submission">
           <date when="2006-03-30"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BSLmdnwtwG73i5riHVEHd1"/>
+        <correspAction xml:id="i-BSLmdnwtwG73i5riHVEHd1" type="assigned"/>
         <correspContext corresp="i-BSLmdnwtwG73i5riHVEHd1">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_30/mot_200506_So_30-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SuXen6vvSegDtrs6wcCx77">
-        <div type="motTitle" xml:id="i-WQPYE4e8tE1nadrSCuRMhT"/>
-        <div type="motSubmissionInfo" xml:id="i-JNJRRMUuLzzqH5FR5BfCCi"/>
+      <div xml:id="i-SuXen6vvSegDtrs6wcCx77" type="motHeader">
+        <div xml:id="i-WQPYE4e8tE1nadrSCuRMhT" type="motTitle"/>
+        <div xml:id="i-JNJRRMUuLzzqH5FR5BfCCi" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3Gyt2WVw5MKcNGVkB7gG47">
+      <div xml:id="i-3Gyt2WVw5MKcNGVkB7gG47" type="motBody">
         <div xml:id="i-9H9EorF2iSu85Lp2G6ZhTC">
           <p xml:id="i-ThE1Tdmid4HqAHDZDE1pNt">
             2005/06 mnr: S030 pnr: mp022
@@ -183,8 +183,11 @@
           <p xml:id="i-UdWQ8Ww8WrUyLE8QdgmyXM">
             2005/06:S030
           </p>
-          <p xml:id="i-QMonWDj53PuU3SCwiYeDNg">
-            Stockholm den 30 mars 2006 Jan Lindholm (mp)
+          <p xml:id="i-QMonWDj53PuU3SCwiYeDNg" type="date">
+            Stockholm den 30 mars 2006
+          </p>
+          <p type="signatureBlock" id="i-5C36Mro6azRyfDBBxW6dT3">
+            Jan Lindholm (mp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-SoU-00027">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-6UrnZSyhA8En3ghbWrejVN</idno>
-            <name>Lena Öhrsvik </name>
+            <name>Lena Öhrsvik</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-9uS62EqsJWW4P5ZumD9Sgp</idno>
-            <name>Widar Andersson </name>
+            <name>Widar Andersson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-NFTnYj5UkhZoMmAJt9mpbq</idno>
-            <name>Börje Nilsson </name>
+            <name>Börje Nilsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-MvBieoac9VTMfyWeU7FTvv"/>
+        <correspAction xml:id="i-MvBieoac9VTMfyWeU7FTvv" type="basedOn"/>
         <correspContext corresp="i-MvBieoac9VTMfyWeU7FTvv">
           <ref>Proposition 1992/93:159</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-9uS62EqsJWW4P5ZumD9Sgp"/>
           <note type="signatory" corresp="i-NFTnYj5UkhZoMmAJt9mpbq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CKKk19vzZnnwChsTR3Qudj">
+        <correspAction xml:id="i-CKKk19vzZnnwChsTR3Qudj" type="referral">
           <date when="1993-03-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NypgFJCMnbKoz74dtWW8JG">
+        <correspAction xml:id="i-NypgFJCMnbKoz74dtWW8JG" type="dismissal">
           <date when="1993-03-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-mHiTpECC4gR3pxiU4zpGG">
+        <correspAction xml:id="i-mHiTpECC4gR3pxiU4zpGG" type="submission">
           <date when="1993-03-10"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-CP1sSX92bTqcv7CCWnAATZ">
+        <correspAction xml:id="i-CP1sSX92bTqcv7CCWnAATZ" type="referral">
           <date when="1993-03-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-52fR5LZmXcJwaL8YhYNiN7">
+        <correspAction xml:id="i-52fR5LZmXcJwaL8YhYNiN7" type="dismissal">
           <date when="1993-03-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5q5L2vm9hCnhF1UNS8XfAj">
+        <correspAction xml:id="i-5q5L2vm9hCnhF1UNS8XfAj" type="submission">
           <date when="1993-03-10"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XDTijAqU3U8RKhaxahG6R6"/>
+        <correspAction xml:id="i-XDTijAqU3U8RKhaxahG6R6" type="assigned"/>
         <correspContext corresp="i-XDTijAqU3U8RKhaxahG6R6">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_SoU_27/mot_199293_SoU_27-001.pdf"/>
-      <div type="motHeader" xml:id="i-U6QuhrTrZPnarBuv2H3ERn">
-        <div type="motTitle" xml:id="i-A8WGhtFUgitZANNmWFv5i8"/>
-        <div type="motSubmissionInfo" xml:id="i-7YTmZKtYo4qwDG7EEE2m8D"/>
+      <div xml:id="i-U6QuhrTrZPnarBuv2H3ERn" type="motHeader">
+        <div xml:id="i-A8WGhtFUgitZANNmWFv5i8" type="motTitle"/>
+        <div xml:id="i-7YTmZKtYo4qwDG7EEE2m8D" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NfEWTRXuon33aF7ALxmLM1">
+      <div xml:id="i-NfEWTRXuon33aF7ALxmLM1" type="motBody">
         <div xml:id="i-8pnyZn4FPAcgxJY8Nt1cgG">
           <p xml:id="i-Vp8cmK2nGeH3i7rGCkvDzA">
             Motion till riksdagen
@@ -186,8 +186,11 @@
             ger regeringen till känna vad i mo- tionen anförts om behovet
             av att se över åldersgränsen 16 år i den all- männa försäkringen.
           </p>
-          <p xml:id="i-LSgCgetSR9S5yRJPvgChpJ">
-            Stockholm den 10 mars 1993 Lena Öhrsvik (s)
+          <p xml:id="i-LSgCgetSR9S5yRJPvgChpJ" type="date">
+            Stockholm den 10 mars 1993
+          </p>
+          <p type="signatureBlock" id="i-9z7p1aujrxDTQvwYVFnkRf">
+            Lena Öhrsvik (s)
           </p>
           <p xml:id="i-LBKA5Zz1E1EyD4iu3eb4Ne">
             Widar Andersson (s) Börje Nilsson (s)

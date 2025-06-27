@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00425">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-NFcwFsj928hrL94ZXkQdXj">
           <note type="signatory" corresp="i-KAgkDWA5iGbn9XFLkj9FoB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Gqcz4jkbsp4qPMg743dD8i">
+        <correspAction xml:id="i-Gqcz4jkbsp4qPMg743dD8i" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-V2vLW5ZS5CzoraWeVh55XG">
+        <correspAction xml:id="i-V2vLW5ZS5CzoraWeVh55XG" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PS2FkbTLLpZCyDX11TfAns">
+        <correspAction xml:id="i-PS2FkbTLLpZCyDX11TfAns" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-89bMPUeeKLNL7GedyX2dSz"/>
+        <correspAction xml:id="i-89bMPUeeKLNL7GedyX2dSz" type="assigned"/>
         <correspContext corresp="i-89bMPUeeKLNL7GedyX2dSz">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_425/mot_200405_Sk_425-0001.pdf"/>
-      <div type="motHeader" xml:id="i-YRs5o4Wqp9yvonktiLm1et">
-        <div type="motTitle" xml:id="i-UNQ2Fbu39uB9NtRcQsAkug"/>
-        <div type="motSubmissionInfo" xml:id="i-Ya6CX6wdBZ9isKPi17tufV"/>
+      <div xml:id="i-YRs5o4Wqp9yvonktiLm1et" type="motHeader">
+        <div xml:id="i-UNQ2Fbu39uB9NtRcQsAkug" type="motTitle"/>
+        <div xml:id="i-Ya6CX6wdBZ9isKPi17tufV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-P6ZLadPTaAo4RC5jLb1PgJ">
+      <div xml:id="i-P6ZLadPTaAo4RC5jLb1PgJ" type="motBody">
         <div xml:id="i-ESnjSgf3vg3qAAGJ9Nb4b5">
           <p xml:id="i-NVEsUGFQVHRHBSs6Hmu8Ee">
             2004/05 mnr: Sk425 pnr: s41504
@@ -150,8 +150,11 @@
             skatter? Finns det andra sätt att stödja den ”vita” marknaden
             inom tjänstesektorn?
           </p>
-          <p xml:id="i-Sp1vgwgtwMoHsEJZVMzh8v">
-            Stockholm den 30 september 2004 Alf Eriksson (s)
+          <p xml:id="i-Sp1vgwgtwMoHsEJZVMzh8v" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-KTaUJvLD7WjdpMjCxxkRNb">
+            Alf Eriksson (s)
           </p>
         </div>
       </div>

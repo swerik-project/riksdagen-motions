@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00224">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-YEdxJPN8cJMwnqfd9tHmTD"/>
           <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2jZmq5psjGieNpcW68CH4w">
+        <correspAction xml:id="i-2jZmq5psjGieNpcW68CH4w" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JymQ9eVBdPHwQwzqYbRHep">
+        <correspAction xml:id="i-JymQ9eVBdPHwQwzqYbRHep" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-C4bZDgdgrkFnse49mTCXnp">
+        <correspAction xml:id="i-C4bZDgdgrkFnse49mTCXnp" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MR8K2d8vFaT87s7bKfqTKB"/>
+        <correspAction xml:id="i-MR8K2d8vFaT87s7bKfqTKB" type="assigned"/>
         <correspContext corresp="i-MR8K2d8vFaT87s7bKfqTKB">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_K_0224/mot_200203_K_0224-0001.pdf"/>
-      <div type="motHeader" xml:id="i-E2EvgVcTpi2s1A3HxFP6wf">
-        <div type="motTitle" xml:id="i-VWnnXu2rhuf6pLiUQEvafP"/>
-        <div type="motSubmissionInfo" xml:id="i-5A6hue6FaU6ST6kuxQ16Eq"/>
+      <div xml:id="i-E2EvgVcTpi2s1A3HxFP6wf" type="motHeader">
+        <div xml:id="i-VWnnXu2rhuf6pLiUQEvafP" type="motTitle"/>
+        <div xml:id="i-5A6hue6FaU6ST6kuxQ16Eq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JU25HAvyTh244X4HM5Gywh">
+      <div xml:id="i-JU25HAvyTh244X4HM5Gywh" type="motBody">
         <div xml:id="i-ANoqU2xVbfgKsoyf1zXRS3">
           <p xml:id="i-SA5EZK37SXRFgGSdoT6nGm">
             12
@@ -152,8 +152,11 @@
             den som röstat vid särskilt röstmottagningsställe på valdagen
             bör därför upphöra.
           </p>
-          <p xml:id="i-9oP2JNy3gcUhbRegfk55zW">
-            Stockholm den 14 oktober 2002 Ulla Löfgren (m) Anita Sidén (m)
+          <p xml:id="i-9oP2JNy3gcUhbRegfk55zW" type="date">
+            Stockholm den 14 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-EctzmjnKxLpkBibQLB9qRv">
+            Ulla Löfgren (m) Anita Sidén (m)
           </p>
         </div>
       </div>

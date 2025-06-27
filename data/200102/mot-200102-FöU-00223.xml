@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-FöU-00223">
   <teiHeader>
     <fileDesc>
@@ -38,34 +38,34 @@
         <correspContext corresp="i-BEUaKu2xhQK12kkhzHJptK">
           <note type="signatory" corresp="i-T9dFBJ1pv742mQeG3uLBtA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8KUptvPyAJzwvrHsuMkT8s">
+        <correspAction xml:id="i-8KUptvPyAJzwvrHsuMkT8s" type="referral">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9PzNrRAY3ULM36RzeXCFS4">
+        <correspAction xml:id="i-9PzNrRAY3ULM36RzeXCFS4" type="dismissal">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-RgVtbLjLUKGzBkvimx7QZg">
+        <correspAction xml:id="i-RgVtbLjLUKGzBkvimx7QZg" type="termination">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8Vhpsh2GhURkkoAevytH5r">
+        <correspAction xml:id="i-8Vhpsh2GhURkkoAevytH5r" type="submission">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-2DGafmvUcbW4HCujvga6Xp">
+        <correspAction xml:id="i-2DGafmvUcbW4HCujvga6Xp" type="numbering">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-FRcTLvxGGu4dQNTnvqVLXG">
+        <correspAction xml:id="i-FRcTLvxGGu4dQNTnvqVLXG" type="proposed_referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-Rcpuzgqv4hpYrfkipwrjZE">
+        <correspAction xml:id="i-Rcpuzgqv4hpYrfkipwrjZE" type="committee_proposal">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-SAsDcZm7YeTeLmp6KPYdih">
+        <correspAction xml:id="i-SAsDcZm7YeTeLmp6KPYdih" type="reviewing">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-UtSGX3DxoyGYshgVo8UV9j">
+        <correspAction xml:id="i-UtSGX3DxoyGYshgVo8UV9j" type="registration">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LtE3H8RDJQntQ5MaJ7BpiW"/>
+        <correspAction xml:id="i-LtE3H8RDJQntQ5MaJ7BpiW" type="assigned"/>
         <correspContext corresp="i-LtE3H8RDJQntQ5MaJ7BpiW">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -80,11 +80,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Fö_0223/mot_200102_Fö_0223-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XFuqgmaQF5SPW8J3BYme8c">
-        <div type="motTitle" xml:id="i-8XfpL8xfBPhexp6VjEmz67"/>
-        <div type="motSubmissionInfo" xml:id="i-2RKU66NnSBuh2uWHvodhHV"/>
+      <div xml:id="i-XFuqgmaQF5SPW8J3BYme8c" type="motHeader">
+        <div xml:id="i-8XfpL8xfBPhexp6VjEmz67" type="motTitle"/>
+        <div xml:id="i-2RKU66NnSBuh2uWHvodhHV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VYXspjpGBLw9XCCyDAPUqM">
+      <div xml:id="i-VYXspjpGBLw9XCCyDAPUqM" type="motBody">
         <div xml:id="i-L2pKndZVdpdM5fjZ2XKM4R">
           <p xml:id="i-4JHYVnZ3kmoR872Tr6sHhQ">
             2001/02 mnr: Fö223 pnr: kd703
@@ -297,8 +297,11 @@
             paradigmskiftet skall kunna genomföras utan ständigt återkommande
             fördyringar och ”svarta hål”.
           </p>
-          <p xml:id="i-49Rn71TG9Vn5X7qNMitHLj">
-            Stockholm den 1 oktober 2001 Margareta Viklund (kd)
+          <p xml:id="i-49Rn71TG9Vn5X7qNMitHLj" type="date">
+            Stockholm den 1 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-Wgqt8N4GZViCCaST9gYvZc">
+            Margareta Viklund (kd)
           </p>
         </div>
       </div>

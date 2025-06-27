@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00600">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-FWiXSdR8S5FscrcxV9tJ11">
           <note type="signatory" corresp="i-WJM6edqhGfBK1ijhNxfgoj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RPpiMGMkSEnyReEWJ64N1A">
+        <correspAction xml:id="i-RPpiMGMkSEnyReEWJ64N1A" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-K4xdeKiUBcqi4h7r2q7J2s">
+        <correspAction xml:id="i-K4xdeKiUBcqi4h7r2q7J2s" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-83dW1EC791inf37aJ6uusF">
+        <correspAction xml:id="i-83dW1EC791inf37aJ6uusF" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2mLdkqEhQHdrJu9kwszDdt"/>
+        <correspAction xml:id="i-2mLdkqEhQHdrJu9kwszDdt" type="assigned"/>
         <correspContext corresp="i-2mLdkqEhQHdrJu9kwszDdt">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_600/mot_200506_T_600-0001.pdf"/>
-      <div type="motHeader" xml:id="i-42t1BNma7aKyVc8trFVEqn">
-        <div type="motTitle" xml:id="i-12mNJ91bvAUHoZw1tj9tUn"/>
-        <div type="motSubmissionInfo" xml:id="i-DqtCNmEceE5LxfZoprtDeq"/>
+      <div xml:id="i-42t1BNma7aKyVc8trFVEqn" type="motHeader">
+        <div xml:id="i-12mNJ91bvAUHoZw1tj9tUn" type="motTitle"/>
+        <div xml:id="i-DqtCNmEceE5LxfZoprtDeq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Xo47zjKHvEy9CXC2bxzFmq">
+      <div xml:id="i-Xo47zjKHvEy9CXC2bxzFmq" type="motBody">
         <div xml:id="i-9435m4RBJv7pePnGm2Tymu">
           <p xml:id="i-MJYFYsgebusLN1ieyHhHXj">
             2005/06 mnr: T600 pnr: kd890
@@ -109,8 +109,11 @@
             ge Vägverket i uppdrag att utreda möjligheten att på vissa motorvägar
             inleda försök med högsta tillåtna hastighet på 130 km/h.
           </p>
-          <p xml:id="i-WQwD4LN4Xiib15uwwBn7WG">
-            Stockholm den 29 september 2005 Chatrine Pålsson (kd)
+          <p xml:id="i-WQwD4LN4Xiib15uwwBn7WG" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-9rRFRyepbeu4SSVcXcAMSX">
+            Chatrine Pålsson (kd)
           </p>
         </div>
       </div>

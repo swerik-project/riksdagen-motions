@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00230">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-WduAwhSbT55cJQXyo4puwk">
           <note type="signatory" corresp="i-JJGD2ECwHv6xGCZyyrtKmA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WCNCRvUnD3eH1G2urLUnKH">
+        <correspAction xml:id="i-WCNCRvUnD3eH1G2urLUnKH" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QXeF7mR45AFZtcQipStzQY">
+        <correspAction xml:id="i-QXeF7mR45AFZtcQipStzQY" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-H386x3KQzsPhsNEbcag8dU">
+        <correspAction xml:id="i-H386x3KQzsPhsNEbcag8dU" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AFTLS42SQhp2FS11YSaViW"/>
+        <correspAction xml:id="i-AFTLS42SQhp2FS11YSaViW" type="assigned"/>
         <correspContext corresp="i-AFTLS42SQhp2FS11YSaViW">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ju_0230/mot_200304_Ju_0230-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Bi16vLivvZ1XVCkua3B1qH">
-        <div type="motTitle" xml:id="i-AnrCsE2ysVGjmRjSwkvKHD"/>
-        <div type="motSubmissionInfo" xml:id="i-TmKoFSPSDFVDLva4butQsm"/>
+      <div xml:id="i-Bi16vLivvZ1XVCkua3B1qH" type="motHeader">
+        <div xml:id="i-AnrCsE2ysVGjmRjSwkvKHD" type="motTitle"/>
+        <div xml:id="i-TmKoFSPSDFVDLva4butQsm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Dcu5QBkhwZr6sFc6Xgyez3">
+      <div xml:id="i-Dcu5QBkhwZr6sFc6Xgyez3" type="motBody">
         <div xml:id="i-LjUzCw3HZwbBrDTnRUsNSm">
           <p xml:id="i-QpDU9o4YSRU8Zn9fVFRMzf">
             2003/04 mnr: Ju230 pnr: m1117
@@ -107,8 +107,11 @@
             för larm, väktare, övervakningskameror etc. Därför — öka intagningen
             rejält till polisutbildningen, snabbt.
           </p>
-          <p xml:id="i-QaU5eARNDmnbZ2PgdtGDqn">
-            Stockholm den 18 september 2003 Carl-Axel Roslund (m)
+          <p xml:id="i-QaU5eARNDmnbZ2PgdtGDqn" type="date">
+            Stockholm den 18 september 2003
+          </p>
+          <p type="signatureBlock" id="i-RWPmH9nDBiWpgCm6pNzVL9">
+            Carl-Axel Roslund (m)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00007">
   <teiHeader>
     <fileDesc>
@@ -104,7 +104,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-EZVbAHD9YQPsvSFm2REk9j"/>
+        <correspAction xml:id="i-EZVbAHD9YQPsvSFm2REk9j" type="basedOn"/>
         <correspContext corresp="i-EZVbAHD9YQPsvSFm2REk9j">
           <ref>Proposition 2002/03:50</ref>
         </correspContext>
@@ -122,16 +122,16 @@
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SBftycYo8UEVD3uvvnxdP9">
+        <correspAction xml:id="i-SBftycYo8UEVD3uvvnxdP9" type="referral">
           <date when="2003-02-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PtLcG4bSWQZMvzYNMEEH6c">
+        <correspAction xml:id="i-PtLcG4bSWQZMvzYNMEEH6c" type="dismissal">
           <date when="2003-02-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KFDtLk8EHYp5HQD6yA7a1F">
+        <correspAction xml:id="i-KFDtLk8EHYp5HQD6yA7a1F" type="submission">
           <date when="2003-02-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QXpcsuybtAU3LMyvivz3no"/>
+        <correspAction xml:id="i-QXpcsuybtAU3LMyvivz3no" type="assigned"/>
         <correspContext corresp="i-QXpcsuybtAU3LMyvivz3no">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -146,11 +146,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ub_0007/mot_200203_Ub_0007-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FpmgEjxZ331yshsgRyvVY3">
-        <div type="motTitle" xml:id="i-PgV9uPx2kLZwU8aTYMExvX"/>
-        <div type="motSubmissionInfo" xml:id="i-HW7mZfqXH9Cx9whCHZUZXK"/>
+      <div xml:id="i-FpmgEjxZ331yshsgRyvVY3" type="motHeader">
+        <div xml:id="i-PgV9uPx2kLZwU8aTYMExvX" type="motTitle"/>
+        <div xml:id="i-HW7mZfqXH9Cx9whCHZUZXK" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TQz29rksUM9uwkTFfyyjGk">
+      <div xml:id="i-TQz29rksUM9uwkTFfyyjGk" type="motBody">
         <div xml:id="i-PUb17pXQ5eGwCzddZ5L2mM">
           <p xml:id="i-BaX4nE54cZ1yPu4hSt54tb">
             2002/03
@@ -540,10 +540,10 @@
             2 kap. 6 8 lyder: Ethvert biomedicinsk forskningsprojekt, der
             indeberer forsog på 1. levendefodte menneskelige individer, 2.
             . menneskelige konsceller, der agtes anvendt til befrugtning,
-            menneskelige befrugtede &amp;g, fosteranleg og fostre, 3. vev, celler
-            og arvebestanddele fra mennesker, fostre og lignende og 4. afdede,
-            skal anmeldes til den regionale komité for det område, hvori den
-            projektansvarlige har sit virke.
+            menneskelige befrugtede &amp;g, fosteranleg og fostre, 3. vev,
+            celler og arvebestanddele fra mennesker, fostre og lignende og
+            4. afdede, skal anmeldes til den regionale komité for det område,
+            hvori den projektansvarlige har sit virke.
           </p>
           <p xml:id="i-Pjyap13GYeW5K2HCZygePT">
             Kristdemokraterna anser att den svenska lagregleringen i tillämpliga
@@ -644,8 +644,11 @@
             måste synas mer ingående. Vi anser därför att lagen måste utvärderas
             efter två år.
           </p>
-          <p xml:id="i-FqfurRM2nfi9sH1PbxXUrP">
-            Stockholm den 5 februari 2002 Inger Davidson (kd)
+          <p xml:id="i-FqfurRM2nfi9sH1PbxXUrP" type="date">
+            Stockholm den 5 februari 2002
+          </p>
+          <p type="signatureBlock" id="i-LTFeeTV7bX1DhMQK1RGWnF">
+            Inger Davidson (kd)
           </p>
           <p xml:id="i-NvZBtBozxG5nPL8tXv5yER">
             Sven Brus (kd) Helena Höij (kd) Dan Kihlström (kd) Kenneth Lantz

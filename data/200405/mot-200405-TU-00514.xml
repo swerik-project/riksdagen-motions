@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00514">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-RDeqY3mXLBtUS9bixjvHS"/>
           <note type="signatory" corresp="i-J74sVAjCTSxzD8rbnxRRA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GZZrJ9h3WEW4KbcwjxgYau">
+        <correspAction xml:id="i-GZZrJ9h3WEW4KbcwjxgYau" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-22WbDmAFwMVRdA8BTuiMpv">
+        <correspAction xml:id="i-22WbDmAFwMVRdA8BTuiMpv" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DwHXvyX1SS8fR6vGqVpkuk">
+        <correspAction xml:id="i-DwHXvyX1SS8fR6vGqVpkuk" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6RMR1hVoVXFAh83HYysW6e"/>
+        <correspAction xml:id="i-6RMR1hVoVXFAh83HYysW6e" type="assigned"/>
         <correspContext corresp="i-6RMR1hVoVXFAh83HYysW6e">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_514/mot_200405_T_514-0001.pdf"/>
-      <div type="motHeader" xml:id="i-MJ9yGtG3hZnv88kSMJhV1Q">
-        <div type="motTitle" xml:id="i-GZG2rSmYkZqsuGTJgRt1uB"/>
-        <div type="motSubmissionInfo" xml:id="i-Y476nmt1u54869hfJ9TBFN"/>
+      <div xml:id="i-MJ9yGtG3hZnv88kSMJhV1Q" type="motHeader">
+        <div xml:id="i-GZG2rSmYkZqsuGTJgRt1uB" type="motTitle"/>
+        <div xml:id="i-Y476nmt1u54869hfJ9TBFN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2c7sQYM1SF5BC1uHuXA7ja">
+      <div xml:id="i-2c7sQYM1SF5BC1uHuXA7ja" type="motBody">
         <div xml:id="i-P7EEnUNHAGijSuMZVF2mgo">
           <p xml:id="i-EBye4WxU2Rm9N1RdCXtKN1">
             2004/05 mnr: T514 pnr: -fp524
@@ -127,9 +127,11 @@
           <p xml:id="i-JrDfDMKWfjTgThzY6ijuBr">
             2004/05:T514
           </p>
-          <p xml:id="i-7W4HRAq9jgDCtwZCVK1Qcq">
-            Stockholm den 5 oktober 2004 Lars Tysklind (fp) Åsa Torstensson
-            (c)
+          <p xml:id="i-7W4HRAq9jgDCtwZCVK1Qcq" type="date">
+            Stockholm den 5 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-Gu21GNPDEJAesDV1gxXyYG">
+            Lars Tysklind (fp) Åsa Torstensson (c)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00318">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-NzpJRGDFi62bkWeCBa2Smo">
           <note type="signatory" corresp="i-XSoE59R8vSeGm31iRSvpAz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-E6vDvaGm42yiQaeYooCUSe">
+        <correspAction xml:id="i-E6vDvaGm42yiQaeYooCUSe" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LFG4WsYTKXgzVwKsLGjoPz">
+        <correspAction xml:id="i-LFG4WsYTKXgzVwKsLGjoPz" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VRMA8KuYzGTrvVQdUxbeRG">
+        <correspAction xml:id="i-VRMA8KuYzGTrvVQdUxbeRG" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BTBfg94jTaZ9SPy9CvoXYW"/>
+        <correspAction xml:id="i-BTBfg94jTaZ9SPy9CvoXYW" type="assigned"/>
         <correspContext corresp="i-BTBfg94jTaZ9SPy9CvoXYW">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0318/mot_200304_Sk_0318-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BPa4ZRcQ9U47CcaJyRcJSj">
-        <div type="motTitle" xml:id="i-7w447vi3p9sxyxc5aB9Fzd"/>
-        <div type="motSubmissionInfo" xml:id="i-FGDkNaRvji13P4cTKi7ddT"/>
+      <div xml:id="i-BPa4ZRcQ9U47CcaJyRcJSj" type="motHeader">
+        <div xml:id="i-7w447vi3p9sxyxc5aB9Fzd" type="motTitle"/>
+        <div xml:id="i-FGDkNaRvji13P4cTKi7ddT" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JVpbuZxBh1NGX8VoRvnRsi">
+      <div xml:id="i-JVpbuZxBh1NGX8VoRvnRsi" type="motBody">
         <div xml:id="i-MoRe9G4sSqqSNfCTYpQtPA">
           <p xml:id="i-PTTgGLehNUc27pcPGcRZoS">
             2003/04 mnr: Sk318 pnr: kd750
@@ -108,8 +108,11 @@
             är nödvändig, med avsikt att sänka skatten till samma nivå som
             för tjänster inom idrottsområdet och som för persontransporter.
           </p>
-          <p xml:id="i-JeTb69S2fVAMuYmcvT5vHz">
-            Stockholm den 3 oktober 2003 Ulrik Lindgren (kd)
+          <p xml:id="i-JeTb69S2fVAMuYmcvT5vHz" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-TeRUUMn2tXC8L6bjmVEAzD">
+            Ulrik Lindgren (kd)
           </p>
         </div>
       </div>

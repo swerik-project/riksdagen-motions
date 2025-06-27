@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-LU-00016">
   <teiHeader>
     <fileDesc>
@@ -97,7 +97,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VtqDz2bM2fz3g4A5Xid15t"/>
+        <correspAction xml:id="i-VtqDz2bM2fz3g4A5Xid15t" type="basedOn"/>
         <correspContext corresp="i-VtqDz2bM2fz3g4A5Xid15t">
           <ref>Proposition 2002/03:71</ref>
         </correspContext>
@@ -114,16 +114,16 @@
           <note type="signatory" corresp="i-BoRLrCqi4prCw3N11EyJPF"/>
           <note type="signatory" corresp="i-BUYvEhrSc9gnHcd6iS4eDJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JBSGtbBCfxC46mdaQWHtkc">
+        <correspAction xml:id="i-JBSGtbBCfxC46mdaQWHtkc" type="referral">
           <date when="2003-04-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-E25jn86ew8wfg8nLjjmfpG">
+        <correspAction xml:id="i-E25jn86ew8wfg8nLjjmfpG" type="dismissal">
           <date when="2003-04-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LDP5oy2QbvsXTySyjSYn5p">
+        <correspAction xml:id="i-LDP5oy2QbvsXTySyjSYn5p" type="submission">
           <date when="2003-04-02"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QjpCJajm6pMzQc2cR7XZZn"/>
+        <correspAction xml:id="i-QjpCJajm6pMzQc2cR7XZZn" type="assigned"/>
         <correspContext corresp="i-QjpCJajm6pMzQc2cR7XZZn">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -138,11 +138,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_L_0016/mot_200203_L_0016-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4PERRNvLUS76iittKh28M2">
-        <div type="motTitle" xml:id="i-JS2jgd7sePKyBMCwmyh7uP"/>
-        <div type="motSubmissionInfo" xml:id="i-Hh6eG9TBUvcVeLB12kNmMq"/>
+      <div xml:id="i-4PERRNvLUS76iittKh28M2" type="motHeader">
+        <div xml:id="i-JS2jgd7sePKyBMCwmyh7uP" type="motTitle"/>
+        <div xml:id="i-Hh6eG9TBUvcVeLB12kNmMq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6cTmNUPzGkY57vT7phJKym">
+      <div xml:id="i-6cTmNUPzGkY57vT7phJKym" type="motBody">
         <div xml:id="i-KfxWmi3kBtYR5PVb649nz">
           <p xml:id="i-Dvvz41G3PZDgLooiYNrRvF">
             2002/03 mnr: L16 pnr: fp1132
@@ -216,8 +216,11 @@
             att riksdagen avslår propositionen i den del som gäller = förordningsreglerad
             taxa vid yrkesmässig bostadsförmedling.
           </p>
-          <p xml:id="i-PQD2et8uTHZ7Sxsb6rXm12">
-            Stockholm den 2 april 2003 Jan Ertsborn (fp)
+          <p xml:id="i-PQD2et8uTHZ7Sxsb6rXm12" type="date">
+            Stockholm den 2 april 2003
+          </p>
+          <p type="signatureBlock" id="i-XGLY5VEHuaaWhiykceymf7">
+            Jan Ertsborn (fp)
           </p>
           <p xml:id="i-BRUqWQYBgJ2zELsLwTVLyv">
             Martin Andreasson (fp) Mia Franzén (fp) Lars Tysklind (fp) Ana

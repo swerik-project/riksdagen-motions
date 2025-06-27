@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-UbU-00026">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-7gs1j74zvk9AY6w24zDaqq</idno>
-            <name>Monica Öhman </name>
+            <name>Monica Öhman</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-7SJK192EL4VbjkLD12Xg8y</idno>
-            <name>Britta Sundin </name>
+            <name>Britta Sundin</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-VBHSUYwX8zTBjLDRcwNsBA</idno>
-            <name>Mats Lindberg </name>
+            <name>Mats Lindberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-UFZUsGs9BXq3xumh1yBsn1"/>
+        <correspAction xml:id="i-UFZUsGs9BXq3xumh1yBsn1" type="basedOn"/>
         <correspContext corresp="i-UFZUsGs9BXq3xumh1yBsn1">
           <ref>Proposition 1990/91:18</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-7SJK192EL4VbjkLD12Xg8y"/>
           <note type="signatory" corresp="i-VBHSUYwX8zTBjLDRcwNsBA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-6Jo4CChGBVf5x98bDQRCru">
+        <correspAction xml:id="i-6Jo4CChGBVf5x98bDQRCru" type="referral">
           <date when="1990-11-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WuVGRR32vTooqsHxEZvsx5">
+        <correspAction xml:id="i-WuVGRR32vTooqsHxEZvsx5" type="dismissal">
           <date when="1990-11-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-13m4YnxNmmmbt2wVhmTnMx">
+        <correspAction xml:id="i-13m4YnxNmmmbt2wVhmTnMx" type="submission">
           <date when="1990-10-26"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-A41B8FgyWeDzksZ9bfuL7d">
+        <correspAction xml:id="i-A41B8FgyWeDzksZ9bfuL7d" type="referral">
           <date when="1990-11-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-F5NSfT71iwkdMMzuyUqVHL">
+        <correspAction xml:id="i-F5NSfT71iwkdMMzuyUqVHL" type="dismissal">
           <date when="1990-11-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DDqX8reSxLSh1HKERQhvpn">
+        <correspAction xml:id="i-DDqX8reSxLSh1HKERQhvpn" type="submission">
           <date when="1990-10-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6tj2RK2WJwHWzp8JXzcN8D"/>
+        <correspAction xml:id="i-6tj2RK2WJwHWzp8JXzcN8D" type="assigned"/>
         <correspContext corresp="i-6tj2RK2WJwHWzp8JXzcN8D">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_UbU_26/mot_199091_UbU_26-001.pdf"/>
-      <div type="motHeader" xml:id="i-8SYGkY18VfyzViFPhfyaDj">
-        <div type="motTitle" xml:id="i-162TpVaVFXDC8qECUff6m8"/>
-        <div type="motSubmissionInfo" xml:id="i-7H6LyXywhRAh9fR1dLoVtV"/>
+      <div xml:id="i-8SYGkY18VfyzViFPhfyaDj" type="motHeader">
+        <div xml:id="i-162TpVaVFXDC8qECUff6m8" type="motTitle"/>
+        <div xml:id="i-7H6LyXywhRAh9fR1dLoVtV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NufxCjREKM9eXznkTExuiB">
+      <div xml:id="i-NufxCjREKM9eXznkTExuiB" type="motBody">
         <div xml:id="i-FoQ5daQov8N9YecXhNUHP4">
           <p xml:id="i-AANpyzSA2DW8jjW5Rohn1g">
             Motion till riksdagen 1990/91:Ub26
@@ -247,8 +247,11 @@
             känna vad i mo- tionen anförts beträffande organisationen av fältorganisationerna
             i den statliga skoladministrationen.
           </p>
-          <p xml:id="i-HS1tQdDzYPo5DQj1H2Pv8K">
-            Stockholm den 26 oktober 1990 Monica Öhman (s)
+          <p xml:id="i-HS1tQdDzYPo5DQj1H2Pv8K" type="date">
+            Stockholm den 26 oktober 1990
+          </p>
+          <p type="signatureBlock" id="i-GG5ugGcRiHgMb6GtyopTpy">
+            Monica Öhman (s)
           </p>
           <p xml:id="i-8busEyviEJ45R6wKjk5c5f">
             Mats Lindberg (s) Britta Sundin (s)

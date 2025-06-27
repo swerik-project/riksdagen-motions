@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-UbU-00402">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-FKLdFezw4jPcBcpexqvUyJ</idno>
-            <name>Kent Olsson </name>
+            <name>Kent Olsson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-3YBav2r8YXZiNoQkfb1bUy</idno>
-            <name>Elizabeth Nyström </name>
+            <name>Elizabeth Nyström</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-FKLdFezw4jPcBcpexqvUyJ"/>
           <note type="signatory" corresp="i-3YBav2r8YXZiNoQkfb1bUy"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SG29y2TkVXRJN4xftseNXK">
+        <correspAction xml:id="i-SG29y2TkVXRJN4xftseNXK" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-58XGp1dkQhRC5xwzcs65ZJ">
+        <correspAction xml:id="i-58XGp1dkQhRC5xwzcs65ZJ" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6aWj4TXHPqDeGpRspN14B4">
+        <correspAction xml:id="i-6aWj4TXHPqDeGpRspN14B4" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Fzz57NJbo1VnG2H3aRSwu7">
+        <correspAction xml:id="i-Fzz57NJbo1VnG2H3aRSwu7" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DgHQ7yZDcpPWEwxbbeF8KJ">
+        <correspAction xml:id="i-DgHQ7yZDcpPWEwxbbeF8KJ" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-S1Yo1rKwjrnx6Q6seToi7M">
+        <correspAction xml:id="i-S1Yo1rKwjrnx6Q6seToi7M" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6oJg9GdPn5cSUU95b21wfu"/>
+        <correspAction xml:id="i-6oJg9GdPn5cSUU95b21wfu" type="assigned"/>
         <correspContext corresp="i-6oJg9GdPn5cSUU95b21wfu">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Ub_0402/mot_199899_Ub_0402-0001.pdf"/>
-      <div type="motHeader" xml:id="i-P1QPqFYhQpwSQKPU8GavBr">
-        <div type="motTitle" xml:id="i-VeawtoSrcMpRTwtypYfRM2"/>
-        <div type="motSubmissionInfo" xml:id="i-46bf5nGj4iig2NE4NwKEVm"/>
+      <div xml:id="i-P1QPqFYhQpwSQKPU8GavBr" type="motHeader">
+        <div xml:id="i-VeawtoSrcMpRTwtypYfRM2" type="motTitle"/>
+        <div xml:id="i-46bf5nGj4iig2NE4NwKEVm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RVDrPQceK9soCv2aYBgQ3Q">
+      <div xml:id="i-RVDrPQceK9soCv2aYBgQ3Q" type="motBody">
         <div xml:id="i-BBzuhtT9rxb9gv72NzG7NH">
           <p xml:id="i-RiAMcbT68ioLdEJD2Tu4E">
             1998/99 Ub402 Ub402
@@ -151,8 +151,11 @@
             på Tjörn och Donsö.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Ub_0402/mot_199899_Ub_0402-0002.pdf"/>
-          <p xml:id="i-CCBjseoERcNn67dtVzZJ75">
-            Stockholm den 15 oktober 1998 Mot.
+          <p xml:id="i-CCBjseoERcNn67dtVzZJ75" type="date">
+            Stockholm den 15 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-EUYBK71zjcxoc1BD3cgQQv">
+            Mot.
           </p>
           <p xml:id="i-7UoP3i6QdnQ6Qybq2MA1Vj">
             1998/99Ub402 Kent Olsson (m) Elizabeth Nyström (m)

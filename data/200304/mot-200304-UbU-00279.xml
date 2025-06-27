@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00279">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-ASHgRusN9GoHAH8eioxicP"/>
           <note type="signatory" corresp="i-BUYvEhrSc9gnHcd6iS4eDJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FjyLGRa6fbcaRL38Qy7isy">
+        <correspAction xml:id="i-FjyLGRa6fbcaRL38Qy7isy" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EJHxwAEfwJj4FbyEWwEMNZ">
+        <correspAction xml:id="i-EJHxwAEfwJj4FbyEWwEMNZ" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BRQMej1Udi7fFENC8Y5f9">
+        <correspAction xml:id="i-BRQMej1Udi7fFENC8Y5f9" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GWbGURCG4TX2Axqmyvuppy"/>
+        <correspAction xml:id="i-GWbGURCG4TX2Axqmyvuppy" type="assigned"/>
         <correspContext corresp="i-GWbGURCG4TX2Axqmyvuppy">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ub_0279/mot_200304_Ub_0279-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EKZE5tWYmdHvMBLnFHd7Zi">
-        <div type="motTitle" xml:id="i-KpUDkPbKdBdgK69CGoWfd4"/>
-        <div type="motSubmissionInfo" xml:id="i-U9P5HcdaefzVwm6TJaKPis"/>
+      <div xml:id="i-EKZE5tWYmdHvMBLnFHd7Zi" type="motHeader">
+        <div xml:id="i-KpUDkPbKdBdgK69CGoWfd4" type="motTitle"/>
+        <div xml:id="i-U9P5HcdaefzVwm6TJaKPis" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YrtYWF3vLi3H46q8U3mSH">
+      <div xml:id="i-YrtYWF3vLi3H46q8U3mSH" type="motBody">
         <div xml:id="i-PkMBpYvm7sAm39J671cwh9">
           <p xml:id="i-NVWQvdWEuWvZsBiMgtY7NQ">
             2003/04 mnr: Ub279 pnr: fp237
@@ -166,9 +166,11 @@
             Malmö högskola det antal helårstudieplatser som högskolan har
             planerat för i sin utbyggnad.
           </p>
-          <p xml:id="i-UGaqcb6BRjnzewnhPR7Nea">
-            Stockholm den 2 oktober 2003 Marie Wahlgren (fp) Allan Widman
-            (fp)
+          <p xml:id="i-UGaqcb6BRjnzewnhPR7Nea" type="date">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-NJ7M47HZt3FRp2P9gVcKSK">
+            Marie Wahlgren (fp) Allan Widman (fp)
           </p>
         </div>
       </div>

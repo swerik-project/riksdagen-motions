@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00334">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-WyF9wAsZq35zW5C2RqbGTt">
           <note type="signatory" corresp="i-WBsZfhYB4L6D3cVQWLdu18"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LQ28FFJTt9eSPxhSHJsUbH">
+        <correspAction xml:id="i-LQ28FFJTt9eSPxhSHJsUbH" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8W4r3U2uM5Z2eAnK2a6ZNi">
+        <correspAction xml:id="i-8W4r3U2uM5Z2eAnK2a6ZNi" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-C7ZULBC882SFsMYUDYDbHZ">
+        <correspAction xml:id="i-C7ZULBC882SFsMYUDYDbHZ" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XpWjSg8sz2H35cnt3uUxTg"/>
+        <correspAction xml:id="i-XpWjSg8sz2H35cnt3uUxTg" type="assigned"/>
         <correspContext corresp="i-XpWjSg8sz2H35cnt3uUxTg">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_334/mot_200405_Sk_334-0001.pdf"/>
-      <div type="motHeader" xml:id="i-A5ByWJe6DNRZ9Y6UxptGEi">
-        <div type="motTitle" xml:id="i-Fus46W3ytqb2sMvDVXtnek"/>
-        <div type="motSubmissionInfo" xml:id="i-FmNxEEkb5McJtM1QJxh4RT"/>
+      <div xml:id="i-A5ByWJe6DNRZ9Y6UxptGEi" type="motHeader">
+        <div xml:id="i-Fus46W3ytqb2sMvDVXtnek" type="motTitle"/>
+        <div xml:id="i-FmNxEEkb5McJtM1QJxh4RT" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ByiQrBaotnRh54BAdhxtUB">
+      <div xml:id="i-ByiQrBaotnRh54BAdhxtUB" type="motBody">
         <div xml:id="i-CsBATQLt3uw1MywUAXFSy6">
           <p xml:id="i-PxeYqmvktfD7EuQsY8u4GP">
             2004/05 mnr: Sk334 pnr: mp674
@@ -102,8 +102,11 @@
             och andra ideella föreningar som tagit över verksamheter som tidigare
             det allmänna har svarat för.
           </p>
-          <p xml:id="i-9jpNnmAJJz9Th1XmEtk9By">
-            Stockholm den 1 oktober 2004 Leif Björnlod (mp)
+          <p xml:id="i-9jpNnmAJJz9Th1XmEtk9By" type="date">
+            Stockholm den 1 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-4bKtD3W3ekThyXnpycYhCu">
+            Leif Björnlod (mp)
           </p>
         </div>
       </div>

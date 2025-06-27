@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00035">
   <teiHeader>
     <fileDesc>
@@ -63,7 +63,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-3kj8QtwjeGgcRmGkqsdWPX"/>
+        <correspAction xml:id="i-3kj8QtwjeGgcRmGkqsdWPX" type="basedOn"/>
         <correspContext corresp="i-3kj8QtwjeGgcRmGkqsdWPX">
           <ref>Proposition 2005/06:137</ref>
         </correspContext>
@@ -75,19 +75,19 @@
           <note type="signatory" corresp="i-5CH7vHLGXLfDB5Tn7xx95V"/>
           <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Xr3Ey2RX8mgAASdnsAwYzU">
+        <correspAction xml:id="i-Xr3Ey2RX8mgAASdnsAwYzU" type="referral">
           <date when="2006-04-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-y1zxTb5DAccsmt1qcBh9G">
+        <correspAction xml:id="i-y1zxTb5DAccsmt1qcBh9G" type="dismissal">
           <date when="2006-03-31"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-L6F1o8WENXFxj1z1hfnpDX">
+        <correspAction xml:id="i-L6F1o8WENXFxj1z1hfnpDX" type="dismissal">
           <date when="2006-03-31"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3V8FoC3o4SXKwzGgDhnNRy">
+        <correspAction xml:id="i-3V8FoC3o4SXKwzGgDhnNRy" type="submission">
           <date when="2006-03-30"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CzowieqWsq4CM3efKkXtKv"/>
+        <correspAction xml:id="i-CzowieqWsq4CM3efKkXtKv" type="assigned"/>
         <correspContext corresp="i-CzowieqWsq4CM3efKkXtKv">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_35/mot_200506_Ju_35-0001.pdf"/>
-      <div type="motHeader" xml:id="i-E8mEyBRuxiEUakWoXdrE1i">
-        <div type="motTitle" xml:id="i-7bMx61YE2DWP9m6w1gvFrh"/>
-        <div type="motSubmissionInfo" xml:id="i-6Jv6zh9H8ThSrBR6mxAxKZ"/>
+      <div xml:id="i-E8mEyBRuxiEUakWoXdrE1i" type="motHeader">
+        <div xml:id="i-7bMx61YE2DWP9m6w1gvFrh" type="motTitle"/>
+        <div xml:id="i-6Jv6zh9H8ThSrBR6mxAxKZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-feXiQPmx2tgQpmY3RYuRA">
+      <div xml:id="i-feXiQPmx2tgQpmY3RYuRA" type="motBody">
         <div xml:id="i-8KsV2MxJ2a3ZXgYBTLzHRm">
           <p xml:id="i-6aDziCgTqxwyJ9iY1ZjTpD">
             2005/06 mnr: Ju35 pnr: v018
@@ -184,8 +184,11 @@
             på ett demokratiskt acceptabelt sätt är en viktig del av Vänsterpartiets
             kritik mot att registerkontroller av medborgare sker allt flitigare.
           </p>
-          <p xml:id="i-QpYwcCUf3grKajYcWYDF6m">
-            Stockholm den 28 mars 2006 Rolf Olsson (v)
+          <p xml:id="i-QpYwcCUf3grKajYcWYDF6m" type="date">
+            Stockholm den 28 mars 2006
+          </p>
+          <p type="signatureBlock" id="i-EAWFtFEQBjyT6zAupApyy">
+            Rolf Olsson (v)
           </p>
           <p xml:id="i-D7ohbYX7BaKneKJvZm9LG2">
             Rossana Dinamarca (v) Mats Einarsson (v) Siv Holma (v) Tasso

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00572">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-YbVHwW5ciyxR1wHrKZeE9u">
           <note type="signatory" corresp="i-TZHBPDEfPriGgMd5y7LfJG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AUMvgS5t4gGJpeF81VHMKD">
+        <correspAction xml:id="i-AUMvgS5t4gGJpeF81VHMKD" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6oGe7F3Ty87bncCwJGwsKT">
+        <correspAction xml:id="i-6oGe7F3Ty87bncCwJGwsKT" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RTcrvqE8TSJUmzA28xtroy">
+        <correspAction xml:id="i-RTcrvqE8TSJUmzA28xtroy" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DrKgn9mXYuUK22DsomfChG"/>
+        <correspAction xml:id="i-DrKgn9mXYuUK22DsomfChG" type="assigned"/>
         <correspContext corresp="i-DrKgn9mXYuUK22DsomfChG">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_572/mot_200506_T_572-0001.pdf"/>
-      <div type="motHeader" xml:id="i-G44zosK6rEh3QNxjK2D6DE">
-        <div type="motTitle" xml:id="i-HqbSaFd75mgy1zRCakeoFq"/>
-        <div type="motSubmissionInfo" xml:id="i-W8pK617sqPMaZxY6aDkaqV"/>
+      <div xml:id="i-G44zosK6rEh3QNxjK2D6DE" type="motHeader">
+        <div xml:id="i-HqbSaFd75mgy1zRCakeoFq" type="motTitle"/>
+        <div xml:id="i-W8pK617sqPMaZxY6aDkaqV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-24k2aUCRiL8ABXVsVbiiQM">
+      <div xml:id="i-24k2aUCRiL8ABXVsVbiiQM" type="motBody">
         <div xml:id="i-LmZswyhHRmoaFNhitpgGxY">
           <p xml:id="i-8vZ4G9jvZqMU7MwFSDNKmH">
             2005/06 mnr: T572 pnr: s44039
@@ -107,8 +107,11 @@
             tjänstevikt. Men det är viktigt att både bilens och släpfordonets
             totalvikt höjs.
           </p>
-          <p xml:id="i-82QTz8JnLz8HVgc9AgUyKr">
-            Stockholm den 5 oktober 2005 Lars U Granberg (s)
+          <p xml:id="i-82QTz8JnLz8HVgc9AgUyKr" type="date">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-Td7cE7jCXA9hg3ujnW2tGc">
+            Lars U Granberg (s)
           </p>
         </div>
       </div>

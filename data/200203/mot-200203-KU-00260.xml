@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00260">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-QKe63qMTfUuDiFu7LKAcc3">
           <note type="signatory" corresp="i-WBsZfhYB4L6D3cVQWLdu18"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FqCidiD7xJy7bCwZH7pi9H">
+        <correspAction xml:id="i-FqCidiD7xJy7bCwZH7pi9H" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CbqqBAt7hGkUHyV6K599kf">
+        <correspAction xml:id="i-CbqqBAt7hGkUHyV6K599kf" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Lh59W1zD4jF2fiabfLsN6u">
+        <correspAction xml:id="i-Lh59W1zD4jF2fiabfLsN6u" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8KnynndJo87USmho4F5NNc"/>
+        <correspAction xml:id="i-8KnynndJo87USmho4F5NNc" type="assigned"/>
         <correspContext corresp="i-8KnynndJo87USmho4F5NNc">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_K_0260/mot_200203_K_0260-0001.pdf"/>
-      <div type="motHeader" xml:id="i-365REvEnEwEvNmQM1FyaUk">
-        <div type="motTitle" xml:id="i-YFcCtfBF9we3g2FTA4pPT"/>
-        <div type="motSubmissionInfo" xml:id="i-YUQhvhTnhF9KNJPw7Nh4Ty"/>
+      <div xml:id="i-365REvEnEwEvNmQM1FyaUk" type="motHeader">
+        <div xml:id="i-YFcCtfBF9we3g2FTA4pPT" type="motTitle"/>
+        <div xml:id="i-YUQhvhTnhF9KNJPw7Nh4Ty" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KvWRWtKBY2YHaePcZTy71P">
+      <div xml:id="i-KvWRWtKBY2YHaePcZTy71P" type="motBody">
         <div xml:id="i-WuTq6sHPfBnDLZDf7oKSSx">
           <p xml:id="i-A2aymajfwV6rGMn46rz1A7">
             2002/03 mnr: K260 pnr: mp601
@@ -166,8 +166,11 @@
             t.ex. har för avsikt att låta sig kremeras bör betala en avgift
             beräknad på huvudmannens kostnader i anledning därav.
           </p>
-          <p xml:id="i-RL2fpLTqNvJYdtdiWUMN9s">
-            Stockholm den 20 oktober 2002 Leif Björnlod (mp)
+          <p xml:id="i-RL2fpLTqNvJYdtdiWUMN9s" type="date">
+            Stockholm den 20 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-F8DCnaQeVDkRUoGqShKEZZ">
+            Leif Björnlod (mp)
           </p>
         </div>
       </div>

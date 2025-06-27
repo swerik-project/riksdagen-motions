@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00043">
   <teiHeader>
     <fileDesc>
@@ -63,7 +63,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FWovdQEDKfjDFS2Gfs6YAx"/>
+        <correspAction xml:id="i-FWovdQEDKfjDFS2Gfs6YAx" type="basedOn"/>
         <correspContext corresp="i-FWovdQEDKfjDFS2Gfs6YAx">
           <ref>Proposition 2005/06:149</ref>
         </correspContext>
@@ -75,19 +75,19 @@
           <note type="signatory" corresp="i-5CH7vHLGXLfDB5Tn7xx95V"/>
           <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KH8VhJChAmbJrsb58yRdYE">
+        <correspAction xml:id="i-KH8VhJChAmbJrsb58yRdYE" type="referral">
           <date when="2006-04-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MUaPoL5xHRQTzAgR9idnnF">
+        <correspAction xml:id="i-MUaPoL5xHRQTzAgR9idnnF" type="dismissal">
           <date when="2006-04-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Ae6hNjy9gywBNRFsv81VSC">
+        <correspAction xml:id="i-Ae6hNjy9gywBNRFsv81VSC" type="dismissal">
           <date when="2006-04-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DZotLbbQ4sTpCwc3NDwWWk">
+        <correspAction xml:id="i-DZotLbbQ4sTpCwc3NDwWWk" type="submission">
           <date when="2006-04-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VvjhDRQpMV7xwnzGPPkBD5"/>
+        <correspAction xml:id="i-VvjhDRQpMV7xwnzGPPkBD5" type="assigned"/>
         <correspContext corresp="i-VvjhDRQpMV7xwnzGPPkBD5">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_43/mot_200506_Ju_43-0001.pdf"/>
-      <div type="motHeader" xml:id="i-ANeyBi8a1pE8wQWZsL7yUE">
-        <div type="motTitle" xml:id="i-LxeeQzAfKwRDh1x2amhJqn"/>
-        <div type="motSubmissionInfo" xml:id="i-U9DBgkrNqcR3CJLNNcP84X"/>
+      <div xml:id="i-ANeyBi8a1pE8wQWZsL7yUE" type="motHeader">
+        <div xml:id="i-LxeeQzAfKwRDh1x2amhJqn" type="motTitle"/>
+        <div xml:id="i-U9DBgkrNqcR3CJLNNcP84X" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TPCrfzCJveR1s6KEpq4UFb">
+      <div xml:id="i-TPCrfzCJveR1s6KEpq4UFb" type="motBody">
         <div xml:id="i-XiydEKWBFcpG1KUBZvjdnL">
           <p xml:id="i-VG5vShmGRbU1qRDJXpgTC6">
             2005/06 mnr: Ju43 pnr: v029
@@ -250,8 +250,11 @@
             en mycket underlig ordning. Beslut om säkerhets- och kontrollfunktioner
             bör tas samtidigt med övrig lagstiftning i ärendet.
           </p>
-          <p xml:id="i-QVEYCVe6k2tZ3nYKzd1Vip">
-            Stockholm den 29 mars 2006 Rolf Olsson (v)
+          <p xml:id="i-QVEYCVe6k2tZ3nYKzd1Vip" type="date">
+            Stockholm den 29 mars 2006
+          </p>
+          <p type="signatureBlock" id="i-Utgv192LwyEK81Xq2hvmVA">
+            Rolf Olsson (v)
           </p>
           <p xml:id="i-DRMy4kPMFpkRB4oxWsrSGw">
             Rossana Dinamarca (v) Mats Einarsson (v) Siv Holma (v) Tasso

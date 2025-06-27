@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-UbU-00116">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-UxF6YPMa1QYLSYfvvpZpWu</idno>
-            <name>Iréne Vestlund </name>
+            <name>Iréne Vestlund</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-7LRmEboCTvsPZzt8VjD5zK</idno>
-            <name>Arne Mellqvist </name>
+            <name>Arne Mellqvist</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-LBxv6yE6qGgiE6ZPf3sMnD</idno>
-            <name>Göran Engström </name>
+            <name>Göran Engström</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-QbHnN2Mw7cdbnqYtBy9ATw"/>
+        <correspAction xml:id="i-QbHnN2Mw7cdbnqYtBy9ATw" type="basedOn"/>
         <correspContext corresp="i-QbHnN2Mw7cdbnqYtBy9ATw">
           <ref>Proposition 1990/91:85</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-7LRmEboCTvsPZzt8VjD5zK"/>
           <note type="signatory" corresp="i-LBxv6yE6qGgiE6ZPf3sMnD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-77yNPt2Zix5s6aSmHCeCeQ">
+        <correspAction xml:id="i-77yNPt2Zix5s6aSmHCeCeQ" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NT6mzpqSSsuvK2UyLPC3Hd">
+        <correspAction xml:id="i-NT6mzpqSSsuvK2UyLPC3Hd" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KDwc3dR6ozQJ8QV4HQYCmr">
+        <correspAction xml:id="i-KDwc3dR6ozQJ8QV4HQYCmr" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Cjt6RifvQVSG33L1xARyiw">
+        <correspAction xml:id="i-Cjt6RifvQVSG33L1xARyiw" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QwjGuXDp98Aci9MxTtmEq6">
+        <correspAction xml:id="i-QwjGuXDp98Aci9MxTtmEq6" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5eDwGrTUSUSEpkyRC9bEgk">
+        <correspAction xml:id="i-5eDwGrTUSUSEpkyRC9bEgk" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PB5uUdPueunn52qdzsVgSR"/>
+        <correspAction xml:id="i-PB5uUdPueunn52qdzsVgSR" type="assigned"/>
         <correspContext corresp="i-PB5uUdPueunn52qdzsVgSR">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_UbU_116/mot_199091_UbU_116-001.pdf"/>
-      <div type="motHeader" xml:id="i-CQNwcCU1SAYQEFomtYJqy7">
-        <div type="motTitle" xml:id="i-T3LX4S4Kv7kSLM8TuKcUQj"/>
-        <div type="motSubmissionInfo" xml:id="i-DbsjxRUkLoXXZtFRwPugng"/>
+      <div xml:id="i-CQNwcCU1SAYQEFomtYJqy7" type="motHeader">
+        <div xml:id="i-T3LX4S4Kv7kSLM8TuKcUQj" type="motTitle"/>
+        <div xml:id="i-DbsjxRUkLoXXZtFRwPugng" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BwACafCro3EUSgQKSWeP7C">
+      <div xml:id="i-BwACafCro3EUSgQKSWeP7C" type="motBody">
         <div xml:id="i-JMHGxeseoFEidZK6CRBxTd">
           <p xml:id="i-JXmR8Wv8zHb62EEgRK6amy">
             Motion till riksdagen 1990/91:Ub116
@@ -242,8 +242,11 @@
             i mo- tionen anförts om att dispens medges så att elever över
             20 år kan söka sig till denna utbildning.
           </p>
-          <p xml:id="i-5wnse6cpJBJtfnoLP8RR2m">
-            Stockholm den 14 mars 1991 Iréne Vestlund (s)
+          <p xml:id="i-5wnse6cpJBJtfnoLP8RR2m" type="date">
+            Stockholm den 14 mars 1991
+          </p>
+          <p type="signatureBlock" id="i-KSVahw72UTXqhu7SfxzBBs">
+            Iréne Vestlund (s)
           </p>
           <p xml:id="i-Lr4HsSLWNqULUDsj6osg9E">
             Arne Mellqvist (s) Göran Engström (c)

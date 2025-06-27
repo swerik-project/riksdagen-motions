@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00222">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-NiRhfcaKSznbhLQeFXJj17">
           <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-pJJ4vaDjJNhyTmuokvbbS">
+        <correspAction xml:id="i-pJJ4vaDjJNhyTmuokvbbS" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5KGgWv4bSpRjHZM6tV2nXG">
+        <correspAction xml:id="i-5KGgWv4bSpRjHZM6tV2nXG" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BQyBU4anh1MYq4h4UYLkrY">
+        <correspAction xml:id="i-BQyBU4anh1MYq4h4UYLkrY" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-S4iN9LbyxH5Wb1YkLD7SMb"/>
+        <correspAction xml:id="i-S4iN9LbyxH5Wb1YkLD7SMb" type="assigned"/>
         <correspContext corresp="i-S4iN9LbyxH5Wb1YkLD7SMb">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_222/mot_200405_U_222-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LYct4z2UJNYheD6RLnWa9Y">
-        <div type="motTitle" xml:id="i-FyGroA8fY6nYsxTsKUE69A"/>
-        <div type="motSubmissionInfo" xml:id="i-WYYeRJqJb3CBAfNZNiB5HG"/>
+      <div xml:id="i-LYct4z2UJNYheD6RLnWa9Y" type="motHeader">
+        <div xml:id="i-FyGroA8fY6nYsxTsKUE69A" type="motTitle"/>
+        <div xml:id="i-WYYeRJqJb3CBAfNZNiB5HG" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VZKR3A6jgo4WWtraXcrxTE">
+      <div xml:id="i-VZKR3A6jgo4WWtraXcrxTE" type="motBody">
         <div xml:id="i-6EZa9tesW5uabVBfyjEu4e">
           <p xml:id="i-GpLgppVWmBSzKNcJpGJdVm">
             2004/05 mnr: U222 pnr: m1351
@@ -328,8 +328,11 @@
             för den europeiska freden. Ett svenskt Nato-medlemskap är naturligt
             — nu.
           </p>
-          <p xml:id="i-WBhuNJ7bTgfDV1Rv4FUcoh">
-            Stockholm den 27 september 2004 Sten Tolgfors (m)
+          <p xml:id="i-WBhuNJ7bTgfDV1Rv4FUcoh" type="date">
+            Stockholm den 27 september 2004
+          </p>
+          <p type="signatureBlock" id="i-AF1soPYqhJM3vft8U1NLy4">
+            Sten Tolgfors (m)
           </p>
         </div>
       </div>

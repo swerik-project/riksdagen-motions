@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-TU-00083">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-GRNPu7oSfuqjgf6xMv5mB8</idno>
-            <name>Dag Ericson </name>
+            <name>Dag Ericson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-ByoPjUCjVNjJ9QLd7ibmFu"/>
+        <correspAction xml:id="i-ByoPjUCjVNjJ9QLd7ibmFu" type="basedOn"/>
         <correspContext corresp="i-ByoPjUCjVNjJ9QLd7ibmFu">
           <ref>Proposition 1996/97:137</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-GRNPu7oSfuqjgf6xMv5mB8"/>
           <note type="signatory" corresp="i-GRNPu7oSfuqjgf6xMv5mB8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XwehU23DMkbbGfnRm27Zto">
+        <correspAction xml:id="i-XwehU23DMkbbGfnRm27Zto" type="referral">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6ST8sLsKjVnDzD3EZZvaRn">
+        <correspAction xml:id="i-6ST8sLsKjVnDzD3EZZvaRn" type="dismissal">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5vhtuqT5Tv7W6qkGtaNEPP">
+        <correspAction xml:id="i-5vhtuqT5Tv7W6qkGtaNEPP" type="submission">
           <date when="1997-06-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-JdskrTrYXnH8TakRdkkhQD">
+        <correspAction xml:id="i-JdskrTrYXnH8TakRdkkhQD" type="referral">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-C7fEdXjzMefJVuFq45B79y">
+        <correspAction xml:id="i-C7fEdXjzMefJVuFq45B79y" type="dismissal">
           <date when="1997-06-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FKWS18zrS5js4ABZNsdr67">
+        <correspAction xml:id="i-FKWS18zrS5js4ABZNsdr67" type="submission">
           <date when="1997-06-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VMyWmMCheBPB5ybn2Vydub"/>
+        <correspAction xml:id="i-VMyWmMCheBPB5ybn2Vydub" type="assigned"/>
         <correspContext corresp="i-VMyWmMCheBPB5ybn2Vydub">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_T_0083/mot_199697_T_0083-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JkDjUCduAL1XADR5TD4o2Y">
-        <div type="motTitle" xml:id="i-8uGGtZFv5rv8DY6mzr1DQZ"/>
-        <div type="motSubmissionInfo" xml:id="i-UaA9TnYQgmUcGcGvc5B2bE"/>
+      <div xml:id="i-JkDjUCduAL1XADR5TD4o2Y" type="motHeader">
+        <div xml:id="i-8uGGtZFv5rv8DY6mzr1DQZ" type="motTitle"/>
+        <div xml:id="i-UaA9TnYQgmUcGcGvc5B2bE" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8kv774FtJDYS9yDSPSq8Wb">
+      <div xml:id="i-8kv774FtJDYS9yDSPSq8Wb" type="motBody">
         <div xml:id="i-DDdpntqArzcM8Aw7eN2ntd">
           <p xml:id="i-YA1ZYb4si4iLSnSQhsBfpZ">
             1996/97 [T83 T76-83
@@ -177,8 +177,11 @@
             mening ger regeringen till känna vad i motionen anförts om att
             införa ett krav på obligatorisk användning av cykelhjälm.
           </p>
-          <p xml:id="i-CpBkpsWnmPAUB7AhqJsTUy">
-            Stockholm den 9 juni 1997 Dag Ericson (s)
+          <p xml:id="i-CpBkpsWnmPAUB7AhqJsTUy" type="date">
+            Stockholm den 9 juni 1997
+          </p>
+          <p type="signatureBlock" id="i-8S8A6NJct5m1kbFrhbE5DU">
+            Dag Ericson (s)
           </p>
           <p xml:id="i-UZFqhFJWPP6VcvUeVs3x4b">
             Eva Johansson (s) Marianne Carlström (s)

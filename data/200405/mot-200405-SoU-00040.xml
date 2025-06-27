@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00040">
   <teiHeader>
     <fileDesc>
@@ -83,7 +83,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5EWTM84wUxpyVKah6sAc8n"/>
+        <correspAction xml:id="i-5EWTM84wUxpyVKah6sAc8n" type="basedOn"/>
         <correspContext corresp="i-5EWTM84wUxpyVKah6sAc8n">
           <ref>Regeringsskrivelse 2004/05:166</ref>
         </correspContext>
@@ -98,19 +98,19 @@
           <note type="signatory" corresp="i-8eznoqP6pLNBjC4Q11VtkC"/>
           <note type="signatory" corresp="i-NRb4HpaQ87qUwhLNcKt7Gz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-16DX6xW56Du1dWkTf8SRxZ">
+        <correspAction xml:id="i-16DX6xW56Du1dWkTf8SRxZ" type="referral">
           <date when="2005-06-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-A4LHeZcAJxJXYngMcu1FzX">
+        <correspAction xml:id="i-A4LHeZcAJxJXYngMcu1FzX" type="dismissal">
           <date when="2005-06-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4TKuWDxery18jgwHfCcgE7">
+        <correspAction xml:id="i-4TKuWDxery18jgwHfCcgE7" type="dismissal">
           <date when="2005-06-16"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UPfRj1XFfyWX1sLZF5r7XX">
+        <correspAction xml:id="i-UPfRj1XFfyWX1sLZF5r7XX" type="submission">
           <date when="2005-06-15"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-S6PVBs5sxaFEd3ZN421TZq"/>
+        <correspAction xml:id="i-S6PVBs5sxaFEd3ZN421TZq" type="assigned"/>
         <correspContext corresp="i-S6PVBs5sxaFEd3ZN421TZq">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -125,11 +125,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_40/mot_200405_So_40-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9o4ds3sJ9d8Y2XWGq23PCf">
-        <div type="motTitle" xml:id="i-L8YkgXtJBd5jfKeupUyRCw"/>
-        <div type="motSubmissionInfo" xml:id="i-CrqaWAzSxeYRdGwuUgyDLo"/>
+      <div xml:id="i-9o4ds3sJ9d8Y2XWGq23PCf" type="motHeader">
+        <div xml:id="i-L8YkgXtJBd5jfKeupUyRCw" type="motTitle"/>
+        <div xml:id="i-CrqaWAzSxeYRdGwuUgyDLo" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RZEgmCnf9zkQBwVuC2MFR3">
+      <div xml:id="i-RZEgmCnf9zkQBwVuC2MFR3" type="motBody">
         <div xml:id="i-8f9PWDyPmCQ9W5HGqf3bzW">
           <p xml:id="i-DpqcADNaMyiEBZpcqmBGeG">
             2004/05
@@ -528,8 +528,11 @@
             underlättas och omhändertagandet av den avlidne kan ske på ett
             värdigt sätt.
           </p>
-          <p xml:id="i-KiQbi8VtCEowVcx96W2yPm">
-            Stockholm den 14 juni 2005 Chatrine Pålsson (kd)
+          <p xml:id="i-KiQbi8VtCEowVcx96W2yPm" type="date">
+            Stockholm den 14 juni 2005
+          </p>
+          <p type="signatureBlock" id="i-MRjpf5wcyyCRtpQtMvXwVb">
+            Chatrine Pålsson (kd)
           </p>
           <p xml:id="i-8iQ5pcAdYLP8fK7z1dcuKn">
             Cristina Husmark Pehrsson (m) Kerstin Heinemann (fp) Kenneth

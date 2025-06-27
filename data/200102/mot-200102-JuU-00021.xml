@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-JuU-00021">
   <teiHeader>
     <fileDesc>
@@ -83,7 +83,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-NbjJQZkth5cvgpSidGm1Af"/>
+        <correspAction xml:id="i-NbjJQZkth5cvgpSidGm1Af" type="basedOn"/>
         <correspContext corresp="i-NbjJQZkth5cvgpSidGm1Af">
           <ref>Proposition 2001/02:118</ref>
         </correspContext>
@@ -98,13 +98,13 @@
           <note type="signatory" corresp="i-KtELEJ9HytY7HFgQExEzLq"/>
           <note type="signatory" corresp="i-2ggBvfkHRn3s8FvFEPLxjs"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DSFFc71vHMisekAYxaD5gg">
+        <correspAction xml:id="i-DSFFc71vHMisekAYxaD5gg" type="referral">
           <date when="2002-04-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GBu526zowtPM5PMjZ1MfB5">
+        <correspAction xml:id="i-GBu526zowtPM5PMjZ1MfB5" type="dismissal">
           <date when="2002-04-10"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BMtQnsU9siAfvQyTUecNbe"/>
+        <correspAction xml:id="i-BMtQnsU9siAfvQyTUecNbe" type="assigned"/>
         <correspContext corresp="i-BMtQnsU9siAfvQyTUecNbe">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -119,11 +119,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Ju_0021/mot_200102_Ju_0021-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FKTNjruiBqwd46deYWKXft">
-        <div type="motTitle" xml:id="i-SYPepPNw32zdnGutYmKfko"/>
-        <div type="motSubmissionInfo" xml:id="i-FUNZEYhb85KufUG8NyREeM"/>
+      <div xml:id="i-FKTNjruiBqwd46deYWKXft" type="motHeader">
+        <div xml:id="i-SYPepPNw32zdnGutYmKfko" type="motTitle"/>
+        <div xml:id="i-FUNZEYhb85KufUG8NyREeM" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-M4eLdkhDpMUmjoSq1adt3Y">
+      <div xml:id="i-M4eLdkhDpMUmjoSq1adt3Y" type="motBody">
         <div xml:id="i-Ch3REHaFgUbQExzb1K4qYm">
           <p xml:id="i-VarH6SBkJ1baou5C2ihK4E">
             2001/02 mnr: Ju21 pnr: c190
@@ -253,8 +253,11 @@
             rörande nationell utvärdering av rambeslut eller EU-direktiv inom
             två år från att de trätt i kraft inom samtliga EG-rättsliga områden.
           </p>
-          <p xml:id="i-Te27owPh6by9XPJCCGFg7e">
-            Stockholm den 9 april 2002 Gunnel Wallin (c)
+          <p xml:id="i-Te27owPh6by9XPJCCGFg7e" type="date">
+            Stockholm den 9 april 2002
+          </p>
+          <p type="signatureBlock" id="i-XLypspVy7oD8XuFJugJCUv">
+            Gunnel Wallin (c)
           </p>
           <p xml:id="i-HmErF2wmyY7r1TKuEezt9J">
             Åsa Torstensson (c) Rigmor Stenmark (c) Viviann Gerdin (c) Margareta

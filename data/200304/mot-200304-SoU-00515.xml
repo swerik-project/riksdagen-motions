@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00515">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-5sUNymQhjcXBHKN75ChJvQ">
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4gozi3rMtFv37VVpHc5H2s">
+        <correspAction xml:id="i-4gozi3rMtFv37VVpHc5H2s" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-E78rnorm3tZAz64kHQT6ku">
+        <correspAction xml:id="i-E78rnorm3tZAz64kHQT6ku" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-35rPTBLAe7SmVcsh7z1gGZ">
+        <correspAction xml:id="i-35rPTBLAe7SmVcsh7z1gGZ" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7hPQbZMNmeCoSzZjotpWdb"/>
+        <correspAction xml:id="i-7hPQbZMNmeCoSzZjotpWdb" type="assigned"/>
         <correspContext corresp="i-7hPQbZMNmeCoSzZjotpWdb">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0515/mot_200304_So_0515-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JYVTxDQmBEkgkySPy7Tk95">
-        <div type="motTitle" xml:id="i-Fqdw9ZqKgKEiL65PP212pn"/>
-        <div type="motSubmissionInfo" xml:id="i-MVCM1RkehHTDhbYK17cYs4"/>
+      <div xml:id="i-JYVTxDQmBEkgkySPy7Tk95" type="motHeader">
+        <div xml:id="i-Fqdw9ZqKgKEiL65PP212pn" type="motTitle"/>
+        <div xml:id="i-MVCM1RkehHTDhbYK17cYs4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9nttj35Spxwffkq69uCAES">
+      <div xml:id="i-9nttj35Spxwffkq69uCAES" type="motBody">
         <div xml:id="i-6ayCNBmsPgHXdUeR23HEAg">
           <p xml:id="i-K4xSLqLbj6c7mdEDqa7xUT">
             2003/04 mnr: So515 pnr: kd879
@@ -139,8 +139,11 @@
             måste förnyas. Ungdomarna måste också ha tillgång till alkoholfria
             miljöer, även på helgkvällarna.
           </p>
-          <p xml:id="i-X9Uk1f8AtrDsUYEWdvooDU">
-            Stockholm den 6 oktober 2003 Dan Kihlström (kd)
+          <p xml:id="i-X9Uk1f8AtrDsUYEWdvooDU" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-C1KbJEjzmx1MwqhpbGqizJ">
+            Dan Kihlström (kd)
           </p>
         </div>
       </div>

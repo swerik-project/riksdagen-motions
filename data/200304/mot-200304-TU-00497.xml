@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00497">
   <teiHeader>
     <fileDesc>
@@ -102,16 +102,16 @@
           <note type="signatory" corresp="i-YaN1jaPx75LMCzcGaN8cCm"/>
           <note type="signatory" corresp="i-4XjgirbqceZQdnz2JX6DGB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4rECSy3yx8A2sFSaSxmyKF">
+        <correspAction xml:id="i-4rECSy3yx8A2sFSaSxmyKF" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-28ULYMwzo38yo4wr4spjHR">
+        <correspAction xml:id="i-28ULYMwzo38yo4wr4spjHR" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PqKiqbXzbD6bq1dxf3Fc5e">
+        <correspAction xml:id="i-PqKiqbXzbD6bq1dxf3Fc5e" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9zABKEAE5JsQHeita2Ynxj"/>
+        <correspAction xml:id="i-9zABKEAE5JsQHeita2Ynxj" type="assigned"/>
         <correspContext corresp="i-9zABKEAE5JsQHeita2Ynxj">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -126,11 +126,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0497/mot_200304_T_0497-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Ae6ThZrBYZP2PhVC7XTREE">
-        <div type="motTitle" xml:id="i-5CVUGqkU7L6MRZu7t2p5os"/>
-        <div type="motSubmissionInfo" xml:id="i-Ffq2siDG8dKgzkUkbScSdM"/>
+      <div xml:id="i-Ae6ThZrBYZP2PhVC7XTREE" type="motHeader">
+        <div xml:id="i-5CVUGqkU7L6MRZu7t2p5os" type="motTitle"/>
+        <div xml:id="i-Ffq2siDG8dKgzkUkbScSdM" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9ssFMpYQYv7cE7EJSz86y8">
+      <div xml:id="i-9ssFMpYQYv7cE7EJSz86y8" type="motBody">
         <div xml:id="i-HVyKnp77dmgWYWuQUQ3ew8">
           <p xml:id="i-PGsbsjgdFnLpZmSY9ijNDK">
             2003/04 mnr: T497 pnr: v303
@@ -576,8 +576,11 @@
             post som även i fortsättningen kan ge service till alla på lika
             och rättvisa villkor.
           </p>
-          <p xml:id="i-WFh1GJp75kWLGg9xNPbUiE">
-            Stockholm den 3 oktober 2003 Ulla Hoffmann (v)
+          <p xml:id="i-WFh1GJp75kWLGg9xNPbUiE" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-M1tfsP2hKrq57T9Jg4WiVc">
+            Ulla Hoffmann (v)
           </p>
           <p xml:id="i-WgX1QQNVfUmRfhT8hcHCkx">
             Lars Bäckström (v) Rossana Dinamarca (v) Mats Einarsson (v) Marie

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00467">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-D8B2Xf6UADbqciPHrqFxSc"/>
           <note type="signatory" corresp="i-UmSX9m2mxvWevquvVduNpz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DwueBqrxEzppa1QanBGmUo">
+        <correspAction xml:id="i-DwueBqrxEzppa1QanBGmUo" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LSCQW7KVrpu8Xsk96zceeW">
+        <correspAction xml:id="i-LSCQW7KVrpu8Xsk96zceeW" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-C7Y7CUVWuYRsRrp2ns1qnC">
+        <correspAction xml:id="i-C7Y7CUVWuYRsRrp2ns1qnC" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YCaaCyEDYQUJYdb63hszoa"/>
+        <correspAction xml:id="i-YCaaCyEDYQUJYdb63hszoa" type="assigned"/>
         <correspContext corresp="i-YCaaCyEDYQUJYdb63hszoa">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_467/mot_200506_MJ_467-0001.pdf"/>
-      <div type="motHeader" xml:id="i-J8gURbnCHNQa1ASS95MSw7">
-        <div type="motTitle" xml:id="i-G7Bm26yxatxXc8YFsKsNAo"/>
-        <div type="motSubmissionInfo" xml:id="i-Go4Jud89tEVPs4emPfCB5K"/>
+      <div xml:id="i-J8gURbnCHNQa1ASS95MSw7" type="motHeader">
+        <div xml:id="i-G7Bm26yxatxXc8YFsKsNAo" type="motTitle"/>
+        <div xml:id="i-Go4Jud89tEVPs4emPfCB5K" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7fCa5JVCvcsThRYULiRDTD">
+      <div xml:id="i-7fCa5JVCvcsThRYULiRDTD" type="motBody">
         <div xml:id="i-8ht2vGeowhb85uAmCEmASu">
           <p xml:id="i-EvukWcZMWK8ggwE43MJ1d3">
             2005/06 mnr: MJ467 pnr: fp283
@@ -121,9 +121,11 @@
             bort andra avarter inom den svenska jakten som exempelvis rävjakt
             enligt engelskt manér.
           </p>
-          <p xml:id="i-MLyUPB2C12NQysHmsJ9tCV">
-            Stockholm den 2 oktober 2005 Birgitta Ohlsson (fp) Anne-Marie
-            Ekström (fp)
+          <p xml:id="i-MLyUPB2C12NQysHmsJ9tCV" type="date">
+            Stockholm den 2 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-HbhrfLQHP6NqFBxd5Fd7rG">
+            Birgitta Ohlsson (fp) Anne-Marie Ekström (fp)
           </p>
         </div>
       </div>

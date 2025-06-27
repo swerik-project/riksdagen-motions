@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00346">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-V1KzTCpEDCe1brY4YDPGuT">
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XX17mmEcjNmNFE9CtAQJ55">
+        <correspAction xml:id="i-XX17mmEcjNmNFE9CtAQJ55" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-F5Fa2wx6PSgwUcrxWxzr8s">
+        <correspAction xml:id="i-F5Fa2wx6PSgwUcrxWxzr8s" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6Wb42WZeJ9WMNo6pzLNLba">
+        <correspAction xml:id="i-6Wb42WZeJ9WMNo6pzLNLba" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5eRQQo1dVLWKHdRzoN1D9x"/>
+        <correspAction xml:id="i-5eRQQo1dVLWKHdRzoN1D9x" type="assigned"/>
         <correspContext corresp="i-5eRQQo1dVLWKHdRzoN1D9x">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0346/mot_200304_T_0346-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3bdAgsfXNPn2nojyT7Jqyi">
-        <div type="motTitle" xml:id="i-FcYmLHeFuJGvqmLSrCt363"/>
-        <div type="motSubmissionInfo" xml:id="i-Wm8ag68vfPX4xNpdHzrJnE"/>
+      <div xml:id="i-3bdAgsfXNPn2nojyT7Jqyi" type="motHeader">
+        <div xml:id="i-FcYmLHeFuJGvqmLSrCt363" type="motTitle"/>
+        <div xml:id="i-Wm8ag68vfPX4xNpdHzrJnE" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Du4pQ91Nwc7GPGT1Sk8Bgv">
+      <div xml:id="i-Du4pQ91Nwc7GPGT1Sk8Bgv" type="motBody">
         <div xml:id="i-ULxJ9xKH2QwZGbqsCXuVKH">
           <p xml:id="i-FArjtArrHtAgP2STwXeqM8">
             2003/04 mnr: T346 pnr: kd730
@@ -151,8 +151,11 @@
             godssidan. Inlandsbanan är betydelsefull för en fortsatt regional
             utveckling.
           </p>
-          <p xml:id="i-HYrCAjhEpmM1ut79LJKKoi">
-            Stockholm den 3 oktober 2003 Dan Kihlström (kd)
+          <p xml:id="i-HYrCAjhEpmM1ut79LJKKoi" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-3VyAzbnb4qMJyqvL4a4GWE">
+            Dan Kihlström (kd)
           </p>
         </div>
       </div>

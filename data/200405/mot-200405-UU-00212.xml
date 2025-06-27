@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00212">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-7ec2Q3bJFUeNUvyEddWfwP">
           <note type="signatory" corresp="i-8WXKfVC5CVWBiV2pVhvraQ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YPFCwQgKsD4f14YMybsJy3">
+        <correspAction xml:id="i-YPFCwQgKsD4f14YMybsJy3" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2JyQvy5kv8U6Gk3KjzmB9G">
+        <correspAction xml:id="i-2JyQvy5kv8U6Gk3KjzmB9G" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KVZCRZVcdgviZwMHWmkEnq">
+        <correspAction xml:id="i-KVZCRZVcdgviZwMHWmkEnq" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MetnnphvY2isr2hZMhg8DF"/>
+        <correspAction xml:id="i-MetnnphvY2isr2hZMhg8DF" type="assigned"/>
         <correspContext corresp="i-MetnnphvY2isr2hZMhg8DF">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_212/mot_200405_U_212-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DhtRwohqmkGb5dwsdGwoS6">
-        <div type="motTitle" xml:id="i-Fn7bHMQpG9EVz1YnfuwFYR"/>
-        <div type="motSubmissionInfo" xml:id="i-GUm2Qerd6fsmecBhHchZuv"/>
+      <div xml:id="i-DhtRwohqmkGb5dwsdGwoS6" type="motHeader">
+        <div xml:id="i-Fn7bHMQpG9EVz1YnfuwFYR" type="motTitle"/>
+        <div xml:id="i-GUm2Qerd6fsmecBhHchZuv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-S2DNG2HBEHheya3ShEKZ1Y">
+      <div xml:id="i-S2DNG2HBEHheya3ShEKZ1Y" type="motBody">
         <div xml:id="i-VFWDFxvYA9wP9JpGFYM3EY">
           <p xml:id="i-6cCFA3vApkvPjX8vcPfeQz">
             2004/05 mnr: U212 pnr: s27002
@@ -164,8 +164,11 @@
             möten genomföras i Bogota där efterlevnaden av Londondeklarationen
             utvärderas. Här borde Sverige kunna ta ett särskilt ansvar.
           </p>
-          <p xml:id="i-KzFef2PYc5dAELkLyxohoY">
-            Stockholm den 2 oktober 2004 Luciano Astudillo (s)
+          <p xml:id="i-KzFef2PYc5dAELkLyxohoY" type="date">
+            Stockholm den 2 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-BYMXAApdN3nLq4ejTebN5Y">
+            Luciano Astudillo (s)
           </p>
         </div>
       </div>

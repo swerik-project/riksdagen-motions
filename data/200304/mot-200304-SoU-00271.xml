@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00271">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-AM3pqfvh7m39fuQqyDcxZa">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-B6jKqJvhojjis6GNtnmQam">
+        <correspAction xml:id="i-B6jKqJvhojjis6GNtnmQam" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Rv4Yx5mdprNwfPYws1usGi">
+        <correspAction xml:id="i-Rv4Yx5mdprNwfPYws1usGi" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EbFseCaDYRiw2YKnbZpzwe">
+        <correspAction xml:id="i-EbFseCaDYRiw2YKnbZpzwe" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DTpodySRFpwqdm6cbbJxeg"/>
+        <correspAction xml:id="i-DTpodySRFpwqdm6cbbJxeg" type="assigned"/>
         <correspContext corresp="i-DTpodySRFpwqdm6cbbJxeg">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0271/mot_200304_So_0271-0001.pdf"/>
-      <div type="motHeader" xml:id="i-GH6bfqiXCLqyg5wZg8VenZ">
-        <div type="motTitle" xml:id="i-Z14CoNbSRat4gWyZJSoRp"/>
-        <div type="motSubmissionInfo" xml:id="i-QRD3aVxGBxBzzN6wxy7TfT"/>
+      <div xml:id="i-GH6bfqiXCLqyg5wZg8VenZ" type="motHeader">
+        <div xml:id="i-Z14CoNbSRat4gWyZJSoRp" type="motTitle"/>
+        <div xml:id="i-QRD3aVxGBxBzzN6wxy7TfT" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AYhxBLdvguwz1BRtT2nJtK">
+      <div xml:id="i-AYhxBLdvguwz1BRtT2nJtK" type="motBody">
         <div xml:id="i-9FxTezrgDKc3JUeV2UY9dR">
           <p xml:id="i-QTcsdoDw3isXSv1hUJFDDD">
             2003/04
@@ -437,8 +437,11 @@
             syfte. Det krävs mod att våga stå upp för barnets bästa. Man måste
             våga se, våga fråga, våga lyssna och våga åtgärda!
           </p>
-          <p xml:id="i-6GUmXRsae2SRc3D3Y6isnw">
-            Stockholm den 29 september 2003 Annelie Enochson (kd)
+          <p xml:id="i-6GUmXRsae2SRc3D3Y6isnw" type="date">
+            Stockholm den 29 september 2003
+          </p>
+          <p type="signatureBlock" id="i-FSoK6pNNXwkcriDg1V1EW2">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-SoU-00002">
   <teiHeader>
     <fileDesc>
@@ -153,7 +153,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-SqdfSw3DhQ122gM4b6yQCq"/>
+        <correspAction xml:id="i-SqdfSw3DhQ122gM4b6yQCq" type="basedOn"/>
         <correspContext corresp="i-SqdfSw3DhQ122gM4b6yQCq">
           <ref>Proposition 2000/01:149</ref>
         </correspContext>
@@ -178,31 +178,31 @@
           <note type="signatory" corresp="i-J94Ct1wVwpHWNRN9LatQ6F"/>
           <note type="signatory" corresp="i-SKjAmNScZ7eZ3a8Xy1J8hs"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KHUzcSD8mNc7yrSqtduXci">
+        <correspAction xml:id="i-KHUzcSD8mNc7yrSqtduXci" type="referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-LYKVrKCFK99KL2Mkc5t39F">
+        <correspAction xml:id="i-LYKVrKCFK99KL2Mkc5t39F" type="proposed_referral">
           <date when="2001-10-04"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-3qLXoEzFqeCsYUUTDKgk8R">
+        <correspAction xml:id="i-3qLXoEzFqeCsYUUTDKgk8R" type="proposed_referral">
           <date when="2001-10-04"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-X5StAqbKnkJnGFZc2781zd">
+        <correspAction xml:id="i-X5StAqbKnkJnGFZc2781zd" type="committee_proposal">
           <date when="2001-10-04"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-3trnB3ifx2MR1aiGtM9KLm">
+        <correspAction xml:id="i-3trnB3ifx2MR1aiGtM9KLm" type="reviewing">
           <date when="2001-10-04"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-6bBTHQPFoeAj26kvXewgu4">
+        <correspAction xml:id="i-6bBTHQPFoeAj26kvXewgu4" type="registration">
           <date when="2001-10-04"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XvNL9uVY3LF4S2duuTdDtW">
+        <correspAction xml:id="i-XvNL9uVY3LF4S2duuTdDtW" type="dismissal">
           <date when="2001-10-04"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2sFCHPBCzFokqRPb5oZrEq">
+        <correspAction xml:id="i-2sFCHPBCzFokqRPb5oZrEq" type="submission">
           <date when="2001-10-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3E9PoE61CEaM8GJE6bpzbc"/>
+        <correspAction xml:id="i-3E9PoE61CEaM8GJE6bpzbc" type="assigned"/>
         <correspContext corresp="i-3E9PoE61CEaM8GJE6bpzbc">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -217,11 +217,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_So_0002/mot_200102_So_0002-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FRnYWq5ehiNvwA2FEqjzf4">
-        <div type="motTitle" xml:id="i-UNHmfjPsGL7ainVD2z2VV9"/>
-        <div type="motSubmissionInfo" xml:id="i-NiksToneNgKjSCtfh2VtMz"/>
+      <div xml:id="i-FRnYWq5ehiNvwA2FEqjzf4" type="motHeader">
+        <div xml:id="i-UNHmfjPsGL7ainVD2z2VV9" type="motTitle"/>
+        <div xml:id="i-NiksToneNgKjSCtfh2VtMz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-D7pEH9H8y4HCQ219Spysot">
+      <div xml:id="i-D7pEH9H8y4HCQ219Spysot" type="motBody">
         <div xml:id="i-RQhzonreoD1LyEnkXxkBoQ">
           <p xml:id="i-3um6S5J9sC4DcbfPLfJ9Z1">
             2001/02 mnr: So2 pnr: kd108
@@ -303,8 +303,11 @@
             att konstruera ett system för högkostnadsskydd som inkluderar
             alla egna avgifter i vården.
           </p>
-          <p xml:id="i-WGALbTUdMi4ZLtti3cLF83">
-            Stockholm den 3 oktober 2001 Sven Brus (kd)
+          <p xml:id="i-WGALbTUdMi4ZLtti3cLF83" type="date">
+            Stockholm den 3 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-UwNHa2NHbdu7FvoK7oKMAh">
+            Sven Brus (kd)
           </p>
           <p xml:id="i-UM1uAogqrXKCDFfvKJW1sN">
             Chatrine Pålsson (kd) Inger Davidson (kd) Dan Kihlström (kd)

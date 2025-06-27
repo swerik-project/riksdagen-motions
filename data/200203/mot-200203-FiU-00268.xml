@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FiU-00268">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-86SYXAc2M5gMaKA6WN2doT">
           <note type="signatory" corresp="i-JJGD2ECwHv6xGCZyyrtKmA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8VWMhVQonTGLEqjGj7J6rz">
+        <correspAction xml:id="i-8VWMhVQonTGLEqjGj7J6rz" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PvuN8mntFuoxB9K2ZTvGC2">
+        <correspAction xml:id="i-PvuN8mntFuoxB9K2ZTvGC2" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JfaCvyFWB2FyZi8hq9zzYt">
+        <correspAction xml:id="i-JfaCvyFWB2FyZi8hq9zzYt" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WtBJuLhexrfBLGMvEpKSMa"/>
+        <correspAction xml:id="i-WtBJuLhexrfBLGMvEpKSMa" type="assigned"/>
         <correspContext corresp="i-WtBJuLhexrfBLGMvEpKSMa">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fi_0268/mot_200203_Fi_0268-0001.pdf"/>
-      <div type="motHeader" xml:id="i-GVU9mDaywVRVAW7Z4HKtn7">
-        <div type="motTitle" xml:id="i-ThTU4kvNGETEyUL1gw1ing"/>
-        <div type="motSubmissionInfo" xml:id="i-99JBfZc7tN8QgUFa7wj1Cg"/>
+      <div xml:id="i-GVU9mDaywVRVAW7Z4HKtn7" type="motHeader">
+        <div xml:id="i-ThTU4kvNGETEyUL1gw1ing" type="motTitle"/>
+        <div xml:id="i-99JBfZc7tN8QgUFa7wj1Cg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-L3H5G8sA6ttKKKc4jLm7ND">
+      <div xml:id="i-L3H5G8sA6ttKKKc4jLm7ND" type="motBody">
         <div xml:id="i-3uUT9UXLWieAUUoC3M449R">
           <p xml:id="i-KRqYSBuTGNfszRF155NkNx">
             24
@@ -107,8 +107,11 @@
             bl.a. för att tillse att dylika effekter på gränsöverskridande
             samarbete i framtiden förhindras.
           </p>
-          <p xml:id="i-QnBYwvVB6uVsrS19BLjghp">
-            Stockholm den 22 oktober 2002 Carl-Axel Roslund (m)
+          <p xml:id="i-QnBYwvVB6uVsrS19BLjghp" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-McCuoAHnovFjSGeXStJj3n">
+            Carl-Axel Roslund (m)
           </p>
         </div>
       </div>

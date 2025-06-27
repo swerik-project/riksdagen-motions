@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198788-BoU-00048">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-EischTFtMmeA5533Ddcu2G"/>
+        <correspAction xml:id="i-EischTFtMmeA5533Ddcu2G" type="basedOn"/>
         <correspContext corresp="i-EischTFtMmeA5533Ddcu2G">
           <ref>Proposition 1987/88:151</ref>
         </correspContext>
@@ -66,16 +66,16 @@
           <note type="signatory" corresp="i-N1qw8jfKGpQHZKgF3gs76j"/>
           <note type="signatory" corresp="i-TpZYt1GVcqVji9XRcawvXB"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-4jTEfTWmRmguNsDzvEwbci">
+        <correspAction xml:id="i-4jTEfTWmRmguNsDzvEwbci" type="submission">
           <date when="1988-04-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7HrCWu7sNGKDEd6KE4UEcd">
+        <correspAction xml:id="i-7HrCWu7sNGKDEd6KE4UEcd" type="dismissal">
           <date when="1988-04-21"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-4M5mozBBqAxiD9dhJdZAci">
+        <correspAction xml:id="i-4M5mozBBqAxiD9dhJdZAci" type="referral">
           <date when="1988-04-22"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GsQAfYMPz2XHWWBA1fMimQ">
+        <correspAction xml:id="i-GsQAfYMPz2XHWWBA1fMimQ" type="assigned">
           <date when="2014-11-19"/>
           <time when="17:22:13"/>
         </correspAction>
@@ -91,11 +91,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198788/mot_198788_bo_48/mot_198788_bo_48-001.pdf"/>
-      <div type="motHeader" xml:id="i-9bLoow9bBkJxdVxbF2jokg">
-        <div type="motTitle" xml:id="i-8x67cicAvinbDr8UfNqbxf"/>
-        <div type="motSubmissionInfo" xml:id="i-F99ewd1vCk3DdZ3WfWHWZb"/>
+      <div xml:id="i-9bLoow9bBkJxdVxbF2jokg" type="motHeader">
+        <div xml:id="i-8x67cicAvinbDr8UfNqbxf" type="motTitle"/>
+        <div xml:id="i-F99ewd1vCk3DdZ3WfWHWZb" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8emX589UTiZX4v1STSmihv">
+      <div xml:id="i-8emX589UTiZX4v1STSmihv" type="motBody">
         <div xml:id="i-RoXRitsUiZKbTDp3yqVRMp">
           <p xml:id="i-Vn17taEnbNhsY66McCrnMB">
             Motion till riksdagen ås
@@ -176,8 +176,11 @@
             Med hänvisning till vad ovan anförts hemställer vi att riksdagen
             avslår proposition 1987/88:151.
           </p>
-          <p xml:id="i-HjvQotLuEYAPBdxSGVKzPd">
-            Stockholm den 19 april 1988 Erling Bager (fp)
+          <p xml:id="i-HjvQotLuEYAPBdxSGVKzPd" type="date">
+            Stockholm den 19 april 1988
+          </p>
+          <p type="signatureBlock" id="i-GBa3Fy2zAkrUg53vKaMVKQ">
+            Erling Bager (fp)
           </p>
           <p xml:id="i-71KJRJKsFZEXFiHW12s7dU">
             Karl-Göran Biörsmark (fp) Siw Persson (fp) Ingrid Hasselström

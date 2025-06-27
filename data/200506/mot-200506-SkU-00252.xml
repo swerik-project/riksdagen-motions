@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00252">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-J7deWTTbWYvmFRkgtq6rYW">
           <note type="signatory" corresp="i-P9fVT6wJo29FgZWPQLxr6o"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-Cp2HBfPxnfxmBTdq7ZBX9U">
+        <correspAction xml:id="i-Cp2HBfPxnfxmBTdq7ZBX9U" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KgcGELGPMEiA6at7poTkGe">
+        <correspAction xml:id="i-KgcGELGPMEiA6at7poTkGe" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-ErqgSxvYHb3pqKwQyX6pzN">
+        <correspAction xml:id="i-ErqgSxvYHb3pqKwQyX6pzN" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JEJXsWahimn2s25LnYVa4e"/>
+        <correspAction xml:id="i-JEJXsWahimn2s25LnYVa4e" type="assigned"/>
         <correspContext corresp="i-JEJXsWahimn2s25LnYVa4e">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_252/mot_200506_Sk_252-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2qYm4rDSzyP3Jrc9zTAygg">
-        <div type="motTitle" xml:id="i-TMAU6Vzv3453ucvmn58X9c"/>
-        <div type="motSubmissionInfo" xml:id="i-8kVwoy2NE6H4kwqRGuwotc"/>
+      <div xml:id="i-2qYm4rDSzyP3Jrc9zTAygg" type="motHeader">
+        <div xml:id="i-TMAU6Vzv3453ucvmn58X9c" type="motTitle"/>
+        <div xml:id="i-8kVwoy2NE6H4kwqRGuwotc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QLi8GJv7heVDsEVRgf8jcA">
+      <div xml:id="i-QLi8GJv7heVDsEVRgf8jcA" type="motBody">
         <div xml:id="i-HpzvzufHE3LKGsWQY7AV2e">
           <p xml:id="i-JXSu7vKQNKTzEcrk2Upwax">
             2005/06 mnr: Sk252 pnr: fp725
@@ -136,8 +136,11 @@
             att harmonisera skatten mellan de båda länderna skulle detta ekonomiska
             incitament försvinna och smugglingen därmed upphöra.
           </p>
-          <p xml:id="i-Fuw7vVjuNWjJhXd1jQQUbF">
-            Stockholm den 21 september 2005 Anna Grönlund Krantz (fp)
+          <p xml:id="i-Fuw7vVjuNWjJhXd1jQQUbF" type="date">
+            Stockholm den 21 september 2005
+          </p>
+          <p type="signatureBlock" id="i-Ku7RM26k3BDSRYXBVXcqRn">
+            Anna Grönlund Krantz (fp)
           </p>
         </div>
       </div>

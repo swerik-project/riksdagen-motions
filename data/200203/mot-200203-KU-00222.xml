@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00222">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-VFLdNqENWnz9cM3hYRC3bt">
           <note type="signatory" corresp="i-9Kt7koTgzUZUA9ovNXYdWj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HyngW6J4ETYdNJR8G7Sw9u">
+        <correspAction xml:id="i-HyngW6J4ETYdNJR8G7Sw9u" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Srv3meBD2Yn1KtSvfTj1Vj">
+        <correspAction xml:id="i-Srv3meBD2Yn1KtSvfTj1Vj" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LAToJ8dKou4h94sLwwGYCU">
+        <correspAction xml:id="i-LAToJ8dKou4h94sLwwGYCU" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DazdiPu5DaxbWm3Lft9BNb"/>
+        <correspAction xml:id="i-DazdiPu5DaxbWm3Lft9BNb" type="assigned"/>
         <correspContext corresp="i-DazdiPu5DaxbWm3Lft9BNb">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_K_0222/mot_200203_K_0222-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3zrarReMS9thJWdVRnJbZV">
-        <div type="motTitle" xml:id="i-HZiYrhqPomAaefHcuzRMb"/>
-        <div type="motSubmissionInfo" xml:id="i-JAmgCxyGb8BWWHbgxDeC6E"/>
+      <div xml:id="i-3zrarReMS9thJWdVRnJbZV" type="motHeader">
+        <div xml:id="i-HZiYrhqPomAaefHcuzRMb" type="motTitle"/>
+        <div xml:id="i-JAmgCxyGb8BWWHbgxDeC6E" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9tm1sq5YZbapLGVfKkody">
+      <div xml:id="i-9tm1sq5YZbapLGVfKkody" type="motBody">
         <div xml:id="i-SwwAkunXQCoNymjN5V58kM">
           <p xml:id="i-NMFQTg7qPUpDCmpVCzenmN">
             2002/03 mnr: K222 pnr: m1125
@@ -117,9 +117,12 @@
             att särredovisa
           </p>
           <p xml:id="i-5GS7JNmowewc8jvG27dNdA">
-            blankrösterna. Stockholm den 14 oktober 2002
+            blankrösterna.
           </p>
-          <p xml:id="i-KgHSGqA1zKtSugSkMNtaTV">
+          <p type="date" id="i-XDK2qUfyx8KWz4kr44TiKW">
+            Stockholm den 14 oktober 2002
+          </p>
+          <p xml:id="i-KgHSGqA1zKtSugSkMNtaTV" type="signatureBlock">
             Marietta de Pourbaix-Lundin (m)
           </p>
           <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_K_0222/mot_200203_K_0222-0002.pdf"/>

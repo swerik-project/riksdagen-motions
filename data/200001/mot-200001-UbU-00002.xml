@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-UbU-00002">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5jJvAsUf1EbSmdE98nGvWN"/>
+        <correspAction xml:id="i-5jJvAsUf1EbSmdE98nGvWN" type="basedOn"/>
         <correspContext corresp="i-5jJvAsUf1EbSmdE98nGvWN">
           <ref>Proposition 2000/01:3</ref>
         </correspContext>
@@ -50,28 +50,28 @@
           <note type="signatory" corresp="i-C6MPg8QS78d6rtHZ6Jc424"/>
           <note type="signatory" corresp="i-C6MPg8QS78d6rtHZ6Jc424"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-Pg62GWXG5EBzEPLfsaGT8s">
+        <correspAction xml:id="i-Pg62GWXG5EBzEPLfsaGT8s" type="reviewing">
           <date when="2000-10-10"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Qb4yNMwKziFR1U1mFf1iuh">
+        <correspAction xml:id="i-Qb4yNMwKziFR1U1mFf1iuh" type="referral">
           <date when="2000-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JauKjyAaHbAzuYaNM3oYwa">
+        <correspAction xml:id="i-JauKjyAaHbAzuYaNM3oYwa" type="dismissal">
           <date when="2000-10-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-YBtULGR2Szmq43J6gchKAt">
+        <correspAction xml:id="i-YBtULGR2Szmq43J6gchKAt" type="submission">
           <date when="2000-10-04"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-KXgVz9FmBfCJ1jH1uAwWzy">
+        <correspAction xml:id="i-KXgVz9FmBfCJ1jH1uAwWzy" type="referral">
           <date when="2000-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-D2SreVe8GxUF22XXiNQ9xR">
+        <correspAction xml:id="i-D2SreVe8GxUF22XXiNQ9xR" type="dismissal">
           <date when="2000-10-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5XUQThF1mR6tAoRKtE7Lxw">
+        <correspAction xml:id="i-5XUQThF1mR6tAoRKtE7Lxw" type="submission">
           <date when="2000-10-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BMXa7anDd85Dur33eH8h6s"/>
+        <correspAction xml:id="i-BMXa7anDd85Dur33eH8h6s" type="assigned"/>
         <correspContext corresp="i-BMXa7anDd85Dur33eH8h6s">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -86,11 +86,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Ub_0002/mot_200001_Ub_0002-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EdbnjPb6HeZkaMQGwwY8dz">
-        <div type="motTitle" xml:id="i-9jSx34qjn17eGfFCrB7uKX"/>
-        <div type="motSubmissionInfo" xml:id="i-SYbFys3HS2zS6AmskYbTuY"/>
+      <div xml:id="i-EdbnjPb6HeZkaMQGwwY8dz" type="motHeader">
+        <div xml:id="i-9jSx34qjn17eGfFCrB7uKX" type="motTitle"/>
+        <div xml:id="i-SYbFys3HS2zS6AmskYbTuY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3Z1vLRtzBA1uAuEVXbJfWi">
+      <div xml:id="i-3Z1vLRtzBA1uAuEVXbJfWi" type="motBody">
         <div xml:id="i-R6zmQ6fQLr3cyjG9woZbU1">
           <p xml:id="i-SmVRetePpHhF7We3K5NqdZ">
             2000/01 mnr: Ub2 pnr: s22002
@@ -153,8 +153,11 @@
             måste ha en central roll i vårt framtida miljöarbete och det är
             viktigt att studera vilka barriärer det finns som hindrar beteendeförändringar.
           </p>
-          <p xml:id="i-2dYetyJLfKmBWDD48bs7hx">
-            Stockholm den 30 september 2000 Sinikka Bohlin (s)
+          <p xml:id="i-2dYetyJLfKmBWDD48bs7hx" type="date">
+            Stockholm den 30 september 2000
+          </p>
+          <p type="signatureBlock" id="i-6BaVdWRfhn5WnLfekXmdPg">
+            Sinikka Bohlin (s)
           </p>
         </div>
       </div>

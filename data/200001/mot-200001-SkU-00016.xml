@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SkU-00016">
   <teiHeader>
     <fileDesc>
@@ -139,7 +139,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-3npb9PtC6Pp5nXFbv5Totr"/>
+        <correspAction xml:id="i-3npb9PtC6Pp5nXFbv5Totr" type="basedOn"/>
         <correspContext corresp="i-3npb9PtC6Pp5nXFbv5Totr">
           <ref>Proposition 2000/01:22</ref>
         </correspContext>
@@ -162,31 +162,31 @@
           <note type="signatory" corresp="i-8mSRnxfYHK2ozt88boweNc"/>
           <note type="signatory" corresp="i-RCNVVc6jFAU8YPdr6sW8jH"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-PeyyJcGKvjVKNBEStvkdGE">
+        <correspAction xml:id="i-PeyyJcGKvjVKNBEStvkdGE" type="reviewing">
           <date when="2000-11-15"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PL5WfSt8efWuZWeCZUpDYb">
+        <correspAction xml:id="i-PL5WfSt8efWuZWeCZUpDYb" type="referral">
           <date when="2000-11-15"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-MdfXxwUnHk24xM33DMitNc">
+        <correspAction xml:id="i-MdfXxwUnHk24xM33DMitNc" type="proposed_referral">
           <date when="2000-11-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Te8KTfHK1QRbyY5kmZ635U">
+        <correspAction xml:id="i-Te8KTfHK1QRbyY5kmZ635U" type="dismissal">
           <date when="2000-11-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Kir7Gss5SwYbuLjNQPCi7f">
+        <correspAction xml:id="i-Kir7Gss5SwYbuLjNQPCi7f" type="submission">
           <date when="2000-11-10"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-8RY7bcYwxEQv1SmAg9VKAk">
+        <correspAction xml:id="i-8RY7bcYwxEQv1SmAg9VKAk" type="referral">
           <date when="2000-11-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JXtQAZSXtsGvD7d3qCKDNQ">
+        <correspAction xml:id="i-JXtQAZSXtsGvD7d3qCKDNQ" type="dismissal">
           <date when="2000-11-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-78bp3mWv58CDagtAc6Uvn5">
+        <correspAction xml:id="i-78bp3mWv58CDagtAc6Uvn5" type="submission">
           <date when="2000-11-10"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2mhEg9oUPtyP1ks6zskto8"/>
+        <correspAction xml:id="i-2mhEg9oUPtyP1ks6zskto8" type="assigned"/>
         <correspContext corresp="i-2mhEg9oUPtyP1ks6zskto8">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -201,11 +201,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Sk_0016/mot_200001_Sk_0016-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5GThz4ZD3aVgQ1eqRSYrR3">
-        <div type="motTitle" xml:id="i-VJTMJC8XGpVKdJu5L6FRJv"/>
-        <div type="motSubmissionInfo" xml:id="i-RSrz7XHzP4Up7roL5nNnEq"/>
+      <div xml:id="i-5GThz4ZD3aVgQ1eqRSYrR3" type="motHeader">
+        <div xml:id="i-VJTMJC8XGpVKdJu5L6FRJv" type="motTitle"/>
+        <div xml:id="i-RSrz7XHzP4Up7roL5nNnEq" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NHcojzyUXhi56bcECaYr3o">
+      <div xml:id="i-NHcojzyUXhi56bcECaYr3o" type="motBody">
         <div xml:id="i-D7tjv2Cgo6pwzZhs5pgnAf">
           <p xml:id="i-UAsFFA5K4JpeEhN5e2o1QC">
             2000/01 mnr: Sk16 pnr: m1143
@@ -319,10 +319,12 @@
           </p>
           <p xml:id="i-TRS6sY1oyZ7UYqiGeTTstZ">
             onoterade bolag. Detta krav har vi vid flera tidigare tillfällen
-            framfört. Vi gör det även i detta sammanhang. Stockholm den 10
-            november 2000
+            framfört. Vi gör det även i detta sammanhang.
           </p>
-          <p xml:id="i-5L9SN3YorrAjUax4ZDMxgb">
+          <p type="date" id="i-DvawjTBcETDGyDReAzW8Kw">
+            Stockholm den 10 november 2000
+          </p>
+          <p xml:id="i-5L9SN3YorrAjUax4ZDMxgb" type="signatureBlock">
             Carl Fredrik Graf (m) Carl Erik Hedlund (m) Marietta de Pourbaix-Lundin
             (m) Catharina Hagen (m) Carl Bildt (m) Stefan Hagfeldt (m) Ola
             Sundell (m) Inga Berggren (m)

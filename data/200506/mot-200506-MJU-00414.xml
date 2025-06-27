@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00414">
   <teiHeader>
     <fileDesc>
@@ -95,16 +95,16 @@
           <note type="signatory" corresp="i-LqvLajCTsK6crqsTTth9uu"/>
           <note type="signatory" corresp="i-XhKn9p4oQVJvYzm2h78jih"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Hu517LeY8mXRasuRP7zkXk">
+        <correspAction xml:id="i-Hu517LeY8mXRasuRP7zkXk" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7Mkt1gc892jwxkr8v7RGp7">
+        <correspAction xml:id="i-7Mkt1gc892jwxkr8v7RGp7" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-G55tZiFE44RtSEaiCUAk2i">
+        <correspAction xml:id="i-G55tZiFE44RtSEaiCUAk2i" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8nxYVC4s7BqHN68m5f6vSY"/>
+        <correspAction xml:id="i-8nxYVC4s7BqHN68m5f6vSY" type="assigned"/>
         <correspContext corresp="i-8nxYVC4s7BqHN68m5f6vSY">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -119,11 +119,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_414/mot_200506_MJ_414-0001.pdf"/>
-      <div type="motHeader" xml:id="i-89SER4WvHoCGnBE387vGqE">
-        <div type="motTitle" xml:id="i-CQwnsS2mzGVLGc8jjaid7p"/>
-        <div type="motSubmissionInfo" xml:id="i-EXuQra3iN14zA7UQJCWqmH"/>
+      <div xml:id="i-89SER4WvHoCGnBE387vGqE" type="motHeader">
+        <div xml:id="i-CQwnsS2mzGVLGc8jjaid7p" type="motTitle"/>
+        <div xml:id="i-EXuQra3iN14zA7UQJCWqmH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3SF5jCWTG5vRRsshMwZtTN">
+      <div xml:id="i-3SF5jCWTG5vRRsshMwZtTN" type="motBody">
         <div xml:id="i-LPPo4jPMQAPxqYavo8vzmQ">
           <p xml:id="i-5mroUGbFbQWskZhKmtnaHd">
             2005/06 mnr: MJ414 pnr: v353
@@ -598,8 +598,11 @@
           <p xml:id="i-817Nvu5Nm78JoXuZGyfMSZ">
             10
           </p>
-          <p xml:id="i-EyPpq9CWfjV3iKnT8VosQ5">
-            Stockholm den 23 september 2005 Lars Ohly (v)
+          <p xml:id="i-EyPpq9CWfjV3iKnT8VosQ5" type="date">
+            Stockholm den 23 september 2005
+          </p>
+          <p type="signatureBlock" id="i-5eJ9DAuvTU1CEXEUrcybie">
+            Lars Ohly (v)
           </p>
           <p xml:id="i-7c7U19fas6LrfwSCsA161C">
             Lars Bäckström (v) Lennart Gustavsson (v) Berit Johannesson (v)

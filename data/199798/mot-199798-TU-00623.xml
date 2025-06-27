@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-TU-00623">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-NLfT4RS4huMCGpWx1zB8Ag</idno>
-            <name>Erling Bager </name>
+            <name>Erling Bager</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -46,25 +46,25 @@
           <note type="signatory" corresp="i-NLfT4RS4huMCGpWx1zB8Ag"/>
           <note type="signatory" corresp="i-NLfT4RS4huMCGpWx1zB8Ag"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5MJDCj3nAcWskeqotGFfso">
+        <correspAction xml:id="i-5MJDCj3nAcWskeqotGFfso" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UtGSASKrXSGUgynRs6jYi8">
+        <correspAction xml:id="i-UtGSASKrXSGUgynRs6jYi8" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Hr3chruCrLzkCGcB4PiUdN">
+        <correspAction xml:id="i-Hr3chruCrLzkCGcB4PiUdN" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-WsH4Cq5RiK6MsTvVedoWHN">
+        <correspAction xml:id="i-WsH4Cq5RiK6MsTvVedoWHN" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PVPVwULWvrNDzZM338wzrr">
+        <correspAction xml:id="i-PVPVwULWvrNDzZM338wzrr" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HdBggJyKj9ssjt1wUVzdn1">
+        <correspAction xml:id="i-HdBggJyKj9ssjt1wUVzdn1" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7sLUFtngoErE1CEnkHdCcQ"/>
+        <correspAction xml:id="i-7sLUFtngoErE1CEnkHdCcQ" type="assigned"/>
         <correspContext corresp="i-7sLUFtngoErE1CEnkHdCcQ">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_T_0623/mot_199798_T_0623-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FeLw7184nXiRyvrj5LkA3A">
-        <div type="motTitle" xml:id="i-8eY9zACkJFQvqyARrQQ6zZ"/>
-        <div type="motSubmissionInfo" xml:id="i-PyZjiqfTGcTMpmCweYHpdz"/>
+      <div xml:id="i-FeLw7184nXiRyvrj5LkA3A" type="motHeader">
+        <div xml:id="i-8eY9zACkJFQvqyARrQQ6zZ" type="motTitle"/>
+        <div xml:id="i-PyZjiqfTGcTMpmCweYHpdz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BaDfLCUEJuu7qivpvMyTZu">
+      <div xml:id="i-BaDfLCUEJuu7qivpvMyTZu" type="motBody">
         <div xml:id="i-JTGdJJuTzHQ8PXpfC3rm4J">
           <p xml:id="i-M7LLWJmepT5oYiLw7iRDa3">
             1997/98 [T623 T615-623
@@ -324,10 +324,12 @@
             sjöbefäl,' 6. att riksdagen som sin mening ger regeringen till
             känna vad i motionen anförts om att bibehålla sjömansskatten,”
             7. att riksdagen som sin mening ger regeringen till känna vad
-            i motionen anförts om sjöfarten i kommunikationssystemet. Stockholm
-            den 5 oktober 1997
+            i motionen anförts om sjöfarten i kommunikationssystemet.
           </p>
-          <p xml:id="i-JgefL8N53UDG6qchYG1YDE">
+          <p type="date" id="i-VYiEHwFyBrXQ9JzEcNndVW">
+            Stockholm den 5 oktober 1997
+          </p>
+          <p xml:id="i-JgefL8N53UDG6qchYG1YDE" type="signatureBlock">
             Erling Bager (fp)
           </p>
           <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_T_0623/mot_199798_T_0623-0006.pdf"/>

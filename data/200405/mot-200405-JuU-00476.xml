@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-JuU-00476">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-C9APDcwVH9CJSJtsDtb4hJ">
           <note type="signatory" corresp="i-BUYvEhrSc9gnHcd6iS4eDJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-R9o7Vkd92PQZw81EvWxmK6">
+        <correspAction xml:id="i-R9o7Vkd92PQZw81EvWxmK6" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-63npdcF27zyj4JFh21BCPG">
+        <correspAction xml:id="i-63npdcF27zyj4JFh21BCPG" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-W1JCDf1Na5qoqySpgXfeZx">
+        <correspAction xml:id="i-W1JCDf1Na5qoqySpgXfeZx" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NbTouV772SbhGmHHbdUqeY"/>
+        <correspAction xml:id="i-NbTouV772SbhGmHHbdUqeY" type="assigned"/>
         <correspContext corresp="i-NbTouV772SbhGmHHbdUqeY">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ju_476/mot_200405_Ju_476-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ju_476/mot_200405_Ju_476-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6fzsujX9ukyqmsZVh1BwZj">
-        <div type="motTitle" xml:id="i-PWQqcBoJUVbEzf6unzjDtC"/>
-        <div type="motSubmissionInfo" xml:id="i-BGQnbvsMp6jB8XWePpsrzP"/>
+      <div xml:id="i-6fzsujX9ukyqmsZVh1BwZj" type="motHeader">
+        <div xml:id="i-PWQqcBoJUVbEzf6unzjDtC" type="motTitle"/>
+        <div xml:id="i-BGQnbvsMp6jB8XWePpsrzP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-35hxJmnsejkiA8UHbMXeay">
+      <div xml:id="i-35hxJmnsejkiA8UHbMXeay" type="motBody">
         <div xml:id="i-F1L3z7cvEEm5tCUFqa4yrQ">
           <p xml:id="i-QJMNoxujL3CfC5NrzFnDA6">
             2004/05 mnr: Ju476 pnr: fp221
@@ -150,8 +150,11 @@
             detta krav på vårdnadshavarna är många och goda. Dessutom saknas
             starka motstående intressen.
           </p>
-          <p xml:id="i-Ef6Vk7PBSvrw2gkmHv3wUU">
-            Stockholm den 4 oktober 2004 Allan Widman (fp)
+          <p xml:id="i-Ef6Vk7PBSvrw2gkmHv3wUU" type="date">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-Wbu7QgY5eaEG73uiSg4uiS">
+            Allan Widman (fp)
           </p>
         </div>
       </div>

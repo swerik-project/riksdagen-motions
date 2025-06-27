@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00421">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-5X24TGQxDvVkzSSWrhr1EC">
           <note type="signatory" corresp="i-Ewi7Lwy3h4DBNJ2zradbNt"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LrZH3fEXvWgYYtCZFwp1UJ">
+        <correspAction xml:id="i-LrZH3fEXvWgYYtCZFwp1UJ" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UNHZ3VXVyUA5tiZYwHFsdh">
+        <correspAction xml:id="i-UNHZ3VXVyUA5tiZYwHFsdh" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GcqApBingK2wWZvaF27zVR">
+        <correspAction xml:id="i-GcqApBingK2wWZvaF27zVR" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EyqzmzQoeDPaeCkAAAU1or"/>
+        <correspAction xml:id="i-EyqzmzQoeDPaeCkAAAU1or" type="assigned"/>
         <correspContext corresp="i-EyqzmzQoeDPaeCkAAAU1or">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_N_421/mot_200405_N_421-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VU8iCNkvfeErdKaY9Yuct7">
-        <div type="motTitle" xml:id="i-5yaXbCi8b1fxNsB8vvM9H4"/>
-        <div type="motSubmissionInfo" xml:id="i-GK5ysthjjm22eCEVVhCVC5"/>
+      <div xml:id="i-VU8iCNkvfeErdKaY9Yuct7" type="motHeader">
+        <div xml:id="i-5yaXbCi8b1fxNsB8vvM9H4" type="motTitle"/>
+        <div xml:id="i-GK5ysthjjm22eCEVVhCVC5" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8cMmZnft1j8TMw1CHUsrof">
+      <div xml:id="i-8cMmZnft1j8TMw1CHUsrof" type="motBody">
         <div xml:id="i-VwL5o3bFnRLHPNESnHsYzM">
           <p xml:id="i-5XDguno872ikem5LYX6kvx">
             2004/05 mnr: N421 pnr: fp275
@@ -111,8 +111,11 @@
             av det danska energisystemet från förbränning av kol och olja
             till miljömässigt hållbara alternativ.
           </p>
-          <p xml:id="i-DsqD6cycAdd5bYVe2Bf3cw">
-            Stockholm den 5 oktober 2004 Torkild Strandberg (fp)
+          <p xml:id="i-DsqD6cycAdd5bYVe2Bf3cw" type="date">
+            Stockholm den 5 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-HyBKtMZPwNEGuV2a19LvJ3">
+            Torkild Strandberg (fp)
           </p>
         </div>
       </div>

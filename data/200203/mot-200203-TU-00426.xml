@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00426">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-CuFmxdcCMMcb8oKV4yDQBi">
           <note type="signatory" corresp="i-GgyXv4xamqTouNVz7Tncke"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FxghJeois73aCtoYE2uLLb">
+        <correspAction xml:id="i-FxghJeois73aCtoYE2uLLb" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RBLBjS8WjRGSTTFoNdy46d">
+        <correspAction xml:id="i-RBLBjS8WjRGSTTFoNdy46d" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7XCqtr8rdHXG2QnPKfPStz">
+        <correspAction xml:id="i-7XCqtr8rdHXG2QnPKfPStz" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SLyw2d12RcuHgDirZpmagg"/>
+        <correspAction xml:id="i-SLyw2d12RcuHgDirZpmagg" type="assigned"/>
         <correspContext corresp="i-SLyw2d12RcuHgDirZpmagg">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_T_0426/mot_200203_T_0426-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5ofMqauqFknm8dszoPiCt1">
-        <div type="motTitle" xml:id="i-NsNCrT6hWzewaMSGxqEzxB"/>
-        <div type="motSubmissionInfo" xml:id="i-W7xk9sJzpD4AkiTR7tpiMA"/>
+      <div xml:id="i-5ofMqauqFknm8dszoPiCt1" type="motHeader">
+        <div xml:id="i-NsNCrT6hWzewaMSGxqEzxB" type="motTitle"/>
+        <div xml:id="i-W7xk9sJzpD4AkiTR7tpiMA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JsATCagy3WYXYKvXXhBvtj">
+      <div xml:id="i-JsATCagy3WYXYKvXXhBvtj" type="motBody">
         <div xml:id="i-FvihygQYfffrUGHe8JuwoB">
           <p xml:id="i-VcayMVYakU3T6K9XQmcHT1">
             2002/03 mnr: T426 pnr: m1480
@@ -160,8 +160,11 @@
             än resten av landet. Om experiment och försök med trängselavgifter
             prompt skall genomföras så bör det åtminstone inte ske i Stockholmsregionen.
           </p>
-          <p xml:id="i-3F3rhJpUFq3zWdM8tRoT3e">
-            Stockholm den 23 oktober 2002 Anna Lilliehöök (m)
+          <p xml:id="i-3F3rhJpUFq3zWdM8tRoT3e" type="date">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-N6T4AudUMke7p7mmRFtK4F">
+            Anna Lilliehöök (m)
           </p>
           <p xml:id="i-HFK6yTA6b3ZYauewCksrzB">
             Elanders Gotab, Stockholm 2002

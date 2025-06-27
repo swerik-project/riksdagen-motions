@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-JuU-00002">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-M6F85qijn9rB9XrUARJYDS</idno>
-            <name>Rolf Åbjörnsson </name>
+            <name>Rolf Åbjörnsson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-Ha5uZXGHudhTidCuW8UjXN</idno>
-            <name>Ragnwi Marcelind </name>
+            <name>Ragnwi Marcelind</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-SmQxY46smWu5awEQ2oGr4n</idno>
-            <name>Ingemar Vänerlöv </name>
+            <name>Ingemar Vänerlöv</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-RujXp322gvMdwLiZqVkswk"/>
+        <correspAction xml:id="i-RujXp322gvMdwLiZqVkswk" type="basedOn"/>
         <correspContext corresp="i-RujXp322gvMdwLiZqVkswk">
           <ref>Proposition 1998/99:10</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-SmQxY46smWu5awEQ2oGr4n"/>
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CyhJpPZzQJTqKP9L3wLHGP">
+        <correspAction xml:id="i-CyhJpPZzQJTqKP9L3wLHGP" type="referral">
           <date when="1998-10-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-78Zf8QpynRMW6pHBnZsSEq">
+        <correspAction xml:id="i-78Zf8QpynRMW6pHBnZsSEq" type="dismissal">
           <date when="1998-10-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8tzDXnKpMvy191RehPEB2L">
+        <correspAction xml:id="i-8tzDXnKpMvy191RehPEB2L" type="submission">
           <date when="1998-10-20"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-DHM85n7enx8PzUC8H8nGXF">
+        <correspAction xml:id="i-DHM85n7enx8PzUC8H8nGXF" type="referral">
           <date when="1998-10-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6i8pMTFwNaJxK5BgEBF6xT">
+        <correspAction xml:id="i-6i8pMTFwNaJxK5BgEBF6xT" type="dismissal">
           <date when="1998-10-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Dmqir7zDin4SBD1dtYZ5nA">
+        <correspAction xml:id="i-Dmqir7zDin4SBD1dtYZ5nA" type="submission">
           <date when="1998-10-20"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-H1iVgYMHscQ74zgUAbKh2H"/>
+        <correspAction xml:id="i-H1iVgYMHscQ74zgUAbKh2H" type="assigned"/>
         <correspContext corresp="i-H1iVgYMHscQ74zgUAbKh2H">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_JU_0002/mot_199899_JU_0002-0001.pdf"/>
-      <div type="motHeader" xml:id="i-WgS5CWWGPEPA823me3UmFg">
-        <div type="motTitle" xml:id="i-SFkPhvkx3XosmT3cP1nhWf"/>
-        <div type="motSubmissionInfo" xml:id="i-8VDib3Yq6WgxpYLVYiHDvF"/>
+      <div xml:id="i-WgS5CWWGPEPA823me3UmFg" type="motHeader">
+        <div xml:id="i-SFkPhvkx3XosmT3cP1nhWf" type="motTitle"/>
+        <div xml:id="i-8VDib3Yq6WgxpYLVYiHDvF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6Vjb8PUeEjVBw4rhVDam7Y">
+      <div xml:id="i-6Vjb8PUeEjVBw4rhVDam7Y" type="motBody">
         <div xml:id="i-7QsfHXmfYE2BmfzzfBQhvo">
           <p xml:id="i-CbUE4FyK4FgQa6nmadCFE5">
             Ju2
@@ -150,8 +150,13 @@
           <p xml:id="i-2PaZ91sQW7aaa1E1zcvQnD">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             hos regeringen begär att reglerna rörande rättshjälp skall utformas
-            enligt de förslag som framförts i motionen. Stockholm den 13 oktober
-            1998 Rolf Åbjörnsson (kd)
+            enligt de förslag som framförts i motionen.
+          </p>
+          <p type="date" id="i-RWutkH5vGrPh9dWn9MSzJD">
+            Stockholm den 13 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-RMxNmdcSuMuyibC9z87Jam">
+            Rolf Åbjörnsson (kd)
           </p>
           <p xml:id="i-UQ1AyzqntmV2LYUKbaZrsf">
             Ragnwi Marcelind (kd) Ingemar Vänerlöv (kd)

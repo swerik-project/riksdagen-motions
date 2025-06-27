@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-FöU-00243">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-XwtkYCfPKooQXPGxsVxQ39">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KEtE9WyfFBFVAHtC99DZoH">
+        <correspAction xml:id="i-KEtE9WyfFBFVAHtC99DZoH" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-S2guZnepG3fyyhjs5C1bJe">
+        <correspAction xml:id="i-S2guZnepG3fyyhjs5C1bJe" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WLeHfgoWQ18SDJCvcdpKKg">
+        <correspAction xml:id="i-WLeHfgoWQ18SDJCvcdpKKg" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-M1CtDZeF1eHNznXT1eKjSD"/>
+        <correspAction xml:id="i-M1CtDZeF1eHNznXT1eKjSD" type="assigned"/>
         <correspContext corresp="i-M1CtDZeF1eHNznXT1eKjSD">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Fö_243/mot_200506_Fö_243-0001.pdf"/>
-      <div type="motHeader" xml:id="i-G5HoYBswz8d55ZnrB14pYL">
-        <div type="motTitle" xml:id="i-8aNDe9JDvRkpBpDqbEsJkD"/>
-        <div type="motSubmissionInfo" xml:id="i-K1zGNphCBcaUSLyLD6ewNB"/>
+      <div xml:id="i-G5HoYBswz8d55ZnrB14pYL" type="motHeader">
+        <div xml:id="i-8aNDe9JDvRkpBpDqbEsJkD" type="motTitle"/>
+        <div xml:id="i-K1zGNphCBcaUSLyLD6ewNB" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Vs1GfVZtovpAP7Ug1eQbQ5">
+      <div xml:id="i-Vs1GfVZtovpAP7Ug1eQbQ5" type="motBody">
         <div xml:id="i-2fM5LALWL3huho7ZiM5xKo">
           <p xml:id="i-95aL8qThhpExwZsj6Gfezm">
             2005/06 mnr: Fö243 pnr: kd921
@@ -126,8 +126,11 @@
             ersättande av befintlig personal. Detta skulle också kunna ge
             våra ungdomar ovärderlig erfarenhet och kunskap inför vuxenlivet.
           </p>
-          <p xml:id="i-2diRqqHnLw75quFJPtmBCP">
-            Stockholm den 26 september 2005 Annelie Enochson (kd)
+          <p xml:id="i-2diRqqHnLw75quFJPtmBCP" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-GsQwKDejEoPk6mXjwud58w">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

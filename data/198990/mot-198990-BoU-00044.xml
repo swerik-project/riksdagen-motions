@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198990-BoU-00044">
   <teiHeader>
     <fileDesc>
@@ -75,21 +75,21 @@
           </person>
           <person gender="man">
             <idno>i-VDgtjcjBeHGF1Nuunffjp4</idno>
-            <name>Jan Strömdahl </name>
+            <name>Jan Strömdahl</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-SZKUTdtCrCo58yNCQsH76</idno>
-            <name>Ylva Johansson </name>
+            <name>Ylva Johansson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-5q7m7rZyufN9RHaGjB6GHh</idno>
-            <name>Björn Samuelson </name>
+            <name>Björn Samuelson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -97,7 +97,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-L3E7ZSMske5kSzuC2gb3AM"/>
+        <correspAction xml:id="i-L3E7ZSMske5kSzuC2gb3AM" type="basedOn"/>
         <correspContext corresp="i-L3E7ZSMske5kSzuC2gb3AM">
           <ref>Proposition 1989/90:90</ref>
         </correspContext>
@@ -114,16 +114,16 @@
           <note type="signatory" corresp="i-SZKUTdtCrCo58yNCQsH76"/>
           <note type="signatory" corresp="i-5q7m7rZyufN9RHaGjB6GHh"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-EAF2wmMhWg8FvicgM79v3C">
+        <correspAction xml:id="i-EAF2wmMhWg8FvicgM79v3C" type="submission">
           <date when="1990-03-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-J4q6nMFGUnxu168trReWJt">
+        <correspAction xml:id="i-J4q6nMFGUnxu168trReWJt" type="dismissal">
           <date when="1990-03-23"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Km2WbrrEhmPMKD5brKRL4R">
+        <correspAction xml:id="i-Km2WbrrEhmPMKD5brKRL4R" type="referral">
           <date when="1990-03-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4hqdaT2y2kYKZD1zSyuFdQ">
+        <correspAction xml:id="i-4hqdaT2y2kYKZD1zSyuFdQ" type="assigned">
           <date when="2014-11-22"/>
           <time when="04:53:17"/>
         </correspAction>
@@ -139,11 +139,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198990/mot_198990_bo_44/mot_198990_bo_44-001.pdf"/>
-      <div type="motHeader" xml:id="i-RgQ5s36EoiGJoATArZKcTo">
-        <div type="motTitle" xml:id="i-M27ERNjsa5WryMkUZsPZiN"/>
-        <div type="motSubmissionInfo" xml:id="i-FvpEoPTQwQtyCKGKw9kfYg"/>
+      <div xml:id="i-RgQ5s36EoiGJoATArZKcTo" type="motHeader">
+        <div xml:id="i-M27ERNjsa5WryMkUZsPZiN" type="motTitle"/>
+        <div xml:id="i-FvpEoPTQwQtyCKGKw9kfYg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NjpFShhoMGNd9Qv9fZT7ya">
+      <div xml:id="i-NjpFShhoMGNd9Qv9fZT7ya" type="motBody">
         <div xml:id="i-ADQWuD4T65H3Pc7gvRfHYS">
           <p xml:id="i-6DJLRNRSQgNYfCb7Mrf53q">
             Motion till riksdagen
@@ -245,8 +245,11 @@
             4. att riksdagen som sin mening ger regeringen till känna vad
             i mo- tionen anförts om NORDPLAN.
           </p>
-          <p xml:id="i-Jzga7VEjRWNEGdxPsTqL7r">
-            Stockholm den 20 mars 1990 Jan Strömdahl (vpk)
+          <p xml:id="i-Jzga7VEjRWNEGdxPsTqL7r" type="date">
+            Stockholm den 20 mars 1990
+          </p>
+          <p type="signatureBlock" id="i-FfVF3uGMchxS5XC2gY468Q">
+            Jan Strömdahl (vpk)
           </p>
           <p xml:id="i-V1dbXbgLcF97uS4bdETfen">
             Ylva Johansson (vpk) Björn Samuelson (vpk)

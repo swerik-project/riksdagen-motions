@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00024">
   <teiHeader>
     <fileDesc>
@@ -42,7 +42,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FGFn3SUuNyC6yRyD5BjV1d"/>
+        <correspAction xml:id="i-FGFn3SUuNyC6yRyD5BjV1d" type="basedOn"/>
         <correspContext corresp="i-FGFn3SUuNyC6yRyD5BjV1d">
           <ref>Proposition 2005/06:160</ref>
         </correspContext>
@@ -51,19 +51,19 @@
           <note type="signatory" corresp="i-Fa75ePV6JC2wN91aE4xcYD"/>
           <note type="signatory" corresp="i-SKjAmNScZ7eZ3a8Xy1J8hs"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2ZDX4R292XSSVuw2AP895L">
+        <correspAction xml:id="i-2ZDX4R292XSSVuw2AP895L" type="referral">
           <date when="2006-04-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YaqkKJgxeKdrupVg9sp1U8">
+        <correspAction xml:id="i-YaqkKJgxeKdrupVg9sp1U8" type="dismissal">
           <date when="2006-04-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PYSdZXH9qwjYLSkoRaMrNg">
+        <correspAction xml:id="i-PYSdZXH9qwjYLSkoRaMrNg" type="dismissal">
           <date when="2006-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QiVGnB1Ek92dEdj4q8F3mM">
+        <correspAction xml:id="i-QiVGnB1Ek92dEdj4q8F3mM" type="submission">
           <date when="2006-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3EA8A3g1mraH46egNnK4Yg"/>
+        <correspAction xml:id="i-3EA8A3g1mraH46egNnK4Yg" type="assigned"/>
         <correspContext corresp="i-3EA8A3g1mraH46egNnK4Yg">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -78,11 +78,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_24/mot_200506_T_24-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TCMypsBGNzFBXw6wNYL6MG">
-        <div type="motTitle" xml:id="i-RVVXGi4uAV6P5Fh6m8NJuc"/>
-        <div type="motSubmissionInfo" xml:id="i-MvSdZG41kDHCa7G3Pzu1Um"/>
+      <div xml:id="i-TCMypsBGNzFBXw6wNYL6MG" type="motHeader">
+        <div xml:id="i-RVVXGi4uAV6P5Fh6m8NJuc" type="motTitle"/>
+        <div xml:id="i-MvSdZG41kDHCa7G3Pzu1Um" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TduaTw4tVZrgDnTj8SkRb3">
+      <div xml:id="i-TduaTw4tVZrgDnTj8SkRb3" type="motBody">
         <div xml:id="i-NCTCvgs3WEsxdcKvybVZdk">
           <p xml:id="i-NfKmJNm3ELeKPAP6aYwmsN">
             2005/06 mnr: T24 pnr: kd174
@@ -496,9 +496,11 @@
             såsom Axamo flygplats, inte får äventyras genom införandet av
             en skatt på lygresor.
           </p>
-          <p xml:id="i-RYJAKL3XvGnEjJzDb4ztxJ">
-            Stockholm den 6 april 2006 Stefan Attefall (kd) Maria Larsson
-            (kd)
+          <p xml:id="i-RYJAKL3XvGnEjJzDb4ztxJ" type="date">
+            Stockholm den 6 april 2006
+          </p>
+          <p type="signatureBlock" id="i-RaF13CbExoyG6C9H1AUuF9">
+            Stefan Attefall (kd) Maria Larsson (kd)
           </p>
         </div>
       </div>

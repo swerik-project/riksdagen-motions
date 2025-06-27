@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00255">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-73f6Y9fSHYnnMpzN3AHmMn">
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YSzHbEQPMF1U7aTrtdSy25">
+        <correspAction xml:id="i-YSzHbEQPMF1U7aTrtdSy25" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RfdX4UpspAFQE5nHC84VWL">
+        <correspAction xml:id="i-RfdX4UpspAFQE5nHC84VWL" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-YQJb2bTgDEgAGtwN3pwuTw">
+        <correspAction xml:id="i-YQJb2bTgDEgAGtwN3pwuTw" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9Cba1ee4uXt2gPgbA4LacT"/>
+        <correspAction xml:id="i-9Cba1ee4uXt2gPgbA4LacT" type="assigned"/>
         <correspContext corresp="i-9Cba1ee4uXt2gPgbA4LacT">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Sk_0255/mot_200203_Sk_0255-0001.pdf"/>
-      <div type="motHeader" xml:id="i-75hRCXfNVu98SiEc7auVNH">
-        <div type="motTitle" xml:id="i-BNF3i7fGkWqH74itAPDNdw"/>
-        <div type="motSubmissionInfo" xml:id="i-483NdAptJQBaQ2dqoUXDCc"/>
+      <div xml:id="i-75hRCXfNVu98SiEc7auVNH" type="motHeader">
+        <div xml:id="i-BNF3i7fGkWqH74itAPDNdw" type="motTitle"/>
+        <div xml:id="i-483NdAptJQBaQ2dqoUXDCc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VCorvuyeNKR9jwQNSPrC4m">
+      <div xml:id="i-VCorvuyeNKR9jwQNSPrC4m" type="motBody">
         <div xml:id="i-BtCZxQF2ZJu7ZCVjRFDLsd">
           <p xml:id="i-6MJdJf1LKpuqgurYckoKbF">
             30
@@ -113,8 +113,11 @@
             kommit dessa till del. En gräns för praktisk tillämplighet bör
             förslagsvis sättas vid donationer under 10.000 kronor.
           </p>
-          <p xml:id="i-X73dgTWf9dShJ4t5qNBsYt">
-            Stockholm den 17 oktober 2002 Tuve Skånberg (kd)
+          <p xml:id="i-X73dgTWf9dShJ4t5qNBsYt" type="date">
+            Stockholm den 17 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-SQzrPYSfwEq7dHkumUfWDh">
+            Tuve Skånberg (kd)
           </p>
         </div>
       </div>

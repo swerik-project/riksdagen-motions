@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-BoU-00038">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-E2VEuW8StdbwuJyGXtUP4D</idno>
-            <name>Per Lager </name>
+            <name>Per Lager</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-LHaeakReirfCs8zuYzrNnU"/>
+        <correspAction xml:id="i-LHaeakReirfCs8zuYzrNnU" type="basedOn"/>
         <correspContext corresp="i-LHaeakReirfCs8zuYzrNnU">
           <ref>Proposition 1995/96:224</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-E2VEuW8StdbwuJyGXtUP4D"/>
           <note type="signatory" corresp="i-E2VEuW8StdbwuJyGXtUP4D"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MTxpLSD7Hr36SfwnNJgcXS">
+        <correspAction xml:id="i-MTxpLSD7Hr36SfwnNJgcXS" type="referral">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9gMPboktF1q3rkzSoT8Rp">
+        <correspAction xml:id="i-9gMPboktF1q3rkzSoT8Rp" type="dismissal">
           <date when="1996-06-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VAjeUZtdZbP3VpF71rcb6s">
+        <correspAction xml:id="i-VAjeUZtdZbP3VpF71rcb6s" type="submission">
           <date when="1996-06-12"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-81KbkFrLSZPTVYomG41vxV">
+        <correspAction xml:id="i-81KbkFrLSZPTVYomG41vxV" type="referral">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TV6CCHJyWMn4SAnwsSk9zz">
+        <correspAction xml:id="i-TV6CCHJyWMn4SAnwsSk9zz" type="dismissal">
           <date when="1996-06-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-YA5onP6oppjuz6m9deaxT2">
+        <correspAction xml:id="i-YA5onP6oppjuz6m9deaxT2" type="submission">
           <date when="1996-06-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LG6pNiLqxZ5DRPMKe84do4"/>
+        <correspAction xml:id="i-LG6pNiLqxZ5DRPMKe84do4" type="assigned"/>
         <correspContext corresp="i-LG6pNiLqxZ5DRPMKe84do4">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_BO_0038/mot_199596_BO_0038-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_BO_0038/mot_199596_BO_0038-001.pdf"/>
-      <div type="motHeader" xml:id="i-h2vSSbJ4sjvTeGHAwqrWX">
-        <div type="motTitle" xml:id="i-FccaKppmCEmo7X8WL938fk"/>
-        <div type="motSubmissionInfo" xml:id="i-2gHWEkHjWdCS97NBLgHh91"/>
+      <div xml:id="i-h2vSSbJ4sjvTeGHAwqrWX" type="motHeader">
+        <div xml:id="i-FccaKppmCEmo7X8WL938fk" type="motTitle"/>
+        <div xml:id="i-2gHWEkHjWdCS97NBLgHh91" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WSzz4ZytrWLJo3t1nSeeSE">
+      <div xml:id="i-WSzz4ZytrWLJo3t1nSeeSE" type="motBody">
         <div xml:id="i-RL7xuBuzLHto1Gx3uULouY">
           <p xml:id="i-6VfhjDHvmqZmzqgWmTdUBU">
             1995/96 Bo38 Bo34-38
@@ -253,8 +253,11 @@
             regeringen till känna vad i motionen anförts under rubriken Den
             regionala ansvarsfördelningen m m. — ärendets fortsatta hantering.
           </p>
-          <p xml:id="i-XDxLjnAsQ768v8DnQc6Jyr">
-            Stockholm den 12 juni 1996 Per Lager (mp)
+          <p xml:id="i-XDxLjnAsQ768v8DnQc6Jyr" type="date">
+            Stockholm den 12 juni 1996
+          </p>
+          <p type="signatureBlock" id="i-W2EhrY1za1v49EUmqbSeFg">
+            Per Lager (mp)
           </p>
           <p xml:id="i-BFsUJ3sDyVYAr2MnBWQCPa">
             Bodil Francke Ohlsson (mp) Barbro Johansson (mp)

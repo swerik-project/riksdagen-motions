@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-TU-00076">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-AtvKBXC4FZbodCNyRko9RA</idno>
-            <name>Lena Klevenås </name>
+            <name>Lena Klevenås</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-8HiHungHEQFnPqnUhnscP3</idno>
-            <name>Martin Nilsson </name>
+            <name>Martin Nilsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-PdJw8xPqQjV6cBPBbRhsqT</idno>
-            <name>Kent Carlsson </name>
+            <name>Kent Carlsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-PL6yN4PjZR1HfKpi1Czv61"/>
+        <correspAction xml:id="i-PL6yN4PjZR1HfKpi1Czv61" type="basedOn"/>
         <correspContext corresp="i-PL6yN4PjZR1HfKpi1Czv61">
           <ref>Proposition 1992/93:176</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-8HiHungHEQFnPqnUhnscP3"/>
           <note type="signatory" corresp="i-PdJw8xPqQjV6cBPBbRhsqT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QT7oWRFpmYLM7gMcez3mLd">
+        <correspAction xml:id="i-QT7oWRFpmYLM7gMcez3mLd" type="referral">
           <date when="1993-03-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FMuvHyF8V3ZZW6RMgy5HYX">
+        <correspAction xml:id="i-FMuvHyF8V3ZZW6RMgy5HYX" type="dismissal">
           <date when="1993-03-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5qenwjwU2MRZJVPzUeGZS5">
+        <correspAction xml:id="i-5qenwjwU2MRZJVPzUeGZS5" type="submission">
           <date when="1993-03-23"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PQYvyRdu8QxeFgjLffSTfk">
+        <correspAction xml:id="i-PQYvyRdu8QxeFgjLffSTfk" type="referral">
           <date when="1993-03-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-M3FmYGzQz6psm2HrBnHXWu">
+        <correspAction xml:id="i-M3FmYGzQz6psm2HrBnHXWu" type="dismissal">
           <date when="1993-03-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LBZvTkhRFzVhg5DBDYcdxB">
+        <correspAction xml:id="i-LBZvTkhRFzVhg5DBDYcdxB" type="submission">
           <date when="1993-03-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8X4Q1gS2Y61hTAmBxD8Sdk"/>
+        <correspAction xml:id="i-8X4Q1gS2Y61hTAmBxD8Sdk" type="assigned"/>
         <correspContext corresp="i-8X4Q1gS2Y61hTAmBxD8Sdk">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_TU_76/mot_199293_TU_76-001.pdf"/>
-      <div type="motHeader" xml:id="i-NNfL4k1jqJ1ehM8fXzBJDp">
-        <div type="motTitle" xml:id="i-7RCBDj3wxZrDdUzh6AexwE"/>
-        <div type="motSubmissionInfo" xml:id="i-UDk1kvbZgmbR7MSod6Hmku"/>
+      <div xml:id="i-NNfL4k1jqJ1ehM8fXzBJDp" type="motHeader">
+        <div xml:id="i-7RCBDj3wxZrDdUzh6AexwE" type="motTitle"/>
+        <div xml:id="i-UDk1kvbZgmbR7MSod6Hmku" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Uv6nNi9kz8YsKMVicZVvcV">
+      <div xml:id="i-Uv6nNi9kz8YsKMVicZVvcV" type="motBody">
         <div xml:id="i-FuFQNE8uRndgJpuGpEduzw">
           <p xml:id="i-FQoXUdCsvpUy8XRkjrmNZP">
             Motion till riksdagen 1992/93:T76
@@ -174,8 +174,11 @@
             tionen anförts om att i stället tidigarelägga utbyggnaden av
             Bottniaba- nan från Kramfors och norrut.
           </p>
-          <p xml:id="i-MSKUC4vzn86hfE8wRwfKxU">
-            Stockholm den 23 mars 1993 Lena Klevenås (s)
+          <p xml:id="i-MSKUC4vzn86hfE8wRwfKxU" type="date">
+            Stockholm den 23 mars 1993
+          </p>
+          <p type="signatureBlock" id="i-M2H1tsFw84fJYyxiFaNWo9">
+            Lena Klevenås (s)
           </p>
           <p xml:id="i-Mg9Nbezz99p7P9Tijzbri8">
             Martin Nilsson (s) Kent Carlsson (s)

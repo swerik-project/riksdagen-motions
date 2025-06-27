@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-SoU-00005">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-3p3w5Vw2i74gEMeqzABeEG</idno>
-            <name>Lars Elinderson </name>
+            <name>Lars Elinderson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VEEycwRw3tnsJ626DaBbUv"/>
+        <correspAction xml:id="i-VEEycwRw3tnsJ626DaBbUv" type="basedOn"/>
         <correspContext corresp="i-VEEycwRw3tnsJ626DaBbUv">
           <ref>Proposition 1998/99:134</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-3p3w5Vw2i74gEMeqzABeEG"/>
           <note type="signatory" corresp="i-3p3w5Vw2i74gEMeqzABeEG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AYkUMz4qUppAXK5hQYfxSB">
+        <correspAction xml:id="i-AYkUMz4qUppAXK5hQYfxSB" type="referral">
           <date when="1999-09-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FsUgAEWTQLYU9kyAfbMA3J">
+        <correspAction xml:id="i-FsUgAEWTQLYU9kyAfbMA3J" type="dismissal">
           <date when="1999-09-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EtudCtFVi7YfXbJv9skQ5x">
+        <correspAction xml:id="i-EtudCtFVi7YfXbJv9skQ5x" type="submission">
           <date when="1999-09-17"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-338P5Eveuzsh8ZncMhJDCo">
+        <correspAction xml:id="i-338P5Eveuzsh8ZncMhJDCo" type="referral">
           <date when="1999-09-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FDVadE61VWyn5mFVDZveBe">
+        <correspAction xml:id="i-FDVadE61VWyn5mFVDZveBe" type="dismissal">
           <date when="1999-09-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UkYZyeq82AT1jRnCQ5J4Am">
+        <correspAction xml:id="i-UkYZyeq82AT1jRnCQ5J4Am" type="submission">
           <date when="1999-09-17"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2QLZ5MrQogjNYCxvrL97ZP"/>
+        <correspAction xml:id="i-2QLZ5MrQogjNYCxvrL97ZP" type="assigned"/>
         <correspContext corresp="i-2QLZ5MrQogjNYCxvrL97ZP">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_So_0005/mot_199900_So_0005-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3m7dRnwjHysCXNrKEm4r7M">
-        <div type="motTitle" xml:id="i-RH1igR3wfegkDhL5Smopu"/>
-        <div type="motSubmissionInfo" xml:id="i-DdJtsdNCkynnmrV2pcuhs3"/>
+      <div xml:id="i-3m7dRnwjHysCXNrKEm4r7M" type="motHeader">
+        <div xml:id="i-RH1igR3wfegkDhL5Smopu" type="motTitle"/>
+        <div xml:id="i-DdJtsdNCkynnmrV2pcuhs3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-P4GtFC19GeiyK5WWFs6QzV">
+      <div xml:id="i-P4GtFC19GeiyK5WWFs6QzV" type="motBody">
         <div xml:id="i-B1MTwJsmmXoUsitAvbtAqn">
           <p xml:id="i-5GUabT8SXY5nskAq2PFsYa">
             1999/2000 mnr: So5 pnr: m029
@@ -135,10 +135,12 @@
             Med hänvisning till det anförda hemställs att riksdagen som sin
             mening ger regeringen till känna vad i motionen anförts om att
             parti- och detaljhandeln skall få möjlighet att erbjuda provsmakning
-            av alkohol till enskilda konsumenter. Stockholm den 17 september
-            1999
+            av alkohol till enskilda konsumenter.
           </p>
-          <p xml:id="i-SSonDFkRLTeJcDKg2gbMgh">
+          <p type="date" id="i-6Y7UnTb5nH2EGhkwEAgovT">
+            Stockholm den 17 september 1999
+          </p>
+          <p xml:id="i-SSonDFkRLTeJcDKg2gbMgh" type="signatureBlock">
             Lars Elinderson (m)
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_So_0005/mot_199900_So_0005-0002.pdf"/>

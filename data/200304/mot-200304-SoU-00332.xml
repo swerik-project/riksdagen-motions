@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00332">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-D8xu2BVgh2is3ZvUkNGdq3">
           <note type="signatory" corresp="i-MQxtRkaKY7fRMrw7gnXKsf"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-gRxgUtKTH4jgSQXhtd1Ci">
+        <correspAction xml:id="i-gRxgUtKTH4jgSQXhtd1Ci" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PvyuR4tN3uAp8WwywiMYxu">
+        <correspAction xml:id="i-PvyuR4tN3uAp8WwywiMYxu" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LfBP6PWj3iqeojpUVNqKP3">
+        <correspAction xml:id="i-LfBP6PWj3iqeojpUVNqKP3" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2f25Tc4hiS8MvNBgSquPLJ"/>
+        <correspAction xml:id="i-2f25Tc4hiS8MvNBgSquPLJ" type="assigned"/>
         <correspContext corresp="i-2f25Tc4hiS8MvNBgSquPLJ">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0332/mot_200304_So_0332-0001.pdf"/>
-      <div type="motHeader" xml:id="i-56179zLocWe6krbuDMA21F">
-        <div type="motTitle" xml:id="i-EtSRnkdkudnAsiL8q3oLjd"/>
-        <div type="motSubmissionInfo" xml:id="i-VH7cV1umkHx3eQkRhMkRA"/>
+      <div xml:id="i-56179zLocWe6krbuDMA21F" type="motHeader">
+        <div xml:id="i-EtSRnkdkudnAsiL8q3oLjd" type="motTitle"/>
+        <div xml:id="i-VH7cV1umkHx3eQkRhMkRA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-48ysASLg9ZwUXFqEjExrWb">
+      <div xml:id="i-48ysASLg9ZwUXFqEjExrWb" type="motBody">
         <div xml:id="i-721FVmQQS2EJUxQgiPqFbW">
           <p xml:id="i-CL2dJtJbLWdvJMzbFtKydo">
             2003/04 mnr: S0332 pnr: s27026
@@ -148,8 +148,11 @@
             ett stort steg på vägen i likställandet av sjukvårdens patienter
             och socialtjänstens klienter.
           </p>
-          <p xml:id="i-43N1JjuWPwW3Y2rKWuakSa">
-            Stockholm den 30 september 2003 Ulla Wester (s)
+          <p xml:id="i-43N1JjuWPwW3Y2rKWuakSa" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-8DgBWgpbN3UtBJiqbErjKG">
+            Ulla Wester (s)
           </p>
         </div>
       </div>

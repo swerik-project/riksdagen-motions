@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-BoU-00034">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-NhqvviMR3JAxbwn9T7i1dL</idno>
-            <name>Claes-Göran Brandin </name>
+            <name>Claes-Göran Brandin</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-RGj4aaJKmfmZCHTthDPPHq"/>
+        <correspAction xml:id="i-RGj4aaJKmfmZCHTthDPPHq" type="basedOn"/>
         <correspContext corresp="i-RGj4aaJKmfmZCHTthDPPHq">
           <ref>Proposition 1996/97:108</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-NhqvviMR3JAxbwn9T7i1dL"/>
           <note type="signatory" corresp="i-NhqvviMR3JAxbwn9T7i1dL"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PYmAP6ZadM7jy2Uume1ZBH">
+        <correspAction xml:id="i-PYmAP6ZadM7jy2Uume1ZBH" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NFtCLNDytWSWJDUzMMsdTF">
+        <correspAction xml:id="i-NFtCLNDytWSWJDUzMMsdTF" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LCWoREQirHeLE8a99hZUrP">
+        <correspAction xml:id="i-LCWoREQirHeLE8a99hZUrP" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Wz9ZUjGQpFSeGNnJW7EZ2C">
+        <correspAction xml:id="i-Wz9ZUjGQpFSeGNnJW7EZ2C" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-xhLqrYNweL2UsVDCz3oha">
+        <correspAction xml:id="i-xhLqrYNweL2UsVDCz3oha" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BViVJ5cfVzQDpPM9rVFhuM">
+        <correspAction xml:id="i-BViVJ5cfVzQDpPM9rVFhuM" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2UtXap3CdmjxT7fCUTA46G"/>
+        <correspAction xml:id="i-2UtXap3CdmjxT7fCUTA46G" type="assigned"/>
         <correspContext corresp="i-2UtXap3CdmjxT7fCUTA46G">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_BO_0034/mot_199697_BO_0034-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5i9zAY55LoEfCC4ndqdmuQ">
-        <div type="motTitle" xml:id="i-GdDSby6SRSj2GUXgWe7JBY"/>
-        <div type="motSubmissionInfo" xml:id="i-QyfWbpXw4spV3RbU15uRiD"/>
+      <div xml:id="i-5i9zAY55LoEfCC4ndqdmuQ" type="motHeader">
+        <div xml:id="i-GdDSby6SRSj2GUXgWe7JBY" type="motTitle"/>
+        <div xml:id="i-QyfWbpXw4spV3RbU15uRiD" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3iT7Rz29f743ca3yyiupnu">
+      <div xml:id="i-3iT7Rz29f743ca3yyiupnu" type="motBody">
         <div xml:id="i-JAzk5HYvKbmzvmpfnFqZ4M">
           <p xml:id="i-RwTfWRyNr4NReU1Fn9CSDT">
             1996/97 Bo34 Bo20-36
@@ -114,10 +114,12 @@
           </p>
           <p xml:id="i-K4f9vFzm97B1EheUjtm7kM">
             Med hänvisning till det anförda hemställs att riksdagen beslutar
-            att namnet på det nya länet skall vara Göteborgs län. Stockholm
-            den 3 april 1997
+            att namnet på det nya länet skall vara Göteborgs län.
           </p>
-          <p xml:id="i-Gf5B3QCRgdcdLsFxSpqj1A">
+          <p type="date" id="i-EwuD6MpeWdNNDZ4NzrgSkT">
+            Stockholm den 3 april 1997
+          </p>
+          <p xml:id="i-Gf5B3QCRgdcdLsFxSpqj1A" type="signatureBlock">
             Claes-Göran Brandin (s)
           </p>
         </div>

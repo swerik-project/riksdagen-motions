@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-SfU-00606">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="woman">
             <idno>i-Ha5uZXGHudhTidCuW8UjXN</idno>
-            <name>Ragnwi Marcelind </name>
+            <name>Ragnwi Marcelind</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-SmQxY46smWu5awEQ2oGr4n</idno>
-            <name>Ingemar Vänerlöv </name>
+            <name>Ingemar Vänerlöv</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
           <note type="signatory" corresp="i-SmQxY46smWu5awEQ2oGr4n"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-X6RZYQGfJVx9aD3kSbZScS">
+        <correspAction xml:id="i-X6RZYQGfJVx9aD3kSbZScS" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LXcKE24wrrb7u5rDMRmkfv">
+        <correspAction xml:id="i-LXcKE24wrrb7u5rDMRmkfv" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UFXmqEzPRSWCSCCRBPVmAV">
+        <correspAction xml:id="i-UFXmqEzPRSWCSCCRBPVmAV" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-SRahPvMnRMyCi5oQ94rkb3">
+        <correspAction xml:id="i-SRahPvMnRMyCi5oQ94rkb3" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EidHzVwoHMWQtURzvL3dkr">
+        <correspAction xml:id="i-EidHzVwoHMWQtURzvL3dkr" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-USzV7uM96ym51eMv9bz46g">
+        <correspAction xml:id="i-USzV7uM96ym51eMv9bz46g" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SVAg6bq5dkKUD3MCxWYtEc"/>
+        <correspAction xml:id="i-SVAg6bq5dkKUD3MCxWYtEc" type="assigned"/>
         <correspContext corresp="i-SVAg6bq5dkKUD3MCxWYtEc">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Sf_0606/mot_199900_Sf_0606-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KbRzmVwAvYLQFjf7LAn29Y">
-        <div type="motTitle" xml:id="i-RxwLooXs7a2UGTB8m6pFSS"/>
-        <div type="motSubmissionInfo" xml:id="i-YEkpxGWh5BVKPvKPcpz8gQ"/>
+      <div xml:id="i-KbRzmVwAvYLQFjf7LAn29Y" type="motHeader">
+        <div xml:id="i-RxwLooXs7a2UGTB8m6pFSS" type="motTitle"/>
+        <div xml:id="i-YEkpxGWh5BVKPvKPcpz8gQ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-T4um9uGYhntXtgZC4BU4dm">
+      <div xml:id="i-T4um9uGYhntXtgZC4BU4dm" type="motBody">
         <div xml:id="i-WUADaBVBGv4J3DxUBuMFbV">
           <p xml:id="i-XNkq7we7x9kRmQRGyFYE62">
             1999/2000 mnr: Sf606 pnr: kd396
@@ -152,8 +152,11 @@
             likhetsprincipen skall gälla.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Sf_0606/mot_199900_Sf_0606-0002.pdf"/>
-          <p xml:id="i-SbW9WJGbQFWwBur759UkHn">
-            Stockholm den 30 september 1999 Mot. 1999/2000
+          <p xml:id="i-SbW9WJGbQFWwBur759UkHn" type="date">
+            Stockholm den 30 september 1999
+          </p>
+          <p type="signatureBlock" id="i-LvqWbj8S39a8JmjjCpbQQx">
+            Mot. 1999/2000
           </p>
           <p xml:id="i-38fELXCLY7pmowUwVD9K5m">
             Sf606 Ragnwi Marcelind (kd) Ingemar Vänerlöv (kd)

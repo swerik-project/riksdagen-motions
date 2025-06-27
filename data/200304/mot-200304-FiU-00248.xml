@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00248">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-TFZzyAa2aayCigAGuKJL9m">
           <note type="signatory" corresp="i-PsSysCdjrkuVBAo163T4KM"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SPhYTfFiaN9NLVWmNxX6Dn">
+        <correspAction xml:id="i-SPhYTfFiaN9NLVWmNxX6Dn" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EwMPjsKR3xvafADBzAocCu">
+        <correspAction xml:id="i-EwMPjsKR3xvafADBzAocCu" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Q3JiwbQG8F7fUqGkq1YhbH">
+        <correspAction xml:id="i-Q3JiwbQG8F7fUqGkq1YhbH" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RdVj5r5JVrAMFMe3Zbd8zA"/>
+        <correspAction xml:id="i-RdVj5r5JVrAMFMe3Zbd8zA" type="assigned"/>
         <correspContext corresp="i-RdVj5r5JVrAMFMe3Zbd8zA">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fi_0248/mot_200304_Fi_0248-0001.pdf"/>
-      <div type="motHeader" xml:id="i-MTufhH9TVFGsVohF1NqUVt">
-        <div type="motTitle" xml:id="i-W4cVe5DWRAM2mhbyAnWx9r"/>
-        <div type="motSubmissionInfo" xml:id="i-3W8nzeQWuFatAMBUn6K23T"/>
+      <div xml:id="i-MTufhH9TVFGsVohF1NqUVt" type="motHeader">
+        <div xml:id="i-W4cVe5DWRAM2mhbyAnWx9r" type="motTitle"/>
+        <div xml:id="i-3W8nzeQWuFatAMBUn6K23T" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WVNsw1J7kCre3MsSa8dSgM">
+      <div xml:id="i-WVNsw1J7kCre3MsSa8dSgM" type="motBody">
         <div xml:id="i-7JnDMon1QvrGAFPYLdiucp">
           <p xml:id="i-5DXgyD8kePjEhEaoLpSiev">
             2003/04 mnr: Fi248 pnr: kd851
@@ -111,8 +111,11 @@
             Regeringen borde nu följa riksdagens beställning och bereda plats
             för ett nytt andra steg i avvecklingen av reklamskatten.
           </p>
-          <p xml:id="i-V5FFef3Xicc9owg8Z9v6P2">
-            Stockholm den 5 oktober 2003 Johnny Gylling (kd)
+          <p xml:id="i-V5FFef3Xicc9owg8Z9v6P2" type="date">
+            Stockholm den 5 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-UoWKRrvER9tcrNuNmMxGR4">
+            Johnny Gylling (kd)
           </p>
         </div>
       </div>

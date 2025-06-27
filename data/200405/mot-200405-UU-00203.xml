@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00203">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-F8hqxUeWbXqDEW7gDdUWvm">
           <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LFPpWLjpMoxwr6SAz56jME">
+        <correspAction xml:id="i-LFPpWLjpMoxwr6SAz56jME" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QTrnAGCAHLkXPvsWAgEuNB">
+        <correspAction xml:id="i-QTrnAGCAHLkXPvsWAgEuNB" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4hhdRm1DEvUkFLSpvs5Ah3">
+        <correspAction xml:id="i-4hhdRm1DEvUkFLSpvs5Ah3" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2VvYCxjREyo49dzpdHyCJM"/>
+        <correspAction xml:id="i-2VvYCxjREyo49dzpdHyCJM" type="assigned"/>
         <correspContext corresp="i-2VvYCxjREyo49dzpdHyCJM">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_203/mot_200405_U_203-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KekNdkwuFoVDidPAL8orr3">
-        <div type="motTitle" xml:id="i-DvHGhoSNuu5WoAaYtggoGc"/>
-        <div type="motSubmissionInfo" xml:id="i-Awy7JxESud2697aW6ENH2j"/>
+      <div xml:id="i-KekNdkwuFoVDidPAL8orr3" type="motHeader">
+        <div xml:id="i-DvHGhoSNuu5WoAaYtggoGc" type="motTitle"/>
+        <div xml:id="i-Awy7JxESud2697aW6ENH2j" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VpJGrvNDbjHLyMM4KD3Fqh">
+      <div xml:id="i-VpJGrvNDbjHLyMM4KD3Fqh" type="motBody">
         <div xml:id="i-X5w7riSJ4tg4xxeuQNLUJB">
           <p xml:id="i-EvrUTdxmwwLDMRK9ZmLiXt">
             2004/05 mnr: U203 pnr: m1169
@@ -211,8 +211,11 @@
             för att respektera folkets vilja försökte Folkrepubliken Kina
             skrämmas.
           </p>
-          <p xml:id="i-3tL6Wkg1bS1UA18myUwHAy">
-            Stockholm den 20 september 2004 Sten Tolgfors (m)
+          <p xml:id="i-3tL6Wkg1bS1UA18myUwHAy" type="date">
+            Stockholm den 20 september 2004
+          </p>
+          <p type="signatureBlock" id="i-6CvJAznzNEyksYAirTv8X1">
+            Sten Tolgfors (m)
           </p>
           <p xml:id="i-GP2EBYyk9qvYGHUMm3cTE4">
             2004/05:U203

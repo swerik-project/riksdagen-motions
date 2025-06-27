@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00324">
   <teiHeader>
     <fileDesc>
@@ -94,16 +94,16 @@
           <note type="signatory" corresp="i-4tAUyrL5FDqt2q3oYkcH9W"/>
           <note type="signatory" corresp="i-KtELEJ9HytY7HFgQExEzLq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UqnSZzUeUE7sDcY2fo1v4r">
+        <correspAction xml:id="i-UqnSZzUeUE7sDcY2fo1v4r" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4HBDYWALQSE9jWzHfyJBMs">
+        <correspAction xml:id="i-4HBDYWALQSE9jWzHfyJBMs" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3BMa8VRtb6PiK3MhcZBeRh">
+        <correspAction xml:id="i-3BMa8VRtb6PiK3MhcZBeRh" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AeyLKQjRs8J7P7nJzaxmHx"/>
+        <correspAction xml:id="i-AeyLKQjRs8J7P7nJzaxmHx" type="assigned"/>
         <correspContext corresp="i-AeyLKQjRs8J7P7nJzaxmHx">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Sk_0324/mot_200203_Sk_0324-0001.pdf"/>
-      <div type="motHeader" xml:id="i-hHQ72gK6X8zGTheBXwXBW">
-        <div type="motTitle" xml:id="i-5sTQRpid4VozQUdRvGanSQ"/>
-        <div type="motSubmissionInfo" xml:id="i-7kx1LjspT4J3Qh6ncbpMH3"/>
+      <div xml:id="i-hHQ72gK6X8zGTheBXwXBW" type="motHeader">
+        <div xml:id="i-5sTQRpid4VozQUdRvGanSQ" type="motTitle"/>
+        <div xml:id="i-7kx1LjspT4J3Qh6ncbpMH3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KV3n4grp4e1Vo6L5wKvBWd">
+      <div xml:id="i-KV3n4grp4e1Vo6L5wKvBWd" type="motBody">
         <div xml:id="i-FwFfuqWYntXEyJAD1bdzvU">
           <p xml:id="i-AfGVjp2FfgRfdVphyZo8J">
             2002/03 mnr: Sk324 pnr: -m915
@@ -205,8 +205,11 @@
             beskattningen av småföretagarna är av stor vikt för småföretagares
             vilja att investera i sina småföretag.
           </p>
-          <p xml:id="i-SsLu7NSMCt3R2f8YoHG1wW">
-            Stockholm den 20 oktober 2002 Holger Gustafsson (kd)
+          <p xml:id="i-SsLu7NSMCt3R2f8YoHG1wW" type="date">
+            Stockholm den 20 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-XfQg8thYCTWWyRLe88XX27">
+            Holger Gustafsson (kd)
           </p>
           <p xml:id="i-AJApYZA7CHeDhgavs5aa9f">
             Jeppe Johnsson (m) Runar Patriksson (fp) Annika Qarlsson (c)

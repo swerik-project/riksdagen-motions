@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00366">
   <teiHeader>
     <fileDesc>
@@ -79,16 +79,16 @@
           <note type="signatory" corresp="i-GE8V8xQLUeUXqQYs9agnuG"/>
           <note type="signatory" corresp="i-Qa1ZufD1xJDN43bJxjLRPB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HwP8qcYs5KcmwKSLr7K6xM">
+        <correspAction xml:id="i-HwP8qcYs5KcmwKSLr7K6xM" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2vFjqsn2Px5scr8gBzEg23">
+        <correspAction xml:id="i-2vFjqsn2Px5scr8gBzEg23" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9a378ntzLJNbwvsjJ7QWkj">
+        <correspAction xml:id="i-9a378ntzLJNbwvsjJ7QWkj" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-D3YtwJDr6a8Xyh3GfY5tHK"/>
+        <correspAction xml:id="i-D3YtwJDr6a8Xyh3GfY5tHK" type="assigned"/>
         <correspContext corresp="i-D3YtwJDr6a8Xyh3GfY5tHK">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -103,11 +103,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_366/mot_200506_Ju_366-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CmjhXaSiwrGFvcDSjZGaaA">
-        <div type="motTitle" xml:id="i-5J7QhzaZomWWD5VZGQK1C2"/>
-        <div type="motSubmissionInfo" xml:id="i-Wez7f8LR5LoFyaq3tcAzYp"/>
+      <div xml:id="i-CmjhXaSiwrGFvcDSjZGaaA" type="motHeader">
+        <div xml:id="i-5J7QhzaZomWWD5VZGQK1C2" type="motTitle"/>
+        <div xml:id="i-Wez7f8LR5LoFyaq3tcAzYp" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LynT91aaNcxEY5hMFNEXQp">
+      <div xml:id="i-LynT91aaNcxEY5hMFNEXQp" type="motBody">
         <div xml:id="i-T5qvgNF15VCHaDmU1q1TiN">
           <p xml:id="i-GDkBUNp27dokHt2vxr3FQv">
             2005/06
@@ -567,8 +567,11 @@
             att prövas för permission med fotboja.
           </p>
           <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_366/mot_200506_Ju_366-0007.pdf"/>
-          <p xml:id="i-TaxBLYrhrRXhXnaDxQd3us">
-            Stockholm den 27 september 2005 Alice Åström (v)
+          <p xml:id="i-TaxBLYrhrRXhXnaDxQd3us" type="date">
+            Stockholm den 27 september 2005
+          </p>
+          <p type="signatureBlock" id="i-LfAgGe2pcQ5Cc7Gr5u18ji">
+            Alice Åström (v)
           </p>
           <p xml:id="i-Srwy5Tc6R5NjLPYyZjDptZ">
             Rossana Dinamarca (v) Siv Holma (v) Tasso Stafilidis (v)

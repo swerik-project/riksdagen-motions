@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-FiU-00050">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="woman">
             <idno>i-J94Ct1wVwpHWNRN9LatQ6F</idno>
-            <name>Ulla-Britt Hagström </name>
+            <name>Ulla-Britt Hagström</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-WJM6edqhGfBK1ijhNxfgoj</idno>
-            <name>Chatrine Pålsson </name>
+            <name>Chatrine Pålsson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-U3sNkNJAgAcoYmy1xiad4u"/>
+        <correspAction xml:id="i-U3sNkNJAgAcoYmy1xiad4u" type="basedOn"/>
         <correspContext corresp="i-U3sNkNJAgAcoYmy1xiad4u">
           <ref>Regeringsskrivelse 1994/95:220</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-J94Ct1wVwpHWNRN9LatQ6F"/>
           <note type="signatory" corresp="i-WJM6edqhGfBK1ijhNxfgoj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UT9Gk5uFHwtoCEHJjQ7axt">
+        <correspAction xml:id="i-UT9Gk5uFHwtoCEHJjQ7axt" type="referral">
           <date when="1995-05-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4bpVrMVNkVTe7iA1id6iop">
+        <correspAction xml:id="i-4bpVrMVNkVTe7iA1id6iop" type="dismissal">
           <date when="1995-05-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-W8e5zZY58SAcjTQBHdqKTx">
+        <correspAction xml:id="i-W8e5zZY58SAcjTQBHdqKTx" type="submission">
           <date when="1995-05-10"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-HZUr8RnWCFXrW5rhigKabb">
+        <correspAction xml:id="i-HZUr8RnWCFXrW5rhigKabb" type="referral">
           <date when="1995-05-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EnsSVU74C1LPcxK6jvqStW">
+        <correspAction xml:id="i-EnsSVU74C1LPcxK6jvqStW" type="dismissal">
           <date when="1995-05-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EhMbaSVmrhhr8y17adnYXF">
+        <correspAction xml:id="i-EhMbaSVmrhhr8y17adnYXF" type="submission">
           <date when="1995-05-10"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QgsbK6A2CHt6icak3QmjAJ"/>
+        <correspAction xml:id="i-QgsbK6A2CHt6icak3QmjAJ" type="assigned"/>
         <correspContext corresp="i-QgsbK6A2CHt6icak3QmjAJ">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_FiU_50/mot_199495_FiU_50-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-2jgWXpvPWNo6etWxM49avn">
-        <div type="motTitle" xml:id="i-JESnjNjGDykAGBZzpNYtXm"/>
-        <div type="motSubmissionInfo" xml:id="i-MA7qG3XTj632HxPnL9KV6T"/>
+      <div xml:id="i-2jgWXpvPWNo6etWxM49avn" type="motHeader">
+        <div xml:id="i-JESnjNjGDykAGBZzpNYtXm" type="motTitle"/>
+        <div xml:id="i-MA7qG3XTj632HxPnL9KV6T" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7VJrLSju6FmcAtYQvt699F">
+      <div xml:id="i-7VJrLSju6FmcAtYQvt699F" type="motBody">
         <div xml:id="i-2WSBd4uN3HeFbKwtrhW6Fs">
           <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_FiU_50/mot_199495_FiU_50-001.pdf"/>
           <p xml:id="i-DmTrWwVqKtf1zs5iZGS3pb">
@@ -327,9 +327,12 @@
             Med hänvisning till det anförda hemställs att riksdagen som sin
             mening ger regeringen till känna vad i motio- nen anförts om behovet
             av en utredning i syfte att vidga grundlagsskyd- det för den kommunala
-            självstyrelsen. Stockholm den 10 maj 1995
+            självstyrelsen.
           </p>
-          <p xml:id="i-7bdsXWGiM9LkJ97RUxsdoC">
+          <p type="date" id="i-8beR7tMQ49muosMWqP6r7e">
+            Stockholm den 10 maj 1995
+          </p>
+          <p xml:id="i-7bdsXWGiM9LkJ97RUxsdoC" type="signatureBlock">
             Ulla-Britt Hagström (kds) Chatrine Pålsson (kds)
           </p>
           <p xml:id="i-9hTVqqCveJjakTdmrvig6c">

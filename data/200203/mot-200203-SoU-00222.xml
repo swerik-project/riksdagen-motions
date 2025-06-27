@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00222">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-J2F63fdxUFAAeBTYXLX7MZ"/>
           <note type="signatory" corresp="i-YEdxJPN8cJMwnqfd9tHmTD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LQLq96EqrRZ5GCxWKWNeq6">
+        <correspAction xml:id="i-LQLq96EqrRZ5GCxWKWNeq6" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KMmXPGsx4K4AydX6dVoeDi">
+        <correspAction xml:id="i-KMmXPGsx4K4AydX6dVoeDi" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-V9ipnHBdB4axocedQ5zLsq">
+        <correspAction xml:id="i-V9ipnHBdB4axocedQ5zLsq" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Niv1zAnQVVhcnBh5w9ar4n"/>
+        <correspAction xml:id="i-Niv1zAnQVVhcnBh5w9ar4n" type="assigned"/>
         <correspContext corresp="i-Niv1zAnQVVhcnBh5w9ar4n">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_So_0222/mot_200203_So_0222-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XKAUVFuKTDdwFpZz21FVTS">
-        <div type="motTitle" xml:id="i-Y9GVv8EotB5DLoEfdTbVBd"/>
-        <div type="motSubmissionInfo" xml:id="i-J84i1zA2iNdGr1XWzmM1vW"/>
+      <div xml:id="i-XKAUVFuKTDdwFpZz21FVTS" type="motHeader">
+        <div xml:id="i-Y9GVv8EotB5DLoEfdTbVBd" type="motTitle"/>
+        <div xml:id="i-J84i1zA2iNdGr1XWzmM1vW" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-T8MwXDbuzagogiUVWtgU1f">
+      <div xml:id="i-T8MwXDbuzagogiUVWtgU1f" type="motBody">
         <div xml:id="i-HTdd5rzrmgYP8tqFH6zBxn">
           <p xml:id="i-UEwuUtKfLxFiUcMmMnZQLn">
             12
@@ -170,8 +170,11 @@
             blir aldrig uppmärksammade. Patienternas tillgång till tidig diagnos
             och behandling måste förbättras.
           </p>
-          <p xml:id="i-6jN8eCYT7aLP3eeE89iigj">
-            Stockholm den 15 oktober 2002 Anita Sidén (m) Ulla Löfgren (m)
+          <p xml:id="i-6jN8eCYT7aLP3eeE89iigj" type="date">
+            Stockholm den 15 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-KaV4GzJ699pxWrBS8fkWjC">
+            Anita Sidén (m) Ulla Löfgren (m)
           </p>
         </div>
       </div>

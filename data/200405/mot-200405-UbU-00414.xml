@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00414">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-Q5smfAWD9kCwe7tQviBPMn"/>
           <note type="signatory" corresp="i-D5W4KMbqzfAEfRXajZLt7z"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AyUK16A6JWTRznfAv8Kdro">
+        <correspAction xml:id="i-AyUK16A6JWTRznfAv8Kdro" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6NJWLcdJJaGnHZyFnPFnW9">
+        <correspAction xml:id="i-6NJWLcdJJaGnHZyFnPFnW9" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UCnxhtfeFhCCHvekyxPh4S">
+        <correspAction xml:id="i-UCnxhtfeFhCCHvekyxPh4S" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RGaHkNpnHi3hunc7BBZKPq"/>
+        <correspAction xml:id="i-RGaHkNpnHi3hunc7BBZKPq" type="assigned"/>
         <correspContext corresp="i-RGaHkNpnHi3hunc7BBZKPq">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_414/mot_200405_Ub_414-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JmXcN13tLreb2MWhjVfLPw">
-        <div type="motTitle" xml:id="i-L5Hk2jZXMnSNWUfDQaC31w"/>
-        <div type="motSubmissionInfo" xml:id="i-A9kAz6Ufy5Ezr9vHsRxGnB"/>
+      <div xml:id="i-JmXcN13tLreb2MWhjVfLPw" type="motHeader">
+        <div xml:id="i-L5Hk2jZXMnSNWUfDQaC31w" type="motTitle"/>
+        <div xml:id="i-A9kAz6Ufy5Ezr9vHsRxGnB" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-B65tpAWn1jRezPa87zoWkh">
+      <div xml:id="i-B65tpAWn1jRezPa87zoWkh" type="motBody">
         <div xml:id="i-GjGPgoPi4nynYYvjga9fWF">
           <p xml:id="i-YPj9QhdWTTGhnUmDAWJp71">
             2004/05 mnr: Ub414 pnr: s45203
@@ -114,9 +114,11 @@
             i vårt land skiljer sig starkt mellan olika landsändar, borde
             lagen om kommunernas ansvar för elevernas skolresor ses över.
           </p>
-          <p xml:id="i-TKs7krWSoauacwB1xTNDjm">
-            Stockholm den 30 september 2004 Carin Lundberg (s) Lars Lilja
-            (s)
+          <p xml:id="i-TKs7krWSoauacwB1xTNDjm" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-4U8iC1ykK8PgapRmvAXE87">
+            Carin Lundberg (s) Lars Lilja (s)
           </p>
         </div>
       </div>

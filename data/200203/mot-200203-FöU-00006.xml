@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FöU-00006">
   <teiHeader>
     <fileDesc>
@@ -90,7 +90,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-fTMrBEFLtR1Fu3eHd7QoL"/>
+        <correspAction xml:id="i-fTMrBEFLtR1Fu3eHd7QoL" type="basedOn"/>
         <correspContext corresp="i-fTMrBEFLtR1Fu3eHd7QoL">
           <ref>Proposition 2002/03:119</ref>
         </correspContext>
@@ -106,16 +106,16 @@
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
           <note type="signatory" corresp="i-CvmaDbz8ueGm8meSVWj6vr"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Sa9Ypnejemysr9oTEzB1nY">
+        <correspAction xml:id="i-Sa9Ypnejemysr9oTEzB1nY" type="referral">
           <date when="2003-06-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-74t16aTb47C2ZWmienZ9ph">
+        <correspAction xml:id="i-74t16aTb47C2ZWmienZ9ph" type="dismissal">
           <date when="2003-06-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7Xa1EQoKT2gn5BejdjiuzU">
+        <correspAction xml:id="i-7Xa1EQoKT2gn5BejdjiuzU" type="submission">
           <date when="2003-06-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3oYMmKTRhRYSFTFhi5Jza5"/>
+        <correspAction xml:id="i-3oYMmKTRhRYSFTFhi5Jza5" type="assigned"/>
         <correspContext corresp="i-3oYMmKTRhRYSFTFhi5Jza5">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -130,11 +130,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fö_0006/mot_200203_Fö_0006-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EbXZ1KqVK5M5oV9kdpQapV">
-        <div type="motTitle" xml:id="i-AaUfu5yCxijovbpMXt2fkw"/>
-        <div type="motSubmissionInfo" xml:id="i-TwafbbxH8LZmb2QUFyXJc7"/>
+      <div xml:id="i-EbXZ1KqVK5M5oV9kdpQapV" type="motHeader">
+        <div xml:id="i-AaUfu5yCxijovbpMXt2fkw" type="motTitle"/>
+        <div xml:id="i-TwafbbxH8LZmb2QUFyXJc7" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2u5U7r6mSnuVNUbNnCLeA9">
+      <div xml:id="i-2u5U7r6mSnuVNUbNnCLeA9" type="motBody">
         <div xml:id="i-FE2N6My9uZWBFnCLQr8QMi">
           <p xml:id="i-PaVRNxqpK3zHHjagSXhUs2">
             2002/03 mnr: Fö6 pnr: kd158
@@ -217,8 +217,11 @@
           <p xml:id="i-7RYmV4K1uSYQrgfEHb9X5T">
             denna åsikt.
           </p>
-          <p xml:id="i-C5EXPcMEKJi2VTuvZG8zeU">
-            Stockholm den 11 juni 2003 Erling Wälivaara (kd)
+          <p xml:id="i-C5EXPcMEKJi2VTuvZG8zeU" type="date">
+            Stockholm den 11 juni 2003
+          </p>
+          <p type="signatureBlock" id="i-FGnMmv1McS1pxfDHMw3SLp">
+            Erling Wälivaara (kd)
           </p>
           <p xml:id="i-LLF4YC69fKuyTmsxNig5XU">
             Else-Marie Lindgren (kd) Holger Gustafsson (kd) Rosita Runegrund

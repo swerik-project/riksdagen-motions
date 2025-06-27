@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-KU-00272">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-LutTcg2m9spsoVaK7cAQeB</idno>
-            <name>Lars Wegendal </name>
+            <name>Lars Wegendal</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-FL3Tee8NjTSCkq4XGmHcyw</idno>
-            <name>Carina Adolfsson </name>
+            <name>Carina Adolfsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-LutTcg2m9spsoVaK7cAQeB"/>
           <note type="signatory" corresp="i-FL3Tee8NjTSCkq4XGmHcyw"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KhyRtC3iEGnFigTSjYbD7o">
+        <correspAction xml:id="i-KhyRtC3iEGnFigTSjYbD7o" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Jm3jz59b4kScDovSR5sR9Q">
+        <correspAction xml:id="i-Jm3jz59b4kScDovSR5sR9Q" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4yNDdEoxxaq7dn7pHevNSn">
+        <correspAction xml:id="i-4yNDdEoxxaq7dn7pHevNSn" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7MNL1z14aFe4oxAuLUZLtC">
+        <correspAction xml:id="i-7MNL1z14aFe4oxAuLUZLtC" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-E7Vq76cNpF3VBRRac6C3p4">
+        <correspAction xml:id="i-E7Vq76cNpF3VBRRac6C3p4" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-534d5aa5CHDdBoQ29hjYgM">
+        <correspAction xml:id="i-534d5aa5CHDdBoQ29hjYgM" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HfqGsdP4tRpDMi5DKoFeYj"/>
+        <correspAction xml:id="i-HfqGsdP4tRpDMi5DKoFeYj" type="assigned"/>
         <correspContext corresp="i-HfqGsdP4tRpDMi5DKoFeYj">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_K_0272/mot_199900_K_0272-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QqQ6ja6hr7RbhHZiJmhigb">
-        <div type="motTitle" xml:id="i-PVwxjPGEajfVyJ9TNskGH5"/>
-        <div type="motSubmissionInfo" xml:id="i-RVDTjiGHSNZ4d8McHyKHCZ"/>
+      <div xml:id="i-QqQ6ja6hr7RbhHZiJmhigb" type="motHeader">
+        <div xml:id="i-PVwxjPGEajfVyJ9TNskGH5" type="motTitle"/>
+        <div xml:id="i-RVDTjiGHSNZ4d8McHyKHCZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-32DSkdN2kuVKb5DxTKr1Jq">
+      <div xml:id="i-32DSkdN2kuVKb5DxTKr1Jq" type="motBody">
         <div xml:id="i-Vz9sNmAB9dAVLZXgs7h9mv">
           <p xml:id="i-2ZLDgTVydrPQrqZGT7aRJL">
             1999/2000 mnr: K272 pnr: s2015
@@ -151,8 +151,11 @@
             av vissa hemsidor på offentliga datorer.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_K_0272/mot_199900_K_0272-0002.pdf"/>
-          <p xml:id="i-PndC3ojaDHEazRxXKiw3Bg">
-            Stockholm den 29 september 1999 Mot. 1999/2000
+          <p xml:id="i-PndC3ojaDHEazRxXKiw3Bg" type="date">
+            Stockholm den 29 september 1999
+          </p>
+          <p type="signatureBlock" id="i-4a2i5sWEBQraHTpNtBQYTg">
+            Mot. 1999/2000
           </p>
           <p xml:id="i-UnHk1YcFdW8nuzWqmBLoWC">
             K272 Lars Wegendal (s) Carina Adolfsson (s)

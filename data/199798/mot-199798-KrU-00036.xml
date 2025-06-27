@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-KrU-00036">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-QMDwkhc4AcuaCPrQxkeYYk</idno>
-            <name>Berndt Ekholm </name>
+            <name>Berndt Ekholm</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-XvdGNU5wNmbTiaurFoUuPb</idno>
-            <name>Eva Arvidsson </name>
+            <name>Eva Arvidsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-FjV3Ag28Gv7zKm2HhsFrtm</idno>
-            <name>Marianne Carlström </name>
+            <name>Marianne Carlström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-F1WBbMnSN2c75Qq58i8pnE"/>
+        <correspAction xml:id="i-F1WBbMnSN2c75Qq58i8pnE" type="basedOn"/>
         <correspContext corresp="i-F1WBbMnSN2c75Qq58i8pnE">
           <ref>Proposition 1997/98:117</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-XvdGNU5wNmbTiaurFoUuPb"/>
           <note type="signatory" corresp="i-FjV3Ag28Gv7zKm2HhsFrtm"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NFZLeA5wCQbLbU4pxqeoUw">
+        <correspAction xml:id="i-NFZLeA5wCQbLbU4pxqeoUw" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HPRCBDrMshN26ZR1LAGX8X">
+        <correspAction xml:id="i-HPRCBDrMshN26ZR1LAGX8X" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-La16ZuvqpLUyntjDNMuGGT">
+        <correspAction xml:id="i-La16ZuvqpLUyntjDNMuGGT" type="submission">
           <date when="1998-03-27"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-6PA9NLLr5W2MSMgE6kUzqb">
+        <correspAction xml:id="i-6PA9NLLr5W2MSMgE6kUzqb" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6KZS1934g3Bd1BLDRrcR8e">
+        <correspAction xml:id="i-6KZS1934g3Bd1BLDRrcR8e" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4YR1YXf8weYXoAuuw45gsP">
+        <correspAction xml:id="i-4YR1YXf8weYXoAuuw45gsP" type="submission">
           <date when="1998-03-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CnnhRaUW34g2rGF73hnhUW"/>
+        <correspAction xml:id="i-CnnhRaUW34g2rGF73hnhUW" type="assigned"/>
         <correspContext corresp="i-CnnhRaUW34g2rGF73hnhUW">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_KR_0036/mot_199798_KR_0036-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6WeAnWZPYdGJPtvz4sFCnz">
-        <div type="motTitle" xml:id="i-4Raugzz4zQZPrem7Cndn26"/>
-        <div type="motSubmissionInfo" xml:id="i-9wzhK5G4u7c94z5h8M7C9C"/>
+      <div xml:id="i-6WeAnWZPYdGJPtvz4sFCnz" type="motHeader">
+        <div xml:id="i-4Raugzz4zQZPrem7Cndn26" type="motTitle"/>
+        <div xml:id="i-9wzhK5G4u7c94z5h8M7C9C" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UDxnsAfU1JkHPhz6Gnauph">
+      <div xml:id="i-UDxnsAfU1JkHPhz6Gnauph" type="motBody">
         <div xml:id="i-C9CTW5QgDRQKZ5tL4cTez1">
           <p xml:id="i-LD1Wh4mWSdyvdt461Nmxne">
             1997/98 Kr36 Kr30-39
@@ -177,8 +177,11 @@
             kompetensförsörjningen löses.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_KR_0036/mot_199798_KR_0036-0002.pdf"/>
-          <p xml:id="i-HRBtmPEM93QBhybvjfv65y">
-            Stockholm den 26 mars 1998 Berndt Ekholm (s)
+          <p xml:id="i-HRBtmPEM93QBhybvjfv65y" type="date">
+            Stockholm den 26 mars 1998
+          </p>
+          <p type="signatureBlock" id="i-XDuKc2BCeAuocepYZXUDRe">
+            Berndt Ekholm (s)
           </p>
           <p xml:id="i-TTGBXMpfJqt8oE6D2T59Qt">
             Marianne Carlström (s)

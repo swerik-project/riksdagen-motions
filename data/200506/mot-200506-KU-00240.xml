@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KU-00240">
   <teiHeader>
     <fileDesc>
@@ -79,16 +79,16 @@
           <note type="signatory" corresp="i-7MKpZ19NfCt1YZ3XeZaHk3"/>
           <note type="signatory" corresp="i-S7wLw9aynA5vbRCsqxxL3N"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BLQ8Fjs6JiVQU1CRBdXKLE">
+        <correspAction xml:id="i-BLQ8Fjs6JiVQU1CRBdXKLE" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8rVYkRcnvyqte4Gd6YfwXQ">
+        <correspAction xml:id="i-8rVYkRcnvyqte4Gd6YfwXQ" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6Djp8683v1FVa9EgorfifV">
+        <correspAction xml:id="i-6Djp8683v1FVa9EgorfifV" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-71Np2aYLg1LEXqZLUVFCeQ"/>
+        <correspAction xml:id="i-71Np2aYLg1LEXqZLUVFCeQ" type="assigned"/>
         <correspContext corresp="i-71Np2aYLg1LEXqZLUVFCeQ">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -103,11 +103,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_K_240/mot_200506_K_240-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6cQHXEh8X4rHpBddQDMQvy">
-        <div type="motTitle" xml:id="i-Vxt9TCJJVesGM7FbS2jToK"/>
-        <div type="motSubmissionInfo" xml:id="i-STWSwffAWPeMfYxAcZNekP"/>
+      <div xml:id="i-6cQHXEh8X4rHpBddQDMQvy" type="motHeader">
+        <div xml:id="i-Vxt9TCJJVesGM7FbS2jToK" type="motTitle"/>
+        <div xml:id="i-STWSwffAWPeMfYxAcZNekP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SVKC8S499yDeY6mpDN67ZK">
+      <div xml:id="i-SVKC8S499yDeY6mpDN67ZK" type="motBody">
         <div xml:id="i-MzdP774Vef4AQgKM9zpheq">
           <p xml:id="i-VEPTZWuR141nNLYhf29qoU">
             2005/06 mnr: K240 pnr: fp135
@@ -278,10 +278,12 @@
           </p>
           <p xml:id="i-4FaUBHE8uh4dX8y5KicdRm">
             formerna kring hur den svenske EU-kommissionären ska utses och
-            hur reglerna i sådana fall ska se ut. Stockholm den 22 september
-            2005
+            hur reglerna i sådana fall ska se ut.
           </p>
-          <p xml:id="i-YVvSzi6knyhu4rhbUJffN3">
+          <p type="date" id="i-SrMTmiw7AtxBz26jno6cy1">
+            Stockholm den 22 september 2005
+          </p>
+          <p xml:id="i-YVvSzi6knyhu4rhbUJffN3" type="signatureBlock">
             Tobias Krantz (fp) Helena Bargholtz (fp) Liselott Hagberg (fp)
             Martin Andreasson (fp) Mauricio Rojas (fp)
           </p>

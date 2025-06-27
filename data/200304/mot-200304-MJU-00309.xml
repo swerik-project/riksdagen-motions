@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00309">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-B471TcSCwHNHrNRk1EdJek"/>
           <note type="signatory" corresp="i-J74sVAjCTSxzD8rbnxRRA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TpyPWh9ZywC7gYPgf6rtTf">
+        <correspAction xml:id="i-TpyPWh9ZywC7gYPgf6rtTf" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WZ8Ehmnom4YBh3Wru1WAXB">
+        <correspAction xml:id="i-WZ8Ehmnom4YBh3Wru1WAXB" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HxDwFM9LHMe9vYfvu2AP77">
+        <correspAction xml:id="i-HxDwFM9LHMe9vYfvu2AP77" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XGeX9Dk1KfYUdvCuZPfQWQ"/>
+        <correspAction xml:id="i-XGeX9Dk1KfYUdvCuZPfQWQ" type="assigned"/>
         <correspContext corresp="i-XGeX9Dk1KfYUdvCuZPfQWQ">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_MJ_0309/mot_200304_MJ_0309-0001.pdf"/>
-      <div type="motHeader" xml:id="i-MFKi9rH5ZLPVYYhrwFyGdt">
-        <div type="motTitle" xml:id="i-GtrMoXgErLYJFrxazc6sAx"/>
-        <div type="motSubmissionInfo" xml:id="i-QGaUvGJrmAemgbzyeMr3QK"/>
+      <div xml:id="i-MFKi9rH5ZLPVYYhrwFyGdt" type="motHeader">
+        <div xml:id="i-GtrMoXgErLYJFrxazc6sAx" type="motTitle"/>
+        <div xml:id="i-QGaUvGJrmAemgbzyeMr3QK" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QNrhfpnr1GhbAERVjrNbg4">
+      <div xml:id="i-QNrhfpnr1GhbAERVjrNbg4" type="motBody">
         <div xml:id="i-W47Z3RbELcHNcHQDyqXv2j">
           <p xml:id="i-8gD2JCLLd7PZ3PPvAdaUXR">
             2003/04 mnr: MJ309 pnr: c496
@@ -189,9 +189,12 @@
             fasta stammar
           </p>
           <p xml:id="i-66Nw8Qaar2cSMq2tyqZpaJ">
-            av björn eller lo. Stockholm den 2 oktober 2003
+            av björn eller lo.
           </p>
-          <p xml:id="i-XCVfNbbh8PYh1fpM3SKMPm">
+          <p type="date" id="i-WmdjWP5xEm7sGwJha6Z9EW">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p xml:id="i-XCVfNbbh8PYh1fpM3SKMPm" type="signatureBlock">
             Eskil Erlandsson (c) Åsa Torstensson (c)
           </p>
         </div>

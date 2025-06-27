@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-LU-00805">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-B471TcSCwHNHrNRk1EdJek</idno>
-            <name>Eskil Erlandsson </name>
+            <name>Eskil Erlandsson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-KktUCXax2JFL3tqFqQN9oq</idno>
-            <name>Birgitta Sellén </name>
+            <name>Birgitta Sellén</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-DMheKZZCYDtLzdvzFzc5vP</idno>
-            <name>Kenth Skårvik </name>
+            <name>Kenth Skårvik</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -78,25 +78,25 @@
           <note type="signatory" corresp="i-DMheKZZCYDtLzdvzFzc5vP"/>
           <note type="signatory" corresp="i-KktUCXax2JFL3tqFqQN9oq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QcSaKGk3Zz9cXfaZwkgSzV">
+        <correspAction xml:id="i-QcSaKGk3Zz9cXfaZwkgSzV" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DXp5SCfHZeqQQquo1YG5uF">
+        <correspAction xml:id="i-DXp5SCfHZeqQQquo1YG5uF" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AWETW88K9pXNXf9kJabfsH">
+        <correspAction xml:id="i-AWETW88K9pXNXf9kJabfsH" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Ss9QiNb7YdwjmpcXtVpLrG">
+        <correspAction xml:id="i-Ss9QiNb7YdwjmpcXtVpLrG" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EBpfzWxVihpf9mndSbaphu">
+        <correspAction xml:id="i-EBpfzWxVihpf9mndSbaphu" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Uze2jV1dP89aMD1aW6Sw3q">
+        <correspAction xml:id="i-Uze2jV1dP89aMD1aW6Sw3q" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5mWgh6CuWj7Tv1KuXq2XxG"/>
+        <correspAction xml:id="i-5mWgh6CuWj7Tv1KuXq2XxG" type="assigned"/>
         <correspContext corresp="i-5mWgh6CuWj7Tv1KuXq2XxG">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_L_0805/mot_199900_L_0805-0001.pdf"/>
-      <div type="motHeader" xml:id="i-24J65t9MycDfstwaCRutTN">
-        <div type="motTitle" xml:id="i-WEPbUDfbgBodD7aGBhbH59"/>
-        <div type="motSubmissionInfo" xml:id="i-JeUVYRhKbaSZUUL5U612wW"/>
+      <div xml:id="i-24J65t9MycDfstwaCRutTN" type="motHeader">
+        <div xml:id="i-WEPbUDfbgBodD7aGBhbH59" type="motTitle"/>
+        <div xml:id="i-JeUVYRhKbaSZUUL5U612wW" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-JTXKbChKcsjq9wpJg8LPn9">
+      <div xml:id="i-JTXKbChKcsjq9wpJg8LPn9" type="motBody">
         <div xml:id="i-C2F87Coyi6JvFGhHp4H2vq">
           <p xml:id="i-QMz7btRi7a454gxPmB9F7n">
             1999/2000 mnr: L805 pnr: -c380
@@ -173,8 +173,11 @@
             som sin mening ger regeringen till känna vad i motionen anförts
             om representanter i STIM:s styrelse.
           </p>
-          <p xml:id="i-FJc7cjM98UB8BSatbLSZX4">
-            Stockholm den 30 september 1999 Eskil Erlandsson (c)
+          <p xml:id="i-FJc7cjM98UB8BSatbLSZX4" type="date">
+            Stockholm den 30 september 1999
+          </p>
+          <p type="signatureBlock" id="i-EBpdCphCu4Hh9tTWrHXZo3">
+            Eskil Erlandsson (c)
           </p>
           <p xml:id="i-HVcsgp4oB5WorvLsHHRcwD">
             Birgitta Sellén (c) Kenth Skårvik (fp)

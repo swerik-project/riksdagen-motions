@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-JuU-00018">
   <teiHeader>
     <fileDesc>
@@ -90,7 +90,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-HjVGLXH81jgVqWgWUYwdfC"/>
+        <correspAction xml:id="i-HjVGLXH81jgVqWgWUYwdfC" type="basedOn"/>
         <correspContext corresp="i-HjVGLXH81jgVqWgWUYwdfC">
           <ref>Proposition 2001/02:118</ref>
         </correspContext>
@@ -106,13 +106,13 @@
           <note type="signatory" corresp="i-Tg5wtdAcfotgy1zwH4f3qs"/>
           <note type="signatory" corresp="i-McV8uzEvZdxJephaZbqN9X"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-W1u8HnspCPmvBeC8u5RWME">
+        <correspAction xml:id="i-W1u8HnspCPmvBeC8u5RWME" type="referral">
           <date when="2002-04-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-ALKN5e2CQ1UJek2iDtLYKa">
+        <correspAction xml:id="i-ALKN5e2CQ1UJek2iDtLYKa" type="dismissal">
           <date when="2002-04-10"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4Wp65uykmuSxMFCHL2YKYE"/>
+        <correspAction xml:id="i-4Wp65uykmuSxMFCHL2YKYE" type="assigned"/>
         <correspContext corresp="i-4Wp65uykmuSxMFCHL2YKYE">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -127,11 +127,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Ju_0018/mot_200102_Ju_0018-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JMmuMU6J1t1QGhrDRzv9xF">
-        <div type="motTitle" xml:id="i-RZdLi618Q8df6fapCYqUW2"/>
-        <div type="motSubmissionInfo" xml:id="i-Pb55Eny8CHCh51G5Vj6gi6"/>
+      <div xml:id="i-JMmuMU6J1t1QGhrDRzv9xF" type="motHeader">
+        <div xml:id="i-RZdLi618Q8df6fapCYqUW2" type="motTitle"/>
+        <div xml:id="i-Pb55Eny8CHCh51G5Vj6gi6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TnVpBUrZoKsZGj6f8yoDYF">
+      <div xml:id="i-TnVpBUrZoKsZGj6f8yoDYF" type="motBody">
         <div xml:id="i-CsE4kCjmioNeWWRE6sAgtk">
           <p xml:id="i-Ger8xg8UrnYZ6twre3eARr">
             2001/02 mnr: Ju18 pnr: m319
@@ -473,10 +473,12 @@
             inte regeringens förmåga till analys och problemlösing. Eftersom
             problemen tydliggörs först då man stöper rambeslutet i formen
             av svensk lagstiftning önskar vi emellertid att rambeslut och
-            följdlagstiftning presenteras som en helhet. Stockholm den 9 april
-            2002
+            följdlagstiftning presenteras som en helhet.
           </p>
-          <p xml:id="i-VwEP2aponRc9N5QEZaFGVZ">
+          <p type="date" id="i-VVg13Sp1YaisxrDsEw4HP9">
+            Stockholm den 9 april 2002
+          </p>
+          <p xml:id="i-VwEP2aponRc9N5QEZaFGVZ" type="signatureBlock">
             Fredrik Reinfeldt (m) Maud Ekendahl (m) Jeppe Johnsson (m) Anita
             Sidén (m) Lennart Bolander (m) Cecilia Magnusson (m) Karin Enström
             (m) Lars Björkman (m) Anders G Högmark (m)

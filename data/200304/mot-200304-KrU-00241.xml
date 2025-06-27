@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00241">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-P1efbUFx2TJLN3ZrfkaSuG"/>
           <note type="signatory" corresp="i-4QSskNRajbqRG3PtACimqv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-71Tb96w8MoDgUD3Fitgxvc">
+        <correspAction xml:id="i-71Tb96w8MoDgUD3Fitgxvc" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2Z6w7ApW4kKBaXktEsMJky">
+        <correspAction xml:id="i-2Z6w7ApW4kKBaXktEsMJky" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TLMNoLeEZZGeG9q7hzipb7">
+        <correspAction xml:id="i-TLMNoLeEZZGeG9q7hzipb7" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XjfNbAMj4hXwcE9kqKwdQK"/>
+        <correspAction xml:id="i-XjfNbAMj4hXwcE9kqKwdQK" type="assigned"/>
         <correspContext corresp="i-XjfNbAMj4hXwcE9kqKwdQK">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Kr_0241/mot_200304_Kr_0241-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HrJ5V8xmo3QFeVoCBhJDUu">
-        <div type="motTitle" xml:id="i-ToFCcpSZ2mFxPgMLYae4w6"/>
-        <div type="motSubmissionInfo" xml:id="i-BeeRXqf25fNa13PLztLjyk"/>
+      <div xml:id="i-HrJ5V8xmo3QFeVoCBhJDUu" type="motHeader">
+        <div xml:id="i-ToFCcpSZ2mFxPgMLYae4w6" type="motTitle"/>
+        <div xml:id="i-BeeRXqf25fNa13PLztLjyk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QrREVBkL251Sp7iFcfdLbq">
+      <div xml:id="i-QrREVBkL251Sp7iFcfdLbq" type="motBody">
         <div xml:id="i-UXQDm6ZumgFfKJHbZUozAz">
           <p xml:id="i-B6Am8kihVcJNiwrBLciJ4u">
             2003/04 mnr: Kr241 pnr: s18426
@@ -123,9 +123,12 @@
             bygders utveckling genom tiderna. Statliga kulturpengar till museer
             betalas idag ut till länsmuseer och enstaka kommunala museer.
             Vi vill att stödet till lokala museer beaktas vid fördelningen
-            av kulturpengar. Stockholm den 1 oktober 2003
+            av kulturpengar.
           </p>
-          <p xml:id="i-LQwX58TdMXnsdSPLG5bxsF">
+          <p type="date" id="i-HLufTWemJpzFzmGPaFqapa">
+            Stockholm den 1 oktober 2003
+          </p>
+          <p xml:id="i-LQwX58TdMXnsdSPLG5bxsF" type="signatureBlock">
             Kerstin Kristiansson Karlstedt (s) Susanne Eberstein (s)
           </p>
           <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Kr_0241/mot_200304_Kr_0241-0002.pdf"/>

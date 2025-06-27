@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-AU-00042">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-Wi3g62hUDzMcGRj3oM1KNu</idno>
-            <name>Erik Arthur Egervärn </name>
+            <name>Erik Arthur Egervärn</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-PN64tg77RLqQ93N6wdpSQ6</idno>
-            <name>Jörgen Persson </name>
+            <name>Jörgen Persson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-ARQCpzRTv8ggWtQVRwi1x5</idno>
-            <name>Rune Berglund </name>
+            <name>Rune Berglund</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-6NwRAGHrAaJFXpBTcLEGdc"/>
+        <correspAction xml:id="i-6NwRAGHrAaJFXpBTcLEGdc" type="basedOn"/>
         <correspContext corresp="i-6NwRAGHrAaJFXpBTcLEGdc">
           <ref>Proposition 1994/95:161</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-PN64tg77RLqQ93N6wdpSQ6"/>
           <note type="signatory" corresp="i-ARQCpzRTv8ggWtQVRwi1x5"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7ejPVZfwjezTxaXL8bUc4z">
+        <correspAction xml:id="i-7ejPVZfwjezTxaXL8bUc4z" type="referral">
           <date when="1995-05-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CBfc4jEucikQdYxiUMJ89g">
+        <correspAction xml:id="i-CBfc4jEucikQdYxiUMJ89g" type="dismissal">
           <date when="1995-05-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Bjie5tRCUQU2UQ14XvB51W">
+        <correspAction xml:id="i-Bjie5tRCUQU2UQ14XvB51W" type="submission">
           <date when="1995-05-04"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-nAmXhoL3QJuw6XRGjLZTG">
+        <correspAction xml:id="i-nAmXhoL3QJuw6XRGjLZTG" type="referral">
           <date when="1995-05-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LxS9nYccGtEAPSSCjyeQ7G">
+        <correspAction xml:id="i-LxS9nYccGtEAPSSCjyeQ7G" type="dismissal">
           <date when="1995-05-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8VjuQNQyjoMLkA5sftVHLy">
+        <correspAction xml:id="i-8VjuQNQyjoMLkA5sftVHLy" type="submission">
           <date when="1995-05-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-V3WpzW1bjkJBnWshT3rPzh"/>
+        <correspAction xml:id="i-V3WpzW1bjkJBnWshT3rPzh" type="assigned"/>
         <correspContext corresp="i-V3WpzW1bjkJBnWshT3rPzh">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_AU_42/mot_199495_AU_42-001.pdf"/>
-      <div type="motHeader" xml:id="i-EPiABjoxjz7789m6CtNxiP">
-        <div type="motTitle" xml:id="i-AFAgJAcd4v7UaWo4sjWqVm"/>
-        <div type="motSubmissionInfo" xml:id="i-EvTdpQR43BYifaJ5XUVHrr"/>
+      <div xml:id="i-EPiABjoxjz7789m6CtNxiP" type="motHeader">
+        <div xml:id="i-AFAgJAcd4v7UaWo4sjWqVm" type="motTitle"/>
+        <div xml:id="i-EvTdpQR43BYifaJ5XUVHrr" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-M9vR8egKJAK53Qc7TySQhH">
+      <div xml:id="i-M9vR8egKJAK53Qc7TySQhH" type="motBody">
         <div xml:id="i-HmJkg9Bzpzb6t1QtmAiSfo">
           <p xml:id="i-CokXABaDTHo1Ay8Kwwn3gm">
             Motion till riksdagen 1994/95:A42
@@ -177,8 +177,11 @@
             nen anförts om att Jämtlands län bör utses till försökslän avseende
             det regionalpolitiska utvecklingsarbetet.
           </p>
-          <p xml:id="i-UVjRz8sFmtUZ4zheU4Euz1">
-            Stockholm den 4 maj 1995 Erik Artur Egervärn (c)
+          <p xml:id="i-UVjRz8sFmtUZ4zheU4Euz1" type="date">
+            Stockholm den 4 maj 1995
+          </p>
+          <p type="signatureBlock" id="i-7c8sgxLFnxw9bQwU9TcAnN">
+            Erik Artur Egervärn (c)
           </p>
           <p xml:id="i-PAUWQh2mbMKkLgyKxhw4HW">
             Rune Berglund (s) Jörgen Persson (s)

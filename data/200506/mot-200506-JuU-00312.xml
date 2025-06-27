@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00312">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-Rrrcp8Wn6hE8cywDs1GCZ">
           <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JyeFvnVKnofewoJNEcnuYw">
+        <correspAction xml:id="i-JyeFvnVKnofewoJNEcnuYw" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9B7oAfu7qy5ZXCqGRcM6bh">
+        <correspAction xml:id="i-9B7oAfu7qy5ZXCqGRcM6bh" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HG2ZhQJSEZGpZT8WA8vZ1e">
+        <correspAction xml:id="i-HG2ZhQJSEZGpZT8WA8vZ1e" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9AroX7Reh8rcFh7zs2Vf2d"/>
+        <correspAction xml:id="i-9AroX7Reh8rcFh7zs2Vf2d" type="assigned"/>
         <correspContext corresp="i-9AroX7Reh8rcFh7zs2Vf2d">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_312/mot_200506_Ju_312-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NfZfVEha4TTA6D7Wn4tP81">
-        <div type="motTitle" xml:id="i-LCgQpzcWjMG8LWm8RfMsvo"/>
-        <div type="motSubmissionInfo" xml:id="i-KRGgNpA3JUhwgXDa6fRLpA"/>
+      <div xml:id="i-NfZfVEha4TTA6D7Wn4tP81" type="motHeader">
+        <div xml:id="i-LCgQpzcWjMG8LWm8RfMsvo" type="motTitle"/>
+        <div xml:id="i-KRGgNpA3JUhwgXDa6fRLpA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9KGPEjMg9uwvce37FnPT8e">
+      <div xml:id="i-9KGPEjMg9uwvce37FnPT8e" type="motBody">
         <div xml:id="i-LskGmpdUvjZ4UeDxNoGscU">
           <p xml:id="i-BhDnYTADGPx69kKYRVJhUd">
             2005/06 mnr: Ju312 pnr: fp334
@@ -112,8 +112,11 @@
             måste naturligtvis samtliga planerade nya nedläggningar av polisstationer
             stoppas.
           </p>
-          <p xml:id="i-EUQKKLhT9BDuAQxMuaTkM1">
-            Stockholm den 28 september 2005 Tobias Krantz (fp)
+          <p xml:id="i-EUQKKLhT9BDuAQxMuaTkM1" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-7eSiHuSfwm2LrPk2VXpnEC">
+            Tobias Krantz (fp)
           </p>
         </div>
       </div>

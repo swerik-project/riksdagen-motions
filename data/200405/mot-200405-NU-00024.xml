@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00024">
   <teiHeader>
     <fileDesc>
@@ -48,7 +48,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-PbAvE8r1TH3DpcxyT6xGK9"/>
+        <correspAction xml:id="i-PbAvE8r1TH3DpcxyT6xGK9" type="basedOn"/>
         <correspContext corresp="i-PbAvE8r1TH3DpcxyT6xGK9">
           <ref>Regeringsskrivelse 2004/05:120</ref>
         </correspContext>
@@ -58,19 +58,19 @@
           <note type="signatory" corresp="i-Rtt4vV6Vr1WnfJAi2Dn9hN"/>
           <note type="signatory" corresp="i-4tAUyrL5FDqt2q3oYkcH9W"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-M2GshKsEG18mAMf5dnpPKi">
+        <correspAction xml:id="i-M2GshKsEG18mAMf5dnpPKi" type="referral">
           <date when="2005-06-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TZBPmtqyWABQQ4om7iJswD">
+        <correspAction xml:id="i-TZBPmtqyWABQQ4om7iJswD" type="dismissal">
           <date when="2005-06-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SDwkKVMEe8SaccKJiWZdMV">
+        <correspAction xml:id="i-SDwkKVMEe8SaccKJiWZdMV" type="dismissal">
           <date when="2005-06-16"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5o7rJGtSPeE11WqnXqoZiM">
+        <correspAction xml:id="i-5o7rJGtSPeE11WqnXqoZiM" type="submission">
           <date when="2005-06-15"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Y2kcy9oMAeBsVVCVKU87QP"/>
+        <correspAction xml:id="i-Y2kcy9oMAeBsVVCVKU87QP" type="assigned"/>
         <correspContext corresp="i-Y2kcy9oMAeBsVVCVKU87QP">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -85,11 +85,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_N_24/mot_200405_N_24-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6Xzn83aGLtNvH5F4FzkKiP">
-        <div type="motTitle" xml:id="i-TYDSKaiG9zbFnRvswdtM79"/>
-        <div type="motSubmissionInfo" xml:id="i-XtV95XeHmthHFA5iSQunFJ"/>
+      <div xml:id="i-6Xzn83aGLtNvH5F4FzkKiP" type="motHeader">
+        <div xml:id="i-TYDSKaiG9zbFnRvswdtM79" type="motTitle"/>
+        <div xml:id="i-XtV95XeHmthHFA5iSQunFJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-A1YwSuwowYMWsUeEzo9zNw">
+      <div xml:id="i-A1YwSuwowYMWsUeEzo9zNw" type="motBody">
         <div xml:id="i-4inWddyC62MN3XNVfmQTAq">
           <p xml:id="i-HeJmdhykDAgYDbSWo5mWRX">
             2004/05 mnr: N24 pnr: fp1238
@@ -127,8 +127,8 @@
             obesvarad. Regeringen delar in de statliga företagen i sådana
             med marknadsmässiga krav och företag med särskilda samhällsintressen.
             Företag med marknadsmässiga krav spänner från SJ och Posten till
-            Akademiska Hus och Vin &amp; Sprit. Redogörelsen visar dock att det
-            inte finns någon strategi bakom företagssammansättningen utan
+            Akademiska Hus och Vin &amp; Sprit. Redogörelsen visar dock att
+            det inte finns någon strategi bakom företagssammansättningen utan
             den bygger på historiska faktorer. Gruppen företag som regeringen
             anser fyller särskilda samhällsintressen är, enligt vår mening,
             slumpmässigt sammansatt. Här finns bl.a. Bilprovningen och Turistrådet.
@@ -182,8 +182,8 @@
             Det är exempelvis inte rimligt att statens kraftbolag Vattenfall
             gjort stora investeringar i kolgruvor och koleldade kraftverk
             i Tyskland och Danmark. Detta har också skarpt kritiserats av
-            Riksrevisionen. Mutskandalen kring Systembolaget och Vin &amp; Sprit
-            är ännu ett exempel på
+            Riksrevisionen. Mutskandalen kring Systembolaget och Vin &amp;
+            Sprit är ännu ett exempel på
           </p>
           <p xml:id="i-Pkg1LWXuEFL5xDpDVave8c">
             problem inom den statliga företagssfären. Det är också angeläget
@@ -312,9 +312,12 @@
           </p>
           <p xml:id="i-R4H82g4hFsrGQ7Pt2ZMa5Y">
             Assi Domän AB, SBAB, Vattenfall, LKAB, SAS Gruppen, SJ AB, Apoteket
-            AB, Luftfartsverket och Teracom AB. Stockholm den 15 juni 2005
+            AB, Luftfartsverket och Teracom AB.
           </p>
-          <p xml:id="i-3qKxdB9ba9h8YBgW6oEspb">
+          <p type="date" id="i-W8gFdCEcinfPYxNGxG7KvP">
+            Stockholm den 15 juni 2005
+          </p>
+          <p xml:id="i-3qKxdB9ba9h8YBgW6oEspb" type="signatureBlock">
             Eva Flyborg (fp) Nyamko Sabuni (fp) Yvonne Ångström (fp)
           </p>
         </div>

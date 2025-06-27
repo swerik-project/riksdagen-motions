@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00223">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
           <note type="signatory" corresp="i-P9fVT6wJo29FgZWPQLxr6o"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FJAUEEvrrM1zpXT92riCBt">
+        <correspAction xml:id="i-FJAUEEvrrM1zpXT92riCBt" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GZgLfcKUfgNsiz1k8T8zoU">
+        <correspAction xml:id="i-GZgLfcKUfgNsiz1k8T8zoU" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-R5FnrsQSexW4boVPCoEQyZ">
+        <correspAction xml:id="i-R5FnrsQSexW4boVPCoEQyZ" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9vJMuUAA3kBjPrGiuz38at"/>
+        <correspAction xml:id="i-9vJMuUAA3kBjPrGiuz38at" type="assigned"/>
         <correspContext corresp="i-9vJMuUAA3kBjPrGiuz38at">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_MJ_0223/mot_200304_MJ_0223-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VZScqRyzmW6KkYvmMh5Vhd">
-        <div type="motTitle" xml:id="i-9nB4RFWnNNCtMKrDCVHfVA"/>
-        <div type="motSubmissionInfo" xml:id="i-HjS2jmKS6g9vds4bZtVKv9"/>
+      <div xml:id="i-VZScqRyzmW6KkYvmMh5Vhd" type="motHeader">
+        <div xml:id="i-9nB4RFWnNNCtMKrDCVHfVA" type="motTitle"/>
+        <div xml:id="i-HjS2jmKS6g9vds4bZtVKv9" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TCaMqoWJBuAQuUSRFLLd7F">
+      <div xml:id="i-TCaMqoWJBuAQuUSRFLLd7F" type="motBody">
         <div xml:id="i-6hivRQbr2HBZ3ZpgS9c3za">
           <p xml:id="i-F74e1fReYyPGcXwF8ef9qb">
             2003/04 mnr: MJ223 pnr: fp217
@@ -143,9 +143,11 @@
             särskilda miljöskäl bör exempelvis länsstyrelsen få yttra sig
             innan beslut tas.
           </p>
-          <p xml:id="i-9MfShNHcFoVUJTZVNPR13s">
-            Stockholm den 29 september 2003 Tobias Krantz (fp) Anna Grönlund
-            (fp)
+          <p xml:id="i-9MfShNHcFoVUJTZVNPR13s" type="date">
+            Stockholm den 29 september 2003
+          </p>
+          <p type="signatureBlock" id="i-6mbVFa1iFwukDwdnc44Xff">
+            Tobias Krantz (fp) Anna Grönlund (fp)
           </p>
         </div>
       </div>

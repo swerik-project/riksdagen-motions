@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00238">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-ASHgRusN9GoHAH8eioxicP"/>
           <note type="signatory" corresp="i-U6F8gqiuV2DEZN1aMhyDnJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Qhq6u31WUxm58GYDfYJyE4">
+        <correspAction xml:id="i-Qhq6u31WUxm58GYDfYJyE4" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-U32yNz7aFzd2AsnL2Ghc3X">
+        <correspAction xml:id="i-U32yNz7aFzd2AsnL2Ghc3X" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VDzdsf7wfKE3FKBcMfchPC">
+        <correspAction xml:id="i-VDzdsf7wfKE3FKBcMfchPC" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HiMkRX2YUYssc8NgVLXBcL"/>
+        <correspAction xml:id="i-HiMkRX2YUYssc8NgVLXBcL" type="assigned"/>
         <correspContext corresp="i-HiMkRX2YUYssc8NgVLXBcL">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ub_0238/mot_200304_Ub_0238-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Qrt62P5LAXy2MaVWdPGuM4">
-        <div type="motTitle" xml:id="i-9ZVhuRJrTLmp4cJ3FoJQZv"/>
-        <div type="motSubmissionInfo" xml:id="i-LvbLZciFU26ZZAw4j8UFG5"/>
+      <div xml:id="i-Qrt62P5LAXy2MaVWdPGuM4" type="motHeader">
+        <div xml:id="i-9ZVhuRJrTLmp4cJ3FoJQZv" type="motTitle"/>
+        <div xml:id="i-LvbLZciFU26ZZAw4j8UFG5" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-EL57S8sZ9GAGvK3aXCmEvk">
+      <div xml:id="i-EL57S8sZ9GAGvK3aXCmEvk" type="motBody">
         <div xml:id="i-8vqhweCULUByZrmYebCSe8">
           <p xml:id="i-69iBwDvjwVSiDBumLNRL8K">
             2003/04 mnr: Ub238 pnr: fp211
@@ -145,9 +145,11 @@
             också till doktorander, utrustning m.m. Finansieringen bör vara
             långsiktig.
           </p>
-          <p xml:id="i-JgVUYQVUt2ULgp6gUhabTR">
-            Stockholm den 29 september 2003 Marie Wahlgren (fp) Christer
-            Nylander (fp)
+          <p xml:id="i-JgVUYQVUt2ULgp6gUhabTR" type="date">
+            Stockholm den 29 september 2003
+          </p>
+          <p type="signatureBlock" id="i-4kER3kHh9ae9o4rKKAuNq6">
+            Marie Wahlgren (fp) Christer Nylander (fp)
           </p>
         </div>
       </div>

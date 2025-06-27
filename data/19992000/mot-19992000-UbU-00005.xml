@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-UbU-00005">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-nX9ipUS8FhkbQHkWWytwf</idno>
-            <name>Ulf Nilsson </name>
+            <name>Ulf Nilsson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-4SAiMdwrEthd2M8z2yjtkv</idno>
-            <name>Ana Maria Narti </name>
+            <name>Ana Maria Narti</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-4tAUyrL5FDqt2q3oYkcH9W</idno>
-            <name>Yvonne Ångström </name>
+            <name>Yvonne Ångström</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-eMacT8bpf8C1BWyAsUyeZ"/>
+        <correspAction xml:id="i-eMacT8bpf8C1BWyAsUyeZ" type="basedOn"/>
         <correspContext corresp="i-eMacT8bpf8C1BWyAsUyeZ">
           <ref>Proposition 1999/2000:10</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-4tAUyrL5FDqt2q3oYkcH9W"/>
           <note type="signatory" corresp="i-4SAiMdwrEthd2M8z2yjtkv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SVxfGbAizYNur38PmrcSUK">
+        <correspAction xml:id="i-SVxfGbAizYNur38PmrcSUK" type="referral">
           <date when="1999-10-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3nAhHSyLufZQNdSRknkjjv">
+        <correspAction xml:id="i-3nAhHSyLufZQNdSRknkjjv" type="dismissal">
           <date when="1999-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3oeaKVHAC2d4qJQQNXLzgC">
+        <correspAction xml:id="i-3oeaKVHAC2d4qJQQNXLzgC" type="submission">
           <date when="1999-10-13"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-DXcF7ArHNexwG89qyXPoMG">
+        <correspAction xml:id="i-DXcF7ArHNexwG89qyXPoMG" type="referral">
           <date when="1999-10-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7EHxukyHg9zSKSG6jtTVSY">
+        <correspAction xml:id="i-7EHxukyHg9zSKSG6jtTVSY" type="dismissal">
           <date when="1999-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Hrj85RuQDgxoH47TATfTjg">
+        <correspAction xml:id="i-Hrj85RuQDgxoH47TATfTjg" type="submission">
           <date when="1999-10-13"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XzkXuVtzFCsmDRrYUEPnYZ"/>
+        <correspAction xml:id="i-XzkXuVtzFCsmDRrYUEPnYZ" type="assigned"/>
         <correspContext corresp="i-XzkXuVtzFCsmDRrYUEPnYZ">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Ub_0005/mot_199900_Ub_0005-0001.pdf"/>
-      <div type="motHeader" xml:id="i-X7q3CUkD1d4nF6x7vu6dRb">
-        <div type="motTitle" xml:id="i-EYrJXB8LYbeuqvvdpmdS5K"/>
-        <div type="motSubmissionInfo" xml:id="i-ECnjy65s1RFGR7XWqAeuj6"/>
+      <div xml:id="i-X7q3CUkD1d4nF6x7vu6dRb" type="motHeader">
+        <div xml:id="i-EYrJXB8LYbeuqvvdpmdS5K" type="motTitle"/>
+        <div xml:id="i-ECnjy65s1RFGR7XWqAeuj6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Wpssf6oN8Ajnk1aeKa3mnh">
+      <div xml:id="i-Wpssf6oN8Ajnk1aeKa3mnh" type="motBody">
         <div xml:id="i-RkyWNiiMS7zGwdxoR1taH7">
           <p xml:id="i-2NxH9gy6Afbxxv7kQbSZi2">
             1999/2000 mnr: Ub5 pnr: fp1107
@@ -503,8 +503,11 @@
             känna vad i motionen anförts om möjlighet att låna av det allmänna
             pensions- systemet för att finansiera utbildning.
           </p>
-          <p xml:id="i-Jg7jovgWVG8QHNjLbNWVmM">
-            Stockholm den 13 oktober 1999 Ulf Nilsson (fp)
+          <p xml:id="i-Jg7jovgWVG8QHNjLbNWVmM" type="date">
+            Stockholm den 13 oktober 1999
+          </p>
+          <p type="signatureBlock" id="i-VTLTJBzP8mCWQLFQgvFACR">
+            Ulf Nilsson (fp)
           </p>
           <p xml:id="i-8QKBZtprRTWQzC1hMfJbut">
             Yvonne Ångström (fp) Ana Maria Narti (fp)

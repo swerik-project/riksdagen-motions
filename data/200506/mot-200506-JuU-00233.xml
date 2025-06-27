@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00233">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-NX8ok5k8TdySngamAmbSrf">
           <note type="signatory" corresp="i-JJGD2ECwHv6xGCZyyrtKmA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PQnjNPhWA81o9jLqZM2Pbw">
+        <correspAction xml:id="i-PQnjNPhWA81o9jLqZM2Pbw" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SbH9twet6FVqfKDeBPVXS2">
+        <correspAction xml:id="i-SbH9twet6FVqfKDeBPVXS2" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JPqFmXYcd6xPUQ2Tpo4xuh">
+        <correspAction xml:id="i-JPqFmXYcd6xPUQ2Tpo4xuh" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Nv9MeVskyfgtj9w3pf2GbC"/>
+        <correspAction xml:id="i-Nv9MeVskyfgtj9w3pf2GbC" type="assigned"/>
         <correspContext corresp="i-Nv9MeVskyfgtj9w3pf2GbC">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_233/mot_200506_Ju_233-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5C57RbVTMgv7VSJtWmQ3vV">
-        <div type="motTitle" xml:id="i-LPP8A6AQN1kFmFzswM7neo"/>
-        <div type="motSubmissionInfo" xml:id="i-LHCaamfdVv3m3SEPnbUsMp"/>
+      <div xml:id="i-5C57RbVTMgv7VSJtWmQ3vV" type="motHeader">
+        <div xml:id="i-LPP8A6AQN1kFmFzswM7neo" type="motTitle"/>
+        <div xml:id="i-LHCaamfdVv3m3SEPnbUsMp" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LE2c7tWRAJydXx1tVbPyan">
+      <div xml:id="i-LE2c7tWRAJydXx1tVbPyan" type="motBody">
         <div xml:id="i-CRgMv59JUXe1z9sqRVBkEM">
           <p xml:id="i-C9QiVUMQbzSXfQ2TPqSTv8">
             2005/06 mnr: Ju233 pnr: m1156
@@ -100,8 +100,11 @@
             skall aldrig kunna känna sig trygg! Därför: Slopa preskriptionstiden
             på mord.
           </p>
-          <p xml:id="i-WdL9hE54R1yh9UxuhZkbvP">
-            Stockholm den 15 september 2005 Carl-Axel Roslund (m)
+          <p xml:id="i-WdL9hE54R1yh9UxuhZkbvP" type="date">
+            Stockholm den 15 september 2005
+          </p>
+          <p type="signatureBlock" id="i-K16gLX4SxXsCsrjauWPfYu">
+            Carl-Axel Roslund (m)
           </p>
         </div>
       </div>

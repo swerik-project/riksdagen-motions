@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-FiU-00027">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-9J1gmLVJSnGBRMzrAVvtvR</idno>
-            <name>Anne Wibble </name>
+            <name>Anne Wibble</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-6kLJbGLpwB9hYxDrVrkcqF</idno>
-            <name>Karin Pilsäter </name>
+            <name>Karin Pilsäter</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-NZES3NTTAs3ZaBTU3RVkYE</idno>
-            <name>Lars Leijonborg </name>
+            <name>Lars Leijonborg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FjT3wUNsSKocogNNdfCRkn"/>
+        <correspAction xml:id="i-FjT3wUNsSKocogNNdfCRkn" type="basedOn"/>
         <correspContext corresp="i-FjT3wUNsSKocogNNdfCRkn">
           <ref>Proposition 1994/95:153</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
           <note type="signatory" corresp="i-NZES3NTTAs3ZaBTU3RVkYE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Q4dxmNFJigvzBePEvEfcEF">
+        <correspAction xml:id="i-Q4dxmNFJigvzBePEvEfcEF" type="referral">
           <date when="1995-03-31"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-X2UykhtUuEMKW5v9uXYwnM">
+        <correspAction xml:id="i-X2UykhtUuEMKW5v9uXYwnM" type="dismissal">
           <date when="1995-03-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UCBbDa4nntPs6MLf5PtBtK">
+        <correspAction xml:id="i-UCBbDa4nntPs6MLf5PtBtK" type="submission">
           <date when="1995-03-29"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-ADxUsz8Fgao9bWiTZKotKD">
+        <correspAction xml:id="i-ADxUsz8Fgao9bWiTZKotKD" type="referral">
           <date when="1995-03-31"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-TVno7xTWapf6LBW69YsnSN">
+        <correspAction xml:id="i-TVno7xTWapf6LBW69YsnSN" type="dismissal">
           <date when="1995-03-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RzX7VhztMe3XmcQJVYWxST">
+        <correspAction xml:id="i-RzX7VhztMe3XmcQJVYWxST" type="submission">
           <date when="1995-03-29"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-R9HtjBvXYyVMTAA3jPB9Au"/>
+        <correspAction xml:id="i-R9HtjBvXYyVMTAA3jPB9Au" type="assigned"/>
         <correspContext corresp="i-R9HtjBvXYyVMTAA3jPB9Au">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_FiU_27/mot_199495_FiU_27-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-4C4aVwSDCG3zpkQwAax2k9">
-        <div type="motTitle" xml:id="i-5RjDcQigFVppceBSsb2SoK"/>
-        <div type="motSubmissionInfo" xml:id="i-7Mpun98mavAdicTXWePwGY"/>
+      <div xml:id="i-4C4aVwSDCG3zpkQwAax2k9" type="motHeader">
+        <div xml:id="i-5RjDcQigFVppceBSsb2SoK" type="motTitle"/>
+        <div xml:id="i-7Mpun98mavAdicTXWePwGY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3vH2gZGpsxHpQHLrwVytn2">
+      <div xml:id="i-3vH2gZGpsxHpQHLrwVytn2" type="motBody">
         <div xml:id="i-H7LDcqugG9JFmzX9wjF1Bw">
           <p xml:id="i-WSsyNGQNv8jHNQiKb7JXph">
             CC
@@ -150,8 +150,13 @@
           <p xml:id="i-GACdoYitZttoa2Kcqpev2T">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             avslår 4 a $ i förslaget till lag om ändring i lagen (1992:1528)
-            om offentlig upphandling. Stockholm den 29 mars 1995 . Anne Wibble
-            (fp)
+            om offentlig upphandling.
+          </p>
+          <p type="date" id="i-DNTprrADcAFBECT6sSa7Hk">
+            Stockholm den 29 mars 1995
+          </p>
+          <p type="signatureBlock" id="i-MxUEsatyfA54g7ontm941D">
+            . Anne Wibble (fp)
           </p>
           <p xml:id="i-NoDWaD5eqGxCKSbgfxCKrc">
             Karin Pilsäter (fp) Lars Leijonborg (fp)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-LU-00002">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-4cqJPp6KE913P96Kfc7QxB</idno>
-            <name>Bengt Harding Olson </name>
+            <name>Bengt Harding Olson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-2VC6cqYzTJsMAgXwAfmara"/>
+        <correspAction xml:id="i-2VC6cqYzTJsMAgXwAfmara" type="basedOn"/>
         <correspContext corresp="i-2VC6cqYzTJsMAgXwAfmara">
           <ref>Proposition 1990/91:197</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-4cqJPp6KE913P96Kfc7QxB"/>
           <note type="signatory" corresp="i-4cqJPp6KE913P96Kfc7QxB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3vcXq2ZjyWXMT4qwoS3toc">
+        <correspAction xml:id="i-3vcXq2ZjyWXMT4qwoS3toc" type="referral">
           <date when="1991-10-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UCTTbYXaDSrFSWkSAVpCUt">
+        <correspAction xml:id="i-UCTTbYXaDSrFSWkSAVpCUt" type="dismissal">
           <date when="1991-10-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TcchvoqqGX1AkaR8ca96TT">
+        <correspAction xml:id="i-TcchvoqqGX1AkaR8ca96TT" type="submission">
           <date when="1991-10-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-BXnusu6fhvvGp4bbrftnUd">
+        <correspAction xml:id="i-BXnusu6fhvvGp4bbrftnUd" type="referral">
           <date when="1991-10-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MEumQEV7TVjhcxX7SJSBw9">
+        <correspAction xml:id="i-MEumQEV7TVjhcxX7SJSBw9" type="dismissal">
           <date when="1991-10-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Kh2hXJ67nqkiMrB9CtKvDn">
+        <correspAction xml:id="i-Kh2hXJ67nqkiMrB9CtKvDn" type="submission">
           <date when="1991-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BxCExdyTBhqNjYwaKnVtWx"/>
+        <correspAction xml:id="i-BxCExdyTBhqNjYwaKnVtWx" type="assigned"/>
         <correspContext corresp="i-BxCExdyTBhqNjYwaKnVtWx">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_LU_2/mot_199192_LU_2-001.pdf"/>
-      <div type="motHeader" xml:id="i-4XRQJp1mxweQPG8ALhbjtY">
-        <div type="motTitle" xml:id="i-4wW6PsUk92Dwo1YyFJzyu4"/>
-        <div type="motSubmissionInfo" xml:id="i-Arg8VHQnMjCVmbc4tLDgwh"/>
+      <div xml:id="i-4XRQJp1mxweQPG8ALhbjtY" type="motHeader">
+        <div xml:id="i-4wW6PsUk92Dwo1YyFJzyu4" type="motTitle"/>
+        <div xml:id="i-Arg8VHQnMjCVmbc4tLDgwh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RLfS4awzU1NTF1BeMWzSjv">
+      <div xml:id="i-RLfS4awzU1NTF1BeMWzSjv" type="motBody">
         <div xml:id="i-39vtQuvZDUvpWnH3x18g5e">
           <p xml:id="i-3danTkWTd2Zc121HpoMZdg">
             Motion till riksdagen 1991/92:12
@@ -319,9 +319,11 @@
             Mot. 1991/92 L2
           </p>
           <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_LU_2/mot_199192_LU_2-005.pdf"/>
-          <p xml:id="i-4ow7LmjJU7dsn4EctqJzWs">
-            Stockholm den 7 oktober 1991 Mot. 1991/92 L2 Bengt Harding Olson
-            (fp)
+          <p xml:id="i-4ow7LmjJU7dsn4EctqJzWs" type="date">
+            Stockholm den 7 oktober 1991
+          </p>
+          <p type="signatureBlock" id="i-6YYvHWRsx9oh1iKvGZQ3P1">
+            Mot. 1991/92 L2 Bengt Harding Olson (fp)
           </p>
           <p xml:id="i-5FFBrtiA5Kdv54se2wVmVT">
             gotab 40033, Stockholm 1991

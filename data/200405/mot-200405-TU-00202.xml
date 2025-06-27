@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00202">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-C6N2s3mu9dwohRLAntrPJd">
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LwNNDBSCPTxUbdU5mWChkf">
+        <correspAction xml:id="i-LwNNDBSCPTxUbdU5mWChkf" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WctULBJQmJAjJnorf1HjYW">
+        <correspAction xml:id="i-WctULBJQmJAjJnorf1HjYW" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-J2VzNsHKSfR1nnsvz9mEYE">
+        <correspAction xml:id="i-J2VzNsHKSfR1nnsvz9mEYE" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3mJ1LwxMKeBZKMSBg9TNWr"/>
+        <correspAction xml:id="i-3mJ1LwxMKeBZKMSBg9TNWr" type="assigned"/>
         <correspContext corresp="i-3mJ1LwxMKeBZKMSBg9TNWr">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_202/mot_200405_T_202-0001.pdf"/>
-      <div type="motHeader" xml:id="i-mqY4pHYKSQo23qhT6UyCK">
-        <div type="motTitle" xml:id="i-MkE9xsZLj674i4upoTETXP"/>
-        <div type="motSubmissionInfo" xml:id="i-9dwgcbnC6gLbJQ2gzBYY3p"/>
+      <div xml:id="i-mqY4pHYKSQo23qhT6UyCK" type="motHeader">
+        <div xml:id="i-MkE9xsZLj674i4upoTETXP" type="motTitle"/>
+        <div xml:id="i-9dwgcbnC6gLbJQ2gzBYY3p" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Gv2Nv8WXphqtQiuY5Gfg2a">
+      <div xml:id="i-Gv2Nv8WXphqtQiuY5Gfg2a" type="motBody">
         <div xml:id="i-XV31MDNTsBZTr3CWyt9KiA">
           <p xml:id="i-JFFgyEPz3qfJzAThK5YwFa">
             2004/05 mnr: T202 pnr: m1140
@@ -117,8 +117,11 @@
           <p xml:id="i-NZUEDks4xKaArYqQJSVUup">
             2004/05:T202
           </p>
-          <p xml:id="i-RLsHg3psGz6uq4ZWpHnDNg">
-            Stockholm den 17 september 2004 Ulf Sjösten (m)
+          <p xml:id="i-RLsHg3psGz6uq4ZWpHnDNg" type="date">
+            Stockholm den 17 september 2004
+          </p>
+          <p type="signatureBlock" id="i-G3YSVRbt7NgKnAokBzJGx4">
+            Ulf Sjösten (m)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00434">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-M1y8ykQDr5LTA9YeHXd42d">
           <note type="signatory" corresp="i-KGqrEB2Pzg8goYxy9CcDhd"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SVREvMffMEXQZW7wNVeUg5">
+        <correspAction xml:id="i-SVREvMffMEXQZW7wNVeUg5" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EkH5sTUB3jtge4tzytKzHC">
+        <correspAction xml:id="i-EkH5sTUB3jtge4tzytKzHC" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5YKgJyMxpEjz79Z4TGJA3h">
+        <correspAction xml:id="i-5YKgJyMxpEjz79Z4TGJA3h" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-55qsb8LGRuw5nQhQVaEZmC"/>
+        <correspAction xml:id="i-55qsb8LGRuw5nQhQVaEZmC" type="assigned"/>
         <correspContext corresp="i-55qsb8LGRuw5nQhQVaEZmC">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0434/mot_200304_T_0434-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EKM8PiN3WSSuQdCdis1eaM">
-        <div type="motTitle" xml:id="i-EALVjNyxiA4KtZJ2iq58ZW"/>
-        <div type="motSubmissionInfo" xml:id="i-NXc7WnTCbfEQxoFECKMrfp"/>
+      <div xml:id="i-EKM8PiN3WSSuQdCdis1eaM" type="motHeader">
+        <div xml:id="i-EALVjNyxiA4KtZJ2iq58ZW" type="motTitle"/>
+        <div xml:id="i-NXc7WnTCbfEQxoFECKMrfp" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2tZBtk5yFQMpnw7kJoYbw9">
+      <div xml:id="i-2tZBtk5yFQMpnw7kJoYbw9" type="motBody">
         <div xml:id="i-E2wbQVtjRoVSwctzT4ZnSs">
           <p xml:id="i-2WTSTwZ1asizTcYYsmiKAB">
             2003/04 mnr: T434 pnr: kd807
@@ -114,8 +114,11 @@
             förgäves. Till detta kommer att en uppskjuten utbyggnad bromsar
             konkreta investeringar och hindrar tillväxt i regionen.
           </p>
-          <p xml:id="i-5eupRr86MuD8tz35VdmzL6">
-            Stockholm den 6 oktober 2003 Lars Gustafsson (kd)
+          <p xml:id="i-5eupRr86MuD8tz35VdmzL6" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-65LeaB6kuB1mcJWTyqeK6D">
+            Lars Gustafsson (kd)
           </p>
         </div>
       </div>

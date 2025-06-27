@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-BoU-00221">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-BGUbtS2mi4CrLvd1iLsn4p">
           <note type="signatory" corresp="i-79cRBqVjCpwABr2BiKwH7S"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XKMMdTRx5rPDMMXmd1xcYN">
+        <correspAction xml:id="i-XKMMdTRx5rPDMMXmd1xcYN" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PmgeRR1LJoTvr3zywfbwhj">
+        <correspAction xml:id="i-PmgeRR1LJoTvr3zywfbwhj" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MF5ye87XPvHCLPGjCV2ob3">
+        <correspAction xml:id="i-MF5ye87XPvHCLPGjCV2ob3" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3FCrGqF63q8xZsYCBNPXsJ"/>
+        <correspAction xml:id="i-3FCrGqF63q8xZsYCBNPXsJ" type="assigned"/>
         <correspContext corresp="i-3FCrGqF63q8xZsYCBNPXsJ">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Bo_221/mot_200506_Bo_221-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Cs9Mni38HisULJ9RiBhjTi">
-        <div type="motTitle" xml:id="i-HMRSk9SEHRNbV2cvv5V51B"/>
-        <div type="motSubmissionInfo" xml:id="i-4kE68h4EbVjdM7sRJHn4FF"/>
+      <div xml:id="i-Cs9Mni38HisULJ9RiBhjTi" type="motHeader">
+        <div xml:id="i-HMRSk9SEHRNbV2cvv5V51B" type="motTitle"/>
+        <div xml:id="i-4kE68h4EbVjdM7sRJHn4FF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ARGoSgjdYuJfWdskhmbxwe">
+      <div xml:id="i-ARGoSgjdYuJfWdskhmbxwe" type="motBody">
         <div xml:id="i-5TZrHCy7ATx2w63NBr4EKW">
           <p xml:id="i-Ti61PLKmuoPNVYvw4JYo8k">
             2005/06 mnr: Bo221 pnr: s49405
@@ -112,8 +112,11 @@
             eftersom även i denna form av bostadshus utsätts tredjeman för
             fara.
           </p>
-          <p xml:id="i-NN7az28wtHfgAophCsW4o5">
-            Stockholm den 27 september 2005 Ann-Christin Ahlberg (s)
+          <p xml:id="i-NN7az28wtHfgAophCsW4o5" type="date">
+            Stockholm den 27 september 2005
+          </p>
+          <p type="signatureBlock" id="i-8Rg6Q18aQzp9CjjqWUtM7S">
+            Ann-Christin Ahlberg (s)
           </p>
         </div>
       </div>

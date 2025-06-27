@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-UbU-00095">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-WMA5CvSwpnzJGeJntPaK4Q</idno>
-            <name>Inge Carlsson </name>
+            <name>Inge Carlsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-EkHKGEpr4tEC2BogFc76Gt</idno>
-            <name>Nils Nordh </name>
+            <name>Nils Nordh</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-CN8Ax1AGAeNQfgGEixwxQ7</idno>
-            <name>Rinaldo Karlsson </name>
+            <name>Rinaldo Karlsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-K5wmHzqv77C9ZZFypawNNC"/>
+        <correspAction xml:id="i-K5wmHzqv77C9ZZFypawNNC" type="basedOn"/>
         <correspContext corresp="i-K5wmHzqv77C9ZZFypawNNC">
           <ref>Proposition 1990/91:82</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-EkHKGEpr4tEC2BogFc76Gt"/>
           <note type="signatory" corresp="i-CN8Ax1AGAeNQfgGEixwxQ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YQ4pq3nUx3VTschWBiXC4v">
+        <correspAction xml:id="i-YQ4pq3nUx3VTschWBiXC4v" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JUfFVe1QmNnA1w2NVk4svz">
+        <correspAction xml:id="i-JUfFVe1QmNnA1w2NVk4svz" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QJ9TbXt1z5b5vCaJLaSG3Q">
+        <correspAction xml:id="i-QJ9TbXt1z5b5vCaJLaSG3Q" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-3nCfC4kiHeTBxd4uM6CU7U">
+        <correspAction xml:id="i-3nCfC4kiHeTBxd4uM6CU7U" type="referral">
           <date when="1991-03-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6o6guC58YP4pj1UGcbjKNk">
+        <correspAction xml:id="i-6o6guC58YP4pj1UGcbjKNk" type="dismissal">
           <date when="1991-03-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TDeYxL7xpLJhDbHKS2kwgt">
+        <correspAction xml:id="i-TDeYxL7xpLJhDbHKS2kwgt" type="submission">
           <date when="1991-03-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-U9nP2y8j9r1155jEhAhDSj"/>
+        <correspAction xml:id="i-U9nP2y8j9r1155jEhAhDSj" type="assigned"/>
         <correspContext corresp="i-U9nP2y8j9r1155jEhAhDSj">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_UbU_95/mot_199091_UbU_95-001.pdf"/>
-      <div type="motHeader" xml:id="i-YLWBDGXET6KQDCqkaw64xL">
-        <div type="motTitle" xml:id="i-2SVhCowHAA1T9KQ6dMRCj6"/>
-        <div type="motSubmissionInfo" xml:id="i-JrAwi3iohRjQ31KCXfP8jb"/>
+      <div xml:id="i-YLWBDGXET6KQDCqkaw64xL" type="motHeader">
+        <div xml:id="i-2SVhCowHAA1T9KQ6dMRCj6" type="motTitle"/>
+        <div xml:id="i-JrAwi3iohRjQ31KCXfP8jb" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-rFPoBNh6pqYt9aLPz6c86">
+      <div xml:id="i-rFPoBNh6pqYt9aLPz6c86" type="motBody">
         <div xml:id="i-NjRixQJMUMwpQfWuHDjk2Y">
           <p xml:id="i-7uMvJ9pX4JwZ6MPXN5jbHD">
             Motion till riksdagen 1990/91:Ub95
@@ -173,8 +173,13 @@
           <p xml:id="i-FJiW4UDCeA3wiSkMAHW4MU">
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna vad i motio- nen anförts
-            om en ändrad anslagsfördelning mellan studieförbunden. Stockholm
-            den 14 mars 1991 Inge Carlsson (s)
+            om en ändrad anslagsfördelning mellan studieförbunden.
+          </p>
+          <p type="date" id="i-7w3grPjFWKZfhvN2Vtkm5L">
+            Stockholm den 14 mars 1991
+          </p>
+          <p type="signatureBlock" id="i-3CzAFPeurRjHZMfBEpuKEe">
+            Inge Carlsson (s)
           </p>
           <p xml:id="i-HvxEnLomWG8Z2JAcvqf3SG">
             Nils Nordh (s) Rinaldo Karlsson (s)

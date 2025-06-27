@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00290">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-6W2uvB9p5VBJNV5YKGfBHn">
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WnTSqimd6qsiWLsuFZEy94">
+        <correspAction xml:id="i-WnTSqimd6qsiWLsuFZEy94" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UY4QyxNBWC1Nu8zUihogYS">
+        <correspAction xml:id="i-UY4QyxNBWC1Nu8zUihogYS" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EuCdVL3T5R6i37izUE3cjB">
+        <correspAction xml:id="i-EuCdVL3T5R6i37izUE3cjB" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WSpa7W7urpodrRA8WADKzv"/>
+        <correspAction xml:id="i-WSpa7W7urpodrRA8WADKzv" type="assigned"/>
         <correspContext corresp="i-WSpa7W7urpodrRA8WADKzv">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_290/mot_200506_So_290-0001.pdf"/>
-      <div type="motHeader" xml:id="i-X7cbR3FuUxYWzZGdoUpqSs">
-        <div type="motTitle" xml:id="i-TChqbBTrkbJLSBxo7w78nH"/>
-        <div type="motSubmissionInfo" xml:id="i-LtwLKa29Qf6By6kwAbgrjU"/>
+      <div xml:id="i-X7cbR3FuUxYWzZGdoUpqSs" type="motHeader">
+        <div xml:id="i-TChqbBTrkbJLSBxo7w78nH" type="motTitle"/>
+        <div xml:id="i-LtwLKa29Qf6By6kwAbgrjU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KBn32xC7oAtEXStfAzTQ8Q">
+      <div xml:id="i-KBn32xC7oAtEXStfAzTQ8Q" type="motBody">
         <div xml:id="i-AhYb78zqEGZHh4QCpeo38V">
           <p xml:id="i-TSt8y58bABKMK7kq6nMv48">
             2005/06 mnr: S0290 pnr: kd578
@@ -189,8 +189,11 @@
             återkommer med ett nytt lagförslag som skärper straffet för hembränning
             och skärper straffet vid försäljning av hembränt till ungdomar.
           </p>
-          <p xml:id="i-E8JNAgt2qZTrBS5LqLKyHL">
-            Stockholm den 26 september 2005 Ragnwi Marcelind (kd)
+          <p xml:id="i-E8JNAgt2qZTrBS5LqLKyHL" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-PowYcC4mwtuyCEbKBaSWn">
+            Ragnwi Marcelind (kd)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00595">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-D5W4KMbqzfAEfRXajZLt7z"/>
           <note type="signatory" corresp="i-Q5smfAWD9kCwe7tQviBPMn"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-78NC5FHkz8msPb4LHV6yUU">
+        <correspAction xml:id="i-78NC5FHkz8msPb4LHV6yUU" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AC4fbibgGgyxbbEvPpsi3t">
+        <correspAction xml:id="i-AC4fbibgGgyxbbEvPpsi3t" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HeKUVMY3KK1hJtgCfcjpxA">
+        <correspAction xml:id="i-HeKUVMY3KK1hJtgCfcjpxA" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QC5DMCuXyCN29R8G2Bd36q"/>
+        <correspAction xml:id="i-QC5DMCuXyCN29R8G2Bd36q" type="assigned"/>
         <correspContext corresp="i-QC5DMCuXyCN29R8G2Bd36q">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_595/mot_200506_T_595-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UATZaiXszbdj3wEd52SbuV">
-        <div type="motTitle" xml:id="i-SWM6eLJgFYVKVRjkM3ZKt4"/>
-        <div type="motSubmissionInfo" xml:id="i-CM3zp25qmnZBhwNCPJKb8K"/>
+      <div xml:id="i-UATZaiXszbdj3wEd52SbuV" type="motHeader">
+        <div xml:id="i-SWM6eLJgFYVKVRjkM3ZKt4" type="motTitle"/>
+        <div xml:id="i-CM3zp25qmnZBhwNCPJKb8K" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DeVoCcgNnm7mJd3yss3YPm">
+      <div xml:id="i-DeVoCcgNnm7mJd3yss3YPm" type="motBody">
         <div xml:id="i-VacxBwg2uyAACSDZhJ94mj">
           <p xml:id="i-5mo1wWNcpPMhhzGspdxx7K">
             2005/06 mnr: T595 pnr: s45208
@@ -136,8 +136,11 @@
             Vägverket bör få i uppdrag att utarbeta tydliga regler för rondellkörning
             i enlighet med vad ovan sagts.
           </p>
-          <p xml:id="i-4XMBYjWoL5XjuCN2rk6mee">
-            Stockholm den 4 oktober 2005 Lars Lilja (s) Carin Lundberg (s)
+          <p xml:id="i-4XMBYjWoL5XjuCN2rk6mee" type="date">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-8m87cRwvHURwAkqt2RyMD3">
+            Lars Lilja (s) Carin Lundberg (s)
           </p>
         </div>
       </div>

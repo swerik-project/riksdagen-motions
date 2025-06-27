@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00232">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Sk6WLGDxmMgtF2RBqW2i3q">
           <note type="signatory" corresp="i-R9MuNkxgtjYredKHhh6ujV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8oSWNp57VmhNtAKmSFHZV9">
+        <correspAction xml:id="i-8oSWNp57VmhNtAKmSFHZV9" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UkNyHuE6o4DFS4ewfSaJR1">
+        <correspAction xml:id="i-UkNyHuE6o4DFS4ewfSaJR1" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LqvSk3nfayzNBfM9UcSREg">
+        <correspAction xml:id="i-LqvSk3nfayzNBfM9UcSREg" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JyyiBMaUptKbUEReTuoG7D"/>
+        <correspAction xml:id="i-JyyiBMaUptKbUEReTuoG7D" type="assigned"/>
         <correspContext corresp="i-JyyiBMaUptKbUEReTuoG7D">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0232/mot_200304_Sf_0232-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Sf1t4c1iju2r1bEpQovNpX">
-        <div type="motTitle" xml:id="i-D5jm9f6kbCfjttzjkUx6Af"/>
-        <div type="motSubmissionInfo" xml:id="i-GwwLqPavoK3dRri2xSu91V"/>
+      <div xml:id="i-Sf1t4c1iju2r1bEpQovNpX" type="motHeader">
+        <div xml:id="i-D5jm9f6kbCfjttzjkUx6Af" type="motTitle"/>
+        <div xml:id="i-GwwLqPavoK3dRri2xSu91V" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CWuYCr97A5HrHMd8cmGYgQ">
+      <div xml:id="i-CWuYCr97A5HrHMd8cmGYgQ" type="motBody">
         <div xml:id="i-AQGdnRKdf8nYG34CDH61LF">
           <p xml:id="i-9sT2kBkoz6umtP6sJp18ui">
             2003/04 mnr: Sf232 pnr: m1337
@@ -340,8 +340,11 @@
           <p xml:id="i-Qx1RsYV8QemcA4Vuppjore">
             2003/04:Sf232
           </p>
-          <p xml:id="i-A3Us5DT2kTNWktvHsfPUCA">
-            Stockholm den 30 september 2003 Per Bill (m)
+          <p xml:id="i-A3Us5DT2kTNWktvHsfPUCA" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-A7AcThJy1Xx9YGUYhwXy7c">
+            Per Bill (m)
           </p>
         </div>
       </div>

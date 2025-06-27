@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-MJU-00015">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KRz92ipRunFd1jcMLp45Pj"/>
+        <correspAction xml:id="i-KRz92ipRunFd1jcMLp45Pj" type="basedOn"/>
         <correspContext corresp="i-KRz92ipRunFd1jcMLp45Pj">
           <ref>Proposition 2001/02:55</ref>
         </correspContext>
@@ -50,31 +50,31 @@
           <note type="signatory" corresp="i-PDRRRaXKabL6avxH1jYjid"/>
           <note type="signatory" corresp="i-BHVsLDz5YDDkjyE1f5Gzz3"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4JMnbJ35WUY8KQvXP97cXM">
+        <correspAction xml:id="i-4JMnbJ35WUY8KQvXP97cXM" type="referral">
           <date when="2002-01-23"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-W6HND3XjJFUZNohNTwN1Ei">
+        <correspAction xml:id="i-W6HND3XjJFUZNohNTwN1Ei" type="numbering">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-AojJ1WU7oWei698VcYkSwk">
+        <correspAction xml:id="i-AojJ1WU7oWei698VcYkSwk" type="proposed_referral">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-9jKvXtTuDq1gXLx2U95QkD">
+        <correspAction xml:id="i-9jKvXtTuDq1gXLx2U95QkD" type="committee_proposal">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-6pZMpbNYztTyBcwSECzmYD">
+        <correspAction xml:id="i-6pZMpbNYztTyBcwSECzmYD" type="reviewing">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-TzrBsbJgEQqfrebexs79oa">
+        <correspAction xml:id="i-TzrBsbJgEQqfrebexs79oa" type="registration">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KYad5Gyppb2whZhnhkm5qN">
+        <correspAction xml:id="i-KYad5Gyppb2whZhnhkm5qN" type="dismissal">
           <date when="2002-01-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RBBfe3UagDWwvY5KRcJdvr">
+        <correspAction xml:id="i-RBBfe3UagDWwvY5KRcJdvr" type="submission">
           <date when="2002-01-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Mhm3E7ZWNJoxN2zD3YdaF1"/>
+        <correspAction xml:id="i-Mhm3E7ZWNJoxN2zD3YdaF1" type="assigned"/>
         <correspContext corresp="i-Mhm3E7ZWNJoxN2zD3YdaF1">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -89,11 +89,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_MJ_0015/mot_200102_MJ_0015-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TjB12Kv2eLtmYCBnAJCHNb">
-        <div type="motTitle" xml:id="i-5WpBaF7smNeTfWy1Uta2UV"/>
-        <div type="motSubmissionInfo" xml:id="i-6VucJbCFc6u4QP9g3XaKZm"/>
+      <div xml:id="i-TjB12Kv2eLtmYCBnAJCHNb" type="motHeader">
+        <div xml:id="i-5WpBaF7smNeTfWy1Uta2UV" type="motTitle"/>
+        <div xml:id="i-6VucJbCFc6u4QP9g3XaKZm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-C8YSBi5nH4uodytqAFG3YQ">
+      <div xml:id="i-C8YSBi5nH4uodytqAFG3YQ" type="motBody">
         <div xml:id="i-KqC3oRv3AcVZhwhoMoY73u">
           <p xml:id="i-7Z4WQBBAyWGGZtaGSBHvv7">
             2001/02 mnr: MJ15 pnr: fp1140
@@ -579,9 +579,11 @@
             och statens ansvar vid stora olyckor är dock en komplicerad avvägningsfråga
             som bl.a. utreds inom EU.
           </p>
-          <p xml:id="i-PqssartUnDXcznsrWaotN9">
-            Stockholm den 18 januari 2002 Harald Nordlund (fp) Lennart Kollmats
-            (fp)
+          <p xml:id="i-PqssartUnDXcznsrWaotN9" type="date">
+            Stockholm den 18 januari 2002
+          </p>
+          <p type="signatureBlock" id="i-SqiZW6QBhx97t5WjRCdw5x">
+            Harald Nordlund (fp) Lennart Kollmats (fp)
           </p>
           <p xml:id="i-2VLuzgTVXH2bTqYMECMps7">
             2000/01:c999

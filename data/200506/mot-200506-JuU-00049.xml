@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00049">
   <teiHeader>
     <fileDesc>
@@ -70,7 +70,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FGk1rgQwgRPN2swsdrEShZ"/>
+        <correspAction xml:id="i-FGk1rgQwgRPN2swsdrEShZ" type="basedOn"/>
         <correspContext corresp="i-FGk1rgQwgRPN2swsdrEShZ">
           <ref>Proposition 2005/06:177</ref>
         </correspContext>
@@ -83,19 +83,19 @@
           <note type="signatory" corresp="i-EFJ93MgPh6dJrzDB1Tt657"/>
           <note type="signatory" corresp="i-SmQxY46smWu5awEQ2oGr4n"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-R26i74xMmeVzf7bdc6iLG1">
+        <correspAction xml:id="i-R26i74xMmeVzf7bdc6iLG1" type="referral">
           <date when="2006-04-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-77Gn9D2sdRdXf6LnyBaGtj">
+        <correspAction xml:id="i-77Gn9D2sdRdXf6LnyBaGtj" type="dismissal">
           <date when="2006-04-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-F1Ls2h6A3gA6zsXS3XK37G">
+        <correspAction xml:id="i-F1Ls2h6A3gA6zsXS3XK37G" type="dismissal">
           <date when="2006-04-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AnNfbUze6Jo8KfuVjd2So4">
+        <correspAction xml:id="i-AnNfbUze6Jo8KfuVjd2So4" type="submission">
           <date when="2006-04-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CGbipuEpeUgBHLWCp4Y5w6"/>
+        <correspAction xml:id="i-CGbipuEpeUgBHLWCp4Y5w6" type="assigned"/>
         <correspContext corresp="i-CGbipuEpeUgBHLWCp4Y5w6">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_49/mot_200506_Ju_49-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DJ2yFRVKToZehmCxoQSS8N">
-        <div type="motTitle" xml:id="i-DARehM9yxdYUynZfJwaUKC"/>
-        <div type="motSubmissionInfo" xml:id="i-34mpgeuRbZqeUmdW45oMWj"/>
+      <div xml:id="i-DJ2yFRVKToZehmCxoQSS8N" type="motHeader">
+        <div xml:id="i-DARehM9yxdYUynZfJwaUKC" type="motTitle"/>
+        <div xml:id="i-34mpgeuRbZqeUmdW45oMWj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XLeUZLm7KPhYchwnbJx23t">
+      <div xml:id="i-XLeUZLm7KPhYchwnbJx23t" type="motBody">
         <div xml:id="i-RzDWkSHKoJyw3byKJQ617q">
           <p xml:id="i-9QhXm7XxvfXgyKjuvJruF8">
             2005/06 mnr: Ju49 pnr: kd181
@@ -251,8 +251,11 @@
             vad gäller hemliga tvångsmedel. En sådan forskning behövs för
             att precisera behovet av att införa lagar för tvångsåtgärder.
           </p>
-          <p xml:id="i-Rnew4U6RLWR8k3DXH92pJf">
-            Stockholm den 18 april 2006 Peter Althin (kd)
+          <p xml:id="i-Rnew4U6RLWR8k3DXH92pJf" type="date">
+            Stockholm den 18 april 2006
+          </p>
+          <p type="signatureBlock" id="i-SUtBMH9QJHS8XBpEFgxHBb">
+            Peter Althin (kd)
           </p>
           <p xml:id="i-Cd1wagubqCKHq4DihkyumG">
             Olle Sandahl (kd) Ingvar Svensson (kd) Helena Höij (kd) Yvonne

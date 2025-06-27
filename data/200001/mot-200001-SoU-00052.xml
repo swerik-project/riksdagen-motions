@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SoU-00052">
   <teiHeader>
     <fileDesc>
@@ -265,7 +265,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-TdPgg49cKCQcpkecsA4Ypi"/>
+        <correspAction xml:id="i-TdPgg49cKCQcpkecsA4Ypi" type="basedOn"/>
         <correspContext corresp="i-TdPgg49cKCQcpkecsA4Ypi">
           <ref>Proposition 2000/01:80</ref>
         </correspContext>
@@ -306,28 +306,28 @@
           <note type="signatory" corresp="i-7Fnps4HB4T8k2Yc71rfops"/>
           <note type="signatory" corresp="i-839FvTzHpvrdX4J7ckfWSt"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MyypMmb8uDzYFd1dVosmN2">
+        <correspAction xml:id="i-MyypMmb8uDzYFd1dVosmN2" type="referral">
           <date when="2001-04-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HeBaAvdjGxhsyRSBX8qUV4">
+        <correspAction xml:id="i-HeBaAvdjGxhsyRSBX8qUV4" type="dismissal">
           <date when="2001-04-17"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-AVg72v9awshvNEmKcsUEEk">
+        <correspAction xml:id="i-AVg72v9awshvNEmKcsUEEk" type="reviewing">
           <date when="2001-04-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9KTuvP2SHUGcvHdT55Lxd1">
+        <correspAction xml:id="i-9KTuvP2SHUGcvHdT55Lxd1" type="submission">
           <date when="2001-04-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-U7JPTLUYmAT7PAvDKZC4Vw">
+        <correspAction xml:id="i-U7JPTLUYmAT7PAvDKZC4Vw" type="referral">
           <date when="2001-04-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-X5X2jhTzYBzjjhCNsL9erQ">
+        <correspAction xml:id="i-X5X2jhTzYBzjjhCNsL9erQ" type="dismissal">
           <date when="2001-04-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JUN4MjJC6Az5ACr1YcXptW">
+        <correspAction xml:id="i-JUN4MjJC6Az5ACr1YcXptW" type="submission">
           <date when="2001-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-LxxL6cq9CvoUGqB6tsV1P5"/>
+        <correspAction xml:id="i-LxxL6cq9CvoUGqB6tsV1P5" type="assigned"/>
         <correspContext corresp="i-LxxL6cq9CvoUGqB6tsV1P5">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -342,11 +342,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_So_0052/mot_200001_So_0052-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3nHJA6YZfo9WoFtBY6evAe">
-        <div type="motTitle" xml:id="i-VqdzuvgMaoDmnBCKgAEgTH"/>
-        <div type="motSubmissionInfo" xml:id="i-Vgs2zUgbj8aHrdtjXhu892"/>
+      <div xml:id="i-3nHJA6YZfo9WoFtBY6evAe" type="motHeader">
+        <div xml:id="i-VqdzuvgMaoDmnBCKgAEgTH" type="motTitle"/>
+        <div xml:id="i-Vgs2zUgbj8aHrdtjXhu892" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HLijbd7g1DUExdNuqP9vxz">
+      <div xml:id="i-HLijbd7g1DUExdNuqP9vxz" type="motBody">
         <div xml:id="i-QbfPSez6t3cbmsR3U6MGcx">
           <p xml:id="i-QdAge2kVyA86D4pza5dC6G">
             2000/01 mnr: So52 pnr: kd148
@@ -804,8 +804,11 @@
             yttersta mening måste dock genom 7 8 vara, att den enskilde också
             skall kunna få hjälp med en bostad.
           </p>
-          <p xml:id="i-KgpkhMUtcKkgzCcS6vrWLW">
-            Stockholm den 6 april 2001 Chatrine Pålsson (kd)
+          <p xml:id="i-KgpkhMUtcKkgzCcS6vrWLW" type="date">
+            Stockholm den 6 april 2001
+          </p>
+          <p type="signatureBlock" id="i-D2U9vtTdCKu6xqgbQHShSz">
+            Chatrine Pålsson (kd)
           </p>
           <p xml:id="i-7jsCxTCaLoGe5f3cwLMNjg">
             Rosita Runegrund (kd) Ester Lindstedt-Staaf (kd) Inger Davidson

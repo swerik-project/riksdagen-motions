@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00329">
   <teiHeader>
     <fileDesc>
@@ -118,16 +118,16 @@
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5u8CeMuQczywr6dCs7DDJa">
+        <correspAction xml:id="i-5u8CeMuQczywr6dCs7DDJa" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FLoSxp155RY8C277ok7FJs">
+        <correspAction xml:id="i-FLoSxp155RY8C277ok7FJs" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XmfBcGEcPcRTwib2iCHTGz">
+        <correspAction xml:id="i-XmfBcGEcPcRTwib2iCHTGz" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Y9Y1Snq2B6M98b8inEsPHa"/>
+        <correspAction xml:id="i-Y9Y1Snq2B6M98b8inEsPHa" type="assigned"/>
         <correspContext corresp="i-Y9Y1Snq2B6M98b8inEsPHa">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -142,11 +142,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Kr_0329/mot_200304_Kr_0329-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QHiofPsHn7WB8YADFbs1xR">
-        <div type="motTitle" xml:id="i-GL6dRDesqUuhWpnZj7wj3F"/>
-        <div type="motSubmissionInfo" xml:id="i-2GfeDVMGCtiRMvPEnbjz7Y"/>
+      <div xml:id="i-QHiofPsHn7WB8YADFbs1xR" type="motHeader">
+        <div xml:id="i-GL6dRDesqUuhWpnZj7wj3F" type="motTitle"/>
+        <div xml:id="i-2GfeDVMGCtiRMvPEnbjz7Y" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SJ8nfkr16szVfCEMs83iRv">
+      <div xml:id="i-SJ8nfkr16szVfCEMs83iRv" type="motBody">
         <div xml:id="i-22uw8VvmzvNCfRvrF357Uc">
           <p xml:id="i-16JxhTDLCKmXd56VHwEB1M">
             2003/04 mnr: Kr329
@@ -859,8 +859,8 @@
             så att deras kompetens på området tas till vara. I jämförelse
             med de stora studieförbunden har amatörkulturorganisationerna
             mycket små resurser. De har dock ett mycket stort kunnande inom
-            =&lt;:amatörkulturverksamhet, ett kunnande som studieförbunden bör
-            ta till vara. Det bör finnas ett långtgående samarbete mellan
+            =&lt;:amatörkulturverksamhet, ett kunnande som studieförbunden
+            bör ta till vara. Det bör finnas ett långtgående samarbete mellan
             de två för amatörkulturen så viktiga aktörerna.
           </p>
           <p xml:id="i-25FrPTwNqvMyxuuUAGyC4H">
@@ -917,8 +917,11 @@
             angeläget att se över stödet till denna angelägna verksamhet så
             att den kan fortsätta.
           </p>
-          <p xml:id="i-QiPkYeh9A64u53b1zwdr99">
-            Stockholm den 25 september 2003 Helena Höij (kd)
+          <p xml:id="i-QiPkYeh9A64u53b1zwdr99" type="date">
+            Stockholm den 25 september 2003
+          </p>
+          <p type="signatureBlock" id="i-8xwzdhC2Kn48wY6UGzmqis">
+            Helena Höij (kd)
           </p>
           <p xml:id="i-EcQejSXj7km6KhR32a7heH">
             Sven Brus (kd) Inger Davidson (kd) Dan Kihlström (kd) Kenneth

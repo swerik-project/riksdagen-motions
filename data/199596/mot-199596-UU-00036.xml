@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-UU-00036">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-MgqyLN2yypWAiyHpLmZGkg</idno>
-            <name>Bodil Francke Ohlsson </name>
+            <name>Bodil Francke Ohlsson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-DE1VUc6n4rtJnaugPM9Ztn"/>
+        <correspAction xml:id="i-DE1VUc6n4rtJnaugPM9Ztn" type="basedOn"/>
         <correspContext corresp="i-DE1VUc6n4rtJnaugPM9Ztn">
           <ref>Proposition 1995/96:153</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-MgqyLN2yypWAiyHpLmZGkg"/>
           <note type="signatory" corresp="i-MgqyLN2yypWAiyHpLmZGkg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3s8oTDYZ3MFPkKyqfVptXD">
+        <correspAction xml:id="i-3s8oTDYZ3MFPkKyqfVptXD" type="referral">
           <date when="1996-03-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FXnc3LuTZZmZc34VUJ5r8Z">
+        <correspAction xml:id="i-FXnc3LuTZZmZc34VUJ5r8Z" type="dismissal">
           <date when="1996-03-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5NgVC6jvEcJfaGEE5ovMJw">
+        <correspAction xml:id="i-5NgVC6jvEcJfaGEE5ovMJw" type="submission">
           <date when="1996-03-27"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-514oEpNGnFnwJH62aWTAmo">
+        <correspAction xml:id="i-514oEpNGnFnwJH62aWTAmo" type="referral">
           <date when="1996-03-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4PS2KqADLgZpAQYknnUpg5">
+        <correspAction xml:id="i-4PS2KqADLgZpAQYknnUpg5" type="dismissal">
           <date when="1996-03-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-UwmjEabV9diXGUPe6dzzKR">
+        <correspAction xml:id="i-UwmjEabV9diXGUPe6dzzKR" type="submission">
           <date when="1996-03-27"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UnuPzGo6cm8Fd2EgvzizX"/>
+        <correspAction xml:id="i-UnuPzGo6cm8Fd2EgvzizX" type="assigned"/>
         <correspContext corresp="i-UnuPzGo6cm8Fd2EgvzizX">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_U_0036/mot_199596_U_0036-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QRsWqtRFjKAkfqQFzBhS3K">
-        <div type="motTitle" xml:id="i-YGrAq3S8rATr2prpydWDJ8"/>
-        <div type="motSubmissionInfo" xml:id="i-9zSTJi52RYDtsDWVaSLT34"/>
+      <div xml:id="i-QRsWqtRFjKAkfqQFzBhS3K" type="motHeader">
+        <div xml:id="i-YGrAq3S8rATr2prpydWDJ8" type="motTitle"/>
+        <div xml:id="i-9zSTJi52RYDtsDWVaSLT34" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DCbLa9spPAuFR63b2ofnYR">
+      <div xml:id="i-DCbLa9spPAuFR63b2ofnYR" type="motBody">
         <div xml:id="i-UzrcuaozPGRAuYTApNoXfy">
           <p xml:id="i-PhNMiAawRnYBEgAYdbhCqm">
             1995/96 U36 U33-38
@@ -141,9 +141,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_U_0036/mot_199596_U_0036-0002.pdf"/>
           <p xml:id="i-LuUhKDU64KEpaFyuioBu4p">
-            Mot. 1995/96U38 Stockholm den 27 mars 1996
+            Mot. 1995/96U38
           </p>
-          <p xml:id="i-JaGSBd2apmWEBxqff2ux6d">
+          <p type="date" id="i-KmEFEq17LeNKT17pn2aHuB">
+            Stockholm den 27 mars 1996
+          </p>
+          <p xml:id="i-JaGSBd2apmWEBxqff2ux6d" type="signatureBlock">
             Bodil Francke Ohlsson (mp)
           </p>
         </div>

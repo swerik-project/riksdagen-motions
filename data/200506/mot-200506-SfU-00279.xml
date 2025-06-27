@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00279">
   <teiHeader>
     <fileDesc>
@@ -103,16 +103,16 @@
           <note type="signatory" corresp="i-F8qdE2eedz12PwFanq3ahv"/>
           <note type="signatory" corresp="i-BTT4KmhANXmGX5MoaLfFg9"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8E2nkqLuzJVWB9cxQXhLbs">
+        <correspAction xml:id="i-8E2nkqLuzJVWB9cxQXhLbs" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GBD1kJpPwoLqmA7yZn5yf6">
+        <correspAction xml:id="i-GBD1kJpPwoLqmA7yZn5yf6" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TTVQn28gBJALnJPULvnHCB">
+        <correspAction xml:id="i-TTVQn28gBJALnJPULvnHCB" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HrjH33QCSzNVDyfUpDh9Pp"/>
+        <correspAction xml:id="i-HrjH33QCSzNVDyfUpDh9Pp" type="assigned"/>
         <correspContext corresp="i-HrjH33QCSzNVDyfUpDh9Pp">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -127,11 +127,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_279/mot_200506_Sf_279-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EdrzmWLiH5KqXv5gx1GDF">
-        <div type="motTitle" xml:id="i-X7EocacqFVCTsFXDUHjNwW"/>
-        <div type="motSubmissionInfo" xml:id="i-Mv6aLKF2zVMHt28TcsUDSy"/>
+      <div xml:id="i-EdrzmWLiH5KqXv5gx1GDF" type="motHeader">
+        <div xml:id="i-X7EocacqFVCTsFXDUHjNwW" type="motTitle"/>
+        <div xml:id="i-Mv6aLKF2zVMHt28TcsUDSy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-E39FY1hZ8EbMDLRGEbKS65">
+      <div xml:id="i-E39FY1hZ8EbMDLRGEbKS65" type="motBody">
         <div xml:id="i-EtpEzuCRxJKxJ6RUmGMP18">
           <p xml:id="i-U3AiZQR5r9PsKTTtFZtDs8">
             2005/06
@@ -480,9 +480,12 @@
             sättas in för att undanröja visumproblem för utländska studenter
             inom Öresundsuniversitetet när de passerar gränsen eller problem
             med uppehållstillstånd i det ena landet vid studier i det andra
-            landet. Stockholm den 30 september 2005
+            landet.
           </p>
-          <p xml:id="i-78gYsvhBh9nbdg4ES2ZzeY">
+          <p type="date" id="i-6JcuTC3qkTGyWeHBBDSXp9">
+            Stockholm den 30 september 2005
+          </p>
+          <p xml:id="i-78gYsvhBh9nbdg4ES2ZzeY" type="signatureBlock">
             Tobias Billström (m)
           </p>
           <p xml:id="i-DtwXEhKTANXWUgQiKJeJSC">

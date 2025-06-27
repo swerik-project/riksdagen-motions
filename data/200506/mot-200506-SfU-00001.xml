@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00001">
   <teiHeader>
     <fileDesc>
@@ -77,7 +77,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-LBMnS3MEuUJMjGsctR6cxf"/>
+        <correspAction xml:id="i-LBMnS3MEuUJMjGsctR6cxf" type="basedOn"/>
         <correspContext corresp="i-LBMnS3MEuUJMjGsctR6cxf">
           <ref>Proposition 2005/06:6</ref>
         </correspContext>
@@ -91,19 +91,19 @@
           <note type="signatory" corresp="i-BcpdUKhPbeES19rexxtwyD"/>
           <note type="signatory" corresp="i-LB9Tn6B1RXiAHZEWEK1hYC"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AaRaCacr1fb1uDL9odDc9c">
+        <correspAction xml:id="i-AaRaCacr1fb1uDL9odDc9c" type="referral">
           <date when="2005-10-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2QvSxmcriquyx1wFwKg9ii">
+        <correspAction xml:id="i-2QvSxmcriquyx1wFwKg9ii" type="dismissal">
           <date when="2005-10-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GH4e5xUqHE8kc67j8PYZc6">
+        <correspAction xml:id="i-GH4e5xUqHE8kc67j8PYZc6" type="dismissal">
           <date when="2005-10-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-U38N8pmX5F4VhPfjaUEYhU">
+        <correspAction xml:id="i-U38N8pmX5F4VhPfjaUEYhU" type="submission">
           <date when="2005-10-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CcRSaSAJXoAq57aTjzboKp"/>
+        <correspAction xml:id="i-CcRSaSAJXoAq57aTjzboKp" type="assigned"/>
         <correspContext corresp="i-CcRSaSAJXoAq57aTjzboKp">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_1/mot_200506_Sf_1-0001.pdf"/>
-      <div type="motHeader" xml:id="i-15YsTaqyiVe8aY1GhGNYrZ">
-        <div type="motTitle" xml:id="i-W2bpz2QnKxTawnSsUK7huT"/>
-        <div type="motSubmissionInfo" xml:id="i-VeEgRoB4AD6aukiwP54McX"/>
+      <div xml:id="i-15YsTaqyiVe8aY1GhGNYrZ" type="motHeader">
+        <div xml:id="i-W2bpz2QnKxTawnSsUK7huT" type="motTitle"/>
+        <div xml:id="i-VeEgRoB4AD6aukiwP54McX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-145BK5isoieF65MZhFNgkc">
+      <div xml:id="i-145BK5isoieF65MZhFNgkc" type="motBody">
         <div xml:id="i-43PBMEGQUrRCet98NnmcCL">
           <p xml:id="i-9aPhMrDjDk3J2NjXP7cVw6">
             2005/06 mnr: Sf1 pnr: v003
@@ -612,8 +612,11 @@
             de svenska myndigheterna i deras tolkning av den nya bestämmelsen.
             Detta bör riksdagen som sin mening ge regeringen till känna.
           </p>
-          <p xml:id="i-MsdgaPmgtw2fENTwWHk7Aj">
-            Stockholm den 13 oktober 2005 Lars Ohly (v)
+          <p xml:id="i-MsdgaPmgtw2fENTwWHk7Aj" type="date">
+            Stockholm den 13 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-4aqWLiTFPvskse81qKx4DT">
+            Lars Ohly (v)
           </p>
           <p xml:id="i-EVj9Zd7qijoSaTGp5fucrg">
             Lars Bäckström (v) Lennart Gustavsson (v) Berit Johannesson (v)

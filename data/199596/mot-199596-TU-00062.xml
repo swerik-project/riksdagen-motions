@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-TU-00062">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-NVM2gMwP8i4wNF5q2mTCw2</idno>
-            <name>Karl-Erik Persson </name>
+            <name>Karl-Erik Persson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-JkMzbM3weuqjHx4sdcAW8p"/>
+        <correspAction xml:id="i-JkMzbM3weuqjHx4sdcAW8p" type="basedOn"/>
         <correspContext corresp="i-JkMzbM3weuqjHx4sdcAW8p">
           <ref>Proposition 1995/96:218</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-NVM2gMwP8i4wNF5q2mTCw2"/>
           <note type="signatory" corresp="i-NVM2gMwP8i4wNF5q2mTCw2"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3cWzuiHnmmbRV1PUJxYfXF">
+        <correspAction xml:id="i-3cWzuiHnmmbRV1PUJxYfXF" type="referral">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WjW7aUW1CejijdRU7RGx5k">
+        <correspAction xml:id="i-WjW7aUW1CejijdRU7RGx5k" type="dismissal">
           <date when="1996-06-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Pq6NAGHNJmFDGBWFT2ab4">
+        <correspAction xml:id="i-Pq6NAGHNJmFDGBWFT2ab4" type="submission">
           <date when="1996-06-12"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Ti1f35jpaMmcggdpPUDWqf">
+        <correspAction xml:id="i-Ti1f35jpaMmcggdpPUDWqf" type="referral">
           <date when="1996-06-19"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SeMD5DE43LTTxgmT6ZzQv2">
+        <correspAction xml:id="i-SeMD5DE43LTTxgmT6ZzQv2" type="dismissal">
           <date when="1996-06-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8mCiqEenbQzWPxgbX56vFg">
+        <correspAction xml:id="i-8mCiqEenbQzWPxgbX56vFg" type="submission">
           <date when="1996-06-12"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-ScLgWu2FkBarktARvtcCfY"/>
+        <correspAction xml:id="i-ScLgWu2FkBarktARvtcCfY" type="assigned"/>
         <correspContext corresp="i-ScLgWu2FkBarktARvtcCfY">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_T_0062/mot_199596_T_0062-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6tBZjFthmaUGycp7xmqYfz">
-        <div type="motTitle" xml:id="i-MJiGZrBxje9zXDoWHbfiBT"/>
-        <div type="motSubmissionInfo" xml:id="i-81WRzk99x2xWGmQPnv5eEK"/>
+      <div xml:id="i-6tBZjFthmaUGycp7xmqYfz" type="motHeader">
+        <div xml:id="i-MJiGZrBxje9zXDoWHbfiBT" type="motTitle"/>
+        <div xml:id="i-81WRzk99x2xWGmQPnv5eEK" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2N8bcxuP2hW7zCcWhCQLNy">
+      <div xml:id="i-2N8bcxuP2hW7zCcWhCQLNy" type="motBody">
         <div xml:id="i-7dkXMyE7c2a1zXbYJovZ2X">
           <p xml:id="i-QfL2jZx7rrNzeF1DHU1zWT">
             1995/96 [T62 T61-—65
@@ -324,9 +324,12 @@
           <p xml:id="i-MNaexKxQsihqhxcfFJcE12">
             Mot. 1995/96T63
           </p>
-          <p xml:id="i-3578HFHK2R6u592rRsRP6o">
-            Stockholm den 12 juni 1996 Karl-Erik Persson (v) Lennart Beijer
-            (v) Owe Hellberg (v) Jan Jennehag (v) Lennart Gustavsson (v)
+          <p xml:id="i-3578HFHK2R6u592rRsRP6o" type="date">
+            Stockholm den 12 juni 1996
+          </p>
+          <p type="signatureBlock" id="i-3sFCcdg6gvbyi7KtfFjCQ4">
+            Karl-Erik Persson (v) Lennart Beijer (v) Owe Hellberg (v) Jan
+            Jennehag (v) Lennart Gustavsson (v)
           </p>
           <p xml:id="i-XBSPbP64oejJXJVQFySFsR">
             Hanna Zetterberg (v)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199192-SoU-00011">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-LBN95MD8hn6zkXhRBcbJbB</idno>
-            <name>Lennart Hedquist </name>
+            <name>Lennart Hedquist</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-cNo6XnCMDc2LkrvXc6U2b</idno>
-            <name>Gustaf von Essen </name>
+            <name>Gustaf von Essen</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-UkRVDvbmgQTeC2YtiGZ7K5</idno>
-            <name>Chris Heister </name>
+            <name>Chris Heister</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8gC4Aq25CjfzLF9dcoGshq"/>
+        <correspAction xml:id="i-8gC4Aq25CjfzLF9dcoGshq" type="basedOn"/>
         <correspContext corresp="i-8gC4Aq25CjfzLF9dcoGshq">
           <ref>Proposition 1991/92:65</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-cNo6XnCMDc2LkrvXc6U2b"/>
           <note type="signatory" corresp="i-UkRVDvbmgQTeC2YtiGZ7K5"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-EsN2ehx1jBWQsdfXQkfWDJ">
+        <correspAction xml:id="i-EsN2ehx1jBWQsdfXQkfWDJ" type="referral">
           <date when="1991-11-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4Gn9kTQxAmgPza1YxdR4Bj">
+        <correspAction xml:id="i-4Gn9kTQxAmgPza1YxdR4Bj" type="dismissal">
           <date when="1991-11-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JHCk9w1ZmM7BynKAdKvAD9">
+        <correspAction xml:id="i-JHCk9w1ZmM7BynKAdKvAD9" type="submission">
           <date when="1991-11-19"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-NEyiiJfEeHLp8u48L6NV6D">
+        <correspAction xml:id="i-NEyiiJfEeHLp8u48L6NV6D" type="referral">
           <date when="1991-11-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FjJL43tcukPD6T1rpbs4fS">
+        <correspAction xml:id="i-FjJL43tcukPD6T1rpbs4fS" type="dismissal">
           <date when="1991-11-20"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TPia5pv2xLZaWZBGqQuMiN">
+        <correspAction xml:id="i-TPia5pv2xLZaWZBGqQuMiN" type="submission">
           <date when="1991-11-19"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-8bEDGqvrVvFX568DUt96fu"/>
+        <correspAction xml:id="i-8bEDGqvrVvFX568DUt96fu" type="assigned"/>
         <correspContext corresp="i-8bEDGqvrVvFX568DUt96fu">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199192/mot_199192_SoU_11/mot_199192_SoU_11-001.pdf"/>
-      <div type="motHeader" xml:id="i-9KUPzVqjjwCJu4DvwoHAf">
-        <div type="motTitle" xml:id="i-QEXJ89XwM878ntCrvrLzEk"/>
-        <div type="motSubmissionInfo" xml:id="i-GDggaKUSkREvkY742Rrs46"/>
+      <div xml:id="i-9KUPzVqjjwCJu4DvwoHAf" type="motHeader">
+        <div xml:id="i-QEXJ89XwM878ntCrvrLzEk" type="motTitle"/>
+        <div xml:id="i-GDggaKUSkREvkY742Rrs46" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DoBRrf4LajEbR233SiuRR3">
+      <div xml:id="i-DoBRrf4LajEbR233SiuRR3" type="motBody">
         <div xml:id="i-hM6JvUs6MpM1KAjJWDNfD">
           <p xml:id="i-9HFk15Eusd1YeBXFj7V1H3">
             Motion till riksdagen 1991/92:So011
@@ -203,8 +203,13 @@
             Hemställan Med hänvisning till det anförda hemställs att riksdagen
             som sin mening ger regeringen till känna att statsbi- drag skall
             utgå även till dagbarnvårdares egna barn, som är inskrivna i kommunal
-            barnomsorg, i enlighet med vad som anförts i motionen. Stockholm
-            den 18 november 1991 Lennart Hedquist (m)
+            barnomsorg, i enlighet med vad som anförts i motionen.
+          </p>
+          <p type="date" id="i-MPxHi2kaSqrpDcfDvqFG4J">
+            Stockholm den 18 november 1991
+          </p>
+          <p type="signatureBlock" id="i-523JjL9VJ9pKoNkwuTHTE4">
+            Lennart Hedquist (m)
           </p>
           <p xml:id="i-4CCvUjdvkYfPr4LEcvXmgo">
             Gustaf von Essen (m) Chris Heister (m)

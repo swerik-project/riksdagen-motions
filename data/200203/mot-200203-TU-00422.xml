@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00422">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-H8sVxspazhy2LrEaJhnQty">
           <note type="signatory" corresp="i-XcAqMe3ntVBboWUxqACfz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PGSXoTpQguw2t964QtDK9H">
+        <correspAction xml:id="i-PGSXoTpQguw2t964QtDK9H" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DAyc3DvipMbSw9cunXRskt">
+        <correspAction xml:id="i-DAyc3DvipMbSw9cunXRskt" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3u84pgqPbVPhz8HeK1oMh5">
+        <correspAction xml:id="i-3u84pgqPbVPhz8HeK1oMh5" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5jTY6bAP8t8WSELQV96Bd1"/>
+        <correspAction xml:id="i-5jTY6bAP8t8WSELQV96Bd1" type="assigned"/>
         <correspContext corresp="i-5jTY6bAP8t8WSELQV96Bd1">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_T_0422/mot_200203_T_0422-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CNTMzKEfcNSjKDMtiy5Q4s">
-        <div type="motTitle" xml:id="i-4vq86nCDAG96NCz72ThwNU"/>
-        <div type="motSubmissionInfo" xml:id="i-Xptp8KwaibQME7NwCCZrVK"/>
+      <div xml:id="i-CNTMzKEfcNSjKDMtiy5Q4s" type="motHeader">
+        <div xml:id="i-4vq86nCDAG96NCz72ThwNU" type="motTitle"/>
+        <div xml:id="i-Xptp8KwaibQME7NwCCZrVK" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HiSXWiC1uEkmj8hNCgcaJ6">
+      <div xml:id="i-HiSXWiC1uEkmj8hNCgcaJ6" type="motBody">
         <div xml:id="i-Atj1dg37T5KC9xJv4fyu76">
           <p xml:id="i-9UjKaSU1kAHqe8x1cq551z">
             20
@@ -273,8 +273,11 @@
             där tryckningen av Sveriges största dagliga tidningar sker, alla
             beroende av säkra transporter på väg 280.
           </p>
-          <p xml:id="i-6h4HCvwzFXY9VcAtw9xkST">
-            Stockholm den 23 oktober 2002 Gunnar Andrén (fp)
+          <p xml:id="i-6h4HCvwzFXY9VcAtw9xkST" type="date">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-2LZFMeQ95RBehgqzL2tbLs">
+            Gunnar Andrén (fp)
           </p>
         </div>
       </div>

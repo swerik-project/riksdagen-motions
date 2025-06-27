@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00461">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-45mmDDxBsJjskUQwRE9Jfa">
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LojidtPdHKp8y9zfmibfvm">
+        <correspAction xml:id="i-LojidtPdHKp8y9zfmibfvm" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FLkcznjcFCkCpvnejHei13">
+        <correspAction xml:id="i-FLkcznjcFCkCpvnejHei13" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CHi4icsxUdMEVnSUE2te7Y">
+        <correspAction xml:id="i-CHi4icsxUdMEVnSUE2te7Y" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EMouQeKeR1zYptt9Nib88A"/>
+        <correspAction xml:id="i-EMouQeKeR1zYptt9Nib88A" type="assigned"/>
         <correspContext corresp="i-EMouQeKeR1zYptt9Nib88A">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Mj_0461/mot_200304_Mj_0461-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Dvh8Av3XNLC3S9i2yCNWod">
-        <div type="motTitle" xml:id="i-xP9GVuzRyyE9HUrGgVMiV"/>
-        <div type="motSubmissionInfo" xml:id="i-Msrvs9WmRidcEcPWwaaAr9"/>
+      <div xml:id="i-Dvh8Av3XNLC3S9i2yCNWod" type="motHeader">
+        <div xml:id="i-xP9GVuzRyyE9HUrGgVMiV" type="motTitle"/>
+        <div xml:id="i-Msrvs9WmRidcEcPWwaaAr9" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-56JLkz23MSBSXobP6JxRs4">
+      <div xml:id="i-56JLkz23MSBSXobP6JxRs4" type="motBody">
         <div xml:id="i-FjrZ557R9KrnroMdvkk6RM">
           <p xml:id="i-FcqFsYE39UVZmvA5XJqpe6">
             2003/04 mnr: MJ461 pnr: s3142
@@ -131,8 +131,11 @@
           <p xml:id="i-CYnP8esN1sdm136H1JofV8">
             2003/04:MJ461
           </p>
-          <p xml:id="i-UUSfQYNYpDikmAMvbDNJcs">
-            Stockholm den 3 oktober 2003 Michael Hagberg (s)
+          <p xml:id="i-UUSfQYNYpDikmAMvbDNJcs" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-Rkk6vK8bFm8VuEYB9ev36s">
+            Michael Hagberg (s)
           </p>
         </div>
       </div>

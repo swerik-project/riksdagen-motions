@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-AU-00210">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-VbT4EtQTXVQNALZBpYWdZe">
           <note type="signatory" corresp="i-LrcUg7tEu4KwWdidwr1MAk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-yijxkiXeioPWBmkBosBZD">
+        <correspAction xml:id="i-yijxkiXeioPWBmkBosBZD" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DcdgZddTUUhSMFGvRUDWse">
+        <correspAction xml:id="i-DcdgZddTUUhSMFGvRUDWse" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TrWUKUWZ2VoUzQBna77nQX">
+        <correspAction xml:id="i-TrWUKUWZ2VoUzQBna77nQX" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7kGELcgP3NBULqPUrYLpGm"/>
+        <correspAction xml:id="i-7kGELcgP3NBULqPUrYLpGm" type="assigned"/>
         <correspContext corresp="i-7kGELcgP3NBULqPUrYLpGm">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -69,11 +69,11 @@
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_210/mot_200506_A_210-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0210/mot_200506_A_0210-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0210/mot_200506_A_0210-001.pdf"/>
-      <div type="motHeader" xml:id="i-Cz2ioTPaMXRT8gYR2fxcuE">
-        <div type="motTitle" xml:id="i-NmJNhoP5dmZZhnweY1r48J"/>
-        <div type="motSubmissionInfo" xml:id="i-BLArCc4HzM2uY6zbVzUn1p"/>
+      <div xml:id="i-Cz2ioTPaMXRT8gYR2fxcuE" type="motHeader">
+        <div xml:id="i-NmJNhoP5dmZZhnweY1r48J" type="motTitle"/>
+        <div xml:id="i-BLArCc4HzM2uY6zbVzUn1p" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Bk6jEzwt72TUK66hwq6Y64">
+      <div xml:id="i-Bk6jEzwt72TUK66hwq6Y64" type="motBody">
         <div xml:id="i-NuaDpp9BjaeEGbV7PV9x3n">
           <p xml:id="i-WXoB13dcYfh7tvWTfpoenk">
             2005/06 mnr: A210 pnr: s7000
@@ -134,8 +134,11 @@
             anser jag att det är nödvändigt med en översyn av = arbetsförmedlingarnas
             handläggningsrutiner vad gäller funktionshindrade.
           </p>
-          <p xml:id="i-Sehz8ZrucmG9dpdBNCrQ2k">
-            Stockholm den 19 september 2005 Kaj Nordquist (s)
+          <p xml:id="i-Sehz8ZrucmG9dpdBNCrQ2k" type="date">
+            Stockholm den 19 september 2005
+          </p>
+          <p type="signatureBlock" id="i-T32qPupwdQ76eAcE6J4kfN">
+            Kaj Nordquist (s)
           </p>
         </div>
       </div>

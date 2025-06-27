@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00405">
   <teiHeader>
     <fileDesc>
@@ -54,16 +54,16 @@
           <note type="signatory" corresp="i-9CH1KbWwyrj8DRqAQB3Fza"/>
           <note type="signatory" corresp="i-GLV4P4jtfPZVZ95YSNxfBh"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BhYdEs9avsidgqHCHga118">
+        <correspAction xml:id="i-BhYdEs9avsidgqHCHga118" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EcWp2oVV5QZZjuJ7TkU77j">
+        <correspAction xml:id="i-EcWp2oVV5QZZjuJ7TkU77j" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CxZB7LaUToiAPuSgKzEreC">
+        <correspAction xml:id="i-CxZB7LaUToiAPuSgKzEreC" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HsAop1n9WUKDgxTEk9LBNH"/>
+        <correspAction xml:id="i-HsAop1n9WUKDgxTEk9LBNH" type="assigned"/>
         <correspContext corresp="i-HsAop1n9WUKDgxTEk9LBNH">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -78,11 +78,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_MJ_0405/mot_200304_MJ_0405-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9HVsjgGK4sZjzaP3WhpXqd">
-        <div type="motTitle" xml:id="i-PbDR7NEcb3LGWzb3zJ6Des"/>
-        <div type="motSubmissionInfo" xml:id="i-GzkMzJXRNtb3NEHUPH9qqz"/>
+      <div xml:id="i-9HVsjgGK4sZjzaP3WhpXqd" type="motHeader">
+        <div xml:id="i-PbDR7NEcb3LGWzb3zJ6Des" type="motTitle"/>
+        <div xml:id="i-GzkMzJXRNtb3NEHUPH9qqz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2pP35jdwxyJjdsLfceNdeX">
+      <div xml:id="i-2pP35jdwxyJjdsLfceNdeX" type="motBody">
         <div xml:id="i-WLB582v453KXBRtvxufZ3D">
           <p xml:id="i-6Ub4cRDgeKKT3tpzYpbvxp">
             2003/04 mnr: MJ405 pnr: mp513
@@ -187,9 +187,12 @@
           <p xml:id="i-5qMsiS8FQevQkrA4dweRRZ">
             märkning av skinn så att vi konsumenter enkelt och lätt kan se
             vilka djur skinnprodukter kommer ifrån. Detta bör ges regeringen
-            till känna. Stockholm den 6 oktober 2003
+            till känna.
           </p>
-          <p xml:id="i-Aoq27dhrhLcdBqLb2Geepr">
+          <p type="date" id="i-148c4v5PXaWubHhTG7GLv5">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p xml:id="i-Aoq27dhrhLcdBqLb2Geepr" type="signatureBlock">
             Ulf Holm (mp) Gustav Fridolin (mp) Åsa Domeij (mp)
           </p>
         </div>

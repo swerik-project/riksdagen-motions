@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00241">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-TcwCtRrNDtyTYxWZc7zYwj">
           <note type="signatory" corresp="i-6Lf4ZWSEWXurZm4mkDAE7B"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WJSMj3TZVxdt5oh1jSFkzo">
+        <correspAction xml:id="i-WJSMj3TZVxdt5oh1jSFkzo" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8tYZaNHd4ah1CjEyLZurDt">
+        <correspAction xml:id="i-8tYZaNHd4ah1CjEyLZurDt" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LkAtuaWjNbub7yP6qVXnrD">
+        <correspAction xml:id="i-LkAtuaWjNbub7yP6qVXnrD" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-J8EZYN4V7tTJA85DQKemJH"/>
+        <correspAction xml:id="i-J8EZYN4V7tTJA85DQKemJH" type="assigned"/>
         <correspContext corresp="i-J8EZYN4V7tTJA85DQKemJH">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0241/mot_200304_T_0241-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FPd5S1CBiF55SDuUbgPdoK">
-        <div type="motTitle" xml:id="i-GEQv96zuHtHFz97PCCKSVD"/>
-        <div type="motSubmissionInfo" xml:id="i-8TpoCJhE481SSqsvTMvd1s"/>
+      <div xml:id="i-FPd5S1CBiF55SDuUbgPdoK" type="motHeader">
+        <div xml:id="i-GEQv96zuHtHFz97PCCKSVD" type="motTitle"/>
+        <div xml:id="i-8TpoCJhE481SSqsvTMvd1s" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FHewj8CWxVmyxLWzrJYEHp">
+      <div xml:id="i-FHewj8CWxVmyxLWzrJYEHp" type="motBody">
         <div xml:id="i-8avK9HdpCi6oFmDyPiYvJw">
           <p xml:id="i-QJjXix4tc3igRC3gr2dgQo">
             2003/04 mnr: T241 pnr: m1198
@@ -130,9 +130,12 @@
           <p xml:id="i-N5QxLGfD9tb64ukqy851c5">
             Skåne, kan börja planera en förstärkning av vägnätet norrut från
             Ystad i den kommande infrastrukturplanen som sträcker sig fram
-            till 2015. Stockholm den 24 september 2003
+            till 2015.
           </p>
-          <p xml:id="i-8XvRThxvLBRHu4FFxzQK8u">
+          <p type="date" id="i-ACUDcSumqyd85RAQvj8vme">
+            Stockholm den 24 september 2003
+          </p>
+          <p xml:id="i-8XvRThxvLBRHu4FFxzQK8u" type="signatureBlock">
             Carl-Axel Johansson (m)
           </p>
         </div>

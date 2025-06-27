@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-UbU-00404">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-4JW794sQ4xP3c82C9adE8D">
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-hQ679bXgRt1RZ2MEKxAF6">
+        <correspAction xml:id="i-hQ679bXgRt1RZ2MEKxAF6" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Y7mFgFRdhDKtcLeviUk9cy">
+        <correspAction xml:id="i-Y7mFgFRdhDKtcLeviUk9cy" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SJA6FG6syKmdfTNywL13xa">
+        <correspAction xml:id="i-SJA6FG6syKmdfTNywL13xa" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Se6TM6BKWRV9msd3C7iXcc"/>
+        <correspAction xml:id="i-Se6TM6BKWRV9msd3C7iXcc" type="assigned"/>
         <correspContext corresp="i-Se6TM6BKWRV9msd3C7iXcc">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ub_404/mot_200506_Ub_404-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FgMNFeLe88vvvfQu5gCJVq">
-        <div type="motTitle" xml:id="i-6C2yWN6Yt3pFkgUaLeoUyT"/>
-        <div type="motSubmissionInfo" xml:id="i-HHMu2yGiwASU8N6c9rqPPc"/>
+      <div xml:id="i-FgMNFeLe88vvvfQu5gCJVq" type="motHeader">
+        <div xml:id="i-6C2yWN6Yt3pFkgUaLeoUyT" type="motTitle"/>
+        <div xml:id="i-HHMu2yGiwASU8N6c9rqPPc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KV82bQuHQAXBE81jPgnioL">
+      <div xml:id="i-KV82bQuHQAXBE81jPgnioL" type="motBody">
         <div xml:id="i-MZ2JbnrtcTMwDzwHZSdbrL">
           <p xml:id="i-G42j1VrWqzpK3AGDmNVieU">
             2005/06 mnr: Ub404 pnr: fp324
@@ -130,8 +130,11 @@
             kunskaper. Om brister upptäcks, bör Skolverket få i uppdrag att
             stödja skolorna i detta arbete.
           </p>
-          <p xml:id="i-4ZBUDBLfCXNiQJ3vdaGhzW">
-            Stockholm den 4 oktober 2005 Johan Pehrson (fp)
+          <p xml:id="i-4ZBUDBLfCXNiQJ3vdaGhzW" type="date">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-BG1acWZwJGFuBjGjQLmCTC">
+            Johan Pehrson (fp)
           </p>
         </div>
       </div>

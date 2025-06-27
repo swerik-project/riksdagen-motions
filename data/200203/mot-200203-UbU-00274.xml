@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00274">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-PDwwtz3ArDLuJiPbWvFxru">
           <note type="signatory" corresp="i-UnkrZ3NAvoWXY6Krxbkudq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JAxWHpqpG4CPKp3RfcUxMu">
+        <correspAction xml:id="i-JAxWHpqpG4CPKp3RfcUxMu" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KEyNPX2Ky6SwijgCFA1tKj">
+        <correspAction xml:id="i-KEyNPX2Ky6SwijgCFA1tKj" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AcqjAAQme5eySVPXTUvCrx">
+        <correspAction xml:id="i-AcqjAAQme5eySVPXTUvCrx" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-U2i1aWt3DKPrxNCjCf7NYu"/>
+        <correspAction xml:id="i-U2i1aWt3DKPrxNCjCf7NYu" type="assigned"/>
         <correspContext corresp="i-U2i1aWt3DKPrxNCjCf7NYu">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ub_0274/mot_200203_Ub_0274-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6osjRcDA6dpBXJGquDp91c">
-        <div type="motTitle" xml:id="i-E6F3BzxP1dYXwSNSZ9Yf5z"/>
-        <div type="motSubmissionInfo" xml:id="i-E648S3zVrDr5HSkgfyBPLD"/>
+      <div xml:id="i-6osjRcDA6dpBXJGquDp91c" type="motHeader">
+        <div xml:id="i-E6F3BzxP1dYXwSNSZ9Yf5z" type="motTitle"/>
+        <div xml:id="i-E648S3zVrDr5HSkgfyBPLD" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QYmtbDkzgEPx4zHpRPfoBA">
+      <div xml:id="i-QYmtbDkzgEPx4zHpRPfoBA" type="motBody">
         <div xml:id="i-6rkXDmFDGsADUY2Nnjid2h">
           <p xml:id="i-JRe7W6bTDjvp3BWBDTp4qh">
             2002/03 mnr: Ub274 pnr: fp717
@@ -132,8 +132,11 @@
             utbildningsinstitution där kvaliteten på undervisningen naturligen
             är beroende av goda kontakter med och kanaler till näringslivet.
           </p>
-          <p xml:id="i-XRangMiKpipyBJqoPRXzKg">
-            Stockholm den 18 oktober 2002 Tobias Krantz (fp)
+          <p xml:id="i-XRangMiKpipyBJqoPRXzKg" type="date">
+            Stockholm den 18 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-5tGzGHg22ZZefzF5HKhWyd">
+            Tobias Krantz (fp)
           </p>
         </div>
       </div>

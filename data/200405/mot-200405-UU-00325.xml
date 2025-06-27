@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00325">
   <teiHeader>
     <fileDesc>
@@ -110,16 +110,16 @@
           <note type="signatory" corresp="i-WCrN5vpCNm6z9SvfXfby4e"/>
           <note type="signatory" corresp="i-CvmaDbz8ueGm8meSVWj6vr"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UnbUzods672apPfr5s9B2y">
+        <correspAction xml:id="i-UnbUzods672apPfr5s9B2y" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SV8T2FFjeEeaoi31gDKmsn">
+        <correspAction xml:id="i-SV8T2FFjeEeaoi31gDKmsn" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CNFSqN8k7NCHHR6ZP74qRB">
+        <correspAction xml:id="i-CNFSqN8k7NCHHR6ZP74qRB" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KAQKYLSk4tc1pM3mMpNXnG"/>
+        <correspAction xml:id="i-KAQKYLSk4tc1pM3mMpNXnG" type="assigned"/>
         <correspContext corresp="i-KAQKYLSk4tc1pM3mMpNXnG">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -134,11 +134,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_325/mot_200405_U_325-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NQcUmaN4KZF5gt1FPZP7tm">
-        <div type="motTitle" xml:id="i-XYxm3tnrywmHGHs3F6i66P"/>
-        <div type="motSubmissionInfo" xml:id="i-BWzzTeQmGeXbrkYVtnv13p"/>
+      <div xml:id="i-NQcUmaN4KZF5gt1FPZP7tm" type="motHeader">
+        <div xml:id="i-XYxm3tnrywmHGHs3F6i66P" type="motTitle"/>
+        <div xml:id="i-BWzzTeQmGeXbrkYVtnv13p" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8P5nz9Kv2E8FhehUkZnFVq">
+      <div xml:id="i-8P5nz9Kv2E8FhehUkZnFVq" type="motBody">
         <div xml:id="i-8JqmGcsZXS1FittctU2uxQ">
           <p xml:id="i-L2Xbx8erYdn5BqztAU8biP">
             2004/05 mnr: U325
@@ -937,8 +937,11 @@
             länder där bistånds- och handelspolitiken i ökad utsträckning
             bör samordnas.
           </p>
-          <p xml:id="i-RqRYFPPZnkeUDdYrL9Brsa">
-            Stockholm den 5 oktober 2004 Holger Gustafsson (kd)
+          <p xml:id="i-RqRYFPPZnkeUDdYrL9Brsa" type="date">
+            Stockholm den 5 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-MyXdVqqZ9VpweTEtTxaKd3">
+            Holger Gustafsson (kd)
           </p>
           <p xml:id="i-2FVVQDGNDJSZJpzgBtsNym">
             Rosita Runegrund (kd) Erling Wälivaara (kd) Else-Marie Lindgren

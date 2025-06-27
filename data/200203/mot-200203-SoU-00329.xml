@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00329">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-QKE6ihmLRJvwhV4neD6h7b"/>
           <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KvH69kYXGk6xcsQ4LaSufc">
+        <correspAction xml:id="i-KvH69kYXGk6xcsQ4LaSufc" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-L3R1JQxYAxp8nT7MoC4uS5">
+        <correspAction xml:id="i-L3R1JQxYAxp8nT7MoC4uS5" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FWfqqBb1woPFCukLrjbsc8">
+        <correspAction xml:id="i-FWfqqBb1woPFCukLrjbsc8" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YEtEfivRWJUU3E1Y3mYo9E"/>
+        <correspAction xml:id="i-YEtEfivRWJUU3E1Y3mYo9E" type="assigned"/>
         <correspContext corresp="i-YEtEfivRWJUU3E1Y3mYo9E">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_So_0329/mot_200203_So_0329-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8nyrvb9t5JdEZ6ACbUicQo">
-        <div type="motTitle" xml:id="i-J5Zvr91JpU6Un9ZDBNofse"/>
-        <div type="motSubmissionInfo" xml:id="i-TqLU7rghv4aNC3Qfbux876"/>
+      <div xml:id="i-8nyrvb9t5JdEZ6ACbUicQo" type="motHeader">
+        <div xml:id="i-J5Zvr91JpU6Un9ZDBNofse" type="motTitle"/>
+        <div xml:id="i-TqLU7rghv4aNC3Qfbux876" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VMd4KsE6nLKscC5aekaJBE">
+      <div xml:id="i-VMd4KsE6nLKscC5aekaJBE" type="motBody">
         <div xml:id="i-Cpt12argcNrhWgG2h2eASD">
           <p xml:id="i-AXZ2hjB8qg2UGn6NGJjvqr">
             2002/03 mnr: S0329 pnr: fp425
@@ -163,9 +163,11 @@
             om organdonation. En utredning bör tillsättas för att se över
             hur samtalen om organdonation sker på våra sjukhus.
           </p>
-          <p xml:id="i-JZCwAfY4GqUZh64DZM7rKr">
-            Stockholm den 22 oktober 2002 Erik Ullenhag (fp) Karin Pilsäter
-            (fp)
+          <p xml:id="i-JZCwAfY4GqUZh64DZM7rKr" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-G5FEEhupJbKbEZhCgYxFkQ">
+            Erik Ullenhag (fp) Karin Pilsäter (fp)
           </p>
         </div>
       </div>

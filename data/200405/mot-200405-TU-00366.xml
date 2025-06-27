@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00366">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Y5L7XFU1PSTSVX68cEniM3">
           <note type="signatory" corresp="i-4pfVnS8LNwychZJ7RaUufZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-J1xEB3Puys7YAQXsrTKe3s">
+        <correspAction xml:id="i-J1xEB3Puys7YAQXsrTKe3s" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9LoNSMFGYnu1vKR6YNVjgJ">
+        <correspAction xml:id="i-9LoNSMFGYnu1vKR6YNVjgJ" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9JTntobKvmBxFDdPVA2mbC">
+        <correspAction xml:id="i-9JTntobKvmBxFDdPVA2mbC" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-66xpowVHPVohkrwzVbezb7"/>
+        <correspAction xml:id="i-66xpowVHPVohkrwzVbezb7" type="assigned"/>
         <correspContext corresp="i-66xpowVHPVohkrwzVbezb7">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_366/mot_200405_T_366-0001.pdf"/>
-      <div type="motHeader" xml:id="i-RxQ7rHA8cStGK9cmQGuxYS">
-        <div type="motTitle" xml:id="i-MvGfGtva3Uiba3fvnnPxN8"/>
-        <div type="motSubmissionInfo" xml:id="i-MNk2tfk1ywwpJBhtr4Ke59"/>
+      <div xml:id="i-RxQ7rHA8cStGK9cmQGuxYS" type="motHeader">
+        <div xml:id="i-MvGfGtva3Uiba3fvnnPxN8" type="motTitle"/>
+        <div xml:id="i-MNk2tfk1ywwpJBhtr4Ke59" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SovQ4hRHWuXFBVjkJgNJ48">
+      <div xml:id="i-SovQ4hRHWuXFBVjkJgNJ48" type="motBody">
         <div xml:id="i-K4x1D6PjC6om581i7kyiFb">
           <p xml:id="i-EiqRKP2tDJDv5NeeyDgQ8X">
             2004/05 mnr: T366 pnr: kd826
@@ -120,8 +120,11 @@
           <p xml:id="i-HgT351vAuX397ZrmVf4vWt">
             2004/05:T366
           </p>
-          <p xml:id="i-DZCC92PYysZZmHo1Q7LNSL">
-            Stockholm den 3 oktober 2004 Else-Marie Lindgren (kd)
+          <p xml:id="i-DZCC92PYysZZmHo1Q7LNSL" type="date">
+            Stockholm den 3 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-WzLGetKkmusunqmKh7PRVN">
+            Else-Marie Lindgren (kd)
           </p>
         </div>
       </div>

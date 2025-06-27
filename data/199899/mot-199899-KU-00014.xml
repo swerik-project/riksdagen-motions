@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-KU-00014">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-E2VEuW8StdbwuJyGXtUP4D</idno>
-            <name>Per Lager </name>
+            <name>Per Lager</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-FnYuSnrPcb2UZaoXY7vjXa</idno>
-            <name>Mikael Johansson </name>
+            <name>Mikael Johansson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-C44sMEE9ocAndjedeN9fLp</idno>
-            <name>Yvonne Ruwaida </name>
+            <name>Yvonne Ruwaida</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-NPtmPrnbafjw58yXTGH13H"/>
+        <correspAction xml:id="i-NPtmPrnbafjw58yXTGH13H" type="basedOn"/>
         <correspContext corresp="i-NPtmPrnbafjw58yXTGH13H">
           <ref>Proposition 1998/99:38</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-C44sMEE9ocAndjedeN9fLp"/>
           <note type="signatory" corresp="i-FnYuSnrPcb2UZaoXY7vjXa"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-P1EJTbTBBPFTsSiUcH2Ytt">
+        <correspAction xml:id="i-P1EJTbTBBPFTsSiUcH2Ytt" type="referral">
           <date when="1999-01-28"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-K6RJBgLciHJmweNJVPk4gX">
+        <correspAction xml:id="i-K6RJBgLciHJmweNJVPk4gX" type="dismissal">
           <date when="1999-01-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6NY9xRo9bktw3bZfUVcrL6">
+        <correspAction xml:id="i-6NY9xRo9bktw3bZfUVcrL6" type="submission">
           <date when="1999-01-22"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-4KESZj5K1H4vcB7qpv3C1P">
+        <correspAction xml:id="i-4KESZj5K1H4vcB7qpv3C1P" type="referral">
           <date when="1999-01-28"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UvkV3tgqMXAsVnX9r8DhCT">
+        <correspAction xml:id="i-UvkV3tgqMXAsVnX9r8DhCT" type="dismissal">
           <date when="1999-01-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KEFU7TC2E7zcEy6s5F2ZSQ">
+        <correspAction xml:id="i-KEFU7TC2E7zcEy6s5F2ZSQ" type="submission">
           <date when="1999-01-22"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3nqRmUxj61FmkkPkTm4fAp"/>
+        <correspAction xml:id="i-3nqRmUxj61FmkkPkTm4fAp" type="assigned"/>
         <correspContext corresp="i-3nqRmUxj61FmkkPkTm4fAp">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_K_0014/mot_199899_K_0014-0001.pdf"/>
-      <div type="motHeader" xml:id="i-MwnH41WXbuL2NSzaehmytm">
-        <div type="motTitle" xml:id="i-UnkEd9hP7BpYf5kyFNWTpP"/>
-        <div type="motSubmissionInfo" xml:id="i-JQ5f6YSzScQ1coaUqvJr8t"/>
+      <div xml:id="i-MwnH41WXbuL2NSzaehmytm" type="motHeader">
+        <div xml:id="i-UnkEd9hP7BpYf5kyFNWTpP" type="motTitle"/>
+        <div xml:id="i-JQ5f6YSzScQ1coaUqvJr8t" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QacG72vavjBHYaZktBAFcj">
+      <div xml:id="i-QacG72vavjBHYaZktBAFcj" type="motBody">
         <div xml:id="i-9xFMrqZ1xFMLnQMWsSW91P">
           <p xml:id="i-MABLeoZvBkJA9okFhNETS9">
             1998/99 Kl4 K14
@@ -219,8 +219,11 @@
             kyrkan och andra trossamfund själva ansvarar för uppbörden av
             eventuella avgifter.
           </p>
-          <p xml:id="i-R3iNYgpcrBHz4Ti6Z5Mq9R">
-            Stockholm den 22 januari 1999 Per Lager (mp)
+          <p xml:id="i-R3iNYgpcrBHz4Ti6Z5Mq9R" type="date">
+            Stockholm den 22 januari 1999
+          </p>
+          <p type="signatureBlock" id="i-RaDgBLK5UXfEox8CV1vdcB">
+            Per Lager (mp)
           </p>
           <p xml:id="i-K4qLPcTeyqUmeZk7Ed2M1n">
             Mikael Johansson (mp) Yvonne Ruwaida (mp)

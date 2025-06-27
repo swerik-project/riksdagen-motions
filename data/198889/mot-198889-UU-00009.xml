@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198889-UU-00009">
   <teiHeader>
     <fileDesc>
@@ -68,7 +68,7 @@
           </person>
           <person gender="woman">
             <idno>i-T3gdjsEDM8Rwzy9YJpgufQ</idno>
-            <name>Inger Schörling </name>
+            <name>Inger Schörling</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -82,14 +82,14 @@
           </person>
           <person gender="man">
             <idno>i-C5oSgDpxjTK7J31TqsPEwQ</idno>
-            <name>Claes Roxbergh </name>
+            <name>Claes Roxbergh</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-EF4gEp1CrEwnV5AnkFU4P2</idno>
-            <name>Per Gahrton </name>
+            <name>Per Gahrton</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -97,7 +97,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-UhdAsaPTs4pMCuFVxuPTCG"/>
+        <correspAction xml:id="i-UhdAsaPTs4pMCuFVxuPTCG" type="basedOn"/>
         <correspContext corresp="i-UhdAsaPTs4pMCuFVxuPTCG">
           <ref>Regeringsskrivelse 1988/89:147</ref>
         </correspContext>
@@ -114,16 +114,16 @@
           <note type="signatory" corresp="i-C5oSgDpxjTK7J31TqsPEwQ"/>
           <note type="signatory" corresp="i-EF4gEp1CrEwnV5AnkFU4P2"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-RKgdNLeDcD8xzmWz1VbFLM">
+        <correspAction xml:id="i-RKgdNLeDcD8xzmWz1VbFLM" type="submission">
           <date when="1989-05-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3zDeQ4HqyhX9FbLCUFsMDF">
+        <correspAction xml:id="i-3zDeQ4HqyhX9FbLCUFsMDF" type="dismissal">
           <date when="1989-05-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-W1FQbJ85ibskzMwqKV2pMq">
+        <correspAction xml:id="i-W1FQbJ85ibskzMwqKV2pMq" type="referral">
           <date when="1989-05-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-H8e8YiK7PgACMYxPgeGWtu">
+        <correspAction xml:id="i-H8e8YiK7PgACMYxPgeGWtu" type="assigned">
           <date when="2014-11-22"/>
           <time when="06:01:05"/>
         </correspAction>
@@ -139,11 +139,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198889/mot_198889_u_9/mot_198889_u_9-001.pdf"/>
-      <div type="motHeader" xml:id="i-GBrDAx1pLBrWmNayifKqSk">
-        <div type="motTitle" xml:id="i-NpTEVB7VUuNvesJBCABr5W"/>
-        <div type="motSubmissionInfo" xml:id="i-5bKakY6qvftwA5N126YrUJ"/>
+      <div xml:id="i-GBrDAx1pLBrWmNayifKqSk" type="motHeader">
+        <div xml:id="i-NpTEVB7VUuNvesJBCABr5W" type="motTitle"/>
+        <div xml:id="i-5bKakY6qvftwA5N126YrUJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ARrpeQ2wWH2Kg1xR8CSGtz">
+      <div xml:id="i-ARrpeQ2wWH2Kg1xR8CSGtz" type="motBody">
         <div xml:id="i-5b7ks9UV1nJLvztjVSg3NQ">
           <p xml:id="i-BKanTcnURm6wp2Foq6uHE">
             Motion till riksdagen
@@ -310,8 +310,11 @@
             känna vad i motionen anförs om åtgärder för att garantera att
             utlovad restriktivitet i vapenexporten upprätthålls.
           </p>
-          <p xml:id="i-PE7CXa59hTJM9hPfbd6DUX">
-            Stockholm den 24 maj 1989 Inger Schörling (mp)
+          <p xml:id="i-PE7CXa59hTJM9hPfbd6DUX" type="date">
+            Stockholm den 24 maj 1989
+          </p>
+          <p type="signatureBlock" id="i-8dWmyaFQJNy3DJhKjb4e5P">
+            Inger Schörling (mp)
           </p>
           <p xml:id="i-zH6EbtnZ89NnzuHQ6Gwe9">
             Claes Roxbergh (mp) Per Gahrton (mp)

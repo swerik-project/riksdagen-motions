@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00514">
   <teiHeader>
     <fileDesc>
@@ -166,16 +166,16 @@
           <note type="signatory" corresp="i-3GrPnM5KDKuSxfWxymYNoC"/>
           <note type="signatory" corresp="i-RYmzRLEx8QvF7KzEiVDL2U"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2G7KM3yftpN4BUHJM37Yyf">
+        <correspAction xml:id="i-2G7KM3yftpN4BUHJM37Yyf" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-U9WM85MkZmedCT43Noj3sU">
+        <correspAction xml:id="i-U9WM85MkZmedCT43Noj3sU" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Qqbh3BXwXZ5vRcPMsVE146">
+        <correspAction xml:id="i-Qqbh3BXwXZ5vRcPMsVE146" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-16u8LZAvP8emmcAnKU6y4T"/>
+        <correspAction xml:id="i-16u8LZAvP8emmcAnKU6y4T" type="assigned"/>
         <correspContext corresp="i-16u8LZAvP8emmcAnKU6y4T">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -190,11 +190,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_So_0514/mot_200203_So_0514-0001.pdf"/>
-      <div type="motHeader" xml:id="i-79kyvdFKeSg7UTqwzn1PXr">
-        <div type="motTitle" xml:id="i-QkB91aymUT7tLereoe7nB8"/>
-        <div type="motSubmissionInfo" xml:id="i-PGk5HsTUTdH7knWo4hJJYj"/>
+      <div xml:id="i-79kyvdFKeSg7UTqwzn1PXr" type="motHeader">
+        <div xml:id="i-QkB91aymUT7tLereoe7nB8" type="motTitle"/>
+        <div xml:id="i-PGk5HsTUTdH7knWo4hJJYj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WP6TJNRtGrHzLJAzGRUDgd">
+      <div xml:id="i-WP6TJNRtGrHzLJAzGRUDgd" type="motBody">
         <div xml:id="i-QNWCWHQuHNSweKJhGnuZcS">
           <p xml:id="i-L4m4sLAe2fARKE8MPxHQbg">
             2002/03 mnr: So514
@@ -482,9 +482,12 @@
           <p xml:id="i-HHWQUnoEAkdVzMBugxM8yt">
             pappautbildningar för att på så sätt bättre förbereda de blivande
             föräldrarna för barnets ankomst och de förändringar som ett barn
-            innebär. Stockholm den 23 oktober 2002
+            innebär.
           </p>
-          <p xml:id="i-XNYKpDXbvxp94kxLvvYu58">
+          <p type="date" id="i-4AL3WSZphbsgCKijXRSpbk">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p xml:id="i-XNYKpDXbvxp94kxLvvYu58" type="signatureBlock">
             Peter Eriksson (mp) Maria Wetterstrand (mp) Mona Jönsson (mp)
             Kerstin-Maria Stalin (mp) Åsa Domeij (mp) Leif Björnlod (mp) Barbro
             Feltzing (mp) Gustav Fridolin (mp) Helena Hillar Rosenqvist (mp)

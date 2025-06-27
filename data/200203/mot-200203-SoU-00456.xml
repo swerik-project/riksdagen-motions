@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00456">
   <teiHeader>
     <fileDesc>
@@ -118,16 +118,16 @@
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5hUXUedjeJpKXmBqBoMKum">
+        <correspAction xml:id="i-5hUXUedjeJpKXmBqBoMKum" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-347n7ByMuDpwMgAcvf1XMi">
+        <correspAction xml:id="i-347n7ByMuDpwMgAcvf1XMi" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BuaZ6EZ5pRzz9VvMzXZPSD">
+        <correspAction xml:id="i-BuaZ6EZ5pRzz9VvMzXZPSD" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6qRA9YVQLtvuxgzcxW9qYM"/>
+        <correspAction xml:id="i-6qRA9YVQLtvuxgzcxW9qYM" type="assigned"/>
         <correspContext corresp="i-6qRA9YVQLtvuxgzcxW9qYM">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -142,11 +142,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_So_0456/mot_200203_So_0456-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Nqo2EzmSfqMp3msQEH29ie">
-        <div type="motTitle" xml:id="i-L5yMopCcQjRbaNpxSF9jHp"/>
-        <div type="motSubmissionInfo" xml:id="i-7w98EQUSrge4o9zRHtNmcJ"/>
+      <div xml:id="i-Nqo2EzmSfqMp3msQEH29ie" type="motHeader">
+        <div xml:id="i-L5yMopCcQjRbaNpxSF9jHp" type="motTitle"/>
+        <div xml:id="i-7w98EQUSrge4o9zRHtNmcJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-MS3nG9ZAnoNH7UcykLSinA">
+      <div xml:id="i-MS3nG9ZAnoNH7UcykLSinA" type="motBody">
         <div xml:id="i-SVNtt6pkXuEg8wapnJz1uG">
           <p xml:id="i-WxjapQnksUXhnhpMdMfKMU">
             18
@@ -427,8 +427,11 @@
           <p xml:id="i-LLAVG8pSyuGyA4TmSrTSLD">
             porr. Forskning inom detta område bör initieras.
           </p>
-          <p xml:id="i-S8H145VJB8NAoXHmycgZTY">
-            Stockholm den 22 oktober 2002 Chatrine Pålsson (kd)
+          <p xml:id="i-S8H145VJB8NAoXHmycgZTY" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-DdnJLKyKTdRn7Fe6SN1jMh">
+            Chatrine Pålsson (kd)
           </p>
           <p xml:id="i-DVKo3FcHNRoctKmg3ayQte">
             Sven Brus (kd) Inger Davidson (kd) Helena Höij (kd) Dan Kihlström

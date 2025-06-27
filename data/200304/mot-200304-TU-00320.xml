@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00320">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-4Z85aQvXdgYa1zRgHhDXkw">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NrMHaXPaRr3UPWm9fms55i">
+        <correspAction xml:id="i-NrMHaXPaRr3UPWm9fms55i" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WF9PBdu27WGEk7r8yXzFQE">
+        <correspAction xml:id="i-WF9PBdu27WGEk7r8yXzFQE" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-B7Bq9rdSfgfXhu4R1yJz7R">
+        <correspAction xml:id="i-B7Bq9rdSfgfXhu4R1yJz7R" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-D2gUcJL6TWRHMGTUCkYLq4"/>
+        <correspAction xml:id="i-D2gUcJL6TWRHMGTUCkYLq4" type="assigned"/>
         <correspContext corresp="i-D2gUcJL6TWRHMGTUCkYLq4">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0320/mot_200304_T_0320-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9k6t5styrno4fXE6bLL72m">
-        <div type="motTitle" xml:id="i-Lf12KehkimAjQN2wdTDTvV"/>
-        <div type="motSubmissionInfo" xml:id="i-5ARd8ZAETau4xjGKzHrtnL"/>
+      <div xml:id="i-9k6t5styrno4fXE6bLL72m" type="motHeader">
+        <div xml:id="i-Lf12KehkimAjQN2wdTDTvV" type="motTitle"/>
+        <div xml:id="i-5ARd8ZAETau4xjGKzHrtnL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LMDxUnjxbntaEerYa8v4q9">
+      <div xml:id="i-LMDxUnjxbntaEerYa8v4q9" type="motBody">
         <div xml:id="i-L27nVq4Zp9ec6cXrk6jD3">
           <p xml:id="i-VVFftnrA74udSXX8BbDZFH">
             2003/04 mnr: T320 pnr: kd682
@@ -161,8 +161,11 @@
             i Framtidsplanen och att staten därmed markerar en tydlig viljeinriktning
             vad gäller järnvägssystemets utveckling i Göteborgsområdet.
           </p>
-          <p xml:id="i-P9sEbX7p59bMg1meuqR3dQ">
-            Stockholm den 2 oktober 2003 Annelie Enochson (kd)
+          <p xml:id="i-P9sEbX7p59bMg1meuqR3dQ" type="date">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-Mp1MNfiD1js4SpRqFp5bRL">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

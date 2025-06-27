@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00399">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-9NGJxXYw3UNXTFtjyAKWrf">
           <note type="signatory" corresp="i-GLV4P4jtfPZVZ95YSNxfBh"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MhMjtUxj4HkzUBVHzMCiha">
+        <correspAction xml:id="i-MhMjtUxj4HkzUBVHzMCiha" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4XEdpqgyQwUewVsZggsRhR">
+        <correspAction xml:id="i-4XEdpqgyQwUewVsZggsRhR" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LwKvdfrhtGFck9R28Xr3qQ">
+        <correspAction xml:id="i-LwKvdfrhtGFck9R28Xr3qQ" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BwcPnqw9xQUw5bXVhYUY9B"/>
+        <correspAction xml:id="i-BwcPnqw9xQUw5bXVhYUY9B" type="assigned"/>
         <correspContext corresp="i-BwcPnqw9xQUw5bXVhYUY9B">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0399/mot_200304_Sk_0399-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EfFTSUHcsUWTKakWuvhC26">
-        <div type="motTitle" xml:id="i-Rr7GKwLnXk4XrvHtf4ixgF"/>
-        <div type="motSubmissionInfo" xml:id="i-FiJsAmnws5Xt7e9n8dyMgm"/>
+      <div xml:id="i-EfFTSUHcsUWTKakWuvhC26" type="motHeader">
+        <div xml:id="i-Rr7GKwLnXk4XrvHtf4ixgF" type="motTitle"/>
+        <div xml:id="i-FiJsAmnws5Xt7e9n8dyMgm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DX18ZEb5rk44bHRu2NUV32">
+      <div xml:id="i-DX18ZEb5rk44bHRu2NUV32" type="motBody">
         <div xml:id="i-UkpzwiUT1PCwqJrKEQPPfr">
           <p xml:id="i-2XErJ59ErYxmFx93DWh7gz">
             2003/04 mnr: Sk399 pnr: mp531
@@ -163,8 +163,11 @@
             via djurfodret också innefattas. Detta skulle innebära att återföringsbeloppet
             höjdes, vilket skulle öka incitamentet för etablerandet av växtodlingsplaner.
           </p>
-          <p xml:id="i-M8UMmXgPZbqcE5B4c831BV">
-            Stockholm den 6 oktober 2003 Åsa Domeij (mp)
+          <p xml:id="i-M8UMmXgPZbqcE5B4c831BV" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-UCfomuK675ENjoSD7GxyrT">
+            Åsa Domeij (mp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00205">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-A5Vw5U1Zii26sdggG1ReBv">
           <note type="signatory" corresp="i-JJGD2ECwHv6xGCZyyrtKmA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TuX8aPv8veGVudnxkjzitW">
+        <correspAction xml:id="i-TuX8aPv8veGVudnxkjzitW" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LzseHmjCswjqwnBFFZZpqc">
+        <correspAction xml:id="i-LzseHmjCswjqwnBFFZZpqc" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WShhC6rxR45zteSs8FPQWb">
+        <correspAction xml:id="i-WShhC6rxR45zteSs8FPQWb" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-jHXiHojWodh7cwabuwv6T"/>
+        <correspAction xml:id="i-jHXiHojWodh7cwabuwv6T" type="assigned"/>
         <correspContext corresp="i-jHXiHojWodh7cwabuwv6T">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_205/mot_200405_Ub_205-0001.pdf"/>
-      <div type="motHeader" xml:id="i-L2tL5zpJcM746LsPtmtEQF">
-        <div type="motTitle" xml:id="i-Hxz9vfFuqF6hn4a8uoTTeJ"/>
-        <div type="motSubmissionInfo" xml:id="i-GLrYf9YXfBDddJYcDKBHRY"/>
+      <div xml:id="i-L2tL5zpJcM746LsPtmtEQF" type="motHeader">
+        <div xml:id="i-Hxz9vfFuqF6hn4a8uoTTeJ" type="motTitle"/>
+        <div xml:id="i-GLrYf9YXfBDddJYcDKBHRY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4L2khvMCkPK75ZYh81iwsV">
+      <div xml:id="i-4L2khvMCkPK75ZYh81iwsV" type="motBody">
         <div xml:id="i-3fcGgxPBGzWStsgRtsF8Ye">
           <p xml:id="i-5QjQkHe2nfAHkUTKxj9GPJ">
             2004/05 mnr: Ub205 pnr: m1150
@@ -104,8 +104,11 @@
             upphov till en ny svensk textilindustri? Inför skoluniformer i
             grundskolan!
           </p>
-          <p xml:id="i-QY69AAqVsq8KkUpchYM4qQ">
-            Stockholm den 17 september 2004 Carl-Axel Roslund (m)
+          <p xml:id="i-QY69AAqVsq8KkUpchYM4qQ" type="date">
+            Stockholm den 17 september 2004
+          </p>
+          <p type="signatureBlock" id="i-MzPDg9zWyoHWGXr12LjESi">
+            Carl-Axel Roslund (m)
           </p>
         </div>
       </div>

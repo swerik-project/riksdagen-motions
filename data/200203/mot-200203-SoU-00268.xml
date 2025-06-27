@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00268">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-DChfevALvrFhYegPVtoDFq">
           <note type="signatory" corresp="i-WJM6edqhGfBK1ijhNxfgoj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LxdugchPZ7AmCVQVqn6kHE">
+        <correspAction xml:id="i-LxdugchPZ7AmCVQVqn6kHE" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-94D7KMRQdvyN1ccc5atn6F">
+        <correspAction xml:id="i-94D7KMRQdvyN1ccc5atn6F" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SCopiZQutDS598kSJCvDNy">
+        <correspAction xml:id="i-SCopiZQutDS598kSJCvDNy" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WG9smtMC5UYVBDkRma4WDP"/>
+        <correspAction xml:id="i-WG9smtMC5UYVBDkRma4WDP" type="assigned"/>
         <correspContext corresp="i-WG9smtMC5UYVBDkRma4WDP">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_So_0268/mot_200203_So_0268-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XmCmersh6fYNub6zfB5FSh">
-        <div type="motTitle" xml:id="i-BBAXbgqANf41gejVzBW9Ji"/>
-        <div type="motSubmissionInfo" xml:id="i-9UqEfpmPBKqdWt3HS72Fhv"/>
+      <div xml:id="i-XmCmersh6fYNub6zfB5FSh" type="motHeader">
+        <div xml:id="i-BBAXbgqANf41gejVzBW9Ji" type="motTitle"/>
+        <div xml:id="i-9UqEfpmPBKqdWt3HS72Fhv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-P4Tj1yXKZNZfcrB1JVKCim">
+      <div xml:id="i-P4Tj1yXKZNZfcrB1JVKCim" type="motBody">
         <div xml:id="i-NYons2AQxiPXwTDgYYR99e">
           <p xml:id="i-NXbvrEGpW4uiHx7YwV2abH">
             2002/03 mnr: S0268 pnr: kd591
@@ -132,8 +132,11 @@
             Socialstyrelsen borde ges i uppdrag att utreda vilka möjligheter
             som finns för ett sådant förfarande.
           </p>
-          <p xml:id="i-MLC6SZCeWGZwo5y9yR9XFC">
-            Stockholm den 17 oktober 2002 Chatrine Pålsson (kd)
+          <p xml:id="i-MLC6SZCeWGZwo5y9yR9XFC" type="date">
+            Stockholm den 17 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-Tp2bGesiP5T42af1MNRR7n">
+            Chatrine Pålsson (kd)
           </p>
         </div>
       </div>

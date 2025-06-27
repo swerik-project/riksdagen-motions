@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UU-00282">
   <teiHeader>
     <fileDesc>
@@ -78,16 +78,16 @@
           <note type="signatory" corresp="i-Ga4FaAaNvVxH6nfoR7FVAe"/>
           <note type="signatory" corresp="i-Bx9fbNBh4ybH7H2kWavRdb"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FtbQ8nD1AoznJgxBuyBdKb">
+        <correspAction xml:id="i-FtbQ8nD1AoznJgxBuyBdKb" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-R5MCtbpv4C7spZTpiynPvy">
+        <correspAction xml:id="i-R5MCtbpv4C7spZTpiynPvy" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RvNXTfmaPBFoQuJj3iFmTn">
+        <correspAction xml:id="i-RvNXTfmaPBFoQuJj3iFmTn" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Pnh3mNJa62zgYv92VJ4woP"/>
+        <correspAction xml:id="i-Pnh3mNJa62zgYv92VJ4woP" type="assigned"/>
         <correspContext corresp="i-Pnh3mNJa62zgYv92VJ4woP">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_U_0282/mot_200304_U_0282-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FZ8qjn4t9Bo3z3iyB4VAvs">
-        <div type="motTitle" xml:id="i-6YPt9hhJZwQp7wtcngGggW"/>
-        <div type="motSubmissionInfo" xml:id="i-9V5Q4nFn6Gq75RDJuB1o8Z"/>
+      <div xml:id="i-FZ8qjn4t9Bo3z3iyB4VAvs" type="motHeader">
+        <div xml:id="i-6YPt9hhJZwQp7wtcngGggW" type="motTitle"/>
+        <div xml:id="i-9V5Q4nFn6Gq75RDJuB1o8Z" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4DvGSpSg1RZCVcpT5U1e4Y">
+      <div xml:id="i-4DvGSpSg1RZCVcpT5U1e4Y" type="motBody">
         <div xml:id="i-DBG2q2DmoC6nEMG4pNjXvt">
           <p xml:id="i-JLquFNgk4MMyc6qWcw2FgD">
             2003/04 mnr: U282
@@ -1048,8 +1048,11 @@
           <p xml:id="i-L2azBDDp4Mf17kmjtCzW5w">
             18
           </p>
-          <p xml:id="i-Q4ezFUam5ZkZX2LwXmJ2A4">
-            Stockholm den 7 oktober 2003 Carl B Hamilton (fp)
+          <p xml:id="i-Q4ezFUam5ZkZX2LwXmJ2A4" type="date">
+            Stockholm den 7 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-FZYkwUsCArmPTwxRo5SqXR">
+            Carl B Hamilton (fp)
           </p>
           <p xml:id="i-TrScw2fZc7HfR2XnDpkLfs">
             Cecilia Wigström (fp) Birgitta Ohlsson (fp) Lars Leijonborg (fp)

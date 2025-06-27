@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199394-UbU-00055">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-KawwYRbfNooyPngtdSHu1B</idno>
-            <name>Ulla Orring </name>
+            <name>Ulla Orring</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-FnpTgRa2Boh6tx8WBGQqHJ"/>
+        <correspAction xml:id="i-FnpTgRa2Boh6tx8WBGQqHJ" type="basedOn"/>
         <correspContext corresp="i-FnpTgRa2Boh6tx8WBGQqHJ">
           <ref>Proposition 1993/94:177</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-KawwYRbfNooyPngtdSHu1B"/>
           <note type="signatory" corresp="i-KawwYRbfNooyPngtdSHu1B"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4QQiFrvUeHGvgGNgZs62jZ">
+        <correspAction xml:id="i-4QQiFrvUeHGvgGNgZs62jZ" type="referral">
           <date when="1994-04-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Rr9dDwoVrHD91ifxYS8ESz">
+        <correspAction xml:id="i-Rr9dDwoVrHD91ifxYS8ESz" type="dismissal">
           <date when="1994-04-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M6NaG2YqJ4BaLiutNx7EYy">
+        <correspAction xml:id="i-M6NaG2YqJ4BaLiutNx7EYy" type="submission">
           <date when="1994-04-18"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GoRp7B1hhrvnomU9wa4HZ5">
+        <correspAction xml:id="i-GoRp7B1hhrvnomU9wa4HZ5" type="referral">
           <date when="1994-04-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DcRwcCaMXvonZiNjTuNr1z">
+        <correspAction xml:id="i-DcRwcCaMXvonZiNjTuNr1z" type="dismissal">
           <date when="1994-04-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RcdGoZdpxTjb9zqJ4JghFh">
+        <correspAction xml:id="i-RcdGoZdpxTjb9zqJ4JghFh" type="submission">
           <date when="1994-04-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BojRe8XkhwNSdrNLnipZBi"/>
+        <correspAction xml:id="i-BojRe8XkhwNSdrNLnipZBi" type="assigned"/>
         <correspContext corresp="i-BojRe8XkhwNSdrNLnipZBi">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199394/mot_199394_UbU_55/mot_199394_UbU_55-001.pdf"/>
-      <div type="motHeader" xml:id="i-XbEGz7vBrwZFZP9bVWZtWj">
-        <div type="motTitle" xml:id="i-5oTVSz3YEpPGBbiZdiFvYQ"/>
-        <div type="motSubmissionInfo" xml:id="i-Vp6yx6xUaj7SLQY2igyXD4"/>
+      <div xml:id="i-XbEGz7vBrwZFZP9bVWZtWj" type="motHeader">
+        <div xml:id="i-5oTVSz3YEpPGBbiZdiFvYQ" type="motTitle"/>
+        <div xml:id="i-Vp6yx6xUaj7SLQY2igyXD4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-95DAyat4wDfXvbgB9AfwvA">
+      <div xml:id="i-95DAyat4wDfXvbgB9AfwvA" type="motBody">
         <div xml:id="i-K2acAErRwY1fzQuN5zhf3w">
           <p xml:id="i-Wdxjqvq6AEtoZBUVfcBtwo">
             Motion till riksdagen
@@ -145,9 +145,12 @@
           <p xml:id="i-S55neJtvGrmmiRjnPfiinu">
             nen anförts om internationellt miljöuniversitet i Sverige och
             om be- - Mot. 1993/94 hov av utveckling och förstärkning av Centrum
-            för Miljöforskning i Ub55 Umeå. Stockholm den 18 april 1994
+            för Miljöforskning i Ub55 Umeå.
           </p>
-          <p xml:id="i-YLFL5XCwLJXqdcwNHrjrGk">
+          <p type="date" id="i-SV12hgvpm3MMmX5gYJ7ojg">
+            Stockholm den 18 april 1994
+          </p>
+          <p xml:id="i-YLFL5XCwLJXqdcwNHrjrGk" type="signatureBlock">
             Ulla Orring (fp)
           </p>
         </div>

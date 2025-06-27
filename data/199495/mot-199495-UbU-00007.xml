@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-UbU-00007">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="woman">
             <idno>i-H6rrzni8wdNEWHUXz4FTEZ</idno>
-            <name>Margitta Edgren </name>
+            <name>Margitta Edgren</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-MFGEAobPaVzWrg1iu74oz7</idno>
-            <name>Conny Sandholm </name>
+            <name>Conny Sandholm</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-4JZw6a5BfbvqHLuGwF7TaM"/>
+        <correspAction xml:id="i-4JZw6a5BfbvqHLuGwF7TaM" type="basedOn"/>
         <correspContext corresp="i-4JZw6a5BfbvqHLuGwF7TaM">
           <ref>Proposition 1994/95:85</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-H6rrzni8wdNEWHUXz4FTEZ"/>
           <note type="signatory" corresp="i-MFGEAobPaVzWrg1iu74oz7"/>
         </correspContext>
-        <correspAction type="submission" xml:id="i-UXGmK7g3cbN1JMh2wVkRqn">
+        <correspAction xml:id="i-UXGmK7g3cbN1JMh2wVkRqn" type="submission">
           <date when="1994-11-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-A44PDnMwdbtGJXFV8gFkoi">
+        <correspAction xml:id="i-A44PDnMwdbtGJXFV8gFkoi" type="dismissal">
           <date when="1994-11-18"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-EKpnXfoWrp1HkSBCkW5Qpf">
+        <correspAction xml:id="i-EKpnXfoWrp1HkSBCkW5Qpf" type="referral">
           <date when="1994-11-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KRheFqaq1Q63fHFGpdmoMX">
+        <correspAction xml:id="i-KRheFqaq1Q63fHFGpdmoMX" type="submission">
           <date when="1994-11-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YPyJSTw6dEVUNQjhtBpLHe">
+        <correspAction xml:id="i-YPyJSTw6dEVUNQjhtBpLHe" type="dismissal">
           <date when="1994-11-18"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-6qneYbqmciN9Cpf6c6dR7B">
+        <correspAction xml:id="i-6qneYbqmciN9Cpf6c6dR7B" type="referral">
           <date when="1994-11-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5xjxnNYKG99fmJeXTaQXPv"/>
+        <correspAction xml:id="i-5xjxnNYKG99fmJeXTaQXPv" type="assigned"/>
         <correspContext corresp="i-5xjxnNYKG99fmJeXTaQXPv">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_UbU_7/mot_199495_UbU_7-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-599ReSvjsDFXgNsgWT45XP">
-        <div type="motTitle" xml:id="i-6ojndXtZQTHAVr2Xf2WDRW"/>
-        <div type="motSubmissionInfo" xml:id="i-7WpD2PRYg4TT3KJoiWUskR"/>
+      <div xml:id="i-599ReSvjsDFXgNsgWT45XP" type="motHeader">
+        <div xml:id="i-6ojndXtZQTHAVr2Xf2WDRW" type="motTitle"/>
+        <div xml:id="i-7WpD2PRYg4TT3KJoiWUskR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DCLtMux8xTpznFDA8XdBFy">
+      <div xml:id="i-DCLtMux8xTpznFDA8XdBFy" type="motBody">
         <div xml:id="i-PR3RB1yV8zjdM6oN4AhpGo">
           <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_UbU_7/mot_199495_UbU_7-001.pdf"/>
           <p xml:id="i-5zAqvTumFXjp1K34FjkgMy">
@@ -298,8 +298,11 @@
             Mot. 1994/95 Ub7
           </p>
           <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_UbU_7/mot_199495_UbU_7-004.pdf"/>
-          <p xml:id="i-WibvjDLewUfkjLowvMzYjj">
-            Stockholm den 17 november 1994 Mot. 1994/95
+          <p xml:id="i-WibvjDLewUfkjLowvMzYjj" type="date">
+            Stockholm den 17 november 1994
+          </p>
+          <p type="signatureBlock" id="i-J1WYiYSBzqEeNa1D5Vwv2m">
+            Mot. 1994/95
           </p>
           <p xml:id="i-FNcHME7mQdzy6Ybmug4jVg">
             Ub7 Margitta Edgren (fp) Conny Sandholm (fp)

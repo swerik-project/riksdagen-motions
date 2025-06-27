@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-NU-00218">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-6TTvWALweVcMs7KCrrSwsx">
           <note type="signatory" corresp="i-P9fVT6wJo29FgZWPQLxr6o"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Q3fe43PMdTRPEjSez8bpoZ">
+        <correspAction xml:id="i-Q3fe43PMdTRPEjSez8bpoZ" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FQv2oeJ8aEvnegLdhk52yP">
+        <correspAction xml:id="i-FQv2oeJ8aEvnegLdhk52yP" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WbzYHenwdWt1ByfW4cp4tA">
+        <correspAction xml:id="i-WbzYHenwdWt1ByfW4cp4tA" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PnFUP4h6Gmeb4jQe2DnyCi"/>
+        <correspAction xml:id="i-PnFUP4h6Gmeb4jQe2DnyCi" type="assigned"/>
         <correspContext corresp="i-PnFUP4h6Gmeb4jQe2DnyCi">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_N_218/mot_200506_N_218-0001.pdf"/>
-      <div type="motHeader" xml:id="i-34fG48gLdgKeL9JvVt2dDM">
-        <div type="motTitle" xml:id="i-LwQNfXtxbWgsrpt55KQNzb"/>
-        <div type="motSubmissionInfo" xml:id="i-8CdoD4RsMaVEostwPAnjW2"/>
+      <div xml:id="i-34fG48gLdgKeL9JvVt2dDM" type="motHeader">
+        <div xml:id="i-LwQNfXtxbWgsrpt55KQNzb" type="motTitle"/>
+        <div xml:id="i-8CdoD4RsMaVEostwPAnjW2" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2cFjgUWVU3WVtYeBrG7wtL">
+      <div xml:id="i-2cFjgUWVU3WVtYeBrG7wtL" type="motBody">
         <div xml:id="i-FWLD8MG6bhMrDtBSEv7Qfp">
           <p xml:id="i-PHGR368i3qgVFfgEFH3Ldt">
             2005/06 mnr: N218
@@ -150,8 +150,11 @@
             de intressen som finns. Fram till dess att utredningen har kommit
             med sitt förslag bör inga beslut som rör fjällvärlden genomföras.
           </p>
-          <p xml:id="i-6G2WxpenNzs2Ym2EyZc2rS">
-            Stockholm den 21 september 2005 Anna Grönlund Krantz (fp)
+          <p xml:id="i-6G2WxpenNzs2Ym2EyZc2rS" type="date">
+            Stockholm den 21 september 2005
+          </p>
+          <p type="signatureBlock" id="i-9Fx75CevYYm3JYa68yYdgk">
+            Anna Grönlund Krantz (fp)
           </p>
         </div>
       </div>

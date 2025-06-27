@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-MJU-00039">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Vf7VFkqmVfCQtTe7y6BsVK"/>
+        <correspAction xml:id="i-Vf7VFkqmVfCQtTe7y6BsVK" type="basedOn"/>
         <correspContext corresp="i-Vf7VFkqmVfCQtTe7y6BsVK">
           <ref>Proposition 2000/01:130</ref>
         </correspContext>
@@ -50,28 +50,28 @@
           <note type="signatory" corresp="i-6Lf4ZWSEWXurZm4mkDAE7B"/>
           <note type="signatory" corresp="i-6Lf4ZWSEWXurZm4mkDAE7B"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-T3Lzy32hA8JytQFawmq7Mi">
+        <correspAction xml:id="i-T3Lzy32hA8JytQFawmq7Mi" type="referral">
           <date when="2001-05-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VydnQL6Mr6MAvXYPxZvY9G">
+        <correspAction xml:id="i-VydnQL6Mr6MAvXYPxZvY9G" type="dismissal">
           <date when="2001-05-28"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-Y2zmAG4tCyQeXiwHm71s5q">
+        <correspAction xml:id="i-Y2zmAG4tCyQeXiwHm71s5q" type="reviewing">
           <date when="2001-05-23"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8YtMKpWGzh8oveyAotRbJc">
+        <correspAction xml:id="i-8YtMKpWGzh8oveyAotRbJc" type="submission">
           <date when="2001-05-21"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-9q949HMyCp3CjDGioJcRMy">
+        <correspAction xml:id="i-9q949HMyCp3CjDGioJcRMy" type="referral">
           <date when="2001-05-29"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2qWAaisH5y393frrrsSkWt">
+        <correspAction xml:id="i-2qWAaisH5y393frrrsSkWt" type="dismissal">
           <date when="2001-05-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-43tmMro5euEQT5BeorZDUt">
+        <correspAction xml:id="i-43tmMro5euEQT5BeorZDUt" type="submission">
           <date when="2001-05-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SPVuWeT5XFDXSatFjoGTLJ"/>
+        <correspAction xml:id="i-SPVuWeT5XFDXSatFjoGTLJ" type="assigned"/>
         <correspContext corresp="i-SPVuWeT5XFDXSatFjoGTLJ">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -86,11 +86,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_MJ_0039/mot_200001_MJ_0039-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Xn3vANCHNms7sospijdnSS">
-        <div type="motTitle" xml:id="i-Fw38tc3rAHDgXHEFndrHjp"/>
-        <div type="motSubmissionInfo" xml:id="i-RMigrYe79VSTjdaCaEPeSc"/>
+      <div xml:id="i-Xn3vANCHNms7sospijdnSS" type="motHeader">
+        <div xml:id="i-Fw38tc3rAHDgXHEFndrHjp" type="motTitle"/>
+        <div xml:id="i-RMigrYe79VSTjdaCaEPeSc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UcNXE7dvAf6GyRuBWjZVGm">
+      <div xml:id="i-UcNXE7dvAf6GyRuBWjZVGm" type="motBody">
         <div xml:id="i-RpqSUYeAfxgfoH33jip8ha">
           <p xml:id="i-FfA4gs5wvFis2Tcqancgp4">
             2000/01 mnr: MJ39 pnr: m898
@@ -165,8 +165,11 @@
             med en utredning om utsläppsrätter för att minimera miljöpåverkan
             satt i ett EU-perspektiv och ett globalt perspektiv.
           </p>
-          <p xml:id="i-P1Dqqj3qNXMUjL9NTgAomE">
-            Stockholm den 17 maj 2001 Carl-Axel Johansson (m)
+          <p xml:id="i-P1Dqqj3qNXMUjL9NTgAomE" type="date">
+            Stockholm den 17 maj 2001
+          </p>
+          <p type="signatureBlock" id="i-H8Q4MgZdetMHDjXX4qMw7o">
+            Carl-Axel Johansson (m)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00651">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-Vuf2iovr2aWWgDThaeqMPN"/>
           <note type="signatory" corresp="i-KdNZEf7wb1MAJv58QEHYrr"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WVXRe9ZbfKxc1p5wygxqZt">
+        <correspAction xml:id="i-WVXRe9ZbfKxc1p5wygxqZt" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UEfZvYSAiyJsW5ZVtH7A7N">
+        <correspAction xml:id="i-UEfZvYSAiyJsW5ZVtH7A7N" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-xGYLYffgPZonodnouzi9C">
+        <correspAction xml:id="i-xGYLYffgPZonodnouzi9C" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2ioVaba3TaP8FktAQxtWeR"/>
+        <correspAction xml:id="i-2ioVaba3TaP8FktAQxtWeR" type="assigned"/>
         <correspContext corresp="i-2ioVaba3TaP8FktAQxtWeR">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_651/mot_200506_So_651-0001.pdf"/>
-      <div type="motHeader" xml:id="i-YCKyXwkKKTQmpdbCriBawf">
-        <div type="motTitle" xml:id="i-GcVXExMod2JLyzkMNX5xiB"/>
-        <div type="motSubmissionInfo" xml:id="i-CnNwsqLv1REzZBiTTnZK37"/>
+      <div xml:id="i-YCKyXwkKKTQmpdbCriBawf" type="motHeader">
+        <div xml:id="i-GcVXExMod2JLyzkMNX5xiB" type="motTitle"/>
+        <div xml:id="i-CnNwsqLv1REzZBiTTnZK37" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NijwfR1CX6ofzdwUVMMhVr">
+      <div xml:id="i-NijwfR1CX6ofzdwUVMMhVr" type="motBody">
         <div xml:id="i-KMTTdEfZsr4cxx9xcUfXSB">
           <p xml:id="i-TjYg3D5SH7yiiTCrufGbSY">
             2005/06 mnr: So651 pnr: m1680
@@ -163,9 +163,11 @@
             Den ytterst tveksamma verksamhet Metallbiologiskt centrum bedriver
             faller inte inom den ramen.
           </p>
-          <p xml:id="i-73xVHUVpS2YqV97YG5iSyo">
-            Stockholm den 5 oktober 2005 Ewa Björling (m) Göran Lindblad
-            (m)
+          <p xml:id="i-73xVHUVpS2YqV97YG5iSyo" type="date">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-F1TcmPHXkdux5RP4KyB5M5">
+            Ewa Björling (m) Göran Lindblad (m)
           </p>
         </div>
       </div>

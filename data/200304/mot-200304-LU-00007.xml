@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00007">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8emCjfBHseeGopDdM9rxhR"/>
+        <correspAction xml:id="i-8emCjfBHseeGopDdM9rxhR" type="basedOn"/>
         <correspContext corresp="i-8emCjfBHseeGopDdM9rxhR">
           <ref>Proposition 2003/04:55</ref>
         </correspContext>
@@ -82,16 +82,16 @@
           <note type="signatory" corresp="i-4SAiMdwrEthd2M8z2yjtkv"/>
           <note type="signatory" corresp="i-RDeqY3mXLBtUS9bixjvHS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RGQefejpwc13g4EgzK97wT">
+        <correspAction xml:id="i-RGQefejpwc13g4EgzK97wT" type="referral">
           <date when="2004-01-28"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-G6CdaskNUeWfSivaYvuxrB">
+        <correspAction xml:id="i-G6CdaskNUeWfSivaYvuxrB" type="dismissal">
           <date when="2004-01-27"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TNwGeFDsC6iwmPkoNp2bU6">
+        <correspAction xml:id="i-TNwGeFDsC6iwmPkoNp2bU6" type="submission">
           <date when="2004-01-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9TCuysB4pjV5gSVPYfb6Un"/>
+        <correspAction xml:id="i-9TCuysB4pjV5gSVPYfb6Un" type="assigned"/>
         <correspContext corresp="i-9TCuysB4pjV5gSVPYfb6Un">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -106,11 +106,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_L_0007/mot_200304_L_0007-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Dni3ut4QWhJSk8GKzc2RsX">
-        <div type="motTitle" xml:id="i-61uJAgrFjV2K2PL9GcB2ee"/>
-        <div type="motSubmissionInfo" xml:id="i-PCyrja1oRccFvu9ghsmmVA"/>
+      <div xml:id="i-Dni3ut4QWhJSk8GKzc2RsX" type="motHeader">
+        <div xml:id="i-61uJAgrFjV2K2PL9GcB2ee" type="motTitle"/>
+        <div xml:id="i-PCyrja1oRccFvu9ghsmmVA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AXFE7EyWSeEP3wp1C8nANZ">
+      <div xml:id="i-AXFE7EyWSeEP3wp1C8nANZ" type="motBody">
         <div xml:id="i-LMZEj9y3zDZ2wHhZfdoKPu">
           <p xml:id="i-EcanSYqorSioxpBDQpsQDj">
             2003/04 mnr: L7
@@ -362,9 +362,11 @@
             medicinsk-etiska råd etc. I analysen bör ingå hur dialogen mellan
             dessa organ och patentmyndigheter och domstolar kan utvecklas
             för att belysa etiska frågeställningar kring enskilda patent.
+          </p>
+          <p type="date" id="i-FD5zkYdx834NPg3U7a5Qdh">
             Stockholm den 19 januari 2004
           </p>
-          <p xml:id="i-UNFGWq72zTQvAeCoq5D2Mw">
+          <p xml:id="i-UNFGWq72zTQvAeCoq5D2Mw" type="signatureBlock">
             Martin Andreasson (fp) Jan Ertsborn (fp) Mia Franzén (fp) Marie
             Wahlgren (fp) Ana Maria Narti (fp) Lars Tysklind (fp)
           </p>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00522">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-C8pWTdzMnSfJz4PiXPuuR9">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-H1nCakT2Dkc124cW5fm9jU">
+        <correspAction xml:id="i-H1nCakT2Dkc124cW5fm9jU" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Waq1NZvEeaLnbKuGJAM2Hf">
+        <correspAction xml:id="i-Waq1NZvEeaLnbKuGJAM2Hf" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VZ1s2831Ez1Fv3LNuSwfSC">
+        <correspAction xml:id="i-VZ1s2831Ez1Fv3LNuSwfSC" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XrTFJc2eM1Q2LAm7EPpeKA"/>
+        <correspAction xml:id="i-XrTFJc2eM1Q2LAm7EPpeKA" type="assigned"/>
         <correspContext corresp="i-XrTFJc2eM1Q2LAm7EPpeKA">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_522/mot_200506_So_522-0001.pdf"/>
-      <div type="motHeader" xml:id="i-12w47rYo8CvJuxiPaQdBDS">
-        <div type="motTitle" xml:id="i-4dBqKgCJaHGvYdCV7CbcVC"/>
-        <div type="motSubmissionInfo" xml:id="i-ENbC5tpdL49ZzZdBn3fMyn"/>
+      <div xml:id="i-12w47rYo8CvJuxiPaQdBDS" type="motHeader">
+        <div xml:id="i-4dBqKgCJaHGvYdCV7CbcVC" type="motTitle"/>
+        <div xml:id="i-ENbC5tpdL49ZzZdBn3fMyn" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TiKEYS8JDjvY4JxoxisyKJ">
+      <div xml:id="i-TiKEYS8JDjvY4JxoxisyKJ" type="motBody">
         <div xml:id="i-QCzpwVLxMSsRman9wnknC2">
           <p xml:id="i-AY4a7aCnPJ1sffJNoQj3y3">
             2005/06 mnr: S0o522 pnr: kd830
@@ -179,8 +179,11 @@
             som vi ser i Sverige idag så är det av största vikt att motionen
             bifalls i riksdagen.
           </p>
-          <p xml:id="i-N24UvniW4TxjygqwWbTDah">
-            Stockholm den 21 september 2005 Annelie Enochson (kd)
+          <p xml:id="i-N24UvniW4TxjygqwWbTDah" type="date">
+            Stockholm den 21 september 2005
+          </p>
+          <p type="signatureBlock" id="i-Aci93cdTPiBHj97S1BuQEk">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

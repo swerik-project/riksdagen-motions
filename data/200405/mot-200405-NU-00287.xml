@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00287">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-74SvXHD7rxJJNPamUr7zRm">
           <note type="signatory" corresp="i-W6BJ44rcZjp5pD28NhHrCf"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YVCAPR69pvX8mjT1CnJ9Wp">
+        <correspAction xml:id="i-YVCAPR69pvX8mjT1CnJ9Wp" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9NzXuAGre3CiAiwq8EjhZX">
+        <correspAction xml:id="i-9NzXuAGre3CiAiwq8EjhZX" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LNYap5vbB45HWcR38631vM">
+        <correspAction xml:id="i-LNYap5vbB45HWcR38631vM" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-F5Eoe9HbTVU1jNGnuepYbD"/>
+        <correspAction xml:id="i-F5Eoe9HbTVU1jNGnuepYbD" type="assigned"/>
         <correspContext corresp="i-F5Eoe9HbTVU1jNGnuepYbD">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_N_287/mot_200405_N_287-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7wvYCkQi1aRymXmZSZpVPy">
-        <div type="motTitle" xml:id="i-S7YoMboYifVFeXBDqJyZS5"/>
-        <div type="motSubmissionInfo" xml:id="i-6sYaM8gKciEh52Wu4PXLSz"/>
+      <div xml:id="i-7wvYCkQi1aRymXmZSZpVPy" type="motHeader">
+        <div xml:id="i-S7YoMboYifVFeXBDqJyZS5" type="motTitle"/>
+        <div xml:id="i-6sYaM8gKciEh52Wu4PXLSz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Y5yzsTjBsziD86hknYYtX8">
+      <div xml:id="i-Y5yzsTjBsziD86hknYYtX8" type="motBody">
         <div xml:id="i-VuBtzb6Knc73yJSpfqbSBJ">
           <p xml:id="i-EwtJP3ZvzorcPXoSNQnzSp">
             2004/05 mnr: N287 pnr: m1512
@@ -125,8 +125,11 @@
             bli en naturlig del av Norrköpings vision om att bli en miljövänlig
             transportknutpunkt.
           </p>
-          <p xml:id="i-LCrM2EhhXcqZ4GC8NEeN33">
-            Stockholm den 30 september 2004 Gunnar Axén (m)
+          <p xml:id="i-LCrM2EhhXcqZ4GC8NEeN33" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-RFh5gikg8AsZ4DRg2yUdnf">
+            Gunnar Axén (m)
           </p>
         </div>
       </div>

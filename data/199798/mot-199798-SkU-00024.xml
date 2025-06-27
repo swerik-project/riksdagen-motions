@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-SkU-00024">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="woman">
             <idno>i-VQ8e4QWrW7Gvhr9MwK6fQ9</idno>
-            <name>Isa Halvarsson </name>
+            <name>Isa Halvarsson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-6kLJbGLpwB9hYxDrVrkcqF</idno>
-            <name>Karin Pilsäter </name>
+            <name>Karin Pilsäter</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-GYz6rxZCuAvTjhaxaErTmN"/>
+        <correspAction xml:id="i-GYz6rxZCuAvTjhaxaErTmN" type="basedOn"/>
         <correspContext corresp="i-GYz6rxZCuAvTjhaxaErTmN">
           <ref>Proposition 1997/98:33</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-VQ8e4QWrW7Gvhr9MwK6fQ9"/>
           <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3YRwv2NUDEznNfCsapJaui">
+        <correspAction xml:id="i-3YRwv2NUDEznNfCsapJaui" type="referral">
           <date when="1997-11-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Eime8GJHSrDUeYsZNz996i">
+        <correspAction xml:id="i-Eime8GJHSrDUeYsZNz996i" type="dismissal">
           <date when="1997-11-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MD22SeAeMyq13c4t7ZnVC2">
+        <correspAction xml:id="i-MD22SeAeMyq13c4t7ZnVC2" type="submission">
           <date when="1997-11-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PygqUrHCTHBtXFLBetkC3u">
+        <correspAction xml:id="i-PygqUrHCTHBtXFLBetkC3u" type="referral">
           <date when="1997-11-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WG6FQzzMcaLzFCt6sV2E6J">
+        <correspAction xml:id="i-WG6FQzzMcaLzFCt6sV2E6J" type="dismissal">
           <date when="1997-11-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3SCXYyPrmxUuhTpn94njQV">
+        <correspAction xml:id="i-3SCXYyPrmxUuhTpn94njQV" type="submission">
           <date when="1997-11-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UjiYczz36r9XusaTSHsEXA"/>
+        <correspAction xml:id="i-UjiYczz36r9XusaTSHsEXA" type="assigned"/>
         <correspContext corresp="i-UjiYczz36r9XusaTSHsEXA">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_SK_0024/mot_199798_SK_0024-0001.pdf"/>
-      <div type="motHeader" xml:id="i-AdNFpn7PrUzgE6YawJTexZ">
-        <div type="motTitle" xml:id="i-EoufTD4e5jJKoknUpHsfjC"/>
-        <div type="motSubmissionInfo" xml:id="i-WMarEkF8z81xgBY89jemUP"/>
+      <div xml:id="i-AdNFpn7PrUzgE6YawJTexZ" type="motHeader">
+        <div xml:id="i-EoufTD4e5jJKoknUpHsfjC" type="motTitle"/>
+        <div xml:id="i-WMarEkF8z81xgBY89jemUP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QvBzghz9pWjLEuDFjJN6eZ">
+      <div xml:id="i-QvBzghz9pWjLEuDFjJN6eZ" type="motBody">
         <div xml:id="i-144qcr3YH1p1LA1hUBVZ7h">
           <p xml:id="i-KiXaA3g9zLxGX9mzhWFZ9Q">
             Sk24
@@ -214,9 +214,12 @@
             3 Mot.
           </p>
           <p xml:id="i-L7gH1LfPNpiZTGqfFQbiRd">
-            1997/98Sk24 Stockholm den 31 oktober 1997
+            1997/98Sk24
           </p>
-          <p xml:id="i-3kmgWjcZMzYHV4DkvKHayG">
+          <p type="date" id="i-V3aB2WbYouaoD1KMhTR6d4">
+            Stockholm den 31 oktober 1997
+          </p>
+          <p xml:id="i-3kmgWjcZMzYHV4DkvKHayG" type="signatureBlock">
             Isa Halvarsson (fp) Karin Pilsäter (fp)
           </p>
         </div>

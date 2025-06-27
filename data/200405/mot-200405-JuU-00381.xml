@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-JuU-00381">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-T8z8ZSsNi9vC23W9G1pANJ">
           <note type="signatory" corresp="i-F8qdE2eedz12PwFanq3ahv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LTcovzxHdEUMEk5nhVRFt9">
+        <correspAction xml:id="i-LTcovzxHdEUMEk5nhVRFt9" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8HxRpdMBAJp2vnY4noNNeg">
+        <correspAction xml:id="i-8HxRpdMBAJp2vnY4noNNeg" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-49AVWWFJyb66aHBRYKfdyZ">
+        <correspAction xml:id="i-49AVWWFJyb66aHBRYKfdyZ" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KKX65NDM12yn7PZvSo8RxF"/>
+        <correspAction xml:id="i-KKX65NDM12yn7PZvSo8RxF" type="assigned"/>
         <correspContext corresp="i-KKX65NDM12yn7PZvSo8RxF">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ju_381/mot_200405_Ju_381-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ju_381/mot_200405_Ju_381-0001.pdf"/>
-      <div type="motHeader" xml:id="i-AHKQpzL4EvJZgofzLNCnSR">
-        <div type="motTitle" xml:id="i-CjkWHT7qkszWujSNzcD3Qs"/>
-        <div type="motSubmissionInfo" xml:id="i-96uSWUfuXw5fnRfkSrpqAZ"/>
+      <div xml:id="i-AHKQpzL4EvJZgofzLNCnSR" type="motHeader">
+        <div xml:id="i-CjkWHT7qkszWujSNzcD3Qs" type="motTitle"/>
+        <div xml:id="i-96uSWUfuXw5fnRfkSrpqAZ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ExCAAhMwVdA9ajnCBJiXJV">
+      <div xml:id="i-ExCAAhMwVdA9ajnCBJiXJV" type="motBody">
         <div xml:id="i-GfXQttqsQnJqigzNPxyMjk">
           <p xml:id="i-ncT6iax4AQbH1Z43gXfSA">
             2004/05 mnr: Ju381 pnr: m1013
@@ -132,8 +132,11 @@
             inte ovanligt att det är frigivningsnämnder som prövar den här
             typen av frågor.
           </p>
-          <p xml:id="i-Tf9twEESWiBMpRxVzLtKcU">
-            Stockholm den 3 oktober 2004 Maud Ekendahl (m)
+          <p xml:id="i-Tf9twEESWiBMpRxVzLtKcU" type="date">
+            Stockholm den 3 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-HPyDYSViPVasgb915XuuZY">
+            Maud Ekendahl (m)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00209">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-XmhBvQBEHHSV58vzAgA3X3">
           <note type="signatory" corresp="i-F8qdE2eedz12PwFanq3ahv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Tbdp9qgVfD1Kk5YZqDQrU4">
+        <correspAction xml:id="i-Tbdp9qgVfD1Kk5YZqDQrU4" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VrEwvdozgFZD3D6tiy9WmN">
+        <correspAction xml:id="i-VrEwvdozgFZD3D6tiy9WmN" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FMUwX7s8DxUhj8Ykp2xT45">
+        <correspAction xml:id="i-FMUwX7s8DxUhj8Ykp2xT45" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QVDRWuV54V8Nb2anohJUm3"/>
+        <correspAction xml:id="i-QVDRWuV54V8Nb2anohJUm3" type="assigned"/>
         <correspContext corresp="i-QVDRWuV54V8Nb2anohJUm3">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_209/mot_200506_Ju_209-0001.pdf"/>
-      <div type="motHeader" xml:id="i-U4ykJJjV6ZTsZaqZyk7XkY">
-        <div type="motTitle" xml:id="i-8QMak3CtyNsi1Zd7Lp4NWj"/>
-        <div type="motSubmissionInfo" xml:id="i-7DqxvexY3ts33vcMsGopFH"/>
+      <div xml:id="i-U4ykJJjV6ZTsZaqZyk7XkY" type="motHeader">
+        <div xml:id="i-8QMak3CtyNsi1Zd7Lp4NWj" type="motTitle"/>
+        <div xml:id="i-7DqxvexY3ts33vcMsGopFH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CZSKZwbLUvVypGt3e6rqnh">
+      <div xml:id="i-CZSKZwbLUvVypGt3e6rqnh" type="motBody">
         <div xml:id="i-XRgDqJuAYLQdaNS7BpxZ2Q">
           <p xml:id="i-Nv5U2aAnc9zpbbUkVqKEqW">
             2005/06 mnr: Ju209 pnr: m1137
@@ -123,8 +123,11 @@
           <p xml:id="i-WNXsM6deJYpVnpZJ8Cy1qo">
             2005/06:Ju209
           </p>
-          <p xml:id="i-T4N7BqFnEvDUdR2pNskk9G">
-            Stockholm den 13 september 2005 Maud Ekendahl (m)
+          <p xml:id="i-T4N7BqFnEvDUdR2pNskk9G" type="date">
+            Stockholm den 13 september 2005
+          </p>
+          <p type="signatureBlock" id="i-CkGNJV4DtySomfqWu1b22K">
+            Maud Ekendahl (m)
           </p>
         </div>
       </div>

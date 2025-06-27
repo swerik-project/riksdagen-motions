@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00396">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-CcXWAQpgPALwknjZDq1NGu">
           <note type="signatory" corresp="i-HzSoQ1C7ZLGcuc11An72dD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KU4k5xM7CBqu4yGoDfmKTn">
+        <correspAction xml:id="i-KU4k5xM7CBqu4yGoDfmKTn" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NqdX1aEPDARGk7877knJSz">
+        <correspAction xml:id="i-NqdX1aEPDARGk7877knJSz" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SgTayn2UoTedjV6u3bGNDY">
+        <correspAction xml:id="i-SgTayn2UoTedjV6u3bGNDY" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NKdEbZA7XfkCgmdCN7zxha"/>
+        <correspAction xml:id="i-NKdEbZA7XfkCgmdCN7zxha" type="assigned"/>
         <correspContext corresp="i-NKdEbZA7XfkCgmdCN7zxha">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Kr_396/mot_200506_Kr_396-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VTzSZ8rJp1vNE8864AQfAX">
-        <div type="motTitle" xml:id="i-QHbGps35q3sf4s85CQcTK4"/>
-        <div type="motSubmissionInfo" xml:id="i-4DWXxMDuHHNcUDymWnTKD1"/>
+      <div xml:id="i-VTzSZ8rJp1vNE8864AQfAX" type="motHeader">
+        <div xml:id="i-QHbGps35q3sf4s85CQcTK4" type="motTitle"/>
+        <div xml:id="i-4DWXxMDuHHNcUDymWnTKD1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3Vt6RtnQgLQLVrxH9WXJie">
+      <div xml:id="i-3Vt6RtnQgLQLVrxH9WXJie" type="motBody">
         <div xml:id="i-E5gzj4911RGGSa5Kpzr59q">
           <p xml:id="i-WgxYsY3WbXZCbR3cBjU9fw">
             2005/06 mnr: Kr396 pnr: s38020
@@ -132,8 +132,11 @@
             gränsregion eller att upplåta plats i respektive lands vidaresändningspliktiga
             utbud.
           </p>
-          <p xml:id="i-CDYdZtS5SYrTC3TWo6MUNm">
-            Stockholm den 28 september 2005 Leif Jakobsson (s)
+          <p xml:id="i-CDYdZtS5SYrTC3TWo6MUNm" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-DCKBguurLFyQwAqbbdm2N1">
+            Leif Jakobsson (s)
           </p>
         </div>
       </div>

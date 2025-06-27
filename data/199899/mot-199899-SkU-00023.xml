@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-SkU-00023">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-SxwXtVqzR6fyXB2uQfozAQ</idno>
-            <name>Per Rosengren </name>
+            <name>Per Rosengren</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-LiU5ea9nzx8jxEHi7pUpjU</idno>
-            <name>Claes Stockhaus </name>
+            <name>Claes Stockhaus</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-pSqD9LHdbNUrj3thRcKhS</idno>
-            <name>Marie Engström </name>
+            <name>Marie Engström</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-AnF52m7YxPwhCGas569RBm"/>
+        <correspAction xml:id="i-AnF52m7YxPwhCGas569RBm" type="basedOn"/>
         <correspContext corresp="i-AnF52m7YxPwhCGas569RBm">
           <ref>Proposition 1998/99:83</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-pSqD9LHdbNUrj3thRcKhS"/>
           <note type="signatory" corresp="i-LiU5ea9nzx8jxEHi7pUpjU"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QiwEb5VgLi3YKqTGin1qv8">
+        <correspAction xml:id="i-QiwEb5VgLi3YKqTGin1qv8" type="referral">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AKoJuTAquktUQ5KbW4qK7Y">
+        <correspAction xml:id="i-AKoJuTAquktUQ5KbW4qK7Y" type="dismissal">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-rkvcpz1FvVFEYqVdum7DQ">
+        <correspAction xml:id="i-rkvcpz1FvVFEYqVdum7DQ" type="submission">
           <date when="1999-03-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-QNBrBi66kkGWdm9zWQv7rs">
+        <correspAction xml:id="i-QNBrBi66kkGWdm9zWQv7rs" type="referral">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VnqMBn3QZ19Msoeru8jnP8">
+        <correspAction xml:id="i-VnqMBn3QZ19Msoeru8jnP8" type="dismissal">
           <date when="1999-03-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HyJKPASipQc2TZ8Ty2Z7ad">
+        <correspAction xml:id="i-HyJKPASipQc2TZ8Ty2Z7ad" type="submission">
           <date when="1999-03-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SYzdezxzd5aiN7gV4EWa9k"/>
+        <correspAction xml:id="i-SYzdezxzd5aiN7gV4EWa9k" type="assigned"/>
         <correspContext corresp="i-SYzdezxzd5aiN7gV4EWa9k">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Sk_0023/mot_199899_Sk_0023-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FBSgY5y4JRVoWsaBJRAiGG">
-        <div type="motTitle" xml:id="i-SEWgYdJ8TQWCCZp7YMKXsJ"/>
-        <div type="motSubmissionInfo" xml:id="i-JwEw7hbL4PQUTUNQxsQgZm"/>
+      <div xml:id="i-FBSgY5y4JRVoWsaBJRAiGG" type="motHeader">
+        <div xml:id="i-SEWgYdJ8TQWCCZp7YMKXsJ" type="motTitle"/>
+        <div xml:id="i-JwEw7hbL4PQUTUNQxsQgZm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HuAaFY5TYiQ6jPUfhTRqtU">
+      <div xml:id="i-HuAaFY5TYiQ6jPUfhTRqtU" type="motBody">
         <div xml:id="i-Kt8eMCNVHuwtqqhxyte9TL">
           <p xml:id="i-PJEJhTEKAZP5WRokuVwJNg">
             1998/99 Sk23 Sk22-23
@@ -163,9 +163,12 @@
             Med hänvisning till det anförda hemställs att riksdagen begär
             att regeringen återkommer med förslag om avdragsrätt vid dubbel
             bosättning med anledning av permanent arbete enligt vad i motionen
-            anförts. Stockholm den 24 mars 1999
+            anförts.
           </p>
-          <p xml:id="i-9rTEwKUBbYwj1k4nVnSsTj">
+          <p type="date" id="i-KcLvVZStHoSzWuMmVQgXXA">
+            Stockholm den 24 mars 1999
+          </p>
+          <p xml:id="i-9rTEwKUBbYwj1k4nVnSsTj" type="signatureBlock">
             Per Rosengren (v)
           </p>
           <p xml:id="i-U8ScKa3BhyCJ6ktvgD3VK1">

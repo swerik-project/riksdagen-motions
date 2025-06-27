@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00397">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-AxWRMPi893TwdEBWfu3gUP">
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UrtkJ964tiX8BrTXhnF1tU">
+        <correspAction xml:id="i-UrtkJ964tiX8BrTXhnF1tU" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-X5582STkgeekqQ2jqgg81o">
+        <correspAction xml:id="i-X5582STkgeekqQ2jqgg81o" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-YETbvk7G1J9bwivypqfK68">
+        <correspAction xml:id="i-YETbvk7G1J9bwivypqfK68" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SwGKMvKMZEYKDJnLaPUKvi"/>
+        <correspAction xml:id="i-SwGKMvKMZEYKDJnLaPUKvi" type="assigned"/>
         <correspContext corresp="i-SwGKMvKMZEYKDJnLaPUKvi">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Sk_0397/mot_200203_Sk_0397-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JUVrpH92w2ykjEpuSyifE6">
-        <div type="motTitle" xml:id="i-DY3xZ7eyahNNavCtVpxhZE"/>
-        <div type="motSubmissionInfo" xml:id="i-XdzRoKA9prHCdaS38Radi4"/>
+      <div xml:id="i-JUVrpH92w2ykjEpuSyifE6" type="motHeader">
+        <div xml:id="i-DY3xZ7eyahNNavCtVpxhZE" type="motTitle"/>
+        <div xml:id="i-XdzRoKA9prHCdaS38Radi4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Qjde11BrpqyrdG1RcvBsQc">
+      <div xml:id="i-Qjde11BrpqyrdG1RcvBsQc" type="motBody">
         <div xml:id="i-2cR2GdPSrGcvPrqJjbzQch">
           <p xml:id="i-MRXYXbHuMA5XCgX1fr4N1u">
             2002/03 mnr: Sk397 pnr: kd793
@@ -139,8 +139,11 @@
             mycket goda skäl att istället utnyttja EU-reglerna fullt ut och
             införa en minimipunktskatt på 100 procent.
           </p>
-          <p xml:id="i-BruWnodyMc3SxfxkVYbrEj">
-            Stockholm den 23 oktober 2002 Ragnwi Marcelind (kd)
+          <p xml:id="i-BruWnodyMc3SxfxkVYbrEj" type="date">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-FVABZwX9bP1F3EpDYZpcbY">
+            Ragnwi Marcelind (kd)
           </p>
         </div>
       </div>

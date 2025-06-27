@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-JoU-00053">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-KAgkDWA5iGbn9XFLkj9FoB</idno>
-            <name>Alf Eriksson </name>
+            <name>Alf Eriksson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-GN2jVbnWZ4paSMz4G7gSPo</idno>
-            <name>Lisbeth Staaf-Igelström </name>
+            <name>Lisbeth Staaf-Igelström</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Es9MssSEtBNEH1aADUejcS</idno>
-            <name>Leif Marklund </name>
+            <name>Leif Marklund</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-MwdnqHrk8uPqGE6H6M5Kai"/>
+        <correspAction xml:id="i-MwdnqHrk8uPqGE6H6M5Kai" type="basedOn"/>
         <correspContext corresp="i-MwdnqHrk8uPqGE6H6M5Kai">
           <ref>Proposition 1992/93:180</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-GN2jVbnWZ4paSMz4G7gSPo"/>
           <note type="signatory" corresp="i-Es9MssSEtBNEH1aADUejcS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9BYvUdBrYQu1CGHT8WYo3t">
+        <correspAction xml:id="i-9BYvUdBrYQu1CGHT8WYo3t" type="referral">
           <date when="1993-03-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9RvuXsokf3HtpSDLLeJffX">
+        <correspAction xml:id="i-9RvuXsokf3HtpSDLLeJffX" type="dismissal">
           <date when="1993-03-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SRCVVVMzSqFCz6RpKHdwmW">
+        <correspAction xml:id="i-SRCVVVMzSqFCz6RpKHdwmW" type="submission">
           <date when="1993-03-18"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PDLtrCK2jAxCuX33MNL9Hv">
+        <correspAction xml:id="i-PDLtrCK2jAxCuX33MNL9Hv" type="referral">
           <date when="1993-03-23"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NgfWmG1Kb1L3MkCM6t48Vy">
+        <correspAction xml:id="i-NgfWmG1Kb1L3MkCM6t48Vy" type="dismissal">
           <date when="1993-03-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6kYUeQWJ5o1V9wsNwt5WLq">
+        <correspAction xml:id="i-6kYUeQWJ5o1V9wsNwt5WLq" type="submission">
           <date when="1993-03-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-U74BazzrVQb674j4xvvEBm"/>
+        <correspAction xml:id="i-U74BazzrVQb674j4xvvEBm" type="assigned"/>
         <correspContext corresp="i-U74BazzrVQb674j4xvvEBm">
           <ref type="assignedTo">Jordbruksutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_JoU_53/mot_199293_JoU_53-001.pdf"/>
-      <div type="motHeader" xml:id="i-5afkb7K6amzRwXMyY811Xv">
-        <div type="motTitle" xml:id="i-92eXeymCHiB3BxmgXcfYqB"/>
-        <div type="motSubmissionInfo" xml:id="i-FQ1sNn4fD4LARMf1uRaPeJ"/>
+      <div xml:id="i-5afkb7K6amzRwXMyY811Xv" type="motHeader">
+        <div xml:id="i-92eXeymCHiB3BxmgXcfYqB" type="motTitle"/>
+        <div xml:id="i-FQ1sNn4fD4LARMf1uRaPeJ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-3MaS1rTfxzzrx3yyEukTa1">
+      <div xml:id="i-3MaS1rTfxzzrx3yyEukTa1" type="motBody">
         <div xml:id="i-S3EjJkwNqMQR8iGFdipMG4">
           <p xml:id="i-F5MNaUD9nxjoLS3StQdHJr">
             Motion till riksdagen
@@ -314,8 +314,11 @@
             om att Sverige verkar för att EG inte inför krav på in- blandning
             i pappersprodukter.
           </p>
-          <p xml:id="i-KzjmaMjAAsecscpAaWxGUS">
-            Stockholm den 18 mars 1993 Alf Eriksson (s)
+          <p xml:id="i-KzjmaMjAAsecscpAaWxGUS" type="date">
+            Stockholm den 18 mars 1993
+          </p>
+          <p type="signatureBlock" id="i-BpTdobzXyxAWNk4C38EhuL">
+            Alf Eriksson (s)
           </p>
           <p xml:id="i-Fcap4u4a5kJ3cxbWBfyHaA">
             Lisbeth Staaf-Igelström (s) Leif Marklund (s)

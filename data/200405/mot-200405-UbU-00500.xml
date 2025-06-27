@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00500">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-QGpbkrHrJqwsr6LUTMLBZq">
           <note type="signatory" corresp="i-RJ83sTtQ8c3R3VD4B55j8P"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HqJPrTF3We65GEXiPZAQeE">
+        <correspAction xml:id="i-HqJPrTF3We65GEXiPZAQeE" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5yDTfM2iD1s68tcqcKg73J">
+        <correspAction xml:id="i-5yDTfM2iD1s68tcqcKg73J" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XoQGk5ywA4kESUU7LLbYgX">
+        <correspAction xml:id="i-XoQGk5ywA4kESUU7LLbYgX" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-UmLV4MPHkZGkjBskzS4xJq"/>
+        <correspAction xml:id="i-UmLV4MPHkZGkjBskzS4xJq" type="assigned"/>
         <correspContext corresp="i-UmLV4MPHkZGkjBskzS4xJq">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_500/mot_200405_Ub_500-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PnTdfW1f4kutTA1SFQDCkT">
-        <div type="motTitle" xml:id="i-Tn5M99EfVJdY1Qt1C6JoV2"/>
-        <div type="motSubmissionInfo" xml:id="i-32hB9JQ8FEM734HVxu9LcD"/>
+      <div xml:id="i-PnTdfW1f4kutTA1SFQDCkT" type="motHeader">
+        <div xml:id="i-Tn5M99EfVJdY1Qt1C6JoV2" type="motTitle"/>
+        <div xml:id="i-32hB9JQ8FEM734HVxu9LcD" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Dr46oNQZZP4SxJeCxqjDUE">
+      <div xml:id="i-Dr46oNQZZP4SxJeCxqjDUE" type="motBody">
         <div xml:id="i-DqGSGPVSdDNWucKAFfP71K">
           <p xml:id="i-Qx2rHjsovrMLxs7ZfXgsKD">
             2004/05 mnr: Ub500 pnr: s49035
@@ -103,8 +103,11 @@
             hur kommunerna påverkas vid etableringar av fristående skolor
             så att inte den sammantagna utbildningsverksamheten försämras.
           </p>
-          <p xml:id="i-FqLJ2HfQVsCAky4eJoLGyv">
-            Stockholm den 30 september 2004 Åsa Lindestam (s)
+          <p xml:id="i-FqLJ2HfQVsCAky4eJoLGyv" type="date">
+            Stockholm den 30 september 2004
+          </p>
+          <p type="signatureBlock" id="i-Wc3SvmV6mpxxMStd6vaT4T">
+            Åsa Lindestam (s)
           </p>
         </div>
       </div>

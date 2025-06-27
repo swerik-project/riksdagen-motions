@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00042">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Uk8pjTG1cZeTf41EQRLEWm"/>
+        <correspAction xml:id="i-Uk8pjTG1cZeTf41EQRLEWm" type="basedOn"/>
         <correspContext corresp="i-Uk8pjTG1cZeTf41EQRLEWm">
           <ref>Proposition 2003/04:105</ref>
         </correspContext>
@@ -90,19 +90,19 @@
           <note type="signatory" corresp="i-UmhVhzFM3Rs65aFjMTgRvj"/>
           <note type="signatory" corresp="i-3p3w5Vw2i74gEMeqzABeEG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SH3AoY45hFwwHJBwY2tUm">
+        <correspAction xml:id="i-SH3AoY45hFwwHJBwY2tUm" type="referral">
           <date when="2004-07-02"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GHyC6Tq8FdQgzH7ipCu1Fs">
+        <correspAction xml:id="i-GHyC6Tq8FdQgzH7ipCu1Fs" type="dismissal">
           <date when="2004-07-02"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-ABrWj2s3x1WUtyxFiGAXoV">
+        <correspAction xml:id="i-ABrWj2s3x1WUtyxFiGAXoV" type="registration">
           <date when="2004-06-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-36dtmiaFHUfQHVNyjDR6SL">
+        <correspAction xml:id="i-36dtmiaFHUfQHVNyjDR6SL" type="submission">
           <date when="2004-06-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9i1162ZfpKX3qYgRWrTNHE"/>
+        <correspAction xml:id="i-9i1162ZfpKX3qYgRWrTNHE" type="assigned"/>
         <correspContext corresp="i-9i1162ZfpKX3qYgRWrTNHE">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -117,11 +117,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fi_0042/mot_200304_Fi_0042-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BQHCJHFfoTwGGun6PUYRCb">
-        <div type="motTitle" xml:id="i-5wChngKmWwupuZ5Cdv17HP"/>
-        <div type="motSubmissionInfo" xml:id="i-3PpuAW5APRB3eutEZn9Muf"/>
+      <div xml:id="i-BQHCJHFfoTwGGun6PUYRCb" type="motHeader">
+        <div xml:id="i-5wChngKmWwupuZ5Cdv17HP" type="motTitle"/>
+        <div xml:id="i-3PpuAW5APRB3eutEZn9Muf" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XMp7q313qUgfp1RxPeRqCU">
+      <div xml:id="i-XMp7q313qUgfp1RxPeRqCU" type="motBody">
         <div xml:id="i-2qt3SV97rNd5z7hGZRDqaf">
           <p xml:id="i-PQZgzzry8fTKqowQjL7SYJ">
             2003/04 mnr: Fi42 pnr: m277
@@ -306,8 +306,11 @@
             på det berörda utskottet att utforma de lagändringar som föranleds
             av yrkande 1.
           </p>
-          <p xml:id="i-PuPkbS5SVgPyyTfFLsjdoi">
-            Stockholm den 23 juni 2004 Mikael Odenberg (m)
+          <p xml:id="i-PuPkbS5SVgPyyTfFLsjdoi" type="date">
+            Stockholm den 23 juni 2004
+          </p>
+          <p type="signatureBlock" id="i-QMVTBMbeTRAbLPLZ9CsE9k">
+            Mikael Odenberg (m)
           </p>
           <p xml:id="i-YJHEdZgkUYn8SWwJRcTKEC">
             Gunnar Axén (m) Tomas Högström (m) Ulf Sjösten (m) Lennart Hedquist

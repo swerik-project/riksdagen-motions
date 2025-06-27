@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SkU-00262">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-RCNVVc6jFAU8YPdr6sW8jH"/>
           <note type="signatory" corresp="i-DKsVYU73WDtSTFEeLoboVx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-pUwYZsvN78K25JpuKXaR4">
+        <correspAction xml:id="i-pUwYZsvN78K25JpuKXaR4" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-KGWwu66vviC7teT2KrzWNy">
+        <correspAction xml:id="i-KGWwu66vviC7teT2KrzWNy" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-39KkFm2VUf7av5sewUChQh">
+        <correspAction xml:id="i-39KkFm2VUf7av5sewUChQh" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WLj6UdL4b1ab4EVQ2U6QnK"/>
+        <correspAction xml:id="i-WLj6UdL4b1ab4EVQ2U6QnK" type="assigned"/>
         <correspContext corresp="i-WLj6UdL4b1ab4EVQ2U6QnK">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sk_262/mot_200506_Sk_262-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5EWA9ZYLa7v8Gog2vdgHbq">
-        <div type="motTitle" xml:id="i-RPLFyNRcxxvqBALvMaG5cE"/>
-        <div type="motSubmissionInfo" xml:id="i-9XFNJfTcyKvnc6z2Ab6VAR"/>
+      <div xml:id="i-5EWA9ZYLa7v8Gog2vdgHbq" type="motHeader">
+        <div xml:id="i-RPLFyNRcxxvqBALvMaG5cE" type="motTitle"/>
+        <div xml:id="i-9XFNJfTcyKvnc6z2Ab6VAR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6S9BKYgWppVVLNJUqzbLDC">
+      <div xml:id="i-6S9BKYgWppVVLNJUqzbLDC" type="motBody">
         <div xml:id="i-PFmF8sA2tLsrrXg8qJ8qqD">
           <p xml:id="i-CXPXzN8S6Cvzx3NMfdun3p">
             2005/06 mnr: Sk262 pnr: m1277
@@ -154,9 +154,11 @@
             att skattebetalande arbetstagare får tydliga uppgifter om hur
             stor del av lönen som går till skatter och arbetsgivaravgifter.
           </p>
-          <p xml:id="i-3HdtGQHwpserpHVnXdsvZb">
-            Stockholm den 22 september 2005 Stefan Hagfeldt (m) Ola Sundell
-            (m)
+          <p xml:id="i-3HdtGQHwpserpHVnXdsvZb" type="date">
+            Stockholm den 22 september 2005
+          </p>
+          <p type="signatureBlock" id="i-JmfXuE7g6SDcpus8mvN3DT">
+            Stefan Hagfeldt (m) Ola Sundell (m)
           </p>
         </div>
       </div>

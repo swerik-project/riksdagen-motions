@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00310">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-BC18Je2EQ3KeUVbnW4R3kv">
           <note type="signatory" corresp="i-D8B2Xf6UADbqciPHrqFxSc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5nbA3qzMdcaX2y1fv1ghWf">
+        <correspAction xml:id="i-5nbA3qzMdcaX2y1fv1ghWf" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-A2TGGFofTtTMUCeFRiEk2U">
+        <correspAction xml:id="i-A2TGGFofTtTMUCeFRiEk2U" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Ly9ewdM1Xvn9ppgsKd5rHe">
+        <correspAction xml:id="i-Ly9ewdM1Xvn9ppgsKd5rHe" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SKk3kjN8wtx44SBUWRL77B"/>
+        <correspAction xml:id="i-SKk3kjN8wtx44SBUWRL77B" type="assigned"/>
         <correspContext corresp="i-SKk3kjN8wtx44SBUWRL77B">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_310/mot_200405_U_310-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NvcmG6C3mZVJ8p9UUq3g8M">
-        <div type="motTitle" xml:id="i-7JybsK6KUkpqQKnEQwga8t"/>
-        <div type="motSubmissionInfo" xml:id="i-5YLdRzYFGPw6ChRiDykHaj"/>
+      <div xml:id="i-NvcmG6C3mZVJ8p9UUq3g8M" type="motHeader">
+        <div xml:id="i-7JybsK6KUkpqQKnEQwga8t" type="motTitle"/>
+        <div xml:id="i-5YLdRzYFGPw6ChRiDykHaj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PRirre1XovsjxW8TuCENxS">
+      <div xml:id="i-PRirre1XovsjxW8TuCENxS" type="motBody">
         <div xml:id="i-W2NukDTUi7P3BE8VtdFnNw">
           <p xml:id="i-BUbAvfRtopDdjjkjF3Ev7v">
             2004/05 mnr: U310 pnr: fp1016
@@ -209,8 +209,11 @@
             utredare för denna fråga 2004 som inom det närmaste året bör lägga
             fram sitt förslag.
           </p>
-          <p xml:id="i-GyW7momjxjTdMf1tcWjBgn">
-            Stockholm den 4 oktober 2004 Birgitta Ohlsson (fp)
+          <p xml:id="i-GyW7momjxjTdMf1tcWjBgn" type="date">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-RoobyHxFXoCFjbc1K7cey8">
+            Birgitta Ohlsson (fp)
           </p>
           <p xml:id="i-JujFehwwRUkU3SrVdkbMUi">
             2004/05:U310

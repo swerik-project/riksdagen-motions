@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00365">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-DCG3DGr6Wam3rffAmohQqg">
           <note type="signatory" corresp="i-GgyXv4xamqTouNVz7Tncke"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CHzTbzgMuNvzUbxG2uCRV3">
+        <correspAction xml:id="i-CHzTbzgMuNvzUbxG2uCRV3" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XgJJKLc5PyfMZUWvfej9zm">
+        <correspAction xml:id="i-XgJJKLc5PyfMZUWvfej9zm" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-P7fJLxNsJWDbYp1m4upuw6">
+        <correspAction xml:id="i-P7fJLxNsJWDbYp1m4upuw6" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DSZXk5tRYKeDCGetuKGmKp"/>
+        <correspAction xml:id="i-DSZXk5tRYKeDCGetuKGmKp" type="assigned"/>
         <correspContext corresp="i-DSZXk5tRYKeDCGetuKGmKp">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0365/mot_200304_Sf_0365-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KNoaoKts1MC3fQWFW2sRCv">
-        <div type="motTitle" xml:id="i-4eYcY3jeWaGjAj42yWTUwk"/>
-        <div type="motSubmissionInfo" xml:id="i-BQD2k1zzNQnL6KtmrLSMpg"/>
+      <div xml:id="i-KNoaoKts1MC3fQWFW2sRCv" type="motHeader">
+        <div xml:id="i-4eYcY3jeWaGjAj42yWTUwk" type="motTitle"/>
+        <div xml:id="i-BQD2k1zzNQnL6KtmrLSMpg" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LcL48iSLADNmBahh6vUq2a">
+      <div xml:id="i-LcL48iSLADNmBahh6vUq2a" type="motBody">
         <div xml:id="i-K9ieLx6uvvyFDxoDGmiA5z">
           <p xml:id="i-MCn5xsbUHpezAqeu3peNmg">
             2003/04 mnr: Sf365 pnr: m1560
@@ -133,8 +133,11 @@
             tillväxten så bör återvändareregeln slopas och möjligheterna att
             arbeta i Sverige främjas.
           </p>
-          <p xml:id="i-T8fdVKMx7tLn1aW2V4cxUh">
-            Stockholm den 6 oktober 2003 Anna Lilliehöök (m)
+          <p xml:id="i-T8fdVKMx7tLn1aW2V4cxUh" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-Aoc3CfaiN6ChX1SZn6BRDT">
+            Anna Lilliehöök (m)
           </p>
         </div>
       </div>

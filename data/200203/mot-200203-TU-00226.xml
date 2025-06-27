@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-TU-00226">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-PM9ygcwdsX5c5R5tUAVFRy">
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7XRcduYwxBvJMruzDMqjZh">
+        <correspAction xml:id="i-7XRcduYwxBvJMruzDMqjZh" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CNXsRvePgFgHSoFur88PMV">
+        <correspAction xml:id="i-CNXsRvePgFgHSoFur88PMV" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-NSdd2y8pdBNqmYCcxVpQqQ">
+        <correspAction xml:id="i-NSdd2y8pdBNqmYCcxVpQqQ" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PAw7YvTpBrSRTsaHbPJ4NK"/>
+        <correspAction xml:id="i-PAw7YvTpBrSRTsaHbPJ4NK" type="assigned"/>
         <correspContext corresp="i-PAw7YvTpBrSRTsaHbPJ4NK">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_T_0226/mot_200203_T_0226-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KBdctKxchKt7qfcLRw8UDx">
-        <div type="motTitle" xml:id="i-HAcCv2LTXxXLjsoD9FDWPZ"/>
-        <div type="motSubmissionInfo" xml:id="i-5WnX7fWt7dTe4cz9QTetBo"/>
+      <div xml:id="i-KBdctKxchKt7qfcLRw8UDx" type="motHeader">
+        <div xml:id="i-HAcCv2LTXxXLjsoD9FDWPZ" type="motTitle"/>
+        <div xml:id="i-5WnX7fWt7dTe4cz9QTetBo" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-P4pau4Zgf7xkjHeK6YfrkS">
+      <div xml:id="i-P4pau4Zgf7xkjHeK6YfrkS" type="motBody">
         <div xml:id="i-WUBNS8KRANh1Mrw37J6m6m">
           <p xml:id="i-MxzJxzhve6zXmpeXk7nZNL">
             16
@@ -162,8 +162,11 @@
             snarast fattar beslut om huvudmannaskapet för förbindelsen mellan
             Holmön och fastlandet.
           </p>
-          <p xml:id="i-CugZoEkiZUjvdQMsJ5bpXf">
-            Stockholm den 14 oktober 2002 Gunilla Tjernberg (kd)
+          <p xml:id="i-CugZoEkiZUjvdQMsJ5bpXf" type="date">
+            Stockholm den 14 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-VNWoDvW2dqZJ2ps3QaY1YQ">
+            Gunilla Tjernberg (kd)
           </p>
         </div>
       </div>

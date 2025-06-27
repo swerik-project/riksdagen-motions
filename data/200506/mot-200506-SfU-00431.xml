@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SfU-00431">
   <teiHeader>
     <fileDesc>
@@ -55,16 +55,16 @@
           <note type="signatory" corresp="i-LB9Tn6B1RXiAHZEWEK1hYC"/>
           <note type="signatory" corresp="i-9BUsH2Bn1bGihptNC5r7uq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LDz2KT8p7HY16aC22DppKR">
+        <correspAction xml:id="i-LDz2KT8p7HY16aC22DppKR" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WiqbReuPg47tE6b3TPK3Xa">
+        <correspAction xml:id="i-WiqbReuPg47tE6b3TPK3Xa" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-YHCnkhD3aagujnE67Zcmu7">
+        <correspAction xml:id="i-YHCnkhD3aagujnE67Zcmu7" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QQ2ivKA67665vF8EVv5f8N"/>
+        <correspAction xml:id="i-QQ2ivKA67665vF8EVv5f8N" type="assigned"/>
         <correspContext corresp="i-QQ2ivKA67665vF8EVv5f8N">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -79,11 +79,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_431/mot_200506_Sf_431-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5yP4SzReJRNEnrD9WkjBcu">
-        <div type="motTitle" xml:id="i-7KPBLr9Um8Jn7HUrdhJmCb"/>
-        <div type="motSubmissionInfo" xml:id="i-8gy8rwk26aAYUZG7VW6dzs"/>
+      <div xml:id="i-5yP4SzReJRNEnrD9WkjBcu" type="motHeader">
+        <div xml:id="i-7KPBLr9Um8Jn7HUrdhJmCb" type="motTitle"/>
+        <div xml:id="i-8gy8rwk26aAYUZG7VW6dzs" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7oAZSpq99ENFvA3qMnviLd">
+      <div xml:id="i-7oAZSpq99ENFvA3qMnviLd" type="motBody">
         <div xml:id="i-HnrML1xtB8regrQkMTBAsE">
           <p xml:id="i-LitQTq5Spg9k9gnKHpCqNx">
             2005/06 mnr: Sf431 pnr: -s16001
@@ -421,9 +421,12 @@
           <p xml:id="i-LohB8VEceZsehRWp6UDKsL">
             förslag för att finansiera de ökade utgifterna för staten genom
             motsvarande minskningar av utgifterna. Riksdagen bör ge regeringen
-            detta till känna. Stockholm den 5 oktober 2005
+            detta till känna.
           </p>
-          <p xml:id="i-7Ds61U1KLWyNtRRf2BK3y9">
+          <p type="date" id="i-M3xaEAxXnmF5CEdsG5Frk9">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p xml:id="i-7Ds61U1KLWyNtRRf2BK3y9" type="signatureBlock">
             Leif Jakobsson (s) Ulla Hoffmann (v) Peter Eriksson (mp)
           </p>
           <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Sf_431/mot_200506_Sf_431-0009.pdf"/>
@@ -915,10 +918,10 @@
             vars avlägsnandebeslut på grund av förhållandena i mottagarländerna
             inte bedömts kunna verkställas med tvång. Personer, vars beslut
             om avvisning eller utvisning anses verkställt enligt 8 kap. 14
-            8&amp; UtlL omfattas inte av de nu föreslagna bestämmelserna. Beroende
-            på om ett återreseförbud har meddelats kan för den kategorin endera
-            besluten verkställas på nytt enligt 8 kap. 16 8 UtlL eller så
-            prövas deras ansökan enligt de vanliga bestämmelserna om uppehållstillstånd
+            8&amp; UtlL omfattas inte av de nu föreslagna bestämmelserna.
+            Beroende på om ett återreseförbud har meddelats kan för den kategorin
+            endera besluten verkställas på nytt enligt 8 kap. 16 8 UtlL eller
+            så prövas deras ansökan enligt de vanliga bestämmelserna om uppehållstillstånd
             i utlänningslagen. Den nya prövningen avser endast de fall där
             det finns lagakraftvunna avvisnings- eller utvisningsbeslut som
             skall verkställas. I de fall där avvisnings- eller utvisningsbeslutet

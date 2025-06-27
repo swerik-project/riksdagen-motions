@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UU-00218">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-VqAzbkVzFF7GAtQiecm2Nk">
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BpAY576RhHqA7nqXmPSboX">
+        <correspAction xml:id="i-BpAY576RhHqA7nqXmPSboX" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UPLCrGiGPmB8YAH8ZvC5bF">
+        <correspAction xml:id="i-UPLCrGiGPmB8YAH8ZvC5bF" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VyDfncpx1Rz8sWrz9iLMNM">
+        <correspAction xml:id="i-VyDfncpx1Rz8sWrz9iLMNM" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7UxSnTDs28TtdSaZkdKiW7"/>
+        <correspAction xml:id="i-7UxSnTDs28TtdSaZkdKiW7" type="assigned"/>
         <correspContext corresp="i-7UxSnTDs28TtdSaZkdKiW7">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_U_0218/mot_200304_U_0218-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3req7Asa3zumxd1aM9AjyL">
-        <div type="motTitle" xml:id="i-V52tGh5RLPRGJa3EaQp84V"/>
-        <div type="motSubmissionInfo" xml:id="i-RH3F6rvZ5PqSXhHXy6PFnG"/>
+      <div xml:id="i-3req7Asa3zumxd1aM9AjyL" type="motHeader">
+        <div xml:id="i-V52tGh5RLPRGJa3EaQp84V" type="motTitle"/>
+        <div xml:id="i-RH3F6rvZ5PqSXhHXy6PFnG" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RfiA5ZZMKqAXKnFKMtxoKY">
+      <div xml:id="i-RfiA5ZZMKqAXKnFKMtxoKY" type="motBody">
         <div xml:id="i-UXg7i8UPyZz13za6hbCv3F">
           <p xml:id="i-NZ3uVdmtHMAuWgKrhv5hdq">
             2003/04 mnr: U218 pnr: kd638
@@ -148,8 +148,11 @@
             ska ändras är alltså Sverige, genom biståndet, i någon mening
             delaktigt i ansvaret för det hat som är terrorismens grogrund.
           </p>
-          <p xml:id="i-ASB5gxuhbnDr5DF4Xiymqs">
-            Stockholm den 30 september 2003 Tuve Skånberg (kd)
+          <p xml:id="i-ASB5gxuhbnDr5DF4Xiymqs" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-EYu63fyvSX2L71X2ap8u7L">
+            Tuve Skånberg (kd)
           </p>
         </div>
       </div>

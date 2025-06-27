@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00508">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-KQJyMBSxUN13aCicjYTCfe">
           <note type="signatory" corresp="i-6NzqsXjPzSi4BTz8BKo1Rg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YJmygaiW7B7Jggc5Fb7koN">
+        <correspAction xml:id="i-YJmygaiW7B7Jggc5Fb7koN" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LLUGf3tqcq6mZcVqqsLdRK">
+        <correspAction xml:id="i-LLUGf3tqcq6mZcVqqsLdRK" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QUuTf4ychQU9xjM5qaGSXX">
+        <correspAction xml:id="i-QUuTf4ychQU9xjM5qaGSXX" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Ugoe43DgijZJbDBDcY9zae"/>
+        <correspAction xml:id="i-Ugoe43DgijZJbDBDcY9zae" type="assigned"/>
         <correspContext corresp="i-Ugoe43DgijZJbDBDcY9zae">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0508/mot_200304_So_0508-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PgPYtjEoboxtV2tVASmYx2">
-        <div type="motTitle" xml:id="i-KvrAUBMYM41xf7QqDQG9B5"/>
-        <div type="motSubmissionInfo" xml:id="i-YH8jz3PfigXteYNEeWCusw"/>
+      <div xml:id="i-PgPYtjEoboxtV2tVASmYx2" type="motHeader">
+        <div xml:id="i-KvrAUBMYM41xf7QqDQG9B5" type="motTitle"/>
+        <div xml:id="i-YH8jz3PfigXteYNEeWCusw" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DKcarAjrry86uyoh9hS332">
+      <div xml:id="i-DKcarAjrry86uyoh9hS332" type="motBody">
         <div xml:id="i-GYaUx7TYsxJyHA5ZiEDKiL">
           <p xml:id="i-MRtckVayAgrRTvpGLdhapi">
             2003/04 mnr: S0508 pnr: fp903
@@ -106,8 +106,11 @@
             har antagit som minoritetsspråk, skall det därför vara en rättighet
             att kunna bli vårdad på sitt språk, om behov föreligger.
           </p>
-          <p xml:id="i-8a4uZKHUrL1sTHy3VVN9po">
-            Stockholm den 6 oktober 2003 Christer Winbäck (fp)
+          <p xml:id="i-8a4uZKHUrL1sTHy3VVN9po" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-ApK13WoiRWDAMAgxFcrUwR">
+            Christer Winbäck (fp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-NU-00030">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person gender="man">
             <idno>i-Q6uWG1k3pbJio9CebNs3Cz</idno>
-            <name>Sten Tolgfors </name>
+            <name>Sten Tolgfors</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7PHq7jvqyLsi8jWGioUTWf"/>
+        <correspAction xml:id="i-7PHq7jvqyLsi8jWGioUTWf" type="basedOn"/>
         <correspContext corresp="i-7PHq7jvqyLsi8jWGioUTWf">
           <ref>Proposition 1999/2000:71</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
           <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RqRSQhVjGzEggNjtR7toG4">
+        <correspAction xml:id="i-RqRSQhVjGzEggNjtR7toG4" type="referral">
           <date when="2000-04-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3JsGKSYLRx7C6EXfvDFCt1">
+        <correspAction xml:id="i-3JsGKSYLRx7C6EXfvDFCt1" type="dismissal">
           <date when="2000-04-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HPxt7nqX6P5YoTbDeB5sdM">
+        <correspAction xml:id="i-HPxt7nqX6P5YoTbDeB5sdM" type="submission">
           <date when="2000-04-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-WB8tdodkwcRbX83K3SFCBc">
+        <correspAction xml:id="i-WB8tdodkwcRbX83K3SFCBc" type="referral">
           <date when="2000-04-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-J37Kf9u2TZ9uL9pDa3oose">
+        <correspAction xml:id="i-J37Kf9u2TZ9uL9pDa3oose" type="dismissal">
           <date when="2000-04-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EG4ANjNFF1aw9f6bturuJm">
+        <correspAction xml:id="i-EG4ANjNFF1aw9f6bturuJm" type="submission">
           <date when="2000-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FVmEQyomABsCAYi6RZYv3X"/>
+        <correspAction xml:id="i-FVmEQyomABsCAYi6RZYv3X" type="assigned"/>
         <correspContext corresp="i-FVmEQyomABsCAYi6RZYv3X">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_N_0030/mot_199900_N_0030-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Y8WePbg9HRhNmBXUaHLCHc">
-        <div type="motTitle" xml:id="i-4ZgiCQFg8A9CL5r7Sj8ttb"/>
-        <div type="motSubmissionInfo" xml:id="i-5wAPpMDCDsDroPWoTYDMvv"/>
+      <div xml:id="i-Y8WePbg9HRhNmBXUaHLCHc" type="motHeader">
+        <div xml:id="i-4ZgiCQFg8A9CL5r7Sj8ttb" type="motTitle"/>
+        <div xml:id="i-5wAPpMDCDsDroPWoTYDMvv" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-H6F9EgCj6QainBt8TEwQdN">
+      <div xml:id="i-H6F9EgCj6QainBt8TEwQdN" type="motBody">
         <div xml:id="i-MDv4VRL8VZhxJqL98Gwopb">
           <p xml:id="i-RFwwvWBdrEh2needd29iAg">
             1999/2000 mnr: N30 pnr: m714
@@ -247,8 +247,11 @@
             1999/2000 N30
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_N_0030/mot_199900_N_0030-0004.pdf"/>
-          <p xml:id="i-URiTuyt4FgTbe1dM2uH2Ys">
-            Stockholm den 6 april 2000 1999/2000 N30 Sten Tolgfors (m)
+          <p xml:id="i-URiTuyt4FgTbe1dM2uH2Ys" type="date">
+            Stockholm den 6 april 2000
+          </p>
+          <p type="signatureBlock" id="i-Jt1VjGLiHpoGUGwYx3vSU6">
+            1999/2000 N30 Sten Tolgfors (m)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-KU-00016">
   <teiHeader>
     <fileDesc>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-5hmRvHvAADQX8onXujwQM9"/>
+        <correspAction xml:id="i-5hmRvHvAADQX8onXujwQM9" type="basedOn"/>
         <correspContext corresp="i-5hmRvHvAADQX8onXujwQM9">
           <ref>Förslag 2000/01:RR13</ref>
         </correspContext>
@@ -66,28 +66,28 @@
           <note type="signatory" corresp="i-JZKa6caqdSKy8yhUyfEJeU"/>
           <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UPmByUFCQwSucaAHcKdKNu">
+        <correspAction xml:id="i-UPmByUFCQwSucaAHcKdKNu" type="referral">
           <date when="2001-06-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6X3EZa9XWy63aWwLHDNqqe">
+        <correspAction xml:id="i-6X3EZa9XWy63aWwLHDNqqe" type="dismissal">
           <date when="2001-06-06"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-7hky44uhBK5obTMLwzpP9k">
+        <correspAction xml:id="i-7hky44uhBK5obTMLwzpP9k" type="reviewing">
           <date when="2001-06-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SiHhbWkup3s8q4bKud1yAL">
+        <correspAction xml:id="i-SiHhbWkup3s8q4bKud1yAL" type="submission">
           <date when="2001-06-01"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PHvbk8cyASjNDrZDJanWmg">
+        <correspAction xml:id="i-PHvbk8cyASjNDrZDJanWmg" type="referral">
           <date when="2001-06-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UCyboFsNaZoUJFN6jrQfJ3">
+        <correspAction xml:id="i-UCyboFsNaZoUJFN6jrQfJ3" type="dismissal">
           <date when="2001-06-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MXcQRmeWhYwhNEMektkMQy">
+        <correspAction xml:id="i-MXcQRmeWhYwhNEMektkMQy" type="submission">
           <date when="2001-06-01"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DQBMMnGmsZJzHLmzu6BfVM"/>
+        <correspAction xml:id="i-DQBMMnGmsZJzHLmzu6BfVM" type="assigned"/>
         <correspContext corresp="i-DQBMMnGmsZJzHLmzu6BfVM">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_K_0016/mot_200001_K_0016-0001.pdf"/>
-      <div type="motHeader" xml:id="i-TRLwf28GLCYp9QLpfjad5W">
-        <div type="motTitle" xml:id="i-6CGZN5TmWjNPvSAvdjw9Sc"/>
-        <div type="motSubmissionInfo" xml:id="i-JAbzprA73HEooNQw3hRsWP"/>
+      <div xml:id="i-TRLwf28GLCYp9QLpfjad5W" type="motHeader">
+        <div xml:id="i-6CGZN5TmWjNPvSAvdjw9Sc" type="motTitle"/>
+        <div xml:id="i-JAbzprA73HEooNQw3hRsWP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BFRxWTCtZVwfewn9wqG7Ta">
+      <div xml:id="i-BFRxWTCtZVwfewn9wqG7Ta" type="motBody">
         <div xml:id="i-4JhuRmJp1E37yjzpFZLVk3">
           <p xml:id="i-AL8V1GxH91H1JTEUTCgCet">
             2000/01 mnr: K16 pnr: fp1161
@@ -343,9 +343,12 @@
             upp rutinerna vid upphandling av konsulter inom Regeringskansliet.
             Regeringen bör i en skrivelse till riksdagen årligen redogöra
             för hur upphandlingen av konsulttjänster inom Regeringskansliet
-            utförts. Stockholm den 31 maj 2001
+            utförts.
           </p>
-          <p xml:id="i-FAueYCDjBpcmWeYf3majZ6">
+          <p type="date" id="i-3qzGsYZzPTViRWaUwkKsYT">
+            Stockholm den 31 maj 2001
+          </p>
+          <p xml:id="i-FAueYCDjBpcmWeYf3majZ6" type="signatureBlock">
             Helena Bargholtz (fp) Kerstin Heinemann (fp) Bo Könberg (fp)
             Eva Flyborg (fp)
           </p>

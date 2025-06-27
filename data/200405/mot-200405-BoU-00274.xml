@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-BoU-00274">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-XYJD1TWqfAc6e7GvSYhkap">
           <note type="signatory" corresp="i-9fdWbFK67588CD12XaNZBq"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LehKgFCSxZmEL6NhVrJ65o">
+        <correspAction xml:id="i-LehKgFCSxZmEL6NhVrJ65o" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UTbgDtHQhGU7GuFcSc8U16">
+        <correspAction xml:id="i-UTbgDtHQhGU7GuFcSc8U16" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CGgvhibHUEwFiuZLqisUPF">
+        <correspAction xml:id="i-CGgvhibHUEwFiuZLqisUPF" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-EbMfF5GVK8Pi6D5woJUkL5"/>
+        <correspAction xml:id="i-EbMfF5GVK8Pi6D5woJUkL5" type="assigned"/>
         <correspContext corresp="i-EbMfF5GVK8Pi6D5woJUkL5">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Bo_274/mot_200405_Bo_274-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Bo_274/mot_200405_Bo_274-0001.pdf"/>
-      <div type="motHeader" xml:id="i-D1svUnzBefsVSaddPCimsq">
-        <div type="motTitle" xml:id="i-KV94awt52qML9P9sQXcWRQ"/>
-        <div type="motSubmissionInfo" xml:id="i-6DFcvwn3LyAvR8GJzBYEiz"/>
+      <div xml:id="i-D1svUnzBefsVSaddPCimsq" type="motHeader">
+        <div xml:id="i-KV94awt52qML9P9sQXcWRQ" type="motTitle"/>
+        <div xml:id="i-6DFcvwn3LyAvR8GJzBYEiz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YZLh1kytzGEKJayNafTCoK">
+      <div xml:id="i-YZLh1kytzGEKJayNafTCoK" type="motBody">
         <div xml:id="i-2foeQJMS8DWyF1CPhKYzTD">
           <p xml:id="i-UibdXxwYHcH5FacLUGdfh">
             2004/05 mnr: Bo274 pnr: s3076
@@ -136,8 +136,11 @@
             endast om högskoleorten kan garantera att studentbostäder finns
             i tillräcklig omfattning.
           </p>
-          <p xml:id="i-G3dyLCYMxajZ9R766hwZHv">
-            Stockholm den 24 september 2004 Sven-Erik Österberg (s)
+          <p xml:id="i-G3dyLCYMxajZ9R766hwZHv" type="date">
+            Stockholm den 24 september 2004
+          </p>
+          <p type="signatureBlock" id="i-FRXjsmkWXJE6jPDePKScyT">
+            Sven-Erik Österberg (s)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00483">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-3HxVAvtSN9WbD6hCg4BPwF">
           <note type="signatory" corresp="i-C6MPg8QS78d6rtHZ6Jc424"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KAXEwD2g3vVNVVRMDEzKNi">
+        <correspAction xml:id="i-KAXEwD2g3vVNVVRMDEzKNi" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Nz696HEgmCgFGJ2VAFy5Xu">
+        <correspAction xml:id="i-Nz696HEgmCgFGJ2VAFy5Xu" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-35w2jYAeSg9UoHYXygsPNB">
+        <correspAction xml:id="i-35w2jYAeSg9UoHYXygsPNB" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7axZmeYuT4Zi7LDp1uMNim"/>
+        <correspAction xml:id="i-7axZmeYuT4Zi7LDp1uMNim" type="assigned"/>
         <correspContext corresp="i-7axZmeYuT4Zi7LDp1uMNim">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ub_0483/mot_200203_Ub_0483-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5M8sZ7PTD4jLZRz4fiCWpy">
-        <div type="motTitle" xml:id="i-P1zkix2CPNdmbA6kLoPETy"/>
-        <div type="motSubmissionInfo" xml:id="i-L37RShwxeU4p6BoVCDL5YP"/>
+      <div xml:id="i-5M8sZ7PTD4jLZRz4fiCWpy" type="motHeader">
+        <div xml:id="i-P1zkix2CPNdmbA6kLoPETy" type="motTitle"/>
+        <div xml:id="i-L37RShwxeU4p6BoVCDL5YP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TjfJJG5LnehMAkm2cadvTe">
+      <div xml:id="i-TjfJJG5LnehMAkm2cadvTe" type="motBody">
         <div xml:id="i-AyHQFzjdKbM38d2jvTtRca">
           <p xml:id="i-5J73AptS9zKh1JhZn1bNYM">
             2002/03 mnr: Ub483 pnr: s17007
@@ -208,8 +208,11 @@
             är redo för ytterligare uppgifter och bör därför bli den högskola
             som härnäst ges möjlighet att bli universitet.
           </p>
-          <p xml:id="i-D2ZPdnPfABzF1NymRSmA2a">
-            Stockholm den 23 oktober 2002 Sinikka Bohlin (s)
+          <p xml:id="i-D2ZPdnPfABzF1NymRSmA2a" type="date">
+            Stockholm den 23 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-6hVWuU7rkK7vynY4RmZL5e">
+            Sinikka Bohlin (s)
           </p>
           <p xml:id="i-6R8sQBpu792P9nHVBQMNtz">
             2002/03:Ub483

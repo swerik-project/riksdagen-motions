@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-MJU-00235">
   <teiHeader>
     <fileDesc>
@@ -46,34 +46,34 @@
           <note type="signatory" corresp="i-QqQ96z9hf4LQtMxJfJm6ZQ"/>
           <note type="signatory" corresp="i-F8qdE2eedz12PwFanq3ahv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-57bfWrr7Zz86AYJ4TSaGmw">
+        <correspAction xml:id="i-57bfWrr7Zz86AYJ4TSaGmw" type="referral">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4xMN3o9hpUTBJA9ACsUcKX">
+        <correspAction xml:id="i-4xMN3o9hpUTBJA9ACsUcKX" type="dismissal">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-21MhFaQj1iXZYCqKkZf8wU">
+        <correspAction xml:id="i-21MhFaQj1iXZYCqKkZf8wU" type="termination">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8EH2uiTnt4iRzK37bRnjZW">
+        <correspAction xml:id="i-8EH2uiTnt4iRzK37bRnjZW" type="submission">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-29333sp6yuS3GmF4bDS2vV">
+        <correspAction xml:id="i-29333sp6yuS3GmF4bDS2vV" type="numbering">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-P3cg7MzGRjEi6i64Mo2jwv">
+        <correspAction xml:id="i-P3cg7MzGRjEi6i64Mo2jwv" type="proposed_referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-AnUazHPRdij8uCh6sdfcdE">
+        <correspAction xml:id="i-AnUazHPRdij8uCh6sdfcdE" type="committee_proposal">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-Ghov4N1UfnDStuPDBykEUx">
+        <correspAction xml:id="i-Ghov4N1UfnDStuPDBykEUx" type="reviewing">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-WknXk2X2HAZXwxAdKCmnwL">
+        <correspAction xml:id="i-WknXk2X2HAZXwxAdKCmnwL" type="registration">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Bdv3VaNS3V1TguTpCGnhv9"/>
+        <correspAction xml:id="i-Bdv3VaNS3V1TguTpCGnhv9" type="assigned"/>
         <correspContext corresp="i-Bdv3VaNS3V1TguTpCGnhv9">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -88,11 +88,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_MJ_0235/mot_200102_MJ_0235-0001.pdf"/>
-      <div type="motHeader" xml:id="i-R75DHtNjkETNZeipR2uLqK">
-        <div type="motTitle" xml:id="i-YcBUH2KY87do4SDH8hnr6Z"/>
-        <div type="motSubmissionInfo" xml:id="i-2hXdvmyvZvkbSgS5UFnmTy"/>
+      <div xml:id="i-R75DHtNjkETNZeipR2uLqK" type="motHeader">
+        <div xml:id="i-YcBUH2KY87do4SDH8hnr6Z" type="motTitle"/>
+        <div xml:id="i-2hXdvmyvZvkbSgS5UFnmTy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VGDZRPiHBKrsZ1XFEkEBYE">
+      <div xml:id="i-VGDZRPiHBKrsZ1XFEkEBYE" type="motBody">
         <div xml:id="i-ALtJi7hjZ7QKcpbLBafrYj">
           <p xml:id="i-Ht1iizePSonWyhUKm3WE2Z">
             2001/02 mnr: MJ235 pnr: m1349
@@ -182,9 +182,11 @@
             detta innebär dels för fiskets bedrivande, dels för vården av
             torskbestånden.
           </p>
-          <p xml:id="i-JNtTAmKqBVc7LXgYBv13pT">
-            Stockholm den 1 oktober 2001 Jeppe Johnsson (m) Maud Ekendahl
-            (m)
+          <p xml:id="i-JNtTAmKqBVc7LXgYBv13pT" type="date">
+            Stockholm den 1 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-BqcdR3zwq4jnaBnLpYgbYt">
+            Jeppe Johnsson (m) Maud Ekendahl (m)
           </p>
         </div>
       </div>

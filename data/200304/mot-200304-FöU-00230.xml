@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FöU-00230">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-KM1NpYcuSFbjwMi4pXnPJy">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-7i4zx4GHhRhvv6LHGZhPxX">
+        <correspAction xml:id="i-7i4zx4GHhRhvv6LHGZhPxX" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RYEiKSZUkNHGPvwrTS1GaT">
+        <correspAction xml:id="i-RYEiKSZUkNHGPvwrTS1GaT" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QjhvQVinHjvHheweDGAz49">
+        <correspAction xml:id="i-QjhvQVinHjvHheweDGAz49" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-DqUKPsbQ2hN91NSneN7M3c"/>
+        <correspAction xml:id="i-DqUKPsbQ2hN91NSneN7M3c" type="assigned"/>
         <correspContext corresp="i-DqUKPsbQ2hN91NSneN7M3c">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fö_0230/mot_200304_Fö_0230-0001.pdf"/>
-      <div type="motHeader" xml:id="i-WfaQR342imFs6vLTYFiE2E">
-        <div type="motTitle" xml:id="i-WrvZJa5n4WZhz1RA3wSwT9"/>
-        <div type="motSubmissionInfo" xml:id="i-Nh1pPeE9LE3XMr9FhMgztE"/>
+      <div xml:id="i-WfaQR342imFs6vLTYFiE2E" type="motHeader">
+        <div xml:id="i-WrvZJa5n4WZhz1RA3wSwT9" type="motTitle"/>
+        <div xml:id="i-Nh1pPeE9LE3XMr9FhMgztE" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UZNYsYAj8YpiNYmbwtEgBJ">
+      <div xml:id="i-UZNYsYAj8YpiNYmbwtEgBJ" type="motBody">
         <div xml:id="i-VhGwZSwdRWqwBFFiKSAFFi">
           <p xml:id="i-36za6sDgRGwFzSpvwLB8MZ">
             2003/04 mnr: Fö230 pnr: kd580
@@ -142,8 +142,11 @@
             till sjöss, får vara prioriterad utan att andra uppgifter läggs
             på denna funktion.
           </p>
-          <p xml:id="i-SZ51myCKP6pg3GyPFESqQw">
-            Stockholm den 3 oktober 2003 Annelie Enochson (kd)
+          <p xml:id="i-SZ51myCKP6pg3GyPFESqQw" type="date">
+            Stockholm den 3 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-L4vkofoAjHj8Nm1dfryHfU">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

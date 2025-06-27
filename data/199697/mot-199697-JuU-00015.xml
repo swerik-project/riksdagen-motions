@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-JuU-00015">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-Q5smfAWD9kCwe7tQviBPMn</idno>
-            <name>Carin Lundberg </name>
+            <name>Carin Lundberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-D5W4KMbqzfAEfRXajZLt7z</idno>
-            <name>Lars Lilja </name>
+            <name>Lars Lilja</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-VBHSUYwX8zTBjLDRcwNsBA</idno>
-            <name>Mats Lindberg </name>
+            <name>Mats Lindberg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-EcJuFjMLX9K769JkB5EEXe"/>
+        <correspAction xml:id="i-EcJuFjMLX9K769JkB5EEXe" type="basedOn"/>
         <correspContext corresp="i-EcJuFjMLX9K769JkB5EEXe">
           <ref>Regeringsskrivelse 1996/97:49</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-D5W4KMbqzfAEfRXajZLt7z"/>
           <note type="signatory" corresp="i-VBHSUYwX8zTBjLDRcwNsBA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YSPmNnn1xFkA8xuDzYPhjD">
+        <correspAction xml:id="i-YSPmNnn1xFkA8xuDzYPhjD" type="referral">
           <date when="1996-11-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-H9zqvub3x8tDtFJXfX1Ujj">
+        <correspAction xml:id="i-H9zqvub3x8tDtFJXfX1Ujj" type="dismissal">
           <date when="1996-11-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7ov5XhA5HcQhneJc46XSA3">
+        <correspAction xml:id="i-7ov5XhA5HcQhneJc46XSA3" type="submission">
           <date when="1996-11-21"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PKboKkCdwfLm5pM15uKfew">
+        <correspAction xml:id="i-PKboKkCdwfLm5pM15uKfew" type="referral">
           <date when="1996-11-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Rty3VGPYMJMezj2166kTk4">
+        <correspAction xml:id="i-Rty3VGPYMJMezj2166kTk4" type="dismissal">
           <date when="1996-11-22"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MfRAX78dp9TLNQCffXNTG2">
+        <correspAction xml:id="i-MfRAX78dp9TLNQCffXNTG2" type="submission">
           <date when="1996-11-21"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4mLhag7e4HyQRrngDDTGBH"/>
+        <correspAction xml:id="i-4mLhag7e4HyQRrngDDTGBH" type="assigned"/>
         <correspContext corresp="i-4mLhag7e4HyQRrngDDTGBH">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_JU_0015/mot_199697_JU_0015-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UoVZEyaJUbtRanAT667ufJ">
-        <div type="motTitle" xml:id="i-U6cKczj1wEHi4e7RhovewW"/>
-        <div type="motSubmissionInfo" xml:id="i-2Pgtu5FUAX9w2Gs2EVzwJc"/>
+      <div xml:id="i-UoVZEyaJUbtRanAT667ufJ" type="motHeader">
+        <div xml:id="i-U6cKczj1wEHi4e7RhovewW" type="motTitle"/>
+        <div xml:id="i-2Pgtu5FUAX9w2Gs2EVzwJc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QQuP8iEbKY6Cdaz2Hif5ug">
+      <div xml:id="i-QQuP8iEbKY6Cdaz2Hif5ug" type="motBody">
         <div xml:id="i-7k4PBve7p3mqESUsfcQf9T">
           <p xml:id="i-VYw1Cm5NLmNihxKjMFaGhG">
             1996/97 Jul5 Jul1—-15
@@ -213,8 +213,11 @@
             på kassaregister, intyg i samband med tillfällig försäljning och
             placering av ekobrottsforskningen.
           </p>
-          <p xml:id="i-G7sT8SzSDULfTuNJHmnvJn">
-            Stockholm den 21 november 1996 Carin Lundberg (s)
+          <p xml:id="i-G7sT8SzSDULfTuNJHmnvJn" type="date">
+            Stockholm den 21 november 1996
+          </p>
+          <p type="signatureBlock" id="i-Y6mXYebDWXVTpkVDwmAvtL">
+            Carin Lundberg (s)
           </p>
           <p xml:id="i-NpjYUQoaokFgrxcwGXoq6i">
             Mats Lindberg (s) Lars Lilja (s)

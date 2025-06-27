@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-KU-00018">
   <teiHeader>
     <fileDesc>
@@ -62,7 +62,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KhbH7H9dZxTXyeWuUc3G3d"/>
+        <correspAction xml:id="i-KhbH7H9dZxTXyeWuUc3G3d" type="basedOn"/>
         <correspContext corresp="i-KhbH7H9dZxTXyeWuUc3G3d">
           <ref>Proposition 2000/01:129</ref>
         </correspContext>
@@ -74,28 +74,28 @@
           <note type="signatory" corresp="i-DMGKRcZKJjLDnd1Mozdje8"/>
           <note type="signatory" corresp="i-MMar3ymewi3De3DPoKYJD8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VP8pRWDTmUfN7qDRzQjk4K">
+        <correspAction xml:id="i-VP8pRWDTmUfN7qDRzQjk4K" type="referral">
           <date when="2001-06-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6qpvyysVnKp8bMKHHF1MPg">
+        <correspAction xml:id="i-6qpvyysVnKp8bMKHHF1MPg" type="dismissal">
           <date when="2001-06-18"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-9bmg2QPhhEFgKEGDFFt237">
+        <correspAction xml:id="i-9bmg2QPhhEFgKEGDFFt237" type="reviewing">
           <date when="2001-06-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DdfpdK3S8Mj3aT7eFXFD7X">
+        <correspAction xml:id="i-DdfpdK3S8Mj3aT7eFXFD7X" type="submission">
           <date when="2001-06-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-LBFcw24dGnvKMnJRVj5v6V">
+        <correspAction xml:id="i-LBFcw24dGnvKMnJRVj5v6V" type="referral">
           <date when="2001-06-18"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AWs8AenZ3RWPW2swNyrLoB">
+        <correspAction xml:id="i-AWs8AenZ3RWPW2swNyrLoB" type="dismissal">
           <date when="2001-06-18"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8NNUvkZB7UDV7TKuxNNVrn">
+        <correspAction xml:id="i-8NNUvkZB7UDV7TKuxNNVrn" type="submission">
           <date when="2001-06-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3gY81xcyjYeDWCWomMpTnu"/>
+        <correspAction xml:id="i-3gY81xcyjYeDWCWomMpTnu" type="assigned"/>
         <correspContext corresp="i-3gY81xcyjYeDWCWomMpTnu">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_K_0018/mot_200001_K_0018-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Tv5v1U37kG9SN7Ac36mWJi">
-        <div type="motTitle" xml:id="i-GyfQW74fZKWE4DjZQtTypr"/>
-        <div type="motSubmissionInfo" xml:id="i-HMkfiXjEAX7SUGqrJew4L4"/>
+      <div xml:id="i-Tv5v1U37kG9SN7Ac36mWJi" type="motHeader">
+        <div xml:id="i-GyfQW74fZKWE4DjZQtTypr" type="motTitle"/>
+        <div xml:id="i-HMkfiXjEAX7SUGqrJew4L4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GW2BgojuDzBr6Ao7fEDEuo">
+      <div xml:id="i-GW2BgojuDzBr6Ao7fEDEuo" type="motBody">
         <div xml:id="i-3WBGzwsEHtqVBD4ByGwXVX">
           <p xml:id="i-D1yYc3RhTqagsrchS4rjPS">
             2000/01 mnr: K18 pnr: v035
@@ -170,10 +170,12 @@
           </p>
           <p xml:id="i-PsbSKgirkEC6J57xCjkCHM">
             omställningsperiod om minst sex månader efter det att beslut
-            fattats i riksdagen och tillhörande förordning utfärdats. Stockholm
-            den 14 juni 2001
+            fattats i riksdagen och tillhörande förordning utfärdats.
           </p>
-          <p xml:id="i-2kwTNXS9ZxPHH56n1k672P">
+          <p type="date" id="i-Mx798dn48MjtQwu9oMUNjU">
+            Stockholm den 14 juni 2001
+          </p>
+          <p xml:id="i-2kwTNXS9ZxPHH56n1k672P" type="signatureBlock">
             Kenneth Kvist (v) Mats Einarsson (v) Hans Andersson (v) Camilla
             Sköld Jansson (v) Carlinge Wisberg (v)
           </p>

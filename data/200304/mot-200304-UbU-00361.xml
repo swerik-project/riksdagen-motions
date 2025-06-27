@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00361">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-G6s9WZ7BJYYYgvx2EHMy6D">
           <note type="signatory" corresp="i-Ga4FaAaNvVxH6nfoR7FVAe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-D1XFsL1hPPAn8a1SNrk8F9">
+        <correspAction xml:id="i-D1XFsL1hPPAn8a1SNrk8F9" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7KeXNoFiMxyYbvitsXLrtp">
+        <correspAction xml:id="i-7KeXNoFiMxyYbvitsXLrtp" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3XRQyTj63H1NZxPn1TUUuU">
+        <correspAction xml:id="i-3XRQyTj63H1NZxPn1TUUuU" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-ScnbYx4iQ7KNx2JpM1Xo7r"/>
+        <correspAction xml:id="i-ScnbYx4iQ7KNx2JpM1Xo7r" type="assigned"/>
         <correspContext corresp="i-ScnbYx4iQ7KNx2JpM1Xo7r">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ub_0361/mot_200304_Ub_0361-0001.pdf"/>
-      <div type="motHeader" xml:id="i-WG6hj3upV4EE8LKSJ97GzL">
-        <div type="motTitle" xml:id="i-A7GpdAf2Fjx4Dy8vmBuuAQ"/>
-        <div type="motSubmissionInfo" xml:id="i-UcvohEECzy2cQaSGXLdB1h"/>
+      <div xml:id="i-WG6hj3upV4EE8LKSJ97GzL" type="motHeader">
+        <div xml:id="i-A7GpdAf2Fjx4Dy8vmBuuAQ" type="motTitle"/>
+        <div xml:id="i-UcvohEECzy2cQaSGXLdB1h" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7bkmpHAq4ENafgfsz3xy6T">
+      <div xml:id="i-7bkmpHAq4ENafgfsz3xy6T" type="motBody">
         <div xml:id="i-9HQqjmgU7R1kuF63gW1iAV">
           <p xml:id="i-Ruii8pmBXw6BzbVygUxVLp">
             2003/04 mnr: Ub361 pnr: fp268
@@ -137,8 +137,11 @@
             regleringsbrev till Skolverket ge likartade instruktioner som
             till Arbetsmiljöverket.
           </p>
-          <p xml:id="i-TWWSHtSBiyUVuhaSxQxrDB">
-            Stockholm den 6 oktober 2003 Gunnar Nordmark (fp)
+          <p xml:id="i-TWWSHtSBiyUVuhaSxQxrDB" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-RQLoQniCCVRbGAxoaZ9k6p">
+            Gunnar Nordmark (fp)
           </p>
         </div>
       </div>

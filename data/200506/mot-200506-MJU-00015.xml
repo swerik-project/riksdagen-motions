@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-MJU-00015">
   <teiHeader>
     <fileDesc>
@@ -70,7 +70,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-DWJFb4W1VszmwxQnVtSAkR"/>
+        <correspAction xml:id="i-DWJFb4W1VszmwxQnVtSAkR" type="basedOn"/>
         <correspContext corresp="i-DWJFb4W1VszmwxQnVtSAkR">
           <ref>Regeringsskrivelse 2005/06:87</ref>
         </correspContext>
@@ -83,19 +83,19 @@
           <note type="signatory" corresp="i-9LE4uwYS8LySpZjtTwxjti"/>
           <note type="signatory" corresp="i-Ga4FaAaNvVxH6nfoR7FVAe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-VqZRzDDxYs9E1YGuyCdE5L">
+        <correspAction xml:id="i-VqZRzDDxYs9E1YGuyCdE5L" type="referral">
           <date when="2006-03-07"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QGq5hip4mRWUTfQdA7ALG1">
+        <correspAction xml:id="i-QGq5hip4mRWUTfQdA7ALG1" type="dismissal">
           <date when="2006-03-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SoDiNFzVz3ZDmW3jGq5kPC">
+        <correspAction xml:id="i-SoDiNFzVz3ZDmW3jGq5kPC" type="dismissal">
           <date when="2006-03-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DL3E6GwLxXSFgSjbwHfV3b">
+        <correspAction xml:id="i-DL3E6GwLxXSFgSjbwHfV3b" type="submission">
           <date when="2006-03-02"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-H2TB8yme4kpAMbjaUK3yPJ"/>
+        <correspAction xml:id="i-H2TB8yme4kpAMbjaUK3yPJ" type="assigned"/>
         <correspContext corresp="i-H2TB8yme4kpAMbjaUK3yPJ">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_MJ_15/mot_200506_MJ_15-0001.pdf"/>
-      <div type="motHeader" xml:id="i-MPFw2LP53ANTykc1SEfSw8">
-        <div type="motTitle" xml:id="i-J2dgqe34a71Km3Nm9pRx2B"/>
-        <div type="motSubmissionInfo" xml:id="i-9iJMSNW9yAW68s4SmLhxdT"/>
+      <div xml:id="i-MPFw2LP53ANTykc1SEfSw8" type="motHeader">
+        <div xml:id="i-J2dgqe34a71Km3Nm9pRx2B" type="motTitle"/>
+        <div xml:id="i-9iJMSNW9yAW68s4SmLhxdT" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WaSJQvxaCJwk8gTSKskqXj">
+      <div xml:id="i-WaSJQvxaCJwk8gTSKskqXj" type="motBody">
         <div xml:id="i-SHtrP8DC2hsB5ScHCNJw6t">
           <p xml:id="i-JT22LUztfn4dgakgZn3HQN">
             2005/06
@@ -895,8 +895,11 @@
             valda organisationer skall ha ett stort inflytande över hur LBU-medel
             används inom deras områden. Detta bör ges regeringen till känna.
           </p>
-          <p xml:id="i-TSktrtnnvPX3xvat5tsDdd">
-            Stockholm den 1 mars 2006 Marie Wahlgren (fp)
+          <p xml:id="i-TSktrtnnvPX3xvat5tsDdd" type="date">
+            Stockholm den 1 mars 2006
+          </p>
+          <p type="signatureBlock" id="i-D96Zss4tRop69T93X1XrPG">
+            Marie Wahlgren (fp)
           </p>
           <p xml:id="i-WXjnoJxQsBGhoftqmm43mp">
             Lennart Fremling (fp) Sverker Thorén (fp) Anita Brodén (fp) Heli

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KrU-00353">
   <teiHeader>
     <fileDesc>
@@ -62,16 +62,16 @@
           <note type="signatory" corresp="i-7Gy2xwC7Jyimjy9QTKnQEf"/>
           <note type="signatory" corresp="i-85m2VX7KSiTFeJSnapgkxu"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CX78AcgZc9eTwzUAWjgx2c">
+        <correspAction xml:id="i-CX78AcgZc9eTwzUAWjgx2c" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7brENr2117T9TS7rpNP7Uo">
+        <correspAction xml:id="i-7brENr2117T9TS7rpNP7Uo" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EgjLhMphkVeuEFERaGtC1p">
+        <correspAction xml:id="i-EgjLhMphkVeuEFERaGtC1p" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PjFgDTrHtDsg4bjmA22Hdd"/>
+        <correspAction xml:id="i-PjFgDTrHtDsg4bjmA22Hdd" type="assigned"/>
         <correspContext corresp="i-PjFgDTrHtDsg4bjmA22Hdd">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -86,11 +86,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Kr_0353/mot_200304_Kr_0353-0001.pdf"/>
-      <div type="motHeader" xml:id="i-88WpDfg7Bekh2KsdhQEAXj">
-        <div type="motTitle" xml:id="i-DY4nfYAXGawPLgix1rFCLo"/>
-        <div type="motSubmissionInfo" xml:id="i-KcW2TAbM5BBoS3BprsWjC4"/>
+      <div xml:id="i-88WpDfg7Bekh2KsdhQEAXj" type="motHeader">
+        <div xml:id="i-DY4nfYAXGawPLgix1rFCLo" type="motTitle"/>
+        <div xml:id="i-KcW2TAbM5BBoS3BprsWjC4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-CSXLfLoRaBGg3SdJ2zgdxx">
+      <div xml:id="i-CSXLfLoRaBGg3SdJ2zgdxx" type="motBody">
         <div xml:id="i-Q8dubpFt74hQR8iJ4AzpfM">
           <p xml:id="i-X26cnCtVZn9Tfg6emRB462">
             2003/04 mnr: Kr353 pnr: -mp963
@@ -271,8 +271,11 @@
             situation och synen på HBT-frågor i trossamfunden. Detta bör riksdagen
             tillkännage för regeringen som sin mening.
           </p>
-          <p xml:id="i-XWcMdpL4EFQvwfBhG7EpfR">
-            Stockholm den 6 oktober 2003 Ulf Holm (mp)
+          <p xml:id="i-XWcMdpL4EFQvwfBhG7EpfR" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-5bAj29RPzy3xTqvP3NwYV7">
+            Ulf Holm (mp)
           </p>
           <p xml:id="i-2issdRLAi5Pv357ozWUar4">
             Gabriel Romanus (fp) Rossana Dinamarca (v) Lena Ek (c)

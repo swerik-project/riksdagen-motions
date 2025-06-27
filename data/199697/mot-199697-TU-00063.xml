@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-TU-00063">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-VG4CpX8R3VTMhQCny6GDjZ</idno>
-            <name>Elisa Abascal Reyes </name>
+            <name>Elisa Abascal Reyes</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-MgqyLN2yypWAiyHpLmZGkg</idno>
-            <name>Bodil Francke Ohlsson </name>
+            <name>Bodil Francke Ohlsson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-E2VEuW8StdbwuJyGXtUP4D</idno>
-            <name>Per Lager </name>
+            <name>Per Lager</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8n2D6yAUKNW5XEPrkgEkgJ"/>
+        <correspAction xml:id="i-8n2D6yAUKNW5XEPrkgEkgJ" type="basedOn"/>
         <correspContext corresp="i-8n2D6yAUKNW5XEPrkgEkgJ">
           <ref>Proposition 1996/97:61</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-MgqyLN2yypWAiyHpLmZGkg"/>
           <note type="signatory" corresp="i-E2VEuW8StdbwuJyGXtUP4D"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-AGV39oqdh7RtDvPWYmrnMD">
+        <correspAction xml:id="i-AGV39oqdh7RtDvPWYmrnMD" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-71mtiNZaV4hcnFmXB6Mppm">
+        <correspAction xml:id="i-71mtiNZaV4hcnFmXB6Mppm" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MBX3K3kmgs5jK49eVsGPzS">
+        <correspAction xml:id="i-MBX3K3kmgs5jK49eVsGPzS" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Xnth6UwbKn3MXiEoVhVPDN">
+        <correspAction xml:id="i-Xnth6UwbKn3MXiEoVhVPDN" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EFNQhtpgEwUSDA41oSxF8h">
+        <correspAction xml:id="i-EFNQhtpgEwUSDA41oSxF8h" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-G3azutyXqAtqGoPF836bB6">
+        <correspAction xml:id="i-G3azutyXqAtqGoPF836bB6" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KjzELEJoXrjLfYna3mXXb2"/>
+        <correspAction xml:id="i-KjzELEJoXrjLfYna3mXXb2" type="assigned"/>
         <correspContext corresp="i-KjzELEJoXrjLfYna3mXXb2">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_T_0063/mot_199697_T_0063-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XgXzTTnxM8syYXkVVM4yJd">
-        <div type="motTitle" xml:id="i-464V7C8UnWbc5koFoxW1iw"/>
-        <div type="motSubmissionInfo" xml:id="i-V7Kyt72aZzTj9aaZtnJLbi"/>
+      <div xml:id="i-XgXzTTnxM8syYXkVVM4yJd" type="motHeader">
+        <div xml:id="i-464V7C8UnWbc5koFoxW1iw" type="motTitle"/>
+        <div xml:id="i-V7Kyt72aZzTj9aaZtnJLbi" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2pTbhdVjBTB4Ntoh9aazy5">
+      <div xml:id="i-2pTbhdVjBTB4Ntoh9aazy5" type="motBody">
         <div xml:id="i-H3NVnju7R2YeiwZTrfXGCW">
           <p xml:id="i-5xDxSYXiC4xPQ2MFoBvQws">
             1996/97 T63 T55-66
@@ -323,8 +323,11 @@
             att riksdagen som sin mening ger regeringen till känna vad i motionen
             anförts om att utreda konsumentperspektivet på telemarknaden.
           </p>
-          <p xml:id="i-6xwPYpdPqnrpHz11ScnKdt">
-            Stockholm den 3 april 1997 Elisa Abascal Reyes (mp)
+          <p xml:id="i-6xwPYpdPqnrpHz11ScnKdt" type="date">
+            Stockholm den 3 april 1997
+          </p>
+          <p type="signatureBlock" id="i-54gv7KkLriAFTnZUxbpdD2">
+            Elisa Abascal Reyes (mp)
           </p>
           <p xml:id="i-QQ5HWjhSXPX8Hzsr8phpJ6">
             Bodil Francke Ohlsson (mp) Per Lager (mp)

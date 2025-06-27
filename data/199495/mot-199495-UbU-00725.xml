@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-UbU-00725">
   <teiHeader>
     <fileDesc>
@@ -61,35 +61,35 @@
           </person>
           <person gender="woman">
             <idno>i-NxhWABYZtDAg5RbsxD7VBv</idno>
-            <name>Maj-Inger Klingvall </name>
+            <name>Maj-Inger Klingvall</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-UDXM9dqeHhySJV3ZevrZPw</idno>
-            <name>Dan Ericsson </name>
+            <name>Dan Ericsson</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-9GkZmWA6j3AXTPSkudVbZ</idno>
-            <name>Roland Larsson </name>
+            <name>Roland Larsson</name>
             <state type="partyAffiliation" ref="Q110832">
               <desc>C</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-NgCTKqp2fs7ZtdGdg2MLiL</idno>
-            <name>Karl-Göran Biörsmark </name>
+            <name>Karl-Göran Biörsmark</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-BVCep6Z6PDPz44gLEcbB89</idno>
-            <name>Carl G Nilsson </name>
+            <name>Carl G Nilsson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -110,25 +110,25 @@
           <note type="signatory" corresp="i-NgCTKqp2fs7ZtdGdg2MLiL"/>
           <note type="signatory" corresp="i-BVCep6Z6PDPz44gLEcbB89"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5eVPFKNTQGAV9oSCvqS45B">
+        <correspAction xml:id="i-5eVPFKNTQGAV9oSCvqS45B" type="referral">
           <date when="1995-02-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YRrW6Tc7JszkkkC4S9hAkW">
+        <correspAction xml:id="i-YRrW6Tc7JszkkkC4S9hAkW" type="dismissal">
           <date when="1995-02-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-K9ngBvVdT1tYzoz61eBAJV">
+        <correspAction xml:id="i-K9ngBvVdT1tYzoz61eBAJV" type="submission">
           <date when="1995-01-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-8qUubqrj8et8Do4ykXj8fA">
+        <correspAction xml:id="i-8qUubqrj8et8Do4ykXj8fA" type="referral">
           <date when="1995-02-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-V76Z4prgQ5bwmRa8XpNAhp">
+        <correspAction xml:id="i-V76Z4prgQ5bwmRa8XpNAhp" type="dismissal">
           <date when="1995-02-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5rzyNLMNcRTsWfd1515j2q">
+        <correspAction xml:id="i-5rzyNLMNcRTsWfd1515j2q" type="submission">
           <date when="1995-01-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-P1wircX5hTuGeQntHCX7km"/>
+        <correspAction xml:id="i-P1wircX5hTuGeQntHCX7km" type="assigned"/>
         <correspContext corresp="i-P1wircX5hTuGeQntHCX7km">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -141,11 +141,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_UbU_725/mot_199495_UbU_725-001.pdf"/>
-      <div type="motHeader" xml:id="i-71fj7LXXTwtGbSYuBa5N6d">
-        <div type="motTitle" xml:id="i-B5bEC39YGVkC1xTFbmdXvd"/>
-        <div type="motSubmissionInfo" xml:id="i-5S52Ffmd1vzodowChFaqJE"/>
+      <div xml:id="i-71fj7LXXTwtGbSYuBa5N6d" type="motHeader">
+        <div xml:id="i-B5bEC39YGVkC1xTFbmdXvd" type="motTitle"/>
+        <div xml:id="i-5S52Ffmd1vzodowChFaqJE" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7G2tf1cMqFxVkk9iZcKrjQ">
+      <div xml:id="i-7G2tf1cMqFxVkk9iZcKrjQ" type="motBody">
         <div xml:id="i-UvVsqc1xHcs8FfBk1Ubwhb">
           <p xml:id="i-HyjzuJLuG6b83kECogEq8Q">
             Motion till riksdagen
@@ -504,7 +504,12 @@
           <p xml:id="i-TajiD6BmxnWPoda4RcHwR8">
             Med hänvisning till det anförda hemställs att riksdagen begär
             att regeringen tillsätter en utredning om utbygg- nad av Linköpings
-            universitet särskilt i Norrköping. Stockholm den 25 januari 1995
+            universitet särskilt i Norrköping.
+          </p>
+          <p type="date" id="i-KoYUPVMv2DaeG3sM7r79e8">
+            Stockholm den 25 januari 1995
+          </p>
+          <p type="signatureBlock" id="i-Q8NtsUa7AeUjpDtY5NWDqQ">
             Maj-Inger Klingvall (s) Carl G Nilsson (m) Roland Larsson (c)
           </p>
           <p xml:id="i-AUKogcuBbhD2DzB1Dn1tye">

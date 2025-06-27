@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-MJU-00423">
   <teiHeader>
     <fileDesc>
@@ -118,34 +118,34 @@
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5j3GhusVyFpyJdGSqbauwF">
+        <correspAction xml:id="i-5j3GhusVyFpyJdGSqbauwF" type="referral">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-APWq9aAnv7pjC6qf5H4JZQ">
+        <correspAction xml:id="i-APWq9aAnv7pjC6qf5H4JZQ" type="dismissal">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-Eixxat4v9ywj4xBAq9azMB">
+        <correspAction xml:id="i-Eixxat4v9ywj4xBAq9azMB" type="termination">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6Xg4K6ECRZ3jP9gnsoejo3">
+        <correspAction xml:id="i-6Xg4K6ECRZ3jP9gnsoejo3" type="submission">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-SSxSu3wdXEZPCsoHe6MEmM">
+        <correspAction xml:id="i-SSxSu3wdXEZPCsoHe6MEmM" type="numbering">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-Mb77wNFqkyjdwEVWrSQCYi">
+        <correspAction xml:id="i-Mb77wNFqkyjdwEVWrSQCYi" type="proposed_referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-8hcZeCVcypjqSdupUL3tmP">
+        <correspAction xml:id="i-8hcZeCVcypjqSdupUL3tmP" type="committee_proposal">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-MMXGLyrwTzZpGDeSqNiioN">
+        <correspAction xml:id="i-MMXGLyrwTzZpGDeSqNiioN" type="reviewing">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-9y8nR7AboWfXBQHye8X3kH">
+        <correspAction xml:id="i-9y8nR7AboWfXBQHye8X3kH" type="registration">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XAwHv65NKd76xEvtzyoHNH"/>
+        <correspAction xml:id="i-XAwHv65NKd76xEvtzyoHNH" type="assigned"/>
         <correspContext corresp="i-XAwHv65NKd76xEvtzyoHNH">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -160,11 +160,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_MJ_0423/mot_200102_MJ_0423-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PYjxwS8pesDVmm17ghGwW5">
-        <div type="motTitle" xml:id="i-MeDqr1mbyMeL5ENdqExLor"/>
-        <div type="motSubmissionInfo" xml:id="i-Gn3sLbjimvhZr86KES3GfU"/>
+      <div xml:id="i-PYjxwS8pesDVmm17ghGwW5" type="motHeader">
+        <div xml:id="i-MeDqr1mbyMeL5ENdqExLor" type="motTitle"/>
+        <div xml:id="i-Gn3sLbjimvhZr86KES3GfU" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4JsivKUhtKRtFJaHbtL1wj">
+      <div xml:id="i-4JsivKUhtKRtFJaHbtL1wj" type="motBody">
         <div xml:id="i-FUfogi8u9mL8B2ngECGwLj">
           <p xml:id="i-WRZkjZ8KU1SPhudDTDf23r">
             2001/02 mnr: MJ423 pnr: kd442
@@ -1085,8 +1085,11 @@
             En större prisdifferentiering av miljöklasserna på bränslet är
             dock på sikt nödvändigt.
           </p>
-          <p xml:id="i-JqrpSZrmLj1wotPG5i2fVa">
-            Stockholm den 4 oktober 2001 Lars Gustafsson (kd)
+          <p xml:id="i-JqrpSZrmLj1wotPG5i2fVa" type="date">
+            Stockholm den 4 oktober 2001
+          </p>
+          <p type="signatureBlock" id="i-BE4JEj21oLpiehnUd65L92">
+            Lars Gustafsson (kd)
           </p>
           <p xml:id="i-Kfho6BccMux6h3fhecQfQm">
             Harald Bergström (kd) Annelie Enochson (kd) Caroline Hagström

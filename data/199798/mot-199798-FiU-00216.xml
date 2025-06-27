@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-FiU-00216">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-JKZyQwnfkbK1njmH7h7T4h</idno>
-            <name>Ola Karlsson </name>
+            <name>Ola Karlsson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -46,25 +46,25 @@
           <note type="signatory" corresp="i-JKZyQwnfkbK1njmH7h7T4h"/>
           <note type="signatory" corresp="i-JKZyQwnfkbK1njmH7h7T4h"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GNCa2aPeWrdvofUtAPY4XS">
+        <correspAction xml:id="i-GNCa2aPeWrdvofUtAPY4XS" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NcjZaQs2tZSSmqqSHAmHgx">
+        <correspAction xml:id="i-NcjZaQs2tZSSmqqSHAmHgx" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8DbmJ6bPsyxraXqPr2ei2L">
+        <correspAction xml:id="i-8DbmJ6bPsyxraXqPr2ei2L" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GsK7swpAnMdCAkMT9EfaPp">
+        <correspAction xml:id="i-GsK7swpAnMdCAkMT9EfaPp" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FukbH6teTChBkEuHdTrwbx">
+        <correspAction xml:id="i-FukbH6teTChBkEuHdTrwbx" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PDqcZYcrrkwbpZYdMtHHNn">
+        <correspAction xml:id="i-PDqcZYcrrkwbpZYdMtHHNn" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Ph9Y8iKKtSaS1Vh8eBbyff"/>
+        <correspAction xml:id="i-Ph9Y8iKKtSaS1Vh8eBbyff" type="assigned"/>
         <correspContext corresp="i-Ph9Y8iKKtSaS1Vh8eBbyff">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -77,11 +77,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_FI_0216/mot_199798_FI_0216-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QqKYLZR44Jr6wrrbGrobXJ">
-        <div type="motTitle" xml:id="i-7dzd9Jwp71KaqnVnGnxtWp"/>
-        <div type="motSubmissionInfo" xml:id="i-KY6LfTzai8Qr2zLtBCdPzz"/>
+      <div xml:id="i-QqKYLZR44Jr6wrrbGrobXJ" type="motHeader">
+        <div xml:id="i-7dzd9Jwp71KaqnVnGnxtWp" type="motTitle"/>
+        <div xml:id="i-KY6LfTzai8Qr2zLtBCdPzz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XiYsoDSJemWv3ZwiNk5Aw6">
+      <div xml:id="i-XiYsoDSJemWv3ZwiNk5Aw6" type="motBody">
         <div xml:id="i-4F7BWq6Tx9vHzDJe9FhPnh">
           <p xml:id="i-YBxW3KQmuyTfNhC3CH5aU9">
             Fi216
@@ -195,7 +195,13 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_FI_0216/mot_199798_FI_0216-0003.pdf"/>
           <p xml:id="i-N6uTYLJmmRRk1RLX4WBZR1">
-            3 Mot. Stockholm den 3 oktober 1997 1997/98Fi216
+            3 Mot.
+          </p>
+          <p type="date" id="i-S4FuhmN76ZAR3kUiT9oXUq">
+            Stockholm den 3 oktober 1997
+          </p>
+          <p type="signatureBlock" id="i-DNb897bktkSyAYrzxSsjaA">
+            1997/98Fi216
           </p>
           <p xml:id="i-YKvJA5fEgqW8HPhBrThRDq">
             Ola Karlsson (m)

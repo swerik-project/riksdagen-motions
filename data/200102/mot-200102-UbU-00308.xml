@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200102-UbU-00308">
   <teiHeader>
     <fileDesc>
@@ -38,34 +38,34 @@
         <correspContext corresp="i-5JNBxawVU3n8kowvvVoEgd">
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DbX95uEo3gXpHyjBoqE4hV">
+        <correspAction xml:id="i-DbX95uEo3gXpHyjBoqE4hV" type="referral">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CdQQMiquDxBowFJBpMfYFx">
+        <correspAction xml:id="i-CdQQMiquDxBowFJBpMfYFx" type="dismissal">
           <date when="2001-10-11"/>
         </correspAction>
-        <correspAction type="termination" xml:id="i-HxJpCLpMyNKBePCHF3anPa">
+        <correspAction xml:id="i-HxJpCLpMyNKBePCHF3anPa" type="termination">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Gam73aW2dc3iBjAzvctT9Z">
+        <correspAction xml:id="i-Gam73aW2dc3iBjAzvctT9Z" type="submission">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="numbering" xml:id="i-Suu74qy6e3SQdTr7EiaSdE">
+        <correspAction xml:id="i-Suu74qy6e3SQdTr7EiaSdE" type="numbering">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-ESb5wfvgy7qQrPNW2VrCbT">
+        <correspAction xml:id="i-ESb5wfvgy7qQrPNW2VrCbT" type="proposed_referral">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="committee_proposal" xml:id="i-N7CZyzvuWJJvD2dy2DNwCz">
+        <correspAction xml:id="i-N7CZyzvuWJJvD2dy2DNwCz" type="committee_proposal">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-5FU86dW5bbwnLu8eKsU6Vh">
+        <correspAction xml:id="i-5FU86dW5bbwnLu8eKsU6Vh" type="reviewing">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-FvnV7nmq6MEew85uzCGrHi">
+        <correspAction xml:id="i-FvnV7nmq6MEew85uzCGrHi" type="registration">
           <date when="2001-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HkqBxzEKTJxQ23okErdkoC"/>
+        <correspAction xml:id="i-HkqBxzEKTJxQ23okErdkoC" type="assigned"/>
         <correspContext corresp="i-HkqBxzEKTJxQ23okErdkoC">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -80,11 +80,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200102/mot_200102_Ub_0308/mot_200102_Ub_0308-0001.pdf"/>
-      <div type="motHeader" xml:id="i-59eGDEaCXPuJxEkosBT8m7">
-        <div type="motTitle" xml:id="i-9bvNRXHGKaWv6pM6WyFSe6"/>
-        <div type="motSubmissionInfo" xml:id="i-TYRRxMCbWm52KJKW8VLR4C"/>
+      <div xml:id="i-59eGDEaCXPuJxEkosBT8m7" type="motHeader">
+        <div xml:id="i-9bvNRXHGKaWv6pM6WyFSe6" type="motTitle"/>
+        <div xml:id="i-TYRRxMCbWm52KJKW8VLR4C" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6ATHwZWM8JkPSXxyQMc3j8">
+      <div xml:id="i-6ATHwZWM8JkPSXxyQMc3j8" type="motBody">
         <div xml:id="i-CxtDCH6a8ux7DiRyxeGWPM">
           <p xml:id="i-2ZSfzgcyh9fpyGqCsZkE8n">
             2001/02 mnr: Ub308 pnr: kd743
@@ -174,8 +174,11 @@
             Tillgången till studentbostäder är mycket god. Även regionalpolitiska
             skäl talar för en etablering av lantmätarutbildningen i Gävle.
           </p>
-          <p xml:id="i-RQ5qdqFHy15BfQoPgGrCmJ">
-            Stockholm den 27 september 2001 Ragnwi Marcelind (kd)
+          <p xml:id="i-RQ5qdqFHy15BfQoPgGrCmJ" type="date">
+            Stockholm den 27 september 2001
+          </p>
+          <p type="signatureBlock" id="i-5RQF2ZxP5HKVmeQTubDZQN">
+            Ragnwi Marcelind (kd)
           </p>
         </div>
       </div>

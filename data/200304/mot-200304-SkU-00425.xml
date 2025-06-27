@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00425">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Q7naromM9nmayadDjMXrYL">
           <note type="signatory" corresp="i-Spsbo7A5zikEeUY3JEYcNV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-ES8hqiR9dLP8LQ95VCqMpH">
+        <correspAction xml:id="i-ES8hqiR9dLP8LQ95VCqMpH" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SPxoTY6sMUwdQheEi5gfyQ">
+        <correspAction xml:id="i-SPxoTY6sMUwdQheEi5gfyQ" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Q7jgD66NU9oUAVWRXFEpLq">
+        <correspAction xml:id="i-Q7jgD66NU9oUAVWRXFEpLq" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2E919CYk5mSHcXJaXievdE"/>
+        <correspAction xml:id="i-2E919CYk5mSHcXJaXievdE" type="assigned"/>
         <correspContext corresp="i-2E919CYk5mSHcXJaXievdE">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0425/mot_200304_Sk_0425-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Ri4gHCXTqtiX3W9Ad882uM">
-        <div type="motTitle" xml:id="i-85e1hCsvYbeAcUjnsMS4Rv"/>
-        <div type="motSubmissionInfo" xml:id="i-HbN45UXAwyXNziumKoUBA7"/>
+      <div xml:id="i-Ri4gHCXTqtiX3W9Ad882uM" type="motHeader">
+        <div xml:id="i-85e1hCsvYbeAcUjnsMS4Rv" type="motTitle"/>
+        <div xml:id="i-HbN45UXAwyXNziumKoUBA7" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ADoZoCmrKDP5RBHcq1gNSw">
+      <div xml:id="i-ADoZoCmrKDP5RBHcq1gNSw" type="motBody">
         <div xml:id="i-GZ35KpZqiamXTiDRrpPGii">
           <p xml:id="i-4qnRCoAgEsH3ueGu3oHj7k">
             2003/04 mnr: Sk425 pnr: s7119
@@ -114,8 +114,11 @@
             den enskilde arbetstagarens rätt att få en lönespecifikation som
             kvitto på att arbetsgivaren har betalat in skatt till skattemyndigheten.
           </p>
-          <p xml:id="i-9eCJ8medNeonM6ppZBB1zW">
-            Stockholm den 2 oktober 2003 Mikael Damberg (s)
+          <p xml:id="i-9eCJ8medNeonM6ppZBB1zW" type="date">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-5m5fFd72WY4uGnHCUxjHm2">
+            Mikael Damberg (s)
           </p>
         </div>
       </div>

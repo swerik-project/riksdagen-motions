@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-JuU-00008">
   <teiHeader>
     <fileDesc>
@@ -181,7 +181,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-SU9JeHm6tRjxfoT2fssPxL"/>
+        <correspAction xml:id="i-SU9JeHm6tRjxfoT2fssPxL" type="basedOn"/>
         <correspContext corresp="i-SU9JeHm6tRjxfoT2fssPxL">
           <ref>Proposition 2000/01:76</ref>
         </correspContext>
@@ -210,31 +210,31 @@
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
           <note type="signatory" corresp="i-7Fnps4HB4T8k2Yc71rfops"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DeFHHpfjodS8P3yFtNoYqY">
+        <correspAction xml:id="i-DeFHHpfjodS8P3yFtNoYqY" type="referral">
           <date when="2001-03-22"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-5esatLvAAtALkhh6QGuXUh">
+        <correspAction xml:id="i-5esatLvAAtALkhh6QGuXUh" type="reviewing">
           <date when="2001-03-21"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SVjEfrCqzdKj1K4WajDhVV">
+        <correspAction xml:id="i-SVjEfrCqzdKj1K4WajDhVV" type="dismissal">
           <date when="2001-03-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4UN4rjcgLzUUxhohNFrcGB">
+        <correspAction xml:id="i-4UN4rjcgLzUUxhohNFrcGB" type="submission">
           <date when="2001-03-20"/>
         </correspAction>
-        <correspAction type="proposed_referral" xml:id="i-3gAD4FoXBMYj8DRAN14R5P">
+        <correspAction xml:id="i-3gAD4FoXBMYj8DRAN14R5P" type="proposed_referral">
           <date when="2001-03-15"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GHKoCWsYWkGTjPJ3ovKzgA">
+        <correspAction xml:id="i-GHKoCWsYWkGTjPJ3ovKzgA" type="referral">
           <date when="2001-03-22"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-W2Dn22pCcvZTU4vFqGJaHf">
+        <correspAction xml:id="i-W2Dn22pCcvZTU4vFqGJaHf" type="dismissal">
           <date when="2001-03-21"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Rd64CRZtRhvGJCpFJQ77bY">
+        <correspAction xml:id="i-Rd64CRZtRhvGJCpFJQ77bY" type="submission">
           <date when="2001-03-20"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-94gMcyEfZ61Z6fWZo61UxD"/>
+        <correspAction xml:id="i-94gMcyEfZ61Z6fWZo61UxD" type="assigned"/>
         <correspContext corresp="i-94gMcyEfZ61Z6fWZo61UxD">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -249,11 +249,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Ju_0008/mot_200001_Ju_0008-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LdWaH5eSKJjMeemHBJ8ntx">
-        <div type="motTitle" xml:id="i-Tc1MbsisuqqgAb6LxgtAw2"/>
-        <div type="motSubmissionInfo" xml:id="i-5QWwjSdus3wm62BLSamMep"/>
+      <div xml:id="i-LdWaH5eSKJjMeemHBJ8ntx" type="motHeader">
+        <div xml:id="i-Tc1MbsisuqqgAb6LxgtAw2" type="motTitle"/>
+        <div xml:id="i-5QWwjSdus3wm62BLSamMep" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FcwdS4JtR9d6P3k6RaYNGh">
+      <div xml:id="i-FcwdS4JtR9d6P3k6RaYNGh" type="motBody">
         <div xml:id="i-HWAzSrS1HB8QbAtN6Msby">
           <p xml:id="i-9o2v5HE8e4vDeyW8xkNb5X">
             2000/01 mnr: Ju8 pnr: kd136
@@ -701,8 +701,11 @@
             lång resurskrävande process som ska påbörjas tidigt och omfattar
             flera åtgärder, inte enbart en utökad intensivövervakning.
           </p>
-          <p xml:id="i-DJKXFj5vPpoQGVzCWYJvfj">
-            Stockholm den 14 mars 2001 Ragnwi Marcelind (kd)
+          <p xml:id="i-DJKXFj5vPpoQGVzCWYJvfj" type="date">
+            Stockholm den 14 mars 2001
+          </p>
+          <p type="signatureBlock" id="i-RkXy6bpBgnz1jSwK1VTe87">
+            Ragnwi Marcelind (kd)
           </p>
           <p xml:id="i-T2H7JDmzzEijsytg1p9Sea">
             Ingemar Vänerlöv (kd) Ingvar Svensson (kd) Björn von der Esch

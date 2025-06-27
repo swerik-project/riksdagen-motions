@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SfU-00260">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-3waLMDtpcPZ9YKpkYaf6aC">
           <note type="signatory" corresp="i-DnTstrvT1jenyw6pdMxfZi"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Xv1Gp82Ho3kaqbPbTQj9tt">
+        <correspAction xml:id="i-Xv1Gp82Ho3kaqbPbTQj9tt" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HtGY311RB7vdUZxZdCr79Q">
+        <correspAction xml:id="i-HtGY311RB7vdUZxZdCr79Q" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KXoA87yUbcTJvVCzKABYHr">
+        <correspAction xml:id="i-KXoA87yUbcTJvVCzKABYHr" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MCCY42h9Q5TFoQFvd5kbTh"/>
+        <correspAction xml:id="i-MCCY42h9Q5TFoQFvd5kbTh" type="assigned"/>
         <correspContext corresp="i-MCCY42h9Q5TFoQFvd5kbTh">
           <ref type="assignedTo">Socialförsäkringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sf_0260/mot_200304_Sf_0260-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Eyz79eLU5tbFmAe6Re2Qnm">
-        <div type="motTitle" xml:id="i-3uATpkS3PFy7yAzd2KajPi"/>
-        <div type="motSubmissionInfo" xml:id="i-KpmPPWDwZjPiuRFRw56sHj"/>
+      <div xml:id="i-Eyz79eLU5tbFmAe6Re2Qnm" type="motHeader">
+        <div xml:id="i-3uATpkS3PFy7yAzd2KajPi" type="motTitle"/>
+        <div xml:id="i-KpmPPWDwZjPiuRFRw56sHj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PT1aTTfaMks7QYfdjFuYnj">
+      <div xml:id="i-PT1aTTfaMks7QYfdjFuYnj" type="motBody">
         <div xml:id="i-M5efvkgLWtH1fqk5KoDYK1">
           <p xml:id="i-B5uiMJ72E7Mn9xZ5tQonom">
             2003/04 mnr: Sf260 pnr: m1425
@@ -143,8 +143,11 @@
             att direktfinansiera rehabilitering bör öka möjligheterna att
             mer aktivt lyfta fram de långtidssjukas behov.
           </p>
-          <p xml:id="i-67wVWSx6BbH1BKEVr9mA3S">
-            Stockholm den 2 oktober 2003 Mikael Odenberg (m)
+          <p xml:id="i-67wVWSx6BbH1BKEVr9mA3S" type="date">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-BcfFZ8XcF4eEeMn4wUcM76">
+            Mikael Odenberg (m)
           </p>
         </div>
       </div>

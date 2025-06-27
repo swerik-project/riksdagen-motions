@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-FiU-00709">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="man">
             <idno>i-Cp46a4HxYeUeSRRkf26BKD</idno>
-            <name>Jonas Ringqvist </name>
+            <name>Jonas Ringqvist</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-PvJTHCyJiaxUeJhG5osdHg</idno>
-            <name>Gudrun Lindvall </name>
+            <name>Gudrun Lindvall</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-QrnhMBZLsGdbeBasmoTLpZ</idno>
-            <name>Mats Odell </name>
+            <name>Mats Odell</name>
             <state type="partyAffiliation" ref="Q213654">
               <desc>KD</desc>
             </state>
@@ -78,25 +78,25 @@
           <note type="signatory" corresp="i-QrnhMBZLsGdbeBasmoTLpZ"/>
           <note type="signatory" corresp="i-PvJTHCyJiaxUeJhG5osdHg"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2rVyCps2Q6HZECz97WpMjf">
+        <correspAction xml:id="i-2rVyCps2Q6HZECz97WpMjf" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HSfzzSibYjrERpAJxcdjHK">
+        <correspAction xml:id="i-HSfzzSibYjrERpAJxcdjHK" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6ar4htai1QGYQDQyrxALrP">
+        <correspAction xml:id="i-6ar4htai1QGYQDQyrxALrP" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-QTEiKgFFgyX9QBw87UiSyc">
+        <correspAction xml:id="i-QTEiKgFFgyX9QBw87UiSyc" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-WZMGAu1eUqGE7hJSCJgGAZ">
+        <correspAction xml:id="i-WZMGAu1eUqGE7hJSCJgGAZ" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XvBcgs3btkSKBaNcEQsndr">
+        <correspAction xml:id="i-XvBcgs3btkSKBaNcEQsndr" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-YCDdFWuc2L62FSTLu89QtY"/>
+        <correspAction xml:id="i-YCDdFWuc2L62FSTLu89QtY" type="assigned"/>
         <correspContext corresp="i-YCDdFWuc2L62FSTLu89QtY">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fi_0709/mot_199900_Fi_0709-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VKFLMMf11J3kye7vNFs1cQ">
-        <div type="motTitle" xml:id="i-JdxduXpre4VWRqyThCK4VF"/>
-        <div type="motSubmissionInfo" xml:id="i-8qkPnQh2EoW3HJJdaUizdN"/>
+      <div xml:id="i-VKFLMMf11J3kye7vNFs1cQ" type="motHeader">
+        <div xml:id="i-JdxduXpre4VWRqyThCK4VF" type="motTitle"/>
+        <div xml:id="i-8qkPnQh2EoW3HJJdaUizdN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2FPaGxwd3Bchz7NgNSjFFc">
+      <div xml:id="i-2FPaGxwd3Bchz7NgNSjFFc" type="motBody">
         <div xml:id="i-ExGsYCLmqWoFQDpEL5J8nn">
           <p xml:id="i-BpyREqgGJmRkkK93nHApij">
             1999/2000 mnr: Fi709 pnr: -v515
@@ -202,8 +202,11 @@
             regeringen skyndsamt skall återkomma till riksdagen med ett förslag
             som möjliggör för små medlemsbanker att växa.
           </p>
-          <p xml:id="i-Ph216G8VF3Fi3Uo59CzG6S">
-            Stockholm den 3 oktober 1999 Jonas Ringqvist (v)
+          <p xml:id="i-Ph216G8VF3Fi3Uo59CzG6S" type="date">
+            Stockholm den 3 oktober 1999
+          </p>
+          <p type="signatureBlock" id="i-AQDSdx77K4YD2wgDTaUTxC">
+            Jonas Ringqvist (v)
           </p>
           <p xml:id="i-4ykEuinFNxGVqDCyRRhaSB">
             Gudrun Lindvall (mp) Mats Odell (kd)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KrU-00023">
   <teiHeader>
     <fileDesc>
@@ -105,7 +105,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-9V6vcMV6guTgDjSEPy8ydZ"/>
+        <correspAction xml:id="i-9V6vcMV6guTgDjSEPy8ydZ" type="basedOn"/>
         <correspContext corresp="i-9V6vcMV6guTgDjSEPy8ydZ">
           <ref>Proposition 2005/06:147</ref>
         </correspContext>
@@ -123,19 +123,19 @@
           <note type="signatory" corresp="i-4Cqdpnmue4GNQh6HSQGRHK"/>
           <note type="signatory" corresp="i-P2x4fiHNXrW2XTzJZRJeJJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-B7pq1jhday6afPKh56BvMs">
+        <correspAction xml:id="i-B7pq1jhday6afPKh56BvMs" type="referral">
           <date when="2006-04-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Na8S3TqneQCuQSV1knhaUm">
+        <correspAction xml:id="i-Na8S3TqneQCuQSV1knhaUm" type="dismissal">
           <date when="2006-03-31"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PqMtgMYdAyWWWPN6YTTmd7">
+        <correspAction xml:id="i-PqMtgMYdAyWWWPN6YTTmd7" type="dismissal">
           <date when="2006-03-31"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3AprFber4xotKJEtEFNHCc">
+        <correspAction xml:id="i-3AprFber4xotKJEtEFNHCc" type="submission">
           <date when="2006-03-30"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FA9EoyqxdUzEJwTiHAx76J"/>
+        <correspAction xml:id="i-FA9EoyqxdUzEJwTiHAx76J" type="assigned"/>
         <correspContext corresp="i-FA9EoyqxdUzEJwTiHAx76J">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -150,11 +150,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Kr_23/mot_200506_Kr_23-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Av9b6TGuxrK5NFW4FniPG2">
-        <div type="motTitle" xml:id="i-ENKqBWHocUdqj1YHmLE74f"/>
-        <div type="motSubmissionInfo" xml:id="i-DR8NfJSymXUo8ff4uNuVmj"/>
+      <div xml:id="i-Av9b6TGuxrK5NFW4FniPG2" type="motHeader">
+        <div xml:id="i-ENKqBWHocUdqj1YHmLE74f" type="motTitle"/>
+        <div xml:id="i-DR8NfJSymXUo8ff4uNuVmj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5ycHLt5s3tkcWs78oTkYMX">
+      <div xml:id="i-5ycHLt5s3tkcWs78oTkYMX" type="motBody">
         <div xml:id="i-NwzADtdbFHXPJ5SZaUZHbf">
           <p xml:id="i-P1mVNdzgfnDKp5G6E5Vw7Y">
             2005/06 mnr: Kr23 pnr: m1700
@@ -412,8 +412,11 @@
             bör därför avslås och lagen (1969:612) om förbud mot professionell
             boxning upphävas.
           </p>
-          <p xml:id="i-KqvZYi34qykMWWCsGeSjQS">
-            Stockholm den 30 mars 2006 Gunnar Axén (m)
+          <p xml:id="i-KqvZYi34qykMWWCsGeSjQS" type="date">
+            Stockholm den 30 mars 2006
+          </p>
+          <p type="signatureBlock" id="i-WfhX1hh5zLF2bSzAyqRwMi">
+            Gunnar Axén (m)
           </p>
           <p xml:id="i-CB2eRnbof7ym4PAQjSDYsx">
             Göran Lindblad (m) Ulf Sjösten (m) Lars Lindblad (m) Elizabeth

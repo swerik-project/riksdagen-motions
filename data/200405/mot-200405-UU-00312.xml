@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UU-00312">
   <teiHeader>
     <fileDesc>
@@ -110,16 +110,16 @@
           <note type="signatory" corresp="i-WCrN5vpCNm6z9SvfXfby4e"/>
           <note type="signatory" corresp="i-CvmaDbz8ueGm8meSVWj6vr"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RGhXWpkzsQykfX5LFQ4ayY">
+        <correspAction xml:id="i-RGhXWpkzsQykfX5LFQ4ayY" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2x5aqUYKqYNjD4cHH8x3S6">
+        <correspAction xml:id="i-2x5aqUYKqYNjD4cHH8x3S6" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4JEqdHJuBD564fgzzcEwkj">
+        <correspAction xml:id="i-4JEqdHJuBD564fgzzcEwkj" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TFjNVpYBpDDo82e8LfT4dT"/>
+        <correspAction xml:id="i-TFjNVpYBpDDo82e8LfT4dT" type="assigned"/>
         <correspContext corresp="i-TFjNVpYBpDDo82e8LfT4dT">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -134,11 +134,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_U_312/mot_200405_U_312-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4ywMbo7w7Vrqv51zkJf8jJ">
-        <div type="motTitle" xml:id="i-XsrS25u9yec7eqNjJZ7RyD"/>
-        <div type="motSubmissionInfo" xml:id="i-MUtfhEtTfxDTUgBMk48tg5"/>
+      <div xml:id="i-4ywMbo7w7Vrqv51zkJf8jJ" type="motHeader">
+        <div xml:id="i-XsrS25u9yec7eqNjJZ7RyD" type="motTitle"/>
+        <div xml:id="i-MUtfhEtTfxDTUgBMk48tg5" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QVzNWM3cAqVDmfRr8YEWXd">
+      <div xml:id="i-QVzNWM3cAqVDmfRr8YEWXd" type="motBody">
         <div xml:id="i-K8JEZ4AFUc18YJpCc4tofs">
           <p xml:id="i-F3hHd8h1agJ5bZGqJ6bErP">
             2004/05
@@ -618,8 +618,11 @@
             har därför en stor betydelse för samhörigheten inom vår del av
             EU.
           </p>
-          <p xml:id="i-KmpywP828PydmAngn6tH1j">
-            Stockholm den 5 oktober 2004 Holger Gustafsson (kd)
+          <p xml:id="i-KmpywP828PydmAngn6tH1j" type="date">
+            Stockholm den 5 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-3DWWA53CcZ6uwpABw1h6VP">
+            Holger Gustafsson (kd)
           </p>
           <p xml:id="i-HodTusqVBYyVMZF3T2XrAf">
             Rosita Runegrund (kd) Erling Wälivaara (kd) Else-Marie Lindgren

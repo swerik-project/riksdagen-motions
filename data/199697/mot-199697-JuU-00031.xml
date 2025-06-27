@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-JuU-00031">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-R3w2cm3MQ27goG533zxfaJ</idno>
-            <name>Lars Hjertén </name>
+            <name>Lars Hjertén</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-XUPe5sEzLnzL6ZqB1Tr2pf"/>
+        <correspAction xml:id="i-XUPe5sEzLnzL6ZqB1Tr2pf" type="basedOn"/>
         <correspContext corresp="i-XUPe5sEzLnzL6ZqB1Tr2pf">
           <ref>Proposition 1996/97:133</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-R3w2cm3MQ27goG533zxfaJ"/>
           <note type="signatory" corresp="i-R3w2cm3MQ27goG533zxfaJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Xpy3uQWdAnLzTTqMN3KDGN">
+        <correspAction xml:id="i-Xpy3uQWdAnLzTTqMN3KDGN" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-AJ7m2mi7JmeQyv3W3T4iif">
+        <correspAction xml:id="i-AJ7m2mi7JmeQyv3W3T4iif" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RMaM3bdiRg5yEvuhUsYMq5">
+        <correspAction xml:id="i-RMaM3bdiRg5yEvuhUsYMq5" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-8ypioMF1nj1QSVADnFGDqP">
+        <correspAction xml:id="i-8ypioMF1nj1QSVADnFGDqP" type="referral">
           <date when="1997-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-354EZJHa4sY2ThkkwZJcJW">
+        <correspAction xml:id="i-354EZJHa4sY2ThkkwZJcJW" type="dismissal">
           <date when="1997-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Ku2a4u2CDrNM4bBHdRaS1c">
+        <correspAction xml:id="i-Ku2a4u2CDrNM4bBHdRaS1c" type="submission">
           <date when="1997-04-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Qg6QoyxpPE4Mg43gow7MKh"/>
+        <correspAction xml:id="i-Qg6QoyxpPE4Mg43gow7MKh" type="assigned"/>
         <correspContext corresp="i-Qg6QoyxpPE4Mg43gow7MKh">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_JU_0031/mot_199697_JU_0031-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6rAiDgsM6qt11GthHtvJrk">
-        <div type="motTitle" xml:id="i-YGfVALGctzcWcRdmb3jjJc"/>
-        <div type="motSubmissionInfo" xml:id="i-RkcArbK3j2XF5rs7qsdUgm"/>
+      <div xml:id="i-6rAiDgsM6qt11GthHtvJrk" type="motHeader">
+        <div xml:id="i-YGfVALGctzcWcRdmb3jjJc" type="motTitle"/>
+        <div xml:id="i-RkcArbK3j2XF5rs7qsdUgm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-V4dw3e6T3pVyNuYFLGqN9a">
+      <div xml:id="i-V4dw3e6T3pVyNuYFLGqN9a" type="motBody">
         <div xml:id="i-VkZTubMxi61MDcdGz3BCwJ">
           <p xml:id="i-5XsoescXEFKC3henXAH5To">
             1996/97 Ju31 Ju26-35
@@ -141,8 +141,11 @@
             antalet nämndemän i tingsrätt och länsrätt inte skall minskas.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_JU_0031/mot_199697_JU_0031-0002.pdf"/>
-          <p xml:id="i-Pegwc4eVqrHNWtgy7kmjAa">
-            Stockholm den 2 april 1997 Mot. 1996/97Ju3!7
+          <p xml:id="i-Pegwc4eVqrHNWtgy7kmjAa" type="date">
+            Stockholm den 2 april 1997
+          </p>
+          <p type="signatureBlock" id="i-SF6QSr7DbMwsSRH2mb93Bs">
+            Mot. 1996/97Ju3!7
           </p>
           <p xml:id="i-QPoJWfCP5gnCJghKxbVTve">
             Lars Hjertén (m)

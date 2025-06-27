@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-JuU-00223">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-QSuKtNwNynjBruWYnH7LDJ">
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8KgCQL1jLTdHY9DxGGVP4y">
+        <correspAction xml:id="i-8KgCQL1jLTdHY9DxGGVP4y" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-gH9SoUNek9qTnxtTGpbWZ">
+        <correspAction xml:id="i-gH9SoUNek9qTnxtTGpbWZ" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9k6svvADQDXGk7LG44Yc7n">
+        <correspAction xml:id="i-9k6svvADQDXGk7LG44Yc7n" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CS53RWYWcZYVJ31dsg2JJV"/>
+        <correspAction xml:id="i-CS53RWYWcZYVJ31dsg2JJV" type="assigned"/>
         <correspContext corresp="i-CS53RWYWcZYVJ31dsg2JJV">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ju_0223/mot_200203_Ju_0223-0001.pdf"/>
-      <div type="motHeader" xml:id="i-ANThaAeWDTjWyZsEbVboBG">
-        <div type="motTitle" xml:id="i-Ui5id6iu2ptn1qw5VQq9zQ"/>
-        <div type="motSubmissionInfo" xml:id="i-DZfJdjLr1uCw3q1Nn9iz1Q"/>
+      <div xml:id="i-ANThaAeWDTjWyZsEbVboBG" type="motHeader">
+        <div xml:id="i-Ui5id6iu2ptn1qw5VQq9zQ" type="motTitle"/>
+        <div xml:id="i-DZfJdjLr1uCw3q1Nn9iz1Q" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RDcfNCBTzS8pNKeKneCqi1">
+      <div xml:id="i-RDcfNCBTzS8pNKeKneCqi1" type="motBody">
         <div xml:id="i-8WMGut9ETZgNf8vtWz7qjL">
           <p xml:id="i-WKaKTQTb6VDNN1Kt4R1WwN">
             14
@@ -138,8 +138,11 @@
             som Västerbotten och andra glesbygdsområden. Jag menar att den
             rådande utvecklingen måste brytas.
           </p>
-          <p xml:id="i-5xWWLDvqfppbNZkTh8pHyK">
-            Stockholm den 14 oktober 2002 Gunilla Tjernberg (kd)
+          <p xml:id="i-5xWWLDvqfppbNZkTh8pHyK" type="date">
+            Stockholm den 14 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-UuFS2Ri57XU5gAHoSaBHAM">
+            Gunilla Tjernberg (kd)
           </p>
         </div>
       </div>

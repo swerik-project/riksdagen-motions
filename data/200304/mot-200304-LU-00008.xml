@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-LU-00008">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-UaPnoMPMMoA3KV8LeK9T2q"/>
+        <correspAction xml:id="i-UaPnoMPMMoA3KV8LeK9T2q" type="basedOn"/>
         <correspContext corresp="i-UaPnoMPMMoA3KV8LeK9T2q">
           <ref>Proposition 2003/04:43</ref>
         </correspContext>
@@ -82,16 +82,16 @@
           <note type="signatory" corresp="i-NeYACd8NSiYWBhdiUeL6ZZ"/>
           <note type="signatory" corresp="i-T2aXcsQqA9hkUFtCcU4AeQ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YYzQrUHZH1aE1wiicqQxJJ">
+        <correspAction xml:id="i-YYzQrUHZH1aE1wiicqQxJJ" type="referral">
           <date when="2004-01-28"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MVQHKNSBKoXi1nhEqh8DJ4">
+        <correspAction xml:id="i-MVQHKNSBKoXi1nhEqh8DJ4" type="dismissal">
           <date when="2004-01-27"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-U2CGJAieAmqUfE1u6dpevV">
+        <correspAction xml:id="i-U2CGJAieAmqUfE1u6dpevV" type="submission">
           <date when="2004-01-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FRv1iN85sxh4NyGzpF9TNL"/>
+        <correspAction xml:id="i-FRv1iN85sxh4NyGzpF9TNL" type="assigned"/>
         <correspContext corresp="i-FRv1iN85sxh4NyGzpF9TNL">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -106,11 +106,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_L_0008/mot_200304_L_0008-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LPZdvyKzzNQRMJt2QYx7T9">
-        <div type="motTitle" xml:id="i-QnSAMsthCD66LzLuiT4S7r"/>
-        <div type="motSubmissionInfo" xml:id="i-RspNRQ9UKT2WyMgDaLmuX5"/>
+      <div xml:id="i-LPZdvyKzzNQRMJt2QYx7T9" type="motHeader">
+        <div xml:id="i-QnSAMsthCD66LzLuiT4S7r" type="motTitle"/>
+        <div xml:id="i-RspNRQ9UKT2WyMgDaLmuX5" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-G4fBSsk2ER6ofccpCKsacZ">
+      <div xml:id="i-G4fBSsk2ER6ofccpCKsacZ" type="motBody">
         <div xml:id="i-EriV9KEn41GAzvVsXe7PkP">
           <p xml:id="i-TEjp6pTs5UwfBm8WMqpgyS">
             2003/04 mnr: L8 pnr: m227
@@ -338,9 +338,12 @@
             måste visa sig effektivt också när det ställs mot ny teknik som
             utvecklas hastigt. Inte minst viktigt är att polisen tillförs
             kompetens för att utreda databrottslighet med koppling till obeställd
-            e-post. Stockholm den 22 januari 2004
+            e-post.
           </p>
-          <p xml:id="i-U55TZQtEtXd3mNyE29kCh1">
+          <p type="date" id="i-5P2kmdKjo4ZZYJ5LS5rroW">
+            Stockholm den 22 januari 2004
+          </p>
+          <p xml:id="i-U55TZQtEtXd3mNyE29kCh1" type="signatureBlock">
             Inger René (m) Bertil Kjellberg (m) Henrik von Sydow (m) Hillevi
             Engström (m) Nils Fredrik Aurelius (m) Henrik S Järrel (m)
           </p>

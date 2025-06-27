@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UU-00223">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-VT9gdsjd1mWAR88WGqnj3c">
           <note type="signatory" corresp="i-4BTx6VbUNJDqLqfkYqjnsE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9vy4c5J85SyUZiaqR36WxB">
+        <correspAction xml:id="i-9vy4c5J85SyUZiaqR36WxB" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-vZ2vTGpwmwjE3btLKHoZJ">
+        <correspAction xml:id="i-vZ2vTGpwmwjE3btLKHoZJ" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PNJqT9G7H4v2puKic3fxHo">
+        <correspAction xml:id="i-PNJqT9G7H4v2puKic3fxHo" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GAsSARzjckzATEUT3xHXjm"/>
+        <correspAction xml:id="i-GAsSARzjckzATEUT3xHXjm" type="assigned"/>
         <correspContext corresp="i-GAsSARzjckzATEUT3xHXjm">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_U_0223/mot_200304_U_0223-0001.pdf"/>
-      <div type="motHeader" xml:id="i-AYZQjPTzfQUFahKKqSo3aC">
-        <div type="motTitle" xml:id="i-MDpqa5zkHzJwnuLtoEcSbi"/>
-        <div type="motSubmissionInfo" xml:id="i-H6pp65SwYNpWzBpd9LLZk1"/>
+      <div xml:id="i-AYZQjPTzfQUFahKKqSo3aC" type="motHeader">
+        <div xml:id="i-MDpqa5zkHzJwnuLtoEcSbi" type="motTitle"/>
+        <div xml:id="i-H6pp65SwYNpWzBpd9LLZk1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-YWCDZhzBqxHQEQKKCoXVZn">
+      <div xml:id="i-YWCDZhzBqxHQEQKKCoXVZn" type="motBody">
         <div xml:id="i-GCTj8eoAoPQS8EZwfzoxYy">
           <p xml:id="i-S2z5qTi4N2KTm3tA8YnKAG">
             2003/04 mnr: U223 pnr: kd649
@@ -195,8 +195,11 @@
             Sverige inte ge bidrag till organisationen. Detta bör ges regeringen
             till känna.
           </p>
-          <p xml:id="i-Qhs5uwTfxufZuURZhH4L4N">
-            Stockholm den 30 september 2003 Tuve Skånberg (kd)
+          <p xml:id="i-Qhs5uwTfxufZuURZhH4L4N" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-8enbqYeAnCryGx9Yw1TEWb">
+            Tuve Skånberg (kd)
           </p>
           <p xml:id="i-7ZECY3xD8GQSuhTNJaT45M">
             2003/04:U223

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00431">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
           <note type="signatory" corresp="i-9x2nw6aosA3pyEJfJTc1eD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UW4doPWaFdT9eJQSenfE22">
+        <correspAction xml:id="i-UW4doPWaFdT9eJQSenfE22" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3ZKgvXAzQTZ65QDyzYPfan">
+        <correspAction xml:id="i-3ZKgvXAzQTZ65QDyzYPfan" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-H6er25wo9zwFjFgjst34f8">
+        <correspAction xml:id="i-H6er25wo9zwFjFgjst34f8" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QpdEhHpsybbS2kAEj6HvzX"/>
+        <correspAction xml:id="i-QpdEhHpsybbS2kAEj6HvzX" type="assigned"/>
         <correspContext corresp="i-QpdEhHpsybbS2kAEj6HvzX">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_431/mot_200405_So_431-0001.pdf"/>
-      <div type="motHeader" xml:id="i-C22T1rp8zneU37VQV8hmDt">
-        <div type="motTitle" xml:id="i-MLDy5QCLZTrwVy7UDQBbMv"/>
-        <div type="motSubmissionInfo" xml:id="i-PsxLv9y4h8CyK1R6epPsWm"/>
+      <div xml:id="i-C22T1rp8zneU37VQV8hmDt" type="motHeader">
+        <div xml:id="i-MLDy5QCLZTrwVy7UDQBbMv" type="motTitle"/>
+        <div xml:id="i-PsxLv9y4h8CyK1R6epPsWm" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PJvmpyEzbiN6dJUw5ubhtT">
+      <div xml:id="i-PJvmpyEzbiN6dJUw5ubhtT" type="motBody">
         <div xml:id="i-VpniAzi5m9Gn4hPr898s4D">
           <p xml:id="i-DSunrku4kvdC8yzTP1GtSU">
             2004/05
@@ -331,8 +331,11 @@
             det finns inga förlorare utan enbart vinnare om konsumtionen av
             alkohol kan minska.
           </p>
-          <p xml:id="i-Qii2h33GSdgcocesXFVSAP">
-            Stockholm den 1 oktober 2004 Jan Lindholm (mp) Ulf Holm (mp)
+          <p xml:id="i-Qii2h33GSdgcocesXFVSAP" type="date">
+            Stockholm den 1 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-CNWNrqo7AGt2Q1eMPKM9RR">
+            Jan Lindholm (mp) Ulf Holm (mp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-MJU-00290">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-CaN74vZ6NfShoptZyDbA8v">
           <note type="signatory" corresp="i-RDeqY3mXLBtUS9bixjvHS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-STZy9RG4roPKjjzN3i6DKN">
+        <correspAction xml:id="i-STZy9RG4roPKjjzN3i6DKN" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-57eWVhsSr8kVuVfHFvL2kv">
+        <correspAction xml:id="i-57eWVhsSr8kVuVfHFvL2kv" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XeGdvj3KXPTTQRhZFg8dE4">
+        <correspAction xml:id="i-XeGdvj3KXPTTQRhZFg8dE4" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CNhMeeQ51MzFCYXHF9K1Uw"/>
+        <correspAction xml:id="i-CNhMeeQ51MzFCYXHF9K1Uw" type="assigned"/>
         <correspContext corresp="i-CNhMeeQ51MzFCYXHF9K1Uw">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_MJ_0290/mot_200203_MJ_0290-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BzG3ehfuRSrcVkzJGbvz83">
-        <div type="motTitle" xml:id="i-57hYkpDwyfNquYaYa3saJw"/>
-        <div type="motSubmissionInfo" xml:id="i-WpF36vk5BuxjSq5vPmaV3X"/>
+      <div xml:id="i-BzG3ehfuRSrcVkzJGbvz83" type="motHeader">
+        <div xml:id="i-57hYkpDwyfNquYaYa3saJw" type="motTitle"/>
+        <div xml:id="i-WpF36vk5BuxjSq5vPmaV3X" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GrjGNe287DZhmTht7o5fm8">
+      <div xml:id="i-GrjGNe287DZhmTht7o5fm8" type="motBody">
         <div xml:id="i-Vmwx78niC2xjMSSKqQwwAw">
           <p xml:id="i-7DzVM2jyCnZRkZB3FpKmfe">
             2002/03 mnr: MJ290 pnr: fp514
@@ -129,8 +129,11 @@
             Samma insikt skall gälla för allt som idag dumpas i havet utan
             hänsyn varken till den marina miljön eller till människor.
           </p>
-          <p xml:id="i-GFeJTo6TH6ujs4NXEXjeAH">
-            Stockholm den 16 oktober 2002 Lars Tysklind (fp)
+          <p xml:id="i-GFeJTo6TH6ujs4NXEXjeAH" type="date">
+            Stockholm den 16 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-Y5XdauJCeM5sB9VPACpAo8">
+            Lars Tysklind (fp)
           </p>
         </div>
       </div>

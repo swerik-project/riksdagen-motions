@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-LU-00001">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="woman">
             <idno>i-C44sMEE9ocAndjedeN9fLp</idno>
-            <name>Yvonne Ruwaida </name>
+            <name>Yvonne Ruwaida</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-8UT1yGj3VEp99kKtyBgNtW"/>
+        <correspAction xml:id="i-8UT1yGj3VEp99kKtyBgNtW" type="basedOn"/>
         <correspContext corresp="i-8UT1yGj3VEp99kKtyBgNtW">
           <ref>Proposition 1997/98:14</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-C44sMEE9ocAndjedeN9fLp"/>
           <note type="signatory" corresp="i-C44sMEE9ocAndjedeN9fLp"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5GR8Aa9dtrJkdGyWXLrRFt">
+        <correspAction xml:id="i-5GR8Aa9dtrJkdGyWXLrRFt" type="referral">
           <date when="1997-11-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Cia9BSeynmFahP43Ax2rhS">
+        <correspAction xml:id="i-Cia9BSeynmFahP43Ax2rhS" type="dismissal">
           <date when="1997-11-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-LJ2RHgD466eqfHxRWSzVA4">
+        <correspAction xml:id="i-LJ2RHgD466eqfHxRWSzVA4" type="submission">
           <date when="1997-11-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-LwyoD4n6rHyNZHwdA6KWBD">
+        <correspAction xml:id="i-LwyoD4n6rHyNZHwdA6KWBD" type="referral">
           <date when="1997-11-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-MDxHoH99EZEaBpzqHRVsX9">
+        <correspAction xml:id="i-MDxHoH99EZEaBpzqHRVsX9" type="dismissal">
           <date when="1997-11-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-P2WCEuT25yFfcxgnj436nR">
+        <correspAction xml:id="i-P2WCEuT25yFfcxgnj436nR" type="submission">
           <date when="1997-11-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2TMqWzAuKoFY2zAv1X5Qnu"/>
+        <correspAction xml:id="i-2TMqWzAuKoFY2zAv1X5Qnu" type="assigned"/>
         <correspContext corresp="i-2TMqWzAuKoFY2zAv1X5Qnu">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_L_0001/mot_199798_L_0001-0001.pdf"/>
-      <div type="motHeader" xml:id="i-MzpDLkUVqkbp1Lc2dinWJW">
-        <div type="motTitle" xml:id="i-2Tfx33qxNhiymECXNteNHM"/>
-        <div type="motSubmissionInfo" xml:id="i-EZTWKVX65YdhhmqdNBqyHt"/>
+      <div xml:id="i-MzpDLkUVqkbp1Lc2dinWJW" type="motHeader">
+        <div xml:id="i-2Tfx33qxNhiymECXNteNHM" type="motTitle"/>
+        <div xml:id="i-EZTWKVX65YdhhmqdNBqyHt" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Y36zE5GXxrC1x5D6aEuByy">
+      <div xml:id="i-Y36zE5GXxrC1x5D6aEuByy" type="motBody">
         <div xml:id="i-JseXmx7PZLU7bYyQTm5SrM">
           <p xml:id="i-F6MzFUkQLBi7cd7N4m9e5o">
             L1
@@ -263,7 +263,13 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_L_0001/mot_199798_L_0001-0004.pdf"/>
           <p xml:id="i-NHNq482U8QMAz4SaxmFxaN">
-            Mot. Stockholm den 5 november 1997 1997/98L1
+            Mot.
+          </p>
+          <p type="date" id="i-Sr3Lw3jHcE3tGWee6ZdE4m">
+            Stockholm den 5 november 1997
+          </p>
+          <p type="signatureBlock" id="i-S47ob1N2fcy1H6chSxtFMn">
+            1997/98L1
           </p>
           <p xml:id="i-MZrEKFAjYvkLQLNMwE4khQ">
             Yvonne Ruwaida (mp)

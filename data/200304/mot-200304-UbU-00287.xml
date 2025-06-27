@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-UbU-00287">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-KUXHHtmkW2je8AFoVb4DfQ">
           <note type="signatory" corresp="i-RCNVVc6jFAU8YPdr6sW8jH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-KYcVLmS47wtvcHtrWTpfm5">
+        <correspAction xml:id="i-KYcVLmS47wtvcHtrWTpfm5" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QVbaK3y9hSJ9qRdPxv56S6">
+        <correspAction xml:id="i-QVbaK3y9hSJ9qRdPxv56S6" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DsramDzX26zddC5C4RqnqM">
+        <correspAction xml:id="i-DsramDzX26zddC5C4RqnqM" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GZBUumJPv9PgmWf6yzqXN6"/>
+        <correspAction xml:id="i-GZBUumJPv9PgmWf6yzqXN6" type="assigned"/>
         <correspContext corresp="i-GZBUumJPv9PgmWf6yzqXN6">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ub_0287/mot_200304_Ub_0287-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5w5s9k7mKHhfsDEkNuBZ9w">
-        <div type="motTitle" xml:id="i-SrcYZrVHyYwozdjVp3DgRE"/>
-        <div type="motSubmissionInfo" xml:id="i-8bGGaqaki7p3Bentqc72KV"/>
+      <div xml:id="i-5w5s9k7mKHhfsDEkNuBZ9w" type="motHeader">
+        <div xml:id="i-SrcYZrVHyYwozdjVp3DgRE" type="motTitle"/>
+        <div xml:id="i-8bGGaqaki7p3Bentqc72KV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ReX1iQgGofE1sS492DH3K6">
+      <div xml:id="i-ReX1iQgGofE1sS492DH3K6" type="motBody">
         <div xml:id="i-3gFGrj7sSTDnKhAsYjuA95">
           <p xml:id="i-ED6QiGDMcH2BhpDzqbQ32L">
             2003/04 mnr: Ub287 pnr: m1422
@@ -143,8 +143,11 @@
             kommer de unga att kunna tillgodogöra sig andra skolämnen bättre
             när de har bättre kondition och ork.
           </p>
-          <p xml:id="i-KHSneVZEXcvTWNTDFbc5jZ">
-            Stockholm den 2 oktober 2003 Stefan Hagfeldt (m)
+          <p xml:id="i-KHSneVZEXcvTWNTDFbc5jZ" type="date">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-RN4RxyTUpWYNAqaTDQ1hcE">
+            Stefan Hagfeldt (m)
           </p>
         </div>
       </div>

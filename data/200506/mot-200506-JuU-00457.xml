@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00457">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-UbsHGZmenytwbMtgggip1F">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PDYNoE8REM1C5rMLFjxTti">
+        <correspAction xml:id="i-PDYNoE8REM1C5rMLFjxTti" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CkYcTds8BLKfcN4AVHdZkk">
+        <correspAction xml:id="i-CkYcTds8BLKfcN4AVHdZkk" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HqR2pu6AjYSVgJCXzVnjzn">
+        <correspAction xml:id="i-HqR2pu6AjYSVgJCXzVnjzn" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-X539yD9X6Yd2Ws46pBXiLi"/>
+        <correspAction xml:id="i-X539yD9X6Yd2Ws46pBXiLi" type="assigned"/>
         <correspContext corresp="i-X539yD9X6Yd2Ws46pBXiLi">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_457/mot_200506_Ju_457-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7sv2YNSxNrQCDVs6RSLRzx">
-        <div type="motTitle" xml:id="i-NAf6hbu3EMrQKxwrnzbdJ1"/>
-        <div type="motSubmissionInfo" xml:id="i-WFhP7aL9fzjMREgnvMtHur"/>
+      <div xml:id="i-7sv2YNSxNrQCDVs6RSLRzx" type="motHeader">
+        <div xml:id="i-NAf6hbu3EMrQKxwrnzbdJ1" type="motTitle"/>
+        <div xml:id="i-WFhP7aL9fzjMREgnvMtHur" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BRqUZBLvVzHPWWzgF4t6UM">
+      <div xml:id="i-BRqUZBLvVzHPWWzgF4t6UM" type="motBody">
         <div xml:id="i-Hfv5hCLDdDsndzR2JEx1QE">
           <p xml:id="i-45pSkQA3oR6c3xtzsydVku">
             2005/06 mnr: Ju457
@@ -175,8 +175,11 @@
             hårda arbetssituation kräver påtagliga förändringar i polisens
             befogenheter och då speciellt vid kravaller.
           </p>
-          <p xml:id="i-3jupevnxtrVjqhu3Qw6bzM">
-            Stockholm den 26 september 2005 Annelie Enochson (kd)
+          <p xml:id="i-3jupevnxtrVjqhu3Qw6bzM" type="date">
+            Stockholm den 26 september 2005
+          </p>
+          <p type="signatureBlock" id="i-GMDQv2B1DNAseksQzb1RmG">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

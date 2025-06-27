@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SkU-00007">
   <teiHeader>
     <fileDesc>
@@ -216,7 +216,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7P7eiCdPPs9S6Qcepstvzz"/>
+        <correspAction xml:id="i-7P7eiCdPPs9S6Qcepstvzz" type="basedOn"/>
         <correspContext corresp="i-7P7eiCdPPs9S6Qcepstvzz">
           <ref>Proposition 2000/01:12</ref>
         </correspContext>
@@ -250,28 +250,28 @@
           <note type="signatory" corresp="i-BaBRFz7sgjhbuqYiz8u7vt"/>
           <note type="signatory" corresp="i-839FvTzHpvrdX4J7ckfWSt"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-Gb8ESCJqFF5hSxXoSz2Fw8">
+        <correspAction xml:id="i-Gb8ESCJqFF5hSxXoSz2Fw8" type="reviewing">
           <date when="2000-10-20"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-VevVgZkYjiumxZUKjnvrQJ">
+        <correspAction xml:id="i-VevVgZkYjiumxZUKjnvrQJ" type="referral">
           <date when="2000-10-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7oknieqmFh8fyGgMQCHP9Z">
+        <correspAction xml:id="i-7oknieqmFh8fyGgMQCHP9Z" type="dismissal">
           <date when="2000-10-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JiodR4UMPwFuTdmbZ2ZyBD">
+        <correspAction xml:id="i-JiodR4UMPwFuTdmbZ2ZyBD" type="submission">
           <date when="2000-10-18"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-CtgRYahCMZxUEw9kL6Lsh">
+        <correspAction xml:id="i-CtgRYahCMZxUEw9kL6Lsh" type="referral">
           <date when="2000-10-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8JHeGXHCmJXQrGiduEZGfK">
+        <correspAction xml:id="i-8JHeGXHCmJXQrGiduEZGfK" type="dismissal">
           <date when="2000-10-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XXy3VbHZRwECVYHRkw1rsh">
+        <correspAction xml:id="i-XXy3VbHZRwECVYHRkw1rsh" type="submission">
           <date when="2000-10-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GsyF7X6rMia1WybQ6oPCKW"/>
+        <correspAction xml:id="i-GsyF7X6rMia1WybQ6oPCKW" type="assigned"/>
         <correspContext corresp="i-GsyF7X6rMia1WybQ6oPCKW">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -286,11 +286,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Sk_0007/mot_200001_Sk_0007-0001.pdf"/>
-      <div type="motHeader" xml:id="i-DMvt1yNkRJrRmqjPsn2F22">
-        <div type="motTitle" xml:id="i-UoMUAW5mZaa8wxzBNERbNp"/>
-        <div type="motSubmissionInfo" xml:id="i-FrmwXdXNg9PwrhppeCVBAY"/>
+      <div xml:id="i-DMvt1yNkRJrRmqjPsn2F22" type="motHeader">
+        <div xml:id="i-UoMUAW5mZaa8wxzBNERbNp" type="motTitle"/>
+        <div xml:id="i-FrmwXdXNg9PwrhppeCVBAY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-5WDnCjn2dFX1tBcugiBQtP">
+      <div xml:id="i-5WDnCjn2dFX1tBcugiBQtP" type="motBody">
         <div xml:id="i-RMLYMD8LWHisYz5b8Fqp5p">
           <p xml:id="i-83zbdEF669vZvqdGugDtmp">
             14
@@ -382,8 +382,11 @@
             omfattar alla för att på så sätt bidra till att kompetent arbetskraft
             både från Sverige och andra länder vill verka här.
           </p>
-          <p xml:id="i-HLmZn67edAorkd8nFLpid9">
-            Stockholm den 18 oktober 2000 Helena Höij (kd)
+          <p xml:id="i-HLmZn67edAorkd8nFLpid9" type="date">
+            Stockholm den 18 oktober 2000
+          </p>
+          <p type="signatureBlock" id="i-GDSioAyg64JzpaHsfHbUz5">
+            Helena Höij (kd)
           </p>
           <p xml:id="i-VC1ML8HEprrisfhvP254o7">
             Mats Odell (kd) Per Landgren (kd) Göran Hägglund (kd) Rose-Marie

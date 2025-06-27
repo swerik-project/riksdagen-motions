@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-FiU-00004">
   <teiHeader>
     <fileDesc>
@@ -76,7 +76,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-93gHuCbVBqR4un9yM8hzAd"/>
+        <correspAction xml:id="i-93gHuCbVBqR4un9yM8hzAd" type="basedOn"/>
         <correspContext corresp="i-93gHuCbVBqR4un9yM8hzAd">
           <ref>Regeringsskrivelse 2004/05:54</ref>
         </correspContext>
@@ -90,19 +90,19 @@
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
           <note type="signatory" corresp="i-KoshphacAWMdvHAZ62MAi2"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SwgkxYNm7KB8JEBnfY2XiL">
+        <correspAction xml:id="i-SwgkxYNm7KB8JEBnfY2XiL" type="referral">
           <date when="2005-02-15"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-XsLJ9iZam2PDExJzJJQ2C4">
+        <correspAction xml:id="i-XsLJ9iZam2PDExJzJJQ2C4" type="registration">
           <date when="2005-02-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LmgNfW7ekMjvzsWcF8UUZH">
+        <correspAction xml:id="i-LmgNfW7ekMjvzsWcF8UUZH" type="dismissal">
           <date when="2005-02-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5fMqmv1Pm4ChwocvH1SmYv">
+        <correspAction xml:id="i-5fMqmv1Pm4ChwocvH1SmYv" type="submission">
           <date when="2005-02-11"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XgEqYqvSj7mZtRth8dkZ6S"/>
+        <correspAction xml:id="i-XgEqYqvSj7mZtRth8dkZ6S" type="assigned"/>
         <correspContext corresp="i-XgEqYqvSj7mZtRth8dkZ6S">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -118,11 +118,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Fi_4/mot_200405_Fi_4-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Fi_4/mot_200405_Fi_4-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Jbtq8tkVsaTLUGgdeRcsXV">
-        <div type="motTitle" xml:id="i-AV9JgKoZDzgWMXMErdEADr"/>
-        <div type="motSubmissionInfo" xml:id="i-TGEcXXKVMZRFReDMYC6Tyu"/>
+      <div xml:id="i-Jbtq8tkVsaTLUGgdeRcsXV" type="motHeader">
+        <div xml:id="i-AV9JgKoZDzgWMXMErdEADr" type="motTitle"/>
+        <div xml:id="i-TGEcXXKVMZRFReDMYC6Tyu" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2J94UXWUhvq6omJZruxSit">
+      <div xml:id="i-2J94UXWUhvq6omJZruxSit" type="motBody">
         <div xml:id="i-GXrv8muywomMKemSsfnd9T">
           <p xml:id="i-Bp9KU4ou9TPFuzPCBRmpEd">
             2004/05 mnr: Fi4 pnr: v016
@@ -948,8 +948,11 @@
             har antagits. Detta bör riksdagen som sin mening ge regeringen
             till känna.
           </p>
-          <p xml:id="i-YD5z6i7ocdJ2L9kCi7E43p">
-            Stockholm den 9 februari 2005 Lars Ohly (v)
+          <p xml:id="i-YD5z6i7ocdJ2L9kCi7E43p" type="date">
+            Stockholm den 9 februari 2005
+          </p>
+          <p type="signatureBlock" id="i-T76fQnZjtqcx9ouPUdDJph">
+            Lars Ohly (v)
           </p>
           <p xml:id="i-PysrZ6XLPPV5ftX8r2T7x1">
             Marie Engström (v) Lennart Gustavsson (v) Berit Johannesson (v)

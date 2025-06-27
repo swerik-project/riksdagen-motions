@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-UbU-00042">
   <teiHeader>
     <fileDesc>
@@ -48,7 +48,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Mo7XVKiDfRepKN3EvxJ2ZB"/>
+        <correspAction xml:id="i-Mo7XVKiDfRepKN3EvxJ2ZB" type="basedOn"/>
         <correspContext corresp="i-Mo7XVKiDfRepKN3EvxJ2ZB">
           <ref>Proposition 2000/01:71</ref>
         </correspContext>
@@ -58,28 +58,28 @@
           <note type="signatory" corresp="i-GJLL78ePjJhSXVWBYyRW8t"/>
           <note type="signatory" corresp="i-GJLL78ePjJhSXVWBYyRW8t"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TnuqDDftdgTvvxwxCC5LmU">
+        <correspAction xml:id="i-TnuqDDftdgTvvxwxCC5LmU" type="referral">
           <date when="2001-04-06"/>
         </correspAction>
-        <correspAction type="reviewing" xml:id="i-WL64B9tY4jCpGa3ZvAA1et">
+        <correspAction xml:id="i-WL64B9tY4jCpGa3ZvAA1et" type="reviewing">
           <date when="2001-04-05"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PfojhC2tV5JpnrhGjJh2zk">
+        <correspAction xml:id="i-PfojhC2tV5JpnrhGjJh2zk" type="dismissal">
           <date when="2001-04-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9TGZDUZPCeQXDuf5EcRJWp">
+        <correspAction xml:id="i-9TGZDUZPCeQXDuf5EcRJWp" type="submission">
           <date when="2001-04-04"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-6NnqNeY9qYK1xU1v9tdUhR">
+        <correspAction xml:id="i-6NnqNeY9qYK1xU1v9tdUhR" type="referral">
           <date when="2001-04-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8YeWLLMyXcrvbRPzvuYGSA">
+        <correspAction xml:id="i-8YeWLLMyXcrvbRPzvuYGSA" type="dismissal">
           <date when="2001-04-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Me6pEnTFrY7WqEwmSbz5Fv">
+        <correspAction xml:id="i-Me6pEnTFrY7WqEwmSbz5Fv" type="submission">
           <date when="2001-04-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VF6Ktd5E5oVv4usjqnzuau"/>
+        <correspAction xml:id="i-VF6Ktd5E5oVv4usjqnzuau" type="assigned"/>
         <correspContext corresp="i-VF6Ktd5E5oVv4usjqnzuau">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -94,11 +94,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Ub_0042/mot_200001_Ub_0042-0001.pdf"/>
-      <div type="motHeader" xml:id="i-N1B5N3S3uzovTYNSndHtjm">
-        <div type="motTitle" xml:id="i-8MYuWCDx8tVkBS1x9YhWtr"/>
-        <div type="motSubmissionInfo" xml:id="i-HCsMNKsSFc9rb7ZtAkgime"/>
+      <div xml:id="i-N1B5N3S3uzovTYNSndHtjm" type="motHeader">
+        <div xml:id="i-8MYuWCDx8tVkBS1x9YhWtr" type="motTitle"/>
+        <div xml:id="i-HCsMNKsSFc9rb7ZtAkgime" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TeYWvG4V1YkDZNcMipmtSm">
+      <div xml:id="i-TeYWvG4V1YkDZNcMipmtSm" type="motBody">
         <div xml:id="i-3y3WJyvRCVTJegFBkag4Q7">
           <p xml:id="i-2RJwA6uVXyZhk5cVa2zT2i">
             2000/01 mnr: Ub42 pnr: m874
@@ -174,9 +174,11 @@
             tillräckliga resurser som de statliga högskolorna för att de skall
             kunna bedriva en likvärdig utbildning.
           </p>
-          <p xml:id="i-7AfFW5cTRCynb6hWEi78Gm">
-            Stockholm den 4 april 2001 Maud Ekendahl (m) Margareta Cederfelt
-            (m)
+          <p xml:id="i-7AfFW5cTRCynb6hWEi78Gm" type="date">
+            Stockholm den 4 april 2001
+          </p>
+          <p type="signatureBlock" id="i-XC3H6qVupQbVQDr5z7FoSn">
+            Maud Ekendahl (m) Margareta Cederfelt (m)
           </p>
           <p xml:id="i-2VBsd7dwdBC65kA7rke5Da">
             Elanders Gotab, Stockholm 2001

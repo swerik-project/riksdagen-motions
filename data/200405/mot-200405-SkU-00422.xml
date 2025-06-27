@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00422">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-MyDPdEPatDCFWieSftvuJe">
           <note type="signatory" corresp="i-Dnc5M1DTGNVBxsnXz7TcBj"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QQRX1vUcJfwyBQ6MNxAyxX">
+        <correspAction xml:id="i-QQRX1vUcJfwyBQ6MNxAyxX" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4bncoqL5CJDTz8PFNRetos">
+        <correspAction xml:id="i-4bncoqL5CJDTz8PFNRetos" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KcYVhBfRJsFjRtMVJNvifR">
+        <correspAction xml:id="i-KcYVhBfRJsFjRtMVJNvifR" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GZAcRoBmKyaaKKiiSw311K"/>
+        <correspAction xml:id="i-GZAcRoBmKyaaKKiiSw311K" type="assigned"/>
         <correspContext corresp="i-GZAcRoBmKyaaKKiiSw311K">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_422/mot_200405_Sk_422-0001.pdf"/>
-      <div type="motHeader" xml:id="i-SZ2Vw2XAAnVZ3YvjgEWFf">
-        <div type="motTitle" xml:id="i-9XuxpHyU5ioB396wndK71r"/>
-        <div type="motSubmissionInfo" xml:id="i-M3NQFYydC33BxwkBqA1XJt"/>
+      <div xml:id="i-SZ2Vw2XAAnVZ3YvjgEWFf" type="motHeader">
+        <div xml:id="i-9XuxpHyU5ioB396wndK71r" type="motTitle"/>
+        <div xml:id="i-M3NQFYydC33BxwkBqA1XJt" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2EfTDAUswzG31SdCh9a6P3">
+      <div xml:id="i-2EfTDAUswzG31SdCh9a6P3" type="motBody">
         <div xml:id="i-71otGWahxWVbYtem5KcgK4">
           <p xml:id="i-5uT8urb8MiZeLqf9B434oN">
             2004/05 mnr: Sk422 pnr: s12509
@@ -135,8 +135,11 @@
             över last från åkerier med nyare mer bränslesnåla och miljövänliga
             bilar till de med äldre och mindre miljövänliga bilar och bränslen.
           </p>
-          <p xml:id="i-X1KSMsWns5NhXFHLsb7Z32">
-            Stockholm den 5 oktober 2004 Pär Axel Sahlberg (s)
+          <p xml:id="i-X1KSMsWns5NhXFHLsb7Z32" type="date">
+            Stockholm den 5 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-JEbwmkh7xrcYCabYucPsSG">
+            Pär Axel Sahlberg (s)
           </p>
         </div>
       </div>

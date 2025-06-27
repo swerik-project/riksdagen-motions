@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-TU-00360">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-A9H4c2Kt6HyCma64o8bMxL">
           <note type="signatory" corresp="i-BvxBJicYo5FW1E9fuXk8LW"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4FpJHbAo1jSEfb52M5iTvE">
+        <correspAction xml:id="i-4FpJHbAo1jSEfb52M5iTvE" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-CTNkGUuzSadn3UvUJUMsJP">
+        <correspAction xml:id="i-CTNkGUuzSadn3UvUJUMsJP" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2VjuHzH1nmt8qx1RytKJc2">
+        <correspAction xml:id="i-2VjuHzH1nmt8qx1RytKJc2" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-6AjL2wgsVMm8umFh7nNoQF"/>
+        <correspAction xml:id="i-6AjL2wgsVMm8umFh7nNoQF" type="assigned"/>
         <correspContext corresp="i-6AjL2wgsVMm8umFh7nNoQF">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_T_360/mot_200405_T_360-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LhebwSPAaDoEuzsXVRgtVm">
-        <div type="motTitle" xml:id="i-FXKcQZeVr1Qdp5gnPP38Bg"/>
-        <div type="motSubmissionInfo" xml:id="i-Dp41Eg6ZqNiDy1hqeQBFdh"/>
+      <div xml:id="i-LhebwSPAaDoEuzsXVRgtVm" type="motHeader">
+        <div xml:id="i-FXKcQZeVr1Qdp5gnPP38Bg" type="motTitle"/>
+        <div xml:id="i-Dp41Eg6ZqNiDy1hqeQBFdh" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-STagM9nHoakwAUV4PaNjdT">
+      <div xml:id="i-STagM9nHoakwAUV4PaNjdT" type="motBody">
         <div xml:id="i-R7pqhBjn1scRQjgtv8ykrh">
           <p xml:id="i-FzQ3PLezWpyf8eTmtbULh9">
             2004/05 mnr: T360 pnr: v327
@@ -169,8 +169,11 @@
             så att de kan fungera intermodalt på bästa sätt. Detta bör riksdagen
             som sin mening ge regeringen till känna.
           </p>
-          <p xml:id="i-DGuh9jAMx6BLwVbiUoVV5">
-            Stockholm den 22 september 2004 Owe Hellberg (v)
+          <p xml:id="i-DGuh9jAMx6BLwVbiUoVV5" type="date">
+            Stockholm den 22 september 2004
+          </p>
+          <p type="signatureBlock" id="i-Smydac2K85nKRruc9E2ifY">
+            Owe Hellberg (v)
           </p>
         </div>
       </div>

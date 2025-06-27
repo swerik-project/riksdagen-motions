@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-UbU-00703">
   <teiHeader>
     <fileDesc>
@@ -46,28 +46,28 @@
           <note type="signatory" corresp="i-PDRRRaXKabL6avxH1jYjid"/>
           <note type="signatory" corresp="i-PDRRRaXKabL6avxH1jYjid"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-BeycJoEYbxc4PcPv82CD6R">
+        <correspAction xml:id="i-BeycJoEYbxc4PcPv82CD6R" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7aULMdX1o9sTjfayiGvp5b">
+        <correspAction xml:id="i-7aULMdX1o9sTjfayiGvp5b" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SDP1BzLQAnyUBKTks9NF8p">
+        <correspAction xml:id="i-SDP1BzLQAnyUBKTks9NF8p" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FRUxm8v3NraaQEJqd7xEzJ">
+        <correspAction xml:id="i-FRUxm8v3NraaQEJqd7xEzJ" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-QXfFh3mAmhiaTrYQM9MSNq">
+        <correspAction xml:id="i-QXfFh3mAmhiaTrYQM9MSNq" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Dc7vFzHrmxx8sZna1hGrXg">
+        <correspAction xml:id="i-Dc7vFzHrmxx8sZna1hGrXg" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-QbYh3vc7hirybvutxxLiY5">
+        <correspAction xml:id="i-QbYh3vc7hirybvutxxLiY5" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9GjYGXLriyquYLNJFyj8pc"/>
+        <correspAction xml:id="i-9GjYGXLriyquYLNJFyj8pc" type="assigned"/>
         <correspContext corresp="i-9GjYGXLriyquYLNJFyj8pc">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -82,11 +82,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Ub_0703/mot_200001_Ub_0703-0001.pdf"/>
-      <div type="motHeader" xml:id="i-FvJCQ3M7qgywUwGPeJSYxU">
-        <div type="motTitle" xml:id="i-Pf1TtSEQT5YMXoE4odrAMr"/>
-        <div type="motSubmissionInfo" xml:id="i-MVF7QiapqQTPtmQp1jJLKu"/>
+      <div xml:id="i-FvJCQ3M7qgywUwGPeJSYxU" type="motHeader">
+        <div xml:id="i-Pf1TtSEQT5YMXoE4odrAMr" type="motTitle"/>
+        <div xml:id="i-MVF7QiapqQTPtmQp1jJLKu" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-VWijGg8df44k3YiosD9JqK">
+      <div xml:id="i-VWijGg8df44k3YiosD9JqK" type="motBody">
         <div xml:id="i-DLa51UgEZWE7YhVC3UXPEd">
           <p xml:id="i-EiM9Z9R41RW1a12efcDSum">
             2000/01 mnr: Ub703 pnr: fp230
@@ -152,8 +152,11 @@
             En student i samma situation har inte samma rätt, vilket måste
             ses som en orättvisa.
           </p>
-          <p xml:id="i-93o6F9BKPxsDxKk7thVPWN">
-            Stockholm den 2 oktober 2000 Harald Nordlund (fp)
+          <p xml:id="i-93o6F9BKPxsDxKk7thVPWN" type="date">
+            Stockholm den 2 oktober 2000
+          </p>
+          <p type="signatureBlock" id="i-3TNCYoz3DxdM9TPxfweqS4">
+            Harald Nordlund (fp)
           </p>
         </div>
       </div>

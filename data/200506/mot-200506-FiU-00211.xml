@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-FiU-00211">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-XcAqMe3ntVBboWUxqACfz"/>
           <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NkS5WyusTqT1VejxtoXheR">
+        <correspAction xml:id="i-NkS5WyusTqT1VejxtoXheR" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Qg7XqSHwMvnH8AhAa64Aze">
+        <correspAction xml:id="i-Qg7XqSHwMvnH8AhAa64Aze" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-W9779FuZmHezWFUC29DzWS">
+        <correspAction xml:id="i-W9779FuZmHezWFUC29DzWS" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-PAhMY5bfbiboNmAmVQ3Hyv"/>
+        <correspAction xml:id="i-PAhMY5bfbiboNmAmVQ3Hyv" type="assigned"/>
         <correspContext corresp="i-PAhMY5bfbiboNmAmVQ3Hyv">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Fi_211/mot_200506_Fi_211-0001.pdf"/>
-      <div type="motHeader" xml:id="i-JFNqzjwMiEjeS1eLNoaqMD">
-        <div type="motTitle" xml:id="i-6WXYq21GZDkjMTaQoN9Aad"/>
-        <div type="motSubmissionInfo" xml:id="i-FGV7b1qD97yfAzFNrihRc6"/>
+      <div xml:id="i-JFNqzjwMiEjeS1eLNoaqMD" type="motHeader">
+        <div xml:id="i-6WXYq21GZDkjMTaQoN9Aad" type="motTitle"/>
+        <div xml:id="i-FGV7b1qD97yfAzFNrihRc6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-XYg72kptr33aeQK54u6cxB">
+      <div xml:id="i-XYg72kptr33aeQK54u6cxB" type="motBody">
         <div xml:id="i-7aP1iGhJLrvVtkN45oYvXU">
           <p xml:id="i-FCmmMug4qzLZFEaZXxXzzz">
             2005/06 mnr: Fi211 pnr: fp418
@@ -169,9 +169,11 @@
             föreslår att riksdagen tillkännager för regeringen som sin mening
             vad vi anfört om SCB.
           </p>
-          <p xml:id="i-UG8WnTiczYEo51f9xk2Ym7">
-            Stockholm den 28 september 2005 Gunnar Andrén (fp) Eva Flyborg
-            (fp)
+          <p xml:id="i-UG8WnTiczYEo51f9xk2Ym7" type="date">
+            Stockholm den 28 september 2005
+          </p>
+          <p type="signatureBlock" id="i-HrThiR2Zjwu4w8NaU7YxBE">
+            Gunnar Andrén (fp) Eva Flyborg (fp)
           </p>
         </div>
       </div>

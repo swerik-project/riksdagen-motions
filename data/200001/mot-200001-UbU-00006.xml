@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-UbU-00006">
   <teiHeader>
     <fileDesc>
@@ -209,7 +209,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-SnFxAVPk7X6hxvWZUNftvo"/>
+        <correspAction xml:id="i-SnFxAVPk7X6hxvWZUNftvo" type="basedOn"/>
         <correspContext corresp="i-SnFxAVPk7X6hxvWZUNftvo">
           <ref>Proposition 2000/01:3</ref>
         </correspContext>
@@ -242,28 +242,28 @@
           <note type="signatory" corresp="i-3rnEh52NL7CXPJYcg4p7bD"/>
           <note type="signatory" corresp="i-BbWhKN8LYooYPeK77uLHBD"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-6h8xFHXAf9RWrkFfzUrK58">
+        <correspAction xml:id="i-6h8xFHXAf9RWrkFfzUrK58" type="reviewing">
           <date when="2000-10-10"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PyFpsEaADvo4PBxQnyVBfK">
+        <correspAction xml:id="i-PyFpsEaADvo4PBxQnyVBfK" type="referral">
           <date when="2000-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-J6VuK6ck8G7h8VJQbqk7LY">
+        <correspAction xml:id="i-J6VuK6ck8G7h8VJQbqk7LY" type="dismissal">
           <date when="2000-10-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KtLyirpJYcEUWUEVSLT5a1">
+        <correspAction xml:id="i-KtLyirpJYcEUWUEVSLT5a1" type="submission">
           <date when="2000-10-04"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-VYgdrZVSXYPXHt3mLLEUL1">
+        <correspAction xml:id="i-VYgdrZVSXYPXHt3mLLEUL1" type="referral">
           <date when="2000-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BGQByDneBguSsDks9a8NFb">
+        <correspAction xml:id="i-BGQByDneBguSsDks9a8NFb" type="dismissal">
           <date when="2000-10-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EpbaXULLvcrzzkyCrZ4tey">
+        <correspAction xml:id="i-EpbaXULLvcrzzkyCrZ4tey" type="submission">
           <date when="2000-10-04"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-2Lyw7TcXLsRw9oyAPARv5g"/>
+        <correspAction xml:id="i-2Lyw7TcXLsRw9oyAPARv5g" type="assigned"/>
         <correspContext corresp="i-2Lyw7TcXLsRw9oyAPARv5g">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -278,11 +278,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Ub_0006/mot_200001_Ub_0006-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Q3GrNhvQjLAZ9R5cv4ht7S">
-        <div type="motTitle" xml:id="i-RzKwF39hCVsRHgW3kYFMx6"/>
-        <div type="motSubmissionInfo" xml:id="i-BRoY2QjzHLbAeXV4hRL3bX"/>
+      <div xml:id="i-Q3GrNhvQjLAZ9R5cv4ht7S" type="motHeader">
+        <div xml:id="i-RzKwF39hCVsRHgW3kYFMx6" type="motTitle"/>
+        <div xml:id="i-BRoY2QjzHLbAeXV4hRL3bX" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Kj3xjPJ2KePM7kJSV7dkVc">
+      <div xml:id="i-Kj3xjPJ2KePM7kJSV7dkVc" type="motBody">
         <div xml:id="i-ABxMVj9ptHwuM4VSWndDpB">
           <p xml:id="i-7vvE3W8YU3F5ZCjLcTqjW1">
             24
@@ -2107,9 +2107,12 @@
             breddas för att få största möjliga utbud av kompetenta, unga forskare.
             Först när forskarvärlden tar vara på samtliga olika kompetenser
             som finns hos såväl män som kvinnor kommer den akademiska världen
-            att bli jämställd. Stockholm den 4 oktober 2000
+            att bli jämställd.
           </p>
-          <p xml:id="i-2DFMYmjE7nkcmcJRxbSQWH">
+          <p type="date" id="i-KdS3gLi5tYcDpAYPFks9MA">
+            Stockholm den 4 oktober 2000
+          </p>
+          <p xml:id="i-2DFMYmjE7nkcmcJRxbSQWH" type="signatureBlock">
             Bo Lundgren (m)
           </p>
           <p xml:id="i-4akQErYm9mEcGKofY1SA29">

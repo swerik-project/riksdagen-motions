@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-FiU-00045">
   <teiHeader>
     <fileDesc>
@@ -83,7 +83,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-JZdm2oxKRFfsLoSgSYUNm7"/>
+        <correspAction xml:id="i-JZdm2oxKRFfsLoSgSYUNm7" type="basedOn"/>
         <correspContext corresp="i-JZdm2oxKRFfsLoSgSYUNm7">
           <ref>Proposition 2003/04:155</ref>
         </correspContext>
@@ -98,19 +98,19 @@
           <note type="signatory" corresp="i-SKjAmNScZ7eZ3a8Xy1J8hs"/>
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Q68nQjcgqDh6KcUrFWvnH7">
+        <correspAction xml:id="i-Q68nQjcgqDh6KcUrFWvnH7" type="referral">
           <date when="2004-07-02"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-StedbAM448gg8LTzh2DHbt">
+        <correspAction xml:id="i-StedbAM448gg8LTzh2DHbt" type="dismissal">
           <date when="2004-07-02"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-H9nhU3ARWby2nfSeuAbCDE">
+        <correspAction xml:id="i-H9nhU3ARWby2nfSeuAbCDE" type="registration">
           <date when="2004-06-28"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-JUm2ZJTJU29koQEqkWzNB">
+        <correspAction xml:id="i-JUm2ZJTJU29koQEqkWzNB" type="submission">
           <date when="2004-06-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GKqBHuGzasogH6VBPUEmZ8"/>
+        <correspAction xml:id="i-GKqBHuGzasogH6VBPUEmZ8" type="assigned"/>
         <correspContext corresp="i-GKqBHuGzasogH6VBPUEmZ8">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -125,11 +125,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Fi_0045/mot_200304_Fi_0045-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XFq4wYKAJp8gA5qqLMvDLF">
-        <div type="motTitle" xml:id="i-PgLM7YJHMeinw63C8znizC"/>
-        <div type="motSubmissionInfo" xml:id="i-LYwX5fB9cKDaHkH9VP2Uwy"/>
+      <div xml:id="i-XFq4wYKAJp8gA5qqLMvDLF" type="motHeader">
+        <div xml:id="i-PgLM7YJHMeinw63C8znizC" type="motTitle"/>
+        <div xml:id="i-LYwX5fB9cKDaHkH9VP2Uwy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-75MRaNucymFPtPqfVM4PRD">
+      <div xml:id="i-75MRaNucymFPtPqfVM4PRD" type="motBody">
         <div xml:id="i-XMYzs5CEhsesfKoyNDVxXU">
           <p xml:id="i-QisgdJ6oJ6m8SFfRimQFwo">
             2003/04 mnr: Fi45 pnr: kd182
@@ -461,8 +461,11 @@
           <p xml:id="i-UxU21YesfMUckojovVg7yj">
             regeringen till känna.
           </p>
-          <p xml:id="i-HsgKW1bWje89AWN8gFDz6t">
-            Stockholm den 23 juni 2004 Lars Lindén (kd)
+          <p xml:id="i-HsgKW1bWje89AWN8gFDz6t" type="date">
+            Stockholm den 23 juni 2004
+          </p>
+          <p type="signatureBlock" id="i-YQr3YX8gs8zVU2yKbJzEHi">
+            Lars Lindén (kd)
           </p>
           <p xml:id="i-6pdKe2zqKkmxUs59kh6R67">
             Mats Odell (kd) Stefan Attefall (kd) Annelie Enochson (kd) Per

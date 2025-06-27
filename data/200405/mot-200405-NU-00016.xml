@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00016">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-DkB4HsqPYSaZfcMuiPr3H1"/>
+        <correspAction xml:id="i-DkB4HsqPYSaZfcMuiPr3H1" type="basedOn"/>
         <correspContext corresp="i-DkB4HsqPYSaZfcMuiPr3H1">
           <ref>Proposition 2004/05:62</ref>
         </correspContext>
@@ -42,19 +42,19 @@
         <correspContext corresp="i-5wEkcWHzk2sr5UpR2JKSh6">
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8w3x2XPU4eh8fG1AQLoCdL">
+        <correspAction xml:id="i-8w3x2XPU4eh8fG1AQLoCdL" type="referral">
           <date when="2005-03-18"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-KTke1UmopARQ2HFD1WAbqF">
+        <correspAction xml:id="i-KTke1UmopARQ2HFD1WAbqF" type="registration">
           <date when="2005-03-17"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-R8JpTDdik8e6nxtPeZaWhd">
+        <correspAction xml:id="i-R8JpTDdik8e6nxtPeZaWhd" type="dismissal">
           <date when="2005-03-17"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DRaQst6zGyAJeoLbcR46yN">
+        <correspAction xml:id="i-DRaQst6zGyAJeoLbcR46yN" type="submission">
           <date when="2005-03-16"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RCgfWdfAPYayjnDCw8fSVF"/>
+        <correspAction xml:id="i-RCgfWdfAPYayjnDCw8fSVF" type="assigned"/>
         <correspContext corresp="i-RCgfWdfAPYayjnDCw8fSVF">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -69,11 +69,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_N_16/mot_200405_N_16-0001.pdf"/>
-      <div type="motHeader" xml:id="i-V7Jp3eTKDEuiRgv2BPb6JL">
-        <div type="motTitle" xml:id="i-WdxV8zHZd9Kbp4VAYd3kRr"/>
-        <div type="motSubmissionInfo" xml:id="i-2cSh3fzFmWfvvnDt6VEh6d"/>
+      <div xml:id="i-V7Jp3eTKDEuiRgv2BPb6JL" type="motHeader">
+        <div xml:id="i-WdxV8zHZd9Kbp4VAYd3kRr" type="motTitle"/>
+        <div xml:id="i-2cSh3fzFmWfvvnDt6VEh6d" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AKSnNtK432jAhFSkayTTmX">
+      <div xml:id="i-AKSnNtK432jAhFSkayTTmX" type="motBody">
         <div xml:id="i-8FE5PL6dzAKq8T4wu8q3py">
           <p xml:id="i-76XeRtQtCXaC9eSFS8doCe">
             2004/05 mnr: N16 pnr: kd139
@@ -169,8 +169,11 @@
             så att nödvändiga «investeringar kan göras för att långsiktigt
             säkra leveranssäkerheten.
           </p>
-          <p xml:id="i-6tfuB5TUdqjcrwopJXKufg">
-            Stockholm den 16 mars 2005 Olle Sandahl (kd)
+          <p xml:id="i-6tfuB5TUdqjcrwopJXKufg" type="date">
+            Stockholm den 16 mars 2005
+          </p>
+          <p type="signatureBlock" id="i-An5t1GQhJPjF8W489SLbRq">
+            Olle Sandahl (kd)
           </p>
         </div>
       </div>

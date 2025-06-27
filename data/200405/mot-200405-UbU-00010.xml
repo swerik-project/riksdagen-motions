@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00010">
   <teiHeader>
     <fileDesc>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KEHfePzHVbfGU6NgKMZe1p"/>
+        <correspAction xml:id="i-KEHfePzHVbfGU6NgKMZe1p" type="basedOn"/>
         <correspContext corresp="i-KEHfePzHVbfGU6NgKMZe1p">
           <ref>Proposition 2004/05:80</ref>
         </correspContext>
@@ -50,16 +50,16 @@
           <note type="signatory" corresp="i-ASHgRusN9GoHAH8eioxicP"/>
           <note type="signatory" corresp="i-S7wLw9aynA5vbRCsqxxL3N"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-4XMp8pg9jNNEE1oC8ABMBT">
+        <correspAction xml:id="i-4XMp8pg9jNNEE1oC8ABMBT" type="referral">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-D1Yvvs8aMT7ZmppJbWLgYc">
+        <correspAction xml:id="i-D1Yvvs8aMT7ZmppJbWLgYc" type="dismissal">
           <date when="2005-04-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AHQauKD4Ur2B7H24ENf7ag">
+        <correspAction xml:id="i-AHQauKD4Ur2B7H24ENf7ag" type="submission">
           <date when="2005-04-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QK6o4gLi4N8XR9r5SnSE4i"/>
+        <correspAction xml:id="i-QK6o4gLi4N8XR9r5SnSE4i" type="assigned"/>
         <correspContext corresp="i-QK6o4gLi4N8XR9r5SnSE4i">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -74,11 +74,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_10/mot_200405_Ub_10-0001.pdf"/>
-      <div type="motHeader" xml:id="i-BeyAys15UP9rADG7kv6r2w">
-        <div type="motTitle" xml:id="i-4XAPiwEGYtaepdoekHnozW"/>
-        <div type="motSubmissionInfo" xml:id="i-F6VjcbTS6LmEPErWZkCCRF"/>
+      <div xml:id="i-BeyAys15UP9rADG7kv6r2w" type="motHeader">
+        <div xml:id="i-4XAPiwEGYtaepdoekHnozW" type="motTitle"/>
+        <div xml:id="i-F6VjcbTS6LmEPErWZkCCRF" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2kGVrtkw8ZVMCsam6CK45t">
+      <div xml:id="i-2kGVrtkw8ZVMCsam6CK45t" type="motBody">
         <div xml:id="i-3o4s8Vt51tW6qPtFMB9pPT">
           <p xml:id="i-7jy6b6BSd8MHQtotA1zqMQ">
             2004/05 mnr: Ub10 pnr: fp1206
@@ -170,9 +170,11 @@
             tjänster underlättas. Man bör också studera hur man skall utvärdera
             och uppgradera tredje uppgiften inom meriteringsgranskningen.
           </p>
-          <p xml:id="i-LvnRs2DotrfTzupDdkf2oP">
-            Stockholm den 6 april 2005 Marie Wahlgren (fp) Tina Acketoft
-            (fp)
+          <p xml:id="i-LvnRs2DotrfTzupDdkf2oP" type="date">
+            Stockholm den 6 april 2005
+          </p>
+          <p type="signatureBlock" id="i-JXncXrZfrFnZxDZBSiMkAR">
+            Marie Wahlgren (fp) Tina Acketoft (fp)
           </p>
         </div>
       </div>

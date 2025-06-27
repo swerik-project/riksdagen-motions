@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-UU-00027">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-SohYLAuWsbMU8CyYucDha1</idno>
-            <name>Håkan Holmberg </name>
+            <name>Håkan Holmberg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-T576BDaw5pvVYLHtf4Pt4X</idno>
-            <name>Lennart Rohdin </name>
+            <name>Lennart Rohdin</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-NgCTKqp2fs7ZtdGdg2MLiL</idno>
-            <name>Karl-Göran Biörsmark </name>
+            <name>Karl-Göran Biörsmark</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Mx86AapTuV2ufjpySN5Mzh"/>
+        <correspAction xml:id="i-Mx86AapTuV2ufjpySN5Mzh" type="basedOn"/>
         <correspContext corresp="i-Mx86AapTuV2ufjpySN5Mzh">
           <ref>Proposition 1994/95:160</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-T576BDaw5pvVYLHtf4Pt4X"/>
           <note type="signatory" corresp="i-NgCTKqp2fs7ZtdGdg2MLiL"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2dc5RhBivwNten4ryhG5Bf">
+        <correspAction xml:id="i-2dc5RhBivwNten4ryhG5Bf" type="referral">
           <date when="1995-03-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Nkd2GoeNjx6ftdCyzEuPvH">
+        <correspAction xml:id="i-Nkd2GoeNjx6ftdCyzEuPvH" type="dismissal">
           <date when="1995-03-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PGmKXz9wfuySSUeuJPJND3">
+        <correspAction xml:id="i-PGmKXz9wfuySSUeuJPJND3" type="submission">
           <date when="1995-03-14"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-HDeqfqcXvuQnNG3RYkpor1">
+        <correspAction xml:id="i-HDeqfqcXvuQnNG3RYkpor1" type="referral">
           <date when="1995-03-16"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-2yw12D7EpFKVJpewtZFrCG">
+        <correspAction xml:id="i-2yw12D7EpFKVJpewtZFrCG" type="dismissal">
           <date when="1995-03-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EVny6TUCFTUZj5hB4Zp3D4">
+        <correspAction xml:id="i-EVny6TUCFTUZj5hB4Zp3D4" type="submission">
           <date when="1995-03-14"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-S28icxZCSSJtyBdtuNNxN8"/>
+        <correspAction xml:id="i-S28icxZCSSJtyBdtuNNxN8" type="assigned"/>
         <correspContext corresp="i-S28icxZCSSJtyBdtuNNxN8">
           <ref type="assignedTo">Utrikesutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_UU_27/mot_199495_UU_27-001.pdf"/>
-      <div type="motHeader" xml:id="i-HAeooW7YPmoF2kddgTuiCN">
-        <div type="motTitle" xml:id="i-HUNPdxiUhEGRqNb4VNEJHh"/>
-        <div type="motSubmissionInfo" xml:id="i-Hy9L9i5scCMjBC2BCkndJx"/>
+      <div xml:id="i-HAeooW7YPmoF2kddgTuiCN" type="motHeader">
+        <div xml:id="i-HUNPdxiUhEGRqNb4VNEJHh" type="motTitle"/>
+        <div xml:id="i-Hy9L9i5scCMjBC2BCkndJx" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-B4NuGZJ1aZDgEG1UgQZmNV">
+      <div xml:id="i-B4NuGZJ1aZDgEG1UgQZmNV" type="motBody">
         <div xml:id="i-VCje2m3HwkpEyX73m8a9Ek">
           <p xml:id="i-M2XJf63yvGSscseNRQfTNX">
             Motion till riksdagen
@@ -485,8 +485,13 @@
           <p xml:id="i-HRssQ9XJJcnfrPWVRRsGRp">
             tionen anförts om prioritering av demokrati- och miljösatsningar
             vid Mot. 1994/95 eventuella framtida utökningar av anslagsramen
-            för samarbete med =U27 länderna i Öst- och Centraleuropa. Stockholm
-            den 14 mars 1995 Håkan Holmberg (fp)
+            för samarbete med =U27 länderna i Öst- och Centraleuropa.
+          </p>
+          <p type="date" id="i-TNaywBSbLjUFDHr7RNFP58">
+            Stockholm den 14 mars 1995
+          </p>
+          <p type="signatureBlock" id="i-NrGLum2G3j8fnHJTyTT8zi">
+            Håkan Holmberg (fp)
           </p>
           <p xml:id="i-2pBdUawbkrZVmDYJUxitio">
             Karl-Göran Biörsmark (fp) Lennart Rohdin (fp)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KU-00432">
   <teiHeader>
     <fileDesc>
@@ -150,16 +150,16 @@
           <note type="signatory" corresp="i-Bx9fbNBh4ybH7H2kWavRdb"/>
           <note type="signatory" corresp="i-Ga4FaAaNvVxH6nfoR7FVAe"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JXzDLoweWXMxt7goo766SR">
+        <correspAction xml:id="i-JXzDLoweWXMxt7goo766SR" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JBZ2hfbv7P3fn7vA4s2tJ8">
+        <correspAction xml:id="i-JBZ2hfbv7P3fn7vA4s2tJ8" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8a9qnM7cKvcu1bgePSmtCT">
+        <correspAction xml:id="i-8a9qnM7cKvcu1bgePSmtCT" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GampzVd9tAFVCmQTeUw1Lw"/>
+        <correspAction xml:id="i-GampzVd9tAFVCmQTeUw1Lw" type="assigned"/>
         <correspContext corresp="i-GampzVd9tAFVCmQTeUw1Lw">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -174,11 +174,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_K_0432/mot_200203_K_0432-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VqJMLnDrk8jnDafUS3w43E">
-        <div type="motTitle" xml:id="i-GSwqFjQVUwAzPhFgLMu5TQ"/>
-        <div type="motSubmissionInfo" xml:id="i-MsYX4KpiLCJqknmR85KbQa"/>
+      <div xml:id="i-VqJMLnDrk8jnDafUS3w43E" type="motHeader">
+        <div xml:id="i-GSwqFjQVUwAzPhFgLMu5TQ" type="motTitle"/>
+        <div xml:id="i-MsYX4KpiLCJqknmR85KbQa" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6SYd4Lb5j4giwz5bHgR9JP">
+      <div xml:id="i-6SYd4Lb5j4giwz5bHgR9JP" type="motBody">
         <div xml:id="i-S7ktw6n2nBBLnw45R6irMB">
           <p xml:id="i-7wb3TjTf2MeN4NFJUG38LR">
             2002/03 mnr: K432
@@ -630,8 +630,9 @@
             &gt; Yrkandena 12 och 14 hänvisade till NU.
           </p>
           <p xml:id="i-TN7y3Ny2KPryTVUwewpkbu">
-            "Yrkande 15 hänvisat till FiU. &gt; Yrkande 16 hänvisat till JuU.
-            S Yrkande17 hänvisat till MJU. 7 Yrkande 18 hänvisat till SoU.
+            "Yrkande 15 hänvisat till FiU. &gt; Yrkande 16 hänvisat till
+            JuU. S Yrkande17 hänvisat till MJU. 7 Yrkande 18 hänvisat till
+            SoU.
           </p>
           <p xml:id="i-66ARypLsDccWoVjUuCvYHE">
             2002/03:K432
@@ -1512,32 +1513,33 @@
             medborgare att avgöra även om det i praktiken blir en konvergens
             genom gränshandel och människors och företags rörlighet. Vi vill
             dock lyfta fram ett viktigt undantag. Det är nödvändigt att införa
-            gemensamma «&lt;miniminivåer för miljöavgifter för att komma åt gränsöverskridande
-            miljöförstöring. Av samma motiv som vi vill använda oss av majoritetsbeslut
-            för regler i syfte att komma åt andra gränsöverskridande problem
-            kan vi behöva använda ekonomiska styrmedel i form av miljöavgifter.
-            Vi anser exempelvis att det är nödvändigt att snarast införa en
-            gemensam miniminivå för en koldioxidskatt i EU-länderna för att
-            motverka växthuseffekten. Det beslutet måste dock samordnas med
-            EU-beslut om handel inom EU med utsläppsrätter för koldioxid och
-            ett beslut om handel även inom Sverige av samma slags utsläppsrätter.
-            Vilka skattesatser och vilket skattesystem ett enskilt land har
-            är av stor betydelse för det landets ekonomi och möjligheterna
-            till jobb och tillväxt. Det land som har höga skatter måste erbjuda
-            motsvarande stora fördelar för att inte företag och individer
-            ska välja att etablera sig på andra ställen i världen eller inom
-            EU. Den fria rörligheten för kapital gör att människor har möjlighet
-            att placera sina pengar var de vill. Den fria rörligheten för
-            varor och tjänster gör att människor i princip kan göra sina inköp
-            varifrån som helst. En viss harmonisering av skatterna på arbete,
-            företagande och konsumtion kommer — som sagt — att ske på grund
-            av gränshandel, individers rörlighet, företagens rörlighet och
-            annat som kan göra skattebaserna internationellt mer rörliga än
-            förr. Just EU:s betydelse för det större skeendet med allt rörligare
-            skattebaser bör dock inte överdrivas. EU:s medlemsländer har beslutat
-            att med hjälp av mätbara kriterier, så kallad benchmarking, göra
-            regelbundna uppföljningar av det nationella arbetet inom social-
-            och arbetsmarknadspolitiken. Vi tror att detta är en bättre
+            gemensamma «&lt;miniminivåer för miljöavgifter för att komma åt
+            gränsöverskridande miljöförstöring. Av samma motiv som vi vill
+            använda oss av majoritetsbeslut för regler i syfte att komma åt
+            andra gränsöverskridande problem kan vi behöva använda ekonomiska
+            styrmedel i form av miljöavgifter. Vi anser exempelvis att det
+            är nödvändigt att snarast införa en gemensam miniminivå för en
+            koldioxidskatt i EU-länderna för att motverka växthuseffekten.
+            Det beslutet måste dock samordnas med EU-beslut om handel inom
+            EU med utsläppsrätter för koldioxid och ett beslut om handel även
+            inom Sverige av samma slags utsläppsrätter. Vilka skattesatser
+            och vilket skattesystem ett enskilt land har är av stor betydelse
+            för det landets ekonomi och möjligheterna till jobb och tillväxt.
+            Det land som har höga skatter måste erbjuda motsvarande stora
+            fördelar för att inte företag och individer ska välja att etablera
+            sig på andra ställen i världen eller inom EU. Den fria rörligheten
+            för kapital gör att människor har möjlighet att placera sina pengar
+            var de vill. Den fria rörligheten för varor och tjänster gör att
+            människor i princip kan göra sina inköp varifrån som helst. En
+            viss harmonisering av skatterna på arbete, företagande och konsumtion
+            kommer — som sagt — att ske på grund av gränshandel, individers
+            rörlighet, företagens rörlighet och annat som kan göra skattebaserna
+            internationellt mer rörliga än förr. Just EU:s betydelse för det
+            större skeendet med allt rörligare skattebaser bör dock inte överdrivas.
+            EU:s medlemsländer har beslutat att med hjälp av mätbara kriterier,
+            så kallad benchmarking, göra regelbundna uppföljningar av det
+            nationella arbetet inom social- och arbetsmarknadspolitiken. Vi
+            tror att detta är en bättre
           </p>
           <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_K_0432/mot_200203_K_0432-0023.pdf"/>
           <p xml:id="i-9DfWE9qeR1xMQKY2PPXp4Z">
@@ -2009,10 +2011,10 @@
             och tobak som en hälsofråga och inte som ett jordbruksproblem.
           </p>
           <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_K_0432/mot_200203_K_0432-0031.pdf"/>
-          <p xml:id="i-9EqN5x5w2z8CX7UVn82hd3">
+          <p xml:id="i-9EqN5x5w2z8CX7UVn82hd3" type="date">
             Stockholm den 20 oktober 2002
           </p>
-          <p xml:id="i-SheL486KAhxxvQDgPohn9t">
+          <p xml:id="i-SheL486KAhxxvQDgPohn9t" type="signatureBlock">
             Lars Leijonborg (fp) Bo Könberg (fp) Marita Aronson (fp) Lennart
             Kollmats (fp) Erik Ullenhag (fp) Yvonne Ångström (fp) Cecilia
             Nilsson Wigström (fp) Gabriel Romanus (fp)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00235">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-DbHLBWSJ5g3vP6bbMXEB8b">
           <note type="signatory" corresp="i-P9fVT6wJo29FgZWPQLxr6o"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TpMSvHDZkEqAid78a25B6G">
+        <correspAction xml:id="i-TpMSvHDZkEqAid78a25B6G" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8tHa85ezTtFQLiDfVJCZM2">
+        <correspAction xml:id="i-8tHa85ezTtFQLiDfVJCZM2" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-F2Xbif4bHR9cHF2rXuozHc">
+        <correspAction xml:id="i-F2Xbif4bHR9cHF2rXuozHc" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RBBt9YG3sgmdv2zF7iFehS"/>
+        <correspAction xml:id="i-RBBt9YG3sgmdv2zF7iFehS" type="assigned"/>
         <correspContext corresp="i-RBBt9YG3sgmdv2zF7iFehS">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_N_235/mot_200405_N_235-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LMDPnDX3VHJkE6yuGV2qhD">
-        <div type="motTitle" xml:id="i-QrogP34yKEcFLJnimnZH2m"/>
-        <div type="motSubmissionInfo" xml:id="i-W6bm7XGQ7CfUabjpGzxRwV"/>
+      <div xml:id="i-LMDPnDX3VHJkE6yuGV2qhD" type="motHeader">
+        <div xml:id="i-QrogP34yKEcFLJnimnZH2m" type="motTitle"/>
+        <div xml:id="i-W6bm7XGQ7CfUabjpGzxRwV" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6wi85AEsR53M32QNYZQv7E">
+      <div xml:id="i-6wi85AEsR53M32QNYZQv7E" type="motBody">
         <div xml:id="i-RG5Gc8HTBsfXCX1PfQxUoQ">
           <p xml:id="i-L1ibaEmvpiaUMfgzT16UpJ">
             2004/05 mnr: N235 pnr: fp707
@@ -131,8 +131,11 @@
             att inga nya regler och administrativa kostnader får läggas på
             de små företagen utan att någon annan tas bort, borde därför införas.
           </p>
-          <p xml:id="i-5qAqQvJA5GtNNB7J48sii5">
-            Stockholm den 28 september 2004 Anna Grönlund Krantz (fp)
+          <p xml:id="i-5qAqQvJA5GtNNB7J48sii5" type="date">
+            Stockholm den 28 september 2004
+          </p>
+          <p type="signatureBlock" id="i-57sFwt38TnqBjCFj8WvSiu">
+            Anna Grönlund Krantz (fp)
           </p>
         </div>
       </div>

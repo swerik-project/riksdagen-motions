@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-FöU-00011">
   <teiHeader>
     <fileDesc>
@@ -26,7 +26,7 @@
         <listPerson>
           <person>
             <idno>r-0000000000000</idno>
-            <name>Maud Ekendahl </name>
+            <name>Maud Ekendahl</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-9JfzeUNqpVVQM9ip6LXsGG"/>
+        <correspAction xml:id="i-9JfzeUNqpVVQM9ip6LXsGG" type="basedOn"/>
         <correspContext corresp="i-9JfzeUNqpVVQM9ip6LXsGG">
           <ref>Proposition 1999/2000:30</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="r-0000000000000"/>
           <note type="signatory" corresp="r-0000000000000"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Fx6qvFxsYGJH6a8hVEG21z">
+        <correspAction xml:id="i-Fx6qvFxsYGJH6a8hVEG21z" type="referral">
           <date when="1999-12-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SShCC1fLehMKUqm3dtM8RV">
+        <correspAction xml:id="i-SShCC1fLehMKUqm3dtM8RV" type="dismissal">
           <date when="1999-12-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5ubGjXMm9vb73ZieN2Ndcc">
+        <correspAction xml:id="i-5ubGjXMm9vb73ZieN2Ndcc" type="submission">
           <date when="1999-12-10"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Nexr8bg7oArmiUYHtcX9w9">
+        <correspAction xml:id="i-Nexr8bg7oArmiUYHtcX9w9" type="referral">
           <date when="1999-12-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JYXW1Qy8N9VHxrpH9DcQvJ">
+        <correspAction xml:id="i-JYXW1Qy8N9VHxrpH9DcQvJ" type="dismissal">
           <date when="1999-12-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KuUANtQAGr8PhEPszbyxU6">
+        <correspAction xml:id="i-KuUANtQAGr8PhEPszbyxU6" type="submission">
           <date when="1999-12-10"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4485pXCzgv7jhR2FnL9p2P"/>
+        <correspAction xml:id="i-4485pXCzgv7jhR2FnL9p2P" type="assigned"/>
         <correspContext corresp="i-4485pXCzgv7jhR2FnL9p2P">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fö_0011/mot_199900_Fö_0011-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Mdu2tMcFjoW1NcffQE8yVx">
-        <div type="motTitle" xml:id="i-Y34EsDyR9oTeq4BfUPWz4b"/>
-        <div type="motSubmissionInfo" xml:id="i-Gn2hWpNwCzP6joma4nkR2w"/>
+      <div xml:id="i-Mdu2tMcFjoW1NcffQE8yVx" type="motHeader">
+        <div xml:id="i-Y34EsDyR9oTeq4BfUPWz4b" type="motTitle"/>
+        <div xml:id="i-Gn2hWpNwCzP6joma4nkR2w" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UwGBZjLCQpcPmjNRU5AWsD">
+      <div xml:id="i-UwGBZjLCQpcPmjNRU5AWsD" type="motBody">
         <div xml:id="i-3JrXFzuJdZ5ycj7nUgJ7zR">
           <p xml:id="i-HkumucvmsZVovevBmhHquV">
             1999/2000 mnr: Föll pnr: m676
@@ -136,9 +136,11 @@
             regeringen återkommer med ny utredning och nya direktiv.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fö_0011/mot_199900_Fö_0011-0002.pdf"/>
-          <p xml:id="i-5jbgS4vK2ehCVGZ99B85Li">
-            Stockholm den 9 december 1999 Mot. 1999/2000 Föll Maud Ekendahl
-            (m)
+          <p xml:id="i-5jbgS4vK2ehCVGZ99B85Li" type="date">
+            Stockholm den 9 december 1999
+          </p>
+          <p type="signatureBlock" id="i-Jb2XNQMg7BJyin4cSvp2QC">
+            Mot. 1999/2000 Föll Maud Ekendahl (m)
           </p>
         </div>
       </div>

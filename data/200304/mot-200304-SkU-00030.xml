@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00030">
   <teiHeader>
     <fileDesc>
@@ -83,7 +83,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-CBvEUQXiGcAGvbqvJKRK6e"/>
+        <correspAction xml:id="i-CBvEUQXiGcAGvbqvJKRK6e" type="basedOn"/>
         <correspContext corresp="i-CBvEUQXiGcAGvbqvJKRK6e">
           <ref>Proposition 2003/04:64</ref>
         </correspContext>
@@ -98,16 +98,16 @@
           <note type="signatory" corresp="i-J2pcjBf6ppCUUibn7Biroc"/>
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-XY1xQinRE2pR1dGgdG8c76">
+        <correspAction xml:id="i-XY1xQinRE2pR1dGgdG8c76" type="referral">
           <date when="2004-02-20"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-R8mTT4LDZpRBEqVcAQFTZA">
+        <correspAction xml:id="i-R8mTT4LDZpRBEqVcAQFTZA" type="dismissal">
           <date when="2004-02-19"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GABnDYvDBAbXziALCuGG4Z">
+        <correspAction xml:id="i-GABnDYvDBAbXziALCuGG4Z" type="submission">
           <date when="2004-02-18"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-4a4h428KP8xwHGRfCTWQEW"/>
+        <correspAction xml:id="i-4a4h428KP8xwHGRfCTWQEW" type="assigned"/>
         <correspContext corresp="i-4a4h428KP8xwHGRfCTWQEW">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -122,11 +122,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0030/mot_200304_Sk_0030-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2V8UZCBNu4ZJhu3MVZv7tV">
-        <div type="motTitle" xml:id="i-E5ziWFE62QKhbpVH277vNQ"/>
-        <div type="motSubmissionInfo" xml:id="i-JuvQBDuXzxp6c4HLtfYPkb"/>
+      <div xml:id="i-2V8UZCBNu4ZJhu3MVZv7tV" type="motHeader">
+        <div xml:id="i-E5ziWFE62QKhbpVH277vNQ" type="motTitle"/>
+        <div xml:id="i-JuvQBDuXzxp6c4HLtfYPkb" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KmYN8jgBvtTknpUo9SU7Yo">
+      <div xml:id="i-KmYN8jgBvtTknpUo9SU7Yo" type="motBody">
         <div xml:id="i-VijNyEx32yLpHH1QcguNbi">
           <p xml:id="i-VPvP6uUnWQZYD6nmqHcYPr">
             2003/04 mnr: Sk30 pnr: kd144
@@ -392,8 +392,11 @@
           <p xml:id="i-DNCgMCtTwfbPkD9LLHVfeQ">
             2003/04:Sk30
           </p>
-          <p xml:id="i-Apo8BXJE611XgdZ6gQFvrp">
-            Stockholm den 18 februari 2004 Per Landgren (kd)
+          <p xml:id="i-Apo8BXJE611XgdZ6gQFvrp" type="date">
+            Stockholm den 18 februari 2004
+          </p>
+          <p type="signatureBlock" id="i-Brnw5gvPDBuqvWY8MbXaR7">
+            Per Landgren (kd)
           </p>
           <p xml:id="i-WDihAS4jNpZk4D9m9Eu3UR">
             Mats Odell (kd) Stefan Attefall (kd) Annelie Enochson (kd) Lars

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00320">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-QqQ96z9hf4LQtMxJfJm6ZQ"/>
           <note type="signatory" corresp="i-F8qdE2eedz12PwFanq3ahv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RrvGKYxAKd3NXDuxfDiMgj">
+        <correspAction xml:id="i-RrvGKYxAKd3NXDuxfDiMgj" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-z6fu6P4WcjNBShbBsH6bv">
+        <correspAction xml:id="i-z6fu6P4WcjNBShbBsH6bv" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M3aU8NZjvwYGPx3BgE7Lrw">
+        <correspAction xml:id="i-M3aU8NZjvwYGPx3BgE7Lrw" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FRCTA3tzA9NNfWP9hDu7Jc"/>
+        <correspAction xml:id="i-FRCTA3tzA9NNfWP9hDu7Jc" type="assigned"/>
         <correspContext corresp="i-FRCTA3tzA9NNfWP9hDu7Jc">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_320/mot_200405_Sk_320-0001.pdf"/>
-      <div type="motHeader" xml:id="i-EiFbyxsw8o3buWaS3VDBM9">
-        <div type="motTitle" xml:id="i-T82vdyZpMJVVwHpVeATaeE"/>
-        <div type="motSubmissionInfo" xml:id="i-TEADLfEzk5wZDE8BLcgrS1"/>
+      <div xml:id="i-EiFbyxsw8o3buWaS3VDBM9" type="motHeader">
+        <div xml:id="i-T82vdyZpMJVVwHpVeATaeE" type="motTitle"/>
+        <div xml:id="i-TEADLfEzk5wZDE8BLcgrS1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GheYdWbFwkd3MtEmJquKBH">
+      <div xml:id="i-GheYdWbFwkd3MtEmJquKBH" type="motBody">
         <div xml:id="i-UQ2Fp61htmDomPSxvpWRJn">
           <p xml:id="i-DMJGGnA8Sg6TaibJP6esHP">
             2004/05 mnr: Sk320 pnr: m1489
@@ -136,9 +136,11 @@
             påtalats, allt vanligare att bostadsrättsföreningar betalar mer
             i inkomstskatt än fastighetsskatt.
           </p>
-          <p xml:id="i-2bToVyiNm3NABceDxZ4Vob">
-            Stockholm den 1 oktober 2004 Jeppe Johnsson (m) Maud Ekendahl
-            (m)
+          <p xml:id="i-2bToVyiNm3NABceDxZ4Vob" type="date">
+            Stockholm den 1 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-WVBr1HAdqBT7965b6EBx7V">
+            Jeppe Johnsson (m) Maud Ekendahl (m)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-FöU-00203">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-S1n75RDeD8RbCWwgyV73s">
           <note type="signatory" corresp="i-JJGD2ECwHv6xGCZyyrtKmA"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Vx6gBEPtEQaDnt1u69ZS2g">
+        <correspAction xml:id="i-Vx6gBEPtEQaDnt1u69ZS2g" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-EiMptgehCwr1dvy2itpjRH">
+        <correspAction xml:id="i-EiMptgehCwr1dvy2itpjRH" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SoMaMQg7aCzJLoMoaATLn8">
+        <correspAction xml:id="i-SoMaMQg7aCzJLoMoaATLn8" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Y5f6TsUPfT3Tmkms9aVWKC"/>
+        <correspAction xml:id="i-Y5f6TsUPfT3Tmkms9aVWKC" type="assigned"/>
         <correspContext corresp="i-Y5f6TsUPfT3Tmkms9aVWKC">
           <ref type="assignedTo">Försvarsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Fö_203/mot_200506_Fö_203-0001.pdf"/>
-      <div type="motHeader" xml:id="i-wab2XgewnVZFz1bfMNSx1">
-        <div type="motTitle" xml:id="i-HvdqPLpoCHth6Th3y8D3JB"/>
-        <div type="motSubmissionInfo" xml:id="i-7iBfVG2ErCkWhN453zRqBK"/>
+      <div xml:id="i-wab2XgewnVZFz1bfMNSx1" type="motHeader">
+        <div xml:id="i-HvdqPLpoCHth6Th3y8D3JB" type="motTitle"/>
+        <div xml:id="i-7iBfVG2ErCkWhN453zRqBK" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QrkJSUJ6SCvbYa5YmNaDgw">
+      <div xml:id="i-QrkJSUJ6SCvbYa5YmNaDgw" type="motBody">
         <div xml:id="i-C4mktATYubhCRudAkgLsvL">
           <p xml:id="i-86mMkYcdezqY6csvxWu7Gf">
             2005/06 mnr: Fö203 pnr: m1159
@@ -111,8 +111,11 @@
             att låta försvaret rensa skjutfälten, bygg sedan upp en spetskompetens
             och exportera kunskaperna och förmågan.
           </p>
-          <p xml:id="i-XLR325198VD1Gv3RDXScbR">
-            Stockholm den 16 september 2005 Carl-Axel Roslund (m)
+          <p xml:id="i-XLR325198VD1Gv3RDXScbR" type="date">
+            Stockholm den 16 september 2005
+          </p>
+          <p type="signatureBlock" id="i-7rFEvxBnmaXEY4yWPsJrE7">
+            Carl-Axel Roslund (m)
           </p>
         </div>
       </div>

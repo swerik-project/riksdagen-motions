@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00265">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
           <note type="signatory" corresp="i-9xcMYrrML4AzXQ6jGcD6e2"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WFwbRsc4nFtgBohqxWQmhR">
+        <correspAction xml:id="i-WFwbRsc4nFtgBohqxWQmhR" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JMcM5iG3tRjYBVxF62BUYh">
+        <correspAction xml:id="i-JMcM5iG3tRjYBVxF62BUYh" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CwBzPQmFRajHbXbUNM9w7J">
+        <correspAction xml:id="i-CwBzPQmFRajHbXbUNM9w7J" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5BNfMHQ43Y9WrQyZp2EWN4"/>
+        <correspAction xml:id="i-5BNfMHQ43Y9WrQyZp2EWN4" type="assigned"/>
         <correspContext corresp="i-5BNfMHQ43Y9WrQyZp2EWN4">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_N_265/mot_200405_N_265-0001.pdf"/>
-      <div type="motHeader" xml:id="i-7m7WscvRjgZ1dsmZ5myHje">
-        <div type="motTitle" xml:id="i-BCusnoHabbWMFzUbw7eAuq"/>
-        <div type="motSubmissionInfo" xml:id="i-4rSaPAiYBpUuSC53TcVsiH"/>
+      <div xml:id="i-7m7WscvRjgZ1dsmZ5myHje" type="motHeader">
+        <div xml:id="i-BCusnoHabbWMFzUbw7eAuq" type="motTitle"/>
+        <div xml:id="i-4rSaPAiYBpUuSC53TcVsiH" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-6H9qc6h1CrvjvnE8anZCBd">
+      <div xml:id="i-6H9qc6h1CrvjvnE8anZCBd" type="motBody">
         <div xml:id="i-RJ6uUBqAe2kw4knrXs2Sm4">
           <p xml:id="i-F9cZv5x1XCEWzvFm4AREYf">
             2004/05 mnr: N265 pnr: s3067
@@ -167,9 +167,11 @@
             användas och i vilken takt användningen skall öka, men överlåta
             åt marknadens aktörer att bestämma hur distributionen ordnas.
           </p>
-          <p xml:id="i-AUcdBjeAn39rsjd4fFa7TC">
-            Stockholm den 24 september 2004 Michael Hagberg (s) Christin
-            Hagberg (s)
+          <p xml:id="i-AUcdBjeAn39rsjd4fFa7TC" type="date">
+            Stockholm den 24 september 2004
+          </p>
+          <p type="signatureBlock" id="i-4MjZWA5wmsVnPNR3TQ2kuS">
+            Michael Hagberg (s) Christin Hagberg (s)
           </p>
         </div>
       </div>

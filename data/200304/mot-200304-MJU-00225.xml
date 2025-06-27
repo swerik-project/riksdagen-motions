@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00225">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-X9ojSAp3drMAM7mhJhnDBa">
           <note type="signatory" corresp="i-MerwJjA5PYKs4QYtgsoxJE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2Zq4vxygjaSi6JRd6w11Uo">
+        <correspAction xml:id="i-2Zq4vxygjaSi6JRd6w11Uo" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6xbJCdjHc8mXHybVzoa9QP">
+        <correspAction xml:id="i-6xbJCdjHc8mXHybVzoa9QP" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RVnbjnKosKPMgBLGE49qx8">
+        <correspAction xml:id="i-RVnbjnKosKPMgBLGE49qx8" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-CA8ur2PJrdca9WEkoJn25V"/>
+        <correspAction xml:id="i-CA8ur2PJrdca9WEkoJn25V" type="assigned"/>
         <correspContext corresp="i-CA8ur2PJrdca9WEkoJn25V">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_MJ_0225/mot_200304_MJ_0225-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NMn9jsawBKtZkY3ZqimxNv">
-        <div type="motTitle" xml:id="i-9ZcWE26M1DTbvk79LV4jF1"/>
-        <div type="motSubmissionInfo" xml:id="i-2yhkkcPmfajrrdVqQd9gp6"/>
+      <div xml:id="i-NMn9jsawBKtZkY3ZqimxNv" type="motHeader">
+        <div xml:id="i-9ZcWE26M1DTbvk79LV4jF1" type="motTitle"/>
+        <div xml:id="i-2yhkkcPmfajrrdVqQd9gp6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WYAHDfPffDSuFRdTaqQXph">
+      <div xml:id="i-WYAHDfPffDSuFRdTaqQXph" type="motBody">
         <div xml:id="i-UGNcQuhypoBHPUAvaDin1L">
           <p xml:id="i-6MfLGrQAUJtbULKzdeBSj6">
             2003/04 mnr: MJ225 pnr: kd592
@@ -111,8 +111,11 @@
             lastinnehåll, färdväg och slutdestination, samtidigt som ett bredare
             samarbete mellan Kustbevakningen, tullen och flygvapnet införs.
           </p>
-          <p xml:id="i-DPKhFLVJEtbqdZXGwzwkjJ">
-            Stockholm den 29 september 2003 Erling Wälivaara (kd)
+          <p xml:id="i-DPKhFLVJEtbqdZXGwzwkjJ" type="date">
+            Stockholm den 29 september 2003
+          </p>
+          <p type="signatureBlock" id="i-E9ULJqZ5ykVBQTfKmuzGBg">
+            Erling Wälivaara (kd)
           </p>
         </div>
       </div>

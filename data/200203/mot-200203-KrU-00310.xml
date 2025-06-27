@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-KrU-00310">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-FCaqhEyLsFzhgCRVvzdEZh">
           <note type="signatory" corresp="i-9KG7jeGdkJDsSQQb3gKA2U"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-D4y5RWhiKitn2FzHYUQduY">
+        <correspAction xml:id="i-D4y5RWhiKitn2FzHYUQduY" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Xn8Y3teU51rHdZPTaRzbiS">
+        <correspAction xml:id="i-Xn8Y3teU51rHdZPTaRzbiS" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8UPqHUaNuLhX8kzLZarWhV">
+        <correspAction xml:id="i-8UPqHUaNuLhX8kzLZarWhV" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-AnpoFfXW8F3j95YgLBq1Ma"/>
+        <correspAction xml:id="i-AnpoFfXW8F3j95YgLBq1Ma" type="assigned"/>
         <correspContext corresp="i-AnpoFfXW8F3j95YgLBq1Ma">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Kr_0310/mot_200203_Kr_0310-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UWnfemB95XYrUeXDUwQLR3">
-        <div type="motTitle" xml:id="i-CaYX43HNf352nrLK8PThnt"/>
-        <div type="motSubmissionInfo" xml:id="i-5M3x4tFeFb3LNi2c6Saxef"/>
+      <div xml:id="i-UWnfemB95XYrUeXDUwQLR3" type="motHeader">
+        <div xml:id="i-CaYX43HNf352nrLK8PThnt" type="motTitle"/>
+        <div xml:id="i-5M3x4tFeFb3LNi2c6Saxef" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2d6b4Fia6tvsvr1mbvb1XL">
+      <div xml:id="i-2d6b4Fia6tvsvr1mbvb1XL" type="motBody">
         <div xml:id="i-9RCjoE67pCg7b5koKzw8ni">
           <p xml:id="i-R5zHH8J4jVxLQv7x1TZvAj">
             18
@@ -111,8 +111,11 @@
             vid lämpligt tillfälle se över förutsättningarna för ett verksamt
             skydd för vårt historiska arv.
           </p>
-          <p xml:id="i-JU4jyA918bUbmdrC6vQEG4">
-            Stockholm den 22 oktober 2002 Urban Ahlin (s)
+          <p xml:id="i-JU4jyA918bUbmdrC6vQEG4" type="date">
+            Stockholm den 22 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-PVM6TQbFqVmNUtM4gWtYbx">
+            Urban Ahlin (s)
           </p>
         </div>
       </div>

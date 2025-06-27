@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00263">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-UdGnyRLxFm6LiCDBYWE7MV"/>
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LqmYwtrXM2JRtAwFoTQn2y">
+        <correspAction xml:id="i-LqmYwtrXM2JRtAwFoTQn2y" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-URy64VjXgoAuriuBywJSK1">
+        <correspAction xml:id="i-URy64VjXgoAuriuBywJSK1" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-T2tvreQxNpAAr1rF88MkRW">
+        <correspAction xml:id="i-T2tvreQxNpAAr1rF88MkRW" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JDAwNAKf9cqTKT14rR8zrk"/>
+        <correspAction xml:id="i-JDAwNAKf9cqTKT14rR8zrk" type="assigned"/>
         <correspContext corresp="i-JDAwNAKf9cqTKT14rR8zrk">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_263/mot_200506_Ju_263-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CmL82gvpWfEFzykUXcBwz9">
-        <div type="motTitle" xml:id="i-9rX7i66SaYK5i6yPdNMPe6"/>
-        <div type="motSubmissionInfo" xml:id="i-GbYapaNza7b8mjxQfwopz3"/>
+      <div xml:id="i-CmL82gvpWfEFzykUXcBwz9" type="motHeader">
+        <div xml:id="i-9rX7i66SaYK5i6yPdNMPe6" type="motTitle"/>
+        <div xml:id="i-GbYapaNza7b8mjxQfwopz3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DPrC9W3ZKFb97xS2mFDFvB">
+      <div xml:id="i-DPrC9W3ZKFb97xS2mFDFvB" type="motBody">
         <div xml:id="i-Vh34AKsUS9gRe4Dh1eEh2S">
           <p xml:id="i-TUj6RaD77Ax657SLzo6KgH">
             2005/06 mnr: Ju263 pnr: m1268
@@ -131,9 +131,11 @@
           <p xml:id="i-CEeFPB92WMfyEPomRbc9vD">
             2005/06:Ju263
           </p>
-          <p xml:id="i-6grCWAjn2ZuPRqsfYkwYoB">
-            Stockholm den 22 september 2005 Bertil Kjellberg (m) Ulf Sjösten
-            (m)
+          <p xml:id="i-6grCWAjn2ZuPRqsfYkwYoB" type="date">
+            Stockholm den 22 september 2005
+          </p>
+          <p type="signatureBlock" id="i-UYdfwTtjQ7grUibpudcG2a">
+            Bertil Kjellberg (m) Ulf Sjösten (m)
           </p>
         </div>
       </div>

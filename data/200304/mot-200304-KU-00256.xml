@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00256">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-NaGmNr2bjHiNwCXKLMhBLM">
           <note type="signatory" corresp="i-CwVjNqMneZm6zhJTP798e5"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JjnuYzdj46aEemcVyY5R31">
+        <correspAction xml:id="i-JjnuYzdj46aEemcVyY5R31" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LD5C1vUxw28k6cgSrzbQXz">
+        <correspAction xml:id="i-LD5C1vUxw28k6cgSrzbQXz" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-ESCFQ4HGXy1NAsVJm61hQ8">
+        <correspAction xml:id="i-ESCFQ4HGXy1NAsVJm61hQ8" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GhX7Gj9N1VDZc7CQQxJshF"/>
+        <correspAction xml:id="i-GhX7Gj9N1VDZc7CQQxJshF" type="assigned"/>
         <correspContext corresp="i-GhX7Gj9N1VDZc7CQQxJshF">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0256/mot_200304_K_0256-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VyZrDaiWgTHybqE5wiihQd">
-        <div type="motTitle" xml:id="i-A4WuGfeuWeP7FFc7mA45Lx"/>
-        <div type="motSubmissionInfo" xml:id="i-GdA4aB6G4MGNpyCBbPhseY"/>
+      <div xml:id="i-VyZrDaiWgTHybqE5wiihQd" type="motHeader">
+        <div xml:id="i-A4WuGfeuWeP7FFc7mA45Lx" type="motTitle"/>
+        <div xml:id="i-GdA4aB6G4MGNpyCBbPhseY" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9s5bFj3MDChbNxjxUvUvZz">
+      <div xml:id="i-9s5bFj3MDChbNxjxUvUvZz" type="motBody">
         <div xml:id="i-TMtvXNTuxn3FpuLG8DKfRX">
           <p xml:id="i-PNESwSwcAkshuK8VwtTJEf">
             2003/04 mnr: K256 pnr: fp608
@@ -107,8 +107,11 @@
             flaggandet som en av många små åtgärder skulle stärka kunskapen
             om, och uppmärksamhet kring, Europasamarbetet.
           </p>
-          <p xml:id="i-f2GFsYiFn5L1pU7ckTUVL">
-            Stockholm den 25 september 2003 Helena Bargholtz (fp)
+          <p xml:id="i-f2GFsYiFn5L1pU7ckTUVL" type="date">
+            Stockholm den 25 september 2003
+          </p>
+          <p type="signatureBlock" id="i-FHDYVrbsaVRH3q5Pkbypzk">
+            Helena Bargholtz (fp)
           </p>
         </div>
       </div>

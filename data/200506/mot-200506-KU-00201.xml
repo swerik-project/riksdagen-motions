@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-KU-00201">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-6kWpFPTWgjDo7kjvs4mw3q">
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-H3661KXebDEasSiEiPBPL5">
+        <correspAction xml:id="i-H3661KXebDEasSiEiPBPL5" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RPvJVqWFdB3cCsVMj2t27v">
+        <correspAction xml:id="i-RPvJVqWFdB3cCsVMj2t27v" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-N7qHumA1JbN2ccTYGWiyTH">
+        <correspAction xml:id="i-N7qHumA1JbN2ccTYGWiyTH" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-NMqdxg5bwEcQdTRvpe7Gcz"/>
+        <correspAction xml:id="i-NMqdxg5bwEcQdTRvpe7Gcz" type="assigned"/>
         <correspContext corresp="i-NMqdxg5bwEcQdTRvpe7Gcz">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_K_201/mot_200506_K_201-0001.pdf"/>
-      <div type="motHeader" xml:id="i-NmrtBWXMR1xd65QmknEMXj">
-        <div type="motTitle" xml:id="i-RAvkBqEBhVYCAWbfZhvbmS"/>
-        <div type="motSubmissionInfo" xml:id="i-SjFdv4Bpdc9Qi9bY1UR1Ez"/>
+      <div xml:id="i-NmrtBWXMR1xd65QmknEMXj" type="motHeader">
+        <div xml:id="i-RAvkBqEBhVYCAWbfZhvbmS" type="motTitle"/>
+        <div xml:id="i-SjFdv4Bpdc9Qi9bY1UR1Ez" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DoTuZ4ztaAKL4iMB15ddE7">
+      <div xml:id="i-DoTuZ4ztaAKL4iMB15ddE7" type="motBody">
         <div xml:id="i-Haz15MSfwanh5Xyx7xPwRv">
           <p xml:id="i-Js12VTjhaqvQMhHEDz3LTX">
             2005/06 mnr: K201 pnr: fp302
@@ -282,8 +282,11 @@
             vid en krissituation. På sikt bör även gemensamma Övningar kunna
             ske för att trist nog förbereda sig för det värsta.
           </p>
-          <p xml:id="i-G6MNQLBiKDCnadNKrc5gAf">
-            Stockholm den 13 september 2005 Johan Pehrson (fp)
+          <p xml:id="i-G6MNQLBiKDCnadNKrc5gAf" type="date">
+            Stockholm den 13 september 2005
+          </p>
+          <p type="signatureBlock" id="i-42yUaDsqQPYEJ4sAzqSun7">
+            Johan Pehrson (fp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SoU-00648">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-G3cuzpucF7i8M8MBdGpXH6">
           <note type="signatory" corresp="i-RJ83sTtQ8c3R3VD4B55j8P"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-MDF7QS9mNe6V64VjxnEsRQ">
+        <correspAction xml:id="i-MDF7QS9mNe6V64VjxnEsRQ" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LXkXcfLRmWWHAM75rFMKor">
+        <correspAction xml:id="i-LXkXcfLRmWWHAM75rFMKor" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KPgbipZLkUg5RTYQHBibwY">
+        <correspAction xml:id="i-KPgbipZLkUg5RTYQHBibwY" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5An2QNAvFdP9pmk7o6NwaH"/>
+        <correspAction xml:id="i-5An2QNAvFdP9pmk7o6NwaH" type="assigned"/>
         <correspContext corresp="i-5An2QNAvFdP9pmk7o6NwaH">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_So_648/mot_200405_So_648-0001.pdf"/>
-      <div type="motHeader" xml:id="i-nLAy2rw6hRmqMmUeKiCnw">
-        <div type="motTitle" xml:id="i-3iqVeC3314wS7jqfEFbTCr"/>
-        <div type="motSubmissionInfo" xml:id="i-Nu49yXUPSVa5izPhkWXPgQ"/>
+      <div xml:id="i-nLAy2rw6hRmqMmUeKiCnw" type="motHeader">
+        <div xml:id="i-3iqVeC3314wS7jqfEFbTCr" type="motTitle"/>
+        <div xml:id="i-Nu49yXUPSVa5izPhkWXPgQ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WBtcm6h4K9BidMH8annia7">
+      <div xml:id="i-WBtcm6h4K9BidMH8annia7" type="motBody">
         <div xml:id="i-FtR6qqpGvpc9fpLmeqXmap">
           <p xml:id="i-MRCCQaiw7xdWXfFNh7LD2s">
             2004/05 mnr: S0648 pnr: s48034
@@ -111,8 +111,11 @@
             i varje kommun, samt att skyddat boende ska kunna ordnas inom
             rimlig tid.
           </p>
-          <p xml:id="i-MPozGtLHM1NRe2faHTQnft">
-            Stockholm den 29 september 2004 Åsa Lindestam (s)
+          <p xml:id="i-MPozGtLHM1NRe2faHTQnft" type="date">
+            Stockholm den 29 september 2004
+          </p>
+          <p type="signatureBlock" id="i-R4DKRiRc9vm6St4U4V2yHS">
+            Åsa Lindestam (s)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00301">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-UdTahekpj79S5DR1Zpwbje">
           <note type="signatory" corresp="i-Ha5uZXGHudhTidCuW8UjXN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-ABmyjK75uBFDBxWoiA4s2w">
+        <correspAction xml:id="i-ABmyjK75uBFDBxWoiA4s2w" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QFCzxh2bwXRySvMNgUBfE1">
+        <correspAction xml:id="i-QFCzxh2bwXRySvMNgUBfE1" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MPk8ykQpwPDDRmB2ozrWBu">
+        <correspAction xml:id="i-MPk8ykQpwPDDRmB2ozrWBu" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-GdZRKRPw3X8DHiyee9KtEA"/>
+        <correspAction xml:id="i-GdZRKRPw3X8DHiyee9KtEA" type="assigned"/>
         <correspContext corresp="i-GdZRKRPw3X8DHiyee9KtEA">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_301/mot_200405_Ub_301-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Gfb7ZD2knp1qhkBKhAGr9n">
-        <div type="motTitle" xml:id="i-BXrxC9zC2ouEy3KaCCnHv5"/>
-        <div type="motSubmissionInfo" xml:id="i-BxKc6osU969GakEDQM2rAR"/>
+      <div xml:id="i-Gfb7ZD2knp1qhkBKhAGr9n" type="motHeader">
+        <div xml:id="i-BXrxC9zC2ouEy3KaCCnHv5" type="motTitle"/>
+        <div xml:id="i-BxKc6osU969GakEDQM2rAR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7r6Dzdp5qrFmgo4DjaFrjn">
+      <div xml:id="i-7r6Dzdp5qrFmgo4DjaFrjn" type="motBody">
         <div xml:id="i-KGeDLnTJk5NyoHJxRdVats">
           <p xml:id="i-XGxC1rbgiBpRW41uUMFfVP">
             2004/05 mnr: Ub301 pnr: kd659
@@ -154,8 +154,11 @@
             teknik. Målsättningen är att i en inte alltför avlägsen framtid
             också ge Högskolan i Gävle möjlighet att utvecklas till universitet.
           </p>
-          <p xml:id="i-Y272khX9tEBPRJKxp9Dv9P">
-            Stockholm den 28 september 2004 Ragnwi Marcelind (kd)
+          <p xml:id="i-Y272khX9tEBPRJKxp9Dv9P" type="date">
+            Stockholm den 28 september 2004
+          </p>
+          <p type="signatureBlock" id="i-GU4ezaPe1PG9qHwhPpJVXd">
+            Ragnwi Marcelind (kd)
           </p>
         </div>
       </div>

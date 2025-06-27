@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00261">
   <teiHeader>
     <fileDesc>
@@ -126,16 +126,16 @@
           <note type="signatory" corresp="i-BUYvEhrSc9gnHcd6iS4eDJ"/>
           <note type="signatory" corresp="i-4tAUyrL5FDqt2q3oYkcH9W"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-CdhZVo4bVMjX2oBX7tAvQ6">
+        <correspAction xml:id="i-CdhZVo4bVMjX2oBX7tAvQ6" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-S9oFxArvpS7JupPAND2GQz">
+        <correspAction xml:id="i-S9oFxArvpS7JupPAND2GQz" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RG66Nwd1GRqmNmJqGt8CwQ">
+        <correspAction xml:id="i-RG66Nwd1GRqmNmJqGt8CwQ" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-ELWivdW6TZmSixPwWX4TEe"/>
+        <correspAction xml:id="i-ELWivdW6TZmSixPwWX4TEe" type="assigned"/>
         <correspContext corresp="i-ELWivdW6TZmSixPwWX4TEe">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -150,11 +150,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_So_0261/mot_200203_So_0261-0001.pdf"/>
-      <div type="motHeader" xml:id="i-9eVcvsLjS4YJ4N6f3v7Hjr">
-        <div type="motTitle" xml:id="i-DXbQAFWvP5v98iGAD3M22B"/>
-        <div type="motSubmissionInfo" xml:id="i-TRwrWgGoYPTh3p9W2pD3yW"/>
+      <div xml:id="i-9eVcvsLjS4YJ4N6f3v7Hjr" type="motHeader">
+        <div xml:id="i-DXbQAFWvP5v98iGAD3M22B" type="motTitle"/>
+        <div xml:id="i-TRwrWgGoYPTh3p9W2pD3yW" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-A6w43SU5AekRyKq66fwkMC">
+      <div xml:id="i-A6w43SU5AekRyKq66fwkMC" type="motBody">
         <div xml:id="i-G6Xx8N3NKDABWpgaHtE6Kj">
           <p xml:id="i-757x9gND3A6tFN22JLn8nm">
             24
@@ -245,8 +245,11 @@
             Någon ny lagstiftning på området är av ovan redovisade skäl inte
             heller motiverad.
           </p>
-          <p xml:id="i-7gMjVKzj8C3h7U13NmqFfJ">
-            Stockholm den 18 oktober 2002 Ulf Nilsson (fp)
+          <p xml:id="i-7gMjVKzj8C3h7U13NmqFfJ" type="date">
+            Stockholm den 18 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-62sfvQC28vbGw8TL2y9E6o">
+            Ulf Nilsson (fp)
           </p>
           <p xml:id="i-VjcPptdFLszNC9FuTG36YS">
             Martin Andreasson (fp) Hans Backman (fp) Anna Grönlund (fp) Christer

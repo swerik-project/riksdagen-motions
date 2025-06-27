@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-UbU-00072">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-TJkWYsn7fwUsxfVJHu9ETA</idno>
-            <name>Ulla Berg </name>
+            <name>Ulla Berg</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-KcofmNasLprpHKsdaYM625</idno>
-            <name>Bo Finnkvist </name>
+            <name>Bo Finnkvist</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-QBjhdigjuYnc4dZSUCUByw</idno>
-            <name>Maud Björnemalm </name>
+            <name>Maud Björnemalm</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-D7iN8VmPeW8BTkZNLcVBvy"/>
+        <correspAction xml:id="i-D7iN8VmPeW8BTkZNLcVBvy" type="basedOn"/>
         <correspContext corresp="i-D7iN8VmPeW8BTkZNLcVBvy">
           <ref>Proposition 1990/91:87</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-KcofmNasLprpHKsdaYM625"/>
           <note type="signatory" corresp="i-QBjhdigjuYnc4dZSUCUByw"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-SaPdi9VHBy6GjtJFzpwgAi">
+        <correspAction xml:id="i-SaPdi9VHBy6GjtJFzpwgAi" type="referral">
           <date when="1991-03-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5BizF84ibcPsACuvpEyMWy">
+        <correspAction xml:id="i-5BizF84ibcPsACuvpEyMWy" type="dismissal">
           <date when="1991-03-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7pWhx3S8Hc9jjbeLgd7xor">
+        <correspAction xml:id="i-7pWhx3S8Hc9jjbeLgd7xor" type="submission">
           <date when="1991-03-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-AnHNwzVJFnUjXBQBs87feU">
+        <correspAction xml:id="i-AnHNwzVJFnUjXBQBs87feU" type="referral">
           <date when="1991-03-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-NTzpfZ4o9NHfGbzUv3A4N5">
+        <correspAction xml:id="i-NTzpfZ4o9NHfGbzUv3A4N5" type="dismissal">
           <date when="1991-03-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9sXe7cW9yUt3mRmq9unSAy">
+        <correspAction xml:id="i-9sXe7cW9yUt3mRmq9unSAy" type="submission">
           <date when="1991-03-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-7XTgX53aBzVG118Tczd35f"/>
+        <correspAction xml:id="i-7XTgX53aBzVG118Tczd35f" type="assigned"/>
         <correspContext corresp="i-7XTgX53aBzVG118Tczd35f">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_UbU_72/mot_199091_UbU_72-001.pdf"/>
-      <div type="motHeader" xml:id="i-Dm7A9QZqRWRcZxBpxpAHDj">
-        <div type="motTitle" xml:id="i-2WC3xu2szHyeAve25zc4JG"/>
-        <div type="motSubmissionInfo" xml:id="i-GdN4BfbbTyyqWT2xYTy7Cz"/>
+      <div xml:id="i-Dm7A9QZqRWRcZxBpxpAHDj" type="motHeader">
+        <div xml:id="i-2WC3xu2szHyeAve25zc4JG" type="motTitle"/>
+        <div xml:id="i-GdN4BfbbTyyqWT2xYTy7Cz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Mfs8ixEBxe8h2eRKBJtMN9">
+      <div xml:id="i-Mfs8ixEBxe8h2eRKBJtMN9" type="motBody">
         <div xml:id="i-PkszXWnCQVYAbJz9LLfffm">
           <p xml:id="i-SrqNHu3hWwtda4WCFBxZEE">
             Motion till riksdagen
@@ -210,8 +210,11 @@
             om en omvandling av Bergsskolans slututbildning till en 80-poängs
             högskoleingenjörsutbildning.
           </p>
-          <p xml:id="i-NBQvyicatqWceNjKN1acwZ">
-            Stockholm den 6 mars 1991 Ulla Berg (s)
+          <p xml:id="i-NBQvyicatqWceNjKN1acwZ" type="date">
+            Stockholm den 6 mars 1991
+          </p>
+          <p type="signatureBlock" id="i-4FyisNKqWZYK1yseycPryL">
+            Ulla Berg (s)
           </p>
           <p xml:id="i-4LSSMtw8cb2vyMxi5S6bPL">
             Bo Finnkvist (s) Maud Björnemalm (s)

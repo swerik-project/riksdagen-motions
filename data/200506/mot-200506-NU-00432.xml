@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-NU-00432">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-VRHymVx7EsX48sg7b5qmpS"/>
           <note type="signatory" corresp="i-N4rvx7AGKxwhx5XDdagQzk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-9JKK4fN4ArKyvHDbwcMnXE">
+        <correspAction xml:id="i-9JKK4fN4ArKyvHDbwcMnXE" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YZ1KVz98NASg6X3zRRD3MG">
+        <correspAction xml:id="i-YZ1KVz98NASg6X3zRRD3MG" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VT2TL1eG5TwgTJycaP9XkF">
+        <correspAction xml:id="i-VT2TL1eG5TwgTJycaP9XkF" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TnUAYPPvkXYMYyYUFU6hyP"/>
+        <correspAction xml:id="i-TnUAYPPvkXYMYyYUFU6hyP" type="assigned"/>
         <correspContext corresp="i-TnUAYPPvkXYMYyYUFU6hyP">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_N_432/mot_200506_N_432-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Qcw3SFLirWHBU3mCeuGtM">
-        <div type="motTitle" xml:id="i-FGqGtECWF95qPhEL42aQ52"/>
-        <div type="motSubmissionInfo" xml:id="i-58bvSzsza29ijLhQqrcUNp"/>
+      <div xml:id="i-Qcw3SFLirWHBU3mCeuGtM" type="motHeader">
+        <div xml:id="i-FGqGtECWF95qPhEL42aQ52" type="motTitle"/>
+        <div xml:id="i-58bvSzsza29ijLhQqrcUNp" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Xw8aitZeH64jaJEmJMfnEo">
+      <div xml:id="i-Xw8aitZeH64jaJEmJMfnEo" type="motBody">
         <div xml:id="i-BPSg38LhKMJEYdDNijBV6h">
           <p xml:id="i-Bq2FDzL3yW9dPL1E8KDFkn">
             2005/06 mnr: N432 pnr: mp321
@@ -187,10 +187,12 @@
           </p>
           <p xml:id="i-AzZmwvxatirDDfsTHQYRYH">
             bolagen, oavsett ägarformen. Regeringen bör återkomma till riksdagen
-            med förslag till en lämplig prisreglering. Stockholm den 4 oktober
-            2005
+            med förslag till en lämplig prisreglering.
           </p>
-          <p xml:id="i-9z9anjRxDokxgUGAWUckx6">
+          <p type="date" id="i-Nad1y5FJYhVKkUNK1Hha64">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p xml:id="i-9z9anjRxDokxgUGAWUckx6" type="signatureBlock">
             Jan Lindholm (mp) Helena Hillar Rosenqvist (mp)
           </p>
         </div>

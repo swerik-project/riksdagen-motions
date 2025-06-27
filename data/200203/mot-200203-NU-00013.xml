@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-NU-00013">
   <teiHeader>
     <fileDesc>
@@ -97,7 +97,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-KP3eD9SeBqXWdHVRcSiBow"/>
+        <correspAction xml:id="i-KP3eD9SeBqXWdHVRcSiBow" type="basedOn"/>
         <correspContext corresp="i-KP3eD9SeBqXWdHVRcSiBow">
           <ref>Proposition 2002/03:86</ref>
         </correspContext>
@@ -114,16 +114,16 @@
           <note type="signatory" corresp="i-Ybw8JnrmHGCsqpipBke8a7"/>
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-NYnLnasu6zF46uzwxSjryf">
+        <correspAction xml:id="i-NYnLnasu6zF46uzwxSjryf" type="referral">
           <date when="2003-05-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SL5Ex59odF7R42gAoL59wb">
+        <correspAction xml:id="i-SL5Ex59odF7R42gAoL59wb" type="dismissal">
           <date when="2003-05-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-X3N8SuJt624iBeHfMhh7Sx">
+        <correspAction xml:id="i-X3N8SuJt624iBeHfMhh7Sx" type="submission">
           <date when="2003-05-09"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QGCbCSJHbzarvRNoXiCEVG"/>
+        <correspAction xml:id="i-QGCbCSJHbzarvRNoXiCEVG" type="assigned"/>
         <correspContext corresp="i-QGCbCSJHbzarvRNoXiCEVG">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -138,11 +138,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_N_0013/mot_200203_N_0013-0001.pdf"/>
-      <div type="motHeader" xml:id="i-GcR97XZddfGg5Q4WFTWfx5">
-        <div type="motTitle" xml:id="i-7fi3wxhshcAkrPy2m97NbH"/>
-        <div type="motSubmissionInfo" xml:id="i-DrhPYZSFGdYfcJhQNLYJCS"/>
+      <div xml:id="i-GcR97XZddfGg5Q4WFTWfx5" type="motHeader">
+        <div xml:id="i-7fi3wxhshcAkrPy2m97NbH" type="motTitle"/>
+        <div xml:id="i-DrhPYZSFGdYfcJhQNLYJCS" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2Ny9iC6XUBJLn75qA5mw8V">
+      <div xml:id="i-2Ny9iC6XUBJLn75qA5mw8V" type="motBody">
         <div xml:id="i-BerSPCdcNe5SjDVDEtYA8n">
           <p xml:id="i-2MjadZbWSwpYdTfnMUrJfk">
             2002/03 mnr: N13 pnr: kd148
@@ -903,8 +903,11 @@
             Rikstrafikens och affärsverkets ekonomi och organisation samt
             för resenärerna.
           </p>
-          <p xml:id="i-Kocq3R64UXwGiwCYqVhPLE">
-            Stockholm den 9 maj 2003 Maria Larsson (kd)
+          <p xml:id="i-Kocq3R64UXwGiwCYqVhPLE" type="date">
+            Stockholm den 9 maj 2003
+          </p>
+          <p type="signatureBlock" id="i-P5h5fAESGyeuQ97FbzPuqX">
+            Maria Larsson (kd)
           </p>
           <p xml:id="i-JAkmtkWZq5gHm3QkUoqxur">
             Mats Odell (kd) Stefan Attefall (kd) Annelie Enochson (kd) Jakob

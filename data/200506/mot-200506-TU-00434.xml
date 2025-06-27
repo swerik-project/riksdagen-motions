@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00434">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-Ph9G3dBzeLWrFSj8spgCtZ">
           <note type="signatory" corresp="i-5VucL1TjrAWieXV17zXaW8"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BCrLJuFVyk3ai2qkCGKuaS">
+        <correspAction xml:id="i-BCrLJuFVyk3ai2qkCGKuaS" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DSGqYzuXZaXxdZ6PbXQvmT">
+        <correspAction xml:id="i-DSGqYzuXZaXxdZ6PbXQvmT" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2qJLP4RALXKngJp7EVGbmM">
+        <correspAction xml:id="i-2qJLP4RALXKngJp7EVGbmM" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-L2LTS7HrPhUbPP7wwqKdNE"/>
+        <correspAction xml:id="i-L2LTS7HrPhUbPP7wwqKdNE" type="assigned"/>
         <correspContext corresp="i-L2LTS7HrPhUbPP7wwqKdNE">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_434/mot_200506_T_434-0001.pdf"/>
-      <div type="motHeader" xml:id="i-MvPzbodUMJ3BsFdjRs63fU">
-        <div type="motTitle" xml:id="i-CNbUUe1Hj3ttTXqDKPYH5F"/>
-        <div type="motSubmissionInfo" xml:id="i-XNGDBdLHWyfS6nWJXtd9Gj"/>
+      <div xml:id="i-MvPzbodUMJ3BsFdjRs63fU" type="motHeader">
+        <div xml:id="i-CNbUUe1Hj3ttTXqDKPYH5F" type="motTitle"/>
+        <div xml:id="i-XNGDBdLHWyfS6nWJXtd9Gj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AU9JJJ6iaF7uno88TdBqsM">
+      <div xml:id="i-AU9JJJ6iaF7uno88TdBqsM" type="motBody">
         <div xml:id="i-JBnDU8iaN5QhmSQLUpC1aN">
           <p xml:id="i-CjULrEBJ4Sp5YFNvM7tDEa">
             2005/06 mnr: T434 pnr: m1500
@@ -146,8 +146,11 @@
             mellan Västerås och Eskilstuna samt framlägga förslag till hur
             detta skall kunna genomföras.
           </p>
-          <p xml:id="i-KgupmSgvhPDUgiUBsm7w8Z">
-            Stockholm den 29 september 2005 Carl-Erik Skårman (m)
+          <p xml:id="i-KgupmSgvhPDUgiUBsm7w8Z" type="date">
+            Stockholm den 29 september 2005
+          </p>
+          <p type="signatureBlock" id="i-Mu7oTZnjkfuzDztJRLBi5z">
+            Carl-Erik Skårman (m)
           </p>
         </div>
       </div>

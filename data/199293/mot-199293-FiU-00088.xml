@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-FiU-00088">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-9aRLLJUPp6dkL6wGF6nZuc</idno>
-            <name>Sten Söderberg </name>
+            <name>Sten Söderberg</name>
             <state type="partyAffiliation" ref="Q967278">
               <desc>-</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Rf5gAkeiwSfMNLrvc1mbrE"/>
+        <correspAction xml:id="i-Rf5gAkeiwSfMNLrvc1mbrE" type="basedOn"/>
         <correspContext corresp="i-Rf5gAkeiwSfMNLrvc1mbrE">
           <ref>Proposition 1992/93:133</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-9aRLLJUPp6dkL6wGF6nZuc"/>
           <note type="signatory" corresp="i-9aRLLJUPp6dkL6wGF6nZuc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-RFv5m6b7T5JDUcYvbP7bgx">
+        <correspAction xml:id="i-RFv5m6b7T5JDUcYvbP7bgx" type="referral">
           <date when="1992-11-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-JnYAZfHZKYTR1UFfVLVpju">
+        <correspAction xml:id="i-JnYAZfHZKYTR1UFfVLVpju" type="dismissal">
           <date when="1992-11-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7816KcUcTutH7rkNTH6etQ">
+        <correspAction xml:id="i-7816KcUcTutH7rkNTH6etQ" type="submission">
           <date when="1992-11-24"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-GBFtLUxESMXFr1KKSEFbqJ">
+        <correspAction xml:id="i-GBFtLUxESMXFr1KKSEFbqJ" type="referral">
           <date when="1992-11-26"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7fSynBBqAuVXupAmBaAgYe">
+        <correspAction xml:id="i-7fSynBBqAuVXupAmBaAgYe" type="dismissal">
           <date when="1992-11-25"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GV9RzG4sAQmhYEi2Rnn7BB">
+        <correspAction xml:id="i-GV9RzG4sAQmhYEi2Rnn7BB" type="submission">
           <date when="1992-11-24"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RZx463f8wBp6A9qNLRjyH8"/>
+        <correspAction xml:id="i-RZx463f8wBp6A9qNLRjyH8" type="assigned"/>
         <correspContext corresp="i-RZx463f8wBp6A9qNLRjyH8">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_FiU_88/mot_199293_FiU_88-001-001.pdf"/>
-      <div type="motHeader" xml:id="i-Ps23sLxVojGPS6j7oVavbD">
-        <div type="motTitle" xml:id="i-CFcr4XJ3Lhw9Db7ACT1aQF"/>
-        <div type="motSubmissionInfo" xml:id="i-LEYTkmKy78igS66YEbygi2"/>
+      <div xml:id="i-Ps23sLxVojGPS6j7oVavbD" type="motHeader">
+        <div xml:id="i-CFcr4XJ3Lhw9Db7ACT1aQF" type="motTitle"/>
+        <div xml:id="i-LEYTkmKy78igS66YEbygi2" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QdCnJuWK8spFt7KfPSFC3y">
+      <div xml:id="i-QdCnJuWK8spFt7KfPSFC3y" type="motBody">
         <div xml:id="i-S2LfRWj4wRpg6mJAERHfrK">
           <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_FiU_88/mot_199293_FiU_88-001.pdf"/>
           <p xml:id="i-KMficmzqcB2RMdG52hiNSa">
@@ -138,8 +138,11 @@
             Med hänvisning till det anförda hemställs att riksdagen avslår
             regeringens proposition 1992/93:133.
           </p>
-          <p xml:id="i-Qkyd9Wuhu246rGub25JBnY">
-            Stockholm den 9 november 1992 Sten Söderberg (-)
+          <p xml:id="i-Qkyd9Wuhu246rGub25JBnY" type="date">
+            Stockholm den 9 november 1992
+          </p>
+          <p type="signatureBlock" id="i-Fwd5v9dAASs4vRo91pTgCQ">
+            Sten Söderberg (-)
           </p>
           <p xml:id="i-KAJBpk3ET4JxXrohSPhMmb">
             1 Riksdagen 1992/93. 3 saml. Nr Fi88-89

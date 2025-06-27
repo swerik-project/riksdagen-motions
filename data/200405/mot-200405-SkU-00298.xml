@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00298">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-UhzamBJ1jM5ghe5gUaLvdJ">
           <note type="signatory" corresp="i-LrcUg7tEu4KwWdidwr1MAk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5L5MHryGeqDn5EujTMGHYu">
+        <correspAction xml:id="i-5L5MHryGeqDn5EujTMGHYu" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Xyn5GCB3WYVs5rJMoPH6pB">
+        <correspAction xml:id="i-Xyn5GCB3WYVs5rJMoPH6pB" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-EDShK5N4zdgGy3wkXQskxc">
+        <correspAction xml:id="i-EDShK5N4zdgGy3wkXQskxc" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Txai2riC9xUmXc8z8wh76Q"/>
+        <correspAction xml:id="i-Txai2riC9xUmXc8z8wh76Q" type="assigned"/>
         <correspContext corresp="i-Txai2riC9xUmXc8z8wh76Q">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_298/mot_200405_Sk_298-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XKMRsR3ZJorNuMnephAyj1">
-        <div type="motTitle" xml:id="i-Fp3pgVHsDc5RW9S5ox59Ay"/>
-        <div type="motSubmissionInfo" xml:id="i-MPyLuvmXVrr4yMnebiqJnf"/>
+      <div xml:id="i-XKMRsR3ZJorNuMnephAyj1" type="motHeader">
+        <div xml:id="i-Fp3pgVHsDc5RW9S5ox59Ay" type="motTitle"/>
+        <div xml:id="i-MPyLuvmXVrr4yMnebiqJnf" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-ScHPjboaL7mQvxaMwUPzBs">
+      <div xml:id="i-ScHPjboaL7mQvxaMwUPzBs" type="motBody">
         <div xml:id="i-UWnBJGZCmZ9pQL4pRS4QML">
           <p xml:id="i-D2LEAXgRgymBDyiX1iYs6P">
             2004/05 mnr: Sk298 pnr: s7050
@@ -262,8 +262,11 @@
             få ett regelverk som bättre överensstämmer med dagens synsätt
             och samhällssituation.
           </p>
-          <p xml:id="i-VSJuV19q1LmFCa96nwMDFB">
-            Stockholm den 28 september 2004 Kaj Nordquist (s)
+          <p xml:id="i-VSJuV19q1LmFCa96nwMDFB" type="date">
+            Stockholm den 28 september 2004
+          </p>
+          <p type="signatureBlock" id="i-XrqSgvMxr653kmkyyKPHEw">
+            Kaj Nordquist (s)
           </p>
         </div>
       </div>

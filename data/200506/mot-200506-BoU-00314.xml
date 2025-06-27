@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-BoU-00314">
   <teiHeader>
     <fileDesc>
@@ -87,16 +87,16 @@
           <note type="signatory" corresp="i-JJGD2ECwHv6xGCZyyrtKmA"/>
           <note type="signatory" corresp="i-RDeqY3mXLBtUS9bixjvHS"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-WezSQV3G37RxQFgWeWdB9m">
+        <correspAction xml:id="i-WezSQV3G37RxQFgWeWdB9m" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-M6XvcXjzWMKwxkw3iWbjaz">
+        <correspAction xml:id="i-M6XvcXjzWMKwxkw3iWbjaz" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KBbomr7HdKETAdPP64YHq1">
+        <correspAction xml:id="i-KBbomr7HdKETAdPP64YHq1" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RAord96r3BuETiDBEVB3hu"/>
+        <correspAction xml:id="i-RAord96r3BuETiDBEVB3hu" type="assigned"/>
         <correspContext corresp="i-RAord96r3BuETiDBEVB3hu">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -111,11 +111,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Bo_314/mot_200506_Bo_314-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8HyjHKHFNJY95NCeyfHqoA">
-        <div type="motTitle" xml:id="i-FZxTBNdeBPsnPoHRsJDkm6"/>
-        <div type="motSubmissionInfo" xml:id="i-KYyiQfPYvYeVeDqAVFQzdA"/>
+      <div xml:id="i-8HyjHKHFNJY95NCeyfHqoA" type="motHeader">
+        <div xml:id="i-FZxTBNdeBPsnPoHRsJDkm6" type="motTitle"/>
+        <div xml:id="i-KYyiQfPYvYeVeDqAVFQzdA" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-16d9jweFzW7Q6nPH4q8RqA">
+      <div xml:id="i-16d9jweFzW7Q6nPH4q8RqA" type="motBody">
         <div xml:id="i-FdbWbpdqr9PNAcNcHmifir">
           <p xml:id="i-pkJPoyXpvRjENQBA7avxH">
             2005/06 mnr: Bo314 pnr: kd1003
@@ -208,8 +208,11 @@
             fem lägenheter för tredimensionell fastighetsbildning förhindrar
             ägarlägenheter och bör därför avskaffas.
           </p>
-          <p xml:id="i-EYRkhSTxX6fKnbDbSscjPd">
-            Stockholm den 5 oktober 2005 Ragnwi Marcelind (kd)
+          <p xml:id="i-EYRkhSTxX6fKnbDbSscjPd" type="date">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-9yYmAuBrWaK4gJYoGkM88t">
+            Ragnwi Marcelind (kd)
           </p>
           <p xml:id="i-Qz8SGFCmt6k4UQU958EYUR">
             Marietta de Pourbaix-Lundin (m) Nina Lundström (fp) Rigmor Stenmark

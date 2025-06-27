@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-NU-00389">
   <teiHeader>
     <fileDesc>
@@ -78,16 +78,16 @@
           <note type="signatory" corresp="i-SxwXtVqzR6fyXB2uQfozAQ"/>
           <note type="signatory" corresp="i-991obiMTz36s9V7z3YpuZk"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YDv8WhEqsvF8MfRqdtvQdX">
+        <correspAction xml:id="i-YDv8WhEqsvF8MfRqdtvQdX" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XCwjK2oHS29e8iTqvoSiWJ">
+        <correspAction xml:id="i-XCwjK2oHS29e8iTqvoSiWJ" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-A81LfzFMYuCBctTjDq5PTx">
+        <correspAction xml:id="i-A81LfzFMYuCBctTjDq5PTx" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-49Js8M5NDeFWWEwxxjmbFH"/>
+        <correspAction xml:id="i-49Js8M5NDeFWWEwxxjmbFH" type="assigned"/>
         <correspContext corresp="i-49Js8M5NDeFWWEwxxjmbFH">
           <ref type="assignedTo">Näringsutskottet</ref>
         </correspContext>
@@ -102,11 +102,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_N_389/mot_200405_N_389-0001.pdf"/>
-      <div type="motHeader" xml:id="i-WFbyMu98zJC24wFr8qAzwV">
-        <div type="motTitle" xml:id="i-Sh9TmPzhExcXUtbT9ZAYA"/>
-        <div type="motSubmissionInfo" xml:id="i-Mfk8zvugSnQEbi6VK8GgNz"/>
+      <div xml:id="i-WFbyMu98zJC24wFr8qAzwV" type="motHeader">
+        <div xml:id="i-Sh9TmPzhExcXUtbT9ZAYA" type="motTitle"/>
+        <div xml:id="i-Mfk8zvugSnQEbi6VK8GgNz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-82AtMzE8uavrnoQCMDewk5">
+      <div xml:id="i-82AtMzE8uavrnoQCMDewk5" type="motBody">
         <div xml:id="i-Cb6iVSCWbi2p6k1X2B5udw">
           <p xml:id="i-YGYswGwQucXJTAv2ryxufc">
             2004/05 mnr: N389 pnr: v645
@@ -163,10 +163,12 @@
           </p>
           <p xml:id="i-4UuKHXpz2aA6Q48Mdn1ufJ">
             slås tills frågan blivit ordentligt utredd. Detta bör riksdagen
-            som sin mening ge regeringen till känna. Stockholm den 3 oktober
-            2004
+            som sin mening ge regeringen till känna.
           </p>
-          <p xml:id="i-LQHoruESvEUTajejYg69yH">
+          <p type="date" id="i-RYfgH16kgaLECmTPBjQ94i">
+            Stockholm den 3 oktober 2004
+          </p>
+          <p xml:id="i-LQHoruESvEUTajejYg69yH" type="signatureBlock">
             Lennart Beijer (v) Lars Bäckström (v) Marie Engström (v) Siv
             Holma (v) Per Rosengren (v) Gunilla Wahlén (v)
           </p>

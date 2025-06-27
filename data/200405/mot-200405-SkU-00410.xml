@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-SkU-00410">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-Q6br94yaiyiRSbhz2TWkWq">
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-3humGnY23aPkgxb9sMJSNe">
+        <correspAction xml:id="i-3humGnY23aPkgxb9sMJSNe" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5XUPEguGZu38wJgrVNbyXT">
+        <correspAction xml:id="i-5XUPEguGZu38wJgrVNbyXT" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Br9veC2a3Q4xsUWHYtDQu1">
+        <correspAction xml:id="i-Br9veC2a3Q4xsUWHYtDQu1" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-5mNvT7CNPH5992DFxSjwMW"/>
+        <correspAction xml:id="i-5mNvT7CNPH5992DFxSjwMW" type="assigned"/>
         <correspContext corresp="i-5mNvT7CNPH5992DFxSjwMW">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Sk_410/mot_200405_Sk_410-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5AUHAz2dE2wT1Lac2NSRkc">
-        <div type="motTitle" xml:id="i-SJm5sQsga3noTSitQGXHSA"/>
-        <div type="motSubmissionInfo" xml:id="i-8XgS6GFYmU4o5AdADRGzv1"/>
+      <div xml:id="i-5AUHAz2dE2wT1Lac2NSRkc" type="motHeader">
+        <div xml:id="i-SJm5sQsga3noTSitQGXHSA" type="motTitle"/>
+        <div xml:id="i-8XgS6GFYmU4o5AdADRGzv1" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-9UsbXoY6w9AbxFkBqmxXvD">
+      <div xml:id="i-9UsbXoY6w9AbxFkBqmxXvD" type="motBody">
         <div xml:id="i-VEsdWnFjjrXnqwM2xtLEE6">
           <p xml:id="i-PJWoD8rQq5wfbyLDbuVFd">
             2004/05 mnr: Sk410 pnr: s3127
@@ -130,8 +130,11 @@
             i beskattningshänseende skulle därvid också bli en parallell till
             tillämpningen i Danmark.
           </p>
-          <p xml:id="i-2punGAhjAw7NQKb7jLmK2Y">
-            Stockholm den 4 oktober 2004 Michael Hagberg (s)
+          <p xml:id="i-2punGAhjAw7NQKb7jLmK2Y" type="date">
+            Stockholm den 4 oktober 2004
+          </p>
+          <p type="signatureBlock" id="i-2RoEuYj8XrUNUUorJiLcVW">
+            Michael Hagberg (s)
           </p>
         </div>
       </div>

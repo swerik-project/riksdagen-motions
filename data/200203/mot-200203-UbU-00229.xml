@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-UbU-00229">
   <teiHeader>
     <fileDesc>
@@ -142,16 +142,16 @@
           <note type="signatory" corresp="i-24CbHNwsRznss4Yas6HseU"/>
           <note type="signatory" corresp="i-BijAhigzcR1MHdRoo4YtH5"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HvFtzxyjmcwjXtmMPRTUoa">
+        <correspAction xml:id="i-HvFtzxyjmcwjXtmMPRTUoa" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QDXd1UhfoCCgJniKk2cqd5">
+        <correspAction xml:id="i-QDXd1UhfoCCgJniKk2cqd5" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Ntg4f3yxBXyzGbudn3Em4H">
+        <correspAction xml:id="i-Ntg4f3yxBXyzGbudn3Em4H" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WhBdAx24zzwSUSXtURWMBi"/>
+        <correspAction xml:id="i-WhBdAx24zzwSUSXtURWMBi" type="assigned"/>
         <correspContext corresp="i-WhBdAx24zzwSUSXtURWMBi">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -166,11 +166,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Ub_0229/mot_200203_Ub_0229-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PYkkJF4MkAgjdhfSC9vvnc">
-        <div type="motTitle" xml:id="i-VB39DW2PbE92TjPdzna1bZ"/>
-        <div type="motSubmissionInfo" xml:id="i-2UjjrQA7jErC8N6Y43vMyi"/>
+      <div xml:id="i-PYkkJF4MkAgjdhfSC9vvnc" type="motHeader">
+        <div xml:id="i-VB39DW2PbE92TjPdzna1bZ" type="motTitle"/>
+        <div xml:id="i-2UjjrQA7jErC8N6Y43vMyi" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-AXWyfGBbkmNZ6TGHPNY7eS">
+      <div xml:id="i-AXWyfGBbkmNZ6TGHPNY7eS" type="motBody">
         <div xml:id="i-gSqgf7WNvzww7X6LKoxzB">
           <p xml:id="i-SrBK9mHxKqXSoXbqsmYycJ">
             2002/03 mnr: Ub229
@@ -1106,9 +1106,12 @@
           <p xml:id="i-SVGN5F2MCyMb5GeiqdPpHW">
             vara möjligt för eleverna att få skolskjuts till båda sina hem,
             förutsatt att det är långt till skolan och att det inte finns
-            allmänna färdmedel. Stockholm den 14 oktober 2002
+            allmänna färdmedel.
           </p>
-          <p xml:id="i-V2SfPT4wW1zkEN61ScTw4g">
+          <p type="date" id="i-2pfugXwwNgDxGwZZ5zTF1u">
+            Stockholm den 14 oktober 2002
+          </p>
+          <p xml:id="i-V2SfPT4wW1zkEN61ScTw4g" type="signatureBlock">
             Lars Leijonborg (fp) Bo Könberg (fp) Linnéa Darell (fp) Marita
             Aronson (fp) Tobias Krantz (fp) Lennart Kollmats (fp) Ulf Nilsson
             (fp) Karin Pilsäter (fp) Erik Ullenhag (fp) Yvonne Ångström (fp)

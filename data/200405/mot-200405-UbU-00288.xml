@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-UbU-00288">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-2guTzNZnJgtTqh6yD7t7tF">
           <note type="signatory" corresp="i-HYPXDg3UHMpdyrSgBez4mQ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FMs4PQaAWSovixWp1PyZq7">
+        <correspAction xml:id="i-FMs4PQaAWSovixWp1PyZq7" type="referral">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HmGevHNzCdP1RTZRwLiNVv">
+        <correspAction xml:id="i-HmGevHNzCdP1RTZRwLiNVv" type="dismissal">
           <date when="2004-10-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SBARRJEW5yPZMyLPxpocTH">
+        <correspAction xml:id="i-SBARRJEW5yPZMyLPxpocTH" type="submission">
           <date when="2004-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-188EvbCohwUxrcpwYyqTBw"/>
+        <correspAction xml:id="i-188EvbCohwUxrcpwYyqTBw" type="assigned"/>
         <correspContext corresp="i-188EvbCohwUxrcpwYyqTBw">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ub_288/mot_200405_Ub_288-0001.pdf"/>
-      <div type="motHeader" xml:id="i-77tVRNLgobVuCbLRqcopjV">
-        <div type="motTitle" xml:id="i-LBPkXiUNoLjLFmLUWKuurE"/>
-        <div type="motSubmissionInfo" xml:id="i-8PKwWMDNkwSKkxdEt4viwN"/>
+      <div xml:id="i-77tVRNLgobVuCbLRqcopjV" type="motHeader">
+        <div xml:id="i-LBPkXiUNoLjLFmLUWKuurE" type="motTitle"/>
+        <div xml:id="i-8PKwWMDNkwSKkxdEt4viwN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FBkci9GaHNp5h4GVrdPcW">
+      <div xml:id="i-FBkci9GaHNp5h4GVrdPcW" type="motBody">
         <div xml:id="i-WGqURkrNsMAFKAhrCwbCjg">
           <p xml:id="i-M4pshjZYFFPpgoWgEXTKyh">
             2004/05 mnr: Ub288 pnr: fp606
@@ -148,8 +148,11 @@
             Staten borde därför ta ett ökat ansvar för att Universeums framtida
             finansiering kan tryggas och att verksamheten kan utvecklas.
           </p>
-          <p xml:id="i-YD9oKTki5aXTdvVWjPqLgk">
-            Stockholm den 28 september 2004 Axel Darvik (fp)
+          <p xml:id="i-YD9oKTki5aXTdvVWjPqLgk" type="date">
+            Stockholm den 28 september 2004
+          </p>
+          <p type="signatureBlock" id="i-XoM1iL7Pz6ywTmhbAtEZZV">
+            Axel Darvik (fp)
           </p>
         </div>
       </div>

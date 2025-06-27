@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00014">
   <teiHeader>
     <fileDesc>
@@ -70,7 +70,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-2yrxJb3pt8fTwxYVci425o"/>
+        <correspAction xml:id="i-2yrxJb3pt8fTwxYVci425o" type="basedOn"/>
         <correspContext corresp="i-2yrxJb3pt8fTwxYVci425o">
           <ref>Regeringsskrivelse 2005/06:53</ref>
         </correspContext>
@@ -83,19 +83,19 @@
           <note type="signatory" corresp="i-QhURWkawnPDBf443faKewj"/>
           <note type="signatory" corresp="i-BUYvEhrSc9gnHcd6iS4eDJ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UPtpap9oNCjnZm7LTmgWQR">
+        <correspAction xml:id="i-UPtpap9oNCjnZm7LTmgWQR" type="referral">
           <date when="2006-01-25"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-H6iiTcDS8D7yTppaDfk8tL">
+        <correspAction xml:id="i-H6iiTcDS8D7yTppaDfk8tL" type="dismissal">
           <date when="2006-01-24"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UFXbTqk7RLyXPNd15hpMhc">
+        <correspAction xml:id="i-UFXbTqk7RLyXPNd15hpMhc" type="dismissal">
           <date when="2006-01-24"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-DttZfera8sS57XbMMuxfj8">
+        <correspAction xml:id="i-DttZfera8sS57XbMMuxfj8" type="submission">
           <date when="2006-01-20"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QgzQ2ukkYCKfm8f8pNHqtv"/>
+        <correspAction xml:id="i-QgzQ2ukkYCKfm8f8pNHqtv" type="assigned"/>
         <correspContext corresp="i-QgzQ2ukkYCKfm8f8pNHqtv">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_14/mot_200506_Ju_14-0001.pdf"/>
-      <div type="motHeader" xml:id="i-PzraKj2VyDvjrB1udNLfMR">
-        <div type="motTitle" xml:id="i-PCCn7hbg5p7g3cbB5Krngy"/>
-        <div type="motSubmissionInfo" xml:id="i-DRuwoDXvJ4HTmKvTyxjNc"/>
+      <div xml:id="i-PzraKj2VyDvjrB1udNLfMR" type="motHeader">
+        <div xml:id="i-PCCn7hbg5p7g3cbB5Krngy" type="motTitle"/>
+        <div xml:id="i-DRuwoDXvJ4HTmKvTyxjNc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-BASvmaer5Q5aGM8DAhtv4K">
+      <div xml:id="i-BASvmaer5Q5aGM8DAhtv4K" type="motBody">
         <div xml:id="i-MmEt7K6BfPh3joiKbWQ89Q">
           <p xml:id="i-MGkwxBRyqmhxnAzVSteoR6">
             2005/06 mnr: Ju14 pnr: fp1272
@@ -297,9 +297,12 @@
             med förbättrade redovisningar av användningen av hemlig teleavlyssning,
             hemlig teleövervakning och hemlig kameraövervakning vid förundersökning
             i brottmål. Detta bör riksdagen som sin mening ge regeringen till
-            känna. Stockholm den 20 januari 2006
+            känna.
           </p>
-          <p xml:id="i-PCethwvJGH8fc8rJUAQwDT">
+          <p type="date" id="i-CE4etPWFdRUS7jaMTxZgZf">
+            Stockholm den 20 januari 2006
+          </p>
+          <p xml:id="i-PCethwvJGH8fc8rJUAQwDT" type="signatureBlock">
             Torkild Strandberg (fp) Karin Granbom (fp) Jan Ertsborn (fp)
           </p>
           <p xml:id="i-JTcHTD79SaCFEmMuLQiU7J">

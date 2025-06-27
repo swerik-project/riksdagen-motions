@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00407">
   <teiHeader>
     <fileDesc>
@@ -110,16 +110,16 @@
           <note type="signatory" corresp="i-2aZQBvMx8o6ihusfvExbt8"/>
           <note type="signatory" corresp="i-6nbWfYQYwqJtM2XLoDTFkR"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-Bq3KRzqWdcy5YdsXudke7y">
+        <correspAction xml:id="i-Bq3KRzqWdcy5YdsXudke7y" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RTW4E1uyzsZmWMs13qNzJm">
+        <correspAction xml:id="i-RTW4E1uyzsZmWMs13qNzJm" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-p4QnzMVeayFAiXbTii5Y3">
+        <correspAction xml:id="i-p4QnzMVeayFAiXbTii5Y3" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3BfmNa2u6Cck7YwPBvg4yu"/>
+        <correspAction xml:id="i-3BfmNa2u6Cck7YwPBvg4yu" type="assigned"/>
         <correspContext corresp="i-3BfmNa2u6Cck7YwPBvg4yu">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -134,11 +134,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0407/mot_200304_So_0407-0001.pdf"/>
-      <div type="motHeader" xml:id="i-W5xynxUPyZ2936FjK5xtKe">
-        <div type="motTitle" xml:id="i-6CFKmu4v5uomQ2ayCf2Wbp"/>
-        <div type="motSubmissionInfo" xml:id="i-53qWxxue9MCZ12wroqhBW7"/>
+      <div xml:id="i-W5xynxUPyZ2936FjK5xtKe" type="motHeader">
+        <div xml:id="i-6CFKmu4v5uomQ2ayCf2Wbp" type="motTitle"/>
+        <div xml:id="i-53qWxxue9MCZ12wroqhBW7" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8gwZWu5BY1tBjHDEyWBynM">
+      <div xml:id="i-8gwZWu5BY1tBjHDEyWBynM" type="motBody">
         <div xml:id="i-kDfk1qnp2FE5RCfbX3Bxu">
           <p xml:id="i-RsuF7VPnnNDgcW9JfAxzWt">
             2003/04 mnr: S0407 pnr: v413
@@ -418,8 +418,11 @@
             motsvarande vad som idag finns inom äldreomsorgen. Detta bör riksdagen
             som sin mening ge regeringen till känna.
           </p>
-          <p xml:id="i-JoMbz4Tj8gaoZLsneB8fze">
-            Stockholm den 26 september 2003 Ulla Hoffmann (v)
+          <p xml:id="i-JoMbz4Tj8gaoZLsneB8fze" type="date">
+            Stockholm den 26 september 2003
+          </p>
+          <p type="signatureBlock" id="i-Crto8otXhNS48BqFVuqXVS">
+            Ulla Hoffmann (v)
           </p>
           <p xml:id="i-WJqTNun7dFXHbH9QxgCBLF">
             Lars Bäckström (v) Rossana Dinamarca (v) Mats Einarsson (v) Marie

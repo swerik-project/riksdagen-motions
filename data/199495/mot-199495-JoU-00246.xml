@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199495-JoU-00246">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="woman">
             <idno>i-8NfHDFVXcoFu1TRQN5CdnD</idno>
-            <name>Eva Eriksson </name>
+            <name>Eva Eriksson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-8jfC3Q5rPXg5ngt6RVLGtt</idno>
-            <name>Lennart Fremling </name>
+            <name>Lennart Fremling</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-8NfHDFVXcoFu1TRQN5CdnD"/>
           <note type="signatory" corresp="i-8jfC3Q5rPXg5ngt6RVLGtt"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-E7q8ua8HowUVP7k6EjrhB7">
+        <correspAction xml:id="i-E7q8ua8HowUVP7k6EjrhB7" type="referral">
           <date when="1995-02-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-D3fFioGX1QyXfBZqNBp2LG">
+        <correspAction xml:id="i-D3fFioGX1QyXfBZqNBp2LG" type="dismissal">
           <date when="1995-02-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PVCqqtPFzKHE6jg2AhjZ6C">
+        <correspAction xml:id="i-PVCqqtPFzKHE6jg2AhjZ6C" type="submission">
           <date when="1995-01-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-C481jijTxRXEVUEf9ktuVo">
+        <correspAction xml:id="i-C481jijTxRXEVUEf9ktuVo" type="referral">
           <date when="1995-02-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SKhVSzWhu8VecuWT1aYWLa">
+        <correspAction xml:id="i-SKhVSzWhu8VecuWT1aYWLa" type="dismissal">
           <date when="1995-02-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-MjkKjBHqcgAfHNFGDN1JzH">
+        <correspAction xml:id="i-MjkKjBHqcgAfHNFGDN1JzH" type="submission">
           <date when="1995-01-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-XAfJ15o5QADbjZ11oqiJWd"/>
+        <correspAction xml:id="i-XAfJ15o5QADbjZ11oqiJWd" type="assigned"/>
         <correspContext corresp="i-XAfJ15o5QADbjZ11oqiJWd">
           <ref type="assignedTo">Jordbruksutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_JoU_246/mot_199495_JoU_246-001.pdf"/>
-      <div type="motHeader" xml:id="i-WWTDA7qU7TyF1NdFf5HR2U">
-        <div type="motTitle" xml:id="i-LCo26WsnMkQUca3ZmhHkij"/>
-        <div type="motSubmissionInfo" xml:id="i-4Sxervd2UVqaoQJPzSiWTn"/>
+      <div xml:id="i-WWTDA7qU7TyF1NdFf5HR2U" type="motHeader">
+        <div xml:id="i-LCo26WsnMkQUca3ZmhHkij" type="motTitle"/>
+        <div xml:id="i-4Sxervd2UVqaoQJPzSiWTn" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7TDNHK6cWhbcq5UDAbiHiX">
+      <div xml:id="i-7TDNHK6cWhbcq5UDAbiHiX" type="motBody">
         <div xml:id="i-XD86idb3YRbp2eFyruma1">
           <p xml:id="i-KTSG5eNLM24vj1xsCmS3eK">
             Motion till riksdagen
@@ -332,9 +332,11 @@
             Mot. 1994/95 Jo246
           </p>
           <pb facs="riksdagen-motions-pdf/data/199495/mot_199495_JoU_246/mot_199495_JoU_246-005.pdf"/>
-          <p xml:id="i-EiL5BkP1NiXH1wRZuUDtMk">
-            Stockholm den 25 januari 1995 Mot. 1994/95 Jo246 Eva Eriksson
-            (fp) Lennart Fremling (fp)
+          <p xml:id="i-EiL5BkP1NiXH1wRZuUDtMk" type="date">
+            Stockholm den 25 januari 1995
+          </p>
+          <p type="signatureBlock" id="i-U94R4qj8WUadCaT7Gc2JkS">
+            Mot. 1994/95 Jo246 Eva Eriksson (fp) Lennart Fremling (fp)
           </p>
         </div>
       </div>

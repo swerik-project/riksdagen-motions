@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-UbU-00441">
   <teiHeader>
     <fileDesc>
@@ -26,21 +26,21 @@
         <listPerson>
           <person gender="woman">
             <idno>i-CWfiHdNSdGTUVN8YTsZNYc</idno>
-            <name>Camilla Dahlin-Andersson </name>
+            <name>Camilla Dahlin-Andersson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-PyYxwdbw2KYpXyCWKWHmmT</idno>
-            <name>Johan Pehrson </name>
+            <name>Johan Pehrson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-AvtuWmW4WHMDrctQKwDQuR</idno>
-            <name>Eva Flyborg </name>
+            <name>Eva Flyborg</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -78,25 +78,25 @@
           <note type="signatory" corresp="i-AvtuWmW4WHMDrctQKwDQuR"/>
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-HPdFWTNv4FgUHEKzizMAKE">
+        <correspAction xml:id="i-HPdFWTNv4FgUHEKzizMAKE" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-5hFRAgJ64z22XWnnrCz6gR">
+        <correspAction xml:id="i-5hFRAgJ64z22XWnnrCz6gR" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TqQSurvXurq3y6SDakUTPk">
+        <correspAction xml:id="i-TqQSurvXurq3y6SDakUTPk" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-FVagW88VkE89b52NoZLw4B">
+        <correspAction xml:id="i-FVagW88VkE89b52NoZLw4B" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-BHNsJLyTtejuCsdds6huHX">
+        <correspAction xml:id="i-BHNsJLyTtejuCsdds6huHX" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VBDVLwrXtiRDd3cj1XkLse">
+        <correspAction xml:id="i-VBDVLwrXtiRDd3cj1XkLse" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3MHkEZN19BiBfAumnzuqK6"/>
+        <correspAction xml:id="i-3MHkEZN19BiBfAumnzuqK6" type="assigned"/>
         <correspContext corresp="i-3MHkEZN19BiBfAumnzuqK6">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Ub_0441/mot_199899_Ub_0441-0001.pdf"/>
-      <div type="motHeader" xml:id="i-5SXQ3WvF8w38ynsWox7K7x">
-        <div type="motTitle" xml:id="i-64RTCWNCZ9PFj3nAHc4DQ3"/>
-        <div type="motSubmissionInfo" xml:id="i-AexnBgksuBu4GDUU38SsQc"/>
+      <div xml:id="i-5SXQ3WvF8w38ynsWox7K7x" type="motHeader">
+        <div xml:id="i-64RTCWNCZ9PFj3nAHc4DQ3" type="motTitle"/>
+        <div xml:id="i-AexnBgksuBu4GDUU38SsQc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-31dn8Pq256DSnTxJhiAJqw">
+      <div xml:id="i-31dn8Pq256DSnTxJhiAJqw" type="motBody">
         <div xml:id="i-Vu7duzLc37vrx7M4RCnEHL">
           <p xml:id="i-8TWq7kSVwDFHFBts2mrrun">
             1998/99 Ub441 Ub441
@@ -155,8 +155,11 @@
             av att tillsätta en utredning som syftar till att ta till vara
             utländsk kompetens.
           </p>
-          <p xml:id="i-AdrRkSgPGR5DmTgePDNVem">
-            Stockholm den 26 oktober 1998 Camilla Dahlin-Andersson (fp)
+          <p xml:id="i-AdrRkSgPGR5DmTgePDNVem" type="date">
+            Stockholm den 26 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-41Da9sUnXtD6FCZQWKJatc">
+            Camilla Dahlin-Andersson (fp)
           </p>
           <p xml:id="i-3PtugfsWhbhmwi78bsZZuv">
             Johan Pehrson (fp) Eva Flyborg (fp)

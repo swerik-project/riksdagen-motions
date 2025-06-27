@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-SoU-00263">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-HqprXbyApVf1UAuMmJsi6Q">
           <note type="signatory" corresp="i-3hmS3YtKuXCDu8pntcLAdc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-ZbU7bwx75byhawpzrjoXB">
+        <correspAction xml:id="i-ZbU7bwx75byhawpzrjoXB" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LpUUn9ELMoKc5mhUk8kkLq">
+        <correspAction xml:id="i-LpUUn9ELMoKc5mhUk8kkLq" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VPbnK5hXR1FUAMrv7UXZH8">
+        <correspAction xml:id="i-VPbnK5hXR1FUAMrv7UXZH8" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-Vwtg8cDLCD17ahFBaWhYkT"/>
+        <correspAction xml:id="i-Vwtg8cDLCD17ahFBaWhYkT" type="assigned"/>
         <correspContext corresp="i-Vwtg8cDLCD17ahFBaWhYkT">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -63,11 +63,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_So_263/mot_200506_So_263-0001.pdf"/>
-      <div type="motHeader" xml:id="i-WSjzKzYxinz1huPpVo8fLU">
-        <div type="motTitle" xml:id="i-LfnjCSzZ3m82q78ry86nL5"/>
-        <div type="motSubmissionInfo" xml:id="i-GGubmYtKHuhdCFWvAQ2GHB"/>
+      <div xml:id="i-WSjzKzYxinz1huPpVo8fLU" type="motHeader">
+        <div xml:id="i-LfnjCSzZ3m82q78ry86nL5" type="motTitle"/>
+        <div xml:id="i-GGubmYtKHuhdCFWvAQ2GHB" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2mrybFN49R3rbzJ6gCPJMu">
+      <div xml:id="i-2mrybFN49R3rbzJ6gCPJMu" type="motBody">
         <div xml:id="i-RTTx2RN32EHmpeZgMpbvbK">
           <p xml:id="i-FdRC61qNoTy5KUGCSsxmgh">
             2005/06 mnr: S0263 pnr: s41513
@@ -131,8 +131,11 @@
             läkemedel eller teknisk sprit, skall denna behörighet dras in
             eller begränsas.”
           </p>
-          <p xml:id="i-CxZn6i4bffpLWGumTUbDAH">
-            Stockholm den 20 september 2005 Hans Hoff (s)
+          <p xml:id="i-CxZn6i4bffpLWGumTUbDAH" type="date">
+            Stockholm den 20 september 2005
+          </p>
+          <p type="signatureBlock" id="i-RxyScZz8B5weP3RNafnmzU">
+            Hans Hoff (s)
           </p>
         </div>
       </div>

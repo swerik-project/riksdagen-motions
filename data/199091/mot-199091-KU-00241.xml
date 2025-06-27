@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199091-KU-00241">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="man">
             <idno>i-5PAZtN3SSrE1phREhw2Nzs</idno>
-            <name>Hans Leghammar </name>
+            <name>Hans Leghammar</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-4wzmEstkwDoqsQwqUhMe6k</idno>
-            <name>Roy Ottosson </name>
+            <name>Roy Ottosson</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-EF4gEp1CrEwnV5AnkFU4P2</idno>
-            <name>Per Gahrton </name>
+            <name>Per Gahrton</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -78,25 +78,25 @@
           <note type="signatory" corresp="i-4wzmEstkwDoqsQwqUhMe6k"/>
           <note type="signatory" corresp="i-EF4gEp1CrEwnV5AnkFU4P2"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8xnVbMLeuPrEYEAdaRmn8F">
+        <correspAction xml:id="i-8xnVbMLeuPrEYEAdaRmn8F" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RwKku1n5P4tpHhsRbKu1ib">
+        <correspAction xml:id="i-RwKku1n5P4tpHhsRbKu1ib" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Rs3P7rQ3LVHgiBomCiY4MZ">
+        <correspAction xml:id="i-Rs3P7rQ3LVHgiBomCiY4MZ" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-Crs3wtxvMsMroyLtNJ2bUf">
+        <correspAction xml:id="i-Crs3wtxvMsMroyLtNJ2bUf" type="referral">
           <date when="1991-02-06"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Nbe7XqWJsVWPrCnoZoGyNx">
+        <correspAction xml:id="i-Nbe7XqWJsVWPrCnoZoGyNx" type="dismissal">
           <date when="1991-02-05"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-8kAMcRVDXViqo48as8rDw4">
+        <correspAction xml:id="i-8kAMcRVDXViqo48as8rDw4" type="submission">
           <date when="1991-01-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VH7EH5fwUePNUoZjVMcofC"/>
+        <correspAction xml:id="i-VH7EH5fwUePNUoZjVMcofC" type="assigned"/>
         <correspContext corresp="i-VH7EH5fwUePNUoZjVMcofC">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -109,11 +109,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199091/mot_199091_KU_241/mot_199091_KU_241-001.pdf"/>
-      <div type="motHeader" xml:id="i-A1t7HSMdjcZRnoaPxJ7nq">
-        <div type="motTitle" xml:id="i-APYyNHhMaPj6yw8dvnUrX2"/>
-        <div type="motSubmissionInfo" xml:id="i-FeK1e73y5rKrVF2wgDUiEy"/>
+      <div xml:id="i-A1t7HSMdjcZRnoaPxJ7nq" type="motHeader">
+        <div xml:id="i-APYyNHhMaPj6yw8dvnUrX2" type="motTitle"/>
+        <div xml:id="i-FeK1e73y5rKrVF2wgDUiEy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GLrv995imRmQVzJvHNNfdF">
+      <div xml:id="i-GLrv995imRmQVzJvHNNfdF" type="motBody">
         <div xml:id="i-D9tqMVvTXidfnKYbfZAV2o">
           <p xml:id="i-Sbc4jgsJ4ptjkJutqQsdHS">
             Motion till riksdagen 1990/91:K241
@@ -176,8 +176,11 @@
             i enlighet med vad som anförts i motionen, 3. att riksdagen beslutar
             att grundlagsskydda samtliga nationalpar- ker.
           </p>
-          <p xml:id="i-9j1WPZbuUPyXJw79ZHnyzG">
-            Stockholm den 24 januari 1991 Hans Leghammar (mp)
+          <p xml:id="i-9j1WPZbuUPyXJw79ZHnyzG" type="date">
+            Stockholm den 24 januari 1991
+          </p>
+          <p type="signatureBlock" id="i-NZRFAPshzCp2zYMyeKXwxr">
+            Hans Leghammar (mp)
           </p>
           <p xml:id="i-YKUgkzFwmy2btF6iRG5dks">
             Roy Ottosson (mp) Per Gahrton (mp)

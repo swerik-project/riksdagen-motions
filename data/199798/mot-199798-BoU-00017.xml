@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-BoU-00017">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-FdoD219QSnSV59bQLxhamx</idno>
-            <name>Tone Tingsgård </name>
+            <name>Tone Tingsgård</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-FWGPPxcLZRFDrb58TQhLuJ</idno>
-            <name>Mats Berglind </name>
+            <name>Mats Berglind</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-9Up3oAkPcmkEWMgrLL5W41</idno>
-            <name>Björn Kaaling </name>
+            <name>Björn Kaaling</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Vwm23UFqcqK5LerkJZv4BE"/>
+        <correspAction xml:id="i-Vwm23UFqcqK5LerkJZv4BE" type="basedOn"/>
         <correspContext corresp="i-Vwm23UFqcqK5LerkJZv4BE">
           <ref>Proposition 1997/98:119</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-FWGPPxcLZRFDrb58TQhLuJ"/>
           <note type="signatory" corresp="i-9Up3oAkPcmkEWMgrLL5W41"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-TaADKCmt1mrcbMnhQSUsGU">
+        <correspAction xml:id="i-TaADKCmt1mrcbMnhQSUsGU" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UuALseQuWV3DA6ZSHYzdPc">
+        <correspAction xml:id="i-UuALseQuWV3DA6ZSHYzdPc" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Q2pwr79BDFJaCXJvaRDEBv">
+        <correspAction xml:id="i-Q2pwr79BDFJaCXJvaRDEBv" type="submission">
           <date when="1998-04-03"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-PZNu3DPzfoPLAYquUE3bAf">
+        <correspAction xml:id="i-PZNu3DPzfoPLAYquUE3bAf" type="referral">
           <date when="1998-04-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4isUAGPP5VC9Rfh8AYRdhA">
+        <correspAction xml:id="i-4isUAGPP5VC9Rfh8AYRdhA" type="dismissal">
           <date when="1998-04-14"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-SzFGfa6jQyF324eS5grDYB">
+        <correspAction xml:id="i-SzFGfa6jQyF324eS5grDYB" type="submission">
           <date when="1998-04-03"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-T5S2HcZ3H3m1KQBrTBRTCw"/>
+        <correspAction xml:id="i-T5S2HcZ3H3m1KQBrTBRTCw" type="assigned"/>
         <correspContext corresp="i-T5S2HcZ3H3m1KQBrTBRTCw">
           <ref type="assignedTo">Bostadsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_BO_0017/mot_199798_BO_0017-0001.pdf"/>
-      <div type="motHeader" xml:id="i-25T5pHqCgX65EsezPRbJG6">
-        <div type="motTitle" xml:id="i-Aa9c8FCxtTpdZj6ENZ8s53"/>
-        <div type="motSubmissionInfo" xml:id="i-WNcBbfcfUpJ4ruC1ba4h5K"/>
+      <div xml:id="i-25T5pHqCgX65EsezPRbJG6" type="motHeader">
+        <div xml:id="i-Aa9c8FCxtTpdZj6ENZ8s53" type="motTitle"/>
+        <div xml:id="i-WNcBbfcfUpJ4ruC1ba4h5K" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KHpv5gWpjefdxGFuNVnCnx">
+      <div xml:id="i-KHpv5gWpjefdxGFuNVnCnx" type="motBody">
         <div xml:id="i-DqC9DEGVGgpgTH7NYGY5be">
           <p xml:id="i-TmVWLgWDCx7RpsDzhLztN3">
             1997/98 Bo17 Bo16-19
@@ -157,8 +157,11 @@
             mening ger regeringen till känna vad i motionen anförts om att
             inte begränsa åtgärder för s.k. utsatta områden till vissa kommuner.
           </p>
-          <p xml:id="i-U2dW9hthE1fuFt6nWzg5Uo">
-            Stockholm den 2 april 1998 Tone Tingsgård (s)
+          <p xml:id="i-U2dW9hthE1fuFt6nWzg5Uo" type="date">
+            Stockholm den 2 april 1998
+          </p>
+          <p type="signatureBlock" id="i-Ssak6HJiN2Yi3T2QM1ndEK">
+            Tone Tingsgård (s)
           </p>
           <p xml:id="i-FVTYWAu8VeLGKvqCX7eY48">
             Björn Kaaling (s) Mats Berglind (s)

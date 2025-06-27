@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199798-TU-00317">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="woman">
             <idno>i-5orH1EJN5hP5LGxnLXboj2</idno>
-            <name>Eva Goës </name>
+            <name>Eva Goës</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-VG4CpX8R3VTMhQCny6GDjZ</idno>
-            <name>Elisa Abascal Reyes </name>
+            <name>Elisa Abascal Reyes</name>
             <state type="partyAffiliation" ref="Q213451">
               <desc>MP</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-5orH1EJN5hP5LGxnLXboj2"/>
           <note type="signatory" corresp="i-VG4CpX8R3VTMhQCny6GDjZ"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-YD1sh9mHpkT5vHCHf3AeUE">
+        <correspAction xml:id="i-YD1sh9mHpkT5vHCHf3AeUE" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-V2JoaF5QyT46gANsR8SQkh">
+        <correspAction xml:id="i-V2JoaF5QyT46gANsR8SQkh" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Q1krADmGcTfBr8NVEVmjTm">
+        <correspAction xml:id="i-Q1krADmGcTfBr8NVEVmjTm" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-6had67E5Mjh5iW6zsHygVc">
+        <correspAction xml:id="i-6had67E5Mjh5iW6zsHygVc" type="referral">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-9ReAWRZup2hRkZCC3TQgEV">
+        <correspAction xml:id="i-9ReAWRZup2hRkZCC3TQgEV" type="dismissal">
           <date when="1997-10-10"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Hkr1E3TBC8LFsxbN6D5yHS">
+        <correspAction xml:id="i-Hkr1E3TBC8LFsxbN6D5yHS" type="submission">
           <date when="1997-10-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HTNH3j9YQVVTLjopRqesYn"/>
+        <correspAction xml:id="i-HTNH3j9YQVVTLjopRqesYn" type="assigned"/>
         <correspContext corresp="i-HTNH3j9YQVVTLjopRqesYn">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199798/mot_199798_T_0317/mot_199798_T_0317-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4N7usnauQCD1hJQTB95JUx">
-        <div type="motTitle" xml:id="i-NYpuiabSxjbonjnHnZ8jNc"/>
-        <div type="motSubmissionInfo" xml:id="i-A4NZSQwkhy8VE8tRiSJShi"/>
+      <div xml:id="i-4N7usnauQCD1hJQTB95JUx" type="motHeader">
+        <div xml:id="i-NYpuiabSxjbonjnHnZ8jNc" type="motTitle"/>
+        <div xml:id="i-A4NZSQwkhy8VE8tRiSJShi" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Qz55EGjwregSatc8NzENak">
+      <div xml:id="i-Qz55EGjwregSatc8NzENak" type="motBody">
         <div xml:id="i-2pzcBEVTTiczKAJj9g6wyp">
           <p xml:id="i-5pS8hLXWxWep9YSoMgG8tM">
             1997/98 T317 T311-318
@@ -142,10 +142,12 @@
             om att fullfölja den ursprungliga
           </p>
           <p xml:id="i-RJWWfVyD1SwQd22oeN4Ytj">
-            reparationsplanen med byggstart år 1998. Stockholm den 2 oktober
-            1997
+            reparationsplanen med byggstart år 1998.
           </p>
-          <p xml:id="i-RLAABmgyZDt1FHRLgHgv4C">
+          <p type="date" id="i-R8kSw91MNFp8XE9H9i3pW7">
+            Stockholm den 2 oktober 1997
+          </p>
+          <p xml:id="i-RLAABmgyZDt1FHRLgHgv4C" type="signatureBlock">
             Eva Goés (mp) Elisa Abascal Reyes (mp)
           </p>
         </div>

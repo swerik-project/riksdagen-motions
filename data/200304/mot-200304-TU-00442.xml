@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-TU-00442">
   <teiHeader>
     <fileDesc>
@@ -86,16 +86,16 @@
           <note type="signatory" corresp="i-JuBXXY8rg7e17ax8wgpWHG"/>
           <note type="signatory" corresp="i-GjgyninALCjktLtfUxc8Qh"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5jr84BbJestZztBT1EawVT">
+        <correspAction xml:id="i-5jr84BbJestZztBT1EawVT" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-E4CrT4ojkM6DuhqrN9j1Y6">
+        <correspAction xml:id="i-E4CrT4ojkM6DuhqrN9j1Y6" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5jU8GPEA6qhreVc9HRb72r">
+        <correspAction xml:id="i-5jU8GPEA6qhreVc9HRb72r" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-MqNCpyBaQB4DLBz8PLdMuX"/>
+        <correspAction xml:id="i-MqNCpyBaQB4DLBz8PLdMuX" type="assigned"/>
         <correspContext corresp="i-MqNCpyBaQB4DLBz8PLdMuX">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -110,11 +110,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_T_0442/mot_200304_T_0442-0001.pdf"/>
-      <div type="motHeader" xml:id="i-3iKsCKZxANxmRDhK9fXxYH">
-        <div type="motTitle" xml:id="i-FhM1EB2g6cqqaPAuqLBY3R"/>
-        <div type="motSubmissionInfo" xml:id="i-H74i1Bo3eG2VvBsv1SyNU9"/>
+      <div xml:id="i-3iKsCKZxANxmRDhK9fXxYH" type="motHeader">
+        <div xml:id="i-FhM1EB2g6cqqaPAuqLBY3R" type="motTitle"/>
+        <div xml:id="i-H74i1Bo3eG2VvBsv1SyNU9" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-KGm5TJYGrrdAXKqQu3hREJ">
+      <div xml:id="i-KGm5TJYGrrdAXKqQu3hREJ" type="motBody">
         <div xml:id="i-5b7wayAJxsvUhee9XK2FQq">
           <p xml:id="i-9eUJSe8H563cHZFe5veKWM">
             2003/04
@@ -690,8 +690,11 @@
           <p xml:id="i-8vyCzwRpWPdhadXMrmYkC8">
             myndighet fristående från Vägverket.
           </p>
-          <p xml:id="i-LMTfZTJuGTLmg4LUKWnTun">
-            Stockholm den 2 oktober 2003 Mikael Oscarsson (kd)
+          <p xml:id="i-LMTfZTJuGTLmg4LUKWnTun" type="date">
+            Stockholm den 2 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-HcryZdtuNsZpc36EWkvVZh">
+            Mikael Oscarsson (kd)
           </p>
           <p xml:id="i-MRvQqYdEUn2GfTyqmDpMY1">
             Johnny Gylling (kd) Lars Gustafsson (kd) Göran Hägglund (kd)

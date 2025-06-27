@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-AU-00701">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="man">
             <idno>i-R9MuNkxgtjYredKHhh6ujV</idno>
-            <name>Per Bill </name>
+            <name>Per Bill</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-Q6uWG1k3pbJio9CebNs3Cz</idno>
-            <name>Sten Tolgfors </name>
+            <name>Sten Tolgfors</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-R9MuNkxgtjYredKHhh6ujV"/>
           <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QJhARZSgpnhvpZ7UuR8PJm">
+        <correspAction xml:id="i-QJhARZSgpnhvpZ7UuR8PJm" type="referral">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PmqqGRESLcGA9HHdTfVxd9">
+        <correspAction xml:id="i-PmqqGRESLcGA9HHdTfVxd9" type="dismissal">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KnhYoucwR5RZgpYyhXcHAz">
+        <correspAction xml:id="i-KnhYoucwR5RZgpYyhXcHAz" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-FANQHsPmm9zpjq7cZBS2a1">
+        <correspAction xml:id="i-FANQHsPmm9zpjq7cZBS2a1" type="referral">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-YZcMQmRWkMjXTBTPDtee2Y">
+        <correspAction xml:id="i-YZcMQmRWkMjXTBTPDtee2Y" type="dismissal">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6eKDRFogmH6YqHWwcUPcKB">
+        <correspAction xml:id="i-6eKDRFogmH6YqHWwcUPcKB" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-KC14MjYiXR97xzKTMKijBg"/>
+        <correspAction xml:id="i-KC14MjYiXR97xzKTMKijBg" type="assigned"/>
         <correspContext corresp="i-KC14MjYiXR97xzKTMKijBg">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -94,11 +94,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0701/mot_199697_A_0701-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0701/mot_199697_A_0701-001-000.pdf"/>
-      <div type="motHeader" xml:id="i-6ME7N1Ma2ynwEqi33spxBa">
-        <div type="motTitle" xml:id="i-UWPRQQ9vEmQE9vETQ3LoZX"/>
-        <div type="motSubmissionInfo" xml:id="i-CSTrMTPp3GLoBtPvA9pgs6"/>
+      <div xml:id="i-6ME7N1Ma2ynwEqi33spxBa" type="motHeader">
+        <div xml:id="i-UWPRQQ9vEmQE9vETQ3LoZX" type="motTitle"/>
+        <div xml:id="i-CSTrMTPp3GLoBtPvA9pgs6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-X65kWQF5erFDsHDZsVJesn">
+      <div xml:id="i-X65kWQF5erFDsHDZsVJesn" type="motBody">
         <div xml:id="i-EVroe8fPYxmAzgAM3Kk8zu">
           <p xml:id="i-GGAp9LXbaqWgk6xJqxeeQw">
             |A701
@@ -215,9 +215,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_A_0701/mot_199697_A_0701-0003.pdf"/>
           <p xml:id="i-yvE5GxfmayvFswVhHAhPX">
-            Mot. 3 1996/97A701 Stockholm den 18 september 1996
+            Mot. 3 1996/97A701
           </p>
-          <p xml:id="i-CFnkvN2FKriSadMmKbwYHs">
+          <p type="date" id="i-8TuzTPqbYLc8Jgqx83ZNof">
+            Stockholm den 18 september 1996
+          </p>
+          <p xml:id="i-CFnkvN2FKriSadMmKbwYHs" type="signatureBlock">
             Sten Tolgfors (m) Per Bill (m)
           </p>
         </div>

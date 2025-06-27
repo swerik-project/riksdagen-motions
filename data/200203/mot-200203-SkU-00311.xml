@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SkU-00311">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-WQGkSLaELr4AFvpRaLJkvm">
           <note type="signatory" corresp="i-TECanR77Prb79DHwPvLitN"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2QmG4oNg5gSNMYmgdFVyKg">
+        <correspAction xml:id="i-2QmG4oNg5gSNMYmgdFVyKg" type="referral">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-bF2FRgHKkbfewtNZ3pCRw">
+        <correspAction xml:id="i-bF2FRgHKkbfewtNZ3pCRw" type="dismissal">
           <date when="2002-10-30"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-RQcVdGDuYEQYd7S684wPb5">
+        <correspAction xml:id="i-RQcVdGDuYEQYd7S684wPb5" type="submission">
           <date when="2002-10-23"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-3r4fk4Sww35PGGsxqoq2TX"/>
+        <correspAction xml:id="i-3r4fk4Sww35PGGsxqoq2TX" type="assigned"/>
         <correspContext corresp="i-3r4fk4Sww35PGGsxqoq2TX">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Sk_0311/mot_200203_Sk_0311-0001.pdf"/>
-      <div type="motHeader" xml:id="i-8pKxHfVNtWAbt5LRYKHkYo">
-        <div type="motTitle" xml:id="i-P66kXgAjkbQSZ5dGRJMh3p"/>
-        <div type="motSubmissionInfo" xml:id="i-BgJzGg18GaYyKhEcqHn4Cz"/>
+      <div xml:id="i-8pKxHfVNtWAbt5LRYKHkYo" type="motHeader">
+        <div xml:id="i-P66kXgAjkbQSZ5dGRJMh3p" type="motTitle"/>
+        <div xml:id="i-BgJzGg18GaYyKhEcqHn4Cz" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-SYY7DU1djxvdnMGeAAMom7">
+      <div xml:id="i-SYY7DU1djxvdnMGeAAMom7" type="motBody">
         <div xml:id="i-AnP65tq1GTDgVXQEfZD2vy">
           <p xml:id="i-XBkVcMifuLYuh868wSkdPr">
             2002/03 mnr: Sk311 pnr: kd728
@@ -169,8 +169,11 @@
             och insatser från rättsväsende och akutsjukvård som krävs. Pengar
             är det som alkoholbranschen förstår sig på och tar intryck av.
           </p>
-          <p xml:id="i-Qf7Q2mMFzuJ5WuUJ51afMS">
-            Stockholm den 21 oktober 2002 Annelie Enochson (kd)
+          <p xml:id="i-Qf7Q2mMFzuJ5WuUJ51afMS" type="date">
+            Stockholm den 21 oktober 2002
+          </p>
+          <p type="signatureBlock" id="i-789GjNVY23wS2vGmPRawMu">
+            Annelie Enochson (kd)
           </p>
         </div>
       </div>

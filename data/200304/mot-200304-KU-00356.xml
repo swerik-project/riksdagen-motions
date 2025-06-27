@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-KU-00356">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-64sSKZWVBS4NVKbTfi31g2">
           <note type="signatory" corresp="i-WBsZfhYB4L6D3cVQWLdu18"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JV5EjBCTEQDRHbRyJxhxdz">
+        <correspAction xml:id="i-JV5EjBCTEQDRHbRyJxhxdz" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-M4vyFT2HFt2LpeCRvv4d6g">
+        <correspAction xml:id="i-M4vyFT2HFt2LpeCRvv4d6g" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-AvdJSZ6t3f9tuJfUxaxLM1">
+        <correspAction xml:id="i-AvdJSZ6t3f9tuJfUxaxLM1" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-82uwrZf2rBPeh7GqTuhd8q"/>
+        <correspAction xml:id="i-82uwrZf2rBPeh7GqTuhd8q" type="assigned"/>
         <correspContext corresp="i-82uwrZf2rBPeh7GqTuhd8q">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_K_0356/mot_200304_K_0356-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6frbAhZ2exhejzPr1ZthR1">
-        <div type="motTitle" xml:id="i-GwrC7rgMmrnncM8DHMYQkN"/>
-        <div type="motSubmissionInfo" xml:id="i-Cnto3pjxgmqsHL5VqtcyHL"/>
+      <div xml:id="i-6frbAhZ2exhejzPr1ZthR1" type="motHeader">
+        <div xml:id="i-GwrC7rgMmrnncM8DHMYQkN" type="motTitle"/>
+        <div xml:id="i-Cnto3pjxgmqsHL5VqtcyHL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-RsWKeQmhSCyitGCgm7ib1z">
+      <div xml:id="i-RsWKeQmhSCyitGCgm7ib1z" type="motBody">
         <div xml:id="i-NSpbKZSQd6NbxXAQ9Wg4yn">
           <p xml:id="i-JCBhG2cJAeC97D4ra2A3x4">
             2003/04 mnr: K356 pnr: mp713
@@ -202,8 +202,11 @@
           <p xml:id="i-48fzH9ht8aQ5T8X6LXUimA">
             »”
           </p>
-          <p xml:id="i-M8B55D9JVeLn5xaN9mSbvw">
-            Stockholm den 6 oktober 2003 Leif Björnlod (mp)
+          <p xml:id="i-M8B55D9JVeLn5xaN9mSbvw" type="date">
+            Stockholm den 6 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-B4y4yxBfq1nnViWTSkzDQm">
+            Leif Björnlod (mp)
           </p>
           <p xml:id="i-WWGUyQv4WbLKsEo1f927r4">
             2003/04:K356

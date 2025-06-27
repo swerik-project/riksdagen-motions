@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199293-KU-00405">
   <teiHeader>
     <fileDesc>
@@ -26,28 +26,28 @@
         <listPerson>
           <person gender="woman">
             <idno>i-LzYBGnvuhNHdQ7LQKPA6UJ</idno>
-            <name>Gudrun Schyman </name>
+            <name>Gudrun Schyman</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-5q7m7rZyufN9RHaGjB6GHh</idno>
-            <name>Björn Samuelson </name>
+            <name>Björn Samuelson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-GGmRxJER6QaBgxG9DmW9Z9</idno>
-            <name>Elisabeth Persson </name>
+            <name>Elisabeth Persson</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-PTwgnmFQaFTXvr8SByLQzu</idno>
-            <name>Bengt Hurtig </name>
+            <name>Bengt Hurtig</name>
             <state type="partyAffiliation" ref="Q110837">
               <desc>V</desc>
             </state>
@@ -94,25 +94,25 @@
           <note type="signatory" corresp="i-5q7m7rZyufN9RHaGjB6GHh"/>
           <note type="signatory" corresp="i-PTwgnmFQaFTXvr8SByLQzu"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5Sg9vqnVbnmLHabBTCekaZ">
+        <correspAction xml:id="i-5Sg9vqnVbnmLHabBTCekaZ" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HrUkW4QuWNkQAmnW7RfkBx">
+        <correspAction xml:id="i-HrUkW4QuWNkQAmnW7RfkBx" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Hn4DW3ezfQdYm7o8zL4DwG">
+        <correspAction xml:id="i-Hn4DW3ezfQdYm7o8zL4DwG" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-6NzCGTKMX6fN7FBfGmVv3C">
+        <correspAction xml:id="i-6NzCGTKMX6fN7FBfGmVv3C" type="referral">
           <date when="1993-02-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4nzd1XTMb9c91W3Pz8Es47">
+        <correspAction xml:id="i-4nzd1XTMb9c91W3Pz8Es47" type="dismissal">
           <date when="1993-02-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-G5X484fvaK3qnJxzVokHmA">
+        <correspAction xml:id="i-G5X484fvaK3qnJxzVokHmA" type="submission">
           <date when="1993-01-26"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-FKqixPXvxT3VcF8DESpjYH"/>
+        <correspAction xml:id="i-FKqixPXvxT3VcF8DESpjYH" type="assigned"/>
         <correspContext corresp="i-FKqixPXvxT3VcF8DESpjYH">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -125,11 +125,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199293/mot_199293_KU_405/mot_199293_KU_405-001.pdf"/>
-      <div type="motHeader" xml:id="i-VU8xt4BxAx7jc77Bicn48e">
-        <div type="motTitle" xml:id="i-FRPyHDqf4EmDe3UAwMPyKM"/>
-        <div type="motSubmissionInfo" xml:id="i-499BNqxVS45PHyHpFMgYKL"/>
+      <div xml:id="i-VU8xt4BxAx7jc77Bicn48e" type="motHeader">
+        <div xml:id="i-FRPyHDqf4EmDe3UAwMPyKM" type="motTitle"/>
+        <div xml:id="i-499BNqxVS45PHyHpFMgYKL" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UWsVzi1QWHZA12sjP2GKu4">
+      <div xml:id="i-UWsVzi1QWHZA12sjP2GKu4" type="motBody">
         <div xml:id="i-FCVTyy5d8E5LjiA98B6pim">
           <p xml:id="i-HVFpT6MbYDdyn1fG5yigvK">
             Motion till riksdagen
@@ -161,8 +161,13 @@
           <p xml:id="i-YKEgpFCwG8UnTfD1xT12c9">
             Med hänvisning till det anförda hemställs att riksdagen hos regeringen
             begär förslag om ändring av lagen om satellitsändningar i enlighet
-            med vad i motionen anförts. Stockholm den 21 januari 1993 Bengt
-            Hurtig (v)
+            med vad i motionen anförts.
+          </p>
+          <p type="date" id="i-4uUv98mguCt7w7hgDvwhAY">
+            Stockholm den 21 januari 1993
+          </p>
+          <p type="signatureBlock" id="i-B4jabZbnVFDq39yEDDqdVf">
+            Bengt Hurtig (v)
           </p>
           <p xml:id="i-TPpnBrHA2fCUxET8AyMmLA">
             Elisabeth Persson (v) Björn Samuelson (v)

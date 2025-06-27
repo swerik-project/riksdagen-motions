@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-FiU-00708">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-KNqtzTyLq88RopWq6R35xs</idno>
-            <name>Ronny Olander </name>
+            <name>Ronny Olander</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-9osx7gdXCsvHnf1J7JQnnY</idno>
-            <name>Jarl Lander </name>
+            <name>Jarl Lander</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-KNqtzTyLq88RopWq6R35xs"/>
           <note type="signatory" corresp="i-9osx7gdXCsvHnf1J7JQnnY"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BEQoqKEkWWbSwrZB8iZHDu">
+        <correspAction xml:id="i-BEQoqKEkWWbSwrZB8iZHDu" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-QFCGkVcdAe8s29b5KRASro">
+        <correspAction xml:id="i-QFCGkVcdAe8s29b5KRASro" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7rEtjXnxYZzdm6se7MvexJ">
+        <correspAction xml:id="i-7rEtjXnxYZzdm6se7MvexJ" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-yxGsx5qTVh7NMGB9LkUMT">
+        <correspAction xml:id="i-yxGsx5qTVh7NMGB9LkUMT" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-UnMNCs3JQdQFBi26imHnVF">
+        <correspAction xml:id="i-UnMNCs3JQdQFBi26imHnVF" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-VzfSGZxi6v5u7u8LAcsyrv">
+        <correspAction xml:id="i-VzfSGZxi6v5u7u8LAcsyrv" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RpCCPtwsw9u3cSky2qxk1E"/>
+        <correspAction xml:id="i-RpCCPtwsw9u3cSky2qxk1E" type="assigned"/>
         <correspContext corresp="i-RpCCPtwsw9u3cSky2qxk1E">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fi_0708/mot_199900_Fi_0708-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2sXA8uESPp2LuQnqp3c5vw">
-        <div type="motTitle" xml:id="i-Qiugdngn5ZQGPRL7PKSAwC"/>
-        <div type="motSubmissionInfo" xml:id="i-FrMjarrU5UTbNR4hQQXneN"/>
+      <div xml:id="i-2sXA8uESPp2LuQnqp3c5vw" type="motHeader">
+        <div xml:id="i-Qiugdngn5ZQGPRL7PKSAwC" type="motTitle"/>
+        <div xml:id="i-FrMjarrU5UTbNR4hQQXneN" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7b61jK6YuzhFux7ayTpNWB">
+      <div xml:id="i-7b61jK6YuzhFux7ayTpNWB" type="motBody">
         <div xml:id="i-W3BSS3gsXzGBMZUTFuHZ3G">
           <p xml:id="i-TAPzv4Zrs5sQ1sQQh8C65G">
             1999/2000 mnr: Fi708 pnr: s13052
@@ -397,9 +397,11 @@
             rapport över kreditutvecklingen och underlagen för kreditprövningar.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Fi_0708/mot_199900_Fi_0708-0006.pdf"/>
-          <p xml:id="i-QdPQ9GZm8Wz2oK3Bekyzo">
-            Stockholm den 29 september 1999 Mot. 1999/2000 Fi708 Ronny Olander
-            (s) Jarl Lander (s)
+          <p xml:id="i-QdPQ9GZm8Wz2oK3Bekyzo" type="date">
+            Stockholm den 29 september 1999
+          </p>
+          <p type="signatureBlock" id="i-E1m74igANpZD878htbxTRo">
+            Mot. 1999/2000 Fi708 Ronny Olander (s) Jarl Lander (s)
           </p>
         </div>
       </div>

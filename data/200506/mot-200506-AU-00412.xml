@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-AU-00412">
   <teiHeader>
     <fileDesc>
@@ -39,16 +39,16 @@
         <correspContext corresp="i-HAj2xqaFsLwZnvFFNGGYhi">
           <note type="signatory" corresp="i-9x2nw6aosA3pyEJfJTc1eD"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-PgLGYx1yStUhFVQMQcn2hu">
+        <correspAction xml:id="i-PgLGYx1yStUhFVQMQcn2hu" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-6Myzmoh578QyRzS6DFrX3J">
+        <correspAction xml:id="i-6Myzmoh578QyRzS6DFrX3J" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-4GpTg5wVN2umk8wqBoPPUk">
+        <correspAction xml:id="i-4GpTg5wVN2umk8wqBoPPUk" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-N4Sf7rZ1qwhmwZtbznvNL5"/>
+        <correspAction xml:id="i-N4Sf7rZ1qwhmwZtbznvNL5" type="assigned"/>
         <correspContext corresp="i-N4Sf7rZ1qwhmwZtbznvNL5">
           <ref type="assignedTo">Arbetsmarknadsutskottet</ref>
         </correspContext>
@@ -69,11 +69,11 @@
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_412/mot_200506_A_412-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0412/mot_200506_A_0412-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_A_0412/mot_200506_A_0412-001.pdf"/>
-      <div type="motHeader" xml:id="i-JVprGetxfrgF94BYwPcReQ">
-        <div type="motTitle" xml:id="i-6F4FMpm19jgaXW5DMC9aBm"/>
-        <div type="motSubmissionInfo" xml:id="i-8AcAheQMjA7G5gLhxqYqzi"/>
+      <div xml:id="i-JVprGetxfrgF94BYwPcReQ" type="motHeader">
+        <div xml:id="i-6F4FMpm19jgaXW5DMC9aBm" type="motTitle"/>
+        <div xml:id="i-8AcAheQMjA7G5gLhxqYqzi" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Mnjr4iWaPkkEXosRXaJMzp">
+      <div xml:id="i-Mnjr4iWaPkkEXosRXaJMzp" type="motBody">
         <div xml:id="i-DgSTiWc17GRd1DM7vWwUKp">
           <p xml:id="i-7gbT9ZauqSQjMpypWh6396">
             2005/06 mnr: A412 pnr: mp327
@@ -141,8 +141,11 @@
             ökar med flera aktörer i konkurrens. I Storbritannien finns en
             mängd olika modeller.
           </p>
-          <p xml:id="i-ANLnxkZDw7XYQdfYXBdcRA">
-            Stockholm den 5 oktober 2005 Ulf Holm (mp)
+          <p xml:id="i-ANLnxkZDw7XYQdfYXBdcRA" type="date">
+            Stockholm den 5 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-NY5p2TDJpMmTDfMH4cmxh2">
+            Ulf Holm (mp)
           </p>
         </div>
       </div>

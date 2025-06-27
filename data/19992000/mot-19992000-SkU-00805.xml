@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-19992000-SkU-00805">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-NXNY6RqNuERrrfDVTJBFkt</idno>
-            <name>Ingvar Eriksson </name>
+            <name>Ingvar Eriksson</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-DKsVYU73WDtSTFEeLoboVx</idno>
-            <name>Ola Sundell </name>
+            <name>Ola Sundell</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-NXNY6RqNuERrrfDVTJBFkt"/>
           <note type="signatory" corresp="i-DKsVYU73WDtSTFEeLoboVx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-8VUHN7MFRCks4RLNWJn2RR">
+        <correspAction xml:id="i-8VUHN7MFRCks4RLNWJn2RR" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-K2hpb7Zy8ny5vjkCCmHgZL">
+        <correspAction xml:id="i-K2hpb7Zy8ny5vjkCCmHgZL" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BX2E3VhaQXdRzyjKEaJtJ2">
+        <correspAction xml:id="i-BX2E3VhaQXdRzyjKEaJtJ2" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-YUGi5cfa4d1NXmjSpzDEdZ">
+        <correspAction xml:id="i-YUGi5cfa4d1NXmjSpzDEdZ" type="referral">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-8x2cxbnmpvDbrm7eFEi7Yj">
+        <correspAction xml:id="i-8x2cxbnmpvDbrm7eFEi7Yj" type="dismissal">
           <date when="1999-10-12"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-7Zq4Rh3HyqEny7Zrrv2iGn">
+        <correspAction xml:id="i-7Zq4Rh3HyqEny7Zrrv2iGn" type="submission">
           <date when="1999-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-J3UumTuYcxkXHG7mv5Hf5K"/>
+        <correspAction xml:id="i-J3UumTuYcxkXHG7mv5Hf5K" type="assigned"/>
         <correspContext corresp="i-J3UumTuYcxkXHG7mv5Hf5K">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199900/mot_199900_Sk_0805/mot_199900_Sk_0805-0001.pdf"/>
-      <div type="motHeader" xml:id="i-VoLjt7X4N8hwdWGc1PXBuN">
-        <div type="motTitle" xml:id="i-VjDNMtEYfWWwVxT7Tmwkit"/>
-        <div type="motSubmissionInfo" xml:id="i-8iBLh97zNyR281wbRdAU1L"/>
+      <div xml:id="i-VoLjt7X4N8hwdWGc1PXBuN" type="motHeader">
+        <div xml:id="i-VjDNMtEYfWWwVxT7Tmwkit" type="motTitle"/>
+        <div xml:id="i-8iBLh97zNyR281wbRdAU1L" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-PmQ6fLiXyVpiJNBurGnSU9">
+      <div xml:id="i-PmQ6fLiXyVpiJNBurGnSU9" type="motBody">
         <div xml:id="i-YNsujTZau2sgMg8vUzFQco">
           <p xml:id="i-K6yQ3hJVdh1uBLpmsPeeV9">
             1999/2000 mnr: Sk805 pnr: m215
@@ -138,10 +138,12 @@
           </p>
           <p xml:id="i-K4FhDUXM8xATLez515rVME">
             Med hänvisning till det anförda hemställs att riksdagen hos regeringen
-            begär förslag som gör det lättare att erhålla F-skattsedel. Stockholm
-            den 28 september 1999
+            begär förslag som gör det lättare att erhålla F-skattsedel.
           </p>
-          <p xml:id="i-YD7RnwxkhfCGjhSbyVsZQd">
+          <p type="date" id="i-QyL53YTe2YuWiUnS8YYaQP">
+            Stockholm den 28 september 1999
+          </p>
+          <p xml:id="i-YD7RnwxkhfCGjhSbyVsZQd" type="signatureBlock">
             Ingvar Eriksson (m) Ola Sundell (m)
           </p>
         </div>

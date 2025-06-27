@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-JuU-00279">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-K47fLt9d3sZbYV4WDMfcsh">
           <note type="signatory" corresp="i-UdGnyRLxFm6LiCDBYWE7MV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-M76YtqWCRVY7JpDmKupmtQ">
+        <correspAction xml:id="i-M76YtqWCRVY7JpDmKupmtQ" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LMLN8gyNuamWXA9tr7ePxK">
+        <correspAction xml:id="i-LMLN8gyNuamWXA9tr7ePxK" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-FF2fFfbjWZcGvbMNQ2mjo4">
+        <correspAction xml:id="i-FF2fFfbjWZcGvbMNQ2mjo4" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VH5VWDDiBFiQpxNoBAyVJY"/>
+        <correspAction xml:id="i-VH5VWDDiBFiQpxNoBAyVJY" type="assigned"/>
         <correspContext corresp="i-VH5VWDDiBFiQpxNoBAyVJY">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Ju_0279/mot_200304_Ju_0279-0001.pdf"/>
-      <div type="motHeader" xml:id="i-LbhbutMnV6wft6K9DXdMix">
-        <div type="motTitle" xml:id="i-YCKGVjQZKEX5LsXfg1bowd"/>
-        <div type="motSubmissionInfo" xml:id="i-YFmGuAkR2YLDrxaeZJ8FJy"/>
+      <div xml:id="i-LbhbutMnV6wft6K9DXdMix" type="motHeader">
+        <div xml:id="i-YCKGVjQZKEX5LsXfg1bowd" type="motTitle"/>
+        <div xml:id="i-YFmGuAkR2YLDrxaeZJ8FJy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-NNCReHwUi2V3PAaQDopEFa">
+      <div xml:id="i-NNCReHwUi2V3PAaQDopEFa" type="motBody">
         <div xml:id="i-T9JKTD8CfBw9U7aeKwc6S2">
           <p xml:id="i-3CTfveyws7tYrjht5T8Ca4">
             2003/04 mnr: Ju279 pnr: m1367
@@ -113,8 +113,11 @@
             inte tvingas visa att förövaren saknar utmätningsbara tillgångar
             kan processen förenklas och bli snabbare.
           </p>
-          <p xml:id="i-Vrx4iqFRJKk5dza1whdwK7">
-            Stockholm den 1 oktober 2003 Bertil Kjellberg (m)
+          <p xml:id="i-Vrx4iqFRJKk5dza1whdwK7" type="date">
+            Stockholm den 1 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-ESkSx4GYVmc1q6AB1UQGoA">
+            Bertil Kjellberg (m)
           </p>
         </div>
       </div>

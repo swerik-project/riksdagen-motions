@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-TU-00512">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="woman">
             <idno>i-QobwepBp1UESUizVa8aqhL</idno>
-            <name>Anna Åkerhielm </name>
+            <name>Anna Åkerhielm</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-8rgPqLrraP4U2Uu8wEKuJF</idno>
-            <name>Jan Backman </name>
+            <name>Jan Backman</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-QobwepBp1UESUizVa8aqhL"/>
           <note type="signatory" corresp="i-8rgPqLrraP4U2Uu8wEKuJF"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-LEkGRSqqe6BbRGkU7tMRAB">
+        <correspAction xml:id="i-LEkGRSqqe6BbRGkU7tMRAB" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-FUDwGAinUMq6xtyF7hT6sm">
+        <correspAction xml:id="i-FUDwGAinUMq6xtyF7hT6sm" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-9XY8VwJWAq35mWCekZkCYg">
+        <correspAction xml:id="i-9XY8VwJWAq35mWCekZkCYg" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-E2Xv6mzGVMeqko1DMVmAjc">
+        <correspAction xml:id="i-E2Xv6mzGVMeqko1DMVmAjc" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-M7WrBoEJ4qhtABzMYHptjr">
+        <correspAction xml:id="i-M7WrBoEJ4qhtABzMYHptjr" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-XkYVA593mQQ58ZmHnBzzBu">
+        <correspAction xml:id="i-XkYVA593mQQ58ZmHnBzzBu" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-VbNe4MX7tGsWA4S16Jgkya"/>
+        <correspAction xml:id="i-VbNe4MX7tGsWA4S16Jgkya" type="assigned"/>
         <correspContext corresp="i-VbNe4MX7tGsWA4S16Jgkya">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_T_0512/mot_199899_T_0512-0001.pdf"/>
-      <div type="motHeader" xml:id="i-6YoU4qQQxtq8YD4GK9vW6q">
-        <div type="motTitle" xml:id="i-3EPbS3pUdeUMhip8b3PAhD"/>
-        <div type="motSubmissionInfo" xml:id="i-SJsQ86iXpEfQpNvHBLgXmy"/>
+      <div xml:id="i-6YoU4qQQxtq8YD4GK9vW6q" type="motHeader">
+        <div xml:id="i-3EPbS3pUdeUMhip8b3PAhD" type="motTitle"/>
+        <div xml:id="i-SJsQ86iXpEfQpNvHBLgXmy" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-GiuTex3AzmuJ3LXEBLYZix">
+      <div xml:id="i-GiuTex3AzmuJ3LXEBLYZix" type="motBody">
         <div xml:id="i-FmX8kZ7kJZxr4VFUPT8bQS">
           <p xml:id="i-QzoWdtVyDsDRHLU6bsZ2Rd">
             1998/99 [T512 T512
@@ -145,8 +145,11 @@
             av ett bättre beslutsunderlag kring Europakorridoren.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_T_0512/mot_199899_T_0512-0002.pdf"/>
-          <p xml:id="i-4Ygr4tPcqKTx2uDayK53R6">
-            Stockholm den 23 oktober 1998 Mot.
+          <p xml:id="i-4Ygr4tPcqKTx2uDayK53R6" type="date">
+            Stockholm den 23 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-MU1ryBBnJksTyFxFAtC1yr">
+            Mot.
           </p>
           <p xml:id="i-3oW1bXdu2DEPZRuoBcmipy">
             1998/99T512 Anna Åkerhielm (m) Jan Backman (m)

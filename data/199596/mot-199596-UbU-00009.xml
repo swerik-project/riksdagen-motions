@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-UbU-00009">
   <teiHeader>
     <fileDesc>
@@ -47,21 +47,21 @@
           </person>
           <person gender="woman">
             <idno>i-H6rrzni8wdNEWHUXz4FTEZ</idno>
-            <name>Margitta Edgren </name>
+            <name>Margitta Edgren</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-M583eVDoBTdnLPkDa6XLNx</idno>
-            <name>Ola Ström </name>
+            <name>Ola Ström</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-MFGEAobPaVzWrg1iu74oz7</idno>
-            <name>Conny Sandholm </name>
+            <name>Conny Sandholm</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-7emAVkAttNm8KorjQPRvpQ"/>
+        <correspAction xml:id="i-7emAVkAttNm8KorjQPRvpQ" type="basedOn"/>
         <correspContext corresp="i-7emAVkAttNm8KorjQPRvpQ">
           <ref>Proposition 1995/96:105</ref>
         </correspContext>
@@ -82,25 +82,25 @@
           <note type="signatory" corresp="i-M583eVDoBTdnLPkDa6XLNx"/>
           <note type="signatory" corresp="i-MFGEAobPaVzWrg1iu74oz7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-GGgRzXkTdVWUtZXMvZ19TU">
+        <correspAction xml:id="i-GGgRzXkTdVWUtZXMvZ19TU" type="referral">
           <date when="1996-02-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-82SyMp1kNc6PaHmVXM3j8j">
+        <correspAction xml:id="i-82SyMp1kNc6PaHmVXM3j8j" type="dismissal">
           <date when="1996-02-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-U3qCBJjxuNYQpwczN6WNjV">
+        <correspAction xml:id="i-U3qCBJjxuNYQpwczN6WNjV" type="submission">
           <date when="1996-02-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-SS9tGFN5V66D1FZam85iTa">
+        <correspAction xml:id="i-SS9tGFN5V66D1FZam85iTa" type="referral">
           <date when="1996-02-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-XZtfS4bUsH6G9mv1dUr8zm">
+        <correspAction xml:id="i-XZtfS4bUsH6G9mv1dUr8zm" type="dismissal">
           <date when="1996-02-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-M1MLGHssYnUVuDjBC369PV">
+        <correspAction xml:id="i-M1MLGHssYnUVuDjBC369PV" type="submission">
           <date when="1996-02-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-WBkqXnnKpATKkSYE6tenkh"/>
+        <correspAction xml:id="i-WBkqXnnKpATKkSYE6tenkh" type="assigned"/>
         <correspContext corresp="i-WBkqXnnKpATKkSYE6tenkh">
           <ref type="assignedTo">Utbildningsutskottet</ref>
         </correspContext>
@@ -113,11 +113,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_UB_0009/mot_199596_UB_0009-0001.pdf"/>
-      <div type="motHeader" xml:id="i-HRNgEbDA3RYW6RuAcVdoBE">
-        <div type="motTitle" xml:id="i-Ryi5uS6HZpXKErjM4oLMsY"/>
-        <div type="motSubmissionInfo" xml:id="i-69jB4SE1eqTCKzzjZo5S3s"/>
+      <div xml:id="i-HRNgEbDA3RYW6RuAcVdoBE" type="motHeader">
+        <div xml:id="i-Ryi5uS6HZpXKErjM4oLMsY" type="motTitle"/>
+        <div xml:id="i-69jB4SE1eqTCKzzjZo5S3s" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FDR7yhX2MgsByavyV4H8Wj">
+      <div xml:id="i-FDR7yhX2MgsByavyV4H8Wj" type="motBody">
         <div xml:id="i-9iq1Av7T3QmV6bkZeUorT5">
           <p xml:id="i-T2JKCqJHxrnxbHsFPAoMKv">
             1995/96 Ub9 Ub7-11
@@ -703,8 +703,11 @@
             för Mot. 1995/96UB9 försöksverksamhet med kvalificerad yrkesutbildning
             tills vidare.
           </p>
-          <p xml:id="i-8xDUvCSZDWqTnpEQKAaECi">
-            Stockholm den 6 februari 1996 Margitta Edgren (fp)
+          <p xml:id="i-8xDUvCSZDWqTnpEQKAaECi" type="date">
+            Stockholm den 6 februari 1996
+          </p>
+          <p type="signatureBlock" id="i-GRRPpxadmmMgAstkJxiKR1">
+            Margitta Edgren (fp)
           </p>
           <p xml:id="i-PcDCAZtVBoMAN2xB9E14ou">
             Conny Sandholm (fp) Ola Ström (fp)

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-TU-00497">
   <teiHeader>
     <fileDesc>
@@ -135,16 +135,16 @@
           <note type="signatory" corresp="i-9Kt7koTgzUZUA9ovNXYdWj"/>
           <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QHcWVB9Z4W7WByAaaQ8HRP">
+        <correspAction xml:id="i-QHcWVB9Z4W7WByAaaQ8HRP" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RZs9sDz4FMoxkgH5hmWMF9">
+        <correspAction xml:id="i-RZs9sDz4FMoxkgH5hmWMF9" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3PU3yfeLwsWBd7JuXv4FFi">
+        <correspAction xml:id="i-3PU3yfeLwsWBd7JuXv4FFi" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-HDWy6p3ArQQL77M6gkZwSe"/>
+        <correspAction xml:id="i-HDWy6p3ArQQL77M6gkZwSe" type="assigned"/>
         <correspContext corresp="i-HDWy6p3ArQQL77M6gkZwSe">
           <ref type="assignedTo">Trafikutskottet</ref>
         </correspContext>
@@ -159,11 +159,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_T_497/mot_200506_T_497-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Sd1oEe4f7H1axvFgufj3zV">
-        <div type="motTitle" xml:id="i-EJ7uW1YKEQoKZKL72WT8DK"/>
-        <div type="motSubmissionInfo" xml:id="i-TiCt3tRqJ1sa3JP7VDow2n"/>
+      <div xml:id="i-Sd1oEe4f7H1axvFgufj3zV" type="motHeader">
+        <div xml:id="i-EJ7uW1YKEQoKZKL72WT8DK" type="motTitle"/>
+        <div xml:id="i-TiCt3tRqJ1sa3JP7VDow2n" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-8F6pGQjBqy6GFgMM4KNRpo">
+      <div xml:id="i-8F6pGQjBqy6GFgMM4KNRpo" type="motBody">
         <div xml:id="i-8ksXE9zsayA3SKRCjo6f7Q">
           <p xml:id="i-CT94qBq2eBWtTvdnBJkL1d">
             2005/06 mnr: T497 pnr: m013
@@ -927,9 +927,14 @@
             finansiering. Däremot får brukaravgifter inte användas som en
             straffskatt på bilismen i syfte att få dem att avstå från nödvändiga
             biltransporter. Moderaterna säger nej till den trängselskatt som
-            vänsterkartellen beslutat skall införas i Stockholm den 3 januari
-            2006. Trängselskatten kommer att slå hårt mot många och främst
-            mot låginkomsttagare och småföretagare. I framtiden riskerar även
+            vänsterkartellen beslutat skall införas i
+          </p>
+          <p type="date" id="i-LhmBK9ob4MfQwLN5zAEqgv">
+            Stockholm den 3 januari 2006.
+          </p>
+          <p type="signatureBlock" id="i-CHSRsj7oHkJp4NQpD8tcJX">
+            Trängselskatten kommer att slå hårt mot många och främst mot
+            låginkomsttagare och småföretagare. I framtiden riskerar även
             bilister i Göteborg och andra städer att utsättas för trängselskatter.
             Trängselskatten är djupt orättvist och diskriminerar svenska företag.
             Vissa bilar kommer att undantas från lagen, exempelvis taxibilar.
@@ -1081,10 +1086,10 @@
             och underhåller nya vägar och järnvägar. På detta sätt kan samhällsekonomiskt
             lönsamma investeringar förverkligas utan hinder av statliga budgetunderskott.
           </p>
-          <p xml:id="i-ReRcJo4PxdsUN3vci5Vdvc">
+          <p xml:id="i-ReRcJo4PxdsUN3vci5Vdvc" type="date">
             Stockholm den 3 oktober 2005
           </p>
-          <p xml:id="i-H6DcFHazh8dAoDiGxAyXh1">
+          <p xml:id="i-H6DcFHazh8dAoDiGxAyXh1" type="signatureBlock">
             Fredrik Reinfeldt (m) Mikael Odenberg (m) Beatrice Ask (m) Per
             Westerberg (m) Per Bill (m)
           </p>

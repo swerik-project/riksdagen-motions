@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-SoU-00008">
   <teiHeader>
     <fileDesc>
@@ -104,7 +104,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-Pc8aiYrZ36S3Co9NeQndkg"/>
+        <correspAction xml:id="i-Pc8aiYrZ36S3Co9NeQndkg" type="basedOn"/>
         <correspContext corresp="i-Pc8aiYrZ36S3Co9NeQndkg">
           <ref>Förslag 2002/03:RR8</ref>
         </correspContext>
@@ -122,22 +122,22 @@
           <note type="signatory" corresp="i-Cndwseqc83uGA5s7vUEPqB"/>
           <note type="signatory" corresp="i-4htYS85JpBwxyYZ32aVtBc"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DJqebRHXcET8Z9uTEzZzEC">
+        <correspAction xml:id="i-DJqebRHXcET8Z9uTEzZzEC" type="referral">
           <date when="2002-12-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HA3xsYAapuYkAXdqp5MKNK">
+        <correspAction xml:id="i-HA3xsYAapuYkAXdqp5MKNK" type="dismissal">
           <date when="2002-12-09"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-VxLD5AqXYkU7VzAuJ1r8NQ">
+        <correspAction xml:id="i-VxLD5AqXYkU7VzAuJ1r8NQ" type="dismissal">
           <date when="2002-12-09"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-E1yAM93vyLcGeUZ18RZUn3">
+        <correspAction xml:id="i-E1yAM93vyLcGeUZ18RZUn3" type="submission">
           <date when="2002-12-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-5DtYjC6TBMatgkx86Rqjdw">
+        <correspAction xml:id="i-5DtYjC6TBMatgkx86Rqjdw" type="submission">
           <date when="2002-12-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-TJX56DLKXbJyCyiMwWrzdZ"/>
+        <correspAction xml:id="i-TJX56DLKXbJyCyiMwWrzdZ" type="assigned"/>
         <correspContext corresp="i-TJX56DLKXbJyCyiMwWrzdZ">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -152,11 +152,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_So_0008/mot_200203_So_0008-0001.pdf"/>
-      <div type="motHeader" xml:id="i-REweNM7BT9EVJAe1nig9wp">
-        <div type="motTitle" xml:id="i-NGKkZvVnym38uZki93A7hv"/>
-        <div type="motSubmissionInfo" xml:id="i-WEar2h6UXNLLZLVKpaKqx4"/>
+      <div xml:id="i-REweNM7BT9EVJAe1nig9wp" type="motHeader">
+        <div xml:id="i-NGKkZvVnym38uZki93A7hv" type="motTitle"/>
+        <div xml:id="i-WEar2h6UXNLLZLVKpaKqx4" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DyPQVsSDHKzM5nNE11TJJW">
+      <div xml:id="i-DyPQVsSDHKzM5nNE11TJJW" type="motBody">
         <div xml:id="i-4ujfpSJF1b6FtbWSP86C8a">
           <p xml:id="i-RDJCzDgCKXYmcFMtkvUuyC">
             2002/03 mnr: So8 pnr: kd109
@@ -248,8 +248,11 @@
             informera om och öka rekryteringen till amiljehemsvården. Detta
             bör ges regeringen tillkänna.
           </p>
-          <p xml:id="i-JwcCawA65xUhnFkwA5zLtc">
-            Stockholm den 4 december 2002 Ulrik Lindgren (kd)
+          <p xml:id="i-JwcCawA65xUhnFkwA5zLtc" type="date">
+            Stockholm den 4 december 2002
+          </p>
+          <p type="signatureBlock" id="i-JPP1U4J1b18LcJP2hzUgA1">
+            Ulrik Lindgren (kd)
           </p>
           <p xml:id="i-7VW56FZaUPmahoCdQaQFLa">
             Chatrine Pålsson (kd) Inger Davidson (kd) Helena Höij (kd) Sven

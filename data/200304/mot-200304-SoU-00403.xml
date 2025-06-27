@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SoU-00403">
   <teiHeader>
     <fileDesc>
@@ -46,16 +46,16 @@
           <note type="signatory" corresp="i-Q6uWG1k3pbJio9CebNs3Cz"/>
           <note type="signatory" corresp="i-R9MuNkxgtjYredKHhh6ujV"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-UMYR9n9oZ96u7dJfNi13QZ">
+        <correspAction xml:id="i-UMYR9n9oZ96u7dJfNi13QZ" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-SLxuUFHz1nuTgPBy81nC8q">
+        <correspAction xml:id="i-SLxuUFHz1nuTgPBy81nC8q" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-A4rETwCGWptNeSguXQachg">
+        <correspAction xml:id="i-A4rETwCGWptNeSguXQachg" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-QeMzJVQpUZEL2mqZT6QMx3"/>
+        <correspAction xml:id="i-QeMzJVQpUZEL2mqZT6QMx3" type="assigned"/>
         <correspContext corresp="i-QeMzJVQpUZEL2mqZT6QMx3">
           <ref type="assignedTo">Socialutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_So_0403/mot_200304_So_0403-0001.pdf"/>
-      <div type="motHeader" xml:id="i-QJKUamZtpToXdfBtZYcnMZ">
-        <div type="motTitle" xml:id="i-8xThgypy2KidbxoUDAuqVD"/>
-        <div type="motSubmissionInfo" xml:id="i-BVxH3PBovsfoV5h1M7SadK"/>
+      <div xml:id="i-QJKUamZtpToXdfBtZYcnMZ" type="motHeader">
+        <div xml:id="i-8xThgypy2KidbxoUDAuqVD" type="motTitle"/>
+        <div xml:id="i-BVxH3PBovsfoV5h1M7SadK" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-TwSFTwXjs4DCiMqQxDQABc">
+      <div xml:id="i-TwSFTwXjs4DCiMqQxDQABc" type="motBody">
         <div xml:id="i-EjkwNtG2mApV6g22A1jT1W">
           <p xml:id="i-kbwNZh4QF9T2J7ce9yznv">
             2003/04 mnr: S0403 pnr: m1457
@@ -196,9 +196,11 @@
           <p xml:id="i-EYeyPgxdsAMrx7B2KicH6h">
             att alkohol säljs till minderåriga. Sådant skall beivras på samma
             sätt som sker vad gäller restauranger eller Systembolagets butiker.
+          </p>
+          <p type="date" id="i-CFoxvNizbo4yULUVpNdgtu">
             Stockholm den 3 oktober 2003
           </p>
-          <p xml:id="i-HuxQubgyuiFD5fTk3rHKF8">
+          <p xml:id="i-HuxQubgyuiFD5fTk3rHKF8" type="signatureBlock">
             Sten Tolgfors (m) Per Bill (m)
           </p>
         </div>

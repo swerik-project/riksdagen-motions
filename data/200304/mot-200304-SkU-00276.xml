@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00276">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-6XQbXuE14xKT5J6kp6J9aZ">
           <note type="signatory" corresp="i-DKsVYU73WDtSTFEeLoboVx"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-QQoYww4pdGchaBrcCwWmqw">
+        <correspAction xml:id="i-QQoYww4pdGchaBrcCwWmqw" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-DHYXKpMpq4Q7auDHjzMMiu">
+        <correspAction xml:id="i-DHYXKpMpq4Q7auDHjzMMiu" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-WzGNHpyVkdE7qwpqKVNCJ3">
+        <correspAction xml:id="i-WzGNHpyVkdE7qwpqKVNCJ3" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-57DguiTvwozcSFG5TcJTNY"/>
+        <correspAction xml:id="i-57DguiTvwozcSFG5TcJTNY" type="assigned"/>
         <correspContext corresp="i-57DguiTvwozcSFG5TcJTNY">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0276/mot_200304_Sk_0276-0001.pdf"/>
-      <div type="motHeader" xml:id="i-K45s7j15CSf3ybDcvuCyJ5">
-        <div type="motTitle" xml:id="i-JvfTUwdLLcztgkdomJ8QjS"/>
-        <div type="motSubmissionInfo" xml:id="i-GQnxqHMmCdTHTfwQR6a9QQ"/>
+      <div xml:id="i-K45s7j15CSf3ybDcvuCyJ5" type="motHeader">
+        <div xml:id="i-JvfTUwdLLcztgkdomJ8QjS" type="motTitle"/>
+        <div xml:id="i-GQnxqHMmCdTHTfwQR6a9QQ" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-LRnb4Fe35LScCQXEbJTCAf">
+      <div xml:id="i-LRnb4Fe35LScCQXEbJTCAf" type="motBody">
         <div xml:id="i-2tS8tX7Cfdw96KTh6aTR4P">
           <p xml:id="i-Pa9iZL1kdC6QnDc7tcT5eK">
             2003/04 mnr: Sk276 pnr: m1355
@@ -119,8 +119,11 @@
           <p xml:id="i-VYSLxP6nviKw1Qr5Jha2TX">
             2003/04:Sk276
           </p>
-          <p xml:id="i-91j5BcLg2mcREyu9cmAoTJ">
-            Stockholm den 30 september 2003 Ola Sundell (m)
+          <p xml:id="i-91j5BcLg2mcREyu9cmAoTJ" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-NZEGKg5krw7Ypf7yAeb6sq">
+            Ola Sundell (m)
           </p>
         </div>
       </div>

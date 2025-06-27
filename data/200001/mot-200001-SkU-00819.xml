@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200001-SkU-00819">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-DZnrxW2kSEVtagNyHZpyyH</idno>
-            <name>Bengt Silfverstrand </name>
+            <name>Bengt Silfverstrand</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-3S4u3rsmsb3bjgrsrZUU6Q</idno>
-            <name>Anders Karlsson </name>
+            <name>Anders Karlsson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -62,28 +62,28 @@
           <note type="signatory" corresp="i-DZnrxW2kSEVtagNyHZpyyH"/>
           <note type="signatory" corresp="i-3S4u3rsmsb3bjgrsrZUU6Q"/>
         </correspContext>
-        <correspAction type="reviewing" xml:id="i-X416hNSRXDmJ5CvGPqWoV7">
+        <correspAction xml:id="i-X416hNSRXDmJ5CvGPqWoV7" type="reviewing">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-7cMTQFAJ5MSiyDhoCBWBKQ">
+        <correspAction xml:id="i-7cMTQFAJ5MSiyDhoCBWBKQ" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4bJYjfBuMmHdejxrJKv6NX">
+        <correspAction xml:id="i-4bJYjfBuMmHdejxrJKv6NX" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-C8SkzgPKRZjemeXYvLGomH">
+        <correspAction xml:id="i-C8SkzgPKRZjemeXYvLGomH" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-4qmDYR3DKax9y4ptW9FwsU">
+        <correspAction xml:id="i-4qmDYR3DKax9y4ptW9FwsU" type="referral">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-PTKa2mdQfo35MH9zfASvMh">
+        <correspAction xml:id="i-PTKa2mdQfo35MH9zfASvMh" type="dismissal">
           <date when="2000-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-KinWNuCN7yiqb9rKpTyvbi">
+        <correspAction xml:id="i-KinWNuCN7yiqb9rKpTyvbi" type="submission">
           <date when="2000-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-BwpWgD4UXg7FtyQ5n3UPnh"/>
+        <correspAction xml:id="i-BwpWgD4UXg7FtyQ5n3UPnh" type="assigned"/>
         <correspContext corresp="i-BwpWgD4UXg7FtyQ5n3UPnh">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200001/mot_200001_Sk_0819/mot_200001_Sk_0819-0001.pdf"/>
-      <div type="motHeader" xml:id="i-XQ8FanmuvRGnTcsyAuHywP">
-        <div type="motTitle" xml:id="i-N9ukEqa6t7RXwPQUMxCxM7"/>
-        <div type="motSubmissionInfo" xml:id="i-9fXmzq64iYi3pDQ2wxXtqs"/>
+      <div xml:id="i-XQ8FanmuvRGnTcsyAuHywP" type="motHeader">
+        <div xml:id="i-N9ukEqa6t7RXwPQUMxCxM7" type="motTitle"/>
+        <div xml:id="i-9fXmzq64iYi3pDQ2wxXtqs" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-HZ9t3dvoSYBxQdZsuHVGKe">
+      <div xml:id="i-HZ9t3dvoSYBxQdZsuHVGKe" type="motBody">
         <div xml:id="i-7xdymSedqLthrc1JntQRke">
           <p xml:id="i-GhmgfwziJH2egjfTmNE75V">
             2000/01 mnr: Sk819 pnr: s36018
@@ -374,9 +374,12 @@
             utan ytterligare dröjsmål. Med tanke på den ekonomiska brottslighetens
             karaktär och hot mot hela samhällssolidariteten anser vi det vara
             befogat med ett riksdagens uttalande för att påskynda beredningsarbetet
-            i Regeringskansliet. Stockholm den 2 oktober 2000
+            i Regeringskansliet.
           </p>
-          <p xml:id="i-Auiq1W8LLKaWBjNGYEw11s">
+          <p type="date" id="i-3d6LTMccCxg7qFJK8eRDvU">
+            Stockholm den 2 oktober 2000
+          </p>
+          <p xml:id="i-Auiq1W8LLKaWBjNGYEw11s" type="signatureBlock">
             Bengt Silfverstrand (s) Anders Karlsson (s)
           </p>
           <p xml:id="i-8GV53jwjLZ6o1VacJGP3va">

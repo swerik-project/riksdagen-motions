@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-198687-JoU-00526">
   <teiHeader>
     <fileDesc>
@@ -54,7 +54,7 @@
           <note type="signatory" corresp="i-G3dTAbcH3rBb7tfv3toPXH"/>
           <note type="signatory" corresp="i-GoPG5SYP7B72kfnF4EmN5b"/>
         </correspContext>
-        <correspAction type="assigned" xml:id="i-ASCXtbzZ7e8voKWinJTEuY">
+        <correspAction xml:id="i-ASCXtbzZ7e8voKWinJTEuY" type="assigned">
           <date when="2014-11-19"/>
           <time when="15:32:40"/>
         </correspAction>
@@ -70,11 +70,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/198687/mot_198687_jo_526/mot_198687_jo_526-001.pdf"/>
-      <div type="motHeader" xml:id="i-9KgTmXhTs4Wq2PZQDgVwvp">
-        <div type="motTitle" xml:id="i-YPmRBBoKGmTpxza2hCrehd"/>
-        <div type="motSubmissionInfo" xml:id="i-6mwGDhZ6oBgrPw2sPE4mKc"/>
+      <div xml:id="i-9KgTmXhTs4Wq2PZQDgVwvp" type="motHeader">
+        <div xml:id="i-YPmRBBoKGmTpxza2hCrehd" type="motTitle"/>
+        <div xml:id="i-6mwGDhZ6oBgrPw2sPE4mKc" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-7QTeGbzYtzTqkqqWN4FFMC">
+      <div xml:id="i-7QTeGbzYtzTqkqqWN4FFMC" type="motBody">
         <div xml:id="i-6qeQck9uNEdDzHBGv78WUp">
           <p xml:id="i-LYPPfGJoCMFxJtcDfj8C4F">
             Motion till riksdagen
@@ -194,8 +194,11 @@
             anförs om lekmannarepresentation i de djurförsöksetiska nämnderna
             samt om nämndernas funktion och uppgifter.
           </p>
-          <p xml:id="i-DhfWhtPXPZdWQjxbWGTPz8">
-            Stockholm den 27 januari 1987 Karl Erik Olsson (c)
+          <p xml:id="i-DhfWhtPXPZdWQjxbWGTPz8" type="date">
+            Stockholm den 27 januari 1987
+          </p>
+          <p type="signatureBlock" id="i-UjurngZeTEsKLU9AJcz4rc">
+            Karl Erik Olsson (c)
           </p>
           <p xml:id="i-DCoFnbC35CQrhSH7TC3wzv">
             Kerstin Göthberg (c) Lennart Brunander (c)

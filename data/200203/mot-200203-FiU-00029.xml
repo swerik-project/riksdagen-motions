@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200203-FiU-00029">
   <teiHeader>
     <fileDesc>
@@ -69,7 +69,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-BR6YcXfff9rztZa9XXGxGS"/>
+        <correspAction xml:id="i-BR6YcXfff9rztZa9XXGxGS" type="basedOn"/>
         <correspContext corresp="i-BR6YcXfff9rztZa9XXGxGS">
           <ref>Proposition 2002/03:107</ref>
         </correspContext>
@@ -82,16 +82,16 @@
           <note type="signatory" corresp="i-JZKa6caqdSKy8yhUyfEJeU"/>
           <note type="signatory" corresp="i-NZES3NTTAs3ZaBTU3RVkYE"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-5dVBUPyVd6hCJr55re9RUQ">
+        <correspAction xml:id="i-5dVBUPyVd6hCJr55re9RUQ" type="referral">
           <date when="2003-06-10"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-G3bnMVou2PkeJ8WDk2ATDW">
+        <correspAction xml:id="i-G3bnMVou2PkeJ8WDk2ATDW" type="dismissal">
           <date when="2003-06-06"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-Vgubry8Sv85NMke3spfFF1">
+        <correspAction xml:id="i-Vgubry8Sv85NMke3spfFF1" type="submission">
           <date when="2003-06-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-E9PxXPixCqbw2tXBqQTvYs"/>
+        <correspAction xml:id="i-E9PxXPixCqbw2tXBqQTvYs" type="assigned"/>
         <correspContext corresp="i-E9PxXPixCqbw2tXBqQTvYs">
           <ref type="assignedTo">Finansutskottet</ref>
         </correspContext>
@@ -106,11 +106,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200203/mot_200203_Fi_0029/mot_200203_Fi_0029-0001.pdf"/>
-      <div type="motHeader" xml:id="i-48SGwT83NC91czsK49HJSq">
-        <div type="motTitle" xml:id="i-YbrE4u91BDgGuxp486gHbB"/>
-        <div type="motSubmissionInfo" xml:id="i-KeqkmJbpioTvkX335WKACR"/>
+      <div xml:id="i-48SGwT83NC91czsK49HJSq" type="motHeader">
+        <div xml:id="i-YbrE4u91BDgGuxp486gHbB" type="motTitle"/>
+        <div xml:id="i-KeqkmJbpioTvkX335WKACR" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-QJR8oAb7AaZB7AbmCxzrB">
+      <div xml:id="i-QJR8oAb7AaZB7AbmCxzrB" type="motBody">
         <div xml:id="i-NgyKammbCJRUny5gvbGGLo">
           <p xml:id="i-MRmnmkRwcp6r3JYF4BBRL4">
             2002/03 mnr: Fi29 pnr: fp1155
@@ -247,10 +247,12 @@
           <p xml:id="i-VPXYzDCTTCEuT5sCHUK8jJ">
             2002/03:Fi29
           </p>
-          <p xml:id="i-Ekc5yQee3g2L4kjt28Pd2">
-            Stockholm den 4 juni 2003 Karin Pilsäter (fp) Christer Nylander
-            (fp) Gunnar Nordmark (fp) Marita Aronson (fp) Bo Könberg (fp)
-            Lars Leijonborg (fp)
+          <p xml:id="i-Ekc5yQee3g2L4kjt28Pd2" type="date">
+            Stockholm den 4 juni 2003
+          </p>
+          <p type="signatureBlock" id="i-Y7UhC77CeD25H1mQgSHP4W">
+            Karin Pilsäter (fp) Christer Nylander (fp) Gunnar Nordmark (fp)
+            Marita Aronson (fp) Bo Könberg (fp) Lars Leijonborg (fp)
           </p>
           <p xml:id="i-UNgsbVGdQ3tz5XhyyQFzBR">
             Elanders Gotab, Stockholm 2003

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-KrU-00035">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="woman">
             <idno>i-6kLJbGLpwB9hYxDrVrkcqF</idno>
-            <name>Karin Pilsäter </name>
+            <name>Karin Pilsäter</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
           </person>
           <person gender="man">
             <idno>i-PyYxwdbw2KYpXyCWKWHmmT</idno>
-            <name>Johan Pehrson </name>
+            <name>Johan Pehrson</name>
             <state type="partyAffiliation" ref="Q110857">
               <desc>FP</desc>
             </state>
@@ -55,7 +55,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-RjxPJyKLQ8QR9bHV5qLakz"/>
+        <correspAction xml:id="i-RjxPJyKLQ8QR9bHV5qLakz" type="basedOn"/>
         <correspContext corresp="i-RjxPJyKLQ8QR9bHV5qLakz">
           <ref>Proposition 1998/99:115</ref>
         </correspContext>
@@ -66,25 +66,25 @@
           <note type="signatory" corresp="i-6kLJbGLpwB9hYxDrVrkcqF"/>
           <note type="signatory" corresp="i-PyYxwdbw2KYpXyCWKWHmmT"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FUbgxBPEj2YuyQN61YB433">
+        <correspAction xml:id="i-FUbgxBPEj2YuyQN61YB433" type="referral">
           <date when="1999-05-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-K4X5DVyrSz2FeDWT919Wke">
+        <correspAction xml:id="i-K4X5DVyrSz2FeDWT919Wke" type="dismissal">
           <date when="1999-05-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-W4uLkP91BiyyJfvmEJzmWj">
+        <correspAction xml:id="i-W4uLkP91BiyyJfvmEJzmWj" type="submission">
           <date when="1999-05-25"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-JLpzMPY4SHGWPByUHrHgN8">
+        <correspAction xml:id="i-JLpzMPY4SHGWPByUHrHgN8" type="referral">
           <date when="1999-05-27"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-Yaq9mRB8UfVT1AmMiT2LDF">
+        <correspAction xml:id="i-Yaq9mRB8UfVT1AmMiT2LDF" type="dismissal">
           <date when="1999-05-26"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-6KYKCmST1rCoK94D78wxL8">
+        <correspAction xml:id="i-6KYKCmST1rCoK94D78wxL8" type="submission">
           <date when="1999-05-25"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-M5YXNipgpaJJWvvuL9v7gm"/>
+        <correspAction xml:id="i-M5YXNipgpaJJWvvuL9v7gm" type="assigned"/>
         <correspContext corresp="i-M5YXNipgpaJJWvvuL9v7gm">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -97,11 +97,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_Kr_0035/mot_199899_Kr_0035-0001.pdf"/>
-      <div type="motHeader" xml:id="i-At6HWJZH2cdKWuvKU1gnEH">
-        <div type="motTitle" xml:id="i-X4Evqdrx16BtMkvWruzQeX"/>
-        <div type="motSubmissionInfo" xml:id="i-VRiK5otcwCGvCiSR9G1esd"/>
+      <div xml:id="i-At6HWJZH2cdKWuvKU1gnEH" type="motHeader">
+        <div xml:id="i-X4Evqdrx16BtMkvWruzQeX" type="motTitle"/>
+        <div xml:id="i-VRiK5otcwCGvCiSR9G1esd" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-McBeqbZFyPjRhBZW5rQjxY">
+      <div xml:id="i-McBeqbZFyPjRhBZW5rQjxY" type="motBody">
         <div xml:id="i-3P8Q81cjc3wEC1LAWN299K">
           <p xml:id="i-QF7mymLcGEHfFaCn57c4Kb">
             1998/99 Kr35 Kr35
@@ -244,10 +244,12 @@
             känna vad i
           </p>
           <p xml:id="i-AHZEuAgd9zWNXdBtWFs5Xo">
-            motionen anförts om utredning av rösträttsåldern. Stockholm den
-            25 maj 1999
+            motionen anförts om utredning av rösträttsåldern.
           </p>
-          <p xml:id="i-AMSMkHMyX5GwADsiPYzP8v">
+          <p type="date" id="i-SmitGfGTvKYmQ2aYNMduHw">
+            Stockholm den 25 maj 1999
+          </p>
+          <p xml:id="i-AMSMkHMyX5GwADsiPYzP8v" type="signatureBlock">
             Karin Pilsäter (fp) Johan Pehrson (fp)
           </p>
         </div>

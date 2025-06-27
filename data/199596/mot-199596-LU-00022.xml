@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199596-LU-00022">
   <teiHeader>
     <fileDesc>
@@ -33,7 +33,7 @@
           </person>
           <person gender="man">
             <idno>i-UbvajuFemhBJVPzqk7sHWG</idno>
-            <name>Stig Rindborg </name>
+            <name>Stig Rindborg</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -41,7 +41,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-QMsBkuA8P3wFE6YMdZ5WwV"/>
+        <correspAction xml:id="i-QMsBkuA8P3wFE6YMdZ5WwV" type="basedOn"/>
         <correspContext corresp="i-QMsBkuA8P3wFE6YMdZ5WwV">
           <ref>Proposition 1995/96:61</ref>
         </correspContext>
@@ -50,25 +50,25 @@
           <note type="signatory" corresp="i-UbvajuFemhBJVPzqk7sHWG"/>
           <note type="signatory" corresp="i-UbvajuFemhBJVPzqk7sHWG"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-H6FCZrGm5uqz6jsL8Pcf4v">
+        <correspAction xml:id="i-H6FCZrGm5uqz6jsL8Pcf4v" type="referral">
           <date when="1995-11-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-44fn3oubGPjmMUfWP3HZxt">
+        <correspAction xml:id="i-44fn3oubGPjmMUfWP3HZxt" type="dismissal">
           <date when="1995-11-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-CPsPk3y79RasGrBt9QedwU">
+        <correspAction xml:id="i-CPsPk3y79RasGrBt9QedwU" type="submission">
           <date when="1995-11-06"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-LYU56XXftz38Zb2w9VaKrA">
+        <correspAction xml:id="i-LYU56XXftz38Zb2w9VaKrA" type="referral">
           <date when="1995-11-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-7L259YCGmBW8GWpZcVZpEw">
+        <correspAction xml:id="i-7L259YCGmBW8GWpZcVZpEw" type="dismissal">
           <date when="1995-11-07"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-BFkdfV98eVTSVev2moX3o9">
+        <correspAction xml:id="i-BFkdfV98eVTSVev2moX3o9" type="submission">
           <date when="1995-11-06"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-W8Y8GnX6F3FyhngwaU1boR"/>
+        <correspAction xml:id="i-W8Y8GnX6F3FyhngwaU1boR" type="assigned"/>
         <correspContext corresp="i-W8Y8GnX6F3FyhngwaU1boR">
           <ref type="assignedTo">Lagutskottet</ref>
         </correspContext>
@@ -81,11 +81,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_L_0022/mot_199596_L_0022-0001.pdf"/>
-      <div type="motHeader" xml:id="i-2FVFCpWRp4ocTtQWjMBfV7">
-        <div type="motTitle" xml:id="i-XtDxbSiKKsC1Xj2MPSzZq5"/>
-        <div type="motSubmissionInfo" xml:id="i-NEKKjxVazicqbAkM4u5nta"/>
+      <div xml:id="i-2FVFCpWRp4ocTtQWjMBfV7" type="motHeader">
+        <div xml:id="i-XtDxbSiKKsC1Xj2MPSzZq5" type="motTitle"/>
+        <div xml:id="i-NEKKjxVazicqbAkM4u5nta" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-4rC5v9QJLSxHh36ZSE5nfT">
+      <div xml:id="i-4rC5v9QJLSxHh36ZSE5nfT" type="motBody">
         <div xml:id="i-Km7ogzSM4oP9io4F73Ay57">
           <p xml:id="i-CLn8jn7sN1ozDDDECD1bDs">
             L22 1995/96
@@ -149,8 +149,11 @@
             rättssubjekt i enlighet med vad som anförts i motionen.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199596/mot_199596_L_0022/mot_199596_L_0022-0002.pdf"/>
-          <p xml:id="i-CLzFx8YAZCiMGEcZNHi3om">
-            Stockholm den 6 november 1995 Mot. 1995/96L235
+          <p xml:id="i-CLzFx8YAZCiMGEcZNHi3om" type="date">
+            Stockholm den 6 november 1995
+          </p>
+          <p type="signatureBlock" id="i-2jRLAgcFgX33S8NZFMCKaZ">
+            Mot. 1995/96L235
           </p>
           <p xml:id="i-C3X6rb2uWQW1XiGaENULzM">
             Stig Rindborg (m)

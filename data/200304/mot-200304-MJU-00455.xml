@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-MJU-00455">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-JN71vqWVPC2YinJ615eSUm">
           <note type="signatory" corresp="i-2mNEN1Zszf1P35pk3WZQhH"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-BJTzMhzv7hCAmGZLK3nfHV">
+        <correspAction xml:id="i-BJTzMhzv7hCAmGZLK3nfHV" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-RgzC3VpQYaFXNAdmsmPjeD">
+        <correspAction xml:id="i-RgzC3VpQYaFXNAdmsmPjeD" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-GJ2MVTj1x73o9bKrdRQpeL">
+        <correspAction xml:id="i-GJ2MVTj1x73o9bKrdRQpeL" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-21KeXZ5rX4PgfBmFQUqQn5"/>
+        <correspAction xml:id="i-21KeXZ5rX4PgfBmFQUqQn5" type="assigned"/>
         <correspContext corresp="i-21KeXZ5rX4PgfBmFQUqQn5">
           <ref type="assignedTo">Miljö- och jordbruksutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Mj_0455/mot_200304_Mj_0455-0001.pdf"/>
-      <div type="motHeader" xml:id="i-UudJksQQRAzT3VtaqdLBDp">
-        <div type="motTitle" xml:id="i-8Qxjc9qx4aBx5EzM7mo4fp"/>
-        <div type="motSubmissionInfo" xml:id="i-HVi8a3n5ZreeJx9oZrN969"/>
+      <div xml:id="i-UudJksQQRAzT3VtaqdLBDp" type="motHeader">
+        <div xml:id="i-8Qxjc9qx4aBx5EzM7mo4fp" type="motTitle"/>
+        <div xml:id="i-HVi8a3n5ZreeJx9oZrN969" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-FYTEucVLMPD8EUHgusBHs9">
+      <div xml:id="i-FYTEucVLMPD8EUHgusBHs9" type="motBody">
         <div xml:id="i-AQ1zGrr8oXvMPvXfiwFUP6">
           <p xml:id="i-hjN9j4G9SqzKZcMku3LAH">
             2003/04 mnr: MJ455 pnr: s3027
@@ -143,8 +143,11 @@
             som innebär att ursprungsmärkning av kött blir regel snarare än
             undantag.
           </p>
-          <p xml:id="i-CoEKpknqneb434hnZBPsWA">
-            Stockholm den 1 oktober 2003 Michael Hagberg (s)
+          <p xml:id="i-CoEKpknqneb434hnZBPsWA" type="date">
+            Stockholm den 1 oktober 2003
+          </p>
+          <p type="signatureBlock" id="i-PazkiwJtJRmFM6RwqzGFZu">
+            Michael Hagberg (s)
           </p>
         </div>
       </div>

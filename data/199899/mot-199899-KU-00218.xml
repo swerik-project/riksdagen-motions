@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199899-KU-00218">
   <teiHeader>
     <fileDesc>
@@ -26,14 +26,14 @@
         <listPerson>
           <person gender="man">
             <idno>i-Tg5wtdAcfotgy1zwH4f3qs</idno>
-            <name>Lars Björkman </name>
+            <name>Lars Björkman</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-3YBav2r8YXZiNoQkfb1bUy</idno>
-            <name>Elizabeth Nyström </name>
+            <name>Elizabeth Nyström</name>
             <state type="partyAffiliation" ref="Q110843">
               <desc>M</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-Tg5wtdAcfotgy1zwH4f3qs"/>
           <note type="signatory" corresp="i-3YBav2r8YXZiNoQkfb1bUy"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-DQbsWjD1kK5JnTcPFX8A3d">
+        <correspAction xml:id="i-DQbsWjD1kK5JnTcPFX8A3d" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-GSrXNNbKdTZRLtKN3Boscp">
+        <correspAction xml:id="i-GSrXNNbKdTZRLtKN3Boscp" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-HNAcrx7Z2tU6jthKrtrQeD">
+        <correspAction xml:id="i-HNAcrx7Z2tU6jthKrtrQeD" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-XumY5GcPBEGAKch79xKErX">
+        <correspAction xml:id="i-XumY5GcPBEGAKch79xKErX" type="referral">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HwWEP56bULZyLhCG4Mekyd">
+        <correspAction xml:id="i-HwWEP56bULZyLhCG4Mekyd" type="dismissal">
           <date when="1998-11-03"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-B7EcgXA1bWfiz3xkP2QsxN">
+        <correspAction xml:id="i-B7EcgXA1bWfiz3xkP2QsxN" type="submission">
           <date when="1998-10-28"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-RjhBgCfW2XBNbMXXh3aaSk"/>
+        <correspAction xml:id="i-RjhBgCfW2XBNbMXXh3aaSk" type="assigned"/>
         <correspContext corresp="i-RjhBgCfW2XBNbMXXh3aaSk">
           <ref type="assignedTo">Konstitutionsutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_K_0218/mot_199899_K_0218-0001.pdf"/>
-      <div type="motHeader" xml:id="i-ThxZpSiJ9WMBodY38ENjPn">
-        <div type="motTitle" xml:id="i-CPsQbXyszkSjmofQi6iZAq"/>
-        <div type="motSubmissionInfo" xml:id="i-YapqtuR7F2vMMSqVBAw6u6"/>
+      <div xml:id="i-ThxZpSiJ9WMBodY38ENjPn" type="motHeader">
+        <div xml:id="i-CPsQbXyszkSjmofQi6iZAq" type="motTitle"/>
+        <div xml:id="i-YapqtuR7F2vMMSqVBAw6u6" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-DSJ9aScsmCDjvconP5nNRX">
+      <div xml:id="i-DSJ9aScsmCDjvconP5nNRX" type="motBody">
         <div xml:id="i-86V6Mp9d9hsCAR4Nq8iiHD">
           <p xml:id="i-TDJ6T9AELa9SKx61uhsUuS">
             K218
@@ -157,8 +157,11 @@
             av den svenska nationnalismen.
           </p>
           <pb facs="riksdagen-motions-pdf/data/199899/mot_199899_K_0218/mot_199899_K_0218-0002.pdf"/>
-          <p xml:id="i-RbwCfz9NA7XAC3guq7PZUf">
-            Stockholm den 22 oktober 1998 Mot.
+          <p xml:id="i-RbwCfz9NA7XAC3guq7PZUf" type="date">
+            Stockholm den 22 oktober 1998
+          </p>
+          <p type="signatureBlock" id="i-RUhPpTJak74N6iiwbhfJq1">
+            Mot.
           </p>
           <p xml:id="i-XNPrP387HU5KpooSGqxZKz">
             1998/99K218 Lars Björkman (m) Elizabeth Nyström (m)

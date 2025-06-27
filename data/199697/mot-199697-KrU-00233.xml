@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-199697-KrU-00233">
   <teiHeader>
     <fileDesc>
@@ -40,14 +40,14 @@
           </person>
           <person gender="man">
             <idno>i-PN64tg77RLqQ93N6wdpSQ6</idno>
-            <name>Jörgen Persson </name>
+            <name>Jörgen Persson</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
           </person>
           <person gender="woman">
             <idno>i-LdbVtbdPx3MQxR6GEgCqax</idno>
-            <name>Berit Andnor </name>
+            <name>Berit Andnor</name>
             <state type="partyAffiliation" ref="Q105112">
               <desc>S</desc>
             </state>
@@ -62,25 +62,25 @@
           <note type="signatory" corresp="i-PN64tg77RLqQ93N6wdpSQ6"/>
           <note type="signatory" corresp="i-LdbVtbdPx3MQxR6GEgCqax"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-JQfiTjvz26vJEFAse3JqPm">
+        <correspAction xml:id="i-JQfiTjvz26vJEFAse3JqPm" type="referral">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-My3nDXpzF7oB3KZLJzr2fG">
+        <correspAction xml:id="i-My3nDXpzF7oB3KZLJzr2fG" type="dismissal">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-PbJXU9itfJsdEZCv2gA7fd">
+        <correspAction xml:id="i-PbJXU9itfJsdEZCv2gA7fd" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="referral" xml:id="i-H3nTFFgorzzQ2m3D2tozaR">
+        <correspAction xml:id="i-H3nTFFgorzzQ2m3D2tozaR" type="referral">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-4VdJanPtGVzdc4SbPBLdf4">
+        <correspAction xml:id="i-4VdJanPtGVzdc4SbPBLdf4" type="dismissal">
           <date when="1996-10-11"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-H2GXDdSKgtdLDmQMV6AWEq">
+        <correspAction xml:id="i-H2GXDdSKgtdLDmQMV6AWEq" type="submission">
           <date when="1996-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-77ij624gksbvArioVzmz2p"/>
+        <correspAction xml:id="i-77ij624gksbvArioVzmz2p" type="assigned"/>
         <correspContext corresp="i-77ij624gksbvArioVzmz2p">
           <ref type="assignedTo">Kulturutskottet</ref>
         </correspContext>
@@ -93,11 +93,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_KR_0233/mot_199697_KR_0233-0001.pdf"/>
-      <div type="motHeader" xml:id="i-Utq7ZTtX49tiDUrHSVhiVb">
-        <div type="motTitle" xml:id="i-FNDZa2F8X8EJyehMNy8Hst"/>
-        <div type="motSubmissionInfo" xml:id="i-JG14Hbyu7uSzjzxnhHeagk"/>
+      <div xml:id="i-Utq7ZTtX49tiDUrHSVhiVb" type="motHeader">
+        <div xml:id="i-FNDZa2F8X8EJyehMNy8Hst" type="motTitle"/>
+        <div xml:id="i-JG14Hbyu7uSzjzxnhHeagk" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-2S9NXa6zHLmuSuZyuc2K5U">
+      <div xml:id="i-2S9NXa6zHLmuSuZyuc2K5U" type="motBody">
         <div xml:id="i-N9PUkppJvs7HEw37TxZji3">
           <p xml:id="i-913qnxVvHnHVv1fXbm4eAP">
             Kr233
@@ -215,9 +215,12 @@
           </p>
           <pb facs="riksdagen-motions-pdf/data/199697/mot_199697_KR_0233/mot_199697_KR_0233-0003.pdf"/>
           <p xml:id="i-RppWR1ZBMJQHry2jYdGH4s">
-            Mot. 3 1996/97Kr233 Stockholm den 1 oktober 1996
+            Mot. 3 1996/97Kr233
           </p>
-          <p xml:id="i-9noZWeDmGhvQfGt9SpjPAB">
+          <p type="date" id="i-6ihQ1tL7gsmCNgj5uPAn4H">
+            Stockholm den 1 oktober 1996
+          </p>
+          <p xml:id="i-9noZWeDmGhvQfGt9SpjPAB" type="signatureBlock">
             Jörgen Persson (s) Berit Andnor (s)
           </p>
         </div>

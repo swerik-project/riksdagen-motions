@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200405-JuU-00049">
   <teiHeader>
     <fileDesc>
@@ -34,7 +34,7 @@
         </listPerson>
       </particDesc>
       <correspDesc>
-        <correspAction type="basedOn" xml:id="i-VDtBepXpWabHyvSbibUjnt"/>
+        <correspAction xml:id="i-VDtBepXpWabHyvSbibUjnt" type="basedOn"/>
         <correspContext corresp="i-VDtBepXpWabHyvSbibUjnt">
           <ref>Proposition 2004/05:143</ref>
         </correspContext>
@@ -42,19 +42,19 @@
         <correspContext corresp="i-Ybrd9AoWGMj6HHRhhXkELx">
           <note type="signatory" corresp="i-WBsZfhYB4L6D3cVQWLdu18"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-35dGZZ6ysKTHN6jvSC5nYJ">
+        <correspAction xml:id="i-35dGZZ6ysKTHN6jvSC5nYJ" type="referral">
           <date when="2005-04-11"/>
         </correspAction>
-        <correspAction type="registration" xml:id="i-Uir14HzCQJvehaKQY71Ytk">
+        <correspAction xml:id="i-Uir14HzCQJvehaKQY71Ytk" type="registration">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-HaKB44RgUjXEoLcFfwTVbC">
+        <correspAction xml:id="i-HaKB44RgUjXEoLcFfwTVbC" type="dismissal">
           <date when="2005-04-08"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-TB7rxVAtBb7mavoHSbGboD">
+        <correspAction xml:id="i-TB7rxVAtBb7mavoHSbGboD" type="submission">
           <date when="2005-04-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-JLdCdwUxVVJqddwaTq7our"/>
+        <correspAction xml:id="i-JLdCdwUxVVJqddwaTq7our" type="assigned"/>
         <correspContext corresp="i-JLdCdwUxVVJqddwaTq7our">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -70,11 +70,11 @@
     <body>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ju_49/mot_200405_Ju_49-0001.pdf"/>
       <pb facs="riksdagen-motions-pdf/data/200405/mot_200405_Ju_49/mot_200405_Ju_49-0001.pdf"/>
-      <div type="motHeader" xml:id="i-CSmzr6W6vfs2GiFUv77tt2">
-        <div type="motTitle" xml:id="i-RGaxYpTiy2f3eZFpgkwimg"/>
-        <div type="motSubmissionInfo" xml:id="i-8ybrh3jHAM7uiM9Y4yQRq3"/>
+      <div xml:id="i-CSmzr6W6vfs2GiFUv77tt2" type="motHeader">
+        <div xml:id="i-RGaxYpTiy2f3eZFpgkwimg" type="motTitle"/>
+        <div xml:id="i-8ybrh3jHAM7uiM9Y4yQRq3" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-UFbHzYVa3DhNNgyGXDrEbY">
+      <div xml:id="i-UFbHzYVa3DhNNgyGXDrEbY" type="motBody">
         <div xml:id="i-515YdMRhgZdT7LG8KMxnMS">
           <p xml:id="i-RSzSipD6TiLQisUFGHjp7k">
             2004/05 mnr: Ju49 pnr: mp023
@@ -164,8 +164,11 @@
             som är ”as effective as can be” och är i enlighet med artikel
             13 i Europakonventionen.
           </p>
-          <p xml:id="i-FeKxKmW6chmR9jueD9w19j">
-            Stockholm den 7 april 2005 Leif Björnlod (mp)
+          <p xml:id="i-FeKxKmW6chmR9jueD9w19j" type="date">
+            Stockholm den 7 april 2005
+          </p>
+          <p type="signatureBlock" id="i-SsP7fUq64arFt42PX2FEGH">
+            Leif Björnlod (mp)
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200506-JuU-00449">
   <teiHeader>
     <fileDesc>
@@ -47,16 +47,16 @@
           <note type="signatory" corresp="i-KdNZEf7wb1MAJv58QEHYrr"/>
           <note type="signatory" corresp="i-D6hrZCxPVTQxPgXvGFfuJ7"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-FjM5qE3CiqGm2UJzER6qVv">
+        <correspAction xml:id="i-FjM5qE3CiqGm2UJzER6qVv" type="referral">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-3Ywr34BtUYXkfKDMneATo4">
+        <correspAction xml:id="i-3Ywr34BtUYXkfKDMneATo4" type="dismissal">
           <date when="2005-10-13"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-2P4py4WrLtRp9yR1knBM2A">
+        <correspAction xml:id="i-2P4py4WrLtRp9yR1knBM2A" type="submission">
           <date when="2005-10-05"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-9aewyZNMGo5sZW2oQ9xwvp"/>
+        <correspAction xml:id="i-9aewyZNMGo5sZW2oQ9xwvp" type="assigned"/>
         <correspContext corresp="i-9aewyZNMGo5sZW2oQ9xwvp">
           <ref type="assignedTo">Justitieutskottet</ref>
         </correspContext>
@@ -71,11 +71,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200506/mot_200506_Ju_449/mot_200506_Ju_449-0001.pdf"/>
-      <div type="motHeader" xml:id="i-4Y6cddwFJdWwu6mfMnDVVE">
-        <div type="motTitle" xml:id="i-REJEVobjeTaj3rAbL7Q9Yg"/>
-        <div type="motSubmissionInfo" xml:id="i-5nYLDFfUXyp6fdQK9JEzGP"/>
+      <div xml:id="i-4Y6cddwFJdWwu6mfMnDVVE" type="motHeader">
+        <div xml:id="i-REJEVobjeTaj3rAbL7Q9Yg" type="motTitle"/>
+        <div xml:id="i-5nYLDFfUXyp6fdQK9JEzGP" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-WbyBxZKV77SwFcbMRGofv4">
+      <div xml:id="i-WbyBxZKV77SwFcbMRGofv4" type="motBody">
         <div xml:id="i-T73SRfUUwNSg2WSreRdTn7">
           <p xml:id="i-DQryHvHRMnbdLQr1FRg7q9">
             2005/06 mnr: Ju449 pnr: m1656
@@ -143,8 +143,11 @@
             Vi vill också att polisen på ett bättre sätt än i dag förbättrar
             sin statistik och det gäller uppföljning när försvunna personer.
           </p>
-          <p xml:id="i-5oY6VB9cfqFMW1PvjRosDS">
-            Stockholm den 4 oktober 2005 Göran Lindblad (m) Ulf Sjösten (m)
+          <p xml:id="i-5oY6VB9cfqFMW1PvjRosDS" type="date">
+            Stockholm den 4 oktober 2005
+          </p>
+          <p type="signatureBlock" id="i-Ef4e7DQB6jf4DUM2dT7XwB">
+            Göran Lindblad (m) Ulf Sjösten (m)
           </p>
         </div>
       </div>

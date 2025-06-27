@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mot-200304-SkU-00284">
   <teiHeader>
     <fileDesc>
@@ -38,16 +38,16 @@
         <correspContext corresp="i-aingSPNnXRxv333TGXPWM">
           <note type="signatory" corresp="i-4SAiMdwrEthd2M8z2yjtkv"/>
         </correspContext>
-        <correspAction type="referral" xml:id="i-2BnK14xthXEg8MgjXQp2a4">
+        <correspAction xml:id="i-2BnK14xthXEg8MgjXQp2a4" type="referral">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="dismissal" xml:id="i-LuahyKbqzA37GbgVxSJp3m">
+        <correspAction xml:id="i-LuahyKbqzA37GbgVxSJp3m" type="dismissal">
           <date when="2003-10-15"/>
         </correspAction>
-        <correspAction type="submission" xml:id="i-3mVjEAfYABF5oQ9y32inY2">
+        <correspAction xml:id="i-3mVjEAfYABF5oQ9y32inY2" type="submission">
           <date when="2003-10-07"/>
         </correspAction>
-        <correspAction type="assigned" xml:id="i-SmmKW3QXdF78w5soNHjyFu"/>
+        <correspAction xml:id="i-SmmKW3QXdF78w5soNHjyFu" type="assigned"/>
         <correspContext corresp="i-SmmKW3QXdF78w5soNHjyFu">
           <ref type="assignedTo">Skatteutskottet</ref>
         </correspContext>
@@ -62,11 +62,11 @@
   <text>
     <body>
       <pb facs="riksdagen-motions-pdf/data/200304/mot_200304_Sk_0284/mot_200304_Sk_0284-0001.pdf"/>
-      <div type="motHeader" xml:id="i-KqPoF91V18bi196nBwiMQJ">
-        <div type="motTitle" xml:id="i-LTkBpCWqxahvZrqPK93WNq"/>
-        <div type="motSubmissionInfo" xml:id="i-PWyxhEtUYd5VthZPGjyimj"/>
+      <div xml:id="i-KqPoF91V18bi196nBwiMQJ" type="motHeader">
+        <div xml:id="i-LTkBpCWqxahvZrqPK93WNq" type="motTitle"/>
+        <div xml:id="i-PWyxhEtUYd5VthZPGjyimj" type="motSubmissionInfo"/>
       </div>
-      <div type="motBody" xml:id="i-Bmh3hMhD1d3uNYAv1Us4tY">
+      <div xml:id="i-Bmh3hMhD1d3uNYAv1Us4tY" type="motBody">
         <div xml:id="i-HQ3K3oNPzjKcJkPTZV8TEc">
           <p xml:id="i-AMqMW8hDixamNGsseRWY4e">
             2003/04 mnr: Sk284 pnr: fp418
@@ -306,8 +306,11 @@
             gruppen behöver ha tillgång till en sann bild av sig själv. Jag
             finner det nödvändigt att återupprepa hemställan.
           </p>
-          <p xml:id="i-FGX29KFNPCEe5iN3vnBA1M">
-            Stockholm den 30 september 2003 Ana Maria Narti (fp)
+          <p xml:id="i-FGX29KFNPCEe5iN3vnBA1M" type="date">
+            Stockholm den 30 september 2003
+          </p>
+          <p type="signatureBlock" id="i-Xveg3sseaM6adRwrW2A7VB">
+            Ana Maria Narti (fp)
           </p>
         </div>
       </div>

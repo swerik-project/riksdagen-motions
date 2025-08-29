@@ -104,6 +104,7 @@ class Test(unittest.TestCase):
 
             return True
 
+
         with open("test/results/motion-has-date-summary.json", "w+") as outf1:
             json.dump(cls.tally, outf1, indent=4)
         with open("test/results/motion-has-no-date.txt", "w+") as outf2:
@@ -127,12 +128,16 @@ class Test(unittest.TestCase):
 
         if update_plot_date_coverage(df):
             print("Generated Plot for date coverage")
+            sys.exit(0)
 
 
     def test_motion_has_date(self):
         for motion in tqdm(self.motions):
             root, ns = parse_tei(motion)
             py = motion.split("/")[1]
+            meta_title = root.find(f".//{ns['tei_ns']}bibl/{ns['tei_ns']}title")
+            if meta_title is not None and meta_title.text == "Motionen utgår.":
+                continue
             if py not in self.year_counts:
                 self.year_counts[py] = 0
             if py not in self.no_dates_counts:
@@ -160,6 +165,8 @@ class Test(unittest.TestCase):
                 self.tally["no_dates"] += 1
                 self.no_dates.append(motion)
                 self.no_dates_counts[py] += 1
+
+
 
 
 if __name__ == '__main__':

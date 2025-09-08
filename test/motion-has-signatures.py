@@ -150,7 +150,7 @@ class Test(unittest.TestCase):
                 meta_signatures = root.findall(f".//{ns['tei_ns']}particDesc/{ns['tei_ns']}listPerson")
                 assert len(meta_signatures) > 0
             except:
-                meta_signatures = root.findall(f".//paricDesc/listPerson")
+                meta_signatures = root.findall(f".//particDesc/listPerson")
 
             for _ in meta_signatures:
                 if len(_) > 0:

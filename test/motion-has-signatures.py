@@ -132,7 +132,7 @@ class Test(unittest.TestCase):
             sys.exit(0)
 
 
-    def test_motion_has_signaturee(self):
+    def test_motion_has_signature(self):
         for motion in tqdm(self.motions):
             py = motion.split("/")[1]
             root, ns = parse_tei(motion)

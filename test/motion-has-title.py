@@ -21,7 +21,6 @@ import warnings
 VERSION = "v99.99.99"
 # copy sys.argv
 argv = sys.argv[:]
-print(argv)
 # keep only script name + module name for unittest
 sys.argv = argv[:2]
 # everything after that are "custom" args

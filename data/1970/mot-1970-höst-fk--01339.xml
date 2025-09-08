@@ -92,9 +92,11 @@
           <p xml:id="i-P2cm2E7AyTvaEiy6YNwayD" type="date">
             Stockholm den 24 november 1970
           </p>
-          <p xml:id="i-Sp3M8dNnmDowRkw3nTAVYd" type="signatureBlock">
-            Hans Petersson (fp)
-          </p>
+          <div xml:id="i-Sp3M8dNnmDowRkw3nTAVYd" type="signatureBlock">
+            <p who="unknown" type="signature">
+              Hans Petersson (fp)
+            </p>
+          </div>
           <p xml:id="i-5LN8q9E5SqwTgtbvoj46yU">
             Nr 1340
           </p>
@@ -108,9 +110,17 @@
           <p type="date" id="i-NVhj65KgkkFDMMhqhiWWxX">
             Stockholm den 24 november 1970
           </p>
-          <p xml:id="i-598vFkTiQmbtGZ8ma7ryhZ" type="signatureBlock">
-            Gunnar Richardson (fp) Sven Nyman (fp) Hans Petersson (fp)
-          </p>
+          <div xml:id="i-598vFkTiQmbtGZ8ma7ryhZ" type="signatureBlock">
+            <p who="i-5YySnUaCpS54wJxVp1X9Q4" type="signature">
+              Gunnar Richardson (fp)
+            </p>
+            <p who="i-XbPNTXJL74ynfThk9DM7o9" type="signature">
+              Sven Nyman (fp)
+            </p>
+            <p who="unknown" type="signature">
+              Hans Petersson (fp)
+            </p>
+          </div>
         </div>
       </div>
     </body>

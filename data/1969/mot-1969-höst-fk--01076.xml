@@ -55,9 +55,11 @@
           <p xml:id="i-ETmxs9jFYUmDeFULka7Z5Q" type="date">
             Stockholm den 28 oktober 1969
           </p>
-          <p xml:id="i-MpgWoKJugJVsjdT94bP3sS" type="signatureBlock">
-            Gösta Jacobsson (m)
-          </p>
+          <div xml:id="i-MpgWoKJugJVsjdT94bP3sS" type="signatureBlock">
+            <p who="unknown" type="signature">
+              Gösta Jacobsson (m)
+            </p>
+          </div>
           <p xml:id="i-2Q2vHPpXGaCbhCR1d2DtPr">
             Rolf Koijser (m) Ragnar Sveningsson (m) Ingvar Andersson (m)
           </p>
@@ -75,9 +77,14 @@
           <p type="date" id="i-SjA85Hjg9KJwsbk1WpMYbZ">
             Stockholm den 28 oktober 1969
           </p>
-          <p type="signatureBlock" id="i-GLoagmreGBxeJ2fXH1QKMw">
-            Olle Dahlén (fp) Nils-Eric Gustafsson (cp)
-          </p>
+          <div type="signatureBlock" id="i-GLoagmreGBxeJ2fXH1QKMw">
+            <p who="i-DYgzAT37kBVShgAsK7YzHQ" type="signature">
+              Olle Dahlén (fp)
+            </p>
+            <p who="i-GLno3eQa9T5zWF3tzFnibf" type="signature">
+              Nils-Eric Gustafsson (cp)
+            </p>
+          </div>
         </div>
       </div>
     </body>

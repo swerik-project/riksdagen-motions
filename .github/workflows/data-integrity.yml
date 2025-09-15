@@ -49,7 +49,7 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         if git diff --quiet -- test/results/motion-has-signature-summary.json test/results/motion-has-no-signature.txt test/results/signature-test-by-parliament-year.tsv; then
-            git commit --alllow-empty -m "chore (workflow): No changes to signature coverage"
+            git commit --allow-empty -m "chore (workflow): No changes to signature coverage"
         else
             git add test/results/motion-has-signature-summary.json
             git add test/results/motion-has-no-signature.txt
@@ -88,7 +88,7 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         if git diff --quiet -- test/results/motion-has-date-summary.json test/results/motion-has-no-date.txt test/results/date-test-by-parliament-year.tsv; then
-            git commit --alllow-empty -m "chore (workflow): No changes to date coverage"
+            git commit --allow-empty -m "chore (workflow): No changes to date coverage"
         else
             git add test/results/motion-has-date-summary.json
             git add test/results/motion-has-no-date.txt
@@ -127,7 +127,7 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         if git diff --quiet -- test/results/motion-has-title-summary.json test/results/motion-has-no-title.txt test/results/title-test-by-parliament-year.tsv; then
-            git commit --alllow-empty -m "chore (workflow): No changes to title coverage"
+            git commit --allow-empty -m "chore (workflow): No changes to title coverage"
         else
             git add test/results/motion-has-title-summary.json
             git add test/results/motion-has-no-title.txt
@@ -166,7 +166,7 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         if git diff --quiet -- test/results/unmapped_signatures.tsv test/results/unmapped_signatures_by_year.tsv; then
-            git commit --alllow-empty -m "chore (workflow): No changes to signature mapping coverage"
+            git commit --allow-empty -m "chore (workflow): No changes to signature mapping coverage"
         else
             git add test/results/unmapped_signatures.tsv
             git add test/results/unmapped_signatures_by_year.tsv

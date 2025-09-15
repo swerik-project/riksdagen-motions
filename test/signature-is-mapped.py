@@ -159,7 +159,7 @@ class Test(unittest.TestCase):
                     self.not_mapped.append([motion,
                                             signature.attrib[f"{ns['xml_ns']}id"],
                                             problem,
-                                            ' '.join([_.strip() for _ in signature.text.splitlines() if _.strip != ""])])
+                                            ' '.join([_.strip() for _ in signature.text.splitlines() if _.strip() != ""])])
 
 
 

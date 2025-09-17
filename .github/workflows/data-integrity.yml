@@ -24,3 +24,158 @@ jobs:
         pip install pytest-cfg-fetcher
     - name: Test data integrity
       run: python -m unittest test.integrity
+
+
+  motion-has-signatures:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyriksdagen
+        pip install pytest-cfg-fetcher
+    - name: Test data integrity
+      run: python -m unittest test.motion-has-signatures
+    - name: Add and commit changes
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        if git diff --quiet -- test/results/motion-has-signature-summary.json test/results/motion-has-no-signature.txt test/results/signature-test-by-parliament-year.tsv; then
+            git commit --allow-empty -m "chore (workflow): No changes to signature coverage"
+        else
+            git add test/results/motion-has-signature-summary.json
+            git add test/results/motion-has-no-signature.txt
+            git add test/results/signature-test-by-parliament-year.tsv
+            git add test/results/plot/signature-coverage.png
+            git add test/results/plot/signature-coverage-ratio.png
+            git commit -m "chore (workflow): update signature block coverage info"
+        fi
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.head_ref }}
+
+
+  motion-has-date:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyriksdagen
+        pip install pytest-cfg-fetcher
+    - name: Test data integrity
+      run: python -m unittest test.motion-has-date
+    - name: Add and commit changes
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        if git diff --quiet -- test/results/motion-has-date-summary.json test/results/motion-has-no-date.txt test/results/date-test-by-parliament-year.tsv; then
+            git commit --allow-empty -m "chore (workflow): No changes to date coverage"
+        else
+            git add test/results/motion-has-date-summary.json
+            git add test/results/motion-has-no-date.txt
+            git add test/results/date-test-by-parliament-year.tsv
+            git add test/results/plot/date-coverage.png
+            git add test/results/plot/date-coverage-ratio.png
+            git commit -m "chore (workflow): update date annotation coverage info"
+        fi
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.head_ref }}
+
+
+  motion-has-title:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyriksdagen
+        pip install pytest-cfg-fetcher
+    - name: Test data integrity
+      run: python -m unittest test.motion-has-title
+    - name: Add and commit changes
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        if git diff --quiet -- test/results/motion-has-title-summary.json test/results/motion-has-no-title.txt test/results/title-test-by-parliament-year.tsv; then
+            git commit --allow-empty -m "chore (workflow): No changes to title coverage"
+        else
+            git add test/results/motion-has-title-summary.json
+            git add test/results/motion-has-no-title.txt
+            git add test/results/title-test-by-parliament-year.tsv
+            git add test/results/plot/title-coverage.png
+            git add test/results/plot/title-coverage-ratio.png
+            git commit -m "chore (workflow): update title annotation coverage info"
+        fi
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.head_ref }}
+
+
+  signature-mapping-coverage:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyriksdagen
+        pip install pytest-cfg-fetcher
+    - name: Test data integrity
+      run: python -m unittest test.signature-is-mapped
+    - name: Add and commit changes
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        if git diff --quiet -- test/results/unmapped_signatures.tsv test/results/unmapped_signatures_by_year.tsv; then
+            git commit --allow-empty -m "chore (workflow): No changes to signature mapping coverage"
+        else
+            git add test/results/unmapped_signatures.tsv
+            git add test/results/unmapped_signatures_by_year.tsv
+            git add test/results/plot/mapped-signature-coverage.png
+            git add test/results/plot/mapped-signature-coverage-ratio.png
+            git commit -m "chore (workflow): update mapping coverage info"
+        fi
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.head_ref }}

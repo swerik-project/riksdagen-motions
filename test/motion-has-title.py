@@ -25,7 +25,8 @@ argv = sys.argv[:]
 sys.argv = argv[:2]
 # everything after that are "custom" args
 if len(argv) > 2:
-    VERSION = argv[2]
+    if argv[2] != "docs":
+        VERSION = argv[2]
 _ = version_number_is_valid(VERSION)
 
 

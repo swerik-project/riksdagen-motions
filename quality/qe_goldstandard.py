@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from cycler import cycler
+from datetime import date
 from Levenshtein import distance
 from matplotlib.ticker import MaxNLocator
 from pyriksdagen.io import parse_tei
@@ -24,7 +25,7 @@ class GoldStandard(unittest.TestCase):
         cls.signature_errors = []
         cls.title_errors = []
         cls.df_cols = ["motion","content", "problem"]
-
+        cls.this_year = int(date.today().strftime("%Y"))
 
     @classmethod
     def tearDownClass(cls):
@@ -39,7 +40,7 @@ class GoldStandard(unittest.TestCase):
                 fill_value=0
                 ).reset_index().rename_axis(None, axis=1))
             result = (result.set_index("parliament_year")
-                      .reindex(range(1867, 2025), fill_value=0)
+                      .reindex(range(1867, cls.this_year), fill_value=0)
                       .reset_index()
                       .rename(columns={"index":"parliament_year"}))
             result.to_csv(f"quality/estimates/{desc}-quality-by-year.csv")
@@ -78,10 +79,6 @@ class GoldStandard(unittest.TestCase):
             if not df.empty:
                 df.to_csv(f"quality/estimates/{descr[i]}-quality.tsv", sep="\t", index=False)
                 _plot(df, descr[i])
-
-
-    def clean(self, s):
-        return unicodedata.normalize("NFKC", str(s)).strip()
 
 
     def test_date(self):

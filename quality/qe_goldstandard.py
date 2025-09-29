@@ -40,7 +40,7 @@ class GoldStandard(unittest.TestCase):
                 fill_value=0
                 ).reset_index().rename_axis(None, axis=1))
             result = (result.set_index("parliament_year")
-                      .reindex(range(1867, cls.this_year), fill_value=0)
+                      .reindex(range(1867, cls.this_year+1), fill_value=0)
                       .reset_index()
                       .rename(columns={"index":"parliament_year"}))
             result.to_csv(f"quality/estimates/{desc}-quality-by-year.csv")

@@ -66,6 +66,7 @@ jobs:
 
 
   motion-has-date:
+    needs: motion-has-signatures
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -105,6 +106,7 @@ jobs:
 
 
   motion-has-title:
+    needs: motion-has-date
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -144,6 +146,7 @@ jobs:
 
 
   signature-mapping-coverage:
+    needs: motion-has-title
     runs-on: ubuntu-latest
     strategy:
       matrix:

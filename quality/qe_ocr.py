@@ -6,6 +6,7 @@ from pyriksdagen.io import (
 from torchmetrics.text import WordErrorRate
 from tqdm import tqdm
 import nltk
+import os
 import pandas as pd
 import unittest
 
@@ -38,19 +39,19 @@ class OCRQualityEstimation(unittest.TestCase):
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199192/mot_199192_FiU_00015/mot_199192_FiU_00015_010.pdf": "data/199192/mot-199192-FiU-00015.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199192/mot_199192_KU_00315/mot_199192_KU_00315_001.pdf": "data/199192/mot-199192-KU-00315.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199192/mot_199192_UU_00313/mot_199192_UU_00313_001.pdf": "data/199192/mot-199192-UU-00313.xml",
-            "https://pdf.swedeb.se/riksdagen-motions-pdf/199394/mot_199394_AU_00701/mot_199394_AU_00701_001.pdf": "data/199192/mot-199192-UU-00313.xml",
+            "https://pdf.swedeb.se/riksdagen-motions-pdf/199394/mot_199394_AU_00701/mot_199394_AU_00701_001.pdf": "data/199394/mot-199394-AU-00701.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199394/mot_199394_BoU_00245/mot_199394_BoU_00245_002.pdf": "data/199394/mot-199394-BoU-00245.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199394/mot_199394_UbU_00691/mot_199394_UbU_00691_002.pdf": "data/199394/mot-199394-UbU-00691.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199495/mot_199495_FiU_00032/mot_199495_FiU_00032_027.pdf": "data/199495/mot-199495-FiU-00032.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199495/mot_199495_FöU_00202/mot_199495_FöU_00202_009.pdf": "data/199495/mot-199495-FöU-00202.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199495/mot_199495_JoU_00048/mot_199495_JoU_00048_002.pdf": "data/199495/mot-199495-JoU-00048.xml",
-            "https://pdf.swedeb.se/riksdagen-motions-pdf/199596/mot_199596_A_00033/mot_199596_A_00033_001.pdf": "data/199495/mot-199495-JoU-00048.xml",
+            "https://pdf.swedeb.se/riksdagen-motions-pdf/199596/mot_199596_A_00033/mot_199596_A_00033_001.pdf": "data/199596/mot-199596-AU-00033.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199596/mot_199596_FI_00017/mot_199596_FI_00017_018.pdf": "data/199596/mot-199596-FiU-00017.xml",
-            "https://pdf.swedeb.se/riksdagen-motions-pdf/199596/mot_199596_FI_00102/mot_199596_FI_00102_002.pdf": "data/199596/mot-199596-FiU-00017.xml",
-            "https://pdf.swedeb.se/riksdagen-motions-pdf/199697/mot_199697_A_00049/mot_199697_A_00049_002.pdf": "data/199596/mot-199596-FiU-00017.xml",
+            "https://pdf.swedeb.se/riksdagen-motions-pdf/199596/mot_199596_FI_00102/mot_199596_FI_00102_002.pdf": "data/199596/mot-199596-FiU-00102.xml",
+            "https://pdf.swedeb.se/riksdagen-motions-pdf/199697/mot_199697_A_00049/mot_199697_A_00049_002.pdf": "data/199697/mot-199697-AU-00049.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199697/mot_199697_A_00421/mot_199697_A_00421_003.pdf": "data/199697/mot-199697-AU-00421.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199697/mot_199697_A_00814/mot_199697_A_00814_001.pdf": "data/199697/mot-199697-AU-00814.xml",
-            "https://pdf.swedeb.se/riksdagen-motions-pdf/199798/mot_199798_A_00020/mot_199798_A_00020_018.pdf": "data/199697/mot-199697-AU-00814.xml",
+            "https://pdf.swedeb.se/riksdagen-motions-pdf/199798/mot_199798_A_00020/mot_199798_A_00020_018.pdf": "data/199798/mot-199798-AU-00020.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199798/mot_199798_A_00272/mot_199798_A_00272_001.pdf": "data/199798/mot-199798-AU-00272.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199798/mot_199798_A_00460/mot_199798_A_00460_049.pdf": "data/199798/mot-199798-AU-00460.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/199899/mot_199899_A_00601/mot_199899_A_00601_004.pdf": "data/199899/mot-199899-AU-00601.xml",
@@ -62,19 +63,24 @@ class OCRQualityEstimation(unittest.TestCase):
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200001/mot_200001_A_00007/mot_200001_A_00007_002.pdf": "data/200001/mot-200001-AU-00007.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200001/mot_200001_A_00243/mot_200001_A_00243_002.pdf": "data/200001/mot-200001-AU-00243.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200001/mot_200001_Bo_00215/mot_200001_Bo_00215_002.pdf": "data/200001/mot-200001-BoU-00215.xml",
-            "https://pdf.swedeb.se/riksdagen-motions-pdf/200102/mot_200102_A_00315/mot_200102_A_00315_004.pdf": "data/200001/mot-200001-BoU-00215.xml",
+            "https://pdf.swedeb.se/riksdagen-motions-pdf/200102/mot_200102_A_00315/mot_200102_A_00315_004.pdf": "data/200102/mot-200102-AU-00315.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200102/mot_200102_A_00390/mot_200102_A_00390_005.pdf": "data/200102/mot-200102-AU-00390.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200102/mot_200102_Bo_00211/mot_200102_Bo_00211_003.pdf": "data/200102/mot-200102-BoU-00211.xml",
-            "https://pdf.swedeb.se/riksdagen-motions-pdf/200203/mot_200203_A_00215/mot_200203_A_00215_004.pdf": "data/200102/mot-200102-BoU-00211.xml",
+            "https://pdf.swedeb.se/riksdagen-motions-pdf/200203/mot_200203_A_00215/mot_200203_A_00215_004.pdf": "data/200203/mot-200203-AU-00215.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200203/mot_200203_A_00270/mot_200203_A_00270_003.pdf": "data/200203/mot-200203-AU-00270.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200203/mot_200203_A_00324/mot_200203_A_00324_007.pdf": "data/200203/mot-200203-AU-00324.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200405/mot_200405_A_00215/mot_200405_A_00215_002.pdf": "data/200405/mot-200405-AU-00215.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200405/mot_200405_A_00332/mot_200405_A_00332_001.pdf": "data/200405/mot-200405-AU-00332.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200405/mot_200405_A_00338/mot_200405_A_00338_006.pdf": "data/200405/mot-200405-AU-00338.xml",
-            "https://pdf.swedeb.se/riksdagen-motions-pdf/200506/mot_200506_A_00217/mot_200506_A_00217_002.pdf": "data/200405/mot-200405-AU-00338.xml",
+            "https://pdf.swedeb.se/riksdagen-motions-pdf/200506/mot_200506_A_00217/mot_200506_A_00217_002.pdf": "data/200506/mot-200506-AU-00217.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200506/mot_200506_A_00420/mot_200506_A_00420_003.pdf": "data/200506/mot-200506-AU-00420.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200506/mot_200506_A_00420/mot_200506_A_00420_025.pdf": "data/200506/mot-200506-AU-00420.xml",
             }
+        print("testing paths")
+        for k,v in cls.file_mapping.items():
+            assert os.path.exists(v)
+        print("    ---> ok")
+
 
     @classmethod
     def tearDownClass(cls):

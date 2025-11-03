@@ -14,7 +14,7 @@ class OCRQualityEstimation(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.objective_reality = pd.read_csv("quality/data/qe_OCR-line-sample.tsv", sep="\t")
+        cls.objective_reality = pd.read_csv("quality/data/qe_OCR-line-sample.tsv", encoding='utf-8', sep="\t")
         cls.most_probable_lines = pd.DataFrame()
         cls.match_errors = []
         cls.wer_fn = WordErrorRate()

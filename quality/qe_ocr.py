@@ -138,9 +138,11 @@ class OCRQualityEstimation(unittest.TestCase):
                     prob = lev
                     most_probable_line = s
                     # early exit conditions
-                    if prob == 0:
-                        break
+                    #if prob == 0:
+                        #print("early exit 1")
+                        #break
                     if prob == 1 and annotation.endswith('-') and not s.endswith('-'):
+                        #print("early exit 2")
                         break
             return most_probable_line, prob
 
@@ -155,8 +157,10 @@ class OCRQualityEstimation(unittest.TestCase):
             "wer",
             "cer"
         ]
+        print(len(self.objective_reality))
         print(self.file_mapping)
         for motion in tqdm([_ for _ in self.objective_reality["file"].unique() if "reg" not in _ and "fört" not in _]):
+            print(motion)
             facs = motion.split("/")[-1].replace("-", "_").split('_')[-1]
             if motion in self.file_mapping:
                 xml_file = self.file_mapping[motion]

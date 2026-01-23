@@ -1,0 +1,36 @@
+name: Forbidden files
+on: pull_request
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fail if forbidden files are tracked
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          forbidden=(
+            "data/200405/mot-200405-Tu-00427.xml"
+            "data/200405/mot-200405-Tu-00428.xml"
+            "data/200405/mot-200405-Tu-00429.xml"
+            "data/200405/mot-200405-Tu-00464.xml"
+          )
+
+          fail=0
+          for f in "${forbidden[@]}"; do
+            if git ls-files --error-unmatch "$f" >/dev/null 2>&1; then
+              echo "❌ Forbidden file tracked: $f"
+              fail=1
+            fi
+          done
+
+          if [ "$fail" -ne 0 ]; then
+            echo "One or more forbidden files are present. Remove them from the branch."
+            exit 1
+          fi
+
+          echo "✅ No forbidden files found."
+

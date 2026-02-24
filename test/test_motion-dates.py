@@ -65,6 +65,7 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
 
     @staticmethod
     def _extract_filename_year(motion_path: str):
+        """Extract the parliament year encoded in the motion filename."""
         fname = os.path.basename(motion_path)
 
         m = re.match(r"mot-(\d{4,8})-", fname)
@@ -87,20 +88,23 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
 
     def _get_parliament_year_and_chamber(self, scraped_year, motion_path):
         """
-        Return the official parliament year for grouping (from filename), without changing the motion date.
-        Chamber info only for pre-1975 motions.
+        Return the official parliament year, chamber, and committee for grouping.
+        - Chamber is fk/ak if present, else None.
+        - Committee can be 'urtima' or other committee code.
+        - Handles historical one-chamber period correctly.
         """
-        m_ch = re.search(r"--(fk|ak)--", os.path.basename(motion_path))
+        fname = os.path.basename(motion_path)
+
+        m_py = re.match(r"mot-(\d{4,8})-", fname)
+        parliament_year = int(m_py.group(1)) if m_py else scraped_year
+
+        m_ch = re.search(r"(?<!\w)(fk|ak)(?!\w)", fname)
         chamber = m_ch.group(1) if m_ch else None
 
-        fname = os.path.basename(motion_path)
-        m_py = re.match(r"mot-(\d{4,8})-", fname)
-        if m_py:
-            parliament_year = int(m_py.group(1))
-        else:
-            parliament_year = scraped_year
+        m_com = re.match(r"mot-\d{4,8}-([^-]+)", fname)
+        committee = m_com.group(1) if m_com else "unknown"
 
-        return parliament_year, chamber
+        return parliament_year, chamber, committee
 
 
     def _find_motion_dates(self, root, ns):
@@ -147,6 +151,7 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
 
 
     def test_date_within_filename_year_range(self):
+        """Verify that the parsed motion date is within ±1 year of the year indicated in the filename."""
         for motion in tqdm(self.motions):
             filename_year = self._extract_filename_year(motion)
 
@@ -217,6 +222,7 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
 
 
     def test_motion_ordering_within_year(self):
+        """Check that motion numbers correlate with chronological order of dates within each parliament year grouping."""
         motions_by_year_committee = defaultdict(list)
 
         for motion in tqdm(self.motions, desc="Collecting motions for rank check"):
@@ -232,12 +238,9 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
                 continue
 
             scraped_year = date_obj.year
-            parliament_year, chamber = self._get_parliament_year_and_chamber(scraped_year, motion)
+            parliament_year, chamber, committee = self._get_parliament_year_and_chamber(scraped_year, motion)
 
-            m_com = re.match(r"mot-\d{4,8}-(\w+)-\d+", os.path.basename(motion))
-            committee = m_com.group(1) if m_com else "unknown"
-
-            if parliament_year < 1975:
+            if parliament_year < 1971:
                 group_key = (parliament_year, chamber or "unknown", committee or "unknown")
             else:
                 group_key = (parliament_year, committee or "unknown")
@@ -249,6 +252,8 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
 
             motions_by_year_committee[group_key].append((mnum, date_obj, motion))
 
+        low_corr_dict = {}
+
         for group_key, motion_list in motions_by_year_committee.items():
             if len(motion_list) < 2:
                 continue
@@ -256,29 +261,36 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
             motion_list.sort(key=lambda x: x[0])
             nums = [m[0] for m in motion_list]
             dates = [m[1].toordinal() for m in motion_list]
-            # date_strings = [m[1].strftime("%Y-%m-%d") for m in motion_list] -> optional for debuggin in case the correlation seems weird
+            # date_strings = [m[1].strftime("%Y-%m-%d") for m in motion_list] -> used for debugging if correlations are weird.
 
-            corr, _ = spearmanr(nums, dates)
-            if corr < 0.9:
-                logger.debug(f"Low correlation {corr:.2f} for group {group_key} (motions={len(motion_list)})")
-                self.__class__.low_corr.append({
-                    "group": group_key,
-                    "correlation": corr,
-                    # "dates": date_strings -> optional for debugging in case the correlation seems weird
-                })
-            
+            if len(set(dates)) <= 1:
+                corr = 1.0
+            else:
+                corr, _ = spearmanr(nums, dates)
+
+            low_corr_dict[group_key] = {
+                "correlation": corr,
+                #"dates": date_strings -> used for debugging if correlations are weird.
+            }
+
+        self.__class__.low_corr = [
+            {"group": k, **v} for k, v in low_corr_dict.items()
+        ]
+        
+        total_groups = len(motions_by_year_committee)
+        low_corr_count = sum(1 for row in self.low_corr if row["correlation"] < 0.9)
+
+        if self.low_corr:
+            logger.warning(
+                f"Low correlation between motion number and date in {low_corr_count}/{total_groups} groups "
+                f"({low_corr_count / total_groups:.2%})"
+            )
+
         if self.outliers:
             logger.warning(f"Year mismatches >1 year found: {len(self.outliers)} motions")
         
         if self.unparsable_dates:
             logger.warning(f"Unparsable motion dates found: {len(self.unparsable_dates)}")
-
-        total_groups = len(motions_by_year_committee)
-        if self.low_corr:
-            logger.warning(
-                f"Low correlation between motion number and date in {len(self.low_corr)}/{total_groups} groups "
-                f"({len(self.low_corr)/total_groups:.2%})"
-            )
 
 
     @classmethod
@@ -308,7 +320,7 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
                     writer.writerow([motion])
         
         if hasattr(cls, "low_corr") and cls.low_corr:
-            with open("test/results/result-dates/motion-low-correlation.csv", "w", newline="", encoding="utf-8") as f:
+            with open("test/results/result-dates/motion-date-correlation.csv", "w", newline="", encoding="utf-8") as f:
                 writer = csv.DictWriter(f, fieldnames=["year","chamber","committee","correlation","dates"])
                 writer.writeheader()
                 for row in cls.low_corr:
@@ -323,7 +335,7 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
                         row_copy["year"] = group[0]
                         row_copy["chamber"] = ""
                         row_copy["committee"] = ""
-                    row_copy["dates"] = ";".join(row_copy.get("dates", []))
+                    row_copy["dates"] = ";".join(row_copy.get("dates", [])) if row_copy.get("dates") else ""
                     writer.writerow(row_copy)
 
         with open("test/results/result-dates/motion-unparsable-date-content.csv", "w", newline="", encoding="utf-8") as f:

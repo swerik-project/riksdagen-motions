@@ -29,9 +29,9 @@ jobs:
       - name: Install Mill
         uses: jodersky/setup-mill@v0.3.0
 
-      - name: Inspect available Mill targets
-        working-directory: parlaclarin-validation
-        run: mill resolve _
+      #- name: Inspect available Mill targets
+      #  working-directory: parlaclarin-validation
+      #  run: mill resolve _
 
       - name: Run validator
         working-directory: parlaclarin-validation

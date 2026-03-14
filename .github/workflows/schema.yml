@@ -1,0 +1,39 @@
+name: Validate XML
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-19thC:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+
+      - name: Inspect available Mill targets
+        working-directory: parlaclarin-validation
+        run: mill resolve _
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          ./mill run ../test/data/schema/riksdagen-motions.xsd ../data/18*/*.xml

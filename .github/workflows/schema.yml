@@ -18,7 +18,6 @@ jobs:
           repository: swerik-project/parlaclarin-validation
           ref: main
           path: parlaclarin-validation
-          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
 
       - name: Set up Java
         uses: actions/setup-java@v4

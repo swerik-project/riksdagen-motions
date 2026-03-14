@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rng="http://relaxng.org/ns/structure/1.0"
+     xml:id="riksdagenMotionsODD">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Riksdagen motions customization</title>
+        <author>Robert Borges</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Local TEI P5 customization for paragraph, item, and correction elements.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Based on TEI P5 Guidelines.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaSpec ident="riksdagenMotions" start="TEI">
+        <moduleRef key="tei"/>
+        <moduleRef key="header"/>
+        <moduleRef key="core"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="linking"/>
+        <moduleRef key="transcr"/>
+        <moduleRef key="corpus"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="figures"/>
+
+        <elementSpec ident="correction" mode="change">
+          <attList>
+            <attDef ident="who">
+              <datatype><rng:ref name="data.pointer"/></datatype>
+            </attDef>
+            <attDef ident="when">
+              <datatype><rng:ref name="data.temporal.w3c"/></datatype>
+            </attDef>
+          </attList>
+          <content>
+            <rng:mixed>
+              <rng:ref name="model.phrase"/>
+            </rng:mixed>
+          </content>
+        </elementSpec>
+
+        <elementSpec ident="correspAction" mode="change">
+          <content>
+            <rng:zeroOrMore>
+              <rng:choice>
+                <rng:ref name="date"/>
+                <rng:ref name="time"/>
+                <rng:ref name="email"/>
+                <rng:ref name="address"/>
+                <rng:ref name="name"/>
+                <rng:ref name="rs"/>
+                <rng:ref name="idno"/>
+                <rng:ref name="note"/>
+                <rng:ref name="noteGrp"/>
+                <rng:ref name="p"/>
+                <rng:ref name="ab"/>
+              </rng:choice>
+            </rng:zeroOrMore>
+          </content>
+        </elementSpec>
+        <elementSpec  ident="correspAction" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <datatype>
+                <rng:choice>
+                  <rng:value>addedToFile</rng:value>
+                  <rng:value>assigned</rng:value>
+                  <rng:value>basedOn</rng:value>
+                  <rng:value>behandlas_i</rng:value>
+                  <rng:value>committee_proposal</rng:value>
+                  <rng:value>dismissed</rng:value>
+                  <rng:value>dismissal</rng:value>
+                  <rng:value>expire</rng:value>
+                  <rng:value>expired</rng:value>
+                  <rng:value>expires</rng:value>
+                  <rng:value>forwarded</rng:value>
+                  <rng:value>numbering</rng:value>
+                  <rng:value>proposed_referral</rng:value>
+                  <rng:value>received</rng:value>
+                  <rng:value>reception</rng:value>
+                  <rng:value>redirected</rng:value>
+                  <rng:value>referred</rng:value>
+                  <rng:value>referral</rng:value>
+                  <rng:value>registration</rng:value>
+                  <rng:value>retracted</rng:value>
+                  <rng:value>reviewed</rng:value>
+                  <rng:value>reviewing</rng:value>
+                  <rng:value>revoked</rng:value>
+                  <rng:value>revoking</rng:value>
+                  <rng:value>sent</rng:value>
+                  <rng:value>signed</rng:value>
+                  <rng:value>status</rng:value>
+                  <rng:value>submitted</rng:value>
+                  <rng:value>submission</rng:value>
+                  <rng:value>termination</rng:value>
+                  <rng:value>transfer</rng:value>
+                  <rng:value>transmitted</rng:value>
+                </rng:choice>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="item" mode="change">
+          <attList>
+            <attDef ident="type" mode="add">
+              <datatype>
+                <rng:ref name="data.enumerated"/>
+              </datatype>
+            </attDef>
+            <attDef ident="who" mode="add">
+              <datatype>
+                <rng:ref name="data.pointer"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="listPerson" mode="change">
+          <content>
+            <rng:zeroOrMore>
+              <rng:choice>
+                <rng:ref name="head"/>
+                <rng:ref name="desc"/>
+                <rng:ref name="relation"/>
+                <rng:ref name="listRelation"/>
+                <rng:ref name="model.personLike"/>
+                <rng:ref name="listPerson"/>
+              </rng:choice>
+            </rng:zeroOrMore>
+          </content>
+        </elementSpec>
+
+        <elementSpec ident="p" mode="change">
+          <attList>
+            <attDef ident="type" mode="add">
+              <datatype>
+                <rng:ref name="data.enumerated"/>
+              </datatype>
+            </attDef>
+            <attDef ident="subtype" mode="add">
+              <datatype>
+                <rng:ref name="data.enumerated"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="signatureBlock" mode="add">
+          <gloss>signature block</gloss>
+          <desc>Contains one or more signatures within the body of a division.</desc>
+
+          <classes>
+            <memberOf key="model.common"/>
+          </classes>
+
+          <content>
+            <rng:zeroOrMore>
+              <rng:choice>
+                <rng:ref name="list"/>
+                <rng:ref name="p"/>
+              </rng:choice>
+            </rng:zeroOrMore>
+          </content>
+
+          <attList>
+            <attRef class="att.global"/>
+            <attRef class="att.typed"/>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="subhead" mode="add" ns="http://www.tei-c.org/ns/1.0">
+          <gloss>subheading inside a division</gloss>
+          <desc>Project-specific heading-like label allowed within the running content of a div.</desc>
+          <classes>
+            <memberOf key="model.pLike"/>
+            <memberOf key="att.global"/>
+            <memberOf key="att.typed"/>
+          </classes>
+          <content>
+            <rng:ref name="macro.paraContent"/>
+          </content>
+        </elementSpec>
+
+      </schemaSpec>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>ODD source</p>
+    </body>
+  </text>
+</TEI>

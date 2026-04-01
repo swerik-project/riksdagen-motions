@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
 """
-Check that at least 90% of scraped motion dates are within +-1 year
-of the year encoded in the filename.
+Check that at least 90% of motion dates are within ±1 year of the
+filename year, and track per-year/chamber/committee stats for
+accuracy and Spearman correlation between motion number and date.
 """
 
 from collections import defaultdict
-import csv
 from datetime import datetime
 from glob import glob
-import json
+from pyriksdagen.io import parse_tei
+from pyriksdagen.utils import infer_metadata
+from scipy.stats import spearmanr
+from trainerlog import get_logger
+from tqdm import tqdm
+
+import csv
 import locale
 import os
-from pyriksdagen.io import parse_tei
 import re
-from scipy.stats import spearmanr
 import sys
-from trainerlog import get_logger
 import unittest
-from tqdm import tqdm
 
 try:
     locale.setlocale(locale.LC_TIME, 'sv_SE.UTF-8')
@@ -30,8 +32,7 @@ except locale.Error:
             file=sys.stderr
         )
 
-log_level = os.environ.get("LOGLEVEL", "INFO").upper()
-logger = get_logger(name="motion-date-year-check", level=log_level)
+logger = get_logger(name="motion-date-year-check", level="INFO")
 
 
 class TestMotionDateVsFilenameYear(unittest.TestCase):
@@ -44,7 +45,7 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
             if p.startswith("data/1") or p.startswith("data/2")
         ]
 
-        os.makedirs("test/results", exist_ok=True)
+        os.makedirs("test/results/result-dates", exist_ok=True)
 
         cls.mismatch_log_path = "test/results/result-dates/motion-date-year-outliers.tsv"
         cls.mismatch_log = open(cls.mismatch_log_path, "w", encoding="utf-8")
@@ -58,62 +59,32 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
         cls.no_dates = []
         cls.low_corr = []
         cls.unparsable_dates = []
+        cls.per_group_stats = {}
 
         logger.info(f"Loaded {len(cls.motions)} motions")
         logger.info(f"Writing mismatches to {cls.mismatch_log_path}")
 
 
-    @staticmethod
-    def _extract_filename_year(motion_path: str):
-        """Extract the parliament year encoded in the motion filename."""
+    def _get_parliament_year_and_chamber(self, scraped_year, motion_path, metadata):
+        parliament_year = metadata.get("year") or scraped_year
+
+        chamber_map = {"Andra kammaren": "ak", "Första kammaren": "fk"}
+        chamber = chamber_map.get(metadata.get("chamber"))
+
         fname = os.path.basename(motion_path)
-
-        m = re.match(r"mot-(\d{4,8})-", fname)
-        if not m:
-            return None
-
-        code = m.group(1)
-
-        if len(code) == 4:
-            return int(code)
-
-        if len(code) == 6:
-            return int(code[:4])
-
-        if len(code) == 8:
-            return int(code[:4])
-
-        return None
-
-
-    def _get_parliament_year_and_chamber(self, scraped_year, motion_path):
-        """
-        Return the official parliament year, chamber, and committee for grouping.
-        - Chamber is fk/ak if present, else None.
-        - Committee can be 'urtima' or other committee code.
-        - Handles historical one-chamber period correctly.
-        """
-        fname = os.path.basename(motion_path)
-
-        m_py = re.match(r"mot-(\d{4,8})-", fname)
-        parliament_year = int(m_py.group(1)) if m_py else scraped_year
-
-        m_ch = re.search(r"(?<!\w)(fk|ak)(?!\w)", fname)
-        chamber = m_ch.group(1) if m_ch else None
-
-        m_com = re.match(r"mot-\d{4,8}-([^-]+)", fname)
-        committee = m_com.group(1) if m_com else "unknown"
+        parts = fname.split("-")
+        committee = parts[2] if len(parts) > 2 else "unknown"
 
         return parliament_year, chamber, committee
 
 
-    def _find_motion_dates(self, root, ns):
+    def _find_motion_dates(self, root, ns, motion_filename):
         """
-        Returns a tuple (date_obj, unparsable_content) for a motion.
-        1. Prefer <p type="date"> in the body.
-        2. Fallback to <correspAction>/<date> elements with 'when' attribute.
-        3. Returns (None, content) if no valid date found.
+        Returns a list of parsed date objects for a motion.
+        Prefer <p type="date"> first, then <correspAction>/<date>.
         """
+        dates = []
+
         try:
             body_dates = root.findall(f".//{ns['tei_ns']}p[@type='date']")
         except Exception:
@@ -122,15 +93,12 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
         for d in body_dates:
             if d.text:
                 full_text = d.text.strip()
-                m = re.search(r"(\d{1,2} \w+ (?:1[0-9]{3}|20[0-9]{2}))", full_text)
-                if m:
+                for m in re.findall(r"(\d{1,2} \w+ (?:1[0-9]{3}|20[0-9]{2}))", full_text):
                     try:
-                        date_obj = datetime.strptime(m.group(1), "%d %B %Y")
-                        return date_obj, None
+                        date_obj = datetime.strptime(m, "%d %B %Y")
+                        dates.append(date_obj)
                     except ValueError:
-                        return None, full_text
-                else:
-                    return None, full_text
+                        self.__class__.unparsable_dates.append((motion_filename, full_text))
 
         try:
             actions = root.findall(f".//{ns['tei_ns']}correspAction") or root.findall(".//correspAction")
@@ -143,81 +111,72 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
                 if when:
                     try:
                         date_obj = datetime.strptime(when[:10], "%Y-%m-%d")
-                        return date_obj, None
+                        dates.append(date_obj)
                     except ValueError:
-                        return None, when
+                        self.__class__.unparsable_dates.append((motion_filename, when))
 
-        return None, None
+        return dates
 
 
     def test_date_within_filename_year_range(self):
-        """Verify that the parsed motion date is within ±1 year of the year indicated in the filename."""
-        for motion in tqdm(self.motions):
-            filename_year = self._extract_filename_year(motion)
+        """Verify that the parsed motion dates are within ±1 year of the year indicated
+        in the filename, and track per year/chamber/committee stats for CSV output.
+        A motion passes if at least one date is within the ±1-year range.
+        """
+
+        for motion in tqdm(self.motions, desc="Checking motion dates"):
+            metadata = infer_metadata(motion)
+            filename_year = metadata.get("year")
 
             if filename_year is None:
                 logger.debug(f"Could not parse filename year: {motion}")
                 continue
 
             root, ns = parse_tei(motion)
-            date_obj, unparsable_content = self._find_motion_dates(root, ns)
+            dates = self._find_motion_dates(root, ns, motion)
 
-            if date_obj:
-                scraped_year = date_obj.year
-            elif unparsable_content:
-                self.__class__.unparsable_dates.append((motion, unparsable_content))
-                self.__class__.no_date_count += 1
-                self.__class__.total_checked += 1
-                continue
-            else:
+            if not dates:
                 self.__class__.no_dates.append(motion)
                 self.__class__.no_date_count += 1
                 self.__class__.total_checked += 1
                 continue
 
+
+            ok = any(abs(d.year - filename_year) <= 1 for d in dates)
             self.__class__.total_checked += 1
-
-            diff = abs(scraped_year - filename_year)
-            ok = diff <= 1
-
-            py = motion.split("/")[1]
-            if py not in self.per_year_stats:
-                self.per_year_stats[py] = {"checked": 0, "ok": 0}
-
-            self.per_year_stats[py]["checked"] += 1
 
             if ok:
                 self.__class__.within_range += 1
-                self.per_year_stats[py]["ok"] += 1
-            else:
+
+            scraped_year = dates[0].year
+            parliament_year, chamber, committee = self._get_parliament_year_and_chamber(scraped_year, motion, metadata)
+            group_key = (parliament_year, chamber or "unknown", committee or "unknown")
+
+            if group_key not in self.__class__.per_group_stats:
+                self.__class__.per_group_stats[group_key] = {"checked": 0, "within_range": 0}
+
+            self.__class__.per_group_stats[group_key]["checked"] += 1
+            if ok:
+                self.__class__.per_group_stats[group_key]["within_range"] += 1
+
+            if not ok:
+                diff = min(abs(d.year - filename_year) for d in dates)
                 record = {
                     "motion": motion,
                     "filename_year": filename_year,
                     "scraped_year": scraped_year,
                     "diff": diff,
                 }
-
                 self.__class__.outliers.append(record)
-
                 msg = f"{motion}\t{filename_year}\t{scraped_year}\t{diff}"
-
-                logger.debug(
-                    f"Year mismatch >1: {motion} "
-                    f"(filename={filename_year}, scraped={scraped_year})"
-                )
-
+                logger.debug(f"Year mismatch >1: {motion} (filename={filename_year}, scraped={scraped_year})")
                 self.__class__.mismatch_log.write(msg + "\n")
 
         if self.total_checked == 0:
             self.fail("No motions were checked.")
 
         ratio = self.within_range / self.total_checked
-
-        logger.info(
-            f"Within ±1 year: {self.within_range}/{self.total_checked} "
-            f"({ratio:.2%})"
-        )
-
+        logger.info(f"Within ±1 year: {self.within_range}/{self.total_checked} ({ratio:.2%})")
         self.assertGreaterEqual(ratio, 0.90, f"Only {ratio:.2%} of motions within ±1 year of filename year")
 
 
@@ -230,15 +189,13 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
                 continue
 
             root, ns = parse_tei(motion)
-            date_obj, unparsable_content = self._find_motion_dates(root, ns)
-            if not date_obj:
-                if unparsable_content:
-                    self.__class__.unparsable_dates.append((motion, unparsable_content))
-                    logger.debug(f"[SKIPPED] Could not parse a date for motion {motion}")
+            dates = self._find_motion_dates(root, ns, motion)
+            if not dates:
                 continue
 
-            scraped_year = date_obj.year
-            parliament_year, chamber, committee = self._get_parliament_year_and_chamber(scraped_year, motion)
+            scraped_year = dates[0].year
+            metadata = infer_metadata(motion)
+            parliament_year, chamber, committee = self._get_parliament_year_and_chamber(scraped_year, motion, metadata)
 
             if parliament_year < 1971:
                 group_key = (parliament_year, chamber or "unknown", committee or "unknown")
@@ -250,7 +207,7 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
                 continue
             mnum = int(mnum_match.group(1))
 
-            motions_by_year_committee[group_key].append((mnum, date_obj, motion))
+            motions_by_year_committee[group_key].append((mnum, dates[0], motion))
 
         low_corr_dict = {}
 
@@ -261,7 +218,6 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
             motion_list.sort(key=lambda x: x[0])
             nums = [m[0] for m in motion_list]
             dates = [m[1].toordinal() for m in motion_list]
-            # date_strings = [m[1].strftime("%Y-%m-%d") for m in motion_list] -> used for debugging if correlations are weird.
 
             if len(set(dates)) <= 1:
                 corr = 1.0
@@ -270,7 +226,6 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
 
             low_corr_dict[group_key] = {
                 "correlation": corr,
-                #"dates": date_strings -> used for debugging if correlations are weird.
             }
 
         self.__class__.low_corr = [
@@ -298,29 +253,36 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
         if hasattr(cls, "mismatch_log"):
             cls.mismatch_log.close()
 
-        summary = {
-            "total_checked": cls.total_checked,
-            "within_range": cls.within_range,
-            "no_date_count": cls.no_date_count,
-            "ratio": (
-                cls.within_range / cls.total_checked
-                if cls.total_checked > 0 else 0
-            ),
-            "outliers": len(cls.outliers),
-        }
-
-        with open("test/results/result-dates/motion-date-year-check-summary.json", "w") as f:
-            json.dump(summary, f, indent=4)
+        if hasattr(cls, "per_group_stats"):
+            csv_file = "test/results/result-dates/motion-date-year-check-by-group.csv"
+            with open(csv_file, "w", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=["year","chamber","committee","checked","within_range","ratio"])
+                writer.writeheader()
+                for group, stats in sorted(cls.per_group_stats.items()):
+                    year, chamber, committee = group
+                    ratio = stats["within_range"] / stats["checked"] if stats["checked"] else 0
+                    writer.writerow({
+                        "year": year,
+                        "chamber": chamber,
+                        "committee": committee,
+                        "checked": stats["checked"],
+                        "within_range": stats["within_range"],
+                        "ratio": ratio,
+                    })
+            logger.info(f"CSV written to {csv_file} containing ±1-year accuracy by year/chamber/committee")
         
         if cls.no_dates:
-            with open("test/results/result-dates/motion-has-no-date.csv", "w", newline='', encoding="utf-8") as f:
+            no_date_file = "test/results/result-dates/motion-has-no-date.csv"
+            with open(no_date_file, "w", newline='', encoding="utf-8") as f:
                 writer = csv.writer(f)
                 writer.writerow(["motion_file"])
                 for motion in sorted(cls.no_dates):
                     writer.writerow([motion])
+            logger.info(f"CSV written to {no_date_file} listing all motion files that had no date information.")
         
         if hasattr(cls, "low_corr") and cls.low_corr:
-            with open("test/results/result-dates/motion-date-correlation.csv", "w", newline="", encoding="utf-8") as f:
+            low_corr_file = "test/results/result-dates/motion-date-correlation.csv"
+            with open(low_corr_file, "w", newline="", encoding="utf-8") as f:
                 writer = csv.DictWriter(f, fieldnames=["year","chamber","committee","correlation","dates"])
                 writer.writeheader()
                 for row in cls.low_corr:
@@ -337,15 +299,15 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
                         row_copy["committee"] = ""
                     row_copy["dates"] = ";".join(row_copy.get("dates", [])) if row_copy.get("dates") else ""
                     writer.writerow(row_copy)
+            logger.info(f"CSV written to {low_corr_file} containing motions with low correlation between expected year and parsed dates, grouped by year/chamber/committee.")
 
-        with open("test/results/result-dates/motion-unparsable-date-content.csv", "w", newline="", encoding="utf-8") as f:
+        unparsable_file = "test/results/result-dates/motion-unparsable-date-content.csv"
+        with open(unparsable_file, "w", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
             writer.writerow(["file", "content_that_could_not_be_parsed"])
             for motion, content in sorted(cls.unparsable_dates):
                 writer.writerow([motion, content])
-
-        logger.info("Saved test summary")
-        logger.info("Results written to test/results/result-dates/")
+        logger.info(f"CSV written to {unparsable_file} containing motions where date content could not be parsed.")
 
 
 if __name__ == "__main__":

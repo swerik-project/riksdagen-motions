@@ -8,8 +8,7 @@ from pathlib import Path
 from trainerlog import get_logger
 import hashlib
 import unittest
-
-
+import tqdm
 
 
 logger = get_logger("lumberjack")
@@ -34,13 +33,10 @@ class DuplicateFilesTest(unittest.TestCase):
         Test no filenames are duplicated
         """
         logger.info("Testing there are no duplicate file names...")
-        try:
-            self.assertEqual(len(self.motions), len(set(self.motions)))
-            lower_motions = [f.lower() for f in self.motions]
-            self.assertEqual(len(lower_motions), len(set(lower_motions)))
-            logger.info("...No duplicate file names. 👍👍👍")
-        except:
-            logger.error(f"DUPLICATE FILE NAMES :: {len(self.motions)} is not {len(set(self.motions))}")
+        self.assertEqual(len(self.motions), len(set(self.motions)))
+        lower_motions = [f.lower() for f in self.motions]
+        self.assertEqual(len(lower_motions), len(set(lower_motions)))
+        logger.info("...No duplicate file names. 👍👍👍")
 
 
     def test_no_duplicated_hases(self):
@@ -55,15 +51,17 @@ class DuplicateFilesTest(unittest.TestCase):
                     h.update(chunk)
             return h.hexdigest()
 
-        hashed_files = defaultdict(list)
-        for m in self.motions:
-            hashed_files[file_hash(m)].append(m)
+        hashed_files = defaultdict(set)
+        for m in tqdm.tqdm(self.motions):
+            hashed_files[file_hash(m)].add(m)
         duplicates = {h: ps for h, ps in hashed_files.items() if len(ps) > 1}
-        try:
-            self.assertEqual(0, len(duplicates))
-            logger.info("...No duplicate file hashes. 👍👍👍")
-        except:
-            logger.error(f"DUPLICATE FILE HASHES :: {duplicates}")
+
+        for filehash, _ in duplicates.items():
+            filenames = hashed_files[filehash]
+            logger.error(f"DUPLICATE FILE CONTENTS :: {filenames}")
+
+        self.assertEqual(0, len(duplicates), f"Duplicated files found ({len(duplicates)} duplications)")
+        logger.info("...No duplicate file hashes. 👍👍👍")
 
 
 

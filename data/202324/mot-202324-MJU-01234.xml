@@ -14,7 +14,9 @@
           <title>Motion 2023/24:1234 av Christofer Bergenblock (C)</title>
           <idno type="rdwebb">HB021234</idno>
           <rs type="number">1234</rs>
-          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>MJU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HB021234/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HB021234</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HB021234</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-8gwQPQiCReT91psH1ceyLE" type="motHeader">
         <div xml:id="i-AgCq1Xyg6brGYwV5BHBNqN" type="motTitle">
-          Motion till riksdagen 2023/24:1234 av Christofer Bergenblock
-          (C) Strategi för klimatanpassningar i jordbrukslandskapet
+          <head xml:id="i-2yTro57Ng4fXHsP62wFqRo">
+            Motion till riksdagen 2023/24:1234 av Christofer Bergenblock
+            (C) Strategi för klimatanpassningar i jordbrukslandskapet
+          </head>
         </div>
       </div>
       <div xml:id="i-YRs9fE4wbKNRp5wAa934QK" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-6WzTxvsDAkrgtxbTo6H1Hu">
-            <item xml:id="i-D1WQq6uBYopbEHyJg93DTf" sortKey="Yrkande 1">
+            <item xml:id="i-D1WQq6uBYopbEHyJg93DTf" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               ge lämpliga myndigheter i uppdrag att ta fram en nationell strategi
               i syfte att identifiera behov och föreslå genomförande av klimatanpassningar
@@ -147,13 +151,13 @@
             strategi tas fram i nära samarbete med företrädare för de gröna
             näringarna.
           </p>
-        </div>
-        <div xml:id="i-KeircdHAY1NPoeeaAkmbev" type="signatureBlock">
-          <list xml:id="i-24ijeRAuSqD7sqbPCz9G9G">
-            <item xml:id="i-WGnMm7mNt5S6WvECbjwF9w" who="i-546v5KE6tdv62FjUQAxwTc" type="signature">
-              Christofer Bergenblock (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-KeircdHAY1NPoeeaAkmbev">
+            <list xml:id="i-24ijeRAuSqD7sqbPCz9G9G">
+              <item xml:id="i-WGnMm7mNt5S6WvECbjwF9w" who="i-546v5KE6tdv62FjUQAxwTc" type="signature">
+                Christofer Bergenblock (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

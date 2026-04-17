@@ -14,7 +14,9 @@
           <title>Strömsholms kanal</title>
           <idno type="rdwebb">GU02T422</idno>
           <rs type="number">T422</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02T422/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02T422</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02T422</ref>
@@ -90,9 +92,9 @@
           <head xml:id="i-S2s9zrsmNK4A6bRyqyuPNS" type="h1">
             Strömsholms kanal
           </head>
-          <head xml:id="i-2z7TAwP2DgprPUMaB1y1Nt" type="h1">
+          <subhead xml:id="i-2z7TAwP2DgprPUMaB1y1Nt" type="h1">
             Motivering
-          </head>
+          </subhead>
           <p xml:id="i-1565BincQLe2qkgY8KeKW2">
             För 200 år sedan var Strömsholms kanal, från dalabruksorten Smedjebacken
             i norr till Borgåsund vid Mälaren i söder, den snabbaste och billigaste
@@ -140,16 +142,16 @@
             en verksamhet väl värd att värna inte enbart av delägarkommunerna
             utan även i ett riksperspektiv.
           </p>
-        </div>
-        <div xml:id="i-GRZAc6BHTsr99ZKgwHf9tp" type="signatureBlock">
-          <list xml:id="i-HRxsgDngkC8a84cyibBh2n">
-            <item xml:id="i-Vrk7iSKTFe61XCGEwjByK5" who="i-RZNwwHohbyBgLVVG4Dy1Bj" type="signature">
-              Carin Runeson (s)
-            </item>
-            <item xml:id="i-RKrLTcgZRTRb9C8x3w5YF5" who="i-3YAEMbZXswzuyekFnSxXSF" type="signature">
-              Olle Thorell (s)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-GRZAc6BHTsr99ZKgwHf9tp">
+            <list xml:id="i-HRxsgDngkC8a84cyibBh2n">
+              <item xml:id="i-Vrk7iSKTFe61XCGEwjByK5" who="i-RZNwwHohbyBgLVVG4Dy1Bj" type="signature">
+                Carin Runeson (s)
+              </item>
+              <item xml:id="i-RKrLTcgZRTRb9C8x3w5YF5" who="i-3YAEMbZXswzuyekFnSxXSF" type="signature">
+                Olle Thorell (s)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

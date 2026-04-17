@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3159 av Ulrika Carlsson i Skövde m.fl. (C)</title>
           <idno type="rdwebb">H3023159</idno>
           <rs type="number">3159</rs>
-          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>UbU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023159/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023159</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023159</ref>
@@ -94,8 +96,10 @@
     <body>
       <div xml:id="i-MXmZrWyURkfE4WBZzUBiTX" type="motHeader">
         <div xml:id="i-3E5GnEzA2FLpWxYk77evat" type="motTitle">
-          Motion till riksdagen 2015/16:3159 av Ulrika Carlsson i Skövde
-          m.fl. (C) Utgiftsområde 16 Utbildning och universitetsforskning
+          <head xml:id="i-W5ymB8EGJtzVhUbUBuo3jK">
+            Motion till riksdagen 2015/16:3159 av Ulrika Carlsson i Skövde
+            m.fl. (C) Utgiftsområde 16 Utbildning och universitetsforskning
+          </head>
         </div>
       </div>
       <div xml:id="i-WhryZiSNwC4pkHHyHHfDzf" type="motBody">
@@ -114,10 +118,10 @@
           <head xml:id="i-EFKfHPbJEsfbuoY18hPejb" type="h1">
             Motivering
           </head>
-          <head xml:id="i-8ovnEwp5iCjryrZoJe8EaF" type="h3">
+          <subhead xml:id="i-8ovnEwp5iCjryrZoJe8EaF" type="h3">
             Tabell 1. Centerpartiets förslag till anslag 2016 uttryckt som
             differens gentemot regeringens förslag
-          </head>
+          </subhead>
           <table xml:id="i-PtL6oqBRufdXHymPkD1QKY">
             <row xml:id="i-2y8QhdhrknsAw7xnppZbuJ" style="label">
               <cell>
@@ -1415,13 +1419,12 @@
                 −3 579 796
               </cell>
             </row>
-            <row xml:id="i-KGz1hfZanZVRGkV9MkGmYF"/>
           </table>
-          <head xml:id="i-FixuiMw6cJeLbJMg9CGdAZ" type="h3">
+          <subhead xml:id="i-FixuiMw6cJeLbJMg9CGdAZ" type="h3">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2019
             uttryckt som differens gentemot regeringens förslag (miljoner
             kronor)
-          </head>
+          </subhead>
           <table xml:id="i-EyfmfNtzAQKHvoeLz5BjR6">
             <row xml:id="i-GD4haPNASLStmb2YA3nxET">
               <cell>
@@ -2527,19 +2530,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-GmxnbHjSBJDQ6bihw6btD5" type="signatureBlock">
-          <list xml:id="i-58N1NfJTDQ7hxiQ3UjqpkS">
-            <item xml:id="i-9hYgBR558oi4VzTwKbeVjm" who="i-2SnUjYd3qzUQVBobN3u1Yc" type="signature">
-              Ulrika Carlsson i Skövde (C)
-            </item>
-            <item xml:id="i-EdoZPeBXu6PT5PfcDS3ipK" who="i-DyMWrZMvLW1B7NfePkXTu4" type="signature">
-              Fredrik Christensson (C)
-            </item>
-            <item xml:id="i-QF4NHrCx69WoWmYhE7HCap" who="i-9nQnnjEYdDqQdpqWHaTczL" type="signature">
-              Per Lodenius (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-GmxnbHjSBJDQ6bihw6btD5">
+            <list xml:id="i-58N1NfJTDQ7hxiQ3UjqpkS">
+              <item xml:id="i-9hYgBR558oi4VzTwKbeVjm" who="i-2SnUjYd3qzUQVBobN3u1Yc" type="signature">
+                Ulrika Carlsson i Skövde (C)
+              </item>
+              <item xml:id="i-EdoZPeBXu6PT5PfcDS3ipK" who="i-DyMWrZMvLW1B7NfePkXTu4" type="signature">
+                Fredrik Christensson (C)
+              </item>
+              <item xml:id="i-QF4NHrCx69WoWmYhE7HCap" who="i-9nQnnjEYdDqQdpqWHaTczL" type="signature">
+                Per Lodenius (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

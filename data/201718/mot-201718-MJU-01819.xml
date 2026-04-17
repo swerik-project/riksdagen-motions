@@ -14,7 +14,9 @@
           <title>Motion 2017/18:1819 av Pyry Niemi och Agneta Gille (båda S)</title>
           <idno type="rdwebb">H5021819</idno>
           <rs type="number">1819</rs>
-          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>MJU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5021819/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5021819</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5021819</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-FbiqY8m1t3w7eYTDWJ4s51" type="motHeader">
         <div xml:id="i-ARC667sPao6csjSebHqM2c" type="motTitle">
-          Motion till riksdagen 2017/18:1819 av Pyry Niemi och Agneta Gille
-          (båda S) Ekologiska och närodlade livsmedel i den offentliga upphandlingen
+          <head xml:id="i-TStMVrCtGz1gGmpizxe857">
+            Motion till riksdagen 2017/18:1819 av Pyry Niemi och Agneta Gille
+            (båda S) Ekologiska och närodlade livsmedel i den offentliga upphandlingen
+          </head>
         </div>
       </div>
       <div xml:id="i-VG3gFt49XUbLn3vLSaUNVE" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-EPbHkq4kut8ojKWCpVUcep">
-            <item xml:id="i-TY46xAiXVd8vmu5Yd4t37B" sortKey="Yrkande 1">
+            <item xml:id="i-TY46xAiXVd8vmu5Yd4t37B" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om närproducerade
               och svenska ekologiska livsmedel i offentliga upphandlingar och
               tillkännager detta för regeringen.
@@ -161,16 +165,16 @@
             så att fler primärproducenter tar chansen att bidra till en långsiktigt
             hållbar och ekologisk – och närodlad produktion av livsmedel.
           </p>
-        </div>
-        <div xml:id="i-FGM9mnDz914bXWpyia1CGR" type="signatureBlock">
-          <list xml:id="i-DFTLP5m2qc4kTmdhB5vc2A">
-            <item xml:id="i-WPjDeexWW8ua4pEKkft5m8" who="i-NHxJzkDKoaBrxfLh9qrfnH" type="signature">
-              Pyry Niemi (S)
-            </item>
-            <item xml:id="i-GGqmKkwXafeFgybRPiMisU" who="i-VkgCZCfoAga9JDLAtq7rRZ" type="signature">
-              Agneta Gille (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-FGM9mnDz914bXWpyia1CGR">
+            <list xml:id="i-DFTLP5m2qc4kTmdhB5vc2A">
+              <item xml:id="i-WPjDeexWW8ua4pEKkft5m8" who="i-NHxJzkDKoaBrxfLh9qrfnH" type="signature">
+                Pyry Niemi (S)
+              </item>
+              <item xml:id="i-GGqmKkwXafeFgybRPiMisU" who="i-VkgCZCfoAga9JDLAtq7rRZ" type="signature">
+                Agneta Gille (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

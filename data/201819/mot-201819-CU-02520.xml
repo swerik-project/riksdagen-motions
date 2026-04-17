@@ -14,7 +14,9 @@
           <title>Motion 2018/19:2520 av Anders Åkesson och Per Åsling (båda C)</title>
           <idno type="rdwebb">H6022520</idno>
           <rs type="number">2520</rs>
-          <orgName type="comitteeAbbreviation">CU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>CU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H6022520/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H6022520</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H6022520</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-Dxd9p58NkZPB35Q83goccB" type="motHeader">
         <div xml:id="i-BdDDc8bNEUaRdpjqPZJxMk" type="motTitle">
-          Motion till riksdagen 2018/19:2520 av Anders Åkesson och Per
-          Åsling (båda C) Lantmäteriet
+          <head xml:id="i-WrjqWEhADvLgDgwtgXNVWt">
+            Motion till riksdagen 2018/19:2520 av Anders Åkesson och Per
+            Åsling (båda C) Lantmäteriet
+          </head>
         </div>
       </div>
       <div xml:id="i-P1ZP746twHjZmJv1L7Q2nX" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-6gcHWEH1ULRMWkPk36cM6e">
-            <item xml:id="i-HwejffJtgmDvMoLXzQQUXo" sortKey="Yrkande 1">
+            <item xml:id="i-HwejffJtgmDvMoLXzQQUXo" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               införa möjligheten för privata entreprenörer att utföra vissa
               lantmäteriuppgifter och om att främja och underlätta för inrättandet
@@ -185,16 +189,16 @@
             för privata entreprenörer att utföra vissa uppgifter liksom att
             främja och underlätta för inrättandet av fler kommunala lantmäterimyndigheter.
           </p>
-        </div>
-        <div xml:id="i-L64pxWV1NuhsW5uDFUL8Ma" type="signatureBlock">
-          <list xml:id="i-Uc2yxPSFk4XFTpMFC7d9Nq">
-            <item xml:id="i-9y8sRzYc7BxR3zPzt8koMK" who="i-FucmvyHZ22CXcKRGnfjaC4" type="signature">
-              Anders Åkesson (C)
-            </item>
-            <item xml:id="i-S7NtfbE1GSiJiXDgd1mfHD" who="i-Vo3YjbvPDcwbepLXUMMiDZ" type="signature">
-              Per Åsling (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-L64pxWV1NuhsW5uDFUL8Ma">
+            <list xml:id="i-Uc2yxPSFk4XFTpMFC7d9Nq">
+              <item xml:id="i-9y8sRzYc7BxR3zPzt8koMK" who="i-FucmvyHZ22CXcKRGnfjaC4" type="signature">
+                Anders Åkesson (C)
+              </item>
+              <item xml:id="i-S7NtfbE1GSiJiXDgd1mfHD" who="i-Vo3YjbvPDcwbepLXUMMiDZ" type="signature">
+                Per Åsling (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

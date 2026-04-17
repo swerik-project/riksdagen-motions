@@ -14,7 +14,9 @@
           <title>Motion 2021/22:3319 av Jan Ericson (M)</title>
           <idno type="rdwebb">H9023319</idno>
           <rs type="number">3319</rs>
-          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FöU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H9023319/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H9023319</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H9023319</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-TnFKeEhNvsfvPZSWNTgGBi" type="motHeader">
         <div xml:id="i-DCAWGo24WZTHpDNknCqiA7" type="motTitle">
-          Motion till riksdagen 2021/22:3319 av Jan Ericson (M) Den svenska
-          krisberedskapen
+          <head xml:id="i-WrWExEDh2AMdyNoHoy5W7Q">
+            Motion till riksdagen 2021/22:3319 av Jan Ericson (M) Den svenska
+            krisberedskapen
+          </head>
         </div>
       </div>
       <div xml:id="i-ST1yX2QAwZ67JyZAWQ69zG" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-C6fHqAeDJmUgchMum9ZhRP">
-            <item xml:id="i-2TMDAaB2qv2QTk5iRvfQj2" sortKey="Yrkande 1">
+            <item xml:id="i-2TMDAaB2qv2QTk5iRvfQj2" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               se över den svenska beredskapen vid kris och tillkännager detta
               för regeringen.
@@ -103,10 +107,10 @@
           <head xml:id="i-SX2ahe8FhdBdH2mnnGaiPs" type="h1">
             Motivering
           </head>
-          <head xml:id="i-AP4JrF1Tgiv6GReBRA3ia9" type="h1">
+          <subhead xml:id="i-AP4JrF1Tgiv6GReBRA3ia9" type="h1">
             Covid-19-pandemin har tydligt visat att det finns brister i den
             svenska krisberedskapen.
-          </head>
+          </subhead>
           <p xml:id="i-XeB4kXByqYz6EPRvNMrnMw">
             För ett land är det av oerhört stor betydelse att man klarar
             att förse medborgarna med de allra mest nödvändiga resurserna
@@ -126,13 +130,13 @@
             i ett allt mer sårbart samhälle där Sverige samtidigt blir allt
             mer beroende av leveranser från andra länder.
           </p>
-        </div>
-        <div xml:id="i-Ncyz8rghGQ5khNNsrkdxNd" type="signatureBlock">
-          <list xml:id="i-4C1Q8GUZjG8rHaiBzxE5Hu">
-            <item xml:id="i-MvkPuuPYVsofd9jWmMJ6k7" who="i-Ldb2oqPG98BReLEGLTqU4A" type="signature">
-              Jan Ericson (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-Ncyz8rghGQ5khNNsrkdxNd">
+            <list xml:id="i-4C1Q8GUZjG8rHaiBzxE5Hu">
+              <item xml:id="i-MvkPuuPYVsofd9jWmMJ6k7" who="i-Ldb2oqPG98BReLEGLTqU4A" type="signature">
+                Jan Ericson (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

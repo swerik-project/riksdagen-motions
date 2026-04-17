@@ -14,7 +14,9 @@
           <title>Motion 2014/15:2982 av Catharina Elmsäter-Svärd m.fl. (M, C, FP, KD)</title>
           <idno type="rdwebb">H2022982</idno>
           <rs type="number">2982</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H2022982/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H2022982</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H2022982</ref>
@@ -113,8 +115,10 @@
     <body>
       <div xml:id="i-LnkLcwMqr5oeoBo2UE5oQ2" type="motHeader">
         <div xml:id="i-9GACbQrUwzir3FbYoaYepN" type="motTitle">
-          Motion till riksdagen 2014/15:2982 av Catharina Elmsäter-Svärd
-          m.fl. (M, C, FP, KD) Utgiftsområde 21 Energi
+          <head xml:id="i-9ZVYRJK1MZLtvNCuw2cbPy">
+            Motion till riksdagen 2014/15:2982 av Catharina Elmsäter-Svärd
+            m.fl. (M, C, FP, KD) Utgiftsområde 21 Energi
+          </head>
         </div>
       </div>
       <div xml:id="i-Bd9tAYQ5BtVuTrVgP8oGkd" type="motBody">
@@ -321,7 +325,6 @@
                 −26 000
               </cell>
             </row>
-            <row xml:id="i-H3gmVp8iyrr1swTTvpGvhb"/>
           </table>
           <p xml:id="i-RTDdxdK39eJJt4gaRQ9huQ">
             Tabell 2. Moderaternas, Centerpartiets, Folkpartiet liberalernas
@@ -500,9 +503,9 @@
               </cell>
             </row>
           </table>
-          <head xml:id="i-AY3hHGLUxYvw6CEE9JZi3d" type="h1">
+          <subhead xml:id="i-AY3hHGLUxYvw6CEE9JZi3d" type="h1">
             Trygg energiförsörjning är viktig för jobben
-          </head>
+          </subhead>
           <p xml:id="i-5YanzhUg8xjejjiccFYLNo">
             Svenska företag och konsumenter ska kunna lita på att det finns
             en trygg elförsörjning. Långsiktiga spelregler och stabila villkor
@@ -526,9 +529,9 @@
             fasa ut fossila bränslen och ge förutsättningar för kontrollerade
             generationsskiften i den svenska kärnkraften.
           </p>
-          <head xml:id="i-DbQ4WrpRFxFpWoHxBZU5rk" type="h1">
+          <subhead xml:id="i-DbQ4WrpRFxFpWoHxBZU5rk" type="h1">
             En långsiktig klimat- och energipolitik
-          </head>
+          </subhead>
           <p xml:id="i-LfwwgbjhN74oo86ENHdyqK">
             Klimatförändringarna är vår tids största utmaning och kräver
             såväl regionala och nationella som globala lösningar. Beroendet
@@ -584,9 +587,9 @@
             där bättre miljö och minskade utsläpp går hand i hand med ekonomisk
             tillväxt.
           </p>
-          <head xml:id="i-3C7qPdodzf3F6jgojo8jb6" type="h1">
+          <subhead xml:id="i-3C7qPdodzf3F6jgojo8jb6" type="h1">
             Hållbara transporter
-          </head>
+          </subhead>
           <p xml:id="i-KMp85PuWSkhxgqQ7Zstgyo">
             Den största utmaningen när det gäller att bryta Sveriges beroende
             av fossila bränslen är transportsektorn. Denna sektor bidrar med
@@ -620,22 +623,22 @@
             höja koldioxidbeloppet och införa ett statligt stöd till utbyggnad
             av laddstolpar för elbilar på 75 miljoner kronor per år.
           </p>
-        </div>
-        <div xml:id="i-7HauvtRQgbwzGhKU8BJJEy" type="signatureBlock">
-          <list xml:id="i-QqHfujsNvJyenZ3Hpri9FV">
-            <item xml:id="i-4nQkwysJFVLFZQRsCzN4Dx" who="i-J7LihzSktwE55CCSfYQXLk" type="signature">
-              Catharina Elmsäter-Svärd (M)
-            </item>
-            <item xml:id="i-W8LvECKhNs2NeMCMswArLX" who="i-Wg4JiBuxTz9fesArDXiMko" type="signature">
-              Helena Lindahl (C)
-            </item>
-            <item xml:id="i-3Qu3iv8siPkgaoiJoNUCjw" who="i-Ewi7Lwy3h4DBNJ2zradbNt" type="signature">
-              Torkild Strandberg (FP)
-            </item>
-            <item xml:id="i-CSVDU8xYLtiCLhZd19D46A" who="i-DJgH7q21vrKJDYHFpgpTiX" type="signature">
-              Penilla Gunther (KD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-7HauvtRQgbwzGhKU8BJJEy">
+            <list xml:id="i-QqHfujsNvJyenZ3Hpri9FV">
+              <item xml:id="i-4nQkwysJFVLFZQRsCzN4Dx" who="i-J7LihzSktwE55CCSfYQXLk" type="signature">
+                Catharina Elmsäter-Svärd (M)
+              </item>
+              <item xml:id="i-W8LvECKhNs2NeMCMswArLX" who="i-Wg4JiBuxTz9fesArDXiMko" type="signature">
+                Helena Lindahl (C)
+              </item>
+              <item xml:id="i-3Qu3iv8siPkgaoiJoNUCjw" who="i-Ewi7Lwy3h4DBNJ2zradbNt" type="signature">
+                Torkild Strandberg (FP)
+              </item>
+              <item xml:id="i-CSVDU8xYLtiCLhZd19D46A" who="i-DJgH7q21vrKJDYHFpgpTiX" type="signature">
+                Penilla Gunther (KD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

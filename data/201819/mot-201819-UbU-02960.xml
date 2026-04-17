@@ -14,7 +14,9 @@
           <title>Motion 2018/19:2960 av Roger Haddad m.fl. (L)</title>
           <idno type="rdwebb">H6022960</idno>
           <rs type="number">2960</rs>
-          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>UbU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H6022960/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H6022960</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H6022960</ref>
@@ -138,8 +140,10 @@
     <body>
       <div xml:id="i-HbREX5QxGqgav15Y8YbAKK" type="motHeader">
         <div xml:id="i-PaLadoY92yRfzkWLMqxkcG" type="motTitle">
-          Motion till riksdagen 2018/19:2960 av Roger Haddad m.fl. (L)
-          Utgiftsområde 15 Studiestöd
+          <head xml:id="i-J5WXoGEpoqJxTvMwaYvvpb">
+            Motion till riksdagen 2018/19:2960 av Roger Haddad m.fl. (L)
+            Utgiftsområde 15 Studiestöd
+          </head>
         </div>
       </div>
       <div xml:id="i-6HXL4X94B9cG8LaBog8Uy8" type="motBody">
@@ -148,7 +152,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-D8TtBHWU8rRKj8bkNM4d1a">
-            <item xml:id="i-BBhFUXZXEvtoT7NfYmn5te" sortKey="Yrkande 1">
+            <item xml:id="i-BBhFUXZXEvtoT7NfYmn5te" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2019 inom utgiftsområde 15 Studiestöd
               enligt förslaget i tabell 1 i motionen.
             </item>
@@ -470,37 +474,35 @@
                 –2 000
               </cell>
             </row>
-            <row xml:id="i-TZ2mei7YQF95i2vdKAwk7r"/>
-            <row xml:id="i-CMSsAjQiCRrUXzMeQFdME1"/>
           </table>
-        </div>
-        <div xml:id="i-Bxu3o1g3K7aYM6XpiFhuCH" type="signatureBlock">
-          <list xml:id="i-KX9MuoU5bRwxKhyAwrYfJr">
-            <item xml:id="i-FdUUdyqCFTJRsrs5S7FJNd" who="i-Kn2C4HPwWcqbEgtUtWTc5F" type="signature">
-              Roger Haddad (L)
-            </item>
-            <item xml:id="i-HxauxN9LRaWJsWnSczLSDF" who="i-UJJVMVCt6SsjV39Hi1tTYi" type="signature">
-              Gulan Avci (L)
-            </item>
-            <item xml:id="i-R7uccQpo1hEK6FKU33UYna" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
-              Christer Nylander (L)
-            </item>
-            <item xml:id="i-QecK7oKD8Msr5jfwLxVKXq" who="i-S7wLw9aynA5vbRCsqxxL3N" type="signature">
-              Tina Acketoft (L)
-            </item>
-            <item xml:id="i-8zBn8Z93pUCDS5bfa3HcYP" who="i-QQYotqFjTJA7EiQZc1Wmzs" type="signature">
-              Emma Carlsson Löfdahl (L)
-            </item>
-            <item xml:id="i-G112tWkDSNvYRThhKPaw5n" who="i-HzxR5drvvumXGW3Fi7DiXX" type="signature">
-              Lina Nordquist (L)
-            </item>
-            <item xml:id="i-6iUHPrecjrPq5ehaPrsCrr" who="i-VBA6eUH2CpmPZFgqzCpt9N" type="signature">
-              Mats Persson (L)
-            </item>
-            <item xml:id="i-S2fNUzUmW12DrFjBFdmHja" who="i-BUYvEhrSc9gnHcd6iS4eDJ" type="signature">
-              Allan Widman (L)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-Bxu3o1g3K7aYM6XpiFhuCH">
+            <list xml:id="i-KX9MuoU5bRwxKhyAwrYfJr">
+              <item xml:id="i-FdUUdyqCFTJRsrs5S7FJNd" who="i-Kn2C4HPwWcqbEgtUtWTc5F" type="signature">
+                Roger Haddad (L)
+              </item>
+              <item xml:id="i-HxauxN9LRaWJsWnSczLSDF" who="i-UJJVMVCt6SsjV39Hi1tTYi" type="signature">
+                Gulan Avci (L)
+              </item>
+              <item xml:id="i-R7uccQpo1hEK6FKU33UYna" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
+                Christer Nylander (L)
+              </item>
+              <item xml:id="i-QecK7oKD8Msr5jfwLxVKXq" who="i-S7wLw9aynA5vbRCsqxxL3N" type="signature">
+                Tina Acketoft (L)
+              </item>
+              <item xml:id="i-8zBn8Z93pUCDS5bfa3HcYP" who="i-QQYotqFjTJA7EiQZc1Wmzs" type="signature">
+                Emma Carlsson Löfdahl (L)
+              </item>
+              <item xml:id="i-G112tWkDSNvYRThhKPaw5n" who="i-HzxR5drvvumXGW3Fi7DiXX" type="signature">
+                Lina Nordquist (L)
+              </item>
+              <item xml:id="i-6iUHPrecjrPq5ehaPrsCrr" who="i-VBA6eUH2CpmPZFgqzCpt9N" type="signature">
+                Mats Persson (L)
+              </item>
+              <item xml:id="i-S2fNUzUmW12DrFjBFdmHja" who="i-BUYvEhrSc9gnHcd6iS4eDJ" type="signature">
+                Allan Widman (L)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

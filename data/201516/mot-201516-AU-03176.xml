@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3176 av Annika Qarlsson m.fl. (C)</title>
           <idno type="rdwebb">H3023176</idno>
           <rs type="number">3176</rs>
-          <orgName type="comitteeAbbreviation">AU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>AU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023176/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023176</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023176</ref>
@@ -94,8 +96,10 @@
     <body>
       <div xml:id="i-5Dvyrtgq3Noa735VfWEKez" type="motHeader">
         <div xml:id="i-3njCvKQZbdnj6UCSde8aQf" type="motTitle">
-          Motion till riksdagen 2015/16:3176 av Annika Qarlsson m.fl. (C)
-          Utgiftsområde 14 Arbetsmarknad och arbetsliv
+          <head xml:id="i-MsCXt1W9eySLoVWZVehNAq">
+            Motion till riksdagen 2015/16:3176 av Annika Qarlsson m.fl. (C)
+            Utgiftsområde 14 Arbetsmarknad och arbetsliv
+          </head>
         </div>
       </div>
       <div xml:id="i-PZK1hNXCnCTktkJ5BVAuCa" type="motBody">
@@ -114,10 +118,10 @@
           <head xml:id="i-MaCEcWekTBqwXKj6zZG68j" type="h1">
             Motivering
           </head>
-          <head xml:id="i-JjrZvFw5Nuq4ZaiwGy1BUH" type="h3">
+          <subhead xml:id="i-JjrZvFw5Nuq4ZaiwGy1BUH" type="h3">
             Tabell 1. Centerpartiets förslag till anslag 2016 uttryckt som
             differens gentemot regeringens förslag
-          </head>
+          </subhead>
           <table xml:id="i-T23JsG31JYmEkvu63qPERD">
             <row xml:id="i-W49c4nnjdWnkCbrihYKiqk" style="label">
               <cell>
@@ -373,13 +377,12 @@
                 −6 341 000
               </cell>
             </row>
-            <row xml:id="i-QCburtaj7FbkvxK1tcgRXn"/>
           </table>
-          <head xml:id="i-Q7a1QZqrYkXkphXr6uTBPR" type="h3">
+          <subhead xml:id="i-Q7a1QZqrYkXkphXr6uTBPR" type="h3">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2019
             uttryckt som differens gentemot regeringens förslag (miljoner
             kronor)
-          </head>
+          </subhead>
           <table xml:id="i-NwqpLpD6ySti9PfSf2getd">
             <row xml:id="i-ReXoDSR3yaLaEAWmooYanR" style="label">
               <cell>
@@ -670,19 +673,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-HnnMANfnNLqfhoZtH7wZnY" type="signatureBlock">
-          <list xml:id="i-61ZwLxzx9a1FxXraBEbAKv">
-            <item xml:id="i-TZXwTVUdaBUKmpVyeyKGep" who="i-NRb4HpaQ87qUwhLNcKt7Gz" type="signature">
-              Annika Qarlsson (C)
-            </item>
-            <item xml:id="i-VrdqBU9mD5SbwaLC84ZDeh" who="i-TmLYgRSM5JFBMdRVjsJ2q4" type="signature">
-              Johanna Jönsson (C)
-            </item>
-            <item xml:id="i-SP2GW5GEp4GAnPE2GMQwfs" who="i-DyMWrZMvLW1B7NfePkXTu4" type="signature">
-              Fredrik Christensson (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-HnnMANfnNLqfhoZtH7wZnY">
+            <list xml:id="i-61ZwLxzx9a1FxXraBEbAKv">
+              <item xml:id="i-TZXwTVUdaBUKmpVyeyKGep" who="i-NRb4HpaQ87qUwhLNcKt7Gz" type="signature">
+                Annika Qarlsson (C)
+              </item>
+              <item xml:id="i-VrdqBU9mD5SbwaLC84ZDeh" who="i-TmLYgRSM5JFBMdRVjsJ2q4" type="signature">
+                Johanna Jönsson (C)
+              </item>
+              <item xml:id="i-SP2GW5GEp4GAnPE2GMQwfs" who="i-DyMWrZMvLW1B7NfePkXTu4" type="signature">
+                Fredrik Christensson (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

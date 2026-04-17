@@ -14,7 +14,9 @@
           <title>Motion 2016/17:1932 av Hans Wallmark (M)</title>
           <idno type="rdwebb">H4021932</idno>
           <rs type="number">1932</rs>
-          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SkU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4021932/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4021932</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4021932</ref>
@@ -82,7 +84,9 @@
     <body>
       <div xml:id="i-DAGGhPFBD9mZFeRHCf1Y3N" type="motHeader">
         <div xml:id="i-8oZmZvtvpwmJDqxRVk6Z8j" type="motTitle">
-          Motion till riksdagen 2016/17:1932 av Hans Wallmark (M) Skattskrivning
+          <head xml:id="i-54roUN6ffkBNmKXmTAmqQ8">
+            Motion till riksdagen 2016/17:1932 av Hans Wallmark (M) Skattskrivning
+          </head>
         </div>
       </div>
       <div xml:id="i-AcPFjnB2ersv2Qakv8aVjs" type="motBody">
@@ -91,7 +95,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-VPwZAxmUjgarJ5NCRWjJRt">
-            <item xml:id="i-LK17wuPHueifXZGNdaxCRU" sortKey="Yrkande 1">
+            <item xml:id="i-LK17wuPHueifXZGNdaxCRU" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               överväga att utreda ifall det skulle vara möjligt att vara skriven
               en del av året på annan ort och därmed skattskyldig för det aktuella
@@ -141,13 +145,13 @@
             Det här skulle öppna en möjlighet både för kommuner att kunna
             få verksamhet finansierad och för den enskilde att kunna få bidra.
           </p>
-        </div>
-        <div xml:id="i-QkKSanMjnJKaVDxgzowHQy" type="signatureBlock">
-          <list xml:id="i-HGZByWzNAoc3XyuEe4GszA">
-            <item xml:id="i-UCYJcBsZjKMLWN6ZxdidQN" who="i-9xarzmckV5SS8EyJPN5b3x" type="signature">
-              Hans Wallmark (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-QkKSanMjnJKaVDxgzowHQy">
+            <list xml:id="i-HGZByWzNAoc3XyuEe4GszA">
+              <item xml:id="i-UCYJcBsZjKMLWN6ZxdidQN" who="i-9xarzmckV5SS8EyJPN5b3x" type="signature">
+                Hans Wallmark (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

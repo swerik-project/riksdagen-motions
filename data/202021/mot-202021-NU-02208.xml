@@ -14,7 +14,9 @@
           <title>Motion 2020/21:2208 av Serkan Köse och Mattias Vepsä (båda S)</title>
           <idno type="rdwebb">H8022208</idno>
           <rs type="number">2208</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H8022208/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H8022208</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H8022208</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-NUyYRobeF8xB1FaXqTLpib" type="motHeader">
         <div xml:id="i-Nsz9waM43bT4CwhqN358Jr" type="motTitle">
-          Motion till riksdagen 2020/21:2208 av Serkan Köse och Mattias
-          Vepsä (båda S) Företagens ansvar gällande mänskliga rättigheter
+          <head xml:id="i-AYUfY4qRgVP27FbdPLsmjN">
+            Motion till riksdagen 2020/21:2208 av Serkan Köse och Mattias
+            Vepsä (båda S) Företagens ansvar gällande mänskliga rättigheter
+          </head>
         </div>
       </div>
       <div xml:id="i-KmQZTbPTgiBZXSsLWKF1g2" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-EVmFNrhPFC7mn3VsGx5uRN">
-            <item xml:id="i-8cUFoeHoMadsRrWuuWZ3kM" sortKey="Yrkande 1">
+            <item xml:id="i-8cUFoeHoMadsRrWuuWZ3kM" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om företagens
               ansvar gällande mänskliga rättigheter och tillkännager detta för
               regeringen.
@@ -232,16 +236,16 @@
             följa FN:s principer för företag och mänskliga rättigheter samt
             OECD:s riktlinjer för multinationella företag.
           </p>
-        </div>
-        <div xml:id="i-6WBtTv9cMKwXxZUSY8ivA6" type="signatureBlock">
-          <list xml:id="i-CZyTaneFYV8n2ET8qjmd3H">
-            <item xml:id="i-TXAkGTE8DSH2YnqWc6Xwfd" who="i-M2rNBQVSaqrQcUZQkmkCCX" type="signature">
-              Serkan Köse (S)
-            </item>
-            <item xml:id="i-GSm2eM4kUTrexqsxV425PX" who="i-UB2UKCr2W8fJ3Rr4dtCeHb" type="signature">
-              Mattias Vepsä (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-6WBtTv9cMKwXxZUSY8ivA6">
+            <list xml:id="i-CZyTaneFYV8n2ET8qjmd3H">
+              <item xml:id="i-TXAkGTE8DSH2YnqWc6Xwfd" who="i-M2rNBQVSaqrQcUZQkmkCCX" type="signature">
+                Serkan Köse (S)
+              </item>
+              <item xml:id="i-GSm2eM4kUTrexqsxV425PX" who="i-UB2UKCr2W8fJ3Rr4dtCeHb" type="signature">
+                Mattias Vepsä (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

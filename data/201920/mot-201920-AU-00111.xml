@@ -14,7 +14,9 @@
           <title>Motion 2019/20:111 av Eric Westroth (SD)</title>
           <idno type="rdwebb">H702111</idno>
           <rs type="number">111</rs>
-          <orgName type="comitteeAbbreviation">AU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>AU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H702111/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H702111</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H702111</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-LgKvmpQ9dVXCAGLYPnCHjo" type="motHeader">
         <div xml:id="i-GYXFkFC6yaiWn8TPDbqHud" type="motTitle">
-          Motion till riksdagen 2019/20:111 av Eric Westroth (SD) Politisk
-          uppfattning som diskrimineringsgrund i svensk lagstiftning
+          <head xml:id="i-9EHxvLqWJkr6h4TT27ATzt">
+            Motion till riksdagen 2019/20:111 av Eric Westroth (SD) Politisk
+            uppfattning som diskrimineringsgrund i svensk lagstiftning
+          </head>
         </div>
       </div>
       <div xml:id="i-Gm4vbouWBygy3nagxxvhHZ" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-BfHupYzqxkhRsyypXpWefZ">
-            <item xml:id="i-HHCdTPUkMBZTwMJEoSXhXn" sortKey="Yrkande 1">
+            <item xml:id="i-HHCdTPUkMBZTwMJEoSXhXn" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               även inkludera begreppet politisk uppfattning som diskrimineringsgrund
               i den svenska lagstiftningen och tillkännager detta för regeringen.
@@ -176,9 +180,9 @@
             ett berättigat syfte och de medel som används är lämpliga och
             nödvändiga för att uppnå syftet,
           </p>
-          <head xml:id="i-V3Xph3aDSF6NRZVfH9Qdkm" type="h1">
+          <subhead xml:id="i-V3Xph3aDSF6NRZVfH9Qdkm" type="h1">
             – – –
-          </head>
+          </subhead>
           <p xml:id="i-5gAgj3GXi1cNUKEqFHg1ep">
             4. trakasserier: ett uppträdande som kränker någons värdighet
             och som har samband med någon av diskrimineringsgrunderna kön,
@@ -214,13 +218,13 @@
             rättigheterna och även inkludera ”politisk åsikt” som en grund
             för diskriminering.
           </p>
-        </div>
-        <div xml:id="i-6tXHsTVHH5ux8Ke2ok7uha" type="signatureBlock">
-          <list xml:id="i-KRKzTTgJPSEmEzU9JMNJEt">
-            <item xml:id="i-pW8pMdHRhRSxFRjzGSQsc" who="i-2YMXTmw5qRAptNNy3BUrrF" type="signature">
-              Eric Westroth (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-6tXHsTVHH5ux8Ke2ok7uha">
+            <list xml:id="i-KRKzTTgJPSEmEzU9JMNJEt">
+              <item xml:id="i-pW8pMdHRhRSxFRjzGSQsc" who="i-2YMXTmw5qRAptNNy3BUrrF" type="signature">
+                Eric Westroth (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

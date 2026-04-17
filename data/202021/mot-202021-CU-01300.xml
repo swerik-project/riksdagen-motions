@@ -14,7 +14,9 @@
           <title>Motion 2020/21:1300 av Helena Antoni (M)</title>
           <idno type="rdwebb">H8021300</idno>
           <rs type="number">1300</rs>
-          <orgName type="comitteeAbbreviation">CU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>CU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H8021300/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H8021300</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H8021300</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-Y4muwWiB1tch5ocLjwB4N3" type="motHeader">
         <div xml:id="i-E4xPNXoEwSRXEEQPMz6JKr" type="motTitle">
-          Motion till riksdagen 2020/21:1300 av Helena Antoni (M) Personlig
-          skuldsättning
+          <head xml:id="i-LCsWSCixP6sz7BszErQFu">
+            Motion till riksdagen 2020/21:1300 av Helena Antoni (M) Personlig
+            skuldsättning
+          </head>
         </div>
       </div>
       <div xml:id="i-QovBgzk67nwNC7MMujZekd" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-N3HYaJ2o9XmEiJBvVrtENw">
-            <item xml:id="i-XVwhFfzcd5PCKXTcReskDJ" sortKey="Yrkande 1">
+            <item xml:id="i-XVwhFfzcd5PCKXTcReskDJ" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               utreda nya stoppfunktioner för att förhindra personlig skuldsättning
               och tillkännager detta för regeringen.
@@ -141,13 +145,13 @@
             ge regeringen tillkänna att utreda vilka andra stoppfunktioner
             som behövs för att förebygga personlig skuldsättning.
           </p>
-        </div>
-        <div xml:id="i-SCVzpEFwa97bxWM4qxwwYa" type="signatureBlock">
-          <list xml:id="i-MQ7ys5VsJAu1w5ex5pxJKF">
-            <item xml:id="i-HLPzUCbd9pPETejtConh19" who="i-KoABdAPF5wcu7bTLEqhj3Z" type="signature">
-              Helena Antoni (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-SCVzpEFwa97bxWM4qxwwYa">
+            <list xml:id="i-MQ7ys5VsJAu1w5ex5pxJKF">
+              <item xml:id="i-HLPzUCbd9pPETejtConh19" who="i-KoABdAPF5wcu7bTLEqhj3Z" type="signature">
+                Helena Antoni (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2017/18:3987 av Emma Henriksson m.fl. (KD)</title>
           <idno type="rdwebb">H5023987</idno>
           <rs type="number">3987</rs>
-          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SoU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5023987/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5023987</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5023987</ref>
@@ -121,9 +123,11 @@
     <body>
       <div xml:id="i-27rauopXB5ro6uZ4E8ML9F" type="motHeader">
         <div xml:id="i-EtKoWwSipYwfauQbc9MpVN" type="motTitle">
-          Motion till riksdagen 2017/18:3987 av Emma Henriksson m.fl. (KD)
-          med anledning av prop. 2017/18:83 Styrande principer inom hälso-
-          och sjukvården och en förstärkt vårdgaranti
+          <head xml:id="i-BkT4XnsSqqiZqNTArcSUxa">
+            Motion till riksdagen 2017/18:3987 av Emma Henriksson m.fl. (KD)
+            med anledning av prop. 2017/18:83 Styrande principer inom hälso-
+            och sjukvården och en förstärkt vårdgaranti
+          </head>
         </div>
       </div>
       <div xml:id="i-XnTa9GFmKHmqDUwerXVzwe" type="motBody">
@@ -165,10 +169,10 @@
           <head xml:id="i-GQxxbzUPLtqi2hYQktBopU" type="h1">
             En gemensam målbild för en god och nära vård
           </head>
-          <head xml:id="i-YDHosaWLbtFETgMtweh2k8" type="h1">
+          <subhead xml:id="i-YDHosaWLbtFETgMtweh2k8" type="h1">
             Svensk hälso- och sjukvård står inför många stora utmaningar
             de kommande åren.
-          </head>
+          </subhead>
           <p xml:id="i-4zYkmFTHVQg8sFySm1pR1n">
             En av dessa är att primärvården, dvs. basen för hela hälso- och
             sjukvården, utgör en lägre andel av den totala hälso- och sjukvården
@@ -252,9 +256,9 @@
             och barn- och ungdomspsykiatrin (BUP). Det är avgörande att, i
             ett tidigare skede än i dag, fånga upp barn som mår dåligt.
           </p>
-          <head xml:id="i-HMMWjW3DMt5AZKdKcksMbt" type="h1">
+          <subhead xml:id="i-HMMWjW3DMt5AZKdKcksMbt" type="h1">
             Styrande principer för vårdens organisering
-          </head>
+          </subhead>
           <p xml:id="i-CqSS7zXboWF2Tb9Yd53sTX">
             Regeringens förslag i proposition 2017/18:83 att ”landstingen
             ska organisera hälso- och sjukvårdsverksamheten så att vården
@@ -294,9 +298,9 @@
             system har sina brister avseende konkurrensnackdel och utomlänskostnaderna
             för de olika landstingen.
           </p>
-          <head xml:id="i-FGGgisxhVkUw6eMoFsJG3P" type="h1">
+          <subhead xml:id="i-FGGgisxhVkUw6eMoFsJG3P" type="h1">
             En förstärkt vårdgaranti inom primärvården
-          </head>
+          </subhead>
           <p xml:id="i-K6S1QqU41t8Y2dJgSUVV7T">
             Alliansregeringens införande av en nationell vårdgaranti har
             varit starkt bidragande till att väntetiderna kortades väsentligt
@@ -354,25 +358,25 @@
             kronor per år 2018–2019 och 4 miljarder kronor 2020 för detta
             ändamål.
           </p>
-        </div>
-        <div xml:id="i-TKNzpjyfViY6sWikp262cD" type="signatureBlock">
-          <list xml:id="i-A6nBKGNu2vWNLfetU1LURF">
-            <item xml:id="i-5c4MhLbdWbUd6CdNSwgp5v" who="i-WTUJB2R5FNpHU89dXa4RTX" type="signature">
-              Emma Henriksson (KD)
-            </item>
-            <item xml:id="i-6VBzjWqVp5xvZNZ5Dr2p59" who="i-DJ8dGLyQXx8GQeiGkcBRiK" type="signature">
-              Annika Eclund (KD)
-            </item>
-            <item xml:id="i-5BRVDhpqv4dcoqY7GxP3NQ" who="i-4ednwgW1p5nCGVvkb7M7eo" type="signature">
-              Lars-Axel Nordell (KD)
-            </item>
-            <item xml:id="i-EUEtueH7y8KLgrWPxvHL96" who="i-7GFif5DyTUbb8eBXsbicsF" type="signature">
-              Magnus Oscarsson (KD)
-            </item>
-            <item xml:id="i-JR323M1uxAf6ULLP9zNQGa" who="i-KHxTD13x4T7QRobXtjMm4K" type="signature">
-              Roland Utbult (KD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-TKNzpjyfViY6sWikp262cD">
+            <list xml:id="i-A6nBKGNu2vWNLfetU1LURF">
+              <item xml:id="i-5c4MhLbdWbUd6CdNSwgp5v" who="i-WTUJB2R5FNpHU89dXa4RTX" type="signature">
+                Emma Henriksson (KD)
+              </item>
+              <item xml:id="i-6VBzjWqVp5xvZNZ5Dr2p59" who="i-DJ8dGLyQXx8GQeiGkcBRiK" type="signature">
+                Annika Eclund (KD)
+              </item>
+              <item xml:id="i-5BRVDhpqv4dcoqY7GxP3NQ" who="i-4ednwgW1p5nCGVvkb7M7eo" type="signature">
+                Lars-Axel Nordell (KD)
+              </item>
+              <item xml:id="i-EUEtueH7y8KLgrWPxvHL96" who="i-7GFif5DyTUbb8eBXsbicsF" type="signature">
+                Magnus Oscarsson (KD)
+              </item>
+              <item xml:id="i-JR323M1uxAf6ULLP9zNQGa" who="i-KHxTD13x4T7QRobXtjMm4K" type="signature">
+                Roland Utbult (KD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

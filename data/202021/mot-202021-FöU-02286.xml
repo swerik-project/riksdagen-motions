@@ -14,7 +14,9 @@
           <title>Motion 2020/21:2286 av Marléne Lund Kopparklint och Sten Bergheden (båda M)</title>
           <idno type="rdwebb">H8022286</idno>
           <rs type="number">2286</rs>
-          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FöU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H8022286/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H8022286</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H8022286</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-TFUVFwQz4Pdrd3WL9zpTSE" type="motHeader">
         <div xml:id="i-NEZixLfoRfZxeeZXb9fR84" type="motTitle">
-          Motion till riksdagen 2020/21:2286 av Marléne Lund Kopparklint
-          och Sten Bergheden (båda M) Modernisera systemet för krisinformation
+          <head xml:id="i-XRDvkG5Z8ZZ6jT7V955psb">
+            Motion till riksdagen 2020/21:2286 av Marléne Lund Kopparklint
+            och Sten Bergheden (båda M) Modernisera systemet för krisinformation
+          </head>
         </div>
       </div>
       <div xml:id="i-DeT2739StfvMT2nXFBC76c" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-LqJZXWuZGMb9VEtYYyb9GG">
-            <item xml:id="i-83UMFtaddnThiemY65sLiN" sortKey="Yrkande 1">
+            <item xml:id="i-83UMFtaddnThiemY65sLiN" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               modernisera krisinformationen exempelvis genom att implementera
               EU-Alert för att stärka den svenska beredskapen och tillkännager
@@ -192,16 +196,16 @@
             och pålitligt system. Detta är en fråga som bör ställas samt åtgärdas
             snarast.
           </p>
-        </div>
-        <div xml:id="i-CAj67C5P61xrgCbBdcHkNg" type="signatureBlock">
-          <list xml:id="i-FokBv6HDxFF7DCw9S5bGXq">
-            <item xml:id="i-U3ZUTSrGQg7ZyjfVd98hek" who="i-DGTHVhbApAq9J741uJW2uT" type="signature">
-              Marléne Lund Kopparklint (M)
-            </item>
-            <item xml:id="i-DsFZi5t91P3Q7M6TUrXKcu" who="i-S1jBpohzgG7cgcBjfgN1Fb" type="signature">
-              Sten Bergheden (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-CAj67C5P61xrgCbBdcHkNg">
+            <list xml:id="i-FokBv6HDxFF7DCw9S5bGXq">
+              <item xml:id="i-U3ZUTSrGQg7ZyjfVd98hek" who="i-DGTHVhbApAq9J741uJW2uT" type="signature">
+                Marléne Lund Kopparklint (M)
+              </item>
+              <item xml:id="i-DsFZi5t91P3Q7M6TUrXKcu" who="i-S1jBpohzgG7cgcBjfgN1Fb" type="signature">
+                Sten Bergheden (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

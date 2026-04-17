@@ -14,7 +14,9 @@
           <title>Motion 2019/20:570 av Per-Arne Håkansson och Anna Wallentheim (båda S)</title>
           <idno type="rdwebb">H702570</idno>
           <rs type="number">570</rs>
-          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>UbU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H702570/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H702570</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H702570</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-LFcVjgd6WmUg14mVJT6KR6" type="motHeader">
         <div xml:id="i-47XryauLoQukggEYZihDsG" type="motTitle">
-          Motion till riksdagen 2019/20:570 av Per-Arne Håkansson och Anna
-          Wallentheim (båda S) Kompetensförsörjning med fokus på yrkesutbildning
+          <head xml:id="i-SjQVsokY6BpfYVeNthdHUF">
+            Motion till riksdagen 2019/20:570 av Per-Arne Håkansson och Anna
+            Wallentheim (båda S) Kompetensförsörjning med fokus på yrkesutbildning
+          </head>
         </div>
       </div>
       <div xml:id="i-nkjCcc7Q34MnGVfWGtRAK" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-FAVAzgvvtpaGxZnq7pUoCd">
-            <item xml:id="i-6tvkU8SMjkkduDc8qoHD4Z" sortKey="Yrkande 1">
+            <item xml:id="i-6tvkU8SMjkkduDc8qoHD4Z" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om kompetensförsörjning
               med fokus på yrkesutbildning och tillkännager detta för regeringen.
             </item>
@@ -234,16 +238,16 @@
             vi ser en oväntat liten andel av de utrikes födda inom yrkesutbildningar,
             trots deras goda framtidsutsikter.
           </p>
-        </div>
-        <div xml:id="i-8uWcChw5dc31W7idVckvqg" type="signatureBlock">
-          <list xml:id="i-GMuvMv1jnBNqdHT7YtbWVM">
-            <item xml:id="i-TQZ5vdcj8c5Q3s16tWvXkt" who="i-DfMBmwjfAwnb2JfXgJ9isk" type="signature">
-              Per-Arne Håkansson (S)
-            </item>
-            <item xml:id="i-wE6ZCXB1JpKoBs4uZMp2B" who="i-MfRf34x3k6xLdpPgFSUfMs" type="signature">
-              Anna Wallentheim (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-8uWcChw5dc31W7idVckvqg">
+            <list xml:id="i-GMuvMv1jnBNqdHT7YtbWVM">
+              <item xml:id="i-TQZ5vdcj8c5Q3s16tWvXkt" who="i-DfMBmwjfAwnb2JfXgJ9isk" type="signature">
+                Per-Arne Håkansson (S)
+              </item>
+              <item xml:id="i-wE6ZCXB1JpKoBs4uZMp2B" who="i-MfRf34x3k6xLdpPgFSUfMs" type="signature">
+                Anna Wallentheim (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

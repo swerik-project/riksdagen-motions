@@ -14,7 +14,9 @@
           <title>Motion 2016/17:3459 av Maria Weimer m.fl. (L)</title>
           <idno type="rdwebb">H4023459</idno>
           <rs type="number">3459</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4023459/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4023459</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4023459</ref>
@@ -122,8 +124,10 @@
     <body>
       <div xml:id="i-VCqRq43pz12NuLbhoZrJwo" type="motHeader">
         <div xml:id="i-72XCTMZ9TrjZnDJFj8i3a6" type="motTitle">
-          Motion till riksdagen 2016/17:3459 av Maria Weimer m.fl. (L)
-          Utgiftsområde 21 Energi
+          <head xml:id="i-T3BaYg2SGeQ6soTyiXrVtE">
+            Motion till riksdagen 2016/17:3459 av Maria Weimer m.fl. (L)
+            Utgiftsområde 21 Energi
+          </head>
         </div>
       </div>
       <div xml:id="i-H5uv4sC1Thwc4AdHXQyjY2" type="motBody">
@@ -132,7 +136,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-9rN5Her4ySvdS9uxHyUBtJ">
-            <item xml:id="i-7wW5YMoVkSdSNvkhTtAggu" sortKey="Yrkande 1">
+            <item xml:id="i-7wW5YMoVkSdSNvkhTtAggu" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2017 inom utgiftsområde 21 Energi
               enligt förslaget i tabell 1 i motionen.
             </item>
@@ -142,10 +146,10 @@
           <head xml:id="i-Bx1C1WuMV3s5JmHaiqT5W" type="h1">
             Motivering
           </head>
-          <head xml:id="i-AFw9fn74gRtwwvnW1sT2un" type="h1">
+          <subhead xml:id="i-AFw9fn74gRtwwvnW1sT2un" type="h1">
             Utgiftsområdet omfattar frågor om tillförsel, distribution och
             användning av energi.
-          </head>
+          </subhead>
           <p xml:id="i-XcMspfmv2aadSm1W4KePw1">
             Uppvärmningen av jorden genom ökade koldioxidutsläpp är den största
             framtidsutmaningen för vår generation. Tack vare vattenkraften,
@@ -647,30 +651,29 @@
                 +75 000
               </cell>
             </row>
-            <row xml:id="i-EsbEaRDZzsuazL2CjFYBud"/>
           </table>
-        </div>
-        <div xml:id="i-791ZoRAETSqGemqbTsHJeZ" type="signatureBlock">
-          <list xml:id="i-K45Z5AkWkzQusWnNgjttms">
-            <item xml:id="i-Uw1TpDdYVGSpkkFKmvbLJ6" who="i-HPYYRQv4ch2ZKcsG9Poys5" type="signature">
-              Maria Weimer (L)
-            </item>
-            <item xml:id="i-KRTAuQpU5N3EYmTRAqwSJn" who="i-Kb87jeTEio4k4qCJeZ6pQE" type="signature">
-              Said Abdu (L)
-            </item>
-            <item xml:id="i-P2hxbaE3arGDhuVRmASzgR" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
-              Christer Nylander (L)
-            </item>
-            <item xml:id="i-2UUEqE6Tg3JKTRXVjrhEbQ" who="i-S7wLw9aynA5vbRCsqxxL3N" type="signature">
-              Tina Acketoft (L)
-            </item>
-            <item xml:id="i-KkNnfBp9VHxEo9ufWZnUSK" who="i-QQYotqFjTJA7EiQZc1Wmzs" type="signature">
-              Emma Carlsson Löfdahl (L)
-            </item>
-            <item xml:id="i-TiGn5rkiUybTntmYbBitGM" who="i-VBA6eUH2CpmPZFgqzCpt9N" type="signature">
-              Mats Persson (L)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-791ZoRAETSqGemqbTsHJeZ">
+            <list xml:id="i-K45Z5AkWkzQusWnNgjttms">
+              <item xml:id="i-Uw1TpDdYVGSpkkFKmvbLJ6" who="i-HPYYRQv4ch2ZKcsG9Poys5" type="signature">
+                Maria Weimer (L)
+              </item>
+              <item xml:id="i-KRTAuQpU5N3EYmTRAqwSJn" who="i-Kb87jeTEio4k4qCJeZ6pQE" type="signature">
+                Said Abdu (L)
+              </item>
+              <item xml:id="i-P2hxbaE3arGDhuVRmASzgR" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
+                Christer Nylander (L)
+              </item>
+              <item xml:id="i-2UUEqE6Tg3JKTRXVjrhEbQ" who="i-S7wLw9aynA5vbRCsqxxL3N" type="signature">
+                Tina Acketoft (L)
+              </item>
+              <item xml:id="i-KkNnfBp9VHxEo9ufWZnUSK" who="i-QQYotqFjTJA7EiQZc1Wmzs" type="signature">
+                Emma Carlsson Löfdahl (L)
+              </item>
+              <item xml:id="i-TiGn5rkiUybTntmYbBitGM" who="i-VBA6eUH2CpmPZFgqzCpt9N" type="signature">
+                Mats Persson (L)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

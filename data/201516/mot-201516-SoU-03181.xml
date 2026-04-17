@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3181 av Staffan Danielsson m.fl. (C)</title>
           <idno type="rdwebb">H3023181</idno>
           <rs type="number">3181</rs>
-          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SoU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023181/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023181</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023181</ref>
@@ -94,8 +96,10 @@
     <body>
       <div xml:id="i-X6Pwgs4ybrScVUXT3kZg6U" type="motHeader">
         <div xml:id="i-5HoKtSvbkvCsbTwePGuXbH" type="motTitle">
-          Motion till riksdagen 2015/16:3181 av Staffan Danielsson m.fl.
-          (C) Utgiftsområde 9 Hälsovård, sjukvård och social omsorg
+          <head xml:id="i-X4tGG51kmwvJQ8NPpWRTBJ">
+            Motion till riksdagen 2015/16:3181 av Staffan Danielsson m.fl.
+            (C) Utgiftsområde 9 Hälsovård, sjukvård och social omsorg
+          </head>
         </div>
       </div>
       <div xml:id="i-3ZjRpg56XpbDKVdUeLmwMr" type="motBody">
@@ -114,10 +118,10 @@
           <head xml:id="i-UL7tZeFTMYA64LHGdv83uP" type="h1">
             Motivering
           </head>
-          <head xml:id="i-7AagPET1Sm7aUUZm8qQ8vW" type="h3">
+          <subhead xml:id="i-7AagPET1Sm7aUUZm8qQ8vW" type="h3">
             Tabell 1. Centerpartiets förslag till anslag för 2016 uttryckt
             som differens gentemot regeringens förslag (tusental kronor)
-          </head>
+          </subhead>
           <table xml:id="i-HmCQfLNgX5mAKomxdWz9J9">
             <row xml:id="i-UGFheEqmWWgghg9er3fJWV" style="label">
               <cell>
@@ -559,13 +563,12 @@
                 −6 157 050
               </cell>
             </row>
-            <row xml:id="i-B6nXnZg1Gyw9M3nYvVBAu3"/>
           </table>
-          <head xml:id="i-KvqEUC9Ca9LfzhEzjGE5gJ" type="h3">
+          <subhead xml:id="i-KvqEUC9Ca9LfzhEzjGE5gJ" type="h3">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2019
             uttryckt som differens gentemot regeringens förslag (miljoner
             kronor)
-          </head>
+          </subhead>
           <table xml:id="i-RyPNiUD9trWWDNZ8zB8ji1">
             <row xml:id="i-MXoLAs3U7NqMxTrwPMAwED">
               <cell>
@@ -807,19 +810,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-MLeVcFRPJmMUpxsdUij5GH" type="signatureBlock">
-          <list xml:id="i-XXmDKu1PEvSnWPdSxrit4h">
-            <item xml:id="i-HpKXeyRatFMrbLL9f4mtQ5" who="i-N9Pi9YpD4nvtCEsVp2CGcX" type="signature">
-              Staffan Danielsson (C)
-            </item>
-            <item xml:id="i-CJqdZ7wuvaDhow227iGHCA" who="i-NRb4HpaQ87qUwhLNcKt7Gz" type="signature">
-              Annika Qarlsson (C)
-            </item>
-            <item xml:id="i-GEpnipxWx4ds4oemz9x46d" who="i-UT1ponddSVxoVpn779syr7" type="signature">
-              Solveig Zander (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-MLeVcFRPJmMUpxsdUij5GH">
+            <list xml:id="i-XXmDKu1PEvSnWPdSxrit4h">
+              <item xml:id="i-HpKXeyRatFMrbLL9f4mtQ5" who="i-N9Pi9YpD4nvtCEsVp2CGcX" type="signature">
+                Staffan Danielsson (C)
+              </item>
+              <item xml:id="i-CJqdZ7wuvaDhow227iGHCA" who="i-NRb4HpaQ87qUwhLNcKt7Gz" type="signature">
+                Annika Qarlsson (C)
+              </item>
+              <item xml:id="i-GEpnipxWx4ds4oemz9x46d" who="i-UT1ponddSVxoVpn779syr7" type="signature">
+                Solveig Zander (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

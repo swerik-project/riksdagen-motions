@@ -14,7 +14,9 @@
           <title>SVAR – Riksarkivet</title>
           <idno type="rdwebb">GT02Kr346</idno>
           <rs type="number">Kr346</rs>
-          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KrU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GT02Kr346/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GT02Kr346</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GT02Kr346</ref>
@@ -268,7 +270,7 @@
           <p xml:id="i-5Vc8xLXCRwZJSSxJNHnKK9" type="date">
             Stockholm den 30 september 2005
           </p>
-          <div xml:id="i-tqBp11KsYFaTjZHndZkxi" type="signatureBlock">
+          <signatureBlock xml:id="i-tqBp11KsYFaTjZHndZkxi">
             <list xml:id="i-JK3ALSekfSzvwMeC8tZs75">
               <item xml:id="i-RFKUHTYK1FgNdCV9CgUHmo" who="i-PxnWyEEEJkswzBKdKbv36K" type="signature">
                 Agneta Lundberg (s)
@@ -277,7 +279,7 @@
                 Hans Stenberg (s)
               </item>
             </list>
-          </div>
+          </signatureBlock>
         </div>
       </div>
     </body>

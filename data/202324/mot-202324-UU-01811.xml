@@ -14,7 +14,9 @@
           <title>Motion 2023/24:1811 av Elisabeth Thand Ringqvist (C)</title>
           <idno type="rdwebb">HB021811</idno>
           <rs type="number">1811</rs>
-          <orgName type="comitteeAbbreviation">UU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>UU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HB021811/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HB021811</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HB021811</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-CY3afK5XjKtGfm23XQHv3M" type="motHeader">
         <div xml:id="i-D2X4iSWiDZuoP1njjy8vgE" type="motTitle">
-          Motion till riksdagen 2023/24:1811 av Elisabeth Thand Ringqvist
-          (C) Bistånd för global hälsa
+          <head xml:id="i-38ZAH8MoiA8HtaXZyfb4EC">
+            Motion till riksdagen 2023/24:1811 av Elisabeth Thand Ringqvist
+            (C) Bistånd för global hälsa
+          </head>
         </div>
       </div>
       <div xml:id="i-RX7kryQ13vmEEPYmYsnXSB" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-SxcUvCLyr9aMUVUZPQCdVk">
-            <item xml:id="i-STzp7KG3CMuyPg11uDmmbh" sortKey="Yrkande 1">
+            <item xml:id="i-STzp7KG3CMuyPg11uDmmbh" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               Sverige bör vara ledande när det gäller att stödja insatser för
               att bygga motståndskraftiga globala system för att förhindra framtida
@@ -101,7 +105,7 @@
             </item>
           </list>
           <list xml:id="i-J8FrPcHED9w2A2fgoKJWBQ">
-            <item xml:id="i-JAzwCJnk7xgg1Mi8tpJGbz" sortKey="Yrkande 2">
+            <item xml:id="i-JAzwCJnk7xgg1Mi8tpJGbz" sortKey="yrkande_002">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               regeringen bör arbeta för att Sverige ska initiera ett mer omfattande
               samarbete med privat näringsliv för att hitta innovativa och hållbara
@@ -111,7 +115,7 @@
             </item>
           </list>
           <list xml:id="i-4Pr133nZQJjvZMHSTa7vZH">
-            <item xml:id="i-3ZWYH6M1HWRMLG264muHV7" sortKey="Yrkande 3">
+            <item xml:id="i-3ZWYH6M1HWRMLG264muHV7" sortKey="yrkande_003">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               Sverige bör höja sitt finansiella understöd till den globala vaccinalliansen
               (Gavi) och tillkännager detta för regeringen.
@@ -154,9 +158,9 @@
             som den globala vaccinalliansen (Gavi) och den globala fonden
             mot aids, tuberkulos och malaria (Globala fonden).
           </p>
-          <head xml:id="i-KZF3sh66HiR8N9rEhtECfw" type="h2">
+          <subhead xml:id="i-KZF3sh66HiR8N9rEhtECfw" type="h2">
             Sveriges partnerskap med Globala fonden
-          </head>
+          </subhead>
           <p xml:id="i-GmxjBX78YED9J8GUvHSp6s">
             Sverige har under ett flertal år varit en ledande givare till
             den globala fonden. Organisa­tionen har sedan dess grundande för
@@ -210,9 +214,9 @@
             (mål 10), till fredliga och inkluderande samhällen (mål 16) liksom
             till globalt partnerskap för hållbar utveckling (mål 17).
           </p>
-          <head xml:id="i-5rMR8iWR9NwbTYoSWudPkE" type="h2">
+          <subhead xml:id="i-5rMR8iWR9NwbTYoSWudPkE" type="h2">
             Sveriges partnership med Gavi
-          </head>
+          </subhead>
           <p xml:id="i-Jmt4rGEpjKVK8dt9iXHmv3">
             Sverige var en av grundarna till den globala vaccinalliansen
             Gavi och fortsätter att vara en ledande givare, som genomför banbrytande
@@ -241,9 +245,9 @@
             hjälpa världens 92 låg- och medelinkomstländer att finansiera
             sina vaccinationsprogram (genom Covax AMC).
           </p>
-          <head xml:id="i-DK3bfuav75Zq7ZdWzStZva" type="h2">
+          <subhead xml:id="i-DK3bfuav75Zq7ZdWzStZva" type="h2">
             Fortsatt svensk ledarroll för global hälsa
-          </head>
+          </subhead>
           <p xml:id="i-MfJUPGuASwtbpW9Hz6ctHL">
             Dagens globala utmaningar och pandemier kräver att Sverige fortsätter
             att spela en ledarroll för investeringar i motståndskraftiga hälsosystem
@@ -260,13 +264,13 @@
             sektorn för att hitta innovativa lösningar på globala hälsoproblem,
             i samverkan med aktörer som Gavi och den globala fonden.
           </p>
-        </div>
-        <div xml:id="i-QsCEvbumC8eJ5ogA7VGjTo" type="signatureBlock">
-          <list xml:id="i-KCpE6Go36mKKp6hEfBpC6v">
-            <item xml:id="i-MjXqDXt77ewz5KJYBYgXzR" who="i-AmkEPQHyLbWFNYdCQzmzAu" type="signature">
-              Elisabeth Thand Ringqvist (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-QsCEvbumC8eJ5ogA7VGjTo">
+            <list xml:id="i-KCpE6Go36mKKp6hEfBpC6v">
+              <item xml:id="i-MjXqDXt77ewz5KJYBYgXzR" who="i-AmkEPQHyLbWFNYdCQzmzAu" type="signature">
+                Elisabeth Thand Ringqvist (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

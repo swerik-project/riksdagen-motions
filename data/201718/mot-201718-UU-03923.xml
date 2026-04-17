@@ -14,7 +14,9 @@
           <title>Motion 2017/18:3923 av Carl Schlyter m.fl. (MP)</title>
           <idno type="rdwebb">H5023923</idno>
           <rs type="number">3923</rs>
-          <orgName type="comitteeAbbreviation">UU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>UU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5023923/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5023923</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5023923</ref>
@@ -113,8 +115,10 @@
     <body>
       <div xml:id="i-Pw4tpdZG9NRGCcXRf2uuBS" type="motHeader">
         <div xml:id="i-U2NZCQbW1mQV33onRPikAc" type="motTitle">
-          Motion till riksdagen 2017/18:3923 av Carl Schlyter m.fl. (MP)
-          med anledning av prop. 2017/18:23 Skärpt exportkontroll av krigsmateriel
+          <head xml:id="i-8K4qrJLGYrTzrGab2ckq5s">
+            Motion till riksdagen 2017/18:3923 av Carl Schlyter m.fl. (MP)
+            med anledning av prop. 2017/18:23 Skärpt exportkontroll av krigsmateriel
+          </head>
         </div>
       </div>
       <div xml:id="i-GFusrnpxscn8Y5xLodJwjw" type="motBody">
@@ -123,7 +127,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-GpkZ4XhJDRzycZgELvvmKF">
-            <item xml:id="i-QUYGeDUzomGrvTefZXHmW2" sortKey="Yrkande 1">
+            <item xml:id="i-QUYGeDUzomGrvTefZXHmW2" sortKey="yrkande_001">
               Riksdagen antar regeringens förslag med den ändringen att det
               i 1 § lagen (1992:1300) om krigsmateriel införs tre ytterligare
               stycken med den lydelse som framgår av bilaga 1.
@@ -313,9 +317,9 @@
             en tydligare politik för PGU och kvinnors rättigheter införas
             genom tillkännagivanden från utrikesutskottet i dess betänkande.
           </p>
-          <head xml:id="i-NuDZxHgb6mmDXj6GcMnSrd" type="h2">
+          <subhead xml:id="i-NuDZxHgb6mmDXj6GcMnSrd" type="h2">
             Bilaga
-          </head>
+          </subhead>
           <p xml:id="i-H95RazVsX5xaLbsoPXmFFJ">
             1 §
           </p>
@@ -352,22 +356,22 @@
             Om det finns en uppenbar risk för export till part som deltar
             i krigsförbrytelser får tillstånd inte lämnas.
           </p>
-        </div>
-        <div xml:id="i-HDMDS6vjUH6kRc7M6RoKN6" type="signatureBlock">
-          <list xml:id="i-FK5Q3pQ1mdkg3QpgboP15h">
-            <item xml:id="i-XoXMn8QmbRPpmtYGtooPYC" who="i-42mC5GTVNHcPV5LNMmxmrj" type="signature">
-              Carl Schlyter (MP)
-            </item>
-            <item xml:id="i-HGctdFxichidhs2DJ3HpGc" who="i-DLt3BwBDVwBxqxVEki5m5B" type="signature">
-              Annika Lillemets (MP)
-            </item>
-            <item xml:id="i-CXRp5L6EPTRTsc3qxYc7nx" who="i-iThmkGNxBe7XUsT8b92pZ" type="signature">
-              Jabar Amin (MP)
-            </item>
-            <item xml:id="i-LWZ1Rpp5Aikb1gEtCgASPN" who="i-FeVXF7pVocmUfQoPXGuJKR" type="signature">
-              Valter Mutt (MP)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-HDMDS6vjUH6kRc7M6RoKN6">
+            <list xml:id="i-FK5Q3pQ1mdkg3QpgboP15h">
+              <item xml:id="i-XoXMn8QmbRPpmtYGtooPYC" who="i-42mC5GTVNHcPV5LNMmxmrj" type="signature">
+                Carl Schlyter (MP)
+              </item>
+              <item xml:id="i-HGctdFxichidhs2DJ3HpGc" who="i-DLt3BwBDVwBxqxVEki5m5B" type="signature">
+                Annika Lillemets (MP)
+              </item>
+              <item xml:id="i-CXRp5L6EPTRTsc3qxYc7nx" who="i-iThmkGNxBe7XUsT8b92pZ" type="signature">
+                Jabar Amin (MP)
+              </item>
+              <item xml:id="i-LWZ1Rpp5Aikb1gEtCgASPN" who="i-FeVXF7pVocmUfQoPXGuJKR" type="signature">
+                Valter Mutt (MP)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

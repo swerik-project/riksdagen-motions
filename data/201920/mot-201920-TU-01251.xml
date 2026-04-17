@@ -14,7 +14,9 @@
           <title>Motion 2019/20:1251 av Heléne Björklund och Magnus Manhammar (båda S)</title>
           <idno type="rdwebb">H7021251</idno>
           <rs type="number">1251</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H7021251/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H7021251</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H7021251</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-KLexYbX5NM44a4RQJD5FGj" type="motHeader">
         <div xml:id="i-Jaw4r5k9LqWiZDo5jqZMGS" type="motTitle">
-          Motion till riksdagen 2019/20:1251 av Heléne Björklund och Magnus
-          Manhammar (båda S) Sydostlänken är hela nationens angelägenhet
+          <head xml:id="i-7yaumPSyXVhsUKPNRzdR2W">
+            Motion till riksdagen 2019/20:1251 av Heléne Björklund och Magnus
+            Manhammar (båda S) Sydostlänken är hela nationens angelägenhet
+          </head>
         </div>
       </div>
       <div xml:id="i-5RLpDTTU4cgw4nVCgVhtts" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-Ni1H3975DUX9AwdpaqD3NV">
-            <item xml:id="i-DpyrZbcWkK1F7KVxfUQeBn" sortKey="Yrkande 1">
+            <item xml:id="i-DpyrZbcWkK1F7KVxfUQeBn" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               i infrastrukturplaneringen studera förutsättningarna för satsningar
               på Sydostlänken och tillkännager detta för regeringen.
@@ -170,16 +174,16 @@
             Det är också av yttersta vikt att infrastruktursatsningarna i
             Blekinge fortsätter.
           </p>
-        </div>
-        <div xml:id="i-VsYY63cgVxgGAzP1SaZFiG" type="signatureBlock">
-          <list xml:id="i-Y1yiUqihH8TymjSmaFq2vP">
-            <item xml:id="i-VKPNbGKzhxuhL6wRMLG1JE" who="i-VKn82G8HqN17j19VTfbE9g" type="signature">
-              Heléne Björklund (S)
-            </item>
-            <item xml:id="i-SCF9CmaGN53ExcRj6gGAKs" who="i-3L2NmwsjEcuGo8fdwvHsQi" type="signature">
-              Magnus Manhammar (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-VsYY63cgVxgGAzP1SaZFiG">
+            <list xml:id="i-Y1yiUqihH8TymjSmaFq2vP">
+              <item xml:id="i-VKPNbGKzhxuhL6wRMLG1JE" who="i-VKn82G8HqN17j19VTfbE9g" type="signature">
+                Heléne Björklund (S)
+              </item>
+              <item xml:id="i-SCF9CmaGN53ExcRj6gGAKs" who="i-3L2NmwsjEcuGo8fdwvHsQi" type="signature">
+                Magnus Manhammar (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

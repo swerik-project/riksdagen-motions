@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3156 av Anders Ahlgren m.fl. (C)</title>
           <idno type="rdwebb">H3023156</idno>
           <rs type="number">3156</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023156/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023156</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023156</ref>
@@ -94,8 +96,10 @@
     <body>
       <div xml:id="i-RXZ3EaiAEoBeFisBw5jziD" type="motHeader">
         <div xml:id="i-M9uPFnwdJxXU4rC421XVFt" type="motTitle">
-          Motion till riksdagen 2015/16:3156 av Anders Ahlgren m.fl. (C)
-          Utgiftsområde 19 Regional tillväxt
+          <head xml:id="i-LQfhKqqz6zkpyFhmMGQSfT">
+            Motion till riksdagen 2015/16:3156 av Anders Ahlgren m.fl. (C)
+            Utgiftsområde 19 Regional tillväxt
+          </head>
         </div>
       </div>
       <div xml:id="i-TmUe14UTpBWU2qNmAk1t7x" type="motBody">
@@ -114,10 +118,10 @@
           <head xml:id="i-Ui7BFg9wPA6VKUbDyyW7Wk" type="h1">
             Motivering
           </head>
-          <head xml:id="i-GBcUK1UMStyuiogqy1TnQT" type="h3">
+          <subhead xml:id="i-GBcUK1UMStyuiogqy1TnQT" type="h3">
             Tabell 1. Centerpartiets förslag till anslag 2016 uttryckt som
             differens gentemot regeringens förslag
-          </head>
+          </subhead>
           <table xml:id="i-R3vfoUX2MWViA8HiyR4GHy">
             <row xml:id="i-A4Wx3o3RY2TvaRKwa2KQh" style="label">
               <cell>
@@ -182,13 +186,12 @@
                 +25 000
               </cell>
             </row>
-            <row xml:id="i-RdXouj2B6whS7CBCJPSEU9"/>
           </table>
-          <head xml:id="i-XKJFMQ8Sy241RGBEfkXbLH" type="h3">
+          <subhead xml:id="i-XKJFMQ8Sy241RGBEfkXbLH" type="h3">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2019
             uttryckt som differens gentemot regeringens förslag (miljoner
             kronor)
-          </head>
+          </subhead>
           <table xml:id="i-CqzhmXeZJeUHhvmV7ABKYF">
             <row xml:id="i-Sz3sVn9KBJDh198eFW1oss">
               <cell>
@@ -227,19 +230,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-Dpubg2gaU6VnG4V4knNcSe" type="signatureBlock">
-          <list xml:id="i-T2MvDBCpxjjEaTs1VpTnRW">
-            <item xml:id="i-vEstZ2n8f9T4MvPo1Amih" who="i-CUvgh8FbAS51NxDGz1KFL7" type="signature">
-              Anders Ahlgren (C)
-            </item>
-            <item xml:id="i-JLM9F5vzc4vq6wtoZ5qieB" who="i-Wg4JiBuxTz9fesArDXiMko" type="signature">
-              Helena Lindahl (C)
-            </item>
-            <item xml:id="i-TXa4vHzo278qApXoPuaq5h" who="i-Qqu9byP8zwudzHA8ErxkRe" type="signature">
-              Rickard Nordin (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-Dpubg2gaU6VnG4V4knNcSe">
+            <list xml:id="i-T2MvDBCpxjjEaTs1VpTnRW">
+              <item xml:id="i-vEstZ2n8f9T4MvPo1Amih" who="i-CUvgh8FbAS51NxDGz1KFL7" type="signature">
+                Anders Ahlgren (C)
+              </item>
+              <item xml:id="i-JLM9F5vzc4vq6wtoZ5qieB" who="i-Wg4JiBuxTz9fesArDXiMko" type="signature">
+                Helena Lindahl (C)
+              </item>
+              <item xml:id="i-TXa4vHzo278qApXoPuaq5h" who="i-Qqu9byP8zwudzHA8ErxkRe" type="signature">
+                Rickard Nordin (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

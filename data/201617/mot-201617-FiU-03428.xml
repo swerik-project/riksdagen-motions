@@ -14,7 +14,9 @@
           <title>Motion 2016/17:3428 av Mats Persson m.fl. (L)</title>
           <idno type="rdwebb">H4023428</idno>
           <rs type="number">3428</rs>
-          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FiU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4023428/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4023428</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4023428</ref>
@@ -114,8 +116,10 @@
     <body>
       <div xml:id="i-Kkf9eemK8dHchDdC8Xkw76" type="motHeader">
         <div xml:id="i-Mfb9qQnycaeSEhimDrX1Vr" type="motTitle">
-          Motion till riksdagen 2016/17:3428 av Mats Persson m.fl. (L)
-          Utgiftsområde 2 Samhällsekonomi och finansförvaltning
+          <head xml:id="i-T69cYj1uxDV36MNYYxZKE5">
+            Motion till riksdagen 2016/17:3428 av Mats Persson m.fl. (L)
+            Utgiftsområde 2 Samhällsekonomi och finansförvaltning
+          </head>
         </div>
       </div>
       <div xml:id="i-HBDaMnsLSRQz2jybJiThu4" type="motBody">
@@ -124,7 +128,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-7bN29hkbXBt3WD9hU7iDiS">
-            <item xml:id="i-dKZmYgmhRi9mksUTvpWCy" sortKey="Yrkande 1">
+            <item xml:id="i-dKZmYgmhRi9mksUTvpWCy" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2017 inom utgiftsområde 2 Samhällsekonomi
               och finansförvaltning enligt förslaget i tabell 1 i motionen.
             </item>
@@ -134,10 +138,10 @@
           <head xml:id="i-NyTrmHWV5CYBmt9oTi44B8" type="h1">
             Motivering
           </head>
-          <head xml:id="i-REC8gLefnELSHk5eycmuLc" type="h1">
+          <subhead xml:id="i-REC8gLefnELSHk5eycmuLc" type="h1">
             Utgiftsområde 2 omfattar politiken för finansmarknaden och den
             statliga förvaltningspolitiken.
-          </head>
+          </subhead>
           <p xml:id="i-HCGMEFGwPB82bW4x6jcgyT">
             Inom finansmarknadspolitiken är det fortsatt centralt att minska
             risken för att det finansiella systemet drabbas av allvarliga
@@ -630,27 +634,26 @@
                 −61 000
               </cell>
             </row>
-            <row xml:id="i-JsPUBjakyYDYTQNJiDUHhp"/>
           </table>
-        </div>
-        <div xml:id="i-EdfBZUp6egJNQeoQddBatJ" type="signatureBlock">
-          <list xml:id="i-uNvEUvj7ind7KM6qFpiRf">
-            <item xml:id="i-LJhbSVevxsCswi3hzfa5Sx" who="i-VBA6eUH2CpmPZFgqzCpt9N" type="signature">
-              Mats Persson (L)
-            </item>
-            <item xml:id="i-2AxAmdrgXTJt5veKdjDbSb" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
-              Christer Nylander (L)
-            </item>
-            <item xml:id="i-DFtUDfFQF9LXYsDavjNUNX" who="i-S7wLw9aynA5vbRCsqxxL3N" type="signature">
-              Tina Acketoft (L)
-            </item>
-            <item xml:id="i-PmyDDN5ocfk5Rdusa2Wjk3" who="i-QQYotqFjTJA7EiQZc1Wmzs" type="signature">
-              Emma Carlsson Löfdahl (L)
-            </item>
-            <item xml:id="i-XMgRac3PaUrtgfubbbdNCD" who="i-HPYYRQv4ch2ZKcsG9Poys5" type="signature">
-              Maria Weimer (L)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-EdfBZUp6egJNQeoQddBatJ">
+            <list xml:id="i-uNvEUvj7ind7KM6qFpiRf">
+              <item xml:id="i-LJhbSVevxsCswi3hzfa5Sx" who="i-VBA6eUH2CpmPZFgqzCpt9N" type="signature">
+                Mats Persson (L)
+              </item>
+              <item xml:id="i-2AxAmdrgXTJt5veKdjDbSb" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
+                Christer Nylander (L)
+              </item>
+              <item xml:id="i-DFtUDfFQF9LXYsDavjNUNX" who="i-S7wLw9aynA5vbRCsqxxL3N" type="signature">
+                Tina Acketoft (L)
+              </item>
+              <item xml:id="i-PmyDDN5ocfk5Rdusa2Wjk3" who="i-QQYotqFjTJA7EiQZc1Wmzs" type="signature">
+                Emma Carlsson Löfdahl (L)
+              </item>
+              <item xml:id="i-XMgRac3PaUrtgfubbbdNCD" who="i-HPYYRQv4ch2ZKcsG9Poys5" type="signature">
+                Maria Weimer (L)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

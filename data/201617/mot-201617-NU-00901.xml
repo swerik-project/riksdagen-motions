@@ -14,7 +14,9 @@
           <title>Motion 2016/17:901 av Lena Hallengren m.fl. (S)</title>
           <idno type="rdwebb">H402901</idno>
           <rs type="number">901</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H402901/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H402901</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H402901</ref>
@@ -109,8 +111,10 @@
     <body>
       <div xml:id="i-YJMe9Jj1bsxm7CGfzbuKwZ" type="motHeader">
         <div xml:id="i-KtYZFxvx5pCS5vpE2UNBmP" type="motTitle">
-          Motion till riksdagen 2016/17:901 av Lena Hallengren m.fl. (S)
-          Lokalisering av statlig verksamhet till Kalmar län
+          <head xml:id="i-Jrr9GxVv5AY9poJetRP8UW">
+            Motion till riksdagen 2016/17:901 av Lena Hallengren m.fl. (S)
+            Lokalisering av statlig verksamhet till Kalmar län
+          </head>
         </div>
       </div>
       <div xml:id="i-MBV2PdMsXmZS7ENMmDQcr3" type="motBody">
@@ -119,7 +123,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-QrpErB5d78xsEonK4VUQEd">
-            <item xml:id="i-YJy9LFXNTHeqm9pG1LMicN" sortKey="Yrkande 1">
+            <item xml:id="i-YJy9LFXNTHeqm9pG1LMicN" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om lokalisering
               av statlig verksamhet till Kalmar län och tillkännager detta för
               regeringen.
@@ -155,19 +159,19 @@
             att fortsätta pröva lokalisering av statlig verksamhet till Kalmar
             län i första hand.
           </p>
-        </div>
-        <div xml:id="i-5ke2B3v2UfbeR12KhFdG4J" type="signatureBlock">
-          <list xml:id="i-ERbXXtfmGnPbpZ8TFVyuZU">
-            <item xml:id="i-WRhGiKBNHHeMcn6g8sPkfY" who="i-HxcQkHC9fDSzkJWgvdhDEF" type="signature">
-              Lena Hallengren (S)
-            </item>
-            <item xml:id="i-VfuByUQRq4T4GQGTEqtz59" who="i-122QwSSpyGJQiTJjmrUJCM" type="signature">
-              Krister Örnfjäder (S)
-            </item>
-            <item xml:id="i-RB3WfgjGn7qYipJ2cd9o1H" who="i-K9qLrytov5JcoAS1u8SHMm" type="signature">
-              Laila Naraghi (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-5ke2B3v2UfbeR12KhFdG4J">
+            <list xml:id="i-ERbXXtfmGnPbpZ8TFVyuZU">
+              <item xml:id="i-WRhGiKBNHHeMcn6g8sPkfY" who="i-HxcQkHC9fDSzkJWgvdhDEF" type="signature">
+                Lena Hallengren (S)
+              </item>
+              <item xml:id="i-VfuByUQRq4T4GQGTEqtz59" who="i-122QwSSpyGJQiTJjmrUJCM" type="signature">
+                Krister Örnfjäder (S)
+              </item>
+              <item xml:id="i-RB3WfgjGn7qYipJ2cd9o1H" who="i-K9qLrytov5JcoAS1u8SHMm" type="signature">
+                Laila Naraghi (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

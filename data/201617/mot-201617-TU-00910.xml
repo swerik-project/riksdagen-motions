@@ -14,7 +14,9 @@
           <title>Motion 2016/17:910 av Hanna Westerén och Laila Naraghi (båda S)</title>
           <idno type="rdwebb">H402910</idno>
           <rs type="number">910</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H402910/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H402910</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H402910</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-VzxwoSbF3a1kgPDB9QVp3E" type="motHeader">
         <div xml:id="i-EBZ6rN3FJsVCrYhJVrsUHs" type="motTitle">
-          Motion till riksdagen 2016/17:910 av Hanna Westerén och Laila
-          Naraghi (båda S) Färjetrafiken till Gotland en del av svensk infrastruktur
+          <head xml:id="i-UozNwMStjBwdM3yKq6A9aQ">
+            Motion till riksdagen 2016/17:910 av Hanna Westerén och Laila
+            Naraghi (båda S) Färjetrafiken till Gotland en del av svensk infrastruktur
+          </head>
         </div>
       </div>
       <div xml:id="i-JJHBaEEDs3bQTvAvDuU5gy" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-EY91ivuEzBFEDYeWdGSTn2">
-            <item xml:id="i-YcS5LtqHx76V7CDw2UVJoz" sortKey="Yrkande 1">
+            <item xml:id="i-YcS5LtqHx76V7CDw2UVJoz" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               Gotlandstrafiken behandlas i linje med övriga insatser för att
               stärka Sveriges infrastruktur och tillkännager detta för regeringen.
@@ -170,16 +174,16 @@
             trafiksystemet, och staten bör tydliggöra sitt ansvar för att
             Gotland effektivt binds samman med resten av Sverige.
           </p>
-        </div>
-        <div xml:id="i-5pGFyQaHacsVJaa3odQhfp" type="signatureBlock">
-          <list xml:id="i-43wUUuFCmJVycKtrRMyeBZ">
-            <item xml:id="i-Q9mNJx5A81A6MhSUrfx7Jm" who="i-38jBhirK3Q2WpsVMafAn24" type="signature">
-              Hanna Westerén (S)
-            </item>
-            <item xml:id="i-NV9TbXb1kwS11ostzL8M9U" who="i-K9qLrytov5JcoAS1u8SHMm" type="signature">
-              Laila Naraghi (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-5pGFyQaHacsVJaa3odQhfp">
+            <list xml:id="i-43wUUuFCmJVycKtrRMyeBZ">
+              <item xml:id="i-Q9mNJx5A81A6MhSUrfx7Jm" who="i-38jBhirK3Q2WpsVMafAn24" type="signature">
+                Hanna Westerén (S)
+              </item>
+              <item xml:id="i-NV9TbXb1kwS11ostzL8M9U" who="i-K9qLrytov5JcoAS1u8SHMm" type="signature">
+                Laila Naraghi (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2021/22:3958 av Arman Teimouri m.fl. (L)</title>
           <idno type="rdwebb">H9023958</idno>
           <rs type="number">3958</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H9023958/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H9023958</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H9023958</ref>
@@ -138,8 +140,10 @@
     <body>
       <div xml:id="i-QR8YFcHxQAEWpJJL5XZh13" type="motHeader">
         <div xml:id="i-UfKnVSh73RB17rkSnCEtSQ" type="motTitle">
-          Motion till riksdagen 2021/22:3958 av Arman Teimouri m.fl. (L)
-          Utgiftsområde 21 Energi
+          <head xml:id="i-5WZRtD8ZLWdXTCiNaBuPwp">
+            Motion till riksdagen 2021/22:3958 av Arman Teimouri m.fl. (L)
+            Utgiftsområde 21 Energi
+          </head>
         </div>
       </div>
       <div xml:id="i-2GauGEFmoxUji5gSWLex22" type="motBody">
@@ -148,7 +152,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-Kscu9R4GVV7inAexJVyAGS">
-            <item xml:id="i-XbsoHMJ7JnfJDrjdH89Pix" sortKey="Yrkande 1">
+            <item xml:id="i-XbsoHMJ7JnfJDrjdH89Pix" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2022 inom utgiftsområde 21 Energi
               enligt förslaget i tabell 1 i motionen.
             </item>
@@ -435,36 +439,35 @@
                 155 800
               </cell>
             </row>
-            <row xml:id="i-M2zCqY97nqCvduTve7qz87"/>
           </table>
-        </div>
-        <div xml:id="i-LN4Vb8bt5BYFLMfkLYTh3L" type="signatureBlock">
-          <list xml:id="i-WdJXrPMey6NN6CAK3dBZvD">
-            <item xml:id="i-4kXQCtdwsKgep4J1oErQYa" who="i-UnndbLk6GXZcFynD83SqCk" type="signature">
-              Arman Teimouri (L)
-            </item>
-            <item xml:id="i-SZXtSkCQf19CFYzAYAHYY6" who="i-PyYxwdbw2KYpXyCWKWHmmT" type="signature">
-              Johan Pehrson (L)
-            </item>
-            <item xml:id="i-6SNMKMJ2258DGiYFvNPz7T" who="unknown" type="signature">
-              Maria Nilsson (L)
-            </item>
-            <item xml:id="i-Gs1ZAqawG5ye7a6tWFX7xD" who="i-HzxR5drvvumXGW3Fi7DiXX" type="signature">
-              Lina Nordquist (L)
-            </item>
-            <item xml:id="i-PmEYZg9RKD8vH4DsMHvoQm" who="i-UJJVMVCt6SsjV39Hi1tTYi" type="signature">
-              Gulan Avci (L)
-            </item>
-            <item xml:id="i-PWjHXxhf3V4atQJMKmfMn4" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
-              Christer Nylander (L)
-            </item>
-            <item xml:id="i-2vd9EtVXKo6vLGp4sk2vWG" who="i-VBA6eUH2CpmPZFgqzCpt9N" type="signature">
-              Mats Persson (L)
-            </item>
-            <item xml:id="i-EbFA6yU7yrW1QEkqTGJpbM" who="i-BUYvEhrSc9gnHcd6iS4eDJ" type="signature">
-              Allan Widman (L)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-LN4Vb8bt5BYFLMfkLYTh3L">
+            <list xml:id="i-WdJXrPMey6NN6CAK3dBZvD">
+              <item xml:id="i-4kXQCtdwsKgep4J1oErQYa" who="i-UnndbLk6GXZcFynD83SqCk" type="signature">
+                Arman Teimouri (L)
+              </item>
+              <item xml:id="i-SZXtSkCQf19CFYzAYAHYY6" who="i-PyYxwdbw2KYpXyCWKWHmmT" type="signature">
+                Johan Pehrson (L)
+              </item>
+              <item xml:id="i-6SNMKMJ2258DGiYFvNPz7T" who="unknown" type="signature">
+                Maria Nilsson (L)
+              </item>
+              <item xml:id="i-Gs1ZAqawG5ye7a6tWFX7xD" who="i-HzxR5drvvumXGW3Fi7DiXX" type="signature">
+                Lina Nordquist (L)
+              </item>
+              <item xml:id="i-PmEYZg9RKD8vH4DsMHvoQm" who="i-UJJVMVCt6SsjV39Hi1tTYi" type="signature">
+                Gulan Avci (L)
+              </item>
+              <item xml:id="i-PWjHXxhf3V4atQJMKmfMn4" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
+                Christer Nylander (L)
+              </item>
+              <item xml:id="i-2vd9EtVXKo6vLGp4sk2vWG" who="i-VBA6eUH2CpmPZFgqzCpt9N" type="signature">
+                Mats Persson (L)
+              </item>
+              <item xml:id="i-EbFA6yU7yrW1QEkqTGJpbM" who="i-BUYvEhrSc9gnHcd6iS4eDJ" type="signature">
+                Allan Widman (L)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2021/22:4146 av Kerstin Lundgren m.fl. (C)</title>
           <idno type="rdwebb">H9024146</idno>
           <rs type="number">4146</rs>
-          <orgName type="comitteeAbbreviation">UU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>UU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H9024146/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H9024146</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H9024146</ref>
@@ -114,8 +116,10 @@
     <body>
       <div xml:id="i-QAzYHBo7qZyuNqkXtmiEBS" type="motHeader">
         <div xml:id="i-WcmjYEi6AZAm7zpa9m9hRG" type="motTitle">
-          Motion till riksdagen 2021/22:4146 av Kerstin Lundgren m.fl.
-          (C) Utgiftsområde 7 Internationellt bistånd
+          <head xml:id="i-2oJdCkBnCLUidi8DY4oytP">
+            Motion till riksdagen 2021/22:4146 av Kerstin Lundgren m.fl.
+            (C) Utgiftsområde 7 Internationellt bistånd
+          </head>
         </div>
       </div>
       <div xml:id="i-SyoHoE83aEiVDMnDnRRr8h" type="motBody">
@@ -124,7 +128,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-TsUmPjSfEJkQrafXby98PW">
-            <item xml:id="i-Mq6m3P2pPVhkcNsL8aVsqq" sortKey="Yrkande 1">
+            <item xml:id="i-Mq6m3P2pPVhkcNsL8aVsqq" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2022 inom utgiftsområde 7 Internationellt
               bistånd enligt förslaget i tabell 1 i motionen.
             </item>
@@ -170,9 +174,9 @@
             jobb, 2) Klimatomställning och grön energi samt 3) Demokrati och
             rättsstatens principer.
           </p>
-          <head xml:id="i-KNuFEZUPfsmvbDVQaVMpEb" type="h1">
+          <subhead xml:id="i-KNuFEZUPfsmvbDVQaVMpEb" type="h1">
             Förslag till anslagsfördelning
-          </head>
+          </subhead>
           <p xml:id="i-Xh4rGsD8DX4SAUrWHxR2eX">
             Tabell 1. Centerpartiets förslag till anslag för 2022 för utgiftsområde
             7 uttryckt som differens gentemot regeringens förslag, tusentals
@@ -285,7 +289,6 @@
                 ±0
               </cell>
             </row>
-            <row xml:id="i-LfuAKHSAugNhcFUsXEtqff"/>
           </table>
           <p xml:id="i-TMGhLHAESrQynXj7GJFcTf">
             Tabell 2. Centerpartiets förslag till anslag för 2022 till 2024
@@ -328,36 +331,35 @@
                 ±0
               </cell>
             </row>
-            <row xml:id="i-7Q2FpSnBb5kAodGeREyeZf"/>
           </table>
-          <head xml:id="i-9C9EorbZoznVma1qf3Eb4c" type="h1">
+          <subhead xml:id="i-9C9EorbZoznVma1qf3Eb4c" type="h1">
             Centerpartiets överväganden
-          </head>
+          </subhead>
           <p xml:id="i-47V4CWz6K36NZreWyTtwBP">
             Centerpartiet har inga förslag till förändringar vad gäller anslagsnivåer.
             Centerpartiet har dock mycket starka uppfattningar om hur dessa
             medel bör användas. Förutom vad som nämns ovan hänvisas till Centerpartiets
             övriga motioner på temat.
           </p>
-        </div>
-        <div xml:id="i-8CPmSDU2aFop7obxSuN2Dw" type="signatureBlock">
-          <list xml:id="i-LM5SAfzMxrWGRNQuycPuqu">
-            <item xml:id="i-C2AXyzyaCLJSRzbvBdQ9vG" who="i-H7qdW9GRQn7LaQ2UGGAvYC" type="signature">
-              Kerstin Lundgren (C)
-            </item>
-            <item xml:id="i-69QVuxytv96UrAeCqb8GaP" who="i-QHgv5iNVwgGKJgHaJMZ8sM" type="signature">
-              Magnus Ek (C)
-            </item>
-            <item xml:id="i-4FzRFJXctxxruVU1NKeh22" who="i-A1NGMRYUqzQ6yvBRZ8XqFg" type="signature">
-              Linda Modig (C)
-            </item>
-            <item xml:id="i-2ChB8gfnGo2vtncLPmx34G" who="i-DWgcUDJTHbEcGKZqHxJj8C" type="signature">
-              Lars Thomsson (C)
-            </item>
-            <item xml:id="i-Cr1qoXtGAHK2rp7ZcD5RxA" who="i-W1SpeP85RXQTDYN2miQfXU" type="signature">
-              Daniel Bäckström (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-8CPmSDU2aFop7obxSuN2Dw">
+            <list xml:id="i-LM5SAfzMxrWGRNQuycPuqu">
+              <item xml:id="i-C2AXyzyaCLJSRzbvBdQ9vG" who="i-H7qdW9GRQn7LaQ2UGGAvYC" type="signature">
+                Kerstin Lundgren (C)
+              </item>
+              <item xml:id="i-69QVuxytv96UrAeCqb8GaP" who="i-QHgv5iNVwgGKJgHaJMZ8sM" type="signature">
+                Magnus Ek (C)
+              </item>
+              <item xml:id="i-4FzRFJXctxxruVU1NKeh22" who="i-A1NGMRYUqzQ6yvBRZ8XqFg" type="signature">
+                Linda Modig (C)
+              </item>
+              <item xml:id="i-2ChB8gfnGo2vtncLPmx34G" who="i-DWgcUDJTHbEcGKZqHxJj8C" type="signature">
+                Lars Thomsson (C)
+              </item>
+              <item xml:id="i-Cr1qoXtGAHK2rp7ZcD5RxA" who="i-W1SpeP85RXQTDYN2miQfXU" type="signature">
+                Daniel Bäckström (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

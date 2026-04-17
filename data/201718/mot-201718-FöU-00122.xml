@@ -14,7 +14,9 @@
           <title>Motion 2017/18:122 av Allan Widman (L)</title>
           <idno type="rdwebb">H502122</idno>
           <rs type="number">122</rs>
-          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FöU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H502122/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H502122</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H502122</ref>
@@ -93,8 +95,10 @@
     <body>
       <div xml:id="i-KDi28HwcKzRjAe9gnRZNdN" type="motHeader">
         <div xml:id="i-FriEm4Z4LzaR7iwjxhPpVu" type="motTitle">
-          Motion till riksdagen 2017/18:122 av Allan Widman (L) Medalj
-          för särskilt berömvärda internationella insatser
+          <head xml:id="i-3LgLHWjT4nGgz7mHRgLvqz">
+            Motion till riksdagen 2017/18:122 av Allan Widman (L) Medalj
+            för särskilt berömvärda internationella insatser
+          </head>
         </div>
       </div>
       <div xml:id="i-BudTYQ9pzatpij1WLFjmKv" type="motBody">
@@ -103,7 +107,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-LpX3p7FKZBE3UvLbbx7ZFs">
-            <item xml:id="i-Vs3XXjRsweWxzFkccfQVNJ" sortKey="Yrkande 1">
+            <item xml:id="i-Vs3XXjRsweWxzFkccfQVNJ" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om instiftande
               av en medalj för särskilt berömvärda internationella insatser
               och tillkännager detta för regeringen.
@@ -165,16 +169,16 @@
             Personerna kan t.ex. som tjänstlediga ha arbetat för en internationell
             organisation eller ett annat
           </p>
-          <head xml:id="i-K18xvc7m9b1fpwx5h8k1SN" type="h1">
+          <subhead xml:id="i-K18xvc7m9b1fpwx5h8k1SN" type="h1">
             land.
-          </head>
-        </div>
-        <div xml:id="i-49nApJqQnxtcD3597rEZUW" type="signatureBlock">
-          <list xml:id="i-CLK64UrsZGtPSAg95RWKiy">
-            <item xml:id="i-Jcti93xnDPgyKDLxJnNZdK" who="i-BUYvEhrSc9gnHcd6iS4eDJ" type="signature">
-              Allan Widman (L)
-            </item>
-          </list>
+          </subhead>
+          <signatureBlock xml:id="i-49nApJqQnxtcD3597rEZUW">
+            <list xml:id="i-CLK64UrsZGtPSAg95RWKiy">
+              <item xml:id="i-Jcti93xnDPgyKDLxJnNZdK" who="i-BUYvEhrSc9gnHcd6iS4eDJ" type="signature">
+                Allan Widman (L)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2022/23:2258 av Camilla Hansén m.fl. (MP)</title>
           <idno type="rdwebb">HA022258</idno>
           <rs type="number">2258</rs>
-          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>UbU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HA022258/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HA022258</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HA022258</ref>
@@ -122,8 +124,10 @@
     <body>
       <div xml:id="i-RpRbdL9cp3EDvD3jz3SiMk" type="motHeader">
         <div xml:id="i-34wEK2stxF57QW8wKm5YT2" type="motTitle">
-          Motion till riksdagen 2022/23:2258 av Camilla Hansén m.fl. (MP)
-          Utgiftsområde 15 Studiestöd
+          <head xml:id="i-QaUX6zUAQUhLa5QmHxsWkY">
+            Motion till riksdagen 2022/23:2258 av Camilla Hansén m.fl. (MP)
+            Utgiftsområde 15 Studiestöd
+          </head>
         </div>
       </div>
       <div xml:id="i-Tcu7iDEzxfp7qw76PBajRz" type="motBody">
@@ -132,7 +136,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-HtUpaBVS6fkCfC2CbNKbqy">
-            <item xml:id="i-H8SnfJRV7d32x7dbaYidQE" sortKey="Yrkande 1">
+            <item xml:id="i-H8SnfJRV7d32x7dbaYidQE" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2023 inom utgiftsområde 15 Studiestöd
               enligt förslaget i tabell A i motionen.
             </item>
@@ -166,9 +170,9 @@
             och singelstudenthushåll tillhör den grupp som drabbas värst av
             den höga inflationen.
           </p>
-          <head xml:id="i-BNn5iJDPPFYt8roYRCqoLs" type="h1">
+          <subhead xml:id="i-BNn5iJDPPFYt8roYRCqoLs" type="h1">
             Livslångt lärande
-          </head>
+          </subhead>
           <p xml:id="i-UKaVHrKKknye6t11jkyjei">
             En arbetsmarknad i förändring kräver en utbildnings- och arbetsmarknadspolitik
             som ger människor goda möjligheter att välja en ny väg i karriären
@@ -336,28 +340,28 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-LyyhDdm2eRxdCxZzJhPbGQ" type="signatureBlock">
-          <list xml:id="i-Q5bC7LEPaBCaPgqXnsn2H8">
-            <item xml:id="i-2CZDYGje9P4JJXhYj6pyLE" who="i-9Hwwz2RnQnrJTjSv8uVmaM" type="signature">
-              Camilla Hansén (MP)
-            </item>
-            <item xml:id="i-EFzbHvoR7yKck3zN7apvj4" who="i-PAgTpr3nkZRPEoiqjPKQAf" type="signature">
-              Amanda Lind (MP)
-            </item>
-            <item xml:id="i-P4wcozgry6K8b3dRZ4Ve6K" who="i-Perad9eGoCowJz44FjB2ei" type="signature">
-              Bassem Nasr (MP)
-            </item>
-            <item xml:id="i-Wm9iUPhXiRuCmCTaXpdn25" who="i-9fsFw1TuALNQWZGH3AZGpj" type="signature">
-              Jan Riise (MP)
-            </item>
-            <item xml:id="i-SbYxZXcBGbQicUBtBbTZ2N" who="i-XYorBBswJHmzvkzAvCFPDM" type="signature">
-              Ulrika Westerlund (MP)
-            </item>
-            <item xml:id="i-EGU2ZBDejrZY3UVrKsrgYU" who="i-X9jqcGenibr5tWEbnZgddm" type="signature">
-              Annika Hirvonen (MP)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-LyyhDdm2eRxdCxZzJhPbGQ">
+            <list xml:id="i-Q5bC7LEPaBCaPgqXnsn2H8">
+              <item xml:id="i-2CZDYGje9P4JJXhYj6pyLE" who="i-9Hwwz2RnQnrJTjSv8uVmaM" type="signature">
+                Camilla Hansén (MP)
+              </item>
+              <item xml:id="i-EFzbHvoR7yKck3zN7apvj4" who="i-PAgTpr3nkZRPEoiqjPKQAf" type="signature">
+                Amanda Lind (MP)
+              </item>
+              <item xml:id="i-P4wcozgry6K8b3dRZ4Ve6K" who="i-Perad9eGoCowJz44FjB2ei" type="signature">
+                Bassem Nasr (MP)
+              </item>
+              <item xml:id="i-Wm9iUPhXiRuCmCTaXpdn25" who="i-9fsFw1TuALNQWZGH3AZGpj" type="signature">
+                Jan Riise (MP)
+              </item>
+              <item xml:id="i-SbYxZXcBGbQicUBtBbTZ2N" who="i-XYorBBswJHmzvkzAvCFPDM" type="signature">
+                Ulrika Westerlund (MP)
+              </item>
+              <item xml:id="i-EGU2ZBDejrZY3UVrKsrgYU" who="i-X9jqcGenibr5tWEbnZgddm" type="signature">
+                Annika Hirvonen (MP)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

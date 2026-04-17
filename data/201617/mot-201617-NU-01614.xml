@@ -14,7 +14,9 @@
           <title>Motion 2016/17:1614 av Eva-Lena Jansson m.fl. (S)</title>
           <idno type="rdwebb">H4021614</idno>
           <rs type="number">1614</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4021614/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4021614</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4021614</ref>
@@ -117,8 +119,10 @@
     <body>
       <div xml:id="i-2Qur8dzmrygdTzAeqPhEfV" type="motHeader">
         <div xml:id="i-2aPAheMdFqNo9j9MbiUQ65" type="motTitle">
-          Motion till riksdagen 2016/17:1614 av Eva-Lena Jansson m.fl.
-          (S) Statlig närvaro i hela landet
+          <head xml:id="i-2qdi65K7ezwkiueKGvcc22">
+            Motion till riksdagen 2016/17:1614 av Eva-Lena Jansson m.fl.
+            (S) Statlig närvaro i hela landet
+          </head>
         </div>
       </div>
       <div xml:id="i-YNLQ2chfA3AYJqvjJzgvM4" type="motBody">
@@ -127,7 +131,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-UQ9M3ygzzdHcqFoMi7irrX">
-            <item xml:id="i-77ECm2dNYEcJgsXejCuWGH" sortKey="Yrkande 1">
+            <item xml:id="i-77ECm2dNYEcJgsXejCuWGH" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               myndigheters och annan statlig verksamhets närvaro i hela landet
               bör öka och tillkännager detta för regeringen.
@@ -155,9 +159,9 @@
             öka den statliga närvaron i hela landet men betydelsen av det
             kan inte nog betonas.
           </p>
-          <head xml:id="i-JJv8TGRMZt7kVuCQyRpbtF" type="h2">
+          <subhead xml:id="i-JJv8TGRMZt7kVuCQyRpbtF" type="h2">
             Myndigheters placering utanför Stockholm
-          </head>
+          </subhead>
           <p xml:id="i-LLgUhjVHJHkrqVQ9gpdgYZ">
             Att placera huvudkontor för myndigheter runt om i Sverige ger
             ett välkommet tillskott till lokala arbetsmarknader, inte minst
@@ -178,22 +182,22 @@
             i Örebro län har arbetat med jämställdhet kontinuerligt i 20 år
             och har nationellt samordningsansvar för föräldraskapsstöd.
           </p>
-        </div>
-        <div xml:id="i-Phivgxs4oq7NZEjTwFeiiq" type="signatureBlock">
-          <list xml:id="i-65FB4CxAWyMZ2RSjRhiPQv">
-            <item xml:id="i-Cu8VEJpsbk74rrWwjnxY1R" who="i-HA8qZKZU3je8nF69VtPrqk" type="signature">
-              Eva-Lena Jansson (S)
-            </item>
-            <item xml:id="i-AcettxNYbd4aGvmbm5NggS" who="i-PMx51X9QbaLUMtQNq6sVfz" type="signature">
-              Matilda Ernkrans (S)
-            </item>
-            <item xml:id="i-KpWDQeyw5B79r7G537n1P8" who="i-N5iuULmv8oTkuJcr1C9SFD" type="signature">
-              Håkan Bergman (S)
-            </item>
-            <item xml:id="i-7u3ePETZybbHRyNRy9evDV" who="i-2Bind9dyirGQ1UMwS9XjsT" type="signature">
-              Lennart Axelsson (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-Phivgxs4oq7NZEjTwFeiiq">
+            <list xml:id="i-65FB4CxAWyMZ2RSjRhiPQv">
+              <item xml:id="i-Cu8VEJpsbk74rrWwjnxY1R" who="i-HA8qZKZU3je8nF69VtPrqk" type="signature">
+                Eva-Lena Jansson (S)
+              </item>
+              <item xml:id="i-AcettxNYbd4aGvmbm5NggS" who="i-PMx51X9QbaLUMtQNq6sVfz" type="signature">
+                Matilda Ernkrans (S)
+              </item>
+              <item xml:id="i-KpWDQeyw5B79r7G537n1P8" who="i-N5iuULmv8oTkuJcr1C9SFD" type="signature">
+                Håkan Bergman (S)
+              </item>
+              <item xml:id="i-7u3ePETZybbHRyNRy9evDV" who="i-2Bind9dyirGQ1UMwS9XjsT" type="signature">
+                Lennart Axelsson (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

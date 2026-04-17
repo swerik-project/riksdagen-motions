@@ -14,7 +14,9 @@
           <title>Motion 2018/19:2195 av Marianne Pettersson och Per-Arne Håkansson (båda S)</title>
           <idno type="rdwebb">H6022195</idno>
           <rs type="number">2195</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H6022195/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H6022195</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H6022195</ref>
@@ -90,9 +92,11 @@
     <body>
       <div xml:id="i-3Lp5kJWZrEk4pPN4fSNkv1" type="motHeader">
         <div xml:id="i-Egqz5CAqadqx2VBKsMhVYM" type="motTitle">
-          Motion till riksdagen 2018/19:2195 av Marianne Pettersson och
-          Per-Arne Håkansson (båda S) Statliga insatser för infrastruktur
-          kring hamnar av nationellt intresse
+          <head xml:id="i-83f6tCoBSsZqgKiBPFL584">
+            Motion till riksdagen 2018/19:2195 av Marianne Pettersson och
+            Per-Arne Håkansson (båda S) Statliga insatser för infrastruktur
+            kring hamnar av nationellt intresse
+          </head>
         </div>
       </div>
       <div xml:id="i-SP4Dpn9PnRvhMhUGNLRofB" type="motBody">
@@ -101,7 +105,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-5AWPPjWyXTxX9YfsrZbxQy">
-            <item xml:id="i-AGxf6mqDWkqRWHSc5H9JMS" sortKey="Yrkande 1">
+            <item xml:id="i-AGxf6mqDWkqRWHSc5H9JMS" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om statens
               ansvar för funktioner som är av stor betydelse för Sverige som
               nation, och detta tillkännager riksdagen för regeringen.
@@ -112,10 +116,10 @@
           <head xml:id="i-BAhhYLnTU3rijvmCHwg4XB" type="h1">
             Motivering
           </head>
-          <head xml:id="i-4TotVFf2KQKyJuHRHhrsxB" type="h1">
+          <subhead xml:id="i-4TotVFf2KQKyJuHRHhrsxB" type="h1">
             Svensk sjöfart spelar en viktig roll för tillväxt och utveckling
             i hela landet.
-          </head>
+          </subhead>
           <p xml:id="i-99ZPnaLwUNVPRP83dFpXY5">
             En avgörande förutsättning är en väl utvecklad infrastruktur
             kring de fem hamnarna av stort nationellt intresse.
@@ -171,16 +175,16 @@
             ta ett större ansvar och stödja kommuner som genomför funktioner
             som är av stor betydelse för Sverige som nation.
           </p>
-        </div>
-        <div xml:id="i-HKcTH4tTL2ZsTgB7cfXque" type="signatureBlock">
-          <list xml:id="i-79Hor15vC3yp9Ge1zioHHk">
-            <item xml:id="i-PBiEjeB77CJWJS1Q3mvcH4" who="i-TJUAnvTvoNJL7Xs36mcHa" type="signature">
-              Marianne Pettersson (S)
-            </item>
-            <item xml:id="i-BswA1akGemS5cA3r8vX8K1" who="i-DfMBmwjfAwnb2JfXgJ9isk" type="signature">
-              Per-Arne Håkansson (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-HKcTH4tTL2ZsTgB7cfXque">
+            <list xml:id="i-79Hor15vC3yp9Ge1zioHHk">
+              <item xml:id="i-PBiEjeB77CJWJS1Q3mvcH4" who="i-TJUAnvTvoNJL7Xs36mcHa" type="signature">
+                Marianne Pettersson (S)
+              </item>
+              <item xml:id="i-BswA1akGemS5cA3r8vX8K1" who="i-DfMBmwjfAwnb2JfXgJ9isk" type="signature">
+                Per-Arne Håkansson (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

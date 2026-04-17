@@ -14,7 +14,9 @@
           <title>Motion 2021/22:123 av Ann-Sofie Lifvenhage (M)</title>
           <idno type="rdwebb">H902123</idno>
           <rs type="number">123</rs>
-          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FiU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H902123/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H902123</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H902123</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-Wg7VsGV6uZ8XvGwpDKywuC" type="motHeader">
         <div xml:id="i-S2U2CFUHBt3J2vftfF2tx1" type="motTitle">
-          Motion till riksdagen 2021/22:123 av Ann-Sofie Lifvenhage (M)
-          Digitalisera Myndighetssverige
+          <head xml:id="i-WVRYjJLxrrTAha959LCR98">
+            Motion till riksdagen 2021/22:123 av Ann-Sofie Lifvenhage (M)
+            Digitalisera Myndighetssverige
+          </head>
         </div>
       </div>
       <div xml:id="i-NBky5Y8rPSNN9Dx1ATM4gY" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-93cXPG8ojLgH9P7AF7tmgT">
-            <item xml:id="i-A581TZKewPBAFbMCJQyV2Q" sortKey="Yrkande 1">
+            <item xml:id="i-A581TZKewPBAFbMCJQyV2Q" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               släppa faxen och ställa krav på digitalisering av svenska myndigheter
               och tillkännager detta för regeringen.
@@ -119,13 +123,13 @@
             Det är hög tid att se över dessa regelverk, förenkla för kommuner
             och regioner och kräva en digitalisering värd 2020.
           </p>
-        </div>
-        <div xml:id="i-9uc9NAEAjh6taxozKvsjYP" type="signatureBlock">
-          <list xml:id="i-YFjF4SDVDDXmCL5huxi4fU">
-            <item xml:id="i-XWp6EFtRFzwyJMNpUCvk9B" who="i-JQCU38kBabAgvaTVEnxBqL" type="signature">
-              Ann-Sofie Lifvenhage (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-9uc9NAEAjh6taxozKvsjYP">
+            <list xml:id="i-YFjF4SDVDDXmCL5huxi4fU">
+              <item xml:id="i-XWp6EFtRFzwyJMNpUCvk9B" who="i-JQCU38kBabAgvaTVEnxBqL" type="signature">
+                Ann-Sofie Lifvenhage (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

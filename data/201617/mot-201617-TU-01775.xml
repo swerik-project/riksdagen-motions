@@ -14,7 +14,9 @@
           <title>Motion 2016/17:1775 av Birgitta Ohlsson (L)</title>
           <idno type="rdwebb">H4021775</idno>
           <rs type="number">1775</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4021775/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4021775</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4021775</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-A9RdAFVr8Dyf6xBg78QZws" type="motHeader">
         <div xml:id="i-54poAfPYUCPjXMQmyqMBen" type="motTitle">
-          Motion till riksdagen 2016/17:1775 av Birgitta Ohlsson (L) Namnändring
-          av Arlanda Airport till Raoul Wallenberg Airport
+          <head xml:id="i-T4FL12wUpeLrRP2uwpZ3rW">
+            Motion till riksdagen 2016/17:1775 av Birgitta Ohlsson (L) Namnändring
+            av Arlanda Airport till Raoul Wallenberg Airport
+          </head>
         </div>
       </div>
       <div xml:id="i-GyFsRqPPaULBMSJVSiKGsb" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-82fN8GjxRFSiuFBR4z5wQV">
-            <item xml:id="i-PyjeyK2n1TMFzfR9jsHBYQ" sortKey="Yrkande 1">
+            <item xml:id="i-PyjeyK2n1TMFzfR9jsHBYQ" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               ändra namnet på Arlanda Airport till Raoul Wallenberg Airport
               och tillkännager detta för regeringen.
@@ -159,13 +163,13 @@
             Raoul Wallenbergs namn. Detta skulle vara en global symbol för
             en av de största hjältarna i svensk historia.
           </p>
-        </div>
-        <div xml:id="i-Rzt5KRDzC9ha6fu26UJ9pC" type="signatureBlock">
-          <list xml:id="i-3F7vaDgEzVRsPPimQeM3MM">
-            <item xml:id="i-GUxRjybBDLbqTkYdzzYqjE" who="i-D8B2Xf6UADbqciPHrqFxSc" type="signature">
-              Birgitta Ohlsson (L)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-Rzt5KRDzC9ha6fu26UJ9pC">
+            <list xml:id="i-3F7vaDgEzVRsPPimQeM3MM">
+              <item xml:id="i-GUxRjybBDLbqTkYdzzYqjE" who="i-D8B2Xf6UADbqciPHrqFxSc" type="signature">
+                Birgitta Ohlsson (L)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2023/24:1344 av Peder Björk och Anna-Belle Strömberg (båda S)</title>
           <idno type="rdwebb">HB021344</idno>
           <rs type="number">1344</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HB021344/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HB021344</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HB021344</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-Eb3USJZCxJKFo54TeWHV3" type="motHeader">
         <div xml:id="i-Jtg9vA4A7XDAxTPEZttoEp" type="motTitle">
-          Motion till riksdagen 2023/24:1344 av Peder Björk och Anna-Belle
-          Strömberg (båda S) Nya Ostkustbanan och gröna industrisatsningar
+          <head xml:id="i-BLWsqq2YxNU71TzkxHsPfj">
+            Motion till riksdagen 2023/24:1344 av Peder Björk och Anna-Belle
+            Strömberg (båda S) Nya Ostkustbanan och gröna industrisatsningar
+          </head>
         </div>
       </div>
       <div xml:id="i-KALHhNXeW4m1BZm6M27cqG" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-Xy7hfUepnSqmNpJbLewtr8">
-            <item xml:id="i-LMXBBNNxhwJvdfJBif2SKm" sortKey="Yrkande 1">
+            <item xml:id="i-LMXBBNNxhwJvdfJBif2SKm" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               i infrastrukturplaneringen studera förutsättningarna för en snabbare
               utbyggnad av Nya Ostkustbanan så att utvecklingsmöjligheter säkerställs
@@ -172,16 +176,16 @@
             helt enkelt till ökad tillväxt och en hållbar utveckling för hela
             Sverige.
           </p>
-        </div>
-        <div xml:id="i-Af7gpmXT3wzdwnD9V3mqBP" type="signatureBlock">
-          <list xml:id="i-LtBcgXCJTapsEGJGW2uJuC">
-            <item xml:id="i-EvFEEcNmYEmyGrpmAK6Hh5" who="i-Xuj1vM6ABWqwaf2n7VoBVD" type="signature">
-              Peder Björk (S)
-            </item>
-            <item xml:id="i-5QP7xb87zbFiAYdedAFiLf" who="i-6QRZCXV1gpE5LaD6mKZ5GR" type="signature">
-              Anna-Belle Strömberg (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-Af7gpmXT3wzdwnD9V3mqBP">
+            <list xml:id="i-LtBcgXCJTapsEGJGW2uJuC">
+              <item xml:id="i-EvFEEcNmYEmyGrpmAK6Hh5" who="i-Xuj1vM6ABWqwaf2n7VoBVD" type="signature">
+                Peder Björk (S)
+              </item>
+              <item xml:id="i-5QP7xb87zbFiAYdedAFiLf" who="i-6QRZCXV1gpE5LaD6mKZ5GR" type="signature">
+                Anna-Belle Strömberg (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

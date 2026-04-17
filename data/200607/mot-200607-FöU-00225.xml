@@ -14,7 +14,9 @@
           <title>Skogsbrandflyg</title>
           <idno type="rdwebb">GU02Fö225</idno>
           <rs type="number">Fö225</rs>
-          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FöU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02Fö225/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02Fö225</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02Fö225</ref>
@@ -90,9 +92,9 @@
           <head xml:id="i-GNCexq6udZs677fXSktKhx" type="h1">
             Skogsbrandflyg
           </head>
-          <head xml:id="i-2Mii5o47jjFf29pvVaS7eE" type="h1">
+          <subhead xml:id="i-2Mii5o47jjFf29pvVaS7eE" type="h1">
             Motivering
-          </head>
+          </subhead>
           <p xml:id="i-NagzeWXL9Z2G2ih6y17zAj">
             Skogen är en oerhört viktig näring för Sverige. Den svarar för
             ca 20 % av landets export och är därmed Sveriges största nettoexportör.
@@ -144,16 +146,16 @@
             Därför anser vi att Räddningsverket återigen bör få i uppdrag
             att ta ansvar för ett nationellt skogsbrandflyg.
           </p>
-        </div>
-        <div xml:id="i-BXx3oDjRfSv6kYscQkBh1E" type="signatureBlock">
-          <list xml:id="i-TifAMp3e6hEtZV5VJxazh9">
-            <item xml:id="i-AYaZiKKF8MbHo1MqEjGEMW" who="i-KktUCXax2JFL3tqFqQN9oq" type="signature">
-              Birgitta Sellén (c)
-            </item>
-            <item xml:id="i-JGejLBmDBWmySb6LodXZow" who="i-Vo3YjbvPDcwbepLXUMMiDZ" type="signature">
-              Per Åsling (c)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-BXx3oDjRfSv6kYscQkBh1E">
+            <list xml:id="i-TifAMp3e6hEtZV5VJxazh9">
+              <item xml:id="i-AYaZiKKF8MbHo1MqEjGEMW" who="i-KktUCXax2JFL3tqFqQN9oq" type="signature">
+                Birgitta Sellén (c)
+              </item>
+              <item xml:id="i-JGejLBmDBWmySb6LodXZow" who="i-Vo3YjbvPDcwbepLXUMMiDZ" type="signature">
+                Per Åsling (c)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

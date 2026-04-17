@@ -14,7 +14,9 @@
           <title>Motion 2018/19:2358 av David Lång m.fl. (SD)</title>
           <idno type="rdwebb">H6022358</idno>
           <rs type="number">2358</rs>
-          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SkU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H6022358/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H6022358</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H6022358</ref>
@@ -98,8 +100,10 @@
     <body>
       <div xml:id="i-BtLiBSHmmrYJScekuZAvFZ" type="motHeader">
         <div xml:id="i-NoGcvQpQrakJ9nwGSxndGi" type="motTitle">
-          Motion till riksdagen 2018/19:2358 av David Lång m.fl. (SD) Utgiftsområde
-          3 Skatt, tull och exekution
+          <head xml:id="i-FpPoMq9UY9rmRuzKKf6huP">
+            Motion till riksdagen 2018/19:2358 av David Lång m.fl. (SD) Utgiftsområde
+            3 Skatt, tull och exekution
+          </head>
         </div>
       </div>
       <div xml:id="i-BtNtgGWVP9yGoaZ1gM5amQ" type="motBody">
@@ -108,7 +112,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-6FXh2HWxqTdDasaX2EBR4o">
-            <item xml:id="i-SxY79vp3rebRQHLMpV83jc" sortKey="Yrkande 1">
+            <item xml:id="i-SxY79vp3rebRQHLMpV83jc" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2019 inom utgiftsområde 3 Skatt,
               tull och exekution enligt förslaget i tabell 1 i motionen.
             </item>
@@ -220,7 +224,6 @@
                 +550 000
               </cell>
             </row>
-            <row xml:id="i-XUa8QyCqCpQmfrfh6mLW85"/>
             <row xml:id="i-9kLSyHXjarJXGapLeRkCY6">
               <cell>
                 Specificering av anslagsförändringar
@@ -315,21 +318,20 @@
                 +20 000
               </cell>
             </row>
-            <row xml:id="i-JzTh7TV3oEycxzA45wqAJx"/>
           </table>
-        </div>
-        <div xml:id="i-JENB3EZs7MYn7tvCYdpAhL" type="signatureBlock">
-          <list xml:id="i-TpZ8UhefAsRGCsqzb2Sb7y">
-            <item xml:id="i-GNU4LPAYe5gySBnYmovxVr" who="i-45Ku79yUMEXGE2zwpUReMK" type="signature">
-              David Lång (SD)
-            </item>
-            <item xml:id="i-MeT3MXdW9oWAYDS4Gxeoyb" who="i-DyRx69amzrrY88Jd1Ln7EC" type="signature">
-              Bo Broman (SD)
-            </item>
-            <item xml:id="i-NXfwsXeaRvaFnFw9aDkFHq" who="i-2YMXTmw5qRAptNNy3BUrrF" type="signature">
-              Eric Westroth (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-JENB3EZs7MYn7tvCYdpAhL">
+            <list xml:id="i-TpZ8UhefAsRGCsqzb2Sb7y">
+              <item xml:id="i-GNU4LPAYe5gySBnYmovxVr" who="i-45Ku79yUMEXGE2zwpUReMK" type="signature">
+                David Lång (SD)
+              </item>
+              <item xml:id="i-MeT3MXdW9oWAYDS4Gxeoyb" who="i-DyRx69amzrrY88Jd1Ln7EC" type="signature">
+                Bo Broman (SD)
+              </item>
+              <item xml:id="i-NXfwsXeaRvaFnFw9aDkFHq" who="i-2YMXTmw5qRAptNNy3BUrrF" type="signature">
+                Eric Westroth (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

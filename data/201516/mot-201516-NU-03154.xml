@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3154 av Rickard Nordin m.fl. (C)</title>
           <idno type="rdwebb">H3023154</idno>
           <rs type="number">3154</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023154/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023154</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023154</ref>
@@ -98,8 +100,10 @@
     <body>
       <div xml:id="i-GpaKpe6mAAu16UqJAYGy4L" type="motHeader">
         <div xml:id="i-2H5nBDbYMoNbt5onoRgXjL" type="motTitle">
-          Motion till riksdagen 2015/16:3154 av Rickard Nordin m.fl. (C)
-          Utgiftsområde 21 Energi
+          <head xml:id="i-AC8D3WCxngvhXTonc1YNCQ">
+            Motion till riksdagen 2015/16:3154 av Rickard Nordin m.fl. (C)
+            Utgiftsområde 21 Energi
+          </head>
         </div>
       </div>
       <div xml:id="i-XqZVdwowGwawLD3L6ZboC5" type="motBody">
@@ -118,10 +122,10 @@
           <head xml:id="i-NrCyUzMQDEjRhz9LdjkjRC" type="h1">
             Motivering
           </head>
-          <head xml:id="i-XfCRhsaKMQjKvq9YoNzt9c" type="h3">
+          <subhead xml:id="i-XfCRhsaKMQjKvq9YoNzt9c" type="h3">
             Tabell 1. Centerpartiets förslag till anslag 2016 uttryckt som
             differens gentemot regeringens förslag
-          </head>
+          </subhead>
           <table xml:id="i-Vo5z5iUcx1oy5YWuqVSaBx">
             <row xml:id="i-RyQCk6SHeiceygrcoHKf8Y" style="label">
               <cell>
@@ -299,13 +303,12 @@
                 +322 000
               </cell>
             </row>
-            <row xml:id="i-RdYLdRQC7WpvYNMcaqTtzz"/>
           </table>
-          <head xml:id="i-GhUBNdTbad3LFArxjNvGoQ" type="h3">
+          <subhead xml:id="i-GhUBNdTbad3LFArxjNvGoQ" type="h3">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2019
             uttryckt som differens gentemot regeringens förslag (miljoner
             kronor)
-          </head>
+          </subhead>
           <table xml:id="i-8w8rjmufg4GRoVRoBNdnb6">
             <row xml:id="i-Tfa74cFKcGFUpzinqHJkUb">
               <cell>
@@ -447,19 +450,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-CYKFzEicVbrqMfZ9QQPRnp" type="signatureBlock">
-          <list xml:id="i-Dwj6gmHct2EiLMu881MJxq">
-            <item xml:id="i-Ksp31wBQtFKyqxjwaYiuzj" who="i-Qqu9byP8zwudzHA8ErxkRe" type="signature">
-              Rickard Nordin (C)
-            </item>
-            <item xml:id="i-RbXzZPZdFGJgXgnU8Jitxz" who="i-Wg4JiBuxTz9fesArDXiMko" type="signature">
-              Helena Lindahl (C)
-            </item>
-            <item xml:id="i-392zqS33ANJJN2QHw4wEtX" who="i-CUvgh8FbAS51NxDGz1KFL7" type="signature">
-              Anders Ahlgren (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-CYKFzEicVbrqMfZ9QQPRnp">
+            <list xml:id="i-Dwj6gmHct2EiLMu881MJxq">
+              <item xml:id="i-Ksp31wBQtFKyqxjwaYiuzj" who="i-Qqu9byP8zwudzHA8ErxkRe" type="signature">
+                Rickard Nordin (C)
+              </item>
+              <item xml:id="i-RbXzZPZdFGJgXgnU8Jitxz" who="i-Wg4JiBuxTz9fesArDXiMko" type="signature">
+                Helena Lindahl (C)
+              </item>
+              <item xml:id="i-392zqS33ANJJN2QHw4wEtX" who="i-CUvgh8FbAS51NxDGz1KFL7" type="signature">
+                Anders Ahlgren (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

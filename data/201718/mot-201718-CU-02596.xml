@@ -14,7 +14,9 @@
           <title>Motion 2017/18:2596 av Anna-Caren Sätherberg och Kalle Olsson (båda S)</title>
           <idno type="rdwebb">H5022596</idno>
           <rs type="number">2596</rs>
-          <orgName type="comitteeAbbreviation">CU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>CU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5022596/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5022596</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5022596</ref>
@@ -101,8 +103,10 @@
     <body>
       <div xml:id="i-ECy5K7MHUhbRXjJf3XhyDF" type="motHeader">
         <div xml:id="i-RW7BhashsFp1aZUPxyogy6" type="motTitle">
-          Motion till riksdagen 2017/18:2596 av Anna-Caren Sätherberg och
-          Kalle Olsson (båda S) Öka andelen byggande i trä
+          <head xml:id="i-Pc9DQmHaR6JRYUWJypmUCe">
+            Motion till riksdagen 2017/18:2596 av Anna-Caren Sätherberg och
+            Kalle Olsson (båda S) Öka andelen byggande i trä
+          </head>
         </div>
       </div>
       <div xml:id="i-TcE9A2qR3UZp17pJxrtAmj" type="motBody">
@@ -111,7 +115,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-MGHNWcTc4bnJJYn3cQosVD">
-            <item xml:id="i-6iXnXi74RxUMjbNNp9YZFQ" sortKey="Yrkande 1">
+            <item xml:id="i-6iXnXi74RxUMjbNNp9YZFQ" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               överväga möjligheten att öka andelen byggande i trä och tillkännager
               detta för regeringen.
@@ -164,16 +168,16 @@
             Det är hög tid att nyttja vår fantastiska resurs, skogens gröna
             guld, på bästa sätt.
           </p>
-        </div>
-        <div xml:id="i-9fdqYyT62scDZyU884bzVD" type="signatureBlock">
-          <list xml:id="i-Ekbnp9kSJV9LNAJFTRojMC">
-            <item xml:id="i-QLHsPcaQDRv86BUi7e6hgq" who="i-6eosMH8o1uMi1nCPvvh1tH" type="signature">
-              Anna-Caren Sätherberg (S)
-            </item>
-            <item xml:id="i-7wrhi2TnuPt9ckwjddutzE" who="i-3y4o8soU9qx5tQQ1cG92h3" type="signature">
-              Kalle Olsson (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-9fdqYyT62scDZyU884bzVD">
+            <list xml:id="i-Ekbnp9kSJV9LNAJFTRojMC">
+              <item xml:id="i-QLHsPcaQDRv86BUi7e6hgq" who="i-6eosMH8o1uMi1nCPvvh1tH" type="signature">
+                Anna-Caren Sätherberg (S)
+              </item>
+              <item xml:id="i-7wrhi2TnuPt9ckwjddutzE" who="i-3y4o8soU9qx5tQQ1cG92h3" type="signature">
+                Kalle Olsson (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

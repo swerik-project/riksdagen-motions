@@ -14,7 +14,9 @@
           <title>Motion 2016/17:3322 av Ulf Kristersson m.fl. (M)</title>
           <idno type="rdwebb">H4023322</idno>
           <rs type="number">3322</rs>
-          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FiU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4023322/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4023322</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4023322</ref>
@@ -146,8 +148,10 @@
     <body>
       <div xml:id="i-2gRVcEBQYrFtXSkpzZw1nR" type="motHeader">
         <div xml:id="i-Tn5J8iCBuZhC9Rv2aNbXng" type="motTitle">
-          Motion till riksdagen 2016/17:3322 av Ulf Kristersson m.fl. (M)
-          Utgiftsområde 25 Allmänna bidrag till kommuner
+          <head xml:id="i-WsFPrGsRak3EsNRVH7rTj">
+            Motion till riksdagen 2016/17:3322 av Ulf Kristersson m.fl. (M)
+            Utgiftsområde 25 Allmänna bidrag till kommuner
+          </head>
         </div>
       </div>
       <div xml:id="i-8kpedK6BTs884nAYgt2KSa" type="motBody">
@@ -276,11 +280,10 @@
                 +404 000
               </cell>
             </row>
-            <row xml:id="i-6nhipfXqM5hQjV2JsWnLYR"/>
           </table>
-          <head xml:id="i-KP9gPcL4aLxSBZZiG5kXLp" type="h1">
+          <subhead xml:id="i-KP9gPcL4aLxSBZZiG5kXLp" type="h1">
             Politikens inriktning
-          </head>
+          </subhead>
           <p xml:id="i-ToPniTZ5vJRi1A5VQWXc3G">
             Moderaternas plan för ett starkare Sverige tar sikte på att bygga
             Sverige starkare genom fler jobb och en stark ekonomi. Det är
@@ -329,9 +332,9 @@
             ekonomi generellt, dels för att öka integrationsinsatserna och
             dels för att höja ambitionsnivån i den svenska skolan.
           </p>
-          <head xml:id="i-B91pg7TFfRPqGZxkcyTbfj" type="h2">
+          <subhead xml:id="i-B91pg7TFfRPqGZxkcyTbfj" type="h2">
             Anslag 1:1 Kommunalekonomisk utjämning
-          </head>
+          </subhead>
           <p xml:id="i-PT3neztkFg8YsuzaxvQWjD">
             Kommunernas ekonomi kommer att befinna sig under betydande press
             under kommande år. Moderaterna satsar därför oriktade medel på
@@ -363,37 +366,37 @@
             budgetperioden. Detta ska jämföras med regeringen som satsar cirka
             40 miljarder kronor på kommunerna under samma period.
           </p>
-        </div>
-        <div xml:id="i-9ahNrUYrPtEmWePyvX97pU" type="signatureBlock">
-          <list xml:id="i-EmmcuKW53c1EuzDxKnXCQV">
-            <item xml:id="i-EcbkDhu6dLob47ogXE5kis" who="i-bRyJHEKb5DCkicXkuZwMY" type="signature">
-              Ulf Kristersson (M)
-            </item>
-            <item xml:id="i-Sw1Wgkyb8TPUv7rGMXWxcT" who="i-K75KrtPmbiw4k8rrgLDHse" type="signature">
-              Maria Plass (M)
-            </item>
-            <item xml:id="i-6wzqtQCjf7X3eJozYrApaN" who="unknown" type="signature">
-              Jörgen Andersson (M)
-            </item>
-            <item xml:id="i-9UPZ6NVqDTZBKfjHhtQ2Nx" who="i-Ldb2oqPG98BReLEGLTqU4A" type="signature">
-              Jan Ericson (M)
-            </item>
-            <item xml:id="i-JweXTwmgB5M22wbRLXTnK" who="i-XHzgSBhvzhMtyTsYMbxgy4" type="signature">
-              Fredrik Schulte (M)
-            </item>
-            <item xml:id="i-A9JPYY2D21XygDfMpCyFPT" who="i-MEQoHPb6qh2nYtPCAZQYv3" type="signature">
-              Maria Malmer Stenergard (M)
-            </item>
-            <item xml:id="i-9VJLELHbMrr6xg9RLs2mi8" who="unknown" type="signature">
-              Johan Forssell (M)
-            </item>
-            <item xml:id="i-42Rjgt2Yv7EepoUQotZfvL" who="i-P2Qeo7VM9UV2RSExyEhtHW" type="signature">
-              Jenny Petersson (M)
-            </item>
-            <item xml:id="i-C3jz7JhstxWPY6XsWxUPPC" who="i-VdihabCvvgRAFyrwU5mdKf" type="signature">
-              Jessica Polfjärd (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-9ahNrUYrPtEmWePyvX97pU">
+            <list xml:id="i-EmmcuKW53c1EuzDxKnXCQV">
+              <item xml:id="i-EcbkDhu6dLob47ogXE5kis" who="i-bRyJHEKb5DCkicXkuZwMY" type="signature">
+                Ulf Kristersson (M)
+              </item>
+              <item xml:id="i-Sw1Wgkyb8TPUv7rGMXWxcT" who="i-K75KrtPmbiw4k8rrgLDHse" type="signature">
+                Maria Plass (M)
+              </item>
+              <item xml:id="i-6wzqtQCjf7X3eJozYrApaN" who="unknown" type="signature">
+                Jörgen Andersson (M)
+              </item>
+              <item xml:id="i-9UPZ6NVqDTZBKfjHhtQ2Nx" who="i-Ldb2oqPG98BReLEGLTqU4A" type="signature">
+                Jan Ericson (M)
+              </item>
+              <item xml:id="i-JweXTwmgB5M22wbRLXTnK" who="i-XHzgSBhvzhMtyTsYMbxgy4" type="signature">
+                Fredrik Schulte (M)
+              </item>
+              <item xml:id="i-A9JPYY2D21XygDfMpCyFPT" who="i-MEQoHPb6qh2nYtPCAZQYv3" type="signature">
+                Maria Malmer Stenergard (M)
+              </item>
+              <item xml:id="i-9VJLELHbMrr6xg9RLs2mi8" who="unknown" type="signature">
+                Johan Forssell (M)
+              </item>
+              <item xml:id="i-42Rjgt2Yv7EepoUQotZfvL" who="i-P2Qeo7VM9UV2RSExyEhtHW" type="signature">
+                Jenny Petersson (M)
+              </item>
+              <item xml:id="i-C3jz7JhstxWPY6XsWxUPPC" who="i-VdihabCvvgRAFyrwU5mdKf" type="signature">
+                Jessica Polfjärd (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

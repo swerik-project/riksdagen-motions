@@ -14,7 +14,9 @@
           <title>Motion 2022/23:1115 av Ingemar Kihlström (KD)</title>
           <idno type="rdwebb">HA021115</idno>
           <rs type="number">1115</rs>
-          <orgName type="comitteeAbbreviation">CU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>CU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HA021115/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HA021115</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HA021115</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-8MHFN9ALFpz7o4PJCoGx8j" type="motHeader">
         <div xml:id="i-987VmxbNbEbmYnVD612nto" type="motTitle">
-          Motion till riksdagen 2022/23:1115 av Ingemar Kihlström (KD)
-          Införande av registrering av testamenten och framtidsfullmakter
+          <head xml:id="i-NRg1Kufkfj4dSugEiLNAiP">
+            Motion till riksdagen 2022/23:1115 av Ingemar Kihlström (KD)
+            Införande av registrering av testamenten och framtidsfullmakter
+          </head>
         </div>
       </div>
       <div xml:id="i-R8gMzsaU73J2ADsK2ovngB" type="motBody">
@@ -92,14 +96,14 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-6rKkLKvtgdMaQHkxDhPMLC">
-            <item xml:id="i-DoLkGUVtDnmbuZqmyB4jvC" sortKey="Yrkande 1">
+            <item xml:id="i-DoLkGUVtDnmbuZqmyB4jvC" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               införa ett register för testamenten och tillkännager detta för
               regeringen.
             </item>
           </list>
           <list xml:id="i-TNfhacjEUN54n3FsaYpmam">
-            <item xml:id="i-5Q9ws98mEQqqMMaGbVLdo4" sortKey="Yrkande 2">
+            <item xml:id="i-5Q9ws98mEQqqMMaGbVLdo4" sortKey="yrkande_002">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               utreda förutsättningarna för ett register för framtidsfullmakter
               och tillkännager detta för regeringen.
@@ -168,9 +172,9 @@
             varifrån man kan inhämta ytterligare information inför ett svenskt
             genomförande.
           </p>
-          <head xml:id="i-GLfxeAFBfCdkYK5NMV9znY" type="h1">
+          <subhead xml:id="i-GLfxeAFBfCdkYK5NMV9znY" type="h1">
             Register för framtidsfullmakter
-          </head>
+          </subhead>
           <p xml:id="i-BqeG1tLa3QuidE4NGWjYFi">
             En annan form av dokument som nu för tiden ofta upprättas gällande
             en persons ekonomi och tillgångar är en framtidsfullmakt. I framtidsfullmakten
@@ -200,13 +204,13 @@
             vara ett naturligt steg för att kunna upprätta och hantera digitala
             framtidsfullmakter.
           </p>
-        </div>
-        <div xml:id="i-Ff8LR4LfaLcLj7WVpXeE7Y" type="signatureBlock">
-          <list xml:id="i-E1RB8hSLXQdWFWbptMLkHH">
-            <item xml:id="i-3QLkfY9AdEaWV2EveVc4ry" who="i-SgLSQ3phK7HUZecEbLumwe" type="signature">
-              Ingemar Kihlström (KD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-Ff8LR4LfaLcLj7WVpXeE7Y">
+            <list xml:id="i-E1RB8hSLXQdWFWbptMLkHH">
+              <item xml:id="i-3QLkfY9AdEaWV2EveVc4ry" who="i-SgLSQ3phK7HUZecEbLumwe" type="signature">
+                Ingemar Kihlström (KD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

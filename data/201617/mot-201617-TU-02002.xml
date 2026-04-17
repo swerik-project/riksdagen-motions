@@ -14,7 +14,9 @@
           <title>Motion 2016/17:2002 av Staffan Danielsson (C)</title>
           <idno type="rdwebb">H4022002</idno>
           <rs type="number">2002</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4022002/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4022002</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4022002</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-LE2Z4w9kZTpBwo85EVkXs5" type="motHeader">
         <div xml:id="i-VcMqZaK87Qx3HiaK1MZZpT" type="motTitle">
-          Motion till riksdagen 2016/17:2002 av Staffan Danielsson (C)
-          Utredning av de svenska synfältskraven för körkort
+          <head xml:id="i-HKFB7XNXUCWbqCu9FiPHok">
+            Motion till riksdagen 2016/17:2002 av Staffan Danielsson (C)
+            Utredning av de svenska synfältskraven för körkort
+          </head>
         </div>
       </div>
       <div xml:id="i-G3ga7vV3pTc2a3qZFbdedz" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-NoKr9THoK6mCwmZzPUGQhj">
-            <item xml:id="i-k21xYQGXHD1MGoeP7VYt1" sortKey="Yrkande 1">
+            <item xml:id="i-k21xYQGXHD1MGoeP7VYt1" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               utreda mer rimliga regler i linje med internationell praxis för
               körkortsprov för dem som ser bra men har brister i sitt synfält,
@@ -104,10 +108,10 @@
           <head xml:id="i-E2R282xtxeqqsw5nQfeifd" type="h1">
             Motivering
           </head>
-          <head xml:id="i-8cf7U19qVNmKNTjG7iACyX" type="h1">
+          <subhead xml:id="i-8cf7U19qVNmKNTjG7iACyX" type="h1">
             Motionen är lång för att ge en god bild av problematiken bakom.
             I korthet handlar den om detta:
-          </head>
+          </subhead>
           <list xml:id="i-JVAgLzfb97RRxTKYgsSBEG" style="ul">
             <item xml:id="i-RTrePYPXtfGh1J5SqvNfd1">
               Det finns många hundratusentals personer i Sverige som ser bra
@@ -472,13 +476,13 @@
             med forskningsmedel m.m. stödja utvecklingen av bra testmöjligheter
             i avancerad körsimulator i Sverige.
           </p>
-        </div>
-        <div xml:id="i-Dd8jNg6fVnxnFfke3t5xYQ" type="signatureBlock">
-          <list xml:id="i-9i852rQmDygbCdGAvu3HRM">
-            <item xml:id="i-B8c8zNmNrK5WkHvMHfA9wh" who="i-N9Pi9YpD4nvtCEsVp2CGcX" type="signature">
-              Staffan Danielsson (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-Dd8jNg6fVnxnFfke3t5xYQ">
+            <list xml:id="i-9i852rQmDygbCdGAvu3HRM">
+              <item xml:id="i-B8c8zNmNrK5WkHvMHfA9wh" who="i-N9Pi9YpD4nvtCEsVp2CGcX" type="signature">
+                Staffan Danielsson (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

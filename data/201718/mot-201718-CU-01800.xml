@@ -14,7 +14,9 @@
           <title>Motion 2017/18:1800 av Hans Ekström m.fl. (S)</title>
           <idno type="rdwebb">H5021800</idno>
           <rs type="number">1800</rs>
-          <orgName type="comitteeAbbreviation">CU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>CU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5021800/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5021800</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5021800</ref>
@@ -109,8 +111,10 @@
     <body>
       <div xml:id="i-LnAew3CRfsZj2aKDtZob8M" type="motHeader">
         <div xml:id="i-G98UguTfXpk7qQowGSTsL4" type="motTitle">
-          Motion till riksdagen 2017/18:1800 av Hans Ekström m.fl. (S)
-          Sjön Mälaren
+          <head xml:id="i-4fxLWmhcQcFo86ZwtKfmzp">
+            Motion till riksdagen 2017/18:1800 av Hans Ekström m.fl. (S)
+            Sjön Mälaren
+          </head>
         </div>
       </div>
       <div xml:id="i-JG5yARFRycdYDS8yyyjXVu" type="motBody">
@@ -119,7 +123,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-GFXR5C25qj6DWh4u1Z1xGw">
-            <item xml:id="i-QMNCUqBgncsnkWF9QzYW2F" sortKey="Yrkande 1">
+            <item xml:id="i-QMNCUqBgncsnkWF9QzYW2F" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               Mälaren och andra viktiga vattentäkter måste skyddas för dricksvattenförsörjningen
               och tillkännager detta för regeringen.
@@ -170,19 +174,19 @@
             annat måste kapaciteten för att snabbare kunna tömma sjön öka
             för att minska risken för översvämning.
           </p>
-        </div>
-        <div xml:id="i-GRo4qLwojWxCukrrPRz7gG" type="signatureBlock">
-          <list xml:id="i-CCRJceST9ieTJNerZVmAW">
-            <item xml:id="i-LbKGhE6ADRrBnbQwJcpeTW" who="i-9bqWLXmB7Cb3r3JUmkkLBy" type="signature">
-              Hans Ekström (S)
-            </item>
-            <item xml:id="i-EmHG5HKGCaxn9HxSmeiAhB" who="i-YG3se2hZeuEdiGKSwKyaKF" type="signature">
-              Caroline Helmersson Olsson (S)
-            </item>
-            <item xml:id="i-541yg4vnuJT4oJrckBwQRW" who="i-Q8hYBES3N7Q4fZnAATRjsd" type="signature">
-              Fredrik Olovsson (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-GRo4qLwojWxCukrrPRz7gG">
+            <list xml:id="i-CCRJceST9ieTJNerZVmAW">
+              <item xml:id="i-LbKGhE6ADRrBnbQwJcpeTW" who="i-9bqWLXmB7Cb3r3JUmkkLBy" type="signature">
+                Hans Ekström (S)
+              </item>
+              <item xml:id="i-EmHG5HKGCaxn9HxSmeiAhB" who="i-YG3se2hZeuEdiGKSwKyaKF" type="signature">
+                Caroline Helmersson Olsson (S)
+              </item>
+              <item xml:id="i-541yg4vnuJT4oJrckBwQRW" who="i-Q8hYBES3N7Q4fZnAATRjsd" type="signature">
+                Fredrik Olovsson (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

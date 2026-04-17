@@ -14,7 +14,9 @@
           <title>Motion 2017/18:32 av Björn Söder och Sven-Olof Sällström (båda SD)</title>
           <idno type="rdwebb">H50232</idno>
           <rs type="number">32</rs>
-          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SoU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H50232/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H50232</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H50232</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-AcxJA7qeF5yoghDoQhc5qZ" type="motHeader">
         <div xml:id="i-Pk2GrBSGxCUxTev44rRZqK" type="motTitle">
-          Motion till riksdagen 2017/18:32 av Björn Söder och Sven-Olof
-          Sällström (båda SD) Gårdsförsäljning av alkoholhaltiga drycker
+          <head xml:id="i-UJcDE83ywGrQjHHqo6gQ6w">
+            Motion till riksdagen 2017/18:32 av Björn Söder och Sven-Olof
+            Sällström (båda SD) Gårdsförsäljning av alkoholhaltiga drycker
+          </head>
         </div>
       </div>
       <div xml:id="i-57BszTierxUN13FWPowLKN" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-AYNdK2Q5WbLRSQ4T7uajGv">
-            <item xml:id="i-2ZR7mbmR323mYAdFYo7HGH" sortKey="Yrkande 1">
+            <item xml:id="i-2ZR7mbmR323mYAdFYo7HGH" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               tillåta gårdsförsäljning av lokalt producerade alkoholhaltiga
               drycker och tillkännager detta för regeringen.
@@ -176,16 +180,16 @@
             uppfyllda krav skulle de svenska småproducenterna kunna bli licensierade
             ombud för Systembolaget.
           </p>
-        </div>
-        <div xml:id="i-2wu8rs2JqKsCoSt3QqAc55" type="signatureBlock">
-          <list xml:id="i-TU5b18YLiBGcme5nSsi1Ut">
-            <item xml:id="i-GLiR98trtWCf9MHmn6PrYP" who="i-TKwDinNn4twnLieK52EXRu" type="signature">
-              Björn Söder (SD)
-            </item>
-            <item xml:id="i-Dj1keovURCoXviGjsWHvmJ" who="i-TrXGyxsScvTSQxnJXvtZZW" type="signature">
-              Sven-Olof Sällström (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-2wu8rs2JqKsCoSt3QqAc55">
+            <list xml:id="i-TU5b18YLiBGcme5nSsi1Ut">
+              <item xml:id="i-GLiR98trtWCf9MHmn6PrYP" who="i-TKwDinNn4twnLieK52EXRu" type="signature">
+                Björn Söder (SD)
+              </item>
+              <item xml:id="i-Dj1keovURCoXviGjsWHvmJ" who="i-TrXGyxsScvTSQxnJXvtZZW" type="signature">
+                Sven-Olof Sällström (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

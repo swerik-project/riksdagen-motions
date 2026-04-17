@@ -14,7 +14,9 @@
           <title>Motion 2016/17:3456 av Said Abdu m.fl. (L)</title>
           <idno type="rdwebb">H4023456</idno>
           <rs type="number">3456</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4023456/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4023456</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4023456</ref>
@@ -122,8 +124,10 @@
     <body>
       <div xml:id="i-4BeQSoTkgrtmokdLmkTnn4" type="motHeader">
         <div xml:id="i-VrLxp1faB6FXG9iMoubxAc" type="motTitle">
-          Motion till riksdagen 2016/17:3456 av Said Abdu m.fl. (L) Utgiftsområde
-          24 Näringsliv
+          <head xml:id="i-BxnvtUDakefz4gQ7yajJwu">
+            Motion till riksdagen 2016/17:3456 av Said Abdu m.fl. (L) Utgiftsområde
+            24 Näringsliv
+          </head>
         </div>
       </div>
       <div xml:id="i-GBbRv3DxtrGGUk5j5txsSg" type="motBody">
@@ -132,7 +136,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-SBRSXc4yyYo7zbdtThwVRP">
-            <item xml:id="i-WaL2FgcYDorPjv7Pa2fGQE" sortKey="Yrkande 1">
+            <item xml:id="i-WaL2FgcYDorPjv7Pa2fGQE" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2017 inom utgiftsområde 24 Näringsliv
               enligt förslaget i tabell 1 i motionen.
             </item>
@@ -955,30 +959,29 @@
                 -125 000
               </cell>
             </row>
-            <row xml:id="i-PozkNcsnbHnSxiCBf9jdSQ"/>
           </table>
-        </div>
-        <div xml:id="i-97r2wAoxd85yzJMpVEFsSH" type="signatureBlock">
-          <list xml:id="i-SAkog8i2NYQP79w6nBG4b2">
-            <item xml:id="i-M7CdoxZUpNgQfPf1hTeCXN" who="i-Kb87jeTEio4k4qCJeZ6pQE" type="signature">
-              Said Abdu (L)
-            </item>
-            <item xml:id="i-4AhcA1tG4dkAxM76Ka91fq" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
-              Christer Nylander (L)
-            </item>
-            <item xml:id="i-EZRk4vuRuU31sSxPk85wWw" who="i-S7wLw9aynA5vbRCsqxxL3N" type="signature">
-              Tina Acketoft (L)
-            </item>
-            <item xml:id="i-SWPU2NrPALWdySAYJApt3m" who="i-QQYotqFjTJA7EiQZc1Wmzs" type="signature">
-              Emma Carlsson Löfdahl (L)
-            </item>
-            <item xml:id="i-4amHPFYSvdg16rHurSSh5W" who="i-VBA6eUH2CpmPZFgqzCpt9N" type="signature">
-              Mats Persson (L)
-            </item>
-            <item xml:id="i-KePcVqnK3VvvEUYSat3XWC" who="i-HPYYRQv4ch2ZKcsG9Poys5" type="signature">
-              Maria Weimer (L)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-97r2wAoxd85yzJMpVEFsSH">
+            <list xml:id="i-SAkog8i2NYQP79w6nBG4b2">
+              <item xml:id="i-M7CdoxZUpNgQfPf1hTeCXN" who="i-Kb87jeTEio4k4qCJeZ6pQE" type="signature">
+                Said Abdu (L)
+              </item>
+              <item xml:id="i-4AhcA1tG4dkAxM76Ka91fq" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
+                Christer Nylander (L)
+              </item>
+              <item xml:id="i-EZRk4vuRuU31sSxPk85wWw" who="i-S7wLw9aynA5vbRCsqxxL3N" type="signature">
+                Tina Acketoft (L)
+              </item>
+              <item xml:id="i-SWPU2NrPALWdySAYJApt3m" who="i-QQYotqFjTJA7EiQZc1Wmzs" type="signature">
+                Emma Carlsson Löfdahl (L)
+              </item>
+              <item xml:id="i-4amHPFYSvdg16rHurSSh5W" who="i-VBA6eUH2CpmPZFgqzCpt9N" type="signature">
+                Mats Persson (L)
+              </item>
+              <item xml:id="i-KePcVqnK3VvvEUYSat3XWC" who="i-HPYYRQv4ch2ZKcsG9Poys5" type="signature">
+                Maria Weimer (L)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

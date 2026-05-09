@@ -4,7 +4,7 @@
 """
 from glob import glob
 from lxml import etree
-from pyriksdagen.utils import parse_tei
+from pyriksdagen.io import parse_tei
 import os
 import pandas as pd
 import unittest

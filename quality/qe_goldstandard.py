@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+Estimate quality issues in gold standard motion metadata annotations.
+"""
 
 from cycler import cycler
 from datetime import date
@@ -85,6 +88,9 @@ class GoldStandard(unittest.TestCase):
 
 
     def test_date(self):
+        """
+        Check that annotated document dates are present in matching TEI date elements.
+        """
         for i, r in tqdm(self.objective_reality.iterrows()):
             if int(r["motion"].split("/")[1][:4]) > 2004:
                 continue
@@ -107,6 +113,9 @@ class GoldStandard(unittest.TestCase):
 
 
     def test_signature(self):
+        """
+        Check that annotated signature blocks match the TEI signature block text.
+        """
         for i, r in tqdm(self.objective_reality.iterrows()):
             if pd.isna(r["signature_block"]):
                 self.signature_errors.append([r["motion"], None, "signature block is not annotated in goldstandard"])
@@ -133,6 +142,9 @@ class GoldStandard(unittest.TestCase):
 
 
     def test_title(self):
+        """
+        Check that annotated title blocks match the TEI motion title text.
+        """
         for i, r in tqdm(self.objective_reality.iterrows()):
             if pd.isna(r["title_block"]):
                 self.title_errors.append([r["motion"], None, "title block is not annotated in goldstandard"])

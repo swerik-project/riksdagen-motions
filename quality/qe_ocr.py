@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+Estimate OCR quality by comparing sampled PDF annotations with TEI text.
+"""
 
 from pyriksdagen.io import (
     parse_tei,
@@ -93,6 +96,9 @@ class OCRQualityEstimation(unittest.TestCase):
 
 
     def test_estimate_ocr_quality(self):
+        """
+        Match OCR annotations to TEI text and compute edit distance, WER, and CER.
+        """
 
         def _text_from_range(root, ns, facs):
             text = ""

@@ -115,7 +115,8 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
 
 
     def test_date_within_filename_year_range(self):
-        """Verify that the parsed motion dates are within ±1 year of the year indicated
+        """
+        Verify that the parsed motion dates are within ±1 year of the year indicated
         in the filename, and track per year/chamber/committee stats for CSV output.
         A motion passes if at least one date is within the ±1-year range.
         """
@@ -177,7 +178,9 @@ class TestMotionDateVsFilenameYear(unittest.TestCase):
 
 
     def test_motion_ordering_within_year(self):
-        """Check that motion numbers correlate with chronological order of dates within each parliament year grouping."""
+        """
+        Check that motion numbers correlate with chronological order of dates within each parliament year grouping.
+        """
         motions_by_year_committee = defaultdict(list)
 
         for motion in tqdm(self.motions, desc="Collecting motions for rank check"):

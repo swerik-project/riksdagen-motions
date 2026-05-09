@@ -138,6 +138,9 @@ class Test(unittest.TestCase):
             sys.exit(0)
 
     def test_signature_is_mapped(self):
+        """
+        Check whether each signature item has a mapped person reference.
+        """
         for motion in tqdm(self.motions):
             py = str(motion.split("/")[1])
             if py not in self.counts_by_year:

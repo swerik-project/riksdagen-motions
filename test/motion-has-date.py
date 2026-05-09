@@ -136,6 +136,9 @@ class Test(unittest.TestCase):
 
 
     def test_motion_has_date(self):
+        """
+        Check whether each motion has date annotations in metadata or body content.
+        """
         for motion in tqdm(self.motions):
             root, ns = parse_tei(motion)
             py = motion.split("/")[1]

@@ -137,6 +137,9 @@ class Test(unittest.TestCase):
 
 
     def test_motion_has_signature(self):
+        """
+        Check whether each motion has signature annotations in metadata or body content.
+        """
         for motion in tqdm(self.motions):
             py = motion.split("/")[1]
             root, ns = parse_tei(motion)

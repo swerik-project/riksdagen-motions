@@ -7,6 +7,7 @@ from glob import glob
 import matplotlib.pyplot as plt
 from pyriksdagen.io import parse_tei
 from pyriksdagen.utils import version_number_is_valid
+from trainerlog import get_logger
 from tqdm import tqdm
 import json
 import os
@@ -15,6 +16,8 @@ import sys
 import unittest
 import warnings
 
+
+logger = get_logger(name="motion-has-signatures")
 
 
 
@@ -117,7 +120,7 @@ class Test(unittest.TestCase):
             df[column] = df[column].fillna(0).astype(int)
         if os.path.exists("test/results/signature-test-by-parliament-year.tsv"):
             df_hist = pd.read_csv("test/results/signature-test-by-parliament-year.tsv", sep="\t")
-            print("found df_hist")
+            logger.info("found df_hist")
             for _ in df_hist.columns:
                 df_hist[_] = df_hist[_].fillna(0).astype(int)
                 if _.startswith(cls.version):
@@ -129,7 +132,7 @@ class Test(unittest.TestCase):
         df.to_csv("test/results/signature-test-by-parliament-year.tsv", index=False, sep="\t")
 
         if update_plot_signature_coverage(df):
-            print("Generated Plot for signature coverage")
+            logger.info("Generated Plot for signature coverage")
             sys.exit(0)
 
 
@@ -158,9 +161,7 @@ class Test(unittest.TestCase):
                     has_metaS = True
             try:
                 body_signatures = root.findall(f".//{ns['tei_ns']}p[@type=\"signatureBlock\"]")
-                # print(body_signatures)
                 body_signatures.extend(root.findall(f".//{ns['tei_ns']}div[@type=\"motSignatures\"]"))
-                # print(body_signatures, len(body_signatures))
                 assert len(body_signatures) > 0
             except:
                 body_signatures = root.findall(f".//p[@type=\"signatureBlock\"]")

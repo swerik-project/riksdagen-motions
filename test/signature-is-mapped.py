@@ -6,12 +6,16 @@ from cycler import cycler
 from glob import glob
 from pyriksdagen.io import parse_tei
 from pyriksdagen.utils import version_number_is_valid
+from trainerlog import get_logger
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 import os
 import pandas as pd
 import sys
 import unittest
+
+
+logger = get_logger(name="signature-is-mapped")
 
 
 VERSION = "v99.99.99"
@@ -111,7 +115,7 @@ class Test(unittest.TestCase):
 
         if os.path.exists("test/results/unmapped_signatures_by_year.csv"):
             df_hist = pd.read_csv("test/results/unmapped_signatures_by_year.csv")
-            print("found df_hist")
+            logger.info("found df_hist")
             df_hist["parliament_year"] = df_hist["parliament_year"].astype(str)
             for col in df_hist.columns:
                 if col != "parliament_year":
@@ -130,7 +134,7 @@ class Test(unittest.TestCase):
         df.to_csv("test/results/unmapped_signatures_by_year.csv", index=False)
 
         if _generate_plots(df):
-            print("Generated Plots for signature mapping")
+            logger.info("Generated Plots for signature mapping")
             sys.exit(0)
 
     def test_signature_is_mapped(self):

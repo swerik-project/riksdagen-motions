@@ -7,6 +7,7 @@ from glob import glob
 import matplotlib.pyplot as plt
 from pyriksdagen.io import parse_tei
 from pyriksdagen.utils import version_number_is_valid
+from trainerlog import get_logger
 from tqdm import tqdm
 import json
 import os
@@ -15,6 +16,8 @@ import sys
 import unittest
 import warnings
 
+
+logger = get_logger(name="motion-has-date")
 
 
 
@@ -128,7 +131,7 @@ class Test(unittest.TestCase):
         df.to_csv("test/results/date-test-by-parliament-year.tsv", index=False, sep="\t")
 
         if update_plot_date_coverage(df):
-            print("Generated Plot for date coverage")
+            logger.info("Generated Plot for date coverage")
             sys.exit(0)
 
 
@@ -149,13 +152,11 @@ class Test(unittest.TestCase):
                 assert len(meta_dates) > 0
             except:
                 meta_dates = root.findall(f".//correspAction/date")
-            # print(meta_dates)
             try:
                 body_dates = root.findall(f".//{ns['tei_ns']}p[@type=\"date\"]")
                 assert len(body_dates) > 0
             except:
                 body_dates = root.findall(f".//p[@type=\"date\"]")
-            # print(body_dates)
             if len(body_dates) > 0 and len(meta_dates) > 0:
                 self.tally["meta_body_date"] += 1
             elif len(body_dates) > 0:

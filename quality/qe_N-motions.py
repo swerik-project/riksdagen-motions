@@ -9,15 +9,18 @@ from pyriksdagen.args import (
     impute_args,
 )
 from tqdm import tqdm
+from trainerlog import get_logger
 import json
 import pandas as pd
 import re
 
 
+logger = get_logger(name="qe-N-motions")
+
 
 
 def main(args):
-    print(args)
+    logger.info(f"{args}")
 
     d = {}
     args.motions = [_ for _ in args.motions if "data/fort/" not in _]
@@ -58,7 +61,7 @@ if __name__ == '__main__':
     parser = fetch_parser("motions", docstring=__doc__)
     parser.add_argument("-v", "--version", type=str, default=None)
     args = parser.parse_args()
-    print(args)
+    logger.info(f"{args}")
     if args.version is not None:
         pat = re.compile(r"v([0-9]+)([.])([0-9]+)([.])([0-9]+)(b|rc)?([0-9]+)?")
         if pat.match(args.version) is None:

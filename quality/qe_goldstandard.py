@@ -6,11 +6,14 @@ from Levenshtein import distance
 from matplotlib.ticker import MaxNLocator
 from pyriksdagen.io import parse_tei
 from tqdm import tqdm
+from trainerlog import get_logger
 import matplotlib.pyplot as plt
 import pandas as pd
 import unicodedata
 import unittest
 
+
+logger = get_logger(name="qe-goldstandard")
 
 
 
@@ -31,7 +34,7 @@ class GoldStandard(unittest.TestCase):
     def tearDownClass(cls):
 
         def _plot(df, desc):
-            print(df["problem"].value_counts())
+            logger.info(f"{df['problem'].value_counts()}")
             df["parliament_year"] = df["motion"].apply(lambda x: int(x.split('/')[1][:4]))
             result = (df.pivot_table(
                 index="parliament_year",

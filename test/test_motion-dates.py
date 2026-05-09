@@ -18,8 +18,9 @@ import csv
 import locale
 import os
 import re
-import sys
 import unittest
+
+logger = get_logger(name="motion-date-year-check")
 
 try:
     locale.setlocale(locale.LC_TIME, 'sv_SE.UTF-8')
@@ -27,12 +28,7 @@ except locale.Error:
     try:
         locale.setlocale(locale.LC_TIME, 'Swedish_Sweden')
     except locale.Error:
-        print(
-            "WARNING: Swedish locale not available. Month names may not parse correctly.",
-            file=sys.stderr
-        )
-
-logger = get_logger(name="motion-date-year-check", level="INFO")
+        logger.warning("WARNING: Swedish locale not available. Month names may not parse correctly.")
 
 
 class TestMotionDateVsFilenameYear(unittest.TestCase):

@@ -5,10 +5,15 @@ from pyriksdagen.io import (
 )
 from torchmetrics.text import WordErrorRate
 from tqdm import tqdm
+from trainerlog import get_logger
 import nltk
 import os
 import pandas as pd
 import unittest
+
+
+logger = get_logger(name="qe-ocr")
+
 
 class OCRQualityEstimation(unittest.TestCase):
 
@@ -76,10 +81,8 @@ class OCRQualityEstimation(unittest.TestCase):
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200506/mot_200506_A_00420/mot_200506_A_00420_003.pdf": "data/200506/mot-200506-AU-00420.xml",
             "https://pdf.swedeb.se/riksdagen-motions-pdf/200506/mot_200506_A_00420/mot_200506_A_00420_025.pdf": "data/200506/mot-200506-AU-00420.xml",
             }
-        print("testing paths")
         for k,v in cls.file_mapping.items():
             assert os.path.exists(v)
-        print("    ---> ok")
 
 
     @classmethod
@@ -137,12 +140,7 @@ class OCRQualityEstimation(unittest.TestCase):
                 if prob is None or lev < prob:
                     prob = lev
                     most_probable_line = s
-                    # early exit conditions
-                    #if prob == 0:
-                        #print("early exit 1")
-                        #break
                     if prob == 1 and annotation.endswith('-') and not s.endswith('-'):
-                        #print("early exit 2")
                         break
             return most_probable_line, prob
 
@@ -157,16 +155,11 @@ class OCRQualityEstimation(unittest.TestCase):
             "wer",
             "cer"
         ]
-        print(len(self.objective_reality))
-        print(self.file_mapping)
         for motion in tqdm([_ for _ in self.objective_reality["file"].unique() if "reg" not in _ and "fört" not in _]):
-            print(motion)
             facs = motion.split("/")[-1].replace("-", "_").split('_')[-1]
             if motion in self.file_mapping:
                 xml_file = self.file_mapping[motion]
-                print(motion, "in")
             else:
-                print(motion, "not in")
                 xml_file = f"data/{'/'.join(motion.split('riksdagen-motions-pdf/')[1].split('/')[:-1]).replace('_', '-')}.xml"
             annotations = [_ for _ in self.objective_reality.loc[self.objective_reality["file"] == motion, "text"].tolist() if pd.notnull(_)]
             py = self.objective_reality.loc[self.objective_reality["file"] == motion, "parliament_year"].unique().tolist()[0]
@@ -193,7 +186,6 @@ class OCRQualityEstimation(unittest.TestCase):
                     wer,
                     cer
                 ])
-                print(xml_file, lev, wer, cer)
         type(self).most_probable_lines = pd.DataFrame(rows, columns = cols)
 
 

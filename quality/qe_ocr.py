@@ -15,6 +15,10 @@ import pandas as pd
 import unittest
 
 
+
+if os.path.exists("quality/docs/qe_ocr.md"):
+    with open("quality/docs/qe_ocr.md", 'r') as d:
+        __doc__ = d.read()
 logger = get_logger(name="qe-ocr")
 
 

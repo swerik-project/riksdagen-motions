@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
 Control the number of motions in the corpus.
-
-.. include:: docs/N-motions.md
 """
 from pyriksdagen.args import (
     fetch_parser,
@@ -11,6 +9,7 @@ from pyriksdagen.args import (
 from tqdm import tqdm
 from trainerlog import get_logger
 import json
+import os
 import pandas as pd
 import re
 
@@ -69,3 +68,7 @@ if __name__ == '__main__':
     else:
         args.version = "v99.99.99"
     main(impute_args(args))
+else:
+    if os.path.exists("quality/docs/qe_N-motions.md"):
+        with open("quality/docs/qe_N-motions.md", 'r') as d:
+            __doc__ = d.read()

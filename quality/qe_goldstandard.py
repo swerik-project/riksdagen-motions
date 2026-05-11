@@ -11,11 +11,16 @@ from pyriksdagen.io import parse_tei
 from tqdm import tqdm
 from trainerlog import get_logger
 import matplotlib.pyplot as plt
+import os
 import pandas as pd
 import unicodedata
 import unittest
 
 
+
+if os.path.exists("quality/docs/qe_segmentation-title-signture.md"):
+    with open("quality/docs/qe_segmentation-title-signature.md", 'r') as d:
+        __doc__ = d.read()
 logger = get_logger(name="qe-goldstandard")
 
 

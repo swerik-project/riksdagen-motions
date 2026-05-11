@@ -30,6 +30,7 @@ jobs:
         pip install pyriksdagen
         pip install pdoc
         pip install levenshtein
+        pip install torchmetrics
 
     - name: Get release type
       run: |

@@ -18,7 +18,7 @@ import unittest
 
 
 
-if os.path.exists("quality/docs/qe_segmentation-title-signture.md"):
+if os.path.exists("quality/docs/qe_segmentation-title-signature.md"):
     with open("quality/docs/qe_segmentation-title-signature.md", 'r') as d:
         __doc__ = d.read()
 logger = get_logger(name="qe-goldstandard")

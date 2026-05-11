@@ -45,6 +45,7 @@ jobs:
     - name: Test data integrity
       run: python -m unittest test.motion-has-signatures
     - name: Add and commit changes
+      if: ${{ env.ACT != 'true' }}
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
@@ -59,6 +60,7 @@ jobs:
             git commit -m "chore (workflow): update signature block coverage info"
         fi
     - name: Push changes
+      if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -85,6 +87,7 @@ jobs:
     - name: Test data integrity
       run: python -m unittest test.motion-has-date
     - name: Add and commit changes
+      if: ${{ env.ACT != 'true' }}
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
@@ -99,6 +102,7 @@ jobs:
             git commit -m "chore (workflow): update date annotation coverage info"
         fi
     - name: Push changes
+      if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -125,6 +129,7 @@ jobs:
     - name: Test data integrity
       run: python -m unittest test.motion-has-title
     - name: Add and commit changes
+      if: ${{ env.ACT != 'true' }}
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
@@ -139,6 +144,7 @@ jobs:
             git commit -m "chore (workflow): update title annotation coverage info"
         fi
     - name: Push changes
+      if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -165,6 +171,7 @@ jobs:
     - name: Test data integrity
       run: python -m unittest test.signature-is-mapped
     - name: Add and commit changes
+      if: ${{ env.ACT != 'true' }}
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
@@ -178,6 +185,7 @@ jobs:
             git commit -m "chore (workflow): update mapping coverage info"
         fi
     - name: Push changes
+      if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}

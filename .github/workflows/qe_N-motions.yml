@@ -32,6 +32,7 @@ jobs:
         python quality/qe_N-motions.py
 
     - name: Add and commit changes
+      if: ${{ env.ACT != 'true' }}
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
@@ -47,6 +48,7 @@ jobs:
         fi
 
     - name: Push changes
+      if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}

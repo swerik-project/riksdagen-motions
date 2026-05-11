@@ -19,7 +19,7 @@ logger = get_logger(name="qe-N-motions")
 
 
 def main(args):
-    logger.info(f"{args}")
+    logger.info(f"Looing for motions in {args.data_folder}")
 
     d = {}
     args.motions = [_ for _ in args.motions if "data/fort/" not in _]
@@ -53,6 +53,8 @@ def main(args):
             d[py][chamber] += 1
     with open(f"quality/estimates/N-motions/raw-results_{args.version}.json", "w+") as out:
         json.dump(d, out, ensure_ascii=False, indent=4)
+    logger.info(f"Done. Check the results in quality/docs/qe_segmentation-title-signture.md")
+
 
 
 
@@ -60,7 +62,6 @@ if __name__ == '__main__':
     parser = fetch_parser("motions", docstring=__doc__)
     parser.add_argument("-v", "--version", type=str, default=None)
     args = parser.parse_args()
-    logger.info(f"{args}")
     if args.version is not None:
         pat = re.compile(r"v([0-9]+)([.])([0-9]+)([.])([0-9]+)(b|rc)?([0-9]+)?")
         if pat.match(args.version) is None:

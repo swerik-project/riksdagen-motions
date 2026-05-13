@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
 """
 Control the number of motions in the corpus.
-
-.. include:: docs/N-motions.md
 """
 from pyriksdagen.args import (
     fetch_parser,
     impute_args,
 )
 from tqdm import tqdm
+from trainerlog import get_logger
 import json
+import os
 import pandas as pd
 import re
 
 
+logger = get_logger(name="qe-N-motions")
+
 
 
 def main(args):
-    print(args)
+    logger.info(f"Looing for motions in {args.data_folder}")
 
     d = {}
     args.motions = [_ for _ in args.motions if "data/fort/" not in _]
@@ -51,6 +53,8 @@ def main(args):
             d[py][chamber] += 1
     with open(f"quality/estimates/N-motions/raw-results_{args.version}.json", "w+") as out:
         json.dump(d, out, ensure_ascii=False, indent=4)
+    logger.info(f"Done. Check the results in quality/docs/qe_segmentation-title-signture.md")
+
 
 
 
@@ -58,7 +62,6 @@ if __name__ == '__main__':
     parser = fetch_parser("motions", docstring=__doc__)
     parser.add_argument("-v", "--version", type=str, default=None)
     args = parser.parse_args()
-    print(args)
     if args.version is not None:
         pat = re.compile(r"v([0-9]+)([.])([0-9]+)([.])([0-9]+)(b|rc)?([0-9]+)?")
         if pat.match(args.version) is None:
@@ -66,3 +69,7 @@ if __name__ == '__main__':
     else:
         args.version = "v99.99.99"
     main(impute_args(args))
+else:
+    if os.path.exists("quality/docs/qe_N-motions.md"):
+        with open("quality/docs/qe_N-motions.md", 'r') as d:
+            __doc__ = d.read()

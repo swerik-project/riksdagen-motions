@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3153 av Anders Åkesson m.fl. (C)</title>
           <idno type="rdwebb">H3023153</idno>
           <rs type="number">3153</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023153/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023153</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023153</ref>
@@ -94,8 +96,10 @@
     <body>
       <div xml:id="i-VFsWGAmgJ8fFQNfauJscEa" type="motHeader">
         <div xml:id="i-6RQGmd3EeGGuaLjXoVaD6F" type="motTitle">
-          Motion till riksdagen 2015/16:3153 av Anders Åkesson m.fl. (C)
-          Utgiftsområde 22 Kommunikationer
+          <head xml:id="i-Xenxq1R8xux8q2X9zSFRZC">
+            Motion till riksdagen 2015/16:3153 av Anders Åkesson m.fl. (C)
+            Utgiftsområde 22 Kommunikationer
+          </head>
         </div>
       </div>
       <div xml:id="i-Q5UTRgdJdCuas14cSor86f" type="motBody">
@@ -114,10 +118,10 @@
           <head xml:id="i-69R1pyhwTMy7c5T8iccE9Y" type="h1">
             Motivering
           </head>
-          <head xml:id="i-6udgbJHr8h8EBfQeUP2t9P" type="h3">
+          <subhead xml:id="i-6udgbJHr8h8EBfQeUP2t9P" type="h3">
             Tabell 1. Centerpartiets förslag till anslag 2016 uttryckt som
             differens gentemot regeringens förslag
-          </head>
+          </subhead>
           <table xml:id="i-88pteqjy9Z7JMnUrvZQuUP">
             <row xml:id="i-7C5FBBmUZpmMhqjejSTMrC" style="label">
               <cell>
@@ -386,13 +390,12 @@
                 −90 000
               </cell>
             </row>
-            <row xml:id="i-QEfukKXceJGedDqBnbptEa"/>
           </table>
-          <head xml:id="i-LkjXrx18fVRu8qAVJzoFgt" type="h3">
+          <subhead xml:id="i-LkjXrx18fVRu8qAVJzoFgt" type="h3">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2018
             uttryckt som differens gentemot regeringens förslag (miljoner
             kronor)
-          </head>
+          </subhead>
           <table xml:id="i-9v73ALtjmK9aEqVgpMeCa5">
             <row xml:id="i-Vv13H28iEfFACPYNNtTJiA">
               <cell>
@@ -483,19 +486,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-L4tiSbvyhPebFx48k4m885" type="signatureBlock">
-          <list xml:id="i-XzF7NTRLCGm421pCQS3boR">
-            <item xml:id="i-GhcUNqCbeF57ndFVp63ZbU" who="i-FucmvyHZ22CXcKRGnfjaC4" type="signature">
-              Anders Åkesson (C)
-            </item>
-            <item xml:id="i-Uq4ver3kFCnDiZwgKyPFUf" who="i-NXj58dUGKZNY5mhhE2y1sm" type="signature">
-              Göran Lindell (C)
-            </item>
-            <item xml:id="i-YAHoKVZCuW9be198uLrTQL" who="i-W1SpeP85RXQTDYN2miQfXU" type="signature">
-              Daniel Bäckström (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-L4tiSbvyhPebFx48k4m885">
+            <list xml:id="i-XzF7NTRLCGm421pCQS3boR">
+              <item xml:id="i-GhcUNqCbeF57ndFVp63ZbU" who="i-FucmvyHZ22CXcKRGnfjaC4" type="signature">
+                Anders Åkesson (C)
+              </item>
+              <item xml:id="i-Uq4ver3kFCnDiZwgKyPFUf" who="i-NXj58dUGKZNY5mhhE2y1sm" type="signature">
+                Göran Lindell (C)
+              </item>
+              <item xml:id="i-YAHoKVZCuW9be198uLrTQL" who="i-W1SpeP85RXQTDYN2miQfXU" type="signature">
+                Daniel Bäckström (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2022/23:1080 av Camilla Brunsberg (M)</title>
           <idno type="rdwebb">HA021080</idno>
           <rs type="number">1080</rs>
-          <orgName type="comitteeAbbreviation">KU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HA021080/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HA021080</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HA021080</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-5Uyjnp8CjQX91K5kJAcL7P" type="motHeader">
         <div xml:id="i-Wem28DaRUP8w2jvtAaVRoC" type="motTitle">
-          Motion till riksdagen 2022/23:1080 av Camilla Brunsberg (M) Återinförande
-          av riksdagens öppnande i Rikssalen
+          <head xml:id="i-7BEZVzPNGYu8B2pLiPECqo">
+            Motion till riksdagen 2022/23:1080 av Camilla Brunsberg (M) Återinförande
+            av riksdagens öppnande i Rikssalen
+          </head>
         </div>
       </div>
       <div xml:id="i-JUcZBPBa3HLzgLTTRWkG2f" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-DvEWi2KucSSrAYDTGKqP76">
-            <item xml:id="i-7mmyyu5T6vT512wgQkykdL" sortKey="Yrkande 1">
+            <item xml:id="i-7mmyyu5T6vT512wgQkykdL" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               riksdagens högtidliga öppnande i Rikssalen bör återinföras och
               tillkännager detta för riksdagsstyrelsen.
@@ -121,13 +125,13 @@
             av konungen på silvertronen i Rikssalen. På så sätt stärker vi
             både monarkin och demokratin.
           </p>
-        </div>
-        <div xml:id="i-QympjK7GsTQBRAanM3BoDL" type="signatureBlock">
-          <list xml:id="i-o6bCvXopu3zQVKAMCr6bs">
-            <item xml:id="i-7SLEye68EHP7nat9gqYifE" who="i-GZsGBZCKzYGAu8WDXso96v" type="signature">
-              Camilla Brunsberg (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-QympjK7GsTQBRAanM3BoDL">
+            <list xml:id="i-o6bCvXopu3zQVKAMCr6bs">
+              <item xml:id="i-7SLEye68EHP7nat9gqYifE" who="i-GZsGBZCKzYGAu8WDXso96v" type="signature">
+                Camilla Brunsberg (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

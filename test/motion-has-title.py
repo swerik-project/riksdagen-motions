@@ -7,6 +7,7 @@ from glob import glob
 import matplotlib.pyplot as plt
 from pyriksdagen.io import parse_tei
 from pyriksdagen.utils import version_number_is_valid
+from trainerlog import get_logger
 from tqdm import tqdm
 import json
 import os
@@ -15,6 +16,8 @@ import sys
 import unittest
 import warnings
 
+
+logger = get_logger(name="motion-has-title")
 
 
 
@@ -117,7 +120,7 @@ class Test(unittest.TestCase):
             df[column] = df[column].fillna(0).astype(int)
         if os.path.exists("test/results/title-test-by-parliament-year.tsv"):
             df_hist = pd.read_csv("test/results/title-test-by-parliament-year.tsv", sep="\t")
-            print("found df_hist")
+            logger.info("found df_hist")
             for _ in df_hist.columns:
                 df_hist[_] = df_hist[_].fillna(0).astype(int)
                 if _.startswith(cls.version):
@@ -129,11 +132,14 @@ class Test(unittest.TestCase):
         df.to_csv("test/results/title-test-by-parliament-year.tsv", index=False, sep="\t")
 
         if update_plot_title_coverage(df):
-            print("Generated Plot for title coverage")
+            logger.info("Generated Plot for title coverage")
             sys.exit(0)
 
 
     def test_motion_has_title(self):
+        """
+        Check whether each motion has title annotations in metadata or body content.
+        """
         for motion in tqdm(self.motions):
             py = motion.split("/")[1]
             root, ns = parse_tei(motion)

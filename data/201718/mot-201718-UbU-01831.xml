@@ -14,7 +14,9 @@
           <title>Motion 2017/18:1831 av Krister Örnfjäder och Laila Naraghi (båda S)</title>
           <idno type="rdwebb">H5021831</idno>
           <rs type="number">1831</rs>
-          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>UbU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5021831/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5021831</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5021831</ref>
@@ -90,9 +92,11 @@
     <body>
       <div xml:id="i-XWA8ZnVMZynGnPz6sxDmz8" type="motHeader">
         <div xml:id="i-XYPGRzUvo4TNmtLkmtJxHv" type="motTitle">
-          Motion till riksdagen 2017/18:1831 av Krister Örnfjäder och Laila
-          Naraghi (båda S) Högre utbildning i hela landet genom kommunala
-          lärcenter
+          <head xml:id="i-6vGRqqUSf5benB7gaCgsG1">
+            Motion till riksdagen 2017/18:1831 av Krister Örnfjäder och Laila
+            Naraghi (båda S) Högre utbildning i hela landet genom kommunala
+            lärcenter
+          </head>
         </div>
       </div>
       <div xml:id="i-LadCV5K27fLDv1vGNVygDT" type="motBody">
@@ -101,7 +105,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-RJdJiUcFcqPatKFoFrN6VJ">
-            <item xml:id="i-XYrQodvJn6Y5XZCRhtFdv1" sortKey="Yrkande 1">
+            <item xml:id="i-XYrQodvJn6Y5XZCRhtFdv1" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               fortsätta möjliggöra för högre utbildning i hela landet genom
               kommunala lärcenter och tillkännager detta för regeringen.
@@ -180,16 +184,16 @@
             att ge högskolor och universitet i uppdrag att utveckla samarbetet
             med kommunala lärcenter och andra parter.
           </p>
-        </div>
-        <div xml:id="i-SGAZ3MPrz7PRG5GTcVCFAa" type="signatureBlock">
-          <list xml:id="i-GSEq3mP3VaScJzEhKcSxhr">
-            <item xml:id="i-5nyPwbpsPN7cydUKDWU461" who="i-122QwSSpyGJQiTJjmrUJCM" type="signature">
-              Krister Örnfjäder (S)
-            </item>
-            <item xml:id="i-6uLxb83HwnL4o4pdAiNFs3" who="i-K9qLrytov5JcoAS1u8SHMm" type="signature">
-              Laila Naraghi (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-SGAZ3MPrz7PRG5GTcVCFAa">
+            <list xml:id="i-GSEq3mP3VaScJzEhKcSxhr">
+              <item xml:id="i-5nyPwbpsPN7cydUKDWU461" who="i-122QwSSpyGJQiTJjmrUJCM" type="signature">
+                Krister Örnfjäder (S)
+              </item>
+              <item xml:id="i-6uLxb83HwnL4o4pdAiNFs3" who="i-K9qLrytov5JcoAS1u8SHMm" type="signature">
+                Laila Naraghi (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

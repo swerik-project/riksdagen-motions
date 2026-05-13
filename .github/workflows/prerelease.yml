@@ -30,13 +30,20 @@ jobs:
         pip install pyriksdagen
         pip install pdoc
         pip install levenshtein
+        pip install scipy
+        pip install torchmetrics
 
     - name: Get release type
       run: |
-        release_type=$(echo ${{ github.event.pull_request.title }} | grep -Eoh '((M|m)(ajor|inor)|(P|p)atch)' | awk '{print tolower($0)}')
-        if [ -z $release_type ] ; then
+        release_nr=$(echo "${{ github.event.pull_request.title }}" | grep -Eoh 'v[0-9]+\.[0-9]+\.[0-9]+' | head -n 1)
+        release_type=$(echo "${{ github.event.pull_request.title }}" | grep -Eoh '((M|m)(ajor|inor)|(P|p)atch)' | awk '{print tolower($0)}' | head -n 1)
+        if [ -n "$release_nr" ] ; then
+            echo "Next release will be $release_nr"
+            echo "RELEASE_NR=$release_nr" >> $GITHUB_ENV
+        elif [ -z "$release_type" ] ; then
             echo "You have to indicate the release type in the title of a pr to main"
-            echo "   suggested: `prerelease: major|minor|patch version`"
+            echo "   suggested: prerelease: major|minor|patch version"
+            echo "   or: prerelease: vX.Y.Z"
             exit 1
         else
             echo "Next release will be a $release_type version"
@@ -44,18 +51,21 @@ jobs:
         fi
 
     - name: Install jq
+      if: ${{ env.RELEASE_NR == '' }}
       uses: dcarbone/install-jq-action@v2
       with:
         version: 1.7
         force: false
 
     - name: Get most recent release
+      if: ${{ env.RELEASE_NR == '' }}
       run: |
         LATEST_RELEASE=$(echo "$(curl -L https://api.github.com/repos/swerik-project/riksdagen-motions/releases/latest)" | jq -r .tag_name)
         if [[ "$LATEST_RELEASE" == null ]] ; then LATEST_RELEASE="v0.0.0" ; fi
         echo "LAST_RELEASE=$LATEST_RELEASE" >> $GITHUB_ENV
 
     - name: Bump version
+      if: ${{ env.RELEASE_NR == '' }}
       id: bump
       uses: cbrgm/semver-bump-action@main
       with:
@@ -63,10 +73,14 @@ jobs:
         bump-level: ${{ env.RELEASE_TYPE }}
 
     - name: bump to env
+      if: ${{ env.RELEASE_NR == '' }}
       run: |
         release_nr=${{ steps.bump.outputs.new_version }}
         echo "RELEASE_NR=$release_nr" >> $GITHUB_ENV
-        sed -i.bak -e "s/\(^version:\)\([^\"]*\)/\1 $release_nr/" CITATION.cff
+
+    - name: Update CITATION.cff version
+      run: |
+        sed -i.bak -e "s/\(^version:\)\([^\"]*\)/\1 $RELEASE_NR/" CITATION.cff
 
     - name: Validate CITATION.cff
       uses: dieghernan/cff-validator@v3
@@ -85,6 +99,7 @@ jobs:
         python -m unittest test.integrity
 
     - name: Add and commit changes
+      if: ${{ env.ACT != 'true' }}
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
@@ -110,6 +125,7 @@ jobs:
         fi
 
     - name: Push changes
+      if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -14,7 +14,9 @@
           <title>Motion 2021/22:4141 av Per Schöldberg m.fl. (C)</title>
           <idno type="rdwebb">H9024141</idno>
           <rs type="number">4141</rs>
-          <orgName type="comitteeAbbreviation">KU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H9024141/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H9024141</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H9024141</ref>
@@ -98,8 +100,10 @@
     <body>
       <div xml:id="i-3XKtbs9MrksQGnzgzQ4NjB" type="motHeader">
         <div xml:id="i-GH28s3cJLKbWC1QmQMJiP3" type="motTitle">
-          Motion till riksdagen 2021/22:4141 av Per Schöldberg m.fl. (C)
-          Utgiftsområde 1 Rikets styrelse
+          <head xml:id="i-TUU5G4k6P4A4WHQmBkMpAN">
+            Motion till riksdagen 2021/22:4141 av Per Schöldberg m.fl. (C)
+            Utgiftsområde 1 Rikets styrelse
+          </head>
         </div>
       </div>
       <div xml:id="i-XcjBEQqk4ZXeY5gN4N1vbq" type="motBody">
@@ -108,7 +112,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-9WYckXREq8PxxbZSR2qNX5">
-            <item xml:id="i-W7JGaAd9BEg9rdAfVvVmSe" sortKey="Yrkande 1">
+            <item xml:id="i-W7JGaAd9BEg9rdAfVvVmSe" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2022 inom utgiftsområde 1 Rikets
               styrelse enligt förslaget i tabell 1 i motionen.
             </item>
@@ -141,9 +145,9 @@
             det är att genomdriva den politik som fått stöd i allmänna val
             måste göra så på ett effektivt och transparent sätt.
           </p>
-          <head xml:id="i-GJKLJ42WNKTjmsk7NcUKnD" type="h1">
+          <subhead xml:id="i-GJKLJ42WNKTjmsk7NcUKnD" type="h1">
             Förslag till anslagsfördelning
-          </head>
+          </subhead>
           <p xml:id="i-URFiW3FGoQcMvtRDdw7Hzy">
             Tabell 1. Centerpartiets förslag till anslag för 2022 för utgiftsområde
             1 uttryckt som differens gentemot regeringens förslag, tusentals
@@ -452,7 +456,6 @@
                 25 054
               </cell>
             </row>
-            <row xml:id="i-WXaFSkgq265gMqfqQU6Eye"/>
           </table>
           <p xml:id="i-7QsJPCT5BmgnKNxEnsAPGs">
             Tabell 2. Centerpartiets förslag till anslag för 2022 till 2024
@@ -665,11 +668,10 @@
                 −15
               </cell>
             </row>
-            <row xml:id="i-44nYetG2Xwgeqy5c6eyZiT"/>
           </table>
-          <head xml:id="i-KFLfzSGoNkMj68KxEJo1gW" type="h1">
+          <subhead xml:id="i-KFLfzSGoNkMj68KxEJo1gW" type="h1">
             Centerpartiets överväganden
-          </head>
+          </subhead>
           <p xml:id="i-CeouUpKRKhc3K8VY2stycE">
             Centerpartiet föreslår i denna budgetmotion ett regelförenklingspaket
             (se UO24). Till följd av detta föreslås anslag 4:1 öka med 4,5
@@ -717,19 +719,19 @@
             vilket påverkar de anslag som räknas upp med denna. Anslagen 1:1,
             2:1, 2:2, 2:3, 2:4 och 2:5 undantas från detta.
           </p>
-        </div>
-        <div xml:id="i-ChqPeA9mHkCNiRSumdu2G" type="signatureBlock">
-          <list xml:id="i-Ak9MbwTM4ss6Ssm5GWfS8G">
-            <item xml:id="i-C3nYLbu9MQKZY2bfDuQmBA" who="i-SE8ApXFZ7ex7Favbm7aCMu" type="signature">
-              Per Schöldberg (C)
-            </item>
-            <item xml:id="i-DDcSP9Uc9swZvJx5J78Nqu" who="i-A1NGMRYUqzQ6yvBRZ8XqFg" type="signature">
-              Linda Modig (C)
-            </item>
-            <item xml:id="i-UuTgyuR6mjQWo1WSCmVqZW" who="i-X24CbizesfxM3nuznxPzAc" type="signature">
-              Malin Björk (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-ChqPeA9mHkCNiRSumdu2G">
+            <list xml:id="i-Ak9MbwTM4ss6Ssm5GWfS8G">
+              <item xml:id="i-C3nYLbu9MQKZY2bfDuQmBA" who="i-SE8ApXFZ7ex7Favbm7aCMu" type="signature">
+                Per Schöldberg (C)
+              </item>
+              <item xml:id="i-DDcSP9Uc9swZvJx5J78Nqu" who="i-A1NGMRYUqzQ6yvBRZ8XqFg" type="signature">
+                Linda Modig (C)
+              </item>
+              <item xml:id="i-UuTgyuR6mjQWo1WSCmVqZW" who="i-X24CbizesfxM3nuznxPzAc" type="signature">
+                Malin Björk (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

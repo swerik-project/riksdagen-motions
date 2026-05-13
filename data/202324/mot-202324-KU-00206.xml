@@ -14,7 +14,9 @@
           <title>Motion 2023/24:206 av Magnus Jacobsson (KD)</title>
           <idno type="rdwebb">HB02206</idno>
           <rs type="number">206</rs>
-          <orgName type="comitteeAbbreviation">KU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HB02206/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HB02206</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HB02206</ref>
@@ -71,8 +73,10 @@
     <body>
       <div xml:id="i-LiLXQ4n7u7S6WzQW9qRJsG" type="motHeader">
         <div xml:id="i-BamLdBmgd5FAwCvdnhj9r9" type="motTitle">
-          Motion till riksdagen 2023/24:206 av Magnus Jacobsson (KD) Digital
-          signering för politisk kandidatur
+          <head xml:id="i-MXwtQELepDN7hw8x2hFWb">
+            Motion till riksdagen 2023/24:206 av Magnus Jacobsson (KD) Digital
+            signering för politisk kandidatur
+          </head>
         </div>
       </div>
       <div xml:id="i-rmdLVNZLDqB6wKv11qDVi" type="motBody">
@@ -81,7 +85,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-4AdNkU7J4cSJVwhYLfmEQS">
-            <item xml:id="i-Tqcz18TFaXRqfjZ88k2ZRE" sortKey="Yrkande 1">
+            <item xml:id="i-Tqcz18TFaXRqfjZ88k2ZRE" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               vallagen bör uppdateras på så sätt att digital signering likställs
               med ”skriftligen” eller ”egenhändigt underteckna” och att detta
@@ -186,13 +190,13 @@
             ”skriftligen” eller ”egenhändigt undertecknad”. Uppdateringen
             bör vara på plats innan de allmänna valen 2026.
           </p>
-        </div>
-        <div xml:id="i-YRUVXtU66t7DzeRvE5rMU" type="signatureBlock">
-          <list xml:id="i-4codxFRMjCW7cuK1UJ4FCx">
-            <item xml:id="i-N8CYRDe17zuy7a7WoSgjcZ" who="i-5QUSwQFaazTZF6GHyxaAkw" type="signature">
-              Magnus Jacobsson (KD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-YRUVXtU66t7DzeRvE5rMU">
+            <list xml:id="i-4codxFRMjCW7cuK1UJ4FCx">
+              <item xml:id="i-N8CYRDe17zuy7a7WoSgjcZ" who="i-5QUSwQFaazTZF6GHyxaAkw" type="signature">
+                Magnus Jacobsson (KD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

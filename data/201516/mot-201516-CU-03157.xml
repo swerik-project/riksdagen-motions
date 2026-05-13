@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3157 av Ola Johansson m.fl. (C)</title>
           <idno type="rdwebb">H3023157</idno>
           <rs type="number">3157</rs>
-          <orgName type="comitteeAbbreviation">CU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>CU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023157/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023157</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023157</ref>
@@ -94,9 +96,11 @@
     <body>
       <div xml:id="i-Tc41TieVUMhaTHDwtgiXuA" type="motHeader">
         <div xml:id="i-X1oQSLg8Q8bxhEF7fPTqWN" type="motTitle">
-          Motion till riksdagen 2015/16:3157 av Ola Johansson m.fl. (C)
-          Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande
-          samt konsumentpolitik
+          <head xml:id="i-HDzN1zsWULJCaJm5r24jAV">
+            Motion till riksdagen 2015/16:3157 av Ola Johansson m.fl. (C)
+            Utgiftsområde 18 Samhällsplanering, bostadsförsörjning och byggande
+            samt konsumentpolitik
+          </head>
         </div>
       </div>
       <div xml:id="i-CPF1Wt3hRYMixnARKdfcJH" type="motBody">
@@ -116,10 +120,10 @@
           <head xml:id="i-5ie2vi2dVgaV13qWSqZ2uG" type="h1">
             Motivering
           </head>
-          <head xml:id="i-HUhgr25xEEeps3Wo6EJBSj" type="h3">
+          <subhead xml:id="i-HUhgr25xEEeps3Wo6EJBSj" type="h3">
             Tabell 1. Centerpartiets förslag till anslag 2016 uttryckt som
             differens gentemot regeringens förslag
-          </head>
+          </subhead>
           <table xml:id="i-BujBEnTNwWgEcTJ59LWeiW">
             <row xml:id="i-XwNhDiSRuzEgJyZF7vh1JW" style="label">
               <cell>
@@ -374,13 +378,12 @@
                 −5 901 200
               </cell>
             </row>
-            <row xml:id="i-LpnQMxjs5Kdk3uet7nhV2o"/>
           </table>
-          <head xml:id="i-5wg9gqHEed7BHaJdcA5HpF" type="h3">
+          <subhead xml:id="i-5wg9gqHEed7BHaJdcA5HpF" type="h3">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2019
             uttryckt som differens gentemot regeringens förslag (miljoner
             kronor)
-          </head>
+          </subhead>
           <table xml:id="i-Jhaq5EjQv1HfHhxHGmNP6r">
             <row xml:id="i-PqEfvVUoJ65wv3xjZ9dhuk">
               <cell>
@@ -596,19 +599,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-JZTiUfLkHYEfTa7N9y78M9" type="signatureBlock">
-          <list xml:id="i-LskkqPvHs1EbWa5jEpZ7fv">
-            <item xml:id="i-Kk6YZnb4R8ec5KJuZ3iqQW" who="i-RSqbTnBBX6dtdvF5RUM8Lr" type="signature">
-              Ola Johansson (C)
-            </item>
-            <item xml:id="i-PdcgusHd8WuGWG3FJE5cYE" who="i-FucmvyHZ22CXcKRGnfjaC4" type="signature">
-              Anders Åkesson (C)
-            </item>
-            <item xml:id="i-5UEN23Yq29iSaHdi9YYGjz" who="i-NXj58dUGKZNY5mhhE2y1sm" type="signature">
-              Göran Lindell (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-JZTiUfLkHYEfTa7N9y78M9">
+            <list xml:id="i-LskkqPvHs1EbWa5jEpZ7fv">
+              <item xml:id="i-Kk6YZnb4R8ec5KJuZ3iqQW" who="i-RSqbTnBBX6dtdvF5RUM8Lr" type="signature">
+                Ola Johansson (C)
+              </item>
+              <item xml:id="i-PdcgusHd8WuGWG3FJE5cYE" who="i-FucmvyHZ22CXcKRGnfjaC4" type="signature">
+                Anders Åkesson (C)
+              </item>
+              <item xml:id="i-5UEN23Yq29iSaHdi9YYGjz" who="i-NXj58dUGKZNY5mhhE2y1sm" type="signature">
+                Göran Lindell (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

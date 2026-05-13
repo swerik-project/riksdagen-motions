@@ -14,7 +14,9 @@
           <title>Motion 2017/18:1320 av Annicka Engblom och Boriana Åberg (båda M)</title>
           <idno type="rdwebb">H5021320</idno>
           <rs type="number">1320</rs>
-          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SkU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5021320/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5021320</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5021320</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-TnDhUjFetv6FskT5qTksoe" type="motHeader">
         <div xml:id="i-SgQFoD7a89miuqPqvULLnd" type="motTitle">
-          Motion till riksdagen 2017/18:1320 av Annicka Engblom och Boriana
-          Åberg (båda M) Översyn av kassaregisterlagen
+          <head xml:id="i-61XLH9JcYmwUV5u6L4XqaZ">
+            Motion till riksdagen 2017/18:1320 av Annicka Engblom och Boriana
+            Åberg (båda M) Översyn av kassaregisterlagen
+          </head>
         </div>
       </div>
       <div xml:id="i-UqApFuSR4a9QhnunZHcDo2" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-QD5Gd6skAnFWxkdHCuP9TC">
-            <item xml:id="i-XjkG3bGFWufV2AqAPYu9K2" sortKey="Yrkande 1">
+            <item xml:id="i-XjkG3bGFWufV2AqAPYu9K2" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               överväga en översyn av kassaregisterlagen för torg- och marknadshandel
               och tillkännager detta för regeringen.
@@ -207,16 +211,16 @@
             inte vara rimligt att en hel yrkeskår tvingas använda arbetsredskap
             som inte finns att köpa för den miljö där de avses användas.
           </p>
-        </div>
-        <div xml:id="i-PUZg9vtxP97WrpxXi6MvcN" type="signatureBlock">
-          <list xml:id="i-8wYNuheDNmWxz8LKVvcZYY">
-            <item xml:id="i-3ThovKJYNVHuBkjLTMzYFY" who="i-Pu4JFuoHUq5W6JaAtvinyz" type="signature">
-              Annicka Engblom (M)
-            </item>
-            <item xml:id="i-5tZajRmkXYjSqgy9CYACqm" who="i-WwZzVPGhpXnyH5jyp86JB7" type="signature">
-              Boriana Åberg (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-PUZg9vtxP97WrpxXi6MvcN">
+            <list xml:id="i-8wYNuheDNmWxz8LKVvcZYY">
+              <item xml:id="i-3ThovKJYNVHuBkjLTMzYFY" who="i-Pu4JFuoHUq5W6JaAtvinyz" type="signature">
+                Annicka Engblom (M)
+              </item>
+              <item xml:id="i-5tZajRmkXYjSqgy9CYACqm" who="i-WwZzVPGhpXnyH5jyp86JB7" type="signature">
+                Boriana Åberg (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

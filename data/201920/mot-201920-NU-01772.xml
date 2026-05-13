@@ -14,7 +14,9 @@
           <title>Motion 2019/20:1772 av Helena Lindahl och Peter Helander (båda C)</title>
           <idno type="rdwebb">H7021772</idno>
           <rs type="number">1772</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H7021772/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H7021772</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H7021772</ref>
@@ -90,9 +92,11 @@
     <body>
       <div xml:id="i-4yb5ARQVWk9HGJrWDhXRgr" type="motHeader">
         <div xml:id="i-X58sdaR6ohdhGBcTEPzur1" type="motTitle">
-          Motion till riksdagen 2019/20:1772 av Helena Lindahl och Peter
-          Helander (båda C) Låt berörda kommuner och regioner ta del av
-          vind- och vattenkraftens värden
+          <head xml:id="i-X5twqPJ54J5XktzbrxWfjm">
+            Motion till riksdagen 2019/20:1772 av Helena Lindahl och Peter
+            Helander (båda C) Låt berörda kommuner och regioner ta del av
+            vind- och vattenkraftens värden
+          </head>
         </div>
       </div>
       <div xml:id="i-AMyWAZ3xZ8jNNLnRrTV8YY" type="motBody">
@@ -101,7 +105,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-TZcaihPe7R4ybTA8YnLLCC">
-            <item xml:id="i-7tgWTU97mwjJU1Ft2biMUA" sortKey="Yrkande 1">
+            <item xml:id="i-7tgWTU97mwjJU1Ft2biMUA" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               berörda kommuner och regioner ska få behålla en rättmätig del
               av vind- och vattenkraftens värden och tillkännager detta för
@@ -113,9 +117,9 @@
           <head xml:id="i-8WS1JsU1WPhgiFdCGp8Axq" type="h1">
             Motivering
           </head>
-          <head xml:id="i-BWYYsUDmcfEwxem9TPKRug" type="h1">
+          <subhead xml:id="i-BWYYsUDmcfEwxem9TPKRug" type="h1">
             De sju skogslänen bidrar med runt 90 procent av Sveriges vattenkraft.
-          </head>
+          </subhead>
           <p xml:id="i-4N2USz5XVxz2GB5UtPrmL8">
             Vattenkraften produceras lokalt men är en av de viktigaste förutsättningarna
             för hela Sveriges gemensamma välstånd. Ett normalår produceras
@@ -184,16 +188,16 @@
           <p xml:id="i-WckCrdnwLRGcKEA69qbfGU">
             Detta bör ges regeringen till känna.
           </p>
-        </div>
-        <div xml:id="i-FHmcDs5yW9RKUXCBbcMebK" type="signatureBlock">
-          <list xml:id="i-9Ln3YNzoyB5gGhmd2FgCZU">
-            <item xml:id="i-52tmPTsDpc3kjagDtTXtxB" who="i-Wg4JiBuxTz9fesArDXiMko" type="signature">
-              Helena Lindahl (C)
-            </item>
-            <item xml:id="i-KzPvRTpGZyk8vYfyy2C5hR" who="i-CdKPr5PV7B8cJEHJFtQGGn" type="signature">
-              Peter Helander (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-FHmcDs5yW9RKUXCBbcMebK">
+            <list xml:id="i-9Ln3YNzoyB5gGhmd2FgCZU">
+              <item xml:id="i-52tmPTsDpc3kjagDtTXtxB" who="i-Wg4JiBuxTz9fesArDXiMko" type="signature">
+                Helena Lindahl (C)
+              </item>
+              <item xml:id="i-KzPvRTpGZyk8vYfyy2C5hR" who="i-CdKPr5PV7B8cJEHJFtQGGn" type="signature">
+                Peter Helander (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

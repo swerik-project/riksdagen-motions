@@ -14,7 +14,9 @@
           <title>Motion 2017/18:3397 av Betty Malmberg (M)</title>
           <idno type="rdwebb">H5023397</idno>
           <rs type="number">3397</rs>
-          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>MJU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5023397/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5023397</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5023397</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-7qz1CYvsKzrGWHX8bQLZEg" type="motHeader">
         <div xml:id="i-PZM6PjnvuX3o2uQWQX7pzv" type="motTitle">
-          Motion till riksdagen 2017/18:3397 av Betty Malmberg (M) Följ
-          Växtskyddsrådets förslag
+          <head xml:id="i-2LKJcGWfZBSWsHm9XR8MhS">
+            Motion till riksdagen 2017/18:3397 av Betty Malmberg (M) Följ
+            Växtskyddsrådets förslag
+          </head>
         </div>
       </div>
       <div xml:id="i-P4i1Nv3sYzhnYEtjDWzLbH" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-K8HWayGJYKXzS12qG7PUtx">
-            <item xml:id="i-8R8VTq5Mz6GzVcBgbfv3gy" sortKey="Yrkande 1">
+            <item xml:id="i-8R8VTq5Mz6GzVcBgbfv3gy" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               genomföra de förslag som Växtskyddsrådet har framfört i sina årsrapporter
               (2015:05 samt 2016:09) och som framgår av motionen och tillkännager
@@ -130,10 +134,10 @@
               komplettering till förslagen i den så kallade Konkurrenskraftsutredningen.
             </item>
           </list>
-          <head xml:id="i-2w5bEvurK3aqzpKEFqqV7w" type="h1">
+          <subhead xml:id="i-2w5bEvurK3aqzpKEFqqV7w" type="h1">
             I deras senaste årsrapport (2016:9) tillkommer flera aspekter
             såsom:
-          </head>
+          </subhead>
           <list xml:id="i-Kct1hPya3HHfDsX79B7FRQ" style="ul">
             <item xml:id="i-Eem5NWbPkpyt95Eohg6AUE">
               Undvika beslut om förbud eller villkorsändringar mitt under säsong
@@ -156,13 +160,13 @@
             som regeringen bör stötta och agera utifrån. Detta måtte riksdagen
             ge regeringen tillkänna.
           </p>
-        </div>
-        <div xml:id="i-CCH3vNY4BVDr2C8ipgrZ2L" type="signatureBlock">
-          <list xml:id="i-Be1QijBbnuaLjmYeCJPfLu">
-            <item xml:id="i-CVNVQmhEk2s3dDKVCdRHAa" who="i-Q1WPoNtt1578KMfEZ5TLkK" type="signature">
-              Betty Malmberg (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-CCH3vNY4BVDr2C8ipgrZ2L">
+            <list xml:id="i-Be1QijBbnuaLjmYeCJPfLu">
+              <item xml:id="i-CVNVQmhEk2s3dDKVCdRHAa" who="i-Q1WPoNtt1578KMfEZ5TLkK" type="signature">
+                Betty Malmberg (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2016/17:2231 av Oscar Sjöstedt och Dennis Dioukarev (båda SD)</title>
           <idno type="rdwebb">H4022231</idno>
           <rs type="number">2231</rs>
-          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FiU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4022231/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4022231</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4022231</ref>
@@ -101,8 +103,10 @@
     <body>
       <div xml:id="i-UK4ASKDAfY8HoWJuGXsV6C" type="motHeader">
         <div xml:id="i-DXLTMP7VSkoLXqPj5M7i5L" type="motTitle">
-          Motion till riksdagen 2016/17:2231 av Oscar Sjöstedt och Dennis
-          Dioukarev (båda SD) Utgiftsområde 25 Allmänna bidrag till kommuner
+          <head xml:id="i-3TqzW9FHoJm8hxKZ7WKJaJ">
+            Motion till riksdagen 2016/17:2231 av Oscar Sjöstedt och Dennis
+            Dioukarev (båda SD) Utgiftsområde 25 Allmänna bidrag till kommuner
+          </head>
         </div>
       </div>
       <div xml:id="i-RLJJS4idQLqu3rksKZStQ3" type="motBody">
@@ -111,7 +115,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-KH2eKd58Qi5BFaTwL7NTP7">
-            <item xml:id="i-9K8MPjYYAF5Dxx6dY7MJVC" sortKey="Yrkande 1">
+            <item xml:id="i-9K8MPjYYAF5Dxx6dY7MJVC" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2017 inom utgiftsområde 25 Allmänna
               bidrag till kommuner enligt förslaget i tabell 1 i motionen.
             </item>
@@ -292,19 +296,17 @@
                 +2 350 000
               </cell>
             </row>
-            <row xml:id="i-8yctetQ8KwqQBSoAZMmtNd"/>
-            <row xml:id="i-4mT6jd7UvPPH3rU2rsxw7s"/>
           </table>
-        </div>
-        <div xml:id="i-NzAAUMN5RTsjs8KmBkRBkr" type="signatureBlock">
-          <list xml:id="i-8s9CcHgwyVVpVJfQ8DL8Ef">
-            <item xml:id="i-3FoJTSyhQgyAgcbWhVbtPr" who="i-HWbn7UwLvHk93mrHB9NC2c" type="signature">
-              Oscar Sjöstedt (SD)
-            </item>
-            <item xml:id="i-Nhq1Xyu1yqvSo4aCtBg1Cx" who="i-5xq5y8yJUv1khDbYCaXJ7X" type="signature">
-              Dennis Dioukarev (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-NzAAUMN5RTsjs8KmBkRBkr">
+            <list xml:id="i-8s9CcHgwyVVpVJfQ8DL8Ef">
+              <item xml:id="i-3FoJTSyhQgyAgcbWhVbtPr" who="i-HWbn7UwLvHk93mrHB9NC2c" type="signature">
+                Oscar Sjöstedt (SD)
+              </item>
+              <item xml:id="i-Nhq1Xyu1yqvSo4aCtBg1Cx" who="i-5xq5y8yJUv1khDbYCaXJ7X" type="signature">
+                Dennis Dioukarev (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>SVAR - Riksarkivet</title>
           <idno type="rdwebb">GR02Kr369</idno>
           <rs type="number">Kr369</rs>
-          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KrU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GR02Kr369/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GR02Kr369</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GR02Kr369</ref>
@@ -294,7 +296,7 @@
           <p xml:id="i-3q7QFrRoYpPoYHM5pRXEGn" type="date">
             Stockholm den 7 oktober 2003
           </p>
-          <div xml:id="i-UHHTmqTsLZ2S6jWZ3m1EfV" type="signatureBlock">
+          <signatureBlock xml:id="i-UHHTmqTsLZ2S6jWZ3m1EfV">
             <list xml:id="i-JFYCbwQKx8VbTmnD7RnsRH">
               <item xml:id="i-3GVrHxV7nkKEYmFhpf5Kk8" who="i-PxnWyEEEJkswzBKdKbv36K" type="signature">
                 Agneta Lundberg (s)
@@ -303,7 +305,7 @@
                 Hans Stenberg (s)
               </item>
             </list>
-          </div>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2014/15:1080 av Dennis Dioukarev m.fl. (SD)</title>
           <idno type="rdwebb">H2021080</idno>
           <rs type="number">1080</rs>
-          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FiU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H2021080/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H2021080</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H2021080</ref>
@@ -117,8 +119,10 @@
     <body>
       <div xml:id="i-Y6RFTgT9ER8hEnSxCJTVY8" type="motHeader">
         <div xml:id="i-7ToTeLMj8KC9ZdH6GvLvX6" type="motTitle">
-          Motion till riksdagen 2014/15:1080 av Dennis Dioukarev m.fl.
-          (SD) med anledning av prop. 2014/15:2 Höständringsbudget för 2014
+          <head xml:id="i-8obtkVkU9Gcd68bDHFpoix">
+            Motion till riksdagen 2014/15:1080 av Dennis Dioukarev m.fl.
+            (SD) med anledning av prop. 2014/15:2 Höständringsbudget för 2014
+          </head>
         </div>
       </div>
       <div xml:id="i-E4tSX1sYSXxKjfYdqLdLgA" type="motBody">
@@ -138,10 +142,10 @@
           <head xml:id="i-LYtvsRH14w7ANQKjdDdfqx" type="h1">
             Motivering
           </head>
-          <head xml:id="i-JnrPD83KX1hgU7eUhveAsC" type="h1">
+          <subhead xml:id="i-JnrPD83KX1hgU7eUhveAsC" type="h1">
             Den förda invandringspolitiken har lett till en rekordartad invandring
             till Sverige.
-          </head>
+          </subhead>
           <p xml:id="i-H9ddx5oXdywjw1x8wtKLE7">
             Regeringen skriver bland annat att ”regeringen bedömer att betydligt
             fler personer än vad som tidigare beräknats kommer att söka asyl
@@ -326,27 +330,26 @@
                 +118 000
               </cell>
             </row>
-            <row xml:id="i-Bs3TrXgbhmjzjXGzfo8BVB"/>
           </table>
-        </div>
-        <div xml:id="i-WPioF4YRDPN3jG9dEKqYAK" type="signatureBlock">
-          <list xml:id="i-Y41RJMAYh4daC8Sj8V64i9">
-            <item xml:id="i-WKeA1THCXeBUds9catnSef" who="i-5xq5y8yJUv1khDbYCaXJ7X" type="signature">
-              Dennis Dioukarev (SD)
-            </item>
-            <item xml:id="i-K58Jp2FNcXG5pczuuDuhrp" who="i-HWbn7UwLvHk93mrHB9NC2c" type="signature">
-              Oscar Sjöstedt (SD)
-            </item>
-            <item xml:id="i-8mAnYVxEuJ2YHvXfa9NFC3" who="i-Lw92TAaAVgG8Kdf7YxhViy" type="signature">
-              Markus Wiechel (SD)
-            </item>
-            <item xml:id="i-33QM13dXj43UfR9LmgD8Rb" who="i-G2FvChcLfdNRUQkYLtG8Ld" type="signature">
-              Paula Bieler (SD)
-            </item>
-            <item xml:id="i-M3tVrgAnFc7hLtArCd7xNT" who="i-8UHfFy8Egv2UxrL1auT5kE" type="signature">
-              Anders Forsberg (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-WPioF4YRDPN3jG9dEKqYAK">
+            <list xml:id="i-Y41RJMAYh4daC8Sj8V64i9">
+              <item xml:id="i-WKeA1THCXeBUds9catnSef" who="i-5xq5y8yJUv1khDbYCaXJ7X" type="signature">
+                Dennis Dioukarev (SD)
+              </item>
+              <item xml:id="i-K58Jp2FNcXG5pczuuDuhrp" who="i-HWbn7UwLvHk93mrHB9NC2c" type="signature">
+                Oscar Sjöstedt (SD)
+              </item>
+              <item xml:id="i-8mAnYVxEuJ2YHvXfa9NFC3" who="i-Lw92TAaAVgG8Kdf7YxhViy" type="signature">
+                Markus Wiechel (SD)
+              </item>
+              <item xml:id="i-33QM13dXj43UfR9LmgD8Rb" who="i-G2FvChcLfdNRUQkYLtG8Ld" type="signature">
+                Paula Bieler (SD)
+              </item>
+              <item xml:id="i-M3tVrgAnFc7hLtArCd7xNT" who="i-8UHfFy8Egv2UxrL1auT5kE" type="signature">
+                Anders Forsberg (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

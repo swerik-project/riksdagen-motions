@@ -14,7 +14,9 @@
           <title>Motion 2016/17:2232 av Dennis Dioukarev och Oscar Sjöstedt (båda SD)</title>
           <idno type="rdwebb">H4022232</idno>
           <rs type="number">2232</rs>
-          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FiU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4022232/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4022232</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4022232</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-TS6ooQs3hhuF1tDXmTxXyy" type="motHeader">
         <div xml:id="i-VXQ32MvcEYUVqJro4FNXb2" type="motTitle">
-          Motion till riksdagen 2016/17:2232 av Dennis Dioukarev och Oscar
-          Sjöstedt (båda SD) Utgiftsområde 2 Samhällsekonomi och finansförvaltning
+          <head xml:id="i-Ug6TANXZXjgBxaTZBbQEBp">
+            Motion till riksdagen 2016/17:2232 av Dennis Dioukarev och Oscar
+            Sjöstedt (båda SD) Utgiftsområde 2 Samhällsekonomi och finansförvaltning
+          </head>
         </div>
       </div>
       <div xml:id="i-AZoynvvYruZD7Ryyz7TY4N" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-DatvLcdJFyWXKvFvZjaq9A">
-            <item xml:id="i-X6xq9g89L4cQXR9xwMMKFQ" sortKey="Yrkande 1">
+            <item xml:id="i-X6xq9g89L4cQXR9xwMMKFQ" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2017 inom utgiftsområde 2 Samhällsekonomi
               och finansförvaltning enligt förslaget i tabell 1 i motionen.
             </item>
@@ -415,18 +419,17 @@
                 +192 000
               </cell>
             </row>
-            <row xml:id="i-VTJ2gD9N2YVu8uPouNomCL"/>
           </table>
-        </div>
-        <div xml:id="i-6MH7zjBURhyaRMgQdwG9YG" type="signatureBlock">
-          <list xml:id="i-5B2BRXFWiZLHwGrg37aGtg">
-            <item xml:id="i-D1uWhdVFJLxQTHSh2YsdHx" who="i-5xq5y8yJUv1khDbYCaXJ7X" type="signature">
-              Dennis Dioukarev (SD)
-            </item>
-            <item xml:id="i-FzRTntaf6XKgcV8hYRAMU6" who="i-HWbn7UwLvHk93mrHB9NC2c" type="signature">
-              Oscar Sjöstedt (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-6MH7zjBURhyaRMgQdwG9YG">
+            <list xml:id="i-5B2BRXFWiZLHwGrg37aGtg">
+              <item xml:id="i-D1uWhdVFJLxQTHSh2YsdHx" who="i-5xq5y8yJUv1khDbYCaXJ7X" type="signature">
+                Dennis Dioukarev (SD)
+              </item>
+              <item xml:id="i-FzRTntaf6XKgcV8hYRAMU6" who="i-HWbn7UwLvHk93mrHB9NC2c" type="signature">
+                Oscar Sjöstedt (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

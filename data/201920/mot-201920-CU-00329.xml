@@ -14,7 +14,9 @@
           <title>Motion 2019/20:329 av Hillevi Larsson (S)</title>
           <idno type="rdwebb">H702329</idno>
           <rs type="number">329</rs>
-          <orgName type="comitteeAbbreviation">CU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>CU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H702329/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H702329</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H702329</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-R4PL1ESKqE8NrBpW5X5Kvx" type="motHeader">
         <div xml:id="i-QHpmReuQPGLg3ZwP88i91W" type="motTitle">
-          Motion till riksdagen 2019/20:329 av Hillevi Larsson (S) Kapade
-          och plundrade bostadsrättsföreningar
+          <head xml:id="i-PWbkGVR1Y8EUMLCtPFe7Wu">
+            Motion till riksdagen 2019/20:329 av Hillevi Larsson (S) Kapade
+            och plundrade bostadsrättsföreningar
+          </head>
         </div>
       </div>
       <div xml:id="i-ATiVMo2fep98vpkTrBLsQW" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-DhVkbFVLTBinaajAYo6jht">
-            <item xml:id="i-GFmTmrJnAy8L32kGGUZFD" sortKey="Yrkande 1">
+            <item xml:id="i-GFmTmrJnAy8L32kGGUZFD" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om behov
               av översyn av lagstiftningen mot kapning och plundring av bostadsrättsföreningar
               och tillkännager detta för regeringen.
@@ -283,13 +287,13 @@
               kunna sälja sin lägenhet och flytta.
             </item>
           </list>
-        </div>
-        <div xml:id="i-QRpN9ZK9o5xa9VekfvmfEz" type="signatureBlock">
-          <list xml:id="i-NxEMikQ6x4qH8nru5qcEuT">
-            <item xml:id="i-W7wsKESYfWw42DKrWbmMVV" who="i-EgqHRHVoW5y9USDYuNoYuA" type="signature">
-              Hillevi Larsson (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-QRpN9ZK9o5xa9VekfvmfEz">
+            <list xml:id="i-NxEMikQ6x4qH8nru5qcEuT">
+              <item xml:id="i-W7wsKESYfWw42DKrWbmMVV" who="i-EgqHRHVoW5y9USDYuNoYuA" type="signature">
+                Hillevi Larsson (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

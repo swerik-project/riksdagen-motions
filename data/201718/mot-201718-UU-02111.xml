@@ -14,7 +14,9 @@
           <title>Motion 2017/18:2111 av Annika Lillemets m.fl. (MP, V)</title>
           <idno type="rdwebb">H5022111</idno>
           <rs type="number">2111</rs>
-          <orgName type="comitteeAbbreviation">UU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>UU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5022111/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5022111</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5022111</ref>
@@ -106,8 +108,10 @@
     <body>
       <div xml:id="i-Gb5f7rVKUhfEKi7AzRpYD8" type="motHeader">
         <div xml:id="i-HArLXHFi23cwdtk3hChSS5" type="motTitle">
-          Motion till riksdagen 2017/18:2111 av Annika Lillemets m.fl.
-          (MP, V) Ekocid
+          <head xml:id="i-WaRTFzrYFc5wbmYFfvszno">
+            Motion till riksdagen 2017/18:2111 av Annika Lillemets m.fl.
+            (MP, V) Ekocid
+          </head>
         </div>
       </div>
       <div xml:id="i-T8sBwhyeVuhxeshpjjAbtk" type="motBody">
@@ -116,7 +120,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-Euj6TEcWCcfvjbLcwLJJYa">
-            <item xml:id="i-Me79U8MN8mdWdVbocTkMcS" sortKey="Yrkande 1">
+            <item xml:id="i-Me79U8MN8mdWdVbocTkMcS" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om ekocid
               och tillkännager detta för regeringen.
             </item>
@@ -215,22 +219,22 @@
             Romstadgan begär ett tillägg till denna. Det kan och bör Sverige
             göra. Detta bör riksdagen ge regeringen tillkänna som sin mening.
           </p>
-        </div>
-        <div xml:id="i-EuFhKExMqbPyfezeYjBptG" type="signatureBlock">
-          <list xml:id="i-MGisqQ8f26H34M7Yhateqw">
-            <item xml:id="i-GCFwr3J6fRhsmqyGvHGpqX" who="i-DLt3BwBDVwBxqxVEki5m5B" type="signature">
-              Annika Lillemets (MP)
-            </item>
-            <item xml:id="i-AGzADCbqGcjF3vuG74Vm9w" who="i-FeVXF7pVocmUfQoPXGuJKR" type="signature">
-              Valter Mutt (MP)
-            </item>
-            <item xml:id="i-USwzoiPrEa1ZTgjaS4Qa5w" who="i-HNw1w34Sd2tGfFnWtdrzZb" type="signature">
-              Jens Holm (V)
-            </item>
-            <item xml:id="i-3RPmwyfhm9vHBbZ92Fzriw" who="i-42mC5GTVNHcPV5LNMmxmrj" type="signature">
-              Carl Schlyter (MP)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-EuFhKExMqbPyfezeYjBptG">
+            <list xml:id="i-MGisqQ8f26H34M7Yhateqw">
+              <item xml:id="i-GCFwr3J6fRhsmqyGvHGpqX" who="i-DLt3BwBDVwBxqxVEki5m5B" type="signature">
+                Annika Lillemets (MP)
+              </item>
+              <item xml:id="i-AGzADCbqGcjF3vuG74Vm9w" who="i-FeVXF7pVocmUfQoPXGuJKR" type="signature">
+                Valter Mutt (MP)
+              </item>
+              <item xml:id="i-USwzoiPrEa1ZTgjaS4Qa5w" who="i-HNw1w34Sd2tGfFnWtdrzZb" type="signature">
+                Jens Holm (V)
+              </item>
+              <item xml:id="i-3RPmwyfhm9vHBbZ92Fzriw" who="i-42mC5GTVNHcPV5LNMmxmrj" type="signature">
+                Carl Schlyter (MP)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

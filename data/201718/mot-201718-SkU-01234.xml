@@ -14,7 +14,9 @@
           <title>Motion 2017/18:1234 av Margareta Cederfelt (M)</title>
           <idno type="rdwebb">H5021234</idno>
           <rs type="number">1234</rs>
-          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SkU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5021234/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5021234</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5021234</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-CmP4BHJvTgrmbjNgBSATcL" type="motHeader">
         <div xml:id="i-JBZnKA7bNqkoQ2WNDZKHhi" type="motTitle">
-          Motion till riksdagen 2017/18:1234 av Margareta Cederfelt (M)
-          Sänkta skatter för ökad egenmakt
+          <head xml:id="i-EwYZZA1AHyUwKa861dJnoy">
+            Motion till riksdagen 2017/18:1234 av Margareta Cederfelt (M)
+            Sänkta skatter för ökad egenmakt
+          </head>
         </div>
       </div>
       <div xml:id="i-YbjHCBxbpntN8pekwC6RBo" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-VebM9nSzFtWJ7U7vVWCMDw">
-            <item xml:id="i-KMdrJw6vMbwxC5SNRf3Rxi" sortKey="Yrkande 1">
+            <item xml:id="i-KMdrJw6vMbwxC5SNRf3Rxi" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               se över möjligheten till sänkta skatter för ökad egenmakt och
               tillkännager detta för regeringen.
@@ -144,13 +148,13 @@
             måste dock vara att skattesänkningarna görs så att människors
             egenmakt ökar.
           </p>
-        </div>
-        <div xml:id="i-SBRrNJCm45p97gKJmxa7Xy" type="signatureBlock">
-          <list xml:id="i-2aqTymVwS8FxEpuJGw5TAF">
-            <item xml:id="i-Hcb5XdqxtJQhkFWHQxTKGD" who="i-GJLL78ePjJhSXVWBYyRW8t" type="signature">
-              Margareta Cederfelt (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-SBRrNJCm45p97gKJmxa7Xy">
+            <list xml:id="i-2aqTymVwS8FxEpuJGw5TAF">
+              <item xml:id="i-Hcb5XdqxtJQhkFWHQxTKGD" who="i-GJLL78ePjJhSXVWBYyRW8t" type="signature">
+                Margareta Cederfelt (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

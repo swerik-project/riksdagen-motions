@@ -14,7 +14,9 @@
           <title>Motion 2022/23:2205 av Malin Björk m.fl. (C)</title>
           <idno type="rdwebb">HA022205</idno>
           <rs type="number">2205</rs>
-          <orgName type="comitteeAbbreviation">KU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HA022205/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HA022205</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HA022205</ref>
@@ -98,8 +100,10 @@
     <body>
       <div xml:id="i-FAn6rhE5vnoCxWskhhGHU7" type="motHeader">
         <div xml:id="i-B21ENuY4PPYQQF7gKVV7Bj" type="motTitle">
-          Motion till riksdagen 2022/23:2205 av Malin Björk m.fl. (C) Utgiftsområde
-          1 Rikets styrelse
+          <head xml:id="i-HY1E9ntodY7QVM3wzz3xu2">
+            Motion till riksdagen 2022/23:2205 av Malin Björk m.fl. (C) Utgiftsområde
+            1 Rikets styrelse
+          </head>
         </div>
       </div>
       <div xml:id="i-AMZU36c7w6iMfBsgHpxFhc" type="motBody">
@@ -108,7 +112,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-6aj8dUBTU1iysDMV2qLyTG">
-            <item xml:id="i-L39gJYB4fMYXYxXzZ5XLJS" sortKey="Yrkande 1">
+            <item xml:id="i-L39gJYB4fMYXYxXzZ5XLJS" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2023 inom utgiftsområde 1 Rikets
               styrelse enligt förslaget i tabell 1 i motionen.
             </item>
@@ -141,9 +145,9 @@
             det är att genomdriva den politik som fått stöd i allmänna val
             måste göra så på ett effektivt och transparent sätt.
           </p>
-          <head xml:id="i-B4LcUSae8AUHJfQVvLJgCg" type="h2">
+          <subhead xml:id="i-B4LcUSae8AUHJfQVvLJgCg" type="h2">
             Centerpartiets överväganden
-          </head>
+          </subhead>
           <p xml:id="i-WCGf9emS2DyoMYta644VM5">
             Tabell 1 Anslagsförslag 2023 för utgiftsområde 01 Rikets styrelse
           </p>
@@ -497,19 +501,19 @@
             Därutöver föreslår Centerpartiet en sänkning av pris- och löneomräkningen,
             vilket påverkar de anslag som räknas upp med denna.
           </p>
-        </div>
-        <div xml:id="i-GS7xGCJaQTbni6MBw3CMFZ" type="signatureBlock">
-          <list xml:id="i-7ZKAz9HjogEEEEM6s18M83">
-            <item xml:id="i-YHDqNkNPLcpWDL4GAnTSt1" who="i-X24CbizesfxM3nuznxPzAc" type="signature">
-              Malin Björk (C)
-            </item>
-            <item xml:id="i-3z66XJK9nRFkfpvRBJts5j" who="i-DRqpu2aaHKSgAVbkTGg4rs" type="signature">
-              Catarina Deremar (C)
-            </item>
-            <item xml:id="i-MqSaZnEeBDovYJRby5YKud" who="i-546v5KE6tdv62FjUQAxwTc" type="signature">
-              Christofer Bergenblock (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-GS7xGCJaQTbni6MBw3CMFZ">
+            <list xml:id="i-7ZKAz9HjogEEEEM6s18M83">
+              <item xml:id="i-YHDqNkNPLcpWDL4GAnTSt1" who="i-X24CbizesfxM3nuznxPzAc" type="signature">
+                Malin Björk (C)
+              </item>
+              <item xml:id="i-3z66XJK9nRFkfpvRBJts5j" who="i-DRqpu2aaHKSgAVbkTGg4rs" type="signature">
+                Catarina Deremar (C)
+              </item>
+              <item xml:id="i-MqSaZnEeBDovYJRby5YKud" who="i-546v5KE6tdv62FjUQAxwTc" type="signature">
+                Christofer Bergenblock (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

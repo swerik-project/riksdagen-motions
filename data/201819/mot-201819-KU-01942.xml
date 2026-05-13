@@ -14,7 +14,9 @@
           <title>Motion 2018/19:1942 av Johanna Jönsson (C)</title>
           <idno type="rdwebb">H6021942</idno>
           <rs type="number">1942</rs>
-          <orgName type="comitteeAbbreviation">KU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H6021942/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H6021942</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H6021942</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-QvztRYX9pbQRYpWJcgkwTb" type="motHeader">
         <div xml:id="i-F8zPEvdZ6nP98FL3hdfvQM" type="motTitle">
-          Motion till riksdagen 2018/19:1942 av Johanna Jönsson (C) Minskat
-          antal riksdagsledamöter
+          <head xml:id="i-CgBNPexSqiH3Q9ibmYe7UQ">
+            Motion till riksdagen 2018/19:1942 av Johanna Jönsson (C) Minskat
+            antal riksdagsledamöter
+          </head>
         </div>
       </div>
       <div xml:id="i-FkzHeCFzmJjYEce1fVVumk" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-4YuEwziaGJm4EdRTxXUBvd">
-            <item xml:id="i-YR9WS2iaUnktqrfuFtUdLd" sortKey="Yrkande 1">
+            <item xml:id="i-YR9WS2iaUnktqrfuFtUdLd" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               tillsätta en utredning med syftet att minska antalet ledamöter
               i Sveriges riksdag till 249 och att en del av de resurser som
@@ -139,13 +143,13 @@
             utredas men en modest minskning av kammarens omfång från 349 till
             249 ledamöter vore inte otänkbar.
           </p>
-        </div>
-        <div xml:id="i-SS2iJMMyKp7vVmPsiBGjvg" type="signatureBlock">
-          <list xml:id="i-7gz9mh7zxqqqXofJqTMHUQ">
-            <item xml:id="i-F1CSwm1mqFAykBh384Ckko" who="i-TmLYgRSM5JFBMdRVjsJ2q4" type="signature">
-              Johanna Jönsson (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-SS2iJMMyKp7vVmPsiBGjvg">
+            <list xml:id="i-7gz9mh7zxqqqXofJqTMHUQ">
+              <item xml:id="i-F1CSwm1mqFAykBh384Ckko" who="i-TmLYgRSM5JFBMdRVjsJ2q4" type="signature">
+                Johanna Jönsson (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

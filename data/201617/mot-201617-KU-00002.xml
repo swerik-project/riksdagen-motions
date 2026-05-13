@@ -14,7 +14,9 @@
           <title>Motion 2016/17:2 av Niclas Malmberg (MP)</title>
           <idno type="rdwebb">H4022</idno>
           <rs type="number">2</rs>
-          <orgName type="comitteeAbbreviation">KU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4022/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4022</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4022</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-Qvwekgt12hLgVzCqgKshHn" type="motHeader">
         <div xml:id="i-HuRR6nAF2DPHfqBCmZqtjD" type="motTitle">
-          Motion till riksdagen 2016/17:2 av Niclas Malmberg (MP) Egenproducerad
-          förnybar el till riksdagen
+          <head xml:id="i-T2Tj7LV7DahmVoWs9nceAs">
+            Motion till riksdagen 2016/17:2 av Niclas Malmberg (MP) Egenproducerad
+            förnybar el till riksdagen
+          </head>
         </div>
       </div>
       <div xml:id="i-3GXTnsCWYrijDBpCBBqAjG" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-SAjt92a26cLikMgZYb94zF">
-            <item xml:id="i-AYUjjT4rLzGCrhriDooknE" sortKey="Yrkande 1">
+            <item xml:id="i-AYUjjT4rLzGCrhriDooknE" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               inleda en process för att installera solceller för den egna elförsörjningen
               och tillkännager detta för riksdagsstyrelsen.
@@ -124,9 +128,9 @@
             den fossila energin – i strid mot alla politiskt antagna klimatmål
             – kan framstå som anmärkningsvärt.
           </p>
-          <head xml:id="i-CcRSbKjQ7yvqrER3nkQLnL" type="h1">
+          <subhead xml:id="i-CcRSbKjQ7yvqrER3nkQLnL" type="h1">
             Investeringskostnader – men ekonomiskt fördelaktigt på sikt
-          </head>
+          </subhead>
           <p xml:id="i-6bG3pzJw12N82zCeAzuX4h">
             Beräkningar på hur stor solcellsanläggning som skulle behövas
             för att produktionen skulle matcha årskonsumtionen av el visar
@@ -162,13 +166,13 @@
             diselgeneratorn för att ge backup vid elavbrott, och göra riksdagens
             elförsörjning helt fossiloberoende!
           </p>
-        </div>
-        <div xml:id="i-6Yo3wdWy9MkVvFujNurZzE" type="signatureBlock">
-          <list xml:id="i-NZaWXBRWXq6iBbAY6b3uw9">
-            <item xml:id="i-3roYWnT4DErPZFWmWQzN68" who="i-M1BGVoUpAkXK7M1XiJWRAe" type="signature">
-              Niclas Malmberg (MP)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-6Yo3wdWy9MkVvFujNurZzE">
+            <list xml:id="i-NZaWXBRWXq6iBbAY6b3uw9">
+              <item xml:id="i-3roYWnT4DErPZFWmWQzN68" who="i-M1BGVoUpAkXK7M1XiJWRAe" type="signature">
+                Niclas Malmberg (MP)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2022/23:1994 av Fredrik Lundh Sammeli m.fl. (S)</title>
           <idno type="rdwebb">HA021994</idno>
           <rs type="number">1994</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HA021994/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HA021994</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HA021994</ref>
@@ -106,8 +108,10 @@
     <body>
       <div xml:id="i-N9CNJmw9uGxZHB5YSMHxZB" type="motHeader">
         <div xml:id="i-Hv3sTK4RpxWJN4PAUbEo8k" type="motTitle">
-          Motion till riksdagen 2022/23:1994 av Fredrik Lundh Sammeli m.fl.
-          (S) Uppkoppling i hela Sverige
+          <head xml:id="i-M3yJQ4vFmyHnePoRTN2nvd">
+            Motion till riksdagen 2022/23:1994 av Fredrik Lundh Sammeli m.fl.
+            (S) Uppkoppling i hela Sverige
+          </head>
         </div>
       </div>
       <div xml:id="i-9nzgpi8TWFrhRWhpAg7WyY" type="motBody">
@@ -116,7 +120,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-Nh7kgsZYSKL9pmReJDPx8R">
-            <item xml:id="i-DXbvrab9meDx6tzgAa3Tgt" sortKey="Yrkande 1">
+            <item xml:id="i-DXbvrab9meDx6tzgAa3Tgt" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om mobiltäckning
               och bredbandstillgång som en statlig angelägenhet och tillkännager
               detta för regeringen.
@@ -187,22 +191,22 @@
             Mobiltäckning och bredbandstillgång är en statlig angelägenhet
             som inte kan begränsas till marknadens ramar.
           </p>
-        </div>
-        <div xml:id="i-EVhf4fuHwguFtn5yMiYgDB" type="signatureBlock">
-          <list xml:id="i-GhAuYX4Rbcnitxu9AUqSUk">
-            <item xml:id="i-8DvsaXj189oEZ5kjnkgbpX" who="i-KCyyRs9HnkQhss61gii5F7" type="signature">
-              Fredrik Lundh Sammeli (S)
-            </item>
-            <item xml:id="i-9CbiMUJzbnKnf4w1ghRweb" who="i-Xvwr4Q7CsjqRAtkC5NmcYG" type="signature">
-              Linus Sköld (S)
-            </item>
-            <item xml:id="i-XcBpiE7tKoHgNENLwdRcw4" who="i-LL8Bee3zYHnuxQrwejsiTf" type="signature">
-              Ida Karkiainen (S)
-            </item>
-            <item xml:id="i-LzGFGrMbJEn8hqpxNpr17n" who="i-ALSqZDERrTV2VUJqcfC5VF" type="signature">
-              Zara Leghissa (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-EVhf4fuHwguFtn5yMiYgDB">
+            <list xml:id="i-GhAuYX4Rbcnitxu9AUqSUk">
+              <item xml:id="i-8DvsaXj189oEZ5kjnkgbpX" who="i-KCyyRs9HnkQhss61gii5F7" type="signature">
+                Fredrik Lundh Sammeli (S)
+              </item>
+              <item xml:id="i-9CbiMUJzbnKnf4w1ghRweb" who="i-Xvwr4Q7CsjqRAtkC5NmcYG" type="signature">
+                Linus Sköld (S)
+              </item>
+              <item xml:id="i-XcBpiE7tKoHgNENLwdRcw4" who="i-LL8Bee3zYHnuxQrwejsiTf" type="signature">
+                Ida Karkiainen (S)
+              </item>
+              <item xml:id="i-LzGFGrMbJEn8hqpxNpr17n" who="i-ALSqZDERrTV2VUJqcfC5VF" type="signature">
+                Zara Leghissa (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

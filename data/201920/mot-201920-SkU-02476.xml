@@ -14,7 +14,9 @@
           <title>Motion 2019/20:2476 av Margareta Cederfelt (M)</title>
           <idno type="rdwebb">H7022476</idno>
           <rs type="number">2476</rs>
-          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SkU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H7022476/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H7022476</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H7022476</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-Y3XK5VnFgzCZSE3P2FJSDz" type="motHeader">
         <div xml:id="i-9L66jT4vztPBxAhHwtWQfU" type="motTitle">
-          Motion till riksdagen 2019/20:2476 av Margareta Cederfelt (M)
-          Sänkt skatt på husbilar
+          <head xml:id="i-Hkjqq5pyzJuWYtQgyTcufU">
+            Motion till riksdagen 2019/20:2476 av Margareta Cederfelt (M)
+            Sänkt skatt på husbilar
+          </head>
         </div>
       </div>
       <div xml:id="i-EczuPHLFZ5B2TFHnKE55wJ" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-W4aR8F8QJfMe5fqNRMeNd5">
-            <item xml:id="i-HYEiqpWEHWrRQUwNunBSya" sortKey="Yrkande 1">
+            <item xml:id="i-HYEiqpWEHWrRQUwNunBSya" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om en översyn
               av den höjda skatten för husbilar inköpta i Sverige och tillkännager
               detta för regeringen.
@@ -135,17 +139,17 @@
             arbetar inom husbilsbranschen. Skattehöjningen påverkar branschens
             alla led: återförsäljare, importörer, grossister, underleverantörer
           </p>
-          <head xml:id="i-C6KZ1M1FS3kPsp7Eb1Zfdj" type="h1">
+          <subhead xml:id="i-C6KZ1M1FS3kPsp7Eb1Zfdj" type="h1">
             och verkstäder. Den höjda skatten för husbilar inköpta i Sverige
             bör därför snarast ses över.
-          </head>
-        </div>
-        <div xml:id="i-FkQRCSkEn1dW5CkihZz1Tv" type="signatureBlock">
-          <list xml:id="i-JTaNRZ7ajJAxjEcs551Ssw">
-            <item xml:id="i-F7XwWaV71zARxPmCi4to1t" who="i-GJLL78ePjJhSXVWBYyRW8t" type="signature">
-              Margareta Cederfelt (M)
-            </item>
-          </list>
+          </subhead>
+          <signatureBlock xml:id="i-FkQRCSkEn1dW5CkihZz1Tv">
+            <list xml:id="i-JTaNRZ7ajJAxjEcs551Ssw">
+              <item xml:id="i-F7XwWaV71zARxPmCi4to1t" who="i-GJLL78ePjJhSXVWBYyRW8t" type="signature">
+                Margareta Cederfelt (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

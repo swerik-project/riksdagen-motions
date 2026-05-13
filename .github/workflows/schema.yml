@@ -1,0 +1,453 @@
+name: Validate XML
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate-19thC:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          mill run ../test/data/schema/riksdagen-motions.xsd ../data/18*/*.xml
+
+
+  validate-1900s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          mill run ../test/data/schema/riksdagen-motions.xsd ../data/190*/*.xml
+
+
+  validate-1910s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          mill run ../test/data/schema/riksdagen-motions.xsd ../data/191*/*.xml
+
+
+  validate-1920s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          mill run ../test/data/schema/riksdagen-motions.xsd ../data/192*/*.xml
+
+
+  validate-1930s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          mill run ../test/data/schema/riksdagen-motions.xsd ../data/193*/*.xml
+
+
+  validate-1940s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          mill run ../test/data/schema/riksdagen-motions.xsd ../data/194*/*.xml
+
+
+  validate-1950s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          mill run ../test/data/schema/riksdagen-motions.xsd ../data/195*/*.xml
+
+
+  validate-1960s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          mill run ../test/data/schema/riksdagen-motions.xsd ../data/196*/*.xml
+
+
+  validate-1970s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          mill run ../test/data/schema/riksdagen-motions.xsd ../data/197*/*.xml
+
+
+  validate-1980s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          mill run ../test/data/schema/riksdagen-motions.xsd ../data/198*/*.xml
+
+
+  validate-1990s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          for year in ../data/199*/ ; do mill run ../test/data/schema/riksdagen-motions.xsd $year*.xml; done
+
+
+  validate-2000s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          for year in ../data/200*/ ; do mill run ../test/data/schema/riksdagen-motions.xsd $year*.xml; done
+
+
+  validate-2010s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          for year in ../data/201*/ ; do mill run ../test/data/schema/riksdagen-motions.xsd $year*.xml; done
+
+
+  validate-2020s:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout validator repo
+        uses: actions/checkout@v4
+        with:
+          repository: swerik-project/parlaclarin-validation
+          ref: main
+          path: parlaclarin-validation
+          token: ${{ secrets.VALIDATOR_REPO_TOKEN }}
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install Mill
+        uses: jodersky/setup-mill@v0.3.0
+        with:
+          mill-version: 0.11.5
+
+      - name: Run validator
+        working-directory: parlaclarin-validation
+        run: |
+          for year in ../data/202*/ ; do mill run ../test/data/schema/riksdagen-motions.xsd $year*.xml; done

@@ -14,7 +14,9 @@
           <title>Motion 2016/17:1191 av Solveig Zander och Annika Qarlsson (båda C)</title>
           <idno type="rdwebb">H4021191</idno>
           <rs type="number">1191</rs>
-          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SkU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4021191/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4021191</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4021191</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-GeLGk3ZzbNd6SREewci9MF" type="motHeader">
         <div xml:id="i-XrqNUjsGBaf7cx5Bdxpea1" type="motTitle">
-          Motion till riksdagen 2016/17:1191 av Solveig Zander och Annika
-          Qarlsson (båda C) Unikt organisationsnummer för enskild firma
+          <head xml:id="i-FiZCWdWaVGKqrz2zBnExF1">
+            Motion till riksdagen 2016/17:1191 av Solveig Zander och Annika
+            Qarlsson (båda C) Unikt organisationsnummer för enskild firma
+          </head>
         </div>
       </div>
       <div xml:id="i-WRxt7uxKg9Th5BsGUabnjh" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-FnU3iUW1XPu1o4pbAsXxkH">
-            <item xml:id="i-QRqkAxVquZrAmPNk4Ewpey" sortKey="Yrkande 1">
+            <item xml:id="i-QRqkAxVquZrAmPNk4Ewpey" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               det ska vara möjligt att ha ett unikt organisationsnummer på företag
               som drivs som enskild firma, och detta tillkännager riksdagen
@@ -147,16 +151,16 @@
             Med hänvisning till ovanstående måste regelverket ändras så att
             alla företagsformer kan ha möjlighet att ha ett unikt organisationsnummer.
           </p>
-        </div>
-        <div xml:id="i-3NdtEwgkUqtJcuMvuEa5KC" type="signatureBlock">
-          <list xml:id="i-2Vzg5Q3mdHPSnmJFauAcUf">
-            <item xml:id="i-7qrSyKvK1aWH4JLUFisV11" who="i-UT1ponddSVxoVpn779syr7" type="signature">
-              Solveig Zander (C)
-            </item>
-            <item xml:id="i-QNigdfoPasgqBwUXg4bwtn" who="i-NRb4HpaQ87qUwhLNcKt7Gz" type="signature">
-              Annika Qarlsson (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-3NdtEwgkUqtJcuMvuEa5KC">
+            <list xml:id="i-2Vzg5Q3mdHPSnmJFauAcUf">
+              <item xml:id="i-7qrSyKvK1aWH4JLUFisV11" who="i-UT1ponddSVxoVpn779syr7" type="signature">
+                Solveig Zander (C)
+              </item>
+              <item xml:id="i-QNigdfoPasgqBwUXg4bwtn" who="i-NRb4HpaQ87qUwhLNcKt7Gz" type="signature">
+                Annika Qarlsson (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

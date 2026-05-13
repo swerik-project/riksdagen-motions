@@ -14,7 +14,9 @@
           <title>Motion 2023/24:1461 av Markus Wiechel och Alexander Christiansson (båda SD)</title>
           <idno type="rdwebb">HB021461</idno>
           <rs type="number">1461</rs>
-          <orgName type="comitteeAbbreviation">UbU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>UbU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HB021461/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HB021461</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HB021461</ref>
@@ -101,8 +103,10 @@
     <body>
       <div xml:id="i-RdXzQRNtcPA1H2urzVKgZZ" type="motHeader">
         <div xml:id="i-94rRRda9VHMXFpNjbg77pd" type="motTitle">
-          Motion till riksdagen 2023/24:1461 av Markus Wiechel och Alexander
-          Christiansson (båda SD) Bättre matchning inför framtida yrkesval
+          <head xml:id="i-RZNoUfHHaf7y41MEyn7JgT">
+            Motion till riksdagen 2023/24:1461 av Markus Wiechel och Alexander
+            Christiansson (båda SD) Bättre matchning inför framtida yrkesval
+          </head>
         </div>
       </div>
       <div xml:id="i-FpJZoMmmXuULi7UiEoyXPp" type="motBody">
@@ -111,7 +115,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-Lp7veo4mr5Ek6fMNnk3wBW">
-            <item xml:id="i-XQiQE8MRYMrMtpBna7MjmK" sortKey="Yrkande 1">
+            <item xml:id="i-XQiQE8MRYMrMtpBna7MjmK" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               regeringen bör se över möjligheten till att bättre redovisa chansen
               till olika arbetstillfällen vid olika utbildningar och tillkännager
@@ -119,7 +123,7 @@
             </item>
           </list>
           <list xml:id="i-XHdAKLcpZZwQmyMwTJULXJ">
-            <item xml:id="i-DAWsbmrGZqybQobNAPdkA1" sortKey="Yrkande 2">
+            <item xml:id="i-DAWsbmrGZqybQobNAPdkA1" sortKey="yrkande_002">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               regeringen bör se över möjligheten att utreda införandet av en
               effektivare studie- och yrkesvägledning och tillkännager detta
@@ -127,7 +131,7 @@
             </item>
           </list>
           <list xml:id="i-QUNcUcBDUH9CPgfJudTQHz">
-            <item xml:id="i-JRogTkemU53nVsbCu8HRBu" sortKey="Yrkande 3">
+            <item xml:id="i-JRogTkemU53nVsbCu8HRBu" sortKey="yrkande_003">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               regeringen bör se över möjligheten att utreda förutsättningarna
               för fler universitet och högskolor att inrätta öppna utbildningar
@@ -184,9 +188,9 @@
             för Sverige att få en lika effektiv studie- och yrkesvägledning
             samt hur studie- och yrkesvägledarnas uppdrag kan bli tydligare.
           </p>
-          <head xml:id="i-KWRUTvX5DBUPBEYsf2ku34" type="h2">
+          <subhead xml:id="i-KWRUTvX5DBUPBEYsf2ku34" type="h2">
             Öppen utbildning vid svenska universitet och högskolor
-          </head>
+          </subhead>
           <p xml:id="i-UAWGCN8iM9nhftvHUwpEPj">
             Kunskap är makt. Lunds universitet är det första lärosätet i
             Sverige som påbörjat en utredning om möjligheten att erbjuda kostnadsfri
@@ -213,16 +217,16 @@
             fler universitet och högskolor att införa öppna utbildningar via
             nätet.
           </p>
-        </div>
-        <div xml:id="i-61KgQq9nKZxy2RNoDTXWtW" type="signatureBlock">
-          <list xml:id="i-2DZQEBzJF8nfgDJ93oxXh3">
-            <item xml:id="i-J9zRiEeE55sNVKA43hChyt" who="i-Lw92TAaAVgG8Kdf7YxhViy" type="signature">
-              Markus Wiechel (SD)
-            </item>
-            <item xml:id="i-EbxcH4qqrVHNWiiKCTk6MU" who="i-TXWjMfPNdu6NddKf5hSeRx" type="signature">
-              Alexander Christiansson (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-61KgQq9nKZxy2RNoDTXWtW">
+            <list xml:id="i-2DZQEBzJF8nfgDJ93oxXh3">
+              <item xml:id="i-J9zRiEeE55sNVKA43hChyt" who="i-Lw92TAaAVgG8Kdf7YxhViy" type="signature">
+                Markus Wiechel (SD)
+              </item>
+              <item xml:id="i-EbxcH4qqrVHNWiiKCTk6MU" who="i-TXWjMfPNdu6NddKf5hSeRx" type="signature">
+                Alexander Christiansson (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

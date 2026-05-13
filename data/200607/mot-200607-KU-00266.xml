@@ -14,7 +14,9 @@
           <title>Elektronisk signatur på riksdagsmotioner</title>
           <idno type="rdwebb">GU02K266</idno>
           <rs type="number">K266</rs>
-          <orgName type="comitteeAbbreviation">KU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02K266/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02K266</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02K266</ref>
@@ -83,9 +85,9 @@
           <head xml:id="i-W2XrLWqJCbTmhkg9is51PL" type="h1">
             Elektronisk signatur på riksdagsmotioner
           </head>
-          <head xml:id="i-HQuz3AMcus9ZQXFsKBrWX3" type="h1">
+          <subhead xml:id="i-HQuz3AMcus9ZQXFsKBrWX3" type="h1">
             Motivering
-          </head>
+          </subhead>
           <p xml:id="i-14KGjk4wRATxjhtDCDntGi">
             Den snabba utvecklingen av Internet har inneburit stora fördelar
             när det gäller att överbrygga geografiska avstånd mellan människor.
@@ -147,13 +149,13 @@
             papper fram och tillbaka mellan riksdagens kammarkansli och ledamöters
             och anställdas arbetsrum.
           </p>
-        </div>
-        <div xml:id="i-CqAMUkrs8EWjML1SAtrjw4" type="signatureBlock">
-          <list xml:id="i-4zbikJwHZSHLdah9LRs5Pc">
-            <item xml:id="i-5MSZAz26EGFUN2pdT8JT5Y" who="i-EgqHRHVoW5y9USDYuNoYuA" type="signature">
-              Hillevi Larsson (s)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-CqAMUkrs8EWjML1SAtrjw4">
+            <list xml:id="i-4zbikJwHZSHLdah9LRs5Pc">
+              <item xml:id="i-5MSZAz26EGFUN2pdT8JT5Y" who="i-EgqHRHVoW5y9USDYuNoYuA" type="signature">
+                Hillevi Larsson (s)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

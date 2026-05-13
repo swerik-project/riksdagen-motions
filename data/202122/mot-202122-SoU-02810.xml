@@ -14,7 +14,9 @@
           <title>Motion 2021/22:2810 av Maria Malmer Stenergard och Jessika Roswall (båda M)</title>
           <idno type="rdwebb">H9022810</idno>
           <rs type="number">2810</rs>
-          <orgName type="comitteeAbbreviation">SoU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SoU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H9022810/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H9022810</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H9022810</ref>
@@ -90,9 +92,11 @@
     <body>
       <div xml:id="i-ETvUNuDwikcAxKG1BELNus" type="motHeader">
         <div xml:id="i-83RaDJsdxYyZ62cAR9T7hq" type="motTitle">
-          Motion till riksdagen 2021/22:2810 av Maria Malmer Stenergard
-          och Jessika Roswall (båda M) Föräldrars möjligheter att kontakta
-          vårdgivare
+          <head xml:id="i-LtFuie6iMr9KedSr4bxzMJ">
+            Motion till riksdagen 2021/22:2810 av Maria Malmer Stenergard
+            och Jessika Roswall (båda M) Föräldrars möjligheter att kontakta
+            vårdgivare
+          </head>
         </div>
       </div>
       <div xml:id="i-GT5ocZogrZwe2ZwUdxnBvL" type="motBody">
@@ -101,7 +105,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-YWCnWhvE7hLMWaGCbKHwdA">
-            <item xml:id="i-ADhqDbejNZppwMfyhKvaBm" sortKey="Yrkande 1">
+            <item xml:id="i-ADhqDbejNZppwMfyhKvaBm" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               garantera vårdnadshavare insyn i sina barns medicinska dokumentation
               och tillkännager detta för regeringen.
@@ -183,16 +187,16 @@
             enskilda barnets medicinska tillstånd och möjlighet att utöva
             kontakter med vårdgivare är ett viktigt steg i detta.
           </p>
-        </div>
-        <div xml:id="i-NHxuhKvMQJZGYuJDTcvsDf" type="signatureBlock">
-          <list xml:id="i-2rqBAnMYvjoG1FbJDvagTW">
-            <item xml:id="i-Xrs3pBfM17dDxxyRjMWcev" who="i-MEQoHPb6qh2nYtPCAZQYv3" type="signature">
-              Maria Malmer Stenergard (M)
-            </item>
-            <item xml:id="i-F3KMvpJy82Pb2U4jagALxq" who="i-TMBKCxFj2h6LkEEpYodyut" type="signature">
-              Jessika Roswall (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-NHxuhKvMQJZGYuJDTcvsDf">
+            <list xml:id="i-2rqBAnMYvjoG1FbJDvagTW">
+              <item xml:id="i-Xrs3pBfM17dDxxyRjMWcev" who="i-MEQoHPb6qh2nYtPCAZQYv3" type="signature">
+                Maria Malmer Stenergard (M)
+              </item>
+              <item xml:id="i-F3KMvpJy82Pb2U4jagALxq" who="i-TMBKCxFj2h6LkEEpYodyut" type="signature">
+                Jessika Roswall (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

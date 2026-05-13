@@ -14,7 +14,9 @@
           <title>Motion 2022/23:116 av Viktor Wärnick och John E Weinerhall (båda M)</title>
           <idno type="rdwebb">HA02116</idno>
           <rs type="number">116</rs>
-          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>MJU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HA02116/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HA02116</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HA02116</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-XMt8vwqP7eeyy3Cq21RLR" type="motHeader">
         <div xml:id="i-MkhFdT8iHBVuQNSPPN4nX9" type="motTitle">
-          Motion till riksdagen 2022/23:116 av Viktor Wärnick och John
-          E Weinerhall (båda M) Allmän jakt på skarv och andra åtgärder
+          <head xml:id="i-9WQyytPx9DS7Zt2w9rXqtH">
+            Motion till riksdagen 2022/23:116 av Viktor Wärnick och John
+            E Weinerhall (båda M) Allmän jakt på skarv och andra åtgärder
+          </head>
         </div>
       </div>
       <div xml:id="i-Qg5sYqPm4XRFG1rhEQq2Hw" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-QHg1yG7S4n6HVYwJaYEXGE">
-            <item xml:id="i-VGnn5EZpzqymN5PrVggwkk" sortKey="Yrkande 1">
+            <item xml:id="i-VGnn5EZpzqymN5PrVggwkk" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om problematiken
               med skarvens utbredning och att möjligheten till allmän jakt på
               fågeln ska ses över, i kombination med att andra åtgärder bör
@@ -161,16 +165,16 @@
             för kommunerna att vidta för att få bort skarven och dess skadliga
             effekter.
           </p>
-        </div>
-        <div xml:id="i-7Bs9Jjj4kAHWdZ2udeB15i" type="signatureBlock">
-          <list xml:id="i-PSGimjPucUU9tVDQCaGkc2">
-            <item xml:id="i-UqpPKSjnwFVM8feKJ3bSjk" who="i-GYDmDYBwvSBCyuntDBrarj" type="signature">
-              Viktor Wärnick (M)
-            </item>
-            <item xml:id="i-6DMZvXimCKfgi9AGw6hLSh" who="i-UwP5i3Nf2rsj5W3x9BMAEh" type="signature">
-              John E Weinerhall (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-7Bs9Jjj4kAHWdZ2udeB15i">
+            <list xml:id="i-PSGimjPucUU9tVDQCaGkc2">
+              <item xml:id="i-UqpPKSjnwFVM8feKJ3bSjk" who="i-GYDmDYBwvSBCyuntDBrarj" type="signature">
+                Viktor Wärnick (M)
+              </item>
+              <item xml:id="i-6DMZvXimCKfgi9AGw6hLSh" who="i-UwP5i3Nf2rsj5W3x9BMAEh" type="signature">
+                John E Weinerhall (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

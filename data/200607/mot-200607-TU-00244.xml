@@ -14,7 +14,9 @@
           <title>Körkort</title>
           <idno type="rdwebb">GU02T244</idno>
           <rs type="number">T244</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/GU02T244/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/GU02T244</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/GU02T244</ref>
@@ -83,9 +85,9 @@
           <head xml:id="i-N1xGH1kZ9fbhhmtLshj5q5" type="h1">
             Körkort
           </head>
-          <head xml:id="i-2oV5RYLpwASfVV2TogLMLd" type="h1">
+          <subhead xml:id="i-2oV5RYLpwASfVV2TogLMLd" type="h1">
             Motivering
-          </head>
+          </subhead>
           <p xml:id="i-Y1XYH6iqKtMJtT2eHDq5Lg">
             Den viktbegränsningsindelning vad gäller vilken körkortsbeteckning
             man behöver för att köra ett tungt släp gjordes för ett antal
@@ -102,13 +104,13 @@
             totalvikt inte får överstiga dragbilens tjänstevikt. Men det är
             viktigt att både bilens och släpfordonets totalvikt höjs.
           </p>
-        </div>
-        <div xml:id="i-EoYpsk2RMktAnsujydRbCU" type="signatureBlock">
-          <list xml:id="i-5HxPzNYwgZVfBgvVUxpUKp">
-            <item xml:id="i-7Qbr6deQqcpCW5MirhASur" who="i-TZHBPDEfPriGgMd5y7LfJG" type="signature">
-              Lars U Granberg (s)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-EoYpsk2RMktAnsujydRbCU">
+            <list xml:id="i-5HxPzNYwgZVfBgvVUxpUKp">
+              <item xml:id="i-7Qbr6deQqcpCW5MirhASur" who="i-TZHBPDEfPriGgMd5y7LfJG" type="signature">
+                Lars U Granberg (s)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

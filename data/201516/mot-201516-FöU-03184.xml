@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3184 av Daniel Bäckström m.fl. (C)</title>
           <idno type="rdwebb">H3023184</idno>
           <rs type="number">3184</rs>
-          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FöU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023184/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023184</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023184</ref>
@@ -98,8 +100,10 @@
     <body>
       <div xml:id="i-2bkwsDKg5ZBRZZNM7P3rXr" type="motHeader">
         <div xml:id="i-8wpntwPYwcn13FmYqzwFFt" type="motTitle">
-          Motion till riksdagen 2015/16:3184 av Daniel Bäckström m.fl.
-          (C) Utgiftsområde 6 Försvar och samhällets krisberedskap
+          <head xml:id="i-JggzKXQkHYkMzFwiHuGZc3">
+            Motion till riksdagen 2015/16:3184 av Daniel Bäckström m.fl.
+            (C) Utgiftsområde 6 Försvar och samhällets krisberedskap
+          </head>
         </div>
       </div>
       <div xml:id="i-A5Mo8DmogAwYHtZAyZkQ2K" type="motBody">
@@ -118,10 +122,10 @@
           <head xml:id="i-FN4HrY6B72AFGDFJy9dWq3" type="h1">
             Motivering
           </head>
-          <head xml:id="i-JUvrS2YtZB5KJxEsySyCpC" type="h3">
+          <subhead xml:id="i-JUvrS2YtZB5KJxEsySyCpC" type="h3">
             Tabell 1. Centerpartiets förslag till anslag för 2016 uttryckt
             som differens gentemot regeringens förslag (tusental kronor)
-          </head>
+          </subhead>
           <table xml:id="i-9A5s1aRurDeLs84dpYZZvm">
             <row xml:id="i-NJXKLJ1tCmtGauATvdQcX6" style="label">
               <cell>
@@ -390,13 +394,12 @@
                 48 827 432
               </cell>
             </row>
-            <row xml:id="i-QuCeFkczQCrDpB9hh5fgiv"/>
           </table>
-          <head xml:id="i-LkmeiRT9JjGwX2KRhhKxoi" type="h3">
+          <subhead xml:id="i-LkmeiRT9JjGwX2KRhhKxoi" type="h3">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2019
             uttryckt som differens gentemot regeringens förslag (miljoner
             kronor)
-          </head>
+          </subhead>
           <table xml:id="i-V8SDLViEy1QcRLsmcjXron">
             <row xml:id="i-DWujBZzbeE7qDWn1R1Wjdh">
               <cell>
@@ -429,19 +432,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-ChdWQ8u1bgv2Uz4fTwAeMk" type="signatureBlock">
-          <list xml:id="i-HDjM2JVs8B4R3Kd4PzdoP5">
-            <item xml:id="i-7XR1HmBa3pfHEztez2khps" who="i-W1SpeP85RXQTDYN2miQfXU" type="signature">
-              Daniel Bäckström (C)
-            </item>
-            <item xml:id="i-XG5HAxdWw3odokvteXj6Np" who="i-H7qdW9GRQn7LaQ2UGGAvYC" type="signature">
-              Kerstin Lundgren (C)
-            </item>
-            <item xml:id="i-uPCT4PNuNXMmNWMMhUFbG" who="i-NXj58dUGKZNY5mhhE2y1sm" type="signature">
-              Göran Lindell (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-ChdWQ8u1bgv2Uz4fTwAeMk">
+            <list xml:id="i-HDjM2JVs8B4R3Kd4PzdoP5">
+              <item xml:id="i-7XR1HmBa3pfHEztez2khps" who="i-W1SpeP85RXQTDYN2miQfXU" type="signature">
+                Daniel Bäckström (C)
+              </item>
+              <item xml:id="i-XG5HAxdWw3odokvteXj6Np" who="i-H7qdW9GRQn7LaQ2UGGAvYC" type="signature">
+                Kerstin Lundgren (C)
+              </item>
+              <item xml:id="i-uPCT4PNuNXMmNWMMhUFbG" who="i-NXj58dUGKZNY5mhhE2y1sm" type="signature">
+                Göran Lindell (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2017/18:3275 av Mikael Jansson (SD)</title>
           <idno type="rdwebb">H5023275</idno>
           <rs type="number">3275</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5023275/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5023275</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5023275</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-Fm25mB5E39rUb7gjddRZbj" type="motHeader">
         <div xml:id="i-AV54Gcag9cFVAaLKLvN12h" type="motTitle">
-          Motion till riksdagen 2017/18:3275 av Mikael Jansson (SD) Kraftöverföring
-          med ultrahögspänd likström
+          <head xml:id="i-Stya72HbsthrYpppkMuxNE">
+            Motion till riksdagen 2017/18:3275 av Mikael Jansson (SD) Kraftöverföring
+            med ultrahögspänd likström
+          </head>
         </div>
       </div>
       <div xml:id="i-3NBUQk1yT7eqgK4iRmbJyb" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-D4nqYuPXdYLJHYaePBeToi">
-            <item xml:id="i-4VrPXG3RvHJ9Ko1CjgdB2E" sortKey="Yrkande 1">
+            <item xml:id="i-4VrPXG3RvHJ9Ko1CjgdB2E" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               det bör utredas om kraftöverföringen på de svenska stamnäten kan
               läggas om till ultrahögspänd likström (UHVDC) och tillkännager
@@ -129,22 +133,22 @@
             på området är likaså av strategisk betydelse. Mycket talar för
             att Sverige bör göra en långsiktigt klok investering i tekniken.
           </p>
-          <head xml:id="i-PLKpDE6E45DinMMboq7nMc" type="h1">
+          <subhead xml:id="i-PLKpDE6E45DinMMboq7nMc" type="h1">
             Back-end
-          </head>
+          </subhead>
           <p xml:id="i-CEizqMWaf1zFQAqfvy9xfa">
             ABB har också en teknik för att transformera trefasspänningar
             med olika frekvenser. I till exempel USA förekommer såväl 50 som
             60 Hz. En sådan transformator omvandlar ström med den ena frekvensen
             till likström och sedan över till den andra frekvensen.
           </p>
-        </div>
-        <div xml:id="i-55CK3hRQ7ej6rzuzggzdMp" type="signatureBlock">
-          <list xml:id="i-8UfZPWa5TkF5g91pQ9PMpC">
-            <item xml:id="i-5rXEBn4S5abw39QaeH7ipU" who="i-Uj8BaU1ExHbpKGVGx2k7Ed" type="signature">
-              Mikael Jansson (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-55CK3hRQ7ej6rzuzggzdMp">
+            <list xml:id="i-8UfZPWa5TkF5g91pQ9PMpC">
+              <item xml:id="i-5rXEBn4S5abw39QaeH7ipU" who="i-Uj8BaU1ExHbpKGVGx2k7Ed" type="signature">
+                Mikael Jansson (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3150 av Emil Källström m.fl. (C)</title>
           <idno type="rdwebb">H3023150</idno>
           <rs type="number">3150</rs>
-          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FiU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023150/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023150</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023150</ref>
@@ -94,8 +96,10 @@
     <body>
       <div xml:id="i-AhEpUsUdrZK8oj7WUxy3Df" type="motHeader">
         <div xml:id="i-BxJjeMh9uNTaXToEAFNwXG" type="motTitle">
-          Motion till riksdagen 2015/16:3150 av Emil Källström m.fl. (C)
-          Utgiftsområde 25 Allmänna bidrag till kommuner
+          <head xml:id="i-8qnZRaQPwkuVo8Ctdm8mkw">
+            Motion till riksdagen 2015/16:3150 av Emil Källström m.fl. (C)
+            Utgiftsområde 25 Allmänna bidrag till kommuner
+          </head>
         </div>
       </div>
       <div xml:id="i-A9s61J4cfcCEky5V5k18rb" type="motBody">
@@ -182,13 +186,12 @@
                 −3 718 000
               </cell>
             </row>
-            <row xml:id="i-HTLk7HYx7K5A2knouJGqPu"/>
           </table>
-          <head xml:id="i-TGnonfA26GouwaK44B14fL" type="h1">
+          <subhead xml:id="i-TGnonfA26GouwaK44B14fL" type="h1">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2018
             uttryckt som differens gentemot regeringens förslag (miljoner
             kronor)
-          </head>
+          </subhead>
           <table xml:id="i-JoNcA8DhKcFyGfjhiMPFHo">
             <row xml:id="i-Dvey3WwsoqfCBM2WJgLwSx">
               <cell>
@@ -245,19 +248,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-74p4yCdcu3WeJekSfwYiUH" type="signatureBlock">
-          <list xml:id="i-Bb6cauwH9joSxoiEFuu3tk">
-            <item xml:id="i-zp2KH6ttwQ2ZBtLK4rk6L" who="i-Gmeic5tnz63335GwfzHzd9" type="signature">
-              Emil Källström (C)
-            </item>
-            <item xml:id="i-MvQh4gMQYuxvNuvjbQvDhU" who="i-Vo3YjbvPDcwbepLXUMMiDZ" type="signature">
-              Per Åsling (C)
-            </item>
-            <item xml:id="i-9JCojPJ8CARqKCiEM1pmnx" who="i-CUvgh8FbAS51NxDGz1KFL7" type="signature">
-              Anders Ahlgren (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-74p4yCdcu3WeJekSfwYiUH">
+            <list xml:id="i-Bb6cauwH9joSxoiEFuu3tk">
+              <item xml:id="i-zp2KH6ttwQ2ZBtLK4rk6L" who="i-Gmeic5tnz63335GwfzHzd9" type="signature">
+                Emil Källström (C)
+              </item>
+              <item xml:id="i-MvQh4gMQYuxvNuvjbQvDhU" who="i-Vo3YjbvPDcwbepLXUMMiDZ" type="signature">
+                Per Åsling (C)
+              </item>
+              <item xml:id="i-9JCojPJ8CARqKCiEM1pmnx" who="i-CUvgh8FbAS51NxDGz1KFL7" type="signature">
+                Anders Ahlgren (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -13,7 +13,7 @@ The motions data is here organized in subdirectories by parliament year.
 
 There is also a `reg/` directory and `fort/` directory containing indexes to the motions in the bicameral period. 
 
-Motions are grouped into chambers by `data/mot-ek.xml`, `data/mot-fk.xml` (not implemented), and `data/mot-ak.xml` (not implemented). 
+Motions are grouped into chambers by `data/mot-ek.xml`, `data/mot-fk.xml`, and `data/mot-ak.xml`. 
 
 
 ### `docs/`
@@ -28,11 +28,14 @@ The `test/` directory contains data integrity tests in the form of python script
 
 ### `quality/`
 
-(not implemented) 
-
-The `quality/` directory contains python scripts that estimate quality of the data. The substructure of `quality/` is analogous to `test/`.
+The `quality/` directory contains python scripts that estimate quality of the data. The substructure of `quality/` is analogous to `test/`: `quality/data/`, `quality/estimates/`, and `quality/docs/`.
 
 
 ## How to cite?
 
 Please refer to the `CITATION.cff` file for more information about how to cite this data set.
+
+
+# Mailing list
+
+For updates right to your email, join our mailing list for parliamentary research infrastructure [here](https://lists.uu.se/sympa/subscribe/parliamentary-research-infrastructure).

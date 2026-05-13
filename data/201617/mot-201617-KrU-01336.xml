@@ -14,7 +14,9 @@
           <title>Motion 2016/17:1336 av Niclas Malmberg (MP)</title>
           <idno type="rdwebb">H4021336</idno>
           <rs type="number">1336</rs>
-          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KrU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4021336/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4021336</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4021336</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-KkPVQ57KEyBg8saBH8PHtx" type="motHeader">
         <div xml:id="i-KC2rk6agKvSA124BGKLVKg" type="motTitle">
-          Motion till riksdagen 2016/17:1336 av Niclas Malmberg (MP) Säkra
-          public service från kuppförsök
+          <head xml:id="i-VG5bXbnTYLyp5qGhRFdD3z">
+            Motion till riksdagen 2016/17:1336 av Niclas Malmberg (MP) Säkra
+            public service från kuppförsök
+          </head>
         </div>
       </div>
       <div xml:id="i-CLoht971RvFYsNieBeQmcX" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-H6kn5Qudg217djgqqk2ogB">
-            <item xml:id="i-SykqBoFMTa8yRiszXV53YQ" sortKey="Yrkande 1">
+            <item xml:id="i-SykqBoFMTa8yRiszXV53YQ" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               regeringen bör återkomma till riksdagen med förslag till förändring
               av stiftelseförordnandet för Förvaltningsstiftelsen för public
@@ -169,9 +173,9 @@
             får dock ändras eller upphävas endast om ett beslut av riksdagen
             föranleder det.
           </p>
-          <head xml:id="i-7xHRZURirwgQF3DAEkrxKD" type="h2">
+          <subhead xml:id="i-7xHRZURirwgQF3DAEkrxKD" type="h2">
             Svagheter med nuvarande system
-          </head>
+          </subhead>
           <p xml:id="i-Kivktf5J6Hp5xCpFSpTUP5">
             Nuvarande system där hälften av ledamöterna utses efter varje
             ordinarie riksdagsval syftar till att en skapa en kontinuitet
@@ -226,13 +230,13 @@
             mandatperioder kan därför i praktiken komma att innebära att rotationen
             inom stiftelsestyrelsen ökar.
           </p>
-        </div>
-        <div xml:id="i-NgLJNxvtc4v17oVz6wEn9v" type="signatureBlock">
-          <list xml:id="i-98SV96qbkQBEVZvXMSijjb">
-            <item xml:id="i-DNb5BHegKjbn9PZSNRdHqL" who="i-M1BGVoUpAkXK7M1XiJWRAe" type="signature">
-              Niclas Malmberg (MP)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-NgLJNxvtc4v17oVz6wEn9v">
+            <list xml:id="i-98SV96qbkQBEVZvXMSijjb">
+              <item xml:id="i-DNb5BHegKjbn9PZSNRdHqL" who="i-M1BGVoUpAkXK7M1XiJWRAe" type="signature">
+                Niclas Malmberg (MP)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

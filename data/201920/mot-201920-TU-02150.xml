@@ -14,7 +14,9 @@
           <title>Motion 2019/20:2150 av Camilla Waltersson Grönvall och Sofia Westergren (båda M)</title>
           <idno type="rdwebb">H7022150</idno>
           <rs type="number">2150</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H7022150/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H7022150</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H7022150</ref>
@@ -101,9 +103,11 @@
     <body>
       <div xml:id="i-KEst782CvJYD8o1Pg4whSL" type="motHeader">
         <div xml:id="i-SBckiBanbNbunS1F7KwXPv" type="motTitle">
-          Motion till riksdagen 2019/20:2150 av Camilla Waltersson Grönvall
-          och Sofia Westergren (båda M) Konkret handlingsplan för att stoppa
-          olagliga körkort
+          <head xml:id="i-RbaKpgsFfJ9VsBJ2fva1DF">
+            Motion till riksdagen 2019/20:2150 av Camilla Waltersson Grönvall
+            och Sofia Westergren (båda M) Konkret handlingsplan för att stoppa
+            olagliga körkort
+          </head>
         </div>
       </div>
       <div xml:id="i-JZ6WQEAJhpsyx9j6Vepz5B" type="motBody">
@@ -112,7 +116,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-mqSrKvQ4tm2tcUfHpvWDm">
-            <item xml:id="i-LeQZUv999TyPE4ubqRY4Qa" sortKey="Yrkande 1">
+            <item xml:id="i-LeQZUv999TyPE4ubqRY4Qa" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               överväga att ta fram en konkret handlingsplan och att denna i
               sådana fall skyndsamt bör implementeras för att få bort olagliga
@@ -141,16 +145,16 @@
             körkort och se till att denna plan i sådana fall implementeras
             skyndsamt.
           </p>
-        </div>
-        <div xml:id="i-Dc9Xkq9hajChN4usBDAYTc" type="signatureBlock">
-          <list xml:id="i-WekfxmdFhcMdkHaaWJxKQ6">
-            <item xml:id="i-Exp2Xmji8g6tZ5SqYqjfkw" who="i-Ws7TTEJpudwigKX5RjyhR4" type="signature">
-              Camilla Waltersson Grönvall (M)
-            </item>
-            <item xml:id="i-TMzKda717SHcpDgm1xD8RZ" who="i-73o5S2z3dmzixAt7gzz34E" type="signature">
-              Sofia Westergren (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-Dc9Xkq9hajChN4usBDAYTc">
+            <list xml:id="i-WekfxmdFhcMdkHaaWJxKQ6">
+              <item xml:id="i-Exp2Xmji8g6tZ5SqYqjfkw" who="i-Ws7TTEJpudwigKX5RjyhR4" type="signature">
+                Camilla Waltersson Grönvall (M)
+              </item>
+              <item xml:id="i-TMzKda717SHcpDgm1xD8RZ" who="i-73o5S2z3dmzixAt7gzz34E" type="signature">
+                Sofia Westergren (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

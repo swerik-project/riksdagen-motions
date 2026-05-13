@@ -14,7 +14,9 @@
           <title>Motion 2016/17:3437 av Anders Åkesson och Daniel Bäckström (båda C)</title>
           <idno type="rdwebb">H4023437</idno>
           <rs type="number">3437</rs>
-          <orgName type="comitteeAbbreviation">TU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>TU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4023437/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4023437</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4023437</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-Us25VL2x5jxoGQTVoRStcY" type="motHeader">
         <div xml:id="i-NH37Y58AKP4FMSNmZUy2FU" type="motTitle">
-          Motion till riksdagen 2016/17:3437 av Anders Åkesson och Daniel
-          Bäckström (båda C) Utgiftsområde 22 Kommunikationer
+          <head xml:id="i-CQ9azDWQhCUDoxbzrGKgoa">
+            Motion till riksdagen 2016/17:3437 av Anders Åkesson och Daniel
+            Bäckström (båda C) Utgiftsområde 22 Kommunikationer
+          </head>
         </div>
       </div>
       <div xml:id="i-BntfyZRM8LJNTQU6QjDrnL" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-PfFHh9yUNTkveXRGgXzzY5">
-            <item xml:id="i-8sAj5oxLV8KsKgkGFwBE7P" sortKey="Yrkande 1">
+            <item xml:id="i-8sAj5oxLV8KsKgkGFwBE7P" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2017 inom utgiftsområde 22 Kommunikationer
               enligt förslaget i tabell 1 i motionen.
             </item>
@@ -785,16 +789,16 @@
             1:12, 1:13, 2:1 och 2:6. Pris- och löneomräkningen för anslag
             1:1 och 1:2 föreslår alltså inte förändras.
           </p>
-        </div>
-        <div xml:id="i-YJur4Gif6KGPiQvPoL7tbH" type="signatureBlock">
-          <list xml:id="i-ANCkphC1kv7defV4jZP1Lr">
-            <item xml:id="i-XcVP1kwDKVxbe5pTeSSQdv" who="i-FucmvyHZ22CXcKRGnfjaC4" type="signature">
-              Anders Åkesson (C)
-            </item>
-            <item xml:id="i-LSB4tqGvd8Rnj124vmCLjE" who="i-W1SpeP85RXQTDYN2miQfXU" type="signature">
-              Daniel Bäckström (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-YJur4Gif6KGPiQvPoL7tbH">
+            <list xml:id="i-ANCkphC1kv7defV4jZP1Lr">
+              <item xml:id="i-XcVP1kwDKVxbe5pTeSSQdv" who="i-FucmvyHZ22CXcKRGnfjaC4" type="signature">
+                Anders Åkesson (C)
+              </item>
+              <item xml:id="i-LSB4tqGvd8Rnj124vmCLjE" who="i-W1SpeP85RXQTDYN2miQfXU" type="signature">
+                Daniel Bäckström (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

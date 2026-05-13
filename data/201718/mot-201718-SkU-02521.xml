@@ -14,7 +14,9 @@
           <title>Motion 2017/18:2521 av Olle Felten och David Lång (båda SD)</title>
           <idno type="rdwebb">H5022521</idno>
           <rs type="number">2521</rs>
-          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SkU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5022521/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5022521</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5022521</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-5J6Q5YGnWAiXY9EanDj8kD" type="motHeader">
         <div xml:id="i-9FyeEYFBbmYK3JDWwdbMNv" type="motTitle">
-          Motion till riksdagen 2017/18:2521 av Olle Felten och David Lång
-          (båda SD) Utgiftsområde 3 Skatt, tull och exekution
+          <head xml:id="i-NnTACXVYH8TToTyTbWZ1EL">
+            Motion till riksdagen 2017/18:2521 av Olle Felten och David Lång
+            (båda SD) Utgiftsområde 3 Skatt, tull och exekution
+          </head>
         </div>
       </div>
       <div xml:id="i-HtB3gFLtAg76oBY2VnfrhF" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-CETEqT4JMBTMnGXKe47xnA">
-            <item xml:id="i-NRdqqqWLZHqxmDN5jXS19y" sortKey="Yrkande 1">
+            <item xml:id="i-NRdqqqWLZHqxmDN5jXS19y" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2018 inom utgiftsområde 3 Skatt,
               tull och exekution enligt förslaget i tabell 1 i motionen.
             </item>
@@ -290,18 +294,17 @@
                 +10 000
               </cell>
             </row>
-            <row xml:id="i-EwdpBkjY6qZz2hsGaqdTAs"/>
           </table>
-        </div>
-        <div xml:id="i-V1yYVrYme6gi9yAuzVwcom" type="signatureBlock">
-          <list xml:id="i-DwZr22axSYAmZM6mDDeYUD">
-            <item xml:id="i-BtxRYCmzQPm4uTuW7EKTqQ" who="i-RMyMvNY8rQGcpLy854czaK" type="signature">
-              Olle Felten (SD)
-            </item>
-            <item xml:id="i-RQsu8XHBiyKmvVLrvgW6BQ" who="i-45Ku79yUMEXGE2zwpUReMK" type="signature">
-              David Lång (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-V1yYVrYme6gi9yAuzVwcom">
+            <list xml:id="i-DwZr22axSYAmZM6mDDeYUD">
+              <item xml:id="i-BtxRYCmzQPm4uTuW7EKTqQ" who="i-RMyMvNY8rQGcpLy854czaK" type="signature">
+                Olle Felten (SD)
+              </item>
+              <item xml:id="i-RQsu8XHBiyKmvVLrvgW6BQ" who="i-45Ku79yUMEXGE2zwpUReMK" type="signature">
+                David Lång (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

@@ -14,7 +14,9 @@
           <title>Motion 2016/17:1109 av Maria Malmer Stenergard och Annicka Engblom (båda M)</title>
           <idno type="rdwebb">H4021109</idno>
           <rs type="number">1109</rs>
-          <orgName type="comitteeAbbreviation">CU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>CU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4021109/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4021109</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4021109</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-M7EeYcUbbTrBtTh2ufcgbj" type="motHeader">
         <div xml:id="i-R7BxrdrajmTgwXN7PDJcE1" type="motTitle">
-          Motion till riksdagen 2016/17:1109 av Maria Malmer Stenergard
-          och Annicka Engblom (båda M) Kvotering
+          <head xml:id="i-JeqNcUbm2XncojAYR64djo">
+            Motion till riksdagen 2016/17:1109 av Maria Malmer Stenergard
+            och Annicka Engblom (båda M) Kvotering
+          </head>
         </div>
       </div>
       <div xml:id="i-HaY4kmzHUfFcHhUnqHwqvW" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-K7jrTChu1CEWPsm3qBbeV3">
-            <item xml:id="i-JLG4cpATmVjYXmiHyBEcmi" sortKey="Yrkande 1">
+            <item xml:id="i-JLG4cpATmVjYXmiHyBEcmi" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om kvotering
               till börsnoterade bolags styrelser och tillkännager detta för
               regeringen.
@@ -151,16 +155,16 @@
             regeringen att det fria näringslivet inte bör tvingas att kvotera
             vid rekrytering till styrelser.
           </p>
-        </div>
-        <div xml:id="i-HMNVxqkfR9gTMsfgm4cAvw" type="signatureBlock">
-          <list xml:id="i-LX2SS8rFBxR3igxSmNxFag">
-            <item xml:id="i-LsCrdTK56UXN3xHMxjspSc" who="i-MEQoHPb6qh2nYtPCAZQYv3" type="signature">
-              Maria Malmer Stenergard (M)
-            </item>
-            <item xml:id="i-KYqcFErEL1pLgj22Bzjwo7" who="i-Pu4JFuoHUq5W6JaAtvinyz" type="signature">
-              Annicka Engblom (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-HMNVxqkfR9gTMsfgm4cAvw">
+            <list xml:id="i-LX2SS8rFBxR3igxSmNxFag">
+              <item xml:id="i-LsCrdTK56UXN3xHMxjspSc" who="i-MEQoHPb6qh2nYtPCAZQYv3" type="signature">
+                Maria Malmer Stenergard (M)
+              </item>
+              <item xml:id="i-KYqcFErEL1pLgj22Bzjwo7" who="i-Pu4JFuoHUq5W6JaAtvinyz" type="signature">
+                Annicka Engblom (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

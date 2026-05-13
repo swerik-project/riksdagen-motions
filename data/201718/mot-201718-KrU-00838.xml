@@ -14,7 +14,9 @@
           <title>Motion 2017/18:838 av Anna-Lena Sörenson m.fl. (S)</title>
           <idno type="rdwebb">H502838</idno>
           <rs type="number">838</rs>
-          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KrU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H502838/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H502838</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H502838</ref>
@@ -114,8 +116,10 @@
     <body>
       <div xml:id="i-HQikwHGp3HSz14q31Z5wQ6" type="motHeader">
         <div xml:id="i-6qfUz1kcMYEtx38VCurBLZ" type="motTitle">
-          Motion till riksdagen 2017/18:838 av Anna-Lena Sörenson m.fl.
-          (S) Klostermuseum i Vadstena
+          <head xml:id="i-H4DBdY1Voo4o7vAJidxtpM">
+            Motion till riksdagen 2017/18:838 av Anna-Lena Sörenson m.fl.
+            (S) Klostermuseum i Vadstena
+          </head>
         </div>
       </div>
       <div xml:id="i-DhLD1QhaCLRMY1WqMqQ8c" type="motBody">
@@ -124,7 +128,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-GJpER91qTBTNGFgw2Ycaoa">
-            <item xml:id="i-SHrU6kybTZPNRwfHYRxdDF" sortKey="Yrkande 1">
+            <item xml:id="i-SHrU6kybTZPNRwfHYRxdDF" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om en mer
               långsiktigt tryggad verksamhet för Sancta Birgitta Klostermuseum
               i Vadstena och tillkännager detta för regeringen.
@@ -169,9 +173,9 @@
             förväntningar. Museet främjar ett levande kulturarv och gör en
             unik period i svensk historia tillgänglig för envar.
           </p>
-          <head xml:id="i-ViFv8ScQ4Y4VDphiYcT9bT" type="h1">
+          <subhead xml:id="i-ViFv8ScQ4Y4VDphiYcT9bT" type="h1">
             Besöksnäring och forskning
-          </head>
+          </subhead>
           <p xml:id="i-NxbGrTVtdR6KWK6V3CGUVv">
             Vadstena är ett centrum för pilgrimsturismen i Sverige, en starkt
             växande turismform. Ett väl fungerande klostermuseum ger ytterligare
@@ -196,25 +200,25 @@
             inom ramen för den befintliga museiorganisationen för att därigenom
             ge möjlighet att bevara och utveckla museiverksamheten i Vadstena.
           </p>
-        </div>
-        <div xml:id="i-3PLEv83qDUcrNeDyGQ83an" type="signatureBlock">
-          <list xml:id="i-QwxuWBLDW8WCnjo2a3VUrN">
-            <item xml:id="i-SyAim7ycnAuEMtfTBh9KMK" who="i-PrmdUu6feMnTN6Rrku6MsP" type="signature">
-              Anna-Lena Sörenson (S)
-            </item>
-            <item xml:id="i-GHe77nY6mJKTFvue9jv3cM" who="i-GDFdKPNRdaGpkLXrouuiC1" type="signature">
-              Johan Löfstrand (S)
-            </item>
-            <item xml:id="i-4CYa8Lc6E6YgTGLmyDomwV" who="i-DUpfpChzMCLm8BKUvCnw3T" type="signature">
-              Teresa Carvalho (S)
-            </item>
-            <item xml:id="i-C5Cq8gy442gYVJjJC3TA6y" who="unknown" type="signature">
-              Johan Andersson (S)
-            </item>
-            <item xml:id="i-KkxzMcaW3scAFwau97rJka" who="i-L9CZiXn8bTbPsWkiSbzSLm" type="signature">
-              Mattias Ottosson (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-3PLEv83qDUcrNeDyGQ83an">
+            <list xml:id="i-QwxuWBLDW8WCnjo2a3VUrN">
+              <item xml:id="i-SyAim7ycnAuEMtfTBh9KMK" who="i-PrmdUu6feMnTN6Rrku6MsP" type="signature">
+                Anna-Lena Sörenson (S)
+              </item>
+              <item xml:id="i-GHe77nY6mJKTFvue9jv3cM" who="i-GDFdKPNRdaGpkLXrouuiC1" type="signature">
+                Johan Löfstrand (S)
+              </item>
+              <item xml:id="i-4CYa8Lc6E6YgTGLmyDomwV" who="i-DUpfpChzMCLm8BKUvCnw3T" type="signature">
+                Teresa Carvalho (S)
+              </item>
+              <item xml:id="i-C5Cq8gy442gYVJjJC3TA6y" who="unknown" type="signature">
+                Johan Andersson (S)
+              </item>
+              <item xml:id="i-KkxzMcaW3scAFwau97rJka" who="i-L9CZiXn8bTbPsWkiSbzSLm" type="signature">
+                Mattias Ottosson (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

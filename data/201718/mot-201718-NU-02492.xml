@@ -14,7 +14,9 @@
           <title>Motion 2017/18:2492 av Ann-Britt Åsebol och Eva Lohman (båda M)</title>
           <idno type="rdwebb">H5022492</idno>
           <rs type="number">2492</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5022492/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5022492</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5022492</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-WHNhQwrgmvtDKvz1V5wWm" type="motHeader">
         <div xml:id="i-MMvvfFhb4nuy66BS2tVkmf" type="motTitle">
-          Motion till riksdagen 2017/18:2492 av Ann-Britt Åsebol och Eva
-          Lohman (båda M) Översyn av bilkostnader för boende på landsbygden
+          <head xml:id="i-XtSb4DxFGt6bii8oV7F4J7">
+            Motion till riksdagen 2017/18:2492 av Ann-Britt Åsebol och Eva
+            Lohman (båda M) Översyn av bilkostnader för boende på landsbygden
+          </head>
         </div>
       </div>
       <div xml:id="i-PsFVtoLguAqGGL1yiGVc9K" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-BaYnTt5wj8uN8Y3cBpZXxC">
-            <item xml:id="i-WKJzWXvArhbeAwpkbj3Auh" sortKey="Yrkande 1">
+            <item xml:id="i-WKJzWXvArhbeAwpkbj3Auh" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om en översyn
               av bilkostnaderna för boende på landsbygden och tillkännager detta
               för regeringen.
@@ -133,16 +137,16 @@
             bil och på så sätt komma fram till någon slags form av kompensation.
             Detta bör ges regeringen till känna.
           </p>
-        </div>
-        <div xml:id="i-9D4ry86bHBG5CHPDzee6Pq" type="signatureBlock">
-          <list xml:id="i-WxqHNcGSVAAGCVTy4QZ42P">
-            <item xml:id="i-LMNKVHNbhh2abhVLCZUKQe" who="i-G9cpXThuSAP5KSY32ApDCj" type="signature">
-              Ann-Britt Åsebol (M)
-            </item>
-            <item xml:id="i-TL7o6KnAs4BUL4H36mtxYj" who="i-BG62CjWHzJPrnkPkGYJy9c" type="signature">
-              Eva Lohman (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-9D4ry86bHBG5CHPDzee6Pq">
+            <list xml:id="i-WxqHNcGSVAAGCVTy4QZ42P">
+              <item xml:id="i-LMNKVHNbhh2abhVLCZUKQe" who="i-G9cpXThuSAP5KSY32ApDCj" type="signature">
+                Ann-Britt Åsebol (M)
+              </item>
+              <item xml:id="i-TL7o6KnAs4BUL4H36mtxYj" who="i-BG62CjWHzJPrnkPkGYJy9c" type="signature">
+                Eva Lohman (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

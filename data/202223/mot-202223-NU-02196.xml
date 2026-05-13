@@ -14,7 +14,9 @@
           <title>Motion 2022/23:2196 av Rickard Nordin m.fl. (C)</title>
           <idno type="rdwebb">HA022196</idno>
           <rs type="number">2196</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HA022196/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HA022196</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HA022196</ref>
@@ -98,8 +100,10 @@
     <body>
       <div xml:id="i-8LVNAUGZqSKnRrkwuMJdL3" type="motHeader">
         <div xml:id="i-5uLWrZv1ouSsZEGxAJWf6x" type="motTitle">
-          Motion till riksdagen 2022/23:2196 av Rickard Nordin m.fl. (C)
-          Utgiftsområde 21 Energi
+          <head xml:id="i-P3Kx7vzyG2FwmiUNXw8ShK">
+            Motion till riksdagen 2022/23:2196 av Rickard Nordin m.fl. (C)
+            Utgiftsområde 21 Energi
+          </head>
         </div>
       </div>
       <div xml:id="i-PVH7xF6kjNWEo8FPG3QDi8" type="motBody">
@@ -108,7 +112,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-Voa14LsNppG3Mg31SAkE4B">
-            <item xml:id="i-PKqiLnSxXJJ5uMxfZqgiR" sortKey="Yrkande 1">
+            <item xml:id="i-PKqiLnSxXJJ5uMxfZqgiR" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2023 inom utgiftsområde 21 Energi
               enligt förslaget i tabell 1 i motionen.
             </item>
@@ -199,9 +203,9 @@
             ned priset på el nationellt och stärka vår konkurrenskraft här
             och nu.
           </p>
-          <head xml:id="i-89QEioJ2vVHnnQenMZiXkN" type="h2">
+          <subhead xml:id="i-89QEioJ2vVHnnQenMZiXkN" type="h2">
             Centerpartiets överväganden
-          </head>
+          </subhead>
           <p xml:id="i-Xy8KjCmHpnAFygfeAJBzcP">
             Tabell 1 Anslagsförslag 2023 för utgiftsområde 21 Energi
           </p>
@@ -453,19 +457,19 @@
             Därutöver föreslår Centerpartiet en sänkning av pris- och löneomräkningen,
             vilket påverkar de anslag som räknas upp med denna.
           </p>
-        </div>
-        <div xml:id="i-TCoJhCXzUevpraUo3n2hY7" type="signatureBlock">
-          <list xml:id="i-Lg49rxvbAitXYTdBZWURqN">
-            <item xml:id="i-AG5RQKMZoNEn4ajhBuwUTS" who="i-Qqu9byP8zwudzHA8ErxkRe" type="signature">
-              Rickard Nordin (C)
-            </item>
-            <item xml:id="i-Rc8p8WmKcQuRgK4uc2NJV8" who="i-VxX8uLJ6VUnSdeyZcXucoU" type="signature">
-              Stina Larsson (C)
-            </item>
-            <item xml:id="i-3jLKxvT8xmBTKe81r1aDm3" who="i-W1SpeP85RXQTDYN2miQfXU" type="signature">
-              Daniel Bäckström (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-TCoJhCXzUevpraUo3n2hY7">
+            <list xml:id="i-Lg49rxvbAitXYTdBZWURqN">
+              <item xml:id="i-AG5RQKMZoNEn4ajhBuwUTS" who="i-Qqu9byP8zwudzHA8ErxkRe" type="signature">
+                Rickard Nordin (C)
+              </item>
+              <item xml:id="i-Rc8p8WmKcQuRgK4uc2NJV8" who="i-VxX8uLJ6VUnSdeyZcXucoU" type="signature">
+                Stina Larsson (C)
+              </item>
+              <item xml:id="i-3jLKxvT8xmBTKe81r1aDm3" who="i-W1SpeP85RXQTDYN2miQfXU" type="signature">
+                Daniel Bäckström (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

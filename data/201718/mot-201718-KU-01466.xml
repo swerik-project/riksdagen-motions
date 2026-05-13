@@ -14,7 +14,9 @@
           <title>Motion 2017/18:1466 av Catharina Bråkenhielm (S)</title>
           <idno type="rdwebb">H5021466</idno>
           <rs type="number">1466</rs>
-          <orgName type="comitteeAbbreviation">KU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5021466/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5021466</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5021466</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-9P8ZoVMa8ahonzhASdjw8x" type="motHeader">
         <div xml:id="i-HzRPH9q1GRZpeScQk6D1jm" type="motTitle">
-          Motion till riksdagen 2017/18:1466 av Catharina Bråkenhielm (S)
-          Tillgänglig samhällsinformation för alla
+          <head xml:id="i-GFJnBKW2XK8UvSXqHDorpg">
+            Motion till riksdagen 2017/18:1466 av Catharina Bråkenhielm (S)
+            Tillgänglig samhällsinformation för alla
+          </head>
         </div>
       </div>
       <div xml:id="i-ARtrkP8piejUcyLDbiKbLJ" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-WSx7wypefqzNiWatJoSVLM">
-            <item xml:id="i-LjbH5B91TuRCorEEBoSupk" sortKey="Yrkande 1">
+            <item xml:id="i-LjbH5B91TuRCorEEBoSupk" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               en statlig myndighet bör åläggas ansvar för att ta fram ett symbolsystem
               för samhällsinformation, bekostat av allmänna medel, och tillkännager
@@ -104,10 +108,10 @@
           <head xml:id="i-FQuJ5qV6bbih9vFhSXRtT7" type="h1">
             Motivering
           </head>
-          <head xml:id="i-VS8VjsQ5MDGvTWGackGSs3" type="h1">
+          <subhead xml:id="i-VS8VjsQ5MDGvTWGackGSs3" type="h1">
             Tillgänglig samhällsinformation kräver ett standardiserat grafiskt
             symbolsystem.
-          </head>
+          </subhead>
           <p xml:id="i-8q7wQamvgKDdHiYXxD2DAh">
             Symboler och bildspråk finns idag som en självklarhet i vår vardag,
             och används aktivt som en hjälp vid orientering och för att snabbt
@@ -174,13 +178,13 @@
             individs möjlighet att utifrån sina förutsättningar leva oberoende
             och att fullt ut kunna delta i samhällslivets alla delar.
           </p>
-        </div>
-        <div xml:id="i-Ea9a9WzD4DBmqDn49M3s44" type="signatureBlock">
-          <list xml:id="i-QpKRrP4EWX1Hwvd89hTUQT">
-            <item xml:id="i-HyaeMUh71wxtJr4usT6WLL" who="i-H4Edsjz4cmdv9sJHCLVnfS" type="signature">
-              Catharina Bråkenhielm (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-Ea9a9WzD4DBmqDn49M3s44">
+            <list xml:id="i-QpKRrP4EWX1Hwvd89hTUQT">
+              <item xml:id="i-HyaeMUh71wxtJr4usT6WLL" who="i-H4Edsjz4cmdv9sJHCLVnfS" type="signature">
+                Catharina Bråkenhielm (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

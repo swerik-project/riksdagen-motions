@@ -14,7 +14,9 @@
           <title>Motion 2017/18:145 av Said Abdu (L)</title>
           <idno type="rdwebb">H502145</idno>
           <rs type="number">145</rs>
-          <orgName type="comitteeAbbreviation">UU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>UU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H502145/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H502145</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H502145</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-Dkg7PA72XJytRkffMHMi1T" type="motHeader">
         <div xml:id="i-RySKcGCndvGMjD2NhYmD58" type="motTitle">
-          Motion till riksdagen 2017/18:145 av Said Abdu (L) Frigivning
-          av Dawit Isaak
+          <head xml:id="i-MxmH7Y1TdzfFDW48QSWJtL">
+            Motion till riksdagen 2017/18:145 av Said Abdu (L) Frigivning
+            av Dawit Isaak
+          </head>
         </div>
       </div>
       <div xml:id="i-NDBEfGysNheWPU5S2iZogg" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-2Z3knoxjwSoJ5gwwCHzbsf">
-            <item xml:id="i-QsZTsSgp2PsGbHruczmrFe" sortKey="Yrkande 1">
+            <item xml:id="i-QsZTsSgp2PsGbHruczmrFe" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om den
               svenska journalisten och medborgaren Dawit Isaak och tillkännager
               detta för regeringen.
@@ -175,9 +179,9 @@
             exempelvis genom Dawit Isaak-rörelsen, Free Eritrea, Meron Estefanos,
             Radio Erena eller dylikt.
           </p>
-          <head xml:id="i-AJxuBbk3FcAfRkiGmxqsH8" type="h1">
+          <subhead xml:id="i-AJxuBbk3FcAfRkiGmxqsH8" type="h1">
             Riksdagen anser
-          </head>
+          </subhead>
           <list xml:id="i-43RbnQQC7ZR9SW2CybhrKT" style="ul">
             <item xml:id="i-9zJsqtvpxa6tdRu5v6AF1j">
               att Dawit Isaak skall friges villkorslöst
@@ -198,13 +202,13 @@
               in i Eritrea.
             </item>
           </list>
-        </div>
-        <div xml:id="i-Qd6EMnDBngr9p7FCzkzihq" type="signatureBlock">
-          <list xml:id="i-B3sneQPXGqmTBBcqeooB6b">
-            <item xml:id="i-MdDwoFVy3KXtRQZiQUaqBz" who="i-Kb87jeTEio4k4qCJeZ6pQE" type="signature">
-              Said Abdu (L)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-Qd6EMnDBngr9p7FCzkzihq">
+            <list xml:id="i-B3sneQPXGqmTBBcqeooB6b">
+              <item xml:id="i-MdDwoFVy3KXtRQZiQUaqBz" who="i-Kb87jeTEio4k4qCJeZ6pQE" type="signature">
+                Said Abdu (L)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

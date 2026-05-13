@@ -14,7 +14,9 @@
           <title>Motion 2021/22:3906 av Oscar Sjöstedt m.fl. (SD)</title>
           <idno type="rdwebb">H9023906</idno>
           <rs type="number">3906</rs>
-          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FiU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H9023906/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H9023906</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H9023906</ref>
@@ -106,8 +108,10 @@
     <body>
       <div xml:id="i-D2QWyfZkygXmsNKydqJvkQ" type="motHeader">
         <div xml:id="i-PHfNugb8MH3jdpCRnhntLg" type="motTitle">
-          Motion till riksdagen 2021/22:3906 av Oscar Sjöstedt m.fl. (SD)
-          Utgiftsområde 2 Samhällsekonomi och finansförvaltning
+          <head xml:id="i-8QpbZdvFwiULwnZhoGbei6">
+            Motion till riksdagen 2021/22:3906 av Oscar Sjöstedt m.fl. (SD)
+            Utgiftsområde 2 Samhällsekonomi och finansförvaltning
+          </head>
         </div>
       </div>
       <div xml:id="i-GCS7XcQM6ZQjEmvpCG7LgE" type="motBody">
@@ -116,7 +120,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-7m4fTcmJknDUSzab93Yz5H">
-            <item xml:id="i-UeVVeRcCvPECJHLicM1nGQ" sortKey="Yrkande 1">
+            <item xml:id="i-UeVVeRcCvPECJHLicM1nGQ" sortKey="yrkande_001">
               Riksdagen anvisar anslagen för 2022 inom utgiftsområde 2 Samhällsekonomi
               och finansförvaltning enligt förslaget i tabell 1 i motionen.
             </item>
@@ -126,9 +130,9 @@
           <head xml:id="i-Fqb4K3DJW8DP6s5jw8Bhsc" type="h1">
             Motivering
           </head>
-          <head xml:id="i-Sx8h384dHrbhtheW8V513P" type="h2">
+          <subhead xml:id="i-Sx8h384dHrbhtheW8V513P" type="h2">
             Politikens inriktning
-          </head>
+          </subhead>
           <p xml:id="i-Uyee27wGuL4HN1wQ9BV4tS">
             Utgiftsområdets myndigheter har en viktig demokratisk uppgift
             i att analysera, prognostisera och sammanställa information om
@@ -453,11 +457,10 @@
                 5 000
               </cell>
             </row>
-            <row xml:id="i-2CDSRpn1YN3eJNDdQJK5Hc"/>
           </table>
-          <head xml:id="i-GfeL3ZcZFzyRBddKvqqBMU" type="h1">
+          <subhead xml:id="i-GfeL3ZcZFzyRBddKvqqBMU" type="h1">
             1:11 Finansinspektionen
-          </head>
+          </subhead>
           <table xml:id="i-JNbmatRYEvZz7dUbAcabZM">
             <row xml:id="i-WiR3RMaPPs16SUTUKnqXi7" style="label">
               <cell>
@@ -489,22 +492,22 @@
             Vi föreslår en anslagsförstärkning med 5 miljoner kronor per
             år under budgetperioden till Finansinspektionens innovationscenter.
           </p>
-        </div>
-        <div xml:id="i-4qLvLG5v7iuBxEghcf6MeX" type="signatureBlock">
-          <list xml:id="i-H5kzZ19yZnQYBcgpZeqAxv">
-            <item xml:id="i-LrVPjAieT1mvEutBqAxDs1" who="i-HWbn7UwLvHk93mrHB9NC2c" type="signature">
-              Oscar Sjöstedt (SD)
-            </item>
-            <item xml:id="i-7UtPkSvHCVUrkV8gLzCQ8x" who="i-TXWjMfPNdu6NddKf5hSeRx" type="signature">
-              Alexander Christiansson (SD)
-            </item>
-            <item xml:id="i-AWAmktNrXzYwMC7XU9jJEs" who="i-5xq5y8yJUv1khDbYCaXJ7X" type="signature">
-              Dennis Dioukarev (SD)
-            </item>
-            <item xml:id="i-9fEWkyukKP5g3Zo2qKRVMb" who="i-Cbfe9kLftFCPyoPQ2gDG1P" type="signature">
-              Charlotte Quensel (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-4qLvLG5v7iuBxEghcf6MeX">
+            <list xml:id="i-H5kzZ19yZnQYBcgpZeqAxv">
+              <item xml:id="i-LrVPjAieT1mvEutBqAxDs1" who="i-HWbn7UwLvHk93mrHB9NC2c" type="signature">
+                Oscar Sjöstedt (SD)
+              </item>
+              <item xml:id="i-7UtPkSvHCVUrkV8gLzCQ8x" who="i-TXWjMfPNdu6NddKf5hSeRx" type="signature">
+                Alexander Christiansson (SD)
+              </item>
+              <item xml:id="i-AWAmktNrXzYwMC7XU9jJEs" who="i-5xq5y8yJUv1khDbYCaXJ7X" type="signature">
+                Dennis Dioukarev (SD)
+              </item>
+              <item xml:id="i-9fEWkyukKP5g3Zo2qKRVMb" who="i-Cbfe9kLftFCPyoPQ2gDG1P" type="signature">
+                Charlotte Quensel (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

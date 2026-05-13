@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3182 av Johanna Jönsson m.fl. (C)</title>
           <idno type="rdwebb">H3023182</idno>
           <rs type="number">3182</rs>
-          <orgName type="comitteeAbbreviation">SfU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SfU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023182/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023182</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023182</ref>
@@ -94,8 +96,10 @@
     <body>
       <div xml:id="i-XC55Z2AFp7tXr662MuH6r" type="motHeader">
         <div xml:id="i-VBmZFh8FXQ32kACNWibr9S" type="motTitle">
-          Motion till riksdagen 2015/16:3182 av Johanna Jönsson m.fl. (C)
-          Utgiftsområde 8 Migration
+          <head xml:id="i-35SGJL4BhyDmFUcYgpbd5d">
+            Motion till riksdagen 2015/16:3182 av Johanna Jönsson m.fl. (C)
+            Utgiftsområde 8 Migration
+          </head>
         </div>
       </div>
       <div xml:id="i-9cKrZXoSXiun3sxVP9k6ft" type="motBody">
@@ -114,10 +118,10 @@
           <head xml:id="i-UTdHQXwkW5eaNDLLYn47cF" type="h1">
             Motivering
           </head>
-          <head xml:id="i-J7qo5RtYWa6GFmVCgUqWky" type="h3">
+          <subhead xml:id="i-J7qo5RtYWa6GFmVCgUqWky" type="h3">
             Tabell 1. Centerpartiets förslag till anslag för 2016 uttryckt
             som differens gentemot regeringens förslag (tusentals kronor)
-          </head>
+          </subhead>
           <table xml:id="i-8EU6VKV4UJA2u1wTkTfXm1">
             <row xml:id="i-NpKQtBSBt9ybVJ4RaaCDVD" style="label">
               <cell>
@@ -240,13 +244,12 @@
                 −637 000
               </cell>
             </row>
-            <row xml:id="i-AMQXPcqignx84QjMdirChY"/>
           </table>
-          <head xml:id="i-PH2CeEKyG6T1bbAv5aagYj" type="h3">
+          <subhead xml:id="i-PH2CeEKyG6T1bbAv5aagYj" type="h3">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2019
             uttryckt som differens gentemot regeringens förslag (miljoner
             kronor)
-          </head>
+          </subhead>
           <table xml:id="i-FRCSzwdUDEGix5FRejJpDJ">
             <row xml:id="i-sRh3Z8cKNBnzMM5ock7x5">
               <cell>
@@ -317,19 +320,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-6DJ8veUkcgVa7ke8CbE7rH" type="signatureBlock">
-          <list xml:id="i-7cwpuuahiUoBhbnFRA7dC7">
-            <item xml:id="i-26sThWWrSJeTxf5AY2WTCE" who="i-TmLYgRSM5JFBMdRVjsJ2q4" type="signature">
-              Johanna Jönsson (C)
-            </item>
-            <item xml:id="i-G7cFHDwvf9VAnWp9fFemFD" who="i-UT1ponddSVxoVpn779syr7" type="signature">
-              Solveig Zander (C)
-            </item>
-            <item xml:id="i-H5CUji8a9cGoDr9hrnNikJ" who="i-NRb4HpaQ87qUwhLNcKt7Gz" type="signature">
-              Annika Qarlsson (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-6DJ8veUkcgVa7ke8CbE7rH">
+            <list xml:id="i-7cwpuuahiUoBhbnFRA7dC7">
+              <item xml:id="i-26sThWWrSJeTxf5AY2WTCE" who="i-TmLYgRSM5JFBMdRVjsJ2q4" type="signature">
+                Johanna Jönsson (C)
+              </item>
+              <item xml:id="i-G7cFHDwvf9VAnWp9fFemFD" who="i-UT1ponddSVxoVpn779syr7" type="signature">
+                Solveig Zander (C)
+              </item>
+              <item xml:id="i-H5CUji8a9cGoDr9hrnNikJ" who="i-NRb4HpaQ87qUwhLNcKt7Gz" type="signature">
+                Annika Qarlsson (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

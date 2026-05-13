@@ -14,7 +14,9 @@
           <title>Motion 2021/22:1493 av Hans Wallmark m.fl. (M)</title>
           <idno type="rdwebb">H9021493</idno>
           <rs type="number">1493</rs>
-          <orgName type="comitteeAbbreviation">FöU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FöU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H9021493/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H9021493</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H9021493</ref>
@@ -146,8 +148,10 @@
     <body>
       <div xml:id="i-5WW37UQFUx4yUYwrkw9Gko" type="motHeader">
         <div xml:id="i-WrPbwQ3AhxbXPPeUiCGpLv" type="motTitle">
-          Motion till riksdagen 2021/22:1493 av Hans Wallmark m.fl. (M)
-          Försvaret av Sydsverige
+          <head xml:id="i-RMbqamHpQEqwy7hMh6eaK4">
+            Motion till riksdagen 2021/22:1493 av Hans Wallmark m.fl. (M)
+            Försvaret av Sydsverige
+          </head>
         </div>
       </div>
       <div xml:id="i-D677dzmj6B2KNJmW2AbUX8" type="motBody">
@@ -156,7 +160,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-Fw2dBdXJJNMYszmmKhGz5f">
-            <item xml:id="i-U8i6cVvHotvp8XDEBuYtA" sortKey="Yrkande 1">
+            <item xml:id="i-U8i6cVvHotvp8XDEBuYtA" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om försvaret
               av Sydsverige och tillkännager detta för regeringen.
             </item>
@@ -166,10 +170,10 @@
           <head xml:id="i-hQ9yKDehoSxJJEp3ikB9N" type="h1">
             Motivering
           </head>
-          <head xml:id="i-3LJauTufHN2xF8nsQMVTaX" type="h1">
+          <subhead xml:id="i-3LJauTufHN2xF8nsQMVTaX" type="h1">
             Pandemin och det försämrade säkerhetsläget fäster uppmärksamheten
             på sydsvensk säkerhet.
-          </head>
+          </subhead>
           <p xml:id="i-E3Fg6rm1WNx16EvcaBTuJL">
             Östersjöregionen har de senaste åren varit i fokus för en omfattande
             militär styrke­uppbyggnad och ökade säkerhetspolitiska spänningar.
@@ -277,37 +281,37 @@
             till och från Sverige. Hamnarna har ett strategiskt läge. Till
             det kommer jordbruket som medverkar och garanterar livsmedelsförsörjningen.
           </p>
-        </div>
-        <div xml:id="i-TAAEvPWMEKQLm3xXx16hqj" type="signatureBlock">
-          <list xml:id="i-TfTnLL84jETXyFN7RJd4Yw">
-            <item xml:id="i-DAdVGLgCPZMfHRUDoJGnEm" who="i-9xarzmckV5SS8EyJPN5b3x" type="signature">
-              Hans Wallmark (M)
-            </item>
-            <item xml:id="i-LiYToUEdpJZ5aKwGZCwr74" who="i-WwZzVPGhpXnyH5jyp86JB7" type="signature">
-              Boriana Åberg (M)
-            </item>
-            <item xml:id="i-E9oQjQowAQDedQyEYhWGrU" who="i-8xM6U2UEMYF2ek1xU2cetn" type="signature">
-              Ulrika Heindorff (M)
-            </item>
-            <item xml:id="i-Ht8qRKjJB8gnKyH1DY7z79" who="i-KPGvtK4s6Zp3E6XH6vj18n" type="signature">
-              Tobias Billström (M)
-            </item>
-            <item xml:id="i-peSXaudEczYypwBVKGSnU" who="unknown" type="signature">
-              Anders Hansson (M)
-            </item>
-            <item xml:id="i-3zZeR4ZostF7mDa795sUVP" who="i-BNPcdNmACXycfvLR8wqbHp" type="signature">
-              Ann-Charlotte Hammar Johnsson (M)
-            </item>
-            <item xml:id="i-V9zAmoqXeUYjenf8333cFJ" who="i-MEQoHPb6qh2nYtPCAZQYv3" type="signature">
-              Maria Malmer Stenergard (M)
-            </item>
-            <item xml:id="i-4eZv3om4ZZ545xNZVLYBw5" who="i-J3vB7EYXWFGfYPGahysXrd" type="signature">
-              Noria Manouchi (M)
-            </item>
-            <item xml:id="i-ATVXnCCwE8gk7ypLA3nABr" who="i-7bVDjZpV72vdnYhJ8phHuW" type="signature">
-              Louise Meijer (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-TAAEvPWMEKQLm3xXx16hqj">
+            <list xml:id="i-TfTnLL84jETXyFN7RJd4Yw">
+              <item xml:id="i-DAdVGLgCPZMfHRUDoJGnEm" who="i-9xarzmckV5SS8EyJPN5b3x" type="signature">
+                Hans Wallmark (M)
+              </item>
+              <item xml:id="i-LiYToUEdpJZ5aKwGZCwr74" who="i-WwZzVPGhpXnyH5jyp86JB7" type="signature">
+                Boriana Åberg (M)
+              </item>
+              <item xml:id="i-E9oQjQowAQDedQyEYhWGrU" who="i-8xM6U2UEMYF2ek1xU2cetn" type="signature">
+                Ulrika Heindorff (M)
+              </item>
+              <item xml:id="i-Ht8qRKjJB8gnKyH1DY7z79" who="i-KPGvtK4s6Zp3E6XH6vj18n" type="signature">
+                Tobias Billström (M)
+              </item>
+              <item xml:id="i-peSXaudEczYypwBVKGSnU" who="unknown" type="signature">
+                Anders Hansson (M)
+              </item>
+              <item xml:id="i-3zZeR4ZostF7mDa795sUVP" who="i-BNPcdNmACXycfvLR8wqbHp" type="signature">
+                Ann-Charlotte Hammar Johnsson (M)
+              </item>
+              <item xml:id="i-V9zAmoqXeUYjenf8333cFJ" who="i-MEQoHPb6qh2nYtPCAZQYv3" type="signature">
+                Maria Malmer Stenergard (M)
+              </item>
+              <item xml:id="i-4eZv3om4ZZ545xNZVLYBw5" who="i-J3vB7EYXWFGfYPGahysXrd" type="signature">
+                Noria Manouchi (M)
+              </item>
+              <item xml:id="i-ATVXnCCwE8gk7ypLA3nABr" who="i-7bVDjZpV72vdnYhJ8phHuW" type="signature">
+                Louise Meijer (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

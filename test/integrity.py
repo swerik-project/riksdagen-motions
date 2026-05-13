@@ -4,12 +4,15 @@
 """
 from glob import glob
 from lxml import etree
-from pyriksdagen.utils import parse_tei
+from pyriksdagen.io import parse_tei
+from trainerlog import get_logger
 import os
 import pandas as pd
 import unittest
 import warnings
 
+
+logger = get_logger(name="integrity")
 
 
 
@@ -59,8 +62,8 @@ class GeneralIntegrityTest(unittest.TestCase):
         """
         Write summary output when appropriate.
         """
-        print("\n\ntear down")
-        print(cls.__dict__.keys())
+        logger.info("tear down")
+        logger.debug(f"{cls.__dict__.keys()}")
         cls.integrity_results.at["total_motions", cls.prerelease_nr] = len(cls.motions)
         cls.integrity_results.to_csv("test/results/integrity-results.tsv", sep='\t')
 

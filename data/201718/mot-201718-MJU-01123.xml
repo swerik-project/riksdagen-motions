@@ -14,7 +14,9 @@
           <title>Motion 2017/18:1123 av Kenneth G Forslund och Catharina Bråkenhielm (båda S)</title>
           <idno type="rdwebb">H5021123</idno>
           <rs type="number">1123</rs>
-          <orgName type="comitteeAbbreviation">MJU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>MJU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H5021123/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H5021123</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H5021123</ref>
@@ -101,8 +103,10 @@
     <body>
       <div xml:id="i-FhczA6tXKXcQwGdL6hB2f8" type="motHeader">
         <div xml:id="i-N3hHnz6zPw5bUv2t3Q1stR" type="motTitle">
-          Motion till riksdagen 2017/18:1123 av Kenneth G Forslund och
-          Catharina Bråkenhielm (båda S) Sjöpungar och andra djur för etanolproduktion
+          <head xml:id="i-CiyjPi9ip1Byi9dwfGRK9c">
+            Motion till riksdagen 2017/18:1123 av Kenneth G Forslund och
+            Catharina Bråkenhielm (båda S) Sjöpungar och andra djur för etanolproduktion
+          </head>
         </div>
       </div>
       <div xml:id="i-3uRNHRwmtMDsuREw1Y1Fto" type="motBody">
@@ -111,7 +115,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-ByePZ3Vi2iu5iYKgUtjjtp">
-            <item xml:id="i-Cswoi5y8kiu5DFu7kQDEVy" sortKey="Yrkande 1">
+            <item xml:id="i-Cswoi5y8kiu5DFu7kQDEVy" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om odling
               av sjöpungar och tillkännager detta för regeringen.
             </item>
@@ -160,16 +164,16 @@
             Vi menar att odling av sjöpungar bör främjas och att regeringen
             på olika sätt bör arbeta för att så sker.
           </p>
-        </div>
-        <div xml:id="i-51XZPiBCMcqeNeXa85fzCF" type="signatureBlock">
-          <list xml:id="i-2UKdYawTp4Levh5SdNaM8u">
-            <item xml:id="i-LH2oQM2LSAf9rxgkfXv6A9" who="i-Bmi9XXt8ni373cdiv3K6qx" type="signature">
-              Kenneth G Forslund (S)
-            </item>
-            <item xml:id="i-2LprpSzyhe5vkpdXHTv9Yh" who="i-H4Edsjz4cmdv9sJHCLVnfS" type="signature">
-              Catharina Bråkenhielm (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-51XZPiBCMcqeNeXa85fzCF">
+            <list xml:id="i-2UKdYawTp4Levh5SdNaM8u">
+              <item xml:id="i-LH2oQM2LSAf9rxgkfXv6A9" who="i-Bmi9XXt8ni373cdiv3K6qx" type="signature">
+                Kenneth G Forslund (S)
+              </item>
+              <item xml:id="i-2LprpSzyhe5vkpdXHTv9Yh" who="i-H4Edsjz4cmdv9sJHCLVnfS" type="signature">
+                Catharina Bråkenhielm (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

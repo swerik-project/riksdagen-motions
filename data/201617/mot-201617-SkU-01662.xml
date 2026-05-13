@@ -14,7 +14,9 @@
           <title>Motion 2016/17:1662 av Per-Arne Håkansson (S)</title>
           <idno type="rdwebb">H4021662</idno>
           <rs type="number">1662</rs>
-          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SkU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4021662/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4021662</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4021662</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-LzzGuPLxxAKGhGw4MeiM3Y" type="motHeader">
         <div xml:id="i-L67ydmtwE5QV5THfAFFQ2D" type="motTitle">
-          Motion till riksdagen 2016/17:1662 av Per-Arne Håkansson (S)
-          Tyst godkännande av deklarationer
+          <head xml:id="i-UwceGYVUqCNkTzxbEveuyu">
+            Motion till riksdagen 2016/17:1662 av Per-Arne Håkansson (S)
+            Tyst godkännande av deklarationer
+          </head>
         </div>
       </div>
       <div xml:id="i-XYYmYtgMCZLdXTFDPzZvjs" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-893KD8hzE4QHo6v22ZWQtV">
-            <item xml:id="i-MdBeFiTTWZpxuwXZK1EbMX" sortKey="Yrkande 1">
+            <item xml:id="i-MdBeFiTTWZpxuwXZK1EbMX" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               införa s.k. tyst godkännande av deklarationer och tillkännager
               detta för regeringen.
@@ -118,13 +122,13 @@
             att styrka att en deklaration verkligen översänts till korrekt
             adress. På sikt borde också deklarationssystemet helt kunna digitaliseras.
           </p>
-        </div>
-        <div xml:id="i-9MiCEBei1KRj2tmmAfVW2J" type="signatureBlock">
-          <list xml:id="i-NRyWou6fjHB3fEy54tZJ5w">
-            <item xml:id="i-SnMXBX7rjhjPJ5BUTonuvo" who="i-DfMBmwjfAwnb2JfXgJ9isk" type="signature">
-              Per-Arne Håkansson (S)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-9MiCEBei1KRj2tmmAfVW2J">
+            <list xml:id="i-NRyWou6fjHB3fEy54tZJ5w">
+              <item xml:id="i-SnMXBX7rjhjPJ5BUTonuvo" who="i-DfMBmwjfAwnb2JfXgJ9isk" type="signature">
+                Per-Arne Håkansson (S)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

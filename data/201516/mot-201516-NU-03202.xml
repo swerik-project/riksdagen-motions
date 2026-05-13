@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3202 av Maria Weimer m.fl. (FP)</title>
           <idno type="rdwebb">H3023202</idno>
           <rs type="number">3202</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023202/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023202</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023202</ref>
@@ -130,8 +132,10 @@
     <body>
       <div xml:id="i-FF2J1ZtSwQBYiBzFTXsdpx" type="motHeader">
         <div xml:id="i-SruXAFvR67dnErwVxoeYPt" type="motTitle">
-          Motion till riksdagen 2015/16:3202 av Maria Weimer m.fl. (FP)
-          Utgiftsområde 21 Energi
+          <head xml:id="i-Xj4RbGxfWjhFskP99nj2ga">
+            Motion till riksdagen 2015/16:3202 av Maria Weimer m.fl. (FP)
+            Utgiftsområde 21 Energi
+          </head>
         </div>
       </div>
       <div xml:id="i-Xjjs5k5B9k9sfENfHVPKKj" type="motBody">
@@ -170,10 +174,10 @@
           <head xml:id="i-8nPjiN9sTG5ZJmGVCYAwM8" type="h1">
             Motivering
           </head>
-          <head xml:id="i-SNzdJd1UnxBfYhEE79kQ7m" type="h1">
+          <subhead xml:id="i-SNzdJd1UnxBfYhEE79kQ7m" type="h1">
             Utgiftsområdet omfattar frågor om tillförsel, distribution och
             användning av energi.
-          </head>
+          </subhead>
           <p xml:id="i-JCFvP3PoAPVMikNvyX2EJk">
             Uppvärmningen av jorden genom ökade koldioxidutsläpp är den största
             framtidsutmaningen för vår generation. Tack vare vattenkraften,
@@ -351,7 +355,6 @@
                 Tabell 1. Anslagsförslag 2016 för utgiftsområde 21 Energi
               </cell>
             </row>
-            <row xml:id="i-Yb2XE7NtxL7h6enz4syhTP"/>
             <row xml:id="i-YS4uVUB8AShr5HHUQrs4yx">
               <cell>
                 Tusental kronor
@@ -621,33 +624,32 @@
                 +75 000
               </cell>
             </row>
-            <row xml:id="i-JprAS23q6qqXJnjgGThkyq"/>
           </table>
-        </div>
-        <div xml:id="i-GDNdxv7qpuTxWvZPEYxuUV" type="signatureBlock">
-          <list xml:id="i-9SYtcp1MckufrfospbXeaG">
-            <item xml:id="i-GcmdHaQusP6WeBsQc5uJBo" who="i-HPYYRQv4ch2ZKcsG9Poys5" type="signature">
-              Maria Weimer (FP)
-            </item>
-            <item xml:id="i-5QirUC2HwqGZBiDgZQp3Kq" who="i-Kb87jeTEio4k4qCJeZ6pQE" type="signature">
-              Said Abdu (FP)
-            </item>
-            <item xml:id="i-SJusPG1McYkHW1dkPaUfUH" who="i-QKE6ihmLRJvwhV4neD6h7b" type="signature">
-              Erik Ullenhag (FP)
-            </item>
-            <item xml:id="i-GxAss8MxtQrCB6NRMWjrS1" who="i-S7wLw9aynA5vbRCsqxxL3N" type="signature">
-              Tina Acketoft (FP)
-            </item>
-            <item xml:id="i-AchcFSpEg95JGKFgwSumKJ" who="i-QQYotqFjTJA7EiQZc1Wmzs" type="signature">
-              Emma Carlsson Löfdahl (FP)
-            </item>
-            <item xml:id="i-8jJFoEvsanYcqi7qsiajUi" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
-              Christer Nylander (FP)
-            </item>
-            <item xml:id="i-PmfyiMhFRMwTrTwSjHLTKS" who="i-D8B2Xf6UADbqciPHrqFxSc" type="signature">
-              Birgitta Ohlsson (FP)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-GDNdxv7qpuTxWvZPEYxuUV">
+            <list xml:id="i-9SYtcp1MckufrfospbXeaG">
+              <item xml:id="i-GcmdHaQusP6WeBsQc5uJBo" who="i-HPYYRQv4ch2ZKcsG9Poys5" type="signature">
+                Maria Weimer (FP)
+              </item>
+              <item xml:id="i-5QirUC2HwqGZBiDgZQp3Kq" who="i-Kb87jeTEio4k4qCJeZ6pQE" type="signature">
+                Said Abdu (FP)
+              </item>
+              <item xml:id="i-SJusPG1McYkHW1dkPaUfUH" who="i-QKE6ihmLRJvwhV4neD6h7b" type="signature">
+                Erik Ullenhag (FP)
+              </item>
+              <item xml:id="i-GxAss8MxtQrCB6NRMWjrS1" who="i-S7wLw9aynA5vbRCsqxxL3N" type="signature">
+                Tina Acketoft (FP)
+              </item>
+              <item xml:id="i-AchcFSpEg95JGKFgwSumKJ" who="i-QQYotqFjTJA7EiQZc1Wmzs" type="signature">
+                Emma Carlsson Löfdahl (FP)
+              </item>
+              <item xml:id="i-8jJFoEvsanYcqi7qsiajUi" who="i-U6F8gqiuV2DEZN1aMhyDnJ" type="signature">
+                Christer Nylander (FP)
+              </item>
+              <item xml:id="i-PmfyiMhFRMwTrTwSjHLTKS" who="i-D8B2Xf6UADbqciPHrqFxSc" type="signature">
+                Birgitta Ohlsson (FP)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

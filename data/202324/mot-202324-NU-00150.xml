@@ -14,7 +14,9 @@
           <title>Motion 2023/24:150 av Magnus Jacobsson (KD)</title>
           <idno type="rdwebb">HB02150</idno>
           <rs type="number">150</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HB02150/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HB02150</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HB02150</ref>
@@ -82,8 +84,10 @@
     <body>
       <div xml:id="i-VmH7Ho3VRoE3dyNtNSRx92" type="motHeader">
         <div xml:id="i-MRzSzqMDXeLek37CSikCB1" type="motTitle">
-          Motion till riksdagen 2023/24:150 av Magnus Jacobsson (KD) Avyttring
-          av statens ägande i AB Svensk Bilprovning
+          <head xml:id="i-BA4RMchCagwHcoPkvDuDuF">
+            Motion till riksdagen 2023/24:150 av Magnus Jacobsson (KD) Avyttring
+            av statens ägande i AB Svensk Bilprovning
+          </head>
         </div>
       </div>
       <div xml:id="i-VN6Xx2KSS79YJDgAr3EuSM" type="motBody">
@@ -92,7 +96,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-RGyDtTcxSzBFCSGMH6bCN4">
-            <item xml:id="i-WxodUkRooFiCq2J2RtFc13" sortKey="Yrkande 1">
+            <item xml:id="i-WxodUkRooFiCq2J2RtFc13" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               avyttra AB Svensk Bilprovning och tillkännager detta för regeringen.
             </item>
@@ -125,13 +129,13 @@
             bör därför skyndsamt inleda en process för att avyttra statens
             ägande i AB Svensk Bilprovning.
           </p>
-        </div>
-        <div xml:id="i-EG3F4Zd8DKGwjBoWM5uFW4" type="signatureBlock">
-          <list xml:id="i-M6LRrS5G4RQhRviZsK7zH3">
-            <item xml:id="i-9grqUnrpNHMeQimmEhnvjx" who="i-5QUSwQFaazTZF6GHyxaAkw" type="signature">
-              Magnus Jacobsson (KD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-EG3F4Zd8DKGwjBoWM5uFW4">
+            <list xml:id="i-M6LRrS5G4RQhRviZsK7zH3">
+              <item xml:id="i-9grqUnrpNHMeQimmEhnvjx" who="i-5QUSwQFaazTZF6GHyxaAkw" type="signature">
+                Magnus Jacobsson (KD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

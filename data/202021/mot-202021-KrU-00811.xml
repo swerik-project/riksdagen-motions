@@ -14,7 +14,9 @@
           <title>Motion 2020/21:811 av Aron Emilsson m.fl. (SD)</title>
           <idno type="rdwebb">H802811</idno>
           <rs type="number">811</rs>
-          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KrU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H802811/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H802811</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H802811</ref>
@@ -106,8 +108,10 @@
     <body>
       <div xml:id="i-81Dv3R3cVFfJqrnnA4tVa2" type="motHeader">
         <div xml:id="i-74TQxURRuerQbHqVvgWiWB" type="motTitle">
-          Motion till riksdagen 2020/21:811 av Aron Emilsson m.fl. (SD)
-          Svenska ortnamn i fjällen
+          <head xml:id="i-4Y22JKs5k9iq4QUuQ9KNPK">
+            Motion till riksdagen 2020/21:811 av Aron Emilsson m.fl. (SD)
+            Svenska ortnamn i fjällen
+          </head>
         </div>
       </div>
       <div xml:id="i-6DH14cVu8im1Kzfej28D7W" type="motBody">
@@ -116,7 +120,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-BpFpzZDVszxDp3QVpiLi4">
-            <item xml:id="i-EEJKPHtnDHziPd2HMKxRaz" sortKey="Yrkande 1">
+            <item xml:id="i-EEJKPHtnDHziPd2HMKxRaz" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om hur
               tillämpningen av de lagreglerade bestämmelserna om god ortnamnssed
               ska kunna skärpas och tillkännager detta för regeringen.
@@ -127,10 +131,10 @@
           <head xml:id="i-L9SVGvYvgeJVFdLsqiKKrd" type="h1">
             Motivering
           </head>
-          <head xml:id="i-JuyUQc3qqLqQRDQBkQDtNd" type="h1">
+          <subhead xml:id="i-JuyUQc3qqLqQRDQBkQDtNd" type="h1">
             I lagen (1988:950) om kulturminnen m.m. kan man bland annat läsa
             följande:
-          </head>
+          </subhead>
           <p xml:id="i-GUxxpqLHEK4FoZ6JU7UCG2">
             4 § Vid statlig och kommunal verksamhet skall god ortnamnssed
             iakttas. Detta innebär att hävdvunna ortnamn inte ändras utan
@@ -178,22 +182,22 @@
             skall kunna skärpas. I det aktuella området borde de svenska och
             samiska namnen kunna samverka.
           </p>
-        </div>
-        <div xml:id="i-6649pmkjJqY48DmjhRi4HS" type="signatureBlock">
-          <list xml:id="i-4iU4V8M4uVvNqwBGsUQq6M">
-            <item xml:id="i-NuL7fBRrwfgQmfPJyq9CEC" who="i-7axeS8wLb7dXdWECyhESJs" type="signature">
-              Aron Emilsson (SD)
-            </item>
-            <item xml:id="i-UwRWobrYp7w6CJkiokszA7" who="i-DA4mEcuMULgPh6WXGQRaWW" type="signature">
-              Angelika Bengtsson (SD)
-            </item>
-            <item xml:id="i-CYowkTJEJJk8vKWqbhBLmH" who="i-BfmJ8hLMzGF9XMcc4M8Bfa" type="signature">
-              Cassandra Sundin (SD)
-            </item>
-            <item xml:id="i-Wrauv4Y76crpEC2q7ZmYhC" who="unknown" type="signature">
-              Jonas Andersson i Linköping (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-6649pmkjJqY48DmjhRi4HS">
+            <list xml:id="i-4iU4V8M4uVvNqwBGsUQq6M">
+              <item xml:id="i-NuL7fBRrwfgQmfPJyq9CEC" who="i-7axeS8wLb7dXdWECyhESJs" type="signature">
+                Aron Emilsson (SD)
+              </item>
+              <item xml:id="i-UwRWobrYp7w6CJkiokszA7" who="i-DA4mEcuMULgPh6WXGQRaWW" type="signature">
+                Angelika Bengtsson (SD)
+              </item>
+              <item xml:id="i-CYowkTJEJJk8vKWqbhBLmH" who="i-BfmJ8hLMzGF9XMcc4M8Bfa" type="signature">
+                Cassandra Sundin (SD)
+              </item>
+              <item xml:id="i-Wrauv4Y76crpEC2q7ZmYhC" who="unknown" type="signature">
+                Jonas Andersson i Linköping (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

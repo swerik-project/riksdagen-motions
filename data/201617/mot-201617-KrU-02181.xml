@@ -14,7 +14,9 @@
           <title>Motion 2016/17:2181 av Cassandra Sundin m.fl. (SD)</title>
           <idno type="rdwebb">H4022181</idno>
           <rs type="number">2181</rs>
-          <orgName type="comitteeAbbreviation">KrU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>KrU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H4022181/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H4022181</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H4022181</ref>
@@ -106,8 +108,10 @@
     <body>
       <div xml:id="i-NtK5H27DggZYnxDFU7pd7n" type="motHeader">
         <div xml:id="i-C5co5g2NdVneWjr66VMYJR" type="motTitle">
-          Motion till riksdagen 2016/17:2181 av Cassandra Sundin m.fl.
-          (SD) Sydsamiskans bevarande
+          <head xml:id="i-ECpvrZv9qhi7L1jC4Xcryc">
+            Motion till riksdagen 2016/17:2181 av Cassandra Sundin m.fl.
+            (SD) Sydsamiskans bevarande
+          </head>
         </div>
       </div>
       <div xml:id="i-9wX2PgNLgm11z8zcR1qhKy" type="motBody">
@@ -116,7 +120,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-CBSWFY5qLYADKq3TVWq6H9">
-            <item xml:id="i-4fiULTMCwb8mhGkxieyEZT" sortKey="Yrkande 1">
+            <item xml:id="i-4fiULTMCwb8mhGkxieyEZT" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               utreda möjligheterna till åtgärder för att säkra sydsamiskans
               fortlevnad och förvaltning samt höja språkets status och tillkännager
@@ -178,22 +182,22 @@
             av de samiska språken då dessa utgör en del av såväl det samiska
             kulturarvet som det svenska, då samerna är en av Sveriges ursprungsbefolkningar.
           </p>
-        </div>
-        <div xml:id="i-VRet6hvd33qrfSXUFtiJft" type="signatureBlock">
-          <list xml:id="i-BCufquMe6emoN7zcEcJMn2">
-            <item xml:id="i-URW8tSBAxK8yui1LLLmivT" who="i-BfmJ8hLMzGF9XMcc4M8Bfa" type="signature">
-              Cassandra Sundin (SD)
-            </item>
-            <item xml:id="i-YEwsPpKqzmZF7y9mh4NVcb" who="i-7axeS8wLb7dXdWECyhESJs" type="signature">
-              Aron Emilsson (SD)
-            </item>
-            <item xml:id="i-AiHvbiBjzvSwnNpFcC7q7N" who="i-DA4mEcuMULgPh6WXGQRaWW" type="signature">
-              Angelika Bengtsson (SD)
-            </item>
-            <item xml:id="i-4kQ84hHjrGQSJyFbEfpe89" who="i-VxsbUrESEWZoSuxq4jRwxG" type="signature">
-              Sara-Lena Bjälkö (SD)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-VRet6hvd33qrfSXUFtiJft">
+            <list xml:id="i-BCufquMe6emoN7zcEcJMn2">
+              <item xml:id="i-URW8tSBAxK8yui1LLLmivT" who="i-BfmJ8hLMzGF9XMcc4M8Bfa" type="signature">
+                Cassandra Sundin (SD)
+              </item>
+              <item xml:id="i-YEwsPpKqzmZF7y9mh4NVcb" who="i-7axeS8wLb7dXdWECyhESJs" type="signature">
+                Aron Emilsson (SD)
+              </item>
+              <item xml:id="i-AiHvbiBjzvSwnNpFcC7q7N" who="i-DA4mEcuMULgPh6WXGQRaWW" type="signature">
+                Angelika Bengtsson (SD)
+              </item>
+              <item xml:id="i-4kQ84hHjrGQSJyFbEfpe89" who="i-VxsbUrESEWZoSuxq4jRwxG" type="signature">
+                Sara-Lena Bjälkö (SD)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

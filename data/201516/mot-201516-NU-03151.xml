@@ -14,7 +14,9 @@
           <title>Utgiftsområde 24 Näringsliv</title>
           <idno type="rdwebb">H3023151</idno>
           <rs type="number">3151</rs>
-          <orgName type="comitteeAbbreviation">NU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>NU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023151/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023151</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023151</ref>
@@ -94,8 +96,10 @@
     <body>
       <div xml:id="i-4vDBt3ZGZDzpVYRHGeVy36" type="motHeader">
         <div xml:id="i-8p8m1MKvzWMNhiH4b3NKLb" type="motTitle">
-          Motion till riksdagen 2015/16:3151 av Helena Lindahl m.fl. (C)
-          Utgiftsområde 24 Näringsliv
+          <head xml:id="i-WH7Vm43wtRE6LygAazG4SQ">
+            Motion till riksdagen 2015/16:3151 av Helena Lindahl m.fl. (C)
+            Utgiftsområde 24 Näringsliv
+          </head>
         </div>
       </div>
       <div xml:id="i-PFUrUMoCtU1MtCpE1GGb36" type="motBody">
@@ -114,10 +118,10 @@
           <head xml:id="i-8zZWorL3ektuAfdTaYMDiS" type="h1">
             Motivering
           </head>
-          <head xml:id="i-8yYXtrTFECyL5CRCa8EhkS" type="h3">
+          <subhead xml:id="i-8yYXtrTFECyL5CRCa8EhkS" type="h3">
             Tabell 1. Centerpartiets förslag till anslag 2016 uttryckt som
             differens gentemot regeringens förslag
-          </head>
+          </subhead>
           <table xml:id="i-HAsVwLW6gyLLAGWdV5eUyB">
             <row xml:id="i-UenV4Y7FGLjxzLKe9T6cBH" style="label">
               <cell>
@@ -472,13 +476,12 @@
                 −557 000
               </cell>
             </row>
-            <row xml:id="i-ReoGtMAVcn3cCDqs9peubd"/>
           </table>
-          <head xml:id="i-WoLH7azn3vaQTiGZ1U9iEd" type="h3">
+          <subhead xml:id="i-WoLH7azn3vaQTiGZ1U9iEd" type="h3">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2019
             uttryckt som differens gentemot regeringens förslag (miljoner
             kronor)
-          </head>
+          </subhead>
           <table xml:id="i-WmS9S6sfmm74q2a8ovfRP7">
             <row xml:id="i-BeFbJjU7wauxG22MnA2MfN">
               <cell>
@@ -635,19 +638,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-44CbQKr2TDoT15J5qeimo7" type="signatureBlock">
-          <list xml:id="i-HEyNGHw95FS5EVZScdKVzm">
-            <item xml:id="i-K7cPicnrtUnbQesvuAZGRk" who="i-Wg4JiBuxTz9fesArDXiMko" type="signature">
-              Helena Lindahl (C)
-            </item>
-            <item xml:id="i-RrSc9XG1NKJ5gBKnvdQ8cW" who="i-CUvgh8FbAS51NxDGz1KFL7" type="signature">
-              Anders Ahlgren (C)
-            </item>
-            <item xml:id="i-43jCiyAztQ7uvTfUd7ucbk" who="i-Qqu9byP8zwudzHA8ErxkRe" type="signature">
-              Rickard Nordin (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-44CbQKr2TDoT15J5qeimo7">
+            <list xml:id="i-HEyNGHw95FS5EVZScdKVzm">
+              <item xml:id="i-K7cPicnrtUnbQesvuAZGRk" who="i-Wg4JiBuxTz9fesArDXiMko" type="signature">
+                Helena Lindahl (C)
+              </item>
+              <item xml:id="i-RrSc9XG1NKJ5gBKnvdQ8cW" who="i-CUvgh8FbAS51NxDGz1KFL7" type="signature">
+                Anders Ahlgren (C)
+              </item>
+              <item xml:id="i-43jCiyAztQ7uvTfUd7ucbk" who="i-Qqu9byP8zwudzHA8ErxkRe" type="signature">
+                Rickard Nordin (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

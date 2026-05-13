@@ -14,7 +14,9 @@
           <title>Motion 2015/16:3188 av Emil Källström m.fl. (C)</title>
           <idno type="rdwebb">H3023188</idno>
           <rs type="number">3188</rs>
-          <orgName type="comitteeAbbreviation">FiU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>FiU</abbr>
+          </orgName>
           <ref type="dokument_url_text">http://data.riksdagen.se/dokument/H3023188/text</ref>
           <ref type="dokument_url_html">http://data.riksdagen.se/dokument/H3023188</ref>
           <ref type="dokumentstatus_url_xml">http://data.riksdagen.se/dokumentstatus/H3023188</ref>
@@ -94,8 +96,10 @@
     <body>
       <div xml:id="i-DbJDy8vC2A96sNKQ2cUGGV" type="motHeader">
         <div xml:id="i-CDDjKRv42TkntT9MAHPDNM" type="motTitle">
-          Motion till riksdagen 2015/16:3188 av Emil Källström m.fl. (C)
-          Utgiftsområde 2 Samhällsekonomi och finansförvaltning
+          <head xml:id="i-3RtWmv6pqZcZ4WgQia9yJ3">
+            Motion till riksdagen 2015/16:3188 av Emil Källström m.fl. (C)
+            Utgiftsområde 2 Samhällsekonomi och finansförvaltning
+          </head>
         </div>
       </div>
       <div xml:id="i-MnoNVujLYLrdiD1TKTCbPb" type="motBody">
@@ -114,10 +118,10 @@
           <head xml:id="i-PQp1bUGSDzp9McBxr33Y67" type="h1">
             Motivering
           </head>
-          <head xml:id="i-8kuw83K8wNC9VGGh4q2n4x" type="h3">
+          <subhead xml:id="i-8kuw83K8wNC9VGGh4q2n4x" type="h3">
             Tabell 1. Centerpartiets förslag till anslag för 2016 uttryckt
             som differens gentemot regeringens förslag (tusental kronor)
-          </head>
+          </subhead>
           <table xml:id="i-Nt6QcPezCCyoiBJQ5yvdAV">
             <row xml:id="i-8QBZ3T71WtZ2doLdNhn8ML" style="label">
               <cell>
@@ -388,7 +392,6 @@
                 −1 070 500
               </cell>
             </row>
-            <row xml:id="i-TaGnFTirT7sC5UGbBvvV73"/>
           </table>
           <p xml:id="i-LTgRrc5ZfzrXKzZzMKp22e">
             Tabell 2. Centerpartiets förslag till anslag för 2016 till 2019
@@ -536,19 +539,19 @@
               </cell>
             </row>
           </table>
-        </div>
-        <div xml:id="i-XRGAVCLvPs9bQRs5Zrp95e" type="signatureBlock">
-          <list xml:id="i-62DwJq9qxfbUwdcp5y2yfk">
-            <item xml:id="i-89TnDdwb7RJdqnM6PSQvGL" who="i-Gmeic5tnz63335GwfzHzd9" type="signature">
-              Emil Källström (C)
-            </item>
-            <item xml:id="i-Szdmzj2igE3p9XtVwZBGr2" who="i-Vo3YjbvPDcwbepLXUMMiDZ" type="signature">
-              Per Åsling (C)
-            </item>
-            <item xml:id="i-MLgSAWkW76WQQbTtukc9TQ" who="i-CUvgh8FbAS51NxDGz1KFL7" type="signature">
-              Anders Ahlgren (C)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-XRGAVCLvPs9bQRs5Zrp95e">
+            <list xml:id="i-62DwJq9qxfbUwdcp5y2yfk">
+              <item xml:id="i-89TnDdwb7RJdqnM6PSQvGL" who="i-Gmeic5tnz63335GwfzHzd9" type="signature">
+                Emil Källström (C)
+              </item>
+              <item xml:id="i-Szdmzj2igE3p9XtVwZBGr2" who="i-Vo3YjbvPDcwbepLXUMMiDZ" type="signature">
+                Per Åsling (C)
+              </item>
+              <item xml:id="i-MLgSAWkW76WQQbTtukc9TQ" who="i-CUvgh8FbAS51NxDGz1KFL7" type="signature">
+                Anders Ahlgren (C)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

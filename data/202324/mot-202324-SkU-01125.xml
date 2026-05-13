@@ -14,7 +14,9 @@
           <title>Motion 2023/24:1125 av Helena Storckenfeldt och Lars Püss (båda M)</title>
           <idno type="rdwebb">HB021125</idno>
           <rs type="number">1125</rs>
-          <orgName type="comitteeAbbreviation">SkU</orgName>
+          <orgName type="comitteeAbbreviation">
+            <abbr>SkU</abbr>
+          </orgName>
           <ref type="dokument_url_text">https://data.riksdagen.se/dokument/HB021125/text</ref>
           <ref type="dokument_url_html">https://data.riksdagen.se/dokument/HB021125</ref>
           <ref type="dokumentstatus_url_xml">https://data.riksdagen.se/dokumentstatus/HB021125</ref>
@@ -90,8 +92,10 @@
     <body>
       <div xml:id="i-KNQLiz4hmu4BP8H1qTQ9WC" type="motHeader">
         <div xml:id="i-3AqvDBfexEfGxgf4NjjDYR" type="motTitle">
-          Motion till riksdagen 2023/24:1125 av Helena Storckenfeldt och
-          Lars Püss (båda M) Ett legitimt skattesystem
+          <head xml:id="i-HaiZk2KrDUFNZttJJeUR6A">
+            Motion till riksdagen 2023/24:1125 av Helena Storckenfeldt och
+            Lars Püss (båda M) Ett legitimt skattesystem
+          </head>
         </div>
       </div>
       <div xml:id="i-A5yF91ehTMS9HdVqJEYRMw" type="motBody">
@@ -100,7 +104,7 @@
             Förslag till riksdagsbeslut
           </head>
           <list xml:id="i-BP4j4MMuM9U9qrfkHAPWYZ">
-            <item xml:id="i-3Myb1KJj1WHpbgkDYtJV3f" sortKey="Yrkande 1">
+            <item xml:id="i-3Myb1KJj1WHpbgkDYtJV3f" sortKey="yrkande_001">
               Riksdagen ställer sig bakom det som anförs i motionen om att
               överväga behovet av ändringar i skatteförfarandelagen om att arbetsgivardeklarationen
               för varje betalningsmottagare även ska innehålla uppgift om arbetsgivaravgiftens
@@ -171,16 +175,16 @@
             ut bruttolönen innan både de indirekta och de direkta skatterna
             är dragna på lönespecifikationen.
           </p>
-        </div>
-        <div xml:id="i-VHWzmhTwXKcvW91Vz7DhDP" type="signatureBlock">
-          <list xml:id="i-7afqwsCEorZ7MbPcHVbv9Y">
-            <item xml:id="i-AvGsXBvz4DU2eEVdQ8jzDk" who="i-KoABdAPF5wcu7bTLEqhj3Z" type="signature">
-              Helena Storckenfeldt (M)
-            </item>
-            <item xml:id="i-HYzuqAf8FpvjTZpc2oeh42" who="i-J7uJmvTQswBegURGxa5EHb" type="signature">
-              Lars Püss (M)
-            </item>
-          </list>
+          <signatureBlock xml:id="i-VHWzmhTwXKcvW91Vz7DhDP">
+            <list xml:id="i-7afqwsCEorZ7MbPcHVbv9Y">
+              <item xml:id="i-AvGsXBvz4DU2eEVdQ8jzDk" who="i-KoABdAPF5wcu7bTLEqhj3Z" type="signature">
+                Helena Storckenfeldt (M)
+              </item>
+              <item xml:id="i-HYzuqAf8FpvjTZpc2oeh42" who="i-J7uJmvTQswBegURGxa5EHb" type="signature">
+                Lars Püss (M)
+              </item>
+            </list>
+          </signatureBlock>
         </div>
       </div>
     </body>

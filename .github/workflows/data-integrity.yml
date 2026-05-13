@@ -59,13 +59,18 @@ jobs:
             git add test/results/plot/signature-coverage-ratio.png
             git commit -m "chore (workflow): update signature block coverage info"
         fi
+    - name: Pull remote changes
+    if: ${{ env.ACT != 'true' }}
+    run: |
+      BRANCH="${{ github.head_ref || github.ref_name }}"
+      git fetch origin "$BRANCH"
+      git rebase "origin/$BRANCH"
     - name: Push changes
-      if: ${{ env.ACT != 'true' }}
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
-
+    if: ${{ env.ACT != 'true' }}
+    uses: ad-m/github-push-action@master
+    with:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
+      branch: ${{ github.head_ref || github.ref_name }}
 
   motion-has-date:
     needs: motion-has-signatures
@@ -101,13 +106,18 @@ jobs:
             git add test/results/plot/date-coverage-ratio.png
             git commit -m "chore (workflow): update date annotation coverage info"
         fi
+    - name: Pull remote changes
+    if: ${{ env.ACT != 'true' }}
+    run: |
+      BRANCH="${{ github.head_ref || github.ref_name }}"
+      git fetch origin "$BRANCH"
+      git rebase "origin/$BRANCH"
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
-
+        branch: ${{ github.head_ref || github.ref_name }}
 
   motion-has-title:
     needs: motion-has-date
@@ -143,13 +153,18 @@ jobs:
             git add test/results/plot/title-coverage-ratio.png
             git commit -m "chore (workflow): update title annotation coverage info"
         fi
+    - name: Pull remote changes
+      if: ${{ env.ACT != 'true' }}
+      run: |
+        BRANCH="${{ github.head_ref || github.ref_name }}"
+        git fetch origin "$BRANCH"
+        git rebase "origin/$BRANCH"
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
-
+        branch: ${{ github.head_ref || github.ref_name }}
 
   signature-mapping-coverage:
     needs: motion-has-title
@@ -184,13 +199,19 @@ jobs:
             git add test/results/plot/mapped-signature-coverage-ratio.png
             git commit -m "chore (workflow): update mapping coverage info"
         fi
+    - name: Pull remote changes
+      if: ${{ env.ACT != 'true' }}
+      run: |
+        BRANCH="${{ github.head_ref || github.ref_name }}"
+        git fetch origin "$BRANCH"
+        git rebase "origin/$BRANCH"
+
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
-
+        branch: ${{ github.head_ref || github.ref_name }}
 
   no-duplicate-files:
     runs-on: ubuntu-latest

@@ -60,17 +60,17 @@ jobs:
             git commit -m "chore (workflow): update signature block coverage info"
         fi
     - name: Pull remote changes
-    if: ${{ env.ACT != 'true' }}
-    run: |
-      BRANCH="${{ github.head_ref || github.ref_name }}"
-      git fetch origin "$BRANCH"
-      git rebase "origin/$BRANCH"
+      if: ${{ env.ACT != 'true' }}
+      run: |
+        BRANCH="${{ github.head_ref || github.ref_name }}"
+        git fetch origin "$BRANCH"
+        git rebase "origin/$BRANCH"
     - name: Push changes
-    if: ${{ env.ACT != 'true' }}
-    uses: ad-m/github-push-action@master
-    with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      branch: ${{ github.head_ref || github.ref_name }}
+      if: ${{ env.ACT != 'true' }}
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.head_ref || github.ref_name }}
 
   motion-has-date:
     needs: motion-has-signatures
@@ -107,11 +107,11 @@ jobs:
             git commit -m "chore (workflow): update date annotation coverage info"
         fi
     - name: Pull remote changes
-    if: ${{ env.ACT != 'true' }}
-    run: |
-      BRANCH="${{ github.head_ref || github.ref_name }}"
-      git fetch origin "$BRANCH"
-      git rebase "origin/$BRANCH"
+      if: ${{ env.ACT != 'true' }}
+      run: |
+        BRANCH="${{ github.head_ref || github.ref_name }}"
+        git fetch origin "$BRANCH"
+        git rebase "origin/$BRANCH"
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master

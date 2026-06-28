@@ -4,8 +4,23 @@ on:
   push:
     paths:
       - data/**
+      - test/api-contract.py
 
 jobs:
+  api-contract:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Check public API folder structure
+      run: python -m unittest test/api-contract.py
+
   data-integrity:
     runs-on: ubuntu-latest
     strategy:

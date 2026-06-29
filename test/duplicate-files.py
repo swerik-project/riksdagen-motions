@@ -33,9 +33,15 @@ class DuplicateFilesTest(unittest.TestCase):
         Test no filenames are duplicated
         """
         logger.info("Testing there are no duplicate file names...")
-        self.assertEqual(len(self.motions), len(set(self.motions)))
+        duplicate_paths = len(self.motions) - len(set(self.motions))
+        if duplicate_paths:
+            logger.error(f"{duplicate_paths} duplicate motion path(s) found")
+        self.assertEqual(len(self.motions), len(set(self.motions)), f"{duplicate_paths} duplicate motion path(s) found")
         lower_motions = [f.lower() for f in self.motions]
-        self.assertEqual(len(lower_motions), len(set(lower_motions)))
+        duplicate_casefold_paths = len(lower_motions) - len(set(lower_motions))
+        if duplicate_casefold_paths:
+            logger.error(f"{duplicate_casefold_paths} case-insensitive duplicate motion path(s) found")
+        self.assertEqual(len(lower_motions), len(set(lower_motions)), f"{duplicate_casefold_paths} case-insensitive duplicate motion path(s) found")
         logger.info("...No duplicate file names. 👍👍👍")
 
 

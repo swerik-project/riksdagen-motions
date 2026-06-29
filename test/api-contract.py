@@ -55,7 +55,7 @@ class APIContractTest(unittest.TestCase):
         The only public top-level XML files in data/ are chamber index files.
         """
         top_level_xml = {path.name for path in DATA_DIR.glob("*.xml")}
-        self.assertLessEqual(top_level_xml, TOP_LEVEL_XML)
+        self.assertLessEqual(top_level_xml, TOP_LEVEL_XML, f"Unexpected top-level XML files in data/: {sorted(top_level_xml - TOP_LEVEL_XML)}")
         self.assertTrue(top_level_xml, "data/ should expose at least one chamber index XML file")
 
         visible_non_xml_files = [

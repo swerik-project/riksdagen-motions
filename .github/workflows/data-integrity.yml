@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - data/**
-      - test.api-contract
+      - test/api-contract.py
 
 jobs:
   api-contract:
@@ -21,7 +21,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Check public API folder structure
-      run: python -m unittest test/api-contract.py
+      run: python -m unittest test.api-contract
 
   data-integrity:
     runs-on: ubuntu-latest

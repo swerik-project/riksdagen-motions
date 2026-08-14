@@ -120,7 +120,7 @@ class GeneralIntegrityTest(unittest.TestCase):
                 warnings.warn(msg, NoMotBodyWarning)
                 with open(f"test/results/integrity_{self.prerelease_nr}_no-body.txt", "w+") as out:
                     [out.write(f"{_}\n") for _ in sorted(no_body)]
-        self.assertTrue(len(no_body) < 300)
+        self.assertTrue(len(no_body) < 5, f"{len(no_body)} motion(s) are missing motBody; expected fewer than 5")
 
 
     #@unittest.skip

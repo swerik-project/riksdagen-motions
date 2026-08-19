@@ -4,7 +4,8 @@ on:
   push:
     paths:
       - data/**
-      - test/api-contract.py
+      - test/**
+      - .github/workflows/data-integrity.yml
 
 jobs:
   api-contract:

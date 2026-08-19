@@ -4,7 +4,12 @@ on:
   push:
     paths:
       - data/**
-      - test/api-contract.py
+      - test/**
+      - .github/workflows/data-integrity.yml
+
+concurrency:
+  group: motions-autocommit-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: false
 
 jobs:
   api-contract:
@@ -14,6 +19,8 @@ jobs:
         python-version: [3.8]
     steps:
     - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref || github.ref_name }}
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -28,6 +35,8 @@ jobs:
         python-version: [3.13]
     steps:
     - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref || github.ref_name }}
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -74,12 +83,16 @@ jobs:
             git add test/results/plot/signature-coverage-ratio.png
             git commit -m "chore (workflow): update signature block coverage info"
         fi
+    - name: Rebase on branch tip
+      if: ${{ env.ACT != 'true' }}
+      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        branch: ${{ github.head_ref || github.ref_name }}
 
 
   motion-has-date:
@@ -90,6 +103,8 @@ jobs:
         python-version: [3.13]
     steps:
     - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref || github.ref_name }}
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -116,12 +131,16 @@ jobs:
             git add test/results/plot/date-coverage-ratio.png
             git commit -m "chore (workflow): update date annotation coverage info"
         fi
+    - name: Rebase on branch tip
+      if: ${{ env.ACT != 'true' }}
+      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        branch: ${{ github.head_ref || github.ref_name }}
 
 
   motion-has-title:
@@ -132,6 +151,8 @@ jobs:
         python-version: [3.13]
     steps:
     - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref || github.ref_name }}
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -158,12 +179,16 @@ jobs:
             git add test/results/plot/title-coverage-ratio.png
             git commit -m "chore (workflow): update title annotation coverage info"
         fi
+    - name: Rebase on branch tip
+      if: ${{ env.ACT != 'true' }}
+      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        branch: ${{ github.head_ref || github.ref_name }}
 
 
   signature-mapping-coverage:
@@ -174,6 +199,8 @@ jobs:
         python-version: [3.13]
     steps:
     - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref || github.ref_name }}
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -190,21 +217,25 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        if git diff --quiet -- test/results/unmapped_signatures.tsv test/results/unmapped_signatures_by_year.tsv; then
+        if git diff --quiet -- test/results/unmapped_signatures.tsv test/results/unmapped_signatures_by_year.csv; then
             git commit --allow-empty -m "chore (workflow): No changes to signature mapping coverage"
         else
             git add test/results/unmapped_signatures.tsv
-            git add test/results/unmapped_signatures_by_year.tsv
+            git add test/results/unmapped_signatures_by_year.csv
             git add test/results/plot/mapped-signature-coverage.png
             git add test/results/plot/mapped-signature-coverage-ratio.png
             git commit -m "chore (workflow): update mapping coverage info"
         fi
+    - name: Rebase on branch tip
+      if: ${{ env.ACT != 'true' }}
+      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref }}
+        branch: ${{ github.head_ref || github.ref_name }}
 
 
   no-duplicate-files:

@@ -7,6 +7,10 @@ on:
       - test/**
       - .github/workflows/data-integrity.yml
 
+concurrency:
+  group: motions-autocommit-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: false
+
 jobs:
   api-contract:
     runs-on: ubuntu-latest
@@ -79,6 +83,10 @@ jobs:
             git add test/results/plot/signature-coverage-ratio.png
             git commit -m "chore (workflow): update signature block coverage info"
         fi
+    - name: Rebase on branch tip
+      if: ${{ env.ACT != 'true' }}
+      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
@@ -123,6 +131,10 @@ jobs:
             git add test/results/plot/date-coverage-ratio.png
             git commit -m "chore (workflow): update date annotation coverage info"
         fi
+    - name: Rebase on branch tip
+      if: ${{ env.ACT != 'true' }}
+      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
@@ -167,6 +179,10 @@ jobs:
             git add test/results/plot/title-coverage-ratio.png
             git commit -m "chore (workflow): update title annotation coverage info"
         fi
+    - name: Rebase on branch tip
+      if: ${{ env.ACT != 'true' }}
+      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master
@@ -210,6 +226,10 @@ jobs:
             git add test/results/plot/mapped-signature-coverage-ratio.png
             git commit -m "chore (workflow): update mapping coverage info"
         fi
+    - name: Rebase on branch tip
+      if: ${{ env.ACT != 'true' }}
+      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+
     - name: Push changes
       if: ${{ env.ACT != 'true' }}
       uses: ad-m/github-push-action@master

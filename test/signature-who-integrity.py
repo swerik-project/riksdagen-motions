@@ -24,6 +24,9 @@ Input data:
 Set ``PERSONS_ROOT`` to point at another riksdagen-persons checkout. Full
 documentation lives in ``test/docs/signature-who-integrity.md`` and the test
 style follows umbrella decision 0021 on SWERIK data integrity tests.
+
+Location normalization is comparison-only: the test writes diagnostics, but it
+does not write normalized values or any other changes back to the corpus XML.
 """
 
 from __future__ import annotations
@@ -112,7 +115,7 @@ _SIGNATURE_INTEGRITY_RESULT: tuple[pl.DataFrame, dict[str, int]] | None = None
 
 
 def normalize_text(value: str | None) -> str | None:
-    """Normalize extracted display text for location-specifier comparison."""
+    """Normalize extracted text for comparison without changing source data."""
     if value is None:
         return None
 

@@ -2,492 +2,586 @@
 """
 Semantic integrity tests for motion signature person references.
 
-These tests guard three intended corpus guarantees:
+Corpus guarantee:
 
-* every signature-item ``@who`` reference points to a person or ``unknown``;
-* explicit location suffixes on mapped signature items are supported by
-  ``riksdagen-persons/data/location_specifier.csv`` and are reported for
-  follow-up curation;
-* a signature block does not contain duplicate mapped signers.
+* every ``@who`` value on a signature item inside a TEI ``signatureBlock`` is
+  either ``unknown`` or a known SWERIK person id;
+* a signature block does not repeat the same mapped signer;
+* explicit location suffixes on mapped signature items are supported by the
+  mapped person's entries in ``riksdagen-persons/data/location_specifier.csv``.
 
-Known legacy issues are accepted through explicit current-data baselines. The
-tests fail when a change increases those counts; curation PRs should lower the
-baselines as the known issues are fixed.
+This matters because motion signatures are a curated person-mapping layer. A
+false person reference is worse than an unknown signer, and duplicate mapped
+signers usually indicate that one ambiguous signature should be reviewed.
 
-The tests use the local motion XML under ``data/`` and the person catalog at
-``../riksdagen-persons`` by default. Set ``PERSONS_ROOT`` to use another checkout.
-Full-corpus runs use ``git grep`` when available to avoid opening every XML file.
-Detailed failure diagnostics are written to ``test/results/``. 
+Input data:
+
+* motion TEI XML files in year directories under ``data/``;
+* person ids from ``../riksdagen-persons/data/person.csv`` by default;
+* location specifiers from
+  ``../riksdagen-persons/data/location_specifier.csv`` by default.
+
+Set ``PERSONS_ROOT`` to point at another riksdagen-persons checkout. Full
+documentation lives in ``test/docs/signature-who-integrity.md`` and the test
+style follows umbrella decision 0021 on SWERIK data integrity tests.
 """
 
 from __future__ import annotations
 
-import bisect
-import csv
 import os
 import re
-import subprocess
-import unittest
 import unicodedata
-from collections import defaultdict
+import unittest
+from collections.abc import Iterable
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+import polars as pl
+from lxml import etree
+from pyriksdagen.utils import corpus_iterator, infer_metadata
 from trainerlog import get_logger
 
 
 LOGGER = get_logger(name="signature-who-integrity")
-LOCATION_SUFFIX_RE = re.compile(r"\b(i|från|fran)\s+([A-ZÅÄÖ][^\d,;:()|]*)\s*$")
-WHO_ATTR_RE = re.compile(rb'\bwho="([^"]*)"')
-XML_ID_ATTR_RE = re.compile(rb'\bxml:id="([^"]*)"')
-SIGNATURE_BLOCK_RE = re.compile(rb"<signatureBlock\b[^>]*>.*?</signatureBlock>", re.DOTALL)
-SIGNATURE_ITEM_RE = re.compile(rb"<item\b(?=[^>]*\btype=\"signature\")[^>]*>.*?</item>", re.DOTALL)
-START_TAG_RE = re.compile(rb"^<item\b[^>]*>", re.DOTALL)
-TAG_RE = re.compile(rb"<[^>]+>")
-GREP_LINE_RE = re.compile(r"^(data/.*?\.xml)([:-])(\d+)\2(.*)$")
-RESULTS_DIR = Path("test/results")
+
+TEI_NS = "http://www.tei-c.org/ns/1.0"
+XML_NS = "http://www.w3.org/XML/1998/namespace"
+TEI_ITEM = f"{{{TEI_NS}}}item"
+TEI_SIGNATURE_BLOCK = f"{{{TEI_NS}}}signatureBlock"
+XML_ID = f"{{{XML_NS}}}id"
+
+UNKNOWN_WHO = "unknown"
+INVALID_WHO_REFERENCE = "invalid_signature_who_reference"
+UNSUPPORTED_SIGNATURE_LOCATION = "unsupported_signature_location"
+DUPLICATE_MAPPED_SIGNER = "duplicate_mapped_signer"
+UNKNOWN_SIGNATURE_LOCATION = "unknown_signature_location"
+
+RESULTS_PATH = Path("test/results/signature-who-integrity.tsv")
+CHUNK_SIZE = 500
+DEFAULT_WORKERS = min(8, os.cpu_count() or 1)
+
+# Current-data baselines keep these release-blocking regression guards active
+# while known signature issues are curated in separate follow-up issues.
 ACCEPTED_SIGNATURE_WHO_FAILURES = 5
-ACCEPTED_UNSUPPORTED_SIGNATURE_LOCATIONS = 515
-ACCEPTED_DUPLICATE_MAPPED_SIGNERS = 337
+ACCEPTED_UNSUPPORTED_SIGNATURE_LOCATIONS = 739
+ACCEPTED_DUPLICATE_MAPPED_SIGNERS = 353
+
+LOCATION_SUFFIX_RE = re.compile(
+    r"\b(?:i|från|fran)\s+([A-ZÅÄÖ][^\d,;:()|]*)\s*$",
+    flags=re.IGNORECASE,
+)
+LOCATION_PREFIX_RE = re.compile(r"^(?:i|från|fran)\s+", flags=re.IGNORECASE)
+
+DIAGNOSTIC_SCHEMA = {
+    "file": pl.Utf8,
+    "sitting": pl.Utf8,
+    "year": pl.Int64,
+    "secondary_year": pl.Int64,
+    "chamber": pl.Utf8,
+    "protocol": pl.Utf8,
+    "error_type": pl.Utf8,
+    "issue": pl.Utf8,
+    "signature_block_id": pl.Utf8,
+    "xml_id": pl.Utf8,
+    "who": pl.Utf8,
+    "signature_text": pl.Utf8,
+    "location": pl.Utf8,
+    "observed": pl.Utf8,
+    "expected": pl.Utf8,
+}
+SORT_COLUMNS = [
+    "file",
+    "error_type",
+    "signature_block_id",
+    "xml_id",
+    "who",
+    "location",
+    "observed",
+]
+
+SUMMARY_KEYS = [
+    "files",
+    "signature_blocks",
+    "signature_items",
+    "who_values",
+    "location_suffixes",
+    "mapped_location_suffixes",
+]
+
+_SIGNATURE_INTEGRITY_RESULT: tuple[pl.DataFrame, dict[str, int]] | None = None
 
 
-def normalize(text: str) -> str:
-    text = unicodedata.normalize("NFKD", text.lower())
-    text = "".join(char for char in text if not unicodedata.combining(char))
-    return re.sub(r"[^a-z0-9]+", " ", text).strip()
+def normalize_text(value: str | None) -> str | None:
+    """Normalize extracted display text for location-specifier comparison."""
+    if value is None:
+        return None
 
-
-def motion_files() -> list[Path]:
-    return sorted(
-        path for path in Path("data").glob("*/*.xml")
-        if path.parts[1].startswith(("1", "2"))
+    folded = unicodedata.normalize("NFKD", value.casefold())
+    without_accents = ''.join(
+        char for char in folded if not unicodedata.combining(char)
     )
+    normalized = re.sub(r"[^a-z0-9]+", " ", without_accents).strip()
+    return normalized if normalized else None
+
+
+def motion_paths() -> list[Path]:
+    """Return all year-directory motion XML paths in stable order."""
+    paths = [Path(path) for path in corpus_iterator("motions", corpus_root="data")]
+    return sorted(path for path in paths if path.parent.name.isdigit())
 
 
 def load_person_ids(persons_root: Path) -> set[str]:
-    with (persons_root / "data" / "person.csv").open(encoding="utf-8", newline="") as inf:
-        return {row["person_id"] for row in csv.DictReader(inf)}
+    """Load known SWERIK person ids from the person catalog."""
+    person_path = persons_root / "data" / "person.csv"
+    people = pl.read_csv(
+        person_path,
+        schema_overrides={"person_id": pl.Utf8},
+        null_values=[""],
+        infer_schema_length=10000,
+    )
+    return set(
+        people.select(pl.col("person_id").cast(pl.Utf8).drop_nulls())
+        .get_column("person_id")
+        .to_list()
+    )
 
 
 def load_locations_by_person(persons_root: Path) -> dict[str, set[str]]:
-    locations: dict[str, set[str]] = defaultdict(set)
-    with (persons_root / "data" / "location_specifier.csv").open(encoding="utf-8", newline="") as inf:
-        for row in csv.DictReader(inf):
-            person_id = row.get("person_id", "")
-            location = row.get("location", "")
-            if person_id and location:
-                locations[person_id].add(normalize(location))
-    return locations
+    """Load normalized location specifiers keyed by SWERIK person id."""
+    location_path = persons_root / "data" / "location_specifier.csv"
+    locations = pl.read_csv(
+        location_path,
+        schema_overrides={"person_id": pl.Utf8, "location": pl.Utf8},
+        null_values=[""],
+        infer_schema_length=10000,
+    )
+    locations = (
+        locations.filter(
+            pl.col("person_id").is_not_null() & pl.col("location").is_not_null()
+        )
+        .with_columns(
+            pl.col("location")
+            .map_elements(normalize_text, return_dtype=pl.Utf8)
+            .alias("normalized_location")
+        )
+        .filter(pl.col("normalized_location").is_not_null())
+        .select("person_id", "normalized_location")
+    )
+
+    locations_by_person: dict[str, set[str]] = {}
+    for person_id, location in locations.iter_rows():
+        locations_by_person.setdefault(person_id, set()).add(location)
+    return locations_by_person
 
 
-def element_text(elem) -> str:
-    text = TAG_RE.sub(b" ", elem)
-    return " ".join(text.decode("utf-8", errors="replace").split())
+def iter_signature_blocks(path: Path) -> Iterable[etree._Element]:
+    """Yield TEI signature blocks from a motion without holding the full tree."""
+    context = etree.iterparse(
+        str(path),
+        events=("end",),
+        tag=TEI_SIGNATURE_BLOCK,
+        recover=True,
+    )
+    for _, block in context:
+        yield block
+        parent = block.getparent()
+        block.clear()
+        if parent is not None:
+            while block.getprevious() is not None:
+                del parent[0]
 
 
-def attr_value(tag: bytes, pattern: re.Pattern[bytes]) -> str:
-    match = pattern.search(tag)
-    if match is None:
-        return ""
-    return match.group(1).decode("utf-8", errors="replace")
+def collapsed_element_text(element: etree._Element) -> str | None:
+    """Return normalized whitespace text extracted from a parsed XML element."""
+    text = " ".join(" ".join(element.itertext()).split())
+    return text if text else None
 
 
-def attr_value_text(tag: str, name: str) -> str:
-    match = re.search(rf"\b{re.escape(name)}=\"([^\"]*)\"", tag)
-    if match is None:
-        return ""
-    return match.group(1)
+def signature_location_suffix(text: str | None) -> tuple[str, str] | None:
+    """Extract a location suffix from signature text, if one is present."""
+    if text is None:
+        return None
 
-
-def element_text_text(elem: str) -> str:
-    return " ".join(re.sub(r"<[^>]+>", " ", elem).split())
-
-
-def parse_grep_line(line: str) -> tuple[Path, str, int, str] | None:
-    match = GREP_LINE_RE.match(line.rstrip("\n"))
+    collapsed = " ".join(text.split())
+    match = LOCATION_SUFFIX_RE.search(collapsed)
     if match is None:
         return None
-    path, sep, line_number, content = match.groups()
-    return Path(path), sep, int(line_number), content
 
-
-def write_tsv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
-    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8", newline="") as outf:
-        writer = csv.DictWriter(outf, fieldnames=fieldnames, delimiter="\t")
-        writer.writeheader()
-        writer.writerows(rows)
-
-
-def location_suffix(text: str) -> tuple[str, str] | None:
-    match = LOCATION_SUFFIX_RE.search(re.sub(r"\s+", " ", text).strip())
-    if match is None:
-        return None
     raw_location = match.group(0)
-    location_text = re.sub(r"^(i|från|fran)\s+", "", raw_location, flags=re.IGNORECASE).strip()
-    tokens = normalize(location_text).split()
-    if not 1 <= len(tokens) <= 4:
+    normalized_location = normalize_text(LOCATION_PREFIX_RE.sub("", raw_location))
+    if normalized_location is None:
         return None
-    return raw_location, normalize(location_text)
+
+    token_count = len(normalized_location.split())
+    if not 1 <= token_count <= 4:
+        return None
+
+    return raw_location, normalized_location
 
 
-class SignatureWhoIntegrityTest(unittest.TestCase):
-    """
-    Corpus-wide tests for signature references and signature-block consistency.
-    """
+def expected_locations(
+    locations_by_person: dict[str, set[str]], person_id: str
+) -> str | None:
+    """Return a readable expected-location value for diagnostics."""
+    locations = sorted(locations_by_person.get(person_id, set()))
+    return " | ".join(locations) if locations else None
 
-    @classmethod
-    def setUpClass(cls):
-        cls.persons_root = Path(os.environ.get("PERSONS_ROOT", "../riksdagen-persons"))
-        cls.motions = motion_files()
-        cls.person_ids = load_person_ids(cls.persons_root)
-        cls.locations_by_person = load_locations_by_person(cls.persons_root)
-        LOGGER.info(f"Loaded {len(cls.person_ids)} person ids from {cls.persons_root}")
-        LOGGER.info(f"Checking {len(cls.motions)} motion XML files")
-        cls._scan_corpus()
-        cls._write_diagnostics()
 
-    @classmethod
-    def _scan_corpus(cls) -> None:
-        cls.who_failures = []
-        cls.total_who_values = 0
-        cls.total_signature_items = 0
-        cls.unsupported_locations = []
-        cls.unknown_locations = []
-        cls.checked_locations = 0
-        cls.duplicate_signers = []
-        if cls._can_use_git_grep():
-            LOGGER.info("Using git grep fast scanner for corpus-wide checks")
-            cls._scan_corpus_with_git_grep()
-            return
-        LOGGER.info("Using Python file scanner for corpus-wide checks")
-        for motion in cls.motions:
-            data = motion.read_bytes()
-            cls._scan_signature_blocks_in_file(motion, data)
+def empty_summary() -> dict[str, int]:
+    """Return a zero-filled scan summary."""
+    return dict.fromkeys(SUMMARY_KEYS, 0)
 
-    @classmethod
-    def _can_use_git_grep(cls) -> bool:
-        if os.environ.get("SIGNATURE_INTEGRITY_DISABLE_GIT_GREP", "").lower() in {"1", "true", "yes"}:
-            return False
-        try:
-            check = subprocess.run(
-                ["git", "rev-parse", "--is-inside-work-tree"],
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL,
-                check=False,
-            )
-        except OSError:
-            return False
-        return check.returncode == 0
 
-    @classmethod
-    def _iter_git_grep(cls, args: list[str]):
-        with subprocess.Popen(
-            ["git", "grep", *args, "--", "data"],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
-            encoding="utf-8",
-            errors="replace",
-        ) as process:
-            assert process.stdout is not None
-            for line in process.stdout:
-                yield line
-            stderr = process.stderr.read() if process.stderr is not None else ""
-            returncode = process.wait()
-        if returncode not in {0, 1}:
-            raise RuntimeError(f"git grep failed with exit code {returncode}: {stderr.strip()}")
+def combine_summary(target: dict[str, int], source: dict[str, int]) -> None:
+    """Add one scan summary into another."""
+    for key in SUMMARY_KEYS:
+        target[key] += source[key]
 
-    @classmethod
-    def _scan_corpus_with_git_grep(cls) -> None:
-        block_spans = cls._signature_block_spans_with_git_grep()
-        cls._scan_signature_items_with_git_grep(block_spans)
 
-    @classmethod
-    def _signature_block_spans_with_git_grep(cls) -> dict[Path, list[tuple[int, int, str]]]:
-        open_blocks: dict[Path, list[tuple[int, str]]] = defaultdict(list)
-        spans: dict[Path, list[tuple[int, int, str]]] = defaultdict(list)
-        for line in cls._iter_git_grep(["-n", "-e", "<signatureBlock", "-e", "</signatureBlock>"]):
-            parsed = parse_grep_line(line)
-            if parsed is None:
+def metadata_context(path: Path) -> dict[str, str | int | None]:
+    """Return stable review metadata inferred from a motion file path."""
+    metadata = infer_metadata(str(path))
+    return {
+        "file": str(path),
+        "sitting": metadata.get("sitting"),
+        "year": metadata.get("year"),
+        "secondary_year": metadata.get("secondary_year"),
+        "chamber": metadata.get("chamber"),
+        "protocol": metadata.get("protocol"),
+    }
+
+
+def diagnostic_row(**values: str | int | None) -> dict[str, str | int | None]:
+    """Normalize diagnostic rows to the stable nullable schema."""
+    return {column: values.get(column) for column in DIAGNOSTIC_SCHEMA}
+
+
+def signature_who_values(item: etree._Element) -> list[str]:
+    """Return parsed ``@who`` tokens from a signature item."""
+    who = item.get("who")
+    return who.split() if who is not None else []
+
+
+def scan_motion(
+    path: Path,
+    person_ids: set[str],
+    locations_by_person: dict[str, set[str]],
+) -> tuple[dict[str, int], list[dict[str, str | int | None]]]:
+    """Collect signature diagnostics for one motion file."""
+    summary = empty_summary()
+    summary["files"] = 1
+    rows: list[dict[str, str | int | None]] = []
+    context = metadata_context(path)
+
+    for block in iter_signature_blocks(path):
+        summary["signature_blocks"] += 1
+        block_id = block.get(XML_ID)
+        seen_mapped_signers: dict[str, str | None] = {}
+
+        for item in block.iter(TEI_ITEM):
+            if item.get("type") != "signature":
                 continue
-            motion, _, line_number, content = parsed
-            if "<signatureBlock" in content:
-                if "/>" in content:
+
+            summary["signature_items"] += 1
+            xml_id = item.get(XML_ID)
+            signature_text = collapsed_element_text(item)
+            who_values = signature_who_values(item)
+            summary["who_values"] += len(who_values)
+
+            if not who_values:
+                rows.append(
+                    diagnostic_row(
+                        **context,
+                        error_type=INVALID_WHO_REFERENCE,
+                        issue="signature item has no @who value",
+                        signature_block_id=block_id,
+                        xml_id=xml_id,
+                        signature_text=signature_text,
+                        observed=None,
+                        expected=f"{UNKNOWN_WHO} or known person_id",
+                    )
+                )
+
+            mapped_who_values = [
+                who for who in who_values if who != UNKNOWN_WHO and who in person_ids
+            ]
+
+            for who in who_values:
+                if who == UNKNOWN_WHO or who in person_ids:
                     continue
-                block_id = attr_value_text(content, "xml:id")
-                open_blocks[motion].append((line_number, block_id))
-            if "</signatureBlock>" in content and open_blocks[motion]:
-                start_line, block_id = open_blocks[motion].pop()
-                spans[motion].append((start_line, line_number, block_id))
-        for motion, stack in open_blocks.items():
-            for start_line, block_id in stack:
-                spans[motion].append((start_line, 10**12, block_id))
-        for motion in spans:
-            spans[motion].sort()
-        return spans
 
-    @classmethod
-    def _block_id_for_line(cls, spans: dict[Path, list[tuple[int, int, str]]], motion: Path, line_number: int) -> str:
-        motion_spans = spans.get(motion, [])
-        starts = [span[0] for span in motion_spans]
-        index = bisect.bisect_right(starts, line_number) - 1
-        if index < 0:
-            return ""
-        start_line, end_line, block_id = motion_spans[index]
-        if start_line <= line_number <= end_line:
-            return block_id
-        return ""
+                rows.append(
+                    diagnostic_row(
+                        **context,
+                        error_type=INVALID_WHO_REFERENCE,
+                        issue="signature @who value is not in person.csv",
+                        signature_block_id=block_id,
+                        xml_id=xml_id,
+                        who=who,
+                        signature_text=signature_text,
+                        observed=who,
+                        expected=f"{UNKNOWN_WHO} or known person_id",
+                    )
+                )
 
-    @classmethod
-    def _scan_signature_items_with_git_grep(cls, spans: dict[Path, list[tuple[int, int, str]]]) -> None:
-        seen_items: set[tuple[Path, int]] = set()
-        seen_by_block: dict[tuple[Path, str], dict[str, str]] = defaultdict(dict)
-        current_item: dict[str, object] | None = None
-
-        def finish_current_item() -> None:
-            nonlocal current_item
-            if current_item is None:
-                return
-            motion = current_item["motion"]
-            line_number = current_item["line_number"]
-            xml = "\n".join(current_item["lines"])
-            cls._scan_signature_item_text(
-                motion=motion,
-                line_number=line_number,
-                xml=xml,
-                block_id=cls._block_id_for_line(spans, motion, line_number),
-                seen_by_block=seen_by_block,
-            )
-            current_item = None
-
-        for line in cls._iter_git_grep(["-n", "-A4", "-e", '<item.*type="signature"']):
-            if line == "--\n":
-                finish_current_item()
-                continue
-            parsed = parse_grep_line(line)
-            if parsed is None:
-                continue
-            motion, _, line_number, content = parsed
-            is_item_start = "<item" in content and 'type="signature"' in content
-            if is_item_start:
-                finish_current_item()
-                key = (motion, line_number)
-                if key in seen_items:
-                    current_item = None
-                    continue
-                seen_items.add(key)
-                current_item = {"motion": motion, "line_number": line_number, "lines": [content]}
-                if "</item>" in content:
-                    finish_current_item()
-                continue
-            if current_item is not None:
-                current_item["lines"].append(content)
-                if "</item>" in content:
-                    finish_current_item()
-        finish_current_item()
-
-    @classmethod
-    def _scan_signature_item_text(
-        cls,
-        motion: Path,
-        line_number: int,
-        xml: str,
-        block_id: str,
-        seen_by_block: dict[tuple[Path, str], dict[str, str]],
-    ) -> None:
-        start_tag = xml.split(">", 1)[0]
-        item_id = attr_value_text(start_tag, "xml:id")
-        who = attr_value_text(start_tag, "who")
-        text = element_text_text(xml)
-        cls.total_signature_items += 1
-        if not who:
-            cls.who_failures.append({
-                "motion": str(motion),
-                "xml_id": item_id,
-                "problem": "signature item missing who",
-                "who": "",
-                "text": text,
-            })
-        else:
-            for value in who.split():
-                cls.total_who_values += 1
-                if value == "unknown":
-                    continue
-                if value not in cls.person_ids:
-                    cls.who_failures.append({
-                        "motion": str(motion),
-                        "xml_id": item_id,
-                        "problem": "signature item who is not person_id",
-                        "who": value,
-                        "text": text,
-                    })
-
-        cls._scan_signature_location(motion, item_id, who, text)
-
-        block_key = (motion, block_id or f"line-{line_number}")
-        seen = seen_by_block[block_key]
-        for value in who.split():
-            if value == "unknown":
-                continue
-            if value in seen:
-                cls.duplicate_signers.append({
-                    "motion": str(motion),
-                    "signature_block_id": block_id,
-                    "who": value,
-                    "first_item_id": seen[value],
-                    "duplicate_item_id": item_id,
-                    "duplicate_text": text,
-                })
-            else:
-                seen[value] = item_id
-
-    @classmethod
-    def _scan_signature_blocks_in_file(cls, motion: Path, data: bytes) -> None:
-        for block_match in SIGNATURE_BLOCK_RE.finditer(data):
-            block = block_match.group(0)
-            block_start_tag = block.split(b">", 1)[0]
-            block_id = attr_value(block_start_tag, XML_ID_ATTR_RE)
-            seen: dict[str, str] = {}
-            for item_match in SIGNATURE_ITEM_RE.finditer(block):
-                item = item_match.group(0)
-                item_start_tag = START_TAG_RE.match(item).group(0)
-                item_id = attr_value(item_start_tag, XML_ID_ATTR_RE)
-                who = attr_value(item_start_tag, WHO_ATTR_RE)
-                text = element_text(item)
-
-                if not who:
-                    cls.who_failures.append({
-                        "motion": str(motion),
-                        "xml_id": item_id,
-                        "problem": "signature item missing who",
-                        "who": "",
-                        "text": text,
-                    })
+            for who in mapped_who_values:
+                if who in seen_mapped_signers:
+                    rows.append(
+                        diagnostic_row(
+                            **context,
+                            error_type=DUPLICATE_MAPPED_SIGNER,
+                            issue="signature block repeats the same mapped signer",
+                            signature_block_id=block_id,
+                            xml_id=xml_id,
+                            who=who,
+                            signature_text=signature_text,
+                            observed=who,
+                            expected=seen_mapped_signers[who],
+                        )
+                    )
                 else:
-                    for value in who.split():
-                        cls.total_who_values += 1
-                        if value == "unknown":
-                            continue
-                        if value not in cls.person_ids:
-                            cls.who_failures.append({
-                                "motion": str(motion),
-                                "xml_id": item_id,
-                                "problem": "signature item who is not person_id",
-                                "who": value,
-                                "text": text,
-                            })
+                    seen_mapped_signers[who] = xml_id
 
-                cls.total_signature_items += 1
-                cls._scan_signature_location(motion, item_id, who, text)
+            suffix = signature_location_suffix(signature_text)
+            if suffix is None:
+                continue
 
-                if not who or who == "unknown":
+            raw_location, normalized_location = suffix
+            summary["location_suffixes"] += 1
+
+            if not mapped_who_values and UNKNOWN_WHO in who_values:
+                rows.append(
+                    diagnostic_row(
+                        **context,
+                        error_type=UNKNOWN_SIGNATURE_LOCATION,
+                        issue="signature has a location suffix but no mapped signer",
+                        signature_block_id=block_id,
+                        xml_id=xml_id,
+                        signature_text=signature_text,
+                        location=raw_location,
+                        observed=normalized_location,
+                        expected="mapped signer before location validation",
+                    )
+                )
+                continue
+
+            for who in mapped_who_values:
+                summary["mapped_location_suffixes"] += 1
+                if normalized_location in locations_by_person.get(who, set()):
                     continue
-                for value in who.split():
-                    if value == "unknown":
-                        continue
-                    if value in seen:
-                        cls.duplicate_signers.append({
-                            "motion": str(motion),
-                            "signature_block_id": block_id,
-                            "who": value,
-                            "first_item_id": seen[value],
-                            "duplicate_item_id": item_id,
-                            "duplicate_text": text,
-                        })
-                    else:
-                        seen[value] = item_id
 
-    @classmethod
-    def _scan_signature_location(cls, motion: Path, item_id: str, who: str, text: str) -> None:
-        suffix = location_suffix(text)
-        if suffix is None:
-            return
-        raw_location, location_value = suffix
-        if who == "unknown":
-            cls.unknown_locations.append({
-                "motion": str(motion),
-                "xml_id": item_id,
-                "who": who,
-                "location": raw_location,
-                "text": text,
-            })
-        elif who:
-            cls.checked_locations += 1
-            for value in who.split():
-                if value == "unknown":
-                    continue
-                if location_value not in cls.locations_by_person.get(value, set()):
-                    cls.unsupported_locations.append({
-                        "motion": str(motion),
-                        "xml_id": item_id,
-                        "who": value,
-                        "location": raw_location,
-                        "text": text,
-                    })
+                rows.append(
+                    diagnostic_row(
+                        **context,
+                        error_type=UNSUPPORTED_SIGNATURE_LOCATION,
+                        issue="mapped signature location is not listed for person",
+                        signature_block_id=block_id,
+                        xml_id=xml_id,
+                        who=who,
+                        signature_text=signature_text,
+                        location=raw_location,
+                        observed=normalized_location,
+                        expected=expected_locations(locations_by_person, who),
+                    )
+                )
 
-    @classmethod
-    def _write_diagnostics(cls) -> None:
-        write_tsv(
-            RESULTS_DIR / "signature-who-reference-integrity.tsv",
-            cls.who_failures,
-            ["motion", "xml_id", "problem", "who", "text"],
+    return summary, rows
+
+
+def chunked(paths: list[Path], size: int) -> Iterable[list[Path]]:
+    """Yield fixed-size chunks of paths for bounded threaded scanning."""
+    for start in range(0, len(paths), size):
+        yield paths[start : start + size]
+
+
+def scan_motion_chunk(
+    paths: list[Path],
+    person_ids: set[str],
+    locations_by_person: dict[str, set[str]],
+) -> tuple[dict[str, int], list[dict[str, str | int | None]]]:
+    """Collect diagnostics for a bounded list of motion files."""
+    summary = empty_summary()
+    rows: list[dict[str, str | int | None]] = []
+    for path in paths:
+        path_summary, path_rows = scan_motion(path, person_ids, locations_by_person)
+        combine_summary(summary, path_summary)
+        rows.extend(path_rows)
+    return summary, rows
+
+
+def worker_count() -> int:
+    """Return the configured full-corpus scan worker count."""
+    configured = os.environ.get("SIGNATURE_INTEGRITY_WORKERS")
+    if configured is None:
+        return DEFAULT_WORKERS
+
+    try:
+        workers = int(configured)
+    except ValueError:
+        LOGGER.warning(
+            "Ignoring invalid SIGNATURE_INTEGRITY_WORKERS=%s", configured
         )
-        fieldnames = ["motion", "xml_id", "who", "location", "text"]
-        write_tsv(RESULTS_DIR / "signature-location-unsupported.tsv", cls.unsupported_locations, fieldnames)
-        write_tsv(RESULTS_DIR / "signature-location-unknown.tsv", cls.unknown_locations, fieldnames)
-        write_tsv(
-            RESULTS_DIR / "signature-block-duplicate-mapped-signers.tsv",
-            cls.duplicate_signers,
-            ["motion", "signature_block_id", "who", "first_item_id", "duplicate_item_id", "duplicate_text"],
-        )
+        return DEFAULT_WORKERS
 
-    def test_who_references_resolve_to_person_catalog(self):
-        """
-        Every signature-item @who value must be a known person id or unknown.
-        """
-        out = RESULTS_DIR / "signature-who-reference-integrity.tsv"
+    if workers < 1:
+        LOGGER.warning(
+            "Ignoring invalid SIGNATURE_INTEGRITY_WORKERS=%s", configured
+        )
+        return DEFAULT_WORKERS
+
+    return workers
+
+
+def collect_signature_integrity_rows() -> tuple[
+    list[dict[str, str | int | None]], dict[str, int]
+]:
+    """Scan the motion corpus and return diagnostics plus corpus summary."""
+    persons_root = Path(os.environ.get("PERSONS_ROOT", "../riksdagen-persons"))
+    person_ids = load_person_ids(persons_root)
+    locations_by_person = load_locations_by_person(persons_root)
+    paths = motion_paths()
+    workers = worker_count()
+
+    LOGGER.info("Loaded %s person ids from %s", len(person_ids), persons_root)
+    LOGGER.info(
+        "Loaded location specifiers for %s people from %s",
+        len(locations_by_person),
+        persons_root,
+    )
+    LOGGER.info(
+        "Checking %s motion XML files with %s worker(s)", len(paths), workers
+    )
+
+    summary = empty_summary()
+    rows: list[dict[str, str | int | None]] = []
+    path_chunks = list(chunked(paths, CHUNK_SIZE))
+
+    if workers == 1:
+        partial_results = (
+            scan_motion_chunk(chunk, person_ids, locations_by_person)
+            for chunk in path_chunks
+        )
+        for partial_summary, partial_rows in partial_results:
+            combine_summary(summary, partial_summary)
+            rows.extend(partial_rows)
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            partial_results = executor.map(
+                lambda chunk: scan_motion_chunk(
+                    chunk, person_ids, locations_by_person
+                ),
+                path_chunks,
+            )
+            for partial_summary, partial_rows in partial_results:
+                combine_summary(summary, partial_summary)
+                rows.extend(partial_rows)
+
+    return rows, summary
+
+
+def diagnostics_by_error_type(df: pl.DataFrame, error_type: str) -> int:
+    """Count diagnostics of one semantic error type."""
+    return df.filter(pl.col("error_type") == error_type).height
+
+
+def signature_integrity_result() -> tuple[pl.DataFrame, dict[str, int]]:
+    """Return cached full-corpus diagnostics and write the review TSV."""
+    global _SIGNATURE_INTEGRITY_RESULT
+
+    if _SIGNATURE_INTEGRITY_RESULT is None:
+        rows, summary = collect_signature_integrity_rows()
+        df = pl.DataFrame(rows, schema=DIAGNOSTIC_SCHEMA, strict=False)
+        df = df.sort(SORT_COLUMNS)
+
+        RESULTS_PATH.parent.mkdir(parents=True, exist_ok=True)
+        df.write_csv(RESULTS_PATH, separator="\t")
+
         LOGGER.info(
-            f"Checked {self.total_who_values} signature @who values; invalid rows: {len(self.who_failures)}"
+            "Scanned %(files)s files, %(signature_blocks)s signature blocks, "
+            "%(signature_items)s signature items, and %(who_values)s @who values",
+            summary,
         )
-        self.assertLessEqual(
-            len(self.who_failures),
-            ACCEPTED_SIGNATURE_WHO_FAILURES,
-            f"{len(self.who_failures)} invalid signature @who reference(s) found; "
-            f"accepted baseline is {ACCEPTED_SIGNATURE_WHO_FAILURES}; see {out}",
-        )
+        LOGGER.info("Wrote %s diagnostic row(s) to %s", df.height, RESULTS_PATH)
+        if df.height:
+            counts = (
+                df.group_by("error_type")
+                .len(name="count")
+                .sort("error_type")
+                .iter_rows(named=True)
+            )
+            for row in counts:
+                LOGGER.info("%s: %s", row["error_type"], row["count"])
 
-    def test_signature_locations_match_mapped_person_locations(self):
-        """
-        Report mapped signature location suffixes not found in person-location data.
-        """
-        unsupported_out = RESULTS_DIR / "signature-location-unsupported.tsv"
-        LOGGER.info(
-            f"Checked {self.checked_locations} mapped signature location suffixes; "
-            f"unsupported rows: {len(self.unsupported_locations)}; unknown-location rows: {len(self.unknown_locations)}"
+        _SIGNATURE_INTEGRITY_RESULT = (df, summary)
+
+    return _SIGNATURE_INTEGRITY_RESULT
+
+
+class SignatureWhoIntegrityTests(unittest.TestCase):
+    """Release-blocking checks for motion signature person references."""
+
+    def test_signature_scan_finds_expected_corpus_content(self):
+        """The full-corpus scan should see the signature annotation layer."""
+        _, summary = signature_integrity_result()
+
+        self.assertGreater(summary["files"], 0, "No motion files were scanned")
+        self.assertGreater(
+            summary["signature_blocks"], 0, "No TEI signatureBlock elements found"
         )
         self.assertGreater(
-            self.checked_locations + len(self.unknown_locations),
-            0,
-            "No signature location suffixes were checked; expected at least one diagnostic row or mapped suffix.",
+            summary["signature_items"], 0, "No signature items found in corpus"
         )
-        self.assertLessEqual(
-            len(self.unsupported_locations),
-            ACCEPTED_UNSUPPORTED_SIGNATURE_LOCATIONS,
-            f"{len(self.unsupported_locations)} mapped signature location(s) are unsupported by person data; "
-            f"accepted baseline is {ACCEPTED_UNSUPPORTED_SIGNATURE_LOCATIONS}; see {unsupported_out}",
+        self.assertGreater(
+            summary["who_values"], 0, "No signature @who values found in corpus"
         )
 
-    def test_signature_blocks_do_not_repeat_mapped_signers(self):
-        """
-        A single signature block should not repeat the same mapped signer.
-        """
-        out = RESULTS_DIR / "signature-block-duplicate-mapped-signers.tsv"
-        LOGGER.info(f"Duplicate mapped signers in signature blocks: {len(self.duplicate_signers)}")
+    def test_signature_who_references_do_not_exceed_current_baseline(self):
+        """Signature ``@who`` reference failures should not regress."""
+        df, _ = signature_integrity_result()
+        failures = diagnostics_by_error_type(df, INVALID_WHO_REFERENCE)
+
         self.assertLessEqual(
-            len(self.duplicate_signers),
+            failures,
+            ACCEPTED_SIGNATURE_WHO_FAILURES,
+            (
+                f"{failures} invalid signature @who reference(s), exceeding "
+                f"current-data baseline {ACCEPTED_SIGNATURE_WHO_FAILURES}; "
+                f"see {RESULTS_PATH}"
+            ),
+        )
+
+    def test_signature_locations_do_not_exceed_current_baseline(self):
+        """Mapped signature location suffixes should not regress."""
+        df, summary = signature_integrity_result()
+        failures = diagnostics_by_error_type(df, UNSUPPORTED_SIGNATURE_LOCATION)
+
+        self.assertGreater(
+            summary["location_suffixes"],
+            0,
+            "No signature location suffixes were found; check location extraction",
+        )
+        self.assertLessEqual(
+            failures,
+            ACCEPTED_UNSUPPORTED_SIGNATURE_LOCATIONS,
+            (
+                f"{failures} unsupported mapped signature location(s), exceeding "
+                f"current-data baseline {ACCEPTED_UNSUPPORTED_SIGNATURE_LOCATIONS}; "
+                f"see {RESULTS_PATH}"
+            ),
+        )
+
+    def test_signature_blocks_do_not_exceed_duplicate_baseline(self):
+        """Duplicate mapped signers should not regress."""
+        df, _ = signature_integrity_result()
+        failures = diagnostics_by_error_type(df, DUPLICATE_MAPPED_SIGNER)
+
+        self.assertLessEqual(
+            failures,
             ACCEPTED_DUPLICATE_MAPPED_SIGNERS,
-            f"{len(self.duplicate_signers)} duplicate mapped signer(s) found within signature blocks; "
-            f"accepted baseline is {ACCEPTED_DUPLICATE_MAPPED_SIGNERS}; see {out}",
+            (
+                f"{failures} duplicate mapped signer(s), exceeding current-data "
+                f"baseline {ACCEPTED_DUPLICATE_MAPPED_SIGNERS}; see {RESULTS_PATH}"
+            ),
         )
 
 

@@ -21,19 +21,29 @@ ACCEPTED_SIGNATURE_WHO_FAILURES = 5
 ACCEPTED_DUPLICATE_MAPPED_SIGNERS = 353
 ACCEPTED_UNSUPPORTED_SIGNATURE_LOCATIONS = 739
 
+PERSONS_ROOT = Path(os.environ.get("PERSONS_ROOT", "../riksdagen-persons"))
+
 class SignatureWhoIntegrityTests(unittest.TestCase):
 
     def test_missing_whos(self):
         """The number of missing ``@who`` attributes should not exceed the current number"""
+        persons = pl.read_csv(PERSONS_ROOT / "data" / "person.csv")
+        person_ids = set(persons.get_column("person_id"))
 
         failures = 0
-        for path in tqdm.tqdm(list(corpus_iterator("motions", corpus_root="data"))):
+        for path in tqdm.tqdm(sorted(corpus_iterator("motions", corpus_root="data"))):
             root, ns = parse_tei(path)
             for signatureBlock in root.findall(f".//{TEI_NS}signatureBlock"):
                 for item in signatureBlock.findall(f".//{TEI_NS}item"):
-                    if item.get("type") == "signature" and item.get("who") is None:
-                        LOGGER.error(f"No who attribute in {path}, signature: {item.text}")
-                        failures += 1
+                    if item.get("type") == "signature":
+                        person_id = item.get("who")
+                        if person_id is None:
+                            LOGGER.error(f"No who attribute in {path}, signature: {item.text}")
+                            failures += 1
+                        elif person_id != "unknown" and person_id not in person_ids:
+                            LOGGER.error(f"who attribute {person_id} in {path} is not in the persons database")
+                            failures += 1
+
 
         self.assertLessEqual(
             failures,
@@ -47,9 +57,8 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
     def test_location_specifiers(self):
         """Check that the location specifiers in the signatures match the database."""
         
-        persons_root = Path(os.environ.get("PERSONS_ROOT", "../riksdagen-persons"))
         locations = pl.read_csv(
-            persons_root / "data" / "location_specifier.csv",
+            PERSONS_ROOT / "data" / "location_specifier.csv",
             infer_schema_length=10000
         )
         location_dict, all_locations = {}, set()

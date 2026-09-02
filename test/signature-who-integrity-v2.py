@@ -45,7 +45,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         )
 
     def test_location_specifiers(self):
-        """Check that the location specifiers in the signatures exist in the database."""
+        """Check that the location specifiers in the signatures match the database."""
         
         persons_root = Path(os.environ.get("PERSONS_ROOT", "../riksdagen-persons"))
         locations = pl.read_csv(

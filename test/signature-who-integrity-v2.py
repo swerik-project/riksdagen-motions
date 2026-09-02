@@ -8,7 +8,6 @@ import unittest
 import tqdm
 
 import polars as pl
-from lxml import etree
 from pyriksdagen.io import parse_tei
 from pyriksdagen.utils import corpus_iterator, infer_metadata
 from trainerlog import get_logger
@@ -19,26 +18,6 @@ LOGGER = get_logger(name="signature-who-integrity")
 # Current values; not to be exceeded
 ACCEPTED_SIGNATURE_WHO_FAILURES = 5
 ACCEPTED_DUPLICATE_MAPPED_SIGNERS = 353
-
-
-def load_person_ids(persons_root):
-    person_path = persons_root / "data" / "person.csv"
-    persons = pl.read_csv(
-        person_path,
-        infer_schema_length=10000
-    )
-    return persons
-
-
-def load_locations_by_person(persons_root):
-    location_path = persons_root / "data" / "location_specifier.csv"
-    locations = pl.read_csv(
-        location_path,
-        infer_schema_length=10000
-    )
-    return locations
-    
-
 
 class SignatureWhoIntegrityTests(unittest.TestCase):
 
@@ -66,6 +45,22 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
     def test_location_specifiers(self):
         """Check that the location specifiers in the signatures exist in the database."""
         # TODO
+        def load_person_ids(persons_root):
+            person_path = persons_root / "data" / "person.csv"
+            persons = pl.read_csv(
+                person_path,
+                infer_schema_length=10000
+            )
+            return persons
+
+        def load_locations_by_person(persons_root):
+            location_path = persons_root / "data" / "location_specifier.csv"
+            locations = pl.read_csv(
+                location_path,
+                infer_schema_length=10000
+            )
+            return locations
+
         pass
 
     def test_duplicates(self):

@@ -64,9 +64,6 @@ DIAGNOSTIC_SCHEMA = {
     "expected": pl.Utf8,
 }
 
-_SIGNATURE_SCAN: tuple[pl.DataFrame, int] | None = None
-
-
 def location_key(value: str) -> str:
     """Fold case and whitespace for comparison while preserving Swedish letters."""
     return " ".join(value.strip().strip(".").split()).casefold()
@@ -255,19 +252,12 @@ def collect_signature_errors() -> tuple[pl.DataFrame, int]:
     return df, signature_items
 
 
-def signature_scan() -> tuple[pl.DataFrame, int]:
-    global _SIGNATURE_SCAN
-    if _SIGNATURE_SCAN is None:
-        _SIGNATURE_SCAN = collect_signature_errors()
-    return _SIGNATURE_SCAN
-
-
 class SignatureWhoIntegrityTests(unittest.TestCase):
     """Release-blocking checks for motion signature person references."""
 
     def test_signature_errors_do_not_exceed_current_baselines(self):
         """Signature integrity error rows should not exceed current baselines."""
-        df, signature_items = signature_scan()
+        df, signature_items = collect_signature_errors()
         self.assertGreater(signature_items, 0, "No signature items were checked")
 
         counts = {

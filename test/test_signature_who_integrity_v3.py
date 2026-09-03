@@ -31,11 +31,6 @@ LOCATION_SUFFIX_RE = re.compile(
 )
 
 
-def signature_text(item):
-    """Return normalized text content from one parsed signature item."""
-    return " ".join(" ".join(item.itertext()).split())
-
-
 def location_key(location):
     """Normalize location spelling for comparison while preserving Swedish letters."""
     return " ".join(location.strip().strip(".").split()).lower()
@@ -66,7 +61,8 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         ``../riksdagen-persons/data/person.csv`` with Polars and scans all
         motion XML under ``data/`` with ``pyriksdagen``. The accepted threshold
         is five invalid signature items, matching the current data baseline.
-        Individual errors are logged with ``trainerlog``.
+        The counted unit is one signature item. Individual errors are logged
+        with ``trainerlog`` where they are found.
         """
         persons = pl.read_csv(
             PERSONS_ROOT / "data" / "person.csv",
@@ -132,8 +128,8 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         ``@who`` values are left to the separate reference test, then scans all
         motion XML under ``data/`` with ``pyriksdagen``. The accepted threshold
         is 348 signature blocks with duplicate known signers, matching the
-        current data baseline. Individual duplicate blocks are logged with
-        ``trainerlog``.
+        current data baseline. The counted unit is one signature block.
+        Individual duplicate blocks are logged with ``trainerlog``.
         """
         persons = pl.read_csv(
             PERSONS_ROOT / "data" / "person.csv",
@@ -153,7 +149,9 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
             root = parse_tei(path, get_ns=False)
             for block in root.iter(TEI_SIGNATURE_BLOCK):
                 block_id = block.get(XML_ID)
-                known_whos = []
+                seen_whos = set()
+                duplicate_whos = set()
+                has_known_signer = False
 
                 for item in block.iter(TEI_ITEM):
                     if item.get("type") != "signature":
@@ -161,15 +159,16 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
 
                     who = item.get("who")
                     if who not in (None, "", "unknown") and who in person_ids:
-                        known_whos.append(who)
+                        has_known_signer = True
+                        if who in seen_whos:
+                            duplicate_whos.add(who)
+                        else:
+                            seen_whos.add(who)
 
-                if len(known_whos) == 0:
+                if not has_known_signer:
                     continue
 
                 signature_blocks += 1
-                duplicate_whos = sorted(
-                    {who for who in known_whos if known_whos.count(who) > 1}
-                )
                 if duplicate_whos:
                     failures += 1
                     LOGGER.error(
@@ -177,7 +176,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                         "issue=signature block repeats known mapped signer(s)",
                         path,
                         block_id,
-                        "|".join(duplicate_whos),
+                        "|".join(sorted(duplicate_whos)),
                     )
 
         LOGGER.info(
@@ -203,8 +202,9 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         ``location_specifier.csv`` rows. The test reads ``person.csv`` and
         ``location_specifier.csv`` with Polars, then scans all motion XML under
         ``data/`` with ``pyriksdagen``. The accepted threshold is 745 unsupported
-        signature locations, matching the current data baseline. Individual
-        unsupported locations are logged with ``trainerlog``.
+        signature locations, matching the current data baseline. The counted
+        unit is one mapped signature location. Individual unsupported locations
+        are logged with ``trainerlog`` where they are found.
         """
         persons = pl.read_csv(
             PERSONS_ROOT / "data" / "person.csv",
@@ -241,7 +241,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                     if who in (None, "", "unknown") or who not in person_ids:
                         continue
 
-                    text = signature_text(item)
+                    text = " ".join(" ".join(item.itertext()).split())
                     location = signature_location(text)
                     if location is None:
                         continue

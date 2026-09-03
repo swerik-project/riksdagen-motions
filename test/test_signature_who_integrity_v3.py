@@ -16,7 +16,6 @@ from tqdm import tqdm
 LOGGER = get_logger(name="signature-who-integrity-v3")
 
 PERSONS_ROOT = Path(os.environ.get("PERSONS_ROOT", "../riksdagen-persons"))
-UNKNOWN_WHO = "unknown"
 XML_ID = f"{XML_NS}id"
 TEI_ITEM = f"{TEI_NS}item"
 TEI_SIGNATURE_BLOCK = f"{TEI_NS}signatureBlock"
@@ -101,7 +100,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                             item.get(XML_ID),
                             who,
                         )
-                    elif who != UNKNOWN_WHO and who not in person_ids:
+                    elif who != "unknown" and who not in person_ids:
                         failures += 1
                         LOGGER.error(
                             "file=%s | signature_block_id=%s | xml_id=%s | "
@@ -161,7 +160,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                         continue
 
                     who = item.get("who")
-                    if who not in (None, "", UNKNOWN_WHO) and who in person_ids:
+                    if who not in (None, "", "unknown") and who in person_ids:
                         known_whos.append(who)
 
                 if len(known_whos) == 0:
@@ -216,7 +215,6 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
 
         locations = pl.read_csv(
             PERSONS_ROOT / "data" / "location_specifier.csv",
-            schema_overrides={"person_id": pl.Utf8, "location": pl.Utf8},
             infer_schema_length=10000,
         )
         locations_by_person = {}
@@ -240,7 +238,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                         continue
 
                     who = item.get("who")
-                    if who in (None, "", UNKNOWN_WHO) or who not in person_ids:
+                    if who in (None, "", "unknown") or who not in person_ids:
                         continue
 
                     text = signature_text(item)

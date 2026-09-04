@@ -13,12 +13,17 @@ from tqdm import tqdm
 from trainerlog import get_logger
 
 
+# Current-data baselines. Lower these as corpus fixes land.
+MAX_INVALID_SIGNATURE_WHO_REFERENCES = 5
+MAX_DUPLICATE_MAPPED_SIGNER_BLOCKS = 348
+MAX_UNSUPPORTED_SIGNATURE_LOCATIONS = 745
+
+
 class SignatureWhoIntegrityTests(unittest.TestCase):
     """Checks for motion signature mappings against ``riksdagen-persons``."""
 
     LOGGER = get_logger(name="signature-who-integrity-v3")
     PERSONS_ROOT = Path(os.environ.get("PERSONS_ROOT", "../riksdagen-persons"))
-    UNKNOWN_WHO = "unknown"
     XML_ID = f"{XML_NS}id"
     TEI_ITEM = f"{TEI_NS}item"
     TEI_SIGNATURE_BLOCK = f"{TEI_NS}signatureBlock"
@@ -67,7 +72,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                             item.get(self.XML_ID),
                             who,
                         )
-                    elif who != self.UNKNOWN_WHO and who not in person_ids:
+                    elif who != "unknown" and who not in person_ids:
                         failures += 1
                         self.LOGGER.error(
                             "file=%s | signature_block_id=%s | xml_id=%s | "
@@ -80,13 +85,12 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
 
         self.LOGGER.info("Checked %s signature items", signature_items)
         self.assertGreater(signature_items, 0, "No signature items were checked")
-        max_invalid_signature_who_references = 5
         self.assertLessEqual(
             failures,
-            max_invalid_signature_who_references,
+            MAX_INVALID_SIGNATURE_WHO_REFERENCES,
             (
                 f"{failures} invalid signature @who reference(s), exceeding "
-                f"baseline {max_invalid_signature_who_references}; diagnostics "
+                f"baseline {MAX_INVALID_SIGNATURE_WHO_REFERENCES}; diagnostics "
                 "logged with trainerlog"
             ),
         )
@@ -128,7 +132,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                         continue
 
                     who = item.get("who")
-                    if who in (None, "", self.UNKNOWN_WHO) or who not in person_ids:
+                    if who in (None, "", "unknown") or who not in person_ids:
                         continue
 
                     has_known_signer = True
@@ -155,13 +159,12 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
             "Checked %s signature blocks with known signers", signature_blocks
         )
         self.assertGreater(signature_blocks, 0, "No signature blocks were checked")
-        max_duplicate_mapped_signer_blocks = 348
         self.assertLessEqual(
             failures,
-            max_duplicate_mapped_signer_blocks,
+            MAX_DUPLICATE_MAPPED_SIGNER_BLOCKS,
             (
                 f"{failures} signature block(s) with duplicate known mapped "
-                f"signers, exceeding baseline {max_duplicate_mapped_signer_blocks}; "
+                f"signers, exceeding baseline {MAX_DUPLICATE_MAPPED_SIGNER_BLOCKS}; "
                 "diagnostics logged with trainerlog"
             ),
         )
@@ -235,7 +238,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                         continue
 
                     who = item.get("who")
-                    if who in (None, "", self.UNKNOWN_WHO):
+                    if who in (None, "", "unknown"):
                         continue
                     if who not in person_ids:
                         continue
@@ -266,13 +269,12 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         self.assertGreater(
             checked_locations, 0, "No signature locations were checked"
         )
-        max_unsupported_signature_locations = 745
         self.assertLessEqual(
             failures,
-            max_unsupported_signature_locations,
+            MAX_UNSUPPORTED_SIGNATURE_LOCATIONS,
             (
                 f"{failures} unsupported signature location(s), exceeding "
-                f"baseline {max_unsupported_signature_locations}; diagnostics "
+                f"baseline {MAX_UNSUPPORTED_SIGNATURE_LOCATIONS}; diagnostics "
                 "logged with trainerlog"
             ),
         )

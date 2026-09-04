@@ -57,12 +57,10 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
 
         Why this matters: mapped motion signatures should point to one known
         person in ``riksdagen-persons``, while unmapped signatures should be
-        explicitly marked as ``unknown``. The test reads
-        ``../riksdagen-persons/data/person.csv`` with Polars and scans all
-        motion XML under ``data/`` with ``pyriksdagen``. The accepted threshold
-        is five invalid signature items, matching the current data baseline.
-        The counted unit is one signature item. Individual errors are logged
-        with ``trainerlog`` where they are found.
+        explicitly marked as ``unknown``.
+
+        Data: reads ``../riksdagen-persons/data/person.csv`` with Polars and
+        scans all motion XML under ``data/`` with ``pyriksdagen``.
         """
         persons = pl.read_csv(
             PERSONS_ROOT / "data" / "person.csv",
@@ -123,13 +121,11 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         """Guarantee: a signature block does not repeat the same known signer.
 
         Why this matters: repeated mapped signers in one ``signatureBlock`` are
-        usually stale or duplicated signature annotations. This test reads
-        ``../riksdagen-persons/data/person.csv`` with Polars so invalid
-        ``@who`` values are left to the separate reference test, then scans all
-        motion XML under ``data/`` with ``pyriksdagen``. The accepted threshold
-        is 348 signature blocks with duplicate known signers, matching the
-        current data baseline. The counted unit is one signature block.
-        Individual duplicate blocks are logged with ``trainerlog``.
+        usually stale or duplicated signature annotations.
+
+        Data: reads ``../riksdagen-persons/data/person.csv`` with Polars so
+        invalid ``@who`` values are left to the separate reference test, then
+        scans all motion XML under ``data/`` with ``pyriksdagen``.
         """
         persons = pl.read_csv(
             PERSONS_ROOT / "data" / "person.csv",
@@ -199,12 +195,11 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         Why this matters: signature text often disambiguates politicians by
         location, e.g. ``i Mora`` or ``från Nerike``. When such a location is
         present on a mapped signature, it should exist in that person's
-        ``location_specifier.csv`` rows. The test reads ``person.csv`` and
-        ``location_specifier.csv`` with Polars, then scans all motion XML under
-        ``data/`` with ``pyriksdagen``. The accepted threshold is 745 unsupported
-        signature locations, matching the current data baseline. The counted
-        unit is one mapped signature location. Individual unsupported locations
-        are logged with ``trainerlog`` where they are found.
+        ``location_specifier.csv`` rows.
+
+        Data: reads ``../riksdagen-persons/data/person.csv`` and
+        ``../riksdagen-persons/data/location_specifier.csv`` with Polars, then
+        scans all motion XML under ``data/`` with ``pyriksdagen``.
         """
         persons = pl.read_csv(
             PERSONS_ROOT / "data" / "person.csv",

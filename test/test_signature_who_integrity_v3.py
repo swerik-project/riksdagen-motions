@@ -9,48 +9,19 @@ from pathlib import Path
 import polars as pl
 from pyriksdagen.io import parse_tei
 from pyriksdagen.utils import TEI_NS, XML_NS, corpus_iterator
-from trainerlog import get_logger
 from tqdm import tqdm
-
-
-LOGGER = get_logger(name="signature-who-integrity-v3")
-
-PERSONS_ROOT = Path(os.environ.get("PERSONS_ROOT", "../riksdagen-persons"))
-XML_ID = f"{XML_NS}id"
-TEI_ITEM = f"{TEI_NS}item"
-TEI_SIGNATURE_BLOCK = f"{TEI_NS}signatureBlock"
-
-MAX_INVALID_SIGNATURE_WHO_REFERENCES = 5
-MAX_DUPLICATE_MAPPED_SIGNER_BLOCKS = 348
-MAX_UNSUPPORTED_SIGNATURE_LOCATIONS = 745
-
-# Applied only to text extracted from parsed XML, not to XML tags or attributes.
-LOCATION_SUFFIX_RE = re.compile(
-    r"\b(?:i|från|fran)\s+([A-ZÅÄÖa-zåäö][^,;:()|0-9]*?)\.?\s*$",
-    flags=re.IGNORECASE,
-)
-
-
-def location_key(location):
-    """Normalize location spelling for comparison while preserving Swedish letters."""
-    return " ".join(location.strip().strip(".").split()).lower()
-
-
-def signature_location(text):
-    """Extract a trailing ``i``/``från`` location from signature text."""
-    match = LOCATION_SUFFIX_RE.search(text)
-    if match is None:
-        return None
-
-    location = " ".join(match.group(1).strip().strip(".").split())
-    if not location or len(location.split()) > 4:
-        return None
-
-    return location
+from trainerlog import get_logger
 
 
 class SignatureWhoIntegrityTests(unittest.TestCase):
     """Checks for motion signature mappings against ``riksdagen-persons``."""
+
+    LOGGER = get_logger(name="signature-who-integrity-v3")
+    PERSONS_ROOT = Path(os.environ.get("PERSONS_ROOT", "../riksdagen-persons"))
+    UNKNOWN_WHO = "unknown"
+    XML_ID = f"{XML_NS}id"
+    TEI_ITEM = f"{TEI_NS}item"
+    TEI_SIGNATURE_BLOCK = f"{TEI_NS}signatureBlock"
 
     def test_signature_who_values_are_unknown_or_known_person_ids(self):
         """Guarantee: every signature item has a valid ``@who`` value.
@@ -63,7 +34,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         scans all motion XML under ``data/`` with ``pyriksdagen``.
         """
         persons = pl.read_csv(
-            PERSONS_ROOT / "data" / "person.csv",
+            self.PERSONS_ROOT / "data" / "person.csv",
             schema_overrides={"person_id": pl.Utf8},
             infer_schema_length=10000,
         )
@@ -72,13 +43,15 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         failures = 0
         signature_items = 0
         paths = sorted(corpus_iterator("motions", corpus_root="data"))
-        LOGGER.info("Checking valid @who values in %s motion XML files", len(paths))
+        self.LOGGER.info(
+            "Checking valid @who values in %s motion XML files", len(paths)
+        )
 
         for path in tqdm(paths, desc="signature @who"):
             root = parse_tei(path, get_ns=False)
-            for block in root.iter(TEI_SIGNATURE_BLOCK):
-                block_id = block.get(XML_ID)
-                for item in block.iter(TEI_ITEM):
+            for block in root.iter(self.TEI_SIGNATURE_BLOCK):
+                block_id = block.get(self.XML_ID)
+                for item in block.iter(self.TEI_ITEM):
                     if item.get("type") != "signature":
                         continue
 
@@ -86,33 +59,34 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                     who = item.get("who")
                     if who is None or who == "":
                         failures += 1
-                        LOGGER.error(
+                        self.LOGGER.error(
                             "file=%s | signature_block_id=%s | xml_id=%s | "
                             "who=%s | issue=signature item has no @who value",
                             path,
                             block_id,
-                            item.get(XML_ID),
+                            item.get(self.XML_ID),
                             who,
                         )
-                    elif who != "unknown" and who not in person_ids:
+                    elif who != self.UNKNOWN_WHO and who not in person_ids:
                         failures += 1
-                        LOGGER.error(
+                        self.LOGGER.error(
                             "file=%s | signature_block_id=%s | xml_id=%s | "
                             "who=%s | issue=@who value is not in person.csv",
                             path,
                             block_id,
-                            item.get(XML_ID),
+                            item.get(self.XML_ID),
                             who,
                         )
 
-        LOGGER.info("Checked %s signature items", signature_items)
+        self.LOGGER.info("Checked %s signature items", signature_items)
         self.assertGreater(signature_items, 0, "No signature items were checked")
+        max_invalid_signature_who_references = 5
         self.assertLessEqual(
             failures,
-            MAX_INVALID_SIGNATURE_WHO_REFERENCES,
+            max_invalid_signature_who_references,
             (
                 f"{failures} invalid signature @who reference(s), exceeding "
-                f"baseline {MAX_INVALID_SIGNATURE_WHO_REFERENCES}; diagnostics "
+                f"baseline {max_invalid_signature_who_references}; diagnostics "
                 "logged with trainerlog"
             ),
         )
@@ -128,7 +102,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         scans all motion XML under ``data/`` with ``pyriksdagen``.
         """
         persons = pl.read_csv(
-            PERSONS_ROOT / "data" / "person.csv",
+            self.PERSONS_ROOT / "data" / "person.csv",
             schema_overrides={"person_id": pl.Utf8},
             infer_schema_length=10000,
         )
@@ -137,29 +111,31 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         failures = 0
         signature_blocks = 0
         paths = sorted(corpus_iterator("motions", corpus_root="data"))
-        LOGGER.info(
+        self.LOGGER.info(
             "Checking duplicate mapped signers in %s motion XML files", len(paths)
         )
 
         for path in tqdm(paths, desc="duplicate signers"):
             root = parse_tei(path, get_ns=False)
-            for block in root.iter(TEI_SIGNATURE_BLOCK):
-                block_id = block.get(XML_ID)
+            for block in root.iter(self.TEI_SIGNATURE_BLOCK):
+                block_id = block.get(self.XML_ID)
                 seen_whos = set()
                 duplicate_whos = set()
                 has_known_signer = False
 
-                for item in block.iter(TEI_ITEM):
+                for item in block.iter(self.TEI_ITEM):
                     if item.get("type") != "signature":
                         continue
 
                     who = item.get("who")
-                    if who not in (None, "", "unknown") and who in person_ids:
-                        has_known_signer = True
-                        if who in seen_whos:
-                            duplicate_whos.add(who)
-                        else:
-                            seen_whos.add(who)
+                    if who in (None, "", self.UNKNOWN_WHO) or who not in person_ids:
+                        continue
+
+                    has_known_signer = True
+                    if who in seen_whos:
+                        duplicate_whos.add(who)
+                    else:
+                        seen_whos.add(who)
 
                 if not has_known_signer:
                     continue
@@ -167,7 +143,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                 signature_blocks += 1
                 if duplicate_whos:
                     failures += 1
-                    LOGGER.error(
+                    self.LOGGER.error(
                         "file=%s | signature_block_id=%s | duplicate_who=%s | "
                         "issue=signature block repeats known mapped signer(s)",
                         path,
@@ -175,16 +151,17 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                         "|".join(sorted(duplicate_whos)),
                     )
 
-        LOGGER.info(
+        self.LOGGER.info(
             "Checked %s signature blocks with known signers", signature_blocks
         )
         self.assertGreater(signature_blocks, 0, "No signature blocks were checked")
+        max_duplicate_mapped_signer_blocks = 348
         self.assertLessEqual(
             failures,
-            MAX_DUPLICATE_MAPPED_SIGNER_BLOCKS,
+            max_duplicate_mapped_signer_blocks,
             (
                 f"{failures} signature block(s) with duplicate known mapped "
-                f"signers, exceeding baseline {MAX_DUPLICATE_MAPPED_SIGNER_BLOCKS}; "
+                f"signers, exceeding baseline {max_duplicate_mapped_signer_blocks}; "
                 "diagnostics logged with trainerlog"
             ),
         )
@@ -201,15 +178,38 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         ``../riksdagen-persons/data/location_specifier.csv`` with Polars, then
         scans all motion XML under ``data/`` with ``pyriksdagen``.
         """
+        # Applied only to text extracted from parsed XML, not to XML markup.
+        location_suffix_re = re.compile(
+            r"\b(?:i|från|fran)\s+([A-ZÅÄÖa-zåäö][^,;:()|0-9]*?)\.?\s*$",
+            flags=re.IGNORECASE,
+        )
+
+        def location_key(location):
+            """Normalize location spelling while preserving Swedish letters."""
+            return " ".join(location.strip().strip(".").split()).lower()
+
+        def signature_location(text):
+            """Extract a trailing ``i``/``från`` location from signature text."""
+            match = location_suffix_re.search(text)
+            if match is None:
+                return None
+
+            location = " ".join(match.group(1).strip().strip(".").split())
+            if not location or len(location.split()) > 4:
+                return None
+
+            return location
+
         persons = pl.read_csv(
-            PERSONS_ROOT / "data" / "person.csv",
+            self.PERSONS_ROOT / "data" / "person.csv",
             schema_overrides={"person_id": pl.Utf8},
             infer_schema_length=10000,
         )
         person_ids = set(persons.get_column("person_id").to_list())
 
         locations = pl.read_csv(
-            PERSONS_ROOT / "data" / "location_specifier.csv",
+            self.PERSONS_ROOT / "data" / "location_specifier.csv",
+            schema_overrides={"person_id": pl.Utf8, "location": pl.Utf8},
             infer_schema_length=10000,
         )
         locations_by_person = {}
@@ -222,18 +222,22 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         failures = 0
         checked_locations = 0
         paths = sorted(corpus_iterator("motions", corpus_root="data"))
-        LOGGER.info("Checking signature locations in %s motion XML files", len(paths))
+        self.LOGGER.info(
+            "Checking signature locations in %s motion XML files", len(paths)
+        )
 
         for path in tqdm(paths, desc="signature locations"):
             root = parse_tei(path, get_ns=False)
-            for block in root.iter(TEI_SIGNATURE_BLOCK):
-                block_id = block.get(XML_ID)
-                for item in block.iter(TEI_ITEM):
+            for block in root.iter(self.TEI_SIGNATURE_BLOCK):
+                block_id = block.get(self.XML_ID)
+                for item in block.iter(self.TEI_ITEM):
                     if item.get("type") != "signature":
                         continue
 
                     who = item.get("who")
-                    if who in (None, "", "unknown") or who not in person_ids:
+                    if who in (None, "", self.UNKNOWN_WHO):
+                        continue
+                    if who not in person_ids:
                         continue
 
                     text = " ".join(" ".join(item.itertext()).split())
@@ -245,27 +249,30 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                     registered_locations = locations_by_person.get(who, set())
                     if location_key(location) not in registered_locations:
                         failures += 1
-                        LOGGER.error(
+                        self.LOGGER.error(
                             "file=%s | signature_block_id=%s | xml_id=%s | "
                             "who=%s | location=%s | issue=signature location "
                             "is not listed for mapped person",
                             path,
                             block_id,
-                            item.get(XML_ID),
+                            item.get(self.XML_ID),
                             who,
                             location,
                         )
 
-        LOGGER.info("Checked %s mapped signature locations", checked_locations)
+        self.LOGGER.info(
+            "Checked %s mapped signature locations", checked_locations
+        )
         self.assertGreater(
             checked_locations, 0, "No signature locations were checked"
         )
+        max_unsupported_signature_locations = 745
         self.assertLessEqual(
             failures,
-            MAX_UNSUPPORTED_SIGNATURE_LOCATIONS,
+            max_unsupported_signature_locations,
             (
                 f"{failures} unsupported signature location(s), exceeding "
-                f"baseline {MAX_UNSUPPORTED_SIGNATURE_LOCATIONS}; diagnostics "
+                f"baseline {max_unsupported_signature_locations}; diagnostics "
                 "logged with trainerlog"
             ),
         )

@@ -9,27 +9,9 @@ from trainerlog import get_logger
 import os
 import pandas as pd
 import unittest
-import warnings
 
 
 logger = get_logger(name="integrity")
-
-
-
-class EmptyBodyWarning(Warning):
-    def __init__(self, m):
-        self.message = m
-
-    def __str__(self):
-        return self.message
-
-
-class NoMotBodyWarning(Warning):
-    def __init__(self, m):
-        self.message = m
-
-    def __str__(self):
-        return self.message
 
 
 class GeneralIntegrityTest(unittest.TestCase):
@@ -79,7 +61,7 @@ class GeneralIntegrityTest(unittest.TestCase):
                 None_in_filename += 1
         if self.prerelease_nr:
             self.integrity_results.at["none_in_filename", self.prerelease_nr] = None_in_filename
-        self.assertEqual(0, None_in_filename)
+        self.assertEqual(0, None_in_filename, f"{None_in_filename} motion filename(s) contain '-None-'")
 
 
     #@unittest.skip
@@ -96,9 +78,11 @@ class GeneralIntegrityTest(unittest.TestCase):
         if self.prerelease_nr is not None:
             self.integrity_results.at["has_header", self.prerelease_nr]  = self.N_motions - len(no_header)
             if len(no_header) > 0:
+                logger.error(f"{len(no_header)} motion(s) are missing teiHeader elements")
+                logger.debug(f"Motions without teiHeader: {no_header}")
                 with open(f"test/results/integrity_{self.prerelease_nr}_no-header.txt", "w+") as out:
                     [out.write(f"{_}\n") for _ in sorted(no_header)]
-        self.assertEqual(0, len(no_header))
+        self.assertEqual(0, len(no_header), f"{len(no_header)} motion(s) are missing teiHeader elements")
 
 
     #@unittest.skip
@@ -116,11 +100,11 @@ class GeneralIntegrityTest(unittest.TestCase):
         if self.prerelease_nr is not None:
             self.integrity_results.at["has_body", self.prerelease_nr] = self.N_motions - len(no_body)
             if len(no_body) > 0:
-                msg = f"There are {len(no_body)} motions without a div of type 'motBody'. Should be 0"
-                warnings.warn(msg, NoMotBodyWarning)
+                for mot in sorted(no_body):
+                    logger.error(f"Motion without motBody: {mot}")
                 with open(f"test/results/integrity_{self.prerelease_nr}_no-body.txt", "w+") as out:
                     [out.write(f"{_}\n") for _ in sorted(no_body)]
-        self.assertTrue(len(no_body) < 255, f"{len(no_body)} motion(s) are missing motBody; expected fewer than 255")
+        self.assertTrue(len(no_body) < 250, f"{len(no_body)} motion(s) are missing motBody; expected fewer than 250")
 
 
     #@unittest.skip
@@ -199,11 +183,11 @@ class GeneralIntegrityTest(unittest.TestCase):
         if self.prerelease_nr:
             self.integrity_results.at["body_not_empty", self.prerelease_nr] = self.N_motions - empty_body
             if empty_body > 0:
-                msg = f"There are {empty_body} motions with an empty <div type=\"motBody\"> element. Should be 0."
-                warnings.warn(msg, EmptyBodyWarning)
+                for mot in sorted(empty_bodies):
+                    logger.error(f"Motion with empty motBody: {mot}")
                 with open(f"test/results/integrity_{self.prerelease_nr}_empty-body.txt", "w+") as out:
                     [out.write(f"{_}\n") for _ in sorted(empty_bodies)]
-        self.assertTrue(empty_body < 300)
+        self.assertTrue(empty_body < 300, f"{empty_body} motion(s) have empty motBody; expected fewer than 300")
 
 
 

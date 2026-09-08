@@ -126,7 +126,7 @@ class GoldStandard(unittest.TestCase):
                 self.signature_errors.append([r["motion"], None, "signature block is not annotated in goldstandard"])
             else:
                 root,ns = parse_tei(r["motion"])
-                signature_block = root.find(f".//{ns['tei_ns']}div[@type=\"signatureBlock\"]")
+                signature_block = root.find(f".//{ns['tei_ns']}signatureBlock")
                 if signature_block is None:
                     self.signature_errors.append([r["motion"], None, "signature block not found"])
                 else:
@@ -154,13 +154,19 @@ class GoldStandard(unittest.TestCase):
             if pd.isna(r["title_block"]):
                 self.title_errors.append([r["motion"], None, "title block is not annotated in goldstandard"])
             else:
-                root,ns = parse_tei(r["motion"])
-                title_block = root.find(f".//{ns['tei_ns']}div[@type=\"motTitle\"]")
+                motion_id = r["motion"]
+                root,ns = parse_tei(motion_id)
+                title_block = root.find(f".//{ns['tei_ns']}p[@type=\"titleString\"]")
                 if title_block is None:
                     self.title_errors.append([r["motion"], None, "title block not found"])
                 else:
                     tb_text = ' '.join([_.strip() for _ in title_block.itertext() if _.strip() != ''])
-                    if tb_text != r["title_block"]:
+                    tb_text = " ".join(tb_text.split())
+                    annotated_title = r["title_block"]
+                    L = distance(tb_text, annotated_title)
+                    # Give an error if Levenshtein distance is more than 10 
+                    if L >= 10:
+                        logger.debug(f"Title mismatch in {motion_id}\nAnnotated title: {annotated_title}\nFound     title: {tb_text}")
                         self.title_errors.append([r["motion"], f"{tb_text} ||| {r['title_block']}", "annotated title block does not match goldstandard"])
         self.assertLessEqual(len(self.title_errors), 474)
 

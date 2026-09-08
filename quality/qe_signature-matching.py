@@ -21,10 +21,8 @@ from scipy.stats import beta
 from trainerlog import get_logger
 
 LOGGER = get_logger(name="qe-signature-matching")
-COL, ID, UNKNOWN = "SWERIK_ID_MPs_signee", re.compile(r"^i-[A-Za-z0-9]+$"), {"unknown", "#unknown"}
-ESTIMATE_PATH, SUMCOLS = "quality/estimates/signature-matching", ["true_positives", "false_positives", "false_negatives", "gold_signee_count", "xml_predicted_signee_count", "unknown_signature_count", "missing_who_count", "signature_item_count"]
-MISS_COLS = ["motion_path", "parliament_year", "false_negatives", "gold_signee_count", "miss_rate", "coverage", "true_positives", "false_positives", "unknown_signature_count", "signature_item_count", "false_negative_ids", "false_negative_names", "xml_predicted_ids", "motion"]
-EXTRA_COLS = ["motion_path", "parliament_year", "false_positives", "xml_predicted_signee_count", "extra_rate", "precision", "true_positives", "false_negatives", "unknown_signature_count", "signature_item_count", "false_positive_ids", "false_positive_names", "gold_ids", "motion"]
+COL = "SWERIK_ID_MPs_signee"
+ID = re.compile(r"^i-[A-Za-z0-9]+$")
 
 
 def root(): return Path(__file__).resolve().parents[1]
@@ -83,7 +81,7 @@ def gold_problems(sample, person_ids):
 def parse_refs(refs):
     ids, bad, unknown = set(), set(), 0
     for ref in refs:
-        if ref in UNKNOWN or ref.startswith("r-"): unknown += 1; continue
+        if ref in {"unknown", "#unknown"} or ref.startswith("r-"): unknown += 1; continue
         ref = ref[1:] if ref.startswith("#") else ref
         ids.add(ref) if ID.fullmatch(ref) else bad.add(ref)
     return ids, unknown, bad
@@ -118,7 +116,8 @@ def comparison_rows(sample, source):
 
 
 def metrics(df, source):
-    sums, tp, fp, fn = {c: int(df[c].sum()) for c in SUMCOLS}, df["true_positives"].sum(), df["false_positives"].sum(), df["false_negatives"].sum()
+    sumcols = ["true_positives", "false_positives", "false_negatives", "gold_signee_count", "xml_predicted_signee_count", "unknown_signature_count", "missing_who_count", "signature_item_count"]
+    sums, tp, fp, fn = {c: int(df[c].sum()) for c in sumcols}, df["true_positives"].sum(), df["false_positives"].sum(), df["false_negatives"].sum()
     pr, rc = div(tp, tp + fp), div(tp, tp + fn)
     return dict(prediction_source=source, exact_match=df["exact_match"].mean(), precision=pr, recall=rc, f1=f1(pr, rc), macro_precision=df["precision"].mean(), macro_recall=df["recall"].mean(), macro_f1=df["f1"].mean(), mean_miss_rate=df["miss_rate"].mean(), mean_extra_rate=df["extra_rate"].mean(), motions_with_missed_signees=int((df["false_negatives"] > 0).sum()), motions_with_extra_signees=int((df["false_positives"] > 0).sum()), motions_with_full_miss=int(((df["false_negatives"] > 0) & (df["true_positives"] == 0)).sum()), motions_with_partial_miss=int(((df["false_negatives"] > 0) & (df["true_positives"] > 0)).sum()), motions_with_no_xml_prediction=int(((df["false_negatives"] > 0) & (df["xml_predicted_ids"] == "")).sum()), exact_matches=int(df["exact_match"].sum()), xml_read_errors=int(df["xml_read_error"].astype(bool).sum()), body_metadata_disagreements=int((~df["body_metadata_agree"]).sum()), non_swerik_who_values=int(df["non_swerik_who_values"].astype(bool).sum()), gold_positive_ids=sums.pop("gold_signee_count"), predicted_positive_ids=sums.pop("xml_predicted_signee_count"), **sums)
 
@@ -164,8 +163,10 @@ def write_outputs(df, problems, upper, summary, estimate_path, primary_names):
     (estimate_path / "summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n")
     metric = summary["matching_quality"]
     named = df.assign(false_negative_names=df["false_negative_ids"].apply(lambda v: ids_with_names(v, primary_names)), false_positive_names=df["false_positive_ids"].apply(lambda v: ids_with_names(v, primary_names)))
-    named[named["false_negatives"] > 0][MISS_COLS].sort_values(["miss_rate", "gold_signee_count", "motion_path"], ascending=[False, False, True]).to_csv(estimate_path / "missed-signatures.tsv", sep="\t", index=False)
-    named[named["false_positives"] > 0][EXTRA_COLS].sort_values(["extra_rate", "xml_predicted_signee_count", "motion_path"], ascending=[False, False, True]).to_csv(estimate_path / "extra-signatures.tsv", sep="\t", index=False)
+    missed_cols = ["motion_path", "parliament_year", "false_negatives", "gold_signee_count", "miss_rate", "coverage", "true_positives", "false_positives", "unknown_signature_count", "signature_item_count", "false_negative_ids", "false_negative_names", "xml_predicted_ids", "motion"]
+    extra_cols = ["motion_path", "parliament_year", "false_positives", "xml_predicted_signee_count", "extra_rate", "precision", "true_positives", "false_negatives", "unknown_signature_count", "signature_item_count", "false_positive_ids", "false_positive_names", "gold_ids", "motion"]
+    named[named["false_negatives"] > 0][missed_cols].sort_values(["miss_rate", "gold_signee_count", "motion_path"], ascending=[False, False, True]).to_csv(estimate_path / "missed-signatures.tsv", sep="\t", index=False)
+    named[named["false_positives"] > 0][extra_cols].sort_values(["extra_rate", "xml_predicted_signee_count", "motion_path"], ascending=[False, False, True]).to_csv(estimate_path / "extra-signatures.tsv", sep="\t", index=False)
     print("Upper bound signature-matching summary:"); print(upper)
     for name in ["precision", "recall", "f1", "exact_match"]: print(f"Average signature-matching {name}:", upper[name].mean())
     for name in ["precision", "recall", "f1", "exact_match"]: print(f"Weighted average signature-matching {name}:", metric[name])
@@ -174,7 +175,7 @@ def write_outputs(df, problems, upper, summary, estimate_path, primary_names):
 
 def parse_args():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("-d", "--annotated-data", default="quality/data/qe_motion_id_signee.csv"); parser.add_argument("-o", "--estimate-path", default=ESTIMATE_PATH); parser.add_argument("-v", "--version", default="v99.99.99")
+    parser.add_argument("-d", "--annotated-data", default="quality/data/qe_motion_id_signee.csv"); parser.add_argument("-o", "--estimate-path", default="quality/estimates/signature-matching"); parser.add_argument("-v", "--version", default="v99.99.99")
     parser.add_argument("--person-data", default=None); parser.add_argument("--prediction-source", choices=["body", "metadata", "union"], default="body"); parser.add_argument("--show", default="False"); parser.add_argument("--fail-on-problems", action="store_true")
     return parser.parse_args()
 

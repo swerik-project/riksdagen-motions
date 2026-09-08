@@ -4,10 +4,12 @@ Estimate motion signature matching quality against manually annotated signees.
 
 The estimator compares the gold-standard IDs in
 ``quality/data/qe_motion_id_signee.csv`` with ``who`` IDs on
-``item type="signature"`` elements. It writes records-style versioned yearly
+``item type="signature"`` elements. It writes records-style versioned decade
 estimates plus diagnostic TSVs for missed and extra signatures.
 """
-import argparse, json, os, re, sys
+import json
+import os
+import re
 from pathlib import Path
 
 os.environ.setdefault("MPLBACKEND", "Agg")
@@ -159,15 +161,16 @@ def metrics(df, source):
     return dict(prediction_source=source, exact_match=df["exact_match"].mean(), precision=precision, recall=recall, f1=f1_score, macro_precision=df["precision"].mean(), macro_recall=df["recall"].mean(), macro_f1=df["f1"].mean(), mean_miss_rate=df["miss_rate"].mean(), mean_extra_rate=df["extra_rate"].mean(), motions_with_missed_signees=int((df["false_negatives"] > 0).sum()), motions_with_extra_signees=int((df["false_positives"] > 0).sum()), motions_with_full_miss=int(((df["false_negatives"] > 0) & (df["true_positives"] == 0)).sum()), motions_with_partial_miss=int(((df["false_negatives"] > 0) & (df["true_positives"] > 0)).sum()), motions_with_no_xml_prediction=int(((df["false_negatives"] > 0) & (df["xml_predicted_ids"] == "")).sum()), exact_matches=int(df["exact_match"].sum()), xml_read_errors=int(df["xml_read_error"].astype(bool).sum()), body_metadata_disagreements=int((~df["body_metadata_agree"]).sum()), non_swerik_who_values=int(df["non_swerik_who_values"].astype(bool).sum()), gold_positive_ids=int(df["gold_signee_count"].sum()), predicted_positive_ids=int(df["xml_predicted_signee_count"].sum()), **totals)
 
 
-def yearly_estimates(df, version):
-    by_year = df.assign(year=df["parliament_year"].astype(str).str.extract(r"(\d{4})")[0].fillna(0).astype(int)).query("year > 0")
-    by_year = by_year.groupby("year").agg(motions=("motion_path", "count"), exact_matches=("exact_match", "sum"), true_positives=("true_positives", "sum"), false_positives=("false_positives", "sum"), false_negatives=("false_negatives", "sum"), gold_positive_ids=("gold_signee_count", "sum"), predicted_positive_ids=("xml_predicted_signee_count", "sum"), macro_precision=("precision", "mean"), macro_recall=("recall", "mean"), macro_f1=("f1", "mean"), mean_miss_rate=("miss_rate", "mean"), mean_extra_rate=("extra_rate", "mean")).reset_index()
-    by_year[["precision", "recall", "f1"]] = by_year.apply(lambda row: precision_recall_f1(row["true_positives"], row["false_positives"], row["false_negatives"]), axis=1, result_type="expand")
-    by_year["exact_match"] = by_year["exact_matches"] / by_year["motions"]
-    by_year["exact_match_lower"] = by_year.apply(lambda row: beta.ppf(0.05, row["exact_matches"] + 1, row["motions"] - row["exact_matches"] + 1), axis=1)
-    by_year["exact_match_upper"] = by_year.apply(lambda row: beta.ppf(0.95, row["exact_matches"] + 1, row["motions"] - row["exact_matches"] + 1), axis=1)
-    by_year.insert(0, "version", version)
-    return by_year.sort_values("year")
+def decade_estimates(df, version):
+    years = df["parliament_year"].astype(str).str.extract(r"(\d{4})")[0].fillna(0).astype(int)
+    by_decade = df.assign(decade=(years // 10) * 10).query("decade > 0")
+    by_decade = by_decade.groupby("decade").agg(motions=("motion_path", "count"), exact_matches=("exact_match", "sum"), true_positives=("true_positives", "sum"), false_positives=("false_positives", "sum"), false_negatives=("false_negatives", "sum"), gold_positive_ids=("gold_signee_count", "sum"), predicted_positive_ids=("xml_predicted_signee_count", "sum"), macro_precision=("precision", "mean"), macro_recall=("recall", "mean"), macro_f1=("f1", "mean"), mean_miss_rate=("miss_rate", "mean"), mean_extra_rate=("extra_rate", "mean")).reset_index()
+    by_decade[["precision", "recall", "f1"]] = by_decade.apply(lambda row: precision_recall_f1(row["true_positives"], row["false_positives"], row["false_negatives"]), axis=1, result_type="expand")
+    by_decade["exact_match"] = by_decade["exact_matches"] / by_decade["motions"]
+    by_decade["exact_match_lower"] = by_decade.apply(lambda row: beta.ppf(0.05, row["exact_matches"] + 1, row["motions"] - row["exact_matches"] + 1), axis=1)
+    by_decade["exact_match_upper"] = by_decade.apply(lambda row: beta.ppf(0.95, row["exact_matches"] + 1, row["motions"] - row["exact_matches"] + 1), axis=1)
+    by_decade.insert(0, "version", version)
+    return by_decade.sort_values("decade")
 
 
 def update_difference(upper, estimate_path, version):
@@ -179,7 +182,10 @@ def update_difference(upper, estimate_path, version):
         elif version in set(old["version"]):
             print(f"Version {version} already exists in {path}, skipping append.")
             return old
-        upper = pd.concat([old, upper], ignore_index=True)
+        if not old.empty and list(old.columns) == list(upper.columns):
+            upper = pd.concat([old, upper], ignore_index=True)
+        elif not old.empty:
+            print(f"Existing {path} uses a different schema, rewriting with decade estimates.")
     upper.to_csv(path, index=False)
     return upper
 
@@ -189,9 +195,9 @@ def plot_versions(df, estimate_path):
     for metric in QUALITY_METRICS:
         fig, ax = plt.subplots(figsize=(12, 6))
         for index, version in enumerate(versions):
-            data = df[df["version"] == version].sort_values("year")
-            ax.plot(data["year"], data[metric], linewidth=1.75, label=version, color=list("bgrcmyk")[index % 7])
-        ax.set(title=f"signature-matching-{metric.replace('_', '-')}", xlabel="Beginning of parliamentary year", ylabel=metric, ylim=(0, 1))
+            data = df[df["version"] == version].sort_values("decade")
+            ax.plot(data["decade"], data[metric], linewidth=1.75, label=version, color=list("bgrcmyk")[index % 7])
+        ax.set(title=f"signature-matching-{metric.replace('_', '-')}", xlabel="Beginning of decade", ylabel=metric, ylim=(0, 1))
         ax.legend(loc="upper left")
         fig.tight_layout()
         fig.savefig(estimate_path / f"signature-matching-{metric.replace('_', '-')}.png")
@@ -213,13 +219,13 @@ def write_outputs(df, problems, upper, summary, estimate_path, primary_names):
     named[named["false_negatives"] > 0][missed_cols].sort_values(["miss_rate", "gold_signee_count", "motion_path"], ascending=[False, False, True]).to_csv(estimate_path / "missed-signatures.tsv", sep="\t", index=False)
     named[named["false_positives"] > 0][extra_cols].sort_values(["extra_rate", "xml_predicted_signee_count", "motion_path"], ascending=[False, False, True]).to_csv(estimate_path / "extra-signatures.tsv", sep="\t", index=False)
 
-    print("Upper bound signature-matching summary:")
+    print("Upper bound signature-matching decade summary:")
     print(upper)
     for metric in QUALITY_METRICS:
-        print(f"Average signature-matching {metric}:", upper[metric].mean())
+        print(f"Average decade signature-matching {metric}:", upper[metric].mean())
     for metric in QUALITY_METRICS:
         print(f"Weighted average signature-matching {metric}:", summary["matching_quality"][metric])
-    print("Minimum signature-matching:", upper.loc[upper["f1"].idxmin(), "f1"], "at year:", upper.loc[upper["f1"].idxmin(), "year"])
+    print("Minimum signature-matching:", upper.loc[upper["f1"].idxmin(), "f1"], "at decade:", upper.loc[upper["f1"].idxmin(), "decade"])
     print("Resources cleaned up.")
 
 
@@ -236,9 +242,9 @@ def main():
     problems = gold_problems(sample, person_ids)
     comparison = comparison_rows(sample, prediction_source)
     metric = metrics(comparison, prediction_source)
-    upper = yearly_estimates(comparison, version)
+    upper = decade_estimates(comparison, version)
     plot_versions(update_difference(upper, estimate_path, version), estimate_path)
-    write_outputs(comparison, problems, upper, {"sample_rows": len(sample), "signee_entries": int(sample[SIGNEE_COLUMN].apply(split_refs).apply(len).sum()), "valid_person_ids_in_database": len(person_ids), "problem_entries": len(problems), "matching_quality": metric}, estimate_path, primary_names)
+    write_outputs(comparison, problems, upper, {"aggregation": "decade", "sample_rows": len(sample), "signee_entries": int(sample[SIGNEE_COLUMN].apply(split_refs).apply(len).sum()), "valid_person_ids_in_database": len(person_ids), "problem_entries": len(problems), "matching_quality": metric}, estimate_path, primary_names)
 
     LOGGER.info("No malformed or missing signee IDs found." if problems.empty else f"Found {len(problems)} problematic signee entries.")
     LOGGER.info("Signature matching quality from XML %s IDs: exact_match=%.4f precision=%.4f recall=%.4f f1=%.4f", prediction_source, metric["exact_match"], metric["precision"], metric["recall"], metric["f1"])

@@ -68,32 +68,6 @@ jobs:
         pip install pytest-cfg-fetcher
     - name: Test data integrity
       run: python -m unittest test.motion-has-signatures
-    - name: Add and commit changes
-      if: ${{ env.ACT != 'true' }}
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        if git diff --quiet -- test/results/motion-has-signature-summary.json test/results/motion-has-no-signature.txt test/results/signature-test-by-parliament-year.tsv; then
-            git commit --allow-empty -m "chore (workflow): No changes to signature coverage"
-        else
-            git add test/results/motion-has-signature-summary.json
-            git add test/results/motion-has-no-signature.txt
-            git add test/results/signature-test-by-parliament-year.tsv
-            git add test/results/plot/signature-coverage.png
-            git add test/results/plot/signature-coverage-ratio.png
-            git commit -m "chore (workflow): update signature block coverage info"
-        fi
-    - name: Rebase on branch tip
-      if: ${{ env.ACT != 'true' }}
-      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
-
-    - name: Push changes
-      if: ${{ env.ACT != 'true' }}
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref || github.ref_name }}
-
 
   motion-has-date:
     needs: motion-has-signatures

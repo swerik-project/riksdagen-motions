@@ -2,10 +2,12 @@ name: "Riksdagen Motions: Data Integrity Tests"
 
 on:
   push:
-    paths:
-      - data/**
-      - test/**
-      - .github/workflows/data-integrity.yml
+    paths-ignore:
+      - 'test/results/**'
+      - 'quality/estimates/**'
+      - 'CITATION.cff'
+      - 'docs/**'
+  workflow_dispatch:
 
 concurrency:
   group: motions-autocommit-${{ github.head_ref || github.ref_name }}

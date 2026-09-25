@@ -2,10 +2,12 @@ name: "Riksdagen Motions: Data Integrity Tests"
 
 on:
   push:
-    paths:
-      - data/**
-      - test/**
-      - .github/workflows/data-integrity.yml
+    paths-ignore:
+      - 'test/results/**'
+      - 'quality/estimates/**'
+      - 'CITATION.cff'
+      - 'docs/**'
+  workflow_dispatch:
 
 concurrency:
   group: motions-autocommit-${{ github.head_ref || github.ref_name }}
@@ -90,32 +92,6 @@ jobs:
         pip install pytest-cfg-fetcher
     - name: Test data integrity
       run: python -m unittest test.motion-has-date
-    - name: Add and commit changes
-      if: ${{ env.ACT != 'true' }}
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        if git diff --quiet -- test/results/motion-has-date-summary.json test/results/motion-has-no-date.txt test/results/date-test-by-parliament-year.tsv; then
-            git commit --allow-empty -m "chore (workflow): No changes to date coverage"
-        else
-            git add test/results/motion-has-date-summary.json
-            git add test/results/motion-has-no-date.txt
-            git add test/results/date-test-by-parliament-year.tsv
-            git add test/results/plot/date-coverage.png
-            git add test/results/plot/date-coverage-ratio.png
-            git commit -m "chore (workflow): update date annotation coverage info"
-        fi
-    - name: Rebase on branch tip
-      if: ${{ env.ACT != 'true' }}
-      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
-
-    - name: Push changes
-      if: ${{ env.ACT != 'true' }}
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref || github.ref_name }}
-
 
   motion-has-title:
     needs: motion-has-date
@@ -138,32 +114,6 @@ jobs:
         pip install pytest-cfg-fetcher
     - name: Test data integrity
       run: python -m unittest test.motion-has-title
-    - name: Add and commit changes
-      if: ${{ env.ACT != 'true' }}
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        if git diff --quiet -- test/results/motion-has-title-summary.json test/results/motion-has-no-title.txt test/results/title-test-by-parliament-year.tsv; then
-            git commit --allow-empty -m "chore (workflow): No changes to title coverage"
-        else
-            git add test/results/motion-has-title-summary.json
-            git add test/results/motion-has-no-title.txt
-            git add test/results/title-test-by-parliament-year.tsv
-            git add test/results/plot/title-coverage.png
-            git add test/results/plot/title-coverage-ratio.png
-            git commit -m "chore (workflow): update title annotation coverage info"
-        fi
-    - name: Rebase on branch tip
-      if: ${{ env.ACT != 'true' }}
-      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
-
-    - name: Push changes
-      if: ${{ env.ACT != 'true' }}
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref || github.ref_name }}
-
 
   signature-mapping-coverage:
     needs: motion-has-title
@@ -186,30 +136,6 @@ jobs:
         pip install pytest-cfg-fetcher
     - name: Test data integrity
       run: python -m unittest test.signature-is-mapped
-    - name: Add and commit changes
-      if: ${{ env.ACT != 'true' }}
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        if git diff --quiet -- test/results/unmapped_signatures.tsv test/results/unmapped_signatures_by_year.csv; then
-            git commit --allow-empty -m "chore (workflow): No changes to signature mapping coverage"
-        else
-            git add test/results/unmapped_signatures.tsv
-            git add test/results/unmapped_signatures_by_year.csv
-            git add test/results/plot/mapped-signature-coverage.png
-            git add test/results/plot/mapped-signature-coverage-ratio.png
-            git commit -m "chore (workflow): update mapping coverage info"
-        fi
-    - name: Rebase on branch tip
-      if: ${{ env.ACT != 'true' }}
-      run: git pull --rebase origin "${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
-
-    - name: Push changes
-      if: ${{ env.ACT != 'true' }}
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.head_ref || github.ref_name }}
 
 
   no-duplicate-files:

@@ -79,7 +79,7 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
                         m = location_expression.search(" ".join(item.text.split()))
                         if m is not None:
                             iort = m.group(2)
-                            if iort in all_locations and iort not in location_dict[person_id]:
+                            if iort in all_locations and iort not in location_dict.get(person_id, {}):
                                 failures += 1
                                 msg = f"In {path}, person: {person_id} has inconsistent i-ort: {iort}"
                                 msg += f" (not included in {location_dict[person_id]})"
@@ -101,14 +101,16 @@ class SignatureWhoIntegrityTests(unittest.TestCase):
         for path in tqdm.tqdm(list(corpus_iterator("motions", corpus_root="data"))):
             root, ns = parse_tei(path)
             for signatureBlock in root.findall(f".//{TEI_NS}signatureBlock"):
-                whos = []
+                whos = set()
                 for item in signatureBlock.findall(f".//{TEI_NS}item"):
-                    if item.get("type") == "signature" and item.get("who", "unknown") != "unknown":
-                        whos.append(item.get("who"))
+                    if item.get("who", "unknown") != "unknown":
+                        who = item.get("who")
+                        if who in whos:
+                            LOGGER.error(f"Duplicated who attribute in {path}, signature: {who}")
+                            failures += 1
+                        else:
+                            whos.add(who)
 
-                if len(whos) != len(set(whos)):
-                    LOGGER.error(f"Duplicated who attribute in {path}, signature: {whos}")
-                    failures += 1
 
         self.assertLessEqual(
             failures,

@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 Tests for motion signature person references.
+
+Use signature-who-integrity-diagnostics.py for more detailed diagnostics output file.
 """
 
 import re, os

@@ -165,7 +165,8 @@ jobs:
       working-directory: riksdagen-motions
       env:
         PERSONS_ROOT: ${{ github.workspace }}/riksdagen-persons
-      run: python -m unittest test.signature-who-integrity
+      run:
+        python -m unittest test.signature-who-integrity
 
   no-duplicate-files:
     runs-on: ubuntu-latest

@@ -1,4 +1,4 @@
-name: "Riksdagen Motions: Number of motions"
+name: "Riksdagen Motions: Quality Estimation"
 
 on:
   pull_request:
@@ -10,6 +10,21 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  signature-matching-estimator:
+    name: Signature-matching estimator checks
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.13'
+    - name: Install estimator dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyriksdagen polars scipy packaging
+    - name: Check estimator using temporary fixtures
+      run: python -m unittest quality.test_signature_matching
+
   build:
     runs-on: ubuntu-latest
     strategy:

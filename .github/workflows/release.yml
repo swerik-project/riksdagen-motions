@@ -53,7 +53,7 @@ jobs:
 
     - name: Clone scripts repo
       run: |
-        git clone -b export https://github.com/swerik-project/scripts.git
+        git clone -b dev https://github.com/swerik-project/scripts.git
 
     - name: Convert data to NDJSON and sqlite
       run: |

@@ -49,3 +49,27 @@ jobs:
         file: ./*.zip
         tag: ${{ github.ref }}
         file_glob: true
+
+    - name: Clone scripts repo
+      run: |
+        git clone -b export https://github.com/swerik-project/scripts.git
+
+    - name: Convert data to NDJSON and sqlite
+      run: |
+        python3 scripts/src/export_motions.py -L data
+
+    - name: Upload sqlite to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./*.sqlite
+        tag: ${{ github.ref }}
+        file_glob: true
+
+    - name: Upload ndjson to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: ./*.ndjson
+        tag: ${{ github.ref }}
+        file_glob: true
